@@ -186,11 +186,17 @@ def classify_location(locations):
     return ("Other", False)
 
 
+def norm_text(s):
+    """Aggressive normalization for identity matching across boards."""
+    s = re.sub(r"[^a-z0-9 ]+", " ", (s or "").lower())
+    return re.sub(r"\s+", " ", s).strip()
+
+
 def job_key(job):
-    basis = job["url"].split("?")[0]
-    if basis.rstrip("/") in (b["url"].rstrip("/") for b in BOARDS):
-        basis = f'{job["board"]}|{job["company"]}|{job["title"]}|{",".join(sorted(job["locations"]))}'
-    return hashlib.sha1(basis.lower().encode()).hexdigest()[:16]
+    """Content-based identity so the SAME role listed on several VC boards
+    (a company backed by multiple firms) collapses to one tracker row."""
+    basis = f'{norm_text(job["company"])}|{norm_text(job["title"])}|{job.get("metro", "")}'
+    return hashlib.sha1(basis.encode()).hexdigest()[:16]
 
 
 def strip_tags(s):
@@ -217,56 +223,114 @@ def consider_board_slugs(html, board):
     return out
 
 
+CSRF_HEADER_NAMES = ["x-csrf-token", "csrf-token", "x-xsrf-token", "xsrf-token", "x-csrftoken"]
+CSRF_TOKEN_ENDPOINTS = ["/api-boards/csrf", "/api-boards/csrf-token", "/api/csrf", "/csrf"]
+
+
+def harvest_csrf(base, session, html, diag):
+    """Collect candidate CSRF tokens: cookies, HTML meta tags, token endpoints.
+
+    The boards answer 412 INVALID_CSRF, which is the classic double-submit
+    pattern — a token arrives as a cookie and must be echoed in a header.
+    """
+    tokens = []
+    cookies = session.cookies.get_dict()
+    diag["cookies"] = {k: (v[:10] + "…") if len(v) > 10 else v for k, v in cookies.items()}
+    for k, v in cookies.items():
+        if "csrf" in k.lower() or "xsrf" in k.lower():
+            tokens.append(("cookie:" + k, v))
+    for pat in (r'<meta[^>]+name="csrf-token"[^>]+content="([^"]+)"',
+                r'"csrfToken"\s*:\s*"([^"]+)"',
+                r'"csrf"\s*:\s*"([^"]+)"'):
+        for v in re.findall(pat, html):
+            tokens.append(("html", v))
+    for path in CSRF_TOKEN_ENDPOINTS:
+        try:
+            r = session.get(base + path, timeout=15,
+                            headers={"Accept": "application/json", "Referer": base + "/jobs"})
+            if r.ok:
+                try:
+                    d = r.json()
+                    for key in ("csrfToken", "token", "csrf", "value"):
+                        if isinstance(d, dict) and isinstance(d.get(key), str):
+                            tokens.append(("endpoint:" + path, d[key]))
+                except Exception:
+                    if 16 <= len(r.text.strip()) <= 200 and "<" not in r.text:
+                        tokens.append(("endpoint:" + path, r.text.strip()))
+                diag.setdefault("token_endpoints", []).append({"path": path, "status": r.status_code,
+                                                               "head": r.text[:120]})
+        except Exception:
+            continue
+    # a token endpoint may have set a new cookie
+    for k, v in session.cookies.get_dict().items():
+        if ("csrf" in k.lower() or "xsrf" in k.lower()) and not any(t[1] == v for t in tokens):
+            tokens.append(("cookie2:" + k, v))
+    diag["csrf_candidates"] = [{"src": s, "len": len(v)} for s, v in tokens]
+    return tokens
+
+
 def fetch_consider(board, session, diag):
     base = board["url"].rstrip("/")
-    r0 = session.get(base, timeout=30)
+    r0 = session.get(base + "/jobs", timeout=30)
     html = r0.text
     diag["homepage"] = {"status": r0.status_code, "bytes": len(html)}
-    headers = {"Origin": base, "Referer": base + "/jobs",
-               "Content-Type": "application/json", "Accept": "application/json"}
-    endpoints = [f"{base}/api-boards/search-jobs", f"{base}/api/boards/search-jobs"]
     slugs = consider_board_slugs(html, board)
     diag["slugs_tried"] = slugs
     diag["attempts"] = []
+
+    tokens = harvest_csrf(base, session, html, diag)
+    base_headers = {"Origin": base, "Referer": base + "/jobs",
+                    "Content-Type": "application/json", "Accept": "application/json",
+                    "X-Requested-With": "XMLHttpRequest"}
+    # header variants to try, cheapest/likeliest first
+    header_sets = [dict(base_headers)]
+    for src, tok in tokens:
+        for hn in CSRF_HEADER_NAMES:
+            h = dict(base_headers)
+            h[hn] = tok
+            header_sets.append(h)
+
+    endpoints = [f"{base}/api-boards/search-jobs", "https://consider.com/api-boards/search-jobs"]
     working = None
     for endpoint in endpoints:
-        for slug in slugs:
-            for is_parent in (True, False):
-                body = {"meta": {"size": 10},
-                        "board": {"id": slug, "isParent": is_parent},
+        for hi, headers in enumerate(header_sets):
+            for slug in slugs:
+                body = {"meta": {"size": 10}, "board": {"id": slug, "isParent": True},
                         "query": {"promoteFeatured": True}}
                 try:
-                    r = session.post(endpoint, json=body, headers=headers, timeout=30)
-                    rec = {"endpoint": endpoint, "slug": slug, "isParent": is_parent,
-                           "status": r.status_code, "body_head": r.text[:300]}
-                    diag["attempts"].append(rec)
+                    r = session.post(endpoint, json=body, headers=headers, timeout=25)
+                    used = [k for k in headers if k.lower() in CSRF_HEADER_NAMES]
+                    diag["attempts"].append({"endpoint": endpoint, "slug": slug,
+                                             "csrf_header": used[0] if used else None,
+                                             "status": r.status_code, "body_head": r.text[:200]})
                     if r.ok:
                         try:
                             data = r.json()
                         except Exception:
                             continue
-                        # A "jobs" key ANYWHERE (even an empty list) = valid probe
                         if isinstance(data, dict) and ("jobs" in data or find_job_lists(data)):
-                            working = (endpoint, slug, is_parent)
+                            working = (endpoint, slug, headers)
                             break
                 except Exception as e:
                     diag["attempts"].append({"endpoint": endpoint, "slug": slug,
-                                             "isParent": is_parent, "error": str(e)[:200]})
-            if working:
+                                             "error": str(e)[:150]})
+                if len(diag["attempts"]) > 60:   # keep runtime bounded
+                    break
+            if working or len(diag["attempts"]) > 60:
                 break
         if working:
             break
     if not working:
-        raise RuntimeError(f"consider: no working endpoint/slug for {base} (see diag)")
-    endpoint, slug, is_parent = working
-    diag["working"] = {"endpoint": endpoint, "slug": slug, "isParent": is_parent}
+        raise RuntimeError(f"consider: CSRF/endpoint probe failed for {base} (see diag)")
+    endpoint, slug, headers = working
+    diag["working"] = {"endpoint": endpoint, "slug": slug,
+                       "csrf_header": [k for k in headers if k.lower() in CSRF_HEADER_NAMES]}
     raw = {}
     for kw in CONFIG["api_search_keywords"]:
-        body = {"meta": {"size": 100},
-                "board": {"id": slug, "isParent": is_parent},
+        body = {"meta": {"size": 100}, "board": {"id": slug, "isParent": True},
                 "query": {"promoteFeatured": True, "searchQuery": kw}}
         try:
-            r = session.post(endpoint, json=body, headers=headers, timeout=30)
+            r = session.post(endpoint, json=body, headers=headers, timeout=25)
             if not r.ok:
                 continue
             for lst in find_job_lists(r.json()):
@@ -291,8 +355,61 @@ ANCHOR_RE = re.compile(r'<a\b[^>]*href="([^"]+)"[^>]*>(.*?)</a>', re.S)
 COMPANY_HREF_RE = re.compile(r'href="[^"]*?/companies/([^/"?#]+)"[^>]*>(.*?)</a>', re.S)
 
 
+HEXISH = re.compile(r"^(?=[0-9a-f]*\d)[0-9a-f]{4,}$", re.I)  # hex fragment WITH a digit
+
+
 def prettify_slug(slug):
-    return re.sub(r"[-_]+", " ", slug).strip().title()
+    """'pave-bank-2' -> 'Pave Bank';  'cyera-2-5f138ae4-3d15-429e' -> 'Cyera'.
+
+    Getro appends disambiguating counters and UUID fragments to company slugs.
+    Requiring a digit inside hex fragments keeps real words ('face', 'cafe').
+    """
+    parts = [p for p in re.split(r"[-_]+", slug) if p]
+    while len(parts) > 1 and (HEXISH.match(parts[-1]) or re.fullmatch(r"\d+", parts[-1])):
+        parts.pop()
+    return " ".join(parts).strip().title() or slug.title()
+
+
+JOBWORDS = {"staff", "lead", "leader", "chief", "manager", "director", "officer", "head",
+            "operations", "strategy", "president", "principal", "associate", "analyst",
+            "partner", "vp", "senior", "junior", "intern", "office", "development",
+            "specialist", "coordinator", "executive", "engineer", "designer", "remote",
+            "hybrid", "onsite", "fulltime", "posted", "apply", "featured"}
+# NOTE: "new" is deliberately absent — it would truncate New York / New Orleans.
+
+
+def clean_location(loc):
+    """Trim job-title words and stray acronyms that precede a 'City, ST' match.
+
+    The listing text is flattened before matching, so 'Chief of Staff to COO
+    Needham, MA' can match with 'COO' glued on. Drop leading tokens that are
+    all-caps acronyms or obvious title words; keep the city itself.
+    """
+    if "," not in loc:
+        return None
+    city, _, rest = loc.rpartition(",")
+    words = city.split()
+    while words and (words[0].lower() in JOBWORDS
+                     or (words[0].isupper() and 1 < len(words[0]) <= 4)):
+        words.pop(0)
+    if not words:
+        return None
+    return f"{' '.join(words)},{rest}"
+
+
+def company_from_url(url):
+    """Last-resort company name from an external ATS URL's domain."""
+    m = re.match(r"https?://([^/]+)", url or "")
+    if not m:
+        return None
+    host = m.group(1).lower()
+    host = re.sub(r"^(www|jobs|careers|boards|apply|job|hire|talent|recruiting)\.", "", host)
+    for ats in ("greenhouse.io", "lever.co", "ashbyhq.com", "workable.com", "myworkdayjobs.com",
+                "smartrecruiters.com", "bamboohr.com", "jobvite.com", "icims.com", "rippling.com"):
+        if host.endswith(ats):
+            return None  # generic ATS host tells us nothing about the company
+    base = host.split(".")[0]
+    return base.replace("-", " ").title() if len(base) > 2 else None
 
 
 def parse_getro_html(html, board, base):
@@ -316,27 +433,56 @@ def parse_getro_html(html, board, base):
         if url in seen_urls:
             continue
         seen_urls.add(url)
-        # context window after the anchor: usually holds company, location, date
-        end = matches[i + 1].start() if i + 1 < len(matches) else m.start() + 2500
-        window = html[m.start(): min(end, m.start() + 2500)]
+        # Context window: this anchor -> next job anchor (job cards can be large,
+        # so allow up to 8000 chars; the next-anchor bound prevents bleed).
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(html)
+        window = html[m.start(): min(end, m.start() + 8000)]
         blob = strip_tags(window)
         company = None
         cm = COMPANY_HREF_RE.search(window)
         if cm:
             ctext = strip_tags(cm.group(2))
-            company = ctext if (ctext and len(ctext) < 80) else prettify_slug(cm.group(1))
+            company = ctext if (0 < len(ctext) < 80) else prettify_slug(cm.group(1))
         if not company and is_internal:
             company = prettify_slug(re.search(r"/companies/([^/\"]+)/jobs/", href).group(1))
+        if not company:
+            # external listing: look BACK for the owning company link, then fall
+            # back to the destination domain
+            back = html[max(0, m.start() - 1500): m.start()]
+            bm = None
+            for bm in COMPANY_HREF_RE.finditer(back):
+                pass  # keep the last (nearest) match
+            if bm:
+                btext = strip_tags(bm.group(2))
+                company = btext if (0 < len(btext) < 80) else prettify_slug(bm.group(1))
+            company = company or company_from_url(url)
         company = company or "See listing"
-        # location display: "City, ST" patterns or Remote in the context blob
-        locs = re.findall(r"\b([A-Z][A-Za-z.\- ]+,\s*(?:[A-Z]{2}|California|New York|Texas))\b", blob[:600])
-        if re.search(r"\bremote\b", blob[:600], re.I):
+        if HEXISH.search(company.replace(" ", "")) and len(company) > 24:
+            company = prettify_slug(company.replace(" ", "-"))
+        # location: "City, ST" patterns, spelled-out states, or Remote
+        # up to 3 consecutive Capitalized words before the comma, so surrounding
+        # sentence text isn't swallowed into the location string
+        locs = re.findall(
+            r"\b((?:[A-Z][A-Za-z.'\-]+ ){0,2}[A-Z][A-Za-z.'\-]+,\s*"
+            r"(?:[A-Z]{2}\b|California|New York|Texas|Massachusetts|Washington|Colorado|Illinois))",
+            blob[:3000])
+        if re.search(r"\bremote\b", blob[:3000], re.I):
             locs.append("Remote")
+        seen_l, dedup_l = set(), []
+        for l in locs:
+            l = l.strip()
+            l = l if l == "Remote" else (clean_location(l) or "")
+            if not l:
+                continue
+            k = l.lower()
+            if k not in seen_l:
+                seen_l.add(k)
+                dedup_l.append(l)
         jobs.append({
             "title": title,
             "company": company,
-            "locations": locs[:3],
-            "_context": blob[:600].lower(),  # used for metro matching, then dropped
+            "locations": dedup_l[:3],
+            "_context": blob[:3000].lower(),  # used for metro matching, then dropped
             "url": url,
             "posted_at": None,
             "board": board["id"],
@@ -370,11 +516,21 @@ def fetch_getro(board, session, diag):
         time.sleep(0.4)
     if not any_page_ok:
         raise RuntimeError(f"getro: all page fetches failed for {base} (see diag)")
-    if not raw:
-        # pages loaded but zero jobs parsed -> capture evidence for debugging
+    # Structure evidence: raw HTML around the first job anchor. Lets the parser
+    # be corrected against ground truth instead of guesswork if fields go missing.
+    unknown_loc = sum(1 for j in raw.values() if not j["locations"])
+    diag["parse_health"] = {"jobs": len(raw), "without_location": unknown_loc}
+    if not raw or unknown_loc > len(raw) * 0.3:
         try:
             sample = session.get(f"{base}/jobs?q=chief+of+staff", timeout=30).text
-            diag["html_sample"] = sample[:4000]
+            am = None
+            for am in ANCHOR_RE.finditer(sample):
+                if re.search(r"/companies/[^/\"]+/jobs/", am.group(1)):
+                    break
+            if am:
+                diag["html_sample"] = sample[max(0, am.start() - 1200): am.start() + 4000]
+            else:
+                diag["html_sample"] = sample[:4000]
         except Exception:
             pass
     return list(raw.values())
@@ -441,7 +597,11 @@ def main():
                         new_roles.append(job)
                 job["first_seen"] = seen[key]
                 if key not in all_jobs:
+                    job["also_on"] = []
                     all_jobs[key] = job
+                elif board["name"] not in all_jobs[key]["also_on"] \
+                        and board["name"] != all_jobs[key]["board_name"]:
+                    all_jobs[key]["also_on"].append(board["name"])
                 entry["matched"] += 1
             entry["ok"] = True
         except Exception as e:
