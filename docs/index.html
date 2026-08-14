@@ -263,7 +263,9 @@
             '<span><strong>' + esc(j.company) + '</strong></span>' +
             '<span class="cat"><span class="dot" style="background:' + (CAT_COLORS[j.category] || 'var(--muted)') + '"></span>' + esc(j.category) + '</span>' +
             '<span>' + esc(j.metro) + (j.locations.length ? ' · ' + esc(j.locations.join('; ')) : '') + '</span>' +
-            '<span>via ' + esc(j.board_name) + '</span>' +
+            '<span>via ' + esc(j.board_name) +
+              (j.also_on && j.also_on.length ? ' <span style="color:var(--muted)">+ ' + j.also_on.length + ' more</span>' : '') +
+            '</span>' +
           '</div>' +
         '</div>' +
         '<div class="job-actions">' +
