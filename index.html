@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VC Role Tracker</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page:      #f9f9f7;
+    --surface:   #fcfcfb;
+    --ink:       #0b0b0b;
+    --ink-2:     #52514e;
+    --muted:     #898781;
+    --hairline:  #e1e0d9;
+    --border:    rgba(11,11,11,0.10);
+    --good:      #0ca30c;
+    --good-text: #006300;
+    --accent:    #2a78d6;
+    --c1: #2a78d6; --c2: #eb6834; --c3: #1baf7a; --c4: #eda100;
+    --c5: #e87ba4; --c6: #008300; --c7: #4a3aa7; --c8: #e34948;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+      --muted: #898781; --hairline: #2c2c2a; --border: rgba(255,255,255,0.10);
+      --good: #0ca30c; --good-text: #0ca30c; --accent: #3987e5;
+      --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500;
+      --c5: #d55181; --c6: #008300; --c7: #9085e9; --c8: #e66767;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7;
+    --muted: #898781; --hairline: #2c2c2a; --border: rgba(255,255,255,0.10);
+    --good: #0ca30c; --good-text: #0ca30c; --accent: #3987e5;
+    --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500;
+    --c5: #d55181; --c6: #008300; --c7: #9085e9; --c8: #e66767;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--page); color: var(--ink);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 24px 20px 80px; }
+  header { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  h1 { font-size: 22px; margin: 0; }
+  .sub { color: var(--ink-2); font-size: 13px; }
+  .spacer { flex: 1; }
+  button.ghost {
+    background: none; border: 1px solid var(--border); color: var(--ink-2);
+    border-radius: 8px; padding: 5px 10px; font-size: 13px; cursor: pointer;
+  }
+  button.ghost:hover { border-color: var(--muted); color: var(--ink); }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 20px 0; }
+  .tile {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 14px 16px;
+  }
+  .tile .v { font-size: 26px; font-weight: 650; }
+  .tile .l { font-size: 12px; color: var(--ink-2); margin-top: 2px; }
+  .tile .v.good { color: var(--good-text); }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 14px 0 6px; }
+  .chip {
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-2);
+    border-radius: 999px; padding: 4px 12px; font-size: 13px; cursor: pointer; user-select: none;
+  }
+  .chip.on { border-color: var(--accent); color: var(--ink); font-weight: 600; }
+  .chip .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; }
+  input[type="search"], select {
+    background: var(--surface); border: 1px solid var(--border); color: var(--ink);
+    border-radius: 8px; padding: 6px 10px; font-size: 13px;
+  }
+  .fl-label { font-size: 12px; color: var(--muted); margin-right: -2px; }
+
+  .job {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 12px 16px; margin: 10px 0; display: flex; gap: 14px; align-items: flex-start;
+  }
+  .job.applied { opacity: 0.55; }
+  .job-main { flex: 1; min-width: 0; }
+  .job-title { font-weight: 600; font-size: 15px; }
+  .job-title a { color: var(--ink); text-decoration: none; }
+  .job-title a:hover { color: var(--accent); text-decoration: underline; }
+  .badge-new {
+    display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.04em;
+    color: #fff; background: var(--good); border-radius: 5px; padding: 1px 6px; margin-right: 7px; vertical-align: 1px;
+  }
+  .job-meta { font-size: 13px; color: var(--ink-2); margin-top: 3px; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .job-meta .cat .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: 0; }
+  .job-when { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .job-actions { display: flex; flex-direction: column; gap: 6px; align-items: flex-end; }
+  .job-actions .row { display: flex; gap: 6px; }
+  .act {
+    background: none; border: 1px solid var(--border); color: var(--ink-2);
+    border-radius: 7px; padding: 3px 9px; font-size: 12px; cursor: pointer;
+  }
+  .act:hover { color: var(--ink); border-color: var(--muted); }
+  .act.on { background: var(--good); border-color: var(--good); color: #fff; }
+
+  .empty, .warnbar { text-align: center; color: var(--ink-2); padding: 40px 0; }
+  .warnbar {
+    text-align: left; padding: 10px 14px; margin: 12px 0; border: 1px solid var(--border);
+    border-left: 3px solid var(--c4); border-radius: 8px; background: var(--surface); font-size: 13px;
+  }
+  footer { margin-top: 30px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--hairline); padding-top: 12px; }
+  @media (max-width: 640px) {
+    .job { flex-direction: column; }
+    .job-actions { flex-direction: row; align-items: center; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>VC Role Tracker</h1>
+    <div class="sub" id="updated"></div>
+    <div class="spacer"></div>
+    <button class="ghost" id="exportBtn" title="Download your applied/saved list as CSV">Export CSV</button>
+    <button class="ghost" id="themeBtn">◐ Theme</button>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+  <div id="healthWarn"></div>
+
+  <div class="filters" id="catFilters"><span class="fl-label">Role</span></div>
+  <div class="filters" id="metroFilters"><span class="fl-label">Where</span></div>
+  <div class="filters">
+    <span class="fl-label">Board</span>
+    <select id="boardSel"><option value="">All boards</option></select>
+    <input type="search" id="q" placeholder="Search title or company…">
+    <span class="chip" id="newOnly">New only</span>
+    <span class="chip" id="hideDone">Hide applied &amp; hidden</span>
+  </div>
+
+  <div id="list"></div>
+
+  <footer>
+    Data refreshes hourly via GitHub Actions. “NEW” = first seen in the last <span id="nbHours">48</span> h.
+    Applied / saved / hidden marks are stored in this browser only — use Export CSV to back them up.
+  </footer>
+</div>
+
+<script>
+(function () {
+  const CAT_COLORS = {}; // assigned in fixed slot order, never cycled
+  const SLOTS = ['--c1','--c2','--c3','--c4','--c5','--c6','--c7','--c8'];
+  const LS_KEY = 'vc-tracker-marks-v1';
+  const THEME_KEY = 'vc-tracker-theme';
+
+  let DATA = null;
+  let marks = {};
+  try { marks = JSON.parse(localStorage.getItem(LS_KEY) || '{}'); } catch (e) { marks = {}; }
+  const savedTheme = localStorage.getItem(THEME_KEY);
+  if (savedTheme) document.documentElement.dataset.theme = savedTheme;
+
+  const state = { cats: new Set(), metros: new Set(), board: '', q: '', newOnly: false, hideDone: true };
+
+  const $ = (id) => document.getElementById(id);
+  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+  function saveMarks() { localStorage.setItem(LS_KEY, JSON.stringify(marks)); }
+
+  function rel(iso) {
+    if (!iso) return '';
+    const ms = Date.now() - new Date(iso).getTime();
+    const h = ms / 36e5;
+    if (h < 1) return 'just now';
+    if (h < 24) return Math.floor(h) + 'h ago';
+    const d = Math.floor(h / 24);
+    if (d < 31) return d + 'd ago';
+    return new Date(iso).toLocaleDateString();
+  }
+
+  function isNew(j) {
+    const hrs = (DATA && DATA.new_badge_hours) || 48;
+    return j.first_seen && (Date.now() - new Date(j.first_seen).getTime()) < hrs * 36e5;
+  }
+
+  function chip(label, set, container, color) {
+    const el = document.createElement('span');
+    el.className = 'chip';
+    el.innerHTML = (color ? '<span class="dot" style="background:' + color + '"></span>' : '') + label;
+    el.onclick = () => { set.has(label) ? set.delete(label) : set.add(label); el.classList.toggle('on'); render(); };
+    container.appendChild(el);
+  }
+
+  function build() {
+    const jobs = DATA.jobs;
+    const cats = [...new Set(jobs.map(j => j.category))];
+    // fixed assignment order: config order first, then anything unexpected
+    const CANON = ['Chief of Staff', "Founder's Office", 'BizOps', 'Strategy & Ops', 'Corp Dev', 'RevOps', 'General Manager', 'Ops Leadership'];
+    const ordered = CANON.filter(c => cats.includes(c)).concat(cats.filter(c => !CANON.includes(c)));
+    ordered.forEach((c, i) => { CAT_COLORS[c] = css(SLOTS[Math.min(i, SLOTS.length - 1)]); });
+    ordered.forEach(c => chip(c, state.cats, $('catFilters'), CAT_COLORS[c]));
+
+    const METROS = ['SF Bay Area', 'New York City', 'Austin', 'Southern California', 'Remote', 'Unknown'];
+    METROS.filter(m => jobs.some(j => j.metro === m)).forEach(m => chip(m, state.metros, $('metroFilters')));
+
+    const boards = [...new Set(jobs.map(j => j.board_name))].sort();
+    boards.forEach(b => {
+      const o = document.createElement('option'); o.value = b; o.textContent = b;
+      $('boardSel').appendChild(o);
+    });
+    $('boardSel').onchange = e => { state.board = e.target.value; render(); };
+    $('q').oninput = e => { state.q = e.target.value.toLowerCase(); render(); };
+    $('newOnly').onclick = () => { state.newOnly = !state.newOnly; $('newOnly').classList.toggle('on'); render(); };
+    $('hideDone').onclick = () => { state.hideDone = !state.hideDone; $('hideDone').classList.toggle('on'); render(); };
+    $('hideDone').classList.add('on');
+
+    $('nbHours').textContent = DATA.new_badge_hours || 48;
+    $('updated').textContent = 'Updated ' + rel(DATA.generated_at) +
+      ' · ' + DATA.boards_ok + '/' + DATA.boards_total + ' boards reporting';
+
+    if (DATA.boards_ok < DATA.boards_total) {
+      const bad = Object.entries(DATA.status || {}).filter(([, s]) => !s.ok).map(([, s]) => s.name);
+      $('healthWarn').innerHTML = '<div class="warnbar">⚠ Some boards failed on the last run: ' +
+        bad.join(', ') + '. Their jobs may be missing or stale.</div>';
+    }
+  }
+
+  function filtered() {
+    return DATA.jobs.filter(j => {
+      const m = marks[j.key] || {};
+      if (state.hideDone && (m.applied || m.hidden)) return false;
+      if (state.cats.size && !state.cats.has(j.category)) return false;
+      if (state.metros.size && !state.metros.has(j.metro)) return false;
+      if (state.board && j.board_name !== state.board) return false;
+      if (state.newOnly && !isNew(j)) return false;
+      if (state.q && !(j.title + ' ' + j.company).toLowerCase().includes(state.q)) return false;
+      return true;
+    });
+  }
+
+  function render() {
+    const jobs = filtered();
+    const applied = Object.values(marks).filter(m => m.applied).length;
+    const newCount = DATA.jobs.filter(isNew).length;
+    $('tiles').innerHTML =
+      tile(DATA.jobs.length, 'open matching roles') +
+      tile(newCount, 'new in last ' + (DATA.new_badge_hours || 48) + 'h', newCount > 0) +
+      tile(applied, 'marked applied') +
+      tile(jobs.length, 'shown with current filters');
+
+    const list = $('list');
+    list.innerHTML = '';
+    if (!jobs.length) {
+      list.innerHTML = '<div class="empty">Nothing matches the current filters.</div>';
+      return;
+    }
+    for (const j of jobs) {
+      const m = marks[j.key] || {};
+      const el = document.createElement('div');
+      el.className = 'job' + (m.applied ? ' applied' : '');
+      el.innerHTML =
+        '<div class="job-main">' +
+          '<div class="job-title">' + (isNew(j) ? '<span class="badge-new">NEW</span>' : '') +
+            '<a href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + '</a></div>' +
+          '<div class="job-meta">' +
+            '<span><strong>' + esc(j.company) + '</strong></span>' +
+            '<span class="cat"><span class="dot" style="background:' + (CAT_COLORS[j.category] || 'var(--muted)') + '"></span>' + esc(j.category) + '</span>' +
+            '<span>' + esc(j.metro) + (j.locations.length ? ' · ' + esc(j.locations.join('; ')) : '') + '</span>' +
+            '<span>via ' + esc(j.board_name) + '</span>' +
+          '</div>' +
+        '</div>' +
+        '<div class="job-actions">' +
+          '<span class="job-when">first seen ' + rel(j.first_seen) + '</span>' +
+          '<div class="row">' +
+            '<button class="act' + (m.applied ? ' on' : '') + '" data-a="applied">' + (m.applied ? '✓ Applied' : 'Applied') + '</button>' +
+            '<button class="act' + (m.saved ? ' on' : '') + '" data-a="saved">' + (m.saved ? '★ Saved' : '☆ Save') + '</button>' +
+            '<button class="act" data-a="hidden">Hide</button>' +
+          '</div>' +
+        '</div>';
+      el.querySelectorAll('.act').forEach(btn => {
+        btn.onclick = () => {
+          const k = j.key; marks[k] = marks[k] || { title: j.title, company: j.company, url: j.url };
+          const a = btn.dataset.a;
+          marks[k][a] = !marks[k][a];
+          if (a === 'applied' && marks[k].applied) marks[k].applied_at = new Date().toISOString();
+          saveMarks(); render();
+        };
+      });
+      list.appendChild(el);
+    }
+  }
+
+  function tile(v, label, good) {
+    return '<div class="tile"><div class="v' + (good ? ' good' : '') + '">' + v + '</div><div class="l">' + label + '</div></div>';
+  }
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+  $('themeBtn').onclick = () => {
+    const cur = document.documentElement.dataset.theme ||
+      (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    const next = cur === 'dark' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = next;
+    localStorage.setItem(THEME_KEY, next);
+    Object.keys(CAT_COLORS).forEach((c, i) => { CAT_COLORS[c] = css(SLOTS[Math.min(i, SLOTS.length - 1)]); });
+    render();
+  };
+
+  $('exportBtn').onclick = () => {
+    const rows = [['status', 'title', 'company', 'url', 'applied_at']];
+    for (const [k, m] of Object.entries(marks)) {
+      if (m.applied || m.saved) {
+        rows.push([m.applied ? 'applied' : 'saved', m.title || k, m.company || '', m.url || '', m.applied_at || '']);
+      }
+    }
+    const csv = rows.map(r => r.map(c => '"' + String(c).replace(/"/g, '""') + '"').join(',')).join('\n');
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv' }));
+    a.download = 'vc-tracker-applications.csv';
+    a.click();
+  };
+
+  fetch('data.json', { cache: 'no-store' })
+    .then(r => { if (!r.ok) throw new Error('data.json missing'); return r.json(); })
+    .then(d => { DATA = d; build(); render(); })
+    .catch(() => {
+      $('list').innerHTML = '<div class="empty">No data yet. Once the GitHub Action has run at least once, refresh this page.</div>';
+    });
+})();
+</script>
+</body>
+</html>

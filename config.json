@@ -1,0 +1,44 @@
+{
+  "api_search_keywords": [
+    "chief of staff",
+    "business operations",
+    "bizops",
+    "strategy operations",
+    "strategy and operations",
+    "strategic operations",
+    "founders office",
+    "founder associate",
+    "office of the ceo",
+    "special projects",
+    "corporate development",
+    "corp dev",
+    "general manager",
+    "revenue operations",
+    "head of operations",
+    "operations manager",
+    "director of operations",
+    "business strategy",
+    "corporate strategy"
+  ],
+  "categories": [
+    {"name": "Chief of Staff",   "pattern": "chief of staff"},
+    {"name": "Founder's Office", "pattern": "founder'?s? (office|associate)|office of the (ceo|founder|president|chair)|special projects"},
+    {"name": "BizOps",           "pattern": "business operations|biz ?ops"},
+    {"name": "Strategy & Ops",   "pattern": "strategy (and|&|\\+) operations|strategic operations|strategy ?& ?ops|strategy ops|(head|director|vp|vice president|manager|lead|associate)[,]? (of )?strategy\\b|corporate strategy|business strategy|strategy (manager|lead|director|associate|analyst)"},
+    {"name": "Corp Dev",         "pattern": "corporate development|corp ?dev"},
+    {"name": "RevOps",           "pattern": "revenue operations|rev ?ops"},
+    {"name": "General Manager",  "pattern": "general manager"},
+    {"name": "Ops Leadership",   "pattern": "(head|director|vp|vice president|manager|lead|associate)[,]? (of )?operations\\b|operations (manager|lead|director|associate)\\b|chief operating officer|\\bcoo\\b"}
+  ],
+  "exclude_title_pattern": "warehouse|manufactur|plant |clinic|nursing|dental|pharmac|restaurant|kitchen|culinary|facilit|janitor|custodial|security operations|network operations|people operations|hr operations|payroll|construction|field operations|fleet|store manager|retail|salon|property|housekeep|amazon operations|delivery operations|driver|dispatch|call center|billing operations|marketing operations|content operations|community operations|clinical operations|care operations|nurse|physician|veterinar|technical operations|it operations|cloud operations|devops|security|infrastructure",
+  "metros": {
+    "SF Bay Area": ["san francisco", " sf,", "sf bay", "bay area", "oakland", "berkeley", "palo alto", "menlo park", "mountain view", "san jose", "sunnyvale", "redwood city", "san mateo", "cupertino", "santa clara", "fremont", "south san francisco", "foster city", "burlingame", "emeryville", "los altos", "san carlos", "mill valley", "sausalito"],
+    "New York City": ["new york", "nyc", "brooklyn", "manhattan", "long island city", "jersey city", "hoboken"],
+    "Austin": ["austin"],
+    "Southern California": ["los angeles", "santa monica", "culver city", "venice, ca", "el segundo", "irvine", "orange county", "san diego", "pasadena", "long beach", "newport beach", "costa mesa", "west hollywood", "hollywood", "burbank", "glendale", "marina del rey", "playa vista", "manhattan beach", "la jolla", "carlsbad"]
+  },
+  "remote_patterns": ["remote", "anywhere", "distributed", "work from home", "us - remote", "remote - us", "united states"],
+  "include_remote": true,
+  "include_unknown_location": true,
+  "new_badge_hours": 48
+}
