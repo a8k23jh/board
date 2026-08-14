@@ -1,46 +1,46 @@
 {
- "generated_at": "2026-08-14T23:31:39Z",
- "first_run": true,
+ "generated_at": "2026-08-14T23:49:14Z",
+ "first_run": false,
  "boards": {
   "a16z": {
    "name": "Andreessen Horowitz",
    "platform": "consider",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "consider: no working endpoint/slug for https://jobs.a16z.com (see diag)"
+   "ok": true,
+   "fetched": 100,
+   "matched": 1,
+   "error": null
   },
   "sequoia": {
    "name": "Sequoia Capital",
    "platform": "consider",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "consider: no working endpoint/slug for https://jobs.sequoiacap.com (see diag)"
+   "ok": true,
+   "fetched": 100,
+   "matched": 5,
+   "error": null
   },
   "lightspeed": {
    "name": "Lightspeed",
    "platform": "consider",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "consider: no working endpoint/slug for https://jobs.lsvp.com (see diag)"
+   "ok": true,
+   "fetched": 100,
+   "matched": 1,
+   "error": null
   },
   "bessemer": {
    "name": "Bessemer Venture Partners",
    "platform": "consider",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "consider: no working endpoint/slug for https://jobs.bvp.com (see diag)"
+   "ok": true,
+   "fetched": 100,
+   "matched": 2,
+   "error": null
   },
   "greylock": {
    "name": "Greylock",
    "platform": "consider",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "consider: no working endpoint/slug for https://jobs.greylock.com (see diag)"
+   "ok": true,
+   "fetched": 100,
+   "matched": 3,
+   "error": null
   },
   "kleiner": {
    "name": "Kleiner Perkins",
@@ -48,15 +48,15 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "consider: no working endpoint/slug for https://jobs.kleinerperkins.com (see diag)"
+   "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   "nea": {
    "name": "NEA",
    "platform": "consider",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "consider: no working endpoint/slug for https://careers.nea.com (see diag)"
+   "ok": true,
+   "fetched": 100,
+   "matched": 1,
+   "error": null
   },
   "battery": {
    "name": "Battery Ventures",
@@ -64,31 +64,31 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "consider: no working endpoint/slug for https://jobs.battery.com (see diag)"
+   "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   "bcv": {
    "name": "Bain Capital Ventures",
    "platform": "consider",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "consider: no working endpoint/slug for https://jobs.baincapitalventures.com (see diag)"
+   "ok": true,
+   "fetched": 100,
+   "matched": 4,
+   "error": null
   },
   "firstround": {
    "name": "First Round Capital",
    "platform": "consider",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "consider: no working endpoint/slug for https://jobs.firstround.com (see diag)"
+   "ok": true,
+   "fetched": 100,
+   "matched": 2,
+   "error": null
   },
   "ivp": {
    "name": "IVP",
    "platform": "consider",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "consider: no working endpoint/slug for https://careers.ivp.com (see diag)"
+   "ok": true,
+   "fetched": 99,
+   "matched": 1,
+   "error": null
   },
   "accel": {
    "name": "Accel",
@@ -111,7 +111,7 @@
    "platform": "getro",
    "ok": true,
    "fetched": 166,
-   "matched": 48,
+   "matched": 49,
    "error": null
   },
   "insight": {
@@ -143,7 +143,7 @@
    "platform": "getro",
    "ok": true,
    "fetched": 164,
-   "matched": 46,
+   "matched": 43,
    "error": null
   },
   "jobsinvc": {
