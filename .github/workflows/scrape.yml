@@ -16,6 +16,9 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 40      # a hung board can't burn the whole 6h default
+    env:
+      PYTHONUNBUFFERED: "1"  # stream per-board progress into the live log
     steps:
       - uses: actions/checkout@v4
 
