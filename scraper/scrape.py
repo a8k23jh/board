@@ -35,6 +35,8 @@ from pathlib import Path
 from urllib.parse import quote_plus, urljoin
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -325,22 +327,133 @@ def fetch_consider(board, session, diag):
     endpoint, slug, headers = working
     diag["working"] = {"endpoint": endpoint, "slug": slug,
                        "csrf_header": [k for k in headers if k.lower() in CSRF_HEADER_NAMES]}
-    raw = {}
-    for kw in CONFIG["api_search_keywords"]:
-        body = {"meta": {"size": 100}, "board": {"id": slug, "isParent": True},
-                "query": {"promoteFeatured": True, "searchQuery": kw}}
+
+    def post_jobs(body):
+        """POST and return the flat list of job dicts, or None on failure."""
         try:
             r = session.post(endpoint, json=body, headers=headers, timeout=25)
             if not r.ok:
-                continue
-            for lst in find_job_lists(r.json()):
-                for j in lst:
-                    n = normalize_job(j, board, base)
-                    if n:
-                        raw[(n["company"], n["title"], n["url"])] = n
+                return None
+            return [j for lst in find_job_lists(r.json()) for j in lst]
         except Exception:
-            continue
-        time.sleep(0.25)
+            return None
+
+    def base_body(size=100, extra_meta=None):
+        b = {"meta": {"size": size}, "board": {"id": slug, "isParent": True}}
+        if extra_meta:
+            b["meta"].update(extra_meta)
+        return b
+
+    # ---- empirically find a body shape whose results actually track the query.
+    # v3 observed every keyword search returning the same 100 jobs (searchQuery
+    # silently ignored), so measure instead of assume: a variant "works" if a
+    # 'chief of staff' query returns mostly chief-of-staff titles.
+    PROBE_KW = "chief of staff"
+
+    def hit_rate(jobs):
+        if not jobs:
+            return -1.0
+        return sum(1 for j in jobs if PROBE_KW in str(j.get("title", "")).lower()) / len(jobs)
+
+    def v_search_query(kw):
+        b = base_body(); b["query"] = {"promoteFeatured": True, "searchQuery": kw}; return b
+
+    def v_search_query_bare(kw):
+        b = base_body(); b["query"] = {"searchQuery": kw}; return b
+
+    def v_search(kw):
+        b = base_body(); b["query"] = {"search": kw}; return b
+
+    def v_text(kw):
+        b = base_body(); b["query"] = {"text": kw}; return b
+
+    def v_q(kw):
+        b = base_body(); b["query"] = {"q": kw}; return b
+
+    def v_top_level(kw):
+        b = base_body(); b["searchQuery"] = kw; b["query"] = {}; return b
+
+    def v_keywords_list(kw):
+        b = base_body(); b["query"] = {"keywords": [kw]}; return b
+
+    variants = [("query.searchQuery+promote", v_search_query),
+                ("query.searchQuery", v_search_query_bare),
+                ("query.search", v_search),
+                ("query.text", v_text),
+                ("query.q", v_q),
+                ("top.searchQuery", v_top_level),
+                ("query.keywords", v_keywords_list)]
+
+    best = None
+    diag["search_probe"] = []
+    for name, builder in variants:
+        jobs = post_jobs(builder(PROBE_KW))
+        rate = hit_rate(jobs) if jobs is not None else -1
+        diag["search_probe"].append({"variant": name, "jobs": len(jobs or []),
+                                     "kw_hit_rate": round(rate, 3)})
+        if jobs and rate >= 0.3 and (best is None or rate > best[2]):
+            best = (name, builder, rate)
+        time.sleep(0.15)
+
+    raw = {}
+
+    def collect(jobs):
+        for j in jobs or []:
+            n = normalize_job(j, board, base)
+            if n:
+                raw[(n["company"], n["title"], n["url"])] = n
+
+    if best:
+        name, builder, rate = best
+        diag["search_mode"] = {"variant": name, "kw_hit_rate": round(rate, 3)}
+        for kw in CONFIG["api_search_keywords"]:
+            collect(post_jobs(builder(kw)))
+            time.sleep(0.2)
+        return list(raw.values())
+
+    # ---- no search variant works: try pagination and sweep the whole board.
+    page0 = post_jobs({**base_body(), "query": {"promoteFeatured": True}}) or []
+    titles0 = {str(j.get("title", "")) + str(j.get("companyName", "")) for j in page0}
+    page_mode = None
+    for mode, extra in (("from", {"from": 100}), ("page", {"page": 2}), ("offset", {"offset": 100})):
+        nxt = post_jobs({**base_body(extra_meta=extra), "query": {"promoteFeatured": True}})
+        if nxt:
+            tn = {str(j.get("title", "")) + str(j.get("companyName", "")) for j in nxt}
+            if tn and len(tn - titles0) > len(tn) * 0.5:
+                page_mode = mode
+                break
+        time.sleep(0.15)
+    diag["search_mode"] = {"variant": f"paginate:{page_mode}" if page_mode else "single-page"}
+    collect(page0)
+    if page_mode:
+        for p in range(1, 30):                       # up to 3,000 jobs per board
+            extra = {"from": p * 100} if page_mode == "from" else (
+                {"page": p + 1} if page_mode == "page" else {"offset": p * 100})
+            jobs = post_jobs({**base_body(extra_meta=extra), "query": {"promoteFeatured": True}})
+            if not jobs:
+                break
+            before = len(raw)
+            collect(jobs)
+            if len(raw) == before:                   # no new unique jobs -> done
+                break
+            time.sleep(0.15)
+    else:
+        # capture ground truth from the frontend bundle so the next fix is exact
+        try:
+            srcs = re.findall(r'(?:src|href)="([^"]+\.js[^"]*)"', html)
+            evidence = []
+            for s in srcs[:4]:
+                t = session.get(urljoin(base + "/", s), timeout=20).text
+                for mm in re.finditer(r"search-jobs", t):
+                    evidence.append(t[max(0, mm.start() - 300): mm.start() + 300])
+                    if len(evidence) >= 4:
+                        break
+                if len(evidence) >= 4:
+                    break
+            if evidence:
+                diag["bundle_evidence"] = evidence
+        except Exception:
+            pass
     return list(raw.values())
 
 
@@ -561,6 +674,11 @@ def main():
     session.headers.update({"User-Agent": UA,
                             "Accept": "text/html,application/json;q=0.9,*/*;q=0.8",
                             "Accept-Language": "en-US,en;q=0.9"})
+    # retry transient connection resets / 5xx (kleiner & battery dropped
+    # connections on a prior run); allowed_methods=None retries POSTs too
+    retry = Retry(total=3, connect=3, read=2, backoff_factor=1.5,
+                  status_forcelist=[429, 500, 502, 503, 504], allowed_methods=None)
+    session.mount("https://", HTTPAdapter(max_retries=retry))
 
     all_jobs, status, new_roles = {}, {}, []
     run_ts = now_iso()
