@@ -202,9 +202,16 @@
     "base_score": 30,
     "salary_bonus": 6,
     "salary_penalty": -8,
-    "keyword_bonus": 5
+    "keyword_bonus": 5,
+    "years_exp_weights": {
+      "0-2": -9,
+      "3-8": 7,
+      "9-12": 0,
+      "13-40": -12
+    }
   },
   "_exclude_soft_note": "Domain-qualified ops roles (product ops, legal ops, \u2026) are a different function. These are dropped ONLY when the title lacks a strong-positive phrase, so 'Chief of Staff, Director of Legal Operations' survives.",
   "exclude_soft_pattern": "\\b(product|legal|creative|annotation|workplace|benefits|payments|trading|treasury|procurement|logistics|publications|studio|editorial|content|design|music|video|photo|lab|laboratory|research|academic|campus|flight|maritime|fleet|menu|grocery|catering|hospitality|housing|energy|drilling|mining)\\s*(?:&|and)?\\s*\\w*\\s*operations\\b|supply\\s*chain|operations\\s*\\(\\s*product\\s*\\)",
-  "strong_positive_pattern": "chief of staff|business operations|biz ?ops|strategy (and|&) operations|strategic operations|strategy ?& ?ops|founder'?s? office|office of the (ceo|founder)|corporate development|corp ?dev|revenue operations|rev ?ops|chief operating officer|corporate strategy|business strategy|special projects"
+  "strong_positive_pattern": "chief of staff|business operations|biz ?ops|strategy (and|&) operations|strategic operations|strategy ?& ?ops|founder'?s? office|office of the (ceo|founder)|corporate development|corp ?dev|revenue operations|rev ?ops|chief operating officer|corporate strategy|business strategy|special projects",
+  "_years_exp_note": "Applied to the board-published minimum years of experience (Consider's minYearsExp), not the title guess. Rory has ~5 yrs + MBA."
 }
