@@ -45,10 +45,38 @@ jobs:
           git add -A data docs
           if git diff --cached --quiet; then
             echo "No changes."
-          else
-            git commit -m "Update jobs ($(date -u +'%Y-%m-%d %H:%M UTC'))"
-            git push
+            exit 0
           fi
+          git commit -m "Update jobs ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+
+          # A full sweep takes ~40 min, and the checkout is taken at the start.
+          # If anyone pushes during that window the remote has moved on and a
+          # plain push is rejected. Rebase this data commit onto whatever is
+          # there now and retry, with backoff.
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $i."
+              exit 0
+            fi
+            echo "Push rejected (attempt $i) — remote moved; rebasing."
+            git fetch origin main
+            if ! git rebase origin/main; then
+              # Conflicts can only be in data/ or docs/data.json, which this run
+              # just regenerated from scratch — so the freshly scraped copy wins.
+              # During a rebase, --theirs is the commit being replayed (ours).
+              echo "Rebase conflict in generated files — keeping this run's data."
+              git checkout --theirs -- data docs 2>/dev/null || true
+              git add -A data docs
+              if ! GIT_EDITOR=true git rebase --continue; then
+                git rebase --abort
+                echo "::error::Rebase failed irrecoverably."
+                exit 1
+              fi
+            fi
+            sleep $((i * 5))
+          done
+          echo "::error::Could not push after 5 attempts."
+          exit 1
 
       - name: Notify on new roles (creates an issue -> you get an email)
         env:
