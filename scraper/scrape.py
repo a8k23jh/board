@@ -328,15 +328,56 @@ def fetch_consider(board, session, diag):
     diag["working"] = {"endpoint": endpoint, "slug": slug,
                        "csrf_header": [k for k in headers if k.lower() in CSRF_HEADER_NAMES]}
 
-    def post_jobs(body):
-        """POST and return the flat list of job dicts, or None on failure."""
+    def post_raw(body):
+        """POST and return the parsed JSON response, or None on failure."""
         try:
             r = session.post(endpoint, json=body, headers=headers, timeout=25)
             if not r.ok:
                 return None
-            return [j for lst in find_job_lists(r.json()) for j in lst]
+            return r.json()
         except Exception:
             return None
+
+    def jobs_of(resp):
+        return [j for lst in find_job_lists(resp or {}) for j in lst]
+
+    def post_jobs(body):
+        resp = post_raw(body)
+        return None if resp is None else jobs_of(resp)
+
+    def shape_of(resp):
+        """Compact structural fingerprint of a response, for diagnostics."""
+        if not isinstance(resp, dict):
+            return {"type": type(resp).__name__}
+        out = {"keys": sorted(resp.keys())[:15]}
+        if isinstance(resp.get("meta"), dict):
+            out["meta"] = {k: (v if isinstance(v, (int, float, str, bool)) else type(v).__name__)
+                           for k, v in list(resp["meta"].items())[:12]}
+        js = jobs_of(resp)
+        if js:
+            out["job_keys"] = sorted(js[0].keys())[:20]
+            out["job_count"] = len(js)
+        return out
+
+    CURSOR_KEYS = ("searchAfter", "search_after", "cursor", "next", "nextCursor",
+                   "scrollId", "scroll_id", "after", "nextPageToken")
+
+    def extract_cursor(resp):
+        if not isinstance(resp, dict):
+            return None, None
+        meta = resp.get("meta")
+        if isinstance(meta, dict):
+            for k in CURSOR_KEYS:
+                if meta.get(k) not in (None, "", []):
+                    return ("meta", k), meta[k]
+        for k in CURSOR_KEYS:
+            if resp.get(k) not in (None, "", []):
+                return ("top", k), resp[k]
+        # ES search_after convention: sort values on the last hit
+        js = jobs_of(resp)
+        if js and isinstance(js[-1].get("sort"), list):
+            return ("meta", "searchAfter"), js[-1]["sort"]
+        return None, None
 
     def base_body(size=100, extra_meta=None):
         b = {"meta": {"size": size}, "board": {"id": slug, "isParent": True}}
@@ -411,49 +452,118 @@ def fetch_consider(board, session, diag):
             time.sleep(0.2)
         return list(raw.values())
 
-    # ---- no search variant works: try pagination and sweep the whole board.
-    page0 = post_jobs({**base_body(), "query": {"promoteFeatured": True}}) or []
+    # ---- no search variant works: sweep the whole board via pagination.
+    resp0 = post_raw({**base_body(), "query": {"promoteFeatured": True}})
+    diag["response_shape"] = shape_of(resp0)
+    page0 = jobs_of(resp0)
     titles0 = {str(j.get("title", "")) + str(j.get("companyName", "")) for j in page0}
-    page_mode = None
-    for mode, extra in (("from", {"from": 100}), ("page", {"page": 2}), ("offset", {"offset": 100})):
-        nxt = post_jobs({**base_body(extra_meta=extra), "query": {"promoteFeatured": True}})
-        if nxt:
-            tn = {str(j.get("title", "")) + str(j.get("companyName", "")) for j in nxt}
-            if tn and len(tn - titles0) > len(tn) * 0.5:
-                page_mode = mode
-                break
-        time.sleep(0.15)
-    diag["search_mode"] = {"variant": f"paginate:{page_mode}" if page_mode else "single-page"}
     collect(page0)
-    if page_mode:
-        for p in range(1, 30):                       # up to 3,000 jobs per board
-            extra = {"from": p * 100} if page_mode == "from" else (
-                {"page": p + 1} if page_mode == "page" else {"offset": p * 100})
-            jobs = post_jobs({**base_body(extra_meta=extra), "query": {"promoteFeatured": True}})
+
+    # 1) cursor-style pagination (Elasticsearch search_after and friends)
+    where_key, cursor = extract_cursor(resp0)
+    if where_key:
+        diag["search_mode"] = {"variant": f"cursor:{where_key[0]}.{where_key[1]}"}
+        resp = resp0
+        for p in range(60):                          # up to ~6,000 jobs per board
+            body = {**base_body(), "query": {"promoteFeatured": True}}
+            if where_key[0] == "meta":
+                body["meta"][where_key[1]] = cursor
+            else:
+                body[where_key[1]] = cursor
+            resp = post_raw(body)
+            jobs = jobs_of(resp)
             if not jobs:
                 break
             before = len(raw)
             collect(jobs)
-            if len(raw) == before:                   # no new unique jobs -> done
+            if len(raw) == before:
+                break
+            where_key2, cursor = extract_cursor(resp)
+            if not where_key2 or cursor is None:
+                break
+            where_key = where_key2
+            time.sleep(0.15)
+        if len(raw) > len(page0):
+            return list(raw.values())
+
+    # 2) offset-style pagination, in meta AND at the body top level
+    page_mode = None
+    offset_variants = [("meta.from", "meta", "from"), ("meta.page", "meta", "page"),
+                       ("meta.offset", "meta", "offset"), ("top.offset", "top", "offset"),
+                       ("top.from", "top", "from"), ("top.page", "top", "page"),
+                       ("top.limit+offset", "top", "limit_offset")]
+    for name, where, key in offset_variants:
+        body = {**base_body(), "query": {"promoteFeatured": True}}
+        if key == "limit_offset":
+            body.pop("meta", None)
+            body["limit"] = 100
+            body["offset"] = 100
+        elif where == "meta":
+            body["meta"][key] = 2 if key == "page" else 100
+        else:
+            body[key] = 2 if key == "page" else 100
+        nxt = post_jobs(body)
+        if nxt:
+            tn = {str(j.get("title", "")) + str(j.get("companyName", "")) for j in nxt}
+            if tn and len(tn - titles0) > len(tn) * 0.5:
+                page_mode = (name, where, key)
+                break
+        time.sleep(0.15)
+
+    if page_mode:
+        name, where, key = page_mode
+        diag["search_mode"] = {"variant": f"paginate:{name}"}
+        for p in range(1, 60):
+            body = {**base_body(), "query": {"promoteFeatured": True}}
+            if key == "limit_offset":
+                body.pop("meta", None)
+                body["limit"] = 100
+                body["offset"] = p * 100
+            elif where == "meta":
+                body["meta"][key] = (p + 1) if key == "page" else p * 100
+            else:
+                body[key] = (p + 1) if key == "page" else p * 100
+            jobs = post_jobs(body)
+            if not jobs:
+                break
+            before = len(raw)
+            collect(jobs)
+            if len(raw) == before:
                 break
             time.sleep(0.15)
-    else:
-        # capture ground truth from the frontend bundle so the next fix is exact
-        try:
-            srcs = re.findall(r'(?:src|href)="([^"]+\.js[^"]*)"', html)
-            evidence = []
-            for s in srcs[:4]:
-                t = session.get(urljoin(base + "/", s), timeout=20).text
-                for mm in re.finditer(r"search-jobs", t):
-                    evidence.append(t[max(0, mm.start() - 300): mm.start() + 300])
-                    if len(evidence) >= 4:
+        return list(raw.values())
+
+    # 3) nothing paginates: capture bundle ground truth for an exact fix
+    diag["search_mode"] = {"variant": "single-page"}
+    try:
+        srcs = re.findall(r'''(?:src|href)=["']([^"']+\.js[^"']*)["']''', html)
+        srcs += re.findall(r'''["'](https?://[^"']+\.js)["']''', html)
+        seen_s, srcs = set(), [s for s in srcs if not (s in seen_s or seen_s.add(s))]
+        diag["script_srcs"] = srcs[:10]
+        evidence, fetch_log = [], []
+        for s in srcs[:6]:
+            u = urljoin(base + "/", html_mod.unescape(s))
+            try:
+                rb = session.get(u, timeout=20)
+                fetch_log.append({"url": u[-80:], "status": rb.status_code, "bytes": len(rb.text)})
+                if not rb.ok:
+                    continue
+                t = rb.text
+                for marker in ("search-jobs", "api-boards", "searchQuery", "promoteFeatured"):
+                    for mm in list(re.finditer(re.escape(marker), t))[:2]:
+                        evidence.append({"marker": marker,
+                                         "ctx": t[max(0, mm.start() - 350): mm.start() + 350]})
+                    if len(evidence) >= 8:
                         break
-                if len(evidence) >= 4:
-                    break
-            if evidence:
-                diag["bundle_evidence"] = evidence
-        except Exception:
-            pass
+            except Exception as e:
+                fetch_log.append({"url": u[-80:], "error": str(e)[:120]})
+            if len(evidence) >= 8:
+                break
+        diag["bundle_fetch_log"] = fetch_log
+        if evidence:
+            diag["bundle_evidence"] = evidence
+    except Exception as e:
+        diag["bundle_error"] = str(e)[:200]
     return list(raw.values())
 
 
