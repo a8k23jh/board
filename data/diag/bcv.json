@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-15T00:24:54Z",
+ "run": "2026-08-15T01:53:35Z",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "EGtZsWjGwR\u2026",
+  "session.sig": "BHj-ADEEVV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDUzMDkxYTFmMWQ2ZTEyYWI4YzJkNjI0ZDhjMTRjY2IiLCAic2NvcmUiOiAxLjEwNDg2NDk2MDY3NTE1NDR9"
+   "sequence": "eyJfaWQiOiAiMWQ5YWQxNDliNzRjNDhmODM1Y2Q5Mjc5NTZkOWZkYzAiLCAic2NvcmUiOiAxLjEyNjkwNDQ3ODQxMjAzNzJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,18 +152,16 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "search_mode": {
-  "variant": "single-page"
- },
- "script_srcs": [],
- "bundle_fetch_log": []
+  "variant": "cursor:meta.sequence"
+ }
 }
