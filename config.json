@@ -21,24 +21,190 @@
     "corporate strategy"
   ],
   "categories": [
-    {"name": "Chief of Staff",   "pattern": "chief of staff"},
-    {"name": "Founder's Office", "pattern": "founder'?s? (office|associate)|office of the (ceo|founder|president|chair)|special projects"},
-    {"name": "BizOps",           "pattern": "business operations|biz ?ops"},
-    {"name": "Strategy & Ops",   "pattern": "strategy (and|&|\\+) operations|strategic operations|strategy ?& ?ops|strategy ops|(head|director|vp|vice president|manager|lead|associate)[,]? (of )?strategy\\b|corporate strategy|business strategy|strategy (manager|lead|director|associate|analyst)"},
-    {"name": "Corp Dev",         "pattern": "corporate development|corp ?dev"},
-    {"name": "RevOps",           "pattern": "revenue operations|rev ?ops"},
-    {"name": "General Manager",  "pattern": "general manager"},
-    {"name": "Ops Leadership",   "pattern": "(head|director|vp|vice president|manager|lead|associate)[,]? (of )?operations\\b|operations (manager|lead|director|associate)\\b|chief operating officer|\\bcoo\\b"}
+    {
+      "name": "Chief of Staff",
+      "pattern": "chief of staff"
+    },
+    {
+      "name": "Founder's Office",
+      "pattern": "founder'?s? (office|associate)|office of the (ceo|founder|president|chair)|special projects"
+    },
+    {
+      "name": "BizOps",
+      "pattern": "business operations|biz ?ops"
+    },
+    {
+      "name": "Strategy & Ops",
+      "pattern": "strategy (and|&|\\+) operations|strategic operations|strategy ?& ?ops|strategy ops|(head|director|vp|vice president|manager|lead|associate)[,]? (of )?strategy\\b|corporate strategy|business strategy|strategy (manager|lead|director|associate|analyst)"
+    },
+    {
+      "name": "Corp Dev",
+      "pattern": "corporate development|corp ?dev"
+    },
+    {
+      "name": "RevOps",
+      "pattern": "revenue operations|rev ?ops"
+    },
+    {
+      "name": "General Manager",
+      "pattern": "general manager"
+    },
+    {
+      "name": "Ops Leadership",
+      "pattern": "(head|director|vp|vice president|manager|lead|associate)[,]? (of )?operations\\b|operations (manager|lead|director|associate)\\b|chief operating officer|\\bcoo\\b"
+    }
   ],
-  "exclude_title_pattern": "warehouse|manufactur|plant |clinic|nursing|dental|pharmac|restaurant|kitchen|culinary|facilit|janitor|custodial|security operations|network operations|people operations|hr operations|payroll|construction|field operations|fleet|store manager|retail|salon|property|housekeep|amazon operations|delivery operations|driver|dispatch|call center|billing operations|marketing operations|content operations|community operations|clinical operations|care operations|nurse|physician|veterinar|technical operations|it operations|cloud operations|devops|security|infrastructure",
+  "exclude_title_pattern": "warehouse|manufactur|plant |clinic|nursing|dental|pharmac|restaurant|kitchen|culinary|facilit|janitor|custodial|security operations|network operations|people operations|hr operations|payroll|construction|field operations|fleet|store manager|retail|salon|property|housekeep|amazon operations|delivery operations|driver|dispatch|call center|billing operations|marketing operations|content operations|community operations|clinical operations|care operations|nurse|physician|veterinar|technical operations|it operations|cloud operations|devops|security|infrastructure|\\btax\\b|\\bannuit|\\bunderwrit|\\bicqa\\b|\\bcoding\\b",
   "metros": {
-    "SF Bay Area": ["san francisco", " sf,", "sf bay", "bay area", "oakland", "berkeley", "palo alto", "menlo park", "mountain view", "san jose", "sunnyvale", "redwood city", "san mateo", "cupertino", "santa clara", "fremont", "south san francisco", "foster city", "burlingame", "emeryville", "los altos", "san carlos", "mill valley", "sausalito"],
-    "New York City": ["new york", "nyc", "brooklyn", "manhattan", "long island city", "jersey city", "hoboken"],
-    "Austin": ["austin"],
-    "Southern California": ["los angeles", "santa monica", "culver city", "venice, ca", "el segundo", "irvine", "orange county", "san diego", "pasadena", "long beach", "newport beach", "costa mesa", "west hollywood", "hollywood", "burbank", "glendale", "marina del rey", "playa vista", "manhattan beach", "la jolla", "carlsbad"]
+    "SF Bay Area": [
+      "san francisco",
+      " sf,",
+      "sf bay",
+      "bay area",
+      "oakland",
+      "berkeley",
+      "palo alto",
+      "menlo park",
+      "mountain view",
+      "san jose",
+      "sunnyvale",
+      "redwood city",
+      "san mateo",
+      "cupertino",
+      "santa clara",
+      "fremont",
+      "south san francisco",
+      "foster city",
+      "burlingame",
+      "emeryville",
+      "los altos",
+      "san carlos",
+      "mill valley",
+      "sausalito"
+    ],
+    "New York City": [
+      "new york",
+      "nyc",
+      "brooklyn",
+      "manhattan",
+      "long island city",
+      "jersey city",
+      "hoboken"
+    ],
+    "Austin": [
+      "austin"
+    ],
+    "Southern California": [
+      "los angeles",
+      "santa monica",
+      "culver city",
+      "venice, ca",
+      "el segundo",
+      "irvine",
+      "orange county",
+      "san diego",
+      "pasadena",
+      "long beach",
+      "newport beach",
+      "costa mesa",
+      "west hollywood",
+      "hollywood",
+      "burbank",
+      "glendale",
+      "marina del rey",
+      "playa vista",
+      "manhattan beach",
+      "la jolla",
+      "carlsbad"
+    ],
+    "Boston": [
+      "boston",
+      "cambridge, ma",
+      "somerville",
+      "brookline",
+      "waltham",
+      "burlington, ma",
+      "newton, ma"
+    ]
   },
-  "remote_patterns": ["remote", "anywhere", "distributed", "work from home", "us - remote", "remote - us", "united states"],
+  "remote_patterns": [
+    "remote",
+    "anywhere",
+    "distributed",
+    "work from home",
+    "us - remote",
+    "remote - us",
+    "united states"
+  ],
   "include_remote": true,
   "include_unknown_location": true,
-  "new_badge_hours": 48
+  "new_badge_hours": 48,
+  "_fit_profile_note": "Tunes the 0-100 fit score. Profile: HBS MBA 2026, 5yrs Accenture strategy/GTM consulting, founder stint (ClassAct), B2B SaaS. TARGET: Chief of Staff / Founder's Office at EARLY-STAGE startups (seed, Series A, some Series B). Edit any weight to re-rank.",
+  "fit_profile": {
+    "target_salary_min_k": 130,
+    "category_weights": {
+      "Chief of Staff": 22,
+      "Founder's Office": 21,
+      "Strategy & Ops": 12,
+      "BizOps": 11,
+      "General Manager": 4,
+      "Corp Dev": 3,
+      "RevOps": 1,
+      "Ops Leadership": 1
+    },
+    "seniority_weights": {
+      "Principal": 12,
+      "Manager": 10,
+      "Director": 5,
+      "Associate": -12,
+      "VP": -10,
+      "Executive": -18,
+      "Intern": -45
+    },
+    "stage_weights": {
+      "Series A": 12,
+      "Seed": 11,
+      "Series B": 8,
+      "Pre-Seed": 5,
+      "Series C": -2,
+      "Series D+": -7,
+      "Growth/Late": -9,
+      "Public": -14
+    },
+    "size_weights": {
+      "11-50": 10,
+      "51-200": 9,
+      "1-10": 6,
+      "201-500": -1,
+      "501-1k": -6,
+      "1k-5k": -10,
+      "5k+": -13
+    },
+    "metro_weights": {
+      "SF Bay Area": 8,
+      "New York City": 7,
+      "Boston": 5,
+      "Remote": 3,
+      "Southern California": 2,
+      "Austin": 1,
+      "Unknown": 0
+    },
+    "bonus_title_keywords": [
+      "founding",
+      "founder'?s? office",
+      "office of the ce[o|t]",
+      "first business hire",
+      "special projects",
+      "go.?to.?market",
+      "\\bgtm\\b",
+      "\\bchief of staff\\b"
+    ],
+    "base_score": 30,
+    "salary_bonus": 6,
+    "salary_penalty": -8,
+    "keyword_bonus": 5
+  },
+  "_exclude_soft_note": "Domain-qualified ops roles (product ops, legal ops, \u2026) are a different function. These are dropped ONLY when the title lacks a strong-positive phrase, so 'Chief of Staff, Director of Legal Operations' survives.",
+  "exclude_soft_pattern": "\\b(product|legal|creative|annotation|workplace|benefits|payments|trading|treasury|procurement|logistics|publications|studio|editorial|content|design|music|video|photo|lab|laboratory|research|academic|campus|flight|maritime|fleet|menu|grocery|catering|hospitality|housing|energy|drilling|mining)\\s*(?:&|and)?\\s*\\w*\\s*operations\\b|supply\\s*chain|operations\\s*\\(\\s*product\\s*\\)",
+  "strong_positive_pattern": "chief of staff|business operations|biz ?ops|strategy (and|&) operations|strategic operations|strategy ?& ?ops|founder'?s? office|office of the (ceo|founder)|corporate development|corp ?dev|revenue operations|rev ?ops|chief operating officer|corporate strategy|business strategy|special projects"
 }
