@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-08-15T11:39:38Z",
+ "run": "2026-08-15T13:03:28Z",
  "homepage": {
   "status": 200,
   "bytes": 25234
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "49EEvS11wH\u2026",
+  "session.sig": "nsQrLtT3J0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzAzNTgxNjgzNGEyYjI3MzFkNjcyM2RhNzJjYTMwZmMiLCAic2NvcmUiOiAxLjA4NzMwMDY1OTA3OTg2MX0="
+   "sequence": "eyJfaWQiOiAiNjAxYjE2NjFhMDFkMTA4NTJhNDAzZTEzNmQ1NzVmY2YiLCAic2NvcmUiOiAxLjA4MzA1ODI3MDI0NDIxMjl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,48 +147,63 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/mercor/35e1923b-3c1c-4bb4-94d6-ef3a529ef871?utm_source=jobs.felicis.com",
-  "companyDomain": "mercor.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/23f7d8083a130ec5d43995fda74ff9f8_288_160?Expires=1861920000&Signature=XfgzK~V8p5kb9sfbMGy4LpE2qFShH0oZT3AtCBJLe4ESEgy-mdGw-",
-  "companyId": "Mercor",
-  "companySlug": "mercor",
-  "companyName": "Mercor",
-  "companyStaffCount": 8184,
+  "applyUrl": "https://jobs.ashbyhq.com/periodic-labs/a16ee7dd-021d-4f37-823d-7a8b520c6d8a?utm_source=jobs.felicis.com",
+  "companyDomain": "periodic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/fc3fe21f50d8e60634dfe326decb68f0_320_160?Expires=1861920000&Signature=WCSgnXgr4hwNk3a4sd36nhU3K1p7K2lUiTqKZkoW9i8l2gxy6S9iS",
+  "companyId": "Periodic Labs",
+  "companySlug": "periodic-labs",
+  "companyName": "Periodic Labs",
+  "companyStaffCount": 83,
   "considerHosted": false,
   "departments": [
-   "Core Engineering"
+   "Science"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "lab-technician",
+    "label": "Lab Technician",
+    "value": "lab-technician"
+   },
+   {
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
    }
   ],
   "locations": [
-   "San Francisco, California, United States",
-   "San Francisco"
+   "",
+   "Menlo Park, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Menlo Park, California",
+    "label": "Menlo Park, California",
+    "value": "Menlo Park, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 425000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Chemical Engineering",
+    "label": "Chemical Engineering",
+    "value": "resume:Chemical Engineering"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:LIMS",
+    "label": "LIMS",
+    "value": "resume:LIMS"
    },
    {
     "id": "resume:Research",
@@ -196,43 +211,16 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Apache Apex",
-    "label": "Apache Apex",
-    "value": "resume:Apache Apex"
-   },
-   {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Lab Automation",
+    "label": "Lab Automation",
+    "value": "resume:Lab Automation"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Apache Apex",
-    "label": "Apache Apex",
-    "value": "resume:Apache Apex"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:Chemical Engineering",
+    "label": "Chemical Engineering",
+    "value": "resume:Chemical Engineering"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -240,9 +228,36 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Agent Systems",
-    "label": "Agent Systems",
-    "value": "resume:Agent Systems"
+    "id": "resume:LIMS",
+    "label": "LIMS",
+    "value": "resume:LIMS"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Lab Automation",
+    "label": "Lab Automation",
+    "value": "resume:Lab Automation"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:Characterization",
+    "label": "Characterization",
+    "value": "resume:Characterization"
+   },
+   {
+    "id": "resume:Materials Science",
+    "label": "Materials Science",
+    "value": "resume:Materials Science"
    }
   ],
   "manager": false,
@@ -251,14 +266,14 @@
   "considerLevels": [],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -268,39 +283,34 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Seed funded",
+    "label": "Seed",
+    "value": "Seed funded"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
   "markets": [
    {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
   "timeStamp": "2026-08-15T00:00:00Z",
-  "title": "Member of Technical Staff, Enterprise Evals Platform",
-  "url": "https://jobs.ashbyhq.com/mercor/35e1923b-3c1c-4bb4-94d6-ef3a529ef871",
-  "jobId": "35e1923b-3c1c-4bb4-94d6-ef3a529ef871",
+  "title": "Research Engineer, Lab Automation",
+  "url": "https://jobs.ashbyhq.com/periodic-labs/a16ee7dd-021d-4f37-823d-7a8b520c6d8a",
+  "jobId": "a16ee7dd-021d-4f37-823d-7a8b520c6d8a",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1883963300367, 'matchScore': 0, 'ageScore': 0.9883963300366513, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1845750504475, 'matchScore': 0, 'ageScore': 0.9845750504475309, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -308,7 +318,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid"
   ],
   "isFeatured": false

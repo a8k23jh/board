@@ -1,6 +1,7 @@
 {
  "board": "initialized",
- "run": "2026-08-15T11:39:38Z",
+ "run": "2026-08-15T13:03:28Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.initialized.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 20927
@@ -34,7 +35,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "3cjCRrDrns\u2026",
+  "session.sig": "cFypo9TsbH\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +120,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzQyMjY5YjQ1MDU2OWQ3YzY2N2RlZGU1YTk2Zjc4ZjM6VGltZSBieSBQaW5nIiwgInNjb3JlIjogMTAwLjQ1NDEzNjQ4ODM0NzIyfQ=="
+   "sequence": "eyJfaWQiOiAiOTNmOWNiMTM2NWNiZDU0ZDBjOTVjOWEwYmI3OGU5YmQ6VGltZSBieSBQaW5nIiwgInNjb3JlIjogMTAwLjQ0OTkzODk0MjU4NjAzfQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -186,58 +187,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 105000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:GAAP",
-    "label": "GAAP",
-    "value": "resume:GAAP"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Financial Reporting",
-    "label": "Financial Reporting",
-    "value": "resume:Financial Reporting"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:GAAP",
-    "label": "GAAP",
-    "value": "resume:GAAP"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Financial Reporting",
-    "label": "Financial Reporting",
-    "value": "resume:Financial Reporting"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
     "id": "resume:Financial Statements",
@@ -245,14 +197,63 @@
     "value": "resume:Financial Statements"
    },
    {
+    "id": "resume:National Security",
+    "label": "National Security",
+    "value": "resume:National Security"
+   },
+   {
     "id": "resume:Audit",
     "label": "Audit",
     "value": "resume:Audit"
    },
    {
-    "id": "resume:OPEX",
-    "label": "OPEX",
-    "value": "resume:OPEX"
+    "id": "resume:Classification",
+    "label": "Classification Algorithms",
+    "value": "resume:Classification"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Financial Statements",
+    "label": "Financial Statements",
+    "value": "resume:Financial Statements"
+   },
+   {
+    "id": "resume:National Security",
+    "label": "National Security",
+    "value": "resume:National Security"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
+   },
+   {
+    "id": "resume:Classification",
+    "label": "Classification Algorithms",
+    "value": "resume:Classification"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Journal Entries",
+    "label": "Journal Entries",
+    "value": "resume:Journal Entries"
+   },
+   {
+    "id": "resume:Revenue Recognition",
+    "label": "Revenue Recognition",
+    "value": "resume:Revenue Recognition"
    }
   ],
   "manager": false,
@@ -271,14 +272,14 @@
   "minYearsExp": 2,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -317,7 +318,7 @@
   "jobId": "9cd79e33-f5e4-4ecc-876e-af866a724847",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.1550127468786, 'matchScore': 0, 'ageScore': 0.9550127468784723, 'richnessScore': 2}",
+  "scores": "{'score': 1101.1502042591867, 'matchScore': 0, 'ageScore': 0.9502042591867284, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -334,5 +335,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
