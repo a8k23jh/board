@@ -1,40 +1,32 @@
 {
- "board": "lightspeed",
+ "board": "felicis",
  "run": "2026-08-15T04:20:34Z",
  "homepage": {
   "status": 200,
-  "bytes": 21205
+  "bytes": 25234
  },
  "slugs_tried": [
-  "lightspeed",
-  "lsvp",
-  "lightspeed-venture-partners"
+  "felicis",
+  "felicis-ventures"
  ],
  "attempts": [
   {
-   "endpoint": "https://jobs.lsvp.com/api-boards/search-jobs",
-   "slug": "lightspeed",
+   "endpoint": "https://jobs.felicis.com/api-boards/search-jobs",
+   "slug": "felicis",
    "csrf_header": null,
    "status": 412,
    "body_head": "{\"error\":\"INVALID_CSRF\"}"
   },
   {
-   "endpoint": "https://jobs.lsvp.com/api-boards/search-jobs",
-   "slug": "lsvp",
+   "endpoint": "https://jobs.felicis.com/api-boards/search-jobs",
+   "slug": "felicis-ventures",
    "csrf_header": null,
    "status": 412,
    "body_head": "{\"error\":\"INVALID_CSRF\"}"
   },
   {
-   "endpoint": "https://jobs.lsvp.com/api-boards/search-jobs",
-   "slug": "lightspeed-venture-partners",
-   "csrf_header": null,
-   "status": 412,
-   "body_head": "{\"error\":\"INVALID_CSRF\"}"
-  },
-  {
-   "endpoint": "https://jobs.lsvp.com/api-boards/search-jobs",
-   "slug": "lightspeed",
+   "endpoint": "https://jobs.felicis.com/api-boards/search-jobs",
+   "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
    "body_head": "{\"version\":{\"client\":{\"git\":\"c6d2fd7b5cb92ade06e980c227ee0b160b3992ef\",\"date\":\"2026-08-13T22:34:04.983Z\"},\"server\":{\"git\":\"c6d2fd7b5cb92ade06e980c227ee0b160b3992ef\",\"date\":\"2026-08-13T22:34:04.983Z\"}}"
@@ -42,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "uTsiRPEcka\u2026",
+  "session.sig": "cej_rm9y_k\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -72,8 +64,8 @@
   }
  ],
  "working": {
-  "endpoint": "https://jobs.lsvp.com/api-boards/search-jobs",
-  "slug": "lightspeed",
+  "endpoint": "https://jobs.felicis.com/api-boards/search-jobs",
+  "slug": "felicis",
   "csrf_header": [
    "x-csrf-token"
   ]
@@ -127,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzRjN2Q0NmQ0NGMxZGE2ZDZmNDllOGU5YzZiYmUwY2IiLCAic2NvcmUiOiAxLjE2NjU2MDk3ODk2OTEzNTh9"
+   "sequence": "eyJfaWQiOiAiOWQ1MThjZWZjZWI2ODdjZjc4NmJkM2E2NjlmMzk1ZDMiLCAic2NvcmUiOiAxLjA5MDg3Nzk2NTgyMzY4ODJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,111 +147,116 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5179712007?gh_jid=5179712007",
-  "companyDomain": "anduril.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d88ae975c1da94cefaeb3234d6fb00f_238_160?Expires=1861920000&Signature=nPYp1JlJZNMHspk2VuS1aXOsrIHWSiYZCa1mo5aQgLIbL2xCLdDD0",
-  "companyId": "Anduril Industries",
-  "companySlug": "anduril-industries",
-  "companyName": "Anduril Industries",
-  "companyStaffCount": 8452,
+  "applyUrl": "https://job-boards.greenhouse.io/astranis/jobs/4705261006",
+  "companyDomain": "astranis.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c623d52ca5e4cbba895225517694b112_289_160?Expires=1861920000&Signature=oTG1L-XfP6Ab2616AmjuP~qdp6Vz3sZfyCeP9yfwWQSPJPjaT94rC",
+  "companyId": "Astranis",
+  "companySlug": "astranis",
+  "companyName": "Astranis",
+  "companyStaffCount": 499,
   "considerHosted": false,
   "departments": [
-   "Connected Warfare : Edge Compute & Communications Engineering : Architecture"
+   "1121 Legal "
   ],
   "jobTypes": [
    {
-    "id": "project-engineer",
-    "label": "Project Engineer",
-    "value": "project-engineer"
+    "id": "regulatory-affairs",
+    "label": "Regulatory Affairs",
+    "value": "regulatory-affairs"
+   },
+   {
+    "id": "compliance-risk",
+    "label": "Risk & Compliance Manager",
+    "value": "compliance-risk"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Auditing",
+    "label": "Auditing",
+    "value": "Auditing"
    }
   ],
   "locations": [
-   "Costa Mesa, California, United States"
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Costa Mesa, California",
-    "label": "Costa Mesa, California",
-    "value": "Costa Mesa, California"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 112000, 'maxValue': 149000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 235000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:OFAC",
+    "label": "OFAC",
+    "value": "resume:OFAC"
    },
    {
-    "id": "resume:Product Lifecycle Management",
-    "label": "Product Lifecycle Management",
-    "value": "resume:Product Lifecycle Management"
-   },
-   {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Export Controls",
+    "label": "Export Controls",
+    "value": "resume:Export Controls"
    },
    {
     "id": "resume:Attention to Detail",
     "label": "Attention to Detail",
     "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:Regulatory Requirements",
+    "label": "Regulatory Requirements",
+    "value": "resume:Regulatory Requirements"
+   },
+   {
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:OFAC",
+    "label": "OFAC",
+    "value": "resume:OFAC"
    },
    {
-    "id": "resume:Product Lifecycle Management",
-    "label": "Product Lifecycle Management",
-    "value": "resume:Product Lifecycle Management"
-   },
-   {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Export Controls",
+    "label": "Export Controls",
+    "value": "resume:Export Controls"
    },
    {
     "id": "resume:Attention to Detail",
     "label": "Attention to Detail",
     "value": "resume:Attention to Detail"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Regulatory Requirements",
+    "label": "Regulatory Requirements",
+    "value": "resume:Regulatory Requirements"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    },
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:Top Secret",
+    "label": "Clearance",
+    "value": "resume:Top Secret"
    },
    {
-    "id": "resume:Asset Management",
-    "label": "Asset Management",
-    "value": "resume:Asset Management"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:FCPA",
+    "label": "FCPA",
+    "value": "resume:FCPA"
    }
   ],
   "manager": false,
@@ -267,15 +264,14 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
   "regions": [
    {
     "id": "West Coast",
@@ -295,9 +291,9 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -308,18 +304,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
+    "id": "Telecommunications",
+    "label": "Telecommunications",
+    "value": "Telecommunications"
    }
   ],
-  "timeStamp": "2026-08-14T18:08:52Z",
-  "title": "Project Engineer, C2 Integration",
-  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5179712007?gh_jid=5179712007",
-  "jobId": "5179712007",
+  "timeStamp": "2026-08-14T18:30:48Z",
+  "title": "Trade and Regulatory Compliance Manager",
+  "url": "https://job-boards.greenhouse.io/astranis/jobs/4705261006",
+  "jobId": "4705261006",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1925871858175, 'matchScore': 0, 'ageScore': 0.9925871858175155, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1931689280293, 'matchScore': 0, 'ageScore': 0.993168928029321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
