@@ -94,7 +94,8 @@
          border-radius: 7px; padding: 3px 9px; font-size: 12px; cursor: pointer; }
   .act:hover { color: var(--ink); border-color: var(--muted); }
   .act.on { background: var(--good); border-color: var(--good); color: #fff; }
-  .why { font-size: 11.5px; color: var(--muted); margin-top: 3px; }
+  .age-fresh { color: var(--good-text) !important; font-weight: 600; }
+  .age-stale { color: var(--muted) !important; font-style: italic; }
 
   .empty { text-align: center; color: var(--ink-2); padding: 40px 0; }
   .warnbar { padding: 10px 14px; margin: 12px 0; border: 1px solid var(--border);
@@ -126,7 +127,8 @@
     <span class="fl-label">Sort</span>
     <select id="sortSel">
       <option value="fit">Best fit first</option>
-      <option value="new">Newest first</option>
+      <option value="new">Newest to me (first seen)</option>
+      <option value="posted">Recently posted</option>
       <option value="salary">Highest salary</option>
       <option value="company">Company A–Z</option>
     </select>
@@ -205,6 +207,28 @@
     if (f >= 40) return css('--c4');
     return css('--muted');
   }
+  function daysLive(j) {
+    if (!j.posted_at) return null;
+    return Math.max(0, Math.floor((Date.now() - new Date(j.posted_at).getTime()) / 864e5));
+  }
+  // How long the role has been live — distinct from "seen", which is when the
+  // tracker first noticed it.
+  function postedText(j) {
+    const d = daysLive(j);
+    if (d === null) return 'posted date n/a';
+    if (d === 0) return 'posted today';
+    if (d === 1) return 'posted 1d ago';
+    if (d < 45) return `posted ${d}d ago`;
+    return `posted ${Math.round(d / 30)}mo ago`;
+  }
+  function ageClass(j) {
+    const d = daysLive(j);
+    if (d === null) return '';
+    if (d <= 7) return ' age-fresh';
+    if (d >= 45) return ' age-stale';
+    return '';
+  }
+
   function salText(j) {
     if (!j.salary_min) return null;
     return j.salary_max && j.salary_max !== j.salary_min
@@ -303,6 +327,7 @@
     const s = state.sort;
     return jobs.sort((a, b) => {
       if (s === 'fit')     return (b.fit || 0) - (a.fit || 0) || (b.first_seen || '').localeCompare(a.first_seen || '');
+      if (s === 'posted')  return (b.posted_at || '').localeCompare(a.posted_at || '');
       if (s === 'salary')  return (b.salary_min || -1) - (a.salary_min || -1);
       if (s === 'company') return a.company.localeCompare(b.company);
       return (b.first_seen || '').localeCompare(a.first_seen || '');
@@ -352,11 +377,11 @@
              <span>via ${esc(j.board_name)}${j.also_on && j.also_on.length ? ` <span style="color:var(--muted)">+${j.also_on.length} more</span>` : ''}</span>
            </div>
            ${tags.length ? `<div class="job-meta" style="margin-top:6px">${tags.join(' ')}</div>` : ''}
-           ${j.fit_why ? `<div class="why">fit: ${esc(j.fit_why)}</div>` : ''}
          </div>
          <div class="job-actions">
            <span class="fitpill" title="${esc(j.fit_why || '')}">
              <span class="fitbar"><i style="width:${fit}%;background:${fitColor(fit)}"></i></span>${fit}</span>
+           <span class="job-when${ageClass(j)}" title="${j.posted_at ? 'Posted ' + new Date(j.posted_at).toLocaleDateString() : 'Post date not published by this board'}">${postedText(j)}</span>
            <span class="job-when">seen ${rel(j.first_seen)}</span>
            <div class="row">
              <button class="act${mk.applied ? ' on' : ''}" data-a="applied">${mk.applied ? '✓ Applied' : 'Applied'}</button>
