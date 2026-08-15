@@ -51,6 +51,11 @@ BOARDS = json.loads((ROOT / "boards.json").read_text())
 
 CATEGORY_RES = [(c["name"], re.compile(c["pattern"], re.I)) for c in CONFIG["categories"]]
 EXCLUDE_RE = re.compile(CONFIG["exclude_title_pattern"], re.I)
+# Two-tier filtering: a SOFT match (domain-qualified ops role such as "Product
+# Operations Manager") only disqualifies when the title has no STRONG positive
+# phrase — so "Chief of Staff, Director of Legal Operations" survives.
+SOFT_RE = re.compile(CONFIG["exclude_soft_pattern"], re.I) if CONFIG.get("exclude_soft_pattern") else None
+STRONG_RE = re.compile(CONFIG["strong_positive_pattern"], re.I) if CONFIG.get("strong_positive_pattern") else None
 
 # Broader, shorter keyword list for HTML search (local regex does strict filtering)
 GETRO_KEYWORDS = [
@@ -162,11 +167,14 @@ def normalize_job(j, board, base_url):
         "posted_at": parse_posted(j),
         "board": board["id"],
         "board_name": board["name"],
+        "_api": j,          # kept for enrichment, stripped before serialisation
     }
 
 
 def categorize(title):
     if EXCLUDE_RE.search(title):
+        return None
+    if SOFT_RE and SOFT_RE.search(title) and not (STRONG_RE and STRONG_RE.search(title)):
         return None
     for name, rx in CATEGORY_RES:
         if rx.search(title):
@@ -444,6 +452,12 @@ def fetch_consider(board, session, diag):
             n = normalize_job(j, board, base)
             if n:
                 raw[(n["company"], n["title"], n["url"])] = n
+        # one full raw job object as ground truth for future field mapping
+        if jobs and "sample_job" not in diag:
+            diag["sample_job"] = {k: (v if isinstance(v, (str, int, float, bool, type(None)))
+                                      else json.loads(json.dumps(v, default=str))[:5]
+                                      if isinstance(v, list) else str(v)[:200])
+                                  for k, v in list(jobs[0].items())[:60]}
 
     if best:
         name, builder, rate = best
@@ -636,6 +650,262 @@ def company_from_url(url):
     return base.replace("-", " ").title() if len(base) > 2 else None
 
 
+# ----------------------------------------------------------------------------
+# Enrichment: salary, company size, funding stage, seniority / years of experience
+# ----------------------------------------------------------------------------
+
+SALARY_RE = re.compile(
+    r"[$£€]\s?(\d{1,3}(?:,\d{3})?(?:\.\d+)?)\s*([KkMm])?\s*(?:-|–|—|to)\s*"
+    r"[$£€]?\s?(\d{1,3}(?:,\d{3})?(?:\.\d+)?)\s*([KkMm])?")
+SINGLE_SALARY_RE = re.compile(r"[$£€]\s?(\d{2,3})[Kk]\b")
+STAGE_RE = re.compile(
+    r"\b(pre[\s-]?seed|seed|series\s+([a-j])\b|growth|late[\s-]stage|early[\s-]stage|public|ipo)\b", re.I)
+SIZE_RANGE_RE = re.compile(r"\b(\d{1,5})\s*(?:-|–|to)\s*(\d{1,5})\s*(?:\+\s*)?employees\b", re.I)
+SIZE_PLUS_RE = re.compile(r"\b(\d{1,5})\+?\s*employees\b", re.I)
+YC_BATCH_RE = re.compile(r"\b([WSFX])(\d{2})\b")
+
+SIZE_BUCKETS = [(10, "1-10"), (50, "11-50"), (200, "51-200"), (500, "201-500"),
+                (1000, "501-1k"), (5000, "1k-5k"), (10**9, "5k+")]
+
+
+def size_bucket(n):
+    try:
+        n = int(n)
+    except (TypeError, ValueError):
+        return None
+    for hi, label in SIZE_BUCKETS:
+        if n <= hi:
+            return label
+    return None
+
+
+def parse_salary(text):
+    """Return (min_k, max_k) in thousands USD, or (None, None).
+
+    Handles '$120K - $150K', '$120,000 - $150,000', and a lone '$150K'.
+    Non-USD symbols are parsed too (close enough for filtering); absurd
+    values are rejected so '$5 - $10' hourly noise doesn't pollute.
+    """
+    if not text:
+        return (None, None)
+
+    def to_k(num, unit):
+        v = float(num.replace(",", ""))
+        if unit and unit.lower() == "m":
+            return v * 1000
+        if unit and unit.lower() == "k":
+            return v
+        return v / 1000.0 if v >= 1000 else v      # bare 150000 -> 150
+
+    m = SALARY_RE.search(text)
+    if m:
+        lo, lu, hi, hu = m.group(1), m.group(2), m.group(3), m.group(4)
+        lo_k, hi_k = to_k(lo, lu or hu), to_k(hi, hu or lu)
+        if 20 <= lo_k <= 2000 and 20 <= hi_k <= 2000 and hi_k >= lo_k:
+            return (round(lo_k), round(hi_k))
+    m = SINGLE_SALARY_RE.search(text)
+    if m:
+        v = float(m.group(1))
+        if 20 <= v <= 2000:
+            return (round(v), round(v))
+    return (None, None)
+
+
+def parse_stage(text):
+    if not text:
+        return None
+    m = STAGE_RE.search(text)
+    if not m:
+        return None
+    tok = m.group(1).lower().replace("-", " ").strip()
+    if tok.startswith("pre"):
+        return "Pre-Seed"
+    if tok == "seed":
+        return "Seed"
+    if tok.startswith("series") and m.group(2):
+        letter = m.group(2).upper()
+        return f"Series {letter}" if letter in "ABC" else "Series D+"
+    if tok in ("public", "ipo"):
+        return "Public"
+    if "late" in tok or tok == "growth":
+        return "Growth/Late"
+    if "early" in tok:
+        return "Early"
+    return None
+
+
+def parse_size(text):
+    if not text:
+        return None
+    m = SIZE_RANGE_RE.search(text)
+    if m:
+        return size_bucket(int(m.group(2)))
+    m = SIZE_PLUS_RE.search(text)
+    if m:
+        return size_bucket(int(m.group(1)))
+    return None
+
+
+# title -> (seniority label, typical years-of-experience band)
+SENIORITY_RULES = [
+    ("Intern",     r"\bintern(ship)?\b|\bco-?op\b|\bfellow\b", "0-1"),
+    ("Executive",  r"\b(chief (?!of staff)\w+ officer|c[teofm]o\b|svp\b|senior vice president|"
+                   r"evp\b|executive vice president|partner)\b", "15+"),
+    ("VP",         r"\b(vp|vice president)\b", "10-15"),
+    ("Director",   r"\b(director|head of|general manager|\bgm\b)\b", "8-12"),
+    # (?<!of ) keeps "Chief of Staff" out of the "Staff Engineer" bucket
+    ("Principal",  r"\b(principal|(?<!of )staff|senior manager|sr\.? manager|group manager)\b", "6-10"),
+    ("Manager",    r"\b(manager|lead|senior associate|sr\.? associate|senior analyst|"
+                   r"sr\.? analyst|senior specialist)\b", "4-7"),
+    ("Associate",  r"\b(associate|analyst|specialist|coordinator|assistant|junior|jr\.?|"
+                   r"entry|new grad|graduate)\b", "0-3"),
+]
+SENIORITY_RES = [(lbl, re.compile(pat, re.I), yrs) for lbl, pat, yrs in SENIORITY_RULES]
+SENIORITY_ORDER = ["Intern", "Associate", "Manager", "Principal", "Director", "VP", "Executive"]
+
+
+def infer_seniority(title, api_levels=None):
+    """Seniority + typical YoE band. API-provided levels win when present."""
+    if api_levels:
+        blob = " ".join(str(x) for x in (api_levels if isinstance(api_levels, list) else [api_levels]))
+        for lbl in ("Intern", "Executive", "VP", "Director", "Principal", "Manager", "Associate"):
+            if re.search(lbl, blob, re.I):
+                yrs = dict((l, y) for l, _, y in SENIORITY_RULES).get(lbl)
+                return lbl, yrs
+    t = title or ""
+    # "Chief of Staff" is a role name, not a rank — decide it before the generic
+    # rules so "Chief"/"Staff" don't drag it to Executive/Principal.
+    if re.search(r"chief of staff", t, re.I):
+        if re.search(r"\b(senior|sr\.?|principal)\b", t, re.I):
+            return "Principal", "6-10"
+        if re.search(r"\b(director|head of)\b", t, re.I):
+            return "Director", "8-12"
+        if re.search(r"\b(vp|vice president)\b", t, re.I):
+            return "VP", "10-15"
+        return "Manager", "4-8"
+    for lbl, rx, yrs in SENIORITY_RES:
+        if rx.search(t):
+            return lbl, yrs
+    return None, None
+
+
+# ---- fit scoring against the profile in config.json -------------------------
+
+FIT = CONFIG.get("fit_profile", {})
+
+
+def score_fit(job):
+    """0-100 fit score plus human-readable reasons. Purely additive and
+    explainable — every point is attributable to one rule."""
+    score, why = FIT.get("base_score", 35), []
+
+    cat_w = FIT.get("category_weights", {})
+    if job.get("category") in cat_w:
+        d = cat_w[job["category"]]
+        score += d
+        if d:
+            why.append(f"{job['category']} {d:+d}")
+
+    sen = job.get("seniority")
+    sen_w = FIT.get("seniority_weights", {})
+    if sen and sen in sen_w:
+        d = sen_w[sen]
+        score += d
+        why.append(f"{sen}-level {d:+d}")
+
+    stage_w = FIT.get("stage_weights", {})
+    if job.get("stage") in stage_w:
+        d = stage_w[job["stage"]]
+        score += d
+        why.append(f"{job['stage']} {d:+d}")
+
+    size_w = FIT.get("size_weights", {})
+    if job.get("company_size") in size_w:
+        d = size_w[job["company_size"]]
+        score += d
+        why.append(f"{job['company_size']} employees {d:+d}")
+
+    metro_w = FIT.get("metro_weights", {})
+    if job.get("metro") in metro_w:
+        d = metro_w[job["metro"]]
+        score += d
+        if d:
+            why.append(f"{job['metro']} {d:+d}")
+
+    lo = job.get("salary_min")
+    target = FIT.get("target_salary_min_k")
+    if lo and target:
+        if lo >= target:
+            d = FIT.get("salary_bonus", 7)
+            score += d
+            why.append(f"pays ${lo}k+ {d:+d}")
+        elif lo < target * 0.7:
+            d = FIT.get("salary_penalty", -12)
+            score += d
+            why.append(f"below target (${lo}k) {d:+d}")
+
+    kb = FIT.get("keyword_bonus", 4)
+    for kw in FIT.get("bonus_title_keywords", []):
+        if re.search(kw, job.get("title", ""), re.I):
+            score += kb
+            why.append(f"GTM/founder-office match {kb:+d}")
+            break
+
+    return max(0, min(100, score)), "; ".join(why)
+
+
+def enrich(job, blob="", api=None):
+    """Attach salary / stage / size / seniority to a job, from whatever the
+    board provided: structured API fields first, listing text as fallback."""
+    api = api or {}
+    lo = hi = None
+    for k in ("salaryMin", "salary_min", "minSalary", "compensationMin", "baseSalaryMin"):
+        if isinstance(api.get(k), (int, float)):
+            lo = api[k] / 1000 if api[k] > 2000 else api[k]
+            break
+    for k in ("salaryMax", "salary_max", "maxSalary", "compensationMax", "baseSalaryMax"):
+        if isinstance(api.get(k), (int, float)):
+            hi = api[k] / 1000 if api[k] > 2000 else api[k]
+            break
+    if lo is None and hi is None:
+        for k in ("salary", "salaryRange", "compensation", "payRange", "salaryText"):
+            v = api.get(k)
+            if isinstance(v, str) and v.strip():
+                lo, hi = parse_salary(v)
+                if lo:
+                    break
+            if isinstance(v, dict):
+                mn = v.get("min") or v.get("from") or v.get("minValue")
+                mx = v.get("max") or v.get("to") or v.get("maxValue")
+                if isinstance(mn, (int, float)):
+                    lo = mn / 1000 if mn > 2000 else mn
+                if isinstance(mx, (int, float)):
+                    hi = mx / 1000 if mx > 2000 else mx
+                if lo or hi:
+                    break
+    if lo is None and hi is None:
+        lo, hi = parse_salary(blob)
+    job["salary_min"] = round(lo) if lo else None
+    job["salary_max"] = round(hi) if hi else None
+
+    staff = api.get("companyStaffCount") or api.get("staffCount") or api.get("employeeCount")
+    job["company_size"] = size_bucket(staff) if staff else parse_size(blob)
+
+    stage_api = api.get("fundingLV") or api.get("fundingStage") or api.get("stage") or \
+        api.get("lastFundingType")
+    job["stage"] = (parse_stage(str(stage_api)) or (str(stage_api).title() if isinstance(stage_api, str)
+                                                    and len(str(stage_api)) < 20 else None)) \
+        if stage_api else parse_stage(blob)
+
+    sen, yrs = infer_seniority(job.get("title", ""),
+                               api.get("jobSeniorities") or api.get("considerLevels"))
+    job["seniority"] = sen
+    job["years_exp"] = yrs
+
+    job["remote_ok"] = bool(re.search(r"\bremote\b", blob, re.I)) or job.get("metro") == "Remote"
+    return job
+
+
 def parse_getro_html(html, board, base):
     """Extract jobs from a server-rendered Getro listing page."""
     # first pass: find all job anchors so each context window can stop at the
@@ -760,7 +1030,88 @@ def fetch_getro(board, session, diag):
     return list(raw.values())
 
 
-ADAPTERS = {"consider": fetch_consider, "getro": fetch_getro}
+# ----------------------------------------------------------------------------
+# Y Combinator adapter — ycombinator.com/jobs is public (no login) and, unlike
+# the VC boards, publishes salary on most listings.
+# ----------------------------------------------------------------------------
+
+YC_JOB_HREF = re.compile(r"/companies/([^/\"?#]+)/jobs/([^/\"?#]+)")
+YC_ROLE_PATHS = ["operations", "finance", "product", "sales"]
+
+
+def parse_yc_html(html, board):
+    base = "https://www.ycombinator.com"
+    matches = [m for m in ANCHOR_RE.finditer(html) if YC_JOB_HREF.search(m.group(1))]
+    jobs, seen = [], set()
+    for i, m in enumerate(matches):
+        href, inner = m.group(1), m.group(2)
+        title = strip_tags(inner)
+        if not title or len(title) > 140:
+            continue
+        url = urljoin(base, html_mod.unescape(href.split("#")[0]))
+        if url in seen:
+            continue
+        seen.add(url)
+        end = matches[i + 1].start() if i + 1 < len(matches) else m.start() + 4000
+        # YC puts company + batch BEFORE the title link, salary/location after
+        window = html[max(0, m.start() - 2500): min(end, m.start() + 3000)]
+        blob = strip_tags(window)
+        slug = YC_JOB_HREF.search(href).group(1)
+        company = prettify_slug(slug)
+        cm = re.findall(r'href="/companies/([^/"?#]+)"[^>]*>(.*?)</a>', window, re.S)
+        for cslug, ctext in cm:
+            t = strip_tags(ctext)
+            if t and len(t) < 60 and cslug == slug:
+                company = t
+                break
+        batch = None
+        bm = YC_BATCH_RE.search(blob)
+        if bm:
+            batch = bm.group(0)
+        locs = re.findall(
+            r"\b((?:[A-Z][A-Za-z.'\-]+ ){0,2}[A-Z][A-Za-z.'\-]+,\s*(?:[A-Z]{2}\b|California|New York|Texas))",
+            blob)
+        locs = [clean_location(l) or "" for l in locs]
+        locs = [l for l in locs if l]
+        if re.search(r"\bremote\b", blob, re.I):
+            locs.append("Remote")
+        jobs.append({
+            "title": title, "company": company, "locations": locs[:3],
+            "_context": blob[:2500], "url": url, "posted_at": None,
+            "board": board["id"], "board_name": board["name"], "yc_batch": batch,
+        })
+    return jobs
+
+
+def fetch_yc(board, session, diag):
+    raw, ok_any = {}, False
+    diag["attempts"] = []
+    for role in YC_ROLE_PATHS:
+        url = f"https://www.ycombinator.com/jobs/role/{role}"
+        try:
+            r = session.get(url, timeout=30)
+            got = parse_yc_html(r.text, board) if r.ok else []
+            diag["attempts"].append({"url": url, "status": r.status_code,
+                                     "bytes": len(r.text), "jobs_parsed": len(got)})
+            if r.ok:
+                ok_any = True
+            for j in got:
+                raw[j["url"]] = j
+        except Exception as e:
+            diag["attempts"].append({"url": url, "error": str(e)[:200]})
+        time.sleep(0.5)
+    if not ok_any:
+        raise RuntimeError("yc: all role pages failed")
+    if not raw:
+        try:
+            diag["html_sample"] = session.get(
+                "https://www.ycombinator.com/jobs/role/operations", timeout=30).text[:4000]
+        except Exception:
+            pass
+    return list(raw.values())
+
+
+ADAPTERS = {"consider": fetch_consider, "getro": fetch_getro, "yc": fetch_yc}
 
 
 # ----------------------------------------------------------------------------
@@ -801,7 +1152,16 @@ def main():
                  "fetched": 0, "matched": 0, "error": None}
         diag = {"board": board["id"], "run": run_ts}
         try:
-            jobs = ADAPTERS[board["platform"]](board, session, diag)
+            # one retry after a pause: some boards drop the connection under load
+            # (careers.ivp.com reset mid-run once) and succeed on a second pass
+            try:
+                jobs = ADAPTERS[board["platform"]](board, session, diag)
+            except Exception as first_err:
+                diag["first_attempt_error"] = str(first_err)[:200]
+                print(f"[retry] {board['id']}: {str(first_err)[:90]}", file=sys.stderr)
+                time.sleep(20)
+                jobs = ADAPTERS[board["platform"]](board, session, diag)
+                diag["succeeded_on_retry"] = True
             entry["fetched"] = len(jobs)
             for job in jobs:
                 cat = categorize(job["title"])
@@ -818,6 +1178,9 @@ def main():
                     continue
                 job["category"] = cat
                 job["metro"] = metro
+                enrich(job, blob=context or " ".join(job.get("locations", [])),
+                       api=job.pop("_api", None))
+                job["fit"], job["fit_why"] = score_fit(job)
                 key = job_key(job)
                 job["key"] = key
                 if key not in seen:
@@ -841,11 +1204,10 @@ def main():
         print(f"{board['id']:>16}: ok={entry['ok']} fetched={entry['fetched']} matched={entry['matched']}"
               + (f"  ERROR: {entry['error']}" if entry["error"] else ""))
 
-    # strip any leftover context fields
-    for j in all_jobs.values():
+    # strip internal-only fields before serialising
+    for j in list(all_jobs.values()) + new_roles:
         j.pop("_context", None)
-    for j in new_roles:
-        j.pop("_context", None)
+        j.pop("_api", None)
 
     jobs_list = sorted(all_jobs.values(),
                        key=lambda j: (j["first_seen"], j.get("posted_at") or ""), reverse=True)
