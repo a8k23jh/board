@@ -30,7 +30,7 @@ import json
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote_plus, urljoin
 
@@ -139,6 +139,31 @@ def parse_posted(j):
         return datetime.fromisoformat(s2).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     except Exception:
         return None
+
+
+REL_DATE_RE = re.compile(
+    r"(?:posted|listed|added)?\s*(\d{1,3})\+?\s*(minute|hour|day|week|month)s?\s*ago", re.I)
+REL_WORD_RE = re.compile(r"\bposted\s+(today|yesterday)\b", re.I)
+
+
+def parse_relative_date(text):
+    """'Posted 3 days ago' -> ISO timestamp. Getro boards render post age as
+    relative text rather than a date, so convert it at scrape time."""
+    if not text:
+        return None
+    m = REL_WORD_RE.search(text)
+    if m:
+        days = 0 if m.group(1).lower() == "today" else 1
+        return (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    m = REL_DATE_RE.search(text)
+    if not m:
+        return None
+    n, unit = int(m.group(1)), m.group(2).lower()
+    mult = {"minute": 1 / 1440, "hour": 1 / 24, "day": 1, "week": 7, "month": 30}[unit]
+    days = n * mult
+    if days > 400:
+        return None
+    return (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def normalize_job(j, board, base_url):
@@ -1001,7 +1026,7 @@ def parse_getro_html(html, board, base):
             "locations": dedup_l[:3],
             "_context": blob[:3000].lower(),  # used for metro matching, then dropped
             "url": url,
-            "posted_at": None,
+            "posted_at": parse_relative_date(blob[:1500]),
             "board": board["id"],
             "board_name": board["name"],
         })
@@ -1100,7 +1125,8 @@ def parse_yc_html(html, board):
             locs.append("Remote")
         jobs.append({
             "title": title, "company": company, "locations": locs[:3],
-            "_context": blob[:2500], "url": url, "posted_at": None,
+            "_context": blob[:2500], "url": url,
+            "posted_at": parse_relative_date(blob[:1500]),
             "board": board["id"], "board_name": board["name"], "yc_batch": batch,
         })
     return jobs
