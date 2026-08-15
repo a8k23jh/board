@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-15T09:45:26Z",
+ "run": "2026-08-15T10:43:48Z",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "314FHk1Bws\u2026",
+  "session.sig": "UC13KrHBxP\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWQ5YWQxNDliNzRjNDhmODM1Y2Q5Mjc5NTZkOWZkYzAiLCAic2NvcmUiOiAxLjEyNjkwNDQ3ODQxMjAzNzJ9"
+   "sequence": "eyJfaWQiOiAiMWQ5YWQxNDliNzRjNDhmODM1Y2Q5Mjc5NTZkOWZkYzAiLCAic2NvcmUiOiAxLjExNDUxMzQyNjQ2OTEzNTl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.docusign.com/jobs/30082?lang=en-us",
+  "applyUrl": "https://careers.docusign.com/jobs/30107?lang=en-us",
   "companyDomain": "docusign.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
   "companyId": "DocuSign",
@@ -174,9 +174,19 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "commercial-account-executive",
-    "label": "Commercial Account Executive",
-    "value": "commercial-account-executive"
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    }
   ],
   "jobFunctions": [
@@ -187,81 +197,21 @@
    }
   ],
   "locations": [
-   "Seattle, Washington",
-   "Chicago, Illinois"
+   "Seattle, Washington"
   ],
   "normalizedLocations": [
    {
     "id": "Seattle, Washington",
     "label": "Seattle, Washington",
     "value": "Seattle, Washington"
-   },
-   {
-    "id": "Chicago, Illinois",
-    "label": "Chicago, Illinois",
-    "value": "Chicago, Illinois"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 48.5, 'maxValue': 66.65, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 26.3, 'maxValue': 38.5, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Client Relations",
-    "label": "Client Relations",
-    "value": "resume:Client Relations"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Sales Development",
-    "label": "Sales Development",
-    "value": "resume:Sales Development"
-   },
-   {
-    "id": "resume:SaaS Sales",
-    "label": "SaaS Sales",
-    "value": "resume:SaaS Sales"
-   },
-   {
-    "id": "resume:Business Acumen",
-    "label": "Business Acumen",
-    "value": "resume:Business Acumen"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Client Relations",
-    "label": "Client Relations",
-    "value": "resume:Client Relations"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Sales Development",
-    "label": "Sales Development",
-    "value": "resume:Sales Development"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:SaaS Sales",
-    "label": "SaaS Sales",
-    "value": "resume:SaaS Sales"
-   },
-   {
-    "id": "resume:Business Acumen",
-    "label": "Business Acumen",
-    "value": "resume:Business Acumen"
-   },
-   {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:SMB Sales",
+    "label": "SMB Sales",
+    "value": "resume:SMB Sales"
    },
    {
     "id": "resume:Learning and Development",
@@ -269,9 +219,63 @@
     "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
+   },
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:SMB Sales",
+    "label": "SMB Sales",
+    "value": "resume:SMB Sales"
+   },
+   {
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
+   },
+   {
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Linkedin Sales Navigator",
+    "label": "Linkedin Sales Navigator",
+    "value": "resume:Linkedin Sales Navigator"
    }
   ],
   "manager": false,
@@ -290,24 +294,19 @@
     "value": "West Coast"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
    },
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -324,24 +323,24 @@
     "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-08-14T17:39:57Z",
-  "title": "Sr. Account Executive, Commercial Sales GEOS",
-  "url": "https://careers.docusign.com/jobs/30082?lang=en-us",
-  "jobId": "30082",
+  "timeStamp": "2026-08-14T17:37:57Z",
+  "title": "Account Executive, Small to Medium Business",
+  "url": "https://careers.docusign.com/jobs/30107?lang=en-us",
+  "jobId": "30107",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1921352014544, 'matchScore': 0, 'ageScore': 0.9921352014544753, 'richnessScore': 2}",
+  "scores": "{'score': 1001.179693524539, 'matchScore': 0, 'ageScore': 0.9796935245389661, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },

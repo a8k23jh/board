@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-15T09:45:26Z",
+ "run": "2026-08-15T10:43:48Z",
  "homepage": {
   "status": 200,
   "bytes": 21432
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TvXnKLnRyR\u2026",
+  "session.sig": "q6I5E0dr9f\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjc3YTMzOTVlMmNkZTc0ZWJiNTY4NjdmODE3M2M3YzEiLCAic2NvcmUiOiAxLjExOTQzNDQ0MTQzMzI1NjJ9"
+   "sequence": "eyJfaWQiOiAiYjE0NDRiNWU1NGEzMjYxMDJkMGQ2MzIxNTFjYmRmZWIiLCAic2NvcmUiOiAxLjEyMDc1MDE5MzA0OTM4MjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/captivateiq/2dfeca0d-3a27-41e1-a6a9-cc19b785bc6b?lever-source%5B%5D=jobs.bvp.com",
+  "applyUrl": "https://jobs.lever.co/captivateiq/7db2103f-576d-42b9-b496-b532f450c3ee?lever-source%5B%5D=jobs.bvp.com",
   "companyDomain": "captivateiq.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/38cc60bf74d750e14fddc734b5c7ffb0_320_160?Expires=1861920000&Signature=hH3yceFmYb4gL3iy~giCkiv46duW7sycYRGlOCXAzTpoY29ejKDu4",
   "companyId": "CaptivateIQ",
@@ -176,12 +176,18 @@
   ],
   "jobTypes": [
    {
-    "id": "director-project-management",
-    "label": "Director, Project Management",
-    "value": "director-project-management"
+    "id": "customer-success-mananger",
+    "label": "Customer Success Manager",
+    "value": "customer-success-mananger"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
+   }
+  ],
   "locations": [
    "Remote USA"
   ],
@@ -192,92 +198,92 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Software Project Management",
-    "label": "Software Project Management",
-    "value": "resume:Software Project Management"
+    "id": "resume:Strategic Planning",
+    "label": "Strategic Planning",
+    "value": "resume:Strategic Planning"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
-   },
-   {
-    "id": "resume:ICM",
-    "label": "ICM",
-    "value": "resume:ICM"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Business Transformation",
+    "label": "Business Transformation",
+    "value": "resume:Business Transformation"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Software Project Management",
-    "label": "Software Project Management",
-    "value": "resume:Software Project Management"
+    "id": "resume:Strategic Planning",
+    "label": "Strategic Planning",
+    "value": "resume:Strategic Planning"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
-   },
-   {
-    "id": "resume:ICM",
-    "label": "ICM",
-    "value": "resume:ICM"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Business Transformation",
+    "label": "Business Transformation",
+    "value": "resume:Business Transformation"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
-   },
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
-   },
-   {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
    }
   ],
-  "manager": true,
+  "preferredSkills": [
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
+   },
+   {
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
+   },
+   {
+    "id": "resume:ICM",
+    "label": "ICM",
+    "value": "resume:ICM"
+   },
+   {
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
+   }
+  ],
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
@@ -305,24 +311,24 @@
     "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-08-14T21:23:43.470000Z",
-  "title": "Director of Project Management",
-  "url": "https://jobs.lever.co/captivateiq/2dfeca0d-3a27-41e1-a6a9-cc19b785bc6b",
-  "jobId": "2dfeca0d-3a27-41e1-a6a9-cc19b785bc6b",
+  "timeStamp": "2026-08-14T23:18:55.616000Z",
+  "title": "Senior Customer Success Manager - Commercial",
+  "url": "https://jobs.lever.co/captivateiq/7db2103f-576d-42b9-b496-b532f450c3ee",
+  "jobId": "7db2103f-576d-42b9-b496-b532f450c3ee",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1966656696628, 'matchScore': 0, 'ageScore': 0.9966656696628087, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1875475638781, 'matchScore': 0, 'ageScore': 0.9875475638780864, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior"
   ],
   "isFeatured": false
  },

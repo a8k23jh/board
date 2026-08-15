@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-08-15T09:45:26Z",
+ "run": "2026-08-15T10:43:48Z",
  "homepage": {
   "status": 200,
   "bytes": 16702
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "IIlmU3Z2WQ\u2026",
+  "session.sig": "wBA7xEvhtu\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTExMTYwYjkwM2Y5OWIxMDlkZTIzYWFjMGY0YWMyNDQiLCAic2NvcmUiOiAxLjA2NjQxNTI5MjMwMDE1NDR9"
+   "sequence": "eyJfaWQiOiAiZDBlYTY4MjQ3OTJkMWFmZjYwYTM3ZGY4OGUwZWE5MWYiLCAic2NvcmUiOiAxLjA1MzkzNzYyNDM3MTkxMzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,172 +144,166 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://secure.collage.co/jobs/diversio/64833",
-  "companyDomain": "diversio.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e1198953cfd84de31d9799aa6e327c6f_241_160?Expires=1861920000&Signature=ctV-088S-wGAbhDdp0QhSZ10~QDGZhyUOvGIiKSOhqrB69yevTJVw",
-  "companyId": "Diversio",
-  "companySlug": "diversio",
-  "companyName": "Diversio",
-  "companyStaffCount": 30,
+  "applyUrl": "http://carbonengineering.applytojob.com/apply/xH7sYjYm1J/Project-Coordinator-Temporary-Contract",
+  "companyDomain": "carbonengineering.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c52922cd149e8608528b6f0a07cf79c5_272_160?Expires=1861920000&Signature=bnBK7aZnIW107Yha2GyUWuomY4TZ41bP1zDpN5lAHTpYyw0POQamK",
+  "companyId": "Carbon Engineering",
+  "companySlug": "carbon-engineering",
+  "companyName": "Carbon Engineering",
+  "companyStaffCount": 189,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Engineering"
+  ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "project-coordinator",
+    "label": "Project Coordinator",
+    "value": "project-coordinator"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "India (Remote)"
+   "Squamish, BC, Canada"
   ],
   "normalizedLocations": [
    {
-    "id": "India",
-    "label": "India",
-    "value": "India"
+    "id": "Canada",
+    "label": "Canada",
+    "value": "Canada"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 12, 'maxValue': 25, 'currency': {'label': 'INR', 'value': 'INR'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 45, 'maxValue': 65, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Front-end Development",
+    "label": "Frontend Web Development",
+    "value": "resume:Front-end Development"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Intrusion detection system",
+    "label": "Intrusion detection system",
+    "value": "resume:Intrusion detection system"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:Engineering Design",
+    "label": "Engineering Design",
+    "value": "resume:Engineering Design"
    },
    {
-    "id": "resume:Django",
-    "label": "Django",
-    "value": "resume:Django"
+    "id": "resume:Climate Change",
+    "label": "Climate Change",
+    "value": "resume:Climate Change"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Front-end Development",
+    "label": "Frontend Web Development",
+    "value": "resume:Front-end Development"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Intrusion detection system",
+    "label": "Intrusion detection system",
+    "value": "resume:Intrusion detection system"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:Engineering Design",
+    "label": "Engineering Design",
+    "value": "resume:Engineering Design"
    },
    {
-    "id": "resume:Django",
-    "label": "Django",
-    "value": "resume:Django"
+    "id": "resume:Climate Change",
+    "label": "Climate Change",
+    "value": "resume:Climate Change"
    },
    {
-    "id": "resume:Data Structures",
-    "label": "Data Structures",
-    "value": "resume:Data Structures"
+    "id": "resume:Commercialization",
+    "label": "Commercialization",
+    "value": "resume:Commercialization"
    },
    {
-    "id": "resume:Data Processing",
-    "label": "Data Processing",
-    "value": "resume:Data Processing"
+    "id": "resume:Commissioning",
+    "label": "Commissioning",
+    "value": "resume:Commissioning"
    },
    {
-    "id": "resume:Git",
-    "label": "Git",
-    "value": "resume:Git"
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
-  "minYearsExp": 0,
-  "maxYearsExp": 3,
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 2,
+  "maxYearsExp": 5,
   "regions": [
    {
-    "id": "Asia Pacific",
-    "label": "Asia Pacific",
-    "value": "Asia Pacific"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "AI/ML",
-    "label": "AI/ML",
-    "value": "AI/ML"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
    },
    {
-    "id": "Business Services",
-    "label": "Business Services",
-    "value": "Business Services"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Renewables & Environment",
+    "label": "Renewables & Environment",
+    "value": "Renewables & Environment"
    }
   ],
-  "timeStamp": "2026-08-14T14:05:06Z",
-  "title": "Engineer I",
-  "url": "https://secure.collage.co/jobs/diversio/64833",
-  "jobId": "64833",
-  "remote": true,
+  "timeStamp": "2026-08-15T06:16:46Z",
+  "title": "Project Coordinator - Temporary Contract",
+  "url": "http://carbonengineering.applytojob.com/apply/xH7sYjYm1J/Project-Coordinator-Temporary-Contract",
+  "jobId": "job_20260813233309_GXBCDBBXFF11FX7A",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1874470125517, 'matchScore': 0, 'ageScore': 0.9874470125516975, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1961639220227, 'matchScore': 0, 'ageScore': 0.9961639220227624, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
