@@ -359,8 +359,9 @@ def fetch_consider(board, session, diag):
             out["job_count"] = len(js)
         return out
 
-    CURSOR_KEYS = ("searchAfter", "search_after", "cursor", "next", "nextCursor",
-                   "scrollId", "scroll_id", "after", "nextPageToken")
+    # "sequence" is Consider's actual cursor name: base64 of {"_id":…,"score":…}
+    CURSOR_KEYS = ("sequence", "searchAfter", "search_after", "cursor", "next",
+                   "nextCursor", "scrollId", "scroll_id", "after", "nextPageToken")
 
     def extract_cursor(resp):
         if not isinstance(resp, dict):
@@ -464,7 +465,7 @@ def fetch_consider(board, session, diag):
     if where_key:
         diag["search_mode"] = {"variant": f"cursor:{where_key[0]}.{where_key[1]}"}
         resp = resp0
-        for p in range(60):                          # up to ~6,000 jobs per board
+        for p in range(200):                         # sweep even 16k-job boards
             body = {**base_body(), "query": {"promoteFeatured": True}}
             if where_key[0] == "meta":
                 body["meta"][where_key[1]] = cursor
