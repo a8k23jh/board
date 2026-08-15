@@ -1,4 +1,121 @@
 {
  "board": "kleiner",
- "run": "2026-08-14T23:49:14Z"
+ "run": "2026-08-15T00:07:22Z",
+ "homepage": {
+  "status": 200,
+  "bytes": 19379
+ },
+ "slugs_tried": [
+  "kleiner-perkins",
+  "kleinerperkins",
+  "kleiner"
+ ],
+ "attempts": [
+  {
+   "endpoint": "https://jobs.kleinerperkins.com/api-boards/search-jobs",
+   "slug": "kleiner-perkins",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.kleinerperkins.com/api-boards/search-jobs",
+   "slug": "kleinerperkins",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.kleinerperkins.com/api-boards/search-jobs",
+   "slug": "kleiner",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.kleinerperkins.com/api-boards/search-jobs",
+   "slug": "kleiner-perkins",
+   "csrf_header": "x-csrf-token",
+   "status": 200,
+   "body_head": "{\"version\":{\"client\":{\"git\":\"c6d2fd7b5cb92ade06e980c227ee0b160b3992ef\",\"date\":\"2026-08-13T22:34:04.983Z\"},\"server\":{\"git\":\"c6d2fd7b5cb92ade06e980c227ee0b160b3992ef\",\"date\":\"2026-08-13T22:34:04.983Z\"}}"
+  }
+ ],
+ "cookies": {
+  "session": "eyJmbGFzaC\u2026",
+  "session.sig": "TkJQwLD7TW\u2026",
+  "AWSALBAPP-0": "AAAAAAAAAA\u2026",
+  "AWSALBAPP-1": "_remove_",
+  "AWSALBAPP-2": "_remove_",
+  "AWSALBAPP-3": "_remove_"
+ },
+ "token_endpoints": [
+  {
+   "path": "/api-boards/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/api-boards/csrf-token",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  }
+ ],
+ "csrf_candidates": [
+  {
+   "src": "html",
+   "len": 36
+  }
+ ],
+ "working": {
+  "endpoint": "https://jobs.kleinerperkins.com/api-boards/search-jobs",
+  "slug": "kleiner-perkins",
+  "csrf_header": [
+   "x-csrf-token"
+  ]
+ },
+ "search_probe": [
+  {
+   "variant": "query.searchQuery+promote",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.search",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.text",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.q",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "top.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.keywords",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  }
+ ],
+ "search_mode": {
+  "variant": "single-page"
+ }
 }
