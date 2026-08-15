@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-15T01:53:35Z",
+ "generated_at": "2026-08-15T03:08:47Z",
  "first_run": false,
  "boards": {
   "a16z": {
@@ -85,10 +85,10 @@
   "ivp": {
    "name": "IVP",
    "platform": "consider",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HTTPSConnectionPool(host='careers.ivp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+   "ok": true,
+   "fetched": 4112,
+   "matched": 60,
+   "error": null
   },
   "accel": {
    "name": "Accel",
@@ -150,7 +150,7 @@
    "name": "Jobs in VC (roles at VC firms)",
    "platform": "getro",
    "ok": true,
-   "fetched": 95,
+   "fetched": 94,
    "matched": 7,
    "error": null
   }
