@@ -832,6 +832,18 @@ def score_fit(job):
         if d:
             why.append(f"{job['metro']} {d:+d}")
 
+    # Real "minimum years of experience" from the board, when published.
+    mye = job.get("min_years_exp")
+    if mye is not None:
+        for band, d in sorted(FIT.get("years_exp_weights", {}).items(),
+                              key=lambda kv: int(kv[0].split("-")[0])):
+            lo_b, hi_b = (int(x) for x in band.split("-"))
+            if lo_b <= mye <= hi_b:
+                score += d
+                if d:
+                    why.append(f"wants {mye}+ yrs {d:+d}")
+                break
+
     lo = job.get("salary_min")
     target = FIT.get("target_salary_min_k")
     if lo and target:
@@ -897,10 +909,21 @@ def enrich(job, blob="", api=None):
                                                     and len(str(stage_api)) < 20 else None)) \
         if stage_api else parse_stage(blob)
 
+    # Consider's `stages` list is coarse — it labels an 83-person company
+    # "Growth" the same as a 5,000-person one. companyStaffCount is an exact
+    # number, so when the two disagree, trust the headcount and treat the stage
+    # as unknown rather than applying a late-stage penalty to a small company.
+    if job["stage"] in ("Growth/Late", "Public") and job.get("company_size") in ("1-10", "11-50", "51-200"):
+        job["stage_raw"] = job["stage"]
+        job["stage"] = None
+
     sen, yrs = infer_seniority(job.get("title", ""),
                                api.get("jobSeniorities") or api.get("considerLevels"))
     job["seniority"] = sen
-    job["years_exp"] = yrs
+    # A real minimum-years figure from the board beats inferring from the title.
+    mye = api.get("minYearsExp") or api.get("min_years_exp")
+    job["min_years_exp"] = int(mye) if isinstance(mye, (int, float)) and 0 <= mye <= 40 else None
+    job["years_exp"] = f"{job['min_years_exp']}+" if job["min_years_exp"] else yrs
 
     job["remote_ok"] = bool(re.search(r"\bremote\b", blob, re.I)) or job.get("metro") == "Remote"
     return job
