@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "23 * * * *"   # hourly (GitHub may delay a few minutes)
   workflow_dispatch:
+  push:
+    paths:                  # code/config pushes auto-run the scraper;
+      - "scraper/**"        # bot data commits (data/, docs/) do NOT re-trigger
+      - "config.json"
+      - "boards.json"
+      - ".github/workflows/scrape.yml"
 
 permissions:
   contents: write
@@ -16,7 +22,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 40      # a hung board can't burn the whole 6h default
+    timeout-minutes: 60      # full Consider sweep across 29 boards needs headroom
     env:
       PYTHONUNBUFFERED: "1"  # stream per-board progress into the live log
     steps:
