@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-16T15:41:29Z",
+ "run": "2026-08-16T16:46:11Z",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "rBzHPOzwB7\u2026",
+  "session.sig": "EQim77hUgC\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODc5NTNiYmYxMDRkMTlhNjZiMDhjYjQ2ZTA4ZDdjNmUiLCAic2NvcmUiOiAxLjA3NzMwODM4NzM5MjM2MTJ9"
+   "sequence": "eyJfaWQiOiAiYzc0MGI2Y2IxNTJlNDFhZmVkN2U0NzNlNjI5Y2QxNDQiLCAic2NvcmUiOiAxLjA3MzEzMzY2MDEwNTcxfQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -206,54 +206,32 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 46.03, 'maxValue': 99.14, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
-   },
-   {
-    "id": "resume:NPS",
-    "label": "NPS",
-    "value": "resume:NPS"
-   },
-   {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
-   },
-   {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
-   },
-   {
     "id": "resume:Treatment",
     "label": "Treatment",
     "value": "resume:Treatment"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
    },
    {
-    "id": "resume:NPS",
-    "label": "NPS",
-    "value": "resume:NPS"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    },
    {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
-   }
-  ],
-  "preferredSkills": [
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
+   },
    {
     "id": "resume:CVS",
     "label": "CVS",
     "value": "resume:CVS"
    },
+   {
+    "id": "resume:NPS",
+    "label": "NPS",
+    "value": "resume:NPS"
+   }
+  ],
+  "requiredSkills": [
    {
     "id": "resume:Treatment",
     "label": "Treatment",
@@ -268,6 +246,28 @@
     "id": "resume:iPad",
     "label": "iPad",
     "value": "resume:iPad"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:CVS",
+    "label": "CVS",
+    "value": "resume:CVS"
+   },
+   {
+    "id": "resume:NPS",
+    "label": "NPS",
+    "value": "resume:NPS"
+   },
+   {
+    "id": "resume:Health/Human Services",
+    "label": "Health/Human Services",
+    "value": "resume:Health/Human Services"
+   },
+   {
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    }
   ],
   "manager": false,
@@ -285,14 +285,14 @@
   ],
   "regions": [
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "North America",
@@ -326,20 +326,10 @@
   "jobId": "R1011217",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1511842966655, 'matchScore': 0, 'ageScore': 0.9511842966655093, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1469708350363, 'matchScore': 0, 'ageScore': 0.9469708350362654, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
-   },
    {
     "id": "senior",
     "label": "Senior",
@@ -349,13 +339,23 @@
     "id": "junior",
     "label": "Junior",
     "value": "junior"
+   },
+   {
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "expert",
    "senior",
-   "junior"
+   "junior",
+   "expert",
+   "mid"
   ],
   "isFeatured": false
  },
