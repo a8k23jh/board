@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-16T21:39:22Z",
+ "run": "2026-08-16T22:42:16Z",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "lDzdJlYLe0\u2026",
+  "session.sig": "m2IeN264OR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmVjZWViZjM1NWQ4ZWEzMDNmZjc0OTg5N2VjNGVjMDEiLCAic2NvcmUiOiAxLjA2ODQ1MTQxNjEzNTAzMX0="
+   "sequence": "eyJfaWQiOiAiYzJiYmVlZDJiNTM5YTNlN2MzNjQ5YzQ5M2FmYTEzNTgiLCAic2NvcmUiOiAxLjA2NDU3NzIzNjEwNDU1Mjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -176,14 +176,14 @@
   ],
   "jobTypes": [
    {
-    "id": "nurse",
-    "label": "Nurse",
-    "value": "nurse"
-   },
-   {
     "id": "physician-assistant",
     "label": "Physician Assistant",
     "value": "physician-assistant"
+   },
+   {
+    "id": "nurse",
+    "label": "Nurse",
+    "value": "nurse"
    }
   ],
   "jobFunctions": [
@@ -206,14 +206,9 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 46.03, 'maxValue': 99.14, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
-   },
-   {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    },
    {
     "id": "resume:Health/Human Services",
@@ -226,38 +221,38 @@
     "value": "resume:NPS"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
+   },
+   {
+    "id": "resume:CVS",
+    "label": "CVS",
+    "value": "resume:CVS"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
-   },
-   {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    },
    {
     "id": "resume:Health/Human Services",
     "label": "Health/Human Services",
     "value": "resume:Health/Human Services"
-   }
-  ],
-  "preferredSkills": [
+   },
    {
     "id": "resume:NPS",
     "label": "NPS",
     "value": "resume:NPS"
-   },
+   }
+  ],
+  "preferredSkills": [
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
    },
    {
     "id": "resume:CVS",
@@ -265,9 +260,14 @@
     "value": "resume:CVS"
    },
    {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
+   },
+   {
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    }
   ],
   "manager": false,
@@ -326,14 +326,14 @@
   "jobId": "R1011217",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1428994617685, 'matchScore': 0, 'ageScore': 0.9428994617685185, 'richnessScore': 2}",
+  "scores": "{'score': 1001.137858437882, 'matchScore': 0, 'ageScore': 0.9378584378819445, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    },
    {
     "id": "senior",
@@ -346,16 +346,16 @@
     "value": "junior"
    },
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
    }
   ],
   "jobSeniorityIds": [
-   "expert",
+   "mid",
    "senior",
    "junior",
-   "mid"
+   "expert"
   ],
   "isFeatured": false
  },
