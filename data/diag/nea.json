@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-08-15T23:39:45Z",
+ "run": "2026-08-16T02:00:54Z",
  "homepage": {
   "status": 200,
   "bytes": 20607
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "C7rbH-Wpsk\u2026",
+  "session.sig": "HacPfkeafR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzc0MzIyYTY5OWMxZTI3ZDFkODk3NTdiODYzY2JkMGUiLCAic2NvcmUiOiAxLjEwNTI4NjU3NTY1ODE3OTF9"
+   "sequence": "eyJfaWQiOiAiMDg1ZGI1Nzg1M2I1ZmQ1ZDZmMjYwOWJiMjRlN2ZmZGUiLCAic2NvcmUiOiAxLjExMjY0OTg2MDQwNTg2NH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,138 +136,125 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDqV85t4og39Sf18FcNxnMWM?utm_source=careers.nea.com",
-  "companyDomain": "launchfirestorm.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e188c39c312914da9e7993fda04e236c_320_160?Expires=1861920000&Signature=Pm7J-k33~dn1h7QkoqdLumPZldorJ59U2n6Yki9r684MrWcuwsfhz",
-  "companyId": "Firestorm",
-  "companySlug": "firestorm",
-  "companyName": "Firestorm",
-  "companyStaffCount": 192,
+  "applyUrl": "https://job-boards.greenhouse.io/ionq/jobs/6144665004",
+  "companyDomain": "ionq.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/eac3dab0dc4e22760c884b93dd53b174_240_160?Expires=1861920000&Signature=WBHbtWEVhzDU8gCtic2a028IcKOXsr~FJTu6CAUilCmioCoyzjVx7",
+  "companyId": "IonQ",
+  "companySlug": "ionq",
+  "companyName": "IonQ",
+  "companyStaffCount": 1252,
   "considerHosted": false,
   "departments": [
-   "Operations"
+   "Engineering & Technology"
   ],
-  "jobTypes": [
-   {
-    "id": "ciso",
-    "label": "CISO",
-    "value": "ciso"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "San Diego, CA"
+   "Santa Clara, California, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "San Diego, California",
-    "label": "San Diego, California",
-    "value": "San Diego, California"
+    "id": "Santa Clara, California",
+    "label": "Santa Clara, California",
+    "value": "Santa Clara, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 187945, 'maxValue': 269503, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Information Security",
-    "label": "Information Security",
-    "value": "resume:Information Security"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Security Management",
-    "label": "Security Management",
-    "value": "resume:Security Management"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Anomaly Detection",
+    "label": "Anomaly Detection",
+    "value": "resume:Anomaly Detection"
    },
    {
-    "id": "resume:Vulnerability Management",
-    "label": "Vulnerability Management",
-    "value": "resume:Vulnerability Management"
+    "id": "resume:Performance Optimization",
+    "label": "Performance Optimization",
+    "value": "resume:Performance Optimization"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Information Security",
-    "label": "Information Security",
-    "value": "resume:Information Security"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Security Management",
-    "label": "Security Management",
-    "value": "resume:Security Management"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Anomaly Detection",
+    "label": "Anomaly Detection",
+    "value": "resume:Anomaly Detection"
    },
    {
-    "id": "resume:Vulnerability Management",
-    "label": "Vulnerability Management",
-    "value": "resume:Vulnerability Management"
+    "id": "resume:Performance Optimization",
+    "label": "Performance Optimization",
+    "value": "resume:Performance Optimization"
    },
    {
-    "id": "resume:CISSP",
-    "label": "CISSP",
-    "value": "resume:CISSP"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Confluence",
+    "label": "Confluence",
+    "value": "resume:Confluence"
    },
    {
-    "id": "resume:Government Contracting",
-    "label": "Government Contracting",
-    "value": "resume:Government Contracting"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 12,
   "regions": [
    {
     "id": "North America",
@@ -287,52 +274,36 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
-   },
-   {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-08-15T00:16:34Z",
-  "title": "Director of Security (Copy)",
-  "url": "https://jobs.gem.com/firestorm/am9icG9zdDqV85t4og39Sf18FcNxnMWM",
-  "jobId": "am9icG9zdDqV85t4og39Sf18FcNxnMWM",
+  "timeStamp": "2026-08-15T17:15:36Z",
+  "title": "Senior Staff Service Reliability and Operational Intelligence Engineer",
+  "url": "https://job-boards.greenhouse.io/ionq/jobs/6144665004",
+  "jobId": "6144665004",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1714921375112, 'matchScore': 0, 'ageScore': 0.9714921375111882, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1905592354309, 'matchScore': 0, 'ageScore': 0.9905592354309414, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior"
   ],
   "isFeatured": false
  },
