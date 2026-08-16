@@ -1,6 +1,7 @@
 {
  "board": "kleiner",
- "run": "2026-08-16T11:40:27Z",
+ "run": "2026-08-16T13:05:43Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
  "homepage": {
   "status": 200,
   "bytes": 19379
@@ -42,7 +43,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "FR8X59WQ90\u2026",
+  "session.sig": "8OoEOwtEDB\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +128,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzJhYWNjZDljNGVjNjZkOTYxZjAwZWMzYzk4YWE2NjMiLCAic2NvcmUiOiAxLjA1NDkxMjU3MjA0MjA1MjV9"
+   "sequence": "eyJfaWQiOiAiZjRjNzA3NzMyMGZmNzVhNDU5OTk1NmNlMGUwYjg2NjgiLCAic2NvcmUiOiAxLjA1MDI2NjI5OTE2MTY1MTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -187,9 +188,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 136000, 'maxValue': 167000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Supplier Quality",
+    "label": "Supplier Quality",
+    "value": "resume:Supplier Quality"
    },
    {
     "id": "resume:Quality Management",
@@ -197,9 +198,9 @@
     "value": "resume:Quality Management"
    },
    {
-    "id": "resume:Root Cause Analysis",
-    "label": "Root Cause Analysis",
-    "value": "resume:Root Cause Analysis"
+    "id": "resume:PPAP",
+    "label": "PPAP",
+    "value": "resume:PPAP"
    },
    {
     "id": "resume:Finite Automata",
@@ -207,16 +208,16 @@
     "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:Supplier Quality",
-    "label": "Supplier Quality",
-    "value": "resume:Supplier Quality"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Supplier Quality",
+    "label": "Supplier Quality",
+    "value": "resume:Supplier Quality"
    },
    {
     "id": "resume:Quality Management",
@@ -224,9 +225,9 @@
     "value": "resume:Quality Management"
    },
    {
-    "id": "resume:Root Cause Analysis",
-    "label": "Root Cause Analysis",
-    "value": "resume:Root Cause Analysis"
+    "id": "resume:PPAP",
+    "label": "PPAP",
+    "value": "resume:PPAP"
    }
   ],
   "preferredSkills": [
@@ -236,24 +237,24 @@
     "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:Supplier Quality",
-    "label": "Supplier Quality",
-    "value": "resume:Supplier Quality"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
+   },
+   {
+    "id": "resume:SAP",
+    "label": "SAP",
+    "value": "resume:SAP"
+   },
+   {
+    "id": "resume:MRP",
+    "label": "MRP",
+    "value": "resume:MRP"
    },
    {
     "id": "resume:ISO",
     "label": "ISO",
     "value": "resume:ISO"
-   },
-   {
-    "id": "resume:Statistical Process Control",
-    "label": "SPC",
-    "value": "resume:Statistical Process Control"
-   },
-   {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
    }
   ],
   "manager": true,
@@ -304,7 +305,7 @@
   "jobId": "d4fb86c3-2238-4752-be19-889795c05383",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1859516519703, 'matchScore': 0, 'ageScore': 0.9859516519702932, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1814700944992, 'matchScore': 0, 'ageScore': 0.9814700944992284, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -321,5 +322,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
