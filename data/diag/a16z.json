@@ -1,6 +1,6 @@
 {
  "board": "a16z",
- "run": "2026-08-17T11:45:42Z",
+ "run": "2026-08-17T13:11:49Z",
  "homepage": {
   "status": 200,
   "bytes": 23989
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "BpOjHhO6yL\u2026",
+  "session.sig": "ymGRVgrhDe\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzMzYTBiZTFlNzkxZmNiODk3NTkwMGU0YzQ5MWQyMTEiLCAic2NvcmUiOiAxLjEwOTY3ODQzMDU1MDE1NDR9"
+   "sequence": "eyJfaWQiOiAiYzFmMTQ5YWMwMzQ0NGQxNGQ4YWY0YWM5YmMxNzRhNjQiLCAic2NvcmUiOiAxLjEwNTIyMTU0MDgyODcwMzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,35 +147,25 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/mirage/48f6319b-9db8-45ae-b328-1f59547cde95?utm_source=jobs.a16z.com",
-  "companyDomain": "mirage.app",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8ba15251f646c71e0f56365dde7147e0_224_160?Expires=1861920000&Signature=qHFpRJYDz2QeWvmRKSh65Bj1uOJgAg6X1FfdaXKcjkJvJP9g7YbIx",
-  "companyId": "Mirage",
-  "companySlug": "mirage",
-  "companyName": "Mirage",
-  "companyStaffCount": 141,
+  "applyUrl": "https://jobs.ashbyhq.com/openai/5ed99d32-eed1-4679-b7b4-037de073e57c?utm_source=jobs.a16z.com",
+  "companyDomain": "openai.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/95d2e276b6125449ad3295d636443d97_241_160?Expires=1861920000&Signature=I2hBn14tW7MSNGXZaoA1bpR0wPWFKyAdNPg2AblZ3s46cAbK61XbM",
+  "companyId": "OpenAI",
+  "companySlug": "openai",
+  "companyName": "OpenAI",
+  "companyStaffCount": 10166,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Codex - Engineering"
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
-   },
-   {
-    "id": "research-scientist",
-    "label": "Research Scientist",
-    "value": "research-scientist"
+    "id": "fullstack-engineer",
+    "label": "Full Stack Engineer",
+    "value": "fullstack-engineer"
    }
   ],
   "jobFunctions": [
-   {
-    "id": "Science",
-    "label": "Science",
-    "value": "Science"
-   },
    {
     "id": "Engineering",
     "label": "Engineering",
@@ -183,86 +173,86 @@
    }
   ],
   "locations": [
-   "New York, NY, USA",
-   "Union Square, New York City"
+   "San Francisco, California, United States",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 275000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 293000, 'maxValue': 385000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
+   },
+   {
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
+   },
+   {
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
+   },
+   {
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
+   },
+   {
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
+   },
+   {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Low Latency",
-    "label": "Low Latency",
-    "value": "resume:Low Latency"
-   },
-   {
-    "id": "resume:Natural Language Processing",
-    "label": "Natural Language Processing",
-    "value": "resume:Natural Language Processing"
+    "id": "resume:Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "resume:Enterprise Software"
    }
   ],
   "manager": false,
@@ -270,30 +260,21 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
-    3,
-    4
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 7,
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -303,9 +284,9 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -321,18 +302,18 @@
     "value": "AI"
    },
    {
-    "id": "Consumer",
-    "label": "Consumer",
-    "value": "Consumer"
+    "id": "Enterprise",
+    "label": "Enterprise",
+    "value": "Enterprise"
    }
   ],
   "timeStamp": "2026-08-17T00:00:00Z",
-  "title": "Research Engineer, Generative Video",
-  "url": "https://jobs.ashbyhq.com/mirage/48f6319b-9db8-45ae-b328-1f59547cde95",
-  "jobId": "48f6319b-9db8-45ae-b328-1f59547cde95",
+  "title": "Product Engineer, Full Stack - Agents",
+  "url": "https://jobs.ashbyhq.com/openai/5ed99d32-eed1-4679-b7b4-037de073e57c",
+  "jobId": "5ed99d32-eed1-4679-b7b4-037de073e57c",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1875692707597, 'matchScore': 0, 'ageScore': 0.9875692707596451, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1837532245598, 'matchScore': 0, 'ageScore': 0.9837532245597994, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

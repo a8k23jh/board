@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-08-17T11:45:42Z",
+ "run": "2026-08-17T13:11:49Z",
  "homepage": {
   "status": 200,
   "bytes": 19379
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "szG0ocxJEW\u2026",
+  "session.sig": "saK76Y2Xsz\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZmMxMDU4ZDA0NDQzNTU1ODMzZmU1YmZmMGRlY2VlNDciLCAic2NvcmUiOiAxLjAyMTI2MDE3NDkyMjQ1Mzd9"
+   "sequence": "eyJfaWQiOiAiZmMxMDU4ZDA0NDQzNTU1ODMzZmU1YmZmMGRlY2VlNDciLCAic2NvcmUiOiAxLjAxNzE4MDU1NzA4MTc5fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/mirage/48f6319b-9db8-45ae-b328-1f59547cde95?utm_source=jobs.kleinerperkins.com",
+  "applyUrl": "https://jobs.ashbyhq.com/mirage/05c94660-f8a4-4415-b497-694dd18828ab?utm_source=jobs.kleinerperkins.com",
   "companyDomain": "mirage.app",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8ba15251f646c71e0f56365dde7147e0_224_160?Expires=1861920000&Signature=qHFpRJYDz2QeWvmRKSh65Bj1uOJgAg6X1FfdaXKcjkJvJP9g7YbIx",
   "companyId": "Mirage",
@@ -180,14 +180,14 @@
   ],
   "jobFunctions": [
    {
-    "id": "Science",
-    "label": "Science",
-    "value": "Science"
-   },
-   {
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
+   },
+   {
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
    }
   ],
   "locations": [
@@ -209,19 +209,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 275000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Language Models",
+    "label": "Language Models",
+    "value": "resume:Language Models"
    },
    {
     "id": "resume:Machine Learning",
@@ -232,40 +227,35 @@
     "id": "resume:Research",
     "label": "Research",
     "value": "resume:Research"
+   },
+   {
+    "id": "resume:Natural Language Processing",
+    "label": "Natural Language Processing",
+    "value": "resume:Natural Language Processing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
+   },
+   {
+    "id": "resume:Language Models",
+    "label": "Language Models",
+    "value": "resume:Language Models"
+   },
    {
     "id": "resume:Machine Learning",
     "label": "Machine Learning",
     "value": "resume:Machine Learning"
-   },
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Research",
     "label": "Research",
     "value": "resume:Research"
-   },
-   {
-    "id": "resume:Low Latency",
-    "label": "Low Latency",
-    "value": "resume:Low Latency"
    },
    {
     "id": "resume:Natural Language Processing",
@@ -276,27 +266,12 @@
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ]
-  ],
-  "minYearsExp": 2,
+  "considerLevels": [],
   "regions": [
    {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    },
    {
     "id": "East Coast",
@@ -307,6 +282,11 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -335,12 +315,12 @@
    }
   ],
   "timeStamp": "2026-08-17T00:00:00Z",
-  "title": "Research Engineer, Generative Video",
-  "url": "https://jobs.ashbyhq.com/mirage/48f6319b-9db8-45ae-b328-1f59547cde95",
-  "jobId": "48f6319b-9db8-45ae-b328-1f59547cde95",
+  "title": "Research Engineer, Agentic Systems",
+  "url": "https://jobs.ashbyhq.com/mirage/05c94660-f8a4-4415-b497-694dd18828ab",
+  "jobId": "05c94660-f8a4-4415-b497-694dd18828ab",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1875692707597, 'matchScore': 0, 'ageScore': 0.9875692707596451, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1834122260104, 'matchScore': 0, 'ageScore': 0.9834122260104167, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
