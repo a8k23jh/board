@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-08-17T17:51:02Z",
+ "run": "2026-08-17T20:08:44Z",
  "homepage": {
   "status": 200,
   "bytes": 19379
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "3q54wOXT-k\u2026",
+  "session.sig": "NdXGwg0qOl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZmMxMDU4ZDA0NDQzNTU1ODMzZmU1YmZmMGRlY2VlNDciLCAic2NvcmUiOiAxLjAxMjg3MTQxNjQ4MTQ4MTZ9"
+   "sequence": "eyJfaWQiOiAiNTAxYTg0OTg3Njk4OGUwMWNlYWVjNGFjMjJhYWRlNGYiLCAic2NvcmUiOiAxLjAyMTU0MDQ4NjA5MTQzNTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
-   },
-   {
     "id": "research-scientist",
     "label": "Research Scientist",
     "value": "research-scientist"
+   },
+   {
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
@@ -209,19 +209,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 275000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Natural Language Processing",
-    "label": "Natural Language Processing",
-    "value": "resume:Natural Language Processing"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Low Latency",
+    "label": "Low Latency",
+    "value": "resume:Low Latency"
    },
    {
     "id": "resume:Infrastructure",
@@ -229,21 +219,31 @@
     "value": "resume:Infrastructure"
    },
    {
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
+   },
+   {
     "id": "resume:Machine Learning",
     "label": "Machine Learning",
     "value": "resume:Machine Learning"
-   }
-  ],
-  "requiredSkills": [
+   },
    {
     "id": "resume:Natural Language Processing",
     "label": "Natural Language Processing",
     "value": "resume:Natural Language Processing"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Low Latency",
+    "label": "Low Latency",
+    "value": "resume:Low Latency"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
     "id": "resume:Modeling",
@@ -253,14 +253,14 @@
   ],
   "preferredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
     "id": "resume:Machine Learning",
     "label": "Machine Learning",
     "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Natural Language Processing",
+    "label": "Natural Language Processing",
+    "value": "resume:Natural Language Processing"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -268,9 +268,9 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Low Latency",
-    "label": "Low Latency",
-    "value": "resume:Low Latency"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "manager": false,
@@ -289,6 +289,11 @@
   "minYearsExp": 2,
   "regions": [
    {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
@@ -302,11 +307,6 @@
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
@@ -340,7 +340,7 @@
   "jobId": "48f6319b-9db8-45ae-b328-1f59547cde95",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1798084728388, 'matchScore': 0, 'ageScore': 0.9798084728387346, 'richnessScore': 2}",
+  "scores": "{'score': 1001.175853757863, 'matchScore': 0, 'ageScore': 0.9758537578630401, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

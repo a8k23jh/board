@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-17T17:51:02Z",
+ "run": "2026-08-17T20:08:44Z",
  "homepage": {
   "status": 200,
   "bytes": 20235
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cAbxLDwri9\u2026",
+  "session.sig": "bL_5r-7Afa\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGVkZGQzZGNhYmQzNzM5MDExYTEwMDFhYmU5ZjI0MTUiLCAic2NvcmUiOiAxLjA5MTY2MjI0Mzk2OTEzNTd9"
+   "sequence": "eyJfaWQiOiAiOGYxMzk3NTFlMzM3ZjFmNDUwODZmOWVjMjYxZTMwNmIiLCAic2NvcmUiOiAxLjA5MzAxOTgxNzk0OTg0NTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,31 +144,33 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/cyera/17.008/commercial-account-executive---mid-atlantic/1C.06D",
-  "companyDomain": "cyera.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec6d92aec09bf6716dbbd9d50089a4ec_208_160?Expires=1861920000&Signature=hr9QoUI4iKYF8Hn~HoiixG3elVHvWPoII2QRBQjO8zeSQJpeGQNuP",
-  "companyId": "Cyera",
-  "companySlug": "cyera",
-  "companyName": "Cyera",
-  "companyStaffCount": 1605,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8721074002?gh_jid=8721074002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 19551,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Starlink Enterprise Sales & Account Management"
+  ],
   "jobTypes": [
    {
-    "id": "commercial-account-executive",
-    "label": "Commercial Account Executive",
-    "value": "commercial-account-executive"
+    "id": "partner-account-manager",
+    "label": "Partner Account Manager",
+    "value": "partner-account-manager"
    }
   ],
   "jobFunctions": [
@@ -179,85 +181,80 @@
    }
   ],
   "locations": [
-   "Mid-Atlantic (US)"
+   "Bastrop, TX"
   ],
   "normalizedLocations": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Texas",
+    "label": "Texas",
+    "value": "Texas"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 205000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Network Infrastructure",
+    "label": "Network Infrastructure",
+    "value": "resume:Network Infrastructure"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Aviation",
+    "label": "Aviation",
+    "value": "resume:Aviation"
    },
    {
-    "id": "resume:Google Cloud Platform",
-    "label": "Google Cloud Platform",
-    "value": "resume:Google Cloud Platform"
+    "id": "resume:Corporate Strategy",
+    "label": "Corporate Strategy",
+    "value": "resume:Corporate Strategy"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Network Infrastructure",
+    "label": "Network Infrastructure",
+    "value": "resume:Network Infrastructure"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Aviation",
+    "label": "Aviation",
+    "value": "resume:Aviation"
    },
    {
-    "id": "resume:Google Cloud Platform",
-    "label": "Google Cloud Platform",
-    "value": "resume:Google Cloud Platform"
+    "id": "resume:Corporate Strategy",
+    "label": "Corporate Strategy",
+    "value": "resume:Corporate Strategy"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    },
    {
-    "id": "resume:Creative Solutions",
-    "label": "Creative Solutions",
-    "value": "resume:Creative Solutions"
-   },
-   {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
    }
   ],
   "manager": false,
@@ -265,25 +262,30 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 10,
   "regions": [
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
    }
   ],
   "stages": [
@@ -291,39 +293,38 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-08-17T02:39:50Z",
-  "title": "Commercial Account Executive - Mid-Atlantic",
-  "url": "https://www.comeet.com/jobs/cyera/17.008/commercial-account-executive---mid-atlantic/1C.06D",
-  "jobId": "1C.06D",
+  "timeStamp": "2026-08-17T11:27:54Z",
+  "title": "Sr. Partnerships Manager (Starlink Business Aviation)",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8721074002?gh_jid=8721074002",
+  "jobId": "8721074002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1839585097612, 'matchScore': 0, 'ageScore': 0.9839585097611883, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1911107312616, 'matchScore': 0, 'ageScore': 0.9911107312615741, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

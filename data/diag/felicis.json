@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-08-17T17:51:02Z",
+ "run": "2026-08-17T20:08:44Z",
  "homepage": {
   "status": 200,
   "bytes": 25234
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "m5Cco0FI53\u2026",
+  "session.sig": "p0oowdLW55\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTgxMDYzMDQ2YWM3NTRmMWViMjI2OTUzMmE2MzVmNTIiLCAic2NvcmUiOiAxLjAxMjQwMjQ1MzQ2Nzk3ODN9"
+   "sequence": "eyJfaWQiOiAiM2FhOTU1OWNiNzEwODMyYzUwY2I3N2EzNjYxOGY5ZjgiLCAic2NvcmUiOiAxLjAwODkwNTgzNDYzODUwMzF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,88 +136,127 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.smartrecruiters.com/Canva/6000000001318025-staff-software-engineer-video-performance-bay-area-only-",
-  "companyDomain": "canva.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8144f77560d15b22676edf288aa5d016_176_160?Expires=1861920000&Signature=K6e-ByKJ1kkfQgQWKAdBc12FF~vTJprCP13Ku9MxDPLq5kh4Cb3K1",
-  "companyId": "Canva",
-  "companySlug": "canva",
-  "companyName": "Canva",
-  "companyStaffCount": 16046,
+  "applyUrl": "https://www.pindrop.com/careers/job-title/?gh_jid=8121676",
+  "companyDomain": "pindrop.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66db7ca011dabe5ff29c157b56a4251f_288_160?Expires=1861920000&Signature=l7jCjYdBtd-x9~FoRb61NXvycjznIWMO3dSQ1QJItmzYDl9x~JFGj",
+  "companyId": "Pindrop Security",
+  "companySlug": "pindrop-security",
+  "companyName": "Pindrop Security",
+  "companyStaffCount": 365,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Client Services"
+  ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "consultant",
+    "label": "Consultant",
+    "value": "consultant"
+   },
+   {
+    "id": "aml-investigator",
+    "label": "AML Investigator",
+    "value": "aml-investigator"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Consulting",
+    "label": "Consulting",
+    "value": "Consulting"
+   },
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
    }
   ],
   "locations": [
-   "San Francisco"
+   "US - Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 251000, 'maxValue': 329000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 109000, 'maxValue': 131000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Multithreading",
-    "label": "Multithreading",
-    "value": "resume:Multithreading"
+    "id": "resume:Thought Leadership",
+    "label": "Thought Leadership",
+    "value": "resume:Thought Leadership"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Fraud",
+    "label": "Fraud",
+    "value": "resume:Fraud"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:White Papers",
+    "label": "White Papers",
+    "value": "resume:White Papers"
    },
    {
-    "id": "resume:GLSL",
-    "label": "GLSL",
-    "value": "resume:GLSL"
+    "id": "resume:Global Teams",
+    "label": "Global Teams",
+    "value": "resume:Global Teams"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Multithreading",
-    "label": "Multithreading",
-    "value": "resume:Multithreading"
+    "id": "resume:Thought Leadership",
+    "label": "Thought Leadership",
+    "value": "resume:Thought Leadership"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Fraud",
+    "label": "Fraud",
+    "value": "resume:Fraud"
+   },
+   {
+    "id": "resume:White Papers",
+    "label": "White Papers",
+    "value": "resume:White Papers"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Global Teams",
+    "label": "Global Teams",
+    "value": "resume:Global Teams"
+   },
+   {
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
+   },
+   {
+    "id": "resume:Management Consulting",
+    "label": "Management Consulting",
+    "value": "resume:Management Consulting"
+   },
+   {
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -225,35 +264,8 @@
     "value": "resume:Artificial Intelligence"
    }
   ],
-  "preferredSkills": [
-   {
-    "id": "resume:GLSL",
-    "label": "GLSL",
-    "value": "resume:GLSL"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:iOS",
-    "label": "iOS",
-    "value": "resume:iOS"
-   },
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   }
-  ],
   "manager": false,
-  "consultant": false,
+  "consultant": true,
   "contractor": false,
   "considerLevels": [
    [
@@ -267,16 +279,6 @@
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -284,31 +286,25 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Design",
-    "label": "Design",
-    "value": "Design"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-08-16T23:56:17.725000Z",
-  "title": "Staff Software Engineer - Video Performance - (Bay area only)",
-  "url": "https://jobs.smartrecruiters.com/Canva/6000000001318025-staff-software-engineer-video-performance-bay-area-only-",
-  "jobId": "6000000001318025",
-  "remote": false,
+  "timeStamp": "2026-08-17T08:17:38Z",
+  "title": "Senior Fraud and Authentication Consultant",
+  "url": "https://www.pindrop.com/careers/job-title/?gh_jid=8121676",
+  "jobId": "8121676",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1801911458044, 'matchScore': 0, 'ageScore': 0.9801911458043981, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1869491833132, 'matchScore': 0, 'ageScore': 0.9869491833132716, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-17T17:51:02Z",
+ "run": "2026-08-17T20:08:44Z",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "wLj_ckGwHi\u2026",
+  "session.sig": "9Tfh1sL4Ph\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzQ5ZDBhZjA5MTQ0Y2Y0YzFlMzk4MjBiMjJlNjgyMDYiLCAic2NvcmUiOiAxLjA0NjA4ODY0MzAyMTk5MDd9"
+   "sequence": "eyJfaWQiOiAiY2IwYmRmNDExNzAwMTU1MjgwY2M0NDM0YzE3ZWQwNzUiLCAic2NvcmUiOiAxLjA2Mjc2NzQ2MzUwNjk0NDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,99 +163,116 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/roofstock/jobs/8719845002",
-  "companyDomain": "roofstock.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/54d722dd1c4872ce34b86006ffdcb0e3_288_160?Expires=1861920000&Signature=kE5lRJz-b0POVBxOnbK6CsRAiM5Tkriuz-QekCfWgZUG44ictJr8N",
-  "companyId": "Roofstock",
-  "companySlug": "roofstock",
-  "companyName": "Roofstock",
-  "companyStaffCount": 382,
+  "applyUrl": "https://boards.greenhouse.io/justworks/jobs/7914440?gh_jid=7914440",
+  "companyDomain": "justworks.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/53b0732e2508296561b7994e981e9873_256_160?Expires=1861920000&Signature=jpUYCUzpRAbunynZAa39zYnehCkOtBPQxtKwFu~wstUHTfmFkK59E",
+  "companyId": "Justworks",
+  "companySlug": "justworks",
+  "companyName": "Justworks",
+  "companyStaffCount": 1633,
   "considerHosted": false,
   "departments": [
-   "STR"
+   "Engineering"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
+   },
+   {
+    "id": "payroll-specialist",
+    "label": "Payroll Specialist",
+    "value": "payroll-specialist"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
+   },
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Pacific City, Oregon, United States"
+   "New York, New York"
   ],
   "normalizedLocations": [
    {
-    "id": "Oregon",
-    "label": "Oregon",
-    "value": "Oregon"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 22.5, 'maxValue': 22.5, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 188000, 'maxValue': 242000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    },
    {
-    "id": "resume:Asset Management",
-    "label": "Asset Management",
-    "value": "resume:Asset Management"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Rental Management",
-    "label": "Rental Management",
-    "value": "resume:Rental Management"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Real Estate",
-    "label": "Real Estate",
-    "value": "resume:Real Estate"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    },
    {
-    "id": "resume:Asset Management",
-    "label": "Asset Management",
-    "value": "resume:Asset Management"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Rental Management",
-    "label": "Rental Management",
-    "value": "resume:Rental Management"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Real Estate",
-    "label": "Real Estate",
-    "value": "resume:Real Estate"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:Mobile Programming",
-    "label": "Mobile Programming",
-    "value": "resume:Mobile Programming"
+    "id": "resume:Community Outreach",
+    "label": "Community Outreach",
+    "value": "resume:Community Outreach"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
-   },
-   {
-    "id": "resume:Property Management",
-    "label": "Property Management",
-    "value": "resume:Property Management"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    }
   ],
   "manager": false,
@@ -263,62 +280,71 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
-    3,
-    4
+    5,
+    6
    ]
   ],
-  "minYearsExp": 1,
+  "minYearsExp": 7,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
   "markets": [
    {
-    "id": "Real Estate",
-    "label": "Real Estate",
-    "value": "Real Estate"
+    "id": "Future of Work",
+    "label": "Future of Work",
+    "value": "Future of Work"
+   },
+   {
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-08-16T16:32:23Z",
-  "title": "Property Inspector",
-  "url": "https://job-boards.greenhouse.io/roofstock/jobs/8719845002",
-  "jobId": "8719845002",
+  "timeStamp": "2026-08-17T10:18:28Z",
+  "title": "Senior Software Engineer, International Payroll",
+  "url": "https://boards.greenhouse.io/justworks/jobs/7914440?gh_jid=7914440",
+  "jobId": "7914440",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.169383787015, 'matchScore': 0, 'ageScore': 0.9693837870150463, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1902422760937, 'matchScore': 0, 'ageScore': 0.99024227609375, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   }
+  ],
+  "jobSeniorityIds": [
+   "senior"
+  ],
   "isFeatured": false
  },
  "search_mode": {
