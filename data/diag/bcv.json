@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-17T21:45:51Z",
+ "run": "2026-08-17T22:45:21Z",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "yppGF-J4GO\u2026",
+  "session.sig": "7ITCDnegnL\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2IwYmRmNDExNzAwMTU1MjgwY2M0NDM0YzE3ZWQwNzUiLCAic2NvcmUiOiAxLjA2Mjc2NzQ2MzUwNjk0NDR9"
+   "sequence": "eyJfaWQiOiAiYzQ0YTJlMzBmOThlOTczOTRhNWZjYTZiZWUyNWQ5YjQiLCAic2NvcmUiOiAxLjA1MTA2MjY4MDMyOTg2MX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -176,26 +176,26 @@
   ],
   "jobTypes": [
    {
-    "id": "senior-software-engineer",
-    "label": "Senior Software Engineer",
-    "value": "senior-software-engineer"
-   },
-   {
     "id": "payroll-specialist",
     "label": "Payroll Specialist",
     "value": "payroll-specialist"
+   },
+   {
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
-   },
-   {
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
+   },
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    }
   ],
   "locations": [
@@ -211,58 +211,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 188000, 'maxValue': 242000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
     "id": "resume:SQL",
     "label": "SQL",
     "value": "resume:SQL"
-   },
-   {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
-   {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
    },
    {
     "id": "resume:Community Outreach",
@@ -270,9 +226,53 @@
     "value": "resume:Community Outreach"
    },
    {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
+   },
+   {
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
+   },
+   {
+    "id": "resume:Community Outreach",
+    "label": "Community Outreach",
+    "value": "resume:Community Outreach"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
+   },
+   {
     "id": "resume:Amazon Web Services",
     "label": "Amazon Web Services",
     "value": "resume:Amazon Web Services"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "manager": false,
@@ -287,16 +287,6 @@
   "minYearsExp": 7,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
@@ -305,6 +295,16 @@
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -332,7 +332,7 @@
   "jobId": "7914440",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1902422760937, 'matchScore': 0, 'ageScore': 0.99024227609375, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1863277468175, 'matchScore': 0, 'ageScore': 0.9863277468175154, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

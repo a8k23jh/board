@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-17T21:45:51Z",
+ "run": "2026-08-17T22:45:21Z",
  "homepage": {
   "status": 200,
   "bytes": 21432
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "FdXX3vGQXT\u2026",
+  "session.sig": "rZp2ijp8Om\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMGYwZDAzNzA4YzA4ZDgyOWU0ZGMxMzdmNThkMWE0YTUiLCAic2NvcmUiOiAxLjA3NDk0NDU2NjI3MjM3NjR9"
+   "sequence": "eyJfaWQiOiAiZmQ2YzFkNWI4OWJhYjRmZDcyODBjZTU2MGY4NGY2YTYiLCAic2NvcmUiOiAxLjA3MDgwMzAwMzkyNTE1NDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5135999008",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/4986159008",
   "companyDomain": "anthropic.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
   "companyId": "Anthropic",
@@ -190,36 +190,43 @@
   ],
   "locations": [
    "San Francisco, CA",
-   "New York City, NY"
+   "Seattle, WA",
+   "New York City, NY",
+   "Washington, DC"
   ],
   "normalizedLocations": [
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
    {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
    },
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
+   {
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 265000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:API Integrations",
-    "label": "API Integrations",
-    "value": "resume:API Integrations"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
     "id": "resume:Technical Account Management",
@@ -227,38 +234,43 @@
     "value": "resume:Technical Account Management"
    },
    {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Technical Account Management",
+    "label": "Technical Account Management",
+    "value": "resume:Technical Account Management"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
-   },
-   {
-    "id": "resume:API Integrations",
-    "label": "API Integrations",
-    "value": "resume:API Integrations"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Technical Account Management",
-    "label": "Technical Account Management",
-    "value": "resume:Technical Account Management"
-   },
-   {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
    },
    {
     "id": "resume:Biology",
@@ -266,14 +278,14 @@
     "value": "resume:Biology"
    },
    {
-    "id": "resume:Rallies/Marches",
-    "label": "Organizing Rallies/Marches",
-    "value": "resume:Rallies/Marches"
+    "id": "resume:API Integrations",
+    "label": "API Integrations",
+    "value": "resume:API Integrations"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:System Integrators",
+    "label": "System Integrators",
+    "value": "resume:System Integrators"
    }
   ],
   "manager": false,
@@ -292,6 +304,11 @@
   "minYearsExp": 6,
   "regions": [
    {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
@@ -302,19 +319,14 @@
     "value": "Pacific States"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -342,13 +354,13 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-08-17T10:04:47Z",
-  "title": "Customer Success Manager, HCLS",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5135999008",
-  "jobId": "5135999008",
+  "timeStamp": "2026-08-17T10:04:30Z",
+  "title": "Customer Success Manager, GSI",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/4986159008",
+  "jobId": "4986159008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1901004959147, 'matchScore': 0, 'ageScore': 0.9901004959147377, 'richnessScore': 2}",
+  "scores": "{'score': 1001.18596222913, 'matchScore': 0, 'ageScore': 0.9859622291300154, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

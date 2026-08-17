@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-08-17T21:45:51Z",
+ "run": "2026-08-17T22:45:21Z",
  "homepage": {
   "status": 200,
   "bytes": 21205
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "oMd1TUpRYB\u2026",
+  "session.sig": "10eicrF5Fi\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODU2OTUwNmMzNjVkMzkyOTUzYWMwNDUwMmQ3YmQyZTgiLCAic2NvcmUiOiAxLjA5ODk0NDQ5ODk3MTgzNjR9"
+   "sequence": "eyJfaWQiOiAiMmRiMTZiNTNmOTJiY2VhODBhOTRkYWQ2ZjhiZDMzNGEiLCAic2NvcmUiOiAxLjA5NDU0MTA0MzAwODEwMn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,114 +144,132 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/intenseye/d646b305-48ef-49a1-939b-ec517608636c?lever-source%5B%5D=jobs.lsvp.com",
-  "companyDomain": "intenseye.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b967967dbd0aea4c68955846f1482e9c_256_160?Expires=1861920000&Signature=o6Q9NT-qgEwBw0g2BUVoCN9H1tOqaTlGitOwuH02lgTSijC5LIqUx",
-  "companyId": "intenseye",
-  "companySlug": "intenseye",
-  "companyName": "intenseye",
-  "companyStaffCount": 119,
+  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8014/",
+  "companyDomain": "infoblox.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
+  "companyId": "Infoblox",
+  "companySlug": "infoblox",
+  "companyName": "Infoblox",
+  "companyStaffCount": 3026,
   "considerHosted": false,
   "departments": [],
   "jobTypes": [
    {
-    "id": "implementation-manager",
-    "label": "Implementation Manager",
-    "value": "implementation-manager"
+    "id": "solutions-architect",
+    "label": "Solutions Architect",
+    "value": "solutions-architect"
+   },
+   {
+    "id": "sales-engineer",
+    "label": "Sales Engineer",
+    "value": "sales-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "New York, New York"
+   "Denver, Colorado, United States",
+   "Arizona, United States",
+   "Home Office, Denver, CO, US"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Denver, Colorado",
+    "label": "Denver, Colorado",
+    "value": "Denver, Colorado"
+   },
+   {
+    "id": "Arizona",
+    "label": "Arizona",
+    "value": "Arizona"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 95000, 'maxValue': 100000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 155000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sales Engineering",
-    "label": "Sales Engineering",
-    "value": "resume:Sales Engineering"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:DHCP",
+    "label": "DHCP",
+    "value": "resume:DHCP"
    },
    {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
+    "id": "resume:Intrusion detection system",
+    "label": "Intrusion detection system",
+    "value": "resume:Intrusion detection system"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:DevOps",
+    "label": "DevOps",
+    "value": "resume:DevOps"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sales Engineering",
-    "label": "Sales Engineering",
-    "value": "resume:Sales Engineering"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:DHCP",
+    "label": "DHCP",
+    "value": "resume:DHCP"
    },
    {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
+    "id": "resume:Intrusion detection system",
+    "label": "Intrusion detection system",
+    "value": "resume:Intrusion detection system"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:DevOps",
+    "label": "DevOps",
+    "value": "resume:DevOps"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:EHS",
-    "label": "EHS",
-    "value": "resume:EHS"
+    "id": "resume:DNS",
+    "label": "DNS",
+    "value": "resume:DNS"
    },
    {
-    "id": "resume:Cloud Computing",
-    "label": "Cloud Computing",
-    "value": "resume:Cloud Computing"
+    "id": "resume:Routers",
+    "label": "Routers",
+    "value": "resume:Routers"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:IPv4",
+    "label": "IPv4",
+    "value": "resume:IPv4"
    }
   ],
   "manager": false,
@@ -268,82 +286,45 @@
    ]
   ],
   "minYearsExp": 3,
-  "maxYearsExp": 5,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "Public Safety",
-    "label": "Public Safety",
-    "value": "Public Safety"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-08-17T14:32:52.133000Z",
-  "title": "Implementation Manager",
-  "url": "https://jobs.lever.co/intenseye/d646b305-48ef-49a1-939b-ec517608636c",
-  "jobId": "d646b305-48ef-49a1-939b-ec517608636c",
-  "remote": false,
+  "timeStamp": "2026-08-17T18:16:59Z",
+  "title": "Sales Engineer - Mountain Region",
+  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8014/",
+  "jobId": "8014",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1949639100941, 'matchScore': 0, 'ageScore': 0.9949639100941358, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1973655916755, 'matchScore': 0, 'ageScore': 0.9973655916755402, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },
