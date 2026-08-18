@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-18T19:02:57Z",
+ "run": "2026-08-18T19:45:21Z",
  "homepage": {
   "status": 200,
   "bytes": 20235
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Mf8JttcyRr\u2026",
+  "session.sig": "-5yDNOAaT9\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjdjNGRlN2M5YmZlNDdiYjg5OTA1MzVhNGYxZmUzNWUiLCAic2NvcmUiOiAxLjE1NTM2MzkxODc1ODEwMn0="
+   "sequence": "eyJfaWQiOiAiOGI5NDdjMDk0OTI3MjczMTJkMGI4ZjUyYTEyYmM4NjAiLCAic2NvcmUiOiAxLjE1Mjc1ODMwMjMwNDAxMjR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,107 +144,137 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gongio/jobs/4700290006",
-  "companyDomain": "gong.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ae663910294ff6c1a0e863e5cf837d18_192_160?Expires=1861920000&Signature=OSsu4kyDtDHlFHzbNEfCix0e-4rc~FRCvmqRr1I0Ld65WH8UVCpvN",
-  "companyId": "Gong",
-  "companySlug": "gong",
-  "companyName": "Gong",
-  "companyStaffCount": 2558,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8726225002?gh_jid=8726225002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 19551,
   "considerHosted": false,
   "departments": [
-   "Technical"
+   "Application Software"
   ],
   "jobTypes": [
    {
-    "id": "customer-support",
-    "label": "Customer Support",
-    "value": "customer-support"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
+   },
+   {
+    "id": "employee-relations",
+    "label": "Employee Relations",
+    "value": "employee-relations"
+   },
+   {
+    "id": "fullstack-engineer",
+    "label": "Full Stack Engineer",
+    "value": "fullstack-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
+   },
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Salt Lake City"
+   "Hawthorne, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Salt Lake City, Utah",
-    "label": "Salt Lake City, Utah",
-    "value": "Salt Lake City, Utah"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 26.45, 'maxValue': 32.7, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
+    "id": "resume:Docker",
+    "label": "Docker",
+    "value": "resume:Docker"
    },
    {
-    "id": "resume:Telephony",
-    "label": "Telephony",
-    "value": "resume:Telephony"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Scripting",
-    "label": "Scripting",
-    "value": "resume:Scripting"
+    "id": "resume:Javascript Frameworks",
+    "label": "Javascript Frameworks",
+    "value": "resume:Javascript Frameworks"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
+    "id": "resume:Docker",
+    "label": "Docker",
+    "value": "resume:Docker"
    },
    {
-    "id": "resume:Telephony",
-    "label": "Telephony",
-    "value": "resume:Telephony"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Scripting",
-    "label": "Scripting",
-    "value": "resume:Scripting"
+    "id": "resume:Javascript Frameworks",
+    "label": "Javascript Frameworks",
+    "value": "resume:Javascript Frameworks"
+   },
+   {
+    "id": "resume:version control systems",
+    "label": "Version Control Systems",
+    "value": "resume:version control systems"
+   },
+   {
+    "id": "resume:Package Manager",
+    "label": "Package Manager",
+    "value": "resume:Package Manager"
+   },
+   {
+    "id": "resume:OOP",
+    "label": "OOP",
+    "value": "resume:OOP"
    }
   ],
   "manager": false,
@@ -260,11 +290,22 @@
     4
    ]
   ],
+  "minYearsExp": 2,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -272,41 +313,30 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
   "markets": [
    {
-    "id": "AI-Powered Applications",
-    "label": "AI-Powered Applications",
-    "value": "AI-Powered Applications"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
    },
    {
-    "id": "Agile Workplace",
-    "label": "Agile Workplace",
-    "value": "Agile Workplace"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-08-18T02:32:47Z",
-  "title": "Technical Support Associate",
-  "url": "https://job-boards.greenhouse.io/gongio/jobs/4700290006",
-  "jobId": "4700290006",
+  "timeStamp": "2026-08-18T11:22:34Z",
+  "title": "Full Stack Software Engineer, Employee Experience",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8726225002?gh_jid=8726225002",
+  "jobId": "8726225002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1828521110891, 'matchScore': 0, 'ageScore': 0.9828521110891204, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1906523583816, 'matchScore': 0, 'ageScore': 0.9906523583815586, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -314,7 +344,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "junior",
    "mid"
   ],
   "isFeatured": false

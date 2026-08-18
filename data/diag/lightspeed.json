@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-08-18T19:02:57Z",
+ "run": "2026-08-18T19:45:21Z",
  "homepage": {
   "status": 200,
   "bytes": 21205
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "D1I6m81M5u\u2026",
+  "session.sig": "dysRkOHq0B\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2M1YTJjNDAyNGViMGI4MDUyN2ZjZjU1NmYwZjg2MjciLCAic2NvcmUiOiAxLjE0NTYwMjcxMDQzMjA5ODd9"
+   "sequence": "eyJfaWQiOiAiNDJmYzAyMjBmMDJkNWY4YWNmMzEzZTc2NjY3OTZiNTAiLCAic2NvcmUiOiAxLjE0NTIyODIwNjQ4NDE4Mn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,21 +155,38 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/promptql/am9icG9zdDpxfi5lGwoOydXEtN3L0ua1?utm_source=jobs.lsvp.com",
-  "companyDomain": "hasura.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/77fb29a01f67b074787feee3b48dda24_212_160?Expires=1861920000&Signature=NosOVmKPZ6Igi~Xi8qnjU~6mMo6BcMPKG1WWMeUll0hOOVcHeyns3",
-  "companyId": "Hasura",
-  "companySlug": "hasura",
-  "companyName": "Hasura",
-  "companyStaffCount": 116,
+  "applyUrl": "https://job-boards.greenhouse.io/temporaltechnologies/jobs/5135482007",
+  "companyDomain": "temporal.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/24d63cb3ec1c8c947fcd5a482260e936_296_160?Expires=1861920000&Signature=r4Q1yKN24JKQUTZ0J8bAsxKBtADGVpGdsdGxyV52O6l-NMdERJFH7",
+  "companyId": "Temporal Technologies",
+  "companySlug": "temporal-technologies",
+  "companyName": "Temporal Technologies",
+  "companyStaffCount": 574,
   "considerHosted": false,
   "departments": [
-   "Marketing"
+   "Finance"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "accountant",
+    "label": "Accountant",
+    "value": "accountant"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
+   }
+  ],
   "locations": [
-   "San Francisco"
+   "San Francisco, CA"
   ],
   "normalizedLocations": [
    {
@@ -178,83 +195,93 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 75, 'maxValue': 90, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 275000, 'maxValue': 350000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:New Media",
-    "label": "New Media",
-    "value": "resume:New Media"
+    "id": "resume:Contract Negotiation",
+    "label": "Contract Negotiation",
+    "value": "resume:Contract Negotiation"
    },
    {
-    "id": "resume:Production Support",
-    "label": "Production Support",
-    "value": "resume:Production Support"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:Podcasting",
-    "label": "Podcasting",
-    "value": "resume:Podcasting"
+    "id": "resume:Developer Experience",
+    "label": "Developer Experience",
+    "value": "resume:Developer Experience"
    },
    {
-    "id": "resume:Motion Graphics",
-    "label": "Motion Graphics",
-    "value": "resume:Motion Graphics"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Employee Benefits",
+    "label": "Employee Benefits",
+    "value": "resume:Employee Benefits"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:New Media",
-    "label": "New Media",
-    "value": "resume:New Media"
+    "id": "resume:Contract Negotiation",
+    "label": "Contract Negotiation",
+    "value": "resume:Contract Negotiation"
    },
    {
-    "id": "resume:Production Support",
-    "label": "Production Support",
-    "value": "resume:Production Support"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:Podcasting",
-    "label": "Podcasting",
-    "value": "resume:Podcasting"
+    "id": "resume:Developer Experience",
+    "label": "Developer Experience",
+    "value": "resume:Developer Experience"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Motion Graphics",
-    "label": "Motion Graphics",
-    "value": "resume:Motion Graphics"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Employee Benefits",
+    "label": "Employee Benefits",
+    "value": "resume:Employee Benefits"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Big 4",
+    "label": "Big 4",
+    "value": "resume:Big 4"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:ASC 606",
+    "label": "ASC 606",
+    "value": "resume:ASC 606"
+   },
+   {
+    "id": "resume:IPO",
+    "label": "IPO",
+    "value": "resume:IPO"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 12,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -264,6 +291,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -281,22 +313,30 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
    }
   ],
-  "timeStamp": "2026-08-18T09:16:01Z",
-  "title": "Creator-in-Residence (Content, Video & Motion)",
-  "url": "https://jobs.gem.com/promptql/am9icG9zdDpxfi5lGwoOydXEtN3L0ua1",
-  "jobId": "am9icG9zdDpxfi5lGwoOydXEtN3L0ua1",
+  "timeStamp": "2026-08-18T10:23:21Z",
+  "title": "Vice President, Global Corporate Controller",
+  "url": "https://job-boards.greenhouse.io/temporaltechnologies/jobs/5135482007",
+  "jobId": "5135482007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1920218508399, 'matchScore': 0, 'ageScore': 0.992021850839892, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1903085628838, 'matchScore': 0, 'ageScore': 0.9903085628838735, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "vp",
+    "label": "VP/SVP",
+    "value": "vp"
+   }
+  ],
+  "jobSeniorityIds": [
+   "vp"
+  ],
   "isFeatured": false
  },
  "search_mode": {
