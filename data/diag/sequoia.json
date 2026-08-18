@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-18T05:50:10Z",
+ "run": "2026-08-18T07:10:35Z",
  "homepage": {
   "status": 200,
   "bytes": 20235
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "3QmP7KYIXH\u2026",
+  "session.sig": "hUgl9qtRZu\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjVjYjI2MjQxZDE4YWM2NDNhNjNkMDFkZWJjNzRhNWUiLCAic2NvcmUiOiAxLjA5MzQwMzYwNDExNzI4Mzl9"
+   "sequence": "eyJfaWQiOiAiNmI4OGRiMzA1YTM3NmNiZGQwODIxOTk4OTVmNzdjYmEiLCAic2NvcmUiOiAxLjE1ODkyNDI5NjE5NzE0NX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/peregrinetechnologies/jobs/4725059005?gh_src=b1c2e36b5us",
+  "applyUrl": "https://job-boards.greenhouse.io/peregrinetechnologies/jobs/4725060005?gh_src=b1c2e36b5us",
   "companyDomain": "peregrine.io",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e33e1bdde2649dbc29d3cbd91bf15126_288_160?Expires=1861920000&Signature=qSro3HxDcLcqaoIARiyBGAoJPsos82GdEvSXMfgNBy9rEgfW5lVgo",
   "companyId": "Peregrine",
@@ -181,75 +181,70 @@
    }
   ],
   "locations": [
-   "San Francisco, CA"
+   "Washington, D.C."
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Account Based Marketing",
+    "label": "Account Based Marketing",
+    "value": "resume:Account Based Marketing"
+   },
+   {
+    "id": "resume:Executive Management",
+    "label": "Executive Management",
+    "value": "resume:Executive Management"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   },
+   {
+    "id": "resume:Case Studies",
+    "label": "Case Studies",
+    "value": "resume:Case Studies"
    },
    {
     "id": "resume:Salesforce",
     "label": "Salesforce",
     "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
-   },
-   {
-    "id": "resume:LEE Advocacy",
-    "label": "Advocacy",
-    "value": "resume:LEE Advocacy"
-   },
-   {
-    "id": "resume:Field Marketing",
-    "label": "Field Marketing",
-    "value": "resume:Field Marketing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Account Based Marketing",
+    "label": "Account Based Marketing",
+    "value": "resume:Account Based Marketing"
+   },
+   {
+    "id": "resume:Executive Management",
+    "label": "Executive Management",
+    "value": "resume:Executive Management"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Case Studies",
+    "label": "Case Studies",
+    "value": "resume:Case Studies"
    },
    {
     "id": "resume:Salesforce",
     "label": "Salesforce",
     "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:LEE Advocacy",
-    "label": "Advocacy",
-    "value": "resume:LEE Advocacy"
-   },
-   {
-    "id": "resume:Field Marketing",
-    "label": "Field Marketing",
-    "value": "resume:Field Marketing"
-   },
-   {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
    },
    {
     "id": "resume:Customer Marketing",
@@ -257,9 +252,14 @@
     "value": "resume:Customer Marketing"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
+   },
+   {
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    }
   ],
   "manager": false,
@@ -274,19 +274,14 @@
   "minYearsExp": 4,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -316,11 +311,11 @@
   ],
   "timeStamp": "2026-08-17T18:43:22Z",
   "title": "Field Marketer, Customer",
-  "url": "https://job-boards.greenhouse.io/peregrinetechnologies/jobs/4725059005",
-  "jobId": "4725059005",
+  "url": "https://job-boards.greenhouse.io/peregrinetechnologies/jobs/4725060005",
+  "jobId": "4725060005",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1932388439225, 'matchScore': 0, 'ageScore': 0.9932388439224537, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1850111381451, 'matchScore': 0, 'ageScore': 0.9850111381450617, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
