@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-08-17T23:42:09Z",
+ "run": "2026-08-18T01:55:00Z",
  "homepage": {
   "status": 200,
   "bytes": 25234
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "VRi2m9vJZM\u2026",
+  "session.sig": "U8znVPBwQI\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2FhOTU1OWNiNzEwODMyYzUwY2I3N2EzNjYxOGY5ZjgiLCAic2NvcmUiOiAxLjAwNDc0OTcxNTU2MjV9"
+   "sequence": "eyJfaWQiOiAiZWFiOTU5ZGE1ODk4ZDgyMjA0NTNmNTc4Y2JlYThmNmMiLCAic2NvcmUiOiAxLjAyNDQ2Nzk0ODUwODg3MzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,45 +136,33 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.pindrop.com/careers/job-title/?gh_jid=8121676",
-  "companyDomain": "pindrop.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66db7ca011dabe5ff29c157b56a4251f_288_160?Expires=1861920000&Signature=l7jCjYdBtd-x9~FoRb61NXvycjznIWMO3dSQ1QJItmzYDl9x~JFGj",
-  "companyId": "Pindrop Security",
-  "companySlug": "pindrop-security",
-  "companyName": "Pindrop Security",
-  "companyStaffCount": 365,
+  "applyUrl": "https://jobs.lever.co/orcabiosystems/80b4b705-da22-4a72-bee0-0fa6aa25b6f9?lever-source%5B%5D=jobs.felicis.com",
+  "companyDomain": "orcabio.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/57f096748d0755a61625cce65323397d_304_160?Expires=1861920000&Signature=VK3GmGTzObzyLIYDtNSLvipDrisWDOUjEteC6K0~t5Y1y80Djz9g2",
+  "companyId": "Orca Bio",
+  "companySlug": "orca-bio",
+  "companyName": "Orca Bio",
+  "companyStaffCount": 288,
   "considerHosted": false,
   "departments": [
-   "Client Services"
+   "Commercial"
   ],
   "jobTypes": [
    {
-    "id": "aml-investigator",
-    "label": "AML Investigator",
-    "value": "aml-investigator"
-   },
-   {
-    "id": "consultant",
-    "label": "Consultant",
-    "value": "consultant"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Consulting",
-    "label": "Consulting",
-    "value": "Consulting"
+    "id": "data-analyst",
+    "label": "Data Analyst",
+    "value": "data-analyst"
    },
    {
     "id": "Analyst",
@@ -182,102 +170,121 @@
     "value": "Analyst"
    }
   ],
+  "jobFunctions": [
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   }
+  ],
   "locations": [
-   "US - Remote"
+   "Menlo Park, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Menlo Park, California",
+    "label": "Menlo Park, California",
+    "value": "Menlo Park, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 109000, 'maxValue': 131000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 70000, 'maxValue': 90000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Thought Leadership",
-    "label": "Thought Leadership",
-    "value": "resume:Thought Leadership"
+    "id": "resume:Business Intelligence",
+    "label": "Business Intelligence",
+    "value": "resume:Business Intelligence"
    },
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:Scripting",
+    "label": "Scripting",
+    "value": "resume:Scripting"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Cancer Biology",
+    "label": "Cancer Biology",
+    "value": "resume:Cancer Biology"
    },
    {
-    "id": "resume:Management Consulting",
-    "label": "Management Consulting",
-    "value": "resume:Management Consulting"
+    "id": "resume:Pre-IPO",
+    "label": "Pre-IPO",
+    "value": "resume:Pre-IPO"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Thought Leadership",
-    "label": "Thought Leadership",
-    "value": "resume:Thought Leadership"
+    "id": "resume:Business Intelligence",
+    "label": "Business Intelligence",
+    "value": "resume:Business Intelligence"
    },
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:Scripting",
+    "label": "Scripting",
+    "value": "resume:Scripting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Cancer Biology",
+    "label": "Cancer Biology",
+    "value": "resume:Cancer Biology"
    },
    {
-    "id": "resume:Management Consulting",
-    "label": "Management Consulting",
-    "value": "resume:Management Consulting"
+    "id": "resume:Pre-IPO",
+    "label": "Pre-IPO",
+    "value": "resume:Pre-IPO"
    },
    {
-    "id": "resume:Call Centers",
-    "label": "Call Centers",
-    "value": "resume:Call Centers"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Global Teams",
-    "label": "Global Teams",
-    "value": "resume:Global Teams"
+    "id": "resume:Biotechnology",
+    "label": "Biotechnology",
+    "value": "resume:Biotechnology"
    },
    {
-    "id": "resume:White Papers",
-    "label": "White Papers",
-    "value": "resume:White Papers"
+    "id": "resume:Life Sciences",
+    "label": "Life Sciences",
+    "value": "resume:Life Sciences"
    }
   ],
   "manager": false,
-  "consultant": true,
+  "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
+  "minYearsExp": 1,
+  "maxYearsExp": 2,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -289,33 +296,44 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Biotech/Pharma",
+    "label": "Biotech/Pharma",
+    "value": "Biotech/Pharma"
+   },
+   {
+    "id": "Pharmaceuticals",
+    "label": "Pharmaceuticals",
+    "value": "Pharmaceuticals"
    }
   ],
-  "timeStamp": "2026-08-17T08:17:38Z",
-  "title": "Senior Fraud and Authentication Consultant",
-  "url": "https://www.pindrop.com/careers/job-title/?gh_jid=8121676",
-  "jobId": "8121676",
-  "remote": true,
+  "timeStamp": "2026-08-17T21:10:51.205000Z",
+  "title": "Analyst, Operations & Analytics",
+  "url": "https://jobs.lever.co/orcabiosystems/80b4b705-da22-4a72-bee0-0fa6aa25b6f9",
+  "jobId": "80b4b705-da22-4a72-bee0-0fa6aa25b6f9",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1830750985482, 'matchScore': 0, 'ageScore': 0.9830750985482253, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1966094182893, 'matchScore': 0, 'ageScore': 0.9966094182893519, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
