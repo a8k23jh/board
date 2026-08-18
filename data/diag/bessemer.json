@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-18T09:53:41Z",
+ "run": "2026-08-18T10:51:24Z",
  "homepage": {
   "status": 200,
   "bytes": 21432
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "IgUzWYcEcb\u2026",
+  "session.sig": "AoXTlhjD2M\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2QxNzE1YWE4ODg0ODZiZjdkOTZkZThkNTQ3MmEyZWIiLCAic2NvcmUiOiAxLjA3OTcxNDY5NzA4NDEwNX0="
+   "sequence": "eyJfaWQiOiAiNzY5MjAwMTIyOGU1MzNjYzY4NWM0YWQ3OGJjY2I2YjgiLCAic2NvcmUiOiAxLjA3NjE2MzcyNDgxNzUxNTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391180008",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5392957008",
   "companyDomain": "anthropic.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
   "companyId": "Anthropic",
@@ -176,28 +176,30 @@
   ],
   "jobTypes": [
    {
-    "id": "gtm",
-    "label": "GTM",
-    "value": "gtm"
+    "id": "customer-success-mananger",
+    "label": "Customer Success Manager",
+    "value": "customer-success-mananger"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
    }
   ],
   "locations": [
+   "Boston, MA",
    "San Francisco, CA",
    "New York City, NY",
-   "Seattle, WA"
+   "Seattle, WA",
+   "Washington, DC"
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    },
    {
     "id": "San Francisco, California",
@@ -205,81 +207,91 @@
     "value": "San Francisco, California"
    },
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Greater Boston Area",
+    "label": "Boston",
+    "value": "Greater Boston Area"
+   },
+   {
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 300000, 'maxValue': 365000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 320000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   },
-   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
-   }
-  ],
-  "requiredSkills": [
    {
     "id": "resume:Biology",
     "label": "Biology",
     "value": "resume:Biology"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
-   },
-   {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
-   },
-   {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:SDLC",
+    "label": "SDLC",
+    "value": "resume:SDLC"
    },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Strategy Consulting",
+    "label": "Strategy Consulting",
+    "value": "resume:Strategy Consulting"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   },
+   {
+    "id": "resume:SDLC",
+    "label": "SDLC",
+    "value": "resume:SDLC"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Strategy Consulting",
+    "label": "Strategy Consulting",
+    "value": "resume:Strategy Consulting"
+   },
+   {
+    "id": "resume:Technical Account Management",
+    "label": "Technical Account Management",
+    "value": "resume:Technical Account Management"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    }
   ],
   "manager": false,
@@ -298,24 +310,24 @@
   "minYearsExp": 8,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "East Coast",
@@ -348,17 +360,25 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-08-17T18:05:56Z",
-  "title": "Amazon GTM Partnerships, Enterprise",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391180008",
-  "jobId": "5391180008",
+  "timeStamp": "2026-08-17T23:27:55Z",
+  "title": "Customer Success Manager, Top Accounts",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392957008",
+  "jobId": "5392957008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1846380678453, 'matchScore': 0, 'ageScore': 0.9846380678452932, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1876250897358, 'matchScore': 0, 'ageScore': 0.9876250897357253, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {
