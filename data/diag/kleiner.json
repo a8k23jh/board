@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-08-18T15:52:08Z",
+ "run": "2026-08-18T16:53:27Z",
  "homepage": {
   "status": 200,
   "bytes": 19379
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "tOQd-i2yMp\u2026",
+  "session.sig": "nZWe8jq9pI\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDViMzIyODViMWE2NjZlY2VhNzJkNGJiYTgzNmY4NWMiLCAic2NvcmUiOiAxLjA0MjIyNjk2OTc3MDA2MTd9"
+   "sequence": "eyJfaWQiOiAiODQ0ZjUxMzM4YWZhY2YwNTgwZWYyNWVlMWM0NTVjMWUiLCAic2NvcmUiOiAxLjAzNzIzMDAyNDE5NTYwMTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "principal",
-    "label": "Principal",
-    "value": "principal"
-   },
-   {
     "id": "product-manager",
     "label": "Product Manager",
     "value": "product-manager"
+   },
+   {
+    "id": "principal",
+    "label": "Principal",
+    "value": "principal"
    }
   ],
   "jobFunctions": [
@@ -198,53 +198,63 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Product Strategy",
+    "label": "Product Strategy",
+    "value": "resume:Product Strategy"
+   },
+   {
+    "id": "resume:Positioning",
+    "label": "Positioning",
+    "value": "resume:Positioning"
+   },
+   {
     "id": "resume:Cross-functional Team Leadership",
     "label": "Cross-functional Team Leadership",
     "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Product Requirements",
-    "label": "Product Requirements",
-    "value": "resume:Product Requirements"
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
    },
    {
-    "id": "resume:Sales & Marketing",
-    "label": "Sales & Marketing",
-    "value": "resume:Sales & Marketing"
-   },
-   {
-    "id": "resume:Packaging",
-    "label": "Packaging",
-    "value": "resume:Packaging"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Market Entry",
+    "label": "Market Entry",
+    "value": "resume:Market Entry"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Product Strategy",
+    "label": "Product Strategy",
+    "value": "resume:Product Strategy"
+   },
+   {
+    "id": "resume:Positioning",
+    "label": "Positioning",
+    "value": "resume:Positioning"
+   },
+   {
     "id": "resume:Cross-functional Team Leadership",
     "label": "Cross-functional Team Leadership",
     "value": "resume:Cross-functional Team Leadership"
-   },
-   {
-    "id": "resume:Product Requirements",
-    "label": "Product Requirements",
-    "value": "resume:Product Requirements"
-   },
-   {
-    "id": "resume:Sales & Marketing",
-    "label": "Sales & Marketing",
-    "value": "resume:Sales & Marketing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Packaging",
-    "label": "Packaging",
-    "value": "resume:Packaging"
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
+   },
+   {
+    "id": "resume:Market Entry",
+    "label": "Market Entry",
+    "value": "resume:Market Entry"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -252,19 +262,9 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
-   },
-   {
-    "id": "resume:Project Status Reporting",
-    "label": "Project Status Reporting",
-    "value": "resume:Project Status Reporting"
-   },
-   {
-    "id": "resume:Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "resume:Enterprise Software"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    }
   ],
   "manager": false,
@@ -283,11 +283,6 @@
   "minYearsExp": 10,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -296,6 +291,11 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -324,24 +324,24 @@
   "jobId": "9c4bd592-9047-4bea-81d5-1e760af2d4b6",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1868350591288, 'matchScore': 0, 'ageScore': 0.986835059128858, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1825438348345, 'matchScore': 0, 'ageScore': 0.9825438348344907, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
