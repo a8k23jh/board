@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-08-18T20:44:13Z",
+ "run": "2026-08-18T21:42:41Z",
  "homepage": {
   "status": 200,
   "bytes": 16702
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TVUnl7M9UW\u2026",
+  "session.sig": "uPi7TNFA0m\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDRkYzVhNTc3YmZmMTYyNzQ4YmY1MTMyNjdhZGE5ZWEiLCAic2NvcmUiOiAwLjk3NTgxMzk0NTAzOTM1MTl9"
+   "sequence": "eyJfaWQiOiAiZGI5Y2FjMWJlNWFjN2Q1ZTk3ZDIxN2ExYTYwMjkzODQiLCAic2NvcmUiOiAwLjk3MjA0Nzk2Njc2MTk1OTl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,11 +168,6 @@
   ],
   "jobTypes": [
    {
-    "id": "fulfillment-specialist",
-    "label": "Fulfillment Specialist",
-    "value": "fulfillment-specialist"
-   },
-   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
@@ -181,6 +176,11 @@
     "id": "human-resources",
     "label": "HR",
     "value": "human-resources"
+   },
+   {
+    "id": "fulfillment-specialist",
+    "label": "Fulfillment Specialist",
+    "value": "fulfillment-specialist"
    }
   ],
   "jobFunctions": [
@@ -203,63 +203,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 170000, 'maxValue': 210000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Program Implementation",
-    "label": "Program Implementation",
-    "value": "resume:Program Implementation"
-   },
-   {
-    "id": "resume:Goods",
-    "label": "Goods",
-    "value": "resume:Goods"
-   },
-   {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
-   },
-   {
-    "id": "resume:Policy Development",
-    "label": "Policy Development",
-    "value": "resume:Policy Development"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Program Implementation",
-    "label": "Program Implementation",
-    "value": "resume:Program Implementation"
-   },
-   {
-    "id": "resume:Goods",
-    "label": "Goods",
-    "value": "resume:Goods"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
-   },
-   {
-    "id": "resume:Policy Development",
-    "label": "Policy Development",
-    "value": "resume:Policy Development"
-   },
-   {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
    },
    {
     "id": "resume:Human Resources",
@@ -267,9 +213,63 @@
     "value": "resume:Human Resources"
    },
    {
+    "id": "resume:HR Policies",
+    "label": "HR Policies",
+    "value": "resume:HR Policies"
+   },
+   {
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
+   },
+   {
     "id": "resume:CCPA",
     "label": "CCPA",
     "value": "resume:CCPA"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
+   },
+   {
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
+   },
+   {
+    "id": "resume:HR Policies",
+    "label": "HR Policies",
+    "value": "resume:HR Policies"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
+   },
+   {
+    "id": "resume:CCPA",
+    "label": "CCPA",
+    "value": "resume:CCPA"
+   },
+   {
+    "id": "resume:Program Implementation",
+    "label": "Program Implementation",
+    "value": "resume:Program Implementation"
+   },
+   {
+    "id": "resume:Workforce Planning",
+    "label": "Workforce Planning",
+    "value": "resume:Workforce Planning"
+   },
+   {
+    "id": "resume:Legal Compliance",
+    "label": "Legal Compliance",
+    "value": "resume:Legal Compliance"
    }
   ],
   "manager": true,
@@ -288,14 +288,14 @@
   "minYearsExp": 12,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Pacific States",
@@ -334,7 +334,7 @@
   "jobId": "8138947",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1894550301207, 'matchScore': 0, 'ageScore': 0.9894550301207562, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1852668387022, 'matchScore': 0, 'ageScore': 0.9852668387021605, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
