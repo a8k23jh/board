@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-08-18T23:41:31Z",
+ "run": "2026-08-19T01:56:50Z",
  "homepage": {
   "status": 200,
   "bytes": 19379
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "RMBymodhEo\u2026",
+  "session.sig": "3QT1HRlVry\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2VhMjBlMzhjYTg3NWQyNTAyMmIwNmY3MThhMjk2NjEiLCAic2NvcmUiOiAxLjAzNDUzMTA1NDcwNzU2MTd9"
+   "sequence": "eyJfaWQiOiAiZmM5OTgwN2M1NzFkZmY3Y2RmN2IwNTU3ZTQ1NTY1M2IiLCAic2NvcmUiOiAxLjAzNDQ5NTQwMzU1NTU1NTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,107 +144,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/CesiumAstro/373688a2-ccc3-4e45-8f56-63cf24b3a3d7?lever-source%5B%5D=jobs.kleinerperkins.com",
-  "companyDomain": "cesiumastro.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
-  "companyId": "CesiumAstro",
-  "companySlug": "cesiumastro",
-  "companyName": "CesiumAstro",
-  "companyStaffCount": 452,
+  "applyUrl": "https://job-boards.greenhouse.io/gomotive/jobs/8706541002",
+  "companyDomain": "gomotive.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/25a89ab129481325fdea0a8ec67db334_208_160?Expires=1861920000&Signature=FOVx4pqYXCuvScQi9jIt1h-cXgKWHgmbuXcTtciYMPrORXx90yBOk",
+  "companyId": "Motive",
+  "companySlug": "motive",
+  "companyName": "Motive",
+  "companyStaffCount": 6347,
   "considerHosted": false,
   "departments": [
-   "Manufacturing & Operations"
+   "Software Engineering"
   ],
   "jobTypes": [
    {
-    "id": "procurement",
-    "label": "Procurement Manager",
-    "value": "procurement"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Supply Chain",
-    "label": "Supply Chain",
-    "value": "Supply Chain"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Westminster, CO"
+   "Hybrid - San Francisco, California"
   ],
   "normalizedLocations": [
    {
-    "id": "Westminster, Colorado",
-    "label": "Westminster, Colorado",
-    "value": "Westminster, Colorado"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 107000, 'maxValue': 126000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Procurement",
-    "label": "Procurement",
-    "value": "resume:Procurement"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Go",
+    "label": "Golang",
+    "value": "resume:Go"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Swift",
+    "label": "Swift",
+    "value": "resume:Swift"
    },
    {
-    "id": "resume:Test Equipment",
-    "label": "Test Equipment",
-    "value": "resume:Test Equipment"
+    "id": "resume:Kotlin",
+    "label": "Kotlin",
+    "value": "resume:Kotlin"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Procurement",
-    "label": "Procurement",
-    "value": "resume:Procurement"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Go",
+    "label": "Golang",
+    "value": "resume:Go"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Swift",
+    "label": "Swift",
+    "value": "resume:Swift"
    },
    {
-    "id": "resume:Test Equipment",
-    "label": "Test Equipment",
-    "value": "resume:Test Equipment"
+    "id": "resume:Kotlin",
+    "label": "Kotlin",
+    "value": "resume:Kotlin"
+   },
+   {
+    "id": "resume:Ruby",
+    "label": "Ruby",
+    "value": "resume:Ruby"
+   },
+   {
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
+   },
+   {
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    }
   ],
   "manager": false,
@@ -252,16 +267,26 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -270,36 +295,30 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
    },
    {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-08-18T14:16:02.728000Z",
-  "title": "Senior Buyer",
-  "url": "https://jobs.lever.co/CesiumAstro/373688a2-ccc3-4e45-8f56-63cf24b3a3d7",
-  "jobId": "373688a2-ccc3-4e45-8f56-63cf24b3a3d7",
+  "timeStamp": "2026-08-18T15:51:35Z",
+  "title": "Staff Software Engineer, Platform",
+  "url": "https://job-boards.greenhouse.io/gomotive/jobs/8706541002",
+  "jobId": "8706541002",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1912543997936, 'matchScore': 0, 'ageScore': 0.9912543997935956, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1894666379421, 'matchScore': 0, 'ageScore': 0.9894666379421296, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

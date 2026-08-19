@@ -1,6 +1,6 @@
 {
  "board": "a16z",
- "run": "2026-08-18T23:41:31Z",
+ "run": "2026-08-19T01:56:50Z",
  "homepage": {
   "status": 200,
   "bytes": 23989
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "uQGZxR4qzg\u2026",
+  "session.sig": "8rgAai0hIj\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDY2NGY2NTkzZWZlMTYxZGM3ZTg1Y2M3YmU3YWE5MjciLCAic2NvcmUiOiAxLjEzODE3NjIyMjQ4OTE5NzZ9"
+   "sequence": "eyJfaWQiOiAiNjU2YmMyMjg1YWViYzUzODJjNTE4OTI2YWI5YjEwZWYiLCAic2NvcmUiOiAxLjE2ODExNDI1ODk1MjkzMn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,192 +136,191 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/temporaltechnologies/jobs/5135482007",
-  "companyDomain": "temporal.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/24d63cb3ec1c8c947fcd5a482260e936_296_160?Expires=1861920000&Signature=r4Q1yKN24JKQUTZ0J8bAsxKBtADGVpGdsdGxyV52O6l-NMdERJFH7",
-  "companyId": "Temporal Technologies",
-  "companySlug": "temporal-technologies",
-  "companyName": "Temporal Technologies",
-  "companyStaffCount": 574,
+  "applyUrl": "https://job-boards.greenhouse.io/xai/jobs/5215371007",
+  "companyDomain": "x.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a563be051526800c631b57d051023cd3_56_160?Expires=1861920000&Signature=hBRrhvnHYFuPHuz9CLSCj5456MymjsM2N65I2tjXlYjJlhlgM~dQFR",
+  "companyId": "xAI",
+  "companySlug": "xai",
+  "companyName": "xAI",
+  "companyStaffCount": 5555,
   "considerHosted": false,
   "departments": [
-   "Finance"
+   "Legal"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
-    "id": "accountant",
-    "label": "Accountant",
-    "value": "accountant"
+    "id": "legal-counsel",
+    "label": "Legal Counsel",
+    "value": "legal-counsel"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Accounting",
-    "label": "Accounting",
-    "value": "Accounting"
+    "id": "Legal",
+    "label": "Legal",
+    "value": "Legal"
    }
   ],
   "locations": [
-   "San Francisco, CA"
+   "New York, New York"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 275000, 'maxValue': 350000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 176000, 'maxValue': 264000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Contract Negotiation",
-    "label": "Contract Negotiation",
-    "value": "resume:Contract Negotiation"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:OFCCP",
+    "label": "OFCCP",
+    "value": "resume:OFCCP"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Manufacturing Operations Management",
+    "label": "Manufacturing Operations Management",
+    "value": "resume:Manufacturing Operations Management"
    },
    {
-    "id": "resume:Employee Benefits",
-    "label": "Employee Benefits",
-    "value": "resume:Employee Benefits"
+    "id": "resume:Employment Law",
+    "label": "Employment Law",
+    "value": "resume:Employment Law"
    },
    {
-    "id": "resume:NetSuite",
-    "label": "NetSuite",
-    "value": "resume:NetSuite"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Contract Negotiation",
-    "label": "Contract Negotiation",
-    "value": "resume:Contract Negotiation"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:OFCCP",
+    "label": "OFCCP",
+    "value": "resume:OFCCP"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Manufacturing Operations Management",
+    "label": "Manufacturing Operations Management",
+    "value": "resume:Manufacturing Operations Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Employee Benefits",
-    "label": "Employee Benefits",
-    "value": "resume:Employee Benefits"
+    "id": "resume:Employment Law",
+    "label": "Employment Law",
+    "value": "resume:Employment Law"
    },
    {
-    "id": "resume:NetSuite",
-    "label": "NetSuite",
-    "value": "resume:NetSuite"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:ASC 606",
-    "label": "ASC 606",
-    "value": "resume:ASC 606"
+    "id": "resume:Course Development",
+    "label": "Course Development",
+    "value": "resume:Course Development"
    },
    {
-    "id": "resume:Treasury",
-    "label": "Treasury",
-    "value": "resume:Treasury"
-   },
-   {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 12,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
-  "markets": [],
-  "timeStamp": "2026-08-18T10:23:21Z",
-  "title": "Vice President, Global Corporate Controller",
-  "url": "https://job-boards.greenhouse.io/temporaltechnologies/jobs/5135482007",
-  "jobId": "5135482007",
+  "markets": [
+   {
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Enterprise",
+    "label": "Enterprise",
+    "value": "Enterprise"
+   }
+  ],
+  "timeStamp": "2026-08-18T18:10:46Z",
+  "title": "Senior Employment Counsel",
+  "url": "https://job-boards.greenhouse.io/xai/jobs/5215371007",
+  "jobId": "5215371007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1862755792546, 'matchScore': 0, 'ageScore': 0.9862755792546296, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1925303059483, 'matchScore': 0, 'ageScore': 0.9925303059483025, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "vp",
-    "label": "VP/SVP",
-    "value": "vp"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "vp"
+   "senior"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-18T23:41:31Z",
+ "run": "2026-08-19T01:56:50Z",
  "homepage": {
   "status": 200,
   "bytes": 20235
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "MBhZZQJAet\u2026",
+  "session.sig": "uw6TPV5cJn\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjk4MTU4YjM5NDc0YzdlYzZkZDFmODE0YWEwYmM1YzEiLCAic2NvcmUiOiAxLjE0ODU1ODE1Nzc5MTY2NjZ9"
+   "sequence": "eyJfaWQiOiAiNzUxOTc0NTAwMjViZWFmNWI3OWU5NjJhMmQ3MWExMGYiLCAic2NvcmUiOiAxLjE2MDM2OTg5MzIzMTg2NzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,40 +155,25 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8726225002?gh_jid=8726225002",
-  "companyDomain": "spacex.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
-  "companyId": "SpaceX",
-  "companySlug": "spacex",
-  "companyName": "SpaceX",
-  "companyStaffCount": 19551,
+  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8093006",
+  "companyDomain": "reddit.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
+  "companyId": "Reddit",
+  "companySlug": "reddit",
+  "companyName": "reddit",
+  "companyStaffCount": 4495,
   "considerHosted": false,
   "departments": [
-   "Application Software"
+   "Safety Engineering"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
-   },
-   {
-    "id": "fullstack-engineer",
-    "label": "Full Stack Engineer",
-    "value": "fullstack-engineer"
-   },
-   {
-    "id": "employee-relations",
-    "label": "Employee Relations",
-    "value": "employee-relations"
+    "id": "backend-engineer",
+    "label": "Backend Engineer",
+    "value": "backend-engineer"
    }
   ],
   "jobFunctions": [
-   {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
-   },
    {
     "id": "Engineering",
     "label": "Engineering",
@@ -196,85 +181,85 @@
    }
   ],
   "locations": [
-   "Hawthorne, CA"
+   "Remote - United States"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190800, 'maxValue': 267100, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Package Manager",
-    "label": "Package Manager",
-    "value": "resume:Package Manager"
+    "id": "resume:GraphQL",
+    "label": "GraphQL",
+    "value": "resume:GraphQL"
    },
    {
-    "id": "resume:ActiveMQ",
-    "label": "ActiveMQ",
-    "value": "resume:ActiveMQ"
+    "id": "resume:Ruby",
+    "label": "Ruby",
+    "value": "resume:Ruby"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:gRPC",
+    "label": "gRPC",
+    "value": "resume:gRPC"
    },
    {
-    "id": "resume:PostgreSQL",
-    "label": "Postgres",
-    "value": "resume:PostgreSQL"
+    "id": "resume:Thrift",
+    "label": "Apache Thrift",
+    "value": "resume:Thrift"
    },
    {
-    "id": "resume:npm",
-    "label": "npm",
-    "value": "resume:npm"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Package Manager",
-    "label": "Package Manager",
-    "value": "resume:Package Manager"
+    "id": "resume:GraphQL",
+    "label": "GraphQL",
+    "value": "resume:GraphQL"
    },
    {
-    "id": "resume:ActiveMQ",
-    "label": "ActiveMQ",
-    "value": "resume:ActiveMQ"
+    "id": "resume:Ruby",
+    "label": "Ruby",
+    "value": "resume:Ruby"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:gRPC",
+    "label": "gRPC",
+    "value": "resume:gRPC"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:PostgreSQL",
-    "label": "Postgres",
-    "value": "resume:PostgreSQL"
+    "id": "resume:Thrift",
+    "label": "Apache Thrift",
+    "value": "resume:Thrift"
    },
    {
-    "id": "resume:npm",
-    "label": "npm",
-    "value": "resume:npm"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    },
    {
-    "id": "resume:Full Stack Development",
-    "label": "Full Stack Development",
-    "value": "resume:Full Stack Development"
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
    },
    {
-    "id": "resume:Go",
-    "label": "Golang",
-    "value": "resume:Go"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Gradle",
-    "label": "Gradle",
-    "value": "resume:Gradle"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    }
   ],
   "manager": false,
@@ -282,30 +267,21 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 5,
+  "maxYearsExp": 8,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -317,34 +293,34 @@
   ],
   "markets": [
    {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Social Networking",
+    "label": "Social Networking",
+    "value": "Social Networking"
    }
   ],
-  "timeStamp": "2026-08-18T11:22:34Z",
-  "title": "Full Stack Software Engineer, Employee Experience",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8726225002?gh_jid=8726225002",
-  "jobId": "8726225002",
-  "remote": false,
+  "timeStamp": "2026-08-18T17:57:34Z",
+  "title": "Senior Backend Engineer, Safety",
+  "url": "https://job-boards.greenhouse.io/reddit/jobs/8093006",
+  "jobId": "8093006",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1870854999587, 'matchScore': 0, 'ageScore': 0.9870854999587191, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1925833118974, 'matchScore': 0, 'ageScore': 0.9925833118973766, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
