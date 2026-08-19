@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-19T09:00:09Z",
+ "run": "2026-08-19T09:54:20Z",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "joiUKoxwRZ\u2026",
+  "session.sig": "cighuvEqIa\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTBhODJjYjc1YjhkMTdiMWY1ZWI0N2I0ZGYyOGYwN2MiLCAic2NvcmUiOiAxLjA3NTg0OTc5NzY0NDY3Nn0="
+   "sequence": "eyJfaWQiOiAiMjBjNTc0MzNjNTk2MDk1MWIzMjFlOGQ0YjhkY2JhYzEiLCAic2NvcmUiOiAxLjA4MTk3MTAzNjg0Nzk5Mzh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -146,6 +146,7 @@
    "companyLogos",
    "companyName",
    "companySlug",
+   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
@@ -156,117 +157,122 @@
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6146762004",
-  "companyDomain": "apollo.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
-  "companyId": "Apollo",
-  "companySlug": "apollo",
-  "companyName": "Apollo",
+  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1014513/Virtual-Clinician-Home-Evaluations-Nurse-Practitioner-or-Physician-Assistant-Full-Time-Oregon",
+  "companyDomain": "signifyhealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/99c6eb3fb8f6516bd248544cef759df3_320_160?Expires=1861920000&Signature=ftG2yoquWQ77fhZJlIDtDtJjH0EkrbN-V-l5EkosBrwWnHIsKX3Yj",
+  "companyId": "Signify Health",
+  "companySlug": "signify-health",
+  "companyName": "Signify Health",
+  "companyStaffCount": 3625,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   ""
   ],
   "jobTypes": [
    {
-    "id": "business-development",
-    "label": "Business Development Professional",
-    "value": "business-development"
+    "id": "nurse",
+    "label": "Nurse",
+    "value": "nurse"
+   },
+   {
+    "id": "physician-assistant",
+    "label": "Physician Assistant",
+    "value": "physician-assistant"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   },
-   {
-    "id": "Business Development",
-    "label": "Business Development",
-    "value": "Business Development"
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
    }
   ],
   "locations": [
-   "Hybrid, Austin"
+   "Work\u00a0at Home, Oregon, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Austin, Texas",
-    "label": "Austin, Texas",
-    "value": "Austin, Texas"
+    "id": "Oregon",
+    "label": "Oregon",
+    "value": "Oregon"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85000, 'maxValue': 85000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 87035, 'maxValue': 187460, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Apollo",
-    "label": "Apollo",
-    "value": "resume:Apollo"
+    "id": "resume:CVS",
+    "label": "CVS",
+    "value": "resume:CVS"
    },
    {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:Medicaid",
+    "label": "Medicaid",
+    "value": "resume:Medicaid"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Apollo",
-    "label": "Apollo",
-    "value": "resume:Apollo"
+    "id": "resume:CVS",
+    "label": "CVS",
+    "value": "resume:CVS"
    },
    {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:Medicaid",
+    "label": "Medicaid",
+    "value": "resume:Medicaid"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
+   },
+   {
+    "id": "resume:Medicare",
+    "label": "Medicare",
+    "value": "resume:Medicare"
    }
   ],
   "manager": false,
@@ -284,9 +290,9 @@
   ],
   "regions": [
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -294,44 +300,72 @@
     "value": "North America"
    },
    {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Public",
+    "label": "Public",
+    "value": "Public"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Public', 'label': 'Public', 'value': 'Public'}",
   "markets": [
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-08-18T17:18:13Z",
-  "title": "Business Development Representative",
-  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6146762004",
-  "jobId": "6146762004",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1833125807735, 'matchScore': 0, 'ageScore': 0.9833125807735339, 'richnessScore': 2}",
+  "timeStamp": "2026-08-19T00:00:00Z",
+  "title": "Virtual Clinician Home Evaluations Nurse Practitioner or Physician Assistant Full Time - Oregon",
+  "url": "https://jobs.cvshealth.com/us/en/job/R1014513/Virtual-Clinician-Home-Evaluations-Nurse-Practitioner-or-Physician-Assistant-Full-Time-Oregon",
+  "jobId": "R1014513",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1884772844896, 'matchScore': 0, 'ageScore': 0.9884772844895834, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
+   },
+   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "expert",
+   "mid",
+   "junior",
+   "senior"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-19T09:00:09Z",
+ "run": "2026-08-19T09:54:20Z",
  "homepage": {
   "status": 200,
   "bytes": 20235
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "6yTWBGyzwW\u2026",
+  "session.sig": "WqkfC7zVt6\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmY4ZmZhZTg5OGJmNGY3YzQ0NjlkNmE3MTgxNDBmMjQiLCAic2NvcmUiOiAxLjE1ODgxMDA4MTU4ODczNDZ9"
+   "sequence": "eyJfaWQiOiAiYTlkYzAxMDBjOWZhNTA1N2JjYmMxY2RlYjlmY2U0ODYiLCAic2NvcmUiOiAxLjE1NzM0NzA1OTMyODcwMzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,133 +144,138 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8728544002?gh_jid=8728544002",
-  "companyDomain": "spacex.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
-  "companyId": "SpaceX",
-  "companySlug": "spacex",
-  "companyName": "SpaceX",
-  "companyStaffCount": 19551,
+  "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/5215882007",
+  "companyDomain": "verkada.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8fef24f24d7f5794eed4923eb25b16ff_304_160?Expires=1861920000&Signature=GrVmnkwsr5pViGdcRkXENC1~-cN3J7WMdPab~Q947Jpu8OsXzdwLQ",
+  "companyId": "Verkada",
+  "companySlug": "verkada",
+  "companyName": "Verkada",
+  "companyStaffCount": 2836,
   "considerHosted": false,
   "departments": [
-   "Facilities - Hawthorne"
+   "Infrastructure/Platform"
   ],
   "jobTypes": [
    {
-    "id": "electrician",
-    "label": "Electrician",
-    "value": "electrician"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Technician",
-    "label": "Technician",
-    "value": "Technician"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Hawthorne, CA"
+   "San Mateo, CA United States"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "San Mateo, California",
+    "label": "San Mateo, California",
+    "value": "San Mateo, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 26, 'maxValue': 32, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Test Equipment",
-    "label": "Test Equipment",
-    "value": "resume:Test Equipment"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Accrual",
-    "label": "Accrual",
-    "value": "resume:Accrual"
+    "id": "resume:Data Visualization",
+    "label": "Data Visualization",
+    "value": "resume:Data Visualization"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Data Processing",
+    "label": "Data Processing",
+    "value": "resume:Data Processing"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Data Infrastructure",
+    "label": "Data Infrastructure",
+    "value": "resume:Data Infrastructure"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Test Equipment",
-    "label": "Test Equipment",
-    "value": "resume:Test Equipment"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Accrual",
-    "label": "Accrual",
-    "value": "resume:Accrual"
+    "id": "resume:Data Visualization",
+    "label": "Data Visualization",
+    "value": "resume:Data Visualization"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Data Processing",
+    "label": "Data Processing",
+    "value": "resume:Data Processing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Data Infrastructure",
+    "label": "Data Infrastructure",
+    "value": "resume:Data Infrastructure"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Town Halls/Forums",
-    "label": "Town Halls/Forums",
-    "value": "resume:Town Halls/Forums"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "minYearsExp": 5,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -278,9 +283,9 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -288,31 +293,45 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-08-18T18:54:04Z",
-  "title": "Electrician",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8728544002?gh_jid=8728544002",
-  "jobId": "8728544002",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Consumer Electronics",
+    "label": "Consumer Electronics",
+    "value": "Consumer Electronics"
+   },
+   {
+    "id": "Hardware",
+    "label": "Hardware",
+    "value": "Hardware"
+   }
+  ],
+  "timeStamp": "2026-08-19T02:35:54Z",
+  "title": "Senior Software Engineer, Data Platform",
+  "url": "https://job-boards.greenhouse.io/verkada/jobs/5215882007",
+  "jobId": "5215882007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1853126854495, 'matchScore': 0, 'ageScore': 0.9853126854494598, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1918521602172, 'matchScore': 0, 'ageScore': 0.9918521602172068, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   }
+  ],
+  "jobSeniorityIds": [
+   "senior"
+  ],
   "isFeatured": false
  },
  "search_mode": {

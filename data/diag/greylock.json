@@ -1,7 +1,6 @@
 {
  "board": "greylock",
- "run": "2026-08-19T09:00:09Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.greylock.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-08-19T09:54:20Z",
  "homepage": {
   "status": 200,
   "bytes": 26371
@@ -35,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ZLrew95RRk\u2026",
+  "session.sig": "mOFeuH9I19\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -120,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmU3MjA3Mjg1MmRhOTUzYmUzNGRmNmExZGNiN2UyYjkiLCAic2NvcmUiOiAwLjg3NzQ1MTU5MTQwNzQwNzV9"
+   "sequence": "eyJfaWQiOiAiMDk1ZDFhZDQ2MDQ5NzAyMzY3ZDcwOWIzM2Q1OGYzZGQiLCAic2NvcmUiOiAwLjg5Nzk3MzEyMjEzNjU3NH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -148,22 +147,22 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lyrahealth/dc339f13-08f6-472a-9b03-254f713f0aeb?lever-source%5B%5D=jobs.greylock.com",
-  "companyDomain": "lyrahealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/143cd3a237462e2e7a2ccd47b2d73fac_96_160?Expires=1861920000&Signature=NN4EpXx0uHmRsAc6GKWU1E0aaw8tKG4yCj2QYcyRkjmu-TasPWWqFM",
-  "companyId": "Lyra Health",
-  "companySlug": "lyra-health",
-  "companyName": "Lyra Health",
-  "companyStaffCount": 2800,
+  "applyUrl": "https://jobs.ashbyhq.com/baseten/11ab2593-6648-4943-ab4a-284fe7e89720?utm_source=jobs.greylock.com",
+  "companyDomain": "baseten.co",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/aaa340387ade367703b1e49f53eb3028_288_160?Expires=1861920000&Signature=Al-9uky9kPkU3yG72nW3BbljsCHFZiSSqwfe53K8yzheEMID8gJHG",
+  "companyId": "BaseTen",
+  "companySlug": "baseten",
+  "companyName": "baseten",
+  "companyStaffCount": 319,
   "considerHosted": false,
   "departments": [
-   "Technology"
+   "Training"
   ],
   "jobTypes": [
    {
-    "id": "salesforce-developer",
-    "label": "Salesforce Developer",
-    "value": "salesforce-developer"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
@@ -174,85 +173,86 @@
    }
   ],
   "locations": [
-   "United States"
+   "San Francisco, California, United States",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 102000, 'maxValue': 140500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 400000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:IDE",
-    "label": "IDE",
-    "value": "resume:IDE"
+    "id": "resume:TensorRT",
+    "label": "TensorRT",
+    "value": "resume:TensorRT"
    },
    {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
+    "id": "resume:POC",
+    "label": "POC",
+    "value": "resume:POC"
    },
    {
-    "id": "resume:Five9",
-    "label": "Five9",
-    "value": "resume:Five9"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
    {
-    "id": "resume:Apache Apex",
-    "label": "Apache Apex",
-    "value": "resume:Apache Apex"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:IDE",
-    "label": "IDE",
-    "value": "resume:IDE"
+    "id": "resume:TensorRT",
+    "label": "TensorRT",
+    "value": "resume:TensorRT"
    },
    {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
+    "id": "resume:POC",
+    "label": "POC",
+    "value": "resume:POC"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Five9",
-    "label": "Five9",
-    "value": "resume:Five9"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
    {
-    "id": "resume:Apache Apex",
-    "label": "Apache Apex",
-    "value": "resume:Apache Apex"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    }
   ],
   "manager": false,
@@ -260,27 +260,38 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 1,
+  "maxYearsExp": 2,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -291,39 +302,48 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Digital Health",
-    "label": "Digital Health",
-    "value": "Digital Health"
+    "id": "AI/ML",
+    "label": "AI/ML",
+    "value": "AI/ML"
    },
    {
-    "id": "Mental Health Care",
-    "label": "Mental Health Care",
-    "value": "Mental Health Care"
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-08-18T19:59:34.565000Z",
-  "title": "Sr. Salesforce Developer",
-  "url": "https://jobs.lever.co/lyrahealth/dc339f13-08f6-472a-9b03-254f713f0aeb",
-  "jobId": "dc339f13-08f6-472a-9b03-254f713f0aeb",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1870563413318, 'matchScore': 0, 'ageScore': 0.9870563413317901, 'richnessScore': 2}",
+  "timeStamp": "2026-08-19T00:00:00Z",
+  "title": "Forward Deployed Engineer (Training)",
+  "url": "https://jobs.ashbyhq.com/baseten/11ab2593-6648-4943-ab4a-284fe7e89720",
+  "jobId": "11ab2593-6648-4943-ab4a-284fe7e89720",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1887120111593, 'matchScore': 0, 'ageScore': 0.9887120111593364, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }

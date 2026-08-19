@@ -1,7 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-08-19T09:00:09Z",
- "first_attempt_error": "HTTPSConnectionPool(host='careers.ivp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-08-19T09:54:20Z",
  "homepage": {
   "status": 200,
   "bytes": 19517
@@ -27,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "vMuWksoRUA\u2026",
+  "session.sig": "24bIOoOuw0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -112,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzk2YjU1OTNjY2FiMTQ2ZDQzOWI3YjY1YTUwODA3YTIiLCAic2NvcmUiOiAxLjA4MTU0MTQ0NjYwODQxMDZ9"
+   "sequence": "eyJfaWQiOiAiNTkwZmJhMzQ0NDJlNzA4ZjFhY2I0YmNjNDE5OWYwZjkiLCAic2NvcmUiOiAxLjEyMTg3ODAxMzA3OTg2MTF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -129,44 +128,45 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/prosper/7840083f-95a9-46da-b3d7-aae4b4e8723c?lever-source%5B%5D=careers.ivp.com",
-  "companyDomain": "prosper.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7c783c77cc1afa466b1dcff2c303c713_224_160?Expires=1861920000&Signature=UbrkRFGF3~gMqOE54GTVFKAAOfNoYoXCsVqqY0FYhXavU1wg97sSK",
-  "companyId": "Prosper Marketplace",
-  "companySlug": "prosper-marketplace",
-  "companyName": "Prosper Marketplace",
-  "companyStaffCount": 475,
+  "applyUrl": "https://jobs.ashbyhq.com/baseten/11ab2593-6648-4943-ab4a-284fe7e89720?utm_source=careers.ivp.com",
+  "companyDomain": "baseten.co",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/aaa340387ade367703b1e49f53eb3028_288_160?Expires=1861920000&Signature=Al-9uky9kPkU3yG72nW3BbljsCHFZiSSqwfe53K8yzheEMID8gJHG",
+  "companyId": "BaseTen",
+  "companySlug": "baseten",
+  "companyName": "baseten",
+  "companyStaffCount": 319,
   "considerHosted": false,
   "departments": [
-   "Marketing"
+   "Training"
   ],
   "jobTypes": [
    {
-    "id": "marketing-manager",
-    "label": "Marketing Manager",
-    "value": "marketing-manager"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "San Francisco, CA"
+   "San Francisco, California, United States",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
@@ -175,76 +175,76 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 148000, 'maxValue': 184000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 400000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Direct Mail",
-    "label": "Direct Mail",
-    "value": "resume:Direct Mail"
+    "id": "resume:TensorRT",
+    "label": "TensorRT",
+    "value": "resume:TensorRT"
    },
    {
-    "id": "resume:Creative Direction",
-    "label": "Creative Direction",
-    "value": "resume:Creative Direction"
+    "id": "resume:POC",
+    "label": "POC",
+    "value": "resume:POC"
    },
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
    {
-    "id": "resume:Direct Marketing",
-    "label": "Direct Marketing",
-    "value": "resume:Direct Marketing"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Direct Mail",
-    "label": "Direct Mail",
-    "value": "resume:Direct Mail"
+    "id": "resume:TensorRT",
+    "label": "TensorRT",
+    "value": "resume:TensorRT"
    },
    {
-    "id": "resume:Creative Direction",
-    "label": "Creative Direction",
-    "value": "resume:Creative Direction"
+    "id": "resume:POC",
+    "label": "POC",
+    "value": "resume:POC"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
    {
-    "id": "resume:Direct Marketing",
-    "label": "Direct Marketing",
-    "value": "resume:Direct Marketing"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Credit Cards",
-    "label": "Credit Cards",
-    "value": "resume:Credit Cards"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    }
   ],
   "manager": false,
@@ -252,20 +252,21 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
    ]
   ],
-  "minYearsExp": 8,
+  "minYearsExp": 1,
+  "maxYearsExp": 2,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -273,9 +274,9 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -283,22 +284,43 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "AI/ML",
+    "label": "AI/ML",
+    "value": "AI/ML"
+   },
+   {
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-08-18T21:34:54.070000Z",
-  "title": "Title: Direct Marketing Manager (Credit Card & Creative Strategy)",
-  "url": "https://jobs.lever.co/prosper/7840083f-95a9-46da-b3d7-aae4b4e8723c",
-  "jobId": "7840083f-95a9-46da-b3d7-aae4b4e8723c",
+  "timeStamp": "2026-08-19T00:00:00Z",
+  "title": "Forward Deployed Engineer (Training)",
+  "url": "https://jobs.ashbyhq.com/baseten/11ab2593-6648-4943-ab4a-284fe7e89720",
+  "jobId": "11ab2593-6648-4943-ab4a-284fe7e89720",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1894937828966, 'matchScore': 0, 'ageScore': 0.989493782896605, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1887120111593, 'matchScore': 0, 'ageScore': 0.9887120111593364, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -315,6 +337,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
