@@ -1,6 +1,7 @@
 {
  "board": "bessemer",
- "run": "2026-08-19T20:49:47Z",
+ "run": "2026-08-19T21:45:53Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.bvp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 21734
@@ -50,7 +51,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "845YdO-taK\u2026",
+  "session.sig": "b8YNNjEdKl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +136,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTkyOWFjN2VhYTVjMTEzNjVjMTIzYmJhZWY0N2ZiZjIiLCAic2NvcmUiOiAxLjEyMTIwNjk3NjcyMTgzNjR9"
+   "sequence": "eyJfaWQiOiAiYTkyOWFjN2VhYTVjMTEzNjVjMTIzYmJhZWY0N2ZiZjIiLCAic2NvcmUiOiAxLjExNjcyMjAxNDcwNDA4OTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,128 +153,110 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5387827008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://www.betterment.com/careers/current-openings/job?gh_jid=8137849&gh_jid=8137849",
+  "companyDomain": "betterment.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d0ccb9d0b85b91cdb6e9accf14f02055_320_160?Expires=1861920000&Signature=cke82HIAYHEtDeWcx-XOWXinPoPc~ohf8eAEnWKa0rq3q7u4jVkYi",
+  "companyId": "Betterment",
+  "companySlug": "betterment",
+  "companyName": "Betterment",
+  "companyStaffCount": 669,
   "considerHosted": false,
   "departments": [
-   "Applied AI"
+   "Marketing"
   ],
-  "jobTypes": [
-   {
-    "id": "software-architect",
-    "label": "Software Architect",
-    "value": "software-architect"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "San Francisco, CA",
-   "New York City, NY"
+   "Betterment HQ - New York City"
   ],
   "normalizedLocations": [
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
    {
     "id": "New York, New York",
     "label": "New York, New York",
     "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 240000, 'maxValue': 315000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 89000, 'maxValue': 99500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
-   },
-   {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Actionable Insights",
-    "label": "Actionable Insights",
-    "value": "resume:Actionable Insights"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
-   },
-   {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Actionable Insights",
-    "label": "Actionable Insights",
-    "value": "resume:Actionable Insights"
-   },
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   },
-   {
-    "id": "resume:Technical Presentations",
-    "label": "Technical Communication",
-    "value": "resume:Technical Presentations"
+    "id": "resume:Accessibility",
+    "label": "Accessibility",
+    "value": "resume:Accessibility"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
+   },
+   {
+    "id": "resume:Figma",
+    "label": "Figma",
+    "value": "resume:Figma"
+   },
+   {
+    "id": "resume:Adobe Creative Suite",
+    "label": "Adobe Creative Suite",
+    "value": "resume:Adobe Creative Suite"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Accessibility",
+    "label": "Accessibility",
+    "value": "resume:Accessibility"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Figma",
+    "label": "Figma",
+    "value": "resume:Figma"
+   },
+   {
+    "id": "resume:Adobe Creative Suite",
+    "label": "Adobe Creative Suite",
+    "value": "resume:Adobe Creative Suite"
+   },
+   {
+    "id": "resume:Digital Marketing",
+    "label": "Digital Marketing",
+    "value": "resume:Digital Marketing"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   },
+   {
+    "id": "resume:DNA",
+    "label": "DNA",
+    "value": "resume:DNA"
    }
   ],
   "manager": false,
@@ -281,35 +264,26 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
-   ],
-   [
-    9,
-    10,
-    11,
-    12
+    3,
+    4
    ]
   ],
+  "minYearsExp": 2,
+  "maxYearsExp": 3,
   "regions": [
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
    {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "Mid Atlantic",
@@ -317,58 +291,54 @@
     "value": "Mid Atlantic"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-08-19T09:55:32Z",
-  "title": "Applied AI Architect, Startups",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5387827008",
-  "jobId": "5387827008",
+  "timeStamp": "2026-08-19T09:47:04Z",
+  "title": "Social Media & Content Associate",
+  "url": "https://www.betterment.com/careers/current-openings/job?gh_jid=8137849&gh_jid=8137849",
+  "jobId": "8137849",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1896749527168, 'matchScore': 0, 'ageScore': 0.9896749527168209, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1856134377558, 'matchScore': 0, 'ageScore': 0.985613437755787, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "expert"
+   "junior",
+   "mid"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }

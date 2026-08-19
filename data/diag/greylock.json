@@ -1,6 +1,6 @@
 {
  "board": "greylock",
- "run": "2026-08-19T20:49:47Z",
+ "run": "2026-08-19T21:45:53Z",
  "homepage": {
   "status": 200,
   "bytes": 26371
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ueoRpdR6HE\u2026",
+  "session.sig": "yYq1sGFQth\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODU0ZmU5MDI3YzBmNGIzN2Q0YmE4ZDA0MDY1Yjg2ZWUiLCAic2NvcmUiOiAwLjg5ODM5MzUwMzQ0OTA3NDF9"
+   "sequence": "eyJfaWQiOiAiODU0ZmU5MDI3YzBmNGIzN2Q0YmE4ZDA0MDY1Yjg2ZWUiLCAic2NvcmUiOiAwLjg5NDI0MDkzNDAwODEwMTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,163 +136,188 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lyrahealth/30e62e99-bcbb-456e-9f1c-03133ea2871a?lever-source%5B%5D=jobs.greylock.com",
-  "companyDomain": "lyrahealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/143cd3a237462e2e7a2ccd47b2d73fac_96_160?Expires=1861920000&Signature=NN4EpXx0uHmRsAc6GKWU1E0aaw8tKG4yCj2QYcyRkjmu-TasPWWqFM",
-  "companyId": "Lyra Health",
-  "companySlug": "lyra-health",
-  "companyName": "Lyra Health",
-  "companyStaffCount": 2800,
+  "applyUrl": "https://jobs.ashbyhq.com/lightfield/3eeec270-2e02-447b-bf0c-3db34d14a1c2?utm_source=jobs.greylock.com",
+  "companyDomain": "lightfield.app",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d497e89f82048546f29ce2a2e232c11b_288_160?Expires=1861920000&Signature=S9wHT7MTg4cwF5nAQowzkm-XeyVUXnNzlqf8-0ARiZZqNvSSju~5Y",
+  "companyId": "Tome",
+  "companySlug": "tome",
+  "companyName": "Lightfield",
+  "companyStaffCount": 44,
   "considerHosted": false,
   "departments": [
-   "LCA"
+   "GTM"
   ],
-  "jobTypes": [],
+  "jobTypes": [
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   }
+  ],
   "jobFunctions": [],
   "locations": [
-   "Missouri"
+   "San Francisco, California, USA",
+   "HQ: San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Missouri",
-    "label": "Missouri",
-    "value": "Missouri"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 78000, 'maxValue': 78000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
-   },
-   {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
-   },
-   {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
-   },
-   {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
-   },
-   {
-    "id": "resume:CBT",
-    "label": "CBT",
-    "value": "resume:CBT"
-   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Program Design",
+    "label": "Program Design",
+    "value": "resume:Program Design"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   },
+   {
+    "id": "resume:Instagram",
+    "label": "Instagram",
+    "value": "resume:Instagram"
+   },
+   {
+    "id": "resume:Field Marketing",
+    "label": "Field Marketing",
+    "value": "resume:Field Marketing"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Program Design",
+    "label": "Program Design",
+    "value": "resume:Program Design"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Instagram",
+    "label": "Instagram",
+    "value": "resume:Instagram"
+   },
+   {
+    "id": "resume:Field Marketing",
+    "label": "Field Marketing",
+    "value": "resume:Field Marketing"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
    {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Digital Health",
-    "label": "Digital Health",
-    "value": "Digital Health"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    },
    {
-    "id": "Mental Health Care",
-    "label": "Mental Health Care",
-    "value": "Mental Health Care"
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-08-19T00:43:56.368000Z",
-  "title": "Mental Health Therapist - Telehealth (Unrestricted LCSW, LMFT, LPC - Missouri)",
-  "url": "https://jobs.lever.co/lyrahealth/30e62e99-bcbb-456e-9f1c-03133ea2871a",
-  "jobId": "30e62e99-bcbb-456e-9f1c-03133ea2871a",
-  "remote": true,
+  "timeStamp": "2026-08-19T00:00:00Z",
+  "title": "Community and Events Lead",
+  "url": "https://jobs.ashbyhq.com/lightfield/3eeec270-2e02-447b-bf0c-3db34d14a1c2",
+  "jobId": "3eeec270-2e02-447b-bf0c-3db34d14a1c2",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1761349809206, 'matchScore': 0, 'ageScore': 0.9761349809205246, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1720549268357, 'matchScore': 0, 'ageScore': 0.9720549268356482, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -300,6 +325,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false
