@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T04:03:52Z",
+ "generated_at": "2026-08-19T04:57:00Z",
  "first_run": false,
  "boards": {
   "a16z": {
@@ -69,10 +69,10 @@
   "bcv": {
    "name": "Bain Capital Ventures",
    "platform": "consider",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HTTPSConnectionPool(host='jobs.baincapitalventures.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+   "ok": true,
+   "fetched": 5514,
+   "matched": 68,
+   "error": null
   },
   "firstround": {
    "name": "First Round Capital",
@@ -85,10 +85,10 @@
   "ivp": {
    "name": "IVP",
    "platform": "consider",
-   "ok": true,
-   "fetched": 4144,
-   "matched": 58,
-   "error": null
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HTTPSConnectionPool(host='careers.ivp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
   },
   "accel": {
    "name": "Accel",
