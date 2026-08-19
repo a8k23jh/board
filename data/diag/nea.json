@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-08-19T17:46:01Z",
+ "run": "2026-08-19T18:58:04Z",
  "homepage": {
   "status": 200,
   "bytes": 20607
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"4faec86e14b2ccda0ed6e21681d9248c64e4123b\",\"date\":\"2026-08-16T12:44:29.699Z\"},\"server\":{\"git\":\"4faec86e14b2ccda0ed6e21681d9248c64e4123b\",\"date\":\"2026-08-16T12:44:29.699Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"6299157277bb5c16d1b9aef45489bd866b340c8e\",\"date\":\"2026-08-19T18:58:49.120Z\"},\"server\":{\"git\":\"6299157277bb5c16d1b9aef45489bd866b340c8e\",\"date\":\"2026-08-19T18:58:49.120Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "hLIWJxx0np\u2026",
+  "session.sig": "nM_LJWJ-iP\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2ZkZDIxM2FlMzQ0NmYwNzFlMjY5NzY4NGU3MDhlZTMiLCAic2NvcmUiOiAxLjE0NjY3MzM5NTQzNDAyNzh9"
+   "sequence": "eyJfaWQiOiAiYjM4YjJiMGIxM2RiM2QyOWZhMzViMzI1OTYzOGQ3M2EiLCAic2NvcmUiOiAxLjE0MjYwODg4ODg4MTE3M30="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,158 +136,152 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDqvn8Asfcd1h2IGPx6UISTP?utm_source=careers.nea.com",
-  "companyDomain": "launchfirestorm.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e188c39c312914da9e7993fda04e236c_320_160?Expires=1861920000&Signature=Pm7J-k33~dn1h7QkoqdLumPZldorJ59U2n6Yki9r684MrWcuwsfhz",
-  "companyId": "Firestorm",
-  "companySlug": "firestorm",
-  "companyName": "Firestorm",
-  "companyStaffCount": 192,
+  "applyUrl": "https://job-boards.greenhouse.io/strivehealth/jobs/4706334006",
+  "companyDomain": "strivehealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c013139aced83719018a65668570f915_160_160?Expires=1861920000&Signature=NcoFCLj~~CPKn47IsMMEaGg3sONHH3~6dJt4Pu4aL6ddGe4HGbFae",
+  "companyId": "Strive Health",
+  "companySlug": "strive-health",
+  "companyName": "Strive Health",
+  "companyStaffCount": 602,
   "considerHosted": false,
   "departments": [
-   "xCell"
+   "Clinical Care Delivery"
   ],
   "jobTypes": [
    {
-    "id": "supply-logistics",
-    "label": "Supply/Logistics",
-    "value": "supply-logistics"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "nurse",
+    "label": "Nurse",
+    "value": "nurse"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Supply Chain",
-    "label": "Supply Chain",
-    "value": "Supply Chain"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "San Diego, CA"
+   "Toledo, OH"
   ],
   "normalizedLocations": [
    {
-    "id": "San Diego, California",
-    "label": "San Diego, California",
-    "value": "San Diego, California"
+    "id": "Toledo, Ohio Area",
+    "label": "Toledo, Ohio Area",
+    "value": "Toledo, Ohio Area"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 112000, 'maxValue': 140000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:DoD",
-    "label": "DoD",
-    "value": "resume:DoD"
+    "id": "resume:Cardiology",
+    "label": "Cardiology",
+    "value": "resume:Cardiology"
    },
    {
-    "id": "resume:International Logistics",
-    "label": "International Logistics",
-    "value": "resume:International Logistics"
+    "id": "resume:Follow through",
+    "label": "Follow through",
+    "value": "resume:Follow through"
    },
    {
-    "id": "resume:SDS",
-    "label": "SDS",
-    "value": "resume:SDS"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
    },
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:EHR",
+    "label": "EHR",
+    "value": "resume:EHR"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:Nephrology",
+    "label": "Nephrology",
+    "value": "resume:Nephrology"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:DoD",
-    "label": "DoD",
-    "value": "resume:DoD"
+    "id": "resume:Cardiology",
+    "label": "Cardiology",
+    "value": "resume:Cardiology"
    },
    {
-    "id": "resume:International Logistics",
-    "label": "International Logistics",
-    "value": "resume:International Logistics"
+    "id": "resume:Follow through",
+    "label": "Follow through",
+    "value": "resume:Follow through"
    },
    {
-    "id": "resume:SDS",
-    "label": "SDS",
-    "value": "resume:SDS"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:EHR",
+    "label": "EHR",
+    "value": "resume:EHR"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:Nephrology",
+    "label": "Nephrology",
+    "value": "resume:Nephrology"
    },
    {
-    "id": "resume:Drones",
-    "label": "Drones",
-    "value": "resume:Drones"
+    "id": "resume:Patient Education",
+    "label": "Patient Education",
+    "value": "resume:Patient Education"
    },
    {
-    "id": "resume:Maintenance & Repair",
-    "label": "Maintenance & Repair",
-    "value": "resume:Maintenance & Repair"
+    "id": "resume:Primary Care",
+    "label": "Primary Care",
+    "value": "resume:Primary Care"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:BLS",
+    "label": "BLS",
+    "value": "resume:BLS"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 2,
   "regions": [
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
    }
   ],
   "stages": [
@@ -295,49 +289,33 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
-   },
-   {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-08-19T09:00:13Z",
-  "title": "Manager, Product Logistics & Sustainment",
-  "url": "https://jobs.gem.com/firestorm/am9icG9zdDqvn8Asfcd1h2IGPx6UISTP",
-  "jobId": "am9icG9zdDqvn8Asfcd1h2IGPx6UISTP",
+  "timeStamp": "2026-08-19T10:54:14Z",
+  "title": "Nurse Practitioner - OH",
+  "url": "https://job-boards.greenhouse.io/strivehealth/jobs/4706334006",
+  "jobId": "4706334006",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1925586351165, 'matchScore': 0, 'ageScore': 0.9925586351165123, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1913487628395, 'matchScore': 0, 'ageScore': 0.9913487628395061, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },

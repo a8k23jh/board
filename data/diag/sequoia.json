@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-19T17:46:01Z",
+ "run": "2026-08-19T18:58:04Z",
  "homepage": {
   "status": 200,
   "bytes": 20235
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "m7JVK2Rn0n\u2026",
+  "session.sig": "t9YrVKYY9F\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGJhMjM5ODQ4ZjA2MWZlMTIyYTI2NzkwNjU3YjQ2ZWUiLCAic2NvcmUiOiAxLjE0OTQ1MjcwMDE0OTMwNTZ9"
+   "sequence": "eyJfaWQiOiAiMGVkZDVkOGU3OWYzMmI0NDFmYjQ1MDc4MzVhZmY1YTYiLCAic2NvcmUiOiAxLjE1OTI5MTc5NjAzNTQ5Mzh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,106 +155,122 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/5215882007",
-  "companyDomain": "verkada.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8fef24f24d7f5794eed4923eb25b16ff_304_160?Expires=1861920000&Signature=GrVmnkwsr5pViGdcRkXENC1~-cN3J7WMdPab~Q947Jpu8OsXzdwLQ",
-  "companyId": "Verkada",
-  "companySlug": "verkada",
-  "companyName": "Verkada",
-  "companyStaffCount": 2836,
+  "applyUrl": "https://instacart.careers/job/?gh_jid=8141535",
+  "companyDomain": "instacart.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6746274d9bc238ba6ee0bc415342dff2_272_160?Expires=1861920000&Signature=ktKnSZkeri~1vnj9MfUr69KMPWA7Hzfv6khdOuQtEEu0v54cQLkyU",
+  "companyId": "Instacart",
+  "companySlug": "instacart",
+  "companyName": "Instacart",
+  "companyStaffCount": 25209,
   "considerHosted": false,
   "departments": [
-   "Infrastructure/Platform"
+   "Marketing "
   ],
   "jobTypes": [
+   {
+    "id": "marketing-all",
+    "label": "Marketing",
+    "value": "marketing-all"
+   },
    {
     "id": "senior-software-engineer",
     "label": "Senior Software Engineer",
     "value": "senior-software-engineer"
+   },
+   {
+    "id": "sales-enablement",
+    "label": "Sales Enablement",
+    "value": "sales-enablement"
    }
   ],
   "jobFunctions": [
    {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   },
+   {
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "San Mateo, CA United States"
+   "Canada - Remote (ON, AB, BC,",
+   "NS Only)"
   ],
   "normalizedLocations": [
    {
-    "id": "San Mateo, California",
-    "label": "San Mateo, California",
-    "value": "San Mateo, California"
+    "id": "Canada",
+    "label": "Canada",
+    "value": "Canada"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 196000, 'maxValue': 207000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Data Infrastructure",
-    "label": "Data Infrastructure",
-    "value": "resume:Data Infrastructure"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Data Processing",
-    "label": "Data Processing",
-    "value": "resume:Data Processing"
+    "id": "resume:Product Roadmap",
+    "label": "Product Roadmap",
+    "value": "resume:Product Roadmap"
    },
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Data Infrastructure",
-    "label": "Data Infrastructure",
-    "value": "resume:Data Infrastructure"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Data Processing",
-    "label": "Data Processing",
-    "value": "resume:Data Processing"
+    "id": "resume:Product Roadmap",
+    "label": "Product Roadmap",
+    "value": "resume:Product Roadmap"
    },
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
-    "id": "resume:Data Visualization",
-    "label": "Data Visualization",
-    "value": "resume:Data Visualization"
-   },
-   {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "manager": false,
@@ -262,30 +278,21 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 8,
+  "maxYearsExp": 12,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -303,23 +310,28 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Consumer Electronics",
-    "label": "Consumer Electronics",
-    "value": "Consumer Electronics"
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
    },
    {
-    "id": "Hardware",
-    "label": "Hardware",
-    "value": "Hardware"
+    "id": "ECommerce",
+    "label": "eCommerce",
+    "value": "ECommerce"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-08-19T02:35:54Z",
-  "title": "Senior Software Engineer, Data Platform",
-  "url": "https://job-boards.greenhouse.io/verkada/jobs/5215882007",
-  "jobId": "5215882007",
-  "remote": false,
+  "timeStamp": "2026-08-19T09:50:06Z",
+  "title": "Senior Software Engineer II, Marketing Enablement",
+  "url": "https://instacart.careers/job/?gh_jid=8141535",
+  "jobId": "8141535",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1830834941894, 'matchScore': 0, 'ageScore': 0.983083494189429, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1897180892322, 'matchScore': 0, 'ageScore': 0.9897180892322531, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
