@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-08-19T05:51:44Z",
+ "run": "2026-08-19T07:11:22Z",
  "homepage": {
   "status": 200,
   "bytes": 16702
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Dzx4V8BWvU\u2026",
+  "session.sig": "u1IeU_0kt7\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTM4MzQ4MGIwOWU2YWU5MTNjZWVmMWI2ZDJhZjRjMWEiLCAic2NvcmUiOiAwLjk5MjQ2Njk1NzE0Njk5MDh9"
+   "sequence": "eyJfaWQiOiAiZTM4MzQ4MGIwOWU2YWU5MTNjZWVmMWI2ZDJhZjRjMWEiLCAic2NvcmUiOiAwLjk4Mzk5NzQ1NDE4MzI1NjF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -203,14 +203,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 170000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
     "id": "resume:Mentorship",
     "label": "Mentorship",
     "value": "resume:Mentorship"
+   },
+   {
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
     "id": "resume:CPA",
@@ -218,48 +223,38 @@
     "value": "resume:CPA"
    },
    {
-    "id": "resume:Financial Planning",
-    "label": "Financial Planning",
-    "value": "resume:Financial Planning"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
     "id": "resume:Mentorship",
     "label": "Mentorship",
     "value": "resume:Mentorship"
    },
    {
-    "id": "resume:CPA",
-    "label": "CPA",
-    "value": "resume:CPA"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Financial Planning",
-    "label": "Financial Planning",
-    "value": "resume:Financial Planning"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:CPA",
+    "label": "CPA",
+    "value": "resume:CPA"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
    },
    {
     "id": "resume:Veterinary",
@@ -267,9 +262,14 @@
     "value": "resume:Veterinary"
    },
    {
-    "id": "resume:Conversion Optimization",
-    "label": "Conversion Optimization",
-    "value": "resume:Conversion Optimization"
+    "id": "resume:CFA",
+    "label": "CFA",
+    "value": "resume:CFA"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "manager": false,
@@ -320,7 +320,7 @@
   "jobId": "5394506008",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1893604779962, 'matchScore': 0, 'ageScore': 0.989360477996142, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1809483506173, 'matchScore': 0, 'ageScore': 0.9809483506172839, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
