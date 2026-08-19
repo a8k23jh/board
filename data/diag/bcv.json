@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-19T14:57:41Z",
+ "run": "2026-08-19T15:52:05Z",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "rB_N0C0e_A\u2026",
+  "session.sig": "nsuNdCYG85\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGZiMjVhODk5NzI4YmJlMmUxZjUxOGFkOWE5ZDk3NDEiLCAic2NvcmUiOiAxLjA3NjkyODM3ODQ2NjgyMX0="
+   "sequence": "eyJfaWQiOiAiMGE5ODczYzE5MmNhZGRhYWYzZmM3MGQ4OWMyOWMzYWEiLCAic2NvcmUiOiAxLjA3MzIzNDMyMTk1Nzk0Nzd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -176,14 +176,14 @@
   ],
   "jobTypes": [
    {
-    "id": "nurse",
-    "label": "Nurse",
-    "value": "nurse"
-   },
-   {
     "id": "physician-assistant",
     "label": "Physician Assistant",
     "value": "physician-assistant"
+   },
+   {
+    "id": "nurse",
+    "label": "Nurse",
+    "value": "nurse"
    }
   ],
   "jobFunctions": [
@@ -206,9 +206,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 95738, 'maxValue': 206206, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    },
    {
     "id": "resume:CVS",
@@ -216,26 +216,26 @@
     "value": "resume:CVS"
    },
    {
+    "id": "resume:Health/Human Services",
+    "label": "Health/Human Services",
+    "value": "resume:Health/Human Services"
+   },
+   {
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
+   },
+   {
     "id": "resume:NPS",
     "label": "NPS",
     "value": "resume:NPS"
-   },
-   {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
-   },
-   {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    },
    {
     "id": "resume:CVS",
@@ -243,16 +243,21 @@
     "value": "resume:CVS"
    },
    {
-    "id": "resume:NPS",
-    "label": "NPS",
-    "value": "resume:NPS"
+    "id": "resume:Health/Human Services",
+    "label": "Health/Human Services",
+    "value": "resume:Health/Human Services"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
+   },
+   {
+    "id": "resume:NPS",
+    "label": "NPS",
+    "value": "resume:NPS"
    },
    {
     "id": "resume:State & Local",
@@ -263,11 +268,6 @@
     "id": "resume:iPad",
     "label": "iPad",
     "value": "resume:iPad"
-   },
-   {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
    }
   ],
   "manager": false,
@@ -285,11 +285,6 @@
   ],
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
     "id": "South Atlantic",
     "label": "South Atlantic",
     "value": "South Atlantic"
@@ -298,6 +293,11 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -326,20 +326,10 @@
   "jobId": "R1014450",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1842972672686, 'matchScore': 0, 'ageScore': 0.9842972672685185, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1801675259576, 'matchScore': 0, 'ageScore': 0.9801675259575617, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
-   },
    {
     "id": "senior",
     "label": "Senior",
@@ -349,13 +339,23 @@
     "id": "junior",
     "label": "Junior",
     "value": "junior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "expert",
    "senior",
-   "junior"
+   "junior",
+   "mid",
+   "expert"
   ],
   "isFeatured": false
  },
