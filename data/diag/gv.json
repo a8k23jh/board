@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-08-20T05:51:37Z",
+ "run": "2026-08-20T07:12:21Z",
  "homepage": {
   "status": 200,
   "bytes": 26170
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "VG40Vzl_HF\u2026",
+  "session.sig": "t3rAO-fGi5\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzQzNzI2NDI0NDI2ZDhhMDZmOGM0Mzg5NTA1OTc3NTkiLCAic2NvcmUiOiAxLjE1MDAzMjkxMDE3Mzk5N30="
+   "sequence": "eyJfaWQiOiAiNzQzNzI2NDI0NDI2ZDhhMDZmOGM0Mzg5NTA1OTc3NTkiLCAic2NvcmUiOiAxLjE0MTk2MTY5NzI1Mzg1OH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -160,6 +160,11 @@
   ],
   "jobTypes": [
    {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
     "id": "director-engineering",
     "label": "Director of Engineering",
     "value": "director-engineering"
@@ -168,11 +173,6 @@
     "id": "engineering-manager",
     "label": "Engineering Manager",
     "value": "engineering-manager"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
    }
   ],
   "jobFunctions": [
@@ -195,58 +195,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 280000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Nexus",
-    "label": "Nexus",
-    "value": "resume:Nexus"
-   },
-   {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Nexus",
-    "label": "Nexus",
-    "value": "resume:Nexus"
-   },
-   {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
    },
    {
     "id": "resume:Cross-functional Team Leadership",
@@ -254,14 +205,63 @@
     "value": "resume:Cross-functional Team Leadership"
    },
    {
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
+   },
+   {
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
+   },
+   {
+    "id": "resume:Movement",
+    "label": "Movement",
+    "value": "resume:Movement"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
+   },
+   {
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
+   },
+   {
+    "id": "resume:Movement",
+    "label": "Movement",
+    "value": "resume:Movement"
+   },
+   {
     "id": "resume:Audit",
     "label": "Audit",
     "value": "resume:Audit"
    },
    {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
+    "id": "resume:Nexus",
+    "label": "Nexus",
+    "value": "resume:Nexus"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "manager": true,
@@ -269,11 +269,6 @@
   "contractor": false,
   "considerLevels": [],
   "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
@@ -283,6 +278,11 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -311,7 +311,7 @@
   "jobId": "61594493-8045-425a-84d0-69d61a58331b",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.195541656157, 'matchScore': 0, 'ageScore': 0.9955416561570216, 'richnessScore': 2}",
+  "scores": "{'score': 1001.187457042804, 'matchScore': 0, 'ageScore': 0.9874570428040124, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

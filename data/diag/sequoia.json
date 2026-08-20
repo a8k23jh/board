@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-20T05:51:37Z",
+ "run": "2026-08-20T07:12:21Z",
  "homepage": {
   "status": 200,
   "bytes": 20235
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "gQ7eGEJTn7\u2026",
+  "session.sig": "lIINy1VhgH\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWNiN2MyMDFhMDExMTc4NTUxYzk5NzNkNzFhNzI4NDciLCAic2NvcmUiOiAxLjE1NjExNTYzNzQwNjYzNn0="
+   "sequence": "eyJfaWQiOiAiMzZiM2ZiYzYyMThkYzQwMjU1OTE2YmNhNjA1ZjBjOTkiLCAic2NvcmUiOiAxLjE1MDE5MTA1MjE4ODY1NzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,22 +155,27 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://cribl.io/job-detail/?gh_jid=6144377004&gh_src=8c0276084us",
-  "companyDomain": "cribl.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/748d19f5df4c5e3b2db8057cc735611a_192_160?Expires=1861920000&Signature=SJNRIXlQ5WF7hK48z7k8lkFmAsL5Sb-gi~rgZ4pKC9QoteIMr6wH-",
-  "companyId": "Cribl",
-  "companySlug": "cribl",
-  "companyName": "Cribl",
-  "companyStaffCount": 1290,
+  "applyUrl": "https://boards.greenhouse.io/faire/jobs/8731172002?gh_jid=8731172002",
+  "companyDomain": "faire.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9550f0334126ddf0cec55a4ae51b196e_256_160?Expires=1861920000&Signature=puvRZaIKdo7yRxmf53e4~PiO0DgJ50GMdE2l-eDSkpH1xzbEEYdBt",
+  "companyId": "Faire",
+  "companySlug": "faire",
+  "companyName": "Faire Wholesale, Inc.",
+  "companyStaffCount": 1524,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Algorithms & Data"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "data-scientist",
+    "label": "Data Scientist",
+    "value": "data-scientist"
+   },
+   {
+    "id": "platform-engineer",
+    "label": "Platform Engineer",
+    "value": "platform-engineer"
    }
   ],
   "jobFunctions": [
@@ -181,26 +186,37 @@
    }
   ],
   "locations": [
-   "Remote - United States"
+   "Remote - US",
+   "San Francisco, CA"
   ],
   "normalizedLocations": [
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 295000, 'maxValue': 405500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Advisor",
+    "label": "Advisor",
+    "value": "resume:Advisor"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -208,58 +224,53 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
-   },
-   {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Design Systems",
+    "label": "Design Systems",
+    "value": "resume:Design Systems"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Advisor",
+    "label": "Advisor",
+    "value": "resume:Advisor"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Design Systems",
+    "label": "Design Systems",
+    "value": "resume:Design Systems"
    },
    {
-    "id": "resume:Google Cloud Platform",
-    "label": "Google Cloud Platform",
-    "value": "resume:Google Cloud Platform"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    },
    {
-    "id": "resume:memory allocation",
-    "label": "Memory Allocation",
-    "value": "resume:memory allocation"
+    "id": "resume:Statistics",
+    "label": "Statistics",
+    "value": "resume:Statistics"
    }
   ],
   "manager": false,
@@ -267,19 +278,27 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 10,
+  "maxYearsExp": 12,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -301,29 +320,39 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Data & Analytics",
-    "label": "Data & Analytics",
-    "value": "Data & Analytics"
+    "id": "Business Services",
+    "label": "Business Services",
+    "value": "Business Services"
+   },
+   {
+    "id": "Retail",
+    "label": "Retail",
+    "value": "Retail"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-08-19T17:47:29Z",
-  "title": "Software Engineer, Edge",
-  "url": "https://cribl.io/job-detail/?gh_jid=6144377004",
-  "jobId": "6144377004",
+  "timeStamp": "2026-08-19T17:29:53Z",
+  "title": "Senior Staff Machine Learning Platform Engineer",
+  "url": "https://boards.greenhouse.io/faire/jobs/8731172002?gh_jid=8731172002",
+  "jobId": "8731172002",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1922554141987, 'matchScore': 0, 'ageScore': 0.9922554141986882, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1838581114919, 'matchScore': 0, 'ageScore': 0.9838581114918982, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

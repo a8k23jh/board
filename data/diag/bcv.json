@@ -1,7 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-20T05:51:37Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.baincapitalventures.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by ",
+ "run": "2026-08-20T07:12:21Z",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -51,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "mqMj4Mx0Wm\u2026",
+  "session.sig": "ElGNUZdg4r\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -136,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWI0YzYyMWU4YzJiNTgzY2FhY2ZkZDVjZjY5MTcyNjQiLCAic2NvcmUiOiAxLjEzMzQ5MzExNjg4MTk0NDR9"
+   "sequence": "eyJfaWQiOiAiYWZmMjcyMWZmNmJiZDFlOWQ0ZWQ3YzA1MDhhNTI4N2UiLCAic2NvcmUiOiAxLjEwNDk3MzkxMDIzNTMzOTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -175,14 +174,14 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "enterprise-account-executive",
-    "label": "Enterprise Account Executive",
-    "value": "enterprise-account-executive"
-   },
-   {
     "id": "sales",
     "label": "Sales",
     "value": "sales"
+   },
+   {
+    "id": "enterprise-account-executive",
+    "label": "Enterprise Account Executive",
+    "value": "enterprise-account-executive"
    }
   ],
   "jobFunctions": [
@@ -205,63 +204,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 124000, 'maxValue': 179800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
-   },
-   {
-    "id": "resume:Identity & Access Management (IAM)",
-    "label": "Identity & Access Management (IAM)",
-    "value": "resume:Identity & Access Management (IAM)"
-   },
-   {
-    "id": "resume:Procurement",
-    "label": "Procurement",
-    "value": "resume:Procurement"
-   },
-   {
-    "id": "resume:Exceeding Quotas",
-    "label": "Exceeding Quotas",
-    "value": "resume:Exceeding Quotas"
-   },
-   {
-    "id": "resume:Sales Forecasting",
-    "label": "Sales Forecasting",
-    "value": "resume:Sales Forecasting"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
-   },
-   {
-    "id": "resume:Identity & Access Management (IAM)",
-    "label": "Identity & Access Management (IAM)",
-    "value": "resume:Identity & Access Management (IAM)"
-   },
-   {
-    "id": "resume:Procurement",
-    "label": "Procurement",
-    "value": "resume:Procurement"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Exceeding Quotas",
-    "label": "Exceeding Quotas",
-    "value": "resume:Exceeding Quotas"
-   },
-   {
-    "id": "resume:Sales Forecasting",
-    "label": "Sales Forecasting",
-    "value": "resume:Sales Forecasting"
-   },
-   {
-    "id": "resume:Large Accounts",
-    "label": "Large Accounts",
-    "value": "resume:Large Accounts"
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
    },
    {
     "id": "resume:Complex Sales",
@@ -269,9 +214,63 @@
     "value": "resume:Complex Sales"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Sales Development",
+    "label": "Sales Development",
+    "value": "resume:Sales Development"
+   },
+   {
+    "id": "resume:SaaS Sales",
+    "label": "SaaS Sales",
+    "value": "resume:SaaS Sales"
+   },
+   {
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
+   },
+   {
+    "id": "resume:Complex Sales",
+    "label": "Complex Sales",
+    "value": "resume:Complex Sales"
+   },
+   {
+    "id": "resume:Sales Development",
+    "label": "Sales Development",
+    "value": "resume:Sales Development"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:SaaS Sales",
+    "label": "SaaS Sales",
+    "value": "resume:SaaS Sales"
+   },
+   {
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
+   },
+   {
+    "id": "resume:Post-sales",
+    "label": "Post-sales",
+    "value": "resume:Post-sales"
+   },
+   {
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
+   },
+   {
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    }
   ],
   "manager": false,
@@ -310,7 +309,7 @@
   "jobId": "30136",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1967535423195, 'matchScore': 0, 'ageScore': 0.9967535423194445, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1889279001713, 'matchScore': 0, 'ageScore': 0.9889279001712963, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -327,6 +326,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
