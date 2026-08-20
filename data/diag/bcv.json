@@ -1,6 +1,7 @@
 {
  "board": "bcv",
- "run": "2026-08-20T04:58:45Z",
+ "run": "2026-08-20T05:51:37Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.baincapitalventures.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by ",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -50,7 +51,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cm7xsVisB8\u2026",
+  "session.sig": "mqMj4Mx0Wm\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -326,5 +327,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
