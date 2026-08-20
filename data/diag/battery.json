@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-08-20T17:51:24Z",
+ "run": "2026-08-20T19:06:40Z",
  "homepage": {
   "status": 200,
   "bytes": 18742
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "AfPtAGGL_i\u2026",
+  "session.sig": "XeWAeL2vWJ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGQ4ZTcyYjM4ODkyNjIyZTg0MjIyZjA0MjFjYmYwZTUiLCAic2NvcmUiOiAxLjEwNTQ0NTQ1NzM3MzQ1N30="
+   "sequence": "eyJfaWQiOiAiOWEyMWYwN2Q1ZTRiMDU2ZTc1NTJkNDYwMWFhYmJkYzYiLCAic2NvcmUiOiAxLjEwODQ4NDYzNzE5NzkxNjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,120 +136,128 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/minutemedia/45.00A/technical-account-manager/E4.C6C-2D.10E",
-  "companyDomain": "minutemedia.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/de6ab7e06e8bae4787647a41bc35aae4_320_160?Expires=1861920000&Signature=WceEJe4-9Ay2Y14VDxe1TA1qP1tOdAw57fJsAEULKHSw9ysg~uF12",
-  "companyId": "Minute Media",
-  "companySlug": "minute-media",
-  "companyName": "Minute Media",
-  "companyStaffCount": 426,
+  "applyUrl": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6147624004",
+  "companyDomain": "sambanova.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/68e011c17b8ba5ad3537bfc5ae420dd7_320_160?Expires=1861920000&Signature=Odd~JH~9d059teI7FGcbKjMXzE0HRf0HMxxNo1jBOVcKcY6Cbnd7L",
+  "companyId": "SambaNova Systems",
+  "companySlug": "sambanova-systems",
+  "companyName": "SambaNova",
+  "companyStaffCount": 398,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Hardware"
+  ],
   "jobTypes": [
    {
-    "id": "technical-account-manager",
-    "label": "Technical Account Manager",
-    "value": "technical-account-manager"
+    "id": "hardware-engineer",
+    "label": "Hardware Engineer",
+    "value": "hardware-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "US Remote"
+   "Austin, Texas, United States",
+   "San Jose, California, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
+   },
+   {
+    "id": "San Jose, California",
+    "label": "San Jose, California",
+    "value": "San Jose, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 130000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Pivot Tables",
-    "label": "Pivot Tables",
-    "value": "resume:Pivot Tables"
+    "id": "resume:PCIe",
+    "label": "PCIe",
+    "value": "resume:PCIe"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Computer Architecture",
+    "label": "Computer Architecture",
+    "value": "resume:Computer Architecture"
    },
    {
-    "id": "resume:Online Advertising",
-    "label": "Online Advertising",
-    "value": "resume:Online Advertising"
+    "id": "resume:Ethernet",
+    "label": "Ethernet",
+    "value": "resume:Ethernet"
    },
    {
-    "id": "resume:TAM",
-    "label": "TAM",
-    "value": "resume:TAM"
+    "id": "resume:Timing Analysis",
+    "label": "Static Timing Analysis",
+    "value": "resume:Timing Analysis"
    },
    {
-    "id": "resume:Looker",
-    "label": "Looker",
-    "value": "resume:Looker"
+    "id": "resume:Logic Design",
+    "label": "Logic Design",
+    "value": "resume:Logic Design"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Pivot Tables",
-    "label": "Pivot Tables",
-    "value": "resume:Pivot Tables"
+    "id": "resume:PCIe",
+    "label": "PCIe",
+    "value": "resume:PCIe"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Computer Architecture",
+    "label": "Computer Architecture",
+    "value": "resume:Computer Architecture"
    },
    {
-    "id": "resume:Online Advertising",
-    "label": "Online Advertising",
-    "value": "resume:Online Advertising"
+    "id": "resume:Ethernet",
+    "label": "Ethernet",
+    "value": "resume:Ethernet"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:TAM",
-    "label": "TAM",
-    "value": "resume:TAM"
+    "id": "resume:Timing Analysis",
+    "label": "Static Timing Analysis",
+    "value": "resume:Timing Analysis"
    },
    {
-    "id": "resume:Looker",
-    "label": "Looker",
-    "value": "resume:Looker"
+    "id": "resume:Logic Design",
+    "label": "Logic Design",
+    "value": "resume:Logic Design"
    },
    {
-    "id": "resume:Analytics Tools",
-    "label": "Analytics Tools",
-    "value": "resume:Analytics Tools"
+    "id": "resume:Shell Scripting",
+    "label": "Shell Scripting",
+    "value": "resume:Shell Scripting"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:Performance Analysis",
+    "label": "Performance Analysis",
+    "value": "resume:Performance Analysis"
    },
    {
-    "id": "resume:Ad Tech",
-    "label": "Ad Tech",
-    "value": "resume:Ad Tech"
+    "id": "resume:Integrated Circuit Design",
+    "label": "Integrated Circuit Design",
+    "value": "resume:Integrated Circuit Design"
    }
   ],
   "manager": false,
@@ -259,13 +267,38 @@
    [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    }
   ],
   "stages": [
@@ -273,33 +306,44 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Online Media",
-    "label": "Digital Media",
-    "value": "Online Media"
+    "id": "Computer Hardware",
+    "label": "Computer Hardware",
+    "value": "Computer Hardware"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-08-20T02:19:01Z",
-  "title": "Technical Account Manager",
-  "url": "https://www.comeet.com/jobs/minutemedia/45.00A/technical-account-manager/E4.C6C-2D.10E",
-  "jobId": "E4.C6C-2D.10E",
-  "remote": true,
+  "timeStamp": "2026-08-20T08:33:42Z",
+  "title": "Senior RTL Design Engineer",
+  "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6147624004",
+  "jobId": "6147624004",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1826694268581, 'matchScore': 0, 'ageScore': 0.9826694268580247, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1879085612759, 'matchScore': 0, 'ageScore': 0.9879085612758488, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
