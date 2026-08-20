@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-08-20T14:59:45Z",
+ "run": "2026-08-20T15:53:42Z",
  "homepage": {
   "status": 200,
   "bytes": 26170
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "4dbfr4nrLU\u2026",
+  "session.sig": "r1-7eRZ2vQ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTcxYzI2ZDE2NDBhNDJmZGI2ZDEyZWM4YTdjYjk3NWIiLCAic2NvcmUiOiAxLjEzOTc3MTAwNTQ1OTQ5MDd9"
+   "sequence": "eyJfaWQiOiAiOWY0ZTBmNDY4MzQ1MWFjMzVjMjhmYzVmZDRlOTZhNDAiLCAic2NvcmUiOiAxLjEzNTYzNzM3NTg5Mjc0N30="
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8142994",
+  "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8128426",
   "companyDomain": "gusto.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/19a422e68b3e25e5c86870a9db150998_144_160?Expires=1861920000&Signature=CN-UUjGowYONjxHqRtVNezWXCZFUjW~rtftm9Cpvq935lA9FO8r1h",
   "companyId": "Gusto ZenPayroll",
@@ -160,28 +160,12 @@
   ],
   "jobTypes": [
    {
-    "id": "customer-support",
-    "label": "Customer Support",
-    "value": "customer-support"
-   },
-   {
-    "id": "support-engineer",
-    "label": "Support Engineer",
-    "value": "support-engineer"
+    "id": "advocacy-professional",
+    "label": "Advocacy Professional",
+    "value": "advocacy-professional"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
-   },
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
    "Denver, CO - Hybrid"
   ],
@@ -195,73 +179,73 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 23.5, 'maxValue': 26.44, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
+   },
+   {
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
    },
    {
     "id": "resume:Payroll",
     "label": "Payroll",
     "value": "resume:Payroll"
-   },
-   {
-    "id": "resume:Driving Results",
-    "label": "Driving Results",
-    "value": "resume:Driving Results"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    }
   ],
   "preferredSkills": [
+   {
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
+   },
    {
     "id": "resume:Payroll",
     "label": "Payroll",
     "value": "resume:Payroll"
    },
    {
-    "id": "resume:Driving Results",
-    "label": "Driving Results",
-    "value": "resume:Driving Results"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    },
    {
-    "id": "resume:Relationship Management",
-    "label": "Relationship Management",
-    "value": "resume:Relationship Management"
-   },
-   {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    }
   ],
   "manager": false,
@@ -277,7 +261,7 @@
     4
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 3,
   "regions": [
    {
     "id": "North America",
@@ -310,25 +294,17 @@
     "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-08-20T01:42:10Z",
-  "title": "Participant Support Specialist",
-  "url": "https://job-boards.greenhouse.io/gusto/jobs/8142994",
-  "jobId": "8142994",
+  "timeStamp": "2026-08-20T01:58:09Z",
+  "title": "401(k) Onboarding Advocate",
+  "url": "https://job-boards.greenhouse.io/gusto/jobs/8128426",
+  "jobId": "8128426",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1868422000061, 'matchScore': 0, 'ageScore': 0.9868422000061728, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1824863630528, 'matchScore': 0, 'ageScore': 0.982486363052855, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   }
-  ],
-  "jobSeniorityIds": [
-   "mid"
-  ],
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {

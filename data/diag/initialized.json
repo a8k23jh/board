@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-08-20T14:59:45Z",
+ "run": "2026-08-20T15:53:42Z",
  "homepage": {
   "status": 200,
   "bytes": 20927
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "PoDNJwTAjT\u2026",
+  "session.sig": "2Mh7fnl5F3\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTk1MTUxZWRlMDBhY2JhNjZjY2Q1MzVjZjkyMWIzNzMiLCAic2NvcmUiOiAxMDAuMjg0MjM4MjcxMjExOH0="
+   "sequence": "eyJfaWQiOiAiYzQyMjY5YjQ1MDU2OWQ3YzY2N2RlZGU1YTk2Zjc4ZjMiLCAic2NvcmUiOiAxMDAuMjc5NjUwNzg5NzYwNDF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -174,19 +174,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 191000, 'maxValue': 285000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Orchestration",
-    "label": "Orchestration",
-    "value": "resume:Orchestration"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Terraform",
-    "label": "Terraform",
-    "value": "resume:Terraform"
-   },
-   {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    },
    {
     "id": "resume:Infrastructure",
@@ -194,53 +189,58 @@
     "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:Developer Platform",
+    "label": "Developer Platform",
+    "value": "resume:Developer Platform"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Orchestration",
-    "label": "Orchestration",
-    "value": "resume:Orchestration"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Terraform",
-    "label": "Terraform",
-    "value": "resume:Terraform"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Developer Platform",
+    "label": "Developer Platform",
+    "value": "resume:Developer Platform"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
+   },
+   {
+    "id": "resume:RBAC",
+    "label": "RBAC",
+    "value": "resume:RBAC"
    },
    {
     "id": "resume:Amazon Web Services",
     "label": "Amazon Web Services",
     "value": "resume:Amazon Web Services"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
-   },
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   },
-   {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
    }
   ],
   "manager": false,
@@ -296,24 +296,24 @@
   "jobId": "449bafbb-6cf1-4361-b6ef-6d0ef79933a0",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1101.0844548862033, 'matchScore': 0, 'ageScore': 0.8844548862033179, 'richnessScore': 2}",
+  "scores": "{'score': 1101.0799915537227, 'matchScore': 0, 'ageScore': 0.8799915537226081, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": true
  },
