@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-08-20T11:48:06Z",
+ "run": "2026-08-20T13:19:41Z",
  "homepage": {
   "status": 200,
   "bytes": 19517
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Z-ay-ZyB5H\u2026",
+  "session.sig": "iaB1IpIwrO\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzQ1OTFmNzQ4ZDYzMjA3OTg3ZTkzOGNhZDZkZDA2YmMiLCAic2NvcmUiOiAxLjEyMTQyNTUzODcwMDIzMTR9"
+   "sequence": "eyJfaWQiOiAiNTQ0ZjFhNDc1ZmZjYWRhZTEzZmM0Y2VmZDkzZDUzYjgiLCAic2NvcmUiOiAxLjExNjk3Njg4NDI2Mzg4OX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -172,6 +172,11 @@
   ],
   "normalizedLocations": [
    {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
     "id": "New York, New York",
     "label": "New York, New York",
     "value": "New York, New York"
@@ -180,69 +185,10 @@
     "id": "Seattle, Washington",
     "label": "Seattle, Washington",
     "value": "Seattle, Washington"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 205000, 'maxValue': 270000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Process Flow Documentation",
-    "label": "Process Flow Documentation",
-    "value": "resume:Process Flow Documentation"
-   },
-   {
-    "id": "resume:Process Improvement",
-    "label": "Process Improvement",
-    "value": "resume:Process Improvement"
-   },
-   {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
-   },
-   {
-    "id": "resume:iPaaS",
-    "label": "iPaaS",
-    "value": "resume:iPaaS"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Process Flow Documentation",
-    "label": "Process Flow Documentation",
-    "value": "resume:Process Flow Documentation"
-   },
-   {
-    "id": "resume:Process Improvement",
-    "label": "Process Improvement",
-    "value": "resume:Process Improvement"
-   },
-   {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:iPaaS",
-    "label": "iPaaS",
-    "value": "resume:iPaaS"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
    {
     "id": "resume:Automation",
     "label": "Automation",
@@ -254,9 +200,63 @@
     "value": "resume:API Integrations"
    },
    {
-    "id": "resume:Requirements Gathering",
-    "label": "Requirements Gathering",
-    "value": "resume:Requirements Gathering"
+    "id": "resume:Process Improvement",
+    "label": "Process Improvement",
+    "value": "resume:Process Improvement"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Vendor Management",
+    "label": "Vendor Management",
+    "value": "resume:Vendor Management"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:API Integrations",
+    "label": "API Integrations",
+    "value": "resume:API Integrations"
+   },
+   {
+    "id": "resume:Process Improvement",
+    "label": "Process Improvement",
+    "value": "resume:Process Improvement"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Vendor Management",
+    "label": "Vendor Management",
+    "value": "resume:Vendor Management"
+   },
+   {
+    "id": "resume:iPaaS",
+    "label": "iPaaS",
+    "value": "resume:iPaaS"
+   },
+   {
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
+   },
+   {
+    "id": "resume:Process Flow Documentation",
+    "label": "Process Flow Documentation",
+    "value": "resume:Process Flow Documentation"
    }
   ],
   "manager": false,
@@ -275,14 +275,14 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "Northwest",
@@ -290,14 +290,14 @@
     "value": "Northwest"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -331,7 +331,7 @@
   "jobId": "5394958008",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1890899696995, 'matchScore': 0, 'ageScore': 0.9890899696994598, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1846908889645, 'matchScore': 0, 'ageScore': 0.9846908889645062, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

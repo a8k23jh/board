@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-08-20T11:48:06Z",
+ "run": "2026-08-20T13:19:41Z",
  "homepage": {
   "status": 200,
   "bytes": 20927
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "5tPNxC12CV\u2026",
+  "session.sig": "6ou-6mgzOp\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzQyMjY5YjQ1MDU2OWQ3YzY2N2RlZGU1YTk2Zjc4ZjM6VGltZSBieSBQaW5nIiwgInNjb3JlIjogMTAwLjI4ODM4NzYxOTQ2NjA1fQ=="
+   "sequence": "eyJfaWQiOiAiNTk1MTUxZWRlMDBhY2JhNjZjY2Q1MzVjZjkyMWIzNzMiLCAic2NvcmUiOiAxMDAuMjg0MjM4MjcxMjExOH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -174,9 +174,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 191000, 'maxValue': 285000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
+   },
+   {
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    },
    {
     "id": "resume:Amazon Web Services",
@@ -184,63 +189,58 @@
     "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Google Cloud Platform",
-    "label": "Google Cloud Platform",
-    "value": "resume:Google Cloud Platform"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Microsoft Certified Professional",
-    "label": "Microsoft Certified Professional",
-    "value": "resume:Microsoft Certified Professional"
-   },
-   {
-    "id": "resume:Grafana",
-    "label": "Grafana",
-    "value": "resume:Grafana"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
+   },
+   {
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    },
    {
     "id": "resume:Amazon Web Services",
     "label": "Amazon Web Services",
     "value": "resume:Amazon Web Services"
-   },
-   {
-    "id": "resume:Google Cloud Platform",
-    "label": "Google Cloud Platform",
-    "value": "resume:Google Cloud Platform"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Microsoft Certified Professional",
-    "label": "Microsoft Certified Professional",
-    "value": "resume:Microsoft Certified Professional"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Grafana",
-    "label": "Grafana",
-    "value": "resume:Grafana"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:Docker",
-    "label": "Docker",
-    "value": "resume:Docker"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
-    "id": "resume:Security Compliance",
-    "label": "Security Compliance",
-    "value": "resume:Security Compliance"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    }
   ],
   "manager": false,
@@ -296,24 +296,24 @@
   "jobId": "449bafbb-6cf1-4361-b6ef-6d0ef79933a0",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1101.0882325656605, 'matchScore': 0, 'ageScore': 0.8882325656604938, 'richnessScore': 2}",
+  "scores": "{'score': 1101.0844548862033, 'matchScore': 0, 'ageScore': 0.8844548862033179, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": true
  },

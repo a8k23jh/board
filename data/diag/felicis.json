@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-08-20T11:48:06Z",
+ "run": "2026-08-20T13:19:41Z",
  "homepage": {
   "status": 200,
   "bytes": 25234
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "sRO-3TOdil\u2026",
+  "session.sig": "MAHIA13cF7\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2ZkYzJkZmI1Y2IxNjI3ZmM3MWE0NzFkODk0YjIxNmQiLCAic2NvcmUiOiAxLjEzNDk4ODEwOTg0ODc2NTV9"
+   "sequence": "eyJfaWQiOiAiY2ZkYzJkZmI1Y2IxNjI3ZmM3MWE0NzFkODk0YjIxNmQiLCAic2NvcmUiOiAxLjEzMDM4MzU5NjU2MjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,9 +160,9 @@
   ],
   "jobTypes": [
    {
-    "id": "project-coordinator",
-    "label": "Project Coordinator",
-    "value": "project-coordinator"
+    "id": "project-manager",
+    "label": "Project Manager",
+    "value": "project-manager"
    },
    {
     "id": "program-manager",
@@ -170,9 +170,9 @@
     "value": "program-manager"
    },
    {
-    "id": "project-manager",
-    "label": "Project Manager",
-    "value": "project-manager"
+    "id": "project-coordinator",
+    "label": "Project Coordinator",
+    "value": "project-coordinator"
    }
   ],
   "jobFunctions": [
@@ -195,9 +195,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 70000, 'maxValue': 85000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SharePoint",
-    "label": "SharePoint",
-    "value": "resume:SharePoint"
+    "id": "resume:GMP",
+    "label": "GMP",
+    "value": "resume:GMP"
+   },
+   {
+    "id": "resume:Biotechnology",
+    "label": "Biotechnology",
+    "value": "resume:Biotechnology"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
     "id": "resume:Equity",
@@ -205,58 +215,48 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Pre-IPO",
-    "label": "Pre-IPO",
-    "value": "resume:Pre-IPO"
-   },
-   {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SharePoint",
-    "label": "SharePoint",
-    "value": "resume:SharePoint"
+    "id": "resume:GMP",
+    "label": "GMP",
+    "value": "resume:GMP"
    },
+   {
+    "id": "resume:Biotechnology",
+    "label": "Biotechnology",
+    "value": "resume:Biotechnology"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Pre-IPO",
-    "label": "Pre-IPO",
-    "value": "resume:Pre-IPO"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Microsoft Project",
-    "label": "Microsoft Project",
-    "value": "resume:Microsoft Project"
-   },
-   {
-    "id": "resume:Resource Allocation",
-    "label": "Resource Allocation",
-    "value": "resume:Resource Allocation"
+    "id": "resume:Cell Therapy",
+    "label": "Cell Therapy",
+    "value": "resume:Cell Therapy"
    },
    {
     "id": "resume:Project Coordination",
@@ -286,14 +286,14 @@
     "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -327,7 +327,7 @@
   "jobId": "c60eb4bb-9e37-47f2-8e50-f8783e73dbe5",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1976832902361, 'matchScore': 0, 'ageScore': 0.9976832902361111, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1925411987253, 'matchScore': 0, 'ageScore': 0.9925411987253087, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
