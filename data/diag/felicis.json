@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-08-20T09:01:04Z",
+ "run": "2026-08-20T09:54:56Z",
  "homepage": {
   "status": 200,
   "bytes": 25234
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "h2uTYutbrv\u2026",
+  "session.sig": "ilrnQkRTB1\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOThiNzRiZTY0ZGQxNjVlZGMzMGI5OWI5Y2RkNmRjY2MiLCAic2NvcmUiOiAxLjEyNDY3NzY4NzMwOTQxMzV9"
+   "sequence": "eyJfaWQiOiAiY2ZkYzJkZmI1Y2IxNjI3ZmM3MWE0NzFkODk0YjIxNmQiLCAic2NvcmUiOiAxLjEzNDk4ODEwOTg0ODc2NTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/orcabiosystems/1cb32d45-f84a-44b1-aade-6e89a131b551?lever-source%5B%5D=jobs.felicis.com",
+  "applyUrl": "https://jobs.lever.co/orcabiosystems/c60eb4bb-9e37-47f2-8e50-f8783e73dbe5?lever-source%5B%5D=jobs.felicis.com",
   "companyDomain": "orcabio.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/57f096748d0755a61625cce65323397d_304_160?Expires=1861920000&Signature=VK3GmGTzObzyLIYDtNSLvipDrisWDOUjEteC6K0~t5Y1y80Djz9g2",
   "companyId": "Orca Bio",
@@ -156,20 +156,30 @@
   "companyStaffCount": 288,
   "considerHosted": false,
   "departments": [
-   "Quality"
+   "Operations"
   ],
   "jobTypes": [
    {
-    "id": "qa-technician",
-    "label": "QA Technician",
-    "value": "qa-technician"
+    "id": "project-coordinator",
+    "label": "Project Coordinator",
+    "value": "project-coordinator"
+   },
+   {
+    "id": "program-manager",
+    "label": "Program Manager",
+    "value": "program-manager"
+   },
+   {
+    "id": "project-manager",
+    "label": "Project Manager",
+    "value": "project-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Technician",
-    "label": "Technician",
-    "value": "Technician"
+    "id": "Project Management",
+    "label": "Project Management",
+    "value": "Project Management"
    }
   ],
   "locations": [
@@ -182,71 +192,44 @@
     "value": "Sacramento, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 61152, 'maxValue': 66248, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 70000, 'maxValue': 85000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
+   {
+    "id": "resume:SharePoint",
+    "label": "SharePoint",
+    "value": "resume:SharePoint"
+   },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Cell Therapy",
-    "label": "Cell Therapy",
-    "value": "resume:Cell Therapy"
+    "id": "resume:Pre-IPO",
+    "label": "Pre-IPO",
+    "value": "resume:Pre-IPO"
    },
    {
-    "id": "resume:Data Integrity",
-    "label": "Data Integrity",
-    "value": "resume:Data Integrity"
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    },
    {
-    "id": "resume:Aseptic Technique",
-    "label": "Aseptic Technique",
-    "value": "resume:Aseptic Technique"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:SharePoint",
+    "label": "SharePoint",
+    "value": "resume:SharePoint"
+   },
+   {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Cell Therapy",
-    "label": "Cell Therapy",
-    "value": "resume:Cell Therapy"
-   },
-   {
-    "id": "resume:Data Integrity",
-    "label": "Data Integrity",
-    "value": "resume:Data Integrity"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Aseptic Technique",
-    "label": "Aseptic Technique",
-    "value": "resume:Aseptic Technique"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
    },
    {
     "id": "resume:Pre-IPO",
@@ -254,20 +237,58 @@
     "value": "resume:Pre-IPO"
    }
   ],
+  "preferredSkills": [
+   {
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
+   {
+    "id": "resume:Microsoft Project",
+    "label": "Microsoft Project",
+    "value": "resume:Microsoft Project"
+   },
+   {
+    "id": "resume:Resource Allocation",
+    "label": "Resource Allocation",
+    "value": "resume:Resource Allocation"
+   },
+   {
+    "id": "resume:Project Coordination",
+    "label": "Project Coordination",
+    "value": "resume:Project Coordination"
+   }
+  ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 1,
+  "maxYearsExp": 4,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -300,24 +321,24 @@
     "value": "Pharmaceuticals"
    }
   ],
-  "timeStamp": "2026-08-19T21:36:07.882000Z",
-  "title": "Technician, Quality Assurance - Day Shift",
-  "url": "https://jobs.lever.co/orcabiosystems/1cb32d45-f84a-44b1-aade-6e89a131b551",
-  "jobId": "1cb32d45-f84a-44b1-aade-6e89a131b551",
+  "timeStamp": "2026-08-20T06:30:34.282000Z",
+  "title": "Project Coordinator - Project Management Office (PMO)",
+  "url": "https://jobs.lever.co/orcabiosystems/c60eb4bb-9e37-47f2-8e50-f8783e73dbe5",
+  "jobId": "c60eb4bb-9e37-47f2-8e50-f8783e73dbe5",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1895001551084, 'matchScore': 0, 'ageScore': 0.9895001551084105, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1976832902361, 'matchScore': 0, 'ageScore': 0.9976832902361111, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "junior"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-20T09:01:04Z",
+ "run": "2026-08-20T09:54:56Z",
  "homepage": {
   "status": 200,
   "bytes": 21734
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "c31wdhbCYs\u2026",
+  "session.sig": "EgXa1BV-1f\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNmJiYWU4NWZkYmFlOTZiNjBkM2VmMjNhNzJmOTIwMmMiLCAic2NvcmUiOiAxLjExODYxMDY5MTQ1NDQ3NTN9"
+   "sequence": "eyJfaWQiOiAiNTg1OTEzMzVkZDgzYmFhMDQxYWRmMWYwOTFiNTc2YjgiLCAic2NvcmUiOiAxLjEyMTI3MTI3MzA1Nzg3MDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,46 +152,36 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/luxurypresence/0a6fd9f4-a606-460e-b65e-5b31de56331a?lever-source%5B%5D=jobs.bvp.com",
-  "companyDomain": "luxurypresence.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/424eb3e37fb66a630c9d32c094fc61ca_240_160?Expires=1861920000&Signature=fSYTtnn23iqcoOJZzNYirZId9dUZkkwnb~4MnrzRI4y4YiuGpAjFW",
-  "companyId": "Luxury Presence",
-  "companySlug": "luxury-presence",
-  "companyName": "Luxury Presence",
-  "companyStaffCount": 859,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5394958008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Operations"
+   "Security"
   ],
   "jobTypes": [
    {
-    "id": "gtm",
-    "label": "GTM",
-    "value": "gtm"
-   },
-   {
-    "id": "data-analyst",
-    "label": "Data Analyst",
-    "value": "data-analyst"
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
    }
   ],
   "jobFunctions": [
-   {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   },
    {
     "id": "Analyst",
     "label": "Analyst",
@@ -199,36 +189,49 @@
    }
   ],
   "locations": [
-   "United States"
+   "Remote-Friendly (Travel-Required)",
+   "San Francisco, CA",
+   "Seattle, WA",
+   "New York City, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 205000, 'maxValue': 270000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:Process Flow Documentation",
+    "label": "Process Flow Documentation",
+    "value": "resume:Process Flow Documentation"
    },
    {
-    "id": "resume:Luxury",
-    "label": "Luxury",
-    "value": "resume:Luxury"
+    "id": "resume:Process Improvement",
+    "label": "Process Improvement",
+    "value": "resume:Process Improvement"
    },
    {
-    "id": "resume:Real Estate",
-    "label": "Real Estate",
-    "value": "resume:Real Estate"
+    "id": "resume:Vendor Management",
+    "label": "Vendor Management",
+    "value": "resume:Vendor Management"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:iPaaS",
+    "label": "iPaaS",
+    "value": "resume:iPaaS"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -238,26 +241,26 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:Process Flow Documentation",
+    "label": "Process Flow Documentation",
+    "value": "resume:Process Flow Documentation"
    },
    {
-    "id": "resume:Luxury",
-    "label": "Luxury",
-    "value": "resume:Luxury"
+    "id": "resume:Process Improvement",
+    "label": "Process Improvement",
+    "value": "resume:Process Improvement"
    },
    {
-    "id": "resume:Real Estate",
-    "label": "Real Estate",
-    "value": "resume:Real Estate"
+    "id": "resume:Vendor Management",
+    "label": "Vendor Management",
+    "value": "resume:Vendor Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:iPaaS",
+    "label": "iPaaS",
+    "value": "resume:iPaaS"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -265,9 +268,19 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:API Integrations",
+    "label": "API Integrations",
+    "value": "resume:API Integrations"
+   },
+   {
+    "id": "resume:Requirements Gathering",
+    "label": "Requirements Gathering",
+    "value": "resume:Requirements Gathering"
    }
   ],
   "manager": false,
@@ -283,45 +296,77 @@
     6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Marketing and Advertising",
-    "label": "Marketing and Advertising",
-    "value": "Marketing and Advertising"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-08-19T20:22:04.459000Z",
-  "title": "Senior Data Analyst, GTM Analytics - US (Remote)",
-  "url": "https://jobs.lever.co/luxurypresence/0a6fd9f4-a606-460e-b65e-5b31de56331a",
-  "jobId": "0a6fd9f4-a606-460e-b65e-5b31de56331a",
+  "timeStamp": "2026-08-20T00:47:03Z",
+  "title": "Business Systems Analyst",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5394958008",
+  "jobId": "5394958008",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1872144727138, 'matchScore': 0, 'ageScore': 0.9872144727137345, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1890899696995, 'matchScore': 0, 'ageScore': 0.9890899696994598, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
