@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-08-20T20:51:45Z",
+ "run": "2026-08-20T21:48:48Z",
  "homepage": {
   "status": 200,
   "bytes": 20607
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "xJI1RSo5MN\u2026",
+  "session.sig": "5ofTZNPi3m\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWVkODdjOTlhMDZjNWQxMmFmNzRiMzZjNjdlNTZjOTAiLCAic2NvcmUiOiAxLjEyMzEyNDM3ODY4NzExNDF9"
+   "sequence": "eyJfaWQiOiAiNTAyM2FjM2NlMTZhMDA5YzM2YzBmYTU1NTg1OTMyMjYiLCAic2NvcmUiOiAxLjExODk0NDc4NjgwMTMxMTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
     "id": "chemist",
     "label": "Chemist",
     "value": "chemist"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [],
@@ -184,58 +184,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135000, 'maxValue': 215000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Analytical Chemistry",
-    "label": "Analytical Chemistry",
-    "value": "resume:Analytical Chemistry"
-   },
-   {
-    "id": "resume:Characterization",
-    "label": "Characterization",
-    "value": "resume:Characterization"
-   },
-   {
-    "id": "resume:Method Development",
-    "label": "Method Development",
-    "value": "resume:Method Development"
-   },
-   {
-    "id": "resume:Organic Synthesis",
-    "label": "Organic Synthesis",
-    "value": "resume:Organic Synthesis"
-   },
-   {
-    "id": "resume:HPLC",
-    "label": "HPLC",
-    "value": "resume:HPLC"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Analytical Chemistry",
-    "label": "Analytical Chemistry",
-    "value": "resume:Analytical Chemistry"
-   },
-   {
-    "id": "resume:Characterization",
-    "label": "Characterization",
-    "value": "resume:Characterization"
-   },
-   {
-    "id": "resume:Method Development",
-    "label": "Method Development",
-    "value": "resume:Method Development"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Organic Synthesis",
-    "label": "Organic Synthesis",
-    "value": "resume:Organic Synthesis"
-   },
-   {
-    "id": "resume:HPLC",
-    "label": "HPLC",
-    "value": "resume:HPLC"
+    "id": "resume:cGMP",
+    "label": "cGMP",
+    "value": "resume:cGMP"
    },
    {
     "id": "resume:Quality Assurance",
@@ -243,14 +194,63 @@
     "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Quality Control",
-    "label": "Quality Control",
-    "value": "resume:Quality Control"
+    "id": "resume:Analytical Chemistry",
+    "label": "Analytical Chemistry",
+    "value": "resume:Analytical Chemistry"
    },
    {
     "id": "resume:GC-MS",
     "label": "GC-MS",
     "value": "resume:GC-MS"
+   },
+   {
+    "id": "resume:Quality Control",
+    "label": "Quality Control",
+    "value": "resume:Quality Control"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:cGMP",
+    "label": "cGMP",
+    "value": "resume:cGMP"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
+    "id": "resume:Analytical Chemistry",
+    "label": "Analytical Chemistry",
+    "value": "resume:Analytical Chemistry"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:GC-MS",
+    "label": "GC-MS",
+    "value": "resume:GC-MS"
+   },
+   {
+    "id": "resume:Quality Control",
+    "label": "Quality Control",
+    "value": "resume:Quality Control"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Organic Synthesis",
+    "label": "Organic Synthesis",
+    "value": "resume:Organic Synthesis"
+   },
+   {
+    "id": "resume:Quality Management",
+    "label": "Quality Management",
+    "value": "resume:Quality Management"
    }
   ],
   "manager": true,
@@ -290,7 +290,7 @@
   "jobId": "job_20260819175346_LDBN7HRV44UHTBNV",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1837828880729, 'matchScore': 0, 'ageScore': 0.9837828880729167, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1796633449183, 'matchScore': 0, 'ageScore': 0.9796633449182098, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

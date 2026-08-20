@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-08-20T20:51:45Z",
+ "run": "2026-08-20T21:48:48Z",
  "homepage": {
   "status": 200,
   "bytes": 26170
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "B5JtfjPaBh\u2026",
+  "session.sig": "srTxuWIZMN\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDYyNjAwNjQxYWYxOGY3MGZjNWE1OWMzYmI4MjM0MGYiLCAic2NvcmUiOiAxLjEzMzA4NjkzMjUxMjM0NTZ9"
+   "sequence": "eyJfaWQiOiAiMDYyNjAwNjQxYWYxOGY3MGZjNWE1OWMzYmI4MjM0MGYiLCAic2NvcmUiOiAxLjEyODk1OTQzMzI2NTA0NjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -185,58 +185,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 172000, 'maxValue': 258000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Nextjs",
-    "label": "Next.js",
-    "value": "resume:Nextjs"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   }
-  ],
-  "requiredSkills": [
    {
     "id": "resume:Developer Experience",
     "label": "Developer Experience",
     "value": "resume:Developer Experience"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Nextjs",
-    "label": "Next.js",
-    "value": "resume:Nextjs"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
    },
    {
     "id": "resume:Web Analytics",
@@ -244,14 +200,58 @@
     "value": "resume:Web Analytics"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Anchor",
+    "label": "Anchor",
+    "value": "resume:Anchor"
    },
    {
     "id": "resume:SDK",
     "label": "SDK",
     "value": "resume:SDK"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
+   {
+    "id": "resume:Developer Experience",
+    "label": "Developer Experience",
+    "value": "resume:Developer Experience"
+   },
+   {
+    "id": "resume:Web Analytics",
+    "label": "Web Analytics",
+    "value": "resume:Web Analytics"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Anchor",
+    "label": "Anchor",
+    "value": "resume:Anchor"
+   },
+   {
+    "id": "resume:SDK",
+    "label": "SDK",
+    "value": "resume:SDK"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Nextjs",
+    "label": "Next.js",
+    "value": "resume:Nextjs"
    }
   ],
   "manager": false,
@@ -269,9 +269,9 @@
   ],
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "East Coast",
@@ -279,14 +279,14 @@
     "value": "East Coast"
    },
    {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    }
   ],
   "stages": [
@@ -315,7 +315,7 @@
   "jobId": "6147956004",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1902736391763, 'matchScore': 0, 'ageScore': 0.9902736391763117, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1857928484942, 'matchScore': 0, 'ageScore': 0.985792848494213, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

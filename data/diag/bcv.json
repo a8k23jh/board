@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-20T20:51:45Z",
+ "run": "2026-08-20T21:48:48Z",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "7UScNmxfrD\u2026",
+  "session.sig": "c-zLhQP_vA\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTFjNzczNTI1NzgyZDNjYjI3ZjVkNzMwZmE0NWViODAiLCAic2NvcmUiOiAxLjEwMjU3MDU3MzgwNTE2OTd9"
+   "sequence": "eyJfaWQiOiAiNzYzYTJiNGY0MmZiZTJhMzljNmQxMjRiOGYxM2RiYmYiLCAic2NvcmUiOiAxLjA5ODA0MTU4NjI4NDMzNjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -179,6 +179,11 @@
     "value": "marketing-growth"
    },
    {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
     "id": "lead",
     "label": "Lead",
     "value": "lead"
@@ -187,11 +192,6 @@
     "id": "marketing-engagement",
     "label": "Marketing Engagement",
     "value": "marketing-engagement"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
    },
    {
     "id": "marketing-acquisition",
@@ -219,58 +219,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 186100, 'maxValue': 262825, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:Marketing Technology",
-    "label": "Marketing Technology",
-    "value": "resume:Marketing Technology"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   },
-   {
-    "id": "resume:Business Strategy",
-    "label": "Business Strategy",
-    "value": "resume:Business Strategy"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
-   },
-   {
-    "id": "resume:Marketing Technology",
-    "label": "Marketing Technology",
-    "value": "resume:Marketing Technology"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Business Strategy",
-    "label": "Business Strategy",
-    "value": "resume:Business Strategy"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
    },
    {
     "id": "resume:Experimentation",
@@ -278,14 +234,58 @@
     "value": "resume:Experimentation"
    },
    {
-    "id": "resume:CLM",
-    "label": "CLM",
-    "value": "resume:CLM"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:System Design",
+    "label": "System Design",
+    "value": "resume:System Design"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
+   },
+   {
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
+   },
+   {
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
+   },
+   {
+    "id": "resume:System Design",
+    "label": "System Design",
+    "value": "resume:System Design"
+   },
+   {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    }
   ],
   "manager": true,
@@ -298,6 +298,11 @@
    ]
   ],
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
@@ -312,11 +317,6 @@
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -339,7 +339,7 @@
   "jobId": "30138",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1949135093677, 'matchScore': 0, 'ageScore': 0.9949135093676698, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1911098484263, 'matchScore': 0, 'ageScore': 0.9911098484263118, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-08-20T20:51:45Z",
+ "run": "2026-08-20T21:48:48Z",
  "homepage": {
   "status": 200,
   "bytes": 18742
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Xwlo-v3Hsd\u2026",
+  "session.sig": "sVkw_vue3-\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWEyMWYwN2Q1ZTRiMDU2ZTc1NTJkNDYwMWFhYmJkYzYiLCAic2NvcmUiOiAxLjEwODQ4NDYzNzE5NzkxNjd9"
+   "sequence": "eyJfaWQiOiAiOWEyMWYwN2Q1ZTRiMDU2ZTc1NTJkNDYwMWFhYmJkYzYiLCAic2NvcmUiOiAxLjEwNDQ5ODQyMjg4OTY2MDZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -191,36 +191,53 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:PCIe",
-    "label": "PCIe",
-    "value": "resume:PCIe"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Computer Architecture",
-    "label": "Computer Architecture",
-    "value": "resume:Computer Architecture"
+    "id": "resume:ASIC",
+    "label": "ASIC",
+    "value": "resume:ASIC"
    },
    {
-    "id": "resume:Ethernet",
-    "label": "Ethernet",
-    "value": "resume:Ethernet"
-   },
-   {
-    "id": "resume:Timing Analysis",
-    "label": "Static Timing Analysis",
-    "value": "resume:Timing Analysis"
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
    },
    {
     "id": "resume:Logic Design",
     "label": "Logic Design",
     "value": "resume:Logic Design"
+   },
+   {
+    "id": "resume:Computer Architecture",
+    "label": "Computer Architecture",
+    "value": "resume:Computer Architecture"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:PCIe",
-    "label": "PCIe",
-    "value": "resume:PCIe"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:ASIC",
+    "label": "ASIC",
+    "value": "resume:ASIC"
+   },
+   {
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Logic Design",
+    "label": "Logic Design",
+    "value": "resume:Logic Design"
    },
    {
     "id": "resume:Computer Architecture",
@@ -228,36 +245,19 @@
     "value": "resume:Computer Architecture"
    },
    {
-    "id": "resume:Ethernet",
-    "label": "Ethernet",
-    "value": "resume:Ethernet"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Timing Analysis",
-    "label": "Static Timing Analysis",
-    "value": "resume:Timing Analysis"
+    "id": "resume:Logic Synthesis",
+    "label": "Logic Synthesis",
+    "value": "resume:Logic Synthesis"
    },
    {
-    "id": "resume:Logic Design",
-    "label": "Logic Design",
-    "value": "resume:Logic Design"
+    "id": "resume:SystemVerilog",
+    "label": "SystemVerilog",
+    "value": "resume:SystemVerilog"
    },
    {
-    "id": "resume:Shell Scripting",
-    "label": "Shell Scripting",
-    "value": "resume:Shell Scripting"
-   },
-   {
-    "id": "resume:Performance Analysis",
-    "label": "Performance Analysis",
-    "value": "resume:Performance Analysis"
-   },
-   {
-    "id": "resume:Integrated Circuit Design",
-    "label": "Integrated Circuit Design",
-    "value": "resume:Integrated Circuit Design"
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
    }
   ],
   "manager": false,
@@ -276,19 +276,19 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
    },
    {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    },
    {
     "id": "North America",
@@ -296,9 +296,9 @@
     "value": "North America"
    },
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
    }
   ],
   "stages": [
@@ -332,7 +332,7 @@
   "jobId": "6147624004",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1879085612759, 'matchScore': 0, 'ageScore': 0.9879085612758488, 'richnessScore': 2}",
+  "scores": "{'score': 1001.183534154365, 'matchScore': 0, 'ageScore': 0.9835341543649692, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

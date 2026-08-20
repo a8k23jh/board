@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-08-20T20:51:45Z",
+ "run": "2026-08-20T21:48:48Z",
  "homepage": {
   "status": 200,
   "bytes": 19379
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "a4ViqRvW8G\u2026",
+  "session.sig": "OJgB6uA5OF\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzZmNjdjYWY0N2JkZGI5NTFmZDQzMmM4MmU4NDdhYjQiLCAic2NvcmUiOiAxLjA3NTE5Njg5MTI5NzA2OH0="
+   "sequence": "eyJfaWQiOiAiNzMxYjI3MDc3MmQ0OGVmMzkyNTQzOGNjZjA0YWFmNGQiLCAic2NvcmUiOiAxLjA3MDk1NzIyNDMzNzU3NzF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,11 +168,6 @@
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
-   },
-   {
     "id": "brand-design",
     "label": "Brand Designer",
     "value": "brand-design"
@@ -181,18 +176,23 @@
     "id": "marketing-brand-creative",
     "label": "Marketing Brand Creative",
     "value": "marketing-brand-creative"
+   },
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Design",
-    "label": "Design",
-    "value": "Design"
-   },
-   {
     "id": "Marketing",
     "label": "Marketing",
     "value": "Marketing"
+   },
+   {
+    "id": "Design",
+    "label": "Design",
+    "value": "Design"
    }
   ],
   "locations": [
@@ -208,14 +208,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 163000, 'maxValue': 236000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Integrated Marketing Communications",
+    "label": "Integrated Marketing",
+    "value": "resume:Integrated Marketing Communications"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Optics",
+    "label": "Optics",
+    "value": "resume:Optics"
    },
    {
     "id": "resume:Graphic Design",
@@ -223,26 +223,26 @@
     "value": "resume:Graphic Design"
    },
    {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
+   },
+   {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:Integrated Marketing Communications",
     "label": "Integrated Marketing",
     "value": "resume:Integrated Marketing Communications"
    },
    {
-    "id": "resume:Brand Design",
-    "label": "Brand Design",
-    "value": "resume:Brand Design"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Optics",
+    "label": "Optics",
+    "value": "resume:Optics"
    },
    {
     "id": "resume:Graphic Design",
@@ -252,9 +252,19 @@
   ],
   "preferredSkills": [
    {
-    "id": "resume:Integrated Marketing Communications",
-    "label": "Integrated Marketing",
-    "value": "resume:Integrated Marketing Communications"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
+   },
+   {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
     "id": "resume:Brand Design",
@@ -262,19 +272,9 @@
     "value": "resume:Brand Design"
    },
    {
-    "id": "resume:Design Systems",
-    "label": "Design Systems",
-    "value": "resume:Design Systems"
-   },
-   {
-    "id": "resume:Optics",
-    "label": "Optics",
-    "value": "resume:Optics"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Creative Direction",
+    "label": "Creative Direction",
+    "value": "resume:Creative Direction"
    }
   ],
   "manager": false,
@@ -289,6 +289,11 @@
   "minYearsExp": 7,
   "regions": [
    {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -297,11 +302,6 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -329,24 +329,24 @@
   "jobId": "8701389002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1882040586423, 'matchScore': 0, 'ageScore': 0.9882040586423612, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1838215956914, 'matchScore': 0, 'ageScore': 0.9838215956913581, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
