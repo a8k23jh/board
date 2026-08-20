@@ -1,6 +1,6 @@
 {
  "board": "a16z",
- "run": "2026-08-19T23:42:24Z",
+ "run": "2026-08-20T01:55:32Z",
  "homepage": {
   "status": 200,
   "bytes": 23989
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "g5LVbVoi7g\u2026",
+  "session.sig": "dmv6STqkoH\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjEzZTlkN2Q1YmRkNzZjZTJkZDcyN2U5MjkyYjkzOTAiLCAic2NvcmUiOiAxLjE1OTcxMTg3NjQxNjI4MDh9"
+   "sequence": "eyJfaWQiOiAiNGM1NGE2YWYyYjVhNTc3OWNhNjk4YjIyNzQ2Yzk2ZjMiLCAic2NvcmUiOiAxLjE3MDY2Nzg0MDQ2MzczNDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -179,24 +179,24 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 188100, 'maxValue': 239000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
-   },
-   {
     "id": "resume:Computer Security",
     "label": "Computer Security",
     "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
     "id": "resume:English",
     "label": "English",
     "value": "resume:English"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
     "id": "resume:Outsourcing",
@@ -206,26 +206,26 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
-   },
-   {
     "id": "resume:Computer Security",
     "label": "Computer Security",
     "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   }
-  ],
-  "preferredSkills": [
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
+   },
    {
     "id": "resume:English",
     "label": "English",
     "value": "resume:English"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
     "id": "resume:Outsourcing",
@@ -233,9 +233,9 @@
     "value": "resume:Outsourcing"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Risk Management",
+    "label": "Risk Management",
+    "value": "resume:Risk Management"
    }
   ],
   "manager": true,
@@ -254,14 +254,9 @@
   "minYearsExp": 8,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Mid Atlantic",
@@ -269,9 +264,14 @@
     "value": "Mid Atlantic"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -294,7 +294,7 @@
   "jobId": "3b2a34a2-3019-4925-b66e-ce2d9d469553",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1960080785614, 'matchScore': 0, 'ageScore': 0.9960080785613425, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1929123345602, 'matchScore': 0, 'ageScore': 0.9929123345601852, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

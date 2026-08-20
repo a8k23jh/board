@@ -1,6 +1,6 @@
 {
  "board": "greylock",
- "run": "2026-08-19T23:42:24Z",
+ "run": "2026-08-20T01:55:32Z",
  "homepage": {
   "status": 200,
   "bytes": 26371
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Jt90ZtY3Za\u2026",
+  "session.sig": "3XoEqYLTak\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODU0ZmU5MDI3YzBmNGIzN2Q0YmE4ZDA0MDY1Yjg2ZWUiLCAic2NvcmUiOiAwLjg5NDI0MDkzNDAwODEwMTh9"
+   "sequence": "eyJfaWQiOiAiNDE2MTBhOWJlZGRmZTdlZGNkMzIyMTE2MWY1MmIwNDMiLCAic2NvcmUiOiAwLjkxMjc5Njc5NzczMTg2NzJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,123 +136,132 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/lightfield/3eeec270-2e02-447b-bf0c-3db34d14a1c2?utm_source=jobs.greylock.com",
-  "companyDomain": "lightfield.app",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d497e89f82048546f29ce2a2e232c11b_288_160?Expires=1861920000&Signature=S9wHT7MTg4cwF5nAQowzkm-XeyVUXnNzlqf8-0ARiZZqNvSSju~5Y",
-  "companyId": "Tome",
-  "companySlug": "tome",
-  "companyName": "Lightfield",
-  "companyStaffCount": 44,
+  "applyUrl": "https://cribl.io/job-detail/?gh_jid=6144377004",
+  "companyDomain": "cribl.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/748d19f5df4c5e3b2db8057cc735611a_192_160?Expires=1861920000&Signature=SJNRIXlQ5WF7hK48z7k8lkFmAsL5Sb-gi~rgZ4pKC9QoteIMr6wH-",
+  "companyId": "Cribl",
+  "companySlug": "cribl",
+  "companyName": "Cribl",
+  "companyStaffCount": 1290,
   "considerHosted": false,
   "departments": [
-   "GTM"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "San Francisco, California, USA",
-   "HQ: San Francisco"
+   "Remote - United States"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
+   {
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
+   },
+   {
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
+   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Program Design",
-    "label": "Program Design",
-    "value": "resume:Program Design"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   },
-   {
-    "id": "resume:Instagram",
-    "label": "Instagram",
-    "value": "resume:Instagram"
-   },
-   {
-    "id": "resume:Field Marketing",
-    "label": "Field Marketing",
-    "value": "resume:Field Marketing"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
+   },
+   {
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Program Design",
-    "label": "Program Design",
-    "value": "resume:Program Design"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Instagram",
-    "label": "Instagram",
-    "value": "resume:Instagram"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Field Marketing",
-    "label": "Field Marketing",
-    "value": "resume:Field Marketing"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:memory allocation",
+    "label": "Memory Allocation",
+    "value": "resume:memory allocation"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
+   [
+    1,
+    2
+   ],
    [
     3,
     4
@@ -264,60 +273,41 @@
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Data & Analytics",
+    "label": "Data & Analytics",
+    "value": "Data & Analytics"
    }
   ],
-  "timeStamp": "2026-08-19T00:00:00Z",
-  "title": "Community and Events Lead",
-  "url": "https://jobs.ashbyhq.com/lightfield/3eeec270-2e02-447b-bf0c-3db34d14a1c2",
-  "jobId": "3eeec270-2e02-447b-bf0c-3db34d14a1c2",
-  "remote": false,
+  "timeStamp": "2026-08-19T17:47:29Z",
+  "title": "Software Engineer, Edge",
+  "url": "https://cribl.io/job-detail/?gh_jid=6144377004",
+  "jobId": "6144377004",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1720549268357, 'matchScore': 0, 'ageScore': 0.9720549268356482, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1922554141987, 'matchScore': 0, 'ageScore': 0.9922554141986882, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -325,7 +315,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid"
   ],
   "isFeatured": false
