@@ -1,5 +1,333 @@
 {
  "board": "firstround",
- "run": "2026-08-20T09:54:56Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.firstround.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+ "run": "2026-08-20T10:52:21Z",
+ "homepage": {
+  "status": 200,
+  "bytes": 16702
+ },
+ "slugs_tried": [
+  "first-round-capital",
+  "firstround",
+  "first-round"
+ ],
+ "attempts": [
+  {
+   "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+   "slug": "first-round-capital",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+   "slug": "firstround",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+   "slug": "first-round",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+   "slug": "first-round-capital",
+   "csrf_header": "x-csrf-token",
+   "status": 200,
+   "body_head": "{\"version\":{\"client\":{\"git\":\"6299157277bb5c16d1b9aef45489bd866b340c8e\",\"date\":\"2026-08-19T18:58:49.120Z\"},\"server\":{\"git\":\"6299157277bb5c16d1b9aef45489bd866b340c8e\",\"date\":\"2026-08-19T18:58:49.120Z\"}}"
+  }
+ ],
+ "cookies": {
+  "session": "eyJmbGFzaC\u2026",
+  "session.sig": "6YaRlZAqZM\u2026",
+  "AWSALBAPP-0": "AAAAAAAAAA\u2026",
+  "AWSALBAPP-1": "_remove_",
+  "AWSALBAPP-2": "_remove_",
+  "AWSALBAPP-3": "_remove_"
+ },
+ "token_endpoints": [
+  {
+   "path": "/api-boards/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/api-boards/csrf-token",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  }
+ ],
+ "csrf_candidates": [
+  {
+   "src": "html",
+   "len": 36
+  }
+ ],
+ "working": {
+  "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+  "slug": "first-round-capital",
+  "csrf_header": [
+   "x-csrf-token"
+  ]
+ },
+ "search_probe": [
+  {
+   "variant": "query.searchQuery+promote",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.search",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.text",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.q",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "top.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.keywords",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  }
+ ],
+ "response_shape": {
+  "keys": [
+   "availableFilters",
+   "debug",
+   "errors",
+   "jobs",
+   "meta",
+   "total",
+   "version"
+  ],
+  "meta": {
+   "size": 100,
+   "sequence": "eyJfaWQiOiAiZWY2ZWE2ZTU5ZmZlYjQ1YzU4MTIyNmQ1NjlmNDM1ZmQiLCAic2NvcmUiOiAxLjAwNDIzMTI4MjQ2NzU5MjV9"
+  },
+  "job_keys": [
+   "applicationWindow",
+   "applyUrl",
+   "atsJobs",
+   "companyDomain",
+   "companyId",
+   "companyLogos",
+   "companyName",
+   "companySlug",
+   "companyStaffCount",
+   "considerHosted",
+   "considerLevels",
+   "consultant",
+   "contractor",
+   "departments",
+   "fundingLV",
+   "hybrid",
+   "isFeatured",
+   "jobFunctions",
+   "jobId",
+   "jobSeniorities"
+  ],
+  "job_count": 100
+ },
+ "sample_job": {
+  "applicationWindow": "{'status': 'accepting'}",
+  "applyUrl": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a42a12b36e3f69d0136eb9e96c47613&id=8a78859e9fd3bb2501a01a7f05fd121b&source=&lang=en",
+  "companyDomain": "inspirato.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9de5fa7003aae6f36b22242a2bcbf635_288_160?Expires=1861920000&Signature=P4sWUQFhlm5PbfXUYKAsHMUMbJblFwmYMFjG--4rJdlE-BN2AkLmV",
+  "companyId": "Inspirato",
+  "companySlug": "inspirato",
+  "companyName": "Inspirato",
+  "companyStaffCount": 562,
+  "considerHosted": false,
+  "departments": [],
+  "jobTypes": [
+   {
+    "id": "coordinator",
+    "label": "Coordinator",
+    "value": "coordinator"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
+   }
+  ],
+  "locations": [
+   "Denver, CO"
+  ],
+  "normalizedLocations": [
+   {
+    "id": "Denver, Colorado",
+    "label": "Denver, Colorado",
+    "value": "Denver, Colorado"
+   }
+  ],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 60000, 'maxValue': 65000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "skills": [
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
+   },
+   {
+    "id": "resume:HRIS",
+    "label": "HR Systems",
+    "value": "resume:HRIS"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
+   },
+   {
+    "id": "resume:HRIS",
+    "label": "HR Systems",
+    "value": "resume:HRIS"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
+   },
+   {
+    "id": "resume:Benefits Administration",
+    "label": "Benefits Administration",
+    "value": "resume:Benefits Administration"
+   },
+   {
+    "id": "resume:Employee Benefits",
+    "label": "Employee Benefits",
+    "value": "resume:Employee Benefits"
+   },
+   {
+    "id": "resume:Consultative Selling",
+    "label": "Consultative Selling",
+    "value": "resume:Consultative Selling"
+   }
+  ],
+  "manager": false,
+  "consultant": false,
+  "contractor": false,
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 2,
+  "regions": [
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   }
+  ],
+  "stages": [
+   {
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
+   }
+  ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
+   },
+   {
+    "id": "Hospitality",
+    "label": "Hospitality",
+    "value": "Hospitality"
+   }
+  ],
+  "timeStamp": "2026-08-19T23:59:11Z",
+  "title": "Employee Benefits Coordinator",
+  "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a42a12b36e3f69d0136eb9e96c47613&id=8a78859e9fd3bb2501a01a7f05fd121b&source=&lang=en",
+  "jobId": "8a78859e9fd3bb2501a01a7f05fd121b",
+  "remote": false,
+  "hybrid": false,
+  "scores": "{'score': 1001.1885333824919, 'matchScore': 0, 'ageScore': 0.9885333824918981, 'richnessScore': 2}",
+  "atsJobs": [],
+  "matchingTalent": "{'count': 0, 'matches': []}",
+  "jobSeniorities": [
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
+   }
+  ],
+  "jobSeniorityIds": [
+   "junior"
+  ],
+  "isFeatured": false
+ },
+ "search_mode": {
+  "variant": "cursor:meta.sequence"
+ }
 }
