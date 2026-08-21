@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-21T14:58:12Z",
+ "run": "2026-08-21T15:53:42Z",
  "homepage": {
   "status": 200,
   "bytes": 20235
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cy_EwMI7Th\u2026",
+  "session.sig": "J3pxsbzRcZ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYmNiOGM5YjI0YTkyZDk0NzI0NDI5OWQxNzE1MTU0MTYiLCAic2NvcmUiOiAxLjE0MTA4MzMwOTY3MDUyNDZ9"
+   "sequence": "eyJfaWQiOiAiOWQyMWZhZTNhYmY5MjgwY2UwZjM1NjhjZTQyZTJhNGMiLCAic2NvcmUiOiAxLjEzNzc1MTA0OTgwMTMxMTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -173,36 +173,36 @@
     "value": "marketing-engagement"
    },
    {
-    "id": "marketing-acquisition",
-    "label": "Marketing Acquisition",
-    "value": "marketing-acquisition"
-   },
-   {
     "id": "senior-software-engineer",
     "label": "Senior Software Engineer",
     "value": "senior-software-engineer"
    },
    {
-    "id": "marketing-growth",
-    "label": "Marketing Growth",
-    "value": "marketing-growth"
-   },
-   {
     "id": "user-marketing",
     "label": "Growth Manager",
     "value": "user-marketing"
+   },
+   {
+    "id": "marketing-acquisition",
+    "label": "Marketing Acquisition",
+    "value": "marketing-acquisition"
+   },
+   {
+    "id": "marketing-growth",
+    "label": "Marketing Growth",
+    "value": "marketing-growth"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   },
-   {
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
@@ -218,53 +218,58 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 176000, 'maxValue': 231000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sales Support",
-    "label": "Sales Support",
-    "value": "resume:Sales Support"
+    "id": "resume:Kinesis",
+    "label": "Kinesis",
+    "value": "resume:Kinesis"
    },
    {
-    "id": "resume:Employee Benefits",
-    "label": "Employee Benefits",
-    "value": "resume:Employee Benefits"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Continuous Delivery",
-    "label": "Continuous Delivery",
-    "value": "resume:Continuous Delivery"
+    "id": "resume:Customer Onboarding",
+    "label": "Customer Onboarding",
+    "value": "resume:Customer Onboarding"
    },
    {
-    "id": "resume:Apache Kafka",
-    "label": "Apache Kafka",
-    "value": "resume:Apache Kafka"
+    "id": "resume:concurrency",
+    "label": "Concurrency Design",
+    "value": "resume:concurrency"
    },
    {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
+    "id": "resume:System Architecture",
+    "label": "System Architecture",
+    "value": "resume:System Architecture"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sales Support",
-    "label": "Sales Support",
-    "value": "resume:Sales Support"
+    "id": "resume:Kinesis",
+    "label": "Kinesis",
+    "value": "resume:Kinesis"
    },
    {
-    "id": "resume:Employee Benefits",
-    "label": "Employee Benefits",
-    "value": "resume:Employee Benefits"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Continuous Delivery",
-    "label": "Continuous Delivery",
-    "value": "resume:Continuous Delivery"
+    "id": "resume:Customer Onboarding",
+    "label": "Customer Onboarding",
+    "value": "resume:Customer Onboarding"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Apache Kafka",
-    "label": "Apache Kafka",
-    "value": "resume:Apache Kafka"
+    "id": "resume:concurrency",
+    "label": "Concurrency Design",
+    "value": "resume:concurrency"
+   },
+   {
+    "id": "resume:System Architecture",
+    "label": "System Architecture",
+    "value": "resume:System Architecture"
    },
    {
     "id": "resume:Marketplace",
@@ -272,19 +277,14 @@
     "value": "resume:Marketplace"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    },
    {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
-   },
-   {
-    "id": "resume:Control Plane",
-    "label": "Control Plane",
-    "value": "resume:Control Plane"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    }
   ],
   "manager": false,
@@ -333,7 +333,7 @@
   "jobId": "5218240007",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1861742435304, 'matchScore': 0, 'ageScore': 0.9861742435304784, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1824873931118, 'matchScore': 0, 'ageScore': 0.9824873931118827, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "greylock",
- "run": "2026-08-21T14:58:12Z",
+ "run": "2026-08-21T15:53:42Z",
  "homepage": {
   "status": 200,
   "bytes": 26371
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Jz3euLP5zj\u2026",
+  "session.sig": "vJ4Ts13SOE\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTNlZmY5MzhkODk1N2QyMGQ1ZmQxOGNiNjIxN2FlMjkiLCAic2NvcmUiOiAwLjkxNzE3MTQ5OTUyNjYyMDV9"
+   "sequence": "eyJfaWQiOiAiMTNlZmY5MzhkODk1N2QyMGQ1ZmQxOGNiNjIxN2FlMjkiLCAic2NvcmUiOiAwLjkxMjgyNDg3NDI5MjgyNH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "engineering-manager",
-    "label": "Engineering Manager",
-    "value": "engineering-manager"
-   },
-   {
     "id": "hardware-engineer",
     "label": "Hardware Engineer",
     "value": "hardware-engineer"
+   },
+   {
+    "id": "engineering-manager",
+    "label": "Engineering Manager",
+    "value": "engineering-manager"
    }
   ],
   "jobFunctions": [
@@ -190,24 +190,24 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 172000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
-   },
-   {
-    "id": "resume:OpenCL",
-    "label": "OpenCL",
-    "value": "resume:OpenCL"
-   },
-   {
-    "id": "resume:Compilers",
-    "label": "Compilers",
-    "value": "resume:Compilers"
+    "id": "resume:LLVM",
+    "label": "LLVM",
+    "value": "resume:LLVM"
    },
    {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Application Software",
+    "label": "Application Software",
+    "value": "resume:Application Software"
+   },
+   {
+    "id": "resume:High Performance Computing",
+    "label": "High Performance Computing",
+    "value": "resume:High Performance Computing"
    },
    {
     "id": "resume:C/C++",
@@ -217,6 +217,33 @@
   ],
   "requiredSkills": [
    {
+    "id": "resume:LLVM",
+    "label": "LLVM",
+    "value": "resume:LLVM"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Application Software",
+    "label": "Application Software",
+    "value": "resume:Application Software"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:High Performance Computing",
+    "label": "High Performance Computing",
+    "value": "resume:High Performance Computing"
+   },
+   {
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
+   },
+   {
     "id": "resume:GPU",
     "label": "GPU",
     "value": "resume:GPU"
@@ -227,36 +254,9 @@
     "value": "resume:OpenCL"
    },
    {
-    "id": "resume:Compilers",
-    "label": "Compilers",
-    "value": "resume:Compilers"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
-   },
-   {
-    "id": "resume:LLVM",
-    "label": "LLVM",
-    "value": "resume:LLVM"
-   },
-   {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    }
   ],
   "manager": true,
@@ -317,7 +317,7 @@
   "jobId": "am9icG9zdDo8-b3ZXRNlNpal_TfkogiQ",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.184359674162, 'matchScore': 0, 'ageScore': 0.9843596741620371, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1801538657704, 'matchScore': 0, 'ageScore': 0.9801538657704475, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
