@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-21T17:51:02Z",
+ "run": "2026-08-21T19:02:58Z",
  "homepage": {
   "status": 200,
   "bytes": 21734
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"5f5bb22858ac540d6f0558c36ef0eea1ac082a84\",\"date\":\"2026-08-21T17:38:28.801Z\"},\"server\":{\"git\":\"5f5bb22858ac540d6f0558c36ef0eea1ac082a84\",\"date\":\"2026-08-21T17:38:28.801Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"47a27ca71209ea1f08b363b877dc8ab6946259a3\",\"date\":\"2026-08-21T18:39:56.226Z\"},\"server\":{\"git\":\"47a27ca71209ea1f08b363b877dc8ab6946259a3\",\"date\":\"2026-08-21T18:39:56.226Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "CM_se3D1ac\u2026",
+  "session.sig": "bvYE4q_wP3\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzkyMTViNDM4MWUxMWJiODExMzRlOWQyMDY0MjNjMWEiLCAic2NvcmUiOiAxLjEyNzYwNzQwNDYyMzA3MX0="
+   "sequence": "eyJfaWQiOiAiYzQ0MzU3MmEzNWExZTQ5MjVkN2JkNjc2ZDNjZTdmMDUiLCAic2NvcmUiOiAxLjEzMDY1MzU0MTc5MDg5NTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,131 +152,146 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/pivotal-health/0c67e75e-e4c7-49b5-88ee-24ac0d1c1739?utm_source=jobs.bvp.com",
-  "companyDomain": "pivotalhealth.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6631ba18e0aadffa355465be110d503e_176_160?Expires=1861920000&Signature=Oo-LVPwE4WR0PsqSFgC7D6M5g6x4e5JXjugwkpTpalmpO-P2sbwAq",
-  "companyId": "Pivotal Health",
-  "companySlug": "pivotal-health",
-  "companyName": "Pivotal Health",
-  "companyStaffCount": 36,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5392593008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Business Operations"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   },
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "sales-all",
+    "label": "Sales",
+    "value": "sales-all"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "Brooklyn, New York, United States",
-   "Williamsburg, NY",
-   "Remote - US"
+   "San Francisco, CA",
+   "New York City, NY"
   ],
   "normalizedLocations": [
-   {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
-   },
    {
     "id": "New York, New York",
     "label": "New York, New York",
     "value": "New York, New York"
    },
    {
-    "id": "Brooklyn, New York",
-    "label": "Brooklyn, New York",
-    "value": "Brooklyn, New York"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85110, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 380000, 'maxValue': 450000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
+    "id": "resume:Mechanics",
+    "label": "Mechanics",
+    "value": "resume:Mechanics"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Direct Sales",
+    "label": "Direct Sales",
+    "value": "resume:Direct Sales"
    },
    {
-    "id": "resume:Arbitration",
-    "label": "Arbitration",
-    "value": "resume:Arbitration"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    },
    {
-    "id": "resume:Revenue Cycle",
-    "label": "Revenue Cycle",
-    "value": "resume:Revenue Cycle"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
+    "id": "resume:Mechanics",
+    "label": "Mechanics",
+    "value": "resume:Mechanics"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Direct Sales",
+    "label": "Direct Sales",
+    "value": "resume:Direct Sales"
    },
    {
-    "id": "resume:Arbitration",
-    "label": "Arbitration",
-    "value": "resume:Arbitration"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Revenue Cycle",
-    "label": "Revenue Cycle",
-    "value": "resume:Revenue Cycle"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Health Insurance",
-    "label": "Health Insurance",
-    "value": "resume:Health Insurance"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -289,12 +304,11 @@
     6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Mid Atlantic",
@@ -302,48 +316,70 @@
     "value": "Mid Atlantic"
    },
    {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-08-21T00:00:00Z",
-  "title": "Associate Manager, State Arbitration Operations",
-  "url": "https://jobs.ashbyhq.com/pivotal-health/0c67e75e-e4c7-49b5-88ee-24ac0d1c1739",
-  "jobId": "0c67e75e-e4c7-49b5-88ee-24ac0d1c1739",
-  "remote": true,
+  "timeStamp": "2026-08-21T09:57:46Z",
+  "title": "Scaled Sales Lead, Beneficial Deployments",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392593008",
+  "jobId": "5392593008",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1803771243877, 'matchScore': 0, 'ageScore': 0.9803771243877315, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1896671043874, 'matchScore': 0, 'ageScore': 0.9896671043873457, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },

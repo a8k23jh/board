@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-21T17:51:02Z",
+ "run": "2026-08-21T19:02:58Z",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"5f5bb22858ac540d6f0558c36ef0eea1ac082a84\",\"date\":\"2026-08-21T17:38:28.801Z\"},\"server\":{\"git\":\"5f5bb22858ac540d6f0558c36ef0eea1ac082a84\",\"date\":\"2026-08-21T17:38:28.801Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"47a27ca71209ea1f08b363b877dc8ab6946259a3\",\"date\":\"2026-08-21T18:39:56.226Z\"},\"server\":{\"git\":\"47a27ca71209ea1f08b363b877dc8ab6946259a3\",\"date\":\"2026-08-21T18:39:56.226Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "EezTg9j1bY\u2026",
+  "session.sig": "N53jOQYXJD\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjFlMzkzZGQyNmI1MDQ2MDkzOTAwZTVlYjA4NjU5ZmIiLCAic2NvcmUiOiAxLjExMjc3NTYxMDk3MzM3OTd9"
+   "sequence": "eyJfaWQiOiAiNDJhODVmN2JkNTFmOWU2N2Y2NjAwN2M4ZmQwN2EzYjEiLCAic2NvcmUiOiAxLjEwOTEyNTU3MjA3MjkxNjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,116 +152,142 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1016666/In-Home-Health-NP-or-PA-Full-Time-Salisbury-DE-Sussex-County",
-  "companyDomain": "signifyhealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/99c6eb3fb8f6516bd248544cef759df3_320_160?Expires=1861920000&Signature=ftG2yoquWQ77fhZJlIDtDtJjH0EkrbN-V-l5EkosBrwWnHIsKX3Yj",
-  "companyId": "Signify Health",
-  "companySlug": "signify-health",
-  "companyName": "Signify Health",
-  "companyStaffCount": 3625,
+  "applyUrl": "https://job-boards.greenhouse.io/bloomreach/jobs/3630478",
+  "companyDomain": "bloomreach.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d7741186eb18e8aa34cdd123c13f7eb6_320_160?Expires=1861920000&Signature=cMHVbUag2A388MSkz7XFj0srfsz3QywQfHcDzrLrXfHxhmgtD96kd",
+  "companyId": "BloomReach",
+  "companySlug": "bloomreach",
+  "companyName": "BloomReach",
+  "companyStaffCount": 1156,
   "considerHosted": false,
   "departments": [
-   ""
+   "G&A - FLS"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "accountant",
+    "label": "Accountant",
+    "value": "accountant"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
+   }
+  ],
   "locations": [
-   "Work\u00a0at Home, Delaware, United States"
+   "Slovakia"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Slovak Republic",
+    "label": "Slovakia",
+    "value": "Slovak Republic"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 87035, 'maxValue': 187460, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 37300, 'maxValue': 47000, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:Month End Close",
+    "label": "Month End Close",
+    "value": "resume:Month End Close"
    },
    {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
+    "id": "resume:Online Gaming",
+    "label": "Online Gaming",
+    "value": "resume:Online Gaming"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Accounting Operations",
+    "label": "Accounting Operations",
+    "value": "resume:Accounting Operations"
    },
    {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:NPS",
-    "label": "NPS",
-    "value": "resume:NPS"
+    "id": "resume:CPA",
+    "label": "CPA",
+    "value": "resume:CPA"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:Month End Close",
+    "label": "Month End Close",
+    "value": "resume:Month End Close"
    },
    {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
+    "id": "resume:Online Gaming",
+    "label": "Online Gaming",
+    "value": "resume:Online Gaming"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Accounting Operations",
+    "label": "Accounting Operations",
+    "value": "resume:Accounting Operations"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:NPS",
-    "label": "NPS",
-    "value": "resume:NPS"
+    "id": "resume:CPA",
+    "label": "CPA",
+    "value": "resume:CPA"
    },
    {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
+   },
+   {
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
@@ -269,32 +295,34 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Public",
-    "label": "Public",
-    "value": "Public"
    }
   ],
-  "fundingLV": "{'id': 'Public', 'label': 'Public', 'value': 'Public'}",
   "markets": [
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "Marketing and Advertising",
+    "label": "Marketing and Advertising",
+    "value": "Marketing and Advertising"
    }
   ],
-  "timeStamp": "2026-08-21T00:00:00Z",
-  "title": "In-Home Health - NP or PA (Full Time) - Salisbury, DE (Sussex County)",
-  "url": "https://jobs.cvshealth.com/us/en/job/R1016666/In-Home-Health-NP-or-PA-Full-Time-Salisbury-DE-Sussex-County",
-  "jobId": "R1016666",
+  "timeStamp": "2026-08-21T09:26:40Z",
+  "title": "EMEA Accounting Manager",
+  "url": "https://job-boards.greenhouse.io/bloomreach/jobs/3630478",
+  "jobId": "3630478",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1800058028128, 'matchScore': 0, 'ageScore': 0.9800058028128859, 'richnessScore': 2}",
+  "scores": "{'score': 1001.189209495586, 'matchScore': 0, 'ageScore': 0.989209495586034, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
+   }
+  ],
+  "jobSeniorityIds": [
+   "manager"
+  ],
   "isFeatured": false
  },
  "search_mode": {

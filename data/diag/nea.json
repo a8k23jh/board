@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-08-21T17:51:02Z",
+ "run": "2026-08-21T19:02:58Z",
  "homepage": {
   "status": 200,
   "bytes": 20607
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"5f5bb22858ac540d6f0558c36ef0eea1ac082a84\",\"date\":\"2026-08-21T17:38:28.801Z\"},\"server\":{\"git\":\"5f5bb22858ac540d6f0558c36ef0eea1ac082a84\",\"date\":\"2026-08-21T17:38:28.801Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"47a27ca71209ea1f08b363b877dc8ab6946259a3\",\"date\":\"2026-08-21T18:39:56.226Z\"},\"server\":{\"git\":\"47a27ca71209ea1f08b363b877dc8ab6946259a3\",\"date\":\"2026-08-21T18:39:56.226Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "NeLRAO5cZI\u2026",
+  "session.sig": "xojwcZYdTy\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzU3YjE1M2M1YzEyMDFiZDU0MTg2YzkwZDA1N2IyODUiLCAic2NvcmUiOiAxLjEwMzAxMDgwMDQwNjI1fQ=="
+   "sequence": "eyJfaWQiOiAiNmE5Mzg0NmEwMWM2Y2FhYmZlN2Y1MWVkYTkyNWM2NGQiLCAic2NvcmUiOiAxLjEwODc0NjQwNjE0NzM3NjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,144 +136,149 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "http://rhythmpharmaceuticals.applytojob.com/apply/35Aq7Ikn8v/Senior-Director-Biostatistics",
-  "companyDomain": "rhythmtx.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/eda90d3e37530a6b507481172b14d000_240_160?Expires=1861920000&Signature=ODsgI-kBFBYEg0rq7vifee0bk6Plh1L5sSpDoMmk-~gbgFC8bg0NB",
-  "companyId": "Rhythm Pharmaceuticals",
-  "companySlug": "rhythm-pharmaceuticals",
-  "companyName": "Rhythm Pharmaceuticals",
-  "companyStaffCount": 299,
+  "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8120101?t=gh_src=&gh_jid=8120101",
+  "companyDomain": "robinhood.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a7f9760e316e94a76b4e2c5c6337d5a6_288_160?Expires=1861920000&Signature=mZQkCJ5Bp88JcFNaatMwUGHk4hZDC1ArvjUF0p4CWPQVmj3GTpnbw",
+  "companyId": "Robinhood",
+  "companySlug": "robinhood",
+  "companyName": "Robinhood",
+  "companyStaffCount": 4837,
   "considerHosted": false,
   "departments": [
-   "Biometrics"
+   "Enterprise Technology Division"
   ],
   "jobTypes": [
    {
-    "id": "biostatistician",
-    "label": "Bioinformatics",
-    "value": "biostatistician"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Science",
-    "label": "Science",
-    "value": "Science"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Boston, MA, United States"
+   "Menlo Park, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Menlo Park, California",
+    "label": "Menlo Park, California",
+    "value": "Menlo Park, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 210000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 195000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Biotechnology",
-    "label": "Biotechnology",
-    "value": "resume:Biotechnology"
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    },
    {
-    "id": "resume:Clinical Development",
-    "label": "Clinical Development",
-    "value": "resume:Clinical Development"
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
    },
    {
-    "id": "resume:SDTM",
-    "label": "SDTM",
-    "value": "resume:SDTM"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Biostatistics",
-    "label": "Biostatistics",
-    "value": "resume:Biostatistics"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
    },
    {
-    "id": "resume:Clinical Trials",
-    "label": "Clinical Trials",
-    "value": "resume:Clinical Trials"
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Biotechnology",
-    "label": "Biotechnology",
-    "value": "resume:Biotechnology"
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    },
    {
-    "id": "resume:Clinical Development",
-    "label": "Clinical Development",
-    "value": "resume:Clinical Development"
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
    },
    {
-    "id": "resume:SDTM",
-    "label": "SDTM",
-    "value": "resume:SDTM"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Biostatistics",
-    "label": "Biostatistics",
-    "value": "resume:Biostatistics"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
    },
    {
-    "id": "resume:Clinical Trials",
-    "label": "Clinical Trials",
-    "value": "resume:Clinical Trials"
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
    },
    {
-    "id": "resume:Statistics",
-    "label": "Statistics",
-    "value": "resume:Statistics"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:CDISC Standards",
-    "label": "CDISC Standards",
-    "value": "resume:CDISC Standards"
+    "id": "resume:Continuous Delivery",
+    "label": "Continuous Delivery",
+    "value": "resume:Continuous Delivery"
    },
    {
-    "id": "resume:SAS",
-    "label": "SAS",
-    "value": "resume:SAS"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -282,36 +287,42 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Public",
+    "label": "Public",
+    "value": "Public"
    }
   ],
+  "fundingLV": "{'id': 'Public', 'label': 'Public', 'value': 'Public'}",
   "markets": [
    {
-    "id": "Biotech/Pharma",
-    "label": "Biotech/Pharma",
-    "value": "Biotech/Pharma"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-08-21T06:00:19Z",
-  "title": "Senior Director, Biostatistics",
-  "url": "http://rhythmpharmaceuticals.applytojob.com/apply/35Aq7Ikn8v/Senior-Director-Biostatistics",
-  "jobId": "job_20260820172735_DRIQPMCJ9EZJW3SP",
+  "timeStamp": "2026-08-21T10:42:13Z",
+  "title": "Senior Software Engineer, Enterprise Build",
+  "url": "https://boards.greenhouse.io/robinhood/jobs/8120101?t=gh_src=&gh_jid=8120101",
+  "jobId": "8120101",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1882053611328, 'matchScore': 0, 'ageScore': 0.9882053611327161, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1902936111122, 'matchScore': 0, 'ageScore': 0.9902936111122685, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior"
   ],
   "isFeatured": false
  },
