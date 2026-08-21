@@ -1,7 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-08-20T23:45:16Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
+ "run": "2026-08-21T02:01:28Z",
  "homepage": {
   "status": 200,
   "bytes": 19379
@@ -38,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"6299157277bb5c16d1b9aef45489bd866b340c8e\",\"date\":\"2026-08-19T18:58:49.120Z\"},\"server\":{\"git\":\"6299157277bb5c16d1b9aef45489bd866b340c8e\",\"date\":\"2026-08-19T18:58:49.120Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f40fc0634c87a680b770d6bfe1998b388ecbe661\",\"date\":\"2026-08-20T22:39:37.672Z\"},\"server\":{\"git\":\"f40fc0634c87a680b770d6bfe1998b388ecbe661\",\"date\":\"2026-08-20T22:39:37.672Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "_rQoecx9wH\u2026",
+  "session.sig": "XARiemzIDf\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -128,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzMxYjI3MDc3MmQ0OGVmMzkyNTQzOGNjZjA0YWFmNGQiLCAic2NvcmUiOiAxLjA3MDk1NzIyNDMzNzU3NzF9"
+   "sequence": "eyJfaWQiOiAiOTg0MTY5MTc4Yjg2MDYzZThlMjczNWJjNmIyNzJjMTgiLCAic2NvcmUiOiAxLjA2NjkyNDQxNDg5OTY5MTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -145,137 +144,117 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gomotive/jobs/8701389002",
-  "companyDomain": "gomotive.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/25a89ab129481325fdea0a8ec67db334_208_160?Expires=1861920000&Signature=FOVx4pqYXCuvScQi9jIt1h-cXgKWHgmbuXcTtciYMPrORXx90yBOk",
-  "companyId": "Motive",
-  "companySlug": "motive",
-  "companyName": "Motive",
-  "companyStaffCount": 6347,
+  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4726168005",
+  "companyDomain": "glean.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
+  "companyId": "Glean",
+  "companySlug": "glean",
+  "companyName": "Glean",
+  "companyStaffCount": 1745,
   "considerHosted": false,
   "departments": [
-   "Marketing"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "brand-design",
-    "label": "Brand Designer",
-    "value": "brand-design"
+    "id": "enterprise-account-executive",
+    "label": "Enterprise Account Executive",
+    "value": "enterprise-account-executive"
    },
    {
-    "id": "marketing-brand-creative",
-    "label": "Marketing Brand Creative",
-    "value": "marketing-brand-creative"
-   },
-   {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   },
-   {
-    "id": "Design",
-    "label": "Design",
-    "value": "Design"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "United States - San Francisco, California"
+   "Denver, CO"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Denver, Colorado",
+    "label": "Denver, Colorado",
+    "value": "Denver, Colorado"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 163000, 'maxValue': 236000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 320000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Integrated Marketing Communications",
-    "label": "Integrated Marketing",
-    "value": "resume:Integrated Marketing Communications"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Optics",
-    "label": "Optics",
-    "value": "resume:Optics"
+    "id": "resume:MEDDIC",
+    "label": "MEDDIC",
+    "value": "resume:MEDDIC"
    },
    {
-    "id": "resume:Graphic Design",
-    "label": "Graphic Design",
-    "value": "resume:Graphic Design"
+    "id": "resume:Solution Sales",
+    "label": "Solution Sales",
+    "value": "resume:Solution Sales"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Integrated Marketing Communications",
-    "label": "Integrated Marketing",
-    "value": "resume:Integrated Marketing Communications"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Optics",
-    "label": "Optics",
-    "value": "resume:Optics"
+    "id": "resume:MEDDIC",
+    "label": "MEDDIC",
+    "value": "resume:MEDDIC"
    },
    {
-    "id": "resume:Graphic Design",
-    "label": "Graphic Design",
-    "value": "resume:Graphic Design"
+    "id": "resume:Solution Sales",
+    "label": "Solution Sales",
+    "value": "resume:Solution Sales"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
-   },
-   {
-    "id": "resume:Brand Design",
-    "label": "Brand Design",
-    "value": "resume:Brand Design"
-   },
-   {
-    "id": "resume:Creative Direction",
-    "label": "Creative Direction",
-    "value": "resume:Creative Direction"
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
    }
   ],
   "manager": false,
@@ -283,22 +262,16 @@
   "contractor": false,
   "considerLevels": [
    [
+    3,
+    4
+   ],
+   [
     5,
     6
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 6,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -310,27 +283,28 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Logistics and Supply Chain",
-    "label": "Logistics and Supply Chain",
-    "value": "Logistics and Supply Chain"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-08-20T08:51:20Z",
-  "title": "Brand Design Lead, Brand Studio",
-  "url": "https://job-boards.greenhouse.io/gomotive/jobs/8701389002",
-  "jobId": "8701389002",
-  "remote": false,
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
+   }
+  ],
+  "timeStamp": "2026-08-20T16:27:14Z",
+  "title": "Enterprise Account Executive, Denver",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4726168005",
+  "jobId": "4726168005",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1838215956914, 'matchScore': 0, 'ageScore': 0.9838215956913581, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1905501602149, 'matchScore': 0, 'ageScore': 0.990550160214892, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -338,21 +312,14 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }

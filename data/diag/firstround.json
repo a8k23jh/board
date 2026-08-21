@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-08-20T23:45:16Z",
+ "run": "2026-08-21T02:01:28Z",
  "homepage": {
   "status": 200,
   "bytes": 16702
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"6299157277bb5c16d1b9aef45489bd866b340c8e\",\"date\":\"2026-08-19T18:58:49.120Z\"},\"server\":{\"git\":\"6299157277bb5c16d1b9aef45489bd866b340c8e\",\"date\":\"2026-08-19T18:58:49.120Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f40fc0634c87a680b770d6bfe1998b388ecbe661\",\"date\":\"2026-08-20T22:39:37.672Z\"},\"server\":{\"git\":\"f40fc0634c87a680b770d6bfe1998b388ecbe661\",\"date\":\"2026-08-20T22:39:37.672Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "5XpIV6dAah\u2026",
+  "session.sig": "tgdotnXjTr\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzA2ODM3NjhhM2VkZDMzNGNlMTQ0NDMwNTFiZTFhZWYiLCAic2NvcmUiOiAxLjAwNTIyOTM5ODMxNTIwMDh9"
+   "sequence": "eyJfaWQiOiAiYzY2YTcwNDk5OTg0NGVhMjIzM2Q1Y2U5NzY3NTYzYjMiLCAic2NvcmUiOiAxLjA0MjE3Njg2Mzk1NjAxODV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -191,19 +191,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
-   },
-   {
-    "id": "resume:React.js",
-    "label": "React.js",
-    "value": "resume:React.js"
-   },
-   {
-    "id": "resume:NestJS",
-    "label": "NestJS",
-    "value": "resume:NestJS"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
     "id": "resume:Developer Experience",
@@ -211,48 +201,58 @@
     "value": "resume:Developer Experience"
    },
    {
-    "id": "resume:PostgreSQL",
-    "label": "Postgres",
-    "value": "resume:PostgreSQL"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
-   },
-   {
     "id": "resume:React.js",
     "label": "React.js",
     "value": "resume:React.js"
    },
    {
-    "id": "resume:NestJS",
-    "label": "NestJS",
-    "value": "resume:NestJS"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
-   },
-   {
-    "id": "resume:PostgreSQL",
-    "label": "Postgres",
-    "value": "resume:PostgreSQL"
-   },
-   {
-    "id": "resume:Node.js",
-    "label": "Node.js",
-    "value": "resume:Node.js"
+    "id": "resume:Incident Response",
+    "label": "Incident Response",
+    "value": "resume:Incident Response"
    },
    {
     "id": "resume:Product Engineering",
     "label": "Product Engineering",
     "value": "resume:Product Engineering"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Developer Experience",
+    "label": "Developer Experience",
+    "value": "resume:Developer Experience"
+   },
+   {
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Incident Response",
+    "label": "Incident Response",
+    "value": "resume:Incident Response"
+   },
+   {
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
+   },
+   {
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
+   },
+   {
+    "id": "resume:NestJS",
+    "label": "NestJS",
+    "value": "resume:NestJS"
    },
    {
     "id": "resume:Node",
@@ -276,9 +276,9 @@
   "minYearsExp": 8,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "East Coast",
@@ -286,14 +286,14 @@
     "value": "East Coast"
    },
    {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
@@ -332,7 +332,7 @@
   "jobId": "105563",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1963091399359, 'matchScore': 0, 'ageScore': 0.9963091399359568, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1922659434333, 'matchScore': 0, 'ageScore': 0.9922659434332561, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
