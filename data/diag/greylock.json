@@ -1,5 +1,338 @@
 {
  "board": "greylock",
- "run": "2026-08-21T13:17:37Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.greylock.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+ "run": "2026-08-21T14:03:02Z",
+ "homepage": {
+  "status": 200,
+  "bytes": 26371
+ },
+ "slugs_tried": [
+  "greylock-partners",
+  "greylock"
+ ],
+ "attempts": [
+  {
+   "endpoint": "https://jobs.greylock.com/api-boards/search-jobs",
+   "slug": "greylock-partners",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.greylock.com/api-boards/search-jobs",
+   "slug": "greylock",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.greylock.com/api-boards/search-jobs",
+   "slug": "greylock-partners",
+   "csrf_header": "x-csrf-token",
+   "status": 200,
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f40fc0634c87a680b770d6bfe1998b388ecbe661\",\"date\":\"2026-08-20T22:39:37.672Z\"},\"server\":{\"git\":\"f40fc0634c87a680b770d6bfe1998b388ecbe661\",\"date\":\"2026-08-20T22:39:37.672Z\"}}"
+  }
+ ],
+ "cookies": {
+  "session": "eyJmbGFzaC\u2026",
+  "session.sig": "4pAi_rb7sG\u2026",
+  "AWSALBAPP-0": "AAAAAAAAAA\u2026",
+  "AWSALBAPP-1": "_remove_",
+  "AWSALBAPP-2": "_remove_",
+  "AWSALBAPP-3": "_remove_"
+ },
+ "token_endpoints": [
+  {
+   "path": "/api-boards/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/api-boards/csrf-token",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  }
+ ],
+ "csrf_candidates": [
+  {
+   "src": "html",
+   "len": 36
+  }
+ ],
+ "working": {
+  "endpoint": "https://jobs.greylock.com/api-boards/search-jobs",
+  "slug": "greylock-partners",
+  "csrf_header": [
+   "x-csrf-token"
+  ]
+ },
+ "search_probe": [
+  {
+   "variant": "query.searchQuery+promote",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.search",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.text",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.q",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "top.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.keywords",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  }
+ ],
+ "response_shape": {
+  "keys": [
+   "availableFilters",
+   "debug",
+   "errors",
+   "jobs",
+   "meta",
+   "total",
+   "version"
+  ],
+  "meta": {
+   "size": 100,
+   "sequence": "eyJfaWQiOiAiMTNlZmY5MzhkODk1N2QyMGQ1ZmQxOGNiNjIxN2FlMjkiLCAic2NvcmUiOiAwLjkxNzE3MTQ5OTUyNjYyMDV9"
+  },
+  "job_keys": [
+   "applicationWindow",
+   "applyUrl",
+   "atsJobs",
+   "companyDomain",
+   "companyId",
+   "companyLogos",
+   "companyName",
+   "companySlug",
+   "companyStaffCount",
+   "considerHosted",
+   "considerLevels",
+   "consultant",
+   "contractor",
+   "departments",
+   "fundingLV",
+   "hybrid",
+   "isFeatured",
+   "jobFunctions",
+   "jobId",
+   "jobSeniorities"
+  ],
+  "job_count": 100
+ },
+ "sample_job": {
+  "applicationWindow": "{'status': 'accepting'}",
+  "applyUrl": "https://jobs.gem.com/modular/am9icG9zdDo8-b3ZXRNlNpal_TfkogiQ?utm_source=jobs.greylock.com",
+  "companyDomain": "modular.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c95a2e7d26c1c844eb59f8867714914e_208_160?Expires=1861920000&Signature=tbVqoyu8zBB2zh7C5eiQePYOUcf9BHGZV~XrgsXw2AZFjO73FdfPN",
+  "companyId": "Modular",
+  "companySlug": "modular",
+  "companyName": "Modular",
+  "companyStaffCount": 379,
+  "considerHosted": false,
+  "departments": [
+   "Mojo"
+  ],
+  "jobTypes": [
+   {
+    "id": "engineering-manager",
+    "label": "Engineering Manager",
+    "value": "engineering-manager"
+   },
+   {
+    "id": "hardware-engineer",
+    "label": "Hardware Engineer",
+    "value": "hardware-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
+  "locations": [
+   "United States / Canada / Europe"
+  ],
+  "normalizedLocations": [
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   }
+  ],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 172000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "skills": [
+   {
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
+   },
+   {
+    "id": "resume:OpenCL",
+    "label": "OpenCL",
+    "value": "resume:OpenCL"
+   },
+   {
+    "id": "resume:Compilers",
+    "label": "Compilers",
+    "value": "resume:Compilers"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
+   },
+   {
+    "id": "resume:OpenCL",
+    "label": "OpenCL",
+    "value": "resume:OpenCL"
+   },
+   {
+    "id": "resume:Compilers",
+    "label": "Compilers",
+    "value": "resume:Compilers"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
+   },
+   {
+    "id": "resume:LLVM",
+    "label": "LLVM",
+    "value": "resume:LLVM"
+   },
+   {
+    "id": "resume:Technical Leadership",
+    "label": "Technical Leadership",
+    "value": "resume:Technical Leadership"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "manager": true,
+  "consultant": false,
+  "contractor": false,
+  "considerLevels": [
+   [
+    5,
+    6
+   ]
+  ],
+  "minYearsExp": 7,
+  "regions": [
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   }
+  ],
+  "stages": [
+   {
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
+   }
+  ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "AI/ML",
+    "label": "AI/ML",
+    "value": "AI/ML"
+   },
+   {
+    "id": "Hardware",
+    "label": "Hardware",
+    "value": "Hardware"
+   },
+   {
+    "id": "Infrastructure",
+    "label": "Infrastructure",
+    "value": "Infrastructure"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
+   }
+  ],
+  "timeStamp": "2026-08-20T23:57:24Z",
+  "title": "Engineering Manager, Hardware Bringup ",
+  "url": "https://jobs.gem.com/modular/am9icG9zdDo8-b3ZXRNlNpal_TfkogiQ",
+  "jobId": "am9icG9zdDo8-b3ZXRNlNpal_TfkogiQ",
+  "remote": false,
+  "hybrid": false,
+  "scores": "{'score': 1001.184359674162, 'matchScore': 0, 'ageScore': 0.9843596741620371, 'richnessScore': 2}",
+  "atsJobs": [],
+  "matchingTalent": "{'count': 0, 'matches': []}",
+  "jobSeniorities": [
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
+   }
+  ],
+  "jobSeniorityIds": [
+   "manager"
+  ],
+  "isFeatured": false
+ },
+ "search_mode": {
+  "variant": "cursor:meta.sequence"
+ }
 }
