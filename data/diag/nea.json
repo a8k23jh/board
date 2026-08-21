@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-08-21T09:02:59Z",
+ "run": "2026-08-21T09:55:57Z",
  "homepage": {
   "status": 200,
   "bytes": 20607
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "xQ1sUzib5T\u2026",
+  "session.sig": "QEx14bc7xa\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTEzMmEwOGNhZTI1MGMxMTI1ODU4YjVlYjc2YzgzOTciLCAic2NvcmUiOiAxLjExMjY4NjM0MTUwMjcwMDZ9"
+   "sequence": "eyJfaWQiOiAiM2UxMTRhMWM3ZTY2NDUxMDkyMjIwNjYyZTA1NmI1MmEiLCAic2NvcmUiOiAxLjExMTM0NDcwNTk2ODc1fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -147,119 +147,133 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/ionq/jobs/6146915004",
-  "companyDomain": "ionq.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/eac3dab0dc4e22760c884b93dd53b174_240_160?Expires=1861920000&Signature=WBHbtWEVhzDU8gCtic2a028IcKOXsr~FJTu6CAUilCmioCoyzjVx7",
-  "companyId": "IonQ",
-  "companySlug": "ionq",
-  "companyName": "IonQ",
-  "companyStaffCount": 1252,
+  "applyUrl": "http://rhythmpharmaceuticals.applytojob.com/apply/35Aq7Ikn8v/Senior-Director-Biostatistics",
+  "companyDomain": "rhythmtx.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/eda90d3e37530a6b507481172b14d000_240_160?Expires=1861920000&Signature=ODsgI-kBFBYEg0rq7vifee0bk6Plh1L5sSpDoMmk-~gbgFC8bg0NB",
+  "companyId": "Rhythm Pharmaceuticals",
+  "companySlug": "rhythm-pharmaceuticals",
+  "companyName": "Rhythm Pharmaceuticals",
+  "companyStaffCount": 299,
   "considerHosted": false,
   "departments": [
-   "GTM"
+   "Biometrics"
   ],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "biostatistician",
+    "label": "Bioinformatics",
+    "value": "biostatistician"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
    }
   ],
   "locations": [
-   "Washington, District of Columbia, United States"
+   "Boston, MA, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Washington, District Of Columbia",
-    "label": "Washington, DC",
-    "value": "Washington, District Of Columbia"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 450000, 'maxValue': 450000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 210000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:SAS",
+    "label": "SAS",
+    "value": "resume:SAS"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:CDISC Standards",
+    "label": "CDISC Standards",
+    "value": "resume:CDISC Standards"
    },
    {
-    "id": "resume:Enterprise Sales",
-    "label": "Enterprise Sales",
-    "value": "resume:Enterprise Sales"
+    "id": "resume:Clinical Development",
+    "label": "Clinical Development",
+    "value": "resume:Clinical Development"
    },
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:Statistics",
+    "label": "Statistics",
+    "value": "resume:Statistics"
    },
    {
-    "id": "resume:Federal Government",
-    "label": "Federal Government",
-    "value": "resume:Federal Government"
+    "id": "resume:SDTM",
+    "label": "SDTM",
+    "value": "resume:SDTM"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:SAS",
+    "label": "SAS",
+    "value": "resume:SAS"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:CDISC Standards",
+    "label": "CDISC Standards",
+    "value": "resume:CDISC Standards"
    },
    {
-    "id": "resume:Enterprise Sales",
-    "label": "Enterprise Sales",
-    "value": "resume:Enterprise Sales"
+    "id": "resume:Clinical Development",
+    "label": "Clinical Development",
+    "value": "resume:Clinical Development"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:Statistics",
+    "label": "Statistics",
+    "value": "resume:Statistics"
    },
    {
-    "id": "resume:Federal Government",
-    "label": "Federal Government",
-    "value": "resume:Federal Government"
+    "id": "resume:SDTM",
+    "label": "SDTM",
+    "value": "resume:SDTM"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Biostatistics",
+    "label": "Biostatistics",
+    "value": "resume:Biostatistics"
+   },
+   {
+    "id": "resume:Biotechnology",
+    "label": "Biotechnology",
+    "value": "resume:Biotechnology"
+   },
+   {
+    "id": "resume:Clinical Trials",
+    "label": "Clinical Trials",
+    "value": "resume:Clinical Trials"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 10,
   "regions": [
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -268,42 +282,36 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
   "markets": [
    {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
+    "id": "Biotech/Pharma",
+    "label": "Biotech/Pharma",
+    "value": "Biotech/Pharma"
    }
   ],
-  "timeStamp": "2026-08-20T14:54:37Z",
-  "title": "Senior Sales Executive \u2013 Federal SIs & VARs",
-  "url": "https://job-boards.greenhouse.io/ionq/jobs/6146915004",
-  "jobId": "6146915004",
+  "timeStamp": "2026-08-21T06:00:19Z",
+  "title": "Senior Director, Biostatistics",
+  "url": "http://rhythmpharmaceuticals.applytojob.com/apply/35Aq7Ikn8v/Senior-Director-Biostatistics",
+  "jobId": "job_20260820172735_DRIQPMCJ9EZJW3SP",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1791853527627, 'matchScore': 0, 'ageScore': 0.9791853527627314, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1963145710324, 'matchScore': 0, 'ageScore': 0.9963145710324074, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "senior"
+   "director"
   ],
   "isFeatured": false
  },

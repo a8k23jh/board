@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-21T09:02:59Z",
+ "run": "2026-08-21T09:55:57Z",
  "homepage": {
   "status": 200,
   "bytes": 21734
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "IuzslPbWtF\u2026",
+  "session.sig": "IQBcXEYI6m\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODcyMTIyZTVkN2E4Zjk2MDYzMWQ2ODI5MmRjYjQ5OTEiLCAic2NvcmUiOiAxLjEyNTYxNTQzMTg3MTE0Mn0="
+   "sequence": "eyJfaWQiOiAiYzkyMTViNDM4MWUxMWJiODExMzRlOWQyMDY0MjNjMWEiLCAic2NvcmUiOiAxLjEzNjE1MTg2NDUzNDcyMjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,85 +152,118 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/launchdarkly/jobs/7920039003",
-  "companyDomain": "launchdarkly.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2f5ea540340c48bfe200724851e9cdd2_312_160?Expires=1861920000&Signature=sqp2Pph~Ep67VMcw3HhZ1brHNkWCkUSN0LUilGpv~COxMOTPTdjz0",
-  "companyId": "LaunchDarkly",
-  "companySlug": "launchdarkly",
-  "companyName": "LaunchDarkly",
-  "companyStaffCount": 646,
+  "applyUrl": "https://jobs.ashbyhq.com/pivotal-health/0c67e75e-e4c7-49b5-88ee-24ac0d1c1739?utm_source=jobs.bvp.com",
+  "companyDomain": "pivotalhealth.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6631ba18e0aadffa355465be110d503e_176_160?Expires=1861920000&Signature=Oo-LVPwE4WR0PsqSFgC7D6M5g6x4e5JXjugwkpTpalmpO-P2sbwAq",
+  "companyId": "Pivotal Health",
+  "companySlug": "pivotal-health",
+  "companyName": "Pivotal Health",
+  "companyStaffCount": 36,
   "considerHosted": false,
   "departments": [
-   "Measure Engineering"
+   "Business Operations"
   ],
   "jobTypes": [
    {
-    "id": "backend-engineer",
-    "label": "Backend Engineer",
-    "value": "backend-engineer"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
+   "Brooklyn, New York, United States",
+   "Williamsburg, NY",
    "Remote - US"
   ],
   "normalizedLocations": [
+   {
+    "id": "Brooklyn, New York",
+    "label": "Brooklyn, New York",
+    "value": "Brooklyn, New York"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 191800, 'maxValue': 263670, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85110, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Experimentation",
-    "label": "Experimentation",
-    "value": "resume:Experimentation"
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    },
    {
-    "id": "resume:Amazon Redshift",
-    "label": "Amazon Redshift",
-    "value": "resume:Amazon Redshift"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    },
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
+    "id": "resume:Conflict Resolution",
+    "label": "Conflict Resolution",
+    "value": "resume:Conflict Resolution"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Experimentation",
-    "label": "Experimentation",
-    "value": "resume:Experimentation"
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
+   },
+   {
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
+   },
+   {
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
+   },
+   {
+    "id": "resume:Conflict Resolution",
+    "label": "Conflict Resolution",
+    "value": "resume:Conflict Resolution"
+   },
+   {
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -238,39 +271,12 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Amazon Redshift",
-    "label": "Amazon Redshift",
-    "value": "resume:Amazon Redshift"
+    "id": "resume:Revenue Cycle",
+    "label": "Revenue Cycle",
+    "value": "resume:Revenue Cycle"
    }
   ],
-  "preferredSkills": [
-   {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
-   },
-   {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
-   },
-   {
-    "id": "resume:PostgreSQL",
-    "label": "Postgres",
-    "value": "resume:PostgreSQL"
-   },
-   {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   },
-   {
-    "id": "resume:Database Design",
-    "label": "Database Arch/Design",
-    "value": "resume:Database Design"
-   }
-  ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -283,8 +289,23 @@
     6
    ]
   ],
-  "minYearsExp": 6,
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -293,42 +314,36 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-08-20T18:35:19Z",
-  "title": "Senior Backend Engineer, Experimentation",
-  "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7920039003",
-  "jobId": "7920039003",
+  "timeStamp": "2026-08-21T00:00:00Z",
+  "title": "Associate Manager, State Arbitration Operations",
+  "url": "https://jobs.ashbyhq.com/pivotal-health/0c67e75e-e4c7-49b5-88ee-24ac0d1c1739",
+  "jobId": "0c67e75e-e4c7-49b5-88ee-24ac0d1c1739",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.185008961779, 'matchScore': 0, 'ageScore': 0.9850089617789352, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1885063970756, 'matchScore': 0, 'ageScore': 0.9885063970756173, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "manager"
   ],
   "isFeatured": false
  },

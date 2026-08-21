@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-21T09:02:59Z",
+ "run": "2026-08-21T09:55:57Z",
  "homepage": {
   "status": 200,
   "bytes": 20235
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "bhVGyjVSV4\u2026",
+  "session.sig": "ZX0rbgphS_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2UzZDhmNjQ5NzI0YTNkMjYwMjUyNjFkZDhjOTg1OGQiLCAic2NvcmUiOiAxLjE0NjA5MjI1NDMzMTc5MDJ9"
+   "sequence": "eyJfaWQiOiAiY2ZmZmFmM2RmNTE1ZDkwM2Y4MmI3ZjNmOThhYjI5OWYiLCAic2NvcmUiOiAxLjE0NTcwNzMwNTYwMDY5NDZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,45 +144,60 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8731862002?gh_jid=8731862002",
-  "companyDomain": "spacex.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
-  "companyId": "SpaceX",
-  "companySlug": "spacex",
-  "companyName": "SpaceX",
-  "companyStaffCount": 20713,
+  "applyUrl": "https://job-boards.greenhouse.io/temporaltechnologies/jobs/5218240007",
+  "companyDomain": "temporal.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/24d63cb3ec1c8c947fcd5a482260e936_296_160?Expires=1861920000&Signature=r4Q1yKN24JKQUTZ0J8bAsxKBtADGVpGdsdGxyV52O6l-NMdERJFH7",
+  "companyId": "Temporal Technologies",
+  "companySlug": "temporal-technologies",
+  "companyName": "Temporal Technologies",
+  "companyStaffCount": 574,
   "considerHosted": false,
   "departments": [
-   "Marketing & Communications"
+   "Cloud"
   ],
   "jobTypes": [
    {
-    "id": "marketing-communications",
-    "label": "Marketing Communications",
-    "value": "marketing-communications"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    },
    {
-    "id": "ux-designer",
-    "label": "UX Designer",
-    "value": "ux-designer"
+    "id": "user-marketing",
+    "label": "Growth Manager",
+    "value": "user-marketing"
+   },
+   {
+    "id": "marketing-growth",
+    "label": "Marketing Growth",
+    "value": "marketing-growth"
+   },
+   {
+    "id": "marketing-engagement",
+    "label": "Marketing Engagement",
+    "value": "marketing-engagement"
+   },
+   {
+    "id": "marketing-acquisition",
+    "label": "Marketing Acquisition",
+    "value": "marketing-acquisition"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Design",
-    "label": "Design",
-    "value": "Design"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    },
    {
     "id": "Marketing",
@@ -191,85 +206,85 @@
    }
   ],
   "locations": [
-   "Hawthorne, CA"
+   "United States  - Remote Opportunity"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 176000, 'maxValue': 231000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Web Design",
-    "label": "Web Design",
-    "value": "resume:Web Design"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Iconography",
-    "label": "Iconography",
-    "value": "resume:Iconography"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Accrual",
-    "label": "Accrual",
-    "value": "resume:Accrual"
+    "id": "resume:Data Integrity",
+    "label": "Data Integrity",
+    "value": "resume:Data Integrity"
    },
    {
-    "id": "resume:User Interface Design",
-    "label": "User Interface Design",
-    "value": "resume:User Interface Design"
+    "id": "resume:System Architecture",
+    "label": "System Architecture",
+    "value": "resume:System Architecture"
    },
    {
-    "id": "resume:After Effects",
-    "label": "After Effects",
-    "value": "resume:After Effects"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Web Design",
-    "label": "Web Design",
-    "value": "resume:Web Design"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Iconography",
-    "label": "Iconography",
-    "value": "resume:Iconography"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Accrual",
-    "label": "Accrual",
-    "value": "resume:Accrual"
+    "id": "resume:Data Integrity",
+    "label": "Data Integrity",
+    "value": "resume:Data Integrity"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:User Interface Design",
-    "label": "User Interface Design",
-    "value": "resume:User Interface Design"
+    "id": "resume:System Architecture",
+    "label": "System Architecture",
+    "value": "resume:System Architecture"
    },
    {
-    "id": "resume:After Effects",
-    "label": "After Effects",
-    "value": "resume:After Effects"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    },
    {
-    "id": "resume:User Experience Design",
-    "label": "User Experience Design",
-    "value": "resume:User Experience Design"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Multitasking skills",
-    "label": "Multitasking skills",
-    "value": "resume:Multitasking skills"
+    "id": "resume:Performance Tuning",
+    "label": "Performance Tuning",
+    "value": "resume:Performance Tuning"
    },
    {
-    "id": "resume:Adobe InDesign",
-    "label": "Adobe InDesign",
-    "value": "resume:Adobe InDesign"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    }
   ],
   "manager": false,
@@ -287,47 +302,38 @@
   ],
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-08-20T19:15:41Z",
-  "title": "Sr. Graphic Designer, Marketing & Communications",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8731862002?gh_jid=8731862002",
-  "jobId": "8731862002",
-  "remote": false,
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
+   }
+  ],
+  "timeStamp": "2026-08-21T01:52:14Z",
+  "title": "Senior Software Engineer, Cloud Growth",
+  "url": "https://job-boards.greenhouse.io/temporaltechnologies/jobs/5218240007",
+  "jobId": "5218240007",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1859551059414, 'matchScore': 0, 'ageScore': 0.985955105941358, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1911484535154, 'matchScore': 0, 'ageScore': 0.9911484535154321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
