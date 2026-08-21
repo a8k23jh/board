@@ -1,6 +1,7 @@
 {
  "board": "kleiner",
- "run": "2026-08-21T11:47:16Z",
+ "run": "2026-08-21T13:17:37Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
  "homepage": {
   "status": 200,
   "bytes": 19379
@@ -42,7 +43,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "tHVQiCryJ6\u2026",
+  "session.sig": "ZyBpa6Oa46\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +128,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTUzMzJlM2Y3YThjNGYyMjMzNmZlMjNjZWZjY2NjNjciLCAic2NvcmUiOiAxLjA1NDgxOTkzMDc0ODA3MX0="
+   "sequence": "eyJfaWQiOiAiNzMxYjI3MDc3MmQ0OGVmMzkyNTQzOGNjZjA0YWFmNGQiLCAic2NvcmUiOiAxLjA1MDc3NDg1NTM0ODc2NTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +156,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/applied/f1808a1f-6952-4d34-a1bb-bf35aec29936?utm_source=jobs.kleinerperkins.com",
+  "applyUrl": "https://jobs.ashbyhq.com/applied/b7a499d8-d2a3-4458-baf6-4b43c2165558?utm_source=jobs.kleinerperkins.com",
   "companyDomain": "appliedintuition.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6d61c3d214c9ab4cffeb0943383a5632_320_160?Expires=1861920000&Signature=KKSK0Ab80pcKYPc5erj0I5sNMVbsla93xk2Iz5olUfn3jGY2TRqxB",
   "companyId": "Applied Intuition",
@@ -181,81 +182,22 @@
    }
   ],
   "locations": [
-   "Arlington, Virginia, United States",
-   "Washington, D.C."
+   "Fort Walton Beach, Florida, United States",
+   "Fort Walton Beach, FL"
   ],
   "normalizedLocations": [
    {
-    "id": "Arlington, Virginia",
-    "label": "Arlington, Virginia",
-    "value": "Arlington, Virginia"
-   },
-   {
-    "id": "Washington, District Of Columbia",
-    "label": "Washington, DC",
-    "value": "Washington, District Of Columbia"
+    "id": "Florida",
+    "label": "Florida",
+    "value": "Florida"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 185000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:UART",
-    "label": "UART",
-    "value": "resume:UART"
-   },
-   {
-    "id": "resume:Docker",
-    "label": "Docker",
-    "value": "resume:Docker"
-   },
-   {
     "id": "resume:Ubuntu",
     "label": "Ubuntu",
     "value": "resume:Ubuntu"
-   },
-   {
-    "id": "resume:Git",
-    "label": "Git",
-    "value": "resume:Git"
-   },
-   {
-    "id": "resume:Drones",
-    "label": "Drones",
-    "value": "resume:Drones"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:UART",
-    "label": "UART",
-    "value": "resume:UART"
-   },
-   {
-    "id": "resume:Docker",
-    "label": "Docker",
-    "value": "resume:Docker"
-   },
-   {
-    "id": "resume:Ubuntu",
-    "label": "Ubuntu",
-    "value": "resume:Ubuntu"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Git",
-    "label": "Git",
-    "value": "resume:Git"
-   },
-   {
-    "id": "resume:Drones",
-    "label": "Drones",
-    "value": "resume:Drones"
-   },
-   {
-    "id": "resume:Ethernet",
-    "label": "Ethernet",
-    "value": "resume:Ethernet"
    },
    {
     "id": "resume:I2C",
@@ -263,9 +205,63 @@
     "value": "resume:I2C"
    },
    {
-    "id": "resume:SPI",
-    "label": "SPI",
-    "value": "resume:SPI"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
+   },
+   {
+    "id": "resume:Visual Studio Code",
+    "label": "VS Code",
+    "value": "resume:Visual Studio Code"
+   },
+   {
+    "id": "resume:Docker",
+    "label": "Docker",
+    "value": "resume:Docker"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Ubuntu",
+    "label": "Ubuntu",
+    "value": "resume:Ubuntu"
+   },
+   {
+    "id": "resume:I2C",
+    "label": "I2C",
+    "value": "resume:I2C"
+   },
+   {
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Visual Studio Code",
+    "label": "VS Code",
+    "value": "resume:Visual Studio Code"
+   },
+   {
+    "id": "resume:Docker",
+    "label": "Docker",
+    "value": "resume:Docker"
+   },
+   {
+    "id": "resume:System Integration",
+    "label": "System Integration",
+    "value": "resume:System Integration"
+   },
+   {
+    "id": "resume:Git",
+    "label": "Git",
+    "value": "resume:Git"
+   },
+   {
+    "id": "resume:RedHat",
+    "label": "RedHat",
+    "value": "resume:RedHat"
    }
   ],
   "manager": false,
@@ -284,14 +280,14 @@
   "minYearsExp": 3,
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
     "id": "South Atlantic",
     "label": "South Atlantic",
     "value": "South Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "North America",
@@ -326,11 +322,11 @@
   ],
   "timeStamp": "2026-08-21T00:00:00Z",
   "title": "Software Engineer (Drone Stack)",
-  "url": "https://jobs.ashbyhq.com/applied/f1808a1f-6952-4d34-a1bb-bf35aec29936",
-  "jobId": "f1808a1f-6952-4d34-a1bb-bf35aec29936",
+  "url": "https://jobs.ashbyhq.com/applied/b7a499d8-d2a3-4458-baf6-4b43c2165558",
+  "jobId": "b7a499d8-d2a3-4458-baf6-4b43c2165558",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1886592871582, 'matchScore': 0, 'ageScore': 0.988659287158179, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1840664503808, 'matchScore': 0, 'ageScore': 0.984066450380787, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -347,5 +343,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
