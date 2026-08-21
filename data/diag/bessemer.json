@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-21T05:52:59Z",
+ "run": "2026-08-21T07:13:38Z",
  "homepage": {
   "status": 200,
   "bytes": 21734
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "AfhANzKNQU\u2026",
+  "session.sig": "WIIAOUtmpX\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzM1NTZiNDIzMzM2OGIyNWViMjcwZjc5NDhmZGY2Y2IiLCAic2NvcmUiOiAxLjEzNDEyMjA1NzM3NDIyODN9"
+   "sequence": "eyJfaWQiOiAiODcyMTIyZTVkN2E4Zjk2MDYzMWQ2ODI5MmRjYjQ5OTEiLCAic2NvcmUiOiAxLjEyNTYxNTQzMTg3MTE0Mn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/launchdarkly/jobs/7919873003",
+  "applyUrl": "https://job-boards.greenhouse.io/launchdarkly/jobs/7920039003",
   "companyDomain": "launchdarkly.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2f5ea540340c48bfe200724851e9cdd2_312_160?Expires=1861920000&Signature=sqp2Pph~Ep67VMcw3HhZ1brHNkWCkUSN0LUilGpv~COxMOTPTdjz0",
   "companyId": "LaunchDarkly",
@@ -172,10 +172,22 @@
   "companyStaffCount": 646,
   "considerHosted": false,
   "departments": [
-   "Release Engineering"
+   "Measure Engineering"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "backend-engineer",
+    "label": "Backend Engineer",
+    "value": "backend-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
    "Remote - US"
   ],
@@ -186,76 +198,76 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 214800, 'maxValue': 295350, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 191800, 'maxValue': 263670, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:A/B Testing",
-    "label": "A/B Testing",
-    "value": "resume:A/B Testing"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Redis",
-    "label": "Redis",
-    "value": "resume:Redis"
+    "id": "resume:Amazon Redshift",
+    "label": "Amazon Redshift",
+    "value": "resume:Amazon Redshift"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:A/B Testing",
-    "label": "A/B Testing",
-    "value": "resume:A/B Testing"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Redis",
-    "label": "Redis",
-    "value": "resume:Redis"
+    "id": "resume:Amazon Redshift",
+    "label": "Amazon Redshift",
+    "value": "resume:Amazon Redshift"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    },
    {
-    "id": "resume:Incident Response",
-    "label": "Incident Response",
-    "value": "resume:Incident Response"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Data Processing",
-    "label": "Data Processing",
-    "value": "resume:Data Processing"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    }
   ],
   "manager": false,
@@ -263,15 +275,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 6,
   "regions": [
    {
     "id": "North America",
@@ -299,13 +311,13 @@
     "value": "Developer Tools"
    }
   ],
-  "timeStamp": "2026-08-20T18:39:25Z",
-  "title": "Staff Engineer, Experience Engineering",
-  "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7919873003",
-  "jobId": "7919873003",
+  "timeStamp": "2026-08-20T18:35:19Z",
+  "title": "Senior Backend Engineer, Experimentation",
+  "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7920039003",
+  "jobId": "7920039003",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1937973668457, 'matchScore': 0, 'ageScore': 0.993797366845679, 'richnessScore': 2}",
+  "scores": "{'score': 1001.185008961779, 'matchScore': 0, 'ageScore': 0.9850089617789352, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

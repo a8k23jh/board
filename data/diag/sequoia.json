@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-21T05:52:59Z",
+ "run": "2026-08-21T07:13:38Z",
  "homepage": {
   "status": 200,
   "bytes": 20235
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "2adrD0_zMa\u2026",
+  "session.sig": "D-lvmdiLBq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWRhNmQxZTZmMWJmOTM0Y2Q5Njk0MTVlMTZkMTJlYmIiLCAic2NvcmUiOiAxLjE0NDU0MjYyOTcxMjk2M30="
+   "sequence": "eyJfaWQiOiAiM2UzZDhmNjQ5NzI0YTNkMjYwMjUyNjFkZDhjOTg1OGQiLCAic2NvcmUiOiAxLjE0NjA5MjI1NDMzMTc5MDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,73 +144,83 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/peregrinetechnologies/jobs/4726287005?gh_src=b1c2e36b5us",
-  "companyDomain": "peregrine.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e33e1bdde2649dbc29d3cbd91bf15126_288_160?Expires=1861920000&Signature=qSro3HxDcLcqaoIARiyBGAoJPsos82GdEvSXMfgNBy9rEgfW5lVgo",
-  "companyId": "Peregrine",
-  "companySlug": "peregrine",
-  "companyName": "Peregrine",
-  "companyStaffCount": 545,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8731862002?gh_jid=8731862002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "Marketing"
+   "Marketing & Communications"
   ],
   "jobTypes": [
    {
-    "id": "editor",
-    "label": "Editor",
-    "value": "editor"
+    "id": "marketing-communications",
+    "label": "Marketing Communications",
+    "value": "marketing-communications"
+   },
+   {
+    "id": "ux-designer",
+    "label": "UX Designer",
+    "value": "ux-designer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Writing / Editing",
-    "label": "Writing / Editing",
-    "value": "Writing / Editing"
+    "id": "Design",
+    "label": "Design",
+    "value": "Design"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "New York, NY"
+   "Hawthorne, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 140000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:DaVinci",
-    "label": "DaVinci",
-    "value": "resume:DaVinci"
+    "id": "resume:Web Design",
+    "label": "Web Design",
+    "value": "resume:Web Design"
    },
    {
-    "id": "resume:Sound Design",
-    "label": "Sound Design",
-    "value": "resume:Sound Design"
+    "id": "resume:Iconography",
+    "label": "Iconography",
+    "value": "resume:Iconography"
    },
    {
-    "id": "resume:Motion Graphics",
-    "label": "Motion Graphics",
-    "value": "resume:Motion Graphics"
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
    },
    {
-    "id": "resume:Music",
-    "label": "Music",
-    "value": "resume:Music"
+    "id": "resume:User Interface Design",
+    "label": "User Interface Design",
+    "value": "resume:User Interface Design"
    },
    {
     "id": "resume:After Effects",
@@ -220,26 +230,26 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:DaVinci",
-    "label": "DaVinci",
-    "value": "resume:DaVinci"
+    "id": "resume:Web Design",
+    "label": "Web Design",
+    "value": "resume:Web Design"
    },
    {
-    "id": "resume:Sound Design",
-    "label": "Sound Design",
-    "value": "resume:Sound Design"
+    "id": "resume:Iconography",
+    "label": "Iconography",
+    "value": "resume:Iconography"
    },
    {
-    "id": "resume:Motion Graphics",
-    "label": "Motion Graphics",
-    "value": "resume:Motion Graphics"
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Music",
-    "label": "Music",
-    "value": "resume:Music"
+    "id": "resume:User Interface Design",
+    "label": "User Interface Design",
+    "value": "resume:User Interface Design"
    },
    {
     "id": "resume:After Effects",
@@ -247,85 +257,88 @@
     "value": "resume:After Effects"
    },
    {
-    "id": "resume:Adobe Premiere Pro",
-    "label": "Adobe Premiere Pro",
-    "value": "resume:Adobe Premiere Pro"
+    "id": "resume:User Experience Design",
+    "label": "User Experience Design",
+    "value": "resume:User Experience Design"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Multitasking skills",
+    "label": "Multitasking skills",
+    "value": "resume:Multitasking skills"
+   },
+   {
+    "id": "resume:Adobe InDesign",
+    "label": "Adobe InDesign",
+    "value": "resume:Adobe InDesign"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
    },
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-08-20T18:06:35Z",
-  "title": "Video Editor",
-  "url": "https://job-boards.greenhouse.io/peregrinetechnologies/jobs/4726287005",
-  "jobId": "4726287005",
+  "timeStamp": "2026-08-20T19:15:41Z",
+  "title": "Sr. Graphic Designer, Marketing & Communications",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8731862002?gh_jid=8731862002",
+  "jobId": "8731862002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1924273921431, 'matchScore': 0, 'ageScore': 0.9924273921431327, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1859551059414, 'matchScore': 0, 'ageScore': 0.985955105941358, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

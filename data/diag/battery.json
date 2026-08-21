@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-08-21T05:52:59Z",
+ "run": "2026-08-21T07:13:38Z",
  "homepage": {
   "status": 200,
   "bytes": 18742
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Iqewmcgs2q\u2026",
+  "session.sig": "jQ2SaV7Eac\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjk4ZTc4YzY4MmM3NWZiNDY4YzQ4ZDhjM2VlODAxNTIiLCAic2NvcmUiOiAxLjEyNDUxNTUxNjQxMDEwOH0="
+   "sequence": "eyJfaWQiOiAiZjk4ZTc4YzY4MmM3NWZiNDY4YzQ4ZDhjM2VlODAxNTIiLCAic2NvcmUiOiAxLjExNjYxODEwNjExMjI2ODR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6145183004",
+  "applyUrl": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6145186004",
   "companyDomain": "sambanova.ai",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/68e011c17b8ba5ad3537bfc5ae420dd7_320_160?Expires=1861920000&Signature=Odd~JH~9d059teI7FGcbKjMXzE0HRf0HMxxNo1jBOVcKcY6Cbnd7L",
   "companyId": "SambaNova Systems",
@@ -160,9 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "software-architect",
-    "label": "Software Architect",
-    "value": "software-architect"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
+   },
+   {
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
@@ -182,76 +187,76 @@
     "value": "Bengaluru, Karnataka, India"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 10300000, 'maxValue': 12500000, 'currency': {'label': 'INR', 'value': 'INR'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 8900000, 'maxValue': 10800000, 'currency': {'label': 'INR', 'value': 'INR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Resource Allocation",
-    "label": "Resource Allocation",
-    "value": "resume:Resource Allocation"
-   },
-   {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
-   },
-   {
-    "id": "resume:Google Dataflow",
-    "label": "Google Dataflow",
-    "value": "resume:Google Dataflow"
-   },
-   {
-    "id": "resume:Fault Tolerant Systems",
-    "label": "Fault Tolerant Systems",
-    "value": "resume:Fault Tolerant Systems"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Rust",
     "label": "Rust",
     "value": "resume:Rust"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Resource Allocation",
-    "label": "Resource Allocation",
-    "value": "resume:Resource Allocation"
-   },
-   {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
-   },
-   {
-    "id": "resume:Google Dataflow",
-    "label": "Google Dataflow",
-    "value": "resume:Google Dataflow"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Fault Tolerant Systems",
-    "label": "Fault Tolerant Systems",
-    "value": "resume:Fault Tolerant Systems"
-   },
-   {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
-   },
-   {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
-   },
-   {
-    "id": "resume:Helm",
-    "label": "Helm",
-    "value": "resume:Helm"
    },
    {
     "id": "resume:Go",
     "label": "Golang",
     "value": "resume:Go"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Cloud Native",
+    "label": "Cloud Native",
+    "value": "resume:Cloud Native"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
+   },
+   {
+    "id": "resume:Go",
+    "label": "Golang",
+    "value": "resume:Go"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Cloud Native",
+    "label": "Cloud Native",
+    "value": "resume:Cloud Native"
+   },
+   {
+    "id": "resume:Integration Testing",
+    "label": "Integration Testing",
+    "value": "resume:Integration Testing"
+   },
+   {
+    "id": "resume:Unit Testing",
+    "label": "Unit Testing",
+    "value": "resume:Unit Testing"
+   },
+   {
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    }
   ],
   "manager": false,
@@ -267,7 +272,8 @@
     8
    ]
   ],
-  "minYearsExp": 12,
+  "minYearsExp": 8,
+  "maxYearsExp": 12,
   "regions": [
    {
     "id": "Asia Pacific",
@@ -300,24 +306,24 @@
     "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-08-20T16:55:13Z",
-  "title": "Software Architect - SambaStack",
-  "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6145183004",
-  "jobId": "6145183004",
+  "timeStamp": "2026-08-20T16:38:14Z",
+  "title": "Senior Principal Engineer",
+  "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6145186004",
+  "jobId": "6145186004",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1912200807485, 'matchScore': 0, 'ageScore': 0.9912200807484568, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1826577459321, 'matchScore': 0, 'ageScore': 0.9826577459320988, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "expert"
+   "senior"
   ],
   "isFeatured": false
  },
