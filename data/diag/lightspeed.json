@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-08-22T09:47:16Z",
+ "run": "2026-08-22T10:44:40Z",
  "homepage": {
   "status": 200,
   "bytes": 21205
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "KlT3medDY6\u2026",
+  "session.sig": "YICVQpR_9P\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZThjOGFmNDdkZjQ5ZmZlMDY5MWRlOGMzNThhZWNlMTEiLCAic2NvcmUiOiAxLjE1ODU5ODc4NTkyMzYxMX0="
+   "sequence": "eyJfaWQiOiAiMGEzNGU2MDA4ZDQ2MzI4NjlhMmY0ZTNkYjc3ODVmNjciLCAic2NvcmUiOiAxLjE1NTI3NzA3MjkyNjMxMTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,24 +144,24 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8029/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3375,
+  "applyUrl": "https://www.comeet.com/jobs/cyera/17.008/datawatcher-manager/7E.07B",
+  "companyDomain": "cyera.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec6d92aec09bf6716dbbd9d50089a4ec_208_160?Expires=1861920000&Signature=hr9QoUI4iKYF8Hn~HoiixG3elVHvWPoII2QRBQjO8zeSQJpeGQNuP",
+  "companyId": "Cyera",
+  "companySlug": "cyera",
+  "companyName": "Cyera",
+  "companyStaffCount": 1605,
   "considerHosted": false,
   "departments": [],
   "jobTypes": [
@@ -169,86 +169,35 @@
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
-   },
-   {
-    "id": "finance-professional",
-    "label": "Finance",
-    "value": "finance-professional"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Finance",
-    "label": "Finance",
-    "value": "Finance"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "United States",
-   "Home Office, Springfield, IL, US"
+   "St. Louis"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Saint Louis, Missouri",
+    "label": "Saint Louis, Missouri",
+    "value": "Saint Louis, Missouri"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 127200, 'maxValue': 180210, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:dynamic system",
-    "label": "Dynamic Systems",
-    "value": "resume:dynamic system"
+    "id": "resume:EDR",
+    "label": "EDR",
+    "value": "resume:EDR"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   },
-   {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
-   },
-   {
-    "id": "resume:FPA",
-    "label": "FP&A",
-    "value": "resume:FPA"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:dynamic system",
-    "label": "Dynamic Systems",
-    "value": "resume:dynamic system"
-   },
-   {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   },
-   {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
-   },
-   {
-    "id": "resume:FPA",
-    "label": "FP&A",
-    "value": "resume:FPA"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -256,14 +205,53 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:OPEX",
-    "label": "OPEX",
-    "value": "resume:OPEX"
+    "id": "resume:Managed Security Services",
+    "label": "Managed Security Services",
+    "value": "resume:Managed Security Services"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:EDR",
+    "label": "EDR",
+    "value": "resume:EDR"
    },
    {
-    "id": "resume:ASC35040",
-    "label": "ASC 350-40",
-    "value": "resume:ASC35040"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Managed Security Services",
+    "label": "Managed Security Services",
+    "value": "resume:Managed Security Services"
+   },
+   {
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
+   },
+   {
+    "id": "resume:Security Operations",
+    "label": "Security Operations",
+    "value": "resume:Security Operations"
+   },
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "manager": true,
@@ -279,12 +267,22 @@
     8
    ]
   ],
-  "minYearsExp": 8,
+  "minYearsExp": 10,
   "regions": [
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
    }
   ],
   "stages": [
@@ -292,8 +290,14 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
     "id": "Computer & Network Security",
@@ -301,13 +305,13 @@
     "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-08-21T23:59:47Z",
-  "title": "Manager, Finance",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8029/",
-  "jobId": "8029",
-  "remote": true,
-  "hybrid": true,
-  "scores": "{'score': 1001.1919467891323, 'matchScore': 0, 'ageScore': 0.9919467891323303, 'richnessScore': 2}",
+  "timeStamp": "2026-08-22T00:54:05Z",
+  "title": "DataWatcher Manager",
+  "url": "https://www.comeet.com/jobs/cyera/17.008/datawatcher-manager/7E.07B",
+  "jobId": "7E.07B",
+  "remote": false,
+  "hybrid": false,
+  "scores": "{'score': 1001.1893000840263, 'matchScore': 0, 'ageScore': 0.9893000840262346, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
