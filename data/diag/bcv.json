@@ -1,6 +1,7 @@
 {
  "board": "bcv",
- "run": "2026-08-22T11:40:30Z",
+ "run": "2026-08-22T13:05:51Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.baincapitalventures.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by ",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -50,7 +51,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "eKeuKrsnAJ\u2026",
+  "session.sig": "WSpXCtUI4q\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +136,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGQyYWU1MGNiMWMwZmUyZTk2YmMzZDkyOWMyNWVhOGQiLCAic2NvcmUiOiAxLjExNzQ0NDM4MDYzMDAxNTR9"
+   "sequence": "eyJfaWQiOiAiOGQyYWU1MGNiMWMwZmUyZTk2YmMzZDkyOWMyNWVhOGQiLCAic2NvcmUiOiAxLjExNDI4MDAxNDg3NzMxNDl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,195 +164,167 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/shipbobinc/jobs/4725386005",
-  "companyDomain": "shipbob.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/71f9c9623ad8779afcda360d6c852025_256_160?Expires=1861920000&Signature=YgqL41DHl9VZqssRyl2HXp47e02fdpKcujto1In13wYDDojXd6a0-",
-  "companyId": "ShipBob",
-  "companySlug": "shipbob",
-  "companyName": "ShipBob",
-  "companyStaffCount": 1647,
+  "applyUrl": "https://careers.kula.ai/akkio/53430",
+  "companyDomain": "akkio.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/49b0df0de7548fc323fc480c2a71f4de_240_160?Expires=1861920000&Signature=hOmVcn1qYjra43VVQ4UvuFvum5OYgAJYwMGDth5Tdzsru6ZFV3hwP",
+  "companyId": "Akkio",
+  "companySlug": "akkio",
+  "companyName": "Akkio",
+  "companyStaffCount": 56,
   "considerHosted": false,
   "departments": [
-   "Fulfillment Management SIC"
+   "Customer Engineering"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
-    "id": "fulfillment-specialist",
-    "label": "Fulfillment Specialist",
-    "value": "fulfillment-specialist"
+    "id": "sales-engineering",
+    "label": "Sales Engineering",
+    "value": "sales-engineering"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "Fort Worth, Texas, United States"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Fort Worth, Texas",
-    "label": "Fort Worth, Texas",
-    "value": "Fort Worth, Texas"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 65000, 'maxValue': 65000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
    },
    {
-    "id": "resume:E-commerce",
-    "label": "E-commerce",
-    "value": "resume:E-commerce"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:TMS",
-    "label": "TMS",
-    "value": "resume:TMS"
+    "id": "resume:Language Models",
+    "label": "Language Models",
+    "value": "resume:Language Models"
    },
    {
-    "id": "resume:Business Operations",
-    "label": "Business Operations",
-    "value": "resume:Business Operations"
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
    },
    {
-    "id": "resume:PowerBI",
-    "label": "PowerBI",
-    "value": "resume:PowerBI"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
    },
    {
-    "id": "resume:E-commerce",
-    "label": "E-commerce",
-    "value": "resume:E-commerce"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:TMS",
-    "label": "TMS",
-    "value": "resume:TMS"
+    "id": "resume:Language Models",
+    "label": "Language Models",
+    "value": "resume:Language Models"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Business Operations",
-    "label": "Business Operations",
-    "value": "resume:Business Operations"
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
    },
    {
-    "id": "resume:PowerBI",
-    "label": "PowerBI",
-    "value": "resume:PowerBI"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:KPI Dashboards",
-    "label": "KPI Dashboards",
-    "value": "resume:KPI Dashboards"
+    "id": "resume:Media Planning",
+    "label": "Media Planning",
+    "value": "resume:Media Planning"
    },
    {
-    "id": "resume:3PL",
-    "label": "3PL",
-    "value": "resume:3PL"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ]
-  ],
-  "minYearsExp": 2,
+  "considerLevels": [],
   "regions": [
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
-   },
-   {
-    "id": "Logistics and Supply Chain",
-    "label": "Logistics and Supply Chain",
-    "value": "Logistics and Supply Chain"
-   },
-   {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
-  "timeStamp": "2026-08-21T18:05:44Z",
-  "title": "Area Manager, Fulfillment Operations",
-  "url": "https://job-boards.greenhouse.io/shipbobinc/jobs/4725386005",
-  "jobId": "4725386005",
-  "remote": false,
+  "timeStamp": "2026-08-22T09:00:02Z",
+  "title": "Solutions Strategist",
+  "url": "https://careers.kula.ai/akkio/53430",
+  "jobId": "53430",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1805482255112, 'matchScore': 0, 'ageScore': 0.9805482255111883, 'richnessScore': 2}",
+  "scores": "{'score': 1001.196768629213, 'matchScore': 0, 'ageScore': 0.9967686292129629, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
