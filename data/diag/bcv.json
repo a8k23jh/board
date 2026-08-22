@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-21T23:43:22Z",
+ "run": "2026-08-22T01:54:34Z",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "vQDSK0kwu3\u2026",
+  "session.sig": "zLtRLBJYKS\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjA2YTU0NjBkMTIxYTUyMzg5YzdlZjc1OTNlZDI0NWYiLCAic2NvcmUiOiAxLjEwNDk0NTA5ODUyNTQ2M30="
+   "sequence": "eyJfaWQiOiAiMTZhNzI4MmRhMmRiZTJhMTZmYjRjNTdmZWViMTI1OGMiLCAic2NvcmUiOiAxLjEzMzYxOTAxOTEyODA4NjR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,122 +152,132 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/bloomreach/jobs/3630478",
-  "companyDomain": "bloomreach.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d7741186eb18e8aa34cdd123c13f7eb6_320_160?Expires=1861920000&Signature=cMHVbUag2A388MSkz7XFj0srfsz3QywQfHcDzrLrXfHxhmgtD96kd",
-  "companyId": "BloomReach",
-  "companySlug": "bloomreach",
-  "companyName": "BloomReach",
-  "companyStaffCount": 1156,
+  "applyUrl": "https://jobs.lever.co/finix/6056d77a-6959-4fc9-9397-79e06b03985a?lever-source%5B%5D=jobs.baincapitalventures.com",
+  "companyDomain": "finixpayments.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/da494738ea14d871b059fb0031f3f834_192_160?Expires=1861920000&Signature=soS2xTssNehgAK0JNmFdF074zit-uSJdn6LYotqfTg~hG7YvaXUw0",
+  "companyId": "Finix",
+  "companySlug": "finix",
+  "companyName": "Finix",
+  "companyStaffCount": 341,
   "considerHosted": false,
   "departments": [
-   "G&A - FLS"
+   "Marketing"
   ],
   "jobTypes": [
    {
-    "id": "accountant",
-    "label": "Accountant",
-    "value": "accountant"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
+   },
+   {
+    "id": "gtm",
+    "label": "GTM",
+    "value": "gtm"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Accounting",
-    "label": "Accounting",
-    "value": "Accounting"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "Slovakia"
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Slovak Republic",
-    "label": "Slovakia",
-    "value": "Slovak Republic"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 37300, 'maxValue': 47000, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Accounting Operations",
-    "label": "Accounting Operations",
-    "value": "resume:Accounting Operations"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    },
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    },
    {
-    "id": "resume:Personalization",
-    "label": "Personalization",
-    "value": "resume:Personalization"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:FPA",
-    "label": "FP&A",
-    "value": "resume:FPA"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Accounting Operations",
-    "label": "Accounting Operations",
-    "value": "resume:Accounting Operations"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    },
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    },
    {
-    "id": "resume:Personalization",
-    "label": "Personalization",
-    "value": "resume:Personalization"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:FPA",
-    "label": "FP&A",
-    "value": "resume:FPA"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Eagle",
-    "label": "Eagle",
-    "value": "resume:Eagle"
+    "id": "resume:Pipeline Generation",
+    "label": "Pipeline Generation",
+    "value": "resume:Pipeline Generation"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Advertising",
+    "label": "Advertising",
+    "value": "resume:Advertising"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Apollo",
+    "label": "Apollo",
+    "value": "resume:Apollo"
    }
   ],
   "manager": false,
@@ -275,53 +285,70 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Marketing and Advertising",
-    "label": "Marketing and Advertising",
-    "value": "Marketing and Advertising"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-08-21T09:26:40Z",
-  "title": "EMEA Accounting Manager",
-  "url": "https://job-boards.greenhouse.io/bloomreach/jobs/3630478",
-  "jobId": "3630478",
-  "remote": true,
+  "timeStamp": "2026-08-21T17:33:10.720000Z",
+  "title": "GTM Engineer",
+  "url": "https://jobs.lever.co/finix/6056d77a-6959-4fc9-9397-79e06b03985a",
+  "jobId": "6056d77a-6959-4fc9-9397-79e06b03985a",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1851106989865, 'matchScore': 0, 'ageScore': 0.985110698986497, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1915392338734, 'matchScore': 0, 'ageScore': 0.9915392338734568, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },
