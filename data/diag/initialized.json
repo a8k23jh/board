@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-08-22T05:48:15Z",
+ "run": "2026-08-22T07:05:47Z",
  "homepage": {
   "status": 200,
   "bytes": 20927
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Jh-RcKXlvM\u2026",
+  "session.sig": "TrYVKOBPtt\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjYyMGRiYTYxYTUyMTQ4YTc0NmI5MzFiM2NhMjJiOGQiLCAic2NvcmUiOiAxMDAuMzMzOTMyNTQ2MjY4MTN9"
+   "sequence": "eyJfaWQiOiAiZjYyMGRiYTYxYTUyMTQ4YTc0NmI5MzFiM2NhMjJiOGQiLCAic2NvcmUiOiAxMDAuMzI1Mjc5MTUwMzQ0OTF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,9 +160,9 @@
   ],
   "jobTypes": [
    {
-    "id": "corporate-development",
-    "label": "Corporate Development",
-    "value": "corporate-development"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    },
    {
     "id": "investor-relations",
@@ -170,9 +170,9 @@
     "value": "investor-relations"
    },
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "corporate-development",
+    "label": "Corporate Development",
+    "value": "corporate-development"
    }
   ],
   "jobFunctions": [
@@ -195,73 +195,73 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Strategic Finance",
-    "label": "Strategic Finance",
-    "value": "resume:Strategic Finance"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Corporate Development",
-    "label": "Corporate Development",
-    "value": "resume:Corporate Development"
+    "id": "resume:Commercial Agreements",
+    "label": "Commercial Agreements",
+    "value": "resume:Commercial Agreements"
    },
    {
-    "id": "resume:Mergers & Acquisitions",
-    "label": "Mergers & Acquisitions",
-    "value": "resume:Mergers & Acquisitions"
+    "id": "resume:Power Generation",
+    "label": "Power Generation",
+    "value": "resume:Power Generation"
    },
    {
-    "id": "resume:Joint Ventures",
-    "label": "Joint Ventures",
-    "value": "resume:Joint Ventures"
+    "id": "resume:Investor Relations",
+    "label": "Investor Relations",
+    "value": "resume:Investor Relations"
    },
    {
-    "id": "resume:Project Finance",
-    "label": "Project Finance",
-    "value": "resume:Project Finance"
+    "id": "resume:Investment Banking",
+    "label": "Investment Banking",
+    "value": "resume:Investment Banking"
    }
   ],
   "requiredSkills": [
-   {
-    "id": "resume:Strategic Finance",
-    "label": "Strategic Finance",
-    "value": "resume:Strategic Finance"
-   },
-   {
-    "id": "resume:Corporate Development",
-    "label": "Corporate Development",
-    "value": "resume:Corporate Development"
-   },
-   {
-    "id": "resume:Mergers & Acquisitions",
-    "label": "Mergers & Acquisitions",
-    "value": "resume:Mergers & Acquisitions"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Joint Ventures",
-    "label": "Joint Ventures",
-    "value": "resume:Joint Ventures"
-   },
-   {
-    "id": "resume:Project Finance",
-    "label": "Project Finance",
-    "value": "resume:Project Finance"
-   },
-   {
-    "id": "resume:Financial Modeling",
-    "label": "Financial Modeling",
-    "value": "resume:Financial Modeling"
-   },
    {
     "id": "resume:Finance",
     "label": "Finance",
     "value": "resume:Finance"
    },
    {
+    "id": "resume:Commercial Agreements",
+    "label": "Commercial Agreements",
+    "value": "resume:Commercial Agreements"
+   },
+   {
+    "id": "resume:Power Generation",
+    "label": "Power Generation",
+    "value": "resume:Power Generation"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Investor Relations",
+    "label": "Investor Relations",
+    "value": "resume:Investor Relations"
+   },
+   {
     "id": "resume:Investment Banking",
     "label": "Investment Banking",
     "value": "resume:Investment Banking"
+   },
+   {
+    "id": "resume:Mergers & Acquisitions",
+    "label": "Mergers & Acquisitions",
+    "value": "resume:Mergers & Acquisitions"
+   },
+   {
+    "id": "resume:Strategic Finance",
+    "label": "Strategic Finance",
+    "value": "resume:Strategic Finance"
+   },
+   {
+    "id": "resume:Financial Modeling",
+    "label": "Financial Modeling",
+    "value": "resume:Financial Modeling"
    }
   ],
   "manager": true,
@@ -285,14 +285,14 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -321,7 +321,7 @@
   "jobId": "4376107009",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.1217988431004, 'matchScore': 0, 'ageScore': 0.9217988431003086, 'richnessScore': 2}",
+  "scores": "{'score': 1101.1138748603587, 'matchScore': 0, 'ageScore': 0.9138748603587963, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
