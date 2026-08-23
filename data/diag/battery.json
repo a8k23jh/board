@@ -1,6 +1,7 @@
 {
  "board": "battery",
- "run": "2026-08-23T13:49:39Z",
+ "run": "2026-08-23T14:44:44Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.battery.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 18742
@@ -34,7 +35,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "0e8RaKAOki\u2026",
+  "session.sig": "o_bG9jTcLD\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -313,5 +314,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
