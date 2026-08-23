@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-08-23T20:43:42Z",
+ "run": "2026-08-23T21:40:55Z",
  "homepage": {
   "status": 200,
   "bytes": 19517
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "WTOf2uupEC\u2026",
+  "session.sig": "vGePPiuUw4\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzc0Mjc2N2YyMjA5ZGRhZDQzZjJmYTIyMTVkM2ZlZGUiLCAic2NvcmUiOiAxLjA3NjQzNjk2NjY4Nzg4Nn0="
+   "sequence": "eyJfaWQiOiAiMzc0Mjc2N2YyMjA5ZGRhZDQzZjJmYTIyMTVkM2ZlZGUiLCAic2NvcmUiOiAxLjA3MjU1NTM4ODI3MzUzNH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -139,7 +139,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5398653008",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5392184008",
   "companyDomain": "anthropic.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
   "companyId": "Anthropic",
@@ -148,87 +148,66 @@
   "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Legal"
+   "Safeguards (Trust & Safety)"
   ],
   "jobTypes": [
    {
-    "id": "legal-counsel",
-    "label": "Legal Counsel",
-    "value": "legal-counsel"
+    "id": "policy-professional",
+    "label": "Policy and Public Affairs",
+    "value": "policy-professional"
+   },
+   {
+    "id": "ux-designer",
+    "label": "UX Designer",
+    "value": "ux-designer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Legal",
-    "label": "Legal",
-    "value": "Legal"
+    "id": "Design",
+    "label": "Design",
+    "value": "Design"
    }
   ],
   "locations": [
-   "London, UK"
+   "Remote-Friendly (Travel-Required)",
+   "San Francisco, CA",
+   "New York City, NY",
+   "Washington, DC"
   ],
   "normalizedLocations": [
    {
-    "id": "London, Greater London, United Kingdom",
-    "label": "London",
-    "value": "London, Greater London, United Kingdom"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 205000, 'currency': {'label': 'GBP', 'value': 'GBP'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 245000, 'maxValue': 285000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    },
    {
     "id": "resume:Sales Commission",
     "label": "Sales Commission",
     "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Research",
@@ -236,25 +215,93 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:EMEA",
-    "label": "EMEA",
-    "value": "resume:EMEA"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
+   },
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   },
+   {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
+   },
+   {
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
+   },
+   {
+    "id": "resume:Signal Processing",
+    "label": "Signal Processing",
+    "value": "resume:Signal Processing"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -282,24 +329,24 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-08-21T23:57:23Z",
-  "title": "Safety & Security Counsel, EMEA",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5398653008",
-  "jobId": "5398653008",
-  "remote": false,
+  "timeStamp": "2026-08-21T23:46:05Z",
+  "title": "Policy Design Manager, Conventional Weapons",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392184008",
+  "jobId": "5392184008",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1427394725613, 'matchScore': 0, 'ageScore': 0.9427394725613426, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1381570109163, 'matchScore': 0, 'ageScore': 0.9381570109162809, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },
