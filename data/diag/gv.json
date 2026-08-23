@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-08-23T05:50:41Z",
+ "run": "2026-08-23T07:07:42Z",
  "homepage": {
   "status": 200,
   "bytes": 26170
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "EHZic4qLK1\u2026",
+  "session.sig": "UjsOFUpNXO\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTI4MDg5ZWRhOTAyMGUyMWRjNmZjNjJiODE2MTIzNTIiLCAic2NvcmUiOiAxLjEzMTA2MjgxMzI2MzExNzN9"
+   "sequence": "eyJfaWQiOiAiYjYxNzU3N2NmNzc3ZGM0YzZmNjY1ZjNjNDljNzBlODAiLCAic2NvcmUiOiAxLjEyMjg1ODE2NDE0ODE0OH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -191,6 +191,21 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 251000, 'maxValue': 310000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
+   },
+   {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
+    "id": "resume:Web Services",
+    "label": "Web Services",
+    "value": "resume:Web Services"
+   },
+   {
     "id": "resume:Cloud Infrastructure",
     "label": "Cloud Infrastructure",
     "value": "resume:Cloud Infrastructure"
@@ -199,25 +214,27 @@
     "id": "resume:Distributed Systems",
     "label": "Distributed Systems",
     "value": "resume:Distributed Systems"
-   },
-   {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
-   },
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
-   {
-    "id": "resume:Web Services",
-    "label": "Web Services",
-    "value": "resume:Web Services"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
+   },
+   {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
+    "id": "resume:Web Services",
+    "label": "Web Services",
+    "value": "resume:Web Services"
+   }
+  ],
+  "preferredSkills": [
+   {
     "id": "resume:Cloud Infrastructure",
     "label": "Cloud Infrastructure",
     "value": "resume:Cloud Infrastructure"
@@ -226,28 +243,6 @@
     "id": "resume:Distributed Systems",
     "label": "Distributed Systems",
     "value": "resume:Distributed Systems"
-   },
-   {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
-   {
-    "id": "resume:Web Services",
-    "label": "Web Services",
-    "value": "resume:Web Services"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
    },
    {
     "id": "resume:Java",
@@ -255,9 +250,14 @@
     "value": "resume:Java"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "manager": false,
@@ -276,6 +276,11 @@
   "minYearsExp": 10,
   "regions": [
    {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
@@ -284,11 +289,6 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
@@ -317,24 +317,24 @@
   "jobId": "8148444",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1822183848218, 'matchScore': 0, 'ageScore': 0.9822183848217593, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1737984558584, 'matchScore': 0, 'ageScore': 0.9737984558584105, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

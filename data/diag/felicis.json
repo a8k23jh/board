@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-08-23T05:50:41Z",
+ "run": "2026-08-23T07:07:42Z",
  "homepage": {
   "status": 200,
   "bytes": 25234
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "plWG0TqBj7\u2026",
+  "session.sig": "MFS1rR9p0y\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTkzMWZmNWRkZjExY2M1NmEwYzBkNmY5NTZmYTg3MGQiLCAic2NvcmUiOiAxLjA5NDcxMDE0Mzk2NjQzNX0="
+   "sequence": "eyJfaWQiOiAiMTkzMWZmNWRkZjExY2M1NmEwYzBkNmY5NTZmYTg3MGQiLCAic2NvcmUiOiAxLjA4NTc3MDg3MTU1NTk0MTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "fellowship",
-    "label": "Fellowship",
-    "value": "fellowship"
-   },
-   {
     "id": "research-scientist",
     "label": "Research Scientist",
     "value": "research-scientist"
+   },
+   {
+    "id": "fellowship",
+    "label": "Fellowship",
+    "value": "fellowship"
    }
   ],
   "jobFunctions": [
@@ -190,86 +190,86 @@
     "value": "London, Greater London, United Kingdom"
    },
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
   "salary": "{'period': {'label': 'Month', 'value': 'month'}, 'minValue': 40000, 'maxValue': 40000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Apache Apex",
-    "label": "Apache Apex",
-    "value": "resume:Apache Apex"
-   },
-   {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Investment Banking",
-    "label": "Investment Banking",
-    "value": "resume:Investment Banking"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Apache Apex",
-    "label": "Apache Apex",
-    "value": "resume:Apache Apex"
-   },
-   {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Investment Banking",
-    "label": "Investment Banking",
-    "value": "resume:Investment Banking"
-   },
-   {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
-   },
    {
     "id": "resume:Corporate Law",
     "label": "Corporate Law",
     "value": "resume:Corporate Law"
    },
    {
+    "id": "resume:Investment Banking",
+    "label": "Investment Banking",
+    "value": "resume:Investment Banking"
+   },
+   {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
     "id": "resume:Finance",
     "label": "Finance",
     "value": "resume:Finance"
+   },
+   {
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Corporate Law",
+    "label": "Corporate Law",
+    "value": "resume:Corporate Law"
+   },
+   {
+    "id": "resume:Investment Banking",
+    "label": "Investment Banking",
+    "value": "resume:Investment Banking"
+   },
+   {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
+   },
+   {
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Apache Apex",
+    "label": "Apache Apex",
+    "value": "resume:Apache Apex"
    }
   ],
   "manager": false,
@@ -278,9 +278,9 @@
   "considerLevels": [],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "Mid Atlantic",
@@ -288,19 +288,19 @@
     "value": "Mid Atlantic"
    },
    {
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
+   },
+   {
     "id": "EMEA",
     "label": "EMEA",
     "value": "EMEA"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -329,7 +329,7 @@
   "jobId": "a0a98be0-d856-4129-b500-c0a3e412ef01",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1670235882955, 'matchScore': 0, 'ageScore': 0.9670235882955247, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1590806254699, 'matchScore': 0, 'ageScore': 0.9590806254699074, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [],
