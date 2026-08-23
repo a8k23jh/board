@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-08-23T17:40:38Z",
+ "run": "2026-08-23T18:52:32Z",
  "homepage": {
   "status": 200,
   "bytes": 20927
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "6T8tDOlxZw\u2026",
+  "session.sig": "v0To91imfk\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTg4MWE5ZGM0ZDBkMjQ3NzI4NmIzMGQ2NWZmYTkxMDkiLCAic2NvcmUiOiAxMDAuMjk1MDg0MjE0NzE0NX0="
+   "sequence": "eyJfaWQiOiAiNTg4MWE5ZGM0ZDBkMjQ3NzI4NmIzMGQ2NWZmYTkxMDkiLCAic2NvcmUiOiAxMDAuMjkwOTgzMzY5OTEyODF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,9 +160,9 @@
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "investor-relations",
+    "label": "Investor Relations",
+    "value": "investor-relations"
    },
    {
     "id": "corporate-development",
@@ -170,9 +170,9 @@
     "value": "corporate-development"
    },
    {
-    "id": "investor-relations",
-    "label": "Investor Relations",
-    "value": "investor-relations"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [
@@ -195,19 +195,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:CFA",
-    "label": "CFA",
-    "value": "resume:CFA"
+    "id": "resume:Mergers & Acquisitions",
+    "label": "Mergers & Acquisitions",
+    "value": "resume:Mergers & Acquisitions"
    },
    {
-    "id": "resume:Corporate Development",
-    "label": "Corporate Development",
-    "value": "resume:Corporate Development"
-   },
-   {
-    "id": "resume:Management Consulting",
-    "label": "Management Consulting",
-    "value": "resume:Management Consulting"
+    "id": "resume:Power Generation",
+    "label": "Power Generation",
+    "value": "resume:Power Generation"
    },
    {
     "id": "resume:Investor Relations",
@@ -215,38 +210,38 @@
     "value": "resume:Investor Relations"
    },
    {
-    "id": "resume:Financial Modeling",
-    "label": "Financial Modeling",
-    "value": "resume:Financial Modeling"
+    "id": "resume:Valuation",
+    "label": "Valuation",
+    "value": "resume:Valuation"
+   },
+   {
+    "id": "resume:Incentive Programs",
+    "label": "Incentive Programs",
+    "value": "resume:Incentive Programs"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:CFA",
-    "label": "CFA",
-    "value": "resume:CFA"
+    "id": "resume:Mergers & Acquisitions",
+    "label": "Mergers & Acquisitions",
+    "value": "resume:Mergers & Acquisitions"
    },
    {
-    "id": "resume:Corporate Development",
-    "label": "Corporate Development",
-    "value": "resume:Corporate Development"
+    "id": "resume:Power Generation",
+    "label": "Power Generation",
+    "value": "resume:Power Generation"
    },
-   {
-    "id": "resume:Management Consulting",
-    "label": "Management Consulting",
-    "value": "resume:Management Consulting"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Investor Relations",
     "label": "Investor Relations",
     "value": "resume:Investor Relations"
-   },
+   }
+  ],
+  "preferredSkills": [
    {
-    "id": "resume:Financial Modeling",
-    "label": "Financial Modeling",
-    "value": "resume:Financial Modeling"
+    "id": "resume:Valuation",
+    "label": "Valuation",
+    "value": "resume:Valuation"
    },
    {
     "id": "resume:Incentive Programs",
@@ -254,14 +249,19 @@
     "value": "resume:Incentive Programs"
    },
    {
-    "id": "resume:Joint Ventures",
-    "label": "Joint Ventures",
-    "value": "resume:Joint Ventures"
-   },
-   {
     "id": "resume:Investment Banking",
     "label": "Investment Banking",
     "value": "resume:Investment Banking"
+   },
+   {
+    "id": "resume:Corporate Development",
+    "label": "Corporate Development",
+    "value": "resume:Corporate Development"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "manager": true,
@@ -280,14 +280,14 @@
   "minYearsExp": 8,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -321,7 +321,7 @@
   "jobId": "4376107009",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.0680803765567, 'matchScore': 0, 'ageScore': 0.868080376556713, 'richnessScore': 2}",
+  "scores": "{'score': 1101.0644772026137, 'matchScore': 0, 'ageScore': 0.8644772026138117, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

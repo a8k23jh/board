@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-08-23T17:40:38Z",
+ "run": "2026-08-23T18:52:32Z",
  "homepage": {
   "status": 200,
   "bytes": 16702
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "-QWpTKzuRz\u2026",
+  "session.sig": "pMu5z2eb_1\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzQyNzhlZjExZTlmODdiYjk1ZGE0YTRhNGEwZGU3ODgiLCAic2NvcmUiOiAxLjAwODIwMzQzMDQzNDAyNzd9"
+   "sequence": "eyJfaWQiOiAiNzQyNzhlZjExZTlmODdiYjk1ZGE0YTRhNGEwZGU3ODgiLCAic2NvcmUiOiAxLjAwNDA5OTY5MjI0OTIyODV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -166,19 +166,9 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "marketing-acquisition",
-    "label": "Marketing Acquisition",
-    "value": "marketing-acquisition"
-   },
-   {
-    "id": "user-marketing",
-    "label": "Growth Manager",
-    "value": "user-marketing"
-   },
-   {
-    "id": "marketing-engagement",
-    "label": "Marketing Engagement",
-    "value": "marketing-engagement"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    },
    {
     "id": "marketing-growth",
@@ -186,9 +176,19 @@
     "value": "marketing-growth"
    },
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "marketing-engagement",
+    "label": "Marketing Engagement",
+    "value": "marketing-engagement"
+   },
+   {
+    "id": "user-marketing",
+    "label": "Growth Manager",
+    "value": "user-marketing"
+   },
+   {
+    "id": "marketing-acquisition",
+    "label": "Marketing Acquisition",
+    "value": "marketing-acquisition"
    }
   ],
   "jobFunctions": [
@@ -211,19 +211,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Brand Awareness",
-    "label": "Brand Awareness",
-    "value": "resume:Brand Awareness"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
+    "id": "resume:Roll-ups",
+    "label": "Roll-ups",
+    "value": "resume:Roll-ups"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Gamification",
+    "label": "Gamification",
+    "value": "resume:Gamification"
    },
    {
     "id": "resume:Quality Assurance",
@@ -231,26 +231,26 @@
     "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Brand Awareness",
-    "label": "Brand Awareness",
-    "value": "resume:Brand Awareness"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
+    "id": "resume:Roll-ups",
+    "label": "Roll-ups",
+    "value": "resume:Roll-ups"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Gamification",
+    "label": "Gamification",
+    "value": "resume:Gamification"
    }
   ],
   "preferredSkills": [
@@ -260,24 +260,24 @@
     "value": "resume:Quality Assurance"
    },
    {
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
+   },
+   {
+    "id": "resume:Brand Awareness",
+    "label": "Brand Awareness",
+    "value": "resume:Brand Awareness"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
     "id": "resume:Operating Systems",
     "label": "Operating Systems",
     "value": "resume:Operating Systems"
-   },
-   {
-    "id": "resume:Growth Marketing",
-    "label": "Growth Marketing",
-    "value": "resume:Growth Marketing"
-   },
-   {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
-   },
-   {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
    }
   ],
   "manager": false,
@@ -295,24 +295,24 @@
   ],
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -351,24 +351,24 @@
   "jobId": "105756",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1553559032477, 'matchScore': 0, 'ageScore': 0.9553559032476852, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1507595217812, 'matchScore': 0, 'ageScore': 0.95075952178125, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

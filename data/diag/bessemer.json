@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-23T17:40:38Z",
+ "run": "2026-08-23T18:52:32Z",
  "homepage": {
   "status": 200,
   "bytes": 21734
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "eoCpe9y4zx\u2026",
+  "session.sig": "rII5VF1IBD\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGIyNmY0MDllMzMxNDdkYTljN2IxNjA4MmRmZmU0ZmEiLCAic2NvcmUiOiAxLjA5NzM1NTg0MTEzMzQ4NzZ9"
+   "sequence": "eyJfaWQiOiAiNjY0ZTRmNjljZTJlMzExZmNjZDQwZDQ4YjkyYzRmNGQiLCAic2NvcmUiOiAxLjA5Mzc3NjMwMTQzNjM0MjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,33 +152,36 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.withwaymo.com/jobs?gh_jid=8148444",
-  "companyDomain": "waymo.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a04896dd1b05b675a7df4762df4fe370_112_160?Expires=1861920000&Signature=EdNw9DPJCYDLbjxU5eEwWJ1ELHjFa3WTlbbzZOXLlSmfSbgMtG32z",
-  "companyId": "Waymo",
-  "companySlug": "waymo",
-  "companyName": "Waymo",
-  "companyStaffCount": 3661,
+  "applyUrl": "https://www.comeet.com/jobs/team8/61.003/grid-health--gtm-engineer/AE.072",
+  "companyDomain": "team8.vc",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/eaa5ec79953387a25c32d64551c08458_240_160?Expires=1861920000&Signature=GDh-VRQzyAVIhLxE~mmbrwHXwXgvm3rt5p0q1ymkNAuZ4FnCHGMpk",
+  "companyId": "Team8",
+  "companySlug": "team8",
+  "companyName": "Team8",
+  "companyStaffCount": 289,
   "considerHosted": false,
-  "departments": [
-   "CSI (7LV)"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "site-reliability-engineer",
-    "label": "Site Reliability Engineer (SRE)",
-    "value": "site-reliability-engineer"
+    "id": "gtm",
+    "label": "GTM",
+    "value": "gtm"
+   },
+   {
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
@@ -186,84 +189,39 @@
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "San Francisco, CA",
-   "Mountain View, CA"
+   "Boston, Massachusetts, USA"
   ],
   "normalizedLocations": [
    {
-    "id": "Mountain View, California",
-    "label": "Mountain View, California",
-    "value": "Mountain View, California"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Boston, Massachusetts",
+    "label": "Boston, Massachusetts",
+    "value": "Boston, Massachusetts"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 251000, 'maxValue': 310000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
-   },
-   {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
-   },
-   {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
-   },
-   {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
-   },
-   {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
     "id": "resume:Python",
@@ -271,77 +229,100 @@
     "value": "resume:Python"
    },
    {
-    "id": "resume:Web Services",
-    "label": "Web Services",
-    "value": "resume:Web Services"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:JSON",
+    "label": "JSON",
+    "value": "resume:JSON"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
-  "minYearsExp": 10,
+  "considerLevels": [],
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Autonomous Vehicles",
-    "label": "Autonomous Vehicles",
-    "value": "Autonomous Vehicles"
+    "id": "Venture Capital & Private Equity",
+    "label": "Venture Capital & Private Equity",
+    "value": "Venture Capital & Private Equity"
    }
   ],
-  "timeStamp": "2026-08-22T10:34:47Z",
-  "title": "Staff Site Reliability Engineer, Waymo Fleet",
-  "url": "https://careers.withwaymo.com/jobs?gh_jid=8148444",
-  "jobId": "8148444",
+  "timeStamp": "2026-08-23T09:40:56Z",
+  "title": "Grid Health- GTM Engineer",
+  "url": "https://www.comeet.com/jobs/team8/61.003/grid-health--gtm-engineer/AE.072",
+  "jobId": "AE.072",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1611496940174, 'matchScore': 0, 'ageScore': 0.9611496940173611, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1890626397438, 'matchScore': 0, 'ageScore': 0.9890626397438271, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -349,7 +330,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid"
   ],
   "isFeatured": false
