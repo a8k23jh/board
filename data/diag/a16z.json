@@ -1,6 +1,6 @@
 {
  "board": "a16z",
- "run": "2026-08-23T08:53:20Z",
+ "run": "2026-08-23T09:48:05Z",
  "homepage": {
   "status": 200,
   "bytes": 23989
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "5Y1dAifoKB\u2026",
+  "session.sig": "hbAlMs31ay\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjE0ZjcxYTYwZDEwYWZiYjBmZjgyZDU0ZDk2YjkxMmYiLCAic2NvcmUiOiAxLjEyNTk3NjExNzE4NDc5OTN9"
+   "sequence": "eyJfaWQiOiAiZDI2N2U2NzcwZmNkYTNhY2M3ZmEzZTFiM2JjYTljNzAiLCAic2NvcmUiOiAxLjEyMTg1Nzk0MzkxNjY2Njd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5219476007?gh_jid=5219476007",
+  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5219512007?gh_jid=5219512007",
   "companyDomain": "anduril.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d88ae975c1da94cefaeb3234d6fb00f_238_160?Expires=1861920000&Signature=nPYp1JlJZNMHspk2VuS1aXOsrIHWSiYZCa1mo5aQgLIbL2xCLdDD0",
   "companyId": "Anduril Industries",
@@ -156,13 +156,13 @@
   "companyStaffCount": 8452,
   "considerHosted": false,
   "departments": [
-   "Hardware Platform : Hardware Engineering Services"
+   "AFS : Intelligence Systems Engineering : Software - Intelligence Systems"
   ],
   "jobTypes": [
    {
-    "id": "thermal-engineer",
-    "label": "Thermal Engineer",
-    "value": "thermal-engineer"
+    "id": "electrical-engineer",
+    "label": "Electrical Engineer",
+    "value": "electrical-engineer"
    }
   ],
   "jobFunctions": [
@@ -190,24 +190,24 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Instrumentation",
-    "label": "Instrumentation",
-    "value": "resume:Instrumentation"
+    "id": "resume:CAPA",
+    "label": "CAPA",
+    "value": "resume:CAPA"
    },
    {
     "id": "resume:Grant Writing",
     "label": "Grant Writing",
     "value": "resume:Grant Writing"
+   },
+   {
+    "id": "resume:Analytics Tools",
+    "label": "Analytics Tools",
+    "value": "resume:Analytics Tools"
    }
   ],
   "requiredSkills": [
@@ -217,41 +217,41 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:CAPA",
+    "label": "CAPA",
+    "value": "resume:CAPA"
    }
   ],
   "preferredSkills": [
-   {
-    "id": "resume:Instrumentation",
-    "label": "Instrumentation",
-    "value": "resume:Instrumentation"
-   },
    {
     "id": "resume:Grant Writing",
     "label": "Grant Writing",
     "value": "resume:Grant Writing"
    },
    {
-    "id": "resume:Thermal Analysis",
-    "label": "Thermal Analysis",
-    "value": "resume:Thermal Analysis"
+    "id": "resume:Analytics Tools",
+    "label": "Analytics Tools",
+    "value": "resume:Analytics Tools"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Image Processing",
+    "label": "Image Processing",
+    "value": "resume:Image Processing"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Statistical Process Control",
+    "label": "SPC",
+    "value": "resume:Statistical Process Control"
+   },
+   {
+    "id": "resume:SEM",
+    "label": "SEM",
+    "value": "resume:SEM"
    }
   ],
   "manager": false,
@@ -267,9 +267,13 @@
     4
    ]
   ],
-  "minYearsExp": 1,
-  "maxYearsExp": 5,
+  "minYearsExp": 3,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -279,11 +283,6 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -311,13 +310,13 @@
     "value": "Enterprise"
    }
   ],
-  "timeStamp": "2026-08-22T16:34:26Z",
-  "title": "Thermal Engineer, Hypersonic Air Vehicles",
-  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5219476007?gh_jid=5219476007",
-  "jobId": "5219476007",
+  "timeStamp": "2026-08-23T01:57:36Z",
+  "title": "Electrical Engineer, Intelligence Systems",
+  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5219512007?gh_jid=5219512007",
+  "jobId": "5219512007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1821222973344, 'matchScore': 0, 'ageScore': 0.9821222973344907, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1907065829078, 'matchScore': 0, 'ageScore': 0.9907065829077932, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

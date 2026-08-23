@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-23T08:53:20Z",
+ "run": "2026-08-23T09:48:05Z",
  "homepage": {
   "status": 200,
   "bytes": 20235
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "YS1pW2X3_q\u2026",
+  "session.sig": "PxVzJ0SNUU\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDJiOTYwNjMxZDAwMmI2ZjQyYjE3YjYzOGNmYTY3ZjYiLCAic2NvcmUiOiAxLjExODg4MDc2MjEzODg4OX0="
+   "sequence": "eyJfaWQiOiAiYjg4MTJmMzNiNjgwODI3OTYxYjgyMGNhMTMyMzQ0YjMiLCAic2NvcmUiOiAxLjExNDY4MTAyOTIyOTE2Njd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/remotecom/jobs/7836488003",
+  "applyUrl": "https://job-boards.greenhouse.io/remotecom/jobs/7941965003",
   "companyDomain": "remote.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/16508237082dd6f746285d106e1f03ad_240_160?Expires=1861920000&Signature=M~xKwD4xiND9cc1fp-ZAYBvR5Iwi~4wnOk8oY5FrvjLSJp6SOKxFV",
   "companyId": "Remote",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
     "id": "partner-sales",
     "label": "Partner Sales",
     "value": "partner-sales"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [
@@ -186,21 +186,31 @@
    }
   ],
   "locations": [
-   "Remote-Western Europe"
+   "Remote-UK&I"
   ],
   "normalizedLocations": [
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
+    "id": "United Kingdom",
+    "label": "United Kingdom",
+    "value": "United Kingdom"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 252050, 'maxValue': 425300, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
+   },
+   {
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    },
    {
     "id": "resume:Equity",
@@ -208,53 +218,38 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:LGBT",
-    "label": "LGBT",
-    "value": "resume:LGBT"
-   },
-   {
-    "id": "resume:Orchestration",
-    "label": "Orchestration",
-    "value": "resume:Orchestration"
-   },
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Community Outreach",
+    "label": "Community Outreach",
+    "value": "resume:Community Outreach"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
+   },
+   {
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
    },
    {
-    "id": "resume:LGBT",
-    "label": "LGBT",
-    "value": "resume:LGBT"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Orchestration",
-    "label": "Orchestration",
-    "value": "resume:Orchestration"
-   },
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
+    "id": "resume:Community Outreach",
+    "label": "Community Outreach",
+    "value": "resume:Community Outreach"
    },
    {
     "id": "resume:Sales Leadership",
@@ -262,9 +257,14 @@
     "value": "resume:Sales Leadership"
    },
    {
-    "id": "resume:Pipeline Generation",
-    "label": "Pipeline Generation",
-    "value": "resume:Pipeline Generation"
+    "id": "resume:High Performance Teams",
+    "label": "High Performance Teams",
+    "value": "resume:High Performance Teams"
+   },
+   {
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    }
   ],
   "manager": true,
@@ -308,13 +308,13 @@
     "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-08-22T14:34:01Z",
+  "timeStamp": "2026-08-22T14:34:03Z",
   "title": "Director, Strategic Partner Sales",
-  "url": "https://job-boards.greenhouse.io/remotecom/jobs/7836488003",
-  "jobId": "7836488003",
+  "url": "https://job-boards.greenhouse.io/remotecom/jobs/7941965003",
+  "jobId": "7941965003",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1791101589938, 'matchScore': 0, 'ageScore': 0.9791101589938271, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1752212863831, 'matchScore': 0, 'ageScore': 0.9752212863831019, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

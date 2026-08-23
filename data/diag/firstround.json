@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-08-23T08:53:20Z",
+ "run": "2026-08-23T09:48:05Z",
  "homepage": {
   "status": 200,
   "bytes": 16702
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1SxRao_sO6\u2026",
+  "session.sig": "-P5ohWR-_4\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTFkYmNlNjQ0MjYxZGQwYTM4MDYyMzA1MzgxOTAyMmIiLCAic2NvcmUiOiAxLjAyNTMzNjYxNTU1MDkyNTh9"
+   "sequence": "eyJfaWQiOiAiNzQyNzhlZjExZTlmODdiYjk1ZGE0YTRhNGEwZGU3ODgiLCAic2NvcmUiOiAxLjAxNjE5OTc4OTY4MjA5OX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -166,14 +166,14 @@
   "departments": [],
   "jobTypes": [
    {
+    "id": "user-marketing",
+    "label": "Growth Manager",
+    "value": "user-marketing"
+   },
+   {
     "id": "marketing-engagement",
     "label": "Marketing Engagement",
     "value": "marketing-engagement"
-   },
-   {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
    },
    {
     "id": "marketing-growth",
@@ -181,14 +181,14 @@
     "value": "marketing-growth"
    },
    {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   },
+   {
     "id": "marketing-acquisition",
     "label": "Marketing Acquisition",
     "value": "marketing-acquisition"
-   },
-   {
-    "id": "user-marketing",
-    "label": "Growth Manager",
-    "value": "user-marketing"
    }
   ],
   "jobFunctions": [
@@ -211,9 +211,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Bookings",
+    "label": "Bookings",
+    "value": "resume:Bookings"
+   },
+   {
     "id": "resume:Gamification",
     "label": "Gamification",
     "value": "resume:Gamification"
+   },
+   {
+    "id": "resume:Brand Awareness",
+    "label": "Brand Awareness",
+    "value": "resume:Brand Awareness"
    },
    {
     "id": "resume:Operating Systems",
@@ -221,53 +231,43 @@
     "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
-   },
-   {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Bookings",
+    "label": "Bookings",
+    "value": "resume:Bookings"
+   },
+   {
     "id": "resume:Gamification",
     "label": "Gamification",
     "value": "resume:Gamification"
    },
+   {
+    "id": "resume:Brand Awareness",
+    "label": "Brand Awareness",
+    "value": "resume:Brand Awareness"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Operating Systems",
     "label": "Operating Systems",
     "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
-   }
-  ],
-  "preferredSkills": [
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
    {
     "id": "resume:Roll-ups",
     "label": "Roll-ups",
     "value": "resume:Roll-ups"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
    },
    {
     "id": "resume:Growth Marketing",
@@ -275,9 +275,9 @@
     "value": "resume:Growth Marketing"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    }
   ],
   "manager": false,
@@ -295,9 +295,9 @@
   ],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "Northeast",
@@ -305,9 +305,9 @@
     "value": "Northeast"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Mid Atlantic",
@@ -351,7 +351,7 @@
   "jobId": "105756",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1671468887107, 'matchScore': 0, 'ageScore': 0.9671468887106481, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1634211209271, 'matchScore': 0, 'ageScore': 0.9634211209270833, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
