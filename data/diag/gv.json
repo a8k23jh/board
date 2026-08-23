@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-08-22T23:40:29Z",
+ "run": "2026-08-23T02:04:23Z",
  "homepage": {
   "status": 200,
   "bytes": 26170
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "0UW34meJjO\u2026",
+  "session.sig": "rvQwLoHx-R\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTNiMWM4NmNmM2JjYmQzYTJhNTIzOGIwMWQ5YWYwMmQiLCAic2NvcmUiOiAxLjEzNzc3ODEwODU1NDAxMjR9"
+   "sequence": "eyJfaWQiOiAiMTI4MDg5ZWRhOTAyMGUyMWRjNmZjNjJiODE2MTIzNTIiLCAic2NvcmUiOiAxLjEzMTA2MjgxMzI2MzExNzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,25 +147,22 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://app.trinethire.com/companies/21059-aspen-neuroscience/jobs/123877-sr-automation-engineer",
-  "companyDomain": "aspenneuroscience.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/94092df2930ab11f898cd08a3d4ec168_320_160?Expires=1861920000&Signature=r75rJjVG9MTcROIp67K-hsBtnXbXPQ8RO9GhxjjpWIEKmgRJtlR86",
-  "companyId": "Aspen Neuroscience",
-  "companySlug": "aspen-neuroscience",
-  "companyName": "Aspen Neuroscience",
-  "companyStaffCount": 124,
+  "applyUrl": "https://careers.withwaymo.com/jobs?gh_jid=8148444",
+  "companyDomain": "waymo.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a04896dd1b05b675a7df4762df4fe370_112_160?Expires=1861920000&Signature=EdNw9DPJCYDLbjxU5eEwWJ1ELHjFa3WTlbbzZOXLlSmfSbgMtG32z",
+  "companyId": "Waymo",
+  "companySlug": "waymo",
+  "companyName": "Waymo",
+  "companyStaffCount": 3661,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "CSI (7LV)"
+  ],
   "jobTypes": [
    {
-    "id": "mechanical-engineer",
-    "label": "Mechanical Engineer",
-    "value": "mechanical-engineer"
-   },
-   {
-    "id": "release-engineer",
-    "label": "DevOps",
-    "value": "release-engineer"
+    "id": "site-reliability-engineer",
+    "label": "Site Reliability Engineer (SRE)",
+    "value": "site-reliability-engineer"
    }
   ],
   "jobFunctions": [
@@ -176,85 +173,91 @@
    }
   ],
   "locations": [
-   "San Diego, California"
+   "San Francisco, CA",
+   "Mountain View, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Diego, California",
-    "label": "San Diego, California",
-    "value": "San Diego, California"
+    "id": "Mountain View, California",
+    "label": "Mountain View, California",
+    "value": "Mountain View, California"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 251000, 'maxValue': 310000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Neuroscience",
-    "label": "Neuroscience",
-    "value": "resume:Neuroscience"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:GxP",
-    "label": "GxP",
-    "value": "resume:GxP"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Robotics",
-    "label": "Robotics",
-    "value": "resume:Robotics"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:FDA",
-    "label": "FDA",
-    "value": "resume:FDA"
+    "id": "resume:Web Services",
+    "label": "Web Services",
+    "value": "resume:Web Services"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Neuroscience",
-    "label": "Neuroscience",
-    "value": "resume:Neuroscience"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:GxP",
-    "label": "GxP",
-    "value": "resume:GxP"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Robotics",
-    "label": "Robotics",
-    "value": "resume:Robotics"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:FDA",
-    "label": "FDA",
-    "value": "resume:FDA"
+    "id": "resume:Web Services",
+    "label": "Web Services",
+    "value": "resume:Web Services"
    },
    {
-    "id": "resume:Emerging Technologies",
-    "label": "Emerging Technologies",
-    "value": "resume:Emerging Technologies"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    },
    {
-    "id": "resume:Perception",
-    "label": "Perception",
-    "value": "resume:Perception"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    }
   ],
   "manager": false,
@@ -262,20 +265,20 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 10,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -283,16 +286,16 @@
     "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -303,18 +306,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Biotech/Pharma",
-    "label": "Biotech/Pharma",
-    "value": "Biotech/Pharma"
+    "id": "Autonomous Vehicles",
+    "label": "Autonomous Vehicles",
+    "value": "Autonomous Vehicles"
    }
   ],
-  "timeStamp": "2026-08-21T23:59:20Z",
-  "title": "Sr. Automation Engineer",
-  "url": "https://app.trinethire.com/companies/21059-aspen-neuroscience/jobs/123877-sr-automation-engineer",
-  "jobId": "123877",
+  "timeStamp": "2026-08-22T10:34:47Z",
+  "title": "Staff Site Reliability Engineer, Waymo Fleet",
+  "url": "https://careers.withwaymo.com/jobs?gh_jid=8148444",
+  "jobId": "8148444",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1748493883534, 'matchScore': 0, 'ageScore': 0.9748493883533951, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1822183848218, 'matchScore': 0, 'ageScore': 0.9822183848217593, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -322,10 +325,16 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
