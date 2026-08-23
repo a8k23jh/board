@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-08-23T14:44:44Z",
+ "run": "2026-08-23T15:42:21Z",
  "homepage": {
   "status": 200,
   "bytes": 25234
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "P7qgdhNEod\u2026",
+  "session.sig": "u7uVMMTitM\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTkzMWZmNWRkZjExY2M1NmEwYzBkNmY5NTZmYTg3MGQiLCAic2NvcmUiOiAxLjA3NzAzOTcxNDk0OTQ2fQ=="
+   "sequence": "eyJfaWQiOiAiMTkzMWZmNWRkZjExY2M1NmEwYzBkNmY5NTZmYTg3MGQiLCAic2NvcmUiOiAxLjA3MzM5MjIzMDExOTIxM30="
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "fellowship",
-    "label": "Fellowship",
-    "value": "fellowship"
-   },
-   {
     "id": "research-scientist",
     "label": "Research Scientist",
     "value": "research-scientist"
+   },
+   {
+    "id": "fellowship",
+    "label": "Fellowship",
+    "value": "fellowship"
    }
   ],
   "jobFunctions": [
@@ -185,11 +185,6 @@
   ],
   "normalizedLocations": [
    {
-    "id": "London, Greater London, United Kingdom",
-    "label": "London",
-    "value": "London, Greater London, United Kingdom"
-   },
-   {
     "id": "New York, New York",
     "label": "New York, New York",
     "value": "New York, New York"
@@ -198,63 +193,24 @@
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
+   },
+   {
+    "id": "London, Greater London, United Kingdom",
+    "label": "London",
+    "value": "London, Greater London, United Kingdom"
    }
   ],
   "salary": "{'period': {'label': 'Month', 'value': 'month'}, 'minValue': 40000, 'maxValue': 40000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Apache Apex",
+    "label": "Apache Apex",
+    "value": "resume:Apache Apex"
    },
    {
     "id": "resume:Mentorship",
@@ -267,9 +223,53 @@
     "value": "resume:Investment Banking"
    },
    {
-    "id": "resume:Corporate Law",
-    "label": "Corporate Law",
-    "value": "resume:Corporate Law"
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Apache Apex",
+    "label": "Apache Apex",
+    "value": "resume:Apache Apex"
+   },
+   {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Investment Banking",
+    "label": "Investment Banking",
+    "value": "resume:Investment Banking"
+   },
+   {
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -278,9 +278,14 @@
   "considerLevels": [],
   "regions": [
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "West Coast",
@@ -288,14 +293,9 @@
     "value": "West Coast"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    },
    {
     "id": "Western Europe",
@@ -329,7 +329,7 @@
   "jobId": "a0a98be0-d856-4129-b500-c0a3e412ef01",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1507918756702, 'matchScore': 0, 'ageScore': 0.9507918756701389, 'richnessScore': 2}",
+  "scores": "{'score': 1001.147077492755, 'matchScore': 0, 'ageScore': 0.9470774927550154, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [],
