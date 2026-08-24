@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-08-24T17:52:47Z",
+ "run": "2026-08-24T19:06:27Z",
  "homepage": {
   "status": 200,
   "bytes": 26170
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "LQd8N0VnfH\u2026",
+  "session.sig": "89fXoWJDSg\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmMyNzAxMDZiMWNiYWI4OTczNDAzZDQ2NDQ1NzEzYWQiLCAic2NvcmUiOiAxLjA3OTYyNzU3MDM5NzM3NjZ9"
+   "sequence": "eyJfaWQiOiAiMjgwYTk3NDYyNTg4YzM5OTI4YmI5MjZiNTE1MzU1YzQiLCAic2NvcmUiOiAxLjA3NTUxNzA0NjU2NTk3MjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,110 +136,140 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8121732",
-  "companyDomain": "gusto.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/19a422e68b3e25e5c86870a9db150998_144_160?Expires=1861920000&Signature=CN-UUjGowYONjxHqRtVNezWXCZFUjW~rtftm9Cpvq935lA9FO8r1h",
-  "companyId": "Gusto ZenPayroll",
-  "companySlug": "gusto-zenpayroll",
-  "companyName": "Gusto",
-  "companyStaffCount": 4473,
+  "applyUrl": "https://www.nanit.com/pages/careers?gh_jid=6151410004",
+  "companyDomain": "nanit.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/db18d3a86c696f433e235ccf33ec88ee_208_160?Expires=1861920000&Signature=bXwolH9Oy1q3l-h3uvGooXJf5dv7kEa2o98-8cl7N5DOEhXW9Et~-",
+  "companyId": "Nanit",
+  "companySlug": "nanit",
+  "companyName": "Nanit",
+  "companyStaffCount": 156,
   "considerHosted": false,
   "departments": [
-   "Customer Experience"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "sales-all",
+    "label": "Sales",
+    "value": "sales-all"
+   },
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "United States"
+   "New York, NY (Hybrid)"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 163000, 'maxValue': 204000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 225000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Ruby on Rails",
-    "label": "Ruby on Rails",
-    "value": "resume:Ruby on Rails"
+    "id": "resume:Internet of Things",
+    "label": "Internet of Things",
+    "value": "resume:Internet of Things"
    },
    {
-    "id": "resume:Sidekiq",
-    "label": "Sidekiq",
-    "value": "resume:Sidekiq"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Production Support",
-    "label": "Production Support",
-    "value": "resume:Production Support"
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
    },
    {
-    "id": "resume:GraphQL",
-    "label": "GraphQL",
-    "value": "resume:GraphQL"
+    "id": "resume:International Business",
+    "label": "International Business",
+    "value": "resume:International Business"
    },
    {
-    "id": "resume:React.js",
-    "label": "React.js",
-    "value": "resume:React.js"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Ruby on Rails",
-    "label": "Ruby on Rails",
-    "value": "resume:Ruby on Rails"
+    "id": "resume:Internet of Things",
+    "label": "Internet of Things",
+    "value": "resume:Internet of Things"
    },
    {
-    "id": "resume:Sidekiq",
-    "label": "Sidekiq",
-    "value": "resume:Sidekiq"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Production Support",
-    "label": "Production Support",
-    "value": "resume:Production Support"
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:GraphQL",
-    "label": "GraphQL",
-    "value": "resume:GraphQL"
+    "id": "resume:International Business",
+    "label": "International Business",
+    "value": "resume:International Business"
    },
    {
-    "id": "resume:React.js",
-    "label": "React.js",
-    "value": "resume:React.js"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
+   },
+   {
+    "id": "resume:Consumer Electronics",
+    "label": "Consumer Electronics",
+    "value": "resume:Consumer Electronics"
+   },
+   {
+    "id": "resume:APAC",
+    "label": "APAC",
+    "value": "resume:APAC"
+   },
+   {
+    "id": "resume:LATAM",
+    "label": "LATAM",
+    "value": "resume:LATAM"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -258,51 +288,55 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
-   },
-   {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
+    "id": "Consumer Electronics",
+    "label": "Consumer Electronics",
+    "value": "Consumer Electronics"
    }
   ],
-  "timeStamp": "2026-08-23T19:20:04Z",
-  "title": "Staff Software Engineer- Retirement",
-  "url": "https://job-boards.greenhouse.io/gusto/jobs/8121732",
-  "jobId": "8121732",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1735805877003, 'matchScore': 0, 'ageScore': 0.9735805877002315, 'richnessScore': 2}",
+  "timeStamp": "2026-08-24T10:09:15Z",
+  "title": "Senior Director, International Sales",
+  "url": "https://www.nanit.com/pages/careers?gh_jid=6151410004",
+  "jobId": "6151410004",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1895805737037, 'matchScore': 0, 'ageScore': 0.9895805737037037, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "director"
   ],
   "isFeatured": false
  },
