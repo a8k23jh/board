@@ -1,7 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-08-24T05:58:06Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
+ "run": "2026-08-24T07:33:13Z",
  "homepage": {
   "status": 200,
   "bytes": 19379
@@ -43,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Uq-OfoFK6L\u2026",
+  "session.sig": "VoYRYf96FT\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -128,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWI0MmU0ZTZjZTc2MjU3NmU3NmEwNjQwNzJkZmQ5NGIiLCAic2NvcmUiOiAwLjk5MTkyMDU3MjY5MjEyOTZ9"
+   "sequence": "eyJfaWQiOiAiZmQ3N2ZiN2Q3MTkxYmY3YmQ5YzAyMzQxM2ZmODE2OTkiLCAic2NvcmUiOiAwLjk4NDE4MTA4NDA1NjcxMjl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -169,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "research-scientist",
-    "label": "Research Scientist",
-    "value": "research-scientist"
-   },
-   {
     "id": "biotech-scientist",
     "label": "Scientist",
     "value": "biotech-scientist"
+   },
+   {
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
    }
   ],
   "jobFunctions": [
@@ -200,6 +199,11 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 423000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
+   },
+   {
     "id": "resume:Autonomous Vehicles",
     "label": "Autonomous Vehicles",
     "value": "resume:Autonomous Vehicles"
@@ -210,63 +214,58 @@
     "value": "resume:Robotics"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
    },
    {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
-   },
-   {
-    "id": "resume:Agriculture",
-    "label": "Agriculture",
-    "value": "resume:Agriculture"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "requiredSkills": [
-   {
-    "id": "resume:Autonomous Vehicles",
-    "label": "Autonomous Vehicles",
-    "value": "resume:Autonomous Vehicles"
-   },
-   {
-    "id": "resume:Robotics",
-    "label": "Robotics",
-    "value": "resume:Robotics"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
-   },
-   {
-    "id": "resume:Agriculture",
-    "label": "Agriculture",
-    "value": "resume:Agriculture"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
    {
     "id": "resume:Operating Systems",
     "label": "Operating Systems",
     "value": "resume:Operating Systems"
    },
    {
+    "id": "resume:Autonomous Vehicles",
+    "label": "Autonomous Vehicles",
+    "value": "resume:Autonomous Vehicles"
+   },
+   {
+    "id": "resume:Robotics",
+    "label": "Robotics",
+    "value": "resume:Robotics"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
+   },
+   {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Technical Leadership",
+    "label": "Technical Leadership",
+    "value": "resume:Technical Leadership"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -285,11 +284,6 @@
   "minYearsExp": 1,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -298,6 +292,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -331,7 +330,7 @@
   "jobId": "4cd7cf1d-717c-4887-93b4-520a40a906b1",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1343938505892, 'matchScore': 0, 'ageScore': 0.9343938505891204, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1257764070104, 'matchScore': 0, 'ageScore': 0.9257764070104166, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -348,6 +347,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
