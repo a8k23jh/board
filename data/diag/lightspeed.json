@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-08-24T15:05:46Z",
+ "run": "2026-08-24T16:00:12Z",
  "homepage": {
   "status": 200,
   "bytes": 21205
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "NKCslJzY-Z\u2026",
+  "session.sig": "Hc9YKcnR0b\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzUwOTM5MzYxN2ZjNDJhNDZkMTA3NDkyYzUxNGRlMzUiLCAic2NvcmUiOiAxLjA5NzMzNzI1MTIxODM2NDF9"
+   "sequence": "eyJfaWQiOiAiMmM3ZTU0MjczZDFhOGNiMmFlYjMwNWQxODdkYmE1YTkiLCAic2NvcmUiOiAxLjA5MzA2NzQwNDkzMzI1NjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/cyera/17.008/sales-engineer-identity-security---west/EE.079",
+  "applyUrl": "https://www.comeet.com/jobs/cyera/17.008/sales-engineer-identity-security---northeast/F4.07B",
   "companyDomain": "cyera.io",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec6d92aec09bf6716dbbd9d50089a4ec_208_160?Expires=1861920000&Signature=hr9QoUI4iKYF8Hn~HoiixG3elVHvWPoII2QRBQjO8zeSQJpeGQNuP",
   "companyId": "Cyera",
@@ -184,21 +184,26 @@
    }
   ],
   "locations": [
-   "Bay Area (US)"
+   "Northeast  (US)"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco Bay Area",
-    "label": "San Francisco Bay Area",
-    "value": "San Francisco Bay Area"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 275000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Identity & Access Management (IAM)",
-    "label": "Identity & Access Management (IAM)",
-    "value": "resume:Identity & Access Management (IAM)"
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
+   },
+   {
+    "id": "resume:Sales Engineering",
+    "label": "Sales Engineering",
+    "value": "resume:Sales Engineering"
    },
    {
     "id": "resume:Web Application Security",
@@ -206,63 +211,58 @@
     "value": "resume:Web Application Security"
    },
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Information Security",
-    "label": "Information Security",
-    "value": "resume:Information Security"
-   },
-   {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:Data Storage",
+    "label": "Data Storage",
+    "value": "resume:Data Storage"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Identity & Access Management (IAM)",
-    "label": "Identity & Access Management (IAM)",
-    "value": "resume:Identity & Access Management (IAM)"
-   },
-   {
-    "id": "resume:Web Application Security",
-    "label": "Application Security",
-    "value": "resume:Web Application Security"
-   },
-   {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
-   }
-  ],
-  "preferredSkills": [
-   {
     "id": "resume:Information Security",
     "label": "Information Security",
     "value": "resume:Information Security"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:Sales Engineering",
+    "label": "Sales Engineering",
+    "value": "resume:Sales Engineering"
    },
    {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
+    "id": "resume:Web Application Security",
+    "label": "Application Security",
+    "value": "resume:Web Application Security"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Data Storage",
+    "label": "Data Storage",
+    "value": "resume:Data Storage"
    },
    {
-    "id": "resume:Process Improvement",
-    "label": "Process Improvement",
-    "value": "resume:Process Improvement"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
+   },
+   {
+    "id": "resume:Technical Sales",
+    "label": "Technical Sales",
+    "value": "resume:Technical Sales"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    }
   ],
   "manager": false,
@@ -271,19 +271,14 @@
   "considerLevels": [],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -306,13 +301,13 @@
     "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-08-24T05:01:13Z",
-  "title": "Sales Engineer, Identity Security - West",
-  "url": "https://www.comeet.com/jobs/cyera/17.008/sales-engineer-identity-security---west/EE.079",
-  "jobId": "EE.079",
+  "timeStamp": "2026-08-24T05:00:58Z",
+  "title": "Sales Engineer, Identity Security - Northeast",
+  "url": "https://www.comeet.com/jobs/cyera/17.008/sales-engineer-identity-security---northeast/F4.07B",
+  "jobId": "F4.07B",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1913438840949, 'matchScore': 0, 'ageScore': 0.9913438840949074, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1870473892963, 'matchScore': 0, 'ageScore': 0.9870473892962963, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
