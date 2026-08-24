@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-08-24T11:48:32Z",
+ "run": "2026-08-24T13:26:33Z",
  "homepage": {
   "status": 200,
   "bytes": 19517
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "3Lkn6uLyEl\u2026",
+  "session.sig": "Knfv4QQM7b\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTVkNGNiMjU0YzM3MGJiZTE0NDNjZWI3ZGI0MGEzOGMiLCAic2NvcmUiOiAxLjA1NDU2MjYyMjI3Nzc3Nzh9"
+   "sequence": "eyJfaWQiOiAiNmQzODZmZTdmOTMzZmVlODFlYjg0NDBjYTEwN2FjNDUiLCAic2NvcmUiOiAxLjA1MDIwMzg1OTQwMzU0OTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,6 +152,11 @@
   ],
   "jobTypes": [
    {
+    "id": "hardware-engineer",
+    "label": "Hardware Engineer",
+    "value": "hardware-engineer"
+   },
+   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
@@ -160,11 +165,6 @@
     "id": "mechanical-engineer",
     "label": "Mechanical Engineer",
     "value": "mechanical-engineer"
-   },
-   {
-    "id": "hardware-engineer",
-    "label": "Hardware Engineer",
-    "value": "hardware-engineer"
    }
   ],
   "jobFunctions": [
@@ -193,24 +193,24 @@
     "value": "resume:Assembly"
    },
    {
+    "id": "resume:CNC",
+    "label": "CNC",
+    "value": "resume:CNC"
+   },
+   {
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
+   },
+   {
+    "id": "resume:CATIA",
+    "label": "CATIA",
+    "value": "resume:CATIA"
+   },
+   {
     "id": "resume:System Integration",
     "label": "System Integration",
     "value": "resume:System Integration"
-   },
-   {
-    "id": "resume:Sheet Metal",
-    "label": "Sheet Metal",
-    "value": "resume:Sheet Metal"
-   },
-   {
-    "id": "resume:Mechanical Design",
-    "label": "Mechanical Design",
-    "value": "resume:Mechanical Design"
-   },
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
    }
   ],
   "requiredSkills": [
@@ -220,41 +220,41 @@
     "value": "resume:Assembly"
    },
    {
+    "id": "resume:CNC",
+    "label": "CNC",
+    "value": "resume:CNC"
+   },
+   {
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:CATIA",
+    "label": "CATIA",
+    "value": "resume:CATIA"
+   },
+   {
     "id": "resume:System Integration",
     "label": "System Integration",
     "value": "resume:System Integration"
    },
    {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
     "id": "resume:Sheet Metal",
     "label": "Sheet Metal",
     "value": "resume:Sheet Metal"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Mechanical Design",
-    "label": "Mechanical Design",
-    "value": "resume:Mechanical Design"
-   },
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   },
-   {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
    },
    {
     "id": "resume:Aviation",
     "label": "Aviation",
     "value": "resume:Aviation"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
    }
   ],
   "manager": true,
@@ -272,14 +272,14 @@
   ],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Pacific States",
@@ -318,7 +318,7 @@
   "jobId": "456b1f2d-b9d2-4a85-b04d-1b9987d564ce",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.188356132596, 'matchScore': 0, 'ageScore': 0.9883561325960648, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1841341552368, 'matchScore': 0, 'ageScore': 0.9841341552368827, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-24T11:48:32Z",
+ "run": "2026-08-24T13:26:33Z",
  "homepage": {
   "status": 200,
   "bytes": 21734
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "inA8_YLF6j\u2026",
+  "session.sig": "2qEjg2tHJD\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWJjYWIwYmZhNGY3MjBjZGY5ODdmYmY0Y2ZiMTE2MGMiLCAic2NvcmUiOiAxLjA3ODY2Mjg5MjQ3ODc4MDl9"
+   "sequence": "eyJfaWQiOiAiNWM3M2UzOWUxOTc2ZDgxZTI2ZWIzZGE2Zjc5YTU0MjUiLCAic2NvcmUiOiAxLjA3NDQwNzE3OTY0Mjc0N30="
   },
   "job_keys": [
    "applicationWindow",
@@ -174,26 +174,26 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
-   },
-   {
     "id": "gtm",
     "label": "GTM",
     "value": "gtm"
+   },
+   {
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   },
-   {
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
@@ -209,14 +209,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
     "id": "resume:REST",
@@ -224,48 +229,16 @@
     "value": "resume:REST"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
-   },
-   {
-    "id": "resume:SDR",
-    "label": "SDR",
-    "value": "resume:SDR"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   },
-   {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
-   {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
-   }
-  ],
-  "preferredSkills": [
-   {
     "id": "resume:CRM",
     "label": "CRM",
     "value": "resume:CRM"
-   },
-   {
-    "id": "resume:SDR",
-    "label": "SDR",
-    "value": "resume:SDR"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -278,20 +251,47 @@
     "value": "resume:Python"
    }
   ],
+  "preferredSkills": [
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:JSON",
+    "label": "JSON",
+    "value": "resume:JSON"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   }
+  ],
   "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [],
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "North America",
@@ -319,7 +319,7 @@
   "jobId": "AE.072",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.179384535483, 'matchScore': 0, 'ageScore': 0.9793845354830247, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1751542250876, 'matchScore': 0, 'ageScore': 0.9751542250875772, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

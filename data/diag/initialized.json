@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-08-24T11:48:32Z",
+ "run": "2026-08-24T13:26:33Z",
  "homepage": {
   "status": 200,
   "bytes": 20927
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "V2wbZ9VztW\u2026",
+  "session.sig": "ciut7-oi_m\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTg4MWE5ZGM0ZDBkMjQ3NzI4NmIzMGQ2NWZmYTkxMDkiLCAic2NvcmUiOiAxMDAuMjcwMDM0NjcwMzUyNjN9"
+   "sequence": "eyJfaWQiOiAiNTg4MWE5ZGM0ZDBkMjQ3NzI4NmIzMGQ2NWZmYTkxMDkiLCAic2NvcmUiOiAxMDAuMjY1NjQzMzQzMTQ4MTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,6 +160,11 @@
   ],
   "jobTypes": [
    {
+    "id": "investor-relations",
+    "label": "Investor Relations",
+    "value": "investor-relations"
+   },
+   {
     "id": "corporate-development",
     "label": "Corporate Development",
     "value": "corporate-development"
@@ -168,11 +173,6 @@
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
-   },
-   {
-    "id": "investor-relations",
-    "label": "Investor Relations",
-    "value": "investor-relations"
    }
   ],
   "jobFunctions": [
@@ -195,14 +195,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Mergers & Acquisitions",
-    "label": "Mergers & Acquisitions",
-    "value": "resume:Mergers & Acquisitions"
-   },
-   {
-    "id": "resume:Incentive Programs",
-    "label": "Incentive Programs",
-    "value": "resume:Incentive Programs"
+    "id": "resume:Financial Modeling",
+    "label": "Financial Modeling",
+    "value": "resume:Financial Modeling"
    },
    {
     "id": "resume:Project Finance",
@@ -210,21 +205,43 @@
     "value": "resume:Project Finance"
    },
    {
-    "id": "resume:Investment Banking",
-    "label": "Investment Banking",
-    "value": "resume:Investment Banking"
+    "id": "resume:Mergers & Acquisitions",
+    "label": "Mergers & Acquisitions",
+    "value": "resume:Mergers & Acquisitions"
    },
    {
-    "id": "resume:Management Consulting",
-    "label": "Management Consulting",
-    "value": "resume:Management Consulting"
+    "id": "resume:Corporate Development",
+    "label": "Corporate Development",
+    "value": "resume:Corporate Development"
+   },
+   {
+    "id": "resume:Incentive Programs",
+    "label": "Incentive Programs",
+    "value": "resume:Incentive Programs"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Financial Modeling",
+    "label": "Financial Modeling",
+    "value": "resume:Financial Modeling"
+   },
+   {
+    "id": "resume:Project Finance",
+    "label": "Project Finance",
+    "value": "resume:Project Finance"
+   },
+   {
     "id": "resume:Mergers & Acquisitions",
     "label": "Mergers & Acquisitions",
     "value": "resume:Mergers & Acquisitions"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Corporate Development",
+    "label": "Corporate Development",
+    "value": "resume:Corporate Development"
    },
    {
     "id": "resume:Incentive Programs",
@@ -232,12 +249,10 @@
     "value": "resume:Incentive Programs"
    },
    {
-    "id": "resume:Project Finance",
-    "label": "Project Finance",
-    "value": "resume:Project Finance"
-   }
-  ],
-  "preferredSkills": [
+    "id": "resume:Strategic Finance",
+    "label": "Strategic Finance",
+    "value": "resume:Strategic Finance"
+   },
    {
     "id": "resume:Investment Banking",
     "label": "Investment Banking",
@@ -247,21 +262,6 @@
     "id": "resume:Management Consulting",
     "label": "Management Consulting",
     "value": "resume:Management Consulting"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Valuation",
-    "label": "Valuation",
-    "value": "resume:Valuation"
-   },
-   {
-    "id": "resume:Investor Relations",
-    "label": "Investor Relations",
-    "value": "resume:Investor Relations"
    }
   ],
   "manager": true,
@@ -280,14 +280,14 @@
   "minYearsExp": 8,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Pacific States",
@@ -321,7 +321,7 @@
   "jobId": "4376107009",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.0434647196705, 'matchScore': 0, 'ageScore': 0.8434647196705247, 'richnessScore': 2}",
+  "scores": "{'score': 1101.0392334702208, 'matchScore': 0, 'ageScore': 0.839233470220679, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
