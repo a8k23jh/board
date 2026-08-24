@@ -1,6 +1,6 @@
 {
  "board": "a16z",
- "run": "2026-08-24T20:53:44Z",
+ "run": "2026-08-24T21:49:03Z",
  "homepage": {
   "status": 200,
   "bytes": 23989
@@ -29,12 +29,12 @@
    "slug": "andreessen-horowitz",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"47a27ca71209ea1f08b363b877dc8ab6946259a3\",\"date\":\"2026-08-21T18:39:56.226Z\"},\"server\":{\"git\":\"47a27ca71209ea1f08b363b877dc8ab6946259a3\",\"date\":\"2026-08-21T18:39:56.226Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"37671075327202e9e821d5e76c62760c9f4ce955\",\"date\":\"2026-08-24T19:02:48.093Z\"},\"server\":{\"git\":\"37671075327202e9e821d5e76c62760c9f4ce955\",\"date\":\"2026-08-24T19:02:48.093Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "3Y-4izJC-F\u2026",
+  "session.sig": "II0Afn5s1q\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzc4MDZjZDhjMzNiOGZkYWIxZjM5YjM2NWE4MzUwOGQiLCAic2NvcmUiOiAxLjA5MTYxMTc3OTE0OTMwNTZ9"
+   "sequence": "eyJfaWQiOiAiOThjMGYzNDgxY2RjYTZlNjk4ZWUyYTRiYzRlOWMzNzAiLCAic2NvcmUiOiAxLjA4ODA0NzY5NDQwNzc5MzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -185,63 +185,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 112000, 'maxValue': 149000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Sensor Fusion",
+    "label": "Sensor Fusion",
+    "value": "resume:Sensor Fusion"
    },
    {
-    "id": "resume:ERP",
-    "label": "ERP",
-    "value": "resume:ERP"
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
    },
    {
-    "id": "resume:Inventory Management",
-    "label": "Inventory Management",
-    "value": "resume:Inventory Management"
-   },
-   {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
-   },
-   {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
-   },
-   {
-    "id": "resume:ERP",
-    "label": "ERP",
-    "value": "resume:ERP"
-   },
-   {
-    "id": "resume:Inventory Management",
-    "label": "Inventory Management",
-    "value": "resume:Inventory Management"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
-   },
-   {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
-   },
-   {
-    "id": "resume:Procurement",
-    "label": "Procurement",
-    "value": "resume:Procurement"
+    "id": "resume:Field Work",
+    "label": "Field Work",
+    "value": "resume:Field Work"
    },
    {
     "id": "resume:Logistics",
@@ -249,9 +205,53 @@
     "value": "resume:Logistics"
    },
    {
+    "id": "resume:3D",
+    "label": "3D",
+    "value": "resume:3D"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:Sensor Fusion",
     "label": "Sensor Fusion",
     "value": "resume:Sensor Fusion"
+   },
+   {
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
+   },
+   {
+    "id": "resume:Field Work",
+    "label": "Field Work",
+    "value": "resume:Field Work"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
+   },
+   {
+    "id": "resume:3D",
+    "label": "3D",
+    "value": "resume:3D"
+   },
+   {
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
+   },
+   {
+    "id": "resume:Inventory Management",
+    "label": "Inventory Management",
+    "value": "resume:Inventory Management"
+   },
+   {
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    }
   ],
   "manager": false,
@@ -271,14 +271,14 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -312,7 +312,7 @@
   "jobId": "5219614007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.189910962132, 'matchScore': 0, 'ageScore': 0.9899109621319444, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1856259607094, 'matchScore': 0, 'ageScore': 0.9856259607094907, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

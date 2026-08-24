@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-08-24T20:53:44Z",
+ "run": "2026-08-24T21:49:03Z",
  "homepage": {
   "status": 200,
   "bytes": 18742
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "co2-j-VwUd\u2026",
+  "session.sig": "PSsjm-B8-a\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDU2ODU1NjM3NGU3NWQ3MzVkNjUwOTkwYTY2NjkyNjYiLCAic2NvcmUiOiAxLjA1Nzg0OTY5MzM0MDI3Nzd9"
+   "sequence": "eyJfaWQiOiAiNDU2ODU1NjM3NGU3NWQ3MzVkNjUwOTkwYTY2NjkyNjYiLCAic2NvcmUiOiAxLjA1MzQ4Njg5MDI5ODk5N30="
   },
   "job_keys": [
    "applicationWindow",
@@ -177,9 +177,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 60000, 'maxValue': 80000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
     "id": "resume:Series 63",
@@ -187,14 +192,9 @@
     "value": "resume:Series 63"
    },
    {
-    "id": "resume:Employee Stock Options",
-    "label": "Employee Stock Options",
-    "value": "resume:Employee Stock Options"
-   },
-   {
-    "id": "resume:FINRA",
-    "label": "FINRA",
-    "value": "resume:FINRA"
+    "id": "resume:Series 7",
+    "label": "Series 7",
+    "value": "resume:Series 7"
    },
    {
     "id": "resume:Securities",
@@ -204,36 +204,9 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
-   },
-   {
-    "id": "resume:Series 63",
-    "label": "Series 63",
-    "value": "resume:Series 63"
-   },
-   {
-    "id": "resume:Employee Stock Options",
-    "label": "Employee Stock Options",
-    "value": "resume:Employee Stock Options"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:FINRA",
-    "label": "FINRA",
-    "value": "resume:FINRA"
-   },
-   {
-    "id": "resume:Securities",
-    "label": "Securities",
-    "value": "resume:Securities"
-   },
-   {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
     "id": "resume:Finance",
@@ -241,9 +214,36 @@
     "value": "resume:Finance"
    },
    {
+    "id": "resume:Series 63",
+    "label": "Series 63",
+    "value": "resume:Series 63"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Series 7",
+    "label": "Series 7",
+    "value": "resume:Series 7"
+   },
+   {
+    "id": "resume:Securities",
+    "label": "Securities",
+    "value": "resume:Securities"
+   },
+   {
     "id": "resume:Finite Automata",
     "label": "Finite Automata",
     "value": "resume:Finite Automata"
+   },
+   {
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
+   },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "manager": false,
@@ -267,14 +267,14 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -308,24 +308,24 @@
   "jobId": "4455421968",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1947509068056, 'matchScore': 0, 'ageScore': 0.9947509068055556, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1909929863072, 'matchScore': 0, 'ageScore': 0.9909929863070988, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "junior",
     "label": "Junior",
     "value": "junior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "junior"
+   "junior",
+   "mid"
   ],
   "isFeatured": false
  },

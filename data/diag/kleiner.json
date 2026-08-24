@@ -1,7 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-08-24T20:53:44Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
+ "run": "2026-08-24T21:49:03Z",
  "homepage": {
   "status": 200,
   "bytes": 19379
@@ -43,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "b0Gt6dBQXn\u2026",
+  "session.sig": "5e65GAI_gX\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -128,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYmNiNDJiMWM1NDViMTIzZDU3MGU2ZTM3NWNlMDJlYzEiLCAic2NvcmUiOiAwLjk3NTU5OTkyODMxMjUwMDF9"
+   "sequence": "eyJfaWQiOiAiOWQyZmM1ZTNjMjQwOTUwYzJiYWM3NzYwYjRmYjNlMDMiLCAic2NvcmUiOiAwLjk3MTQxODkxMzIwMDIzMTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -199,24 +198,24 @@
     "value": "resume:Space Technology"
    },
    {
-    "id": "resume:gnc",
-    "label": "gnc",
-    "value": "resume:gnc"
-   },
-   {
     "id": "resume:Finite Automata",
     "label": "Finite Automata",
     "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Department of State",
-    "label": "Department of State",
-    "value": "resume:Department of State"
+    "id": "resume:gnc",
+    "label": "gnc",
+    "value": "resume:gnc"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "requiredSkills": [
@@ -226,17 +225,27 @@
     "value": "resume:Space Technology"
    },
    {
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
+   },
+   {
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
+   }
+  ],
+  "preferredSkills": [
+   {
     "id": "resume:gnc",
     "label": "gnc",
     "value": "resume:gnc"
    },
    {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
-   }
-  ],
-  "preferredSkills": [
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
    {
     "id": "resume:Vehicles",
     "label": "Vehicles",
@@ -246,16 +255,6 @@
     "id": "resume:Department of State",
     "label": "Department of State",
     "value": "resume:Department of State"
-   },
-   {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
    }
   ],
   "manager": false,
@@ -310,7 +309,7 @@
   "jobId": "484363db-1b00-4ef5-a690-544782188b4c",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1955240928279, 'matchScore': 0, 'ageScore': 0.9955240928279321, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1921632680729, 'matchScore': 0, 'ageScore': 0.9921632680729167, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -327,6 +326,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
