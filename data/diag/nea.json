@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-08-24T09:09:03Z",
+ "run": "2026-08-24T10:08:06Z",
  "homepage": {
   "status": 200,
   "bytes": 20607
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ecgPGMGAGy\u2026",
+  "session.sig": "YAPZzStN4B\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjgzODg0MDQ3NDQxN2E3YjBmNTYwNTRmN2M1MzhiMTMiLCAic2NvcmUiOiAxLjA1ODU5MjYzNzIyNDkyMjh9"
+   "sequence": "eyJfaWQiOiAiYzFjNmIwZDIzM2RkMDk3ZjQzYzdlMmY2Y2U3OWY1YTEiLCAic2NvcmUiOiAxLjA1NDg4MDU0OTE4NDQxMzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -190,63 +190,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Biostatistics",
-    "label": "Biostatistics",
-    "value": "resume:Biostatistics"
-   },
-   {
-    "id": "resume:SDTM",
-    "label": "SDTM",
-    "value": "resume:SDTM"
-   },
-   {
-    "id": "resume:CDISC Standards",
-    "label": "CDISC Standards",
-    "value": "resume:CDISC Standards"
-   },
-   {
-    "id": "resume:Conversion Optimization",
-    "label": "Conversion Optimization",
-    "value": "resume:Conversion Optimization"
-   },
-   {
     "id": "resume:NDA",
     "label": "NDA",
     "value": "resume:NDA"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Biostatistics",
-    "label": "Biostatistics",
-    "value": "resume:Biostatistics"
-   },
-   {
-    "id": "resume:SDTM",
-    "label": "SDTM",
-    "value": "resume:SDTM"
-   },
-   {
-    "id": "resume:CDISC Standards",
-    "label": "CDISC Standards",
-    "value": "resume:CDISC Standards"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Conversion Optimization",
-    "label": "Conversion Optimization",
-    "value": "resume:Conversion Optimization"
-   },
-   {
-    "id": "resume:NDA",
-    "label": "NDA",
-    "value": "resume:NDA"
-   },
-   {
-    "id": "resume:Software Development Process",
-    "label": "Software Development Processes",
-    "value": "resume:Software Development Process"
    },
    {
     "id": "resume:SAS",
@@ -254,9 +200,63 @@
     "value": "resume:SAS"
    },
    {
+    "id": "resume:Software Development Process",
+    "label": "Software Development Processes",
+    "value": "resume:Software Development Process"
+   },
+   {
+    "id": "resume:SDTM",
+    "label": "SDTM",
+    "value": "resume:SDTM"
+   },
+   {
+    "id": "resume:Statistics",
+    "label": "Statistics",
+    "value": "resume:Statistics"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:NDA",
+    "label": "NDA",
+    "value": "resume:NDA"
+   },
+   {
+    "id": "resume:SAS",
+    "label": "SAS",
+    "value": "resume:SAS"
+   },
+   {
+    "id": "resume:Software Development Process",
+    "label": "Software Development Processes",
+    "value": "resume:Software Development Process"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:SDTM",
+    "label": "SDTM",
+    "value": "resume:SDTM"
+   },
+   {
+    "id": "resume:Statistics",
+    "label": "Statistics",
+    "value": "resume:Statistics"
+   },
+   {
     "id": "resume:IND",
     "label": "IND",
     "value": "resume:IND"
+   },
+   {
+    "id": "resume:CDISC Standards",
+    "label": "CDISC Standards",
+    "value": "resume:CDISC Standards"
+   },
+   {
+    "id": "resume:Conversion Optimization",
+    "label": "Conversion Optimization",
+    "value": "resume:Conversion Optimization"
    }
   ],
   "manager": true,
@@ -300,24 +300,24 @@
   "jobId": "job_20260820172020_LEZSQEAQFTN4V8QL",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.133879753975, 'matchScore': 0, 'ageScore': 0.9338797539749228, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1301847724526, 'matchScore': 0, 'ageScore': 0.9301847724525463, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
-   },
-   {
     "id": "director",
     "label": "Director/Senior Director",
     "value": "director"
+   },
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "director"
+   "director",
+   "manager"
   ],
   "isFeatured": false
  },
