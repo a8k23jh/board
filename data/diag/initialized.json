@@ -1,7 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-08-23T23:40:35Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.initialized.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-08-24T02:01:31Z",
  "homepage": {
   "status": 200,
   "bytes": 20927
@@ -35,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "FPTp-UhrWa\u2026",
+  "session.sig": "CCu6xBSSSc\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -120,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTg4MWE5ZGM0ZDBkMjQ3NzI4NmIzMGQ2NWZmYTkxMDkiLCAic2NvcmUiOiAxMDAuMjg2NDk5MzA4ODQ2MDZ9"
+   "sequence": "eyJfaWQiOiAiNTg4MWE5ZGM0ZDBkMjQ3NzI4NmIzMGQ2NWZmYTkxMDkiLCAic2NvcmUiOiAxMDAuMjgyNTgzMjU2MTU1ODZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -166,14 +165,14 @@
     "value": "people-manager"
    },
    {
-    "id": "corporate-development",
-    "label": "Corporate Development",
-    "value": "corporate-development"
-   },
-   {
     "id": "investor-relations",
     "label": "Investor Relations",
     "value": "investor-relations"
+   },
+   {
+    "id": "corporate-development",
+    "label": "Corporate Development",
+    "value": "corporate-development"
    }
   ],
   "jobFunctions": [
@@ -196,58 +195,58 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Investment Banking",
-    "label": "Investment Banking",
-    "value": "resume:Investment Banking"
-   },
-   {
-    "id": "resume:Incentive Programs",
-    "label": "Incentive Programs",
-    "value": "resume:Incentive Programs"
-   },
-   {
-    "id": "resume:Joint Ventures",
-    "label": "Joint Ventures",
-    "value": "resume:Joint Ventures"
-   },
-   {
     "id": "resume:Management Consulting",
     "label": "Management Consulting",
     "value": "resume:Management Consulting"
    },
    {
-    "id": "resume:Financial Modeling",
-    "label": "Financial Modeling",
-    "value": "resume:Financial Modeling"
+    "id": "resume:Investor Relations",
+    "label": "Investor Relations",
+    "value": "resume:Investor Relations"
+   },
+   {
+    "id": "resume:Strategic Finance",
+    "label": "Strategic Finance",
+    "value": "resume:Strategic Finance"
+   },
+   {
+    "id": "resume:Investment Banking",
+    "label": "Investment Banking",
+    "value": "resume:Investment Banking"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Investment Banking",
-    "label": "Investment Banking",
-    "value": "resume:Investment Banking"
-   },
-   {
-    "id": "resume:Incentive Programs",
-    "label": "Incentive Programs",
-    "value": "resume:Incentive Programs"
-   },
-   {
-    "id": "resume:Joint Ventures",
-    "label": "Joint Ventures",
-    "value": "resume:Joint Ventures"
-   }
-  ],
-  "preferredSkills": [
-   {
     "id": "resume:Management Consulting",
     "label": "Management Consulting",
     "value": "resume:Management Consulting"
    },
    {
-    "id": "resume:Financial Modeling",
-    "label": "Financial Modeling",
-    "value": "resume:Financial Modeling"
+    "id": "resume:Investor Relations",
+    "label": "Investor Relations",
+    "value": "resume:Investor Relations"
+   },
+   {
+    "id": "resume:Strategic Finance",
+    "label": "Strategic Finance",
+    "value": "resume:Strategic Finance"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Investment Banking",
+    "label": "Investment Banking",
+    "value": "resume:Investment Banking"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
     "id": "resume:CFA",
@@ -255,14 +254,14 @@
     "value": "resume:CFA"
    },
    {
-    "id": "resume:Project Finance",
-    "label": "Project Finance",
-    "value": "resume:Project Finance"
+    "id": "resume:Incentive Programs",
+    "label": "Incentive Programs",
+    "value": "resume:Incentive Programs"
    },
    {
-    "id": "resume:Power Generation",
-    "label": "Power Generation",
-    "value": "resume:Power Generation"
+    "id": "resume:Valuation",
+    "label": "Valuation",
+    "value": "resume:Valuation"
    }
   ],
   "manager": true,
@@ -281,6 +280,11 @@
   "minYearsExp": 8,
   "regions": [
    {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -289,11 +293,6 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
@@ -322,7 +321,7 @@
   "jobId": "4376107009",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.059481285749, 'matchScore': 0, 'ageScore': 0.8594812857488425, 'richnessScore': 2}",
+  "scores": "{'score': 1101.0559679465425, 'matchScore': 0, 'ageScore': 0.8559679465424382, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -339,6 +338,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }

@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-08-23T23:40:35Z",
+ "run": "2026-08-24T02:01:31Z",
  "homepage": {
   "status": 200,
   "bytes": 19517
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Zl7EfWP1KW\u2026",
+  "session.sig": "g7uBL2DVm0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzc0Mjc2N2YyMjA5ZGRhZDQzZjJmYTIyMTVkM2ZlZGUiLCAic2NvcmUiOiAxLjA3MjU1NTM4ODI3MzUzNH0="
+   "sequence": "eyJfaWQiOiAiMzc0Mjc2N2YyMjA5ZGRhZDQzZjJmYTIyMTVkM2ZlZGUiLCAic2NvcmUiOiAxLjA2ODg2MTM5MDQ5NjkxMzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,7 +139,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5392184008",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5398659008",
   "companyDomain": "anthropic.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
   "companyId": "Anthropic",
@@ -148,61 +148,38 @@
   "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Safeguards (Trust & Safety)"
+   "Legal"
   ],
   "jobTypes": [
    {
-    "id": "policy-professional",
-    "label": "Policy and Public Affairs",
-    "value": "policy-professional"
-   },
-   {
-    "id": "ux-designer",
-    "label": "UX Designer",
-    "value": "ux-designer"
+    "id": "legal-counsel",
+    "label": "Legal Counsel",
+    "value": "legal-counsel"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Design",
-    "label": "Design",
-    "value": "Design"
+    "id": "Legal",
+    "label": "Legal",
+    "value": "Legal"
    }
   ],
   "locations": [
-   "Remote-Friendly (Travel-Required)",
-   "San Francisco, CA",
-   "New York City, NY",
-   "Washington, DC"
+   "Dublin, IE"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
-    "id": "Washington, District Of Columbia",
-    "label": "Washington, DC",
-    "value": "Washington, District Of Columbia"
+    "id": "Dublin, Leinster, Ireland",
+    "label": "Dublin, Ireland",
+    "value": "Dublin, Leinster, Ireland"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 245000, 'maxValue': 285000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 210000, 'maxValue': 280000, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Systems Engineering",
-    "label": "Systems Engineering",
-    "value": "resume:Systems Engineering"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
     "id": "resume:Sales Commission",
@@ -213,6 +190,11 @@
     "id": "resume:Research",
     "label": "Research",
     "value": "resume:Research"
+   },
+   {
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
    },
    {
     "id": "resume:Biology",
@@ -222,26 +204,26 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Systems Engineering",
-    "label": "Systems Engineering",
-    "value": "resume:Systems Engineering"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
     "id": "resume:Sales Commission",
     "label": "Sales Commission",
     "value": "resume:Sales Commission"
-   }
-  ],
-  "preferredSkills": [
+   },
    {
     "id": "resume:Research",
     "label": "Research",
     "value": "resume:Research"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
    },
    {
     "id": "resume:Biology",
@@ -249,59 +231,30 @@
     "value": "resume:Biology"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
-   {
-    "id": "resume:Signal Processing",
-    "label": "Signal Processing",
-    "value": "resume:Signal Processing"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
+  "considerLevels": [],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
    }
   ],
   "stages": [
@@ -329,24 +282,24 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-08-21T23:46:05Z",
-  "title": "Policy Design Manager, Conventional Weapons",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392184008",
-  "jobId": "5392184008",
-  "remote": true,
+  "timeStamp": "2026-08-21T23:57:54Z",
+  "title": "Safety & Security Counsel, EMEA",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5398659008",
+  "jobId": "5398659008",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1381570109163, 'matchScore': 0, 'ageScore': 0.9381570109162809, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1344096325402, 'matchScore': 0, 'ageScore': 0.9344096325401234, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },
