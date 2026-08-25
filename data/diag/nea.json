@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-08-25T17:50:40Z",
+ "run": "2026-08-25T19:04:56Z",
  "homepage": {
   "status": 200,
   "bytes": 20607
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cSfrHHT18i\u2026",
+  "session.sig": "oE7sHTPIOR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGI3YzgwNjBkYzNiY2JmZDU0ODM1YmFiZjdkM2ZlYzkiLCAic2NvcmUiOiAxLjA2NjE3NDkyODQ1Nzk0NzZ9"
+   "sequence": "eyJfaWQiOiAiZjM5M2I5Njk4OTdhMzlmZWU5ZmY4N2NlMzNjZjdlYTYiLCAic2NvcmUiOiAxLjA2NDMzODc3OTcxOTUyMTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,117 +136,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/inkitt/67076e61-8e61-428c-b40a-4f5b4a75618b?lever-source%5B%5D=careers.nea.com",
-  "companyDomain": "inkitt.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/64b16710ef8359595a110c998dbad8fc_144_160?Expires=1861920000&Signature=A9TBZK7KRMnSGVNdfrUMhf6aQVkxQ10aVvVLE9DOfAMimtCl5lyWD",
-  "companyId": "Inkitt",
-  "companySlug": "inkitt",
-  "companyName": "Inkitt",
-  "companyStaffCount": 333,
+  "applyUrl": "https://jobs.lever.co/fiscalnote/f85d91db-bec4-4f0f-8f8e-f890cdb2cb1c?lever-source%5B%5D=careers.nea.com",
+  "companyDomain": "fiscalnote.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ae9acdb8fd30284e8134526235f94b0e_254_160?Expires=1861920000&Signature=YqSlpSYWOddOLDyntzr~h5FeJ8MmXL8WPhzZDu85a44WRz-81FLpp",
+  "companyId": "FiscalNote",
+  "companySlug": "fiscalnote",
+  "companyName": "FiscalNote",
+  "companyStaffCount": 414,
   "considerHosted": false,
   "departments": [
-   "Content Team"
+   "Fireside"
   ],
   "jobTypes": [
    {
-    "id": "community-manager",
-    "label": "Community Manager",
-    "value": "community-manager"
+    "id": "sled-account-executive",
+    "label": "SLED Account Executive",
+    "value": "sled-account-executive"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "San Francisco"
+   "Washington, DC"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 90000, 'maxValue': 100000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 80000, 'maxValue': 90000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Community Management",
-    "label": "Community Management",
-    "value": "resume:Community Management"
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
    },
    {
-    "id": "resume:Social Media",
-    "label": "Social Media",
-    "value": "resume:Social Media"
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    },
    {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    },
    {
-    "id": "resume:Algorithms",
-    "label": "Algorithms",
-    "value": "resume:Algorithms"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Community Management",
-    "label": "Community Management",
-    "value": "resume:Community Management"
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
    },
    {
-    "id": "resume:Social Media",
-    "label": "Social Media",
-    "value": "resume:Social Media"
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    },
    {
-    "id": "resume:Algorithms",
-    "label": "Algorithms",
-    "value": "resume:Algorithms"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    },
    {
-    "id": "resume:Instagram",
-    "label": "Instagram",
-    "value": "resume:Instagram"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Local Government",
+    "label": "Local Government",
+    "value": "resume:Local Government"
    }
   ],
   "manager": false,
@@ -262,22 +267,18 @@
     4
    ]
   ],
-  "minYearsExp": 1,
+  "minYearsExp": 2,
+  "maxYearsExp": 3,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -285,28 +286,27 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Entertainment",
-    "label": "Entertainment",
-    "value": "Entertainment"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
+   },
+   {
+    "id": "Technical Consulting",
+    "label": "Technical Consulting",
+    "value": "Technical Consulting"
    }
   ],
-  "timeStamp": "2026-08-25T00:06:11.699000Z",
-  "title": "Community Manager",
-  "url": "https://jobs.lever.co/inkitt/67076e61-8e61-428c-b40a-4f5b4a75618b",
-  "jobId": "67076e61-8e61-428c-b40a-4f5b4a75618b",
+  "timeStamp": "2026-08-25T14:22:48.302000Z",
+  "title": "Account Executive, Public Sector",
+  "url": "https://jobs.lever.co/fiscalnote/f85d91db-bec4-4f0f-8f8e-f890cdb2cb1c",
+  "jobId": "f85d91db-bec4-4f0f-8f8e-f890cdb2cb1c",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1799632840459, 'matchScore': 0, 'ageScore': 0.9799632840459105, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1958306310162, 'matchScore': 0, 'ageScore': 0.9958306310162037, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

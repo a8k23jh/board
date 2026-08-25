@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-08-25T17:50:40Z",
+ "run": "2026-08-25T19:04:56Z",
  "homepage": {
   "status": 200,
   "bytes": 16702
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "OXPj-vpxbA\u2026",
+  "session.sig": "J-kYcsNiS7\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2ZkYzJkZmI1Y2IxNjI3ZmM3MWE0NzFkODk0YjIxNmQiLCAic2NvcmUiOiAwLjk2MDQ2MDkwMjEzMTk0NDN9"
+   "sequence": "eyJfaWQiOiAiN2FmMTVmZDA3MDc2OGVlMmUzNTRjMmUxNWUxMjdiOTIiLCAic2NvcmUiOiAwLjk3NDc1MTE1MDY4MTMyNzF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,114 +155,119 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5400313008",
-  "companyDomain": "k2space.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/96af4d328d7e54eb24c092877b0e4c96_272_160?Expires=1861920000&Signature=rWQ5vPckbn1NROsVwoPJw3Sq9oP8FnF7q6Jh6wxTzQ6DBspleAAvN",
-  "companyId": "K2 Space",
-  "companySlug": "k2-space",
-  "companyName": "K2 Space",
-  "companyStaffCount": 15,
+  "applyUrl": "https://job-boards.greenhouse.io/smartling/jobs/8156381",
+  "companyDomain": "smartling.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d5ddfee61e6fbb2e42f275003b6a341e_320_160?Expires=1861920000&Signature=X9Kd-QkmiIifVIlAI9cX~gFkU7ECraTgUJVdXoFXPHAsrJCdF7C1L",
+  "companyId": "Smartling",
+  "companySlug": "smartling",
+  "companyName": "Smartling",
+  "companyStaffCount": 394,
   "considerHosted": false,
   "departments": [
-   "Propulsion"
+   "Marketing "
   ],
   "jobTypes": [
    {
-    "id": "mechanical-engineer",
-    "label": "Mechanical Engineer",
-    "value": "mechanical-engineer"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "marketing-product-marketing",
+    "label": "Marketing Product Marketing",
+    "value": "marketing-product-marketing"
+   },
+   {
+    "id": "product-marketing",
+    "label": "Product Marketing",
+    "value": "product-marketing"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "Los Angeles, CA"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Greater Los Angeles Area",
-    "label": "Greater Los Angeles Area",
-    "value": "Greater Los Angeles Area"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 140000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Finite Element Analysis",
-    "label": "Finite Element Analysis",
-    "value": "resume:Finite Element Analysis"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:Mechanical Design",
-    "label": "Mechanical Design",
-    "value": "resume:Mechanical Design"
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
    },
    {
-    "id": "resume:GD&T",
-    "label": "GD&T",
-    "value": "resume:GD&T"
+    "id": "resume:Roll-ups",
+    "label": "Roll-ups",
+    "value": "resume:Roll-ups"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Finite Element Analysis",
-    "label": "Finite Element Analysis",
-    "value": "resume:Finite Element Analysis"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:Mechanical Design",
-    "label": "Mechanical Design",
-    "value": "resume:Mechanical Design"
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
    },
    {
-    "id": "resume:GD&T",
-    "label": "GD&T",
-    "value": "resume:GD&T"
+    "id": "resume:Roll-ups",
+    "label": "Roll-ups",
+    "value": "resume:Roll-ups"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Canvas",
-    "label": "Canvas",
-    "value": "resume:Canvas"
-   },
-   {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "resume:Enterprise Software"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -276,55 +281,51 @@
    ]
   ],
   "minYearsExp": 3,
+  "maxYearsExp": 5,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    },
    {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-08-24T18:27:32Z",
-  "title": "Mechanical Design Engineer (Propulsion)",
-  "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5400313008",
-  "jobId": "5400313008",
-  "remote": false,
+  "timeStamp": "2026-08-25T09:54:00Z",
+  "title": "Product Marketing Manager",
+  "url": "https://job-boards.greenhouse.io/smartling/jobs/8156381",
+  "jobId": "8156381",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.171927857669, 'matchScore': 0, 'ageScore': 0.9719278576689815, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1893898398773, 'matchScore': 0, 'ageScore': 0.9893898398773148, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
