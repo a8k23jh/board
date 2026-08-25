@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-08-25T15:10:22Z",
+ "run": "2026-08-25T16:04:39Z",
  "homepage": {
   "status": 200,
   "bytes": 19517
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cSAOCWcO-k\u2026",
+  "session.sig": "iyMs_u_gm5\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2U2NDg0YzE3Zjg4ZTNmMDFlNzBhY2VhNTFhMDE5MDciLCAic2NvcmUiOiAxLjA3MDg5ODIxNzM3ODQ3MjJ9"
+   "sequence": "eyJfaWQiOiAiYjcxMzVhMTI2ZmFiOGExYzIzMTY0YjhmMmYxMzc1ZmYiLCAic2NvcmUiOiAxLjA2NjYzMjk2NjI4MDA5MjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,26 +152,26 @@
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
-   },
-   {
     "id": "gtm",
     "label": "GTM",
     "value": "gtm"
+   },
+   {
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   },
-   {
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
@@ -181,11 +181,6 @@
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
-   },
-   {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
@@ -194,68 +189,24 @@
     "id": "New York, New York",
     "label": "New York, New York",
     "value": "New York, New York"
+   },
+   {
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 215000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    },
    {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
-   },
-   {
-    "id": "resume:SDK",
-    "label": "SDK",
-    "value": "resume:SDK"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Revenue Operations",
-    "label": "Revenue Operations",
-    "value": "resume:Revenue Operations"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
-   },
-   {
-    "id": "resume:SDK",
-    "label": "SDK",
-    "value": "resume:SDK"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Revenue Operations",
-    "label": "Revenue Operations",
-    "value": "resume:Revenue Operations"
-   },
-   {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    },
    {
     "id": "resume:Infrastructure",
@@ -263,9 +214,58 @@
     "value": "resume:Infrastructure"
    },
    {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Workato",
+    "label": "Workato",
+    "value": "resume:Workato"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:User Experience",
     "label": "User Experience",
     "value": "resume:User Experience"
+   },
+   {
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Workato",
+    "label": "Workato",
+    "value": "resume:Workato"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   },
+   {
+    "id": "resume:Workflow scheduler",
+    "label": "Workflow Scheduling",
+    "value": "resume:Workflow scheduler"
    }
   ],
   "manager": false,
@@ -284,9 +284,9 @@
   "minYearsExp": 3,
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "East Coast",
@@ -294,9 +294,9 @@
     "value": "East Coast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Northeast",
@@ -304,9 +304,9 @@
     "value": "Northeast"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -350,7 +350,7 @@
   "jobId": "5cd2f489-b9ee-428b-b252-94e83d55f107",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1841067748534, 'matchScore': 0, 'ageScore': 0.984106774853395, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1794087818414, 'matchScore': 0, 'ageScore': 0.9794087818414352, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
