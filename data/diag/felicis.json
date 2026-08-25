@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-08-24T23:41:39Z",
+ "run": "2026-08-25T01:56:48Z",
  "homepage": {
   "status": 200,
   "bytes": 25234
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "swr0dAH2LH\u2026",
+  "session.sig": "Z4mXAHkfNd\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYmEzZWU4YjEyZmM4Zjc2ZWMyYzZjOTM5N2M5ODgwMDEiLCAic2NvcmUiOiAxLjA0ODUwNzEwNjA0MzU5NTh9"
+   "sequence": "eyJfaWQiOiAiNTg4ZjQyNTVmOGQ5NDkzYzc4YThiNDdjMzczMTM1OGUiLCAic2NvcmUiOiAxLjA2MTIyMTUyMTA1MDU0fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -147,111 +147,129 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/dialpad/jobs/8742092002",
-  "companyDomain": "dialpad.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/76376b4f27b0a952a9a9ff422b992e2b_256_160?Expires=1861920000&Signature=MJ7oeMhlhRa6~aXdh~SU1dLEWaSfZa8owu9Kh8gLEwxhOVNbgpo51",
-  "companyId": "Dialpad",
-  "companySlug": "dialpad",
-  "companyName": "Dialpad",
-  "companyStaffCount": 1488,
+  "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8155210",
+  "companyDomain": "flexport.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/963204163cf1c12c9d559f5f59e9c8eb_224_160?Expires=1861920000&Signature=NM6Nr7rLbBQFOk7dzdWVeh8D-P634vODIBuXB~xQ4hsuyqEUajpSf",
+  "companyId": "Flexport",
+  "companySlug": "flexport",
+  "companyName": "Flexport",
+  "companyStaffCount": 2926,
   "considerHosted": false,
   "departments": [
-   "230 - Quality Assurance"
+   "Implementation"
   ],
   "jobTypes": [
    {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
+    "id": "implementation-manager",
+    "label": "Implementation Manager",
+    "value": "implementation-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Vancouver, Canada"
+   "Atlanta, Georgia, United States",
+   "Bellevue, Washington, United States",
+   "Chicago, Illinois, United States",
+   "Dallas, Texas, United States",
+   "Denver, Colorado, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Vancouver, Canada Area",
-    "label": "Vancouver, Canada Area",
-    "value": "Vancouver, Canada Area"
+    "id": "Miami/Fort Lauderdale Area",
+    "label": "Miami/Fort Lauderdale Area",
+    "value": "Miami/Fort Lauderdale Area"
+   },
+   {
+    "id": "Denver, Colorado",
+    "label": "Denver, Colorado",
+    "value": "Denver, Colorado"
+   },
+   {
+    "id": "Atlanta, Georgia",
+    "label": "Atlanta, Georgia",
+    "value": "Atlanta, Georgia"
+   },
+   {
+    "id": "Los Angeles, California",
+    "label": "Los Angeles, California",
+    "value": "Los Angeles, California"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150500, 'maxValue': 175250, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 130000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
    },
    {
-    "id": "resume:Redis",
-    "label": "Redis",
-    "value": "resume:Redis"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Jenkins",
-    "label": "Jenkins",
-    "value": "resume:Jenkins"
+    "id": "resume:GDPR",
+    "label": "GDPR",
+    "value": "resume:GDPR"
    },
    {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
-    "id": "resume:JavaScript",
-    "label": "JavaScript",
-    "value": "resume:JavaScript"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
    },
    {
-    "id": "resume:Redis",
-    "label": "Redis",
-    "value": "resume:Redis"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Jenkins",
-    "label": "Jenkins",
-    "value": "resume:Jenkins"
+    "id": "resume:GDPR",
+    "label": "GDPR",
+    "value": "resume:GDPR"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
-    "id": "resume:JavaScript",
-    "label": "JavaScript",
-    "value": "resume:JavaScript"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    },
    {
-    "id": "resume:Cloud Native",
-    "label": "Cloud Native",
-    "value": "resume:Cloud Native"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Github",
-    "label": "Github",
-    "value": "resume:Github"
+    "id": "resume:Goods",
+    "label": "Goods",
+    "value": "resume:Goods"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    }
   ],
   "manager": false,
@@ -261,18 +279,34 @@
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
-  "minYearsExp": 6,
+  "minYearsExp": 4,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Deep South",
+    "label": "Deep South",
+    "value": "Deep South"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "South Atlantic",
+    "label": "South Atlantic",
+    "value": "South Atlantic"
    }
   ],
   "stages": [
@@ -290,29 +324,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Telecommunications",
-    "label": "Telecommunications",
-    "value": "Telecommunications"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
    }
   ],
-  "timeStamp": "2026-08-24T08:07:49Z",
-  "title": "Sr. Software Development Engineer in Test (Agentic)",
-  "url": "https://job-boards.greenhouse.io/dialpad/jobs/8742092002",
-  "jobId": "8742092002",
+  "timeStamp": "2026-08-24T17:13:15Z",
+  "title": "Regional Implementation Manager",
+  "url": "https://job-boards.greenhouse.io/flexport/jobs/8155210",
+  "jobId": "8155210",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1833557326686, 'matchScore': 0, 'ageScore': 0.9833557326685957, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1908508103048, 'matchScore': 0, 'ageScore': 0.990850810304784, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "manager"
   ],
   "isFeatured": false
  },
