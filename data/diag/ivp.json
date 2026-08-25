@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-08-25T11:49:29Z",
+ "run": "2026-08-25T13:23:28Z",
  "homepage": {
   "status": 200,
   "bytes": 19517
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ZLZ4Fx2ARf\u2026",
+  "session.sig": "YxUhSIcGqj\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTBlZmE5NGRkYjg3ZWU3MGU5ODNiZDlkZjQ5ZWI3OWEiLCAic2NvcmUiOiAxLjA3NDg2ODY2MjM1NjQ4MTR9"
+   "sequence": "eyJfaWQiOiAiM2U2NDg0YzE3Zjg4ZTNmMDFlNzBhY2VhNTFhMDE5MDciLCAic2NvcmUiOiAxLjA3MDg5ODIxNzM3ODQ3MjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -164,14 +164,14 @@
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   },
-   {
     "id": "Marketing",
     "label": "Marketing",
     "value": "Marketing"
+   },
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
@@ -181,9 +181,9 @@
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    },
    {
     "id": "San Francisco, California",
@@ -191,27 +191,22 @@
     "value": "San Francisco, California"
    },
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 215000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:Software Sales",
-    "label": "Software Sales",
-    "value": "resume:Software Sales"
-   },
-   {
-    "id": "resume:Database Design",
-    "label": "Database Arch/Design",
-    "value": "resume:Database Design"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
    {
     "id": "resume:SDK",
@@ -219,48 +214,53 @@
     "value": "resume:SDK"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Revenue Operations",
+    "label": "Revenue Operations",
+    "value": "resume:Revenue Operations"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:Software Sales",
-    "label": "Software Sales",
-    "value": "resume:Software Sales"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
-   {
-    "id": "resume:Database Design",
-    "label": "Database Arch/Design",
-    "value": "resume:Database Design"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:SDK",
     "label": "SDK",
     "value": "resume:SDK"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Revenue Operations",
+    "label": "Revenue Operations",
+    "value": "resume:Revenue Operations"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
     "id": "resume:User Experience",
@@ -284,9 +284,9 @@
   "minYearsExp": 3,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "East Coast",
@@ -294,9 +294,9 @@
     "value": "East Coast"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Northeast",
@@ -304,9 +304,9 @@
     "value": "Northeast"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -350,7 +350,7 @@
   "jobId": "5cd2f489-b9ee-428b-b252-94e83d55f107",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1882016922165, 'matchScore': 0, 'ageScore': 0.9882016922164352, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1841067748534, 'matchScore': 0, 'ageScore': 0.984106774853395, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
