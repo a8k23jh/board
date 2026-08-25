@@ -1,9 +1,9 @@
 {
  "board": "firstround",
- "run": "2026-08-25T20:50:55Z",
+ "run": "2026-08-25T21:48:52Z",
  "homepage": {
   "status": 200,
-  "bytes": 16702
+  "bytes": 16704
  },
  "slugs_tried": [
   "first-round-capital",
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"e83527ce09cc9d9679c9de80209b480c69c35620\",\"date\":\"2026-08-24T23:29:49.045Z\"},\"server\":{\"git\":\"e83527ce09cc9d9679c9de80209b480c69c35620\",\"date\":\"2026-08-24T23:29:49.045Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"},\"server\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "xivsRXuHuN\u2026",
+  "session.sig": "H0Im4iQtaT\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2FmMTVmZDA3MDc2OGVlMmUzNTRjMmUxNWUxMjdiOTIiLCAic2NvcmUiOiAwLjk3NDc1MTE1MDY4MTMyNzF9"
+   "sequence": "eyJfaWQiOiAiOWVjMzY1ZDA3ZWZlMzVkMmE4MjJlYWEyMjdlYTJhODIiLCAic2NvcmUiOiAwLjk3MTA5Mzg5MDIyODc4MDl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
     "id": "marketing-product-marketing",
     "label": "Marketing Product Marketing",
     "value": "marketing-product-marketing"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    },
    {
     "id": "product-marketing",
@@ -203,19 +203,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "resume:Enterprise Software"
    },
    {
     "id": "resume:Product Marketing",
     "label": "Product Marketing",
     "value": "resume:Product Marketing"
-   },
-   {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
    },
    {
     "id": "resume:Analytics",
@@ -223,26 +223,26 @@
     "value": "resume:Analytics"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "resume:Enterprise Software"
    },
    {
     "id": "resume:Product Marketing",
     "label": "Product Marketing",
     "value": "resume:Product Marketing"
-   },
-   {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
    }
   ],
   "preferredSkills": [
@@ -252,9 +252,9 @@
     "value": "resume:Analytics"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
     "id": "resume:Attention to Detail",
@@ -262,9 +262,9 @@
     "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "resume:Enterprise Software"
+    "id": "resume:Roll-ups",
+    "label": "Roll-ups",
+    "value": "resume:Roll-ups"
    }
   ],
   "manager": true,
@@ -325,7 +325,7 @@
   "jobId": "8156381",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1893898398773, 'matchScore': 0, 'ageScore': 0.9893898398773148, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1854427372496, 'matchScore': 0, 'ageScore': 0.9854427372496142, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,9 +1,9 @@
 {
  "board": "gv",
- "run": "2026-08-25T20:50:55Z",
+ "run": "2026-08-25T21:48:52Z",
  "homepage": {
   "status": 200,
-  "bytes": 26170
+  "bytes": 26172
  },
  "slugs_tried": [
   "gv",
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"e83527ce09cc9d9679c9de80209b480c69c35620\",\"date\":\"2026-08-24T23:29:49.045Z\"},\"server\":{\"git\":\"e83527ce09cc9d9679c9de80209b480c69c35620\",\"date\":\"2026-08-24T23:29:49.045Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"},\"server\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "gLsNeLA0kr\u2026",
+  "session.sig": "Cmk-ylRa8z\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNmY5Yjk1Nzk3NWM0ZThkMjQ3Njk0NzkzYjg3MDQ2ZjAiLCAic2NvcmUiOiAxLjA3NTgwMDY2ODEzNTAzMX0="
+   "sequence": "eyJfaWQiOiAiMmQ2ZTA2MTcyZmQwMGI0Y2EwMTFiMTRlNmM5ODQwN2MiLCAic2NvcmUiOiAxLjA3MTY0ODgyMTY0MTIwMzd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -195,19 +195,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 58000, 'maxValue': 77000, 'currency': {'label': 'GBP', 'value': 'GBP'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Management Consulting",
+    "label": "Management Consulting",
+    "value": "resume:Management Consulting"
+   },
+   {
     "id": "resume:Salesforce",
     "label": "Salesforce",
     "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:Employee Stock Options",
-    "label": "Employee Stock Options",
-    "value": "resume:Employee Stock Options"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
    },
    {
     "id": "resume:Financial Modeling",
@@ -215,53 +210,58 @@
     "value": "resume:Financial Modeling"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:Employee Stock Options",
-    "label": "Employee Stock Options",
-    "value": "resume:Employee Stock Options"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Financial Modeling",
-    "label": "Financial Modeling",
-    "value": "resume:Financial Modeling"
-   },
-   {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
    {
     "id": "resume:Management Consulting",
     "label": "Management Consulting",
     "value": "resume:Management Consulting"
    },
    {
-    "id": "resume:CockroachDB",
-    "label": "CockroachDB",
-    "value": "resume:CockroachDB"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Financial Modeling",
+    "label": "Financial Modeling",
+    "value": "resume:Financial Modeling"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
     "id": "resume:Voter Targeting",
     "label": "Voter Targeting/Outreach",
     "value": "resume:Voter Targeting"
+   },
+   {
+    "id": "resume:CockroachDB",
+    "label": "CockroachDB",
+    "value": "resume:CockroachDB"
    }
   ],
   "manager": false,
@@ -281,14 +281,14 @@
   "maxYearsExp": 3,
   "regions": [
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
-   },
-   {
     "id": "EMEA",
     "label": "EMEA",
     "value": "EMEA"
+   },
+   {
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
    }
   ],
   "stages": [
@@ -317,7 +317,7 @@
   "jobId": "8156554",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1907863491355, 'matchScore': 0, 'ageScore': 0.9907863491354166, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1869735571875, 'matchScore': 0, 'ageScore': 0.9869735571875, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

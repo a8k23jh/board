@@ -1,9 +1,9 @@
 {
  "board": "bcv",
- "run": "2026-08-25T20:50:55Z",
+ "run": "2026-08-25T21:48:52Z",
  "homepage": {
   "status": 200,
-  "bytes": 20712
+  "bytes": 20714
  },
  "slugs_tried": [
   "bain-ventures",
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"e83527ce09cc9d9679c9de80209b480c69c35620\",\"date\":\"2026-08-24T23:29:49.045Z\"},\"server\":{\"git\":\"e83527ce09cc9d9679c9de80209b480c69c35620\",\"date\":\"2026-08-24T23:29:49.045Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"},\"server\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cFMNMbDm47\u2026",
+  "session.sig": "R1Al0YLzJA\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDlmYmQxNTMyMDVhY2RmYzAyODcwZjVlY2VmNmI2OTQiLCAic2NvcmUiOiAxLjA3NTY1Mjk5MzQ4ODgxMTd9"
+   "sequence": "eyJfaWQiOiAiOTY2OTY3M2NkZTFkNGVlMmFkYWVhMzQ3MzNkMDBkOTYiLCAic2NvcmUiOiAxLjA3MTM4NTA5OTQwMzU0OTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -174,14 +174,14 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
     "id": "marketing-product-marketing",
     "label": "Marketing Product Marketing",
     "value": "marketing-product-marketing"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    },
    {
     "id": "product-marketing",
@@ -203,14 +203,14 @@
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
     "id": "Seattle, Washington",
     "label": "Seattle, Washington",
     "value": "Seattle, Washington"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    },
    {
     "id": "Chicago, Illinois",
@@ -221,63 +221,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 146400, 'maxValue': 235375, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
-   },
-   {
-    "id": "resume:Corporate Marketing",
-    "label": "Corporate Marketing",
-    "value": "resume:Corporate Marketing"
-   },
-   {
     "id": "resume:Contract Management",
     "label": "Contract Management",
     "value": "resume:Contract Management"
    },
    {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
-   },
-   {
-    "id": "resume:Corporate Marketing",
-    "label": "Corporate Marketing",
-    "value": "resume:Corporate Marketing"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Contract Management",
-    "label": "Contract Management",
-    "value": "resume:Contract Management"
-   },
-   {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
-   },
-   {
-    "id": "resume:Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "resume:Enterprise Software"
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
    },
    {
     "id": "resume:Content Development",
@@ -285,9 +236,58 @@
     "value": "resume:Content Development"
    },
    {
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
+   },
+   {
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Contract Management",
+    "label": "Contract Management",
+    "value": "resume:Contract Management"
+   },
+   {
     "id": "resume:Product Marketing",
     "label": "Product Marketing",
     "value": "resume:Product Marketing"
+   },
+   {
+    "id": "resume:Content Development",
+    "label": "Content Development",
+    "value": "resume:Content Development"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
+   },
+   {
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
+   },
+   {
+    "id": "resume:Product Strategy",
+    "label": "Product Strategy",
+    "value": "resume:Product Strategy"
+   },
+   {
+    "id": "resume:Analyst Relations",
+    "label": "Analyst Relations",
+    "value": "resume:Analyst Relations"
+   },
+   {
+    "id": "resume:Packaging",
+    "label": "Packaging",
+    "value": "resume:Packaging"
    }
   ],
   "manager": true,
@@ -305,14 +305,14 @@
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Rust Belt",
     "label": "Great Lakes Region",
     "value": "Rust Belt"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "Midwest",
@@ -320,14 +320,14 @@
     "value": "Midwest"
    },
    {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
    }
   ],
   "stages": [
@@ -350,7 +350,7 @@
   "jobId": "30168",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1947260942848, 'matchScore': 0, 'ageScore': 0.9947260942847223, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1904303178985, 'matchScore': 0, 'ageScore': 0.990430317898534, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
