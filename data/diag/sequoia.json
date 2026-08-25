@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-25T09:03:50Z",
+ "run": "2026-08-25T09:56:26Z",
  "homepage": {
   "status": 200,
   "bytes": 20235
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "SgnINuwHhe\u2026",
+  "session.sig": "k8f3A1FK2R\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzI3ZGI0NjM1MDAyYjNlMTgzNmYwZDJmYmEyYjRmM2MiLCAic2NvcmUiOiAxLjA4MDc2NzA2NTkwODU2NDl9"
+   "sequence": "eyJfaWQiOiAiM2M0ZDc4MWZlZWZlZWZmNGVlMWIwN2Q1ZWJkMGVmYWEiLCAic2NvcmUiOiAxLjA4MDgzMjIwMjY1NzAyMTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,99 +155,117 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/outreach/f3c70938-1f26-4597-b28a-2c7dc7dc5540?lever-source%5B%5D=jobs.sequoiacap.com",
-  "companyDomain": "outreach.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1319ddd61630b2dff622ecb258aafbe1_320_160?Expires=1861920000&Signature=qPsncPTTBSwLj4pbdDKJD93OwBxCnRvRc6n4sxKkCtAV7ZuHpDp0G",
-  "companyId": "Outreach.io",
-  "companySlug": "outreach.io",
-  "companyName": "Outreach.io",
-  "companyStaffCount": 1613,
+  "applyUrl": "https://jobs.ashbyhq.com/mach/a9379a3d-c419-4c33-a9bf-cc2c23d8cd0b?utm_source=jobs.sequoiacap.com",
+  "companyDomain": "machindustries.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/13f685f35baaf6b4bfde7b6c8d65bccb_192_160?Expires=1861920000&Signature=NSJu1QjBdHHZ28NMP4ISBmSLfHlUuboP4ZlQgbCiYpQBkBi6~JJSE",
+  "companyId": "Mach Industries",
+  "companySlug": "mach-industries",
+  "companyName": "Mach Industries",
+  "companyStaffCount": 353,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Supply Chain"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "supply-logistics",
+    "label": "Supply/Logistics",
+    "value": "supply-logistics"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Supply Chain",
+    "label": "Supply Chain",
+    "value": "Supply Chain"
+   }
+  ],
   "locations": [
-   "Atlanta, GA"
+   "Huntington Beach, California, United States",
+   "Huntington Beach, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Atlanta, Georgia",
-    "label": "Atlanta, Georgia",
-    "value": "Atlanta, Georgia"
+    "id": "Huntington Beach, California",
+    "label": "Huntington Beach, California",
+    "value": "Huntington Beach, California"
+   },
+   {
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 45000, 'maxValue': 50000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 195000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Capital Equipment",
+    "label": "Capital Equipment",
+    "value": "resume:Capital Equipment"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
    },
    {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Budgeting",
+    "label": "Budgeting",
+    "value": "resume:Budgeting"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Capital Equipment",
+    "label": "Capital Equipment",
+    "value": "resume:Capital Equipment"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Budgeting",
+    "label": "Budgeting",
+    "value": "resume:Budgeting"
    },
    {
-    "id": "resume:Customer Engagement",
-    "label": "Customer Engagement",
-    "value": "resume:Customer Engagement"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Community Outreach",
-    "label": "Community Outreach",
-    "value": "resume:Community Outreach"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Zendesk",
-    "label": "Zendesk",
-    "value": "resume:Zendesk"
+    "id": "resume:Vendor Management",
+    "label": "Vendor Management",
+    "value": "resume:Vendor Management"
    }
   ],
   "manager": false,
@@ -255,24 +273,25 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
+  "minYearsExp": 10,
   "regions": [
    {
-    "id": "Deep South",
-    "label": "Deep South",
-    "value": "Deep South"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -282,9 +301,9 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -295,23 +314,23 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
    },
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-08-24T19:04:41.775000Z",
-  "title": "Renewals Specialist",
-  "url": "https://jobs.lever.co/outreach/f3c70938-1f26-4597-b28a-2c7dc7dc5540",
-  "jobId": "f3c70938-1f26-4597-b28a-2c7dc7dc5540",
+  "timeStamp": "2026-08-25T00:00:00Z",
+  "title": "Global Supply Manager - Indirect & CapEx",
+  "url": "https://jobs.ashbyhq.com/mach/a9379a3d-c419-4c33-a9bf-cc2c23d8cd0b",
+  "jobId": "a9379a3d-c419-4c33-a9bf-cc2c23d8cd0b",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1851342220532, 'matchScore': 0, 'ageScore': 0.9851342220532407, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1887344420112, 'matchScore': 0, 'ageScore': 0.9887344420111883, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

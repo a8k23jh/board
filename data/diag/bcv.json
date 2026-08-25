@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-25T09:03:50Z",
+ "run": "2026-08-25T09:56:26Z",
  "homepage": {
   "status": 200,
   "bytes": 20712
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "tq_Qmtzdv9\u2026",
+  "session.sig": "v3QxwaFcE4\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGRiNGI1MTdlZDg5NTQxZGJiNjMwN2NhZjg1NjQ1YTciLCAic2NvcmUiOiAxLjA1OTE0MjczMzI3NjIzNDZ9"
+   "sequence": "eyJfaWQiOiAiNWFjMGRlZWJiZDI3NjhiYjU2ZDM0NjJkNDhhOTZhYjMiLCAic2NvcmUiOiAxLjA2MjgwNzMyNTM3ODA4NjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,140 +152,122 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.docusign.com/jobs/30153?lang=en-us",
-  "companyDomain": "docusign.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
-  "companyId": "DocuSign",
-  "companySlug": "docusign",
-  "companyName": "DocuSign",
-  "companyStaffCount": 8412,
+  "applyUrl": "https://job-boards.greenhouse.io/shopmy/jobs/5404482008",
+  "companyDomain": "shopmy.us",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/0519aacdb93411d237a7c4c4d297c7fa_240_160?Expires=1861920000&Signature=lz2t607HAFdHZPnxxRGN9vfUfrkEUykP9Qyibcpzcpa0YkcTzFJRI",
+  "companyId": "ShopMy",
+  "companySlug": "shopmy",
+  "companyName": "ShopMy",
+  "companyStaffCount": 536,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Product "
+  ],
   "jobTypes": [
    {
-    "id": "technical-writer",
-    "label": "Technical Writer",
-    "value": "technical-writer"
-   },
-   {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "retail-marketing",
+    "label": "Retail Marketing",
+    "value": "retail-marketing"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Training / Teaching",
-    "label": "Training",
-    "value": "Training / Teaching"
-   },
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Seattle, Washington"
+   "New York"
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 146400, 'maxValue': 206775, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SOA",
-    "label": "SOA/Microservices",
-    "value": "resume:SOA"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Continuous Integration",
-    "label": "Continuous Integration",
-    "value": "resume:Continuous Integration"
+    "id": "resume:E-commerce",
+    "label": "E-commerce",
+    "value": "resume:E-commerce"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Digital Marketing",
+    "label": "Digital Marketing",
+    "value": "resume:Digital Marketing"
    },
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SOA",
-    "label": "SOA/Microservices",
-    "value": "resume:SOA"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Continuous Integration",
-    "label": "Continuous Integration",
-    "value": "resume:Continuous Integration"
+    "id": "resume:E-commerce",
+    "label": "E-commerce",
+    "value": "resume:E-commerce"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Digital Marketing",
+    "label": "Digital Marketing",
+    "value": "resume:Digital Marketing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Personalization",
+    "label": "Personalization",
+    "value": "resume:Personalization"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
-   [
-    1,
-    2
-   ],
    [
     3,
     4
@@ -295,60 +277,67 @@
     6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
+    "id": "Marketing and Advertising",
+    "label": "Marketing and Advertising",
+    "value": "Marketing and Advertising"
    }
   ],
-  "timeStamp": "2026-08-24T18:25:47Z",
-  "title": "Software Engineer, Document Management",
-  "url": "https://careers.docusign.com/jobs/30153?lang=en-us",
-  "jobId": "30153",
+  "timeStamp": "2026-08-25T00:43:58Z",
+  "title": "Senior Product Builder, Shopper Experience",
+  "url": "https://job-boards.greenhouse.io/shopmy/jobs/5404482008",
+  "jobId": "5404482008",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1850614865575, 'matchScore': 0, 'ageScore': 0.9850614865574846, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1892327335347, 'matchScore': 0, 'ageScore': 0.9892327335347222, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

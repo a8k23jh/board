@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-08-25T09:03:50Z",
+ "run": "2026-08-25T09:56:26Z",
  "homepage": {
   "status": 200,
   "bytes": 21205
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "jLv7UR-Zge\u2026",
+  "session.sig": "ksGHVGvzWS\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjBiZWZmOTA1ZDcxZWU5MDZkYWMxNmE0YTQ2MzMyZTMiLCAic2NvcmUiOiAxLjA4ODM0Mzc4NDMwNjcxM30="
+   "sequence": "eyJfaWQiOiAiODk5MTJjYzdiODM4ODAyM2Y4ZjEwYmNjYTdjOGJjNzIiLCAic2NvcmUiOiAxLjE1MTExMTE1NDkwNTg2NDF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,36 +144,38 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8031/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3375,
+  "applyUrl": "https://jobs.ashbyhq.com/Profound/242870ec-bc66-475f-918a-a64989f3f506?utm_source=jobs.lsvp.com",
+  "companyDomain": "tryprofound.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/33487e38ebb29de8ac14cd315f3b5c58_288_160?Expires=1861920000&Signature=sBaMq6vI2GQDh3boOSvpiLXlWqupvOR6j5uJ3JayXLIOYxEYE~IVE",
+  "companyId": "Profound",
+  "companySlug": "profound",
+  "companyName": "Profound",
+  "companyStaffCount": 369,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Customer Success"
+  ],
   "jobTypes": [
+   {
+    "id": "marketing-engagement",
+    "label": "Marketing Engagement",
+    "value": "marketing-engagement"
+   },
    {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
-   },
-   {
-    "id": "marketing-all",
-    "label": "Marketing",
-    "value": "marketing-all"
    }
   ],
   "jobFunctions": [
@@ -184,91 +186,86 @@
    }
   ],
   "locations": [
-   "United States",
-   "Home Office, Richmond, VA, US"
+   "New York, New York, United States",
+   "New York, New York"
   ],
   "normalizedLocations": [
    {
-    "id": "Richmond, Virginia",
-    "label": "Richmond, Virginia",
-    "value": "Richmond, Virginia"
-   },
-   {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 176200, 'maxValue': 251210, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135000, 'maxValue': 210000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:B2B Marketing",
-    "label": "B2B Marketing",
-    "value": "resume:B2B Marketing"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Channel Sales",
-    "label": "Channel Sales",
-    "value": "resume:Channel Sales"
+    "id": "resume:Search Space",
+    "label": "Search Space",
+    "value": "resume:Search Space"
    },
    {
-    "id": "resume:Solutions Marketing",
-    "label": "Solutions Marketing",
-    "value": "resume:Solutions Marketing"
+    "id": "resume:Language Models",
+    "label": "Language Models",
+    "value": "resume:Language Models"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:B2B Marketing",
-    "label": "B2B Marketing",
-    "value": "resume:B2B Marketing"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Channel Sales",
-    "label": "Channel Sales",
-    "value": "resume:Channel Sales"
+    "id": "resume:Search Space",
+    "label": "Search Space",
+    "value": "resume:Search Space"
    },
    {
-    "id": "resume:Solutions Marketing",
-    "label": "Solutions Marketing",
-    "value": "resume:Solutions Marketing"
+    "id": "resume:Language Models",
+    "label": "Language Models",
+    "value": "resume:Language Models"
    },
    {
-    "id": "resume:Marketing Automation",
-    "label": "Marketing Automation",
-    "value": "resume:Marketing Automation"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Demand Generation",
-    "label": "Demand Generation",
-    "value": "resume:Demand Generation"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Marketing Operations",
-    "label": "Marketing Operations",
-    "value": "resume:Marketing Operations"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": true,
@@ -276,15 +273,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 2,
   "regions": [
    {
     "id": "Mid Atlantic",
@@ -292,48 +289,74 @@
     "value": "Mid Atlantic"
    },
    {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Data & Analytics",
+    "label": "Data & Analytics",
+    "value": "Data & Analytics"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-08-24T23:56:29Z",
-  "title": "Director, Public Sector Marketing",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8031/",
-  "jobId": "8031",
-  "remote": true,
-  "hybrid": true,
-  "scores": "{'score': 1001.192703490375, 'matchScore': 0, 'ageScore': 0.992703490375, 'richnessScore': 2}",
+  "timeStamp": "2026-08-25T00:00:00Z",
+  "title": "Manager, Engagement Management, Strategic",
+  "url": "https://jobs.ashbyhq.com/Profound/242870ec-bc66-475f-918a-a64989f3f506",
+  "jobId": "242870ec-bc66-475f-918a-a64989f3f506",
+  "remote": false,
+  "hybrid": false,
+  "scores": "{'score': 1001.1887286729286, 'matchScore': 0, 'ageScore': 0.9887286729286265, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "manager"
   ],
   "isFeatured": false
  },
