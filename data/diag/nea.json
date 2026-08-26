@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-08-26T11:51:21Z",
+ "run": "2026-08-26T13:29:19Z",
  "homepage": {
   "status": 200,
   "bytes": 20609
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "PQWazXKER0\u2026",
+  "session.sig": "pdZ3xQRG46\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYmUyZWM0ZjIwNjIzZTU0ZDE0YWE3MzFjYWYzY2RjNjkiLCAic2NvcmUiOiAxLjA3ODExNzEyNTkwMDg0ODh9"
+   "sequence": "eyJfaWQiOiAiOTEyODg3Yzk5OTA5OGYwNjUwZGY1NzkzNjQzNjJjYzIiLCAic2NvcmUiOiAxLjA3NzAwMDUzNTQyODI0MDh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,45 +136,30 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Second-Front-Systems/a91443e6-7bd5-4ff5-8398-0f015976e265?utm_source=careers.nea.com",
-  "companyDomain": "secondfront.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/57e86224151684da921b612094ad9d08_320_160?Expires=1861920000&Signature=CBFmmYxnFyeDcPUTsrJRj5hcu7B2h64FsTV2OUEcU7nnVtjXos0yy",
-  "companyId": "Second Front Systems",
-  "companySlug": "second-front-systems",
-  "companyName": "Second Front Systems",
-  "companyStaffCount": 166,
+  "applyUrl": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=adb1cadcb499231d",
+  "companyDomain": "radpartners.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cbb7c62716082738519fbfbf183291f4_320_160?Expires=1861920000&Signature=IP2EwPq0HgJamPOiRiCrnFCNO7ptxDEq05T1ezuMj3TC6QzvZIq8E",
+  "companyId": "Radiology Partners",
+  "companySlug": "radiology-partners",
+  "companyName": "Radiology Partners",
+  "companyStaffCount": 2302,
   "considerHosted": false,
-  "departments": [
-   "Mission Success"
-  ],
-  "jobTypes": [
-   {
-    "id": "customer-success-mananger",
-    "label": "Customer Success Manager",
-    "value": "customer-success-mananger"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
-   }
-  ],
+  "departments": [],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "Washington, DC, District of Columbia , United States",
-   "Remote"
+   "United States"
   ],
   "normalizedLocations": [
    {
@@ -183,92 +168,82 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 500000, 'maxValue': 800000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Imaging",
+    "label": "Imaging",
+    "value": "resume:Imaging"
    },
    {
-    "id": "resume:IaaS",
-    "label": "IaaS",
-    "value": "resume:IaaS"
+    "id": "resume:Trauma",
+    "label": "Trauma",
+    "value": "resume:Trauma"
    },
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:Magnetic Resonance Imaging",
+    "label": "Magnetic Resonance Imaging",
+    "value": "resume:Magnetic Resonance Imaging"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Stroke",
+    "label": "Stroke",
+    "value": "resume:Stroke"
    },
    {
-    "id": "resume:Pipeline Management",
-    "label": "Pipeline Management",
-    "value": "resume:Pipeline Management"
+    "id": "resume:Inpatient",
+    "label": "Inpatient",
+    "value": "resume:Inpatient"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Imaging",
+    "label": "Imaging",
+    "value": "resume:Imaging"
    },
    {
-    "id": "resume:IaaS",
-    "label": "IaaS",
-    "value": "resume:IaaS"
+    "id": "resume:Trauma",
+    "label": "Trauma",
+    "value": "resume:Trauma"
    },
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:Magnetic Resonance Imaging",
+    "label": "Magnetic Resonance Imaging",
+    "value": "resume:Magnetic Resonance Imaging"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Stroke",
+    "label": "Stroke",
+    "value": "resume:Stroke"
    },
    {
-    "id": "resume:Pipeline Management",
-    "label": "Pipeline Management",
-    "value": "resume:Pipeline Management"
+    "id": "resume:Inpatient",
+    "label": "Inpatient",
+    "value": "resume:Inpatient"
    },
    {
-    "id": "resume:Steady State",
-    "label": "Steady State",
-    "value": "resume:Steady State"
+    "id": "resume:Board Certified",
+    "label": "Board Certified",
+    "value": "resume:Board Certified"
    },
    {
-    "id": "resume:NIST",
-    "label": "NIST",
-    "value": "resume:NIST"
+    "id": "resume:Outpatient",
+    "label": "Outpatient",
+    "value": "resume:Outpatient"
    },
    {
-    "id": "resume:RMF",
-    "label": "RMF",
-    "value": "resume:RMF"
+    "id": "resume:Board Eligible",
+    "label": "Board Eligible",
+    "value": "resume:Board Eligible"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
-  "minYearsExp": 5,
+  "considerLevels": [],
   "regions": [
    {
     "id": "North America",
@@ -278,41 +253,25 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-08-26T00:00:00Z",
-  "title": "Mission Success Manager",
-  "url": "https://jobs.ashbyhq.com/Second-Front-Systems/a91443e6-7bd5-4ff5-8398-0f015976e265",
-  "jobId": "a91443e6-7bd5-4ff5-8398-0f015976e265",
+  "timeStamp": "2026-08-26T08:57:15Z",
+  "title": "Radiologist - Remote General - Day Shift - Lake Charles, Louisiana",
+  "url": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=adb1cadcb499231d",
+  "jobId": "adb1cadcb499231d",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1883678362631, 'matchScore': 0, 'ageScore': 0.9883678362631173, 'richnessScore': 2}",
+  "scores": "{'score': 1001.196883744517, 'matchScore': 0, 'ageScore': 0.9968837445169753, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
