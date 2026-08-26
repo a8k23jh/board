@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-08-26T18:08:38Z",
+ "run": "2026-08-26T20:14:59Z",
  "homepage": {
   "status": 200,
   "bytes": 20609
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "DrGnRanHP0\u2026",
+  "session.sig": "bIfaDP5RIe\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTEyODg3Yzk5OTA5OGYwNjUwZGY1NzkzNjQzNjJjYzIiLCAic2NvcmUiOiAxLjA3MzMzOTI0OTA4NTI2MjV9"
+   "sequence": "eyJfaWQiOiAiNjg0MGNhZTZlOWM0MTc4YjAyMzc3ZGQ5YWM5ZTI5OGIiLCAic2NvcmUiOiAxLjA4OTAzMTUzMDQxMDQ5Mzh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,134 +147,173 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=adb1cadcb499231d",
-  "companyDomain": "radpartners.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cbb7c62716082738519fbfbf183291f4_320_160?Expires=1861920000&Signature=IP2EwPq0HgJamPOiRiCrnFCNO7ptxDEq05T1ezuMj3TC6QzvZIq8E",
-  "companyId": "Radiology Partners",
-  "companySlug": "radiology-partners",
-  "companyName": "Radiology Partners",
-  "companyStaffCount": 2302,
+  "applyUrl": "https://jobs.lever.co/fiscalnote/a87e0772-001f-41fa-b698-48a1da27b5bb?lever-source%5B%5D=careers.nea.com",
+  "companyDomain": "fiscalnote.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ae9acdb8fd30284e8134526235f94b0e_254_160?Expires=1861920000&Signature=YqSlpSYWOddOLDyntzr~h5FeJ8MmXL8WPhzZDu85a44WRz-81FLpp",
+  "companyId": "FiscalNote",
+  "companySlug": "fiscalnote",
+  "companyName": "FiscalNote",
+  "companyStaffCount": 414,
   "considerHosted": false,
-  "departments": [],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "departments": [
+   "CQ Roll Call"
+  ],
+  "jobTypes": [
+   {
+    "id": "editor",
+    "label": "Editor",
+    "value": "editor"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Writing / Editing",
+    "label": "Writing / Editing",
+    "value": "Writing / Editing"
+   }
+  ],
   "locations": [
-   "United States"
+   "Washington, DC"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 500000, 'maxValue': 800000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 75000, 'maxValue': 80000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Board Eligible",
-    "label": "Board Eligible",
-    "value": "resume:Board Eligible"
+    "id": "resume:Public Policy",
+    "label": "Public Policy",
+    "value": "resume:Public Policy"
    },
    {
-    "id": "resume:Inpatient",
-    "label": "Inpatient",
-    "value": "resume:Inpatient"
+    "id": "resume:Bill Tracking",
+    "label": "Bill Tracking",
+    "value": "resume:Bill Tracking"
    },
    {
-    "id": "resume:Imaging",
-    "label": "Imaging",
-    "value": "resume:Imaging"
+    "id": "resume:Magazines",
+    "label": "Magazines",
+    "value": "resume:Magazines"
    },
    {
-    "id": "resume:Board Certified",
-    "label": "Board Certified",
-    "value": "resume:Board Certified"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    },
    {
-    "id": "resume:Outpatient",
-    "label": "Outpatient",
-    "value": "resume:Outpatient"
+    "id": "resume:AP Style",
+    "label": "AP Style",
+    "value": "resume:AP Style"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Board Eligible",
-    "label": "Board Eligible",
-    "value": "resume:Board Eligible"
+    "id": "resume:Public Policy",
+    "label": "Public Policy",
+    "value": "resume:Public Policy"
    },
    {
-    "id": "resume:Inpatient",
-    "label": "Inpatient",
-    "value": "resume:Inpatient"
+    "id": "resume:Bill Tracking",
+    "label": "Bill Tracking",
+    "value": "resume:Bill Tracking"
    },
    {
-    "id": "resume:Imaging",
-    "label": "Imaging",
-    "value": "resume:Imaging"
+    "id": "resume:Magazines",
+    "label": "Magazines",
+    "value": "resume:Magazines"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Board Certified",
-    "label": "Board Certified",
-    "value": "resume:Board Certified"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    },
    {
-    "id": "resume:Outpatient",
-    "label": "Outpatient",
-    "value": "resume:Outpatient"
+    "id": "resume:AP Style",
+    "label": "AP Style",
+    "value": "resume:AP Style"
    },
    {
-    "id": "resume:Stroke",
-    "label": "Stroke",
-    "value": "resume:Stroke"
+    "id": "resume:Newspapers",
+    "label": "Newspapers",
+    "value": "resume:Newspapers"
    },
    {
-    "id": "resume:Magnetic Resonance Imaging",
-    "label": "Magnetic Resonance Imaging",
-    "value": "resume:Magnetic Resonance Imaging"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Trauma",
-    "label": "Trauma",
-    "value": "resume:Trauma"
+    "id": "resume:Journalism",
+    "label": "Journalism",
+    "value": "resume:Journalism"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 3,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
   "markets": [
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
+   },
+   {
+    "id": "Technical Consulting",
+    "label": "Technical Consulting",
+    "value": "Technical Consulting"
    }
   ],
-  "timeStamp": "2026-08-26T08:57:15Z",
-  "title": "Radiologist - Remote General - Day Shift - Lake Charles, Louisiana",
-  "url": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=adb1cadcb499231d",
-  "jobId": "adb1cadcb499231d",
-  "remote": true,
+  "timeStamp": "2026-08-26T13:51:09.955000Z",
+  "title": "Staff Writer, Congressional Leadership",
+  "url": "https://jobs.lever.co/fiscalnote/a87e0772-001f-41fa-b698-48a1da27b5bb",
+  "jobId": "a87e0772-001f-41fa-b698-48a1da27b5bb",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1922403945471, 'matchScore': 0, 'ageScore': 0.9922403945470679, 'richnessScore': 2}",
+  "scores": "{'score': 1001.195034439385, 'matchScore': 0, 'ageScore': 0.9950344393850309, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -282,6 +321,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false
