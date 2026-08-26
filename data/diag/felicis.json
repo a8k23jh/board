@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-08-26T09:06:47Z",
+ "run": "2026-08-26T10:01:57Z",
  "homepage": {
   "status": 200,
   "bytes": 25236
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "YJUdEZ-hqU\u2026",
+  "session.sig": "uW42ILXNmr\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGE0N2U2MjFhYzU3YjMzMTFlZWI5N2UyMDI4YzM2MWQiLCAic2NvcmUiOiAxLjA0ODMxNTk3ODgxMDU3MX0="
+   "sequence": "eyJfaWQiOiAiMWQyY2MyYzQwNjljYTBiY2IzZDQ5YmNiYmQyN2I5MGQiLCAic2NvcmUiOiAxLjA3NDkwOTg3MzYyMTkxMzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -183,9 +183,14 @@
     "value": "resume:Treatment"
    },
    {
-    "id": "resume:Pre-IPO",
-    "label": "Pre-IPO",
-    "value": "resume:Pre-IPO"
+    "id": "resume:Vault",
+    "label": "Vault",
+    "value": "resume:Vault"
+   },
+   {
+    "id": "resume:FDA",
+    "label": "FDA",
+    "value": "resume:FDA"
    },
    {
     "id": "resume:Pharmacovigilance",
@@ -193,14 +198,9 @@
     "value": "resume:Pharmacovigilance"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    }
   ],
   "requiredSkills": [
@@ -210,31 +210,21 @@
     "value": "resume:Treatment"
    },
    {
-    "id": "resume:Pre-IPO",
-    "label": "Pre-IPO",
-    "value": "resume:Pre-IPO"
+    "id": "resume:Vault",
+    "label": "Vault",
+    "value": "resume:Vault"
    },
    {
-    "id": "resume:Pharmacovigilance",
-    "label": "Pharmacovigilance",
-    "value": "resume:Pharmacovigilance"
+    "id": "resume:FDA",
+    "label": "FDA",
+    "value": "resume:FDA"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
-   },
-   {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Pharmacovigilance",
+    "label": "Pharmacovigilance",
+    "value": "resume:Pharmacovigilance"
    },
    {
     "id": "resume:Databases",
@@ -242,9 +232,19 @@
     "value": "resume:Databases"
    },
    {
-    "id": "resume:Cancer Biology",
-    "label": "Cancer Biology",
-    "value": "resume:Cancer Biology"
+    "id": "resume:GCP",
+    "label": "GCP",
+    "value": "resume:GCP"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Pre-IPO",
+    "label": "Pre-IPO",
+    "value": "resume:Pre-IPO"
    }
   ],
   "manager": false,
@@ -294,24 +294,24 @@
   "jobId": "3706ccd8-54bc-4869-a72f-9c66645cdf2b",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1876533700911, 'matchScore': 0, 'ageScore': 0.9876533700910494, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1832144943329, 'matchScore': 0, 'ageScore': 0.9832144943329475, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "junior",
-   "mid"
+   "mid",
+   "junior"
   ],
   "isFeatured": false
  },

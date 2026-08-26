@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-26T09:06:47Z",
+ "run": "2026-08-26T10:01:57Z",
  "homepage": {
   "status": 200,
   "bytes": 21736
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "zRYd-S3Ofc\u2026",
+  "session.sig": "rW8PZlvMH2\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGQzYzRlMzkzY2JlNTE1NTIwMGYzYjE1NTA4MWQ5MDYiLCAic2NvcmUiOiAxLjEyNTQxMjA0MTQxNzgyNDF9"
+   "sequence": "eyJfaWQiOiAiNGI4ZTU2ZWQzZmVmNDJjOGZiODJjZjg1YzM5YzUzNmMiLCAic2NvcmUiOiAxLjEzNjY5ODc0MzczMzc5NjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,38 +152,33 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/clickhouse/jobs/6138012004",
-  "companyDomain": "clickhouse.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2779852661322ab66da5dc263e72606_320_160?Expires=1861920000&Signature=r~P65IuHovDEITH8vKhbAvgpsGftasvE8O7kucrixTGLscABGrKrs",
-  "companyId": "ClickHouse",
-  "companySlug": "clickhouse",
-  "companyName": "ClickHouse",
-  "companyStaffCount": 667,
+  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/7dedcdea-42be-4bb0-b603-791146ff73f0?utm_source=jobs.bvp.com",
+  "companyDomain": "perplexity.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
+  "companyId": "Perplexity AI",
+  "companySlug": "perplexity-ai",
+  "companyName": "Perplexity AI",
+  "companyStaffCount": 1415,
   "considerHosted": false,
   "departments": [
-   "Support Services"
+   "AI Research & Systems"
   ],
   "jobTypes": [
    {
-    "id": "product-support-engineer",
-    "label": "Product Support Engineer",
-    "value": "product-support-engineer"
-   },
-   {
-    "id": "support-engineer",
-    "label": "Support Engineer",
-    "value": "support-engineer"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
@@ -194,85 +189,93 @@
    }
   ],
   "locations": [
-   "United States (Remote)"
+   "San Francisco, California, United States",
+   "Palo Alto, California, United States",
+   "San Francisco",
+   "Palo Alto"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "Palo Alto, California",
+    "label": "Palo Alto, California",
+    "value": "Palo Alto, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 139000, 'maxValue': 194000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Developer Experience",
+    "label": "Developer Experience",
+    "value": "resume:Developer Experience"
    },
    {
-    "id": "resume:SLED",
-    "label": "SLED",
-    "value": "resume:SLED"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Kinesis",
-    "label": "Kinesis",
-    "value": "resume:Kinesis"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:FedRAMP",
-    "label": "FedRAMP",
-    "value": "resume:FedRAMP"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Developer Experience",
+    "label": "Developer Experience",
+    "value": "resume:Developer Experience"
    },
    {
-    "id": "resume:SLED",
-    "label": "SLED",
-    "value": "resume:SLED"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Kinesis",
-    "label": "Kinesis",
-    "value": "resume:Kinesis"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:FedRAMP",
-    "label": "FedRAMP",
-    "value": "resume:FedRAMP"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    },
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:RabbitMQ",
-    "label": "RabbitMQ",
-    "value": "resume:RabbitMQ"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "manager": false,
@@ -288,48 +291,53 @@
     6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Analytics",
-    "label": "Analytics",
-    "value": "Analytics"
-   },
-   {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
-  "timeStamp": "2026-08-25T18:54:46Z",
-  "title": "Senior Technical Customer Support Engineer, Federal",
-  "url": "https://job-boards.greenhouse.io/clickhouse/jobs/6138012004",
-  "jobId": "6138012004",
-  "remote": true,
+  "timeStamp": "2026-08-25T23:57:08Z",
+  "title": "Member of Technical Staff (Software Engineer, Model Platform)",
+  "url": "https://jobs.ashbyhq.com/Perplexity/7dedcdea-42be-4bb0-b603-791146ff73f0",
+  "jobId": "7dedcdea-42be-4bb0-b603-791146ff73f0",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1855187302326, 'matchScore': 0, 'ageScore': 0.9855187302326389, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1882054237516, 'matchScore': 0, 'ageScore': 0.9882054237515432, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
    {
     "id": "senior",
     "label": "Senior",
@@ -337,6 +345,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "mid",
    "senior"
   ],
   "isFeatured": false
