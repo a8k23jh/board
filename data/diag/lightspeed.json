@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-08-26T13:29:19Z",
+ "run": "2026-08-26T15:55:40Z",
  "homepage": {
   "status": 200,
   "bytes": 21207
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "BQi3zQYTOk\u2026",
+  "session.sig": "fgHaUbMW8M\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDQ4MDAyNDc1ZTJjMzVhZTVkY2RjMzUwZjdlY2Y2MWMiLCAic2NvcmUiOiAxLjE2MjY4MTY4MzE3NTU0MDJ9"
+   "sequence": "eyJfaWQiOiAiNDQ4MDAyNDc1ZTJjMzVhZTVkY2RjMzUwZjdlY2Y2MWMiLCAic2NvcmUiOiAxLjE1OTE3ODgzNTE1NzAyMTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,33 +144,31 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/ThinkingMachines/6afeaa7a-8674-4e32-9364-fb14cc28e79a?utm_source=jobs.lsvp.com",
-  "companyDomain": "thinkingmachines.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d921c2123f363dedc5cc3a5068a3c42f_208_160?Expires=1861920000&Signature=O~-62XaRup0CqeHcGvJHUTGcwhF~mDu~LaIFDGXs-ZjX-CBPx7i8u",
-  "companyId": "Thinking Machines Lab",
-  "companySlug": "thinking-machines-lab",
-  "companyName": "Thinking Machines Lab",
-  "companyStaffCount": 222,
+  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8019/",
+  "companyDomain": "infoblox.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
+  "companyId": "Infoblox",
+  "companySlug": "infoblox",
+  "companyName": "Infoblox",
+  "companyStaffCount": 3375,
   "considerHosted": false,
-  "departments": [
-   "Core Engineering"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "senior-sales-engineer",
+    "label": "Senior Sales Engineer",
+    "value": "senior-sales-engineer"
    }
   ],
   "jobFunctions": [
@@ -181,81 +179,91 @@
    }
   ],
   "locations": [
-   "San Francisco, California, United States",
-   "San Francisco"
+   "California, United States",
+   "Home Office, Sacramento, CA, US"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Sacramento, California",
+    "label": "Sacramento, California",
+    "value": "Sacramento, California"
+   },
+   {
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 300000, 'maxValue': 450000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:Positioning",
+    "label": "Positioning",
+    "value": "resume:Positioning"
    },
    {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
+    "id": "resume:IPv4",
+    "label": "IPv4",
+    "value": "resume:IPv4"
    },
    {
-    "id": "resume:Systems Programming",
-    "label": "Systems Programming",
-    "value": "resume:Systems Programming"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    },
    {
-    "id": "resume:Virtualization",
-    "label": "Virtualization",
-    "value": "resume:Virtualization"
+    "id": "resume:LAN-WAN",
+    "label": "LAN-WAN",
+    "value": "resume:LAN-WAN"
    },
    {
-    "id": "resume:Threat Modeling",
-    "label": "Threat Modeling",
-    "value": "resume:Threat Modeling"
+    "id": "resume:Field Sales",
+    "label": "Field Sales",
+    "value": "resume:Field Sales"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:Positioning",
+    "label": "Positioning",
+    "value": "resume:Positioning"
    },
    {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
+    "id": "resume:IPv4",
+    "label": "IPv4",
+    "value": "resume:IPv4"
    },
    {
-    "id": "resume:Systems Programming",
-    "label": "Systems Programming",
-    "value": "resume:Systems Programming"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Virtualization",
-    "label": "Virtualization",
-    "value": "resume:Virtualization"
+    "id": "resume:LAN-WAN",
+    "label": "LAN-WAN",
+    "value": "resume:LAN-WAN"
    },
    {
-    "id": "resume:Threat Modeling",
-    "label": "Threat Modeling",
-    "value": "resume:Threat Modeling"
+    "id": "resume:Field Sales",
+    "label": "Field Sales",
+    "value": "resume:Field Sales"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:DevOps",
+    "label": "DevOps",
+    "value": "resume:DevOps"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:DHCP",
+    "label": "DHCP",
+    "value": "resume:DHCP"
    }
   ],
   "manager": false,
@@ -269,17 +277,14 @@
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
+  "minYearsExp": 3,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Pacific States",
@@ -287,49 +292,43 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-08-26T00:00:00Z",
-  "title": "Software Engineer, Sandboxing",
-  "url": "https://jobs.ashbyhq.com/ThinkingMachines/6afeaa7a-8674-4e32-9364-fb14cc28e79a",
-  "jobId": "6afeaa7a-8674-4e32-9364-fb14cc28e79a",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1846031043704, 'matchScore': 0, 'ageScore': 0.9846031043703704, 'richnessScore': 2}",
+  "timeStamp": "2026-08-25T23:56:54Z",
+  "title": "Senior Sales Engineer - South West",
+  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8019/",
+  "jobId": "8019",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1802153768383, 'matchScore': 0, 'ageScore': 0.9802153768383488, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

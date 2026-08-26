@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-08-26T13:29:19Z",
+ "run": "2026-08-26T15:55:40Z",
  "homepage": {
   "status": 200,
   "bytes": 20609
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "pdZ3xQRG46\u2026",
+  "session.sig": "JCWyKoR5mC\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTEyODg3Yzk5OTA5OGYwNjUwZGY1NzkzNjQzNjJjYzIiLCAic2NvcmUiOiAxLjA3NzAwMDUzNTQyODI0MDh9"
+   "sequence": "eyJfaWQiOiAiOTEyODg3Yzk5OTA5OGYwNjUwZGY1NzkzNjQzNjJjYzIiLCAic2NvcmUiOiAxLjA3MzMzOTI0OTA4NTI2MjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -171,59 +171,49 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 500000, 'maxValue': 800000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Imaging",
-    "label": "Imaging",
-    "value": "resume:Imaging"
-   },
-   {
-    "id": "resume:Trauma",
-    "label": "Trauma",
-    "value": "resume:Trauma"
-   },
-   {
-    "id": "resume:Magnetic Resonance Imaging",
-    "label": "Magnetic Resonance Imaging",
-    "value": "resume:Magnetic Resonance Imaging"
-   },
-   {
-    "id": "resume:Stroke",
-    "label": "Stroke",
-    "value": "resume:Stroke"
+    "id": "resume:Board Eligible",
+    "label": "Board Eligible",
+    "value": "resume:Board Eligible"
    },
    {
     "id": "resume:Inpatient",
     "label": "Inpatient",
     "value": "resume:Inpatient"
+   },
+   {
+    "id": "resume:Imaging",
+    "label": "Imaging",
+    "value": "resume:Imaging"
+   },
+   {
+    "id": "resume:Board Certified",
+    "label": "Board Certified",
+    "value": "resume:Board Certified"
+   },
+   {
+    "id": "resume:Outpatient",
+    "label": "Outpatient",
+    "value": "resume:Outpatient"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Imaging",
-    "label": "Imaging",
-    "value": "resume:Imaging"
-   },
-   {
-    "id": "resume:Trauma",
-    "label": "Trauma",
-    "value": "resume:Trauma"
-   },
-   {
-    "id": "resume:Magnetic Resonance Imaging",
-    "label": "Magnetic Resonance Imaging",
-    "value": "resume:Magnetic Resonance Imaging"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Stroke",
-    "label": "Stroke",
-    "value": "resume:Stroke"
+    "id": "resume:Board Eligible",
+    "label": "Board Eligible",
+    "value": "resume:Board Eligible"
    },
    {
     "id": "resume:Inpatient",
     "label": "Inpatient",
     "value": "resume:Inpatient"
    },
+   {
+    "id": "resume:Imaging",
+    "label": "Imaging",
+    "value": "resume:Imaging"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Board Certified",
     "label": "Board Certified",
@@ -235,9 +225,19 @@
     "value": "resume:Outpatient"
    },
    {
-    "id": "resume:Board Eligible",
-    "label": "Board Eligible",
-    "value": "resume:Board Eligible"
+    "id": "resume:Stroke",
+    "label": "Stroke",
+    "value": "resume:Stroke"
+   },
+   {
+    "id": "resume:Magnetic Resonance Imaging",
+    "label": "Magnetic Resonance Imaging",
+    "value": "resume:Magnetic Resonance Imaging"
+   },
+   {
+    "id": "resume:Trauma",
+    "label": "Trauma",
+    "value": "resume:Trauma"
    }
   ],
   "manager": false,
@@ -271,7 +271,7 @@
   "jobId": "adb1cadcb499231d",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.196883744517, 'matchScore': 0, 'ageScore': 0.9968837445169753, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1922403945471, 'matchScore': 0, 'ageScore': 0.9922403945470679, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
