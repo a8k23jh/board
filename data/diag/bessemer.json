@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-26T05:54:47Z",
+ "run": "2026-08-26T07:14:10Z",
  "homepage": {
   "status": 200,
   "bytes": 21736
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "iZjyGxnR4E\u2026",
+  "session.sig": "Wr2fiE2GOE\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2ZjMjRjYjBmYTU3NTRiMzMwNjhiYmJhMDNiM2JmYjYiLCAic2NvcmUiOiAxLjEzMzc4MzUyODgwMDU0MDJ9"
+   "sequence": "eyJfaWQiOiAiNGQzYzRlMzkzY2JlNTE1NTIwMGYzYjE1NTA4MWQ5MDYiLCAic2NvcmUiOiAxLjEyNTQxMjA0MTQxNzgyNDF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,111 +163,116 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5406245008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://job-boards.greenhouse.io/clickhouse/jobs/6138012004",
+  "companyDomain": "clickhouse.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2779852661322ab66da5dc263e72606_320_160?Expires=1861920000&Signature=r~P65IuHovDEITH8vKhbAvgpsGftasvE8O7kucrixTGLscABGrKrs",
+  "companyId": "ClickHouse",
+  "companySlug": "clickhouse",
+  "companyName": "ClickHouse",
+  "companyStaffCount": 667,
   "considerHosted": false,
   "departments": [
-   "Compute"
+   "Support Services"
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "product-support-engineer",
+    "label": "Product Support Engineer",
+    "value": "product-support-engineer"
+   },
+   {
+    "id": "support-engineer",
+    "label": "Support Engineer",
+    "value": "support-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "San Francisco, CA",
-   "New York City, NY"
+   "United States (Remote)"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 139000, 'maxValue': 194000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Data Center",
-    "label": "Data Center",
-    "value": "resume:Data Center"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    },
    {
-    "id": "resume:Leases",
-    "label": "Leases",
-    "value": "resume:Leases"
+    "id": "resume:SLED",
+    "label": "SLED",
+    "value": "resume:SLED"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Kinesis",
+    "label": "Kinesis",
+    "value": "resume:Kinesis"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:Technical Support",
+    "label": "Technical Support",
+    "value": "resume:Technical Support"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:FedRAMP",
+    "label": "FedRAMP",
+    "value": "resume:FedRAMP"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Data Center",
-    "label": "Data Center",
-    "value": "resume:Data Center"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    },
    {
-    "id": "resume:Leases",
-    "label": "Leases",
-    "value": "resume:Leases"
+    "id": "resume:SLED",
+    "label": "SLED",
+    "value": "resume:SLED"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Kinesis",
+    "label": "Kinesis",
+    "value": "resume:Kinesis"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:Technical Support",
+    "label": "Technical Support",
+    "value": "resume:Technical Support"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:FedRAMP",
+    "label": "FedRAMP",
+    "value": "resume:FedRAMP"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Supply Chain Engineering",
-    "label": "Supply Chain Engineering",
-    "value": "resume:Supply Chain Engineering"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:RabbitMQ",
+    "label": "RabbitMQ",
+    "value": "resume:RabbitMQ"
    }
   ],
   "manager": false,
@@ -285,36 +290,16 @@
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -325,31 +310,26 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
    },
    {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
    }
   ],
-  "timeStamp": "2026-08-25T17:45:42Z",
-  "title": "Data Center Portfolio Lead",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5406245008",
-  "jobId": "5406245008",
-  "remote": false,
+  "timeStamp": "2026-08-25T18:54:46Z",
+  "title": "Senior Technical Customer Support Engineer, Federal",
+  "url": "https://job-boards.greenhouse.io/clickhouse/jobs/6138012004",
+  "jobId": "6138012004",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1920888796682, 'matchScore': 0, 'ageScore': 0.9920888796682099, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1855187302326, 'matchScore': 0, 'ageScore': 0.9855187302326389, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
    {
     "id": "senior",
     "label": "Senior",
@@ -357,7 +337,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "mid",
    "senior"
   ],
   "isFeatured": false

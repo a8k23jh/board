@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-08-26T05:54:47Z",
+ "run": "2026-08-26T07:14:10Z",
  "homepage": {
   "status": 200,
   "bytes": 20609
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cvjJYsytHh\u2026",
+  "session.sig": "_9kmAIwG1P\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjhjMGQ5N2Q5NDczMWNjODZhYTQyYjcwYzA1MGJiY2YiLCAic2NvcmUiOiAxLjA2NzY5NTg4NjU1NzA5OX0="
+   "sequence": "eyJfaWQiOiAiNDRjMzQ3MDNiYjdhMmQwOGFlYjFiMmE0OGIxMTVlZTQiLCAic2NvcmUiOiAxLjA3NTc4MjM1Njg0OTE1MTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "it-engineer",
-    "label": "IT Support Engineer",
-    "value": "it-engineer"
-   },
-   {
     "id": "asset-management",
     "label": "Asset Management",
     "value": "asset-management"
+   },
+   {
+    "id": "it-engineer",
+    "label": "IT Support Engineer",
+    "value": "it-engineer"
    }
   ],
   "jobFunctions": [
@@ -190,32 +190,10 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 114750, 'maxValue': 114750, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Technical Support",
+    "label": "Technical Support",
+    "value": "resume:Technical Support"
    },
-   {
-    "id": "resume:Information Security",
-    "label": "Information Security",
-    "value": "resume:Information Security"
-   },
-   {
-    "id": "resume:SAM",
-    "label": "SAM",
-    "value": "resume:SAM"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:ServiceNow",
-    "label": "ServiceNow",
-    "value": "resume:ServiceNow"
-   }
-  ],
-  "requiredSkills": [
    {
     "id": "resume:Logistics",
     "label": "Logistics",
@@ -225,23 +203,6 @@
     "id": "resume:Information Security",
     "label": "Information Security",
     "value": "resume:Information Security"
-   },
-   {
-    "id": "resume:SAM",
-    "label": "SAM",
-    "value": "resume:SAM"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:ServiceNow",
-    "label": "ServiceNow",
-    "value": "resume:ServiceNow"
    },
    {
     "id": "resume:Asset Management",
@@ -249,14 +210,53 @@
     "value": "resume:Asset Management"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Technical Support",
+    "label": "Technical Support",
+    "value": "resume:Technical Support"
+   },
+   {
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
+   },
+   {
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Asset Management",
+    "label": "Asset Management",
+    "value": "resume:Asset Management"
    },
    {
     "id": "resume:Procurement",
     "label": "Procurement",
     "value": "resume:Procurement"
+   },
+   {
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
+   },
+   {
+    "id": "resume:ServiceNow",
+    "label": "ServiceNow",
+    "value": "resume:ServiceNow"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "manager": false,
@@ -275,16 +275,6 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
@@ -293,6 +283,16 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -315,7 +315,7 @@
   "jobId": "6107181004",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1914906284966, 'matchScore': 0, 'ageScore': 0.9914906284965278, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1835138812735, 'matchScore': 0, 'ageScore': 0.9835138812735339, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
