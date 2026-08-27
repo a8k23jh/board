@@ -1,316 +1,52 @@
 {
  "board": "a16z",
- "run": "2026-08-27T10:00:26Z",
+ "run": "2026-08-27T20:36:11Z",
  "homepage": {
   "status": 200,
-  "bytes": 23991
+  "bytes": 289990
  },
  "slugs_tried": [
-  "andreessen-horowitz",
-  "a16z"
+  "a16z",
+  "andreessen-horowitz"
  ],
  "attempts": [
   {
    "endpoint": "https://jobs.a16z.com/api-boards/search-jobs",
-   "slug": "andreessen-horowitz",
+   "slug": "a16z",
    "csrf_header": null,
-   "status": 412,
-   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+   "status": 404,
+   "body_head": "<!DOCTYPE html><html lang=\"en\" class=\"domainesans_f24e88f1-module__r6tyWW__variable domaine_e9335bcf-module__VtuiGq__variable orpheus_d2139dc8-module__wKSwCG__variable h-full\"><head><meta charSet=\"utf"
   },
   {
    "endpoint": "https://jobs.a16z.com/api-boards/search-jobs",
+   "slug": "andreessen-horowitz",
+   "csrf_header": null,
+   "status": 404,
+   "body_head": "<!DOCTYPE html><html lang=\"en\" class=\"domainesans_f24e88f1-module__r6tyWW__variable domaine_e9335bcf-module__VtuiGq__variable orpheus_d2139dc8-module__wKSwCG__variable h-full\"><head><meta charSet=\"utf"
+  },
+  {
+   "endpoint": "https://consider.com/api-boards/search-jobs",
    "slug": "a16z",
    "csrf_header": null,
    "status": 412,
    "body_head": "{\"error\":\"INVALID_CSRF\"}"
   },
   {
-   "endpoint": "https://jobs.a16z.com/api-boards/search-jobs",
+   "endpoint": "https://consider.com/api-boards/search-jobs",
    "slug": "andreessen-horowitz",
-   "csrf_header": "x-csrf-token",
-   "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"},\"server\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"}}"
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
   }
  ],
  "cookies": {
-  "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ANa73dQg9C\u2026",
+  "session": "eyJjc3JmU2\u2026",
+  "session.sig": "nGUyRCrQR0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
   "AWSALBAPP-3": "_remove_"
  },
- "token_endpoints": [
-  {
-   "path": "/api-boards/csrf",
-   "status": 200,
-   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
-  },
-  {
-   "path": "/api-boards/csrf-token",
-   "status": 200,
-   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
-  },
-  {
-   "path": "/csrf",
-   "status": 200,
-   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
-  }
- ],
- "csrf_candidates": [
-  {
-   "src": "html",
-   "len": 36
-  }
- ],
- "working": {
-  "endpoint": "https://jobs.a16z.com/api-boards/search-jobs",
-  "slug": "andreessen-horowitz",
-  "csrf_header": [
-   "x-csrf-token"
-  ]
- },
- "search_probe": [
-  {
-   "variant": "query.searchQuery+promote",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  },
-  {
-   "variant": "query.searchQuery",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  },
-  {
-   "variant": "query.search",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  },
-  {
-   "variant": "query.text",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  },
-  {
-   "variant": "query.q",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  },
-  {
-   "variant": "top.searchQuery",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  },
-  {
-   "variant": "query.keywords",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  }
- ],
- "response_shape": {
-  "keys": [
-   "availableFilters",
-   "debug",
-   "errors",
-   "jobs",
-   "meta",
-   "total",
-   "version"
-  ],
-  "meta": {
-   "size": 100,
-   "sequence": "eyJfaWQiOiAiMTAxN2IzMzVhNWIwNGQ2MTQwYjJiZGMwMTQ0ZDE0ZjYiLCAic2NvcmUiOiAxLjE3MDQ4MzYxOTQ0OTQ1OTl9"
-  },
-  "job_keys": [
-   "applicationWindow",
-   "applyUrl",
-   "atsJobs",
-   "companyDomain",
-   "companyId",
-   "companyLogos",
-   "companyName",
-   "companySlug",
-   "companyStaffCount",
-   "considerHosted",
-   "considerLevels",
-   "consultant",
-   "contractor",
-   "departments",
-   "fundingLV",
-   "hybrid",
-   "isFeatured",
-   "jobFunctions",
-   "jobId",
-   "jobSeniorities"
-  ],
-  "job_count": 100
- },
- "sample_job": {
-  "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/shieldai/1aa1c3ee-577a-419a-89fd-1f9815691858?lever-source%5B%5D=jobs.a16z.com",
-  "companyDomain": "shield.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c9adecf138392af0b8d69325051f8382_280_160?Expires=1861920000&Signature=Dh8g4F1~Z-K5PJxfUB~SdoKRNdCcDEkrG72EeQGQuARtqu4Dtd-5Q",
-  "companyId": "Shield AI",
-  "companySlug": "shield-ai",
-  "companyName": "Shield AI",
-  "companyStaffCount": 1743,
-  "considerHosted": false,
-  "departments": [
-   "V-BAT Division"
-  ],
-  "jobTypes": [
-   {
-    "id": "mechanical-engineer",
-    "label": "Mechanical Engineer",
-    "value": "mechanical-engineer"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
-  "locations": [
-   "Remote"
-  ],
-  "normalizedLocations": [],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 240000, 'maxValue': 350000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
-  "skills": [
-   {
-    "id": "resume:Root Cause Analysis",
-    "label": "Root Cause Analysis",
-    "value": "resume:Root Cause Analysis"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:GD&T",
-    "label": "GD&T",
-    "value": "resume:GD&T"
-   },
-   {
-    "id": "resume:Material Selection",
-    "label": "Material Selection",
-    "value": "resume:Material Selection"
-   },
-   {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Root Cause Analysis",
-    "label": "Root Cause Analysis",
-    "value": "resume:Root Cause Analysis"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:GD&T",
-    "label": "GD&T",
-    "value": "resume:GD&T"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Material Selection",
-    "label": "Material Selection",
-    "value": "resume:Material Selection"
-   },
-   {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
-   },
-   {
-    "id": "resume:CATIA",
-    "label": "CATIA",
-    "value": "resume:CATIA"
-   },
-   {
-    "id": "resume:Avionics",
-    "label": "Avionics",
-    "value": "resume:Avionics"
-   },
-   {
-    "id": "resume:NX",
-    "label": "NX",
-    "value": "resume:NX"
-   }
-  ],
-  "manager": false,
-  "consultant": false,
-  "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
-  "minYearsExp": 5,
-  "maxYearsExp": 6,
-  "regions": [],
-  "stages": [
-   {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
-   }
-  ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
-  "markets": [
-   {
-    "id": "American Dynamism",
-    "label": "American Dynamism",
-    "value": "American Dynamism"
-   },
-   {
-    "id": "Enterprise",
-    "label": "Enterprise",
-    "value": "Enterprise"
-   }
-  ],
-  "timeStamp": "2026-08-27T02:42:49.600000Z",
-  "title": "Sr. Staff Mechanical Engineer - BlueSky (R5825)",
-  "url": "https://jobs.lever.co/shieldai/1aa1c3ee-577a-419a-89fd-1f9815691858",
-  "jobId": "1aa1c3ee-577a-419a-89fd-1f9815691858",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1922887339992, 'matchScore': 0, 'ageScore': 0.9922887339992283, 'richnessScore': 2}",
-  "atsJobs": [],
-  "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   }
-  ],
-  "jobSeniorityIds": [
-   "senior"
-  ],
-  "isFeatured": false
- },
- "search_mode": {
-  "variant": "cursor:meta.sequence"
- }
+ "csrf_candidates": [],
+ "first_attempt_error": "consider: CSRF/endpoint probe failed for https://jobs.a16z.com (see diag)"
 }

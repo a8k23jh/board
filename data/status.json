@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-08-27T10:00:26Z",
+ "generated_at": "2026-08-27T20:36:11Z",
  "first_run": false,
  "boards": {
   "a16z": {
    "name": "Andreessen Horowitz",
    "platform": "consider",
-   "ok": true,
-   "fetched": 16439,
-   "matched": 300,
-   "error": null
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "consider: CSRF/endpoint probe failed for https://jobs.a16z.com (see diag)"
   },
   "sequoia": {
    "name": "Sequoia Capital",
    "platform": "consider",
    "ok": true,
-   "fetched": 9842,
+   "fetched": 9919,
    "matched": 112,
    "error": null
   },
@@ -22,7 +22,7 @@
    "name": "Lightspeed",
    "platform": "consider",
    "ok": true,
-   "fetched": 15213,
+   "fetched": 15226,
    "matched": 153,
    "error": null
   },
@@ -30,7 +30,7 @@
    "name": "Bessemer Venture Partners",
    "platform": "consider",
    "ok": true,
-   "fetched": 7229,
+   "fetched": 7223,
    "matched": 78,
    "error": null
   },
@@ -46,15 +46,15 @@
    "name": "Kleiner Perkins",
    "platform": "consider",
    "ok": true,
-   "fetched": 3064,
-   "matched": 51,
+   "fetched": 3061,
+   "matched": 52,
    "error": null
   },
   "nea": {
    "name": "NEA",
    "platform": "consider",
    "ok": true,
-   "fetched": 5762,
+   "fetched": 5786,
    "matched": 59,
    "error": null
   },
@@ -62,15 +62,15 @@
    "name": "Battery Ventures",
    "platform": "consider",
    "ok": true,
-   "fetched": 4168,
-   "matched": 23,
+   "fetched": 4178,
+   "matched": 22,
    "error": null
   },
   "bcv": {
    "name": "Bain Capital Ventures",
    "platform": "consider",
    "ok": true,
-   "fetched": 5475,
+   "fetched": 5432,
    "matched": 64,
    "error": null
   },
@@ -78,7 +78,7 @@
    "name": "First Round Capital",
    "platform": "consider",
    "ok": true,
-   "fetched": 2371,
+   "fetched": 2375,
    "matched": 52,
    "error": null
   },
@@ -86,40 +86,40 @@
    "name": "IVP",
    "platform": "consider",
    "ok": true,
-   "fetched": 4363,
-   "matched": 60,
+   "fetched": 4439,
+   "matched": 62,
    "error": null
   },
   "accel": {
    "name": "Accel",
    "platform": "getro",
    "ok": true,
-   "fetched": 166,
-   "matched": 57,
+   "fetched": 169,
+   "matched": 63,
    "error": null
   },
   "generalcatalyst": {
    "name": "General Catalyst",
    "platform": "getro",
    "ok": true,
-   "fetched": 173,
-   "matched": 65,
+   "fetched": 169,
+   "matched": 67,
    "error": null
   },
   "khosla": {
    "name": "Khosla Ventures",
    "platform": "getro",
    "ok": true,
-   "fetched": 169,
-   "matched": 45,
+   "fetched": 166,
+   "matched": 50,
    "error": null
   },
   "insight": {
    "name": "Insight Partners",
    "platform": "getro",
    "ok": true,
-   "fetched": 163,
-   "matched": 36,
+   "fetched": 166,
+   "matched": 37,
    "error": null
   },
   "menlo": {
@@ -127,14 +127,14 @@
    "platform": "getro",
    "ok": true,
    "fetched": 141,
-   "matched": 21,
+   "matched": 20,
    "error": null
   },
   "redpoint": {
    "name": "Redpoint Ventures",
    "platform": "getro",
    "ok": true,
-   "fetched": 131,
+   "fetched": 135,
    "matched": 15,
    "error": null
   },
@@ -151,14 +151,14 @@
    "platform": "getro",
    "ok": true,
    "fetched": 89,
-   "matched": 6,
+   "matched": 5,
    "error": null
   },
   "craft": {
    "name": "Craft Ventures",
    "platform": "getro",
    "ok": true,
-   "fetched": 134,
+   "fetched": 133,
    "matched": 9,
    "error": null
   },
@@ -174,7 +174,7 @@
    "name": "Sapphire Ventures",
    "platform": "getro",
    "ok": true,
-   "fetched": 136,
+   "fetched": 137,
    "matched": 16,
    "error": null
   },
@@ -182,31 +182,31 @@
    "name": "Thrive Capital",
    "platform": "getro",
    "ok": true,
-   "fetched": 151,
-   "matched": 35,
+   "fetched": 152,
+   "matched": 38,
    "error": null
   },
   "scalevp": {
    "name": "Scale Venture Partners",
    "platform": "getro",
    "ok": true,
-   "fetched": 115,
-   "matched": 7,
+   "fetched": 110,
+   "matched": 8,
    "error": null
   },
   "getrocommunity": {
    "name": "Getro Community (multi-network, incl. Pear VC)",
    "platform": "getro",
    "ok": true,
-   "fetched": 175,
-   "matched": 18,
+   "fetched": 174,
+   "matched": 19,
    "error": null
   },
   "felicis": {
    "name": "Felicis",
    "platform": "consider",
    "ok": true,
-   "fetched": 3696,
+   "fetched": 3697,
    "matched": 59,
    "error": null
   },
@@ -214,7 +214,7 @@
    "name": "GV (Google Ventures)",
    "platform": "consider",
    "ok": true,
-   "fetched": 7546,
+   "fetched": 7536,
    "matched": 115,
    "error": null
   },
@@ -222,7 +222,7 @@
    "name": "Initialized Capital",
    "platform": "consider",
    "ok": true,
-   "fetched": 1554,
+   "fetched": 1553,
    "matched": 40,
    "error": null
   },
@@ -230,8 +230,8 @@
    "name": "Y Combinator",
    "platform": "yc",
    "ok": true,
-   "fetched": 120,
-   "matched": 9,
+   "fetched": 122,
+   "matched": 10,
    "error": null
   }
  }

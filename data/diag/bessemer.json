@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-27T10:00:26Z",
+ "run": "2026-08-27T20:36:11Z",
  "homepage": {
   "status": 200,
   "bytes": 21736
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"},\"server\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"},\"server\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "u5xUFwEztT\u2026",
+  "session.sig": "v2XnC5q0mR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGVhN2EwMDhiYjUxNDhhZjczNDUxNDJlNjBmZmQ5NTUiLCAic2NvcmUiOiAxLjEyMDc2ODMyMTEyMzQ1Njd9"
+   "sequence": "eyJfaWQiOiAiNWNjMzRmNDRmMTViYTBhMzk3MDA4NDdkOWU1MDJlNGQiLCAic2NvcmUiOiAxLjEwOTExNTM4MDQ4MjI1M30="
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5406106008",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5404725008",
   "companyDomain": "anthropic.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
   "companyId": "Anthropic",
@@ -172,133 +172,129 @@
   "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Product Management, Support, & Operations"
+   "AI Research & Engineering"
   ],
   "jobTypes": [
    {
-    "id": "product-manager-growth",
-    "label": "Growth Product Manager",
-    "value": "product-manager-growth"
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
+   },
+   {
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
+   },
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
    "San Francisco, CA",
-   "New York City, NY",
-   "Seattle, WA"
+   "New York City, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    },
    {
     "id": "New York, New York",
     "label": "New York, New York",
     "value": "New York, New York"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 385000, 'maxValue': 460000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 500000, 'maxValue': 850000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   },
-   {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
    {
     "id": "resume:Sales Commission",
     "label": "Sales Commission",
     "value": "resume:Sales Commission"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:Data Infrastructure",
+    "label": "Data Infrastructure",
+    "value": "resume:Data Infrastructure"
+   },
+   {
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   },
-   {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
     "id": "resume:Sales Commission",
     "label": "Sales Commission",
     "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:A/B Testing",
-    "label": "A/B Testing",
-    "value": "resume:A/B Testing"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Data Infrastructure",
+    "label": "Data Infrastructure",
+    "value": "resume:Data Infrastructure"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
+   },
+   {
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
+   },
+   {
+    "id": "resume:Interviewing",
+    "label": "Interviewing",
+    "value": "resume:Interviewing"
+   },
+   {
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
+  "considerLevels": [],
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "West Coast",
@@ -306,14 +302,19 @@
     "value": "West Coast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -341,13 +342,13 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-08-27T00:59:27Z",
-  "title": "Product Manager, Growth",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5406106008",
-  "jobId": "5406106008",
+  "timeStamp": "2026-08-27T09:05:22Z",
+  "title": "Staff+ Research Engineer, RL Data Platform",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5404725008",
+  "jobId": "5404725008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1896898931651, 'matchScore': 0, 'ageScore': 0.9896898931651235, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1886085032264, 'matchScore': 0, 'ageScore': 0.9886085032264661, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

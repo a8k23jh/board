@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-27T10:00:26Z",
+ "run": "2026-08-27T20:36:11Z",
  "homepage": {
   "status": 200,
   "bytes": 20237
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"},\"server\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"},\"server\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "jf0nZfufA2\u2026",
+  "session.sig": "d9aiv2kPtl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2YzMWRmMjIyZjM5OWRiOGFiYmQxNzBlYWJhMDdlMWYiLCAic2NvcmUiOiAxLjE1MDI5NjY5NzQ0MDIwMDd9"
+   "sequence": "eyJfaWQiOiAiYzE3MTE0NWRlYjZiODk1YzRjMzAzYzVhOGExNjg1M2IiLCAic2NvcmUiOiAxLjE0MDYwMjI5NjUwNDI0NH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,129 +144,153 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/mach/858b957f-dba2-4310-b0cb-8f41ed45ebfc?utm_source=jobs.sequoiacap.com",
-  "companyDomain": "machindustries.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/13f685f35baaf6b4bfde7b6c8d65bccb_192_160?Expires=1861920000&Signature=NSJu1QjBdHHZ28NMP4ISBmSLfHlUuboP4ZlQgbCiYpQBkBi6~JJSE",
-  "companyId": "Mach Industries",
-  "companySlug": "mach-industries",
-  "companyName": "Mach Industries",
-  "companyStaffCount": 353,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8752620002?gh_jid=8752620002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "Mach Energetics"
+   "Starlink Satellite Flight Software"
   ],
   "jobTypes": [
    {
-    "id": "technician",
-    "label": "Technician",
-    "value": "technician"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Technician",
-    "label": "Technician",
-    "value": "Technician"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "",
-   "Edwards Air Force Base, CA"
+   "Redmond, WA"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "Redmond, Washington",
+    "label": "Redmond, Washington",
+    "value": "Redmond, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 21.25, 'maxValue': 24, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Health Insurance",
-    "label": "Health Insurance",
-    "value": "resume:Health Insurance"
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
    },
    {
-    "id": "resume:Grant Writing",
-    "label": "Grant Writing",
-    "value": "resume:Grant Writing"
+    "id": "resume:ARM",
+    "label": "ARM",
+    "value": "resume:ARM"
    },
    {
-    "id": "resume:National Security",
-    "label": "National Security",
-    "value": "resume:National Security"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:Air Force",
-    "label": "Air Force",
-    "value": "resume:Air Force"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Health Insurance",
-    "label": "Health Insurance",
-    "value": "resume:Health Insurance"
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
    },
    {
-    "id": "resume:Grant Writing",
-    "label": "Grant Writing",
-    "value": "resume:Grant Writing"
+    "id": "resume:ARM",
+    "label": "ARM",
+    "value": "resume:ARM"
    },
    {
-    "id": "resume:National Security",
-    "label": "National Security",
-    "value": "resume:National Security"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:Air Force",
-    "label": "Air Force",
-    "value": "resume:Air Force"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    },
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:Computer Architecture",
+    "label": "Computer Architecture",
+    "value": "resume:Computer Architecture"
+   },
+   {
+    "id": "resume:Performance Optimization",
+    "label": "Performance Optimization",
+    "value": "resume:Performance Optimization"
+   },
+   {
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 2,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "West Coast",
@@ -276,36 +300,30 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
    },
    {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-08-27T00:00:00Z",
-  "title": "Library Technician",
-  "url": "https://jobs.ashbyhq.com/mach/858b957f-dba2-4310-b0cb-8f41ed45ebfc",
-  "jobId": "858b957f-dba2-4310-b0cb-8f41ed45ebfc",
+  "timeStamp": "2026-08-27T11:14:22Z",
+  "title": "OS/Platform Software Engineer (Starlink)",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8752620002?gh_jid=8752620002",
+  "jobId": "8752620002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1882606104359, 'matchScore': 0, 'ageScore': 0.9882606104359568, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1911018194808, 'matchScore': 0, 'ageScore': 0.9911018194807099, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

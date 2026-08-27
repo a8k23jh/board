@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-08-27T10:00:26Z",
+ "run": "2026-08-27T20:36:11Z",
  "homepage": {
   "status": 200,
   "bytes": 20929
@@ -29,12 +29,12 @@
    "slug": "initialized",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"},\"server\":{\"git\":\"f2fb7ddb948ade29740653cb68223dd5d62fa06f\",\"date\":\"2026-08-25T21:33:49.692Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"},\"server\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "aFnybYDjk1\u2026",
+  "session.sig": "Nsp0mUQu15\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2MzY2M0NzA4YmMwMzA0MTlmZmU5YzlmZDRmZmE5OWMiLCAic2NvcmUiOiAxMDAuMjQ5NzI2OTEzNDcyMjJ9"
+   "sequence": "eyJfaWQiOiAiNTQ4OWEyZjhjNGE4NWU5MzdkZTU1NTE1YjBjM2M3ZDMiLCAic2NvcmUiOiAxMDAuNDY0NDcyMzQ2NTQyODJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,27 +147,20 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/albedo/jobs/4379497009",
-  "companyDomain": "albedo.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/07f188ad8d60811445b3f384fa661131_256_160?Expires=1861920000&Signature=SUevpuqvrrPvPDl9BQ5852yme70cHhRNtmiORvgDbqg3G8detOAfL",
-  "companyId": "Albedo",
-  "companySlug": "albedo",
-  "companyName": "Albedo",
-  "companyStaffCount": 62,
+  "applyUrl": "https://www.workatastartup.com/jobs/106436",
+  "companyDomain": "paxai.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a4ea92276325aabc2227c4a29f3af33e_176_160?Expires=1861920000&Signature=c6S8p2D4DFhShuCSbg1UwCtW8ZqN9xa-jDEjKOiHfIWTUr2FGlNWA",
+  "companyId": "Pax",
+  "companySlug": "pax",
+  "companyName": "Pax",
+  "companyStaffCount": 17,
   "considerHosted": false,
-  "departments": [
-   "Electrical Engineering"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "school-student",
-    "label": "Intern",
-    "value": "school-student"
-   },
-   {
-    "id": "electrical-engineer",
-    "label": "Electrical Engineer",
-    "value": "electrical-engineer"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
@@ -178,75 +171,85 @@
    }
   ],
   "locations": [
-   "Broomfield, CO"
+   "San Francisco, CA, US"
   ],
   "normalizedLocations": [
    {
-    "id": "Broomfield, Colorado",
-    "label": "Broomfield, Colorado",
-    "value": "Broomfield, Colorado"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 29, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:FastAPI",
+    "label": "FastAPI",
+    "value": "resume:FastAPI"
    },
    {
-    "id": "resume:Department of State",
-    "label": "Department of State",
-    "value": "resume:Department of State"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Goods",
+    "label": "Goods",
+    "value": "resume:Goods"
    },
    {
-    "id": "resume:Power Supplies",
-    "label": "Power Supplies",
-    "value": "resume:Power Supplies"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Soldering",
-    "label": "Soldering",
-    "value": "resume:Soldering"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:FastAPI",
+    "label": "FastAPI",
+    "value": "resume:FastAPI"
    },
    {
-    "id": "resume:Department of State",
-    "label": "Department of State",
-    "value": "resume:Department of State"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Goods",
+    "label": "Goods",
+    "value": "resume:Goods"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Power Supplies",
-    "label": "Power Supplies",
-    "value": "resume:Power Supplies"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Soldering",
-    "label": "Soldering",
-    "value": "resume:Soldering"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Nextjs",
+    "label": "Next.js",
+    "value": "resume:Nextjs"
+   },
+   {
+    "id": "resume:Operational audits",
+    "label": "Operational Auditing",
+    "value": "resume:Operational audits"
+   },
+   {
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
    }
   ],
   "manager": false,
@@ -254,19 +257,29 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
   "regions": [
    {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -276,37 +289,42 @@
     "value": "10-100 employees"
    },
    {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "Seed funded",
+    "label": "Seed",
+    "value": "Seed funded"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
+  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
   "markets": [
    {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
+    "id": "Financial Services",
+    "label": "Financial Services",
+    "value": "Financial Services"
+   },
+   {
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-08-21T18:14:33Z",
-  "title": "Electrical Engineer Internship (Fall Term 2026)",
-  "url": "https://job-boards.greenhouse.io/albedo/jobs/4379497009",
-  "jobId": "4379497009",
+  "timeStamp": "2026-08-25T23:57:10Z",
+  "title": "Software Engineer (Senior)",
+  "url": "https://www.workatastartup.com/jobs/106436",
+  "jobId": "106436",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.013972594411, 'matchScore': 0, 'ageScore': 0.8139725944108797, 'richnessScore': 2}",
+  "scores": "{'score': 1101.1425255755332, 'matchScore': 0, 'ageScore': 0.9425255755331791, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "intern",
-    "label": "Intern",
-    "value": "intern"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "intern"
+   "senior"
   ],
   "isFeatured": true
  },
