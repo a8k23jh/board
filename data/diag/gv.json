@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-08-26T20:14:59Z",
+ "run": "2026-08-26T23:46:31Z",
  "homepage": {
   "status": 200,
   "bytes": 26172
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "bD_mMK6KPe\u2026",
+  "session.sig": "qx6YhE1He-\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODUyODE5Yjc4N2E1ZGQzMzJmN2QxNjRjNTIyNTA5MWMiLCAic2NvcmUiOiAxLjEzMTM0MDM2MDg0NDkwNzN9"
+   "sequence": "eyJfaWQiOiAiZjJlYWY5MzliMDdhOTRhNjQ0YTY0MGEyYjg5NTcyY2QiLCAic2NvcmUiOiAxLjEyNzQ5OTUzMDk1ODMzMzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/stockx/jobs/8750534002",
+  "applyUrl": "https://job-boards.greenhouse.io/stockx/jobs/8750517002",
   "companyDomain": "stockx.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/0a69e2a830bc65a3f2d6ce02878238dc_208_160?Expires=1861920000&Signature=ImG7~OtQhEMFyV30utjIhcpTar~HeAv5~DWdUTaHLT~PsbydWD60x",
   "companyId": "StockX",
@@ -161,70 +161,26 @@
   "jobTypes": [],
   "jobFunctions": [],
   "locations": [
-   "Detroit, MI"
+   "Remote, USA"
   ],
   "normalizedLocations": [
    {
-    "id": "Detroit, Michigan",
-    "label": "Detroit, Michigan",
-    "value": "Detroit, Michigan"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 130000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Liquidity",
-    "label": "Liquidity",
-    "value": "resume:Liquidity"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Trading Systems",
-    "label": "Trading Systems",
-    "value": "resume:Trading Systems"
-   },
-   {
-    "id": "resume:Mechanics",
-    "label": "Mechanics",
-    "value": "resume:Mechanics"
-   },
-   {
     "id": "resume:Marketplace",
     "label": "Marketplace",
     "value": "resume:Marketplace"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Liquidity",
-    "label": "Liquidity",
-    "value": "resume:Liquidity"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Trading Systems",
-    "label": "Trading Systems",
-    "value": "resume:Trading Systems"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Mechanics",
-    "label": "Mechanics",
-    "value": "resume:Mechanics"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    },
    {
     "id": "resume:Marketing Strategy",
@@ -232,14 +188,58 @@
     "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Goods",
-    "label": "Goods",
-    "value": "resume:Goods"
+    "id": "resume:Trading Systems",
+    "label": "Trading Systems",
+    "value": "resume:Trading Systems"
    },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
+   },
+   {
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Trading Systems",
+    "label": "Trading Systems",
+    "value": "resume:Trading Systems"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Margins",
+    "label": "Margins",
+    "value": "resume:Margins"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Liquidity",
+    "label": "Liquidity",
+    "value": "resume:Liquidity"
    }
   ],
   "manager": false,
@@ -258,24 +258,9 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
-   },
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
    }
   ],
   "stages": [
@@ -303,13 +288,13 @@
     "value": "Luxury Goods & Jewelry"
    }
   ],
-  "timeStamp": "2026-08-26T10:01:24Z",
-  "title": "Category Manager - Sneakers",
-  "url": "https://job-boards.greenhouse.io/stockx/jobs/8750534002",
-  "jobId": "8750534002",
-  "remote": false,
+  "timeStamp": "2026-08-26T09:52:48Z",
+  "title": "Category Manager - Apparel",
+  "url": "https://job-boards.greenhouse.io/stockx/jobs/8750517002",
+  "jobId": "8750517002",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1897534870054, 'matchScore': 0, 'ageScore': 0.9897534870054012, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1857905203121, 'matchScore': 0, 'ageScore': 0.9857905203121142, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

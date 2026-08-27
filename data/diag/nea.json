@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-08-26T20:14:59Z",
+ "run": "2026-08-26T23:46:31Z",
  "homepage": {
   "status": 200,
   "bytes": 20609
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "bIfaDP5RIe\u2026",
+  "session.sig": "fg_XpNWEfv\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjg0MGNhZTZlOWM0MTc4YjAyMzc3ZGQ5YWM5ZTI5OGIiLCAic2NvcmUiOiAxLjA4OTAzMTUzMDQxMDQ5Mzh9"
+   "sequence": "eyJfaWQiOiAiYzYzNjkzNmM0Yjk3ZWMwM2NmODVkMTliOGFhZjZjNjIiLCAic2NvcmUiOiAxLjA4NDUxNDQ5MDI1MTU0MzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -185,24 +185,24 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 75000, 'maxValue': 80000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Journalism",
+    "label": "Journalism",
+    "value": "resume:Journalism"
+   },
+   {
+    "id": "resume:Newspapers",
+    "label": "Newspapers",
+    "value": "resume:Newspapers"
+   },
+   {
     "id": "resume:Public Policy",
     "label": "Public Policy",
     "value": "resume:Public Policy"
    },
    {
-    "id": "resume:Bill Tracking",
-    "label": "Bill Tracking",
-    "value": "resume:Bill Tracking"
-   },
-   {
     "id": "resume:Magazines",
     "label": "Magazines",
     "value": "resume:Magazines"
-   },
-   {
-    "id": "resume:dynamic system",
-    "label": "Dynamic Systems",
-    "value": "resume:dynamic system"
    },
    {
     "id": "resume:AP Style",
@@ -212,31 +212,9 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Public Policy",
-    "label": "Public Policy",
-    "value": "resume:Public Policy"
-   },
-   {
-    "id": "resume:Bill Tracking",
-    "label": "Bill Tracking",
-    "value": "resume:Bill Tracking"
-   },
-   {
-    "id": "resume:Magazines",
-    "label": "Magazines",
-    "value": "resume:Magazines"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:dynamic system",
-    "label": "Dynamic Systems",
-    "value": "resume:dynamic system"
-   },
-   {
-    "id": "resume:AP Style",
-    "label": "AP Style",
-    "value": "resume:AP Style"
+    "id": "resume:Journalism",
+    "label": "Journalism",
+    "value": "resume:Journalism"
    },
    {
     "id": "resume:Newspapers",
@@ -244,14 +222,36 @@
     "value": "resume:Newspapers"
    },
    {
+    "id": "resume:Public Policy",
+    "label": "Public Policy",
+    "value": "resume:Public Policy"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Magazines",
+    "label": "Magazines",
+    "value": "resume:Magazines"
+   },
+   {
+    "id": "resume:AP Style",
+    "label": "AP Style",
+    "value": "resume:AP Style"
+   },
+   {
     "id": "resume:Service",
     "label": "Service",
     "value": "resume:Service"
    },
    {
-    "id": "resume:Journalism",
-    "label": "Journalism",
-    "value": "resume:Journalism"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
+   },
+   {
+    "id": "resume:Bill Tracking",
+    "label": "Bill Tracking",
+    "value": "resume:Bill Tracking"
    }
   ],
   "manager": false,
@@ -305,7 +305,7 @@
   "jobId": "a87e0772-001f-41fa-b698-48a1da27b5bb",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.195034439385, 'matchScore': 0, 'ageScore': 0.9950344393850309, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1910473997874, 'matchScore': 0, 'ageScore': 0.9910473997874228, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
