@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-08-26T23:46:31Z",
+ "run": "2026-08-27T10:00:26Z",
  "homepage": {
   "status": 200,
   "bytes": 26172
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "qx6YhE1He-\u2026",
+  "session.sig": "WakCTx4Pna\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjJlYWY5MzliMDdhOTRhNjQ0YTY0MGEyYjg5NTcyY2QiLCAic2NvcmUiOiAxLjEyNzQ5OTUzMDk1ODMzMzN9"
+   "sequence": "eyJfaWQiOiAiOTEwNmIxYWExNmJjYjQzZmIzNzBhYTUxZGUxODNjMzAiLCAic2NvcmUiOiAxLjE0MzE0Njk0NDg4NjU3NH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -147,21 +147,33 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/stockx/jobs/8750517002",
-  "companyDomain": "stockx.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/0a69e2a830bc65a3f2d6ce02878238dc_208_160?Expires=1861920000&Signature=ImG7~OtQhEMFyV30utjIhcpTar~HeAv5~DWdUTaHLT~PsbydWD60x",
-  "companyId": "StockX",
-  "companySlug": "stockx",
-  "companyName": "StockX",
-  "companyStaffCount": 1488,
+  "applyUrl": "https://jobs.ashbyhq.com/headway/f33bd5f6-de83-481a-8d06-0f16c8f83907?utm_source=jobs.gv.com",
+  "companyDomain": "headway.co",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c329c8e841413d998b99d9a57c303472_288_160?Expires=1861920000&Signature=ntzz7JVrFubo2S0CK~I4TRXRH8JJi1MqOqSIMwuPbq5jVspzVPoK~",
+  "companyId": "Headway",
+  "companySlug": "headway",
+  "companyName": "Headway",
+  "companyStaffCount": 4022,
   "considerHosted": false,
   "departments": [
-   "StockX Live"
+   "Revenue Operations"
   ],
-  "jobTypes": [],
+  "jobTypes": [
+   {
+    "id": "revenue-operations",
+    "label": "Revenue Operations",
+    "value": "revenue-operations"
+   },
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   }
+  ],
   "jobFunctions": [],
   "locations": [
-   "Remote, USA"
+   "United States",
+   "Remote"
   ],
   "normalizedLocations": [
    {
@@ -170,56 +182,39 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 130000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 105400, 'maxValue': 155000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   },
-   {
-    "id": "resume:Trading Systems",
-    "label": "Trading Systems",
-    "value": "resume:Trading Systems"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
+   {
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
+   },
+   {
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Trading Systems",
-    "label": "Trading Systems",
-    "value": "resume:Trading Systems"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
     "id": "resume:Equity",
@@ -227,19 +222,36 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Margins",
-    "label": "Margins",
-    "value": "resume:Margins"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
    {
-    "id": "resume:Liquidity",
-    "label": "Liquidity",
-    "value": "resume:Liquidity"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   },
+   {
+    "id": "resume:Revenue Operations",
+    "label": "Revenue Operations",
+    "value": "resume:Revenue Operations"
+   },
+   {
+    "id": "resume:Sales Operations",
+    "label": "Sales Operations",
+    "value": "resume:Sales Operations"
    }
   ],
   "manager": false,
@@ -247,15 +259,16 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 3,
+  "maxYearsExp": 6,
   "regions": [
    {
     "id": "North America",
@@ -278,26 +291,26 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
-   },
-   {
-    "id": "Luxury Goods & Jewelry",
-    "label": "Luxury Goods & Jewelry",
-    "value": "Luxury Goods & Jewelry"
+    "id": "Mental Health Care",
+    "label": "Mental Health Care",
+    "value": "Mental Health Care"
    }
   ],
-  "timeStamp": "2026-08-26T09:52:48Z",
-  "title": "Category Manager - Apparel",
-  "url": "https://job-boards.greenhouse.io/stockx/jobs/8750517002",
-  "jobId": "8750517002",
+  "timeStamp": "2026-08-27T00:00:00Z",
+  "title": "Revenue Operations Lead",
+  "url": "https://jobs.ashbyhq.com/headway/f33bd5f6-de83-481a-8d06-0f16c8f83907",
+  "jobId": "f33bd5f6-de83-481a-8d06-0f16c8f83907",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1857905203121, 'matchScore': 0, 'ageScore': 0.9857905203121142, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1886258920047, 'matchScore': 0, 'ageScore': 0.9886258920046296, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -305,6 +318,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false

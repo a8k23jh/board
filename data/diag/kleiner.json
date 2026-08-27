@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-08-26T23:46:31Z",
+ "run": "2026-08-27T10:00:26Z",
  "homepage": {
   "status": 200,
   "bytes": 19381
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "b1fdowGwVo\u2026",
+  "session.sig": "_tdlPUFhfL\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2NlOTg1ZjE4YzNlNzEwYzllM2RhZmI5NzMxZmI2OTkiLCAic2NvcmUiOiAwLjk5NTAwNDEwOTI1NDI0Mzl9"
+   "sequence": "eyJfaWQiOiAiYWJhMTcxMmY3NTQ0ODdiYTI5NjdkY2ZkNjEyNDEwMGQiLCAic2NvcmUiOiAxLjAxMzY5Mjc2MzQ2OTkwNzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,99 +155,122 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/pairteam/jobs/8747675002",
-  "companyDomain": "pairteam.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/70e77545172a8523fd03934732e1e7cf_288_160?Expires=1861920000&Signature=SyadQxBVTZ0c6lD4sTOrmzoWD1n4XFzPa9yGiLGAMkAgrNQILKNoN",
-  "companyId": "Pair Team",
-  "companySlug": "pair-team",
-  "companyName": "Pair Team",
-  "companyStaffCount": 283,
+  "applyUrl": "https://jobs.ashbyhq.com/handshake/cf91ae55-f8c7-423d-a36f-ef2cb39cd43e?utm_source=jobs.kleinerperkins.com",
+  "companyDomain": "joinhandshake.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6cb0383a5650ae1201e02f59d8e94e34_224_160?Expires=1861920000&Signature=qJtqtGOk4~SnIcwQkyyZfiW6aUt~wcAw43nVQC-xr8~RxckpWBUE0",
+  "companyId": "Handshake",
+  "companySlug": "handshake",
+  "companyName": "Handshake",
+  "companyStaffCount": 7680,
   "considerHosted": false,
   "departments": [
-   "Care Operations"
+   "Finance & Accounting"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "accountant",
+    "label": "Accountant",
+    "value": "accountant"
+   },
+   {
+    "id": "assistant",
+    "label": "Assistant",
+    "value": "assistant"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
+   },
+   {
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
+   }
+  ],
   "locations": [
-   "California"
+   "San Francisco, California, United States",
+   "San Francisco, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 27, 'maxValue': 28, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
    },
    {
-    "id": "resume:Medicare",
-    "label": "Medicare",
-    "value": "resume:Medicare"
+    "id": "resume:GAAP",
+    "label": "GAAP",
+    "value": "resume:GAAP"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:NetSuite",
+    "label": "NetSuite",
+    "value": "resume:NetSuite"
    },
    {
-    "id": "resume:Bilingual",
-    "label": "Bilingual",
-    "value": "resume:Bilingual"
+    "id": "resume:Big 4",
+    "label": "Big 4",
+    "value": "resume:Big 4"
    },
    {
-    "id": "resume:Follow through",
-    "label": "Follow through",
-    "value": "resume:Follow through"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
    },
    {
-    "id": "resume:Medicare",
-    "label": "Medicare",
-    "value": "resume:Medicare"
+    "id": "resume:GAAP",
+    "label": "GAAP",
+    "value": "resume:GAAP"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:NetSuite",
+    "label": "NetSuite",
+    "value": "resume:NetSuite"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Bilingual",
-    "label": "Bilingual",
-    "value": "resume:Bilingual"
+    "id": "resume:Big 4",
+    "label": "Big 4",
+    "value": "resume:Big 4"
    },
    {
-    "id": "resume:Follow through",
-    "label": "Follow through",
-    "value": "resume:Follow through"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Inpatient",
-    "label": "Inpatient",
-    "value": "resume:Inpatient"
+    "id": "resume:CPA",
+    "label": "CPA",
+    "value": "resume:CPA"
    },
    {
-    "id": "resume:Electronic Medical Record (EMR)",
-    "label": "Electronic Medical Record (EMR)",
-    "value": "resume:Electronic Medical Record (EMR)"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    },
    {
-    "id": "resume:Spreadsheets",
-    "label": "Spreadsheets",
-    "value": "resume:Spreadsheets"
+    "id": "resume:IPO",
+    "label": "IPO",
+    "value": "resume:IPO"
    }
   ],
   "manager": false,
@@ -255,14 +278,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
+  "minYearsExp": 8,
   "regions": [
    {
     "id": "Pacific States",
@@ -282,9 +306,9 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -295,18 +319,23 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
+   },
+   {
+    "id": "Workforce and Employment",
+    "label": "Workforce and Employment",
+    "value": "Workforce and Employment"
    }
   ],
-  "timeStamp": "2026-08-26T09:01:03Z",
-  "title": "Field Hospital Enrollment Specialist (Bilingual Spanish)",
-  "url": "https://job-boards.greenhouse.io/pairteam/jobs/8747675002",
-  "jobId": "8747675002",
+  "timeStamp": "2026-08-27T00:00:00Z",
+  "title": "Assistant Controller",
+  "url": "https://jobs.ashbyhq.com/handshake/cf91ae55-f8c7-423d-a36f-ef2cb39cd43e",
+  "jobId": "cf91ae55-f8c7-423d-a36f-ef2cb39cd43e",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1839263351586, 'matchScore': 0, 'ageScore': 0.9839263351585648, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1880863398233, 'matchScore': 0, 'ageScore': 0.9880863398233025, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -314,10 +343,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "junior"
   ],
   "isFeatured": false
  },
