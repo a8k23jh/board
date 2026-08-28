@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-08-28T05:29:17Z",
+ "run": "2026-08-28T18:50:36Z",
  "homepage": {
   "status": 200,
   "bytes": 25237
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "8KMMtUb0K-\u2026",
+  "session.sig": "6nXLTdjqpc\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWEzMmQwZTJiNTVjODRkYmNkYmM0ZjhhNGNmYmQ5MmYiLCAic2NvcmUiOiAxLjA5OTcxNjI2MDc5NjY4MjJ9"
+   "sequence": "eyJfaWQiOiAiNTA3MTNhMjViMTAwYjMyYjgyM2RkODY1OWUxODdmZWYiLCAic2NvcmUiOiAxLjA5MTk5MzI1NzI4MDQ3ODV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,129 +136,161 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://app.careerpuck.com/job-board/prenuvo/job/4727072005",
-  "companyDomain": "prenuvo.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f855494ad06dbd721840918e60608cc8_224_160?Expires=1861920000&Signature=F2KsitJcPnsGLTQzMVD4Ftje4BCUz1jm~hj5Mb1raR1Vzkp~b6xD~",
-  "companyId": "Prenuvo",
-  "companySlug": "prenuvo",
-  "companyName": "Prenuvo",
-  "companyStaffCount": 422,
+  "applyUrl": "https://jobs.ashbyhq.com/Crusoe/9e94c3c9-9941-42a8-9638-bb862532ba7a?utm_source=jobs.felicis.com",
+  "companyDomain": "crusoe.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/83e047ed53d48955e1e39bdd6f3f660f_256_160?Expires=1861920000&Signature=r2eU4jRX2uOXV1AaZbtY7Z5mnhoWhTY0I1PFAYujsp5lQ9CiX1iiB",
+  "companyId": "Crusoe",
+  "companySlug": "crusoe",
+  "companyName": "Crusoe",
+  "companyStaffCount": 1693,
   "considerHosted": false,
-  "departments": [],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "departments": [
+   "Product and Design"
+  ],
+  "jobTypes": [
+   {
+    "id": "principal",
+    "label": "Principal",
+    "value": "principal"
+   },
+   {
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Product Management",
+    "label": "Product Management",
+    "value": "Product Management"
+   }
+  ],
   "locations": [
-   "Wayne, Pennsylvania, United States"
+   "San Francisco, California, USA",
+   "Sunnyvale, California, United States",
+   "San Francisco, CA - US",
+   "Sunnyvale, CA - US"
   ],
   "normalizedLocations": [
    {
-    "id": "Wayne, Pennsylvania",
-    "label": "Wayne, Pennsylvania",
-    "value": "Wayne, Pennsylvania"
+    "id": "Sunnyvale, California",
+    "label": "Sunnyvale, California",
+    "value": "Sunnyvale, California"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 20, 'maxValue': 25, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 285000, 'maxValue': 335000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Mobile",
-    "label": "Mobile",
-    "value": "resume:Mobile"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Magnetic Resonance Imaging",
-    "label": "Magnetic Resonance Imaging",
-    "value": "resume:Magnetic Resonance Imaging"
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
    },
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Background Checks",
-    "label": "Background Checks",
-    "value": "resume:Background Checks"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Mobile",
-    "label": "Mobile",
-    "value": "resume:Mobile"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Magnetic Resonance Imaging",
-    "label": "Magnetic Resonance Imaging",
-    "value": "resume:Magnetic Resonance Imaging"
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
    },
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Background Checks",
-    "label": "Background Checks",
-    "value": "resume:Background Checks"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    },
    {
-    "id": "resume:Emotional Intelligence",
-    "label": "Emotional Intelligence",
-    "value": "resume:Emotional Intelligence"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    },
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Technical Product Management",
+    "label": "Technical Product Management",
+    "value": "resume:Technical Product Management"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 8,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -268,35 +300,43 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Medical Devices",
-    "label": "Medical Devices",
-    "value": "Medical Devices"
+    "id": "Energy",
+    "label": "Energy",
+    "value": "Energy"
    }
   ],
-  "timeStamp": "2026-08-27T21:07:34.638000Z",
-  "title": "Patient Liaison",
-  "url": "https://app.careerpuck.com/job-board/prenuvo/job/4727072005",
-  "jobId": "Gyehp8e3",
+  "timeStamp": "2026-08-28T00:00:00Z",
+  "title": "Principal Product Manager, AI Infrastructure (Storage)",
+  "url": "https://jobs.ashbyhq.com/Crusoe/9e94c3c9-9941-42a8-9638-bb862532ba7a",
+  "jobId": "9e94c3c9-9941-42a8-9638-bb862532ba7a",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1955253151493, 'matchScore': 0, 'ageScore': 0.9955253151493055, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1757117592273, 'matchScore': 0, 'ageScore': 0.9757117592272376, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "senior",
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {
