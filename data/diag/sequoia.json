@@ -1,9 +1,9 @@
 {
  "board": "sequoia",
- "run": "2026-08-27T20:36:11Z",
+ "run": "2026-08-28T05:29:17Z",
  "homepage": {
   "status": 200,
-  "bytes": 20237
+  "bytes": 20238
  },
  "slugs_tried": [
   "sequoia-capital",
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"},\"server\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"},\"server\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "d9aiv2kPtl\u2026",
+  "session.sig": "kfDZX75FSl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzE3MTE0NWRlYjZiODk1YzRjMzAzYzVhOGExNjg1M2IiLCAic2NvcmUiOiAxLjE0MDYwMjI5NjUwNDI0NH0="
+   "sequence": "eyJfaWQiOiAiODUwMGM1NTViZmNiOGI3YTcwNDE0OTc4NTExNjYxNWUiLCAic2NvcmUiOiAxLjE1MjAzNjMxNTYzODUwMzJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,122 +144,122 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8752620002?gh_jid=8752620002",
-  "companyDomain": "spacex.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
-  "companyId": "SpaceX",
-  "companySlug": "spacex",
-  "companyName": "SpaceX",
-  "companyStaffCount": 20713,
+  "applyUrl": "https://jobs.gem.com/wonolo/am9icG9zdDp64ot4m-pZj34qO8cdtOFS?utm_source=jobs.sequoiacap.com",
+  "companyDomain": "wonolo.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec5d4fa0298068cd22d50bb085f94f27_240_160?Expires=1861920000&Signature=fQsngyHmijPhqs1~Ectyxtf3bzQyrDte3D-KYwq-jlxJWrbPHfU-t",
+  "companyId": "Wonolo",
+  "companySlug": "wonolo",
+  "companyName": "Wonolo",
+  "companyStaffCount": 822,
   "considerHosted": false,
   "departments": [
-   "Starlink Satellite Flight Software"
+   "Market Operations"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "recruiting-coordinator",
+    "label": "Recruiting Ops",
+    "value": "recruiting-coordinator"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Redmond, WA"
+   "New York",
+   "Newark, New Jersey"
   ],
   "normalizedLocations": [
    {
-    "id": "Redmond, Washington",
-    "label": "Redmond, Washington",
-    "value": "Redmond, Washington"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   },
+   {
+    "id": "New Jersey",
+    "label": "New Jersey",
+    "value": "New Jersey"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 27, 'maxValue': 38, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Linux",
-    "label": "Linux",
-    "value": "resume:Linux"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:ARM",
-    "label": "ARM",
-    "value": "resume:ARM"
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    },
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Linux",
-    "label": "Linux",
-    "value": "resume:Linux"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:ARM",
-    "label": "ARM",
-    "value": "resume:ARM"
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Computer Architecture",
-    "label": "Computer Architecture",
-    "value": "resume:Computer Architecture"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Performance Optimization",
-    "label": "Performance Optimization",
-    "value": "resume:Performance Optimization"
+    "id": "resume:Bilingual",
+    "label": "Bilingual",
+    "value": "resume:Bilingual"
    },
    {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    }
   ],
   "manager": false,
@@ -275,55 +275,55 @@
     4
    ]
   ],
-  "minYearsExp": 2,
   "regions": [
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-08-27T11:14:22Z",
-  "title": "OS/Platform Software Engineer (Starlink)",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8752620002?gh_jid=8752620002",
-  "jobId": "8752620002",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
+   }
+  ],
+  "timeStamp": "2026-08-27T23:57:40Z",
+  "title": "Recruiting Operations Specialist",
+  "url": "https://jobs.gem.com/wonolo/am9icG9zdDp64ot4m-pZj34qO8cdtOFS",
+  "jobId": "am9icG9zdDp64ot4m-pZj34qO8cdtOFS",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1911018194808, 'matchScore': 0, 'ageScore': 0.9911018194807099, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1999075295698, 'matchScore': 0, 'ageScore': 0.9999075295698302, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

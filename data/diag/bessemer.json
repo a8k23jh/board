@@ -1,9 +1,9 @@
 {
  "board": "bessemer",
- "run": "2026-08-27T20:36:11Z",
+ "run": "2026-08-28T05:29:17Z",
  "homepage": {
   "status": 200,
-  "bytes": 21736
+  "bytes": 21737
  },
  "slugs_tried": [
   "bessemer-ventures",
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"},\"server\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"},\"server\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "v2XnC5q0mR\u2026",
+  "session.sig": "-lG4ko3-NE\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWNjMzRmNDRmMTViYTBhMzk3MDA4NDdkOWU1MDJlNGQiLCAic2NvcmUiOiAxLjEwOTExNTM4MDQ4MjI1M30="
+   "sequence": "eyJfaWQiOiAiOGExMDMyNmNkNTIwMzg1YWI5N2ExM2VlODY3ZjQ3YTciLCAic2NvcmUiOiAxLjExMzMwNTkwMjExODQ0MTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,35 +163,25 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5404725008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "http://xanadu.applytojob.com/apply/CaKllmFeyu/IT-Support-Specialist",
+  "companyDomain": "xanadu.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/5bae33beb1837e6f9cfcf229d8aa132f_288_160?Expires=1861920000&Signature=osiwkS2sfNIUlrNx6ZROc0O7IJyGG52xOQ08WKt6kNwkZxyFpcKcD",
+  "companyId": "Xanadu",
+  "companySlug": "xanadu",
+  "companyName": "Xanadu",
+  "companyStaffCount": 323,
   "considerHosted": false,
   "departments": [
-   "AI Research & Engineering"
+   "Operations"
   ],
   "jobTypes": [
    {
-    "id": "research-scientist",
-    "label": "Research Scientist",
-    "value": "research-scientist"
-   },
-   {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "it-engineer",
+    "label": "IT Support Engineer",
+    "value": "it-engineer"
    }
   ],
   "jobFunctions": [
-   {
-    "id": "Science",
-    "label": "Science",
-    "value": "Science"
-   },
    {
     "id": "Engineering",
     "label": "Engineering",
@@ -199,129 +189,99 @@
    }
   ],
   "locations": [
-   "San Francisco, CA",
-   "New York City, NY"
+   "Toronto, ON, Canada"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Toronto, Ontario, Canada",
+    "label": "Toronto",
+    "value": "Toronto, Ontario, Canada"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 500000, 'maxValue': 850000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 70000, 'maxValue': 90000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
    },
    {
-    "id": "resume:Data Infrastructure",
-    "label": "Data Infrastructure",
-    "value": "resume:Data Infrastructure"
+    "id": "resume:Technical Support",
+    "label": "Technical Support",
+    "value": "resume:Technical Support"
    },
    {
-    "id": "resume:React.js",
-    "label": "React.js",
-    "value": "resume:React.js"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Data Infrastructure",
-    "label": "Data Infrastructure",
-    "value": "resume:Data Infrastructure"
+    "id": "resume:Technical Support",
+    "label": "Technical Support",
+    "value": "resume:Technical Support"
    },
    {
-    "id": "resume:React.js",
-    "label": "React.js",
-    "value": "resume:React.js"
-   },
-   {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
-   },
-   {
-    "id": "resume:Interviewing",
-    "label": "Interviewing",
-    "value": "resume:Interviewing"
-   },
-   {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 1,
+  "maxYearsExp": 5,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -332,9 +292,9 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Quantum",
+    "label": "Quantum",
+    "value": "Quantum"
    },
    {
     "id": "Research",
@@ -342,13 +302,13 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-08-27T09:05:22Z",
-  "title": "Staff+ Research Engineer, RL Data Platform",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5404725008",
-  "jobId": "5404725008",
+  "timeStamp": "2026-08-27T17:58:50Z",
+  "title": "IT Support Specialist",
+  "url": "http://xanadu.applytojob.com/apply/CaKllmFeyu/IT-Support-Specialist",
+  "jobId": "job_20260827131854_NDAJLLTYEVMMFOZT",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1886085032264, 'matchScore': 0, 'ageScore': 0.9886085032264661, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1918396537187, 'matchScore': 0, 'ageScore': 0.99183965371875, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,9 +1,9 @@
 {
  "board": "lightspeed",
- "run": "2026-08-27T20:36:11Z",
+ "run": "2026-08-28T05:29:17Z",
  "homepage": {
   "status": 200,
-  "bytes": 21207
+  "bytes": 21208
  },
  "slugs_tried": [
   "lightspeed",
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"},\"server\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"},\"server\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "usTiFGyJs2\u2026",
+  "session.sig": "YtxnB5w69d\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWEwMGQ3NWQxZTA3MjkzYzJkNmUyZjAyOTA4ZmUzYjEiLCAic2NvcmUiOiAxLjE2NDA4ODg3MTE0Nzc2MjR9"
+   "sequence": "eyJfaWQiOiAiMjIxNjFhMDU1YWI4MWExYTcyOWM0YWQ1NjlkNTJkYzQiLCAic2NvcmUiOiAxLjE2NjMxNzEyNTI3MDA2MTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,128 +144,136 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5223369007?gh_jid=5223369007",
-  "companyDomain": "anduril.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d88ae975c1da94cefaeb3234d6fb00f_238_160?Expires=1861920000&Signature=nPYp1JlJZNMHspk2VuS1aXOsrIHWSiYZCa1mo5aQgLIbL2xCLdDD0",
-  "companyId": "Anduril Industries",
-  "companySlug": "anduril-industries",
-  "companyName": "Anduril Industries",
-  "companyStaffCount": 8452,
+  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8034/",
+  "companyDomain": "infoblox.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
+  "companyId": "Infoblox",
+  "companySlug": "infoblox",
+  "companyName": "Infoblox",
+  "companyStaffCount": 3375,
   "considerHosted": false,
-  "departments": [
-   "AFS : Space Engineering"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "project-manager",
+    "label": "Project Manager",
+    "value": "project-manager"
+   },
+   {
+    "id": "corporate-development",
+    "label": "Corporate Development",
+    "value": "corporate-development"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Project Management",
+    "label": "Project Management",
+    "value": "Project Management"
+   },
+   {
+    "id": "Business Development",
+    "label": "Business Development",
+    "value": "Business Development"
    }
   ],
   "locations": [
-   "Chantilly, Virginia, United States",
-   "Herndon, Virginia, United States"
+   "United States",
+   "Home Office, Raleigh, NC, US"
   ],
   "normalizedLocations": [
    {
-    "id": "Chantilly, Virginia",
-    "label": "Chantilly, Virginia",
-    "value": "Chantilly, Virginia"
+    "id": "Raleigh, North Carolina",
+    "label": "Raleigh, North Carolina",
+    "value": "Raleigh, North Carolina"
    },
    {
-    "id": "Herndon, Virginia",
-    "label": "Herndon, Virginia",
-    "value": "Herndon, Virginia"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 292000, 'maxValue': 386000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 137300, 'maxValue': 209110, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Grant Writing",
-    "label": "Grant Writing",
-    "value": "resume:Grant Writing"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Test Equipment",
-    "label": "Test Equipment",
-    "value": "resume:Test Equipment"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Prototyping",
-    "label": "Prototyping",
-    "value": "resume:Prototyping"
+    "id": "resume:ProSci",
+    "label": "ProSci",
+    "value": "resume:ProSci"
    },
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    },
    {
-    "id": "resume:RF",
-    "label": "RF",
-    "value": "resume:RF"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Grant Writing",
-    "label": "Grant Writing",
-    "value": "resume:Grant Writing"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Test Equipment",
-    "label": "Test Equipment",
-    "value": "resume:Test Equipment"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Prototyping",
-    "label": "Prototyping",
-    "value": "resume:Prototyping"
+    "id": "resume:ProSci",
+    "label": "ProSci",
+    "value": "resume:ProSci"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    },
    {
-    "id": "resume:RF",
-    "label": "RF",
-    "value": "resume:RF"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Process Integration",
+    "label": "Process Integration",
+    "value": "resume:Process Integration"
    },
    {
-    "id": "resume:System Design",
-    "label": "System Design",
-    "value": "resume:System Design"
+    "id": "resume:Sales Operations",
+    "label": "Sales Operations",
+    "value": "resume:Sales Operations"
    },
    {
-    "id": "resume:Spacecraft",
-    "label": "Spacecraft",
-    "value": "resume:Spacecraft"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    }
   ],
   "manager": false,
@@ -279,24 +287,25 @@
    [
     7,
     8
+   ],
+   [
+    9,
+    10,
+    11,
+    12
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 15,
   "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "South Atlantic",
     "label": "South Atlantic",
     "value": "South Atlantic"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -304,28 +313,22 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-08-27T09:43:55Z",
-  "title": "Senior Principal Chief Engineer, Space Special Programs",
-  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5223369007?gh_jid=5223369007",
-  "jobId": "5223369007",
-  "remote": false,
+  "timeStamp": "2026-08-27T23:56:53Z",
+  "title": "Senior Staff Project Manager \u2013 M&A Integrations",
+  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8034/",
+  "jobId": "8034",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1896298387928, 'matchScore': 0, 'ageScore': 0.9896298387928241, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1991764426123, 'matchScore': 0, 'ageScore': 0.9991764426122686, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

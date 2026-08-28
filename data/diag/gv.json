@@ -1,9 +1,9 @@
 {
  "board": "gv",
- "run": "2026-08-27T20:36:11Z",
+ "run": "2026-08-28T05:29:17Z",
  "homepage": {
   "status": 200,
-  "bytes": 26172
+  "bytes": 26173
  },
  "slugs_tried": [
   "gv",
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"},\"server\":{\"git\":\"7988716d9bb8a0ba3ce2426cd836cb12db6ecf56\",\"date\":\"2026-08-27T01:44:09.933Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"},\"server\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "BM6mH-42LE\u2026",
+  "session.sig": "LYERYsPr9l\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjg5ODAxZjBiM2UyZWJjMmVhODM1M2IxMWVkNjE0NDUiLCAic2NvcmUiOiAxLjEzNDQzMDE2MTkzOTQyOX0="
+   "sequence": "eyJfaWQiOiAiNTQzZTdmMGVmZGQ2NzM4Y2UyMzM3MTkzY2YzZWY3OGQiLCAic2NvcmUiOiAxLjEzNjgwMTcxMjE1NDcwNjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,90 +147,111 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/easypost-2/4d8272cd-1b55-46f3-a2ea-5181d0107253?lever-source%5B%5D=jobs.gv.com",
-  "companyDomain": "easypost.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2c5568c53d1d1b2b44084fc41f45171e_272_160?Expires=1861920000&Signature=GXtJqnQfg2MR6xQCtPILKW9YyEWucWjvWyJUJWXUyuqqzCSs1dI6u",
-  "companyId": "EasyPost",
-  "companySlug": "easypost",
-  "companyName": "EasyPost",
-  "companyStaffCount": 372,
+  "applyUrl": "https://jobs.gem.com/modular/am9icG9zdDpPvARjmUUOTSmU7U8Hl48y?utm_source=jobs.gv.com",
+  "companyDomain": "modular.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c95a2e7d26c1c844eb59f8867714914e_208_160?Expires=1861920000&Signature=tbVqoyu8zBB2zh7C5eiQePYOUcf9BHGZV~XrgsXw2AZFjO73FdfPN",
+  "companyId": "Modular",
+  "companySlug": "modular",
+  "companyName": "Modular",
+  "companyStaffCount": 379,
   "considerHosted": false,
   "departments": [
-   "Customer Success"
+   "MAX"
   ],
   "jobTypes": [
    {
-    "id": "sales-development-rep",
-    "label": "Sales Development Representative",
-    "value": "sales-development-rep"
+    "id": "systems-engineer",
+    "label": "Systems Engineer",
+    "value": "systems-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Remote"
+   "United States"
   ],
-  "normalizedLocations": [],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 96057, 'maxValue': 115000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "normalizedLocations": [
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   }
+  ],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 198000, 'maxValue': 242000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Production Support",
+    "label": "Production Support",
+    "value": "resume:Production Support"
    },
    {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    },
    {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
+    "id": "resume:Systems Programming",
+    "label": "Systems Programming",
+    "value": "resume:Systems Programming"
    },
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:Application Software",
+    "label": "Application Software",
+    "value": "resume:Application Software"
    },
    {
-    "id": "resume:Github",
-    "label": "Github",
-    "value": "resume:Github"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Production Support",
+    "label": "Production Support",
+    "value": "resume:Production Support"
    },
    {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    },
    {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
+    "id": "resume:Systems Programming",
+    "label": "Systems Programming",
+    "value": "resume:Systems Programming"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:Application Software",
+    "label": "Application Software",
+    "value": "resume:Application Software"
    },
    {
-    "id": "resume:Github",
-    "label": "Github",
-    "value": "resume:Github"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
+   },
+   {
+    "id": "resume:Diagnostics",
+    "label": "Diagnostics",
+    "value": "resume:Diagnostics"
+   },
+   {
+    "id": "resume:Google Dataflow",
+    "label": "Google Dataflow",
+    "value": "resume:Google Dataflow"
+   },
+   {
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    }
   ],
   "manager": false,
@@ -238,15 +259,22 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "regions": [],
+  "minYearsExp": 5,
+  "regions": [
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   }
+  ],
   "stages": [
    {
     "id": "100-1000 employees",
@@ -262,23 +290,33 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Autonomous Vehicles",
-    "label": "Autonomous Vehicles",
-    "value": "Autonomous Vehicles"
+    "id": "AI/ML",
+    "label": "AI/ML",
+    "value": "AI/ML"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Hardware",
+    "label": "Hardware",
+    "value": "Hardware"
+   },
+   {
+    "id": "Infrastructure",
+    "label": "Infrastructure",
+    "value": "Infrastructure"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-08-27T13:32:01.225000Z",
-  "title": "Insurance Sales Representative",
-  "url": "https://jobs.lever.co/easypost-2/4d8272cd-1b55-46f3-a2ea-5181d0107253",
-  "jobId": "4d8272cd-1b55-46f3-a2ea-5181d0107253",
+  "timeStamp": "2026-08-27T23:58:08Z",
+  "title": "Inference Systems Engineer",
+  "url": "https://jobs.gem.com/modular/am9icG9zdDpPvARjmUUOTSmU7U8Hl48y",
+  "jobId": "am9icG9zdDpPvARjmUUOTSmU7U8Hl48y",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.194775858978, 'matchScore': 0, 'ageScore': 0.9947758589780092, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1997376015848, 'matchScore': 0, 'ageScore': 0.9997376015848766, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
