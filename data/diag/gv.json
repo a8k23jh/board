@@ -1,6 +1,7 @@
 {
  "board": "gv",
- "run": "2026-08-29T14:34:22Z",
+ "run": "2026-08-29T18:40:11Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.gv.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 26173
@@ -34,7 +35,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "HCTJiQs0Fb\u2026",
+  "session.sig": "leiPi6lEWo\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +120,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMGJjMjQxODRjYjg4Mjc1YjMwZmMxOTlmN2EwZTZkY2QiLCAic2NvcmUiOiAxLjExNzc5ODI2MTU4NDQ5MDh9"
+   "sequence": "eyJfaWQiOiAiMDZhZDljOWJlZjZlM2Q0NmZkNzI4OWJjZDZlODAyNzIiLCAic2NvcmUiOiAxLjEyMjA4NzA1NzcwMzMxOH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -147,116 +148,117 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.withwaymo.com/jobs?gh_jid=8163421",
-  "companyDomain": "waymo.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a04896dd1b05b675a7df4762df4fe370_112_160?Expires=1861920000&Signature=EdNw9DPJCYDLbjxU5eEwWJ1ELHjFa3WTlbbzZOXLlSmfSbgMtG32z",
-  "companyId": "Waymo",
-  "companySlug": "waymo",
-  "companyName": "Waymo",
-  "companyStaffCount": 3661,
+  "applyUrl": "https://jobs.ashbyhq.com/ramp/ee45197b-f2f7-455e-8a5e-f0a1db5088e5?utm_source=jobs.gv.com",
+  "companyDomain": "ramp.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2d7237f451ba546eda10ef39996ea406_208_160?Expires=1861920000&Signature=jyt4qwdrX1siWldM1FTld1tW~QIIfQnJx9u~AZ7-vH-ZczFAKh2Fw",
+  "companyId": "Ramp",
+  "companySlug": "ramp",
+  "companyName": "Ramp",
+  "companyStaffCount": 2844,
   "considerHosted": false,
   "departments": [
-   "Regulatory Compliance (CBU)"
+   "People & Talent"
   ],
   "jobTypes": [
    {
-    "id": "compliance-risk",
-    "label": "Risk & Compliance Manager",
-    "value": "compliance-risk"
-   },
-   {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "recruiter",
+    "label": "Recruiter",
+    "value": "recruiter"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Auditing",
-    "label": "Auditing",
-    "value": "Auditing"
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    }
   ],
   "locations": [
-   "Mountain View, CA, USA"
+   "New York City, NY, USA",
+   "New York, NY (HQ)"
   ],
   "normalizedLocations": [
    {
-    "id": "Mountain View, California",
-    "label": "Mountain View, California",
-    "value": "Mountain View, California"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 247000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Risk Analysis",
-    "label": "Risk Analysis",
-    "value": "resume:Risk Analysis"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Performance Metrics",
-    "label": "Performance Metrics",
-    "value": "resume:Performance Metrics"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Risk Analysis",
-    "label": "Risk Analysis",
-    "value": "resume:Risk Analysis"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Performance Metrics",
-    "label": "Performance Metrics",
-    "value": "resume:Performance Metrics"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
    },
    {
-    "id": "resume:AV",
-    "label": "AV",
-    "value": "resume:AV"
+    "id": "resume:Competitive Market Analysis",
+    "label": "Competitive Market Analysis",
+    "value": "resume:Competitive Market Analysis"
    },
    {
-    "id": "resume:Software Project Management",
-    "label": "Software Project Management",
-    "value": "resume:Software Project Management"
+    "id": "resume:Market Research",
+    "label": "Market Research",
+    "value": "resume:Market Research"
    }
   ],
   "manager": false,
@@ -264,31 +266,35 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
-  "maxYearsExp": 12,
+  "minYearsExp": 5,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -306,18 +312,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Autonomous Vehicles",
-    "label": "Autonomous Vehicles",
-    "value": "Autonomous Vehicles"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-08-28T19:40:31Z",
-  "title": "AV Compliance Lead, Fleet & Operator Compliance",
-  "url": "https://careers.withwaymo.com/jobs?gh_jid=8163421",
-  "jobId": "8163421",
+  "timeStamp": "2026-08-29T00:00:00Z",
+  "title": "Senior Recruiter | G&A",
+  "url": "https://jobs.ashbyhq.com/ramp/ee45197b-f2f7-455e-8a5e-f0a1db5088e5",
+  "jobId": "ee45197b-f2f7-455e-8a5e-f0a1db5088e5",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1783924690196, 'matchScore': 0, 'ageScore': 0.9783924690196759, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1755118508029, 'matchScore': 0, 'ageScore': 0.975511850802855, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -325,20 +331,15 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }

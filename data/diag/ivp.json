@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-08-29T14:34:22Z",
+ "run": "2026-08-29T18:40:11Z",
  "homepage": {
   "status": 200,
   "bytes": 19520
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "mEBmSJchuj\u2026",
+  "session.sig": "cXvLWKutzH\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNmViNmU2YTFiYTJjZDM0YWY0NzlhOWE1NTdmOWQyMmYiLCAic2NvcmUiOiAxLjExNzI1NDMyNzQ2NjA0OTR9"
+   "sequence": "eyJfaWQiOiAiYWMyOTU5OWRlNWZiN2M1OTQ5N2Q0Yzg5MGJiMDk2MjkiLCAic2NvcmUiOiAxLjEwODY2OTI1NzMwODY0Mn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -139,7 +139,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5403775008",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5409055008",
   "companyDomain": "anthropic.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
   "companyId": "Anthropic",
@@ -148,21 +148,30 @@
   "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Safeguards (Trust & Safety)"
+   "Finance"
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "systems-engineer",
+    "label": "Systems Engineer",
+    "value": "systems-engineer"
+   },
+   {
+    "id": "director-finance",
+    "label": "Director Finance",
+    "value": "director-finance"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Remote-Friendly (Travel-Required)",
-   "Washington, DC",
    "San Francisco, CA",
-   "New York City, NY"
+   "Seattle, WA"
   ],
   "normalizedLocations": [
    {
@@ -171,76 +180,27 @@
     "value": "San Francisco, California"
    },
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
-    "id": "Washington, District Of Columbia",
-    "label": "Washington, DC",
-    "value": "Washington, District Of Columbia"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 285000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 270000, 'maxValue': 315000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:SOAP",
+    "label": "SOAP",
+    "value": "resume:SOAP"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:Malware Analysis",
-    "label": "Malware Analysis",
-    "value": "resume:Malware Analysis"
-   },
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   },
-   {
-    "id": "resume:Language Models",
-    "label": "Language Models",
-    "value": "resume:Language Models"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   },
-   {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
-   },
-   {
-    "id": "resume:Malware Analysis",
-    "label": "Malware Analysis",
-    "value": "resume:Malware Analysis"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   },
-   {
-    "id": "resume:Language Models",
-    "label": "Language Models",
-    "value": "resume:Language Models"
-   },
-   {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    },
    {
     "id": "resume:Python",
@@ -248,9 +208,53 @@
     "value": "resume:Python"
    },
    {
-    "id": "resume:Threat Hunting",
-    "label": "Threat Hunting",
-    "value": "resume:Threat Hunting"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:SOAP",
+    "label": "SOAP",
+    "value": "resume:SOAP"
+   },
+   {
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
+   },
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Order to Cash",
+    "label": "Order to Cash",
+    "value": "resume:Order to Cash"
+   },
+   {
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
+   },
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    }
   ],
   "manager": false,
@@ -258,29 +262,20 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 12,
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "North America",
@@ -291,6 +286,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -318,30 +318,24 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-08-28T22:52:00Z",
-  "title": "Safeguards Enforcement Lead, Cyber Harms",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5403775008",
-  "jobId": "5403775008",
-  "remote": true,
+  "timeStamp": "2026-08-29T02:34:37Z",
+  "title": "Director, Finance Systems - Revenue Systems Engineering",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409055008",
+  "jobId": "5409055008",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1823289074182, 'matchScore': 0, 'ageScore': 0.9823289074182099, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1797265998051, 'matchScore': 0, 'ageScore': 0.9797265998051697, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },
