@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-08-28T18:50:36Z",
+ "run": "2026-08-29T02:18:26Z",
  "homepage": {
   "status": 200,
   "bytes": 21208
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Ydt3Axdyqp\u2026",
+  "session.sig": "z5xf6d4o6G\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTFkMTA3NDMyODU3MDQ2OWMzMjBiZDgxYWNiN2VhOGEiLCAic2NvcmUiOiAxLjE0ODk5NTcxMzgxNTk3MjN9"
+   "sequence": "eyJfaWQiOiAiNjA4ZWVkODNmY2NjZjBiMWIxOWFjZTFiN2Q0MzZiZWQiLCAic2NvcmUiOiAxLjE1NzI5NDA4MDc4OTczNzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,109 +144,130 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7960/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3375,
+  "applyUrl": "https://www.comeet.com/jobs/cyera/17.008/account-executive---bay-area-enterprise/DD.F60",
+  "companyDomain": "cyera.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec6d92aec09bf6716dbbd9d50089a4ec_208_160?Expires=1861920000&Signature=hr9QoUI4iKYF8Hn~HoiixG3elVHvWPoII2QRBQjO8zeSQJpeGQNuP",
+  "companyId": "Cyera",
+  "companySlug": "cyera",
+  "companyName": "Cyera",
+  "companyStaffCount": 1639,
   "considerHosted": false,
   "departments": [],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
+   },
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "Tacoma, Washington, United States",
-   "2106-2108 Pacific Avenue, Tacoma, WA, US"
+   "Bay Area (US)"
   ],
   "normalizedLocations": [
    {
-    "id": "Tacoma, Washington",
-    "label": "Tacoma, Washington",
-    "value": "Tacoma, Washington"
+    "id": "San Francisco Bay Area",
+    "label": "San Francisco Bay Area",
+    "value": "San Francisco Bay Area"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 61800, 'maxValue': 89100, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 300000, 'maxValue': 360000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Business Strategy",
-    "label": "Business Strategy",
-    "value": "resume:Business Strategy"
+    "id": "resume:Driving Results",
+    "label": "Driving Results",
+    "value": "resume:Driving Results"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Cloud Security",
+    "label": "Cloud Security",
+    "value": "resume:Cloud Security"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:Decision Support",
-    "label": "Decision Support",
-    "value": "resume:Decision Support"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Business Strategy",
-    "label": "Business Strategy",
-    "value": "resume:Business Strategy"
+    "id": "resume:Driving Results",
+    "label": "Driving Results",
+    "value": "resume:Driving Results"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Cloud Security",
+    "label": "Cloud Security",
+    "value": "resume:Cloud Security"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:Decision Support",
-    "label": "Decision Support",
-    "value": "resume:Decision Support"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:IT Ops",
-    "label": "IT Ops",
-    "value": "resume:IT Ops"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Software Project Management",
-    "label": "Software Project Management",
-    "value": "resume:Software Project Management"
+    "id": "resume:Channel Partners",
+    "label": "Channel Partnership",
+    "value": "resume:Channel Partners"
    }
   ],
   "manager": false,
@@ -254,29 +275,25 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
+  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -289,8 +306,14 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
     "id": "Computer & Network Security",
@@ -298,13 +321,13 @@
     "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-08-28T08:56:23Z",
-  "title": "AI Solution Specialist",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7960/",
-  "jobId": "7960",
+  "timeStamp": "2026-08-28T22:16:54Z",
+  "title": "Account Executive - Bay Area (Enterprise)",
+  "url": "https://www.comeet.com/jobs/cyera/17.008/account-executive---bay-area-enterprise/DD.F60",
+  "jobId": "DD.F60",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1921967698248, 'matchScore': 0, 'ageScore': 0.9921967698248457, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1981303694456, 'matchScore': 0, 'ageScore': 0.9981303694456019, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
