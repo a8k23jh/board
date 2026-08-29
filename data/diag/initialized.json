@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-08-29T09:10:55Z",
+ "run": "2026-08-29T14:34:22Z",
  "homepage": {
   "status": 200,
   "bytes": 20930
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ls0XP-zqJl\u2026",
+  "session.sig": "N5vIoU27cv\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -79,32 +79,32 @@
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTFlMGY1NzlmOTJmNTgyMTFmZGI3OTFlMTQ1Y2ZjMWEiLCAic2NvcmUiOiAxMDAuNjg3MjIzOTIwODIxMzd9"
+   "sequence": "eyJfaWQiOiAiMTFlMGY1NzlmOTJmNTgyMTFmZGI3OTFlMTQ1Y2ZjMWEiLCAic2NvcmUiOiAxMDAuNjc5MDIyODM4MDgxNDF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "electrical-engineer",
-    "label": "Electrical Engineer",
-    "value": "electrical-engineer"
-   },
-   {
     "id": "lead",
     "label": "Lead",
     "value": "lead"
+   },
+   {
+    "id": "electrical-engineer",
+    "label": "Electrical Engineer",
+    "value": "electrical-engineer"
    }
   ],
   "jobFunctions": [
@@ -190,58 +190,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 196000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
+    "id": "resume:Interviewing",
+    "label": "Interviewing",
+    "value": "resume:Interviewing"
    },
    {
-    "id": "resume:Front-end Development",
-    "label": "Frontend Web Development",
-    "value": "resume:Front-end Development"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
-    "id": "resume:Commissioning",
-    "label": "Commissioning",
-    "value": "resume:Commissioning"
-   },
-   {
-    "id": "resume:Classification",
-    "label": "Classification Algorithms",
-    "value": "resume:Classification"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
-   },
-   {
-    "id": "resume:Front-end Development",
-    "label": "Frontend Web Development",
-    "value": "resume:Front-end Development"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Commissioning",
-    "label": "Commissioning",
-    "value": "resume:Commissioning"
-   },
-   {
-    "id": "resume:Classification",
-    "label": "Classification Algorithms",
-    "value": "resume:Classification"
+    "id": "resume:System Design",
+    "label": "System Design",
+    "value": "resume:System Design"
    },
    {
     "id": "resume:Batteries",
@@ -249,14 +205,58 @@
     "value": "resume:Batteries"
    },
    {
-    "id": "resume:ANSI",
-    "label": "ANSI",
-    "value": "resume:ANSI"
+    "id": "resume:Front-end Development",
+    "label": "Frontend Web Development",
+    "value": "resume:Front-end Development"
    },
+   {
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
+   }
+  ],
+  "requiredSkills": [
    {
     "id": "resume:Interviewing",
     "label": "Interviewing",
     "value": "resume:Interviewing"
+   },
+   {
+    "id": "resume:System Design",
+    "label": "System Design",
+    "value": "resume:System Design"
+   },
+   {
+    "id": "resume:Batteries",
+    "label": "Batteries",
+    "value": "resume:Batteries"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Front-end Development",
+    "label": "Frontend Web Development",
+    "value": "resume:Front-end Development"
+   },
+   {
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
    }
   ],
   "manager": false,
@@ -275,9 +275,9 @@
   "minYearsExp": 10,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -285,9 +285,9 @@
     "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -316,24 +316,24 @@
   "jobId": "4377500009",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.1618223906396, 'matchScore': 0, 'ageScore': 0.9618223906396605, 'richnessScore': 2}",
+  "scores": "{'score': 1101.1530331017466, 'matchScore': 0, 'ageScore': 0.9530331017465278, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": true
  },

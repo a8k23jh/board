@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-29T09:10:55Z",
+ "run": "2026-08-29T14:34:22Z",
  "homepage": {
   "status": 200,
   "bytes": 21737
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "FFpievukTs\u2026",
+  "session.sig": "E22dTBK36D\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTcwNjFiZjBhNGVmNzlmNmU2Njg2ZWE3MjM0NTY5MjkiLCAic2NvcmUiOiAxLjExMjMyMDM5NzU5OTkyMjd9"
+   "sequence": "eyJfaWQiOiAiZDc3ZmY4NDdkZWU4NzJhMGM3NWM4MmNhNmQ3YjJiZTIiLCAic2NvcmUiOiAxLjEwNzEwMjI1MDgxMTM0MjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5409299008",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5403775008",
   "companyDomain": "anthropic.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
   "companyId": "Anthropic",
@@ -172,49 +172,55 @@
   "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Legal"
+   "Safeguards (Trust & Safety)"
   ],
   "jobTypes": [
    {
-    "id": "legal-counsel",
-    "label": "Legal Counsel",
-    "value": "legal-counsel"
-   },
-   {
-    "id": "regulatory-affairs",
-    "label": "Regulatory Affairs",
-    "value": "regulatory-affairs"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Legal",
-    "label": "Legal",
-    "value": "Legal"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
+   "Remote-Friendly (Travel-Required)",
+   "Washington, DC",
    "San Francisco, CA",
    "New York City, NY"
   ],
   "normalizedLocations": [
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
    {
     "id": "New York, New York",
     "label": "New York, New York",
     "value": "New York, New York"
    },
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 335000, 'maxValue': 385000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 285000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   },
+   {
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
+   },
+   {
+    "id": "resume:Malware Analysis",
+    "label": "Malware Analysis",
+    "value": "resume:Malware Analysis"
    },
    {
     "id": "resume:Biology",
@@ -222,43 +228,38 @@
     "value": "resume:Biology"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Language Models",
+    "label": "Language Models",
+    "value": "resume:Language Models"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
+   {
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
+   },
+   {
+    "id": "resume:Malware Analysis",
+    "label": "Malware Analysis",
+    "value": "resume:Malware Analysis"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Biology",
     "label": "Biology",
     "value": "resume:Biology"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Language Models",
+    "label": "Language Models",
+    "value": "resume:Language Models"
    },
    {
     "id": "resume:Sales Commission",
@@ -266,20 +267,34 @@
     "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:Threat Hunting",
+    "label": "Threat Hunting",
+    "value": "resume:Threat Hunting"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "East Coast",
@@ -287,9 +302,9 @@
     "value": "East Coast"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -297,9 +312,9 @@
     "value": "North America"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -327,16 +342,21 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-08-28T18:04:30Z",
-  "title": "Regulatory Counsel, AI Regulation, US",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409299008",
-  "jobId": "5409299008",
-  "remote": false,
+  "timeStamp": "2026-08-28T22:52:00Z",
+  "title": "Safeguards Enforcement Lead, Cyber Harms",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5403775008",
+  "jobId": "5403775008",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1843065504476, 'matchScore': 0, 'ageScore': 0.9843065504475309, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1823289074182, 'matchScore': 0, 'ageScore': 0.9823289074182099, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -344,6 +364,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false
