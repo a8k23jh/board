@@ -1,7 +1,6 @@
 {
  "board": "gv",
- "run": "2026-08-29T18:40:11Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.gv.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-08-29T21:49:13Z",
  "homepage": {
   "status": 200,
   "bytes": 26173
@@ -35,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "leiPi6lEWo\u2026",
+  "session.sig": "Q3joqTDgQl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -120,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDZhZDljOWJlZjZlM2Q0NmZkNzI4OWJjZDZlODAyNzIiLCAic2NvcmUiOiAxLjEyMjA4NzA1NzcwMzMxOH0="
+   "sequence": "eyJfaWQiOiAiMDZhZDljOWJlZjZlM2Q0NmZkNzI4OWJjZDZlODAyNzIiLCAic2NvcmUiOiAxLjExNzczNzg2MDc0NzI5OTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -179,71 +178,32 @@
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
     "id": "New York",
     "label": "New York",
     "value": "New York"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
     "id": "resume:Research",
     "label": "Research",
     "value": "resume:Research"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
    },
    {
     "id": "resume:Assessment",
@@ -251,9 +211,48 @@
     "value": "resume:Assessment"
    },
    {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
+   {
     "id": "resume:Competitive Market Analysis",
     "label": "Competitive Market Analysis",
     "value": "resume:Competitive Market Analysis"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
     "id": "resume:Market Research",
@@ -277,9 +276,9 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "Northeast",
@@ -287,14 +286,14 @@
     "value": "Northeast"
    },
    {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    }
   ],
   "stages": [
@@ -323,7 +322,7 @@
   "jobId": "ee45197b-f2f7-455e-8a5e-f0a1db5088e5",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1755118508029, 'matchScore': 0, 'ageScore': 0.975511850802855, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1713611234584, 'matchScore': 0, 'ageScore': 0.9713611234583334, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -340,6 +339,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }

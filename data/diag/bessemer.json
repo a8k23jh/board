@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-08-29T18:40:11Z",
+ "run": "2026-08-29T21:49:13Z",
  "homepage": {
   "status": 200,
   "bytes": 21737
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "t4LkWcplud\u2026",
+  "session.sig": "BQtcvE_VOz\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTk5MTdmODIyODAyYzExMzQ0OTllM2VmOTE4YWMzNjUiLCAic2NvcmUiOiAxLjEwMjkwNjQ3MDM1Mzc4MDh9"
+   "sequence": "eyJfaWQiOiAiNzE1ODE3N2Q3ZWY4ODdjZDRiMGYxNzFjNzJkNmUyMmQiLCAic2NvcmUiOiAxLjA5NTI5NTMwMDM3MDc1NjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5403775008",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5409055008",
   "companyDomain": "anthropic.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
   "companyId": "Anthropic",
@@ -172,109 +172,113 @@
   "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Safeguards (Trust & Safety)"
+   "Finance"
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "systems-engineer",
+    "label": "Systems Engineer",
+    "value": "systems-engineer"
+   },
+   {
+    "id": "director-finance",
+    "label": "Director Finance",
+    "value": "director-finance"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Remote-Friendly (Travel-Required)",
-   "Washington, DC",
    "San Francisco, CA",
-   "New York City, NY"
+   "Seattle, WA"
   ],
   "normalizedLocations": [
-   {
-    "id": "Washington, District Of Columbia",
-    "label": "Washington, DC",
-    "value": "Washington, District Of Columbia"
-   },
    {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
    },
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 285000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 270000, 'maxValue': 315000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Language Models",
-    "label": "Language Models",
-    "value": "resume:Language Models"
+    "id": "resume:Salesforce CPQ",
+    "label": "Salesforce CPQ",
+    "value": "resume:Salesforce CPQ"
    },
    {
-    "id": "resume:Exploit Development",
-    "label": "Exploit Development",
-    "value": "resume:Exploit Development"
+    "id": "resume:ASC 606",
+    "label": "ASC 606",
+    "value": "resume:ASC 606"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Language Models",
-    "label": "Language Models",
-    "value": "resume:Language Models"
+    "id": "resume:Salesforce CPQ",
+    "label": "Salesforce CPQ",
+    "value": "resume:Salesforce CPQ"
    },
    {
-    "id": "resume:Exploit Development",
-    "label": "Exploit Development",
-    "value": "resume:Exploit Development"
+    "id": "resume:ASC 606",
+    "label": "ASC 606",
+    "value": "resume:ASC 606"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
     "id": "resume:SQL",
     "label": "SQL",
     "value": "resume:SQL"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -282,39 +286,35 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 12,
   "regions": [
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -342,30 +342,24 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-08-28T22:52:00Z",
-  "title": "Safeguards Enforcement Lead, Cyber Harms",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5403775008",
-  "jobId": "5403775008",
-  "remote": true,
+  "timeStamp": "2026-08-29T02:34:37Z",
+  "title": "Director, Finance Systems - Revenue Systems Engineering",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409055008",
+  "jobId": "5409055008",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1782316676462, 'matchScore': 0, 'ageScore': 0.9782316676462192, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1748421023113, 'matchScore': 0, 'ageScore': 0.9748421023113426, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "director"
   ],
   "isFeatured": false
  },

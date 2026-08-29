@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-29T18:40:11Z",
+ "run": "2026-08-29T21:49:13Z",
  "homepage": {
   "status": 200,
   "bytes": 20715
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "NFC9hf_nS5\u2026",
+  "session.sig": "U3G6wlxTNp\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDBmZDllNGMxMDMzY2QxZGVmY2JhZDFjNzkzYTU4NGQiLCAic2NvcmUiOiAxLjEwOTM5MjExOTA0NDc1M30="
+   "sequence": "eyJfaWQiOiAiNGY4ZWMxMmNhM2IyNDA1ODU0OTIxNzQ2YmJhMmZlMzIiLCAic2NvcmUiOiAxLjEwNTAwMjg3MjQ1MzMxNzl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -206,9 +206,14 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 46.03, 'maxValue': 99.14, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
+   },
+   {
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    },
    {
     "id": "resume:NPS",
@@ -216,14 +221,9 @@
     "value": "resume:NPS"
    },
    {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
-   },
-   {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Health/Human Services",
+    "label": "Health/Human Services",
+    "value": "resume:Health/Human Services"
    },
    {
     "id": "resume:CVS",
@@ -233,26 +233,26 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
+   },
+   {
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    },
    {
     "id": "resume:NPS",
     "label": "NPS",
     "value": "resume:NPS"
-   },
-   {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Health/Human Services",
+    "label": "Health/Human Services",
+    "value": "resume:Health/Human Services"
    },
    {
     "id": "resume:CVS",
@@ -260,14 +260,14 @@
     "value": "resume:CVS"
    },
    {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    },
    {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    }
   ],
   "manager": false,
@@ -285,14 +285,14 @@
   ],
   "regions": [
    {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    },
    {
     "id": "West Coast",
@@ -300,9 +300,9 @@
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -331,19 +331,19 @@
   "jobId": "R1026996",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1761817437998, 'matchScore': 0, 'ageScore': 0.9761817437997685, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1717875237655, 'matchScore': 0, 'ageScore': 0.9717875237654321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
    },
    {
     "id": "junior",
@@ -357,8 +357,8 @@
    }
   ],
   "jobSeniorityIds": [
-   "expert",
    "senior",
+   "expert",
    "junior",
    "mid"
   ],
