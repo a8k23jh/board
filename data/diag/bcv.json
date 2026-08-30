@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-30T06:49:24Z",
+ "run": "2026-08-30T13:00:44Z",
  "homepage": {
   "status": 200,
   "bytes": 20715
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "GziaZ48A-i\u2026",
+  "session.sig": "DTG-UawWZR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTI0NjY5NjljMmVlZDcwNDk2NzgzNjBkNDVjYzFiNjIiLCAic2NvcmUiOiAxLjA5MjU4MjI3NDMyNzU0NjJ9"
+   "sequence": "eyJfaWQiOiAiODQ0NDRjYjc4NjJlNTU3MDQ4NDU4NjA4NWMxYzE1N2IiLCAic2NvcmUiOiAxLjA4NDM5NDY4NDI2ODEzMjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1025653/In-Home-Health-Physician-Full-Time-Portland-ME",
+  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1026993/In-Home-Health-Nurse-Practitioner-or-Physician-Assistant-Part-Time-Seattle-Pierce-WA",
   "companyDomain": "signifyhealth.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/99c6eb3fb8f6516bd248544cef759df3_320_160?Expires=1861920000&Signature=ftG2yoquWQ77fhZJlIDtDtJjH0EkrbN-V-l5EkosBrwWnHIsKX3Yj",
   "companyId": "Signify Health",
@@ -176,72 +176,39 @@
   ],
   "jobTypes": [
    {
-    "id": "medical-professional",
-    "label": "Medical Professional",
-    "value": "medical-professional"
+    "id": "physician-assistant",
+    "label": "Physician Assistant",
+    "value": "physician-assistant"
+   },
+   {
+    "id": "nurse",
+    "label": "Nurse",
+    "value": "nurse"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
+   }
+  ],
   "locations": [
-   "Augusta, Maine, United States"
+   "Work\u00a0at Home, Washington, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Maine",
-    "label": "Maine",
-    "value": "Maine"
+    "id": "Washington",
+    "label": "Washington State",
+    "value": "Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 174070, 'maxValue': 374920, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 46.03, 'maxValue': 99.14, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
-   },
-   {
     "id": "resume:Treatment",
     "label": "Treatment",
     "value": "resume:Treatment"
-   },
-   {
-    "id": "resume:Primary Care",
-    "label": "Primary Care",
-    "value": "resume:Primary Care"
-   },
-   {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
-   },
-   {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
-   },
-   {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
-   },
-   {
-    "id": "resume:Primary Care",
-    "label": "Primary Care",
-    "value": "resume:Primary Care"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
    },
    {
     "id": "resume:Health/Human Services",
@@ -254,20 +221,78 @@
     "value": "resume:iPad"
    },
    {
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
+   },
+   {
     "id": "resume:CVS",
     "label": "CVS",
     "value": "resume:CVS"
    }
   ],
+  "requiredSkills": [
+   {
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
+   },
+   {
+    "id": "resume:Health/Human Services",
+    "label": "Health/Human Services",
+    "value": "resume:Health/Human Services"
+   },
+   {
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
+   },
+   {
+    "id": "resume:CVS",
+    "label": "CVS",
+    "value": "resume:CVS"
+   },
+   {
+    "id": "resume:NPS",
+    "label": "NPS",
+    "value": "resume:NPS"
+   },
+   {
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
+   }
+  ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "North America",
@@ -275,9 +300,9 @@
     "value": "North America"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -301,29 +326,41 @@
    }
   ],
   "timeStamp": "2026-08-29T00:00:00Z",
-  "title": "In-Home Health - Physician (Full Time)- Portland ME",
-  "url": "https://jobs.cvshealth.com/us/en/job/R1025653/In-Home-Health-Physician-Full-Time-Portland-ME",
-  "jobId": "R1025653",
+  "title": "In-Home Health - Nurse Practitioner or Physician Assistant (Part Time) -  Seattle/ Pierce, WA",
+  "url": "https://jobs.cvshealth.com/us/en/job/R1026993/In-Home-Health-Nurse-Practitioner-or-Physician-Assistant-Part-Time-Seattle-Pierce-WA",
+  "jobId": "R1026993",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1595776720679, 'matchScore': 0, 'ageScore': 0.9595776720679012, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1511011617971, 'matchScore': 0, 'ageScore': 0.9511011617970679, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "expert",
     "label": "Expert",
     "value": "expert"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "expert"
+   "expert",
+   "junior",
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

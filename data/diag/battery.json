@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-08-30T06:49:24Z",
+ "run": "2026-08-30T13:00:44Z",
  "homepage": {
   "status": 200,
   "bytes": 18745
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "9JGoR71O9m\u2026",
+  "session.sig": "hwQoM6HW5R\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTkyYzc0NjM0NDEyNDhmNDg4YTFkODM4YjJkMWM3NDIiLCAic2NvcmUiOiAxLjA3Mjg1MjA2NDI0OTIyODN9"
+   "sequence": "eyJfaWQiOiAiYzllMjFlN2M3NmJjMjBlNjQ4MWI4YTAyZGVhMzIzZTEiLCAic2NvcmUiOiAxLjA2NDg5MTQ1OTExMzQyNn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -175,9 +175,9 @@
   ],
   "normalizedLocations": [
    {
-    "id": "Montreal, Quebec, Canada",
-    "label": "Montreal, Quebec, Canada",
-    "value": "Montreal, Quebec, Canada"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    },
    {
     "id": "Toronto, Ontario, Canada",
@@ -185,76 +185,27 @@
     "value": "Toronto, Ontario, Canada"
    },
    {
+    "id": "Montreal, Quebec, Canada",
+    "label": "Montreal, Quebec, Canada",
+    "value": "Montreal, Quebec, Canada"
+   },
+   {
     "id": "New York",
     "label": "New York",
     "value": "New York"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
-   },
-   {
-    "id": "resume:Performance Optimization",
-    "label": "Performance Optimization",
-    "value": "resume:Performance Optimization"
+    "id": "resume:TensorRT",
+    "label": "TensorRT",
+    "value": "resume:TensorRT"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Performance Optimization",
-    "label": "Performance Optimization",
-    "value": "resume:Performance Optimization"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Algorithms",
-    "label": "Algorithms",
-    "value": "resume:Algorithms"
    },
    {
     "id": "resume:Machine Learning",
@@ -265,6 +216,55 @@
     "id": "resume:Neural Networks",
     "label": "Deep Learning",
     "value": "resume:Neural Networks"
+   },
+   {
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:TensorRT",
+    "label": "TensorRT",
+    "value": "resume:TensorRT"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Neural Networks",
+    "label": "Deep Learning",
+    "value": "resume:Neural Networks"
+   },
+   {
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
+   },
+   {
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
+   },
+   {
+    "id": "resume:Dynamo",
+    "label": "Dynamo",
+    "value": "resume:Dynamo"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "manager": false,
@@ -287,14 +287,9 @@
     "value": "Mid Atlantic"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "West Coast",
@@ -302,9 +297,14 @@
     "value": "West Coast"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -348,7 +348,7 @@
   "jobId": "40bce839-10ad-4274-a988-7cee8e0f795e",
   "remote": true,
   "hybrid": true,
-  "scores": "{'score': 1001.1593711877782, 'matchScore': 0, 'ageScore': 0.9593711877781635, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1507151745124, 'matchScore': 0, 'ageScore': 0.9507151745123457, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

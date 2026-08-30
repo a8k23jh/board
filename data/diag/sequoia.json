@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-30T06:49:24Z",
+ "run": "2026-08-30T13:00:44Z",
  "homepage": {
   "status": 200,
   "bytes": 20238
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "dESeWCaVdR\u2026",
+  "session.sig": "JUVw8E7Jdh\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjhkZTk3ODM5M2NmNWI4NGQxNjhhNTI2NDY3YzllYWMiLCAic2NvcmUiOiAxLjEwOTYwODUyNzIyMjIyMjN9"
+   "sequence": "eyJfaWQiOiAiYjhkZTk3ODM5M2NmNWI4NGQxNjhhNTI2NDY3YzllYWMiLCAic2NvcmUiOiAxLjEwMTk0NjU3MzM4NTgwMjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,207 +144,197 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/bigpanda/am9icG9zdDrqP8r_kePNnoFl9aAU05h5?utm_source=jobs.sequoiacap.com",
-  "companyDomain": "bigpanda.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/379a2d633ca42e464b33e9fb7676ec48_288_160?Expires=1861920000&Signature=lwSqcN9QQMuxHrM53UKktEJy3sYioHgxbMl41-H4pIbH~LCrfo4gx",
-  "companyId": "BigPanda",
-  "companySlug": "bigpanda",
-  "companyName": "BigPanda",
-  "companyStaffCount": 333,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8763492002?gh_jid=8763492002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "Marketing"
+   "Application Software"
   ],
   "jobTypes": [
    {
-    "id": "marketing-acquisition",
-    "label": "Marketing Acquisition",
-    "value": "marketing-acquisition"
+    "id": "fullstack-engineer",
+    "label": "Full Stack Engineer",
+    "value": "fullstack-engineer"
    },
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
-    "id": "digital-marketing-manager",
-    "label": "Digital Marketing Manager",
-    "value": "digital-marketing-manager"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "USA"
+   "Palo Alto, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Palo Alto, California",
+    "label": "Palo Alto, California",
+    "value": "Palo Alto, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 151725, 'maxValue': 210000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
    },
    {
-    "id": "resume:ROI",
-    "label": "ROI",
-    "value": "resume:ROI"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Performance Marketing",
-    "label": "Performance Marketing",
-    "value": "resume:Performance Marketing"
+    "id": "resume:SQL Server",
+    "label": "Microsoft SQL Server",
+    "value": "resume:SQL Server"
    },
    {
-    "id": "resume:Marketing Technology",
-    "label": "Marketing Technology",
-    "value": "resume:Marketing Technology"
+    "id": "resume:Bazel",
+    "label": "Bazel",
+    "value": "resume:Bazel"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
    },
    {
-    "id": "resume:ROI",
-    "label": "ROI",
-    "value": "resume:ROI"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Performance Marketing",
-    "label": "Performance Marketing",
-    "value": "resume:Performance Marketing"
+    "id": "resume:SQL Server",
+    "label": "Microsoft SQL Server",
+    "value": "resume:SQL Server"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Marketing Technology",
-    "label": "Marketing Technology",
-    "value": "resume:Marketing Technology"
+    "id": "resume:Bazel",
+    "label": "Bazel",
+    "value": "resume:Bazel"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Web Analytics",
-    "label": "Web Analytics",
-    "value": "resume:Web Analytics"
+    "id": "resume:Scala",
+    "label": "Scala",
+    "value": "resume:Scala"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    },
    {
-    "id": "resume:SEO",
-    "label": "SEO",
-    "value": "resume:SEO"
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
    ]
   ],
+  "minYearsExp": 2,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
    },
    {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
-   },
-   {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-08-28T23:56:35Z",
-  "title": "Senior Director, Web & Digital Marketing",
-  "url": "https://jobs.gem.com/bigpanda/am9icG9zdDrqP8r_kePNnoFl9aAU05h5",
-  "jobId": "am9icG9zdDrqP8r_kePNnoFl9aAU05h5",
-  "remote": true,
+  "timeStamp": "2026-08-30T02:17:26Z",
+  "title": "Full Stack Engineer, Employee Experience",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8763492002?gh_jid=8763492002",
+  "jobId": "8763492002",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1592837449854, 'matchScore': 0, 'ageScore': 0.9592837449853395, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1867777924707, 'matchScore': 0, 'ageScore': 0.986777792470679, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "mid"
   ],
   "isFeatured": false
  },
