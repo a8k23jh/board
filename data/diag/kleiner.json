@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-08-30T21:15:17Z",
+ "run": "2026-08-30T23:36:38Z",
  "homepage": {
   "status": 200,
   "bytes": 19382
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "9-RuvoBvff\u2026",
+  "session.sig": "A0HdDLR6O0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTFkMGNkNzQyYjU4MzY0N2JkNGQzMjFjNjkwODJlNWEiLCAic2NvcmUiOiAxLjAwODYwMTk2NzEyNzMxNDh9"
+   "sequence": "eyJfaWQiOiAiMzk4OTVlMmQ4YTExMTAyNzA3YmFlZGRmMjIxMjhhOWMiLCAic2NvcmUiOiAxLjAwNDUxMzgxMDYwMjIzNzh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -166,14 +166,14 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
-   },
-   {
     "id": "sales-professional",
     "label": "Sales Professional",
     "value": "sales-professional"
+   },
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
    },
    {
     "id": "sales",
@@ -201,73 +201,73 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 500000, 'maxValue': 500000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
    },
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Pattern Recognition",
+    "label": "Pattern Recognition",
+    "value": "resume:Pattern Recognition"
    }
   ],
   "requiredSkills": [
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
-   },
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
-    "id": "resume:Commission Plans",
-    "label": "Commission Plans",
-    "value": "resume:Commission Plans"
-   },
    {
     "id": "resume:Taxes",
     "label": "Taxes",
     "value": "resume:Taxes"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
+   },
+   {
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Pattern Recognition",
+    "label": "Pattern Recognition",
+    "value": "resume:Pattern Recognition"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "manager": false,
@@ -280,6 +280,11 @@
    ]
   ],
   "regions": [
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
    {
     "id": "Rust Belt",
     "label": "Great Lakes Region",
@@ -294,11 +299,6 @@
     "id": "Central US",
     "label": "Central US",
     "value": "Central US"
-   },
-   {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
    }
   ],
   "stages": [
@@ -327,7 +327,7 @@
   "jobId": "4458835303",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1809353239872, 'matchScore': 0, 'ageScore': 0.9809353239872686, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1770641180714, 'matchScore': 0, 'ageScore': 0.9770641180713735, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

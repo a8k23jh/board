@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-30T21:15:17Z",
+ "run": "2026-08-30T23:36:38Z",
  "homepage": {
   "status": 200,
   "bytes": 20715
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "xf9w4WaAnH\u2026",
+  "session.sig": "2-EA3usF0_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTY2MTAzYzI2ZmJjMWYyYTZlNGIyNTNhYTA5NWMxOWQiLCAic2NvcmUiOiAxLjA3NTk0OTI5MDY2MjgwODV9"
+   "sequence": "eyJfaWQiOiAiNDU3NjI3MGVkMjc2ZGE5NjM3OGRlNGJkM2E4YWU4ODUiLCAic2NvcmUiOiAxLjA3MTgwNjEzNjE2NzgyNDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1026986/In-Home-Health-Nurse-Practitioner-or-Physician-Assistant-Per-Diem-Pullman-WA",
+  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1018132/In-Home-Health-Nurse-Practitioner-or-Physician-Assistant-Per-Diem-Fort-Collins-CO",
   "companyDomain": "signifyhealth.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/99c6eb3fb8f6516bd248544cef759df3_320_160?Expires=1861920000&Signature=ftG2yoquWQ77fhZJlIDtDtJjH0EkrbN-V-l5EkosBrwWnHIsKX3Yj",
   "companyId": "Signify Health",
@@ -194,70 +194,26 @@
    }
   ],
   "locations": [
-   "Work\u00a0at Home, Washington, United States"
+   "Work\u00a0at Home, Colorado, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Washington",
-    "label": "Washington State",
-    "value": "Washington"
+    "id": "Colorado",
+    "label": "Colorado",
+    "value": "Colorado"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 46.03, 'maxValue': 99.14, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 41.85, 'maxValue': 90.13, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
-   },
-   {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
-   },
-   {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
-   },
-   {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
-   },
-   {
     "id": "resume:NPS",
     "label": "NPS",
     "value": "resume:NPS"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
    },
    {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
-   },
-   {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
-   },
-   {
-    "id": "resume:NPS",
-    "label": "NPS",
-    "value": "resume:NPS"
+    "id": "resume:Health/Human Services",
+    "label": "Health/Human Services",
+    "value": "resume:Health/Human Services"
    },
    {
     "id": "resume:State & Local",
@@ -265,9 +221,53 @@
     "value": "resume:State & Local"
    },
    {
+    "id": "resume:CVS",
+    "label": "CVS",
+    "value": "resume:CVS"
+   },
+   {
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:NPS",
+    "label": "NPS",
+    "value": "resume:NPS"
+   },
+   {
     "id": "resume:Health/Human Services",
     "label": "Health/Human Services",
     "value": "resume:Health/Human Services"
+   },
+   {
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:CVS",
+    "label": "CVS",
+    "value": "resume:CVS"
+   },
+   {
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
+   },
+   {
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
+   },
+   {
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    }
   ],
   "manager": false,
@@ -285,24 +285,9 @@
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
    }
   ],
   "stages": [
@@ -326,19 +311,19 @@
    }
   ],
   "timeStamp": "2026-08-29T00:00:00Z",
-  "title": "In-Home Health - Nurse Practitioner or Physician Assistant (Per Diem) - Pullman, WA",
-  "url": "https://jobs.cvshealth.com/us/en/job/R1026986/In-Home-Health-Nurse-Practitioner-or-Physician-Assistant-Per-Diem-Pullman-WA",
-  "jobId": "R1026986",
+  "title": "In-Home Health - Nurse Practitioner or Physician Assistant (Per Diem) -  Fort Collins, CO",
+  "url": "https://jobs.cvshealth.com/us/en/job/R1018132/In-Home-Health-Nurse-Practitioner-or-Physician-Assistant-Per-Diem-Fort-Collins-CO",
+  "jobId": "R1018132",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1427906941794, 'matchScore': 0, 'ageScore': 0.9427906941793981, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1387119158287, 'matchScore': 0, 'ageScore': 0.9387119158287037, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    },
    {
     "id": "mid",
@@ -346,9 +331,9 @@
     "value": "mid"
    },
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    },
    {
     "id": "expert",
@@ -357,9 +342,9 @@
    }
   ],
   "jobSeniorityIds": [
-   "junior",
-   "mid",
    "senior",
+   "mid",
+   "junior",
    "expert"
   ],
   "isFeatured": false

@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-08-30T21:15:17Z",
+ "run": "2026-08-30T23:36:38Z",
  "homepage": {
   "status": 200,
   "bytes": 19520
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "K_yVXdoETO\u2026",
+  "session.sig": "hoaCwA6amV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2M2ZmNmMTc4NDA4ODgyMGY3MWIwMjdjMmM3YzY4MTYiLCAic2NvcmUiOiAxLjA3NTY2NDUwMjc4Mjc5MzF9"
+   "sequence": "eyJfaWQiOiAiZTU5N2YxOTE3MTE2ZTI2OTVjZWUzOTNiNGQ1NWJmZDgiLCAic2NvcmUiOiAxLjA3MTQ2MzE1NjU3NDA3NH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,14 +152,14 @@
   ],
   "jobTypes": [
    {
-    "id": "systems-engineer",
-    "label": "Systems Engineer",
-    "value": "systems-engineer"
-   },
-   {
     "id": "director-finance",
     "label": "Director Finance",
     "value": "director-finance"
+   },
+   {
+    "id": "systems-engineer",
+    "label": "Systems Engineer",
+    "value": "systems-engineer"
    }
   ],
   "jobFunctions": [
@@ -175,32 +175,22 @@
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
     "id": "Seattle, Washington",
     "label": "Seattle, Washington",
     "value": "Seattle, Washington"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 270000, 'maxValue': 315000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
-   },
-   {
-    "id": "resume:OTC",
-    "label": "OTC",
-    "value": "resume:OTC"
+    "id": "resume:ASC 606",
+    "label": "ASC 606",
+    "value": "resume:ASC 606"
    },
    {
     "id": "resume:JavaScript",
@@ -208,16 +198,53 @@
     "value": "resume:JavaScript"
    },
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
+   },
+   {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:ASC 606",
+    "label": "ASC 606",
+    "value": "resume:ASC 606"
+   },
+   {
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
+   },
+   {
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
     "id": "resume:Java",
@@ -225,36 +252,9 @@
     "value": "resume:Java"
    },
    {
-    "id": "resume:OTC",
-    "label": "OTC",
-    "value": "resume:OTC"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:JavaScript",
-    "label": "JavaScript",
-    "value": "resume:JavaScript"
-   },
-   {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
-   },
-   {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
-   },
-   {
-    "id": "resume:MPP Databases",
-    "label": "MPP Databases",
-    "value": "resume:MPP Databases"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:XML",
+    "label": "XML",
+    "value": "resume:XML"
    }
   ],
   "manager": false,
@@ -273,14 +273,9 @@
   "minYearsExp": 12,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "North America",
@@ -288,9 +283,14 @@
     "value": "North America"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -324,7 +324,7 @@
   "jobId": "5409055008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1463134882396, 'matchScore': 0, 'ageScore': 0.9463134882395833, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1415468690606, 'matchScore': 0, 'ageScore': 0.941546869060571, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

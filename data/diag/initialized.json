@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-08-30T21:15:17Z",
+ "run": "2026-08-30T23:36:38Z",
  "homepage": {
   "status": 200,
   "bytes": 20930
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "UD376MfB5A\u2026",
+  "session.sig": "XRTyHV1LMI\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzY4ODBhMTViZGZkNzRjZDM1MzU5NmQzNzY2ZjgxZjgiLCAic2NvcmUiOiAxMDAuNjIzMzkxODU5NzAwNjJ9"
+   "sequence": "eyJfaWQiOiAiMzY4ODBhMTViZGZkNzRjZDM1MzU5NmQzNzY2ZjgxZjgiLCAic2NvcmUiOiAxMDAuNjE5MjM1MTkzNzM4MDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "electrical-engineer",
-    "label": "Electrical Engineer",
-    "value": "electrical-engineer"
-   },
-   {
     "id": "lead",
     "label": "Lead",
     "value": "lead"
+   },
+   {
+    "id": "electrical-engineer",
+    "label": "Electrical Engineer",
+    "value": "electrical-engineer"
    }
   ],
   "jobFunctions": [
@@ -195,9 +195,14 @@
     "value": "resume:Front-end Development"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Interviewing",
+    "label": "Interviewing",
+    "value": "resume:Interviewing"
+   },
+   {
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
    },
    {
     "id": "resume:ANSI",
@@ -205,14 +210,9 @@
     "value": "resume:ANSI"
    },
    {
-    "id": "resume:Batteries",
-    "label": "Batteries",
-    "value": "resume:Batteries"
-   },
-   {
-    "id": "resume:Interviewing",
-    "label": "Interviewing",
-    "value": "resume:Interviewing"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    }
   ],
   "requiredSkills": [
@@ -222,31 +222,21 @@
     "value": "resume:Front-end Development"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
-    "id": "resume:ANSI",
-    "label": "ANSI",
-    "value": "resume:ANSI"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Batteries",
-    "label": "Batteries",
-    "value": "resume:Batteries"
-   },
-   {
     "id": "resume:Interviewing",
     "label": "Interviewing",
     "value": "resume:Interviewing"
    },
    {
-    "id": "resume:Classification",
-    "label": "Classification Algorithms",
-    "value": "resume:Classification"
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:ANSI",
+    "label": "ANSI",
+    "value": "resume:ANSI"
    },
    {
     "id": "resume:Onboarding",
@@ -254,9 +244,19 @@
     "value": "resume:Onboarding"
    },
    {
-    "id": "resume:System Design",
-    "label": "System Design",
-    "value": "resume:System Design"
+    "id": "resume:Power Generation",
+    "label": "Power Generation",
+    "value": "resume:Power Generation"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    }
   ],
   "manager": false,
@@ -275,9 +275,9 @@
   "minYearsExp": 10,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Pacific States",
@@ -285,9 +285,9 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -316,24 +316,24 @@
   "jobId": "4377500009",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.1110812532206, 'matchScore': 0, 'ageScore': 0.911081253220679, 'richnessScore': 2}",
+  "scores": "{'score': 1101.1072567470783, 'matchScore': 0, 'ageScore': 0.9072567470783179, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": true
  },

@@ -1,7 +1,6 @@
 {
  "board": "gv",
- "run": "2026-08-30T21:15:17Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.gv.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-08-30T23:36:38Z",
  "homepage": {
   "status": 200,
   "bytes": 26173
@@ -35,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "PzgGph4LB6\u2026",
+  "session.sig": "fi8TEZvIC2\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -120,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjFhZjE1MmM4ZTZmOWMxYzhjMjkxMTlhZTE2Y2M5NjAiLCAic2NvcmUiOiAxLjA5MjI4NzIwMDIxMjk2Mjl9"
+   "sequence": "eyJfaWQiOiAiNjFhZjE1MmM4ZTZmOWMxYzhjMjkxMTlhZTE2Y2M5NjAiLCAic2NvcmUiOiAxLjA4ODIwNDk2OTY2MjQyMjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -161,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "biotech-scientist",
-    "label": "Scientist",
-    "value": "biotech-scientist"
-   },
-   {
     "id": "research-scientist",
     "label": "Research Scientist",
     "value": "research-scientist"
+   },
+   {
+    "id": "biotech-scientist",
+    "label": "Scientist",
+    "value": "biotech-scientist"
    }
   ],
   "jobFunctions": [
@@ -186,14 +185,14 @@
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
     "id": "Kirkland, Washington",
     "label": "Kirkland, Washington",
     "value": "Kirkland, Washington"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    },
    {
     "id": "San Francisco, California",
@@ -214,14 +213,14 @@
     "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
     "id": "resume:Recruiting",
     "label": "Recruiting",
     "value": "resume:Recruiting"
+   },
+   {
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
     "id": "resume:Equity",
@@ -229,9 +228,9 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Robotics",
-    "label": "Robotics",
-    "value": "resume:Robotics"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "requiredSkills": [
@@ -241,14 +240,14 @@
     "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
     "id": "resume:Recruiting",
     "label": "Recruiting",
     "value": "resume:Recruiting"
+   },
+   {
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    }
   ],
   "preferredSkills": [
@@ -258,19 +257,19 @@
     "value": "resume:Equity"
    },
    {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
     "id": "resume:Robotics",
     "label": "Robotics",
     "value": "resume:Robotics"
    },
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Reinforcement Learning",
+    "label": "Reinforcement Learning",
+    "value": "resume:Reinforcement Learning"
    },
    {
     "id": "resume:Open Source Software",
@@ -299,6 +298,11 @@
     "value": "Pacific States"
    },
    {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
@@ -309,14 +313,9 @@
     "value": "East Coast"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -345,7 +344,7 @@
   "jobId": "8165872",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1734935250768, 'matchScore': 0, 'ageScore': 0.9734935250767747, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1693545325162, 'matchScore': 0, 'ageScore': 0.9693545325162037, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -362,6 +361,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
