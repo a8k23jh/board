@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-30T00:26:45Z",
+ "run": "2026-08-30T06:49:24Z",
  "homepage": {
   "status": 200,
   "bytes": 20715
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "sZSf0lOWXn\u2026",
+  "session.sig": "GziaZ48A-i\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGY4ZWMxMmNhM2IyNDA1ODU0OTIxNzQ2YmJhMmZlMzIiLCAic2NvcmUiOiAxLjEwNTAwMjg3MjQ1MzMxNzl9"
+   "sequence": "eyJfaWQiOiAiMTI0NjY5NjljMmVlZDcwNDk2NzgzNjBkNDVjYzFiNjIiLCAic2NvcmUiOiAxLjA5MjU4MjI3NDMyNzU0NjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1026996/In-Home-Health-Nurse-Practitioner-or-Physician-Assistant-Per-Diem-Seattle-Pierce-WA",
+  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1025653/In-Home-Health-Physician-Full-Time-Portland-ME",
   "companyDomain": "signifyhealth.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/99c6eb3fb8f6516bd248544cef759df3_320_160?Expires=1861920000&Signature=ftG2yoquWQ77fhZJlIDtDtJjH0EkrbN-V-l5EkosBrwWnHIsKX3Yj",
   "companyId": "Signify Health",
@@ -176,133 +176,108 @@
   ],
   "jobTypes": [
    {
-    "id": "nurse",
-    "label": "Nurse",
-    "value": "nurse"
-   },
-   {
-    "id": "physician-assistant",
-    "label": "Physician Assistant",
-    "value": "physician-assistant"
+    "id": "medical-professional",
+    "label": "Medical Professional",
+    "value": "medical-professional"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Administrative",
-    "label": "Administrative",
-    "value": "Administrative"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Work\u00a0at Home, Washington, United States"
+   "Augusta, Maine, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Washington",
-    "label": "Washington State",
-    "value": "Washington"
+    "id": "Maine",
+    "label": "Maine",
+    "value": "Maine"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 46.03, 'maxValue': 99.14, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 174070, 'maxValue': 374920, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
-   },
-   {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
-   },
-   {
-    "id": "resume:NPS",
-    "label": "NPS",
-    "value": "resume:NPS"
-   },
-   {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
-   },
-   {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
-   },
-   {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
-   },
-   {
-    "id": "resume:NPS",
-    "label": "NPS",
-    "value": "resume:NPS"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
-   },
-   {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
-   },
    {
     "id": "resume:State & Local",
     "label": "State & Local",
     "value": "resume:State & Local"
    },
    {
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
+   },
+   {
+    "id": "resume:Primary Care",
+    "label": "Primary Care",
+    "value": "resume:Primary Care"
+   },
+   {
     "id": "resume:Medicine",
     "label": "Medicine",
     "value": "resume:Medicine"
+   },
+   {
+    "id": "resume:Health/Human Services",
+    "label": "Health/Human Services",
+    "value": "resume:Health/Human Services"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
+   },
+   {
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
+   },
+   {
+    "id": "resume:Primary Care",
+    "label": "Primary Care",
+    "value": "resume:Primary Care"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
+   },
+   {
+    "id": "resume:Health/Human Services",
+    "label": "Health/Human Services",
+    "value": "resume:Health/Human Services"
+   },
+   {
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
+   },
+   {
+    "id": "resume:CVS",
+    "label": "CVS",
+    "value": "resume:CVS"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ]
-  ],
+  "considerLevels": [],
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -326,12 +301,12 @@
    }
   ],
   "timeStamp": "2026-08-29T00:00:00Z",
-  "title": "In-Home Health - Nurse Practitioner or Physician Assistant (Per Diem) - Seattle/ Pierce, WA",
-  "url": "https://jobs.cvshealth.com/us/en/job/R1026996/In-Home-Health-Nurse-Practitioner-or-Physician-Assistant-Per-Diem-Seattle-Pierce-WA",
-  "jobId": "R1026996",
+  "title": "In-Home Health - Physician (Full Time)- Portland ME",
+  "url": "https://jobs.cvshealth.com/us/en/job/R1025653/In-Home-Health-Physician-Full-Time-Portland-ME",
+  "jobId": "R1025653",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1717875237655, 'matchScore': 0, 'ageScore': 0.9717875237654321, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1595776720679, 'matchScore': 0, 'ageScore': 0.9595776720679012, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -344,23 +319,11 @@
     "id": "expert",
     "label": "Expert",
     "value": "expert"
-   },
-   {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
    "senior",
-   "expert",
-   "junior",
-   "mid"
+   "expert"
   ],
   "isFeatured": false
  },

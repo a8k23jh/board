@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-08-30T00:26:45Z",
+ "run": "2026-08-30T06:49:24Z",
  "homepage": {
   "status": 200,
   "bytes": 20930
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "S5ByE5MZBl\u2026",
+  "session.sig": "5Lw0c6vDry\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTFlMGY1NzlmOTJmNTgyMTFmZGI3OTFlMTQ1Y2ZjMWEiLCAic2NvcmUiOiAxMDAuNjYxODMwMzQ3NzkzMjF9"
+   "sequence": "eyJfaWQiOiAiZjBlZDU3YTdiMGQyNzZjNDNiZjA0MDM1NjFjZjdjNjgiLCAic2NvcmUiOiAxMDAuNjQwOTA3MTA3NTI2MjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "electrical-engineer",
-    "label": "Electrical Engineer",
-    "value": "electrical-engineer"
-   },
-   {
     "id": "lead",
     "label": "Lead",
     "value": "lead"
+   },
+   {
+    "id": "electrical-engineer",
+    "label": "Electrical Engineer",
+    "value": "electrical-engineer"
    }
   ],
   "jobFunctions": [
@@ -190,9 +190,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 196000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Power Generation",
-    "label": "Power Generation",
-    "value": "resume:Power Generation"
+    "id": "resume:Commissioning",
+    "label": "Commissioning",
+    "value": "resume:Commissioning"
    },
    {
     "id": "resume:Batteries",
@@ -200,53 +200,9 @@
     "value": "resume:Batteries"
    },
    {
-    "id": "resume:Classification",
-    "label": "Classification Algorithms",
-    "value": "resume:Classification"
-   },
-   {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
-   },
-   {
     "id": "resume:System Design",
     "label": "System Design",
     "value": "resume:System Design"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Power Generation",
-    "label": "Power Generation",
-    "value": "resume:Power Generation"
-   },
-   {
-    "id": "resume:Batteries",
-    "label": "Batteries",
-    "value": "resume:Batteries"
-   },
-   {
-    "id": "resume:Classification",
-    "label": "Classification Algorithms",
-    "value": "resume:Classification"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
-   },
-   {
-    "id": "resume:System Design",
-    "label": "System Design",
-    "value": "resume:System Design"
-   },
-   {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
    },
    {
     "id": "resume:Front-end Development",
@@ -257,6 +213,50 @@
     "id": "resume:Onboarding",
     "label": "Onboarding",
     "value": "resume:Onboarding"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Commissioning",
+    "label": "Commissioning",
+    "value": "resume:Commissioning"
+   },
+   {
+    "id": "resume:Batteries",
+    "label": "Batteries",
+    "value": "resume:Batteries"
+   },
+   {
+    "id": "resume:System Design",
+    "label": "System Design",
+    "value": "resume:System Design"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Front-end Development",
+    "label": "Frontend Web Development",
+    "value": "resume:Front-end Development"
+   },
+   {
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
+   },
+   {
+    "id": "resume:ANSI",
+    "label": "ANSI",
+    "value": "resume:ANSI"
+   },
+   {
+    "id": "resume:Classification",
+    "label": "Classification Algorithms",
+    "value": "resume:Classification"
+   },
+   {
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
    }
   ],
   "manager": false,
@@ -275,11 +275,6 @@
   "minYearsExp": 10,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -288,6 +283,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -316,7 +316,7 @@
   "jobId": "4377500009",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.1364669730285, 'matchScore': 0, 'ageScore': 0.9364669730285494, 'richnessScore': 2}",
+  "scores": "{'score': 1101.1282537560178, 'matchScore': 0, 'ageScore': 0.928253756017747, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
