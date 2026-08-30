@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-30T17:37:32Z",
+ "run": "2026-08-30T21:15:17Z",
  "homepage": {
   "status": 200,
   "bytes": 20715
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "VWJfwiSS8w\u2026",
+  "session.sig": "xf9w4WaAnH\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWNkMTc2YzlmMGMyYWRiODZiMmY2YTcxYjYzN2ZhM2MiLCAic2NvcmUiOiAxLjA4MDMxODkwMDA4NDEwNX0="
+   "sequence": "eyJfaWQiOiAiOTY2MTAzYzI2ZmJjMWYyYTZlNGIyNTNhYTA5NWMxOWQiLCAic2NvcmUiOiAxLjA3NTk0OTI5MDY2MjgwODV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1027000/In-Home-Health-NP-or-PA-Full-Time-Seattle-Snohomish-WA",
+  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1026986/In-Home-Health-Nurse-Practitioner-or-Physician-Assistant-Per-Diem-Pullman-WA",
   "companyDomain": "signifyhealth.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/99c6eb3fb8f6516bd248544cef759df3_320_160?Expires=1861920000&Signature=ftG2yoquWQ77fhZJlIDtDtJjH0EkrbN-V-l5EkosBrwWnHIsKX3Yj",
   "companyId": "Signify Health",
@@ -174,8 +174,25 @@
   "departments": [
    ""
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "nurse",
+    "label": "Nurse",
+    "value": "nurse"
+   },
+   {
+    "id": "physician-assistant",
+    "label": "Physician Assistant",
+    "value": "physician-assistant"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
+   }
+  ],
   "locations": [
    "Work\u00a0at Home, Washington, United States"
   ],
@@ -186,17 +203,12 @@
     "value": "Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 95738, 'maxValue': 206206, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 46.03, 'maxValue': 99.14, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
-   },
-   {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    },
    {
     "id": "resume:CVS",
@@ -204,9 +216,14 @@
     "value": "resume:CVS"
    },
    {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
+   },
+   {
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    },
    {
     "id": "resume:NPS",
@@ -216,26 +233,26 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
-   },
-   {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    },
    {
     "id": "resume:CVS",
     "label": "CVS",
     "value": "resume:CVS"
+   },
+   {
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    },
    {
     "id": "resume:NPS",
@@ -248,25 +265,34 @@
     "value": "resume:State & Local"
    },
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:Health/Human Services",
+    "label": "Health/Human Services",
+    "value": "resume:Health/Human Services"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
   "regions": [
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -274,9 +300,9 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    }
   ],
   "stages": [
@@ -300,16 +326,42 @@
    }
   ],
   "timeStamp": "2026-08-29T00:00:00Z",
-  "title": "In-Home Health - NP or PA (Full Time) -  Seattle/ Snohomish, WA",
-  "url": "https://jobs.cvshealth.com/us/en/job/R1027000/In-Home-Health-NP-or-PA-Full-Time-Seattle-Snohomish-WA",
-  "jobId": "R1027000",
+  "title": "In-Home Health - Nurse Practitioner or Physician Assistant (Per Diem) - Pullman, WA",
+  "url": "https://jobs.cvshealth.com/us/en/job/R1026986/In-Home-Health-Nurse-Practitioner-or-Physician-Assistant-Per-Diem-Pullman-WA",
+  "jobId": "R1026986",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1469754496335, 'matchScore': 0, 'ageScore': 0.9469754496334877, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1427906941794, 'matchScore': 0, 'ageScore': 0.9427906941793981, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
+   {
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
+   }
+  ],
+  "jobSeniorityIds": [
+   "junior",
+   "mid",
+   "senior",
+   "expert"
+  ],
   "isFeatured": false
  },
  "search_mode": {
