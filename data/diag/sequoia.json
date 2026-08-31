@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-08-31T05:47:58Z",
+ "run": "2026-08-31T14:08:18Z",
  "homepage": {
   "status": 200,
   "bytes": 20238
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "XI-dvoj131\u2026",
+  "session.sig": "XZGzzmACaM\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGUwY2YzYWExNDFmZTJjZDJkZDBmNDUzNDk2NWIyYjkiLCAic2NvcmUiOiAxLjA4NjM0NDc5MjY1MDQ2M30="
+   "sequence": "eyJfaWQiOiAiNTE4MGEzOWE1ODYwNjllY2ZkMDA0Zjk4ZGU1ZjRhNjkiLCAic2NvcmUiOiAxLjA3MzQzMTA4NTYzMDAxNTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,148 +144,133 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/cultureamp/jobs/8141047",
-  "companyDomain": "cultureamp.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/327bc3784e87456009ec852f749418b1_320_160?Expires=1861920000&Signature=sWrhzz0ezbGbjk3But6I18ml7DSgpYNE7E9eKMwEVo-Csss6vVt8a",
-  "companyId": "Culture Amp",
-  "companySlug": "culture-amp",
-  "companyName": "Culture AMP",
-  "companyStaffCount": 894,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8749175002?gh_jid=8749175002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "CSSX"
+   "Starshield Satellite Engineering"
   ],
   "jobTypes": [
    {
-    "id": "customer-success-mananger",
-    "label": "Customer Success Manager",
-    "value": "customer-success-mananger"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Chicago, IL"
+   "Hawthorne, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Chicago, Illinois",
-    "label": "Chicago, Illinois",
-    "value": "Chicago, Illinois"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 131000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:gnc",
+    "label": "gnc",
+    "value": "resume:gnc"
    },
    {
-    "id": "resume:Asana",
-    "label": "Asana",
-    "value": "resume:Asana"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Stakeholder Engagement",
-    "label": "Stakeholder Engagement",
-    "value": "resume:Stakeholder Engagement"
+    "id": "resume:Git",
+    "label": "Git",
+    "value": "resume:Git"
    },
    {
-    "id": "resume:Employee Engagement",
-    "label": "Employee Engagement",
-    "value": "resume:Employee Engagement"
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
    },
    {
-    "id": "resume:Customer Engagement",
-    "label": "Customer Engagement",
-    "value": "resume:Customer Engagement"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:gnc",
+    "label": "gnc",
+    "value": "resume:gnc"
    },
    {
-    "id": "resume:Asana",
-    "label": "Asana",
-    "value": "resume:Asana"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Stakeholder Engagement",
-    "label": "Stakeholder Engagement",
-    "value": "resume:Stakeholder Engagement"
+    "id": "resume:Git",
+    "label": "Git",
+    "value": "resume:Git"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Employee Engagement",
-    "label": "Employee Engagement",
-    "value": "resume:Employee Engagement"
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
    },
    {
-    "id": "resume:Customer Engagement",
-    "label": "Customer Engagement",
-    "value": "resume:Customer Engagement"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
    },
    {
-    "id": "resume:GRR",
-    "label": "Gross Retention Rate",
-    "value": "resume:GRR"
+    "id": "resume:Matlab",
+    "label": "Matlab",
+    "value": "resume:Matlab"
    },
    {
-    "id": "resume:Change Management",
-    "label": "Change Management",
-    "value": "resume:Change Management"
+    "id": "resume:gnss",
+    "label": "gnss",
+    "value": "resume:gnss"
    },
    {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ]
-  ],
-  "minYearsExp": 3,
+  "considerLevels": [],
   "regions": [
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -293,49 +278,48 @@
     "value": "North America"
    },
    {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-08-30T15:58:24Z",
-  "title": "Senior Customer Success Manager, Enterprise",
-  "url": "https://job-boards.greenhouse.io/cultureamp/jobs/8141047",
-  "jobId": "8141047",
+  "timeStamp": "2026-08-31T01:14:35Z",
+  "title": "GNC Engineer, ADCS (Starshield)",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8749175002?gh_jid=8749175002",
+  "jobId": "8749175002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1891890875397, 'matchScore': 0, 'ageScore': 0.9891890875397377, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1862539019031, 'matchScore': 0, 'ageScore': 0.9862539019031635, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },

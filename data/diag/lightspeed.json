@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-08-31T05:47:58Z",
+ "run": "2026-08-31T14:08:18Z",
  "homepage": {
   "status": 200,
   "bytes": 21208
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "9CZc1p55od\u2026",
+  "session.sig": "s3ua-WhlcR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWYzMDIyMTU0ZWM3ZDIxZDA2NGQ1YTMwOWQ5MDQ3OGUiLCAic2NvcmUiOiAxLjEwMDExMTI1OTcyMDI5M30="
+   "sequence": "eyJfaWQiOiAiYzc3MTY1NTk2NmI5MjI0MzMzMTc4Y2JjNTA4ZjA2NWUiLCAic2NvcmUiOiAxLjA4Mzk3MzEwMTI4NTEwOH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,118 +144,143 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.kula.ai/pebblelife/54040",
-  "companyDomain": "pebblelife.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a631e78611e22160c140db796d366d52_288_160?Expires=1861920000&Signature=nm31qxKDs0fs7D4bz~cBKanL7kAgUDQDMe1UcjxU1ITk4GFFrzbCv",
-  "companyId": "Pebble Life",
-  "companySlug": "pebble-life",
-  "companyName": "Pebble",
-  "companyStaffCount": 98,
+  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8037/",
+  "companyDomain": "infoblox.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
+  "companyId": "Infoblox",
+  "companySlug": "infoblox",
+  "companyName": "Infoblox",
+  "companyStaffCount": 3375,
   "considerHosted": false,
-  "departments": [
-   "Production"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "supervisor",
-    "label": "Supervisor",
-    "value": "supervisor"
+    "id": "senior-sales-engineer",
+    "label": "Senior Sales Engineer",
+    "value": "senior-sales-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Fremont, California, United States"
+   "California, United States",
+   "Home Office, Sacramento, CA, US"
   ],
   "normalizedLocations": [
    {
-    "id": "Fremont, California",
-    "label": "Fremont, California",
-    "value": "Fremont, California"
+    "id": "California",
+    "label": "California",
+    "value": "California"
+   },
+   {
+    "id": "Sacramento, California",
+    "label": "Sacramento, California",
+    "value": "Sacramento, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 28, 'maxValue': 35, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:IPv4",
+    "label": "IPv4",
+    "value": "resume:IPv4"
    },
    {
-    "id": "resume:Ticketing Systems",
-    "label": "Ticketing Systems",
-    "value": "resume:Ticketing Systems"
+    "id": "resume:Positioning",
+    "label": "Positioning",
+    "value": "resume:Positioning"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:IPv4",
+    "label": "IPv4",
+    "value": "resume:IPv4"
    },
    {
-    "id": "resume:Ticketing Systems",
-    "label": "Ticketing Systems",
-    "value": "resume:Ticketing Systems"
+    "id": "resume:Positioning",
+    "label": "Positioning",
+    "value": "resume:Positioning"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Routers",
+    "label": "Routers",
+    "value": "resume:Routers"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:DevOps",
+    "label": "DevOps",
+    "value": "resume:DevOps"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 3,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
@@ -265,51 +290,45 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Automotive",
-    "label": "Automotive",
-    "value": "Automotive"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-08-28T23:56:09Z",
-  "title": "Internal Vehicle Fleet Supervisor",
-  "url": "https://careers.kula.ai/pebblelife/54040",
-  "jobId": "54040",
-  "remote": false,
+  "timeStamp": "2026-08-31T08:58:13Z",
+  "title": "Senior Sales Engineer - Northern California",
+  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8037/",
+  "jobId": "8037",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1332952499877, 'matchScore': 0, 'ageScore': 0.9332952499876543, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1963365419746, 'matchScore': 0, 'ageScore': 0.996336541974537, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

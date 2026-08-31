@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-08-31T05:47:58Z",
+ "run": "2026-08-31T14:08:18Z",
  "homepage": {
   "status": 200,
   "bytes": 19382
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Nb6bb-EReF\u2026",
+  "session.sig": "FtiQpMEMlV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWIyZGRmZjRmZWM4MTUxOTQwZDdlOTFkNjZhMDMzYzAiLCAic2NvcmUiOiAxLjA5MTE2ODM4MDg0Mzc1fQ=="
+   "sequence": "eyJfaWQiOiAiMjI1NjA0ZTc0ZGNhNDM5NTFkODJlODNjMzE0MDFlMTgiLCAic2NvcmUiOiAxLjA4NDUzNzkwNDU3MzY4ODN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/CesiumAstro/6bef50e9-d454-4566-8541-da0af19382e8?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "applyUrl": "https://jobs.lever.co/CesiumAstro/9f8fdd2b-296d-408e-8295-c7c1c9dfa83c?lever-source%5B%5D=jobs.kleinerperkins.com",
   "companyDomain": "cesiumastro.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
   "companyId": "CesiumAstro",
@@ -168,9 +168,9 @@
   ],
   "jobTypes": [
    {
-    "id": "mechanical-engineer",
-    "label": "Mechanical Engineer",
-    "value": "mechanical-engineer"
+    "id": "firmware-engineer",
+    "label": "Firmware Engineer",
+    "value": "firmware-engineer"
    }
   ],
   "jobFunctions": [
@@ -190,66 +190,12 @@
     "value": "El Segundo, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 118000, 'maxValue': 142000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 168000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
-   {
-    "id": "resume:ANSYS",
-    "label": "ANSYS",
-    "value": "resume:ANSYS"
-   },
-   {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
-   {
-    "id": "resume:ANSYS",
-    "label": "ANSYS",
-    "value": "resume:ANSYS"
-   },
-   {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
-   },
-   {
-    "id": "resume:Spacecraft",
-    "label": "Spacecraft",
-    "value": "resume:Spacecraft"
+    "id": "resume:Software Development Process",
+    "label": "Software Development Processes",
+    "value": "resume:Software Development Process"
    },
    {
     "id": "resume:Department of State",
@@ -257,9 +203,63 @@
     "value": "resume:Department of State"
    },
    {
-    "id": "resume:SolidWorks",
-    "label": "SolidWorks",
-    "value": "resume:SolidWorks"
+    "id": "resume:Space Technology",
+    "label": "Space Technology",
+    "value": "resume:Space Technology"
+   },
+   {
+    "id": "resume:software testing",
+    "label": "Software Testing",
+    "value": "resume:software testing"
+   },
+   {
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Software Development Process",
+    "label": "Software Development Processes",
+    "value": "resume:Software Development Process"
+   },
+   {
+    "id": "resume:Department of State",
+    "label": "Department of State",
+    "value": "resume:Department of State"
+   },
+   {
+    "id": "resume:Space Technology",
+    "label": "Space Technology",
+    "value": "resume:Space Technology"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:software testing",
+    "label": "Software Testing",
+    "value": "resume:software testing"
+   },
+   {
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
+   },
+   {
+    "id": "resume:Engineering Design",
+    "label": "Engineering Design",
+    "value": "resume:Engineering Design"
+   },
+   {
+    "id": "resume:BSP",
+    "label": "BSP",
+    "value": "resume:BSP"
+   },
+   {
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
    }
   ],
   "manager": false,
@@ -269,15 +269,14 @@
    [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 4,
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
@@ -287,6 +286,11 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -314,13 +318,13 @@
     "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-08-30T22:13:59.122000Z",
-  "title": "Senior Mechanical Engineer",
-  "url": "https://jobs.lever.co/CesiumAstro/6bef50e9-d454-4566-8541-da0af19382e8",
-  "jobId": "6bef50e9-d454-4566-8541-da0af19382e8",
+  "timeStamp": "2026-08-31T00:28:31.565000Z",
+  "title": "Senior Embedded Software Engineer",
+  "url": "https://jobs.lever.co/CesiumAstro/9f8fdd2b-296d-408e-8295-c7c1c9dfa83c",
+  "jobId": "9f8fdd2b-296d-408e-8295-c7c1c9dfa83c",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1981923997257, 'matchScore': 0, 'ageScore': 0.9981923997256944, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1849227407284, 'matchScore': 0, 'ageScore': 0.984922740728395, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
