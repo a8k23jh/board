@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-08-30T23:36:38Z",
+ "run": "2026-08-31T05:47:58Z",
  "homepage": {
   "status": 200,
   "bytes": 26173
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "fi8TEZvIC2\u2026",
+  "session.sig": "FsnfN74yt8\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjFhZjE1MmM4ZTZmOWMxYzhjMjkxMTlhZTE2Y2M5NjAiLCAic2NvcmUiOiAxLjA4ODIwNDk2OTY2MjQyMjd9"
+   "sequence": "eyJfaWQiOiAiNTljNGZhMDVjNWZjMjIwMGViYzgxYTRhZTU3NmUyNDYiLCAic2NvcmUiOiAxLjA4MzA3MDA3NzA1MTY5NzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "research-scientist",
-    "label": "Research Scientist",
-    "value": "research-scientist"
-   },
-   {
     "id": "biotech-scientist",
     "label": "Scientist",
     "value": "biotech-scientist"
+   },
+   {
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
    }
   ],
   "jobFunctions": [
@@ -190,14 +190,14 @@
     "value": "Kirkland, Washington"
    },
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    },
    {
     "id": "Mountain View, California",
@@ -208,58 +208,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 204000, 'maxValue': 259000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
     "id": "resume:Modeling",
     "label": "Modeling",
     "value": "resume:Modeling"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
    },
    {
     "id": "resume:Robotics",
@@ -267,14 +218,63 @@
     "value": "resume:Robotics"
    },
    {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
     "id": "resume:Reinforcement Learning",
     "label": "Reinforcement Learning",
     "value": "resume:Reinforcement Learning"
    },
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
+   },
+   {
+    "id": "resume:Robotics",
+    "label": "Robotics",
+    "value": "resume:Robotics"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Reinforcement Learning",
+    "label": "Reinforcement Learning",
+    "value": "resume:Reinforcement Learning"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "manager": false,
@@ -298,9 +298,9 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "Northeast",
@@ -308,14 +308,14 @@
     "value": "Northeast"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    }
   ],
   "stages": [
@@ -344,7 +344,7 @@
   "jobId": "8165872",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1693545325162, 'matchScore': 0, 'ageScore': 0.9693545325162037, 'richnessScore': 2}",
+  "scores": "{'score': 1001.163861528343, 'matchScore': 0, 'ageScore': 0.9638615283429784, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

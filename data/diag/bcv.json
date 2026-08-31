@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-30T23:36:38Z",
+ "run": "2026-08-31T05:47:58Z",
  "homepage": {
   "status": 200,
   "bytes": 20715
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "2-EA3usF0_\u2026",
+  "session.sig": "vebhNxN0wl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDU3NjI3MGVkMjc2ZGE5NjM3OGRlNGJkM2E4YWU4ODUiLCAic2NvcmUiOiAxLjA3MTgwNjEzNjE2NzgyNDJ9"
+   "sequence": "eyJfaWQiOiAiZDJlZTJhNjI3OTEzMzU1YmRlMTA5ZmRjZTQxNGM2ZWEiLCAic2NvcmUiOiAxLjA2NjkxOTgwNDkxOTM2NzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1018132/In-Home-Health-Nurse-Practitioner-or-Physician-Assistant-Per-Diem-Fort-Collins-CO",
+  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1025477/In-Home-NP-PA-Part-Time-Trenton-NJ",
   "companyDomain": "signifyhealth.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/99c6eb3fb8f6516bd248544cef759df3_320_160?Expires=1861920000&Signature=ftG2yoquWQ77fhZJlIDtDtJjH0EkrbN-V-l5EkosBrwWnHIsKX3Yj",
   "companyId": "Signify Health",
@@ -176,89 +176,24 @@
   ],
   "jobTypes": [
    {
-    "id": "nurse",
-    "label": "Nurse",
-    "value": "nurse"
-   },
-   {
-    "id": "physician-assistant",
-    "label": "Physician Assistant",
-    "value": "physician-assistant"
+    "id": "freelance",
+    "label": "Contractor",
+    "value": "freelance"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Administrative",
-    "label": "Administrative",
-    "value": "Administrative"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Work\u00a0at Home, Colorado, United States"
+   "Work\u00a0at Home, New Jersey, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Colorado",
-    "label": "Colorado",
-    "value": "Colorado"
+    "id": "New Jersey",
+    "label": "New Jersey",
+    "value": "New Jersey"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 41.85, 'maxValue': 90.13, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 46.03, 'maxValue': 99.14, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:NPS",
-    "label": "NPS",
-    "value": "resume:NPS"
-   },
-   {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
-   },
-   {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
-   },
-   {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
-   },
-   {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:NPS",
-    "label": "NPS",
-    "value": "resume:NPS"
-   },
-   {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
-   },
-   {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
-   },
-   {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
-   },
    {
     "id": "resume:Treatment",
     "label": "Treatment",
@@ -268,22 +203,82 @@
     "id": "resume:Medicine",
     "label": "Medicine",
     "value": "resume:Medicine"
+   },
+   {
+    "id": "resume:NPS",
+    "label": "NPS",
+    "value": "resume:NPS"
+   },
+   {
+    "id": "resume:Health/Human Services",
+    "label": "Health/Human Services",
+    "value": "resume:Health/Human Services"
+   },
+   {
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
+   },
+   {
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
+   },
+   {
+    "id": "resume:NPS",
+    "label": "NPS",
+    "value": "resume:NPS"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Health/Human Services",
+    "label": "Health/Human Services",
+    "value": "resume:Health/Human Services"
+   },
+   {
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
+   },
+   {
+    "id": "resume:CVS",
+    "label": "CVS",
+    "value": "resume:CVS"
+   },
+   {
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    }
   ],
   "manager": false,
   "consultant": false,
-  "contractor": false,
-  "considerLevels": [
-   [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ]
-  ],
+  "contractor": true,
+  "considerLevels": [],
   "regions": [
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -311,42 +306,16 @@
    }
   ],
   "timeStamp": "2026-08-29T00:00:00Z",
-  "title": "In-Home Health - Nurse Practitioner or Physician Assistant (Per Diem) -  Fort Collins, CO",
-  "url": "https://jobs.cvshealth.com/us/en/job/R1018132/In-Home-Health-Nurse-Practitioner-or-Physician-Assistant-Per-Diem-Fort-Collins-CO",
-  "jobId": "R1018132",
+  "title": "In-Home NP/PA (Part Time) -Trenton, NJ",
+  "url": "https://jobs.cvshealth.com/us/en/job/R1025477/In-Home-NP-PA-Part-Time-Trenton-NJ",
+  "jobId": "R1025477",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1387119158287, 'matchScore': 0, 'ageScore': 0.9387119158287037, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1339942875409, 'matchScore': 0, 'ageScore': 0.9339942875408951, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
-   }
-  ],
-  "jobSeniorityIds": [
-   "senior",
-   "mid",
-   "junior",
-   "expert"
-  ],
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {
