@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-08-31T14:08:18Z",
+ "run": "2026-08-31T20:12:50Z",
  "homepage": {
   "status": 200,
   "bytes": 21208
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"},\"server\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"},\"server\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "s3ua-WhlcR\u2026",
+  "session.sig": "243ytyWg7y\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzc3MTY1NTk2NmI5MjI0MzMzMTc4Y2JjNTA4ZjA2NWUiLCAic2NvcmUiOiAxLjA4Mzk3MzEwMTI4NTEwOH0="
+   "sequence": "eyJfaWQiOiAiODJlM2Y3MzcwYjlmZjVmN2U4YzBjNWRmYWZmYzM4OTEiLCAic2NvcmUiOiAxLjA4ODg4NTY2MjI0NjE0Mn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,31 +144,38 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8037/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3375,
+  "applyUrl": "https://careers.vinted.com/jobs/4834608101?gh_jid=4834608101",
+  "companyDomain": "vinted.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/dbad8e00507381f7334c80ec4762244a_192_160?Expires=1861920000&Signature=ey44G9xKs7RyJsJYnwMY~a5DjFvmPAKGWkndMUWNzgdj0wKKeXv8m",
+  "companyId": "Vinted",
+  "companySlug": "vinted",
+  "companyName": "Vinted",
+  "companyStaffCount": 4398,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Engineering"
+  ],
   "jobTypes": [
    {
-    "id": "senior-sales-engineer",
-    "label": "Senior Sales Engineer",
-    "value": "senior-sales-engineer"
+    "id": "director-engineering",
+    "label": "Director of Engineering",
+    "value": "director-engineering"
+   },
+   {
+    "id": "frontend-engineer",
+    "label": "Frontend Engineer",
+    "value": "frontend-engineer"
    }
   ],
   "jobFunctions": [
@@ -179,122 +186,106 @@
    }
   ],
   "locations": [
-   "California, United States",
-   "Home Office, Sacramento, CA, US"
+   "Berlin, Germany"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
-   },
-   {
-    "id": "Sacramento, California",
-    "label": "Sacramento, California",
-    "value": "Sacramento, California"
+    "id": "Berlin, Berlin, Germany",
+    "label": "Berlin, Germany",
+    "value": "Berlin, Berlin, Germany"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 124300, 'maxValue': 168100, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:IPv4",
-    "label": "IPv4",
-    "value": "resume:IPv4"
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    },
    {
-    "id": "resume:Positioning",
-    "label": "Positioning",
-    "value": "resume:Positioning"
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Mechanics",
+    "label": "Mechanics",
+    "value": "resume:Mechanics"
    },
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Organizational Change",
+    "label": "Organizational Change",
+    "value": "resume:Organizational Change"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:IPv4",
-    "label": "IPv4",
-    "value": "resume:IPv4"
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    },
    {
-    "id": "resume:Positioning",
-    "label": "Positioning",
-    "value": "resume:Positioning"
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Mechanics",
+    "label": "Mechanics",
+    "value": "resume:Mechanics"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Organizational Change",
+    "label": "Organizational Change",
+    "value": "resume:Organizational Change"
    },
    {
-    "id": "resume:Routers",
-    "label": "Routers",
-    "value": "resume:Routers"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:DevOps",
-    "label": "DevOps",
-    "value": "resume:DevOps"
+    "id": "resume:Release Engineering",
+    "label": "Release Engineering",
+    "value": "resume:Release Engineering"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 5,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
@@ -302,33 +293,44 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "ECommerce",
+    "label": "eCommerce",
+    "value": "ECommerce"
+   },
+   {
+    "id": "Peer to Peer Marketplace",
+    "label": "Peer to Peer Marketplace",
+    "value": "Peer to Peer Marketplace"
    }
   ],
-  "timeStamp": "2026-08-31T08:58:13Z",
-  "title": "Senior Sales Engineer - Northern California",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8037/",
-  "jobId": "8037",
-  "remote": true,
+  "timeStamp": "2026-08-31T11:08:32Z",
+  "title": "Director of Engineering, Frontend technologies, Marketplace Technologies",
+  "url": "https://careers.vinted.com/jobs/4834608101?gh_jid=4834608101",
+  "jobId": "4834608101",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1963365419746, 'matchScore': 0, 'ageScore': 0.996336541974537, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1913076858808, 'matchScore': 0, 'ageScore': 0.991307685880787, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "director"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-08-31T14:08:18Z",
+ "run": "2026-08-31T20:12:50Z",
  "homepage": {
   "status": 200,
   "bytes": 20715
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"},\"server\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"},\"server\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "oxBTj5zh3S\u2026",
+  "session.sig": "NBvW02frlV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNmZlMjZmZjU0OThlNmJjYTE3MzhmZjNkMDU4YThkZTEiLCAic2NvcmUiOiAxLjA1NTg4NzI1MjQzMDE2OTd9"
+   "sequence": "eyJfaWQiOiAiNTEyMzAzNTJiMzJiNDQzOWZhZTA3YmU5ZGIyZGY5ODgiLCAic2NvcmUiOiAxLjA2NjY0ODMyODcxODc1fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,178 +152,192 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/homebase/997cb772-8135-46f1-bf45-9826b9ad5e75?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "joinhomebase.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b6b9be6af998b69b9c7aab2e93d5674c_288_160?Expires=1861920000&Signature=QLheGh3EymlhtqWgOWPTig51StoYm3RZvu54KK72MW-oqR1V9sAZ3",
-  "companyId": "Join Homebase",
-  "companySlug": "join-homebase",
-  "companyName": "Homebase",
-  "companyStaffCount": 1779,
+  "applyUrl": "https://job-boards.greenhouse.io/roofstock/jobs/8761403002",
+  "companyDomain": "roofstock.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/54d722dd1c4872ce34b86006ffdcb0e3_288_160?Expires=1861920000&Signature=kE5lRJz-b0POVBxOnbK6CsRAiM5Tkriuz-QekCfWgZUG44ictJr8N",
+  "companyId": "Roofstock",
+  "companySlug": "roofstock",
+  "companyName": "Roofstock",
+  "companyStaffCount": 368,
   "considerHosted": false,
   "departments": [
-   "Product"
+   "Central Operations "
   ],
   "jobTypes": [
    {
-    "id": "product-manager-growth",
-    "label": "Growth Product Manager",
-    "value": "product-manager-growth"
+    "id": "business-ops",
+    "label": "Business Operations",
+    "value": "business-ops"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Business Development",
+    "label": "Business Development",
+    "value": "Business Development"
+   }
+  ],
   "locations": [
-   "Toronto, Ontario, Canada",
-   "Toronto"
+   "Oakland, California, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Toronto, Ontario, Canada",
-    "label": "Toronto",
-    "value": "Toronto, Ontario, Canada"
+    "id": "Oakland, California",
+    "label": "Oakland, California",
+    "value": "Oakland, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 155000, 'maxValue': 185000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 128000, 'maxValue': 135000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Mixpanel",
-    "label": "Mixpanel",
-    "value": "resume:Mixpanel"
+    "id": "resume:Asset Management",
+    "label": "Asset Management",
+    "value": "resume:Asset Management"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Rental Management",
+    "label": "Rental Management",
+    "value": "resume:Rental Management"
    },
    {
-    "id": "resume:CAC",
-    "label": "CAC",
-    "value": "resume:CAC"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    },
    {
-    "id": "resume:Behavioral Analytics",
-    "label": "Behavioral Analytics",
-    "value": "resume:Behavioral Analytics"
+    "id": "resume:Financial Planning",
+    "label": "Financial Planning",
+    "value": "resume:Financial Planning"
    },
    {
-    "id": "resume:Customer Acquisition",
-    "label": "Customer Acquisition",
-    "value": "resume:Customer Acquisition"
+    "id": "resume:Property Management",
+    "label": "Property Management",
+    "value": "resume:Property Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Mixpanel",
-    "label": "Mixpanel",
-    "value": "resume:Mixpanel"
+    "id": "resume:Asset Management",
+    "label": "Asset Management",
+    "value": "resume:Asset Management"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Rental Management",
+    "label": "Rental Management",
+    "value": "resume:Rental Management"
    },
    {
-    "id": "resume:CAC",
-    "label": "CAC",
-    "value": "resume:CAC"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Behavioral Analytics",
-    "label": "Behavioral Analytics",
-    "value": "resume:Behavioral Analytics"
+    "id": "resume:Financial Planning",
+    "label": "Financial Planning",
+    "value": "resume:Financial Planning"
    },
    {
-    "id": "resume:Customer Acquisition",
-    "label": "Customer Acquisition",
-    "value": "resume:Customer Acquisition"
+    "id": "resume:Property Management",
+    "label": "Property Management",
+    "value": "resume:Property Management"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Payments",
-    "label": "Payments",
-    "value": "Payments"
+    "id": "Real Estate",
+    "label": "Real Estate",
+    "value": "Real Estate"
    }
   ],
-  "timeStamp": "2026-08-31T00:00:00Z",
-  "title": "Senior Growth Product Manager (Hybrid)",
-  "url": "https://jobs.ashbyhq.com/homebase/997cb772-8135-46f1-bf45-9826b9ad5e75",
-  "jobId": "997cb772-8135-46f1-bf45-9826b9ad5e75",
+  "timeStamp": "2026-08-31T10:51:49Z",
+  "title": "Business Operations Manager",
+  "url": "https://job-boards.greenhouse.io/roofstock/jobs/8761403002",
+  "jobId": "8761403002",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1838498252338, 'matchScore': 0, 'ageScore': 0.9838498252337963, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1912670602098, 'matchScore': 0, 'ageScore': 0.9912670602098765, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "manager"
   ],
   "isFeatured": false
  },

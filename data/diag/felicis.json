@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-08-31T14:08:18Z",
+ "run": "2026-08-31T20:12:50Z",
  "homepage": {
   "status": 200,
   "bytes": 25237
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"},\"server\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"},\"server\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "jTP0GHK8pk\u2026",
+  "session.sig": "ympZ98uwu1\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGY2YTQ3MWFlNzk5NzQxYWIxNmJlNmZjNjUzZjVhMmYiLCAic2NvcmUiOiAxLjA1MTAzMzY5NjM2MjI2ODZ9"
+   "sequence": "eyJfaWQiOiAiNTI4MzViMTUyMTg1ZjQ5YWU5YzgxNDAyMDdjNmYyNzgiLCAic2NvcmUiOiAxLjA0MjYzMjI3MTA1MTY5NzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -183,58 +183,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 179000, 'maxValue': 285000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    },
    {
-    "id": "resume:Test Automation",
-    "label": "Test Automation",
-    "value": "resume:Test Automation"
-   },
-   {
-    "id": "resume:Jackson",
-    "label": "Jackson",
-    "value": "resume:Jackson"
-   },
-   {
-    "id": "resume:Cross-group Collaboration",
-    "label": "Cross-group Collaboration",
-    "value": "resume:Cross-group Collaboration"
-   },
-   {
-    "id": "resume:Month End Close",
-    "label": "Month End Close",
-    "value": "resume:Month End Close"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Test Automation",
-    "label": "Test Automation",
-    "value": "resume:Test Automation"
-   },
-   {
-    "id": "resume:Jackson",
-    "label": "Jackson",
-    "value": "resume:Jackson"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Cross-group Collaboration",
-    "label": "Cross-group Collaboration",
-    "value": "resume:Cross-group Collaboration"
-   },
-   {
-    "id": "resume:Month End Close",
-    "label": "Month End Close",
-    "value": "resume:Month End Close"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    },
    {
     "id": "resume:Equity",
@@ -242,14 +198,58 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Airflow",
-    "label": "Airflow",
-    "value": "resume:Airflow"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
+   {
+    "id": "resume:BigQuery",
+    "label": "BigQuery",
+    "value": "resume:BigQuery"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
+   },
+   {
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Service",
     "label": "Service",
     "value": "resume:Service"
+   },
+   {
+    "id": "resume:BigQuery",
+    "label": "BigQuery",
+    "value": "resume:BigQuery"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   },
+   {
+    "id": "resume:Jackson",
+    "label": "Jackson",
+    "value": "resume:Jackson"
+   },
+   {
+    "id": "resume:SOX",
+    "label": "SOX",
+    "value": "resume:SOX"
    }
   ],
   "manager": false,
@@ -267,9 +267,9 @@
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -277,9 +277,9 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -308,7 +308,7 @@
   "jobId": "6000000001363314",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1933600324329, 'matchScore': 0, 'ageScore': 0.9933600324328704, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1849079551123, 'matchScore': 0, 'ageScore': 0.9849079551122685, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

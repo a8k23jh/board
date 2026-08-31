@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-08-31T14:08:18Z",
+ "run": "2026-08-31T20:12:50Z",
  "homepage": {
   "status": 200,
   "bytes": 19520
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"},\"server\":{\"git\":\"b66c688a48cbe0dc30db65537a469484d9fea642\",\"date\":\"2026-08-28T00:57:04.837Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"},\"server\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "VLaqEWGbdE\u2026",
+  "session.sig": "WEWfWEYp9G\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWQxNmU0MTcwMWQ2NWQwZDBjNzI4ZTA4ODBlMWU5MjIiLCAic2NvcmUiOiAxLjA1MDUyMjM2NDM2OTk4NDZ9"
+   "sequence": "eyJfaWQiOiAiNDU2Mzc5MWZiZDRiZjQ2ODBiMDE5OWFlMjFlOTkzODIiLCAic2NvcmUiOiAxLjA0MjQ2OTQ2NjkwMjAwNjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,122 +139,106 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5409055008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://jobs.ashbyhq.com/Cape/b15f165f-8bc2-474f-8c83-748f43397221?utm_source=careers.ivp.com",
+  "companyDomain": "cape.co",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/0faf8dde05320d96ed7e5c98482f445f_160_160?Expires=1861920000&Signature=SZKUJJFlhp9qAfBb37~UZ92w1JKOhgm3nzE6xFCGUc7Sk2zb5tulr",
+  "companyId": "Cape",
+  "companySlug": "cape",
+  "companyName": "Cape",
+  "companyStaffCount": 172,
   "considerHosted": false,
   "departments": [
-   "Finance"
+   "Security Engineering"
   ],
   "jobTypes": [
    {
-    "id": "director-finance",
-    "label": "Director Finance",
-    "value": "director-finance"
-   },
-   {
-    "id": "systems-engineer",
-    "label": "Systems Engineer",
-    "value": "systems-engineer"
+    "id": "technical-program-manager",
+    "label": "Technical Program Manager",
+    "value": "technical-program-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "San Francisco, CA",
-   "Seattle, WA"
+   "United States",
+   "Remote USA"
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 270000, 'maxValue': 315000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:ASC 606",
-    "label": "ASC 606",
-    "value": "resume:ASC 606"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:ASC 606",
-    "label": "ASC 606",
-    "value": "resume:ASC 606"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Order to Cash",
-    "label": "Order to Cash",
-    "value": "resume:Order to Cash"
-   },
-   {
-    "id": "resume:CPQ",
-    "label": "CPQ",
-    "value": "resume:CPQ"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
+   },
+   {
+    "id": "resume:Wireless",
+    "label": "Wireless",
+    "value": "resume:Wireless"
+   },
+   {
+    "id": "resume:National Security",
+    "label": "National Security",
+    "value": "resume:National Security"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Wireless",
+    "label": "Wireless",
+    "value": "resume:Wireless"
+   },
+   {
+    "id": "resume:National Security",
+    "label": "National Security",
+    "value": "resume:National Security"
+   },
+   {
+    "id": "resume:Luxury",
+    "label": "Luxury",
+    "value": "resume:Luxury"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -262,42 +246,26 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 12,
   "regions": [
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -308,34 +276,44 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    },
    {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
+   },
+   {
+    "id": "National Security",
+    "label": "National Security",
+    "value": "National Security"
+   },
+   {
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
    }
   ],
-  "timeStamp": "2026-08-29T02:34:37Z",
-  "title": "Director, Finance Systems - Revenue Systems Engineering",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409055008",
-  "jobId": "5409055008",
-  "remote": false,
+  "timeStamp": "2026-08-31T00:00:00Z",
+  "title": "Technical Program Manager, Security",
+  "url": "https://jobs.ashbyhq.com/Cape/b15f165f-8bc2-474f-8c83-748f43397221",
+  "jobId": "b15f165f-8bc2-474f-8c83-748f43397221",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1214103708869, 'matchScore': 0, 'ageScore': 0.9214103708869599, 'richnessScore': 2}",
+  "scores": "{'score': 1001.175505269483, 'matchScore': 0, 'ageScore': 0.9755052694830247, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "mid"
   ],
   "isFeatured": false
  },
