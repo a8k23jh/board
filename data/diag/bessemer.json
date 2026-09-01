@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-01T05:21:09Z",
+ "run": "2026-09-01T10:16:44Z",
  "homepage": {
   "status": 200,
   "bytes": 21736
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "-BhxNQzXXU\u2026",
+  "session.sig": "hD5du2eGeh\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTJiMWRiNzZhOGM2Zjg0Y2NlYmNmOTkyZjE5ZWJjZDAiLCAic2NvcmUiOiAxLjA3MDk3NjgwMDI2NjU4OTZ9"
+   "sequence": "eyJfaWQiOiAiYmYxM2UxZmExNjkyODBlZDcwNjQyZGVhYzg3NzdlM2UiLCAic2NvcmUiOiAxLjA3MjI5MDUxNTgxNzkwMTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,191 +152,200 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/Claroty/F2.004/senior-qa-automation-engineer-public-sector/00.17D",
-  "companyDomain": "claroty.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/79c671128b9509d30616f65102ceb9c5_304_160?Expires=1861920000&Signature=NALcIcAq-mp8YgbS~UCOjIiVE5JlytobLXOGEwTHfpK12WrF~v55X",
-  "companyId": "Claroty",
-  "companySlug": "claroty",
-  "companyName": "Claroty",
-  "companyStaffCount": 857,
+  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/5930b6bf-b4b1-4134-a183-832d69dd085f?utm_source=jobs.bvp.com",
+  "companyDomain": "perplexity.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
+  "companyId": "Perplexity AI",
+  "companySlug": "perplexity-ai",
+  "companyName": "Perplexity AI",
+  "companyStaffCount": 1415,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Legal"
+  ],
   "jobTypes": [
    {
-    "id": "release-engineer",
-    "label": "DevOps",
-    "value": "release-engineer"
-   },
-   {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
-   },
-   {
-    "id": "mechanical-engineer",
-    "label": "Mechanical Engineer",
-    "value": "mechanical-engineer"
+    "id": "legal-counsel",
+    "label": "Legal Counsel",
+    "value": "legal-counsel"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Legal",
+    "label": "Legal",
+    "value": "Legal"
    }
   ],
   "locations": [
-   "United States"
+   "San Francisco, California, United States",
+   "San Francisco",
+   "Washington D.C.",
+   "New York City"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 265000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Jenkins",
-    "label": "Jenkins",
-    "value": "resume:Jenkins"
+    "id": "resume:Advertising",
+    "label": "Advertising",
+    "value": "resume:Advertising"
    },
    {
-    "id": "resume:API Testing",
-    "label": "API Testing",
-    "value": "resume:API Testing"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Github",
-    "label": "Github",
-    "value": "resume:Github"
+    "id": "resume:COPPA",
+    "label": "COPPA",
+    "value": "resume:COPPA"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Jenkins",
-    "label": "Jenkins",
-    "value": "resume:Jenkins"
+    "id": "resume:Advertising",
+    "label": "Advertising",
+    "value": "resume:Advertising"
    },
    {
-    "id": "resume:API Testing",
-    "label": "API Testing",
-    "value": "resume:API Testing"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Github",
-    "label": "Github",
-    "value": "resume:Github"
+    "id": "resume:COPPA",
+    "label": "COPPA",
+    "value": "resume:COPPA"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    },
    {
-    "id": "resume:UI Testing",
-    "label": "UI Testing",
-    "value": "resume:UI Testing"
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
    },
    {
-    "id": "resume:DoD",
-    "label": "DoD",
-    "value": "resume:DoD"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Application Testing",
-    "label": "Application Testing",
-    "value": "resume:Application Testing"
+    "id": "resume:Data Protection",
+    "label": "Data Protection",
+    "value": "resume:Data Protection"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
-  "minYearsExp": 10,
+  "considerLevels": [],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Security",
-    "label": "Security",
-    "value": "Security"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
-  "timeStamp": "2026-08-31T19:47:59Z",
-  "title": "Senior QA Automation Engineer, Public Sector",
-  "url": "https://www.comeet.com/jobs/Claroty/F2.004/senior-qa-automation-engineer-public-sector/00.17D",
-  "jobId": "00.17D",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.195074275497, 'matchScore': 0, 'ageScore': 0.9950742754969136, 'richnessScore': 2}",
+  "timeStamp": "2026-09-01T00:00:00Z",
+  "title": "Counsel, Product",
+  "url": "https://jobs.ashbyhq.com/Perplexity/5930b6bf-b4b1-4134-a183-832d69dd085f",
+  "jobId": "5930b6bf-b4b1-4134-a183-832d69dd085f",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1880314565722, 'matchScore': 0, 'ageScore': 0.9880314565721451, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
