@@ -1,9 +1,9 @@
 {
  "board": "nea",
- "run": "2026-08-31T23:55:45Z",
+ "run": "2026-09-01T05:21:09Z",
  "homepage": {
   "status": 200,
-  "bytes": 20610
+  "bytes": 20609
  },
  "slugs_tried": [
   "nea",
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"},\"server\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"},\"server\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "u3OtpBzGAN\u2026",
+  "session.sig": "0MfFwcOpdE\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDA4MTdlYWNlYjIzMGY4NDljOTk0ZTRiNGUwN2VhOWMiLCAic2NvcmUiOiAxLjA1MTExMjgyOTk4NjQ5N30="
+   "sequence": "eyJfaWQiOiAiYWNjNWY1MjVlNmEzNDUxNTU5YTZjZmFkMTU4YzhjYjYiLCAic2NvcmUiOiAxLjA2NzQ4NjYxMDUwMzg1OH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,149 +136,135 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/CVRx/329bcfd8-658e-4b19-8409-09508da96595?lever-source%5B%5D=careers.nea.com",
-  "companyDomain": "cvrx.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c1404522ece4f9c30a981f1ee24f1dab_240_160?Expires=1861920000&Signature=Y84qAtmj6i5a3AtL2qRnGd01CIT9iE5qLYqhzjbODq~ckLiQGMEnI",
-  "companyId": "CVRx",
-  "companySlug": "cvrx",
-  "companyName": "CVRx",
-  "companyStaffCount": 254,
+  "applyUrl": "https://jobs.lever.co/nitra/611617f7-483d-4ba2-961b-555b9ec7993c?lever-source%5B%5D=careers.nea.com",
+  "companyDomain": "nitra.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/938a1b420629573bca5a2b6a66370902_240_160?Expires=1861920000&Signature=Z3oN0MBJQbZRUTl4nAaKG9jSAEqtkl1Hvv1CGddYZY40r~tkfTlYM",
+  "companyId": "Nitra",
+  "companySlug": "nitra",
+  "companyName": "Nitra",
+  "companyStaffCount": 131,
   "considerHosted": false,
-  "departments": [
-   "Operations 400"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Brooklyn Park, MN"
+   "New York, New York, USA"
   ],
   "normalizedLocations": [
    {
-    "id": "Brooklyn, New York",
-    "label": "Brooklyn, New York",
-    "value": "Brooklyn, New York"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 138000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Six Sigma",
-    "label": "Six Sigma",
-    "value": "resume:Six Sigma"
+    "id": "resume:Outbound Sales",
+    "label": "Outbound Sales",
+    "value": "resume:Outbound Sales"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Pipeline Generation",
+    "label": "Pipeline Generation",
+    "value": "resume:Pipeline Generation"
    },
    {
-    "id": "resume:Internal Audit",
-    "label": "Internal Audit",
-    "value": "resume:Internal Audit"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Statistical Analysis",
-    "label": "Statistical Analysis",
-    "value": "resume:Statistical Analysis"
+    "id": "resume:SDR",
+    "label": "SDR",
+    "value": "resume:SDR"
    },
    {
-    "id": "resume:Scalability",
-    "label": "Scalability",
-    "value": "resume:Scalability"
+    "id": "resume:Sales Development",
+    "label": "Sales Development",
+    "value": "resume:Sales Development"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Six Sigma",
-    "label": "Six Sigma",
-    "value": "resume:Six Sigma"
+    "id": "resume:Outbound Sales",
+    "label": "Outbound Sales",
+    "value": "resume:Outbound Sales"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Pipeline Generation",
+    "label": "Pipeline Generation",
+    "value": "resume:Pipeline Generation"
    },
    {
-    "id": "resume:Internal Audit",
-    "label": "Internal Audit",
-    "value": "resume:Internal Audit"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Statistical Analysis",
-    "label": "Statistical Analysis",
-    "value": "resume:Statistical Analysis"
+    "id": "resume:SDR",
+    "label": "SDR",
+    "value": "resume:SDR"
    },
    {
-    "id": "resume:Scalability",
-    "label": "Scalability",
-    "value": "resume:Scalability"
+    "id": "resume:Sales Development",
+    "label": "Sales Development",
+    "value": "resume:Sales Development"
    },
    {
-    "id": "resume:Test Automation",
-    "label": "Test Automation",
-    "value": "resume:Test Automation"
+    "id": "resume:Driving Results",
+    "label": "Driving Results",
+    "value": "resume:Driving Results"
    },
    {
-    "id": "resume:Grant Writing",
-    "label": "Grant Writing",
-    "value": "resume:Grant Writing"
-   },
-   {
-    "id": "resume:Application Software",
-    "label": "Application Software",
-    "value": "resume:Application Software"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
-   ],
-   [
-    9,
-    10,
-    11,
-    12
+    3,
+    4
    ]
   ],
-  "minYearsExp": 15,
+  "minYearsExp": 2,
   "regions": [
    {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "North America",
@@ -289,11 +275,6 @@
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    }
   ],
   "stages": [
@@ -301,33 +282,50 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Seed funded",
+    "label": "Seed",
+    "value": "Seed funded"
    }
   ],
+  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
   "markets": [
    {
-    "id": "Medical Devices",
-    "label": "Medical Devices",
-    "value": "Medical Devices"
+    "id": "Financial Services",
+    "label": "Financial Services",
+    "value": "Financial Services"
+   },
+   {
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-08-31T13:46:34.384000Z",
-  "title": "Senior Principal / Principal Supply Chain and Test Engineer",
-  "url": "https://jobs.lever.co/CVRx/329bcfd8-658e-4b19-8409-09508da96595",
-  "jobId": "329bcfd8-658e-4b19-8409-09508da96595",
+  "timeStamp": "2026-08-31T21:31:55.715000Z",
+  "title": "Sales Development Representative Manager",
+  "url": "https://jobs.lever.co/nitra/611617f7-483d-4ba2-961b-555b9ec7993c",
+  "jobId": "611617f7-483d-4ba2-961b-555b9ec7993c",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1903379446358, 'matchScore': 0, 'ageScore': 0.9903379446358025, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1974436703256, 'matchScore': 0, 'ageScore': 0.9974436703256173, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid",
+   "manager"
   ],
   "isFeatured": false
  },

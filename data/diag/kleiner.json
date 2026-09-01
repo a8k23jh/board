@@ -1,9 +1,9 @@
 {
  "board": "kleiner",
- "run": "2026-08-31T23:55:45Z",
+ "run": "2026-09-01T05:21:09Z",
  "homepage": {
   "status": 200,
-  "bytes": 19382
+  "bytes": 19381
  },
  "slugs_tried": [
   "kleiner-perkins",
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"},\"server\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"},\"server\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TiO_JaoZIG\u2026",
+  "session.sig": "Wf-yUWsCXI\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTViZjY5Zjc1MzIyMmQwYTRiNDUwYTVmZjJjMTFjYmYiLCAic2NvcmUiOiAxLjA3Mzk2MjU3ODY0NTQ0NzZ9"
+   "sequence": "eyJfaWQiOiAiZWI2OWIyYWFhZjU2NGFiNzUwYmU4NDAxYzdhY2NkYjYiLCAic2NvcmUiOiAxLjE0NzIxNjg2MDMwMjg1NX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,22 +155,22 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/CesiumAstro/a0ebe685-a136-4d14-862b-c9fda5e6fcfc?lever-source%5B%5D=jobs.kleinerperkins.com",
-  "companyDomain": "cesiumastro.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
-  "companyId": "CesiumAstro",
-  "companySlug": "cesiumastro",
-  "companyName": "CesiumAstro",
-  "companyStaffCount": 452,
+  "applyUrl": "https://job-boards.greenhouse.io/planetscale/jobs/4389100009",
+  "companyDomain": "planetscale.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/4f396018320e83e9c7952d0fc1f1e3fd_304_160?Expires=1861920000&Signature=orcFv~RKsQP0zHdNGK6kQ2Zdg1GovPk53pGPlhNMnOGPbBK18Kehy",
+  "companyId": "PlanetScale",
+  "companySlug": "planetscale",
+  "companyName": "PlanetScale",
+  "companyStaffCount": 73,
   "considerHosted": false,
   "departments": [
    "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "firmware-engineer",
-    "label": "Firmware Engineer",
-    "value": "firmware-engineer"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
@@ -181,85 +181,75 @@
    }
   ],
   "locations": [
-   "El Segundo, CA"
+   "San Francisco Office"
   ],
   "normalizedLocations": [
    {
-    "id": "El Segundo, California",
-    "label": "El Segundo, California",
-    "value": "El Segundo, California"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 168000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
+    "id": "resume:Incident Response",
+    "label": "Incident Response",
+    "value": "resume:Incident Response"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Clustering",
+    "label": "Clustering",
+    "value": "resume:Clustering"
    },
    {
-    "id": "resume:Multitasking skills",
-    "label": "Multitasking skills",
-    "value": "resume:Multitasking skills"
+    "id": "resume:MySQL",
+    "label": "MySQL",
+    "value": "resume:MySQL"
    },
    {
-    "id": "resume:Linux",
-    "label": "Linux",
-    "value": "resume:Linux"
+    "id": "resume:Developer Experience",
+    "label": "Developer Experience",
+    "value": "resume:Developer Experience"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
+    "id": "resume:Incident Response",
+    "label": "Incident Response",
+    "value": "resume:Incident Response"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Clustering",
+    "label": "Clustering",
+    "value": "resume:Clustering"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Multitasking skills",
-    "label": "Multitasking skills",
-    "value": "resume:Multitasking skills"
+    "id": "resume:MySQL",
+    "label": "MySQL",
+    "value": "resume:MySQL"
    },
    {
-    "id": "resume:Linux",
-    "label": "Linux",
-    "value": "resume:Linux"
+    "id": "resume:Developer Experience",
+    "label": "Developer Experience",
+    "value": "resume:Developer Experience"
    },
    {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
-   },
-   {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
-   },
-   {
-    "id": "resume:Department of State",
-    "label": "Department of State",
-    "value": "resume:Department of State"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    }
   ],
   "manager": false,
@@ -267,20 +257,23 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Pacific States",
@@ -288,16 +281,16 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
     "id": "Growth",
@@ -308,31 +301,21 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
    }
   ],
-  "timeStamp": "2026-08-31T00:33:44.819000Z",
-  "title": "Staff Embedded Software Engineer",
-  "url": "https://jobs.lever.co/CesiumAstro/a0ebe685-a136-4d14-862b-c9fda5e6fcfc",
-  "jobId": "a0ebe685-a136-4d14-862b-c9fda5e6fcfc",
+  "timeStamp": "2026-08-31T15:57:47Z",
+  "title": "Software Engineer - Internal Tools",
+  "url": "https://job-boards.greenhouse.io/planetscale/jobs/4389100009",
+  "jobId": "4389100009",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.172475754983, 'matchScore': 0, 'ageScore': 0.9724757549830247, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1899132768739, 'matchScore': 0, 'ageScore': 0.9899132768738426, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -340,7 +323,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid"
   ],
   "isFeatured": false

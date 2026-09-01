@@ -1,9 +1,9 @@
 {
  "board": "gv",
- "run": "2026-08-31T23:55:45Z",
+ "run": "2026-09-01T05:21:09Z",
  "homepage": {
   "status": 200,
-  "bytes": 26173
+  "bytes": 26172
  },
  "slugs_tried": [
   "gv",
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"},\"server\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"},\"server\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TA6mxZ-0aj\u2026",
+  "session.sig": "9fLU8_lkbu\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjEyOTU4ZjY4Mjc4MTQyYjc2NDFhODY3NGJmNzU2ZDUiLCAic2NvcmUiOiAxLjA1ODA5NDcxMjc1MjMxNDh9"
+   "sequence": "eyJfaWQiOiAiMWQ1MjU0YmM4OWIyMzRjMzIwODM4ZTQyNzAzNzcwNTkiLCAic2NvcmUiOiAxLjA5MjIwMzE3NTY0MTU4OTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,111 +147,91 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/censys/jobs/8756637002",
-  "companyDomain": "censys.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3f50043fa48b00ab67eab68579d7a129_288_160?Expires=1861920000&Signature=KPFgBDzZ6EO2OchXNe~tdfckMMvoKYR8b2Ct0BIMkmFUSntV9XpDr",
-  "companyId": "Censys",
-  "companySlug": "censys",
-  "companyName": "Censys",
-  "companyStaffCount": 158,
+  "applyUrl": "https://www.zipline.com/open-roles?gh_jid=7982296003",
+  "companyDomain": "flyzipline.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/96bb121609ec840d2cc662afb45e60dd_240_160?Expires=1861920000&Signature=YQHjOiKsdxklLRs6vGSPJAXMsufaOq5aKnrPIKwY6NBdSkRQF0LMc",
+  "companyId": "Zipline",
+  "companySlug": "zipline",
+  "companyName": "Zipline",
+  "companyStaffCount": 1723,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "2027 Internships"
   ],
   "jobTypes": [
    {
-    "id": "channel-sales",
-    "label": "Channel Sales",
-    "value": "channel-sales"
-   },
-   {
-    "id": "account-manager",
-    "label": "Account Manager",
-    "value": "account-manager"
+    "id": "school-student",
+    "label": "Intern",
+    "value": "school-student"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Southeast"
+   "Austin, Texas, USA",
+   "Houston, Texas, USA",
+   "Phoenix, Arizona, USA",
+   "San Antonio, Texas, USA"
   ],
   "normalizedLocations": [
    {
-    "id": "East South",
-    "label": "Southeastern US",
-    "value": "East South"
+    "id": "San Antonio, Texas",
+    "label": "San Antonio, Texas",
+    "value": "San Antonio, Texas"
+   },
+   {
+    "id": "Houston, Texas",
+    "label": "Houston, Texas",
+    "value": "Houston, Texas"
+   },
+   {
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
+   },
+   {
+    "id": "Phoenix, Arizona",
+    "label": "Phoenix, Arizona",
+    "value": "Phoenix, Arizona"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 259000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 30, 'maxValue': 30, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:dynamic system",
-    "label": "Dynamic Systems",
-    "value": "resume:dynamic system"
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:CCPA",
-    "label": "CCPA",
-    "value": "resume:CCPA"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:dynamic system",
-    "label": "Dynamic Systems",
-    "value": "resume:dynamic system"
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
-   },
-   {
-    "id": "resume:CCPA",
-    "label": "CCPA",
-    "value": "resume:CCPA"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
     "id": "resume:Analytics",
@@ -259,32 +239,68 @@
     "value": "resume:Analytics"
    }
   ],
+  "preferredSkills": [
+   {
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
+   },
+   {
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
+   },
+   {
+    "id": "resume:Spring",
+    "label": "Spring",
+    "value": "resume:Spring"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   }
+  ],
   "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -295,29 +311,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Security",
-    "label": "Security",
-    "value": "Security"
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-08-31T10:41:28Z",
-  "title": "Channel Account Manager, Southeast",
-  "url": "https://job-boards.greenhouse.io/censys/jobs/8756637002",
-  "jobId": "8756637002",
-  "remote": true,
+  "timeStamp": "2026-08-31T18:06:57Z",
+  "title": "Commercial Strategy & Operations Intern (Spring 2027)",
+  "url": "https://www.zipline.com/open-roles?gh_jid=7982296003",
+  "jobId": "7982296003",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1866570845158, 'matchScore': 0, 'ageScore': 0.9866570845158179, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1924101694768, 'matchScore': 0, 'ageScore': 0.9924101694768519, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "intern",
+    "label": "Intern",
+    "value": "intern"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "intern"
   ],
   "isFeatured": false
  },

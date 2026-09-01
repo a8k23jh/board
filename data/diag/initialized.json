@@ -1,9 +1,9 @@
 {
  "board": "initialized",
- "run": "2026-08-31T23:55:45Z",
+ "run": "2026-09-01T05:21:09Z",
  "homepage": {
   "status": 200,
-  "bytes": 20930
+  "bytes": 20929
  },
  "slugs_tried": [
   "initialized",
@@ -29,12 +29,12 @@
    "slug": "initialized",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"},\"server\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"},\"server\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1nxXFc2XW_\u2026",
+  "session.sig": "gXFE9t0GDl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWM3ZDI2NTYyM2M0ZDAzMWZjNGM1NGQyYTE0YzQ5ZWUiLCAic2NvcmUiOiAxMDAuNzAyMTQ0OTQ3NTU5MDN9"
+   "sequence": "eyJfaWQiOiAiZWM3ZDI2NTYyM2M0ZDAzMWZjNGM1NGQyYTE0YzQ5ZWUiLCAic2NvcmUiOiAxMDAuNjk3NDI3OTUxNzQ4ODR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -183,73 +183,73 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Arena",
+    "label": "Arena",
+    "value": "resume:Arena"
    },
    {
-    "id": "resume:Integrated Circuit Design",
-    "label": "Integrated Circuit Design",
-    "value": "resume:Integrated Circuit Design"
+    "id": "resume:Hardware Engineering",
+    "label": "Hardware Engineering",
+    "value": "resume:Hardware Engineering"
    },
    {
-    "id": "resume:PCB design",
-    "label": "PCB design",
-    "value": "resume:PCB design"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Signal Integrity",
+    "label": "Signal Integrity",
+    "value": "resume:Signal Integrity"
    },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
-   },
-   {
-    "id": "resume:RF",
-    "label": "RF",
-    "value": "resume:RF"
    }
   ],
   "requiredSkills": [
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Integrated Circuit Design",
-    "label": "Integrated Circuit Design",
-    "value": "resume:Integrated Circuit Design"
-   },
-   {
-    "id": "resume:PCB design",
-    "label": "PCB design",
-    "value": "resume:PCB design"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:RF",
-    "label": "RF",
-    "value": "resume:RF"
-   },
    {
     "id": "resume:Arena",
     "label": "Arena",
     "value": "resume:Arena"
    },
    {
+    "id": "resume:Hardware Engineering",
+    "label": "Hardware Engineering",
+    "value": "resume:Hardware Engineering"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Signal Integrity",
+    "label": "Signal Integrity",
+    "value": "resume:Signal Integrity"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Integrated Circuit Design",
+    "label": "Integrated Circuit Design",
+    "value": "resume:Integrated Circuit Design"
+   },
+   {
     "id": "resume:Failure Analysis",
     "label": "Failure Analysis",
     "value": "resume:Failure Analysis"
-   },
-   {
-    "id": "resume:Sourcing",
-    "label": "Sourcing",
-    "value": "resume:Sourcing"
    }
   ],
   "manager": false,
@@ -263,6 +263,11 @@
     "value": "Mid Atlantic"
    },
    {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -271,11 +276,6 @@
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    }
   ],
   "stages": [
@@ -304,7 +304,7 @@
   "jobId": "mten309m",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.14612474875, 'matchScore': 0, 'ageScore': 0.94612474875, 'richnessScore': 2}",
+  "scores": "{'score': 1101.1424492413441, 'matchScore': 0, 'ageScore': 0.9424492413441358, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

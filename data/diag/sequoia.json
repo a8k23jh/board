@@ -1,9 +1,9 @@
 {
  "board": "sequoia",
- "run": "2026-08-31T23:55:45Z",
+ "run": "2026-09-01T05:21:09Z",
  "homepage": {
   "status": 200,
-  "bytes": 20238
+  "bytes": 20237
  },
  "slugs_tried": [
   "sequoia-capital",
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"},\"server\":{\"git\":\"9d450a0248974af9e8db631999e42658df825740\",\"date\":\"2026-08-31T17:50:51.191Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"},\"server\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "MJzm5OujFR\u2026",
+  "session.sig": "ktYXPjp59s\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTdmNGRhMzJjNGFiZjg5Y2Y2NTExMDZmY2JmOGRmYWEiLCAic2NvcmUiOiAxLjA2MjkxNjM4OTgwMTMxMTZ9"
+   "sequence": "eyJfaWQiOiAiNDFkNzNhMWJiNzBjNmRkNDRjMTFjOTE2NTg2ODIxNWEiLCAic2NvcmUiOiAxLjA4NTE5NTU3NDE1MjAwNn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,111 +155,105 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/remotecom/jobs/7981550003",
-  "companyDomain": "remote.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/16508237082dd6f746285d106e1f03ad_240_160?Expires=1861920000&Signature=M~xKwD4xiND9cc1fp-ZAYBvR5Iwi~4wnOk8oY5FrvjLSJp6SOKxFV",
-  "companyId": "Remote",
-  "companySlug": "remote",
-  "companyName": "Remote",
-  "companyStaffCount": 15073,
+  "applyUrl": "https://jobs.lever.co/captivateiq/696f8b9b-5693-44fc-a3b3-9ecfe1bc1a1b?lever-source%5B%5D=jobs.sequoiacap.com",
+  "companyDomain": "captivateiq.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/38cc60bf74d750e14fddc734b5c7ffb0_320_160?Expires=1861920000&Signature=hH3yceFmYb4gL3iy~giCkiv46duW7sycYRGlOCXAzTpoY29ejKDu4",
+  "companyId": "CaptivateIQ",
+  "companySlug": "captivateiq",
+  "companyName": "CaptivateIQ",
+  "companyStaffCount": 281,
   "considerHosted": false,
   "departments": [
-   "Payroll Operations "
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "payroll-specialist",
-    "label": "Payroll Specialist",
-    "value": "payroll-specialist"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Remote-Japan"
+   "Remote"
   ],
-  "normalizedLocations": [
-   {
-    "id": "Japan",
-    "label": "Japan",
-    "value": "Japan"
-   }
-  ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 86000, 'maxValue': 97000, 'currency': {'label': 'JPY', 'value': 'JPY'}, 'isOriginal': True}",
+  "normalizedLocations": [],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 154500, 'maxValue': 225450, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Sketch App",
+    "label": "Sketch App",
+    "value": "resume:Sketch App"
    },
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
    },
    {
-    "id": "resume:SAP",
-    "label": "SAP",
-    "value": "resume:SAP"
+    "id": "resume:Django",
+    "label": "Django",
+    "value": "resume:Django"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Sketch App",
+    "label": "Sketch App",
+    "value": "resume:Sketch App"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
    },
    {
-    "id": "resume:SAP",
-    "label": "SAP",
-    "value": "resume:SAP"
+    "id": "resume:Django",
+    "label": "Django",
+    "value": "resume:Django"
    },
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:ICM",
+    "label": "ICM",
+    "value": "resume:ICM"
    },
    {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
    }
   ],
   "manager": false,
@@ -275,18 +269,13 @@
     6
    ]
   ],
-  "regions": [
-   {
-    "id": "Asia Pacific",
-    "label": "Asia Pacific",
-    "value": "Asia Pacific"
-   }
-  ],
+  "minYearsExp": 6,
+  "regions": [],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -297,18 +286,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-08-31T06:16:31Z",
-  "title": "Senior Payroll Specialist - Japan",
-  "url": "https://job-boards.greenhouse.io/remotecom/jobs/7981550003",
-  "jobId": "7981550003",
+  "timeStamp": "2026-08-31T18:37:52.468000Z",
+  "title": "Senior Software Engineer - ICM",
+  "url": "https://jobs.lever.co/captivateiq/696f8b9b-5693-44fc-a3b3-9ecfe1bc1a1b",
+  "jobId": "696f8b9b-5693-44fc-a3b3-9ecfe1bc1a1b",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1804564060154, 'matchScore': 0, 'ageScore': 0.980456406015432, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1936038692817, 'matchScore': 0, 'ageScore': 0.9936038692816358, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
