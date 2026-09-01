@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-08-31T20:12:50Z",
+ "run": "2026-08-31T23:55:45Z",
  "homepage": {
   "status": 200,
   "bytes": 16705
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "zwr0I6lfki\u2026",
+  "session.sig": "lhLm1TtMij\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODA3MTQ0ODY0ZmM0OTk0MDcyNTdiNDQ3MzZlNmRjOTUiLCAic2NvcmUiOiAxLjAyNTAyMzkzNzQ1MTAwM30="
+   "sequence": "eyJfaWQiOiAiODA3MTQ0ODY0ZmM0OTk0MDcyNTdiNDQ3MzZlNmRjOTUiLCAic2NvcmUiOiAxLjAyMTA0Mjg4NzYwODQxMDZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -173,14 +173,14 @@
     "value": "sales"
    },
    {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
-   },
-   {
     "id": "sales-professional",
     "label": "Sales Professional",
     "value": "sales-professional"
+   },
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
    }
   ],
   "jobFunctions": [
@@ -209,9 +209,14 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Valuation",
-    "label": "Valuation",
-    "value": "resume:Valuation"
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
     "id": "resume:Marketing Strategy",
@@ -219,14 +224,9 @@
     "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    }
   ],
   "requiredSkills": [
@@ -236,26 +236,21 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Valuation",
-    "label": "Valuation",
-    "value": "resume:Valuation"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
    },
    {
     "id": "resume:Research",
     "label": "Research",
     "value": "resume:Research"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
     "id": "resume:New Business",
@@ -263,9 +258,14 @@
     "value": "resume:New Business"
    },
    {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:Valuation",
+    "label": "Valuation",
+    "value": "resume:Valuation"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -279,6 +279,11 @@
   ],
   "regions": [
    {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -287,11 +292,6 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -325,7 +325,7 @@
   "jobId": "10370c04-04d2-4969-a868-9111b16f8f2b",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.175871336429, 'matchScore': 0, 'ageScore': 0.9758713364290124, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1713808674198, 'matchScore': 0, 'ageScore': 0.971380867419753, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
