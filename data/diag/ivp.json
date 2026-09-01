@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-01T10:16:44Z",
+ "run": "2026-09-01T14:59:13Z",
  "homepage": {
   "status": 200,
   "bytes": 19519
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "kh4rppucak\u2026",
+  "session.sig": "6DqKl3GQmc\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZmUzZTcxMGZiOTMxYjNjM2JiMzY0NjAwOTMwMmRmM2EiLCAic2NvcmUiOiAxLjA1Mzk4OTY3MDk0MTc0Mzh9"
+   "sequence": "eyJfaWQiOiAiZmUzZTcxMGZiOTMxYjNjM2JiMzY0NjAwOTMwMmRmM2EiLCAic2NvcmUiOiAxLjA0OTc4MTc4MDM3NzMxNDh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,111 +128,123 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/suno/7e59cd98-7f25-417a-815b-4a4debba124f?utm_source=careers.ivp.com",
-  "companyDomain": "suno.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/765fed7c68044ba0177e9e056be25d87_160_160?Expires=1861920000&Signature=QmK5f6RR8p1NqF7UY2VwSMvgBusQuJxFQZPD7pWUDdBR355UzSPhw",
-  "companyId": "Suno",
-  "companySlug": "suno",
-  "companyName": "Suno",
-  "companyStaffCount": 465,
+  "applyUrl": "https://jobs.ashbyhq.com/baseten/f8ab6b16-6e49-4dd7-a7b1-8b93e1732c13?utm_source=careers.ivp.com",
+  "companyDomain": "baseten.co",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/aaa340387ade367703b1e49f53eb3028_288_160?Expires=1861920000&Signature=Al-9uky9kPkU3yG72nW3BbljsCHFZiSSqwfe53K8yzheEMID8gJHG",
+  "companyId": "BaseTen",
+  "companySlug": "baseten",
+  "companyName": "baseten",
+  "companyStaffCount": 319,
   "considerHosted": false,
   "departments": [
-   "Music"
+   "Revenue Operations"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   }
+  ],
   "locations": [
-   "New York City, New York, USA",
-   "NYC"
+   "San Francisco, California, United States",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Product Roadmap",
-    "label": "Product Roadmap",
-    "value": "resume:Product Roadmap"
+    "id": "resume:Pipeline Generation",
+    "label": "Pipeline Generation",
+    "value": "resume:Pipeline Generation"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Music",
-    "label": "Music",
-    "value": "resume:Music"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:ARM",
-    "label": "ARM",
-    "value": "resume:ARM"
+    "id": "resume:Capacity Planning",
+    "label": "Capacity Planning",
+    "value": "resume:Capacity Planning"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Product Roadmap",
-    "label": "Product Roadmap",
-    "value": "resume:Product Roadmap"
+    "id": "resume:Pipeline Generation",
+    "label": "Pipeline Generation",
+    "value": "resume:Pipeline Generation"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Music",
-    "label": "Music",
-    "value": "resume:Music"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:ARM",
-    "label": "ARM",
-    "value": "resume:ARM"
+    "id": "resume:Capacity Planning",
+    "label": "Capacity Planning",
+    "value": "resume:Capacity Planning"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Recording",
-    "label": "Recording",
-    "value": "resume:Recording"
+    "id": "resume:Model Building",
+    "label": "Model Building",
+    "value": "resume:Model Building"
    },
    {
-    "id": "resume:Valuation",
-    "label": "Valuation",
-    "value": "resume:Valuation"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:D programming language",
-    "label": "D programming language",
-    "value": "resume:D programming language"
+    "id": "resume:Revenue Operations",
+    "label": "Revenue Operations",
+    "value": "resume:Revenue Operations"
    }
   ],
   "manager": false,
@@ -248,17 +260,11 @@
     6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -266,9 +272,9 @@
     "value": "North America"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -276,31 +282,55 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
    },
    {
-    "id": "Music",
-    "label": "Music",
-    "value": "Music"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
+   }
+  ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "AI/ML",
+    "label": "AI/ML",
+    "value": "AI/ML"
+   },
+   {
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
   "timeStamp": "2026-09-01T00:00:00Z",
-  "title": "Music Studio Demos and Songwriting Camps Manager",
-  "url": "https://jobs.ashbyhq.com/suno/7e59cd98-7f25-417a-815b-4a4debba124f",
-  "jobId": "7e59cd98-7f25-417a-815b-4a4debba124f",
+  "title": "Revenue Strategy & Operations, Sr. Analyst",
+  "url": "https://jobs.ashbyhq.com/baseten/f8ab6b16-6e49-4dd7-a7b1-8b93e1732c13",
+  "jobId": "f8ab6b16-6e49-4dd7-a7b1-8b93e1732c13",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1884085885177, 'matchScore': 0, 'ageScore': 0.9884085885177469, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1844886676716, 'matchScore': 0, 'ageScore': 0.9844886676716821, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   }
+  ],
+  "jobSeniorityIds": [
+   "senior"
+  ],
   "isFeatured": false
  },
  "search_mode": {

@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-01T10:16:44Z",
+ "run": "2026-09-01T14:59:13Z",
  "homepage": {
   "status": 200,
   "bytes": 21207
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "wAEp88sMYc\u2026",
+  "session.sig": "0TVoVh5hUY\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDNiMjYyM2UzMDg4ZWY4ZjNiMGU3YTk1MTQ3NmY5ZDMiLCAic2NvcmUiOiAxLjE3NzMyMTI2NzU0ODk5N30="
+   "sequence": "eyJfaWQiOiAiNmY0NDVhOTk1ZjVjNTMyM2NlY2VmYmZjNjkyNmJiNjEiLCAic2NvcmUiOiAxLjE3MzA5OTM5NzUwNDYyOTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411919008",
+  "applyUrl": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411918008",
   "companyDomain": "k2space.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/96af4d328d7e54eb24c092877b0e4c96_272_160?Expires=1861920000&Signature=rWQ5vPckbn1NROsVwoPJw3Sq9oP8FnF7q6Jh6wxTzQ6DBspleAAvN",
   "companyId": "K2 Space",
@@ -164,18 +164,29 @@
   "companyStaffCount": 15,
   "considerHosted": false,
   "departments": [
-   "Product Engineering"
+   "Avionics"
   ],
   "jobTypes": [
+   {
+    "id": "electrical-engineer",
+    "label": "Electrical Engineer",
+    "value": "electrical-engineer"
+   },
    {
     "id": "school-student",
     "label": "Intern",
     "value": "school-student"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Los Angeles"
+   "Los Angeles, CA"
   ],
   "normalizedLocations": [
    {
@@ -187,58 +198,9 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 30, 'maxValue': 40, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Network Analyzer",
-    "label": "Network Analyzer",
-    "value": "resume:Network Analyzer"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
-   },
-   {
-    "id": "resume:Volunteer Management",
-    "label": "Volunteer Management",
-    "value": "resume:Volunteer Management"
-   },
-   {
-    "id": "resume:RF",
-    "label": "RF",
-    "value": "resume:RF"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Network Analyzer",
-    "label": "Network Analyzer",
-    "value": "resume:Network Analyzer"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
-   },
-   {
-    "id": "resume:Volunteer Management",
-    "label": "Volunteer Management",
-    "value": "resume:Volunteer Management"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:RF",
-    "label": "RF",
-    "value": "resume:RF"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Export Controls",
+    "label": "Export Controls",
+    "value": "resume:Export Controls"
    },
    {
     "id": "resume:Research",
@@ -246,14 +208,63 @@
     "value": "resume:Research"
    },
    {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:PCBA",
+    "label": "PCBA",
+    "value": "resume:PCBA"
+   },
+   {
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Export Controls",
+    "label": "Export Controls",
+    "value": "resume:Export Controls"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:PCBA",
+    "label": "PCBA",
+    "value": "resume:PCBA"
+   },
+   {
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
+   },
+   {
+    "id": "resume:Advisor",
+    "label": "Advisor",
+    "value": "resume:Advisor"
+   },
+   {
     "id": "resume:Spacecraft",
     "label": "Spacecraft",
     "value": "resume:Spacecraft"
    },
    {
-    "id": "resume:Export Controls",
-    "label": "Export Controls",
-    "value": "resume:Export Controls"
+    "id": "resume:Volunteer Management",
+    "label": "Volunteer Management",
+    "value": "resume:Volunteer Management"
    }
   ],
   "manager": false,
@@ -271,6 +282,11 @@
   ],
   "regions": [
    {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -279,11 +295,6 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -311,13 +322,13 @@
     "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-09-01T01:04:44Z",
-  "title": "RF Engineering Intern \u2013 Summer 2027",
-  "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411919008",
-  "jobId": "5411919008",
+  "timeStamp": "2026-09-01T01:10:05Z",
+  "title": "Electrical Engineering Intern \u2013 Summer 2027",
+  "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411918008",
+  "jobId": "5411918008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1897280258326, 'matchScore': 0, 'ageScore': 0.9897280258325617, 'richnessScore': 2}",
+  "scores": "{'score': 1001.186079998402, 'matchScore': 0, 'ageScore': 0.9860799984020062, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

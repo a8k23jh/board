@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-09-01T10:16:44Z",
+ "run": "2026-09-01T14:59:13Z",
  "homepage": {
   "status": 200,
   "bytes": 19381
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "CtN9YHUg9B\u2026",
+  "session.sig": "GQdKPtx-Qq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWI2OWIyYWFhZjU2NGFiNzUwYmU4NDAxYzdhY2NkYjYiLCAic2NvcmUiOiAxLjEzNTIwNzE0NzQxMzE5NDR9"
+   "sequence": "eyJfaWQiOiAiZWI2OWIyYWFhZjU2NGFiNzUwYmU4NDAxYzdhY2NkYjYiLCAic2NvcmUiOiAxLjEzMDUzMzI4MTkyMDEzODh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,107 +144,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Rogo/bc0086cd-42a3-470b-8ced-b7ad8f44c7b0?utm_source=jobs.kleinerperkins.com",
-  "companyDomain": "rogo.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66a7953d8c5c2886ab74e7caf90fe681_128_160?Expires=1861920000&Signature=i5epe-A8J7h0DMs~JWcg~u9gDW5REpES3SF1ZmEEgGjfVGFGXL5yl",
-  "companyId": "Rogo",
-  "companySlug": "rogo",
-  "companyName": "Rogo",
-  "companyStaffCount": 213,
+  "applyUrl": "https://job-boards.greenhouse.io/gomotive/jobs/8750399002",
+  "companyDomain": "gomotive.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/25a89ab129481325fdea0a8ec67db334_208_160?Expires=1861920000&Signature=FOVx4pqYXCuvScQi9jIt1h-cXgKWHgmbuXcTtciYMPrORXx90yBOk",
+  "companyId": "Motive",
+  "companySlug": "motive",
+  "companyName": "Motive",
+  "companyStaffCount": 6358,
   "considerHosted": false,
   "departments": [
-   "Strategic Opportunities"
+   "Marketing"
   ],
   "jobTypes": [
    {
-    "id": "asset-management",
-    "label": "Asset Management",
-    "value": "asset-management"
+    "id": "marketing-all",
+    "label": "Marketing",
+    "value": "marketing-all"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   }
+  ],
   "locations": [
-   "New York , New York, USA",
-   "New York City"
+   "Hybrid - Austin, Texas"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 61000, 'maxValue': 72000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Content Production",
+    "label": "Content Production",
+    "value": "resume:Content Production"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
-   },
-   {
-    "id": "resume:Asset Management",
-    "label": "Asset Management",
-    "value": "resume:Asset Management"
-   },
-   {
-    "id": "resume:Private Equity",
-    "label": "Private Equity",
-    "value": "resume:Private Equity"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
-   },
-   {
-    "id": "resume:Asset Management",
-    "label": "Asset Management",
-    "value": "resume:Asset Management"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Private Equity",
-    "label": "Private Equity",
-    "value": "resume:Private Equity"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:SEO",
+    "label": "SEO",
+    "value": "resume:SEO"
    },
    {
     "id": "resume:Research",
     "label": "Research",
     "value": "resume:Research"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Content Marketing",
+    "label": "Content Marketing",
+    "value": "resume:Content Marketing"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Content Production",
+    "label": "Content Production",
+    "value": "resume:Content Production"
+   },
+   {
+    "id": "resume:SEO",
+    "label": "SEO",
+    "value": "resume:SEO"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Content Marketing",
+    "label": "Content Marketing",
+    "value": "resume:Content Marketing"
+   },
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:Industry Verticals",
+    "label": "Industry Verticals",
+    "value": "resume:Industry Verticals"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "manager": false,
@@ -263,67 +278,59 @@
   "minYearsExp": 2,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
    },
    {
-    "id": "Financial Services",
-    "label": "Financial Services",
-    "value": "Financial Services"
-   },
-   {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-09-01T00:00:00Z",
-  "title": "Advisory, Asset Management",
-  "url": "https://jobs.ashbyhq.com/Rogo/bc0086cd-42a3-470b-8ced-b7ad8f44c7b0",
-  "jobId": "bc0086cd-42a3-470b-8ced-b7ad8f44c7b0",
+  "timeStamp": "2026-08-31T23:55:33Z",
+  "title": "Content Marketing Specialist",
+  "url": "https://job-boards.greenhouse.io/gomotive/jobs/8750399002",
+  "jobId": "8750399002",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1886025828198, 'matchScore': 0, 'ageScore': 0.9886025828198303, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1841310774622, 'matchScore': 0, 'ageScore': 0.9841310774621913, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {
