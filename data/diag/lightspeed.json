@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-02T14:33:59Z",
+ "run": "2026-09-02T18:48:02Z",
  "homepage": {
   "status": 200,
   "bytes": 21207
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"},\"server\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"},\"server\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "rZFTiYhUup\u2026",
+  "session.sig": "945rEDEjR2\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDkzNjM5YzUyY2RiYmRjNjY0YzI5MGRhODkwYTE0ZWMiLCAic2NvcmUiOiAxLjE2NTk1NjkwMTA5ODc2NTR9"
+   "sequence": "eyJfaWQiOiAiYzAzZjIwYWNiMGZlNDA5ZDQ1ODc2ZDk2OTdlZTkwNDQiLCAic2NvcmUiOiAxLjE2MDcxNzM0MzI1fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,122 +144,78 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8026/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3390,
+  "applyUrl": "https://careers.vinted.com/jobs/4962153101?gh_jid=4962153101",
+  "companyDomain": "vinted.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/dbad8e00507381f7334c80ec4762244a_192_160?Expires=1861920000&Signature=ey44G9xKs7RyJsJYnwMY~a5DjFvmPAKGWkndMUWNzgdj0wKKeXv8m",
+  "companyId": "Vinted",
+  "companySlug": "vinted",
+  "companyName": "Vinted",
+  "companyStaffCount": 4398,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Engineering"
+  ],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "backend-engineer",
+    "label": "Backend Engineer",
+    "value": "backend-engineer"
    },
    {
-    "id": "sales-all",
-    "label": "Sales",
-    "value": "sales-all"
+    "id": "mobility-specialist",
+    "label": "Mobility Specialist",
+    "value": "mobility-specialist"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
+   },
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "New York, New York, United States",
-   "New Jersey, United States",
-   "Home Office, Albany, NY, US"
+   "Kaunas, Lithuania"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
-    "id": "New Jersey",
-    "label": "New Jersey",
-    "value": "New Jersey"
-   },
-   {
-    "id": "Albany, New York",
-    "label": "Albany, New York",
-    "value": "Albany, New York"
+    "id": "Lithuania",
+    "label": "Lithuania",
+    "value": "Lithuania"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 4975, 'maxValue': 6725, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Cloud Networking",
-    "label": "Cloud Networking",
-    "value": "resume:Cloud Networking"
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    },
    {
-    "id": "resume:CISA",
-    "label": "CISA",
-    "value": "resume:CISA"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:New Business",
-    "label": "New Business",
-    "value": "resume:New Business"
-   },
-   {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   },
-   {
-    "id": "resume:DNS",
-    "label": "DNS",
-    "value": "resume:DNS"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Cloud Networking",
-    "label": "Cloud Networking",
-    "value": "resume:Cloud Networking"
-   },
-   {
-    "id": "resume:CISA",
-    "label": "CISA",
-    "value": "resume:CISA"
-   },
-   {
-    "id": "resume:New Business",
-    "label": "New Business",
-    "value": "resume:New Business"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   },
-   {
-    "id": "resume:DNS",
-    "label": "DNS",
-    "value": "resume:DNS"
+    "id": "resume:software testing",
+    "label": "Software Testing",
+    "value": "resume:software testing"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -267,14 +223,53 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
+   },
+   {
+    "id": "resume:software testing",
+    "label": "Software Testing",
+    "value": "resume:software testing"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
+   },
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
+   },
+   {
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    }
   ],
   "manager": false,
@@ -282,34 +277,19 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
@@ -317,33 +297,44 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "ECommerce",
+    "label": "eCommerce",
+    "value": "ECommerce"
+   },
+   {
+    "id": "Peer to Peer Marketplace",
+    "label": "Peer to Peer Marketplace",
+    "value": "Peer to Peer Marketplace"
    }
   ],
-  "timeStamp": "2026-09-02T08:57:54Z",
-  "title": "Product Sales Security Specialist - Enterprise - New York",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8026/",
-  "jobId": "8026",
-  "remote": true,
+  "timeStamp": "2026-09-02T10:09:53Z",
+  "title": "Senior Backend Engineer, Engineering Experience (Limited-time Relocation Bonus)",
+  "url": "https://careers.vinted.com/jobs/4962153101?gh_jid=4962153101",
+  "jobId": "4962153101",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1968411961119, 'matchScore': 0, 'ageScore': 0.9968411961118827, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1902405583087, 'matchScore': 0, 'ageScore': 0.990240558308642, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

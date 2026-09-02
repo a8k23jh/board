@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-02T14:33:59Z",
+ "run": "2026-09-02T18:48:02Z",
  "homepage": {
   "status": 200,
   "bytes": 21736
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"},\"server\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"},\"server\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "J-3rIvF8Sd\u2026",
+  "session.sig": "zLYxjmnfCf\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -90,37 +90,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWJhYmY4NThmOTYwNWE2MTQ5YTU4N2JiZGY5OWQ2MjQiLCAic2NvcmUiOiAxLjA3NTc3MjE4Mzg0MDY2MzV9"
+   "sequence": "eyJfaWQiOiAiNzFkMzE1YjYwNmNlNTE5YTAyNTY1OTIxMGZlMzIyZjQiLCAic2NvcmUiOiAxLjA4NjE5OTkwOTY1MDg0ODh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,130 +152,119 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5412944008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://job-boards.greenhouse.io/litify/jobs/8173502",
+  "companyDomain": "litify.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3f0163c664fe3430a3a0f7d1ef8a7fbc_288_160?Expires=1861920000&Signature=EbakZod2uGjDcQnVN6cGFy3NTmTsrsUFvE2TmAdjqXTei4KctrFfc",
+  "companyId": "Litify",
+  "companySlug": "litify",
+  "companyName": "Litify",
+  "companyStaffCount": 165,
   "considerHosted": false,
   "departments": [
-   "Safeguards (Trust & Safety)"
+   "Customer Success"
   ],
   "jobTypes": [
    {
-    "id": "engineering-manager",
-    "label": "Engineering Manager",
-    "value": "engineering-manager"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "salesforce-administrator",
+    "label": "Salesforce Administrator",
+    "value": "salesforce-administrator"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "San Francisco, CA"
+   "Anywhere, USA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 405000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 100000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Characterization",
-    "label": "Characterization",
-    "value": "resume:Characterization"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Life Sciences",
-    "label": "Life Sciences",
-    "value": "resume:Life Sciences"
+    "id": "resume:Customer Facing Roles",
+    "label": "Customer Facing Roles",
+    "value": "resume:Customer Facing Roles"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Data Migration",
+    "label": "Data Migration",
+    "value": "resume:Data Migration"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Performance Management",
-    "label": "Performance Management",
-    "value": "resume:Performance Management"
+    "id": "resume:Lightning components",
+    "label": "Lightning components",
+    "value": "resume:Lightning components"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Characterization",
-    "label": "Characterization",
-    "value": "resume:Characterization"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Life Sciences",
-    "label": "Life Sciences",
-    "value": "resume:Life Sciences"
+    "id": "resume:Customer Facing Roles",
+    "label": "Customer Facing Roles",
+    "value": "resume:Customer Facing Roles"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Data Migration",
+    "label": "Data Migration",
+    "value": "resume:Data Migration"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Performance Management",
-    "label": "Performance Management",
-    "value": "resume:Performance Management"
+    "id": "resume:Lightning components",
+    "label": "Lightning components",
+    "value": "resume:Lightning components"
    },
    {
-    "id": "resume:Protein Sciences",
-    "label": "Protein Sciences",
-    "value": "resume:Protein Sciences"
+    "id": "resume:Network Integration",
+    "label": "Network Integration",
+    "value": "resume:Network Integration"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Apex Data Loader",
+    "label": "Apex Data Loader",
+    "value": "resume:Apex Data Loader"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -291,16 +280,6 @@
   "minYearsExp": 3,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -308,47 +287,30 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
-  "markets": [
-   {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
-   }
-  ],
-  "timeStamp": "2026-09-02T00:39:16Z",
-  "title": "Research Manager, Biological Safety",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5412944008",
-  "jobId": "5412944008",
-  "remote": false,
+  "markets": [],
+  "timeStamp": "2026-09-02T09:55:10Z",
+  "title": "Salesforce Consultant (LSAP)",
+  "url": "https://job-boards.greenhouse.io/litify/jobs/8173502",
+  "jobId": "8173502",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1847617068565, 'matchScore': 0, 'ageScore': 0.9847617068564815, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1899859508411, 'matchScore': 0, 'ageScore': 0.9899859508410493, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },
