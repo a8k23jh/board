@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-02T00:20:32Z",
+ "run": "2026-09-02T04:48:46Z",
  "homepage": {
   "status": 200,
   "bytes": 21736
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "LdB64xcgnD\u2026",
+  "session.sig": "knjpP7SZVt\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -90,37 +90,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDk3YTQ2OTMwZmU0NDVlNGRkMzk4OWEzMzg3NDdhNjciLCAic2NvcmUiOiAxLjA2MDkyODgxMTQ5MTUxMjN9"
+   "sequence": "eyJfaWQiOiAiODIyZjFhY2MzNTQ2YmJmYzEwMzFiYTdmN2Q2YWVkY2IiLCAic2NvcmUiOiAxLjA3MTQ3Mjc0NTAwOTI1OTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,43 +163,39 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/bevicareers/jobs/4390526009",
-  "companyDomain": "bevi.co",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/739cc9a43e87a153bd75443f1b6c429b_176_160?Expires=1861920000&Signature=Bkvh-CqCZBnCet7MlCSg7tJdMKAEB3-8FulKMKBf9iPSRJL0uwiHp",
-  "companyId": "Bevi",
-  "companySlug": "bevi",
-  "companyName": "Bevi",
-  "companyStaffCount": 412,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5387009008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Finance"
   ],
   "jobTypes": [
    {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    },
    {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "taxes-professional",
+    "label": "Taxes Professional",
+    "value": "taxes-professional"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
    }
   ],
   "locations": [
-   "San Francisco"
+   "Remote-Friendly (Travel Required)",
+   "San Francisco, CA"
   ],
   "normalizedLocations": [
    {
@@ -208,97 +204,98 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 108800, 'maxValue': 134400, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Lead Qualification",
-    "label": "Lead Qualification",
-    "value": "resume:Lead Qualification"
+    "id": "resume:Joint Ventures",
+    "label": "Joint Ventures",
+    "value": "resume:Joint Ventures"
    },
    {
-    "id": "resume:New Business",
-    "label": "New Business",
-    "value": "resume:New Business"
+    "id": "resume:CPA",
+    "label": "CPA",
+    "value": "resume:CPA"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    },
    {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Lead Generation",
-    "label": "Lead Generation",
-    "value": "resume:Lead Generation"
+    "id": "resume:Licensing Agreements",
+    "label": "Licensing Agreements",
+    "value": "resume:Licensing Agreements"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Lead Qualification",
-    "label": "Lead Qualification",
-    "value": "resume:Lead Qualification"
+    "id": "resume:Joint Ventures",
+    "label": "Joint Ventures",
+    "value": "resume:Joint Ventures"
    },
    {
-    "id": "resume:New Business",
-    "label": "New Business",
-    "value": "resume:New Business"
+    "id": "resume:CPA",
+    "label": "CPA",
+    "value": "resume:CPA"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Lead Generation",
-    "label": "Lead Generation",
-    "value": "resume:Lead Generation"
+    "id": "resume:Licensing Agreements",
+    "label": "Licensing Agreements",
+    "value": "resume:Licensing Agreements"
    },
    {
-    "id": "resume:Service Delivery",
-    "label": "Service Delivery",
-    "value": "resume:Service Delivery"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Sales Presentations",
-    "label": "Sales Presentations",
-    "value": "resume:Sales Presentations"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Competitive Analysis",
-    "label": "Competitive Analysis",
-    "value": "resume:Competitive Analysis"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 10,
+  "maxYearsExp": 15,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -306,16 +303,16 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -326,29 +323,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Food & Beverages",
-    "label": "Food & Beverages",
-    "value": "Food & Beverages"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-09-01T10:13:24Z",
-  "title": "Account Executive",
-  "url": "https://job-boards.greenhouse.io/bevicareers/jobs/4390526009",
-  "jobId": "4390526009",
+  "timeStamp": "2026-09-01T18:11:26Z",
+  "title": "Director, US International Tax Planning",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5387009008",
+  "jobId": "5387009008",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1862099226728, 'matchScore': 0, 'ageScore': 0.9862099226728395, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1926024682504, 'matchScore': 0, 'ageScore': 0.9926024682503858, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },

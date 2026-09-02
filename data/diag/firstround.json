@@ -1,5 +1,324 @@
 {
  "board": "firstround",
- "run": "2026-09-02T00:20:32Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.firstround.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+ "run": "2026-09-02T04:48:46Z",
+ "homepage": {
+  "status": 200,
+  "bytes": 16704
+ },
+ "slugs_tried": [
+  "first-round-capital",
+  "firstround",
+  "first-round"
+ ],
+ "attempts": [
+  {
+   "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+   "slug": "first-round-capital",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+   "slug": "firstround",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+   "slug": "first-round",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+   "slug": "first-round-capital",
+   "csrf_header": "x-csrf-token",
+   "status": 200,
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"},\"server\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"}}"
+  }
+ ],
+ "cookies": {
+  "session": "eyJmbGFzaC\u2026",
+  "session.sig": "HoZK8kz96u\u2026",
+  "AWSALBAPP-0": "AAAAAAAAAA\u2026",
+  "AWSALBAPP-1": "_remove_",
+  "AWSALBAPP-2": "_remove_",
+  "AWSALBAPP-3": "_remove_"
+ },
+ "token_endpoints": [
+  {
+   "path": "/api-boards/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/api-boards/csrf-token",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  }
+ ],
+ "csrf_candidates": [
+  {
+   "src": "html",
+   "len": 36
+  }
+ ],
+ "working": {
+  "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+  "slug": "first-round-capital",
+  "csrf_header": [
+   "x-csrf-token"
+  ]
+ },
+ "search_probe": [
+  {
+   "variant": "query.searchQuery+promote",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  },
+  {
+   "variant": "query.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  },
+  {
+   "variant": "query.search",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  },
+  {
+   "variant": "query.text",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  },
+  {
+   "variant": "query.q",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  },
+  {
+   "variant": "top.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  },
+  {
+   "variant": "query.keywords",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  }
+ ],
+ "response_shape": {
+  "keys": [
+   "availableFilters",
+   "debug",
+   "errors",
+   "jobs",
+   "meta",
+   "total",
+   "version"
+  ],
+  "meta": {
+   "size": 100,
+   "sequence": "eyJfaWQiOiAiYzg4MzViM2VlMjk2ZDYyOGIwODJkYWRkMjcwMzBmOWIiLCAic2NvcmUiOiAxLjA0NzIxMjgzMzA0NDc1MzJ9"
+  },
+  "job_keys": [
+   "applicationWindow",
+   "applyUrl",
+   "atsJobs",
+   "companyDomain",
+   "companyId",
+   "companyLogos",
+   "companyName",
+   "companySlug",
+   "companyStaffCount",
+   "considerHosted",
+   "considerLevels",
+   "consultant",
+   "contractor",
+   "departments",
+   "fundingLV",
+   "hybrid",
+   "isFeatured",
+   "jobFunctions",
+   "jobId",
+   "jobSeniorities"
+  ],
+  "job_count": 100
+ },
+ "sample_job": {
+  "applicationWindow": "{'status': 'accepting'}",
+  "applyUrl": "https://job-boards.greenhouse.io/studsinc/jobs/6178821004",
+  "companyDomain": "studs.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/928cc14370271b5bf1ed1e2cd0f89b69_192_160?Expires=1861920000&Signature=aUPXDUpPVxKoYqNFh7KhHxjFQHByuvTL2tiKY7~kxJ-4SGSbLu7S-",
+  "companyId": "Studs",
+  "companySlug": "studs",
+  "companyName": "Studs",
+  "companyStaffCount": 205,
+  "considerHosted": false,
+  "departments": [
+   "Sales (SAL)"
+  ],
+  "jobTypes": [
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "supervisor",
+    "label": "Supervisor",
+    "value": "supervisor"
+   },
+   {
+    "id": "freelance",
+    "label": "Contractor",
+    "value": "freelance"
+   }
+  ],
+  "jobFunctions": [],
+  "locations": [
+   "1165 N State St Chicago, IL 60610"
+  ],
+  "normalizedLocations": [
+   {
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
+   }
+  ],
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 20.25, 'maxValue': 20.25, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "skills": [
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
+   },
+   {
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
+   },
+   {
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
+   },
+   {
+    "id": "resume:Sales Support",
+    "label": "Sales Support",
+    "value": "resume:Sales Support"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
+   },
+   {
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
+   },
+   {
+    "id": "resume:Sales Support",
+    "label": "Sales Support",
+    "value": "resume:Sales Support"
+   }
+  ],
+  "manager": true,
+  "consultant": false,
+  "contractor": true,
+  "considerLevels": [],
+  "regions": [
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   }
+  ],
+  "stages": [
+   {
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
+   }
+  ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Retail",
+    "label": "Retail",
+    "value": "Retail"
+   }
+  ],
+  "timeStamp": "2026-09-01T17:55:46Z",
+  "title": "Store Supervisor (Part-Time)",
+  "url": "https://job-boards.greenhouse.io/studsinc/jobs/6178821004",
+  "jobId": "6178821004",
+  "remote": false,
+  "hybrid": false,
+  "scores": "{'score': 1001.1927136636563, 'matchScore': 0, 'ageScore': 0.99271366365625, 'richnessScore': 2}",
+  "atsJobs": [],
+  "matchingTalent": "{'count': 0, 'matches': []}",
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
+  "isFeatured": false
+ },
+ "search_mode": {
+  "variant": "cursor:meta.sequence"
+ }
 }

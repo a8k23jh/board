@@ -1,5 +1,336 @@
 {
  "board": "ivp",
- "run": "2026-09-02T00:20:32Z",
- "first_attempt_error": "HTTPSConnectionPool(host='careers.ivp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+ "run": "2026-09-02T04:48:46Z",
+ "homepage": {
+  "status": 200,
+  "bytes": 19519
+ },
+ "slugs_tried": [
+  "ivp"
+ ],
+ "attempts": [
+  {
+   "endpoint": "https://careers.ivp.com/api-boards/search-jobs",
+   "slug": "ivp",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://careers.ivp.com/api-boards/search-jobs",
+   "slug": "ivp",
+   "csrf_header": "x-csrf-token",
+   "status": 200,
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"},\"server\":{\"git\":\"d4f7b27b7de220b74a9462dc9c0a1d9523e3d890\",\"date\":\"2026-09-01T00:15:51.729Z\"}}"
+  }
+ ],
+ "cookies": {
+  "session": "eyJmbGFzaC\u2026",
+  "session.sig": "jcpAXZvnfL\u2026",
+  "AWSALBAPP-0": "AAAAAAAAAA\u2026",
+  "AWSALBAPP-1": "_remove_",
+  "AWSALBAPP-2": "_remove_",
+  "AWSALBAPP-3": "_remove_"
+ },
+ "token_endpoints": [
+  {
+   "path": "/api-boards/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/api-boards/csrf-token",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  }
+ ],
+ "csrf_candidates": [
+  {
+   "src": "html",
+   "len": 36
+  }
+ ],
+ "working": {
+  "endpoint": "https://careers.ivp.com/api-boards/search-jobs",
+  "slug": "ivp",
+  "csrf_header": [
+   "x-csrf-token"
+  ]
+ },
+ "search_probe": [
+  {
+   "variant": "query.searchQuery+promote",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  },
+  {
+   "variant": "query.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  },
+  {
+   "variant": "query.search",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  },
+  {
+   "variant": "query.text",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  },
+  {
+   "variant": "query.q",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  },
+  {
+   "variant": "top.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  },
+  {
+   "variant": "query.keywords",
+   "jobs": 100,
+   "kw_hit_rate": 0.01
+  }
+ ],
+ "response_shape": {
+  "keys": [
+   "availableFilters",
+   "debug",
+   "errors",
+   "jobs",
+   "meta",
+   "total",
+   "version"
+  ],
+  "meta": {
+   "size": 100,
+   "sequence": "eyJfaWQiOiAiNzNkNjU4NGEzNjA0NDVhNmY4Y2NlYzMwNDVhMjIxYTIiLCAic2NvcmUiOiAxLjEzMzcwNTMwNDI0MTUxMjR9"
+  },
+  "job_keys": [
+   "applicationWindow",
+   "applyUrl",
+   "atsJobs",
+   "companyDomain",
+   "companyId",
+   "companyLogos",
+   "companyName",
+   "companySlug",
+   "companyStaffCount",
+   "considerHosted",
+   "considerLevels",
+   "consultant",
+   "contractor",
+   "departments",
+   "fundingLV",
+   "hybrid",
+   "isFeatured",
+   "jobFunctions",
+   "jobId",
+   "jobSeniorities"
+  ],
+  "job_count": 100
+ },
+ "sample_job": {
+  "applicationWindow": "{'status': 'accepting'}",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5387009008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
+  "considerHosted": false,
+  "departments": [
+   "Finance"
+  ],
+  "jobTypes": [
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "taxes-professional",
+    "label": "Taxes Professional",
+    "value": "taxes-professional"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
+   }
+  ],
+  "locations": [
+   "Remote-Friendly (Travel Required)",
+   "San Francisco, CA"
+  ],
+  "normalizedLocations": [
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   }
+  ],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "skills": [
+   {
+    "id": "resume:Joint Ventures",
+    "label": "Joint Ventures",
+    "value": "resume:Joint Ventures"
+   },
+   {
+    "id": "resume:CPA",
+    "label": "CPA",
+    "value": "resume:CPA"
+   },
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   },
+   {
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
+   },
+   {
+    "id": "resume:Licensing Agreements",
+    "label": "Licensing Agreements",
+    "value": "resume:Licensing Agreements"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Joint Ventures",
+    "label": "Joint Ventures",
+    "value": "resume:Joint Ventures"
+   },
+   {
+    "id": "resume:CPA",
+    "label": "CPA",
+    "value": "resume:CPA"
+   },
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
+   },
+   {
+    "id": "resume:Licensing Agreements",
+    "label": "Licensing Agreements",
+    "value": "resume:Licensing Agreements"
+   },
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "manager": true,
+  "consultant": false,
+  "contractor": false,
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 10,
+  "maxYearsExp": 15,
+  "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   }
+  ],
+  "stages": [
+   {
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
+   }
+  ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
+   }
+  ],
+  "timeStamp": "2026-09-01T18:11:26Z",
+  "title": "Director, US International Tax Planning",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5387009008",
+  "jobId": "5387009008",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1926024682504, 'matchScore': 0, 'ageScore': 0.9926024682503858, 'richnessScore': 2}",
+  "atsJobs": [],
+  "matchingTalent": "{'count': 0, 'matches': []}",
+  "jobSeniorities": [
+   {
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
+   }
+  ],
+  "jobSeniorityIds": [
+   "director"
+  ],
+  "isFeatured": false
+ },
+ "search_mode": {
+  "variant": "cursor:meta.sequence"
+ }
 }
