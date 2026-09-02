@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-02T04:48:46Z",
+ "run": "2026-09-02T09:43:41Z",
  "homepage": {
   "status": 200,
   "bytes": 19519
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "jcpAXZvnfL\u2026",
+  "session.sig": "bN3UCaSkUg\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzNkNjU4NGEzNjA0NDVhNmY4Y2NlYzMwNDVhMjIxYTIiLCAic2NvcmUiOiAxLjEzMzcwNTMwNDI0MTUxMjR9"
+   "sequence": "eyJfaWQiOiAiMDg5MjNmZWFkYTQ5OTYzMDYxN2QxZWJmMjY4YWE5MTAiLCAic2NvcmUiOiAxLjEzNjgxMTA1NDUxMDQxNjl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,7 +139,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5387009008",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5412944008",
   "companyDomain": "anthropic.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
   "companyId": "Anthropic",
@@ -148,29 +148,28 @@
   "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Finance"
+   "Safeguards (Trust & Safety)"
   ],
   "jobTypes": [
+   {
+    "id": "engineering-manager",
+    "label": "Engineering Manager",
+    "value": "engineering-manager"
+   },
    {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
-   },
-   {
-    "id": "taxes-professional",
-    "label": "Taxes Professional",
-    "value": "taxes-professional"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Accounting",
-    "label": "Accounting",
-    "value": "Accounting"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Remote-Friendly (Travel Required)",
    "San Francisco, CA"
   ],
   "normalizedLocations": [
@@ -180,61 +179,12 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 405000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Joint Ventures",
-    "label": "Joint Ventures",
-    "value": "resume:Joint Ventures"
-   },
-   {
-    "id": "resume:CPA",
-    "label": "CPA",
-    "value": "resume:CPA"
-   },
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   },
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
-    "id": "resume:Licensing Agreements",
-    "label": "Licensing Agreements",
-    "value": "resume:Licensing Agreements"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Joint Ventures",
-    "label": "Joint Ventures",
-    "value": "resume:Joint Ventures"
-   },
-   {
-    "id": "resume:CPA",
-    "label": "CPA",
-    "value": "resume:CPA"
-   },
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
-    "id": "resume:Licensing Agreements",
-    "label": "Licensing Agreements",
-    "value": "resume:Licensing Agreements"
+    "id": "resume:Characterization",
+    "label": "Characterization",
+    "value": "resume:Characterization"
    },
    {
     "id": "resume:Sales Commission",
@@ -242,14 +192,63 @@
     "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   },
+   {
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Characterization",
+    "label": "Characterization",
+    "value": "resume:Characterization"
+   },
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
+   },
+   {
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   },
+   {
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
+   },
+   {
+    "id": "resume:Protein Sciences",
+    "label": "Protein Sciences",
+    "value": "resume:Protein Sciences"
+   },
+   {
+    "id": "resume:Life Sciences",
+    "label": "Life Sciences",
+    "value": "resume:Life Sciences"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    }
   ],
   "manager": true,
@@ -257,26 +256,25 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
    ]
   ],
-  "minYearsExp": 10,
-  "maxYearsExp": 15,
+  "minYearsExp": 3,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "West Coast",
@@ -309,24 +307,24 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-09-01T18:11:26Z",
-  "title": "Director, US International Tax Planning",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5387009008",
-  "jobId": "5387009008",
-  "remote": true,
+  "timeStamp": "2026-09-02T00:39:16Z",
+  "title": "Research Manager, Biological Safety",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5412944008",
+  "jobId": "5412944008",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1926024682504, 'matchScore': 0, 'ageScore': 0.9926024682503858, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1886747338453, 'matchScore': 0, 'ageScore': 0.9886747338452933, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "manager"
   ],
   "isFeatured": false
  },
