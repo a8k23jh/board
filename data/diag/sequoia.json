@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-02T18:48:02Z",
+ "run": "2026-09-02T21:53:38Z",
  "homepage": {
   "status": 200,
   "bytes": 20237
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "WtFRhQ_wpW\u2026",
+  "session.sig": "UXCcBfAEM6\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTc5YmVkNDNiODkzZTIyYjY4YjA1MTVkOWE3YjZiMjQiLCAic2NvcmUiOiAxLjE0MjQ0Nzk2MDE1NTQ3ODR9"
+   "sequence": "eyJfaWQiOiAiMzhlYTBmMjc0OWJkNTMwYjA4OWVjNDAzM2MzN2QxYTciLCAic2NvcmUiOiAxLjEzNzk2MjY2MjQyNTE1NDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -187,9 +187,9 @@
   ],
   "normalizedLocations": [
    {
-    "id": "Canada",
-    "label": "Canada",
-    "value": "Canada"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    },
    {
     "id": "United States",
@@ -197,17 +197,17 @@
     "value": "United States"
    },
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Canada",
+    "label": "Canada",
+    "value": "Canada"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 239000, 'maxValue': 298800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
     "id": "resume:Fraud Detection",
@@ -215,14 +215,14 @@
     "value": "resume:Fraud Detection"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Statistical Modeling",
+    "label": "Statistical Modeling",
+    "value": "resume:Statistical Modeling"
    },
    {
     "id": "resume:ETL",
@@ -232,9 +232,9 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
     "id": "resume:Fraud Detection",
@@ -242,16 +242,16 @@
     "value": "resume:Fraud Detection"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Statistical Modeling",
+    "label": "Statistical Modeling",
+    "value": "resume:Statistical Modeling"
    },
    {
     "id": "resume:ETL",
@@ -259,19 +259,19 @@
     "value": "resume:ETL"
    },
    {
-    "id": "resume:Statistical Modeling",
-    "label": "Statistical Modeling",
-    "value": "resume:Statistical Modeling"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
     "id": "resume:Governance",
     "label": "Governance",
     "value": "resume:Governance"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "manager": false,
@@ -286,11 +286,6 @@
   "minYearsExp": 7,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -299,6 +294,11 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -332,24 +332,24 @@
   "jobId": "6178814004",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1897920679714, 'matchScore': 0, 'ageScore': 0.9897920679714506, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1851234368145, 'matchScore': 0, 'ageScore': 0.985123436814429, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

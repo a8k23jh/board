@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-02T18:48:02Z",
+ "run": "2026-09-02T21:53:38Z",
  "homepage": {
   "status": 200,
   "bytes": 16704
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "SeVgCvaGKP\u2026",
+  "session.sig": "RDH-hhEHxe\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzM5OGViMDgyODA4YTg5Y2Y5MjY0NTY5MDNmODk5NzUiLCAic2NvcmUiOiAxLjAyOTM3Mzg0NDAzOTM1MTh9"
+   "sequence": "eyJfaWQiOiAiNmNjNmU4Y2MxYmEwM2ZhMzYwNmE0YTE4NjBiMzk1NmMiLCAic2NvcmUiOiAxLjAyNTM5MDUyNTc1ODEwMTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -182,63 +182,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Offshore Drilling",
-    "label": "Offshore Drilling",
-    "value": "resume:Offshore Drilling"
-   },
-   {
-    "id": "resume:Test Equipment",
-    "label": "Test Equipment",
-    "value": "resume:Test Equipment"
-   },
-   {
-    "id": "resume:Power Plants",
-    "label": "Power Plants",
-    "value": "resume:Power Plants"
-   },
-   {
-    "id": "resume:Assembly",
-    "label": "Assembly",
-    "value": "resume:Assembly"
-   },
-   {
     "id": "resume:Aerospace",
     "label": "Aerospace",
     "value": "resume:Aerospace"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Offshore Drilling",
-    "label": "Offshore Drilling",
-    "value": "resume:Offshore Drilling"
-   },
-   {
-    "id": "resume:Test Equipment",
-    "label": "Test Equipment",
-    "value": "resume:Test Equipment"
-   },
-   {
-    "id": "resume:Power Plants",
-    "label": "Power Plants",
-    "value": "resume:Power Plants"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Assembly",
-    "label": "Assembly",
-    "value": "resume:Assembly"
-   },
-   {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
    },
    {
     "id": "resume:Troubleshooting",
@@ -246,9 +192,63 @@
     "value": "resume:Troubleshooting"
    },
    {
+    "id": "resume:Offshore Drilling",
+    "label": "Offshore Drilling",
+    "value": "resume:Offshore Drilling"
+   },
+   {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Power Plants",
+    "label": "Power Plants",
+    "value": "resume:Power Plants"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
+   },
+   {
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
+   },
+   {
+    "id": "resume:Offshore Drilling",
+    "label": "Offshore Drilling",
+    "value": "resume:Offshore Drilling"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Power Plants",
+    "label": "Power Plants",
+    "value": "resume:Power Plants"
+   },
+   {
+    "id": "resume:Assembly",
+    "label": "Assembly",
+    "value": "resume:Assembly"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
+    "id": "resume:Test Equipment",
+    "label": "Test Equipment",
+    "value": "resume:Test Equipment"
    }
   ],
   "manager": false,
@@ -267,24 +267,24 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
    },
    {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -318,7 +318,7 @@
   "jobId": "8383c038-348a-4049-9417-803fa729e58d",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1756401819522, 'matchScore': 0, 'ageScore': 0.9756401819521605, 'richnessScore': 2}",
+  "scores": "{'score': 1001.171900694333, 'matchScore': 0, 'ageScore': 0.9719006943329476, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
