@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-02T09:43:41Z",
+ "run": "2026-09-02T14:33:59Z",
  "homepage": {
   "status": 200,
   "bytes": 20237
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "aMc_DhrCBq\u2026",
+  "session.sig": "-tDavAgjic\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGJkNjE5ZTAzY2NhMGU0ODhlYzlmNTI3YjYxMmY2MDEiLCAic2NvcmUiOiAxLjE0NTkyMzg0MzgxOTQ0NDZ9"
+   "sequence": "eyJfaWQiOiAiNTliYmJmM2FjZTgxOTlmYjQwYTRjNzIwNTFjYzNjNWUiLCAic2NvcmUiOiAxLjE0NDg2Mjk5NzQ4MzAyNDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,120 +155,143 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/ridezum/2383573d-1c82-4929-a5c2-12caf9789029?lever-source%5B%5D=jobs.sequoiacap.com",
-  "companyDomain": "ridezum.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c6c435aa210c9689b6d3fecd3fe6fb21_176_160?Expires=1861920000&Signature=dDfXpjHC~4E-Tz68j5GklbbDsWb8UBjEcjndolqXHTfFZwsHx8fL7",
-  "companyId": "Zum",
-  "companySlug": "zum",
-  "companyName": "Z\u016bm",
-  "companyStaffCount": 509,
+  "applyUrl": "https://jobs.ashbyhq.com/reflect-orbital/205e45db-e914-46cf-85cb-55512402499d?utm_source=jobs.sequoiacap.com",
+  "companyDomain": "reflectorbital.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/fff1c09c56efe5fe9e06a8d09d850733_288_160?Expires=1861920000&Signature=AVEwtxr~u~wH4-vYiRcpyPINTvR16d-K~y17~WwJQbqbCK9nnEWQx",
+  "companyId": "Reflect Orbital",
+  "companySlug": "reflect-orbital",
+  "companyName": "Reflect Orbital",
+  "companyStaffCount": 48,
   "considerHosted": false,
   "departments": [
-   "School Bus Yard Operations"
+   "Engineering"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Seattle, WA"
+   "Hawthorne, California, United States",
+   "Hawthorne, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
+    "id": "Hawthorne, California",
+    "label": "Hawthorne, California",
+    "value": "Hawthorne, California"
+   },
+   {
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 37, 'maxValue': 43, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Creative Solutions",
+    "label": "Creative Solutions",
+    "value": "resume:Creative Solutions"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Creative Solutions",
+    "label": "Creative Solutions",
+    "value": "resume:Creative Solutions"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Avionics",
+    "label": "Avionics",
+    "value": "resume:Avionics"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:gnc",
+    "label": "gnc",
+    "value": "resume:gnc"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Commissioning",
+    "label": "Commissioning",
+    "value": "resume:Commissioning"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 10,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -278,35 +301,49 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Renewables & Environment",
+    "label": "Renewables & Environment",
+    "value": "Renewables & Environment"
    }
   ],
-  "timeStamp": "2026-09-01T22:20:55.665000Z",
-  "title": "Dispatcher",
-  "url": "https://jobs.lever.co/ridezum/2383573d-1c82-4929-a5c2-12caf9789029",
-  "jobId": "2383573d-1c82-4929-a5c2-12caf9789029",
+  "timeStamp": "2026-09-02T00:00:00Z",
+  "title": "Principal GNC Engineer",
+  "url": "https://jobs.ashbyhq.com/reflect-orbital/205e45db-e914-46cf-85cb-55512402499d",
+  "jobId": "205e45db-e914-46cf-85cb-55512402499d",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1901390046747, 'matchScore': 0, 'ageScore': 0.9901390046747686, 'richnessScore': 2}",
+  "scores": "{'score': 1001.184546421777, 'matchScore': 0, 'ageScore': 0.9845464217770061, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid",
+   "senior"
+  ],
   "isFeatured": false
  },
  "search_mode": {

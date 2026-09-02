@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-02T09:43:41Z",
+ "run": "2026-09-02T14:33:59Z",
  "homepage": {
   "status": 200,
   "bytes": 20714
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "rgagHQ9k9-\u2026",
+  "session.sig": "Ksi_97Ypsy\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWM4NTMwMWM2NzYxMDJkNjUwOWNkY2JhNTUzMjZhNGUiLCAic2NvcmUiOiAxLjE1NDcyMjMwNTE4MDk0MTR9"
+   "sequence": "eyJfaWQiOiAiYWRkOGNjYjkwYzJlZTBlYTJkZTk3YjI2NWExYThlN2UiLCAic2NvcmUiOiAxLjE1MDY5MTAwOTUyMTk5MDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -174,14 +174,14 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "sales-all",
-    "label": "Sales",
-    "value": "sales-all"
-   },
-   {
     "id": "sales",
     "label": "Sales",
     "value": "sales"
+   },
+   {
+    "id": "sales-all",
+    "label": "Sales",
+    "value": "sales-all"
    },
    {
     "id": "sales-professional",
@@ -209,9 +209,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 146400, 'maxValue': 235375, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:KPI Dashboards",
-    "label": "KPI Dashboards",
-    "value": "resume:KPI Dashboards"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
     "id": "resume:OPEX",
@@ -219,48 +224,38 @@
     "value": "resume:OPEX"
    },
    {
-    "id": "resume:Sales Performance",
-    "label": "Sales Performance",
-    "value": "resume:Sales Performance"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    },
    {
-    "id": "resume:Resource Allocation",
-    "label": "Resource Allocation",
-    "value": "resume:Resource Allocation"
-   },
-   {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
+    "id": "resume:Enterprise Sales",
+    "label": "Enterprise Sales",
+    "value": "resume:Enterprise Sales"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:KPI Dashboards",
-    "label": "KPI Dashboards",
-    "value": "resume:KPI Dashboards"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
     "id": "resume:OPEX",
     "label": "OPEX",
     "value": "resume:OPEX"
-   },
-   {
-    "id": "resume:Sales Performance",
-    "label": "Sales Performance",
-    "value": "resume:Sales Performance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Resource Allocation",
-    "label": "Resource Allocation",
-    "value": "resume:Resource Allocation"
-   },
-   {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    },
    {
     "id": "resume:Enterprise Sales",
@@ -268,14 +263,19 @@
     "value": "resume:Enterprise Sales"
    },
    {
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
+   },
+   {
     "id": "resume:Forecasting",
     "label": "Forecasting",
     "value": "resume:Forecasting"
    },
    {
-    "id": "resume:FPA",
-    "label": "FP&A",
-    "value": "resume:FPA"
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
    }
   ],
   "manager": false,
@@ -293,11 +293,6 @@
   ],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -306,6 +301,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -328,24 +328,24 @@
   "jobId": "30242",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.182669422333, 'matchScore': 0, 'ageScore': 0.9826694223329475, 'richnessScore': 2}",
+  "scores": "{'score': 1001.17947590599, 'matchScore': 0, 'ageScore': 0.9794759059899691, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "senior"
+   "senior",
+   "manager"
   ],
   "isFeatured": false
  },
