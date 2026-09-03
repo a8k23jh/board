@@ -1,7 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-03T04:49:06Z",
- "first_attempt_error": "HTTPSConnectionPool(host='careers.ivp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-09-03T09:57:00Z",
  "homepage": {
   "status": 200,
   "bytes": 19519
@@ -27,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "yDVjxFDpRJ\u2026",
+  "session.sig": "AF6yRVgZTn\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -112,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjA5ZjBlYWVmMWE2Zjk0MDMzZTY3M2U5MWUzZmM3NjgiLCAic2NvcmUiOiAxLjE1MTcyMzYyNjgyMDk4NzZ9"
+   "sequence": "eyJfaWQiOiAiNzU1YzZjYjI3N2U5ZGM2MGE5YzM2NTNmNDQxMzI1ZTgiLCAic2NvcmUiOiAxLjEzOTE1OTM4NTc2OTY3Nn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -153,14 +152,14 @@
   ],
   "jobTypes": [
    {
-    "id": "supervisor",
-    "label": "Supervisor",
-    "value": "supervisor"
-   },
-   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
+   },
+   {
+    "id": "supervisor",
+    "label": "Supervisor",
+    "value": "supervisor"
    }
   ],
   "jobFunctions": [],
@@ -177,9 +176,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 76000, 'maxValue': 115500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Ticketing Systems",
-    "label": "Ticketing Systems",
-    "value": "resume:Ticketing Systems"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
     "id": "resume:Compliance",
@@ -192,43 +196,33 @@
     "value": "resume:Maintenance"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Zendesk",
+    "label": "Zendesk",
+    "value": "resume:Zendesk"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Ticketing Systems",
-    "label": "Ticketing Systems",
-    "value": "resume:Ticketing Systems"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
     "id": "resume:Compliance",
     "label": "Compliance",
     "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
    },
    {
     "id": "resume:Zendesk",
@@ -236,14 +230,19 @@
     "value": "resume:Zendesk"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    },
    {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
+    "id": "resume:Follow through",
+    "label": "Follow through",
+    "value": "resume:Follow through"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    }
   ],
   "manager": true,
@@ -294,7 +293,7 @@
   "jobId": "58ffe45b-0276-4e66-9403-7fc65b94be44",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1930276217639, 'matchScore': 0, 'ageScore': 0.9930276217638889, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1802699960737, 'matchScore': 0, 'ageScore': 0.9802699960736883, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -311,6 +310,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }

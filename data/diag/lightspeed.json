@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-03T04:49:06Z",
+ "run": "2026-09-03T09:57:00Z",
  "homepage": {
   "status": 200,
   "bytes": 21207
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "mN6rJh7dtG\u2026",
+  "session.sig": "y5wvAgVswG\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjhmMTdlZWRjM2E3MTllNDRkMGNjZmQ2NTQwOTdjNTgiLCAic2NvcmUiOiAxLjE2NzI3OTczNzQzNTk1Njd9"
+   "sequence": "eyJfaWQiOiAiNzRhZWFmNjM1NTQyYzJhNDgxOTY5MWY2YTI5MzE5Y2MiLCAic2NvcmUiOiAxLjE1NDk4NDMwOTIyMDY3OX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,38 +144,36 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/kariusdx/9173e1c5-15d5-4724-a8e8-6bc6ba063216?lever-source%5B%5D=jobs.lsvp.com",
-  "companyDomain": "kariusdx.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7f62cbb59ac8953d9da72bf8f0ecbddb_208_160?Expires=1861920000&Signature=OoiO6TJq2VMmrOvz2Ju7Tl05jG5igOeANLBSIbO3PqXq-y859LVKY",
-  "companyId": "Karius",
-  "companySlug": "karius",
-  "companyName": "Karius",
-  "companyStaffCount": 209,
+  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8051/",
+  "companyDomain": "infoblox.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
+  "companyId": "Infoblox",
+  "companySlug": "infoblox",
+  "companyName": "Infoblox",
+  "companyStaffCount": 3390,
   "considerHosted": false,
-  "departments": [
-   "Research & Development"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
+    "id": "solutions-architect",
+    "label": "Solutions Architect",
+    "value": "solutions-architect"
    },
    {
-    "id": "quality-assurance",
-    "label": "Quality Assurance",
-    "value": "quality-assurance"
+    "id": "sales-engineer",
+    "label": "Sales Engineer",
+    "value": "sales-engineer"
    }
   ],
   "jobFunctions": [
@@ -186,85 +184,91 @@
    }
   ],
   "locations": [
-   "Redwood City, CA"
+   "Utah, United States",
+   "Home Office, Salt Lake City, UT, US"
   ],
   "normalizedLocations": [
    {
-    "id": "Redwood City, California",
-    "label": "Redwood City, California",
-    "value": "Redwood City, California"
+    "id": "Utah",
+    "label": "Utah",
+    "value": "Utah"
+   },
+   {
+    "id": "Salt Lake City, Utah",
+    "label": "Salt Lake City, Utah",
+    "value": "Salt Lake City, Utah"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 41.47, 'maxValue': 62.21, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 155000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:IPS",
+    "label": "IPS",
+    "value": "resume:IPS"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:Cloud Security",
+    "label": "Cloud Security",
+    "value": "resume:Cloud Security"
    },
    {
-    "id": "resume:SOP",
-    "label": "Standard operating procedure",
-    "value": "resume:SOP"
+    "id": "resume:Firewalls",
+    "label": "Firewalls",
+    "value": "resume:Firewalls"
    },
    {
-    "id": "resume:Quality Management",
-    "label": "Quality Management",
-    "value": "resume:Quality Management"
+    "id": "resume:Field Sales",
+    "label": "Field Sales",
+    "value": "resume:Field Sales"
    },
    {
-    "id": "resume:Good Lab Practice",
-    "label": "Good Lab Practice",
-    "value": "resume:Good Lab Practice"
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:IPS",
+    "label": "IPS",
+    "value": "resume:IPS"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:Cloud Security",
+    "label": "Cloud Security",
+    "value": "resume:Cloud Security"
    },
    {
-    "id": "resume:SOP",
-    "label": "Standard operating procedure",
-    "value": "resume:SOP"
+    "id": "resume:Firewalls",
+    "label": "Firewalls",
+    "value": "resume:Firewalls"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Quality Management",
-    "label": "Quality Management",
-    "value": "resume:Quality Management"
+    "id": "resume:Field Sales",
+    "label": "Field Sales",
+    "value": "resume:Field Sales"
    },
    {
-    "id": "resume:Good Lab Practice",
-    "label": "Good Lab Practice",
-    "value": "resume:Good Lab Practice"
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    },
    {
-    "id": "resume:Infectious Diseases",
-    "label": "Infectious Diseases",
-    "value": "resume:Infectious Diseases"
+    "id": "resume:DHCP",
+    "label": "DHCP",
+    "value": "resume:DHCP"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:LAN-WAN",
+    "label": "LAN-WAN",
+    "value": "resume:LAN-WAN"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    }
   ],
   "manager": false,
@@ -280,19 +284,8 @@
     4
    ]
   ],
-  "minYearsExp": 1,
-  "maxYearsExp": 2,
+  "minYearsExp": 3,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -301,39 +294,28 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Biotech/Pharma",
-    "label": "Biotech/Pharma",
-    "value": "Biotech/Pharma"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-09-02T21:21:24.950000Z",
-  "title": "Quality Assurance Associate",
-  "url": "https://jobs.lever.co/kariusdx/9173e1c5-15d5-4724-a8e8-6bc6ba063216",
-  "jobId": "9173e1c5-15d5-4724-a8e8-6bc6ba063216",
-  "remote": false,
+  "timeStamp": "2026-09-02T23:56:09Z",
+  "title": "Sales Engineer  - Utah",
+  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8051/",
+  "jobId": "8051",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1971166272929, 'matchScore': 0, 'ageScore': 0.997116627292824, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1878402295498, 'matchScore': 0, 'ageScore': 0.9878402295497685, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -341,7 +323,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "junior",
    "mid"
   ],
   "isFeatured": false

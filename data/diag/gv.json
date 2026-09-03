@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-09-03T04:49:06Z",
+ "run": "2026-09-03T09:57:00Z",
  "homepage": {
   "status": 200,
   "bytes": 26172
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "xgth8Tt-EE\u2026",
+  "session.sig": "5iPr23sCt5\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjMwMjAwYTVhMWI1YzEzOTFjYWU0MTk3ZTE3MjNiMGYiLCAic2NvcmUiOiAxLjEzNDE3MzUxMDk3OTE2NjZ9"
+   "sequence": "eyJfaWQiOiAiYzljZjYzMzUxZjAxMzJhNTE3NzQ0Y2FhYTIwODBlYWMiLCAic2NvcmUiOiAxLjEzNzQ3NDk1OTM4NjE4ODR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,141 +136,139 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/alector/af8ed468-f2ec-4daf-a1e3-6f7b5db52da3?lever-source%5B%5D=jobs.gv.com",
-  "companyDomain": "alector.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9a4c1b0477e8d0d0ad0c4e28e3dba5c0_320_160?Expires=1861920000&Signature=elyy-C4wZMyFzwvVDGBYAL4pkzzDguLS9M3udC2AoJ1v-~dibzkL4",
-  "companyId": "Alector",
-  "companySlug": "alector",
-  "companyName": "Alector",
-  "companyStaffCount": 221,
+  "applyUrl": "https://careers.withwaymo.com/jobs?gh_jid=8171214",
+  "companyDomain": "waymo.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a04896dd1b05b675a7df4762df4fe370_112_160?Expires=1861920000&Signature=EdNw9DPJCYDLbjxU5eEwWJ1ELHjFa3WTlbbzZOXLlSmfSbgMtG32z",
+  "companyId": "Waymo",
+  "companySlug": "waymo",
+  "companyName": "Waymo",
+  "companyStaffCount": 3661,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "CSI (7LV)"
+  ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "South San Francisco, CA"
+   "Mountain View, California, USA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Mountain View, California",
+    "label": "Mountain View, California",
+    "value": "Mountain View, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 232000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 213000, 'maxValue': 263000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Immunology",
-    "label": "Immunology",
-    "value": "resume:Immunology"
+    "id": "resume:Encryption",
+    "label": "Encryption",
+    "value": "resume:Encryption"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    },
    {
-    "id": "resume:Ligand Binding Assay",
-    "label": "Ligand Binding Assay",
-    "value": "resume:Ligand Binding Assay"
+    "id": "resume:Streaming",
+    "label": "Streaming",
+    "value": "resume:Streaming"
    },
    {
-    "id": "resume:Neurodegeneration",
-    "label": "Neurodegeneration",
-    "value": "resume:Neurodegeneration"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Genetics",
-    "label": "Genetics",
-    "value": "resume:Genetics"
+    "id": "resume:ACL",
+    "label": "ACL",
+    "value": "resume:ACL"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Immunology",
-    "label": "Immunology",
-    "value": "resume:Immunology"
+    "id": "resume:Encryption",
+    "label": "Encryption",
+    "value": "resume:Encryption"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    },
    {
-    "id": "resume:Ligand Binding Assay",
-    "label": "Ligand Binding Assay",
-    "value": "resume:Ligand Binding Assay"
+    "id": "resume:Streaming",
+    "label": "Streaming",
+    "value": "resume:Streaming"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Neurodegeneration",
-    "label": "Neurodegeneration",
-    "value": "resume:Neurodegeneration"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Genetics",
-    "label": "Genetics",
-    "value": "resume:Genetics"
+    "id": "resume:ACL",
+    "label": "ACL",
+    "value": "resume:ACL"
    },
    {
-    "id": "resume:ADA",
-    "label": "ADA",
-    "value": "resume:ADA"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Good Lab Practice",
-    "label": "Good Lab Practice",
-    "value": "resume:Good Lab Practice"
+    "id": "resume:Data Governance",
+    "label": "Data Governance",
+    "value": "resume:Data Governance"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:ACLS",
+    "label": "ACLS",
+    "value": "resume:ACLS"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ],
-   [
-    9,
-    10,
-    11,
-    12
+    3,
+    4
    ]
   ],
-  "minYearsExp": 15,
+  "minYearsExp": 4,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Pacific States",
@@ -278,49 +276,49 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Biotech/Pharma",
-    "label": "Biotech/Pharma",
-    "value": "Biotech/Pharma"
+    "id": "Autonomous Vehicles",
+    "label": "Autonomous Vehicles",
+    "value": "Autonomous Vehicles"
    }
   ],
-  "timeStamp": "2026-09-02T18:17:03.867000Z",
-  "title": "Associate Director, Bioanalytical Sciences",
-  "url": "https://jobs.lever.co/alector/af8ed468-f2ec-4daf-a1e3-6f7b5db52da3",
-  "jobId": "af8ed468-f2ec-4daf-a1e3-6f7b5db52da3",
+  "timeStamp": "2026-09-02T17:58:48Z",
+  "title": "Data Infra Engineer",
+  "url": "https://careers.withwaymo.com/jobs?gh_jid=8171214",
+  "jobId": "8171214",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1929370202238, 'matchScore': 0, 'ageScore': 0.9929370202237654, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1801240871246, 'matchScore': 0, 'ageScore': 0.9801240871246142, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
-   },
-   {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "director"
+   "mid"
   ],
   "isFeatured": false
  },

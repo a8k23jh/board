@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-03T04:49:06Z",
+ "run": "2026-09-03T09:57:00Z",
  "homepage": {
   "status": 200,
   "bytes": 21736
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "as8oS67X-I\u2026",
+  "session.sig": "_eM5fn-uWv\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGFjODI5OGVmNjY0MWJkZDAzMjhkOTc3MjRhYjE4M2MiLCAic2NvcmUiOiAxLjExOTQ4NDI0ODAwNTc4N30="
+   "sequence": "eyJfaWQiOiAiYjRmMjNkY2Y5MTIwY2NkODkyMmM3NGE4YjM5MDAxNzMiLCAic2NvcmUiOiAxLjExMTg4NjU1MjY5Njc1OTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,145 +152,133 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.withwaymo.com/jobs?gh_jid=8171214",
-  "companyDomain": "waymo.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a04896dd1b05b675a7df4762df4fe370_112_160?Expires=1861920000&Signature=EdNw9DPJCYDLbjxU5eEwWJ1ELHjFa3WTlbbzZOXLlSmfSbgMtG32z",
-  "companyId": "Waymo",
-  "companySlug": "waymo",
-  "companyName": "Waymo",
-  "companyStaffCount": 3661,
+  "applyUrl": "https://jobs.lever.co/luxurypresence/23ce9514-7d52-4b0d-93f7-cf7c20d8e46c?lever-source%5B%5D=jobs.bvp.com",
+  "companyDomain": "luxurypresence.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/424eb3e37fb66a630c9d32c094fc61ca_240_160?Expires=1861920000&Signature=fSYTtnn23iqcoOJZzNYirZId9dUZkkwnb~4MnrzRI4y4YiuGpAjFW",
+  "companyId": "Luxury Presence",
+  "companySlug": "luxury-presence",
+  "companyName": "Luxury Presence",
+  "companyStaffCount": 859,
   "considerHosted": false,
   "departments": [
-   "CSI (7LV)"
+   "Operations"
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Mountain View, California, USA"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Mountain View, California",
-    "label": "Mountain View, California",
-    "value": "Mountain View, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 213000, 'maxValue': 263000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Data Governance",
-    "label": "Data Governance",
-    "value": "resume:Data Governance"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    },
    {
-    "id": "resume:ACLS",
-    "label": "ACLS",
-    "value": "resume:ACLS"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
-    "id": "resume:Flume",
-    "label": "Flume",
-    "value": "resume:Flume"
+    "id": "resume:Sales Force Development",
+    "label": "Salesforce Development",
+    "value": "resume:Sales Force Development"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Data Governance",
-    "label": "Data Governance",
-    "value": "resume:Data Governance"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:ACLS",
-    "label": "ACLS",
-    "value": "resume:ACLS"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
-    "id": "resume:Flume",
-    "label": "Flume",
-    "value": "resume:Flume"
+    "id": "resume:Sales Force Development",
+    "label": "Salesforce Development",
+    "value": "resume:Sales Force Development"
    },
    {
-    "id": "resume:Commercialization",
-    "label": "Commercialization",
-    "value": "resume:Commercialization"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
    },
    {
-    "id": "resume:Algorithms and data structures",
-    "label": "Algorithms and Data Structures",
-    "value": "resume:Algorithms and data structures"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Product Vision",
+    "label": "Product Vision",
+    "value": "resume:Product Vision"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 4,
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -299,42 +287,36 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Autonomous Vehicles",
-    "label": "Autonomous Vehicles",
-    "value": "Autonomous Vehicles"
+    "id": "Marketing and Advertising",
+    "label": "Marketing and Advertising",
+    "value": "Marketing and Advertising"
    }
   ],
-  "timeStamp": "2026-09-02T17:58:48Z",
-  "title": "Data Infra Engineer",
-  "url": "https://careers.withwaymo.com/jobs?gh_jid=8171214",
-  "jobId": "8171214",
-  "remote": false,
+  "timeStamp": "2026-09-02T18:10:25.174000Z",
+  "title": "Director of Launch Operations",
+  "url": "https://jobs.lever.co/luxurypresence/23ce9514-7d52-4b0d-93f7-cf7c20d8e46c",
+  "jobId": "23ce9514-7d52-4b0d-93f7-cf7c20d8e46c",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1919978610042, 'matchScore': 0, 'ageScore': 0.9919978610042438, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1803460782037, 'matchScore': 0, 'ageScore': 0.9803460782037037, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },
