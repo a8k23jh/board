@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-03T14:38:10Z",
+ "run": "2026-09-03T18:47:00Z",
  "homepage": {
   "status": 200,
   "bytes": 20609
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "nqMkWFpCvn\u2026",
+  "session.sig": "59xqdCGJey\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTA5MjU4N2Y2YmFlMTYzZTkwYzliYzdkOGZmZmNiNTAiLCAic2NvcmUiOiAxLjEzMDI2NTYxMjU1MjA4MzR9"
+   "sequence": "eyJfaWQiOiAiNDM2YWJlZTUxMDc2MWQ0NzEwMDk5MTVkMTNjMTM1MTgiLCAic2NvcmUiOiAxLjEyNzExOTYxOTEyMTE0Mn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,122 +136,127 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/goodleap/93f84211-3530-4fb7-8e7e-ac330ab9e665?lever-source%5B%5D=careers.nea.com",
-  "companyDomain": "goodleap.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b348d7a2476387a5ba1f889319c2a639_256_160?Expires=1861920000&Signature=tiLAGpyB2DahspzNGnyZdJoRHol5NnKEKcRIKqQ4eE17a7QjWXqHT",
-  "companyId": "GoodLeap",
-  "companySlug": "goodleap",
-  "companyName": "GoodLeap",
-  "companyStaffCount": 1296,
+  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDpHRS8HqNj5ilKgAASueTNB?utm_source=careers.nea.com",
+  "companyDomain": "launchfirestorm.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e188c39c312914da9e7993fda04e236c_320_160?Expires=1861920000&Signature=Pm7J-k33~dn1h7QkoqdLumPZldorJ59U2n6Yki9r684MrWcuwsfhz",
+  "companyId": "Firestorm",
+  "companySlug": "firestorm",
+  "companyName": "Firestorm",
+  "companyStaffCount": 192,
   "considerHosted": false,
   "departments": [
-   "- AI Transformation"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "product-manager",
-    "label": "Product Manager",
-    "value": "product-manager"
+    "id": "data-scientist",
+    "label": "Data Scientist",
+    "value": "data-scientist"
+   },
+   {
+    "id": "machine-learning-engineer",
+    "label": "Machine Learning Engineer",
+    "value": "machine-learning-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Product Management",
-    "label": "Product Management",
-    "value": "Product Management"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Remote, US"
+   "San Diego, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Diego, California",
+    "label": "San Diego, California",
+    "value": "San Diego, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 141700, 'maxValue': 160700, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
+   {
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
+   },
+   {
+    "id": "resume:Record Of Success",
+    "label": "Record Of Success",
+    "value": "resume:Record Of Success"
+   },
+   {
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
+   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   },
-   {
-    "id": "resume:Data Processing",
-    "label": "Data Processing",
-    "value": "resume:Data Processing"
-   },
-   {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
-   },
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
+   },
+   {
+    "id": "resume:Record Of Success",
+    "label": "Record Of Success",
+    "value": "resume:Record Of Success"
+   },
+   {
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
+   }
+  ],
+  "preferredSkills": [
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Data Processing",
-    "label": "Data Processing",
-    "value": "resume:Data Processing"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Top Secret",
+    "label": "Clearance",
+    "value": "resume:Top Secret"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
-   },
-   {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    }
   ],
   "manager": false,
@@ -267,49 +272,61 @@
     6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Climate",
-    "label": "Climate",
-    "value": "Climate"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
    },
    {
-    "id": "Energy Transition",
-    "label": "Energy Transition",
-    "value": "Energy Transition"
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
    },
    {
-    "id": "Financial Services",
-    "label": "Financial Services",
-    "value": "Financial Services"
-   },
-   {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-09-03T00:39:17.706000Z",
-  "title": "Product Manager, AI Transformation & Salesforce",
-  "url": "https://jobs.lever.co/goodleap/93f84211-3530-4fb7-8e7e-ac330ab9e665",
-  "jobId": "93f84211-3530-4fb7-8e7e-ac330ab9e665",
-  "remote": true,
+  "timeStamp": "2026-09-03T11:56:16Z",
+  "title": "ML Engineer, Applied AI \u2013 Crucible",
+  "url": "https://jobs.gem.com/firestorm/am9icG9zdDpHRS8HqNj5ilKgAASueTNB",
+  "jobId": "am9icG9zdDpHRS8HqNj5ilKgAASueTNB",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1844546895231, 'matchScore': 0, 'ageScore': 0.9844546895231482, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1927261299953, 'matchScore': 0, 'ageScore': 0.9927261299953704, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
