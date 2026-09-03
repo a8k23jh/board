@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-09-03T00:22:03Z",
+ "run": "2026-09-03T04:49:06Z",
  "homepage": {
   "status": 200,
   "bytes": 26172
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"},\"server\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"},\"server\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "KO7s4SWKTx\u2026",
+  "session.sig": "xgth8Tt-EE\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2Q5YmQ1YTc5NDQ2NzI4MDhmZDQ5MzNmMDYyN2RmNGEiLCAic2NvcmUiOiAxLjEzNzc3NjAyMTg1MzAwOTN9"
+   "sequence": "eyJfaWQiOiAiMjMwMjAwYTVhMWI1YzEzOTFjYWU0MTk3ZTE3MjNiMGYiLCAic2NvcmUiOiAxLjEzNDE3MzUxMDk3OTE2NjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,139 +136,147 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/dialpad/jobs/8701282002",
-  "companyDomain": "dialpad.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/76376b4f27b0a952a9a9ff422b992e2b_192_160?Expires=1861920000&Signature=CMhAWTMIY3zbSvP846Y1HMoGiI3r6WC8n93cekAmfmD3w5ZAwtoXZ",
-  "companyId": "Dialpad",
-  "companySlug": "dialpad",
-  "companyName": "Dialpad",
-  "companyStaffCount": 1488,
+  "applyUrl": "https://jobs.lever.co/alector/af8ed468-f2ec-4daf-a1e3-6f7b5db52da3?lever-source%5B%5D=jobs.gv.com",
+  "companyDomain": "alector.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9a4c1b0477e8d0d0ad0c4e28e3dba5c0_320_160?Expires=1861920000&Signature=elyy-C4wZMyFzwvVDGBYAL4pkzzDguLS9M3udC2AoJ1v-~dibzkL4",
+  "companyId": "Alector",
+  "companySlug": "alector",
+  "companyName": "Alector",
+  "companyStaffCount": 221,
   "considerHosted": false,
-  "departments": [
-   "217 - TrueCaaS"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Vancouver, Canada"
+   "South San Francisco, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Vancouver, Canada Area",
-    "label": "Vancouver, Canada Area",
-    "value": "Vancouver, Canada Area"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 147000, 'maxValue': 174000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 232000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:NoSQL",
-    "label": "NoSQL",
-    "value": "resume:NoSQL"
+    "id": "resume:Immunology",
+    "label": "Immunology",
+    "value": "resume:Immunology"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Google Cloud Platform",
-    "label": "Google Cloud Platform",
-    "value": "resume:Google Cloud Platform"
+    "id": "resume:Ligand Binding Assay",
+    "label": "Ligand Binding Assay",
+    "value": "resume:Ligand Binding Assay"
    },
    {
-    "id": "resume:React.js",
-    "label": "React.js",
-    "value": "resume:React.js"
+    "id": "resume:Neurodegeneration",
+    "label": "Neurodegeneration",
+    "value": "resume:Neurodegeneration"
    },
    {
-    "id": "resume:Vue.js",
-    "label": "Vue.js",
-    "value": "resume:Vue.js"
+    "id": "resume:Genetics",
+    "label": "Genetics",
+    "value": "resume:Genetics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:NoSQL",
-    "label": "NoSQL",
-    "value": "resume:NoSQL"
+    "id": "resume:Immunology",
+    "label": "Immunology",
+    "value": "resume:Immunology"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Google Cloud Platform",
-    "label": "Google Cloud Platform",
-    "value": "resume:Google Cloud Platform"
+    "id": "resume:Ligand Binding Assay",
+    "label": "Ligand Binding Assay",
+    "value": "resume:Ligand Binding Assay"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:React.js",
-    "label": "React.js",
-    "value": "resume:React.js"
+    "id": "resume:Neurodegeneration",
+    "label": "Neurodegeneration",
+    "value": "resume:Neurodegeneration"
    },
    {
-    "id": "resume:Vue.js",
-    "label": "Vue.js",
-    "value": "resume:Vue.js"
+    "id": "resume:Genetics",
+    "label": "Genetics",
+    "value": "resume:Genetics"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:ADA",
+    "label": "ADA",
+    "value": "resume:ADA"
    },
    {
-    "id": "resume:JavaScript",
-    "label": "JavaScript",
-    "value": "resume:JavaScript"
+    "id": "resume:Good Lab Practice",
+    "label": "Good Lab Practice",
+    "value": "resume:Good Lab Practice"
    },
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    9,
+    10,
+    11,
+    12
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 15,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -277,42 +285,42 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Telecommunications",
-    "label": "Telecommunications",
-    "value": "Telecommunications"
+    "id": "Biotech/Pharma",
+    "label": "Biotech/Pharma",
+    "value": "Biotech/Pharma"
    }
   ],
-  "timeStamp": "2026-09-02T10:15:56Z",
-  "title": "Software Engineer",
-  "url": "https://job-boards.greenhouse.io/dialpad/jobs/8701282002",
-  "jobId": "8701282002",
+  "timeStamp": "2026-09-02T18:17:03.867000Z",
+  "title": "Associate Director, Bioanalytical Sciences",
+  "url": "https://jobs.lever.co/alector/af8ed468-f2ec-4daf-a1e3-6f7b5db52da3",
+  "jobId": "af8ed468-f2ec-4daf-a1e3-6f7b5db52da3",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1858037213287, 'matchScore': 0, 'ageScore': 0.9858037213287038, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1929370202238, 'matchScore': 0, 'ageScore': 0.9929370202237654, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
+   },
+   {
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager",
+   "director"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-03T00:22:03Z",
+ "run": "2026-09-03T04:49:06Z",
  "homepage": {
   "status": 200,
   "bytes": 16704
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"},\"server\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"},\"server\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "klDVJKWIxN\u2026",
+  "session.sig": "q62EMTVEuW\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.02
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.02
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.02
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.02
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.02
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.02
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.02
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNmNjNmU4Y2MxYmEwM2ZhMzYwNmE0YTE4NjBiMzk1NmMiLCAic2NvcmUiOiAxLjAyNTM5MDUyNTc1ODEwMTd9"
+   "sequence": "eyJfaWQiOiAiNDIzMDJhMzgyZmEwODFmYmJkZTQ5NjI2YmIzOGNiNTEiLCAic2NvcmUiOiAxLjAzMzg5NTgxNTE2MzE5NDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,46 +155,57 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/endurance-energy/8383c038-348a-4049-9417-803fa729e58d?utm_source=jobs.firstround.com",
-  "companyDomain": "enduranceenergy.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/70dacb0076f22a64d31974a4ef94f401_320_160?Expires=1861920000&Signature=m3IE5U7yK-Hn6TNxz-9l1qwTlOJdDCnHTaDpZZUJnWPn8Kte-dHvl",
-  "companyId": "Endurance Energy",
-  "companySlug": "endurance-energy",
-  "companyName": "Endurance Energy",
-  "companyStaffCount": 35,
+  "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8174558",
+  "companyDomain": "flexport.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/963204163cf1c12c9d559f5f59e9c8eb_224_160?Expires=1861920000&Signature=NM6Nr7rLbBQFOk7dzdWVeh8D-P634vODIBuXB~xQ4hsuyqEUajpSf",
+  "companyId": "Flexport",
+  "companySlug": "flexport",
+  "companyName": "Flexport",
+  "companyStaffCount": 2926,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Global Operations"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "business-development",
+    "label": "Business Development Professional",
+    "value": "business-development"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Business Development",
+    "label": "Business Development",
+    "value": "Business Development"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "Seattle, Washington, United States",
-   "Seattle, WA"
+   "Los Angeles, California, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
+    "id": "Los Angeles, California",
+    "label": "Los Angeles, California",
+    "value": "Los Angeles, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 79200, 'maxValue': 99000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Goods",
+    "label": "Goods",
+    "value": "resume:Goods"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
-   },
-   {
-    "id": "resume:Offshore Drilling",
-    "label": "Offshore Drilling",
-    "value": "resume:Offshore Drilling"
+    "id": "resume:CCPA",
+    "label": "CCPA",
+    "value": "resume:CCPA"
    },
    {
     "id": "resume:Equity",
@@ -202,53 +213,58 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Power Plants",
-    "label": "Power Plants",
-    "value": "resume:Power Plants"
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
+   },
+   {
+    "id": "resume:Client Relations",
+    "label": "Client Relations",
+    "value": "resume:Client Relations"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Goods",
+    "label": "Goods",
+    "value": "resume:Goods"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:CCPA",
+    "label": "CCPA",
+    "value": "resume:CCPA"
    },
-   {
-    "id": "resume:Offshore Drilling",
-    "label": "Offshore Drilling",
-    "value": "resume:Offshore Drilling"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
    },
    {
-    "id": "resume:Power Plants",
-    "label": "Power Plants",
-    "value": "resume:Power Plants"
+    "id": "resume:Client Relations",
+    "label": "Client Relations",
+    "value": "resume:Client Relations"
    },
    {
-    "id": "resume:Assembly",
-    "label": "Assembly",
-    "value": "resume:Assembly"
+    "id": "resume:Service Quality",
+    "label": "Service Quality",
+    "value": "resume:Service Quality"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Bookings",
+    "label": "Bookings",
+    "value": "resume:Bookings"
    },
    {
-    "id": "resume:Test Equipment",
-    "label": "Test Equipment",
-    "value": "resume:Test Equipment"
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
    }
   ],
   "manager": false,
@@ -256,80 +272,76 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 3,
+  "maxYearsExp": 5,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Energy",
-    "label": "Energy",
-    "value": "Energy"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
    },
    {
-    "id": "Renewables & Environment",
-    "label": "Renewables & Environment",
-    "value": "Renewables & Environment"
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
    }
   ],
-  "timeStamp": "2026-09-02T00:00:00Z",
-  "title": "Cable Harness Specialist",
-  "url": "https://jobs.ashbyhq.com/endurance-energy/8383c038-348a-4049-9417-803fa729e58d",
-  "jobId": "8383c038-348a-4049-9417-803fa729e58d",
+  "timeStamp": "2026-09-02T17:18:06Z",
+  "title": "Senior Business Development Associate, Ocean Consolidations",
+  "url": "https://job-boards.greenhouse.io/flexport/jobs/8174558",
+  "jobId": "8174558",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.171900694333, 'matchScore': 0, 'ageScore': 0.9719006943329476, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1916585533534, 'matchScore': 0, 'ageScore': 0.991658553353395, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

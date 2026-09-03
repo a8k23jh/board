@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-09-03T00:22:03Z",
+ "run": "2026-09-03T04:49:06Z",
  "homepage": {
   "status": 200,
   "bytes": 19381
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"},\"server\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"},\"server\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "NXDaIp32wS\u2026",
+  "session.sig": "MVaFwAFZeC\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjkxYmIyM2MyMDQ2MzRkMDNlZGMzNTExYjBjYjQ2YzYiLCAic2NvcmUiOiAxLjEwMDkyNzkwMDg0MDI3Nzd9"
+   "sequence": "eyJfaWQiOiAiMmViMjk0ZTRmNGI2NTQ1NmJmMTNkNDNiYmVmOWY2Y2EiLCAic2NvcmUiOiAxLjA5OTA3MDkyNzg5ODkxOTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/CesiumAstro/ef289492-251f-4d84-9e06-172c143e1e7a?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "applyUrl": "https://jobs.lever.co/CesiumAstro/045441b4-482c-4778-a11f-fb86df21c4e5?lever-source%5B%5D=jobs.kleinerperkins.com",
   "companyDomain": "cesiumastro.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
   "companyId": "CesiumAstro",
@@ -168,9 +168,9 @@
   ],
   "jobTypes": [
    {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
+    "id": "hardware-engineer",
+    "label": "Hardware Engineer",
+    "value": "hardware-engineer"
    }
   ],
   "jobFunctions": [
@@ -190,12 +190,17 @@
     "value": "Westminster, Colorado"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 158000, 'maxValue': 189000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 133000, 'maxValue': 161000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Engineering Design",
-    "label": "Engineering Design",
-    "value": "resume:Engineering Design"
+    "id": "resume:VV",
+    "label": "Verification and Validation",
+    "value": "resume:VV"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
     "id": "resume:Aerospace",
@@ -203,69 +208,73 @@
     "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
+    "id": "resume:Hardware Design",
+    "label": "Hardware Design",
+    "value": "resume:Hardware Design"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
-   },
-   {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Proposal Writing",
+    "label": "Proposal Writing",
+    "value": "resume:Proposal Writing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Engineering Design",
-    "label": "Engineering Design",
-    "value": "resume:Engineering Design"
+    "id": "resume:VV",
+    "label": "Verification and Validation",
+    "value": "resume:VV"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
     "id": "resume:Aerospace",
     "label": "Aerospace",
     "value": "resume:Aerospace"
-   },
-   {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Hardware Design",
+    "label": "Hardware Design",
+    "value": "resume:Hardware Design"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Proposal Writing",
+    "label": "Proposal Writing",
+    "value": "resume:Proposal Writing"
    },
    {
-    "id": "resume:Spacecraft",
-    "label": "Spacecraft",
-    "value": "resume:Spacecraft"
+    "id": "resume:FPGA",
+    "label": "FPGA",
+    "value": "resume:FPGA"
    },
    {
-    "id": "resume:Department of State",
-    "label": "Department of State",
-    "value": "resume:Department of State"
+    "id": "resume:Signal Processing",
+    "label": "Signal Processing",
+    "value": "resume:Signal Processing"
    },
    {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
+    "id": "resume:Engineering Design",
+    "label": "Engineering Design",
+    "value": "resume:Engineering Design"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
    {
     "id": "North America",
@@ -298,21 +307,16 @@
     "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-09-02T14:35:14.890000Z",
-  "title": "Staff RF Test Engineer",
-  "url": "https://jobs.lever.co/CesiumAstro/ef289492-251f-4d84-9e06-172c143e1e7a",
-  "jobId": "ef289492-251f-4d84-9e06-172c143e1e7a",
+  "timeStamp": "2026-09-02T15:58:18.741000Z",
+  "title": "Senior FPGA Engineer",
+  "url": "https://jobs.lever.co/CesiumAstro/045441b4-482c-4778-a11f-fb86df21c4e5",
+  "jobId": "045441b4-482c-4778-a11f-fb86df21c4e5",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1922355618179, 'matchScore': 0, 'ageScore': 0.9922355618179012, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1893735933669, 'matchScore': 0, 'ageScore': 0.9893735933668981, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
    {
     "id": "senior",
     "label": "Senior",
@@ -320,7 +324,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "mid",
    "senior"
   ],
   "isFeatured": false

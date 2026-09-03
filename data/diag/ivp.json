@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-03T00:22:03Z",
+ "run": "2026-09-03T04:49:06Z",
  "first_attempt_error": "HTTPSConnectionPool(host='careers.ivp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
@@ -22,12 +22,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"},\"server\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"},\"server\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "h0JwvGlQK9\u2026",
+  "session.sig": "yDVjxFDpRJ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -112,7 +112,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjczZDRmOTc5MzA2NzRlMmZmNDA1OGEwOTU2MjVhNjQiLCAic2NvcmUiOiAxLjEyMDgzNjczNTQ1MTAwMzJ9"
+   "sequence": "eyJfaWQiOiAiYjA5ZjBlYWVmMWE2Zjk0MDMzZTY3M2U5MWUzZmM3NjgiLCAic2NvcmUiOiAxLjE1MTcyMzYyNjgyMDk4NzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -140,7 +140,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lyrahealth/ad8824a4-f077-48aa-8246-cb76ce24b5c7?lever-source%5B%5D=careers.ivp.com",
+  "applyUrl": "https://jobs.lever.co/lyrahealth/58ffe45b-0276-4e66-9403-7fc65b94be44?lever-source%5B%5D=careers.ivp.com",
   "companyDomain": "lyrahealth.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/143cd3a237462e2e7a2ccd47b2d73fac_96_160?Expires=1861920000&Signature=NN4EpXx0uHmRsAc6GKWU1E0aaw8tKG4yCj2QYcyRkjmu-TasPWWqFM",
   "companyId": "Lyra Health",
@@ -149,22 +149,21 @@
   "companyStaffCount": 2800,
   "considerHosted": false,
   "departments": [
-   "Clinical Ops"
+   "Provider Network Ops"
   ],
   "jobTypes": [
    {
-    "id": "consultant",
-    "label": "Consultant",
-    "value": "consultant"
-   }
-  ],
-  "jobFunctions": [
+    "id": "supervisor",
+    "label": "Supervisor",
+    "value": "supervisor"
+   },
    {
-    "id": "Consulting",
-    "label": "Consulting",
-    "value": "Consulting"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
+  "jobFunctions": [],
   "locations": [
    "United States"
   ],
@@ -175,82 +174,88 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 38.65, 'maxValue': 38.65, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 76000, 'maxValue': 115500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
+    "id": "resume:Ticketing Systems",
+    "label": "Ticketing Systems",
+    "value": "resume:Ticketing Systems"
    },
    {
-    "id": "resume:Social Work",
-    "label": "Social Work",
-    "value": "resume:Social Work"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Call Centers",
-    "label": "Call Centers",
-    "value": "resume:Call Centers"
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
+    "id": "resume:Ticketing Systems",
+    "label": "Ticketing Systems",
+    "value": "resume:Ticketing Systems"
    },
    {
-    "id": "resume:Social Work",
-    "label": "Social Work",
-    "value": "resume:Social Work"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Call Centers",
-    "label": "Call Centers",
-    "value": "resume:Call Centers"
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Bilingual",
-    "label": "Bilingual",
-    "value": "resume:Bilingual"
+    "id": "resume:Zendesk",
+    "label": "Zendesk",
+    "value": "resume:Zendesk"
    },
    {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    }
   ],
-  "manager": false,
-  "consultant": true,
+  "manager": true,
+  "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 4,
   "regions": [
    {
     "id": "North America",
@@ -283,13 +288,13 @@
     "value": "Mental Health Care"
    }
   ],
-  "timeStamp": "2026-09-02T13:51:26.650000Z",
-  "title": "EAP Clinical Consultant",
-  "url": "https://jobs.lever.co/lyrahealth/ad8824a4-f077-48aa-8246-cb76ce24b5c7",
-  "jobId": "ad8824a4-f077-48aa-8246-cb76ce24b5c7",
+  "timeStamp": "2026-09-02T18:06:53.061000Z",
+  "title": "Payer Enrollment Supervisor",
+  "url": "https://jobs.lever.co/lyrahealth/58ffe45b-0276-4e66-9403-7fc65b94be44",
+  "jobId": "58ffe45b-0276-4e66-9403-7fc65b94be44",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.190652539662, 'matchScore': 0, 'ageScore': 0.990652539662037, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1930276217639, 'matchScore': 0, 'ageScore': 0.9930276217638889, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-09-03T00:22:03Z",
+ "run": "2026-09-03T04:49:06Z",
  "homepage": {
   "status": 200,
   "bytes": 20929
@@ -29,12 +29,12 @@
    "slug": "initialized",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"},\"server\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"},\"server\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "x5bkkLs68z\u2026",
+  "session.sig": "EBnwhaXR6S\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjFhZDMwZWEwYjhiMjE4OTM5YTFlNmU1MmRiYmFkODciLCAic2NvcmUiOiAxMDAuNjM3NTQ3NzA5MjM2NX0="
+   "sequence": "eyJfaWQiOiAiZmFlN2Q0YTgwMzk4YzQwZjAwMTBmZTUyNDc3MjA0NTAiLCAic2NvcmUiOiAxMDAuNjMwMjg5ODEyODYxODl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -191,24 +191,24 @@
     "value": "resume:Compliance"
    },
    {
-    "id": "resume:Hands-on Technical Leadership",
-    "label": "Hands-on Technical Leadership",
-    "value": "resume:Hands-on Technical Leadership"
-   },
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
     "id": "resume:Licensing",
     "label": "Licensing",
     "value": "resume:Licensing"
+   },
+   {
+    "id": "resume:System Design",
+    "label": "System Design",
+    "value": "resume:System Design"
+   },
+   {
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    }
   ],
   "requiredSkills": [
@@ -218,31 +218,31 @@
     "value": "resume:Compliance"
    },
    {
-    "id": "resume:Hands-on Technical Leadership",
-    "label": "Hands-on Technical Leadership",
-    "value": "resume:Hands-on Technical Leadership"
-   },
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
     "id": "resume:Licensing",
     "label": "Licensing",
     "value": "resume:Licensing"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:System Design",
+    "label": "System Design",
+    "value": "resume:System Design"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Contractors",
@@ -250,9 +250,9 @@
     "value": "resume:Contractors"
    },
    {
-    "id": "resume:System Design",
-    "label": "System Design",
-    "value": "resume:System Design"
+    "id": "resume:Hands-on Technical Leadership",
+    "label": "Hands-on Technical Leadership",
+    "value": "resume:Hands-on Technical Leadership"
    }
   ],
   "manager": true,
@@ -270,6 +270,16 @@
   ],
   "regions": [
    {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -278,16 +288,6 @@
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -326,7 +326,7 @@
   "jobId": "aa994de3-23b8-4999-9b26-1a6618b2e342",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1101.1052573976535, 'matchScore': 0, 'ageScore': 0.9052573976535494, 'richnessScore': 2}",
+  "scores": "{'score': 1101.1008819433346, 'matchScore': 0, 'ageScore': 0.9008819433344908, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

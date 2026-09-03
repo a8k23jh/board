@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-03T00:22:03Z",
+ "run": "2026-09-03T04:49:06Z",
  "homepage": {
   "status": 200,
   "bytes": 20609
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"},\"server\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"},\"server\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "KsRTQVnBv2\u2026",
+  "session.sig": "cd5x22G9ry\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYmQ3MzBmZDFmNzEwYWQ5MDYyYWFiNWU4Yjc1MWQzMzEiLCAic2NvcmUiOiAxLjEzMDA0OTgyNDEyNzMxNX0="
+   "sequence": "eyJfaWQiOiAiMDMyODlmN2EwZGFjOTlkMjBiMTZkYzdhOGRiZTI1YzYiLCAic2NvcmUiOiAxLjEzMzk3NzE1OTU3NjAwM30="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,192 +136,154 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDrAB-hx50QsJKxnuQnaDFbB?utm_source=careers.nea.com",
-  "companyDomain": "launchfirestorm.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e188c39c312914da9e7993fda04e236c_320_160?Expires=1861920000&Signature=Pm7J-k33~dn1h7QkoqdLumPZldorJ59U2n6Yki9r684MrWcuwsfhz",
-  "companyId": "Firestorm",
-  "companySlug": "firestorm",
-  "companyName": "Firestorm",
-  "companyStaffCount": 192,
+  "applyUrl": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=6ac972d56d20e083",
+  "companyDomain": "radpartners.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cbb7c62716082738519fbfbf183291f4_320_160?Expires=1861920000&Signature=IP2EwPq0HgJamPOiRiCrnFCNO7ptxDEq05T1ezuMj3TC6QzvZIq8E",
+  "companyId": "Radiology Partners",
+  "companySlug": "radiology-partners",
+  "companyName": "Radiology Partners",
+  "companyStaffCount": 2302,
   "considerHosted": false,
-  "departments": [
-   "Mission Success"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "advisor",
-    "label": "Advisor",
-    "value": "advisor"
+    "id": "assistant",
+    "label": "Assistant",
+    "value": "assistant"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Consulting",
-    "label": "Consulting",
-    "value": "Consulting"
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
    }
   ],
   "locations": [
-   "San Diego, CA"
+   "Las Vegas, NV"
   ],
   "normalizedLocations": [
    {
-    "id": "San Diego, California",
-    "label": "San Diego, California",
-    "value": "San Diego, California"
+    "id": "Las Vegas, Nevada",
+    "label": "Las Vegas, Nevada",
+    "value": "Las Vegas, Nevada"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 16, 'maxValue': 17, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
+    "id": "resume:AIDE",
+    "label": "AIDE",
+    "value": "resume:AIDE"
    },
    {
-    "id": "resume:Advisor",
-    "label": "Advisor",
-    "value": "resume:Advisor"
+    "id": "resume:Creative Solutions",
+    "label": "Creative Solutions",
+    "value": "resume:Creative Solutions"
    },
    {
-    "id": "resume:Field Service",
-    "label": "Field Service",
-    "value": "resume:Field Service"
+    "id": "resume:Board Certified",
+    "label": "Board Certified",
+    "value": "resume:Board Certified"
    },
    {
-    "id": "resume:OEM",
-    "label": "OEM",
-    "value": "resume:OEM"
+    "id": "resume:Outpatient",
+    "label": "Outpatient",
+    "value": "resume:Outpatient"
    },
    {
-    "id": "resume:Operational Planning",
-    "label": "Operational Planning",
-    "value": "resume:Operational Planning"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
+    "id": "resume:AIDE",
+    "label": "AIDE",
+    "value": "resume:AIDE"
    },
    {
-    "id": "resume:Advisor",
-    "label": "Advisor",
-    "value": "resume:Advisor"
+    "id": "resume:Creative Solutions",
+    "label": "Creative Solutions",
+    "value": "resume:Creative Solutions"
    },
    {
-    "id": "resume:Field Service",
-    "label": "Field Service",
-    "value": "resume:Field Service"
+    "id": "resume:Board Certified",
+    "label": "Board Certified",
+    "value": "resume:Board Certified"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:OEM",
-    "label": "OEM",
-    "value": "resume:OEM"
+    "id": "resume:Outpatient",
+    "label": "Outpatient",
+    "value": "resume:Outpatient"
    },
    {
-    "id": "resume:Operational Planning",
-    "label": "Operational Planning",
-    "value": "resume:Operational Planning"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:HP",
-    "label": "HP",
-    "value": "resume:HP"
+    "id": "resume:Nonprofits",
+    "label": "Nonprofits",
+    "value": "resume:Nonprofits"
    },
    {
-    "id": "resume:Aviation",
-    "label": "Aviation",
-    "value": "resume:Aviation"
+    "id": "resume:Driving Results",
+    "label": "Driving Results",
+    "value": "resume:Driving Results"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Spreadsheets",
+    "label": "Spreadsheets",
+    "value": "resume:Spreadsheets"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
-  "minYearsExp": 8,
+  "considerLevels": [],
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
-   },
-   {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-09-02T08:57:02Z",
-  "title": "Mission Success Advisor",
-  "url": "https://jobs.gem.com/firestorm/am9icG9zdDrAB-hx50QsJKxnuQnaDFbB",
-  "jobId": "am9icG9zdDrAB-hx50QsJKxnuQnaDFbB",
+  "timeStamp": "2026-09-02T20:56:46Z",
+  "title": "Technologist Aide | Full Time",
+  "url": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=6ac972d56d20e083",
+  "jobId": "6ac972d56d20e083",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1842088465768, 'matchScore': 0, 'ageScore': 0.9842088465767747, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1969051835567, 'matchScore': 0, 'ageScore': 0.996905183556713, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -329,16 +291,10 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },

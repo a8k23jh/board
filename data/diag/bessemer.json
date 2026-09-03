@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-03T00:22:03Z",
+ "run": "2026-09-03T04:49:06Z",
  "homepage": {
   "status": 200,
   "bytes": 21736
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"},\"server\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"},\"server\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "LFvstxffjw\u2026",
+  "session.sig": "as8oS67X-I\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTFhYTFlMmUwNDUyNzk3NDdiNmI5NmJkODcxMzJmYzAiLCAic2NvcmUiOiAxLjA4MjE0MzU4OTIyMTA2NX0="
+   "sequence": "eyJfaWQiOiAiZGFjODI5OGVmNjY0MWJkZDAzMjhkOTc3MjRhYjE4M2MiLCAic2NvcmUiOiAxLjExOTQ4NDI0ODAwNTc4N30="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,116 +152,122 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/litify/jobs/8173502",
-  "companyDomain": "litify.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3f0163c664fe3430a3a0f7d1ef8a7fbc_288_160?Expires=1861920000&Signature=EbakZod2uGjDcQnVN6cGFy3NTmTsrsUFvE2TmAdjqXTei4KctrFfc",
-  "companyId": "Litify",
-  "companySlug": "litify",
-  "companyName": "Litify",
-  "companyStaffCount": 165,
+  "applyUrl": "https://careers.withwaymo.com/jobs?gh_jid=8171214",
+  "companyDomain": "waymo.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a04896dd1b05b675a7df4762df4fe370_112_160?Expires=1861920000&Signature=EdNw9DPJCYDLbjxU5eEwWJ1ELHjFa3WTlbbzZOXLlSmfSbgMtG32z",
+  "companyId": "Waymo",
+  "companySlug": "waymo",
+  "companyName": "Waymo",
+  "companyStaffCount": 3661,
   "considerHosted": false,
   "departments": [
-   "Customer Success"
+   "CSI (7LV)"
   ],
   "jobTypes": [
    {
-    "id": "salesforce-administrator",
-    "label": "Salesforce Administrator",
-    "value": "salesforce-administrator"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Anywhere, USA"
+   "Mountain View, California, USA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Mountain View, California",
+    "label": "Mountain View, California",
+    "value": "Mountain View, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 100000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 213000, 'maxValue': 263000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Lightning components",
-    "label": "Lightning components",
-    "value": "resume:Lightning components"
+    "id": "resume:Data Governance",
+    "label": "Data Governance",
+    "value": "resume:Data Governance"
    },
    {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:ACLS",
+    "label": "ACLS",
+    "value": "resume:ACLS"
    },
    {
-    "id": "resume:Data Migration",
-    "label": "Data Migration",
-    "value": "resume:Data Migration"
+    "id": "resume:Flume",
+    "label": "Flume",
+    "value": "resume:Flume"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Lightning components",
-    "label": "Lightning components",
-    "value": "resume:Lightning components"
+    "id": "resume:Data Governance",
+    "label": "Data Governance",
+    "value": "resume:Data Governance"
    },
    {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:ACLS",
+    "label": "ACLS",
+    "value": "resume:ACLS"
    },
    {
-    "id": "resume:Data Migration",
-    "label": "Data Migration",
-    "value": "resume:Data Migration"
+    "id": "resume:Flume",
+    "label": "Flume",
+    "value": "resume:Flume"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Commercialization",
+    "label": "Commercialization",
+    "value": "resume:Commercialization"
    },
    {
-    "id": "resume:Network Integration",
-    "label": "Network Integration",
-    "value": "resume:Network Integration"
+    "id": "resume:Algorithms and data structures",
+    "label": "Algorithms and Data Structures",
+    "value": "resume:Algorithms and data structures"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    }
   ],
   "manager": false,
@@ -269,16 +275,22 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 4,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -287,19 +299,31 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "markets": [],
-  "timeStamp": "2026-09-02T09:55:10Z",
-  "title": "Salesforce Consultant (LSAP)",
-  "url": "https://job-boards.greenhouse.io/litify/jobs/8173502",
-  "jobId": "8173502",
-  "remote": true,
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Autonomous Vehicles",
+    "label": "Autonomous Vehicles",
+    "value": "Autonomous Vehicles"
+   }
+  ],
+  "timeStamp": "2026-09-02T17:58:48Z",
+  "title": "Data Infra Engineer",
+  "url": "https://careers.withwaymo.com/jobs?gh_jid=8171214",
+  "jobId": "8171214",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1858318085691, 'matchScore': 0, 'ageScore': 0.9858318085690586, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1919978610042, 'matchScore': 0, 'ageScore': 0.9919978610042438, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

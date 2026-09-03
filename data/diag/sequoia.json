@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-03T00:22:03Z",
+ "run": "2026-09-03T04:49:06Z",
  "homepage": {
   "status": 200,
   "bytes": 20237
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"},\"server\":{\"git\":\"8b6fcc58b13e0b0fa181f0bfd4c9420bdd84e8dc\",\"date\":\"2026-09-02T00:23:11.796Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"},\"server\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "RSWoodFcCh\u2026",
+  "session.sig": "9JkEA7jc_k\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzhlYTBmMjc0OWJkNTMwYjA4OWVjNDAzM2MzN2QxYTciLCAic2NvcmUiOiAxLjEzNzk2MjY2MjQyNTE1NDR9"
+   "sequence": "eyJfaWQiOiAiODNiNzRiZDI0NWMwMzI4OGM2ZWE2OTFlMTUwNjEzZTYiLCAic2NvcmUiOiAxLjE1MTE0Njg0NzkwNzc5MzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,123 +155,105 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/mercury/jobs/6178814004",
-  "companyDomain": "mercury.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f98054b413ecb703192095377d043aea_320_160?Expires=1861920000&Signature=ma3OPcXFl99XqBt5juUNn1IOSW7hoByAEPbz4Wm9ukCILr1auKCAL",
-  "companyId": "Mercury Banking for Startups",
-  "companySlug": "mercury-banking-for-startups",
-  "companyName": "Mercury",
-  "companyStaffCount": 1738,
+  "applyUrl": "https://jobs.lever.co/ridezum/727f80f4-92cb-40d0-a12d-bb477224f7da?lever-source%5B%5D=jobs.sequoiacap.com",
+  "companyDomain": "ridezum.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c6c435aa210c9689b6d3fecd3fe6fb21_176_160?Expires=1861920000&Signature=dDfXpjHC~4E-Tz68j5GklbbDsWb8UBjEcjndolqXHTfFZwsHx8fL7",
+  "companyId": "Zum",
+  "companySlug": "zum",
+  "companyName": "Z\u016bm",
+  "companyStaffCount": 509,
   "considerHosted": false,
   "departments": [
-   "Data"
+   "Legal"
   ],
   "jobTypes": [
    {
-    "id": "data-scientist",
-    "label": "Data Scientist",
-    "value": "data-scientist"
+    "id": "order-manager",
+    "label": "Order Manager",
+    "value": "order-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "San Francisco, CA, New York, NY, Portland, OR,",
-   "Remote within Canada",
-   "United States"
+   "Hybrid Remote/ Redwood City, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
-   },
-   {
-    "id": "Canada",
-    "label": "Canada",
-    "value": "Canada"
+    "id": "Redwood City, California",
+    "label": "Redwood City, California",
+    "value": "Redwood City, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 239000, 'maxValue': 298800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 185000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Risk Management",
+    "label": "Risk Management",
+    "value": "resume:Risk Management"
    },
    {
-    "id": "resume:Fraud Detection",
-    "label": "Fraud Detection",
-    "value": "resume:Fraud Detection"
+    "id": "resume:Vendor Contracts",
+    "label": "Vendor Contracts",
+    "value": "resume:Vendor Contracts"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    },
    {
-    "id": "resume:Statistical Modeling",
-    "label": "Statistical Modeling",
-    "value": "resume:Statistical Modeling"
+    "id": "resume:Ticketing Systems",
+    "label": "Ticketing Systems",
+    "value": "resume:Ticketing Systems"
    },
    {
-    "id": "resume:ETL",
-    "label": "ETL",
-    "value": "resume:ETL"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Risk Management",
+    "label": "Risk Management",
+    "value": "resume:Risk Management"
    },
    {
-    "id": "resume:Fraud Detection",
-    "label": "Fraud Detection",
-    "value": "resume:Fraud Detection"
+    "id": "resume:Vendor Contracts",
+    "label": "Vendor Contracts",
+    "value": "resume:Vendor Contracts"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Statistical Modeling",
-    "label": "Statistical Modeling",
-    "value": "resume:Statistical Modeling"
+    "id": "resume:Ticketing Systems",
+    "label": "Ticketing Systems",
+    "value": "resume:Ticketing Systems"
    },
    {
-    "id": "resume:ETL",
-    "label": "ETL",
-    "value": "resume:ETL"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:Government Contracts",
+    "label": "Government Contracts",
+    "value": "resume:Government Contracts"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    }
   ],
   "manager": false,
@@ -279,12 +261,22 @@
   "contractor": false,
   "considerLevels": [
    [
+    3,
+    4
+   ],
+   [
     5,
     6
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 5,
+  "maxYearsExp": 10,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
@@ -294,18 +286,13 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -316,30 +303,25 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Banking",
-    "label": "Banking",
-    "value": "Banking"
-   },
-   {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-09-02T10:07:38Z",
-  "title": "Staff Data Scientist",
-  "url": "https://job-boards.greenhouse.io/mercury/jobs/6178814004",
-  "jobId": "6178814004",
+  "timeStamp": "2026-09-02T22:16:43.805000Z",
+  "title": "Senior Contracts Manager",
+  "url": "https://jobs.lever.co/ridezum/727f80f4-92cb-40d0-a12d-bb477224f7da",
+  "jobId": "727f80f4-92cb-40d0-a12d-bb477224f7da",
   "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1851234368145, 'matchScore': 0, 'ageScore': 0.985123436814429, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1982184532882, 'matchScore': 0, 'ageScore': 0.9982184532881945, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    },
    {
     "id": "senior",
@@ -348,7 +330,7 @@
    }
   ],
   "jobSeniorityIds": [
-   "mid",
+   "manager",
    "senior"
   ],
   "isFeatured": false
