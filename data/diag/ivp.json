@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-03T09:57:00Z",
+ "run": "2026-09-03T14:38:10Z",
  "homepage": {
   "status": 200,
   "bytes": 19519
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "AF6yRVgZTn\u2026",
+  "session.sig": "9Ry-9amV54\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzU1YzZjYjI3N2U5ZGM2MGE5YzM2NTNmNDQxMzI1ZTgiLCAic2NvcmUiOiAxLjEzOTE1OTM4NTc2OTY3Nn0="
+   "sequence": "eyJfaWQiOiAiZjk5ZmRhZTY3NWJjMTdlM2IwNzRmOThkYWZmNTBmZGEiLCAic2NvcmUiOiAxLjE0MDc5NDAyNDIxODM2NDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,116 +128,78 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lyrahealth/58ffe45b-0276-4e66-9403-7fc65b94be44?lever-source%5B%5D=careers.ivp.com",
-  "companyDomain": "lyrahealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/143cd3a237462e2e7a2ccd47b2d73fac_96_160?Expires=1861920000&Signature=NN4EpXx0uHmRsAc6GKWU1E0aaw8tKG4yCj2QYcyRkjmu-TasPWWqFM",
-  "companyId": "Lyra Health",
-  "companySlug": "lyra-health",
-  "companyName": "Lyra Health",
-  "companyStaffCount": 2800,
+  "applyUrl": "https://www.brex.com/careers/8780828002?gh_jid=8780828002",
+  "companyDomain": "brex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3f2aa579751cea124ad807326f6a985b_192_160?Expires=1861920000&Signature=Wu5piHHl3U5fi-NhKB8WMrOoJBgsm9khtv6eWfwfp3CgMiI7ud9~y",
+  "companyId": "Brex",
+  "companySlug": "brex",
+  "companyName": "Brex",
+  "companyStaffCount": 1776,
   "considerHosted": false,
   "departments": [
-   "Provider Network Ops"
+   "Product"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
    },
    {
-    "id": "supervisor",
-    "label": "Supervisor",
-    "value": "supervisor"
+    "id": "senior-product-manager",
+    "label": "Senior Product Manager",
+    "value": "senior-product-manager"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Product Management",
+    "label": "Product Management",
+    "value": "Product Management"
+   }
+  ],
   "locations": [
-   "United States"
+   "Seattle, Washington, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 76000, 'maxValue': 115500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 184000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
-   },
-   {
-    "id": "resume:Zendesk",
-    "label": "Zendesk",
-    "value": "resume:Zendesk"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
-   },
-   {
-    "id": "resume:Zendesk",
-    "label": "Zendesk",
-    "value": "resume:Zendesk"
-   },
-   {
-    "id": "resume:Performance Management",
-    "label": "Performance Management",
-    "value": "resume:Performance Management"
-   },
-   {
-    "id": "resume:Follow through",
-    "label": "Follow through",
-    "value": "resume:Follow through"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
     "id": "resume:Automation",
@@ -245,21 +207,78 @@
     "value": "resume:Automation"
    }
   ],
-  "manager": true,
+  "requiredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
+   },
+   {
+    "id": "resume:Legal Compliance",
+    "label": "Legal Compliance",
+    "value": "resume:Legal Compliance"
+   }
+  ],
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 4,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    }
   ],
   "stages": [
@@ -267,36 +286,30 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Digital Health",
-    "label": "Digital Health",
-    "value": "Digital Health"
-   },
-   {
-    "id": "Mental Health Care",
-    "label": "Mental Health Care",
-    "value": "Mental Health Care"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-09-02T18:06:53.061000Z",
-  "title": "Payer Enrollment Supervisor",
-  "url": "https://jobs.lever.co/lyrahealth/58ffe45b-0276-4e66-9403-7fc65b94be44",
-  "jobId": "58ffe45b-0276-4e66-9403-7fc65b94be44",
-  "remote": true,
+  "timeStamp": "2026-09-03T00:09:29Z",
+  "title": "Senior Product Manager, AI",
+  "url": "https://www.brex.com/careers/8780828002?gh_jid=8780828002",
+  "jobId": "8780828002",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1802699960737, 'matchScore': 0, 'ageScore': 0.9802699960736883, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1845690598708, 'matchScore': 0, 'ageScore': 0.9845690598707562, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -304,6 +317,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false

@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-03T09:57:00Z",
+ "run": "2026-09-03T14:38:10Z",
  "homepage": {
   "status": 200,
   "bytes": 20609
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "VJQts4gcJW\u2026",
+  "session.sig": "nqMkWFpCvn\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2JlMTgwNzQyMWRjMDA1NWIwYWMwZDVkYzQzNzc1MmMiLCAic2NvcmUiOiAxLjEyMTY5NDUwMjc2Njk3NTR9"
+   "sequence": "eyJfaWQiOiAiNTA5MjU4N2Y2YmFlMTYzZTkwYzliYzdkOGZmZmNiNTAiLCAic2NvcmUiOiAxLjEzMDI2NTYxMjU1MjA4MzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,38 +136,44 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "http://ursaspacesystems.applytojob.com/apply/SEeyrAwDS4/RevOps-Manager",
-  "companyDomain": "ursaspace.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b527c5129e659e8580d6caa4c72ac9b7_176_160?Expires=1861920000&Signature=ljnHZRCzpLxvHL-z-GjeozamjfKD6LnfVm5bym6JhMQdUijthLMll",
-  "companyId": "Ursa Space Systems",
-  "companySlug": "ursa-space-systems",
-  "companyName": "Ursa Space Systems",
-  "companyStaffCount": 77,
+  "applyUrl": "https://jobs.lever.co/goodleap/93f84211-3530-4fb7-8e7e-ac330ab9e665?lever-source%5B%5D=careers.nea.com",
+  "companyDomain": "goodleap.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b348d7a2476387a5ba1f889319c2a639_256_160?Expires=1861920000&Signature=tiLAGpyB2DahspzNGnyZdJoRHol5NnKEKcRIKqQ4eE17a7QjWXqHT",
+  "companyId": "GoodLeap",
+  "companySlug": "goodleap",
+  "companyName": "GoodLeap",
+  "companyStaffCount": 1296,
   "considerHosted": false,
   "departments": [
-   "Ursa Space Systems Inc."
+   "- AI Transformation"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Product Management",
+    "label": "Product Management",
+    "value": "Product Management"
+   }
+  ],
   "locations": [
-   "Ithaca, NY, United States"
+   "Remote, US"
   ],
   "normalizedLocations": [
    {
@@ -176,93 +182,91 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 152000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 141700, 'maxValue': 160700, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Revenue Model",
-    "label": "Revenue Model",
-    "value": "resume:Revenue Model"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Data Processing",
+    "label": "Data Processing",
+    "value": "resume:Data Processing"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
    },
    {
-    "id": "resume:Sales & Marketing",
-    "label": "Sales & Marketing",
-    "value": "resume:Sales & Marketing"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Revenue Model",
-    "label": "Revenue Model",
-    "value": "resume:Revenue Model"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Data Processing",
+    "label": "Data Processing",
+    "value": "resume:Data Processing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
    },
    {
-    "id": "resume:Sales & Marketing",
-    "label": "Sales & Marketing",
-    "value": "resume:Sales & Marketing"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Marketing Operations",
-    "label": "Marketing Operations",
-    "value": "resume:Marketing Operations"
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
    },
    {
-    "id": "resume:Revenue Operations",
-    "label": "Revenue Operations",
-    "value": "resume:Revenue Operations"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
-  "maxYearsExp": 6,
   "regions": [
    {
     "id": "North America",
@@ -272,47 +276,51 @@
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
+    "id": "Climate",
+    "label": "Climate",
+    "value": "Climate"
    },
    {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Energy Transition",
+    "label": "Energy Transition",
+    "value": "Energy Transition"
+   },
+   {
+    "id": "Financial Services",
+    "label": "Financial Services",
+    "value": "Financial Services"
+   },
+   {
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-09-02T23:55:45Z",
-  "title": "RevOps Manager",
-  "url": "http://ursaspacesystems.applytojob.com/apply/SEeyrAwDS4/RevOps-Manager",
-  "jobId": "job_20260902193135_TYDUUS6BM3O68DO0",
-  "remote": false,
+  "timeStamp": "2026-09-03T00:39:17.706000Z",
+  "title": "Product Manager, AI Transformation & Salesforce",
+  "url": "https://jobs.lever.co/goodleap/93f84211-3530-4fb7-8e7e-ac330ab9e665",
+  "jobId": "93f84211-3530-4fb7-8e7e-ac330ab9e665",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.18803617551, 'matchScore': 0, 'ageScore': 0.9880361755100309, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1844546895231, 'matchScore': 0, 'ageScore': 0.9844546895231482, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },

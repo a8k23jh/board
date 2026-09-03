@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-03T09:57:00Z",
+ "run": "2026-09-03T14:38:10Z",
  "homepage": {
   "status": 200,
   "bytes": 21736
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "_eM5fn-uWv\u2026",
+  "session.sig": "uzJctN5luU\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjRmMjNkY2Y5MTIwY2NkODkyMmM3NGE4YjM5MDAxNzMiLCAic2NvcmUiOiAxLjExMTg4NjU1MjY5Njc1OTJ9"
+   "sequence": "eyJfaWQiOiAiYWE1ODZmYWIzYzZlOTcwMWI3ZTVjMzYzNzNlNDA0ZjEiLCAic2NvcmUiOiAxLjExMjI4MTcyODA0MzU5NTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,37 +152,44 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/luxurypresence/23ce9514-7d52-4b0d-93f7-cf7c20d8e46c?lever-source%5B%5D=jobs.bvp.com",
-  "companyDomain": "luxurypresence.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/424eb3e37fb66a630c9d32c094fc61ca_240_160?Expires=1861920000&Signature=fSYTtnn23iqcoOJZzNYirZId9dUZkkwnb~4MnrzRI4y4YiuGpAjFW",
-  "companyId": "Luxury Presence",
-  "companySlug": "luxury-presence",
-  "companyName": "Luxury Presence",
-  "companyStaffCount": 859,
+  "applyUrl": "https://jobs.ashbyhq.com/Jasper%20AI/abd26fa6-b097-46f4-9976-ea270ef7f03d?utm_source=jobs.bvp.com",
+  "companyDomain": "jasper.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d79043427dcff51d8e7a0267afa06c44_288_160?Expires=1861920000&Signature=W7kTdWZEzhQ11xFMd5V29heAg0M3I9YlotSU91w3Ii60VNdZjwIzT",
+  "companyId": "Jasper",
+  "companySlug": "jasper",
+  "companyName": "Jasper",
+  "companyStaffCount": 1035,
   "considerHosted": false,
   "departments": [
-   "Operations"
+   "Marketing"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "manager-user-marketing",
+    "label": "Manager, User Acquisition Marketing",
+    "value": "manager-user-marketing"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   }
+  ],
   "locations": [
+   "USA",
    "United States"
   ],
   "normalizedLocations": [
@@ -192,76 +199,76 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 224000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Sales Leadership",
+    "label": "Sales Leadership",
+    "value": "resume:Sales Leadership"
    },
    {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Executive Management",
+    "label": "Executive Management",
+    "value": "resume:Executive Management"
    },
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    },
    {
-    "id": "resume:Sales Force Development",
-    "label": "Salesforce Development",
-    "value": "resume:Sales Force Development"
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Sales Leadership",
+    "label": "Sales Leadership",
+    "value": "resume:Sales Leadership"
    },
    {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Executive Management",
+    "label": "Executive Management",
+    "value": "resume:Executive Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    },
    {
-    "id": "resume:Sales Force Development",
-    "label": "Salesforce Development",
-    "value": "resume:Sales Force Development"
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Enterprise Sales",
+    "label": "Enterprise Sales",
+    "value": "resume:Enterprise Sales"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Growth Marketing",
+    "label": "Growth Marketing",
+    "value": "resume:Growth Marketing"
    },
    {
-    "id": "resume:Product Vision",
-    "label": "Product Vision",
-    "value": "resume:Product Vision"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    }
   ],
   "manager": true,
@@ -269,15 +276,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 10,
   "regions": [
    {
     "id": "North America",
@@ -287,25 +294,31 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Marketing and Advertising",
-    "label": "Marketing and Advertising",
-    "value": "Marketing and Advertising"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
-  "timeStamp": "2026-09-02T18:10:25.174000Z",
-  "title": "Director of Launch Operations",
-  "url": "https://jobs.lever.co/luxurypresence/23ce9514-7d52-4b0d-93f7-cf7c20d8e46c",
-  "jobId": "23ce9514-7d52-4b0d-93f7-cf7c20d8e46c",
+  "timeStamp": "2026-09-03T00:00:00Z",
+  "title": "Senior Director, Growth Marketing",
+  "url": "https://jobs.ashbyhq.com/Jasper%20AI/abd26fa6-b097-46f4-9976-ea270ef7f03d",
+  "jobId": "abd26fa6-b097-46f4-9976-ea270ef7f03d",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1803460782037, 'matchScore': 0, 'ageScore': 0.9803460782037037, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1843457412157, 'matchScore': 0, 'ageScore': 0.9843457412156635, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
