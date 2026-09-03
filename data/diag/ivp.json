@@ -1,6 +1,7 @@
 {
  "board": "ivp",
- "run": "2026-09-02T21:53:38Z",
+ "run": "2026-09-03T00:22:03Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='careers.ivp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 19519
@@ -26,7 +27,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "eP5MgGyLKC\u2026",
+  "session.sig": "h0JwvGlQK9\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -305,5 +306,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
