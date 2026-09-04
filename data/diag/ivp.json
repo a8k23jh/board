@@ -1,9 +1,9 @@
 {
  "board": "ivp",
- "run": "2026-09-04T18:29:22Z",
+ "run": "2026-09-04T21:34:29Z",
  "homepage": {
   "status": 200,
-  "bytes": 19519
+  "bytes": 19520
  },
  "slugs_tried": [
   "ivp"
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"},\"server\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f6052ddbabae0e81b21c8359146d6c819d7f2b5f\",\"date\":\"2026-09-04T18:11:34.453Z\"},\"server\":{\"git\":\"f6052ddbabae0e81b21c8359146d6c819d7f2b5f\",\"date\":\"2026-09-04T18:11:34.453Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "m-ZvjhdWJn\u2026",
+  "session.sig": "0LJDAD7qDp\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjc0NzA4YjdiYTBhMDUyNjFjMDdmYmFhMmVmZGU2NWQiLCAic2NvcmUiOiAxLjExMzA5MTQ3NTk3MjYwOH0="
+   "sequence": "eyJfaWQiOiAiMzczNTZjNTQ4YjA1NjQxOThlZGNkZDhmZDlkZmY3ZjgiLCAic2NvcmUiOiAxLjEwOTI2OTUzODA4OTUwNjF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,22 +139,27 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5412734008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://jobs.ashbyhq.com/whoop/1d91eddc-80e1-45c9-9dc7-f2c5638e6645?utm_source=careers.ivp.com",
+  "companyDomain": "whoop.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c88f49d3b1934f5fb268fecceb72ee23_192_160?Expires=1861920000&Signature=DoCodMoDPLvwjfQ5tDJxmSOaLC8rZQp87kxHJgbdkK~EwuzJE0W02",
+  "companyId": "WHOOP",
+  "companySlug": "whoop",
+  "companyName": "WHOOP",
+  "companyStaffCount": 1502,
   "considerHosted": false,
   "departments": [
-   "Engineering & Design - Product"
+   "Business Analytics"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "director-engineering",
+    "label": "Director of Engineering",
+    "value": "director-engineering"
    }
   ],
   "jobFunctions": [
@@ -165,94 +170,97 @@
    }
   ],
   "locations": [
-   "San Francisco, CA"
+   "Boston, Massachusetts, United States",
+   "Boston, MA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Greater Boston Area",
+    "label": "Boston",
+    "value": "Greater Boston Area"
+   },
+   {
+    "id": "Boston, Massachusetts",
+    "label": "Boston, Massachusetts",
+    "value": "Boston, Massachusetts"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 405000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Ontologies",
+    "label": "Ontologies",
+    "value": "resume:Ontologies"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Data Catalog",
+    "label": "Data Catalog",
+    "value": "resume:Data Catalog"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:HIPAA",
+    "label": "HIPAA",
+    "value": "resume:HIPAA"
    },
    {
-    "id": "resume:Chemistry",
-    "label": "Chemistry",
-    "value": "resume:Chemistry"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Ontologies",
+    "label": "Ontologies",
+    "value": "resume:Ontologies"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Data Catalog",
+    "label": "Data Catalog",
+    "value": "resume:Data Catalog"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:HIPAA",
+    "label": "HIPAA",
+    "value": "resume:HIPAA"
    },
    {
-    "id": "resume:Chemistry",
-    "label": "Chemistry",
-    "value": "resume:Chemistry"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Data Infrastructure",
+    "label": "Data Infrastructure",
+    "value": "resume:Data Infrastructure"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
+   },
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
-   [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ],
    [
     5,
     6
@@ -260,14 +268,14 @@
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "North America",
@@ -290,34 +298,39 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Consumer Electronics",
+    "label": "Consumer Electronics",
+    "value": "Consumer Electronics"
    },
    {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Health, Wellness and Fitness",
+    "label": "Health, Wellness and Fitness",
+    "value": "Health, Wellness and Fitness"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-09-03T23:18:30Z",
-  "title": "Staff+ Software Engineer, Claude Science",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5412734008",
-  "jobId": "5412734008",
+  "timeStamp": "2026-09-04T00:00:00Z",
+  "title": "Director, Data Governance",
+  "url": "https://jobs.ashbyhq.com/whoop/1d91eddc-80e1-45c9-9dc7-f2c5638e6645",
+  "jobId": "1d91eddc-80e1-45c9-9dc7-f2c5638e6645",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1785320313538, 'matchScore': 0, 'ageScore': 0.9785320313537809, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1751940321458, 'matchScore': 0, 'ageScore': 0.9751940321458333, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },

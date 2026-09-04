@@ -1,9 +1,9 @@
 {
  "board": "nea",
- "run": "2026-09-04T18:29:22Z",
+ "run": "2026-09-04T21:34:29Z",
  "homepage": {
   "status": 200,
-  "bytes": 20609
+  "bytes": 20610
  },
  "slugs_tried": [
   "nea",
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"},\"server\":{\"git\":\"44bc6141c895c5ef5a20ccba7d1cd1e09950c444\",\"date\":\"2026-09-03T00:37:16.376Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f6052ddbabae0e81b21c8359146d6c819d7f2b5f\",\"date\":\"2026-09-04T18:11:34.453Z\"},\"server\":{\"git\":\"f6052ddbabae0e81b21c8359146d6c819d7f2b5f\",\"date\":\"2026-09-04T18:11:34.453Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cgXAtOB8hY\u2026",
+  "session.sig": "2Q8utZKk9q\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzNlZTI5MjZiZjE4N2RkNDhkMGU5ZTUzMzkzMTUwMmIiLCAic2NvcmUiOiAxLjExMjg1NTI5ODUwMDM4Nn0="
+   "sequence": "eyJfaWQiOiAiMzQzNzBlYTcwNmFmNjBkODQ5MTkxNzMyODJmZmIwMjgiLCAic2NvcmUiOiAxLjEwOTIzMTQ5NDYzMzEwMTl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,142 +136,142 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8770533002",
-  "companyDomain": "databricks.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/badeea31069bedbff92deb2b6eacaaac_320_160?Expires=1861920000&Signature=nvpLnCJcpEeQxnmclOC-t1xgPgBS3yOoA5LtL53r6~XUfCWfWYJwW",
-  "companyId": "Databricks",
-  "companySlug": "databricks",
-  "companyName": "Databricks",
-  "companyStaffCount": 16235,
+  "applyUrl": "https://careers.formlabs.com/job/8179709/apply/?gh_jid=8179709",
+  "companyDomain": "formlabs.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3944beaf8d39017f8a56442ba1a34ca2_256_160?Expires=1861920000&Signature=myUjOxgqlLpZkuHhEKfweCkxiVF4ccb0087wcrzVMOGj46NWRyC0D",
+  "companyId": "Formlabs",
+  "companySlug": "formlabs",
+  "companyName": "Formlabs",
+  "companyStaffCount": 748,
   "considerHosted": false,
   "departments": [
-   "Enterprise Sales"
+   "Global Marketing"
   ],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "user-marketing",
+    "label": "Growth Manager",
+    "value": "user-marketing"
    },
    {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    },
    {
-    "id": "finance-professional",
-    "label": "Finance",
-    "value": "finance-professional"
+    "id": "marketing-acquisition",
+    "label": "Marketing Acquisition",
+    "value": "marketing-acquisition"
    },
    {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
+    "id": "marketing-engagement",
+    "label": "Marketing Engagement",
+    "value": "marketing-engagement"
+   },
+   {
+    "id": "marketing-growth",
+    "label": "Marketing Growth",
+    "value": "marketing-growth"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Finance",
-    "label": "Finance",
-    "value": "Finance"
-   },
-   {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "Northeast - United States"
+   "Billerica, Massachusetts"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Massachusetts",
+    "label": "Massachusetts",
+    "value": "Massachusetts"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 167100, 'maxValue': 229800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85000, 'maxValue': 145000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Field Sales",
-    "label": "Field Sales",
-    "value": "resume:Field Sales"
+    "id": "resume:Looker",
+    "label": "Looker",
+    "value": "resume:Looker"
    },
    {
-    "id": "resume:Exceeding Quotas",
-    "label": "Exceeding Quotas",
-    "value": "resume:Exceeding Quotas"
+    "id": "resume:Data Visualization",
+    "label": "Data Visualization",
+    "value": "resume:Data Visualization"
    },
    {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:SaaS Sales",
-    "label": "SaaS Sales",
-    "value": "resume:SaaS Sales"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Hiring Practices",
-    "label": "Hiring Practices",
-    "value": "resume:Hiring Practices"
+    "id": "resume:Customer Marketing",
+    "label": "Customer Marketing",
+    "value": "resume:Customer Marketing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Field Sales",
-    "label": "Field Sales",
-    "value": "resume:Field Sales"
+    "id": "resume:Looker",
+    "label": "Looker",
+    "value": "resume:Looker"
    },
    {
-    "id": "resume:Exceeding Quotas",
-    "label": "Exceeding Quotas",
-    "value": "resume:Exceeding Quotas"
+    "id": "resume:Data Visualization",
+    "label": "Data Visualization",
+    "value": "resume:Data Visualization"
    },
    {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:SaaS Sales",
-    "label": "SaaS Sales",
-    "value": "resume:SaaS Sales"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Hiring Practices",
-    "label": "Hiring Practices",
-    "value": "resume:Hiring Practices"
+    "id": "resume:Customer Marketing",
+    "label": "Customer Marketing",
+    "value": "resume:Customer Marketing"
    },
    {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Growth Marketing",
+    "label": "Growth Marketing",
+    "value": "resume:Growth Marketing"
    },
    {
-    "id": "resume:New Business",
-    "label": "New Business",
-    "value": "resume:New Business"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    }
   ],
   "manager": false,
@@ -279,12 +279,27 @@
   "contractor": false,
   "considerLevels": [
    [
+    1,
+    2
+   ],
+   [
     3,
     4
    ]
   ],
-  "minYearsExp": 4,
+  "minYearsExp": 2,
+  "maxYearsExp": 10,
   "regions": [
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -293,39 +308,33 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Analytics",
-    "label": "Analytics",
-    "value": "Analytics"
+    "id": "Hardware",
+    "label": "Hardware",
+    "value": "Hardware"
    }
   ],
-  "timeStamp": "2026-09-04T01:32:56Z",
-  "title": "Enterprise Geo Hunter Account Executive - Financial Services",
-  "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8770533002",
-  "jobId": "8770533002",
+  "timeStamp": "2026-09-04T10:23:12Z",
+  "title": "Growth Marketing Lead, Form Now",
+  "url": "https://careers.formlabs.com/job/8179709/apply/?gh_jid=8179709",
+  "jobId": "8179709",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1823379884116, 'matchScore': 0, 'ageScore': 0.9823379884116512, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1904682590903, 'matchScore': 0, 'ageScore': 0.9904682590902778, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -333,6 +342,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false
