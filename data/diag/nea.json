@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-04T00:10:31Z",
+ "run": "2026-09-04T04:45:00Z",
  "homepage": {
   "status": 200,
   "bytes": 20609
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ze7nQ8_kPg\u2026",
+  "session.sig": "QiZwL5ZHIq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWVmYWRiOWNhMjE1YTZlYmUwNGIwN2I3NjYyOWQ2YTgiLCAic2NvcmUiOiAxLjEyNzY0NzQ3MjIzMjI1MzF9"
+   "sequence": "eyJfaWQiOiAiYTZjNzQ2NWY1NDFmYjkyNjk5ZDEyYzFhODMyNGYyZTQiLCAic2NvcmUiOiAxLjEzMDA4MzcyODgyMjkxNjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,31 +136,33 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://recruiting2.ultipro.com/TRI1021TRIAE/JobBoard/49386e5d-f909-4648-8335-415ce97e3f15/OpportunityDetail?opportunityId=81852218-bbc5-4084-86cf-4e06b1265c82",
-  "companyDomain": "tae.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/01eb5fc9d9a19f5312775ceb04875b8d_144_160?Expires=1861920000&Signature=dpqSoH9QJbCqQ4h2YwOMAz9Y8RtJBHdUFz0z3N5jeBHiLHiPaoRnu",
-  "companyId": "TAE Technologies",
-  "companySlug": "tae-technologies",
-  "companyName": "TAE Technologies",
-  "companyStaffCount": 287,
+  "applyUrl": "https://job-boards.greenhouse.io/echodynecorp/jobs/4710550006",
+  "companyDomain": "echodyne.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f814668c54f14247b07ab1ff8cbf3fb5_320_160?Expires=1861920000&Signature=gYzCI2g0KXU4aD6jDHtAmfRzeCiWWTRwgHJp6x-KWeARfaamBfBZW",
+  "companyId": "Echodyne",
+  "companySlug": "echodyne",
+  "companyName": "Echodyne",
+  "companyStaffCount": 255,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Manufacturing"
+  ],
   "jobTypes": [
    {
-    "id": "mechanical-engineer",
-    "label": "Mechanical Engineer",
-    "value": "mechanical-engineer"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
@@ -171,86 +173,85 @@
    }
   ],
   "locations": [
-   "Copernicus Office",
-   "Irvine, CA"
+   "Kirkland, WA"
   ],
   "normalizedLocations": [
    {
-    "id": "Irvine, California",
-    "label": "Irvine, California",
-    "value": "Irvine, California"
+    "id": "Kirkland, Washington",
+    "label": "Kirkland, Washington",
+    "value": "Kirkland, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 124733, 'maxValue': 187048, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Project Management Software",
-    "label": "Project Management Software",
-    "value": "resume:Project Management Software"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Matlab",
+    "label": "Matlab",
+    "value": "resume:Matlab"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Cryogenics",
-    "label": "Cryogenics",
-    "value": "resume:Cryogenics"
+    "id": "resume:RF",
+    "label": "RF",
+    "value": "resume:RF"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Project Management Software",
-    "label": "Project Management Software",
-    "value": "resume:Project Management Software"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Matlab",
+    "label": "Matlab",
+    "value": "resume:Matlab"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Cryogenics",
-    "label": "Cryogenics",
-    "value": "resume:Cryogenics"
+    "id": "resume:RF",
+    "label": "RF",
+    "value": "resume:RF"
    },
    {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
+    "id": "resume:Root Cause Analysis",
+    "label": "Root Cause Analysis",
+    "value": "resume:Root Cause Analysis"
    },
    {
-    "id": "resume:Confluence",
-    "label": "Confluence",
-    "value": "resume:Confluence"
+    "id": "resume:Test Equipment",
+    "label": "Test Equipment",
+    "value": "resume:Test Equipment"
    },
    {
-    "id": "resume:Medical Devices",
-    "label": "Medical Devices",
-    "value": "resume:Medical Devices"
+    "id": "resume:Radar",
+    "label": "Radar",
+    "value": "resume:Radar"
    }
   ],
   "manager": false,
@@ -258,16 +259,27 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 5,
+  "maxYearsExp": 7,
   "regions": [
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -277,11 +289,6 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -289,37 +296,38 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Climate",
-    "label": "Climate",
-    "value": "Climate"
+    "id": "Consumer Electronics",
+    "label": "Consumer Electronics",
+    "value": "Consumer Electronics"
+   },
+   {
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
    },
    {
     "id": "Electrical/Electronic Manufacturing",
     "label": "Electrical/Electronic Manufacturing",
     "value": "Electrical/Electronic Manufacturing"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
-   },
-   {
-    "id": "Semiconductors",
-    "label": "Semiconductors",
-    "value": "Semiconductors"
    }
   ],
-  "timeStamp": "2026-09-03T16:14:29.457000Z",
-  "title": "Sr Mechanical Engineer",
-  "url": "https://recruiting2.ultipro.com/TRI1021TRIAE/JobBoard/49386e5d-f909-4648-8335-415ce97e3f15/OpportunityDetail?opportunityId=81852218-bbc5-4084-86cf-4e06b1265c82",
-  "jobId": "81852218-bbc5-4084-86cf-4e06b1265c82",
+  "timeStamp": "2026-09-03T18:35:02Z",
+  "title": "Sr. RF Test and Debug Engineer",
+  "url": "https://job-boards.greenhouse.io/echodynecorp/jobs/4710550006",
+  "jobId": "4710550006",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.194374677642, 'matchScore': 0, 'ageScore': 0.9943746776419753, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1936756534873, 'matchScore': 0, 'ageScore': 0.9936756534872685, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

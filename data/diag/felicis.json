@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-04T00:10:31Z",
+ "run": "2026-09-04T04:45:00Z",
  "homepage": {
   "status": 200,
   "bytes": 25236
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "vzglET-TPM\u2026",
+  "session.sig": "SxHSXDYWI_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDU2MjEwNjljYzg5YjViNmIxOThkNDAwNDI4MjgyMDciLCAic2NvcmUiOiAxLjA4OTU3ODUzMzg2MzA0MDJ9"
+   "sequence": "eyJfaWQiOiAiMDNkYzk4NTFhOWU0ZGQxZjBjZmI1NWUyNDQzMmQ4MGEiLCAic2NvcmUiOiAxLjA5MTc3NTYwMDc1OTY0NX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://app.careerpuck.com/job-board/prenuvo/job/4728518005",
+  "applyUrl": "https://app.careerpuck.com/job-board/prenuvo/job/4730666005",
   "companyDomain": "prenuvo.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f855494ad06dbd721840918e60608cc8_224_160?Expires=1861920000&Signature=F2KsitJcPnsGLTQzMVD4Ftje4BCUz1jm~hj5Mb1raR1Vzkp~b6xD~",
   "companyId": "Prenuvo",
@@ -156,66 +156,39 @@
   "companyStaffCount": 422,
   "considerHosted": false,
   "departments": [],
-  "jobTypes": [
-   {
-    "id": "biostatistician",
-    "label": "Bioinformatics",
-    "value": "biostatistician"
-   },
-   {
-    "id": "freelance",
-    "label": "Contractor",
-    "value": "freelance"
-   },
-   {
-    "id": "consultant",
-    "label": "Consultant",
-    "value": "consultant"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Science",
-    "label": "Science",
-    "value": "Science"
-   },
-   {
-    "id": "Consulting",
-    "label": "Consulting",
-    "value": "Consulting"
-   }
-  ],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "Vancouver, British Columbia, Canada"
+   "Minneapolis, Minnesota, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Vancouver, British Columbia, Canada",
-    "label": "Vancouver, British Columbia, Canada",
-    "value": "Vancouver, British Columbia, Canada"
+    "id": "Minneapolis, Minnesota",
+    "label": "Minneapolis, Minnesota",
+    "value": "Minneapolis, Minnesota"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 60, 'maxValue': 70, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 20, 'maxValue': 25, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
+   {
+    "id": "resume:Background Checks",
+    "label": "Background Checks",
+    "value": "resume:Background Checks"
+   },
    {
     "id": "resume:Magnetic Resonance Imaging",
     "label": "Magnetic Resonance Imaging",
     "value": "resume:Magnetic Resonance Imaging"
    },
    {
-    "id": "resume:Statistical Analysis",
-    "label": "Statistical Analysis",
-    "value": "resume:Statistical Analysis"
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Inform",
-    "label": "Inform",
-    "value": "resume:Inform"
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
    },
    {
     "id": "resume:Experimentation",
@@ -225,26 +198,26 @@
   ],
   "requiredSkills": [
    {
+    "id": "resume:Background Checks",
+    "label": "Background Checks",
+    "value": "resume:Background Checks"
+   },
+   {
     "id": "resume:Magnetic Resonance Imaging",
     "label": "Magnetic Resonance Imaging",
     "value": "resume:Magnetic Resonance Imaging"
    },
    {
-    "id": "resume:Statistical Analysis",
-    "label": "Statistical Analysis",
-    "value": "resume:Statistical Analysis"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Inform",
-    "label": "Inform",
-    "value": "resume:Inform"
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
    },
    {
     "id": "resume:Experimentation",
@@ -252,30 +225,45 @@
     "value": "resume:Experimentation"
    },
    {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    }
   ],
   "manager": false,
-  "consultant": true,
-  "contractor": true,
+  "consultant": false,
+  "contractor": false,
   "considerLevels": [],
   "regions": [
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    }
   ],
   "stages": [
@@ -298,13 +286,13 @@
     "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-09-03T15:38:19.413000Z",
-  "title": "Biostatistician (Contractor - 5 months)",
-  "url": "https://app.careerpuck.com/job-board/prenuvo/job/4728518005",
-  "jobId": "fqbhgKb7",
+  "timeStamp": "2026-09-03T20:16:59.189000Z",
+  "title": "Patient Liaison",
+  "url": "https://app.careerpuck.com/job-board/prenuvo/job/4730666005",
+  "jobId": "RNpxwLBX",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1930535696516, 'matchScore': 0, 'ageScore': 0.9930535696516204, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1952748245509, 'matchScore': 0, 'ageScore': 0.995274824550926, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [],
