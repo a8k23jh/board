@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-04T04:45:00Z",
+ "run": "2026-09-04T09:44:34Z",
  "homepage": {
   "status": 200,
   "bytes": 20237
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "rODTMhb4F3\u2026",
+  "session.sig": "5LoukqXvIi\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTNkZTgzYjMxNWJmODNlMDk0MTgxNDBlOWU0N2U1M2YiLCAic2NvcmUiOiAxLjEzNDQ5NjgxOTIxMTgwNTV9"
+   "sequence": "eyJfaWQiOiAiOWJhODk2NTU2ZTA1ZTkxOTFlYjg3YmEzYmNkNTI0MTMiLCAic2NvcmUiOiAxLjEyOTY5ODExNDgxOTA1ODZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,137 +144,144 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8783046002?gh_jid=8783046002",
-  "companyDomain": "spacex.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
-  "companyId": "SpaceX",
-  "companySlug": "spacex",
-  "companyName": "SpaceX",
-  "companyStaffCount": 20713,
+  "applyUrl": "https://jobs.lever.co/pendulum/694072da-7cf2-4022-b01d-ee2ff29073c5?lever-source%5B%5D=jobs.sequoiacap.com",
+  "companyDomain": "pendulum.co",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8b063300e532cee05ae13b8acc6846cf_232_160?Expires=1861920000&Signature=o~7obXwMSA2cOMJKBADEyOBaYQW70Uu7LwNHunHEvusCAYkunFFVR",
+  "companyId": "Pendulum Therapeutics",
+  "companySlug": "pendulum-therapeutics",
+  "companyName": "Pendulum Therapeutics",
+  "companyStaffCount": 113,
   "considerHosted": false,
   "departments": [
-   "Starship Components Design"
+   "Marketing"
   ],
   "jobTypes": [
    {
-    "id": "school-student",
-    "label": "Intern",
-    "value": "school-student"
+    "id": "influencer-marketing",
+    "label": "Influencer Marketing Manager",
+    "value": "influencer-marketing"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   }
+  ],
   "locations": [
-   "Hawthorne, CA"
+   "Hybrid - San Francisco, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 130000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 215000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Failure Analysis",
-    "label": "Failure Analysis",
-    "value": "resume:Failure Analysis"
+    "id": "resume:HCP",
+    "label": "HCP",
+    "value": "resume:HCP"
    },
    {
-    "id": "resume:Robotics",
-    "label": "Robotics",
-    "value": "resume:Robotics"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Brand Awareness",
+    "label": "Brand Awareness",
+    "value": "resume:Brand Awareness"
    },
    {
-    "id": "resume:Spring",
-    "label": "Spring",
-    "value": "resume:Spring"
+    "id": "resume:Content Strategy",
+    "label": "Content Strategy",
+    "value": "resume:Content Strategy"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Strategic Planning",
+    "label": "Strategic Planning",
+    "value": "resume:Strategic Planning"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Failure Analysis",
-    "label": "Failure Analysis",
-    "value": "resume:Failure Analysis"
+    "id": "resume:HCP",
+    "label": "HCP",
+    "value": "resume:HCP"
    },
    {
-    "id": "resume:Robotics",
-    "label": "Robotics",
-    "value": "resume:Robotics"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Brand Awareness",
+    "label": "Brand Awareness",
+    "value": "resume:Brand Awareness"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Spring",
-    "label": "Spring",
-    "value": "resume:Spring"
+    "id": "resume:Content Strategy",
+    "label": "Content Strategy",
+    "value": "resume:Content Strategy"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Strategic Planning",
+    "label": "Strategic Planning",
+    "value": "resume:Strategic Planning"
    },
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Podcasting",
+    "label": "Podcasting",
+    "value": "resume:Podcasting"
    },
    {
-    "id": "resume:Instrumentation",
-    "label": "Instrumentation",
-    "value": "resume:Instrumentation"
+    "id": "resume:Social Media",
+    "label": "Social Media",
+    "value": "resume:Social Media"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:CAC",
+    "label": "CAC",
+    "value": "resume:CAC"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
-    3,
-    4
+    5,
+    6
    ]
   ],
-  "minYearsExp": 1,
+  "minYearsExp": 7,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "West Coast",
@@ -282,48 +289,49 @@
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-09-03T18:50:09Z",
-  "title": "New Graduate Engineer, Starship Components",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8783046002?gh_jid=8783046002",
-  "jobId": "8783046002",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Biotech/Pharma",
+    "label": "Biotech/Pharma",
+    "value": "Biotech/Pharma"
+   }
+  ],
+  "timeStamp": "2026-09-03T22:11:08.550000Z",
+  "title": "Director, Influencer Marketing",
+  "url": "https://jobs.lever.co/pendulum/694072da-7cf2-4022-b01d-ee2ff29073c5",
+  "jobId": "694072da-7cf2-4022-b01d-ee2ff29073c5",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1936680140282, 'matchScore': 0, 'ageScore': 0.9936680140281636, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1902965998032, 'matchScore': 0, 'ageScore': 0.9902965998032407, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "intern",
-    "label": "Intern",
-    "value": "intern"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "intern"
+   "director"
   ],
   "isFeatured": false
  },
