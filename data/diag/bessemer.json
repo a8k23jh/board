@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-04T09:44:34Z",
+ "run": "2026-09-04T14:25:04Z",
  "homepage": {
   "status": 200,
   "bytes": 21736
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ch6GHAsUX_\u2026",
+  "session.sig": "Cgp5q6MO_o\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTVjYjY2YmRkY2Y4ZWU3YWNmNTg0Mjg0OTlkY2I2ODciLCAic2NvcmUiOiAxLjEyMTYyNTI0NDIzNDk1Mzd9"
+   "sequence": "eyJfaWQiOiAiY2I0NzEzYzBmMTQ1ODZhMzYwZjE4MDhhZGE4YmU4YjkiLCAic2NvcmUiOiAxLjExNzExNTE3NzQ5NjUyNzh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -174,14 +174,19 @@
   "departments": [],
   "jobTypes": [
    {
+    "id": "partner-account-manager",
+    "label": "Partner Account Manager",
+    "value": "partner-account-manager"
+   },
+   {
     "id": "user-marketing",
     "label": "Growth Manager",
     "value": "user-marketing"
    },
    {
-    "id": "partner-account-manager",
-    "label": "Partner Account Manager",
-    "value": "partner-account-manager"
+    "id": "freelance",
+    "label": "Contractor",
+    "value": "freelance"
    },
    {
     "id": "marketing-growth",
@@ -192,23 +197,18 @@
     "id": "marketing-engagement",
     "label": "Marketing Engagement",
     "value": "marketing-engagement"
-   },
-   {
-    "id": "freelance",
-    "label": "Contractor",
-    "value": "freelance"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   },
-   {
     "id": "Sales",
     "label": "Sales",
     "value": "Sales"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
@@ -224,19 +224,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 185000, 'maxValue': 245000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
-   },
-   {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
    },
    {
     "id": "resume:Cross-functional Team Leadership",
@@ -247,50 +237,60 @@
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
-   },
-   {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Product Marketing",
-    "label": "Product Marketing",
-    "value": "resume:Product Marketing"
    },
    {
     "id": "resume:B2B",
     "label": "B2B",
     "value": "resume:B2B"
+   },
+   {
+    "id": "resume:Mechanics",
+    "label": "Mechanics",
+    "value": "resume:Mechanics"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
+   },
+   {
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:Mechanics",
+    "label": "Mechanics",
+    "value": "resume:Mechanics"
+   },
+   {
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
+   },
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    }
   ],
   "manager": false,
@@ -314,14 +314,14 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -350,7 +350,7 @@
   "jobId": "6000000001377496",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1959266822427, 'matchScore': 0, 'ageScore': 0.9959266822426698, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1916633054846, 'matchScore': 0, 'ageScore': 0.9916633054845679, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
