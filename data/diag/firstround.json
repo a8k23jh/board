@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-05T12:50:14Z",
+ "run": "2026-09-05T16:07:58Z",
  "homepage": {
   "status": 200,
   "bytes": 16705
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "26kUyfIpKZ\u2026",
+  "session.sig": "5ZziiQDQKJ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTNmZDMwMzBhODFjZmFlOWE0ZTkzNGM0ZmFjZDgxOTIiLCAic2NvcmUiOiAxLjA1MTgxMjY1NjYwMTQ2Nn0="
+   "sequence": "eyJfaWQiOiAiY2Q0YmNlMTQwNDhlOTIyMmI1ZjA2OWIwZGZhY2ZhMTciLCAic2NvcmUiOiAxLjA0Nzc0OTQ2NDIyMTQ1MDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/assorthealth/376d9d51-6572-4162-b830-d4f9440754ae?utm_source=jobs.firstround.com",
+  "applyUrl": "https://jobs.ashbyhq.com/assorthealth/04ed9921-1457-4d12-81ce-b5ff9703d027?utm_source=jobs.firstround.com",
   "companyDomain": "assorthealth.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/fd1ba5e488ea7a2603af7f75d2f697fc_320_160?Expires=1861920000&Signature=LXaWIHp0mSu2S0heETKox3P8mp5hkereiDVb8dYRKn-cOiDzI~3ku",
   "companyId": "Assort Health",
@@ -168,12 +168,18 @@
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
    "San Francisco, California, United States",
    "San Francisco"
@@ -185,17 +191,12 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 210000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Valuation",
-    "label": "Valuation",
-    "value": "resume:Valuation"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
     "id": "resume:C",
@@ -203,21 +204,53 @@
     "value": "resume:C"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:EHR",
-    "label": "EHR",
-    "value": "resume:EHR"
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
+   },
+   {
+    "id": "resume:Nextjs",
+    "label": "Next.js",
+    "value": "resume:Nextjs"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
+   },
+   {
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
+   },
+   {
+    "id": "resume:Nextjs",
+    "label": "Next.js",
+    "value": "resume:Nextjs"
+   },
+   {
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    },
    {
     "id": "resume:Valuation",
@@ -225,38 +258,31 @@
     "value": "resume:Valuation"
    },
    {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:Web Applications",
+    "label": "Web Applications",
+    "value": "resume:Web Applications"
    }
   ],
-  "preferredSkills": [
-   {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
-   },
-   {
-    "id": "resume:EHR",
-    "label": "EHR",
-    "value": "resume:EHR"
-   }
-  ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -266,11 +292,6 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -299,23 +320,23 @@
    }
   ],
   "timeStamp": "2026-09-05T00:00:00Z",
-  "title": "Head of Forward Deployed Engineering",
-  "url": "https://jobs.ashbyhq.com/assorthealth/376d9d51-6572-4162-b830-d4f9440754ae",
-  "jobId": "376d9d51-6572-4162-b830-d4f9440754ae",
+  "title": "Senior Software Engineer - Product",
+  "url": "https://jobs.ashbyhq.com/assorthealth/04ed9921-1457-4d12-81ce-b5ff9703d027",
+  "jobId": "04ed9921-1457-4d12-81ce-b5ff9703d027",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1839343867091, 'matchScore': 0, 'ageScore': 0.9839343867091049, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1803401028017, 'matchScore': 0, 'ageScore': 0.9803401028016975, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior"
   ],
   "isFeatured": false
  },
