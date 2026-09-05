@@ -1,6 +1,7 @@
 {
  "board": "kleiner",
- "run": "2026-09-05T04:40:31Z",
+ "run": "2026-09-05T09:09:58Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
  "homepage": {
   "status": 200,
   "bytes": 19382
@@ -42,7 +43,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "MxN5NHwRr9\u2026",
+  "session.sig": "GA9TmrW9HA\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +128,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDNhNzNmMjNiM2JkNjQ4ZGRmYzI2YjRmNmE4ZjNhMDAiLCAic2NvcmUiOiAxLjEwMDIzNTM4MTA2NTk3MjJ9"
+   "sequence": "eyJfaWQiOiAiNGY0Mzc3NGU1MDdkZjllNmI5NTk3NmRlMDQ3YTM1YmMiLCAic2NvcmUiOiAxLjA5MTg3NTQ3MjQ0MzY3Mjh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +156,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4731388005",
+  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4731372005",
   "companyDomain": "glean.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
   "companyId": "Glean",
@@ -181,65 +182,21 @@
    }
   ],
   "locations": [
-   "Mountain View, CA"
+   "San Francisco Bay Area"
   ],
   "normalizedLocations": [
    {
-    "id": "Mountain View, California",
-    "label": "Mountain View, California",
-    "value": "Mountain View, California"
+    "id": "San Francisco Bay Area",
+    "label": "San Francisco Bay Area",
+    "value": "San Francisco Bay Area"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 195000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
-   },
-   {
-    "id": "resume:Zendesk",
-    "label": "Zendesk",
-    "value": "resume:Zendesk"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
-   },
-   {
-    "id": "resume:Zendesk",
-    "label": "Zendesk",
-    "value": "resume:Zendesk"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    },
    {
     "id": "resume:SaaS",
@@ -247,9 +204,9 @@
     "value": "resume:SaaS"
    },
    {
-    "id": "resume:SDK",
-    "label": "SDK",
-    "value": "resume:SDK"
+    "id": "resume:Enterprise Search",
+    "label": "Enterprise Search",
+    "value": "resume:Enterprise Search"
    },
    {
     "id": "resume:Github",
@@ -257,9 +214,53 @@
     "value": "resume:Github"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Enterprise Search",
+    "label": "Enterprise Search",
+    "value": "resume:Enterprise Search"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Github",
+    "label": "Github",
+    "value": "resume:Github"
+   },
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
+   },
+   {
+    "id": "resume:Zendesk",
+    "label": "Zendesk",
+    "value": "resume:Zendesk"
+   },
+   {
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    }
   ],
   "manager": false,
@@ -277,9 +278,9 @@
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -287,9 +288,9 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -312,13 +313,13 @@
     "value": "Productivity"
    }
   ],
-  "timeStamp": "2026-09-04T18:21:50Z",
+  "timeStamp": "2026-09-04T18:21:47Z",
   "title": "Product Manager, API Platform",
-  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4731388005",
-  "jobId": "4731388005",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4731372005",
+  "jobId": "4731372005",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1924695762948, 'matchScore': 0, 'ageScore': 0.9924695762947531, 'richnessScore': 2}",
+  "scores": "{'score': 1001.184939486591, 'matchScore': 0, 'ageScore': 0.9849394865910494, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -335,5 +336,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }

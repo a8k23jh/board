@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-09-05T04:40:31Z",
+ "run": "2026-09-05T09:09:58Z",
  "homepage": {
   "status": 200,
   "bytes": 26173
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "LgE7LH8v7X\u2026",
+  "session.sig": "7ooOdmMy0V\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTFhNDM2NTBkYmJlMzY0Zjc2Y2MwYTk5NmY3ZTJhOTciLCAic2NvcmUiOiAxLjE1NTczMjAzNDk1MDIzMTZ9"
+   "sequence": "eyJfaWQiOiAiZTU4Yzk4ZGQxYmMzZjQxZWU1ZTc4YTgwNTEwMzQ0NzkiLCAic2NvcmUiOiAxLjE0Nzc2NjI5MzEyNzMxNX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -183,9 +183,14 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 25, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
+   },
+   {
+    "id": "resume:Bookings",
+    "label": "Bookings",
+    "value": "resume:Bookings"
    },
    {
     "id": "resume:Lever",
@@ -193,53 +198,48 @@
     "value": "resume:Lever"
    },
    {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
     "id": "resume:Hospitality",
     "label": "Hospitality",
     "value": "resume:Hospitality"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
+   },
+   {
+    "id": "resume:Bookings",
+    "label": "Bookings",
+    "value": "resume:Bookings"
    },
    {
     "id": "resume:Lever",
     "label": "Lever",
     "value": "resume:Lever"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
     "id": "resume:Hospitality",
     "label": "Hospitality",
     "value": "resume:Hospitality"
-   }
-  ],
-  "preferredSkills": [
+   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
    },
    {
     "id": "resume:Knowledge Management",
@@ -247,9 +247,9 @@
     "value": "resume:Knowledge Management"
    },
    {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    }
   ],
   "manager": false,
@@ -300,24 +300,24 @@
   "jobId": "35f24867-5c0d-483f-8d1e-1c6c79a6930b",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1958433772296, 'matchScore': 0, 'ageScore': 0.9958433772295525, 'richnessScore': 2}",
+  "scores": "{'score': 1001.187637757404, 'matchScore': 0, 'ageScore': 0.9876377574039352, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "junior",
-   "mid"
+   "mid",
+   "junior"
   ],
   "isFeatured": false
  },
