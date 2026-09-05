@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-09-05T00:11:58Z",
+ "run": "2026-09-05T04:40:31Z",
  "homepage": {
   "status": 200,
   "bytes": 19382
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "WUycBscYrW\u2026",
+  "session.sig": "MxN5NHwRr9\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjRhZDc3OWMwYTNmMTBlMzQ0MGQzN2M3ZTAzZWY1ZjIiLCAic2NvcmUiOiAxLjA3MTEzNTc1MDQ3Mjk5NH0="
+   "sequence": "eyJfaWQiOiAiNDNhNzNmMjNiM2JkNjQ4ZGRmYzI2YjRmNmE4ZjNhMDAiLCAic2NvcmUiOiAxLjEwMDIzNTM4MTA2NTk3MjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,57 +155,52 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/planetscale/jobs/4395260009",
-  "companyDomain": "planetscale.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/4f396018320e83e9c7952d0fc1f1e3fd_304_160?Expires=1861920000&Signature=orcFv~RKsQP0zHdNGK6kQ2Zdg1GovPk53pGPlhNMnOGPbBK18Kehy",
-  "companyId": "PlanetScale",
-  "companySlug": "planetscale",
-  "companyName": "PlanetScale",
-  "companyStaffCount": 73,
+  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4731388005",
+  "companyDomain": "glean.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
+  "companyId": "Glean",
+  "companySlug": "glean",
+  "companyName": "Glean",
+  "companyStaffCount": 1745,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Product"
   ],
   "jobTypes": [
    {
-    "id": "sales-development-rep",
-    "label": "Sales Development Representative",
-    "value": "sales-development-rep"
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Product Management",
+    "label": "Product Management",
+    "value": "Product Management"
    }
   ],
   "locations": [
-   "San Francisco"
+   "Mountain View, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Mountain View, California",
+    "label": "Mountain View, California",
+    "value": "Mountain View, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 100000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 195000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
-   },
-   {
-    "id": "resume:Personalization",
-    "label": "Personalization",
-    "value": "resume:Personalization"
+    "id": "resume:Zendesk",
+    "label": "Zendesk",
+    "value": "resume:Zendesk"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -213,53 +208,58 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
+   },
+   {
+    "id": "resume:Zendesk",
+    "label": "Zendesk",
+    "value": "resume:Zendesk"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:SDK",
+    "label": "SDK",
+    "value": "resume:SDK"
+   },
+   {
+    "id": "resume:Github",
+    "label": "Github",
+    "value": "resume:Github"
    },
    {
     "id": "resume:Strategic Partnerships",
     "label": "Strategic Partnerships",
     "value": "resume:Strategic Partnerships"
-   },
-   {
-    "id": "resume:Personalization",
-    "label": "Personalization",
-    "value": "resume:Personalization"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   },
-   {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
-   },
-   {
-    "id": "resume:Venture Financing",
-    "label": "Venture Financing",
-    "value": "resume:Venture Financing"
-   },
-   {
-    "id": "resume:Clustering",
-    "label": "Clustering",
-    "value": "resume:Clustering"
    }
   ],
   "manager": false,
@@ -267,19 +267,19 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -287,16 +287,16 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -307,18 +307,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
    }
   ],
-  "timeStamp": "2026-09-04T14:15:35Z",
-  "title": "Sales Development Representative",
-  "url": "https://job-boards.greenhouse.io/planetscale/jobs/4395260009",
-  "jobId": "4395260009",
+  "timeStamp": "2026-09-04T18:21:50Z",
+  "title": "Product Manager, API Platform",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4731388005",
+  "jobId": "4731388005",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1908148332134, 'matchScore': 0, 'ageScore': 0.9908148332133487, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1924695762948, 'matchScore': 0, 'ageScore': 0.9924695762947531, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
