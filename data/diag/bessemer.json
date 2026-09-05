@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-05T18:25:29Z",
+ "run": "2026-09-05T21:22:40Z",
  "homepage": {
   "status": 200,
   "bytes": 21737
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "j1MtXa6-BU\u2026",
+  "session.sig": "JHPbPPuf74\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTRiYjFiMWMyODA3ZWEwZTc3ZGM3N2NiYTU4NTAxZjkiLCAic2NvcmUiOiAxLjExMjk4MDM1ODU3MzY4ODR9"
+   "sequence": "eyJfaWQiOiAiMGMyOGI5ZjUyZjM3NjBmMjcyYzkxZjljMTcyZDkyNWQiLCAic2NvcmUiOiAxLjEwODczMTE0OTMxMzI3MTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,159 +152,214 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Recall/e0b0dd95-4687-4e8a-a304-e1fb6c05c016?utm_source=jobs.bvp.com",
-  "companyDomain": "recall.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1590d19123c41c5c6e8f0d7fbbe59414_224_160?Expires=1861920000&Signature=NJxhzqUQvHeUjgwWwTEf~NjSILSX8YIGfLeUkzY5Abqu90gsxexdC",
-  "companyId": "Recall.ai",
-  "companySlug": "recall.ai",
-  "companyName": "Recall.ai",
-  "companyStaffCount": 34,
+  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/76c9b39f-aecc-4247-b5f5-ebcd02dff7c3?utm_source=jobs.bvp.com",
+  "companyDomain": "perplexity.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
+  "companyId": "Perplexity AI",
+  "companySlug": "perplexity-ai",
+  "companyName": "Perplexity AI",
+  "companyStaffCount": 1415,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Platform & Infrastructure"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
    "San Francisco, California, United States",
-   "San Francisco"
+   "United States",
+   "London, UK, United Kingdom",
+   "Austin, Texas, United States",
+   "Berlin, Germany"
   ],
   "normalizedLocations": [
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   },
+   {
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "United Kingdom",
+    "label": "United Kingdom",
+    "value": "United Kingdom"
+   },
    {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 215000, 'maxValue': 215000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Build Automation Software",
-    "label": "Build Automation Software",
-    "value": "resume:Build Automation Software"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:Spreadsheets",
-    "label": "Spreadsheets",
-    "value": "resume:Spreadsheets"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Build Automation Software",
-    "label": "Build Automation Software",
-    "value": "resume:Build Automation Software"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:Spreadsheets",
-    "label": "Spreadsheets",
-    "value": "resume:Spreadsheets"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
+    "id": "resume:Data Infrastructure",
+    "label": "Data Infrastructure",
+    "value": "resume:Data Infrastructure"
+   },
+   {
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
+   },
+   {
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 4,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
     "id": "AI",
     "label": "AI",
     "value": "AI"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
    }
   ],
   "timeStamp": "2026-09-05T00:00:00Z",
-  "title": "Founding Internal Products Engineer",
-  "url": "https://jobs.ashbyhq.com/Recall/e0b0dd95-4687-4e8a-a304-e1fb6c05c016",
-  "jobId": "e0b0dd95-4687-4e8a-a304-e1fb6c05c016",
-  "remote": false,
+  "title": "Member of Technical Staff (Software Engineer, Infrastructure)",
+  "url": "https://jobs.ashbyhq.com/Perplexity/76c9b39f-aecc-4247-b5f5-ebcd02dff7c3",
+  "jobId": "76c9b39f-aecc-4247-b5f5-ebcd02dff7c3",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1797471189753, 'matchScore': 0, 'ageScore': 0.9797471189753086, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1762470162481, 'matchScore': 0, 'ageScore': 0.976247016248071, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -312,6 +367,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false

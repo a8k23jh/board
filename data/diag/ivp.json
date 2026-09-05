@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-05T18:25:29Z",
+ "run": "2026-09-05T21:22:40Z",
  "homepage": {
   "status": 200,
   "bytes": 19520
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "QfTFtLS1_3\u2026",
+  "session.sig": "TRQx4kpaDK\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTMyOGU1YzdjNDY4YzUxYTI3ZWMxYmExYjJmZDg3MzAiLCAic2NvcmUiOiAxLjEzMjIxMzkwOTQ4MTQ4MTR9"
+   "sequence": "eyJfaWQiOiAiMTYwZTc0ZTMwNTFlYzJhNzZjY2QyYjA1ZGM4NTE3ZDEiLCAic2NvcmUiOiAxLjEyODM5OTU5MTg1NzI1MzF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,123 +128,146 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/baseten/28291849-b57f-4813-a7e0-66b1050b2d1b?utm_source=careers.ivp.com",
-  "companyDomain": "baseten.co",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/aaa340387ade367703b1e49f53eb3028_288_160?Expires=1861920000&Signature=Al-9uky9kPkU3yG72nW3BbljsCHFZiSSqwfe53K8yzheEMID8gJHG",
-  "companyId": "BaseTen",
-  "companySlug": "baseten",
-  "companyName": "baseten",
-  "companyStaffCount": 319,
+  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/76c9b39f-aecc-4247-b5f5-ebcd02dff7c3?utm_source=careers.ivp.com",
+  "companyDomain": "perplexity.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
+  "companyId": "Perplexity AI",
+  "companySlug": "perplexity-ai",
+  "companyName": "Perplexity AI",
+  "companyStaffCount": 1415,
   "considerHosted": false,
   "departments": [
-   "G&A"
+   "Platform & Infrastructure"
   ],
   "jobTypes": [
    {
-    "id": "operations-manager",
-    "label": "Operations Manager",
-    "value": "operations-manager"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Distribution",
-    "label": "Distribution",
-    "value": "Distribution"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
    "San Francisco, California, United States",
-   "San Francisco"
+   "United States",
+   "London, UK, United Kingdom",
+   "Austin, Texas, United States",
+   "Berlin, Germany"
   ],
   "normalizedLocations": [
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   },
+   {
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "United Kingdom",
+    "label": "United Kingdom",
+    "value": "United Kingdom"
+   },
    {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 225000, 'maxValue': 235000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Data Center",
-    "label": "Data Center",
-    "value": "resume:Data Center"
-   },
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   },
-   {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Data Center",
-    "label": "Data Center",
-    "value": "resume:Data Center"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   },
-   {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
-   },
-   {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
-   },
    {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
+   },
+   {
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
+   },
+   {
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
+   },
+   {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
+   },
+   {
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
+   },
+   {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
+    "id": "resume:Data Infrastructure",
+    "label": "Data Infrastructure",
+    "value": "resume:Data Infrastructure"
+   },
+   {
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
+   },
+   {
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    }
   ],
   "manager": false,
@@ -254,82 +277,74 @@
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
+  "minYearsExp": 4,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI/ML",
-    "label": "AI/ML",
-    "value": "AI/ML"
-   },
-   {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
   "timeStamp": "2026-09-05T00:00:00Z",
-  "title": "Capacity Operations Manager",
-  "url": "https://jobs.ashbyhq.com/baseten/28291849-b57f-4813-a7e0-66b1050b2d1b",
-  "jobId": "28291849-b57f-4813-a7e0-66b1050b2d1b",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1800956777049, 'matchScore': 0, 'ageScore': 0.9800956777048611, 'richnessScore': 2}",
+  "title": "Member of Technical Staff (Software Engineer, Infrastructure)",
+  "url": "https://jobs.ashbyhq.com/Perplexity/76c9b39f-aecc-4247-b5f5-ebcd02dff7c3",
+  "jobId": "76c9b39f-aecc-4247-b5f5-ebcd02dff7c3",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1762470162481, 'matchScore': 0, 'ageScore': 0.976247016248071, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
