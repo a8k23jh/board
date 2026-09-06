@@ -1,6 +1,7 @@
 {
  "board": "felicis",
- "run": "2026-09-06T01:05:33Z",
+ "run": "2026-09-06T06:04:27Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.felicis.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 25237
@@ -34,7 +35,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "D4WfNg8cxQ\u2026",
+  "session.sig": "7_MzY30-V_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -321,5 +322,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
