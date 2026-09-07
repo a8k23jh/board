@@ -1,6 +1,7 @@
 {
  "board": "firstround",
- "run": "2026-09-07T00:04:32Z",
+ "run": "2026-09-07T04:56:17Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.firstround.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 16705
@@ -42,7 +43,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "nd-tn7MF0w\u2026",
+  "session.sig": "zVmzWKvzOi\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +128,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2EwYTQ4MjcyM2I2NTVjMTljMzc3ODlmN2E4Y2JiMjkiLCAic2NvcmUiOiAxLjAwNjA0NTY5Njk1NDg2MX0="
+   "sequence": "eyJfaWQiOiAiYzkzY2I4YjQ4OTI1NGRkZThmODI1ODBlODdlNjU4NGQiLCAic2NvcmUiOiAxLjAwMTgyNDE1NjEzNTQxNjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,33 +156,33 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/promise/6627b113-b4e4-4350-aeae-f0f306ccee1c?utm_source=jobs.firstround.com",
-  "companyDomain": "promise-pay.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a5fae4807f3d2b767858042390c341d2_304_160?Expires=1861920000&Signature=clrbje3zxsfZ0yg0PqiBUZZiYGlJMz8YZIxccMOtni8Zc7LNRO-Oq",
-  "companyId": "Promise",
-  "companySlug": "promise",
-  "companyName": "Promise",
-  "companyStaffCount": 235,
+  "applyUrl": "https://jobs.ashbyhq.com/assorthealth/04ed9921-1457-4d12-81ce-b5ff9703d027?utm_source=jobs.firstround.com",
+  "companyDomain": "assorthealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/fd1ba5e488ea7a2603af7f75d2f697fc_320_160?Expires=1861920000&Signature=LXaWIHp0mSu2S0heETKox3P8mp5hkereiDVb8dYRKn-cOiDzI~3ku",
+  "companyId": "Assort Health",
+  "companySlug": "assort-health",
+  "companyName": "Assort Health",
+  "companyStaffCount": 245,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "sled-account-executive",
-    "label": "SLED Account Executive",
-    "value": "sled-account-executive"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "San Francisco, California , United States",
+   "San Francisco, California, United States",
    "San Francisco"
   ],
   "normalizedLocations": [
@@ -191,76 +192,76 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 140000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:Procurement",
-    "label": "Procurement",
-    "value": "resume:Procurement"
+    "id": "resume:3rd Party Integrations",
+    "label": "3rd Party Integrations",
+    "value": "resume:3rd Party Integrations"
    },
    {
-    "id": "resume:Stripe",
-    "label": "Stripe",
-    "value": "resume:Stripe"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    },
    {
-    "id": "resume:HubSpot",
-    "label": "HubSpot",
-    "value": "resume:HubSpot"
+    "id": "resume:Web Applications",
+    "label": "Web Applications",
+    "value": "resume:Web Applications"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:Procurement",
-    "label": "Procurement",
-    "value": "resume:Procurement"
+    "id": "resume:3rd Party Integrations",
+    "label": "3rd Party Integrations",
+    "value": "resume:3rd Party Integrations"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Stripe",
-    "label": "Stripe",
-    "value": "resume:Stripe"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    },
    {
-    "id": "resume:HubSpot",
-    "label": "HubSpot",
-    "value": "resume:HubSpot"
+    "id": "resume:Web Applications",
+    "label": "Web Applications",
+    "value": "resume:Web Applications"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
    },
    {
-    "id": "resume:AES",
-    "label": "AES",
-    "value": "resume:AES"
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Valuation",
+    "label": "Valuation",
+    "value": "resume:Valuation"
    }
   ],
   "manager": false,
@@ -268,15 +269,20 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    5,
+    6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 8,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "West Coast",
@@ -284,9 +290,9 @@
     "value": "West Coast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -296,51 +302,47 @@
     "value": "100-1000 employees"
    },
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    },
    {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
-   },
-   {
-    "id": "Payments",
-    "label": "Payments",
-    "value": "Payments"
+    "id": "Healthcare",
+    "label": "Healthcare",
+    "value": "Healthcare"
    }
   ],
   "timeStamp": "2026-09-05T00:00:00Z",
-  "title": "Account Executive - Public Sector",
-  "url": "https://jobs.ashbyhq.com/promise/6627b113-b4e4-4350-aeae-f0f306ccee1c",
-  "jobId": "6627b113-b4e4-4350-aeae-f0f306ccee1c",
+  "title": "Senior Software Engineer - Product",
+  "url": "https://jobs.ashbyhq.com/assorthealth/04ed9921-1457-4d12-81ce-b5ff9703d027",
+  "jobId": "04ed9921-1457-4d12-81ce-b5ff9703d027",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1381968702307, 'matchScore': 0, 'ageScore': 0.9381968702307099, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1342720986343, 'matchScore': 0, 'ageScore': 0.9342720986342593, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
