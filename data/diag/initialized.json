@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-09-07T04:56:17Z",
+ "run": "2026-09-07T10:29:41Z",
  "homepage": {
   "status": 200,
   "bytes": 20930
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "MQaIGUGu8D\u2026",
+  "session.sig": "xPihFQW9QW\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMGRkYWFiYjVmNDA0MDdiNjcyZTcwYTA1MDEzYzFiYTMiLCAic2NvcmUiOiAxMDAuNTYyNjcxNDEwNjY3MDV9"
+   "sequence": "eyJfaWQiOiAiMGRkYWFiYjVmNDA0MDdiNjcyZTcwYTA1MDEzYzFiYTMiLCAic2NvcmUiOiAxMDAuNTQ5OTYwNTczNTc0ODV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/permitflow/480bc993-60b1-4b4d-83fa-599ef650729c?utm_source=jobs.initialized.com",
+  "applyUrl": "https://jobs.ashbyhq.com/permitflow/7eb9b500-7b37-4589-a12a-abffebaf8555?utm_source=jobs.initialized.com",
   "companyDomain": "permitflow.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d943ab0f7233c78058f3f226392343f8_288_160?Expires=1861920000&Signature=pOk45GgiNk2AKTayl7avyk7IR~q5tzNYnlfnTdZru4DlyFIybxwPD",
   "companyId": "PermitFlow",
@@ -156,16 +156,27 @@
   "companyStaffCount": 148,
   "considerHosted": false,
   "departments": [
-   "Marketing"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "content-producer",
-    "label": "Content Producer",
-    "value": "content-producer"
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
    "New York City, New York, USA",
    "New York City, NY"
@@ -177,103 +188,102 @@
     "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 90000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 300000, 'maxValue': 425000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Roll-ups",
+    "label": "Roll-ups",
+    "value": "resume:Roll-ups"
    },
    {
-    "id": "resume:Premiere",
-    "label": "Premiere",
-    "value": "resume:Premiere"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    },
    {
-    "id": "resume:Final Cut Pro",
-    "label": "Final Cut Pro",
-    "value": "resume:Final Cut Pro"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    },
    {
-    "id": "resume:Contractors",
-    "label": "Contractors",
-    "value": "resume:Contractors"
+    "id": "resume:Enterprise Sales",
+    "label": "Enterprise Sales",
+    "value": "resume:Enterprise Sales"
    },
    {
-    "id": "resume:Content Development",
-    "label": "Content Development",
-    "value": "resume:Content Development"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Roll-ups",
+    "label": "Roll-ups",
+    "value": "resume:Roll-ups"
    },
    {
-    "id": "resume:Premiere",
-    "label": "Premiere",
-    "value": "resume:Premiere"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    },
    {
-    "id": "resume:Final Cut Pro",
-    "label": "Final Cut Pro",
-    "value": "resume:Final Cut Pro"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Contractors",
-    "label": "Contractors",
-    "value": "resume:Contractors"
+    "id": "resume:Enterprise Sales",
+    "label": "Enterprise Sales",
+    "value": "resume:Enterprise Sales"
    },
    {
-    "id": "resume:Content Development",
-    "label": "Content Development",
-    "value": "resume:Content Development"
-   },
-   {
-    "id": "resume:Videography",
-    "label": "Videography",
-    "value": "resume:Videography"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
     "id": "resume:Licensing",
     "label": "Licensing",
     "value": "resume:Licensing"
+   },
+   {
+    "id": "resume:Executive Relationships",
+    "label": "Executive Relationships",
+    "value": "resume:Executive Relationships"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
-  "maxYearsExp": 5,
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
    {
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "Mid Atlantic",
@@ -281,9 +291,9 @@
     "value": "Mid Atlantic"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -317,23 +327,23 @@
    }
   ],
   "timeStamp": "2026-09-02T00:00:00Z",
-  "title": "Video & Content Producer",
-  "url": "https://jobs.ashbyhq.com/permitflow/480bc993-60b1-4b4d-83fa-599ef650729c",
-  "jobId": "480bc993-60b1-4b4d-83fa-599ef650729c",
+  "title": "Enterprise Sales Director",
+  "url": "https://jobs.ashbyhq.com/permitflow/7eb9b500-7b37-4589-a12a-abffebaf8555",
+  "jobId": "7eb9b500-7b37-4589-a12a-abffebaf8555",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1101.034449824326, 'matchScore': 0, 'ageScore': 0.8344498243260031, 'richnessScore': 2}",
+  "scores": "{'score': 1101.0211947236496, 'matchScore': 0, 'ageScore': 0.8211947236496914, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "director"
   ],
   "isFeatured": true
  },
