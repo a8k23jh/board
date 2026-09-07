@@ -1,106 +1,43 @@
 {
  "board": "jobsinvc",
- "run": "2026-09-06T21:28:11Z",
+ "run": "2026-09-07T00:04:32Z",
  "attempts": [
   {
    "url": "https://jobsinvc.getro.com/jobs?q=chief+of+staff",
-   "status": 200,
-   "bytes": 112321,
-   "jobs_parsed": 3
+   "error": "HTTPSConnectionPool(host='jobsinvc.getro.com', port=443): Max retries exceeded with url: /jobs?q=chief+of+staff (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certif"
   },
   {
    "url": "https://jobsinvc.getro.com/jobs?q=business+operations",
-   "status": 200,
-   "bytes": 281263,
-   "jobs_parsed": 20
-  },
-  {
-   "url": "https://jobsinvc.getro.com/jobs?q=business+operations&page=2",
-   "status": 200,
-   "bytes": 281272,
-   "jobs_parsed": 20
+   "error": "HTTPSConnectionPool(host='jobsinvc.getro.com', port=443): Max retries exceeded with url: /jobs?q=business+operations (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] c"
   },
   {
    "url": "https://jobsinvc.getro.com/jobs?q=strategy",
-   "status": 200,
-   "bytes": 283880,
-   "jobs_parsed": 18
-  },
-  {
-   "url": "https://jobsinvc.getro.com/jobs?q=strategy&page=2",
-   "status": 200,
-   "bytes": 283891,
-   "jobs_parsed": 18
+   "error": "HTTPSConnectionPool(host='jobsinvc.getro.com', port=443): Max retries exceeded with url: /jobs?q=strategy (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate "
   },
   {
    "url": "https://jobsinvc.getro.com/jobs?q=operations",
-   "status": 200,
-   "bytes": 266719,
-   "jobs_parsed": 20
-  },
-  {
-   "url": "https://jobsinvc.getro.com/jobs?q=operations&page=2",
-   "status": 200,
-   "bytes": 266732,
-   "jobs_parsed": 20
+   "error": "HTTPSConnectionPool(host='jobsinvc.getro.com', port=443): Max retries exceeded with url: /jobs?q=operations (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificat"
   },
   {
    "url": "https://jobsinvc.getro.com/jobs?q=founder",
-   "status": 200,
-   "bytes": 262625,
-   "jobs_parsed": 20
-  },
-  {
-   "url": "https://jobsinvc.getro.com/jobs?q=founder&page=2",
-   "status": 200,
-   "bytes": 262638,
-   "jobs_parsed": 20
+   "error": "HTTPSConnectionPool(host='jobsinvc.getro.com', port=443): Max retries exceeded with url: /jobs?q=founder (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate v"
   },
   {
    "url": "https://jobsinvc.getro.com/jobs?q=corporate+development",
-   "status": 200,
-   "bytes": 320494,
-   "jobs_parsed": 18
-  },
-  {
-   "url": "https://jobsinvc.getro.com/jobs?q=corporate+development&page=2",
-   "status": 200,
-   "bytes": 320505,
-   "jobs_parsed": 18
+   "error": "HTTPSConnectionPool(host='jobsinvc.getro.com', port=443): Max retries exceeded with url: /jobs?q=corporate+development (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED]"
   },
   {
    "url": "https://jobsinvc.getro.com/jobs?q=general+manager",
-   "status": 200,
-   "bytes": 210165,
-   "jobs_parsed": 12
-  },
-  {
-   "url": "https://jobsinvc.getro.com/jobs?q=general+manager&page=2",
-   "status": 200,
-   "bytes": 210178,
-   "jobs_parsed": 12
+   "error": "HTTPSConnectionPool(host='jobsinvc.getro.com', port=443): Max retries exceeded with url: /jobs?q=general+manager (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certi"
   },
   {
    "url": "https://jobsinvc.getro.com/jobs?q=revenue+operations",
-   "status": 200,
-   "bytes": 133484,
-   "jobs_parsed": 4
+   "error": "HTTPSConnectionPool(host='jobsinvc.getro.com', port=443): Max retries exceeded with url: /jobs?q=revenue+operations (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] ce"
   },
   {
    "url": "https://jobsinvc.getro.com/jobs?q=special+projects",
-   "status": 200,
-   "bytes": 285017,
-   "jobs_parsed": 20
-  },
-  {
-   "url": "https://jobsinvc.getro.com/jobs?q=special+projects&page=2",
-   "status": 200,
-   "bytes": 285096,
-   "jobs_parsed": 20
+   "error": "HTTPSConnectionPool(host='jobsinvc.getro.com', port=443): Max retries exceeded with url: /jobs?q=special+projects (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] cert"
   }
  ],
- "parse_health": {
-  "jobs": 91,
-  "without_location": 24
- }
+ "first_attempt_error": "getro: all page fetches failed for https://jobsinvc.getro.com (see diag)"
 }

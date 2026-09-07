@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-06T21:28:11Z",
+ "generated_at": "2026-09-07T00:04:32Z",
  "first_run": false,
  "boards": {
   "a16z": {
@@ -94,7 +94,7 @@
    "name": "Accel",
    "platform": "getro",
    "ok": true,
-   "fetched": 175,
+   "fetched": 176,
    "matched": 60,
    "error": null
   },
@@ -126,8 +126,8 @@
    "name": "Menlo Ventures",
    "platform": "getro",
    "ok": true,
-   "fetched": 125,
-   "matched": 21,
+   "fetched": 145,
+   "matched": 22,
    "error": null
   },
   "redpoint": {
@@ -141,18 +141,18 @@
   "index": {
    "name": "Index Ventures",
    "platform": "getro",
-   "ok": true,
-   "fetched": 155,
-   "matched": 30,
-   "error": null
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "getro: all page fetches failed for https://indexventures.getro.com (see diag)"
   },
   "jobsinvc": {
    "name": "Jobs in VC (roles at VC firms)",
    "platform": "getro",
-   "ok": true,
-   "fetched": 91,
-   "matched": 5,
-   "error": null
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "getro: all page fetches failed for https://jobsinvc.getro.com (see diag)"
   },
   "craft": {
    "name": "Craft Ventures",
@@ -197,10 +197,10 @@
   "getrocommunity": {
    "name": "Getro Community (multi-network, incl. Pear VC)",
    "platform": "getro",
-   "ok": true,
-   "fetched": 169,
-   "matched": 24,
-   "error": null
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "getro: all page fetches failed for https://community.getro.com (see diag)"
   },
   "felicis": {
    "name": "Felicis",
@@ -230,8 +230,8 @@
    "name": "Y Combinator",
    "platform": "yc",
    "ok": true,
-   "fetched": 116,
-   "matched": 7,
+   "fetched": 114,
+   "matched": 8,
    "error": null
   }
  }
