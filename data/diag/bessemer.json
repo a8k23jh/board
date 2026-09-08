@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-08T04:51:45Z",
+ "run": "2026-09-08T09:50:39Z",
  "homepage": {
   "status": 200,
   "bytes": 21737
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "HfYodiiaLr\u2026",
+  "session.sig": "boTcJGc3gP\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTBmMGVkNjQ5MGRmNDA5ODYxM2FlYTZmMjFhMGIxMGEiLCAic2NvcmUiOiAxLjA2NTY5OTQyNjQxNjY2NjZ9"
+   "sequence": "eyJfaWQiOiAiZGFiOGQzMDVmZWY2MDEwMWFmYzczNTQ0MzY2MDU1MjQiLCAic2NvcmUiOiAxLjA1MzkxNTY3MzIyMjk5NH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -176,6 +176,11 @@
   ],
   "jobTypes": [
    {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
     "id": "account-executive",
     "label": "Account Executive",
     "value": "account-executive"
@@ -184,11 +189,6 @@
     "id": "sales",
     "label": "Sales",
     "value": "sales"
-   },
-   {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
    }
   ],
   "jobFunctions": [
@@ -211,19 +211,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 155000, 'maxValue': 205000, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:EMEA",
-    "label": "EMEA",
-    "value": "resume:EMEA"
-   },
-   {
     "id": "resume:Exceeding Quotas",
     "label": "Exceeding Quotas",
     "value": "resume:Exceeding Quotas"
    },
    {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
    },
    {
     "id": "resume:Commercial Agreements",
@@ -231,26 +231,26 @@
     "value": "resume:Commercial Agreements"
    },
    {
-    "id": "resume:Advisor",
-    "label": "Advisor",
-    "value": "resume:Advisor"
+    "id": "resume:Complex Sales",
+    "label": "Complex Sales",
+    "value": "resume:Complex Sales"
    }
   ],
   "requiredSkills": [
-   {
-    "id": "resume:EMEA",
-    "label": "EMEA",
-    "value": "resume:EMEA"
-   },
    {
     "id": "resume:Exceeding Quotas",
     "label": "Exceeding Quotas",
     "value": "resume:Exceeding Quotas"
    },
    {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
    }
   ],
   "preferredSkills": [
@@ -260,14 +260,14 @@
     "value": "resume:Commercial Agreements"
    },
    {
-    "id": "resume:Advisor",
-    "label": "Advisor",
-    "value": "resume:Advisor"
+    "id": "resume:Complex Sales",
+    "label": "Complex Sales",
+    "value": "resume:Complex Sales"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Technical Sales",
+    "label": "Technical Sales",
+    "value": "resume:Technical Sales"
    },
    {
     "id": "resume:Emerging Technologies",
@@ -275,9 +275,9 @@
     "value": "resume:Emerging Technologies"
    },
    {
-    "id": "resume:Technical Sales",
-    "label": "Technical Sales",
-    "value": "resume:Technical Sales"
+    "id": "resume:Advisor",
+    "label": "Advisor",
+    "value": "resume:Advisor"
    }
   ],
   "manager": false,
@@ -296,14 +296,14 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
-   },
-   {
     "id": "EMEA",
     "label": "EMEA",
     "value": "EMEA"
+   },
+   {
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
    }
   ],
   "stages": [
@@ -337,7 +337,7 @@
   "jobId": "5391313008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1842916013021, 'matchScore': 0, 'ageScore': 0.9842916013020834, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1715815307195, 'matchScore': 0, 'ageScore': 0.9715815307195216, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

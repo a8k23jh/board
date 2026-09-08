@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-08T04:51:45Z",
+ "run": "2026-09-08T09:50:39Z",
  "homepage": {
   "status": 200,
   "bytes": 19520
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "nynmgIZ5-4\u2026",
+  "session.sig": "0yEQh2b4wq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -66,37 +66,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTE5MTNkMjVjM2JmN2JhNmQ3ZTdhOWYxMzkwODNhM2MiLCAic2NvcmUiOiAxLjA1ODYyNjA3MzgyOTQ3NTN9"
+   "sequence": "eyJfaWQiOiAiMTc5NGY3MGM4YjBjODQxMzk4NDYxNjI5NmJkYjc2N2YiLCAic2NvcmUiOiAxLjA0NTMwNjIyMjA5OTkyMjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,106 +139,57 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391313008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://job-boards.greenhouse.io/vercel/jobs/6183272004",
+  "companyDomain": "vercel.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3aebce305d02e8016a2802f154dc7fbd_256_160?Expires=1861920000&Signature=EDSnmPk-oZeT58HDw5bbBJFXm4XOJ0Hl9PVLDaf-xJe~A2cmL45kh",
+  "companyId": "Vercel",
+  "companySlug": "vercel",
+  "companyName": "Vercel",
+  "companyStaffCount": 957,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Finance"
   ],
   "jobTypes": [
    {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   },
-   {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
+    "id": "fpa-manager",
+    "label": "FP&A Manager",
+    "value": "fpa-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Finance",
+    "label": "Finance",
+    "value": "Finance"
+   },
+   {
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
    }
   ],
   "locations": [
-   "Dublin, IE"
+   "Hybrid - San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Dublin, Leinster, Ireland",
-    "label": "Dublin, Ireland",
-    "value": "Dublin, Leinster, Ireland"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 155000, 'maxValue': 205000, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:EMEA",
-    "label": "EMEA",
-    "value": "resume:EMEA"
+    "id": "resume:FPA",
+    "label": "FP&A",
+    "value": "resume:FPA"
    },
    {
-    "id": "resume:Exceeding Quotas",
-    "label": "Exceeding Quotas",
-    "value": "resume:Exceeding Quotas"
-   },
-   {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
-   },
-   {
-    "id": "resume:Commercial Agreements",
-    "label": "Commercial Agreements",
-    "value": "resume:Commercial Agreements"
-   },
-   {
-    "id": "resume:Advisor",
-    "label": "Advisor",
-    "value": "resume:Advisor"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:EMEA",
-    "label": "EMEA",
-    "value": "resume:EMEA"
-   },
-   {
-    "id": "resume:Exceeding Quotas",
-    "label": "Exceeding Quotas",
-    "value": "resume:Exceeding Quotas"
-   },
-   {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Commercial Agreements",
-    "label": "Commercial Agreements",
-    "value": "resume:Commercial Agreements"
-   },
-   {
-    "id": "resume:Advisor",
-    "label": "Advisor",
-    "value": "resume:Advisor"
+    "id": "resume:Nextjs",
+    "label": "Next.js",
+    "value": "resume:Nextjs"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -246,14 +197,58 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Emerging Technologies",
-    "label": "Emerging Technologies",
-    "value": "resume:Emerging Technologies"
+    "id": "resume:Developer Experience",
+    "label": "Developer Experience",
+    "value": "resume:Developer Experience"
    },
    {
-    "id": "resume:Technical Sales",
-    "label": "Technical Sales",
-    "value": "resume:Technical Sales"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:FPA",
+    "label": "FP&A",
+    "value": "resume:FPA"
+   },
+   {
+    "id": "resume:Nextjs",
+    "label": "Next.js",
+    "value": "resume:Nextjs"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Developer Experience",
+    "label": "Developer Experience",
+    "value": "resume:Developer Experience"
+   },
+   {
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
+   },
+   {
+    "id": "resume:OPEX",
+    "label": "OPEX",
+    "value": "resume:OPEX"
+   },
+   {
+    "id": "resume:Scalable Architecture",
+    "label": "Scalable Architecture",
+    "value": "resume:Scalable Architecture"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "manager": false,
@@ -269,24 +264,28 @@
     6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -297,34 +296,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Computer Software",
+    "label": "Computer Software",
+    "value": "Computer Software"
    }
   ],
-  "timeStamp": "2026-09-07T12:12:06Z",
-  "title": "Account Executive, Startups",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391313008",
-  "jobId": "5391313008",
+  "timeStamp": "2026-09-08T01:29:30Z",
+  "title": "FP&A Manager, Product",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/6183272004",
+  "jobId": "6183272004",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1842916013021, 'matchScore': 0, 'ageScore': 0.9842916013020834, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1899974068504, 'matchScore': 0, 'ageScore': 0.9899974068503087, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },
