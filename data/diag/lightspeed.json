@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-07T20:39:30Z",
+ "run": "2026-09-07T23:35:39Z",
  "homepage": {
   "status": 200,
   "bytes": 21208
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "-HCCaOUmko\u2026",
+  "session.sig": "tMGcnB5ea-\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGMyNmU5NWEyMDg5OTVjMGIwMGZjYjc3NTUxMTZhNjAiLCAic2NvcmUiOiAxLjA5MTUxMTA3MjM3MTE0MTl9"
+   "sequence": "eyJfaWQiOiAiOGMyNmU5NWEyMDg5OTVjMGIwMGZjYjc3NTUxMTZhNjAiLCAic2NvcmUiOiAxLjA4NzMwMjU4MDU0MDEyMzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,108 +144,143 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/buildots/36.004/bookkeeper/B4.F61-5F.501",
-  "companyDomain": "buildots.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6e40aae599a8c85cdc5210a3de4834e6_268_160?Expires=1861920000&Signature=HDHu0abFBHfcMPASOIFtg56KPKhg7Y-RwESrVPhtH5ltSDQnbDbgX",
-  "companyId": "Buildots",
-  "companySlug": "buildots",
-  "companyName": "Buildots",
-  "companyStaffCount": 446,
+  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8038/",
+  "companyDomain": "infoblox.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
+  "companyId": "Infoblox",
+  "companySlug": "infoblox",
+  "companyName": "Infoblox",
+  "companyStaffCount": 3390,
   "considerHosted": false,
   "departments": [],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "sales-all",
+    "label": "Sales",
+    "value": "sales-all"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "Toronto"
+   "Los Angeles, California, United States",
+   "Arizona, United States",
+   "Colorado, United States",
+   "Home Office, Sacramento, CA, US"
   ],
   "normalizedLocations": [
    {
-    "id": "Toronto, Ontario, Canada",
-    "label": "Toronto",
-    "value": "Toronto, Ontario, Canada"
+    "id": "Los Angeles, California",
+    "label": "Los Angeles, California",
+    "value": "Los Angeles, California"
+   },
+   {
+    "id": "Arizona",
+    "label": "Arizona",
+    "value": "Arizona"
+   },
+   {
+    "id": "Colorado",
+    "label": "Colorado",
+    "value": "Colorado"
+   },
+   {
+    "id": "Sacramento, California",
+    "label": "Sacramento, California",
+    "value": "Sacramento, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 90000, 'maxValue': 110000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Contractors",
-    "label": "Contractors",
-    "value": "resume:Contractors"
+    "id": "resume:Cloud Networking",
+    "label": "Cloud Networking",
+    "value": "resume:Cloud Networking"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:CISM",
+    "label": "CISM",
+    "value": "resume:CISM"
    },
    {
-    "id": "resume:NetSuite",
-    "label": "NetSuite",
-    "value": "resume:NetSuite"
+    "id": "resume:Solution Architecture",
+    "label": "Solution Architecture",
+    "value": "resume:Solution Architecture"
    },
    {
-    "id": "resume:Scalability",
-    "label": "Scalability",
-    "value": "resume:Scalability"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Data-driven Decision Making",
-    "label": "Data-driven Decision Making",
-    "value": "resume:Data-driven Decision Making"
+    "id": "resume:Constraint Satisfaction Problem",
+    "label": "Constraint Satisfaction Problem",
+    "value": "resume:Constraint Satisfaction Problem"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Contractors",
-    "label": "Contractors",
-    "value": "resume:Contractors"
+    "id": "resume:Cloud Networking",
+    "label": "Cloud Networking",
+    "value": "resume:Cloud Networking"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:CISM",
+    "label": "CISM",
+    "value": "resume:CISM"
    },
    {
-    "id": "resume:NetSuite",
-    "label": "NetSuite",
-    "value": "resume:NetSuite"
+    "id": "resume:Solution Architecture",
+    "label": "Solution Architecture",
+    "value": "resume:Solution Architecture"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Scalability",
-    "label": "Scalability",
-    "value": "resume:Scalability"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Data-driven Decision Making",
-    "label": "Data-driven Decision Making",
-    "value": "resume:Data-driven Decision Making"
+    "id": "resume:Constraint Satisfaction Problem",
+    "label": "Constraint Satisfaction Problem",
+    "value": "resume:Constraint Satisfaction Problem"
    },
    {
-    "id": "resume:Bookkeeping",
-    "label": "Bookkeeping",
-    "value": "resume:Bookkeeping"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:DNS",
+    "label": "DNS",
+    "value": "resume:DNS"
    }
   ],
   "manager": false,
@@ -253,53 +288,64 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Construction",
-    "label": "Construction",
-    "value": "Construction"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-09-07T11:43:27Z",
-  "title": "Bookkeeper",
-  "url": "https://www.comeet.com/jobs/buildots/36.004/bookkeeper/B4.F61-5F.501",
-  "jobId": "B4.F61-5F.501",
-  "remote": false,
+  "timeStamp": "2026-09-07T17:57:52Z",
+  "title": "Product Sales Security Specialist",
+  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8038/",
+  "jobId": "8038",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1920074023102, 'matchScore': 0, 'ageScore': 0.9920074023101851, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1959537587192, 'matchScore': 0, 'ageScore': 0.9959537587191358, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {
