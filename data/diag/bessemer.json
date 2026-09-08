@@ -1,9 +1,9 @@
 {
  "board": "bessemer",
- "run": "2026-09-08T18:48:57Z",
+ "run": "2026-09-08T21:55:45Z",
  "homepage": {
   "status": 200,
-  "bytes": 21737
+  "bytes": 21729
  },
  "slugs_tried": [
   "bessemer-ventures",
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f6052ddbabae0e81b21c8359146d6c819d7f2b5f\",\"date\":\"2026-09-04T18:11:34.453Z\"},\"server\":{\"git\":\"f6052ddbabae0e81b21c8359146d6c819d7f2b5f\",\"date\":\"2026-09-04T18:11:34.453Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"bf622aaa0bc8c85109e4ac5e412d0067cd277dc5\",\"date\":\"2026-09-08T18:15:51.954Z\"},\"server\":{\"git\":\"bf622aaa0bc8c85109e4ac5e412d0067cd277dc5\",\"date\":\"2026-09-08T18:15:51.954Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "pcWZdIvSMG\u2026",
+  "session.sig": "ZvSqXFeMZ6\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDgyMTAyOGYwMTU4MWEyODFkMGUxZTk1MmFmMGRiODEiLCAic2NvcmUiOiAxLjA1MTA0MDIwNTcxNzIwNjh9"
+   "sequence": "eyJfaWQiOiAiMDQ5MzM1YzU3ZmJkMWUxMGFhZGQ4ZGUwNmMwNTg0ZTUiLCAic2NvcmUiOiAxLjA0NzA5MDMxODUzMjc5MzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,61 +152,36 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/clickhouse/da6f6da1-eabf-4647-ab1c-6e138b14a6fe?utm_source=jobs.bvp.com",
-  "companyDomain": "clickhouse.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2779852661322ab66da5dc263e72606_320_160?Expires=1861920000&Signature=r~P65IuHovDEITH8vKhbAvgpsGftasvE8O7kucrixTGLscABGrKrs",
-  "companyId": "ClickHouse",
-  "companySlug": "clickhouse",
-  "companyName": "ClickHouse",
-  "companyStaffCount": 667,
+  "applyUrl": "https://jobs.ashbyhq.com/maintainx/630106e1-ae99-4fb4-b166-496c2e34aa84?utm_source=jobs.bvp.com",
+  "companyDomain": "getmaintainx.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b8ee14f86055e305b5108c32375a50af_288_160?Expires=1861920000&Signature=ZyuoaG96wOCstJUNsB6E~TiBmRlr26XXeFc0Vgs~vZJos5HWPsYau",
+  "companyId": "MaintainX",
+  "companySlug": "maintainx",
+  "companyName": "MaintainX",
+  "companyStaffCount": 689,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Platform Engineering"
   ],
   "jobTypes": [
    {
-    "id": "user-marketing",
-    "label": "Growth Manager",
-    "value": "user-marketing"
-   },
-   {
-    "id": "marketing-engagement",
-    "label": "Marketing Engagement",
-    "value": "marketing-engagement"
-   },
-   {
-    "id": "frontend-engineer",
-    "label": "Frontend Engineer",
-    "value": "frontend-engineer"
-   },
-   {
-    "id": "marketing-growth",
-    "label": "Marketing Growth",
-    "value": "marketing-growth"
-   },
-   {
-    "id": "marketing-acquisition",
-    "label": "Marketing Acquisition",
-    "value": "marketing-acquisition"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
   "jobFunctions": [
-   {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   },
    {
     "id": "Engineering",
     "label": "Engineering",
@@ -214,76 +189,86 @@
    }
   ],
   "locations": [
-   "",
-   "United States"
+   "San Francisco, California, United States",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 185000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 143000, 'maxValue': 248600, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Instrumentation",
-    "label": "Instrumentation",
-    "value": "resume:Instrumentation"
+    "id": "resume:Query Optimization",
+    "label": "Query Optimization",
+    "value": "resume:Query Optimization"
    },
    {
-    "id": "resume:User Experience Design",
-    "label": "User Experience Design",
-    "value": "resume:User Experience Design"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:A/B Testing",
-    "label": "A/B Testing",
-    "value": "resume:A/B Testing"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:ETL",
+    "label": "ETL",
+    "value": "resume:ETL"
    },
    {
-    "id": "resume:Product Analytics",
-    "label": "Product Analytics",
-    "value": "resume:Product Analytics"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Instrumentation",
-    "label": "Instrumentation",
-    "value": "resume:Instrumentation"
+    "id": "resume:Query Optimization",
+    "label": "Query Optimization",
+    "value": "resume:Query Optimization"
    },
    {
-    "id": "resume:User Experience Design",
-    "label": "User Experience Design",
-    "value": "resume:User Experience Design"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:A/B Testing",
-    "label": "A/B Testing",
-    "value": "resume:A/B Testing"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:ETL",
+    "label": "ETL",
+    "value": "resume:ETL"
    },
    {
-    "id": "resume:Product Analytics",
-    "label": "Product Analytics",
-    "value": "resume:Product Analytics"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
+   },
+   {
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
+   },
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    }
   ],
   "manager": false,
@@ -293,18 +278,24 @@
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
-  "minYearsExp": 6,
+  "minYearsExp": 4,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -312,33 +303,37 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Analytics",
-    "label": "Analytics",
-    "value": "Analytics"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
    },
    {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
+    "id": "Industrial Automation",
+    "label": "Industrial Automation",
+    "value": "Industrial Automation"
+   },
+   {
+    "id": "IoT",
+    "label": "IoT",
+    "value": "IoT"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
   "timeStamp": "2026-09-08T00:00:00Z",
-  "title": "Sr. Frontend Software Engineer - Growth",
-  "url": "https://jobs.ashbyhq.com/clickhouse/da6f6da1-eabf-4647-ab1c-6e138b14a6fe",
-  "jobId": "da6f6da1-eabf-4647-ab1c-6e138b14a6fe",
+  "title": "Senior Software Developer, API Platform and Ecosystem",
+  "url": "https://jobs.ashbyhq.com/maintainx/630106e1-ae99-4fb4-b166-496c2e34aa84",
+  "jobId": "630106e1-ae99-4fb4-b166-496c2e34aa84",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1760735241697, 'matchScore': 0, 'ageScore': 0.9760735241697531, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1719550569641, 'matchScore': 0, 'ageScore': 0.9719550569641203, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

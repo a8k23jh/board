@@ -1,9 +1,9 @@
 {
  "board": "felicis",
- "run": "2026-09-08T18:48:57Z",
+ "run": "2026-09-08T21:55:45Z",
  "homepage": {
   "status": 200,
-  "bytes": 25237
+  "bytes": 25229
  },
  "slugs_tried": [
   "felicis",
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f6052ddbabae0e81b21c8359146d6c819d7f2b5f\",\"date\":\"2026-09-04T18:11:34.453Z\"},\"server\":{\"git\":\"f6052ddbabae0e81b21c8359146d6c819d7f2b5f\",\"date\":\"2026-09-04T18:11:34.453Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"bf622aaa0bc8c85109e4ac5e412d0067cd277dc5\",\"date\":\"2026-09-08T18:15:51.954Z\"},\"server\":{\"git\":\"bf622aaa0bc8c85109e4ac5e412d0067cd277dc5\",\"date\":\"2026-09-08T18:15:51.954Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "JWbVr4nByJ\u2026",
+  "session.sig": "G9LODWzP0U\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTM1OWQ0MTc4ZWQyNDA5NGUzOTE0YTMyZWZiOWY4NWEiLCAic2NvcmUiOiAxLjA0MjIyMjg5OTMwNTU1NTZ9"
+   "sequence": "eyJfaWQiOiAiYmNiZWI4MzY2Yzg1ZGJhMzM5Y2I1MTEzZDJkMWJkZTkiLCAic2NvcmUiOiAxLjAzNzc4NjEyOTg5NzM3NjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/dialpad/jobs/8785455002",
+  "applyUrl": "https://job-boards.greenhouse.io/dialpad/jobs/8785453002",
   "companyDomain": "dialpad.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/76376b4f27b0a952a9a9ff422b992e2b_192_160?Expires=1861920000&Signature=CMhAWTMIY3zbSvP846Y1HMoGiI3r6WC8n93cekAmfmD3w5ZAwtoXZ",
   "companyId": "Dialpad",
@@ -173,21 +173,26 @@
    }
   ],
   "locations": [
-   "Bay Area, US"
+   "Kitchener, Canada"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco Bay Area",
-    "label": "San Francisco Bay Area",
-    "value": "San Francisco Bay Area"
+    "id": "Canada",
+    "label": "Canada",
+    "value": "Canada"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 204000, 'maxValue': 232500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 151000, 'maxValue': 175000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
     "id": "resume:Service",
@@ -195,14 +200,9 @@
     "value": "resume:Service"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Observability",
@@ -212,26 +212,26 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
     "id": "resume:Service",
     "label": "Service",
     "value": "resume:Service"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Observability",
@@ -239,14 +239,14 @@
     "value": "resume:Observability"
    },
    {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
     "id": "resume:Incident Response",
     "label": "Incident Response",
     "value": "resume:Incident Response"
-   },
-   {
-    "id": "resume:Performance Optimization",
-    "label": "Performance Optimization",
-    "value": "resume:Performance Optimization"
    },
    {
     "id": "resume:Infrastructure",
@@ -270,19 +270,9 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -305,13 +295,13 @@
     "value": "Telecommunications"
    }
   ],
-  "timeStamp": "2026-09-07T17:11:13Z",
+  "timeStamp": "2026-09-07T17:10:25Z",
   "title": "Sr. Software Engineer, Applied AI Systems",
-  "url": "https://job-boards.greenhouse.io/dialpad/jobs/8785455002",
-  "jobId": "8785455002",
+  "url": "https://job-boards.greenhouse.io/dialpad/jobs/8785453002",
+  "jobId": "8785453002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1664014289179, 'matchScore': 0, 'ageScore': 0.9664014289178241, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1622991644066, 'matchScore': 0, 'ageScore': 0.9622991644066358, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,9 +1,9 @@
 {
  "board": "kleiner",
- "run": "2026-09-08T18:48:57Z",
+ "run": "2026-09-08T21:55:45Z",
  "homepage": {
   "status": 200,
-  "bytes": 19382
+  "bytes": 19374
  },
  "slugs_tried": [
   "kleiner-perkins",
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f6052ddbabae0e81b21c8359146d6c819d7f2b5f\",\"date\":\"2026-09-04T18:11:34.453Z\"},\"server\":{\"git\":\"f6052ddbabae0e81b21c8359146d6c819d7f2b5f\",\"date\":\"2026-09-04T18:11:34.453Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"bf622aaa0bc8c85109e4ac5e412d0067cd277dc5\",\"date\":\"2026-09-08T18:15:51.954Z\"},\"server\":{\"git\":\"bf622aaa0bc8c85109e4ac5e412d0067cd277dc5\",\"date\":\"2026-09-08T18:15:51.954Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "yQGFPY7IXN\u2026",
+  "session.sig": "qjcQeT8IDt\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGYyOWJhZTg2YTI3YzRiYmJiMDg0Y2E4YmNjZTcxYjMiLCAic2NvcmUiOiAwLjk5NTQwNTY2OTUwODEwMTl9"
+   "sequence": "eyJfaWQiOiAiOGYyOWJhZTg2YTI3YzRiYmJiMDg0Y2E4YmNjZTcxYjMiLCAic2NvcmUiOiAwLjk5MTI3NzMxNDQxNDM1MTl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -194,59 +194,32 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:APAC",
+    "label": "APAC",
+    "value": "resume:APAC"
    },
    {
-    "id": "resume:Cloud Native",
-    "label": "Cloud Native",
-    "value": "resume:Cloud Native"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:GRC",
-    "label": "GRC",
-    "value": "resume:GRC"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Security Compliance",
+    "label": "Security Compliance",
+    "value": "resume:Security Compliance"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Private Equity",
+    "label": "Private Equity",
+    "value": "resume:Private Equity"
    }
   ],
   "requiredSkills": [
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Cloud Native",
-    "label": "Cloud Native",
-    "value": "resume:Cloud Native"
-   },
-   {
-    "id": "resume:GRC",
-    "label": "GRC",
-    "value": "resume:GRC"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
    {
     "id": "resume:APAC",
     "label": "APAC",
@@ -258,9 +231,36 @@
     "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:Access Control",
-    "label": "Access Control",
-    "value": "resume:Access Control"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Security Compliance",
+    "label": "Security Compliance",
+    "value": "resume:Security Compliance"
+   },
+   {
+    "id": "resume:Private Equity",
+    "label": "Private Equity",
+    "value": "resume:Private Equity"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "manager": false,
@@ -319,7 +319,7 @@
   "jobId": "89f4dbe1-cb4e-4d83-852c-692599df52fa",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1420881197723, 'matchScore': 0, 'ageScore': 0.9420881197723765, 'richnessScore': 2}",
+  "scores": "{'score': 1001.138597461304, 'matchScore': 0, 'ageScore': 0.9385974613040123, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
