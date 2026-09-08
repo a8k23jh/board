@@ -1,6 +1,7 @@
 {
  "board": "firstround",
- "run": "2026-09-07T23:35:39Z",
+ "run": "2026-09-08T04:51:45Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.firstround.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 16705
@@ -42,7 +43,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "D-hBCv8TTs\u2026",
+  "session.sig": "kGeCYdaAVX\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +128,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNmE4MTRkOTBkZWU3YWVhZjUyODMyNzcyNjZlZjU0NDciLCAic2NvcmUiOiAwLjk3MTY0MTY2Mzc4ODU4MDN9"
+   "sequence": "eyJfaWQiOiAiNzNlNTBlMmRkZTk4YWI1OWUzZTM5ZjlmYzM2ZGI4ZmIiLCAic2NvcmUiOiAwLjk3ODk4MjIzMTkzODY1NzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,6 +169,16 @@
   ],
   "jobTypes": [
    {
+    "id": "sales-engineer",
+    "label": "Sales Engineer",
+    "value": "sales-engineer"
+   },
+   {
+    "id": "sales-engineering",
+    "label": "Sales Engineering",
+    "value": "sales-engineering"
+   },
+   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
@@ -181,23 +192,13 @@
     "id": "diversity-program-manager",
     "label": "Diversity Program Manager",
     "value": "diversity-program-manager"
-   },
-   {
-    "id": "sales-engineering",
-    "label": "Sales Engineering",
-    "value": "sales-engineering"
-   },
-   {
-    "id": "sales-engineer",
-    "label": "Sales Engineer",
-    "value": "sales-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    },
    {
     "id": "Project Management",
@@ -205,9 +206,9 @@
     "value": "Project Management"
    },
    {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    },
    {
     "id": "Engineering",
@@ -228,73 +229,73 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 103390, 'maxValue': 129220, 'currency': {'label': 'GBP', 'value': 'GBP'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Imaging",
-    "label": "Imaging",
-    "value": "resume:Imaging"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:Government Contracts",
+    "label": "Government Contracts",
+    "value": "resume:Government Contracts"
    },
    {
-    "id": "resume:Remote Sensing",
-    "label": "Remote Sensing",
-    "value": "resume:Remote Sensing"
+    "id": "resume:Observation",
+    "label": "Observation",
+    "value": "resume:Observation"
    },
    {
-    "id": "resume:Actionable Insights",
-    "label": "Actionable Insights",
-    "value": "resume:Actionable Insights"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Classification",
+    "label": "Classification Algorithms",
+    "value": "resume:Classification"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Imaging",
-    "label": "Imaging",
-    "value": "resume:Imaging"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:Government Contracts",
+    "label": "Government Contracts",
+    "value": "resume:Government Contracts"
    },
    {
-    "id": "resume:Remote Sensing",
-    "label": "Remote Sensing",
-    "value": "resume:Remote Sensing"
+    "id": "resume:Observation",
+    "label": "Observation",
+    "value": "resume:Observation"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Actionable Insights",
-    "label": "Actionable Insights",
-    "value": "resume:Actionable Insights"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Classification",
+    "label": "Classification Algorithms",
+    "value": "resume:Classification"
    },
    {
-    "id": "resume:Military Operations",
-    "label": "Military Operations",
-    "value": "resume:Military Operations"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
-    "id": "resume:Feature Extraction",
-    "label": "Feature Extraction",
-    "value": "resume:Feature Extraction"
+    "id": "resume:MEDDPICC",
+    "label": "MEDDPICC",
+    "value": "resume:MEDDPICC"
    },
    {
-    "id": "resume:Language Models",
-    "label": "Language Models",
-    "value": "resume:Language Models"
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
    }
   ],
   "manager": true,
@@ -313,14 +314,14 @@
   "minYearsExp": 10,
   "regions": [
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
-   },
-   {
     "id": "Western Europe",
     "label": "Western Europe",
     "value": "Western Europe"
+   },
+   {
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
@@ -349,7 +350,7 @@
   "jobId": "8167892",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1793070827075, 'matchScore': 0, 'ageScore': 0.9793070827075617, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1748778333549, 'matchScore': 0, 'ageScore': 0.9748778333549383, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -366,5 +367,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }

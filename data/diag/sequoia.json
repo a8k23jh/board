@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-07T23:35:39Z",
+ "run": "2026-09-08T04:51:45Z",
  "homepage": {
   "status": 200,
   "bytes": 20238
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "846D3Epkmd\u2026",
+  "session.sig": "IVgKJFTPXc\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGJkOWY1NTQ0MTMwZTcwZmQ4YzlkYTExMWZhZTkxNTIiLCAic2NvcmUiOiAxLjA3MTI4MTc5MTA3MzY4ODN9"
+   "sequence": "eyJfaWQiOiAiNGJkOWY1NTQ0MTMwZTcwZmQ4YzlkYTExMWZhZTkxNTIiLCAic2NvcmUiOiAxLjA2Nzc1MTM3MjA1MzYyNjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,38 +144,38 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.fireblocks.com/careers/position?gh_jid=4695804006",
-  "companyDomain": "fireblocks.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ad2a89507e2a65c83402f1bb5d60b360_320_160?Expires=1861920000&Signature=cx4JekxOIuCa0rgzxVeib7UARep6kHs8vjX7k60DMGsYqko4JKNrR",
-  "companyId": "Fireblocks",
-  "companySlug": "fireblocks",
-  "companyName": "Fireblocks",
-  "companyStaffCount": 968,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8785502002?gh_jid=8785502002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "Security & IT"
+   "Application Software"
   ],
   "jobTypes": [
    {
-    "id": "security-professional",
-    "label": "Security Professional",
-    "value": "security-professional"
+    "id": "fullstack-engineer",
+    "label": "Full Stack Engineer",
+    "value": "fullstack-engineer"
    },
    {
-    "id": "security-engineer",
-    "label": "Security Engineer",
-    "value": "security-engineer"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
@@ -186,85 +186,85 @@
    }
   ],
   "locations": [
-   "United States"
+   "Hawthorne, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 124000, 'maxValue': 163000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Linux",
-    "label": "Linux",
-    "value": "resume:Linux"
+    "id": "resume:SQL Server",
+    "label": "Microsoft SQL Server",
+    "value": "resume:SQL Server"
    },
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:pip",
+    "label": "PIP",
+    "value": "resume:pip"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Data Processing",
+    "label": "Data Processing",
+    "value": "resume:Data Processing"
    },
    {
-    "id": "resume:Access Management",
-    "label": "Access Management",
-    "value": "resume:Access Management"
+    "id": "resume:Web Applications",
+    "label": "Web Applications",
+    "value": "resume:Web Applications"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:version control systems",
+    "label": "Version Control Systems",
+    "value": "resume:version control systems"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Linux",
-    "label": "Linux",
-    "value": "resume:Linux"
+    "id": "resume:SQL Server",
+    "label": "Microsoft SQL Server",
+    "value": "resume:SQL Server"
    },
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:pip",
+    "label": "PIP",
+    "value": "resume:pip"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Data Processing",
+    "label": "Data Processing",
+    "value": "resume:Data Processing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Access Management",
-    "label": "Access Management",
-    "value": "resume:Access Management"
+    "id": "resume:Web Applications",
+    "label": "Web Applications",
+    "value": "resume:Web Applications"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:version control systems",
+    "label": "Version Control Systems",
+    "value": "resume:version control systems"
    },
    {
-    "id": "resume:Unix",
-    "label": "Unix",
-    "value": "resume:Unix"
+    "id": "resume:Application Software",
+    "label": "Application Software",
+    "value": "resume:Application Software"
    },
    {
-    "id": "resume:Security Operations",
-    "label": "Security Operations",
-    "value": "resume:Security Operations"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Apache Kafka",
+    "label": "Apache Kafka",
+    "value": "resume:Apache Kafka"
    }
   ],
   "manager": false,
@@ -280,8 +280,18 @@
     4
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 2,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -290,36 +300,30 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Blockchain",
-    "label": "Blockchain",
-    "value": "Blockchain"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
    },
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-09-07T08:10:51Z",
-  "title": "SecOps Specialist",
-  "url": "https://www.fireblocks.com/careers/position?gh_jid=4695804006",
-  "jobId": "4695804006",
-  "remote": true,
+  "timeStamp": "2026-09-07T17:23:36Z",
+  "title": "Full Stack Software Engineer, Internal Systems",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8785502002?gh_jid=8785502002",
+  "jobId": "8785502002",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1831381038916, 'matchScore': 0, 'ageScore': 0.9831381038915895, 'richnessScore': 2}",
+  "scores": "{'score': 1001.192006525667, 'matchScore': 0, 'ageScore': 0.9920065256670525, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
