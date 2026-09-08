@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-08T18:16:26Z",
+ "run": "2026-09-08T18:48:57Z",
  "homepage": {
   "status": 200,
   "bytes": 19520
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "GCA5IGWDxi\u2026",
+  "session.sig": "BHNza9Y47g\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTc5NGY3MGM4YjBjODQxMzk4NDYxNjI5NmJkYjc2N2YiLCAic2NvcmUiOiAxLjAzNzA0NDA3MDM1MDY5NDV9"
+   "sequence": "eyJfaWQiOiAiMTE5MTNkMjVjM2JmN2JhNmQ3ZTdhOWYxMzkwODNhM2MiLCAic2NvcmUiOiAxLjAzMzM4NzE0ODI4NTQ5Mzd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,111 +139,96 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/vercel/jobs/6183272004",
-  "companyDomain": "vercel.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3aebce305d02e8016a2802f154dc7fbd_256_160?Expires=1861920000&Signature=EDSnmPk-oZeT58HDw5bbBJFXm4XOJ0Hl9PVLDaf-xJe~A2cmL45kh",
-  "companyId": "Vercel",
-  "companySlug": "vercel",
-  "companyName": "Vercel",
-  "companyStaffCount": 957,
+  "applyUrl": "https://jobs.lever.co/pigment/0c94c748-1f6e-46f5-81bd-b9286a0706f3?lever-source%5B%5D=careers.ivp.com",
+  "companyDomain": "pigment.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d8454e7d73e0751aca5245ab594f64c5_272_160?Expires=1861920000&Signature=Scz9RpS4mWlxhSeX-qbas9xSYxTWdr3xQaV7RPNNsu4Q9WiQ2Yqrv",
+  "companyId": "Pigment",
+  "companySlug": "pigment",
+  "companyName": "Pigment",
+  "companyStaffCount": 772,
   "considerHosted": false,
   "departments": [
-   "Finance"
+   "Tech"
   ],
   "jobTypes": [
    {
-    "id": "fpa-manager",
-    "label": "FP&A Manager",
-    "value": "fpa-manager"
+    "id": "site-reliability-engineer",
+    "label": "Site Reliability Engineer (SRE)",
+    "value": "site-reliability-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Finance",
-    "label": "Finance",
-    "value": "Finance"
-   },
-   {
-    "id": "Accounting",
-    "label": "Accounting",
-    "value": "Accounting"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Hybrid - San Francisco"
+   "Toronto"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Toronto, Ontario, Canada",
+    "label": "Toronto",
+    "value": "Toronto, Ontario, Canada"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 180000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Strategic Finance",
-    "label": "Strategic Finance",
-    "value": "resume:Strategic Finance"
-   },
-   {
-    "id": "resume:Nextjs",
-    "label": "Next.js",
-    "value": "resume:Nextjs"
-   },
-   {
-    "id": "resume:SDK",
-    "label": "SDK",
-    "value": "resume:SDK"
-   },
-   {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Strategic Finance",
-    "label": "Strategic Finance",
-    "value": "resume:Strategic Finance"
-   },
-   {
-    "id": "resume:Nextjs",
-    "label": "Next.js",
-    "value": "resume:Nextjs"
-   },
-   {
-    "id": "resume:SDK",
-    "label": "SDK",
-    "value": "resume:SDK"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:OPEX",
-    "label": "OPEX",
-    "value": "resume:OPEX"
-   },
    {
     "id": "resume:Finance",
     "label": "Finance",
     "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
+   },
+   {
+    "id": "resume:Business Planning",
+    "label": "Business Planning",
+    "value": "resume:Business Planning"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Financial Planning",
+    "label": "Financial Planning",
+    "value": "resume:Financial Planning"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
+   },
+   {
+    "id": "resume:Business Planning",
+    "label": "Business Planning",
+    "value": "resume:Business Planning"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Financial Planning",
+    "label": "Financial Planning",
+    "value": "resume:Financial Planning"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -269,16 +254,6 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -296,29 +271,39 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer Software",
-    "label": "Computer Software",
-    "value": "Computer Software"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-09-08T01:29:30Z",
-  "title": "FP&A Manager, Product",
-  "url": "https://job-boards.greenhouse.io/vercel/jobs/6183272004",
-  "jobId": "6183272004",
+  "timeStamp": "2026-09-08T10:06:27.025000Z",
+  "title": "Senior SRE",
+  "url": "https://jobs.lever.co/pigment/0c94c748-1f6e-46f5-81bd-b9286a0706f3",
+  "jobId": "0c94c748-1f6e-46f5-81bd-b9286a0706f3",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1814243994961, 'matchScore': 0, 'ageScore': 0.981424399496142, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.190314775767, 'matchScore': 0, 'ageScore': 0.9903147757669754, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "senior"
   ],
   "isFeatured": false
  },
