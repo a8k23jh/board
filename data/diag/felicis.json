@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-09T14:40:16Z",
+ "run": "2026-09-09T18:43:10Z",
  "homepage": {
   "status": 200,
   "bytes": 25229
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "9AJNVGqQ2g\u2026",
+  "session.sig": "QN17ZR4WMQ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzM5YWMzZTlmNGIzMTE0NGRkNWNhOGMzMWFkNjcyYWYiLCAic2NvcmUiOiAxLjA0NDMyODQ3NDM3MTE0Mn0="
+   "sequence": "eyJfaWQiOiAiODlkNDdiZmEzNWRmYzhiM2ZmNmRlN2I3MzdmNzAzNWUiLCAic2NvcmUiOiAxLjA0MTk1NTEzODA4Mjk0NzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://app.careerpuck.com/job-board/prenuvo/job/4731966005",
+  "applyUrl": "https://app.careerpuck.com/job-board/prenuvo/job/4730104005",
   "companyDomain": "prenuvo.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f855494ad06dbd721840918e60608cc8_224_160?Expires=1861920000&Signature=F2KsitJcPnsGLTQzMVD4Ftje4BCUz1jm~hj5Mb1raR1Vzkp~b6xD~",
   "companyId": "Prenuvo",
@@ -158,14 +158,30 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "fpa-manager",
+    "label": "FP&A Manager",
+    "value": "fpa-manager"
+   },
+   {
+    "id": "finance-professional",
+    "label": "Finance",
+    "value": "finance-professional"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
+   },
+   {
+    "id": "Finance",
+    "label": "Finance",
+    "value": "Finance"
+   }
+  ],
   "locations": [
-   "Remote. USA"
+   "Remote, USA"
   ],
   "normalizedLocations": [
    {
@@ -174,86 +190,82 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Financial Systems",
+    "label": "Financial Systems",
+    "value": "resume:Financial Systems"
    },
    {
-    "id": "resume:Data Infrastructure",
-    "label": "Data Infrastructure",
-    "value": "resume:Data Infrastructure"
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
    },
    {
-    "id": "resume:Marketing Technology",
-    "label": "Marketing Technology",
-    "value": "resume:Marketing Technology"
+    "id": "resume:Revenue Model",
+    "label": "Revenue Model",
+    "value": "resume:Revenue Model"
    },
    {
-    "id": "resume:Business Strategy",
-    "label": "Business Strategy",
-    "value": "resume:Business Strategy"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Lifecycle Marketing",
-    "label": "Lifecycle Marketing",
-    "value": "resume:Lifecycle Marketing"
+    "id": "resume:Revenue Recognition",
+    "label": "Revenue Recognition",
+    "value": "resume:Revenue Recognition"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Financial Systems",
+    "label": "Financial Systems",
+    "value": "resume:Financial Systems"
    },
    {
-    "id": "resume:Data Infrastructure",
-    "label": "Data Infrastructure",
-    "value": "resume:Data Infrastructure"
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
    },
    {
-    "id": "resume:Marketing Technology",
-    "label": "Marketing Technology",
-    "value": "resume:Marketing Technology"
+    "id": "resume:Revenue Model",
+    "label": "Revenue Model",
+    "value": "resume:Revenue Model"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Business Strategy",
-    "label": "Business Strategy",
-    "value": "resume:Business Strategy"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Lifecycle Marketing",
-    "label": "Lifecycle Marketing",
-    "value": "resume:Lifecycle Marketing"
+    "id": "resume:Revenue Recognition",
+    "label": "Revenue Recognition",
+    "value": "resume:Revenue Recognition"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Anaplan",
+    "label": "Anaplan",
+    "value": "resume:Anaplan"
    },
    {
-    "id": "resume:Contract Negotiation",
-    "label": "Contract Negotiation",
-    "value": "resume:Contract Negotiation"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    },
    {
-    "id": "resume:Data Warehousing",
-    "label": "Data Warehousing",
-    "value": "resume:Data Warehousing"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
-   [
-    3,
-    4
-   ],
    [
     5,
     6
@@ -286,30 +298,24 @@
     "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-09-09T03:09:50.915000Z",
-  "title": "Senior MarTech Manager",
-  "url": "https://app.careerpuck.com/job-board/prenuvo/job/4731966005",
-  "jobId": "68MoO_Wb",
+  "timeStamp": "2026-09-09T11:43:44.823000Z",
+  "title": "Director, Financial Planning and Analysis (FP&A)",
+  "url": "https://app.careerpuck.com/job-board/prenuvo/job/4730104005",
+  "jobId": "j_5xvy2R",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1883236586671, 'matchScore': 0, 'ageScore': 0.9883236586670525, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1919865740443, 'matchScore': 0, 'ageScore': 0.9919865740443673, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "senior"
+   "director"
   ],
   "isFeatured": false
  },

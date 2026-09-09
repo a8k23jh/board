@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-09T14:40:16Z",
+ "run": "2026-09-09T18:43:10Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "05qeGCAE-J\u2026",
+  "session.sig": "o0-2boue2W\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjI4ODI4M2Q2YzEwODg1MTMxMzRjZjg5NDQ1ZGI4Y2UiLCAic2NvcmUiOiAxLjAyMzc3NDk4ODA5NTI5M30="
+   "sequence": "eyJfaWQiOiAiZTZjNDlhOWE4MDYyYTI4NDE5NzNmNDU5MDEzNTE3ZmEiLCAic2NvcmUiOiAxLjA0MjI0NDYyNDQ0NDgzMDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,111 +152,137 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/legora/e30a83fd-f911-4564-bbfa-68c98c68d08f?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "legora.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b891c930b6510ae6c060edcbf34e3f01_168_160?Expires=1861920000&Signature=TALnikHwq5VhHf7rlRHdBVqtmH-oKrZmnASUvrT9xXXnM38UEYfiw",
-  "companyId": "Legora",
-  "companySlug": "legora",
-  "companyName": "Legora",
-  "companyStaffCount": 837,
+  "applyUrl": "https://careers.docusign.com/jobs/30295?lang=en-us",
+  "companyDomain": "docusign.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
+  "companyId": "DocuSign",
+  "companySlug": "docusign",
+  "companyName": "DocuSign",
+  "companyStaffCount": 8412,
   "considerHosted": false,
-  "departments": [
-   "InfoSec"
+  "departments": [],
+  "jobTypes": [
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   },
+   {
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
+   }
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Product Management",
+    "label": "Product Management",
+    "value": "Product Management"
+   }
+  ],
   "locations": [
-   "New York City, New York, United States",
-   "New York City"
+   "San Francisco, California",
+   "Chicago, Illinois",
+   "Seattle, Washington"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
+   {
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 187000, 'maxValue': 328888, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 186100, 'maxValue': 300550, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Kusto Query Language",
-    "label": "Kusto Query Language (KQL)",
-    "value": "resume:Kusto Query Language"
+    "id": "resume:Sales & Marketing",
+    "label": "Sales & Marketing",
+    "value": "resume:Sales & Marketing"
    },
    {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
    },
    {
-    "id": "resume:YARA",
-    "label": "YARA",
-    "value": "resume:YARA"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Data Lake",
-    "label": "Data Lake",
-    "value": "resume:Data Lake"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Kusto Query Language",
-    "label": "Kusto Query Language (KQL)",
-    "value": "resume:Kusto Query Language"
+    "id": "resume:Sales & Marketing",
+    "label": "Sales & Marketing",
+    "value": "resume:Sales & Marketing"
    },
    {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
    },
    {
-    "id": "resume:YARA",
-    "label": "YARA",
-    "value": "resume:YARA"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Data Lake",
-    "label": "Data Lake",
-    "value": "resume:Data Lake"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    },
    {
-    "id": "resume:APAC",
-    "label": "APAC",
-    "value": "resume:APAC"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    }
   ],
   "manager": false,
@@ -264,20 +290,19 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
    },
    {
     "id": "North America",
@@ -285,61 +310,50 @@
     "value": "North America"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "Legal Services",
-    "label": "Legal Services",
-    "value": "Legal Services"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-09-09T00:00:00Z",
-  "title": "(Senior OR Staff) Detection & Response Engineer",
-  "url": "https://jobs.ashbyhq.com/legora/e30a83fd-f911-4564-bbfa-68c98c68d08f",
-  "jobId": "e30a83fd-f911-4564-bbfa-68c98c68d08f",
+  "timeStamp": "2026-09-09T13:55:57Z",
+  "title": "Lead Product Manager, New Revenue",
+  "url": "https://careers.docusign.com/jobs/30295?lang=en-us",
+  "jobId": "30295",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1835166588935, 'matchScore': 0, 'ageScore': 0.9835166588935185, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1956174721605, 'matchScore': 0, 'ageScore': 0.9956174721604938, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
    {
     "id": "senior",
     "label": "Senior",
@@ -347,6 +361,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "mid",
    "senior"
   ],
   "isFeatured": false

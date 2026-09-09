@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-09T14:40:16Z",
+ "run": "2026-09-09T18:43:10Z",
  "homepage": {
   "status": 200,
   "bytes": 19512
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ptcYuZnrPx\u2026",
+  "session.sig": "_tLPBW0n93\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjMwN2U0YWRkMWFlYTVhNmVkZDA1ZWUxZjBjMjhmMzciLCAic2NvcmUiOiAxLjA0NDM5MzgxNzkwMzkzNTJ9"
+   "sequence": "eyJfaWQiOiAiZTZjNDlhOWE4MDYyYTI4NDE5NzNmNDU5MDEzNTE3ZmEiLCAic2NvcmUiOiAxLjA0MjI0NDYyNDQ0NDgzMDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,128 +128,116 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5418977008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://job-boards.greenhouse.io/gomotive/jobs/8691189002",
+  "companyDomain": "gomotive.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/25a89ab129481325fdea0a8ec67db334_208_160?Expires=1861920000&Signature=FOVx4pqYXCuvScQi9jIt1h-cXgKWHgmbuXcTtciYMPrORXx90yBOk",
+  "companyId": "Motive",
+  "companySlug": "motive",
+  "companyName": "Motive",
+  "companyStaffCount": 6358,
   "considerHosted": false,
   "departments": [
-   "Security"
+   "Supply Chain"
   ],
   "jobTypes": [
    {
-    "id": "security-professional",
-    "label": "Security Professional",
-    "value": "security-professional"
-   },
-   {
-    "id": "security-engineer",
-    "label": "Security Engineer",
-    "value": "security-engineer"
+    "id": "inventory-specialist",
+    "label": "Inventory Specialist",
+    "value": "inventory-specialist"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "San Francisco, CA",
-   "New York City, NY"
+   "United States - Louisville, Kentucky"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Louisville, Kentucky",
+    "label": "Louisville, Kentucky",
+    "value": "Louisville, Kentucky"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 300000, 'maxValue': 320000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 82000, 'maxValue': 105000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Inventory Management",
+    "label": "Inventory Management",
+    "value": "resume:Inventory Management"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    },
    {
-    "id": "resume:Offensive Security",
-    "label": "Offensive Security",
-    "value": "resume:Offensive Security"
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Root Cause Analysis",
+    "label": "Root Cause Analysis",
+    "value": "resume:Root Cause Analysis"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Inventory Management",
+    "label": "Inventory Management",
+    "value": "resume:Inventory Management"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    },
    {
-    "id": "resume:Offensive Security",
-    "label": "Offensive Security",
-    "value": "resume:Offensive Security"
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Root Cause Analysis",
+    "label": "Root Cause Analysis",
+    "value": "resume:Root Cause Analysis"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
+   },
+   {
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    }
   ],
   "manager": false,
@@ -257,39 +245,25 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
+  "minYearsExp": 3,
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    }
   ],
   "stages": [
@@ -297,44 +271,38 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
    },
    {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-09-08T23:51:37Z",
-  "title": "Security Engineer, Offensive Security",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5418977008",
-  "jobId": "5418977008",
+  "timeStamp": "2026-09-09T10:56:03Z",
+  "title": "Senior Inventory Specialist",
+  "url": "https://job-boards.greenhouse.io/gomotive/jobs/8691189002",
+  "jobId": "8691189002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1833344411972, 'matchScore': 0, 'ageScore': 0.9833344411971451, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1907735630039, 'matchScore': 0, 'ageScore': 0.990773563003858, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
