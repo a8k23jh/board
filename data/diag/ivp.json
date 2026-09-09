@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-09T00:21:57Z",
+ "run": "2026-09-09T04:56:53Z",
  "homepage": {
   "status": 200,
   "bytes": 19512
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"bf622aaa0bc8c85109e4ac5e412d0067cd277dc5\",\"date\":\"2026-09-08T18:15:51.954Z\"},\"server\":{\"git\":\"bf622aaa0bc8c85109e4ac5e412d0067cd277dc5\",\"date\":\"2026-09-08T18:15:51.954Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"7824e1b9a9cba8eebd2ffddab692c2eb8d3f2023\",\"date\":\"2026-09-09T00:50:24.308Z\"},\"server\":{\"git\":\"7824e1b9a9cba8eebd2ffddab692c2eb8d3f2023\",\"date\":\"2026-09-09T00:50:24.308Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "GzL76bv9L5\u2026",
+  "session.sig": "CPHSyuxoeC\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjRmNmQ1MjgxZWIxMTNhNTdjNGExNDdmY2M1MGNhZDMiLCAic2NvcmUiOiAxLjAyOTIzMjE3NDA4OTEyMDR9"
+   "sequence": "eyJfaWQiOiAiOWY2M2Y4MjBkOTBjMTM0MTFlMjExNWRkMzNmNWQ5ZDAiLCAic2NvcmUiOiAxLjA1NDY2NTExMzk1MjU0NjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,33 +128,38 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/pigment/0c94c748-1f6e-46f5-81bd-b9286a0706f3?lever-source%5B%5D=careers.ivp.com",
-  "companyDomain": "pigment.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d8454e7d73e0751aca5245ab594f64c5_272_160?Expires=1861920000&Signature=Scz9RpS4mWlxhSeX-qbas9xSYxTWdr3xQaV7RPNNsu4Q9WiQ2Yqrv",
-  "companyId": "Pigment",
-  "companySlug": "pigment",
-  "companyName": "Pigment",
-  "companyStaffCount": 772,
+  "applyUrl": "https://jobs.lever.co/aledade/e0468c12-c6b3-4331-bbe7-16cf32722e86?lever-source%5B%5D=careers.ivp.com",
+  "companyDomain": "aledade.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/bd2138c964bd6433d2b5ea9e1f86b4fe_208_160?Expires=1861920000&Signature=JIApJVTZcWDUh2ZJdjxx7LblqnyA0ExTC7wBbmfP7rRc5pkveyKXy",
+  "companyId": "Aledade",
+  "companySlug": "aledade",
+  "companyName": "Aledade",
+  "companyStaffCount": 1790,
   "considerHosted": false,
   "departments": [
-   "Tech"
+   "Technology"
   ],
   "jobTypes": [
    {
-    "id": "site-reliability-engineer",
-    "label": "Site Reliability Engineer (SRE)",
-    "value": "site-reliability-engineer"
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
+   },
+   {
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
    }
   ],
   "jobFunctions": [
@@ -165,75 +170,85 @@
    }
   ],
   "locations": [
-   "Toronto"
+   "Remote, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Toronto, Ontario, Canada",
-    "label": "Toronto",
-    "value": "Toronto, Ontario, Canada"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 180000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 182000, 'maxValue': 195000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Powershell",
+    "label": "Powershell",
+    "value": "resume:Powershell"
    },
    {
-    "id": "resume:Financial Planning",
-    "label": "Financial Planning",
-    "value": "resume:Financial Planning"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Access Management",
+    "label": "Access Management",
+    "value": "resume:Access Management"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
    },
    {
-    "id": "resume:Business Planning",
-    "label": "Business Planning",
-    "value": "resume:Business Planning"
+    "id": "resume:Regulatory Compliance",
+    "label": "Regulatory Compliance",
+    "value": "resume:Regulatory Compliance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Powershell",
+    "label": "Powershell",
+    "value": "resume:Powershell"
    },
    {
-    "id": "resume:Financial Planning",
-    "label": "Financial Planning",
-    "value": "resume:Financial Planning"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Access Management",
+    "label": "Access Management",
+    "value": "resume:Access Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
    },
    {
-    "id": "resume:Business Planning",
-    "label": "Business Planning",
-    "value": "resume:Business Planning"
+    "id": "resume:Regulatory Compliance",
+    "label": "Regulatory Compliance",
+    "value": "resume:Regulatory Compliance"
    },
    {
-    "id": "resume:Performance Management",
-    "label": "Performance Management",
-    "value": "resume:Performance Management"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
+   },
+   {
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "manager": false,
@@ -243,12 +258,9 @@
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
+  "minYearsExp": 4,
   "regions": [
    {
     "id": "North America",
@@ -258,41 +270,25 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-09-08T10:06:27.025000Z",
-  "title": "Senior SRE",
-  "url": "https://jobs.lever.co/pigment/0c94c748-1f6e-46f5-81bd-b9286a0706f3",
-  "jobId": "0c94c748-1f6e-46f5-81bd-b9286a0706f3",
-  "remote": false,
+  "timeStamp": "2026-09-08T18:59:24.880000Z",
+  "title": "Sr. Security Engineer I (Identity Access Management)",
+  "url": "https://jobs.lever.co/aledade/e0468c12-c6b3-4331-bbe7-16cf32722e86",
+  "jobId": "e0468c12-c6b3-4331-bbe7-16cf32722e86",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1856941266524, 'matchScore': 0, 'ageScore': 0.985694126652392, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1943024844205, 'matchScore': 0, 'ageScore': 0.9943024844205247, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

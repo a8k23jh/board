@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-09T00:21:57Z",
+ "run": "2026-09-09T04:56:53Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"bf622aaa0bc8c85109e4ac5e412d0067cd277dc5\",\"date\":\"2026-09-08T18:15:51.954Z\"},\"server\":{\"git\":\"bf622aaa0bc8c85109e4ac5e412d0067cd277dc5\",\"date\":\"2026-09-08T18:15:51.954Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"7824e1b9a9cba8eebd2ffddab692c2eb8d3f2023\",\"date\":\"2026-09-09T00:50:24.308Z\"},\"server\":{\"git\":\"7824e1b9a9cba8eebd2ffddab692c2eb8d3f2023\",\"date\":\"2026-09-09T00:50:24.308Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "_qxMCmgvKn\u2026",
+  "session.sig": "Vw2MdZOvob\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjkzNGI1M2Y0NGUzY2Q1YTM1YTlmZTQ2MDExNGQwMTAiLCAic2NvcmUiOiAxLjAwNjc2OTM4NTM5MTU4OTZ9"
+   "sequence": "eyJfaWQiOiAiMDIwY2NjMWYzOGQ1ODk4ZjQzOWNmNDA1OGQzZjkzZDUiLCAic2NvcmUiOiAxLjAzMzkxODc0MjI4MzU2NDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,105 +152,78 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.docusign.com/jobs/30264?lang=en-us",
-  "companyDomain": "docusign.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
-  "companyId": "DocuSign",
-  "companySlug": "docusign",
-  "companyName": "DocuSign",
-  "companyStaffCount": 8412,
+  "applyUrl": "https://job-boards.greenhouse.io/attentive/jobs/4394693009",
+  "companyDomain": "attentive.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/88a5117e28aafa73bc3d54348423db73_246_160?Expires=1861920000&Signature=X6wvf6WxxkIVi~v0cqwJwGhqmbHL5ZbfYy5le5JCogdefHOIkZXy3",
+  "companyId": "Attentive",
+  "companySlug": "attentive",
+  "companyName": "Attentive Mobile",
+  "companyStaffCount": 1598,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Marketing"
+  ],
   "jobTypes": [
    {
-    "id": "executive-assistant",
-    "label": "Executive Assistant",
-    "value": "executive-assistant"
+    "id": "marketing-communications",
+    "label": "Marketing Communications",
+    "value": "marketing-communications"
+   },
+   {
+    "id": "editor",
+    "label": "Editor",
+    "value": "editor"
+   },
+   {
+    "id": "marketing-demand-generation",
+    "label": "Marketing Demand Generation",
+    "value": "marketing-demand-generation"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Administrative",
-    "label": "Administrative",
-    "value": "Administrative"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   },
+   {
+    "id": "Writing / Editing",
+    "label": "Writing / Editing",
+    "value": "Writing / Editing"
    }
   ],
   "locations": [
-   "San Francisco, California"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 47.1, 'maxValue': 68.53, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 155000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:CLM",
-    "label": "CLM",
-    "value": "resume:CLM"
+    "id": "resume:Podcasting",
+    "label": "Podcasting",
+    "value": "resume:Podcasting"
    },
    {
-    "id": "resume:Trust Building",
-    "label": "Trust Building",
-    "value": "resume:Trust Building"
-   },
-   {
-    "id": "resume:Multitasking skills",
-    "label": "Multitasking skills",
-    "value": "resume:Multitasking skills"
-   },
-   {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
-   },
-   {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:CLM",
-    "label": "CLM",
-    "value": "resume:CLM"
-   },
-   {
-    "id": "resume:Trust Building",
-    "label": "Trust Building",
-    "value": "resume:Trust Building"
-   },
-   {
-    "id": "resume:Multitasking skills",
-    "label": "Multitasking skills",
-    "value": "resume:Multitasking skills"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
-   },
-   {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Employer Branding",
+    "label": "Employer Branding",
+    "value": "resume:Employer Branding"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -258,14 +231,58 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:APAC",
+    "label": "APAC",
+    "value": "resume:APAC"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Marketing Technology",
+    "label": "Marketing Technology",
+    "value": "resume:Marketing Technology"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Podcasting",
+    "label": "Podcasting",
+    "value": "resume:Podcasting"
+   },
+   {
+    "id": "resume:Employer Branding",
+    "label": "Employer Branding",
+    "value": "resume:Employer Branding"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:APAC",
+    "label": "APAC",
+    "value": "resume:APAC"
+   },
+   {
+    "id": "resume:Marketing Technology",
+    "label": "Marketing Technology",
+    "value": "resume:Marketing Technology"
+   },
+   {
+    "id": "resume:Reporting & Analysis",
+    "label": "Reporting & Analysis",
+    "value": "resume:Reporting & Analysis"
+   },
+   {
+    "id": "resume:Strategic Communications",
+    "label": "Strategic Communications",
+    "value": "resume:Strategic Communications"
+   },
+   {
+    "id": "resume:E-commerce",
+    "label": "E-commerce",
+    "value": "resume:E-commerce"
    }
   ],
   "manager": false,
@@ -273,29 +290,20 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
+  "minYearsExp": 10,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -303,40 +311,32 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
-   }
-  ],
-  "timeStamp": "2026-09-08T13:27:58Z",
-  "title": "Executive Assistant",
-  "url": "https://careers.docusign.com/jobs/30264?lang=en-us",
-  "jobId": "30264",
-  "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1904147292659, 'matchScore': 0, 'ageScore': 0.9904147292658179, 'richnessScore': 2}",
-  "atsJobs": [],
-  "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
    },
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "jobSeniorityIds": [
-   "senior",
-   "mid"
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Marketing and Advertising",
+    "label": "Marketing and Advertising",
+    "value": "Marketing and Advertising"
+   }
   ],
+  "timeStamp": "2026-09-08T16:01:40Z",
+  "title": "Senior Manager, Editorial and Strategic Communications",
+  "url": "https://job-boards.greenhouse.io/attentive/jobs/4394693009",
+  "jobId": "4394693009",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1893091964217, 'matchScore': 0, 'ageScore': 0.9893091964216821, 'richnessScore': 2}",
+  "atsJobs": [],
+  "matchingTalent": "{'count': 0, 'matches': []}",
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {

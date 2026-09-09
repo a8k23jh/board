@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-09T00:21:57Z",
+ "run": "2026-09-09T04:56:53Z",
  "homepage": {
   "status": 200,
   "bytes": 21200
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"bf622aaa0bc8c85109e4ac5e412d0067cd277dc5\",\"date\":\"2026-09-08T18:15:51.954Z\"},\"server\":{\"git\":\"bf622aaa0bc8c85109e4ac5e412d0067cd277dc5\",\"date\":\"2026-09-08T18:15:51.954Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"7824e1b9a9cba8eebd2ffddab692c2eb8d3f2023\",\"date\":\"2026-09-09T00:50:24.308Z\"},\"server\":{\"git\":\"7824e1b9a9cba8eebd2ffddab692c2eb8d3f2023\",\"date\":\"2026-09-09T00:50:24.308Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "LeWbIddx-B\u2026",
+  "session.sig": "Fa4VKxYicc\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2NlNzRlNDI1YmZjOWU0NTIwNzM1MWU5ZDMxMTZjNjgiLCAic2NvcmUiOiAxLjA3NTI2MzgzMzQ2NTI3Nzh9"
+   "sequence": "eyJfaWQiOiAiM2NlOTJlNTYxNDJlN2RjNDhjZWY4ZTFkOWVjOTRlNDgiLCAic2NvcmUiOiAxLjE2NzQxMjYwMTEyNzMxNX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,36 +144,38 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/cyera/17.008/commercial-sales-engineer---north-central/E5.278",
-  "companyDomain": "cyera.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec6d92aec09bf6716dbbd9d50089a4ec_208_160?Expires=1861920000&Signature=hr9QoUI4iKYF8Hn~HoiixG3elVHvWPoII2QRBQjO8zeSQJpeGQNuP",
-  "companyId": "Cyera",
-  "companySlug": "cyera",
-  "companyName": "Cyera",
-  "companyStaffCount": 1645,
+  "applyUrl": "https://jobs.lever.co/aledade/e0468c12-c6b3-4331-bbe7-16cf32722e86?lever-source%5B%5D=jobs.lsvp.com",
+  "companyDomain": "aledade.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/bd2138c964bd6433d2b5ea9e1f86b4fe_208_160?Expires=1861920000&Signature=JIApJVTZcWDUh2ZJdjxx7LblqnyA0ExTC7wBbmfP7rRc5pkveyKXy",
+  "companyId": "Aledade",
+  "companySlug": "aledade",
+  "companyName": "Aledade",
+  "companyStaffCount": 1790,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Technology"
+  ],
   "jobTypes": [
    {
-    "id": "sales-engineer",
-    "label": "Sales Engineer",
-    "value": "sales-engineer"
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
    },
    {
-    "id": "solutions-architect",
-    "label": "Solutions Architect",
-    "value": "solutions-architect"
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
    }
   ],
   "jobFunctions": [
@@ -184,31 +186,21 @@
    }
   ],
   "locations": [
-   "North Central (US)"
+   "Remote, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 182000, 'maxValue': 195000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Technical Sales",
-    "label": "Technical Sales",
-    "value": "resume:Technical Sales"
-   },
-   {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
-   },
-   {
-    "id": "resume:Information Security",
-    "label": "Information Security",
-    "value": "resume:Information Security"
+    "id": "resume:Powershell",
+    "label": "Powershell",
+    "value": "resume:Powershell"
    },
    {
     "id": "resume:Microsoft Azure",
@@ -216,65 +208,76 @@
     "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Access Management",
+    "label": "Access Management",
+    "value": "resume:Access Management"
+   },
+   {
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
+   },
+   {
+    "id": "resume:Regulatory Compliance",
+    "label": "Regulatory Compliance",
+    "value": "resume:Regulatory Compliance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Technical Sales",
-    "label": "Technical Sales",
-    "value": "resume:Technical Sales"
+    "id": "resume:Powershell",
+    "label": "Powershell",
+    "value": "resume:Powershell"
    },
-   {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
-   },
-   {
-    "id": "resume:Information Security",
-    "label": "Information Security",
-    "value": "resume:Information Security"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Microsoft Azure",
     "label": "Microsoft Azure",
     "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Access Management",
+    "label": "Access Management",
+    "value": "resume:Access Management"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Regulatory Compliance",
+    "label": "Regulatory Compliance",
+    "value": "resume:Regulatory Compliance"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    },
    {
-    "id": "resume:SFDC",
-    "label": "SFDC",
-    "value": "resume:SFDC"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 4,
   "regions": [
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -286,39 +289,33 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-09-08T13:37:02Z",
-  "title": "Commercial Sales Engineer - North Central",
-  "url": "https://www.comeet.com/jobs/cyera/17.008/commercial-sales-engineer---north-central/E5.278",
-  "jobId": "E5.278",
-  "remote": false,
+  "timeStamp": "2026-09-08T18:59:24.880000Z",
+  "title": "Sr. Security Engineer I (Identity Access Management)",
+  "url": "https://jobs.lever.co/aledade/e0468c12-c6b3-4331-bbe7-16cf32722e86",
+  "jobId": "e0468c12-c6b3-4331-bbe7-16cf32722e86",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1908420802253, 'matchScore': 0, 'ageScore': 0.9908420802253086, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1943024844205, 'matchScore': 0, 'ageScore': 0.9943024844205247, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
