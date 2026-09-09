@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-09T18:43:10Z",
+ "run": "2026-09-09T21:46:08Z",
  "homepage": {
   "status": 200,
   "bytes": 25229
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7824e1b9a9cba8eebd2ffddab692c2eb8d3f2023\",\"date\":\"2026-09-09T00:50:24.308Z\"},\"server\":{\"git\":\"7824e1b9a9cba8eebd2ffddab692c2eb8d3f2023\",\"date\":\"2026-09-09T00:50:24.308Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"424032741a8b5c9bf7d8e289f3b39196cc6c6977\",\"date\":\"2026-09-09T19:47:54.130Z\"},\"server\":{\"git\":\"424032741a8b5c9bf7d8e289f3b39196cc6c6977\",\"date\":\"2026-09-09T19:47:54.130Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "QN17ZR4WMQ\u2026",
+  "session.sig": "aN2lZN8E9h\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODlkNDdiZmEzNWRmYzhiM2ZmNmRlN2I3MzdmNzAzNWUiLCAic2NvcmUiOiAxLjA0MTk1NTEzODA4Mjk0NzV9"
+   "sequence": "eyJfaWQiOiAiYTFmN2M0OTJlMTYxNGM5NWQwODkwODM2Y2UyMGE1MzciLCAic2NvcmUiOiAxLjAzODA2MTQxMzc1ODQ4NzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -170,14 +170,14 @@
   ],
   "jobFunctions": [
    {
-    "id": "Accounting",
-    "label": "Accounting",
-    "value": "Accounting"
-   },
-   {
     "id": "Finance",
     "label": "Finance",
     "value": "Finance"
+   },
+   {
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
    }
   ],
   "locations": [
@@ -193,58 +193,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Financial Systems",
-    "label": "Financial Systems",
-    "value": "resume:Financial Systems"
-   },
-   {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
-   },
-   {
-    "id": "resume:Revenue Model",
-    "label": "Revenue Model",
-    "value": "resume:Revenue Model"
-   },
-   {
     "id": "resume:Service",
     "label": "Service",
     "value": "resume:Service"
    },
    {
-    "id": "resume:Revenue Recognition",
-    "label": "Revenue Recognition",
-    "value": "resume:Revenue Recognition"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Financial Systems",
-    "label": "Financial Systems",
-    "value": "resume:Financial Systems"
-   },
-   {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
-   },
-   {
-    "id": "resume:Revenue Model",
-    "label": "Revenue Model",
-    "value": "resume:Revenue Model"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   },
-   {
-    "id": "resume:Revenue Recognition",
-    "label": "Revenue Recognition",
-    "value": "resume:Revenue Recognition"
+    "id": "resume:Growth Marketing",
+    "label": "Growth Marketing",
+    "value": "resume:Growth Marketing"
    },
    {
     "id": "resume:Anaplan",
@@ -252,14 +208,58 @@
     "value": "resume:Anaplan"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Business Intelligence",
+    "label": "Business Intelligence",
+    "value": "resume:Business Intelligence"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Revenue Model",
+    "label": "Revenue Model",
+    "value": "resume:Revenue Model"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
+   },
+   {
+    "id": "resume:Growth Marketing",
+    "label": "Growth Marketing",
+    "value": "resume:Growth Marketing"
+   },
+   {
+    "id": "resume:Anaplan",
+    "label": "Anaplan",
+    "value": "resume:Anaplan"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Business Intelligence",
+    "label": "Business Intelligence",
+    "value": "resume:Business Intelligence"
+   },
+   {
+    "id": "resume:Revenue Model",
+    "label": "Revenue Model",
+    "value": "resume:Revenue Model"
+   },
+   {
+    "id": "resume:Sales Forecasting",
+    "label": "Sales Forecasting",
+    "value": "resume:Sales Forecasting"
+   },
+   {
+    "id": "resume:Performance Analysis",
+    "label": "Performance Analysis",
+    "value": "resume:Performance Analysis"
+   },
+   {
+    "id": "resume:CFA",
+    "label": "CFA",
+    "value": "resume:CFA"
    }
   ],
   "manager": false,
@@ -304,7 +304,7 @@
   "jobId": "j_5xvy2R",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1919865740443, 'matchScore': 0, 'ageScore': 0.9919865740443673, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1877225976435, 'matchScore': 0, 'ageScore': 0.9877225976435186, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

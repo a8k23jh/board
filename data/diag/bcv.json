@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-09T18:43:10Z",
+ "run": "2026-09-09T21:46:08Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7824e1b9a9cba8eebd2ffddab692c2eb8d3f2023\",\"date\":\"2026-09-09T00:50:24.308Z\"},\"server\":{\"git\":\"7824e1b9a9cba8eebd2ffddab692c2eb8d3f2023\",\"date\":\"2026-09-09T00:50:24.308Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"424032741a8b5c9bf7d8e289f3b39196cc6c6977\",\"date\":\"2026-09-09T19:47:54.130Z\"},\"server\":{\"git\":\"424032741a8b5c9bf7d8e289f3b39196cc6c6977\",\"date\":\"2026-09-09T19:47:54.130Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "o0-2boue2W\u2026",
+  "session.sig": "YVplKxjgF9\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTZjNDlhOWE4MDYyYTI4NDE5NzNmNDU5MDEzNTE3ZmEiLCAic2NvcmUiOiAxLjA0MjI0NDYyNDQ0NDgzMDJ9"
+   "sequence": "eyJfaWQiOiAiZTZjNDlhOWE4MDYyYTI4NDE5NzNmNDU5MDEzNTE3ZmEiLCAic2NvcmUiOiAxLjAzNzc0ODYzNTkwNTA5Mjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -198,11 +198,6 @@
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
     "id": "Chicago, Illinois",
     "label": "Chicago, Illinois",
     "value": "Chicago, Illinois"
@@ -211,14 +206,19 @@
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 186100, 'maxValue': 300550, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sales & Marketing",
-    "label": "Sales & Marketing",
-    "value": "resume:Sales & Marketing"
+    "id": "resume:Business Strategy",
+    "label": "Business Strategy",
+    "value": "resume:Business Strategy"
    },
    {
     "id": "resume:DocuSign",
@@ -226,26 +226,26 @@
     "value": "resume:DocuSign"
    },
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Inform",
+    "label": "Inform",
+    "value": "resume:Inform"
    },
    {
-    "id": "resume:Experimentation",
-    "label": "Experimentation",
-    "value": "resume:Experimentation"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sales & Marketing",
-    "label": "Sales & Marketing",
-    "value": "resume:Sales & Marketing"
+    "id": "resume:Business Strategy",
+    "label": "Business Strategy",
+    "value": "resume:Business Strategy"
    },
    {
     "id": "resume:DocuSign",
@@ -253,26 +253,16 @@
     "value": "resume:DocuSign"
    },
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   },
-   {
-    "id": "resume:Experimentation",
-    "label": "Experimentation",
-    "value": "resume:Experimentation"
-   },
-   {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
+    "id": "resume:Inform",
+    "label": "Inform",
+    "value": "resume:Inform"
    },
    {
     "id": "resume:Trust Building",
@@ -280,9 +270,19 @@
     "value": "resume:Trust Building"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   },
+   {
+    "id": "resume:Customer Acquisition",
+    "label": "Customer Acquisition",
+    "value": "resume:Customer Acquisition"
    }
   ],
   "manager": false,
@@ -300,9 +300,9 @@
   ],
   "regions": [
    {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
    },
    {
     "id": "North America",
@@ -310,19 +310,19 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "Central US",
     "label": "Central US",
     "value": "Central US"
    },
    {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -345,7 +345,7 @@
   "jobId": "30295",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1956174721605, 'matchScore': 0, 'ageScore': 0.9956174721604938, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1908531682569, 'matchScore': 0, 'ageScore': 0.9908531682569445, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
