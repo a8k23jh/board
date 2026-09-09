@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-09T09:54:26Z",
+ "run": "2026-09-09T14:40:16Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "yQW0_CMixn\u2026",
+  "session.sig": "05qeGCAE-J\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjI4ODI4M2Q2YzEwODg1MTMxMzRjZjg5NDQ1ZGI4Y2UiLCAic2NvcmUiOiAxLjAyODM2NTI0NzgwMzYyNjV9"
+   "sequence": "eyJfaWQiOiAiMjI4ODI4M2Q2YzEwODg1MTMxMzRjZjg5NDQ1ZGI4Y2UiLCAic2NvcmUiOiAxLjAyMzc3NDk4ODA5NTI5M30="
   },
   "job_keys": [
    "applicationWindow",
@@ -190,9 +190,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 187000, 'maxValue': 328888, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:DLP",
-    "label": "DLP",
-    "value": "resume:DLP"
+    "id": "resume:Kusto Query Language",
+    "label": "Kusto Query Language (KQL)",
+    "value": "resume:Kusto Query Language"
+   },
+   {
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    },
    {
     "id": "resume:YARA",
@@ -200,63 +205,58 @@
     "value": "resume:YARA"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
-   },
-   {
-    "id": "resume:Information Security",
-    "label": "Information Security",
-    "value": "resume:Information Security"
+    "id": "resume:Data Lake",
+    "label": "Data Lake",
+    "value": "resume:Data Lake"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:DLP",
-    "label": "DLP",
-    "value": "resume:DLP"
+    "id": "resume:Kusto Query Language",
+    "label": "Kusto Query Language (KQL)",
+    "value": "resume:Kusto Query Language"
+   },
+   {
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    },
    {
     "id": "resume:YARA",
     "label": "YARA",
     "value": "resume:YARA"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
+   },
+   {
+    "id": "resume:Data Lake",
+    "label": "Data Lake",
+    "value": "resume:Data Lake"
+   },
+   {
+    "id": "resume:APAC",
+    "label": "APAC",
+    "value": "resume:APAC"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
    },
    {
-    "id": "resume:Information Security",
-    "label": "Information Security",
-    "value": "resume:Information Security"
-   },
-   {
-    "id": "resume:Incident Response",
-    "label": "Incident Response",
-    "value": "resume:Incident Response"
-   },
-   {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
-   {
-    "id": "resume:Incident Management",
-    "label": "Incident Management",
-    "value": "resume:Incident Management"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    }
   ],
   "manager": false,
@@ -280,11 +280,6 @@
     "value": "Northeast"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -293,6 +288,11 @@
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -336,7 +336,7 @@
   "jobId": "e30a83fd-f911-4564-bbfa-68c98c68d08f",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1885358560726, 'matchScore': 0, 'ageScore': 0.9885358560725309, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1835166588935, 'matchScore': 0, 'ageScore': 0.9835166588935185, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
