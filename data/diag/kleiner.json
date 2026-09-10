@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-09-10T14:31:04Z",
+ "run": "2026-09-10T18:33:48Z",
  "homepage": {
   "status": 200,
   "bytes": 19374
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"b3a41b95168af8f5cdfac701ef3f50eb8430c47e\",\"date\":\"2026-09-09T23:32:51.108Z\"},\"server\":{\"git\":\"b3a41b95168af8f5cdfac701ef3f50eb8430c47e\",\"date\":\"2026-09-09T23:32:51.108Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"62b9729d84d2fd661ed37d6f64263e6663a32233\",\"date\":\"2026-09-10T16:47:57.869Z\"},\"server\":{\"git\":\"62b9729d84d2fd661ed37d6f64263e6663a32233\",\"date\":\"2026-09-10T16:47:57.869Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "H9d1oKVmC_\u2026",
+  "session.sig": "ol-lz0Ps8p\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjkxZDYzNmVlMmU2NzgxNGU3MGI0ZjU2YmUyNmJkYzIiLCAic2NvcmUiOiAxLjAwMDYxMzkyNTUwOTI1OTJ9"
+   "sequence": "eyJfaWQiOiAiOTg4Y2E3MTBlOGJhMjk1ODI4Y2NjZDYzYjI2ODZmYzMiLCAic2NvcmUiOiAwLjk5Njg4Mzc2MjQ2MTAzNH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,126 +155,138 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/handshake/e15e3244-06f9-4c41-96c6-8860ad7594c5?utm_source=jobs.kleinerperkins.com",
-  "companyDomain": "joinhandshake.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6cb0383a5650ae1201e02f59d8e94e34_224_160?Expires=1861920000&Signature=qJtqtGOk4~SnIcwQkyyZfiW6aUt~wcAw43nVQC-xr8~RxckpWBUE0",
-  "companyId": "Handshake",
-  "companySlug": "handshake",
-  "companyName": "Handshake",
-  "companyStaffCount": 11927,
+  "applyUrl": "https://jobs.ashbyhq.com/harvey/c3709b39-8517-4301-be38-cca1105146e7?utm_source=jobs.kleinerperkins.com",
+  "companyDomain": "harvey.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2be5d63be7354b540c94eee9efbb0fa_176_160?Expires=1861920000&Signature=gGuMg4b-uxV1b~F2mr~UsVNlbNUHUojHReeO1yQOzw09rnj8QM6i~",
+  "companyId": "Harvey",
+  "companySlug": "harvey",
+  "companyName": "Harvey",
+  "companyStaffCount": 1647,
   "considerHosted": false,
   "departments": [
-   "Delivery Operations"
+   "Recruiting"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "manager-recruiter",
+    "label": "Recruiting Manager",
+    "value": "manager-recruiter"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
+   }
+  ],
   "locations": [
-   "Seattle, Washington, United States",
-   "Seattle, WA"
+   "New York, New York, USA",
+   "New York"
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 32, 'maxValue': 95, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 196200, 'maxValue': 294200, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    },
    {
-    "id": "resume:Language Models",
-    "label": "Language Models",
-    "value": "resume:Language Models"
-   },
-   {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
-   },
-   {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
-   },
-   {
-    "id": "resume:Language Models",
-    "label": "Language Models",
-    "value": "resume:Language Models"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    },
    {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Stress Testing",
-    "label": "Stress Testing",
-    "value": "resume:Stress Testing"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Ontologies",
-    "label": "Ontologies",
-    "value": "resume:Ontologies"
-   },
-   {
-    "id": "resume:Red Teaming",
-    "label": "Red Teaming",
-    "value": "resume:Red Teaming"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [],
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -292,27 +304,45 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    },
    {
-    "id": "Workforce and Employment",
-    "label": "Workforce and Employment",
-    "value": "Workforce and Employment"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "Legal Services",
+    "label": "Legal Services",
+    "value": "Legal Services"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
   "timeStamp": "2026-09-10T00:00:00Z",
-  "title": "AI Red Teamer (LLM Generalist)",
-  "url": "https://jobs.ashbyhq.com/handshake/e15e3244-06f9-4c41-96c6-8860ad7594c5",
-  "jobId": "e15e3244-06f9-4c41-96c6-8860ad7594c5",
+  "title": "Head of Global Recruiting Operations",
+  "url": "https://jobs.ashbyhq.com/harvey/c3709b39-8517-4301-be38-cca1105146e7",
+  "jobId": "c3709b39-8517-4301-be38-cca1105146e7",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1842726438491, 'matchScore': 0, 'ageScore': 0.9842726438491513, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1803846061921, 'matchScore': 0, 'ageScore': 0.9803846061921296, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
+   }
+  ],
+  "jobSeniorityIds": [
+   "director"
+  ],
   "isFeatured": false
  },
  "search_mode": {
