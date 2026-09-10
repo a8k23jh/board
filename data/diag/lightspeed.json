@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-10T00:19:30Z",
+ "run": "2026-09-10T04:56:07Z",
  "homepage": {
   "status": 200,
   "bytes": 21200
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"424032741a8b5c9bf7d8e289f3b39196cc6c6977\",\"date\":\"2026-09-09T19:47:54.130Z\"},\"server\":{\"git\":\"424032741a8b5c9bf7d8e289f3b39196cc6c6977\",\"date\":\"2026-09-09T19:47:54.130Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"b3a41b95168af8f5cdfac701ef3f50eb8430c47e\",\"date\":\"2026-09-09T23:32:51.108Z\"},\"server\":{\"git\":\"b3a41b95168af8f5cdfac701ef3f50eb8430c47e\",\"date\":\"2026-09-09T23:32:51.108Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "-dhyRQpGYT\u2026",
+  "session.sig": "gvcp6WVB0-\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjNlYjk5NTk1YmU3NmQxMGEzYmNiZjBkNmJiZDdjMmIiLCAic2NvcmUiOiAxLjE1OTA3MjUwMTk1Njc5MDJ9"
+   "sequence": "eyJfaWQiOiAiNzZmNjViM2RkZWVkMDUyOWNjMTIyMWU5OTdmYzJiMTgiLCAic2NvcmUiOiAxLjE2NTgzNTQyNTc4NzAzNzF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,147 +155,163 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/ezcaterinc/jobs/5233384007",
-  "companyDomain": "ezcater.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1303eabb6586efecacfb27b79f27b775_224_160?Expires=1861920000&Signature=rLIBsUspBySXYIgMpId1R5tX96JyiojRPG9KV1LLu3ZWKdFeMQfRL",
-  "companyId": "ezCater",
-  "companySlug": "ezcater",
-  "companyName": "ezCater",
-  "companyStaffCount": 932,
+  "applyUrl": "https://job-boards.greenhouse.io/weee/jobs/7990691003",
+  "companyDomain": "sayweee.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/21dafb1db8fbcec3ee4614359f65628d_242_160?Expires=1861920000&Signature=iPjqISoVrYNVjBIulUs-rwj4a5kKTb3dcJRFZ3XngdihlCNqa~3Gs",
+  "companyId": "Weee",
+  "companySlug": "weee",
+  "companyName": "Weee!",
+  "companyStaffCount": 940,
   "considerHosted": false,
   "departments": [
-   "Sales Operations"
+   "Warehouse Management"
   ],
   "jobTypes": [
    {
-    "id": "sales-operations",
-    "label": "Sales Operations",
-    "value": "sales-operations"
+    "id": "supervisor",
+    "label": "Supervisor",
+    "value": "supervisor"
    },
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "supply-logistics",
+    "label": "Supply/Logistics",
+    "value": "supply-logistics"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Supply Chain",
+    "label": "Supply Chain",
+    "value": "Supply Chain"
    }
   ],
   "locations": [
-   "Boston, MA"
+   "Chicago, Illinois, United States",
+   "Hodgkins, Illinois, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Greater Boston Area",
-    "label": "Boston",
-    "value": "Greater Boston Area"
+    "id": "Illinois",
+    "label": "Illinois",
+    "value": "Illinois"
+   },
+   {
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 123000, 'maxValue': 173000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 24, 'maxValue': 28, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    },
    {
-    "id": "resume:Sales Performance",
-    "label": "Sales Performance",
-    "value": "resume:Sales Performance"
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
    },
    {
-    "id": "resume:Revenue Operations",
-    "label": "Revenue Operations",
-    "value": "resume:Revenue Operations"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    },
    {
-    "id": "resume:Sales Strategy",
-    "label": "Sales Strategy",
-    "value": "resume:Sales Strategy"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Performance Metrics",
+    "label": "Performance Metrics",
+    "value": "resume:Performance Metrics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    },
    {
-    "id": "resume:Sales Performance",
-    "label": "Sales Performance",
-    "value": "resume:Sales Performance"
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
    },
    {
-    "id": "resume:Revenue Operations",
-    "label": "Revenue Operations",
-    "value": "resume:Revenue Operations"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Sales Strategy",
-    "label": "Sales Strategy",
-    "value": "resume:Sales Strategy"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Performance Metrics",
+    "label": "Performance Metrics",
+    "value": "resume:Performance Metrics"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Multitasking skills",
+    "label": "Multitasking skills",
+    "value": "resume:Multitasking skills"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Material Handling Equipment",
+    "label": "Material Handling Equipment",
+    "value": "resume:Material Handling Equipment"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Food and Beverage",
+    "label": "Food and Beverage",
+    "value": "resume:Food and Beverage"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    }
   ],
   "stages": [
@@ -313,28 +329,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Delivery Services",
-    "label": "Delivery Services",
-    "value": "Delivery Services"
-   },
-   {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
-   },
-   {
     "id": "Food & Beverages",
     "label": "Food & Beverages",
     "value": "Food & Beverages"
    }
   ],
-  "timeStamp": "2026-09-09T10:53:25Z",
-  "title": "Strategic Sales Operations Lead (Remote)",
-  "url": "https://job-boards.greenhouse.io/ezcaterinc/jobs/5233384007",
-  "jobId": "5233384007",
-  "remote": true,
+  "timeStamp": "2026-09-09T18:47:24Z",
+  "title": "Warehouse Supervisor I - Ambient/Cooler or Freezer",
+  "url": "https://job-boards.greenhouse.io/weee/jobs/7990691003",
+  "jobId": "7990691003",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1863133622056, 'matchScore': 0, 'ageScore': 0.9863133622056327, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1940348619298, 'matchScore': 0, 'ageScore': 0.994034861929784, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -344,14 +350,14 @@
     "value": "mid"
    },
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
    "mid",
-   "senior"
+   "junior"
   ],
   "isFeatured": false
  },

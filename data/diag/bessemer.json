@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-10T00:19:30Z",
+ "run": "2026-09-10T04:56:07Z",
  "homepage": {
   "status": 200,
   "bytes": 21729
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"424032741a8b5c9bf7d8e289f3b39196cc6c6977\",\"date\":\"2026-09-09T19:47:54.130Z\"},\"server\":{\"git\":\"424032741a8b5c9bf7d8e289f3b39196cc6c6977\",\"date\":\"2026-09-09T19:47:54.130Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"b3a41b95168af8f5cdfac701ef3f50eb8430c47e\",\"date\":\"2026-09-09T23:32:51.108Z\"},\"server\":{\"git\":\"b3a41b95168af8f5cdfac701ef3f50eb8430c47e\",\"date\":\"2026-09-09T23:32:51.108Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "w0E08j7Cq_\u2026",
+  "session.sig": "JcIrwU9VZX\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNmVkZWRhOGY0ODk3YzY2ZjM4MTFmMDBhZTg4YjA0ZWUiLCAic2NvcmUiOiAxLjA3MDk2NjE1NDk1NDg2MTJ9"
+   "sequence": "eyJfaWQiOiAiMDc2YTM1OTZhMWY4YjVlYzk3MDFmYzUxMjFmYTFjNDYiLCAic2NvcmUiOiAxLjA4ODcwNTU4NTczODgxMTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,44 +152,59 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/forter/jobs/8786267002",
-  "companyDomain": "forter.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/31d908439bd7116ddb7c82a8cccac561_208_160?Expires=1861920000&Signature=NDlvgzI9oB06kcjOvxF2mRU5m56R2hO2rl~pemwO7YWQhh3IojNcm",
-  "companyId": "Forter",
-  "companySlug": "forter",
-  "companyName": "Forter",
-  "companyStaffCount": 715,
+  "applyUrl": "https://hibob-e013d08dd01044.careers.hibob.com/jobs/01ee7923-96a9-4daa-9d07-56bc8765ed77",
+  "companyDomain": "hibob.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/087fd6af0a27130e4c6507e4e5f205fc_144_160?Expires=1861920000&Signature=eyGd2NYmusswGSq2mjtXrdgmXjr29x6F0Gu4tMJ~SqLHQFpEY-jfN",
+  "companyId": "Hibob",
+  "companySlug": "hibob",
+  "companyName": "Hibob",
+  "companyStaffCount": 2118,
   "considerHosted": false,
   "departments": [
-   "Legal"
+   "GTM"
   ],
   "jobTypes": [
    {
-    "id": "legal-counsel",
-    "label": "Legal Counsel",
-    "value": "legal-counsel"
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
+   },
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "sales-mid-maket",
+    "label": "Sales Mid Market",
+    "value": "sales-mid-maket"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Legal",
-    "label": "Legal",
-    "value": "Legal"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "United States - New York"
+   "US United States"
   ],
   "normalizedLocations": [
    {
@@ -198,76 +213,76 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 240000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 76000, 'maxValue': 90000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Securities",
-    "label": "Securities",
-    "value": "resume:Securities"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Litigation",
-    "label": "Litigation",
-    "value": "resume:Litigation"
+    "id": "resume:HRIS",
+    "label": "HR Systems",
+    "value": "resume:HRIS"
+   },
+   {
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
    },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
-   },
-   {
-    "id": "resume:State Bar",
-    "label": "State Bar",
-    "value": "resume:State Bar"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Securities",
-    "label": "Securities",
-    "value": "resume:Securities"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Litigation",
-    "label": "Litigation",
-    "value": "resume:Litigation"
+    "id": "resume:HRIS",
+    "label": "HR Systems",
+    "value": "resume:HRIS"
    }
   ],
   "preferredSkills": [
+   {
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
+   },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
    },
    {
-    "id": "resume:State Bar",
-    "label": "State Bar",
-    "value": "resume:State Bar"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    },
    {
-    "id": "resume:Intellectual Property",
-    "label": "Intellectual Property",
-    "value": "resume:Intellectual Property"
+    "id": "resume:AES",
+    "label": "AES",
+    "value": "resume:AES"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    }
   ],
   "manager": false,
@@ -275,15 +290,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 1,
   "regions": [
    {
     "id": "North America",
@@ -293,47 +308,41 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
+    "id": "Future of Work",
+    "label": "Future of Work",
+    "value": "Future of Work"
    },
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-09-09T10:05:18Z",
-  "title": "Senior Legal Counsel, Corporate & Securities",
-  "url": "https://job-boards.greenhouse.io/forter/jobs/8786267002",
-  "jobId": "8786267002",
+  "timeStamp": "2026-09-09T20:44:03.525000Z",
+  "title": "SMB Account Executive - NYC (Hybrid)",
+  "url": "https://hibob-e013d08dd01044.careers.hibob.com/jobs/01ee7923-96a9-4daa-9d07-56bc8765ed77",
+  "jobId": "01ee7923-96a9-4daa-9d07-56bc8765ed77",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1854293115208, 'matchScore': 0, 'ageScore': 0.9854293115208334, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1960724766022, 'matchScore': 0, 'ageScore': 0.9960724766022376, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
