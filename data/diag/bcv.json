@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-10T18:33:48Z",
+ "run": "2026-09-10T21:42:07Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"62b9729d84d2fd661ed37d6f64263e6663a32233\",\"date\":\"2026-09-10T16:47:57.869Z\"},\"server\":{\"git\":\"62b9729d84d2fd661ed37d6f64263e6663a32233\",\"date\":\"2026-09-10T16:47:57.869Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"},\"server\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "qRAVZMU-By\u2026",
+  "session.sig": "iiFazTz_Uj\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjRlY2YzMDUxMTE5MTc4MGY5MWViYzVlZDYyMDMwNGYiLCAic2NvcmUiOiAxLjA3OTUyMjY2NzkzMjQ4NDV9"
+   "sequence": "eyJfaWQiOiAiY2YzYTRjMmFlMTBiZmQ3M2VlMjE4ZGVmZjVkYzM3ODciLCAic2NvcmUiOiAxLjA4MDExNTgyNjU1NjMyN30="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,159 +152,130 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Cape/7d19a584-40c0-47ea-9729-53a82d70a625?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "cape.co",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/0faf8dde05320d96ed7e5c98482f445f_160_160?Expires=1861920000&Signature=SZKUJJFlhp9qAfBb37~UZ92w1JKOhgm3nzE6xFCGUc7Sk2zb5tulr",
-  "companyId": "Cape",
-  "companySlug": "cape",
-  "companyName": "Cape",
-  "companyStaffCount": 172,
+  "applyUrl": "https://boards.greenhouse.io/justworks/jobs/8020702?gh_jid=8020702",
+  "companyDomain": "justworks.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/53b0732e2508296561b7994e981e9873_256_160?Expires=1861920000&Signature=jpUYCUzpRAbunynZAa39zYnehCkOtBPQxtKwFu~wstUHTfmFkK59E",
+  "companyId": "Justworks",
+  "companySlug": "justworks",
+  "companyName": "Justworks",
+  "companyStaffCount": 1633,
   "considerHosted": false,
   "departments": [
-   "Platform Services"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "systems-engineer",
-    "label": "Systems Engineer",
-    "value": "systems-engineer"
-   },
-   {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "New York, New York, United States",
-   "New York, NY"
+   "New York, New York"
   ],
   "normalizedLocations": [
-   {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
-   },
    {
     "id": "New York, New York",
     "label": "New York, New York",
     "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 325000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 131000, 'maxValue': 169000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
    },
    {
-    "id": "resume:Apache Kafka",
-    "label": "Apache Kafka",
-    "value": "resume:Apache Kafka"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
    },
    {
-    "id": "resume:Apache Flink",
-    "label": "Apache Flink",
-    "value": "resume:Apache Flink"
+    "id": "resume:Github",
+    "label": "Github",
+    "value": "resume:Github"
    },
    {
-    "id": "resume:National Security",
-    "label": "National Security",
-    "value": "resume:National Security"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
    },
    {
-    "id": "resume:Apache Kafka",
-    "label": "Apache Kafka",
-    "value": "resume:Apache Kafka"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Apache Flink",
-    "label": "Apache Flink",
-    "value": "resume:Apache Flink"
+    "id": "resume:Github",
+    "label": "Github",
+    "value": "resume:Github"
    },
    {
-    "id": "resume:National Security",
-    "label": "National Security",
-    "value": "resume:National Security"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    },
    {
-    "id": "resume:Node",
-    "label": "Node",
-    "value": "resume:Node"
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
    },
    {
-    "id": "resume:Mobile",
-    "label": "Mobile",
-    "value": "resume:Mobile"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    },
    {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
+  "minYearsExp": 4,
+  "maxYearsExp": 7,
   "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
    {
     "id": "Northeast",
     "label": "Northeast",
@@ -314,67 +285,55 @@
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Future of Work",
+    "label": "Future of Work",
+    "value": "Future of Work"
    },
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "National Security",
-    "label": "National Security",
-    "value": "National Security"
-   },
-   {
-    "id": "Security",
-    "label": "Security",
-    "value": "Security"
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-09-10T00:00:00Z",
-  "title": "Lead Distributed Systems Engineer",
-  "url": "https://jobs.ashbyhq.com/Cape/7d19a584-40c0-47ea-9729-53a82d70a625",
-  "jobId": "7d19a584-40c0-47ea-9729-53a82d70a625",
+  "timeStamp": "2026-09-10T10:40:37Z",
+  "title": "Engineering Effectiveness Manager",
+  "url": "https://boards.greenhouse.io/justworks/jobs/8020702?gh_jid=8020702",
+  "jobId": "8020702",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1799293186439, 'matchScore': 0, 'ageScore': 0.9799293186439043, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1866531571817, 'matchScore': 0, 'ageScore': 0.986653157181713, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "manager"
   ],
   "isFeatured": false
  },

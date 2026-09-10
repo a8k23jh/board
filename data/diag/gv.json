@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-09-10T18:33:48Z",
+ "run": "2026-09-10T21:42:07Z",
  "homepage": {
   "status": 200,
   "bytes": 26165
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"62b9729d84d2fd661ed37d6f64263e6663a32233\",\"date\":\"2026-09-10T16:47:57.869Z\"},\"server\":{\"git\":\"62b9729d84d2fd661ed37d6f64263e6663a32233\",\"date\":\"2026-09-10T16:47:57.869Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"},\"server\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "EcCr2o9foC\u2026",
+  "session.sig": "JUBs9LEvPF\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWI5NjI2N2NkMzg4N2I5Yzk2MTA1MWJmNzBkODIxMTgiLCAic2NvcmUiOiAxLjEzMjM5NTMxMTUxNDI3NDZ9"
+   "sequence": "eyJfaWQiOiAiMmNlNGY2MTk5MjBiMmVmMDIxZGJiMjM3ZTE4MjE3Y2EiLCAic2NvcmUiOiAxLjEyNzk1NTUyNjI4MDQ3ODN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -195,63 +195,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 63000, 'maxValue': 70500, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Wireshark",
-    "label": "Wireshark",
-    "value": "resume:Wireshark"
+    "id": "resume:SIP",
+    "label": "SIP",
+    "value": "resume:SIP"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Ticketing Systems",
+    "label": "Ticketing Systems",
+    "value": "resume:Ticketing Systems"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
-   },
-   {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Wireshark",
-    "label": "Wireshark",
-    "value": "resume:Wireshark"
-   },
-   {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
-   },
-   {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
-   },
-   {
-    "id": "resume:VoIP",
-    "label": "VoIP",
-    "value": "resume:VoIP"
+    "id": "resume:LAN-WAN",
+    "label": "LAN-WAN",
+    "value": "resume:LAN-WAN"
    },
    {
     "id": "resume:Call Centers",
@@ -259,9 +215,53 @@
     "value": "resume:Call Centers"
    },
    {
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:SIP",
     "label": "SIP",
     "value": "resume:SIP"
+   },
+   {
+    "id": "resume:Ticketing Systems",
+    "label": "Ticketing Systems",
+    "value": "resume:Ticketing Systems"
+   },
+   {
+    "id": "resume:LAN-WAN",
+    "label": "LAN-WAN",
+    "value": "resume:LAN-WAN"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
+   },
+   {
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
+   },
+   {
+    "id": "resume:VoIP",
+    "label": "VoIP",
+    "value": "resume:VoIP"
+   },
+   {
+    "id": "resume:Zendesk",
+    "label": "Zendesk",
+    "value": "resume:Zendesk"
+   },
+   {
+    "id": "resume:Wireshark",
+    "label": "Wireshark",
+    "value": "resume:Wireshark"
    }
   ],
   "manager": false,
@@ -311,7 +311,7 @@
   "jobId": "8779047002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1906787671077, 'matchScore': 0, 'ageScore': 0.9906787671076389, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1865495923577, 'matchScore': 0, 'ageScore': 0.9865495923576388, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

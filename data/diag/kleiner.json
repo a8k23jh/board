@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-09-10T18:33:48Z",
+ "run": "2026-09-10T21:42:07Z",
  "homepage": {
   "status": 200,
   "bytes": 19374
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"62b9729d84d2fd661ed37d6f64263e6663a32233\",\"date\":\"2026-09-10T16:47:57.869Z\"},\"server\":{\"git\":\"62b9729d84d2fd661ed37d6f64263e6663a32233\",\"date\":\"2026-09-10T16:47:57.869Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"},\"server\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ol-lz0Ps8p\u2026",
+  "session.sig": "5362u4sdzg\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTg4Y2E3MTBlOGJhMjk1ODI4Y2NjZDYzYjI2ODZmYzMiLCAic2NvcmUiOiAwLjk5Njg4Mzc2MjQ2MTAzNH0="
+   "sequence": "eyJfaWQiOiAiYzhjYzQ4ODMzY2E4M2FjYjUxMzJkODQ3NjhkZGEyMzMiLCAic2NvcmUiOiAwLjk4OTYyODgzNjA1OTAyNzd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,13 +155,13 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/harvey/c3709b39-8517-4301-be38-cca1105146e7?utm_source=jobs.kleinerperkins.com",
+  "applyUrl": "https://jobs.ashbyhq.com/harvey/e3d380e5-e376-44a2-93cd-e4f9983cd4d6?utm_source=jobs.kleinerperkins.com",
   "companyDomain": "harvey.ai",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2be5d63be7354b540c94eee9efbb0fa_176_160?Expires=1861920000&Signature=gGuMg4b-uxV1b~F2mr~UsVNlbNUHUojHReeO1yQOzw09rnj8QM6i~",
   "companyId": "Harvey",
   "companySlug": "harvey",
   "companyName": "Harvey",
-  "companyStaffCount": 1647,
+  "companyStaffCount": 1840,
   "considerHosted": false,
   "departments": [
    "Recruiting"
@@ -181,42 +181,37 @@
    }
   ],
   "locations": [
-   "New York, New York, USA",
-   "New York"
+   "San Francisco, California, USA",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 196200, 'maxValue': 294200, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
    {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
     "id": "resume:Enablement",
     "label": "Enablement",
     "value": "resume:Enablement"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Cross-functional Team Leadership",
@@ -226,26 +221,26 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
    {
     "id": "resume:Enablement",
     "label": "Enablement",
     "value": "resume:Enablement"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Cross-functional Team Leadership",
@@ -269,24 +264,19 @@
   "considerLevels": [],
   "regions": [
    {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -326,11 +316,11 @@
   ],
   "timeStamp": "2026-09-10T00:00:00Z",
   "title": "Head of Global Recruiting Operations",
-  "url": "https://jobs.ashbyhq.com/harvey/c3709b39-8517-4301-be38-cca1105146e7",
-  "jobId": "c3709b39-8517-4301-be38-cca1105146e7",
+  "url": "https://jobs.ashbyhq.com/harvey/e3d380e5-e376-44a2-93cd-e4f9983cd4d6",
+  "jobId": "e3d380e5-e376-44a2-93cd-e4f9983cd4d6",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1803846061921, 'matchScore': 0, 'ageScore': 0.9803846061921296, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1719038673828, 'matchScore': 0, 'ageScore': 0.9719038673827161, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

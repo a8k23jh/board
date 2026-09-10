@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-10T18:33:48Z",
+ "run": "2026-09-10T21:42:07Z",
  "homepage": {
   "status": 200,
   "bytes": 16697
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"62b9729d84d2fd661ed37d6f64263e6663a32233\",\"date\":\"2026-09-10T16:47:57.869Z\"},\"server\":{\"git\":\"62b9729d84d2fd661ed37d6f64263e6663a32233\",\"date\":\"2026-09-10T16:47:57.869Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"},\"server\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "eAckbivbyG\u2026",
+  "session.sig": "VMPLky5q7j\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjY1ZTRiNmRjMjM0NGMxNjMxZTRkN2M5MTMwMDFlMzIiLCAic2NvcmUiOiAwLjk4MjMzNjE0OTcxOTkwNzN9"
+   "sequence": "eyJfaWQiOiAiMjhkNDA3Nzg2ZTllYmI4YzAwNGNkNjVkMjdkMWJmZDYiLCAic2NvcmUiOiAwLjk5NTA3MDU0MDY5MTM1OH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,121 +155,111 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/5234197007",
-  "companyDomain": "verkada.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8fef24f24d7f5794eed4923eb25b16ff_304_160?Expires=1861920000&Signature=GrVmnkwsr5pViGdcRkXENC1~-cN3J7WMdPab~Q947Jpu8OsXzdwLQ",
-  "companyId": "Verkada",
-  "companySlug": "verkada",
-  "companyName": "Verkada",
-  "companyStaffCount": 2877,
+  "applyUrl": "https://job-boards.greenhouse.io/pinwheelapi/jobs/7991264003",
+  "companyDomain": "getpinwheel.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d88605058ffc8794e78b878500fc1256_320_160?Expires=1861920000&Signature=mCX0HR0-6tipiZEcMTSzNR3prPzM7qPzvXbsUtEaInD0EsIN~AFAJ",
+  "companyId": "Pinwheel",
+  "companySlug": "pinwheel",
+  "companyName": "Pinwheel",
+  "companyStaffCount": 70,
   "considerHosted": false,
   "departments": [
-   "Sales Recruiting"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "recruiter",
-    "label": "Recruiter",
-    "value": "recruiter"
-   },
-   {
-    "id": "gtm",
-    "label": "GTM",
-    "value": "gtm"
+    "id": "backend-engineer",
+    "label": "Backend Engineer",
+    "value": "backend-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   },
-   {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "San Mateo, CA United States"
+   "New York, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "San Mateo, California",
-    "label": "San Mateo, California",
-    "value": "San Mateo, California"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:System Design",
+    "label": "System Design",
+    "value": "resume:System Design"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Process Improvement",
-    "label": "Process Improvement",
-    "value": "resume:Process Improvement"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:System Design",
+    "label": "System Design",
+    "value": "resume:System Design"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Process Improvement",
-    "label": "Process Improvement",
-    "value": "resume:Process Improvement"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
    },
    {
-    "id": "resume:Greenhouse",
-    "label": "Greenhouse",
-    "value": "resume:Greenhouse"
+    "id": "resume:concurrency",
+    "label": "Concurrency Design",
+    "value": "resume:concurrency"
    },
    {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
+    "id": "resume:Selenium",
+    "label": "Selenium",
+    "value": "resume:Selenium"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "manager": false,
@@ -285,28 +275,34 @@
     6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
     "id": "Growth",
@@ -317,23 +313,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Consumer Electronics",
-    "label": "Consumer Electronics",
-    "value": "Consumer Electronics"
-   },
-   {
-    "id": "Hardware",
-    "label": "Hardware",
-    "value": "Hardware"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-09-10T01:10:12Z",
-  "title": "Sr. Recruiter, GTM Strategy & Operations",
-  "url": "https://job-boards.greenhouse.io/verkada/jobs/5234197007",
-  "jobId": "5234197007",
+  "timeStamp": "2026-09-10T10:31:08Z",
+  "title": "Sr. Backend Engineer, AI Projects",
+  "url": "https://job-boards.greenhouse.io/pinwheelapi/jobs/7991264003",
+  "jobId": "7991264003",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1817049489761, 'matchScore': 0, 'ageScore': 0.9817049489760803, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1859147125633, 'matchScore': 0, 'ageScore': 0.9859147125632716, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

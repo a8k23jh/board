@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-10T18:33:48Z",
+ "run": "2026-09-10T21:42:07Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"62b9729d84d2fd661ed37d6f64263e6663a32233\",\"date\":\"2026-09-10T16:47:57.869Z\"},\"server\":{\"git\":\"62b9729d84d2fd661ed37d6f64263e6663a32233\",\"date\":\"2026-09-10T16:47:57.869Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"},\"server\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "t9wS06Ripe\u2026",
+  "session.sig": "ZdqI_lugCK\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzA3YWQ3ODA2ODYxNjRiNjhhMzAyZDVlOTY2Y2I1NjUiLCAic2NvcmUiOiAxLjE0NjU3OTA4MzEwOTU2OH0="
+   "sequence": "eyJfaWQiOiAiYmM3NzNmMjc0MGEzYjU1MjdlMjAxNzM5ZDRhMzZlMTciLCAic2NvcmUiOiAxLjE0MDE2NTIzODQ2MDI2MjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,147 +144,132 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/5234197007",
-  "companyDomain": "verkada.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8fef24f24d7f5794eed4923eb25b16ff_304_160?Expires=1861920000&Signature=GrVmnkwsr5pViGdcRkXENC1~-cN3J7WMdPab~Q947Jpu8OsXzdwLQ",
-  "companyId": "Verkada",
-  "companySlug": "verkada",
-  "companyName": "Verkada",
-  "companyStaffCount": 2877,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8789882002?gh_jid=8789882002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "Sales Recruiting"
+   "Global Business & Government Affairs"
   ],
   "jobTypes": [
    {
-    "id": "recruiter",
-    "label": "Recruiter",
-    "value": "recruiter"
-   },
-   {
-    "id": "gtm",
-    "label": "GTM",
-    "value": "gtm"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   },
-   {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "San Mateo, CA United States"
+   "Washington, DC"
   ],
   "normalizedLocations": [
    {
-    "id": "San Mateo, California",
-    "label": "San Mateo, California",
-    "value": "San Mateo, California"
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Space Systems",
+    "label": "Space Systems",
+    "value": "resume:Space Systems"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:System Integrators",
+    "label": "System Integrators",
+    "value": "resume:System Integrators"
    },
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    },
    {
-    "id": "resume:Process Improvement",
-    "label": "Process Improvement",
-    "value": "resume:Process Improvement"
+    "id": "resume:Supercomputing",
+    "label": "Supercomputing",
+    "value": "resume:Supercomputing"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Space Systems",
+    "label": "Space Systems",
+    "value": "resume:Space Systems"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:System Integrators",
+    "label": "System Integrators",
+    "value": "resume:System Integrators"
    },
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Process Improvement",
-    "label": "Process Improvement",
-    "value": "resume:Process Improvement"
+    "id": "resume:Supercomputing",
+    "label": "Supercomputing",
+    "value": "resume:Supercomputing"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    },
    {
-    "id": "resume:Greenhouse",
-    "label": "Greenhouse",
-    "value": "resume:Greenhouse"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
+  "minYearsExp": 2,
   "regions": [
    {
     "id": "North America",
@@ -292,14 +277,9 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -307,36 +287,35 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Consumer Electronics",
-    "label": "Consumer Electronics",
-    "value": "Consumer Electronics"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
    },
    {
-    "id": "Hardware",
-    "label": "Hardware",
-    "value": "Hardware"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-09-10T01:10:12Z",
-  "title": "Sr. Recruiter, GTM Strategy & Operations",
-  "url": "https://job-boards.greenhouse.io/verkada/jobs/5234197007",
-  "jobId": "5234197007",
+  "timeStamp": "2026-09-10T09:43:04Z",
+  "title": "Sr. Program Development Manager",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8789882002?gh_jid=8789882002",
+  "jobId": "8789882002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1817049489761, 'matchScore': 0, 'ageScore': 0.9817049489760803, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1867065631404, 'matchScore': 0, 'ageScore': 0.9867065631404321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
+   },
    {
     "id": "senior",
     "label": "Senior",
@@ -344,6 +323,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "manager",
    "senior"
   ],
   "isFeatured": false
