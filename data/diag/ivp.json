@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-10T04:56:07Z",
+ "run": "2026-09-10T09:51:40Z",
  "homepage": {
   "status": 200,
   "bytes": 19512
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "uhZ2MPqE_m\u2026",
+  "session.sig": "x4sliImaYH\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzM3N2ViZDgyODc5NTU5Y2M4NzMxMjZmYWExYThiYjgiLCAic2NvcmUiOiAxLjEzMDc4NjU4MDg2NzY2OTh9"
+   "sequence": "eyJfaWQiOiAiM2U5Mjg0OTQxZTg1ZjEzMGY5YzcwNGU5ZjRkZjcwMGMiLCAic2NvcmUiOiAxLjEzNTE5NjM2MDU3MjkxNjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,7 +139,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5420115008",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5418743008",
   "companyDomain": "anthropic.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
   "companyId": "Anthropic",
@@ -148,28 +148,32 @@
   "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Engineering & Design - Product"
+   "Product Management, Support, & Operations"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
-   }
-  ],
-  "jobFunctions": [
+    "id": "executive",
+    "label": "Executive",
+    "value": "executive"
+   },
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
+  "jobFunctions": [],
   "locations": [
    "San Francisco, CA",
    "New York City, NY",
    "Seattle, WA"
   ],
   "normalizedLocations": [
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
    {
     "id": "New York, New York",
     "label": "New York, New York",
@@ -179,86 +183,81 @@
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
-   },
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 405000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 210000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
-   },
-   {
-    "id": "resume:Primavera P6",
-    "label": "Primavera P6",
-    "value": "resume:Primavera P6"
-   },
    {
     "id": "resume:Physics",
     "label": "Physics",
     "value": "resume:Physics"
    },
    {
-    "id": "resume:ERP",
-    "label": "ERP",
-    "value": "resume:ERP"
+    "id": "resume:Approximation Algorithms",
+    "label": "Approximation Algorithms",
+    "value": "resume:Approximation Algorithms"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Customer Escalation Management",
+    "label": "Customer Escalation Management",
+    "value": "resume:Customer Escalation Management"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
-   },
-   {
-    "id": "resume:Primavera P6",
-    "label": "Primavera P6",
-    "value": "resume:Primavera P6"
-   },
-   {
     "id": "resume:Physics",
     "label": "Physics",
     "value": "resume:Physics"
+   },
+   {
+    "id": "resume:Approximation Algorithms",
+    "label": "Approximation Algorithms",
+    "value": "resume:Approximation Algorithms"
+   },
+   {
+    "id": "resume:Customer Escalation Management",
+    "label": "Customer Escalation Management",
+    "value": "resume:Customer Escalation Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:ERP",
-    "label": "ERP",
-    "value": "resume:ERP"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Developer Platform",
+    "label": "Developer Platform",
+    "value": "resume:Developer Platform"
    },
    {
     "id": "resume:Biology",
     "label": "Biology",
     "value": "resume:Biology"
-   },
-   {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
-   },
-   {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -271,31 +270,32 @@
     6
    ]
   ],
+  "minYearsExp": 6,
   "regions": [
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -323,24 +323,24 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-09-09T18:05:01Z",
-  "title": "Staff Software Engineer: Compute",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5420115008",
-  "jobId": "5420115008",
+  "timeStamp": "2026-09-10T00:55:51Z",
+  "title": "Executive Escalations Manager",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5418743008",
+  "jobId": "5418743008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1925045079382, 'matchScore': 0, 'ageScore': 0.9925045079382716, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1896416920092, 'matchScore': 0, 'ageScore': 0.9896416920092592, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "manager"
   ],
   "isFeatured": false
  },

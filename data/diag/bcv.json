@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-10T04:56:07Z",
+ "run": "2026-09-10T09:51:40Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "FnMQkAvM2n\u2026",
+  "session.sig": "oLfGlfbpw4\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2Q5ODcxMmQ3MjY5MGZlYWZkODBhMjEyNDllZmNhNmYiLCAic2NvcmUiOiAxLjA4MTg2MTkzMDk2MTQxOTd9"
+   "sequence": "eyJfaWQiOiAiN2Y4MGUzZDQzM2QzMmNmMDQ0N2ViYTJmYmM0MGNjZDkiLCAic2NvcmUiOiAxLjA4Nzg1NDgxNzU2NzkwMTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -146,6 +146,7 @@
    "companyLogos",
    "companyName",
    "companySlug",
+   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
@@ -156,33 +157,33 @@
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6178926004",
-  "companyDomain": "apollo.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
-  "companyId": "Apollo",
-  "companySlug": "apollo",
-  "companyName": "Apollo",
+  "applyUrl": "https://jobs.ashbyhq.com/Cape/7d19a584-40c0-47ea-9729-53a82d70a625?utm_source=jobs.baincapitalventures.com",
+  "companyDomain": "cape.co",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/0faf8dde05320d96ed7e5c98482f445f_160_160?Expires=1861920000&Signature=SZKUJJFlhp9qAfBb37~UZ92w1JKOhgm3nzE6xFCGUc7Sk2zb5tulr",
+  "companyId": "Cape",
+  "companySlug": "cape",
+  "companyName": "Cape",
+  "companyStaffCount": 172,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Platform Services"
   ],
   "jobTypes": [
    {
-    "id": "director-engineering",
-    "label": "Director of Engineering",
-    "value": "director-engineering"
+    "id": "systems-engineer",
+    "label": "Systems Engineer",
+    "value": "systems-engineer"
    },
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    }
   ],
   "jobFunctions": [
@@ -193,102 +194,122 @@
    }
   ],
   "locations": [
-   "Remote, United States"
+   "New York, New York, United States",
+   "New York, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 275000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 325000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Income Statements",
-    "label": "Income Statements",
-    "value": "resume:Income Statements"
+    "id": "resume:Apache Kafka",
+    "label": "Apache Kafka",
+    "value": "resume:Apache Kafka"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Recruit",
+    "label": "Recruit",
+    "value": "resume:Recruit"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:Luxury",
+    "label": "Luxury",
+    "value": "resume:Luxury"
    },
    {
-    "id": "resume:Licensing",
-    "label": "Licensing",
-    "value": "resume:Licensing"
+    "id": "resume:National Security",
+    "label": "National Security",
+    "value": "resume:National Security"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Income Statements",
-    "label": "Income Statements",
-    "value": "resume:Income Statements"
+    "id": "resume:Apache Kafka",
+    "label": "Apache Kafka",
+    "value": "resume:Apache Kafka"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Recruit",
+    "label": "Recruit",
+    "value": "resume:Recruit"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:Luxury",
+    "label": "Luxury",
+    "value": "resume:Luxury"
    },
    {
-    "id": "resume:Licensing",
-    "label": "Licensing",
-    "value": "resume:Licensing"
+    "id": "resume:National Security",
+    "label": "National Security",
+    "value": "resume:National Security"
    },
    {
-    "id": "resume:Apollo",
-    "label": "Apollo",
-    "value": "resume:Apollo"
+    "id": "resume:Node",
+    "label": "Node",
+    "value": "resume:Node"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Apache Flink",
+    "label": "Apache Flink",
+    "value": "resume:Apache Flink"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -296,6 +317,11 @@
    }
   ],
   "stages": [
+   {
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
    {
     "id": "Growth",
     "label": "Growth",
@@ -305,29 +331,50 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
+   },
+   {
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
+   },
+   {
+    "id": "National Security",
+    "label": "National Security",
+    "value": "National Security"
+   },
+   {
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
    }
   ],
-  "timeStamp": "2026-09-09T18:35:32Z",
-  "title": "Director, Data & Distribution Partnerships",
-  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6178926004",
-  "jobId": "6178926004",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1937397527994, 'matchScore': 0, 'ageScore': 0.9937397527993828, 'richnessScore': 2}",
+  "timeStamp": "2026-09-10T00:00:00Z",
+  "title": "Lead Distributed Systems Engineer",
+  "url": "https://jobs.ashbyhq.com/Cape/7d19a584-40c0-47ea-9729-53a82d70a625",
+  "jobId": "7d19a584-40c0-47ea-9729-53a82d70a625",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1886848902574, 'matchScore': 0, 'ageScore': 0.9886848902573302, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },

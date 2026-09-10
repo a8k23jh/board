@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-10T04:56:07Z",
+ "run": "2026-09-10T09:51:40Z",
  "homepage": {
   "status": 200,
   "bytes": 20602
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "224hRPn3eg\u2026",
+  "session.sig": "70_RsUdQtY\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTFmMjBmYTQ5Zjc5MGU0Njk0ZTYzYTJkMDA1ZjI5OTAiLCAic2NvcmUiOiAxLjEwNzY0MDkxNzg0NDkwNzR9"
+   "sequence": "eyJfaWQiOiAiNTM4ZmI2YjJiNDdkNDRjMjMyYjdhZTNjNjU3NzZkN2IiLCAic2NvcmUiOiAxLjEyMTA3NjEwNjczMTQ4MTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,25 +147,35 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/echodynecorp/jobs/4700697006",
-  "companyDomain": "echodyne.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f814668c54f14247b07ab1ff8cbf3fb5_320_160?Expires=1861920000&Signature=gYzCI2g0KXU4aD6jDHtAmfRzeCiWWTRwgHJp6x-KWeARfaamBfBZW",
-  "companyId": "Echodyne",
-  "companySlug": "echodyne",
-  "companyName": "Echodyne",
-  "companyStaffCount": 255,
+  "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8080377?t=gh_src=&gh_jid=8080377",
+  "companyDomain": "robinhood.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a7f9760e316e94a76b4e2c5c6337d5a6_288_160?Expires=1861920000&Signature=mZQkCJ5Bp88JcFNaatMwUGHk4hZDC1ArvjUF0p4CWPQVmj3GTpnbw",
+  "companyId": "Robinhood",
+  "companySlug": "robinhood",
+  "companyName": "Robinhood",
+  "companyStaffCount": 4837,
   "considerHosted": false,
   "departments": [
-   "Manufacturing"
+   "Investment Strategy"
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "researcher",
+    "label": "Researcher",
+    "value": "researcher"
+   },
+   {
+    "id": "data-scientist",
+    "label": "Data Scientist",
+    "value": "data-scientist"
    }
   ],
   "jobFunctions": [
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
+   },
    {
     "id": "Engineering",
     "label": "Engineering",
@@ -173,75 +183,31 @@
    }
   ],
   "locations": [
-   "Kirkland, WA"
+   "New York, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "Kirkland, Washington",
-    "label": "Kirkland, Washington",
-    "value": "Kirkland, Washington"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 124733, 'maxValue': 187048, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 170000, 'maxValue': 255000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Quantitative Analytics",
+    "label": "Quantitative Analytics",
+    "value": "resume:Quantitative Analytics"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Communication Protocols",
-    "label": "Communication Protocols",
-    "value": "resume:Communication Protocols"
-   },
-   {
-    "id": "resume:SolidWorks",
-    "label": "SolidWorks",
-    "value": "resume:SolidWorks"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
-   {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
-   },
-   {
-    "id": "resume:Communication Protocols",
-    "label": "Communication Protocols",
-    "value": "resume:Communication Protocols"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:SolidWorks",
-    "label": "SolidWorks",
-    "value": "resume:SolidWorks"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:Matlab",
-    "label": "Matlab",
-    "value": "resume:Matlab"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
     "id": "resume:Statistical Analysis",
@@ -249,9 +215,53 @@
     "value": "resume:Statistical Analysis"
    },
    {
-    "id": "resume:RF",
-    "label": "RF",
-    "value": "resume:RF"
+    "id": "resume:Pattern Recognition",
+    "label": "Pattern Recognition",
+    "value": "resume:Pattern Recognition"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Quantitative Analytics",
+    "label": "Quantitative Analytics",
+    "value": "resume:Quantitative Analytics"
+   },
+   {
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Statistical Analysis",
+    "label": "Statistical Analysis",
+    "value": "resume:Statistical Analysis"
+   },
+   {
+    "id": "resume:Pattern Recognition",
+    "label": "Pattern Recognition",
+    "value": "resume:Pattern Recognition"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
+   },
+   {
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    }
   ],
   "manager": false,
@@ -267,65 +277,56 @@
     6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Public",
+    "label": "Public",
+    "value": "Public"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Public', 'label': 'Public', 'value': 'Public'}",
   "markets": [
    {
-    "id": "Consumer Electronics",
-    "label": "Consumer Electronics",
-    "value": "Consumer Electronics"
-   },
-   {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "Electrical/Electronic Manufacturing",
-    "label": "Electrical/Electronic Manufacturing",
-    "value": "Electrical/Electronic Manufacturing"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-09-09T18:40:24Z",
-  "title": "Sr Manufacturing Test Development Engineer",
-  "url": "https://job-boards.greenhouse.io/echodynecorp/jobs/4700697006",
-  "jobId": "4700697006",
+  "timeStamp": "2026-09-10T00:16:13Z",
+  "title": "Staff Data Scientist (Quantitative Researcher)",
+  "url": "https://boards.greenhouse.io/robinhood/jobs/8080377?t=gh_src=&gh_jid=8080377",
+  "jobId": "8080377",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1935143941442, 'matchScore': 0, 'ageScore': 0.9935143941442901, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1884584001374, 'matchScore': 0, 'ageScore': 0.9884584001373456, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -333,10 +334,16 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
