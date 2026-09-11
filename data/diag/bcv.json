@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-11T04:51:47Z",
+ "run": "2026-09-11T09:50:41Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "9aFQMr31cB\u2026",
+  "session.sig": "938lUTcPO2\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWQ2MjU0OTliY2Y0YTNjZjQ3MWEyMTU4MzBjMDgzMjAiLCAic2NvcmUiOiAxLjEwMDYxNDc2NDQ3MjYwOH0="
+   "sequence": "eyJfaWQiOiAiN2EyMTM4NmU2YjY4NGJjNDgwNjM0MTczNjlkNjNjMmYiLCAic2NvcmUiOiAxLjA5NTMxNDQ5MTc5MDUwOTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -146,7 +146,6 @@
    "companyLogos",
    "companyName",
    "companySlug",
-   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
@@ -157,90 +156,97 @@
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/shopmy/jobs/5421176008",
-  "companyDomain": "shopmy.us",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/0519aacdb93411d237a7c4c4d297c7fa_240_160?Expires=1861920000&Signature=lz2t607HAFdHZPnxxRGN9vfUfrkEUykP9Qyibcpzcpa0YkcTzFJRI",
-  "companyId": "ShopMy",
-  "companySlug": "shopmy",
-  "companyName": "ShopMy",
-  "companyStaffCount": 536,
+  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6136672004",
+  "companyDomain": "apollo.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
+  "companyId": "Apollo",
+  "companySlug": "apollo",
+  "companyName": "Apollo",
   "considerHosted": false,
   "departments": [
-   "Strategy & Operations"
+   "People"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "manager-recruiter",
+    "label": "Recruiting Manager",
+    "value": "manager-recruiter"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
+   }
+  ],
   "locations": [
-   "Remote, US"
+   "Hybrid, San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 80000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 292000, 'maxValue': 365000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
+    "id": "resume:Apollo",
+    "label": "Apollo",
+    "value": "resume:Apollo"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
+    "id": "resume:Apollo",
+    "label": "Apollo",
+    "value": "resume:Apollo"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
    },
    {
     "id": "resume:Equity",
@@ -248,44 +254,53 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 1,
-  "maxYearsExp": 3,
+  "minYearsExp": 10,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
-   {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
    {
     "id": "Growth",
     "label": "Growth",
@@ -295,18 +310,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Marketing and Advertising",
-    "label": "Marketing and Advertising",
-    "value": "Marketing and Advertising"
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-09-10T15:46:07Z",
-  "title": "Associate, Strategy & Operations",
-  "url": "https://job-boards.greenhouse.io/shopmy/jobs/5421176008",
-  "jobId": "5421176008",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1897215541662, 'matchScore': 0, 'ageScore': 0.9897215541662808, 'richnessScore': 2}",
+  "timeStamp": "2026-09-10T20:27:46Z",
+  "title": "Head of Talent Acquisition",
+  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6136672004",
+  "jobId": "6136672004",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1834367431208, 'matchScore': 0, 'ageScore': 0.9834367431207561, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -316,14 +331,14 @@
     "value": "mid"
    },
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
    "mid",
-   "junior"
+   "director"
   ],
   "isFeatured": false
  },
