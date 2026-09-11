@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-10T21:42:07Z",
+ "run": "2026-09-11T00:15:24Z",
  "homepage": {
   "status": 200,
   "bytes": 21200
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "0yhZjuY27O\u2026",
+  "session.sig": "-EFK-5cL8y\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTMxMjEyMGNjM2RkYjcwMjQ0YWE1NzA2YWE3NGI0ZWIiLCAic2NvcmUiOiAxLjE0MDMzNDcyNjMwMjQ2OTJ9"
+   "sequence": "eyJfaWQiOiAiOTNlZmU4OWIxYzhjN2EyNDBjMGM5MGE1ZjkxOWNmM2YiLCAic2NvcmUiOiAxLjEzNTYzMTU3NTI1MzA4NjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,26 +168,26 @@
   ],
   "jobTypes": [
    {
-    "id": "legal-counsel",
-    "label": "Legal Counsel",
-    "value": "legal-counsel"
-   },
-   {
     "id": "finance-professional",
     "label": "Finance",
     "value": "finance-professional"
+   },
+   {
+    "id": "legal-counsel",
+    "label": "Legal Counsel",
+    "value": "legal-counsel"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Legal",
-    "label": "Legal",
-    "value": "Legal"
-   },
-   {
     "id": "Finance",
     "label": "Finance",
     "value": "Finance"
+   },
+   {
+    "id": "Legal",
+    "label": "Legal",
+    "value": "Legal"
    }
   ],
   "locations": [
@@ -203,58 +203,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 162000, 'maxValue': 219000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Cryptocurrencies\u200e",
-    "label": "Cryptocurrencies\u200e",
-    "value": "resume:Cryptocurrencies\u200e"
-   },
-   {
-    "id": "resume:Liquidity",
-    "label": "Liquidity",
-    "value": "resume:Liquidity"
-   },
-   {
-    "id": "resume:Trading Strategies",
-    "label": "Trading Strategies",
-    "value": "resume:Trading Strategies"
-   },
-   {
-    "id": "resume:Financial Markets",
-    "label": "Financial Markets",
-    "value": "resume:Financial Markets"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Cryptocurrencies\u200e",
-    "label": "Cryptocurrencies\u200e",
-    "value": "resume:Cryptocurrencies\u200e"
-   },
-   {
-    "id": "resume:Liquidity",
-    "label": "Liquidity",
-    "value": "resume:Liquidity"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Trading Strategies",
-    "label": "Trading Strategies",
-    "value": "resume:Trading Strategies"
-   },
-   {
-    "id": "resume:Financial Markets",
-    "label": "Financial Markets",
-    "value": "resume:Financial Markets"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
     "id": "resume:Regulatory Compliance",
@@ -262,14 +213,63 @@
     "value": "resume:Regulatory Compliance"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
+   },
+   {
+    "id": "resume:Inform",
+    "label": "Inform",
+    "value": "resume:Inform"
    },
    {
     "id": "resume:Business Development",
     "label": "Business Development",
     "value": "resume:Business Development"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
+   },
+   {
+    "id": "resume:Regulatory Compliance",
+    "label": "Regulatory Compliance",
+    "value": "resume:Regulatory Compliance"
+   },
+   {
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Inform",
+    "label": "Inform",
+    "value": "resume:Inform"
+   },
+   {
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Liquidity",
+    "label": "Liquidity",
+    "value": "resume:Liquidity"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "manager": false,
@@ -285,16 +285,6 @@
   "maxYearsExp": 7,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
@@ -303,6 +293,16 @@
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -330,7 +330,7 @@
   "jobId": "4732701005",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1878978223326, 'matchScore': 0, 'ageScore': 0.9878978223325617, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1830126140528, 'matchScore': 0, 'ageScore': 0.9830126140528549, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
