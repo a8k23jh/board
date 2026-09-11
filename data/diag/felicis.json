@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-11T00:15:24Z",
+ "run": "2026-09-11T04:51:47Z",
  "homepage": {
   "status": 200,
   "bytes": 25229
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"},\"server\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"b316254f9588cebde9b904bf619017d7ec692f7d\",\"date\":\"2026-09-11T01:28:20.296Z\"},\"server\":{\"git\":\"b316254f9588cebde9b904bf619017d7ec692f7d\",\"date\":\"2026-09-11T01:28:20.296Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "D-55_uZJpF\u2026",
+  "session.sig": "ZW4H96tPm7\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTVjZDY5YjlhZmI0ZTk3NDhjY2FmYjFiMTExMTFlMmMiLCAic2NvcmUiOiAxLjA3NjQ4NDA2NTc1MTkyOX0="
+   "sequence": "eyJfaWQiOiAiYWQ2MjU0OTliY2Y0YTNjZjQ3MWEyMTU4MzBjMDgzMjAiLCAic2NvcmUiOiAxLjEwMDYxNDc2NDQ3MjYwOH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,46 +136,36 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/dialpad/jobs/8779047002",
-  "companyDomain": "dialpad.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/76376b4f27b0a952a9a9ff422b992e2b_192_160?Expires=1861920000&Signature=CMhAWTMIY3zbSvP846Y1HMoGiI3r6WC8n93cekAmfmD3w5ZAwtoXZ",
-  "companyId": "Dialpad",
-  "companySlug": "dialpad",
-  "companyName": "Dialpad",
-  "companyStaffCount": 1503,
+  "applyUrl": "https://job-boards.greenhouse.io/earnin/jobs/8193516",
+  "companyDomain": "earnin.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6a9b944c06a7c78e106b9ae2ee9b8dc6_160_160?Expires=1861920000&Signature=jqFv4nXyYi4v-7lCHhf5yXkcRBQF5H3SHmWll~5rq4kuj-eKH1c19",
+  "companyId": "Earnin",
+  "companySlug": "earnin",
+  "companyName": "Earnin",
+  "companyStaffCount": 601,
   "considerHosted": false,
   "departments": [
-   "130 - Customer Support"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "it-engineer",
-    "label": "IT Support Engineer",
-    "value": "it-engineer"
-   },
-   {
-    "id": "customer-support",
-    "label": "Customer Support",
-    "value": "customer-support"
+    "id": "site-reliability-engineer",
+    "label": "Site Reliability Engineer (SRE)",
+    "value": "site-reliability-engineer"
    }
   ],
   "jobFunctions": [
-   {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
-   },
    {
     "id": "Engineering",
     "label": "Engineering",
@@ -183,85 +173,85 @@
    }
   ],
   "locations": [
-   "Kitchener, Canada"
+   "Mountain View, US"
   ],
   "normalizedLocations": [
    {
-    "id": "Canada",
-    "label": "Canada",
-    "value": "Canada"
+    "id": "Mountain View, California",
+    "label": "Mountain View, California",
+    "value": "Mountain View, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 63000, 'maxValue': 70500, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 252000, 'maxValue': 308000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Zendesk",
-    "label": "Zendesk",
-    "value": "resume:Zendesk"
+    "id": "resume:Datadog",
+    "label": "Datadog",
+    "value": "resume:Datadog"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
    },
    {
-    "id": "resume:IVR",
-    "label": "IVR",
-    "value": "resume:IVR"
+    "id": "resume:Incident Response",
+    "label": "Incident Response",
+    "value": "resume:Incident Response"
    },
    {
-    "id": "resume:SIP",
-    "label": "SIP",
-    "value": "resume:SIP"
+    "id": "resume:SOC 2",
+    "label": "SOC 2",
+    "value": "resume:SOC 2"
    },
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Zendesk",
-    "label": "Zendesk",
-    "value": "resume:Zendesk"
+    "id": "resume:Datadog",
+    "label": "Datadog",
+    "value": "resume:Datadog"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
    },
    {
-    "id": "resume:IVR",
-    "label": "IVR",
-    "value": "resume:IVR"
+    "id": "resume:Incident Response",
+    "label": "Incident Response",
+    "value": "resume:Incident Response"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:SIP",
-    "label": "SIP",
-    "value": "resume:SIP"
+    "id": "resume:SOC 2",
+    "label": "SOC 2",
+    "value": "resume:SOC 2"
    },
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    },
    {
-    "id": "resume:Call Centers",
-    "label": "Call Centers",
-    "value": "resume:Call Centers"
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
    },
    {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    }
   ],
   "manager": false,
@@ -269,49 +259,49 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
-    3,
-    4
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 7,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Telecommunications",
-    "label": "Telecommunications",
-    "value": "Telecommunications"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-09-10T10:53:15Z",
-  "title": "Technical Support Engineer, Platinum",
-  "url": "https://job-boards.greenhouse.io/dialpad/jobs/8779047002",
-  "jobId": "8779047002",
+  "timeStamp": "2026-09-10T18:18:49Z",
+  "title": "Staff Site Reliability Engineer",
+  "url": "https://job-boards.greenhouse.io/earnin/jobs/8193516",
+  "jobId": "8193516",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1837159767384, 'matchScore': 0, 'ageScore': 0.9837159767384259, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1928014531258, 'matchScore': 0, 'ageScore': 0.9928014531257716, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -319,10 +309,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

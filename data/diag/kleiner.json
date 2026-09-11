@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-09-11T00:15:24Z",
+ "run": "2026-09-11T04:51:47Z",
  "homepage": {
   "status": 200,
   "bytes": 19374
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"},\"server\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"b316254f9588cebde9b904bf619017d7ec692f7d\",\"date\":\"2026-09-11T01:28:20.296Z\"},\"server\":{\"git\":\"b316254f9588cebde9b904bf619017d7ec692f7d\",\"date\":\"2026-09-11T01:28:20.296Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TRoGVORwB9\u2026",
+  "session.sig": "WAr6qA6IHL\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjg3OGM4ODU1OThjNTk3OWIwMzE5NDVjZDdiMjI5NjIiLCAic2NvcmUiOiAwLjk4NjA5ODA0NDU2NzUxNTR9"
+   "sequence": "eyJfaWQiOiAiMDA1ZWQ1MjM3NmNmNDdhMWNmMjhkNDcwZmM1OTI0ZWIiLCAic2NvcmUiOiAxLjAzMzU0MjM4ODA5MzM2NDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,133 +155,148 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/handshake/e15e3244-06f9-4c41-96c6-8860ad7594c5?utm_source=jobs.kleinerperkins.com",
-  "companyDomain": "joinhandshake.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6cb0383a5650ae1201e02f59d8e94e34_224_160?Expires=1861920000&Signature=qJtqtGOk4~SnIcwQkyyZfiW6aUt~wcAw43nVQC-xr8~RxckpWBUE0",
-  "companyId": "Handshake",
-  "companySlug": "handshake",
-  "companyName": "Handshake",
-  "companyStaffCount": 11927,
+  "applyUrl": "https://job-boards.greenhouse.io/togetherai/jobs/5233669007",
+  "companyDomain": "together.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ab310562763eeec1a870bd57b0a9704b_256_160?Expires=1861920000&Signature=DqaWvH3vUeF1a7rLhZrorwzEHn6S-ol3vJVqmfO9AkN~8UuCFWnkz",
+  "companyId": "Together AI",
+  "companySlug": "together-ai",
+  "companyName": "Together AI",
+  "companyStaffCount": 419,
   "considerHosted": false,
   "departments": [
-   "Delivery Operations"
+   "Engineering"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Seattle, Washington, United States",
-   "Seattle, WA"
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 32, 'maxValue': 95, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
-   },
-   {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
-   },
-   {
-    "id": "resume:Ontologies",
-    "label": "Ontologies",
-    "value": "resume:Ontologies"
-   },
-   {
-    "id": "resume:Stress Testing",
-    "label": "Stress Testing",
-    "value": "resume:Stress Testing"
-   },
-   {
-    "id": "resume:Red Teaming",
-    "label": "Red Teaming",
-    "value": "resume:Red Teaming"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
-   },
-   {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
-   },
-   {
-    "id": "resume:Ontologies",
-    "label": "Ontologies",
-    "value": "resume:Ontologies"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Stress Testing",
-    "label": "Stress Testing",
-    "value": "resume:Stress Testing"
-   },
-   {
-    "id": "resume:Red Teaming",
-    "label": "Red Teaming",
-    "value": "resume:Red Teaming"
-   },
-   {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
-   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Agent Systems",
+    "label": "Agent Systems",
+    "value": "resume:Agent Systems"
+   },
+   {
+    "id": "resume:Application Software",
+    "label": "Application Software",
+    "value": "resume:Application Software"
+   },
+   {
+    "id": "resume:version control systems",
+    "label": "Version Control Systems",
+    "value": "resume:version control systems"
+   },
+   {
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Agent Systems",
+    "label": "Agent Systems",
+    "value": "resume:Agent Systems"
+   },
+   {
+    "id": "resume:Application Software",
+    "label": "Application Software",
+    "value": "resume:Application Software"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:version control systems",
+    "label": "Version Control Systems",
+    "value": "resume:version control systems"
+   },
+   {
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -292,27 +307,30 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
-   },
-   {
-    "id": "Workforce and Employment",
-    "label": "Workforce and Employment",
-    "value": "Workforce and Employment"
+    "id": "AI/ML",
+    "label": "AI/ML",
+    "value": "AI/ML"
    }
   ],
-  "timeStamp": "2026-09-10T00:00:00Z",
-  "title": "AI Red Teamer (LLM Generalist)",
-  "url": "https://jobs.ashbyhq.com/handshake/e15e3244-06f9-4c41-96c6-8860ad7594c5",
-  "jobId": "e15e3244-06f9-4c41-96c6-8860ad7594c5",
+  "timeStamp": "2026-09-10T18:30:49Z",
+  "title": "Senior Software Engineer \u2014 Infra Agent Systems",
+  "url": "https://job-boards.greenhouse.io/togetherai/jobs/5233669007",
+  "jobId": "5233669007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1685720926632, 'matchScore': 0, 'ageScore': 0.9685720926631944, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1928555960301, 'matchScore': 0, 'ageScore': 0.9928555960300925, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   }
+  ],
+  "jobSeniorityIds": [
+   "senior"
+  ],
   "isFeatured": false
  },
  "search_mode": {

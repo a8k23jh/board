@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-11T00:15:24Z",
+ "run": "2026-09-11T04:51:47Z",
  "homepage": {
   "status": 200,
   "bytes": 21200
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"},\"server\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"b316254f9588cebde9b904bf619017d7ec692f7d\",\"date\":\"2026-09-11T01:28:20.296Z\"},\"server\":{\"git\":\"b316254f9588cebde9b904bf619017d7ec692f7d\",\"date\":\"2026-09-11T01:28:20.296Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "-EFK-5cL8y\u2026",
+  "session.sig": "Qrsyjl9Jhc\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTNlZmU4OWIxYzhjN2EyNDBjMGM5MGE1ZjkxOWNmM2YiLCAic2NvcmUiOiAxLjEzNTYzMTU3NTI1MzA4NjN9"
+   "sequence": "eyJfaWQiOiAiYzkxMjIzNDczMzBkMDEyNmM2NGQ1NTE5MDU4YjU0ZGMiLCAic2NvcmUiOiAxLjE4NTg5MTI5NzQ1ODMzMzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,132 +144,127 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/falconx/jobs/4732701005",
-  "companyDomain": "falconx.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c35919f5e83a5ade1b8ef00cfbe5ff1f_240_160?Expires=1861920000&Signature=drJftc1KyQbIvusRHLyxvhTQixDXFGLH7XBAVNCrL2kx9s0A2SLkq",
-  "companyId": "FalconX",
-  "companySlug": "falconx",
-  "companyName": "FalconX",
-  "companyStaffCount": 631,
+  "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/5232847007",
+  "companyDomain": "verkada.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8fef24f24d7f5794eed4923eb25b16ff_304_160?Expires=1861920000&Signature=GrVmnkwsr5pViGdcRkXENC1~-cN3J7WMdPab~Q947Jpu8OsXzdwLQ",
+  "companyId": "Verkada",
+  "companySlug": "verkada",
+  "companyName": "Verkada",
+  "companyStaffCount": 2877,
   "considerHosted": false,
   "departments": [
-   "Legal"
+   "Enterprise SLED"
   ],
   "jobTypes": [
    {
-    "id": "finance-professional",
-    "label": "Finance",
-    "value": "finance-professional"
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    },
    {
-    "id": "legal-counsel",
-    "label": "Legal Counsel",
-    "value": "legal-counsel"
+    "id": "enterprise-account-executive",
+    "label": "Enterprise Account Executive",
+    "value": "enterprise-account-executive"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Finance",
-    "label": "Finance",
-    "value": "Finance"
-   },
-   {
-    "id": "Legal",
-    "label": "Legal",
-    "value": "Legal"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "New York City, NY"
+   "Hawaii, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 162000, 'maxValue': 219000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 240000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    },
    {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Contractual Agreements",
+    "label": "Contractual Agreements",
+    "value": "resume:Contractual Agreements"
    },
    {
-    "id": "resume:Inform",
-    "label": "Inform",
-    "value": "resume:Inform"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:SLED",
+    "label": "SLED",
+    "value": "resume:SLED"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    },
    {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Contractual Agreements",
+    "label": "Contractual Agreements",
+    "value": "resume:Contractual Agreements"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Inform",
-    "label": "Inform",
-    "value": "resume:Inform"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:SLED",
+    "label": "SLED",
+    "value": "resume:SLED"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Channel Partners",
+    "label": "Channel Partnership",
+    "value": "resume:Channel Partners"
    },
    {
-    "id": "resume:Liquidity",
-    "label": "Liquidity",
-    "value": "resume:Liquidity"
+    "id": "resume:Channel Sales",
+    "label": "Channel Sales",
+    "value": "resume:Channel Sales"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "manager": false,
@@ -277,28 +272,16 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    5,
+    6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 4,
-  "maxYearsExp": 7,
+  "minYearsExp": 10,
   "regions": [
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -307,30 +290,36 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
-    "id": "Investment/Trading",
-    "label": "Investment/Trading",
-    "value": "Investment/Trading"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-09-10T10:12:14Z",
-  "title": "Counsel, Structured Finance",
-  "url": "https://job-boards.greenhouse.io/falconx/jobs/4732701005",
-  "jobId": "4732701005",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Consumer Electronics",
+    "label": "Consumer Electronics",
+    "value": "Consumer Electronics"
+   },
+   {
+    "id": "Hardware",
+    "label": "Hardware",
+    "value": "Hardware"
+   }
+  ],
+  "timeStamp": "2026-09-10T17:49:30Z",
+  "title": "Enterprise Account Executive (Hawaii - SLED)",
+  "url": "https://job-boards.greenhouse.io/verkada/jobs/5232847007",
+  "jobId": "5232847007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1830126140528, 'matchScore': 0, 'ageScore': 0.9830126140528549, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1925437707997, 'matchScore': 0, 'ageScore': 0.9925437707997685, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

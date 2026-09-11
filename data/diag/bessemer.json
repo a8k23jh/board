@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-11T00:15:24Z",
+ "run": "2026-09-11T04:51:47Z",
  "homepage": {
   "status": 200,
   "bytes": 21729
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"},\"server\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"b316254f9588cebde9b904bf619017d7ec692f7d\",\"date\":\"2026-09-11T01:28:20.296Z\"},\"server\":{\"git\":\"b316254f9588cebde9b904bf619017d7ec692f7d\",\"date\":\"2026-09-11T01:28:20.296Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "dkkvVGejWf\u2026",
+  "session.sig": "pB7gfaySrY\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzQxMDA0MmRjNDUyZTExOTVmNTNiNzM5Mzk4YjlmOTciLCAic2NvcmUiOiAxLjEwMTQxNDk1NDAzNjI2NTR9"
+   "sequence": "eyJfaWQiOiAiNzA3ZDQyNmI3MTBmNzNkMWNlY2U1NGQ2MTdhN2EyZmQiLCAic2NvcmUiOiAxLjEwMTE1NjI4NDAwNTAxNTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,137 +163,153 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/Claroty/F2.004/sales-director-healthcare-northeast/07.277",
-  "companyDomain": "claroty.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/79c671128b9509d30616f65102ceb9c5_304_160?Expires=1861920000&Signature=NALcIcAq-mp8YgbS~UCOjIiVE5JlytobLXOGEwTHfpK12WrF~v55X",
-  "companyId": "Claroty",
-  "companySlug": "claroty",
-  "companyName": "Claroty",
-  "companyStaffCount": 858,
+  "applyUrl": "https://careers.withwaymo.com/jobs?gh_jid=8193295",
+  "companyDomain": "waymo.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a04896dd1b05b675a7df4762df4fe370_112_160?Expires=1861920000&Signature=EdNw9DPJCYDLbjxU5eEwWJ1ELHjFa3WTlbbzZOXLlSmfSbgMtG32z",
+  "companyId": "Waymo",
+  "companySlug": "waymo",
+  "companyName": "Waymo",
+  "companyStaffCount": 3661,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Pipeline (N/A)"
+  ],
   "jobTypes": [
    {
-    "id": "sales-director",
-    "label": "Sales Director",
-    "value": "sales-director"
+    "id": "school-student",
+    "label": "Intern",
+    "value": "school-student"
+   },
+   {
+    "id": "data-scientist",
+    "label": "Data Scientist",
+    "value": "data-scientist"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "United States"
+   "Mountain View, California"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Mountain View, California",
+    "label": "Mountain View, California",
+    "value": "Mountain View, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 85, 'maxValue': 85, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:Neural Networks",
+    "label": "Deep Learning",
+    "value": "resume:Neural Networks"
    },
    {
-    "id": "resume:Multitasking skills",
-    "label": "Multitasking skills",
-    "value": "resume:Multitasking skills"
+    "id": "resume:Perception",
+    "label": "Perception",
+    "value": "resume:Perception"
    },
    {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:ServiceNow",
-    "label": "ServiceNow",
-    "value": "resume:ServiceNow"
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:Neural Networks",
+    "label": "Deep Learning",
+    "value": "resume:Neural Networks"
    },
    {
-    "id": "resume:Multitasking skills",
-    "label": "Multitasking skills",
-    "value": "resume:Multitasking skills"
+    "id": "resume:Perception",
+    "label": "Perception",
+    "value": "resume:Perception"
    },
    {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:ServiceNow",
-    "label": "ServiceNow",
-    "value": "resume:ServiceNow"
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    },
    {
-    "id": "resume:Exceeding Quotas",
-    "label": "Exceeding Quotas",
-    "value": "resume:Exceeding Quotas"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    },
    {
-    "id": "resume:Force Management",
-    "label": "Force Management",
-    "value": "resume:Force Management"
+    "id": "resume:TensorFlow",
+    "label": "TensorFlow",
+    "value": "resume:TensorFlow"
    },
    {
-    "id": "resume:POC",
-    "label": "POC",
-    "value": "resume:POC"
+    "id": "resume:Robotics",
+    "label": "Robotics",
+    "value": "resume:Robotics"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -304,29 +320,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Security",
-    "label": "Security",
-    "value": "Security"
+    "id": "Autonomous Vehicles",
+    "label": "Autonomous Vehicles",
+    "value": "Autonomous Vehicles"
    }
   ],
-  "timeStamp": "2026-09-10T13:29:36Z",
-  "title": "Sales Director, Healthcare (Northeast)",
-  "url": "https://www.comeet.com/jobs/Claroty/F2.004/sales-director-healthcare-northeast/07.277",
-  "jobId": "07.277",
-  "remote": true,
+  "timeStamp": "2026-09-10T18:57:41Z",
+  "title": "2027 Summer Intern, PhD, Machine Learning, Computer Vision",
+  "url": "https://careers.withwaymo.com/jobs?gh_jid=8193295",
+  "jobId": "8193295",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1870963477538, 'matchScore': 0, 'ageScore': 0.987096347753858, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1941357353788, 'matchScore': 0, 'ageScore': 0.994135735378858, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "intern",
+    "label": "Intern",
+    "value": "intern"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "intern"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-11T00:15:24Z",
+ "run": "2026-09-11T04:51:47Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"},\"server\":{\"git\":\"1630eba96a3cf58db98ac589c7fd95587d12eb3a\",\"date\":\"2026-09-10T18:53:43.478Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"b316254f9588cebde9b904bf619017d7ec692f7d\",\"date\":\"2026-09-11T01:28:20.296Z\"},\"server\":{\"git\":\"b316254f9588cebde9b904bf619017d7ec692f7d\",\"date\":\"2026-09-11T01:28:20.296Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "U_LuH7P6v4\u2026",
+  "session.sig": "hW6tQXGh3v\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDVkYTFiYzg0MDFjZTIyZmZkMmUxMjdjN2Q0MTFjNzMiLCAic2NvcmUiOiAxLjEzNTMyNjU5NDkzMzI1NjN9"
+   "sequence": "eyJfaWQiOiAiYjgxZDlkODMzMGE0ZDM3MzgxNjM3N2MwYmU5NDVhZWYiLCAic2NvcmUiOiAxLjE1NjYyMzE1MzY3MzYxMTF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,116 +144,125 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8789882002?gh_jid=8789882002",
-  "companyDomain": "spacex.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
-  "companyId": "SpaceX",
-  "companySlug": "spacex",
-  "companyName": "SpaceX",
-  "companyStaffCount": 20713,
+  "applyUrl": "https://upway.pinpointhq.com/en/postings/1023d40d-59cc-4a3d-990f-776968607e22",
+  "companyDomain": "upway.shop",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e618604b2d448248ea2e4366adea149a_160_160?Expires=1861920000&Signature=OLoxHPV0OsD3CbpNDkgmInIdGXqmKNbMDjxJtgutlzicjUpIRlntp",
+  "companyId": "Upway",
+  "companySlug": "upway",
+  "companyName": "Upway",
+  "companyStaffCount": 294,
   "considerHosted": false,
-  "departments": [
-   "Global Business & Government Affairs"
-  ],
+  "departments": [],
   "jobTypes": [
+   {
+    "id": "sales-mid-maket",
+    "label": "Sales Mid Market",
+    "value": "sales-mid-maket"
+   },
    {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "Washington, DC"
+   "Rotterdam, Zuid-Holland, NL"
   ],
   "normalizedLocations": [
    {
-    "id": "Washington, District Of Columbia",
-    "label": "Washington, DC",
-    "value": "Washington, District Of Columbia"
+    "id": "Rotterdam Area, Netherlands",
+    "label": "Rotterdam Area, Netherlands",
+    "value": "Rotterdam Area, Netherlands"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 50000, 'maxValue': 65000, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Driving Results",
-    "label": "Driving Results",
-    "value": "resume:Driving Results"
+    "id": "resume:Field Sales",
+    "label": "Field Sales",
+    "value": "resume:Field Sales"
    },
    {
-    "id": "resume:Federal Government Sales",
-    "label": "Federal Government Sales",
-    "value": "resume:Federal Government Sales"
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:System Integrators",
-    "label": "System Integrators",
-    "value": "resume:System Integrators"
+    "id": "resume:Strategic Negotiations",
+    "label": "Strategic Negotiations",
+    "value": "resume:Strategic Negotiations"
    },
    {
-    "id": "resume:Space Systems",
-    "label": "Space Systems",
-    "value": "resume:Space Systems"
+    "id": "resume:FMCG",
+    "label": "FMCG",
+    "value": "resume:FMCG"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Driving Results",
-    "label": "Driving Results",
-    "value": "resume:Driving Results"
+    "id": "resume:Field Sales",
+    "label": "Field Sales",
+    "value": "resume:Field Sales"
    },
    {
-    "id": "resume:Federal Government Sales",
-    "label": "Federal Government Sales",
-    "value": "resume:Federal Government Sales"
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:System Integrators",
-    "label": "System Integrators",
-    "value": "resume:System Integrators"
+    "id": "resume:Strategic Negotiations",
+    "label": "Strategic Negotiations",
+    "value": "resume:Strategic Negotiations"
    },
    {
-    "id": "resume:Space Systems",
-    "label": "Space Systems",
-    "value": "resume:Space Systems"
+    "id": "resume:FMCG",
+    "label": "FMCG",
+    "value": "resume:FMCG"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:DNA",
+    "label": "DNA",
+    "value": "resume:DNA"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    }
   ],
   "manager": true,
@@ -270,44 +279,46 @@
    ]
   ],
   "minYearsExp": 2,
+  "maxYearsExp": 5,
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
-  "timeStamp": "2026-09-10T09:43:04Z",
-  "title": "Sr. Program Development Manager",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8789882002?gh_jid=8789882002",
-  "jobId": "8789882002",
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
+  "markets": [
+   {
+    "id": "ECommerce",
+    "label": "eCommerce",
+    "value": "ECommerce"
+   }
+  ],
+  "timeStamp": "2026-09-10T20:07:10Z",
+  "title": "SMB Partnership Manager - Netherlands",
+  "url": "https://upway.pinpointhq.com/en/postings/1023d40d-59cc-4a3d-990f-776968607e22",
+  "jobId": "1023d40d-59cc-4a3d-990f-776968607e22",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1816780347489, 'matchScore': 0, 'ageScore': 0.9816780347488426, 'richnessScore': 2}",
+  "scores": "{'score': 1001.19547528974, 'matchScore': 0, 'ageScore': 0.9954752897399691, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -315,16 +326,10 @@
     "id": "manager",
     "label": "Manager/Senior Manager",
     "value": "manager"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "senior"
+   "manager"
   ],
   "isFeatured": false
  },
