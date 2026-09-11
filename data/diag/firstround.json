@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-11T14:29:57Z",
+ "run": "2026-09-11T18:39:20Z",
  "homepage": {
   "status": 200,
   "bytes": 16697
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "JkvNdX3app\u2026",
+  "session.sig": "ZwHEhXy5cI\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGRhOGQ3ZTBlNzYwZTE0NGExNWE2YjlhZTliMjc4ZTYiLCAic2NvcmUiOiAxLjAyODIyOTUyNjU5MjU5Mjd9"
+   "sequence": "eyJfaWQiOiAiNmM5NGYxNzA0MTYzYjFjNGRiMGZkNDY5MDk3ODJmNDgiLCAic2NvcmUiOiAxLjAyMjE1OTgwNDI0NzI5OTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,111 +155,123 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/5235121007",
-  "companyDomain": "verkada.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8fef24f24d7f5794eed4923eb25b16ff_304_160?Expires=1861920000&Signature=GrVmnkwsr5pViGdcRkXENC1~-cN3J7WMdPab~Q947Jpu8OsXzdwLQ",
-  "companyId": "Verkada",
-  "companySlug": "verkada",
-  "companyName": "Verkada",
-  "companyStaffCount": 2877,
+  "applyUrl": "https://job-boards.greenhouse.io/planetlabs/jobs/8185816",
+  "companyDomain": "planet.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/81daece2b738e7da2b2f0d7cb6f3cb9b_240_160?Expires=1861920000&Signature=i69ljP0imOrwJp3yJ28r~12-MqQGYr4EnAbq4LoC51M-tB-p~Bgmk",
+  "companyId": "Planet",
+  "companySlug": "planet",
+  "companyName": "Planet",
+  "companyStaffCount": 1682,
   "considerHosted": false,
   "departments": [
-   "Hardware Operations"
+   "Infrastructure and IT Applications"
   ],
   "jobTypes": [
    {
-    "id": "procurement",
-    "label": "Procurement Manager",
-    "value": "procurement"
+    "id": "site-reliability-engineer",
+    "label": "Site Reliability Engineer (SRE)",
+    "value": "site-reliability-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Supply Chain",
-    "label": "Supply Chain",
-    "value": "Supply Chain"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "San Mateo, CA United States"
+   "Berlin, Germany",
+   "Haarlem, Netherlands",
+   "Ljubljana, Slovenia"
   ],
   "normalizedLocations": [
    {
-    "id": "San Mateo, California",
-    "label": "San Mateo, California",
-    "value": "San Mateo, California"
+    "id": "Netherlands",
+    "label": "Netherlands",
+    "value": "Netherlands"
+   },
+   {
+    "id": "Berlin, Berlin, Germany",
+    "label": "Berlin, Germany",
+    "value": "Berlin, Berlin, Germany"
+   },
+   {
+    "id": "Slovenia",
+    "label": "Slovenia",
+    "value": "Slovenia"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 64900, 'maxValue': 96300, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Google Apps Script",
-    "label": "Google Apps Script",
-    "value": "resume:Google Apps Script"
+    "id": "resume:Okta",
+    "label": "Okta",
+    "value": "resume:Okta"
    },
    {
-    "id": "resume:BigQuery",
-    "label": "BigQuery",
-    "value": "resume:BigQuery"
+    "id": "resume:Git",
+    "label": "Git",
+    "value": "resume:Git"
    },
    {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
+    "id": "resume:Active Directory",
+    "label": "Active Directory",
+    "value": "resume:Active Directory"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Google Apps Script",
-    "label": "Google Apps Script",
-    "value": "resume:Google Apps Script"
+    "id": "resume:Okta",
+    "label": "Okta",
+    "value": "resume:Okta"
    },
    {
-    "id": "resume:BigQuery",
-    "label": "BigQuery",
-    "value": "resume:BigQuery"
+    "id": "resume:Git",
+    "label": "Git",
+    "value": "resume:Git"
    },
    {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
+    "id": "resume:Active Directory",
+    "label": "Active Directory",
+    "value": "resume:Active Directory"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:NetSuite",
-    "label": "NetSuite",
-    "value": "resume:NetSuite"
+    "id": "resume:PKI",
+    "label": "PKI",
+    "value": "resume:PKI"
    },
    {
-    "id": "resume:Scripting",
-    "label": "Scripting",
-    "value": "resume:Scripting"
+    "id": "resume:SCIM",
+    "label": "SCIM",
+    "value": "resume:SCIM"
    },
    {
-    "id": "resume:Warehouse Management",
-    "label": "Warehouse Management",
-    "value": "resume:Warehouse Management"
+    "id": "resume:Access Control",
+    "label": "Access Control",
+    "value": "resume:Access Control"
    }
   ],
   "manager": false,
@@ -269,24 +281,23 @@
    [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 4,
+  "minYearsExp": 6,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
    }
   ],
   "stages": [
@@ -304,34 +315,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Consumer Electronics",
-    "label": "Consumer Electronics",
-    "value": "Consumer Electronics"
-   },
-   {
-    "id": "Hardware",
-    "label": "Hardware",
-    "value": "Hardware"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
    }
   ],
-  "timeStamp": "2026-09-10T22:28:25Z",
-  "title": "Supply Chain Manager, Data Operations",
-  "url": "https://job-boards.greenhouse.io/verkada/jobs/5235121007",
-  "jobId": "5235121007",
+  "timeStamp": "2026-09-11T04:08:45Z",
+  "title": "Senior Site Reliability Engineer",
+  "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8185816",
+  "jobId": "8185816",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1820042712588, 'matchScore': 0, 'ageScore': 0.9820042712588735, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1810783431616, 'matchScore': 0, 'ageScore': 0.9810783431616512, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "senior"
   ],
   "isFeatured": false
  },

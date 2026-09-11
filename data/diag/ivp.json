@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-11T14:29:57Z",
+ "run": "2026-09-11T18:39:20Z",
  "homepage": {
   "status": 200,
   "bytes": 19512
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "QAgoJAofua\u2026",
+  "session.sig": "aG4PTGQLBx\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzRkMjRhMDQ3YThiNzgyYzg0MzA4NDliMzcyNDgxMDMiLCAic2NvcmUiOiAxLjExNjE1Njc5NDEyNX0="
+   "sequence": "eyJfaWQiOiAiNGU2YjFmZWQ1ODU3ODIxMWQ2ZmQ2ODY0MGNhOWM1MTIiLCAic2NvcmUiOiAxLjEwODY1MDA3MTE2ODIxfQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -128,44 +128,53 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/cf99602c-3f06-4443-bc8a-e03d0a67ad4c?utm_source=careers.ivp.com",
-  "companyDomain": "perplexity.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
-  "companyId": "Perplexity AI",
-  "companySlug": "perplexity-ai",
-  "companyName": "Perplexity AI",
-  "companyStaffCount": 1415,
+  "applyUrl": "http://www.circleci.com/careers/jobs/8790028002/?gh_jid=8790028002",
+  "companyDomain": "circleci.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a772b16008e6e7046492388e9d850a7e_240_160?Expires=1861920000&Signature=TyGm8IOj77e-7sLq1uzayyGGywVO1X0ZBBfLtDAP7WJRhPquh7fRX",
+  "companyId": "CircleCI",
+  "companySlug": "circleci",
+  "companyName": "CircleCI",
+  "companyStaffCount": 360,
   "considerHosted": false,
   "departments": [
-   "Business"
+   "Customer Success"
   ],
   "jobTypes": [
    {
-    "id": "business-ops",
-    "label": "Business Operations",
-    "value": "business-ops"
+    "id": "customer-success-mananger",
+    "label": "Customer Success Manager",
+    "value": "customer-success-mananger"
+   },
+   {
+    "id": "program-manager",
+    "label": "Program Manager",
+    "value": "program-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Business Development",
-    "label": "Business Development",
-    "value": "Business Development"
+    "id": "Project Management",
+    "label": "Project Management",
+    "value": "Project Management"
+   },
+   {
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
    }
   ],
   "locations": [
-   "San Francisco, California, United States",
    "San Francisco"
   ],
   "normalizedLocations": [
@@ -175,76 +184,76 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 170000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 84500, 'maxValue': 105500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    },
    {
-    "id": "resume:Business Intelligence Tools",
-    "label": "Business Intelligence Tools",
-    "value": "resume:Business Intelligence Tools"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Video Production",
+    "label": "Video Production",
+    "value": "resume:Video Production"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Ontology Web Language",
+    "label": "Ontology Web Language",
+    "value": "resume:Ontology Web Language"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
+   },
+   {
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Video Production",
+    "label": "Video Production",
+    "value": "resume:Video Production"
+   },
+   {
+    "id": "resume:Ontology Web Language",
+    "label": "Ontology Web Language",
+    "value": "resume:Ontology Web Language"
+   },
+   {
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
-   },
-   {
-    "id": "resume:Business Intelligence Tools",
-    "label": "Business Intelligence Tools",
-    "value": "resume:Business Intelligence Tools"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
-   },
-   {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
-   },
-   {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
    }
   ],
   "manager": false,
@@ -252,20 +261,20 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 3,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -273,32 +282,38 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
    }
   ],
-  "timeStamp": "2026-09-11T00:00:00Z",
-  "title": "Strategic Business Operations Lead, API",
-  "url": "https://jobs.ashbyhq.com/Perplexity/cf99602c-3f06-4443-bc8a-e03d0a67ad4c",
-  "jobId": "cf99602c-3f06-4443-bc8a-e03d0a67ad4c",
+  "timeStamp": "2026-09-11T10:53:31Z",
+  "title": "Digital Customer Success Program Manager",
+  "url": "http://www.circleci.com/careers/jobs/8790028002/?gh_jid=8790028002",
+  "jobId": "8790028002",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1845808584175, 'matchScore': 0, 'ageScore': 0.9845808584174383, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1911708953653, 'matchScore': 0, 'ageScore': 0.991170895365355, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -306,16 +321,10 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
