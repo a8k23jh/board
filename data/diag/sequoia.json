@@ -1,9 +1,9 @@
 {
  "board": "sequoia",
- "run": "2026-09-11T18:39:20Z",
+ "run": "2026-09-11T21:47:20Z",
  "homepage": {
   "status": 200,
-  "bytes": 20230
+  "bytes": 20231
  },
  "slugs_tried": [
   "sequoia-capital",
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Pf8HPt8x9C\u2026",
+  "session.sig": "0ouJDAAGX_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDM0NmZmOTViM2U0NzZhYTY5Mjg3Mjc1OTVjZWI3NTEiLCAic2NvcmUiOiAxLjEzNzg3NzE5NzI3NDY5MTN9"
+   "sequence": "eyJfaWQiOiAiOGY3MmQxNmEwNTkyYTg2MGM2YjdlNGIxZGFjOTUwYTYiLCAic2NvcmUiOiAxLjEzNTMzMDg0NzEwNzI1MzJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,33 +144,33 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8194576",
-  "companyDomain": "reddit.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
-  "companyId": "Reddit",
-  "companySlug": "reddit",
-  "companyName": "reddit",
-  "companyStaffCount": 4495,
+  "applyUrl": "https://job-boards.greenhouse.io/securityscorecard/jobs/8193480",
+  "companyDomain": "securityscorecard.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/12fc05e03f9f6ce6b8a0f7e1caaf25d0_320_160?Expires=1861920000&Signature=QGipmiWTgR5Ngkys5T7tDnWAupJpFx6WlgzWdRIWSInN2t6vNR50K",
+  "companyId": "SecurityScorecard",
+  "companySlug": "securityscorecard",
+  "companyName": "SecurityScorecard",
+  "companyStaffCount": 596,
   "considerHosted": false,
   "departments": [
-   "Ads Engineering"
+   "Technology"
   ],
   "jobTypes": [
    {
-    "id": "frontend-engineer",
-    "label": "Frontend Engineer",
-    "value": "frontend-engineer"
+    "id": "software-architect",
+    "label": "Software Architect",
+    "value": "software-architect"
    }
   ],
   "jobFunctions": [
@@ -181,85 +181,85 @@
    }
   ],
   "locations": [
-   "Remote - United States"
+   "Hybrid (Austin, TX)"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 164200, 'maxValue': 229900, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 240000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Test Automation",
-    "label": "Test Automation",
-    "value": "resume:Test Automation"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Apache Kafka",
+    "label": "Apache Kafka",
+    "value": "resume:Apache Kafka"
    },
    {
-    "id": "resume:Design Patterns",
-    "label": "Design Patterns",
-    "value": "resume:Design Patterns"
+    "id": "resume:OLAP",
+    "label": "OLAP",
+    "value": "resume:OLAP"
    },
    {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
+    "id": "resume:BigQuery",
+    "label": "BigQuery",
+    "value": "resume:BigQuery"
    },
    {
-    "id": "resume:Computer Architecture",
-    "label": "Computer Architecture",
-    "value": "resume:Computer Architecture"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Test Automation",
-    "label": "Test Automation",
-    "value": "resume:Test Automation"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Apache Kafka",
+    "label": "Apache Kafka",
+    "value": "resume:Apache Kafka"
    },
    {
-    "id": "resume:Design Patterns",
-    "label": "Design Patterns",
-    "value": "resume:Design Patterns"
+    "id": "resume:OLAP",
+    "label": "OLAP",
+    "value": "resume:OLAP"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
+    "id": "resume:BigQuery",
+    "label": "BigQuery",
+    "value": "resume:BigQuery"
    },
    {
-    "id": "resume:Computer Architecture",
-    "label": "Computer Architecture",
-    "value": "resume:Computer Architecture"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    },
    {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
+    "id": "resume:Stream Processing",
+    "label": "Stream Processing",
+    "value": "resume:Stream Processing"
    },
    {
-    "id": "resume:JavaScript",
-    "label": "JavaScript",
-    "value": "resume:JavaScript"
+    "id": "resume:Semantic Web",
+    "label": "Semantic Web",
+    "value": "resume:Semantic Web"
    },
    {
-    "id": "resume:Engineering Productivity",
-    "label": "Engineering Productivity",
-    "value": "resume:Engineering Productivity"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "manager": false,
@@ -267,59 +267,76 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 10,
   "regions": [
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Consumer",
-    "label": "Consumer",
-    "value": "Consumer"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Social Networking",
-    "label": "Social Networking",
-    "value": "Social Networking"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-09-11T00:36:55Z",
-  "title": "Frontend Engineer, Ads",
-  "url": "https://job-boards.greenhouse.io/reddit/jobs/8194576",
-  "jobId": "8194576",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1804274801833, 'matchScore': 0, 'ageScore': 0.9804274801832562, 'richnessScore': 2}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
+   }
+  ],
+  "timeStamp": "2026-09-11T10:32:11Z",
+  "title": "Principal Software Architect - Data Platform",
+  "url": "https://job-boards.greenhouse.io/securityscorecard/jobs/8193480",
+  "jobId": "8193480",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1865544662361, 'matchScore': 0, 'ageScore': 0.9865544662361111, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
+   {
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior",
+   "expert"
   ],
   "isFeatured": false
  },

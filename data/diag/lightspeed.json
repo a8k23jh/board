@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-11T18:39:20Z",
+ "run": "2026-09-11T21:47:20Z",
  "homepage": {
   "status": 200,
   "bytes": 21200
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "SQ4yqUml_y\u2026",
+  "session.sig": "81MYETtmyW\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmJlYjcxZmIzNDg0MWU5NWMyMGVjODFiYzkwMDEyNGIiLCAic2NvcmUiOiAxLjE2NTQ1MjI1NDU3NzkzMn0="
+   "sequence": "eyJfaWQiOiAiMGNlNDMzZWJlNTUwZjAxMDhkMjUwOTA5MDA1MGU1YmQiLCAic2NvcmUiOiAxLjE1NzU3Njk1MzQyMTY4MjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,136 +144,106 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8093/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3390,
+  "applyUrl": "https://job-boards.greenhouse.io/daybreakhealth/jobs/5235537007",
+  "companyDomain": "daybreakhealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/728cca131e173c6b4d35776d3b5dec4d_320_160?Expires=1861920000&Signature=rpTT9mlYlsOQtxkdQnFLCoJoIrE3JIBLWdc~WgpOMXN4P6~WC7D9O",
+  "companyId": "Daybreak Health",
+  "companySlug": "daybreak-health",
+  "companyName": "Daybreak Health",
+  "companyStaffCount": 214,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Human Resources"
+  ],
   "jobTypes": [
    {
-    "id": "program-manager",
-    "label": "Program Manager",
-    "value": "program-manager"
-   },
-   {
-    "id": "facilities-manager",
-    "label": "Facilities Manager",
-    "value": "facilities-manager"
+    "id": "recruiter",
+    "label": "Recruiter",
+    "value": "recruiter"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Project Management",
-    "label": "Project Management",
-    "value": "Project Management"
-   },
-   {
-    "id": "Supply Chain",
-    "label": "Supply Chain",
-    "value": "Supply Chain"
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    }
   ],
   "locations": [
-   "Burnaby, BC, Canada",
-   "Infoblox Canada Ltd, BURNABY, CA"
+   "Remote"
   ],
-  "normalizedLocations": [
-   {
-    "id": "Canada",
-    "label": "Canada",
-    "value": "Canada"
-   },
-   {
-    "id": "Burnaby, British Columbia, Canada",
-    "label": "Burnaby, British Columbia, Canada",
-    "value": "Burnaby, British Columbia, Canada"
-   }
-  ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 82400, 'maxValue': 121440, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "normalizedLocations": [],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 80000, 'maxValue': 100000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Knowledge Management",
-    "label": "Knowledge Management",
-    "value": "resume:Knowledge Management"
+    "id": "resume:Behavioral Health",
+    "label": "Behavioral Health",
+    "value": "resume:Behavioral Health"
    },
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    },
    {
-    "id": "resume:Software Project Management",
-    "label": "Software Project Management",
-    "value": "resume:Software Project Management"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Knowledge Management",
-    "label": "Knowledge Management",
-    "value": "resume:Knowledge Management"
+    "id": "resume:Behavioral Health",
+    "label": "Behavioral Health",
+    "value": "resume:Behavioral Health"
    },
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    },
    {
-    "id": "resume:Software Project Management",
-    "label": "Software Project Management",
-    "value": "resume:Software Project Management"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
    },
    {
-    "id": "resume:Real Estate",
-    "label": "Real Estate",
-    "value": "resume:Real Estate"
-   },
-   {
-    "id": "resume:Operational Excellence",
-    "label": "Operational Excellence",
-    "value": "resume:Operational Excellence"
-   },
-   {
-    "id": "resume:Business Operations",
-    "label": "Business Operations",
-    "value": "resume:Business Operations"
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
    }
   ],
   "manager": false,
@@ -281,44 +251,43 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
-  "maxYearsExp": 8,
-  "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   }
-  ],
+  "minYearsExp": 3,
+  "regions": [],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Mental Health Care",
+    "label": "Mental Health Care",
+    "value": "Mental Health Care"
    }
   ],
-  "timeStamp": "2026-09-11T08:57:39Z",
-  "title": "Program Manager, Global Workplace Strategy",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8093/",
-  "jobId": "8093",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1921180696501, 'matchScore': 0, 'ageScore': 0.9921180696500772, 'richnessScore': 2}",
+  "timeStamp": "2026-09-11T10:44:29Z",
+  "title": "Clinical Recruiter (Healthcare)",
+  "url": "https://job-boards.greenhouse.io/daybreakhealth/jobs/5235537007",
+  "jobId": "5235537007",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1869862072172, 'matchScore': 0, 'ageScore': 0.9869862072172068, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

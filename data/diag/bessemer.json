@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-11T18:39:20Z",
+ "run": "2026-09-11T21:47:20Z",
  "homepage": {
   "status": 200,
   "bytes": 21729
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "eZaGiDBNym\u2026",
+  "session.sig": "IANuAhBD18\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDhlMjI1YTljMDYzMTM4MmNjOGJhZTAxZTE2NzVlZWQiLCAic2NvcmUiOiAxLjEwMjc3ODQ4NDA3NDg0NTZ9"
+   "sequence": "eyJfaWQiOiAiYTdlODNhYjlmMThjYjJkM2NkYWE5NmE0NmMwMDIxM2IiLCAic2NvcmUiOiAxLjA5Njk1MDc1NTU1MDkyNn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,120 +152,127 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.smartrecruiters.com/Canva/6000000001396312-staff-software-engineer-video-performance-bay-area-only-",
-  "companyDomain": "canva.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8144f77560d15b22676edf288aa5d016_176_160?Expires=1861920000&Signature=K6e-ByKJ1kkfQgQWKAdBc12FF~vTJprCP13Ku9MxDPLq5kh4Cb3K1",
-  "companyId": "Canva",
-  "companySlug": "canva",
-  "companyName": "Canva",
-  "companyStaffCount": 16046,
+  "applyUrl": "https://www.betterment.com/careers/current-openings/job?gh_jid=8195434&gh_jid=8195434",
+  "companyDomain": "betterment.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d0ccb9d0b85b91cdb6e9accf14f02055_320_160?Expires=1861920000&Signature=cke82HIAYHEtDeWcx-XOWXinPoPc~ohf8eAEnWKa0rq3q7u4jVkYi",
+  "companyId": "Betterment",
+  "companySlug": "betterment",
+  "companyName": "Betterment",
+  "companyStaffCount": 669,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Sales"
+  ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "business-development",
+    "label": "Business Development Professional",
+    "value": "business-development"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   },
+   {
+    "id": "Business Development",
+    "label": "Business Development",
+    "value": "Business Development"
    }
   ],
   "locations": [
-   "San Francisco"
+   "Betterment HQ - New York City"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 262000, 'maxValue': 329000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 60000, 'maxValue': 65000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:concurrency",
-    "label": "Concurrency Design",
-    "value": "resume:concurrency"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Graphics",
-    "label": "Graphics",
-    "value": "resume:Graphics"
+    "id": "resume:Financial Products",
+    "label": "Financial Products",
+    "value": "resume:Financial Products"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:DNA",
+    "label": "DNA",
+    "value": "resume:DNA"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:concurrency",
-    "label": "Concurrency Design",
-    "value": "resume:concurrency"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Graphics",
-    "label": "Graphics",
-    "value": "resume:Graphics"
+    "id": "resume:Financial Products",
+    "label": "Financial Products",
+    "value": "resume:Financial Products"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:DNA",
+    "label": "DNA",
+    "value": "resume:DNA"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:SDR",
+    "label": "SDR",
+    "value": "resume:SDR"
    },
    {
-    "id": "resume:Performance Metrics",
-    "label": "Performance Metrics",
-    "value": "resume:Performance Metrics"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    },
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    }
   ],
   "manager": false,
@@ -273,19 +280,24 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "North America",
@@ -293,49 +305,43 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Design",
-    "label": "Design",
-    "value": "Design"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-09-11T00:18:53.785000Z",
-  "title": "Staff Software Engineer - Video Performance - (Bay area only)",
-  "url": "https://jobs.smartrecruiters.com/Canva/6000000001396312-staff-software-engineer-video-performance-bay-area-only-",
-  "jobId": "6000000001396312",
+  "timeStamp": "2026-09-11T10:51:11Z",
+  "title": "Business Development Representative",
+  "url": "https://www.betterment.com/careers/current-openings/job?gh_jid=8195434&gh_jid=8195434",
+  "jobId": "8195434",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1807436414942, 'matchScore': 0, 'ageScore': 0.980743641494213, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1869419445093, 'matchScore': 0, 'ageScore': 0.9869419445092592, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
