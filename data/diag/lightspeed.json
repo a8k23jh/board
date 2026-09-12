@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-12T19:28:29Z",
+ "run": "2026-09-12T22:24:25Z",
  "homepage": {
   "status": 200,
   "bytes": 21200
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "wbA0GN_J6m\u2026",
+  "session.sig": "sYALOq7udP\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmU5YzliNzc0YzNkNjdlYzY2MjY5NTcxNjNhYzI0ZjciLCAic2NvcmUiOiAxLjE1NjY1NDE1MDc2MTk1OTl9"
+   "sequence": "eyJfaWQiOiAiMmU5YzliNzc0YzNkNjdlYzY2MjY5NTcxNjNhYzI0ZjciLCAic2NvcmUiOiAxLjE1MjE0Nzg0MDAxMzg4OX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -168,6 +168,11 @@
   ],
   "jobTypes": [
    {
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
+   },
+   {
     "id": "fulfillment-specialist",
     "label": "Fulfillment Specialist",
     "value": "fulfillment-specialist"
@@ -176,11 +181,6 @@
     "id": "senior-product-manager",
     "label": "Senior Product Manager",
     "value": "senior-product-manager"
-   },
-   {
-    "id": "product-manager",
-    "label": "Product Manager",
-    "value": "product-manager"
    }
   ],
   "jobFunctions": [
@@ -203,14 +203,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 188000, 'maxValue': 258500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   },
+   {
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
+   },
+   {
     "id": "resume:Marketplace",
     "label": "Marketplace",
     "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Engineering Design",
-    "label": "Engineering Design",
-    "value": "resume:Engineering Design"
    },
    {
     "id": "resume:Finance",
@@ -218,53 +223,48 @@
     "value": "resume:Finance"
    },
    {
-    "id": "resume:3PL",
-    "label": "3PL",
-    "value": "resume:3PL"
-   },
-   {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    }
   ],
   "requiredSkills": [
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Engineering Design",
-    "label": "Engineering Design",
-    "value": "resume:Engineering Design"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:3PL",
-    "label": "3PL",
-    "value": "resume:3PL"
-   },
-   {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
-   },
    {
     "id": "resume:Marketing Strategy",
     "label": "Marketing Strategy",
     "value": "resume:Marketing Strategy"
    },
    {
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
+   },
+   {
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
     "id": "resume:Supply Chain Management",
     "label": "Supply Chain Management",
     "value": "resume:Supply Chain Management"
+   },
+   {
+    "id": "resume:3PL",
+    "label": "3PL",
+    "value": "resume:3PL"
+   },
+   {
+    "id": "resume:Engineering Design",
+    "label": "Engineering Design",
+    "value": "resume:Engineering Design"
    },
    {
     "id": "resume:Sales Enablement",
@@ -338,24 +338,24 @@
   "jobId": "8804240002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1730944677817, 'matchScore': 0, 'ageScore': 0.9730944677816358, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1686804219761, 'matchScore': 0, 'ageScore': 0.9686804219760803, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-12T19:28:29Z",
+ "run": "2026-09-12T22:24:25Z",
  "homepage": {
   "status": 200,
   "bytes": 25229
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "2OfhAnKOGI\u2026",
+  "session.sig": "reKNIL7W6m\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZmMzZjZmOTBhYjM5OTJkZDJiZjIxODllNDhhODM1NjQiLCAic2NvcmUiOiAxLjA5NjU1OTgxMTI3MDQ0NzV9"
+   "sequence": "eyJfaWQiOiAiMzk5NmNhOWE1NTRiMzRmNDcwNTE0NDI2ZGRlYzExMWMiLCAic2NvcmUiOiAxLjA5MjMxNjM2MDg2OTU5ODd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/plaid/55eacfa6-71e0-42ac-8788-04dc1e5fd694?utm_source=jobs.felicis.com",
+  "applyUrl": "https://jobs.ashbyhq.com/plaid/5e56c0a6-3caa-4255-8c63-95c29cbc2a32?utm_source=jobs.felicis.com",
   "companyDomain": "plaid.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/78d9a9b92e908221047c49e96457d95c_232_160?Expires=1861920000&Signature=DSr6q-uZW5klFb6WrasPyJLIcHR0eryRofJrSwXKweDLMWrDixU0z",
   "companyId": "Plaid",
@@ -160,19 +160,19 @@
   ],
   "jobTypes": [
    {
-    "id": "aml-investigator",
-    "label": "AML Investigator",
-    "value": "aml-investigator"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    },
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
    },
    {
-    "id": "manager-data-scientist",
-    "label": "Manager Data Science",
-    "value": "manager-data-scientist"
+    "id": "machine-learning-engineer",
+    "label": "Machine Learning Engineer",
+    "value": "machine-learning-engineer"
    }
   ],
   "jobFunctions": [
@@ -182,9 +182,9 @@
     "value": "Engineering"
    },
    {
-    "id": "Analyst",
-    "label": "Analyst",
-    "value": "Analyst"
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
    }
   ],
   "locations": [
@@ -200,27 +200,32 @@
     "value": "San Francisco, California"
    },
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
     "id": "Seattle, Washington",
     "label": "Seattle, Washington",
     "value": "Seattle, Washington"
-   }
-  ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 216000, 'maxValue': 329400, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
-  "skills": [
-   {
-    "id": "resume:Product Analytics",
-    "label": "Product Analytics",
-    "value": "resume:Product Analytics"
    },
    {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   }
+  ],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 228960, 'maxValue': 315360, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "skills": [
+   {
+    "id": "resume:Inform",
+    "label": "Inform",
+    "value": "resume:Inform"
+   },
+   {
+    "id": "resume:Fraud",
+    "label": "Fraud",
+    "value": "resume:Fraud"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
     "id": "resume:Machine Learning",
@@ -228,38 +233,16 @@
     "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   },
-   {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Product Analytics",
-    "label": "Product Analytics",
-    "value": "resume:Product Analytics"
-   },
-   {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Inform",
+    "label": "Inform",
+    "value": "resume:Inform"
    },
    {
     "id": "resume:Fraud",
@@ -267,49 +250,63 @@
     "value": "resume:Fraud"
    },
    {
-    "id": "resume:Causal reasoning and diagnostics",
-    "label": "Causal reasoning and diagnostics",
-    "value": "resume:Causal reasoning and diagnostics"
-   },
-   {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   },
-   {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
-  "manager": true,
+  "preferredSkills": [
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Statistics",
+    "label": "Statistics",
+    "value": "resume:Statistics"
+   },
+   {
+    "id": "resume:Fraud Detection",
+    "label": "Fraud Detection",
+    "value": "resume:Fraud Detection"
+   },
+   {
+    "id": "resume:Patents",
+    "label": "Patents",
+    "value": "resume:Patents"
+   }
+  ],
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
+  "minYearsExp": 4,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "North America",
@@ -342,23 +339,23 @@
    }
   ],
   "timeStamp": "2026-09-12T00:00:00Z",
-  "title": "Data Science Manager - Fraud",
-  "url": "https://jobs.ashbyhq.com/plaid/55eacfa6-71e0-42ac-8788-04dc1e5fd694",
-  "jobId": "55eacfa6-71e0-42ac-8788-04dc1e5fd694",
+  "title": "Senior Machine Learning Engineer (Research Scientist) - Fraud",
+  "url": "https://jobs.ashbyhq.com/plaid/5e56c0a6-3caa-4255-8c63-95c29cbc2a32",
+  "jobId": "5e56c0a6-3caa-4255-8c63-95c29cbc2a32",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1762037025929, 'matchScore': 0, 'ageScore': 0.9762037025929784, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1715211628931, 'matchScore': 0, 'ageScore': 0.9715211628931327, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "senior"
   ],
   "isFeatured": false
  },
