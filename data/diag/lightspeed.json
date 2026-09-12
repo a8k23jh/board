@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-12T00:23:03Z",
+ "run": "2026-09-12T04:50:16Z",
  "homepage": {
   "status": 200,
   "bytes": 21200
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Ep9Nagr016\u2026",
+  "session.sig": "dPgQD-iK8c\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMGNlNDMzZWJlNTUwZjAxMDhkMjUwOTA5MDA1MGU1YmQiLCAic2NvcmUiOiAxLjE1NzU3Njk1MzQyMTY4MjJ9"
+   "sequence": "eyJfaWQiOiAiOTI0OGY0ZGYxYzYzMzNkNDExNTU3MWE5ODE1MDM4NDMiLCAic2NvcmUiOiAxLjE3OTMwNjA5MjAzNzAzN30="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,22 +155,27 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/daybreakhealth/jobs/5235537007",
-  "companyDomain": "daybreakhealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/728cca131e173c6b4d35776d3b5dec4d_320_160?Expires=1861920000&Signature=rpTT9mlYlsOQtxkdQnFLCoJoIrE3JIBLWdc~WgpOMXN4P6~WC7D9O",
-  "companyId": "Daybreak Health",
-  "companySlug": "daybreak-health",
-  "companyName": "Daybreak Health",
-  "companyStaffCount": 214,
+  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5236234007?gh_jid=5236234007",
+  "companyDomain": "anduril.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d88ae975c1da94cefaeb3234d6fb00f_238_160?Expires=1861920000&Signature=nPYp1JlJZNMHspk2VuS1aXOsrIHWSiYZCa1mo5aQgLIbL2xCLdDD0",
+  "companyId": "Anduril Industries",
+  "companySlug": "anduril-industries",
+  "companyName": "Anduril Industries",
+  "companyStaffCount": 9633,
   "considerHosted": false,
   "departments": [
-   "Human Resources"
+   "People : Talent Acquisition"
   ],
   "jobTypes": [
    {
     "id": "recruiter",
     "label": "Recruiter",
     "value": "recruiter"
+   },
+   {
+    "id": "quality-control",
+    "label": "Quality Control",
+    "value": "quality-control"
    }
   ],
   "jobFunctions": [
@@ -181,69 +186,85 @@
    }
   ],
   "locations": [
-   "Remote"
+   "Costa Mesa, California, United States"
   ],
-  "normalizedLocations": [],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 80000, 'maxValue': 100000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "normalizedLocations": [
+   {
+    "id": "Costa Mesa, California",
+    "label": "Costa Mesa, California",
+    "value": "Costa Mesa, California"
+   }
+  ],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 146000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Behavioral Health",
-    "label": "Behavioral Health",
-    "value": "resume:Behavioral Health"
+    "id": "resume:NAS",
+    "label": "NAS",
+    "value": "resume:NAS"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Metrology",
+    "label": "Metrology",
+    "value": "resume:Metrology"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Data Extraction",
+    "label": "Data Extraction",
+    "value": "resume:Data Extraction"
    },
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Process Improvement",
+    "label": "Process Improvement",
+    "value": "resume:Process Improvement"
    },
    {
-    "id": "resume:Full-cycle Recruiting",
-    "label": "Full-cycle Recruiting",
-    "value": "resume:Full-cycle Recruiting"
+    "id": "resume:Quality Control",
+    "label": "Quality Control",
+    "value": "resume:Quality Control"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Behavioral Health",
-    "label": "Behavioral Health",
-    "value": "resume:Behavioral Health"
+    "id": "resume:NAS",
+    "label": "NAS",
+    "value": "resume:NAS"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Metrology",
+    "label": "Metrology",
+    "value": "resume:Metrology"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Data Extraction",
+    "label": "Data Extraction",
+    "value": "resume:Data Extraction"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Process Improvement",
+    "label": "Process Improvement",
+    "value": "resume:Process Improvement"
    },
    {
-    "id": "resume:Full-cycle Recruiting",
-    "label": "Full-cycle Recruiting",
-    "value": "resume:Full-cycle Recruiting"
+    "id": "resume:Quality Control",
+    "label": "Quality Control",
+    "value": "resume:Quality Control"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Hiring Practices",
+    "label": "Hiring Practices",
+    "value": "resume:Hiring Practices"
+   },
+   {
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
+   },
+   {
+    "id": "resume:Statistical Process Control",
+    "label": "SPC",
+    "value": "resume:Statistical Process Control"
    }
   ],
   "manager": false,
@@ -251,21 +272,37 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 3,
-  "regions": [],
+  "minYearsExp": 8,
+  "regions": [
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   }
+  ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -276,29 +313,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Mental Health Care",
-    "label": "Mental Health Care",
-    "value": "Mental Health Care"
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
    }
   ],
-  "timeStamp": "2026-09-11T10:44:29Z",
-  "title": "Clinical Recruiter (Healthcare)",
-  "url": "https://job-boards.greenhouse.io/daybreakhealth/jobs/5235537007",
-  "jobId": "5235537007",
-  "remote": true,
+  "timeStamp": "2026-09-11T18:28:03Z",
+  "title": "Senior Technical Hardware Recruiter, Quality Control",
+  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236234007?gh_jid=5236234007",
+  "jobId": "5236234007",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1869862072172, 'matchScore': 0, 'ageScore': 0.9869862072172068, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1930211151466, 'matchScore': 0, 'ageScore': 0.993021115146605, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

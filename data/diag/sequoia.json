@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-12T00:23:03Z",
+ "run": "2026-09-12T04:50:16Z",
  "homepage": {
   "status": 200,
   "bytes": 20231
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "PUcrNgPMDG\u2026",
+  "session.sig": "sfi2Rg1q5_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGY3MmQxNmEwNTkyYTg2MGM2YjdlNGIxZGFjOTUwYTYiLCAic2NvcmUiOiAxLjEzNTMzMDg0NzEwNzI1MzJ9"
+   "sequence": "eyJfaWQiOiAiYTJjNWQ0ZTUwZDk3Y2NjYWFlOWJhYzE2Y2Q4YjA0ZmYiLCAic2NvcmUiOiAxLjE1ODkwODEzMjcxMDI2MjR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,22 +155,32 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/securityscorecard/jobs/8193480",
-  "companyDomain": "securityscorecard.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/12fc05e03f9f6ce6b8a0f7e1caaf25d0_320_160?Expires=1861920000&Signature=QGipmiWTgR5Ngkys5T7tDnWAupJpFx6WlgzWdRIWSInN2t6vNR50K",
-  "companyId": "SecurityScorecard",
-  "companySlug": "securityscorecard",
-  "companyName": "SecurityScorecard",
-  "companyStaffCount": 596,
+  "applyUrl": "https://job-boards.greenhouse.io/mercury/jobs/6190742004",
+  "companyDomain": "mercury.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f98054b413ecb703192095377d043aea_320_160?Expires=1861920000&Signature=ma3OPcXFl99XqBt5juUNn1IOSW7hoByAEPbz4Wm9ukCILr1auKCAL",
+  "companyId": "Mercury Banking for Startups",
+  "companySlug": "mercury-banking-for-startups",
+  "companyName": "Mercury",
+  "companyStaffCount": 1738,
   "considerHosted": false,
   "departments": [
-   "Technology"
+   "Support"
   ],
   "jobTypes": [
    {
-    "id": "software-architect",
-    "label": "Software Architect",
-    "value": "software-architect"
+    "id": "it-engineer",
+    "label": "IT Support Engineer",
+    "value": "it-engineer"
+   },
+   {
+    "id": "customer-support",
+    "label": "Customer Support",
+    "value": "customer-support"
+   },
+   {
+    "id": "admin-engineer",
+    "label": "System Administrator",
+    "value": "admin-engineer"
    }
   ],
   "jobFunctions": [
@@ -178,88 +188,105 @@
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
+   },
+   {
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
    }
   ],
   "locations": [
-   "Hybrid (Austin, TX)"
+   "San Francisco, CA, New York, NY, Portland, OR,",
+   "Remote within Canada",
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Austin, Texas",
-    "label": "Austin, Texas",
-    "value": "Austin, Texas"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   },
+   {
+    "id": "Canada",
+    "label": "Canada",
+    "value": "Canada"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 240000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 138800, 'maxValue': 192800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Guru",
+    "label": "Guru",
+    "value": "resume:Guru"
    },
    {
-    "id": "resume:Apache Kafka",
-    "label": "Apache Kafka",
-    "value": "resume:Apache Kafka"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:OLAP",
-    "label": "OLAP",
-    "value": "resume:OLAP"
+    "id": "resume:Knowledge Management",
+    "label": "Knowledge Management",
+    "value": "resume:Knowledge Management"
    },
    {
-    "id": "resume:BigQuery",
-    "label": "BigQuery",
-    "value": "resume:BigQuery"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Guru",
+    "label": "Guru",
+    "value": "resume:Guru"
    },
    {
-    "id": "resume:Apache Kafka",
-    "label": "Apache Kafka",
-    "value": "resume:Apache Kafka"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:OLAP",
-    "label": "OLAP",
-    "value": "resume:OLAP"
+    "id": "resume:Knowledge Management",
+    "label": "Knowledge Management",
+    "value": "resume:Knowledge Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:BigQuery",
-    "label": "BigQuery",
-    "value": "resume:BigQuery"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Stream Processing",
-    "label": "Stream Processing",
-    "value": "resume:Stream Processing"
+    "id": "resume:Creative Solutions",
+    "label": "Creative Solutions",
+    "value": "resume:Creative Solutions"
    },
    {
-    "id": "resume:Semantic Web",
-    "label": "Semantic Web",
-    "value": "resume:Semantic Web"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
    }
   ],
   "manager": false,
@@ -267,37 +294,38 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 3,
+  "maxYearsExp": 5,
   "regions": [
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -308,18 +336,23 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Banking",
+    "label": "Banking",
+    "value": "Banking"
+   },
+   {
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-09-11T10:32:11Z",
-  "title": "Principal Software Architect - Data Platform",
-  "url": "https://job-boards.greenhouse.io/securityscorecard/jobs/8193480",
-  "jobId": "8193480",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1865544662361, 'matchScore': 0, 'ageScore': 0.9865544662361111, 'richnessScore': 2}",
+  "timeStamp": "2026-09-11T18:46:49Z",
+  "title": "Senior Customer Support Systems Administrator",
+  "url": "https://job-boards.greenhouse.io/mercury/jobs/6190742004",
+  "jobId": "6190742004",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1929991762581, 'matchScore': 0, 'ageScore': 0.9929991762581019, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -327,16 +360,10 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
-   },
-   {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "expert"
+   "senior"
   ],
   "isFeatured": false
  },
