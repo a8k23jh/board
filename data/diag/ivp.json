@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-12T17:17:10Z",
+ "run": "2026-09-12T19:28:29Z",
  "homepage": {
   "status": 200,
   "bytes": 19512
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "aQJnpO3w-7\u2026",
+  "session.sig": "dDUF0_oNcG\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjkzZDBmZTkyYTcwNDRkNWZhOGY5YWM4M2VlMGRhMTUiLCAic2NvcmUiOiAxLjExMjkwOTc3Mzk5OTYxNH0="
+   "sequence": "eyJfaWQiOiAiNzEzNDBjOTE1ZDllNjk4N2Q0NzE0ZWMxZjg4ZDUwMWIiLCAic2NvcmUiOiAxLjEwODc4MTAzMTEzMjcxNn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -139,138 +139,177 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lyrahealth/807ffb4d-c7a5-4ad2-8955-d8f6a3923877?lever-source%5B%5D=careers.ivp.com",
-  "companyDomain": "lyrahealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/143cd3a237462e2e7a2ccd47b2d73fac_96_160?Expires=1861920000&Signature=NN4EpXx0uHmRsAc6GKWU1E0aaw8tKG4yCj2QYcyRkjmu-TasPWWqFM",
-  "companyId": "Lyra Health",
-  "companySlug": "lyra-health",
-  "companyName": "Lyra Health",
-  "companyStaffCount": 2800,
+  "applyUrl": "https://jobs.ashbyhq.com/langchain/e6d2bc1e-e0b9-4076-be01-ef8681863c01?utm_source=careers.ivp.com",
+  "companyDomain": "langchain.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3f11b6520bfc6af8df7ecaa4d8ea3c09_320_160?Expires=1861920000&Signature=tD1wB1pr9YQN58QRpea7RT54pzwlWGwp3sz6czkIGyUH4Gjn3o7dO",
+  "companyId": "Langchain",
+  "companySlug": "langchain",
+  "companyName": "LangChain",
+  "companyStaffCount": 425,
   "considerHosted": false,
   "departments": [
-   "Go-To-Market"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    },
    {
-    "id": "compensation-manager",
-    "label": "Compensation Manager",
-    "value": "compensation-manager"
+    "id": "fullstack-engineer",
+    "label": "Full Stack Engineer",
+    "value": "fullstack-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "United States"
+   "Cambridge, MA, United States",
+   "New York, New York, United States",
+   "Boston, MA",
+   "New York, NY"
   ],
   "normalizedLocations": [
+   {
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "Greater Boston Area",
+    "label": "Boston",
+    "value": "Greater Boston Area"
+   },
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 106000, 'maxValue': 146000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Incentive Programs",
-    "label": "Incentive Programs",
-    "value": "resume:Incentive Programs"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:Sales Operations",
-    "label": "Sales Operations",
-    "value": "resume:Sales Operations"
+    "id": "resume:Developer Tools",
+    "label": "Developer Tools",
+    "value": "resume:Developer Tools"
    },
    {
-    "id": "resume:Data Integrity",
-    "label": "Data Integrity",
-    "value": "resume:Data Integrity"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
-    "id": "resume:Operational audits",
-    "label": "Operational Auditing",
-    "value": "resume:Operational audits"
+    "id": "resume:Redis",
+    "label": "Redis",
+    "value": "resume:Redis"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Incentive Programs",
-    "label": "Incentive Programs",
-    "value": "resume:Incentive Programs"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:Sales Operations",
-    "label": "Sales Operations",
-    "value": "resume:Sales Operations"
+    "id": "resume:Developer Tools",
+    "label": "Developer Tools",
+    "value": "resume:Developer Tools"
    },
    {
-    "id": "resume:Data Integrity",
-    "label": "Data Integrity",
-    "value": "resume:Data Integrity"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
-    "id": "resume:Operational audits",
-    "label": "Operational Auditing",
-    "value": "resume:Operational audits"
+    "id": "resume:Redis",
+    "label": "Redis",
+    "value": "resume:Redis"
    },
    {
-    "id": "resume:ICM",
-    "label": "ICM",
-    "value": "resume:ICM"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    },
    {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -281,34 +320,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Digital Health",
-    "label": "Digital Health",
-    "value": "Digital Health"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    },
    {
-    "id": "Mental Health Care",
-    "label": "Mental Health Care",
-    "value": "Mental Health Care"
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
    }
   ],
-  "timeStamp": "2026-09-11T21:18:50.117000Z",
-  "title": "Variable Compensation Manager",
-  "url": "https://jobs.lever.co/lyrahealth/807ffb4d-c7a5-4ad2-8955-d8f6a3923877",
-  "jobId": "807ffb4d-c7a5-4ad2-8955-d8f6a3923877",
-  "remote": true,
+  "timeStamp": "2026-09-12T00:00:00Z",
+  "title": "Senior Fullstack Engineer,  AI Observability & Evals Platform",
+  "url": "https://jobs.ashbyhq.com/langchain/e6d2bc1e-e0b9-4076-be01-ef8681863c01",
+  "jobId": "e6d2bc1e-e0b9-4076-be01-ef8681863c01",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1760924594445, 'matchScore': 0, 'ageScore': 0.9760924594444444, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1757598177527, 'matchScore': 0, 'ageScore': 0.9757598177527006, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "senior"
   ],
   "isFeatured": false
  },

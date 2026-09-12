@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-12T17:17:10Z",
+ "run": "2026-09-12T19:28:29Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "v4ry_Cv5Kj\u2026",
+  "session.sig": "D0QT3Dd01K\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTQ0MGFlODgwZjY1MTM4ZDA3YWE1M2Y1ODE4YzE0MTEiLCAic2NvcmUiOiAxLjA5OTMyNjYwNDYwOTk1Mzd9"
+   "sequence": "eyJfaWQiOiAiZDE5MjNhOTFkMzFiM2Y4NzczODk3ZDM3YmIxNmQ0ZWIiLCAic2NvcmUiOiAxLjA5NTkwMzI5Mzc5ODIyNTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -146,12 +146,12 @@
    "companyLogos",
    "companyName",
    "companySlug",
+   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
@@ -163,138 +163,123 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6190301004",
-  "companyDomain": "apollo.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
-  "companyId": "Apollo",
-  "companySlug": "apollo",
-  "companyName": "Apollo",
+  "applyUrl": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-Arlington/Transportation-Policy-Consultant_44443",
+  "companyDomain": "guidehouse.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8bc0bb4bf4e114d6038755ebfb6d5f24_320_160?Expires=1861920000&Signature=pCmxuJlEyug4URyLV8ZDc4EssRYCvClteAtfAIJfQavWlUAl68jVh",
+  "companyId": "Guidehouse",
+  "companySlug": "guidehouse",
+  "companyName": "Guidehouse",
+  "companyStaffCount": 15158,
   "considerHosted": false,
-  "departments": [
-   "People"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "program-manager",
-    "label": "Program Manager",
-    "value": "program-manager"
+    "id": "consultant",
+    "label": "Consultant",
+    "value": "consultant"
    },
    {
-    "id": "human-resources",
-    "label": "HR",
-    "value": "human-resources"
+    "id": "policy-professional",
+    "label": "Policy and Public Affairs",
+    "value": "policy-professional"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Project Management",
-    "label": "Project Management",
-    "value": "Project Management"
-   },
-   {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
+    "id": "Consulting",
+    "label": "Consulting",
+    "value": "Consulting"
    }
   ],
   "locations": [
-   "Hybrid, San Francisco"
+   " VA, Arlington, US ",
+   "United States of America",
+   "DC, Washington, US"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Washington",
+    "label": "Washington State",
+    "value": "Washington"
+   },
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 163000, 'maxValue': 235000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 74000, 'maxValue': 124000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
+   {
+    "id": "resume:SharePoint",
+    "label": "SharePoint",
+    "value": "resume:SharePoint"
+   },
+   {
+    "id": "resume:Content Management",
+    "label": "Content Management",
+    "value": "resume:Content Management"
+   },
    {
     "id": "resume:Automation",
     "label": "Automation",
     "value": "resume:Automation"
    },
    {
-    "id": "resume:New Market Expansion",
-    "label": "New Market Expansion",
-    "value": "resume:New Market Expansion"
+    "id": "resume:Management Consulting",
+    "label": "Management Consulting",
+    "value": "resume:Management Consulting"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Knowledge Management",
+    "label": "Knowledge Management",
+    "value": "resume:Knowledge Management"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:SharePoint",
+    "label": "SharePoint",
+    "value": "resume:SharePoint"
+   },
+   {
+    "id": "resume:Content Management",
+    "label": "Content Management",
+    "value": "resume:Content Management"
+   },
+   {
     "id": "resume:Automation",
     "label": "Automation",
     "value": "resume:Automation"
-   },
-   {
-    "id": "resume:New Market Expansion",
-    "label": "New Market Expansion",
-    "value": "resume:New Market Expansion"
-   },
-   {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Management Consulting",
+    "label": "Management Consulting",
+    "value": "resume:Management Consulting"
    },
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
-   },
-   {
-    "id": "resume:Change Management",
-    "label": "Change Management",
-    "value": "resume:Change Management"
-   },
-   {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Knowledge Management",
+    "label": "Knowledge Management",
+    "value": "resume:Knowledge Management"
    }
   ],
   "manager": false,
-  "consultant": false,
+  "consultant": true,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
+   ],
+   [
+    3,
+    4
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 3,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
@@ -304,43 +289,58 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Business Services",
+    "label": "Business Services",
+    "value": "Business Services"
+   },
+   {
+    "id": "Management Consulting",
+    "label": "Management Consulting",
+    "value": "Management Consulting"
    }
   ],
-  "timeStamp": "2026-09-11T19:02:09Z",
-  "title": "People Strategic Programs Manager",
-  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6190301004",
-  "jobId": "6190301004",
+  "timeStamp": "2026-09-12T00:00:00Z",
+  "title": "Transportation Policy Consultant",
+  "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-Arlington/Transportation-Policy-Consultant_44443",
+  "jobId": "caec9bce4aaa100220bc1f4bae6b0000",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1731183288557, 'matchScore': 0, 'ageScore': 0.9731183288557099, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1759210652916, 'matchScore': 0, 'ageScore': 0.9759210652916667, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
-  "isFeatured": false
+  "isFeatured": false,
+  "llmFeatures": "{'summary': \"Supports Policy Program Managers with technical guidance to improve transportation program efficiency and effectiveness. Analyzes program needs, supports policy and communications activit"
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"

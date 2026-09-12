@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-12T17:17:10Z",
+ "run": "2026-09-12T19:28:29Z",
  "homepage": {
   "status": 200,
   "bytes": 20602
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "hO4Oqo-S1y\u2026",
+  "session.sig": "02YjGL19Ac\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWQ3MzNmMzBlNTY1NTRhYjc1ZDhlYmNmMDRmMjk1ZTAiLCAic2NvcmUiOiAxLjExNDEzMjMyNzc1NTQwMTJ9"
+   "sequence": "eyJfaWQiOiAiYmU5OTdhNWRlYzVkNWU1ZTliOTIyMDNmM2ZlMTg3MDciLCAic2NvcmUiOiAxLjEwOTU5NDgyMzQ4NDk1Mzh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,33 +136,43 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/wispr-flow/a093f7f3-d472-4f5e-bf88-96493915960a?utm_source=careers.nea.com",
-  "companyDomain": "wisprflow.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ef27eda2af1014aa995707ffe7664822_208_160?Expires=1861920000&Signature=mKRyjUza8tBcMLaoWT4tgKbq1qc-ikK2clgh37miUJxm~Gv1sM0Z9",
-  "companyId": "Wispr Flow",
-  "companySlug": "wispr-flow",
-  "companyName": "Wispr Flow",
-  "companyStaffCount": 125,
+  "applyUrl": "https://jobs.ashbyhq.com/plaid/55eacfa6-71e0-42ac-8788-04dc1e5fd694?utm_source=careers.nea.com",
+  "companyDomain": "plaid.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/78d9a9b92e908221047c49e96457d95c_232_160?Expires=1861920000&Signature=DSr6q-uZW5klFb6WrasPyJLIcHR0eryRofJrSwXKweDLMWrDixU0z",
+  "companyId": "Plaid",
+  "companySlug": "plaid",
+  "companyName": "Plaid",
+  "companyStaffCount": 2484,
   "considerHosted": false,
   "departments": [
-   "Software - Product"
+   "Data"
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "aml-investigator",
+    "label": "AML Investigator",
+    "value": "aml-investigator"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "manager-data-scientist",
+    "label": "Manager Data Science",
+    "value": "manager-data-scientist"
    }
   ],
   "jobFunctions": [
@@ -170,13 +180,18 @@
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
+   },
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
    }
   ],
   "locations": [
-   "San Francisco, California, United States",
-   "",
-   "San Francisco",
-   "Remote (US)"
+   "New York, New York, United States",
+   "New York City Office",
+   "Seattle Office",
+   "San Francisco HQ"
   ],
   "normalizedLocations": [
    {
@@ -185,27 +200,27 @@
     "value": "San Francisco, California"
    },
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 350000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 216000, 'maxValue': 329400, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Product Analytics",
+    "label": "Product Analytics",
+    "value": "resume:Product Analytics"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
-   },
-   {
-    "id": "resume:Immigration Law",
-    "label": "Immigration Law",
-    "value": "resume:Immigration Law"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    },
    {
     "id": "resume:Machine Learning",
@@ -213,104 +228,137 @@
     "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   },
+   {
+    "id": "resume:Fraud",
+    "label": "Fraud",
+    "value": "resume:Fraud"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Product Analytics",
+    "label": "Product Analytics",
+    "value": "resume:Product Analytics"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    },
-   {
-    "id": "resume:Immigration Law",
-    "label": "Immigration Law",
-    "value": "resume:Immigration Law"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Machine Learning",
     "label": "Machine Learning",
     "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
    }
   ],
-  "manager": false,
+  "preferredSkills": [
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   },
+   {
+    "id": "resume:Fraud",
+    "label": "Fraud",
+    "value": "resume:Fraud"
+   },
+   {
+    "id": "resume:Causal reasoning and diagnostics",
+    "label": "Causal reasoning and diagnostics",
+    "value": "resume:Causal reasoning and diagnostics"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   },
+   {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   }
+  ],
+  "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
    },
    {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
+   },
+   {
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
    }
   ],
   "timeStamp": "2026-09-12T00:00:00Z",
-  "title": "Forward Deployed Engineer",
-  "url": "https://jobs.ashbyhq.com/wispr-flow/a093f7f3-d472-4f5e-bf88-96493915960a",
-  "jobId": "a093f7f3-d472-4f5e-bf88-96493915960a",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.180400632147, 'matchScore': 0, 'ageScore': 0.9804006321469907, 'richnessScore': 2}",
+  "title": "Data Science Manager - Fraud",
+  "url": "https://jobs.ashbyhq.com/plaid/55eacfa6-71e0-42ac-8788-04dc1e5fd694",
+  "jobId": "55eacfa6-71e0-42ac-8788-04dc1e5fd694",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1762037025929, 'matchScore': 0, 'ageScore': 0.9762037025929784, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },
