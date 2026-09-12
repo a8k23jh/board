@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-09-12T09:27:16Z",
+ "run": "2026-09-12T13:39:02Z",
  "homepage": {
   "status": 200,
   "bytes": 26165
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "I6K4xtFSEc\u2026",
+  "session.sig": "1_azdCrfvk\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTYyNDYwN2E1MjA0MWQxZDMxYWM0ZjUxOTE4M2MxZTUiLCAic2NvcmUiOiAxLjEzODg5MDYzNjYzMzEwMn0="
+   "sequence": "eyJfaWQiOiAiNjU5YWQyN2ZhNDEwNjUyYzM2YzBiZjc5ZjU2ZjkwZDkiLCAic2NvcmUiOiAxLjEzMzA5NjEzMzM1NjA5NTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,33 +136,38 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/modular/am9icG9zdDrbpfE9JtgR-MYS5XN027JD?utm_source=jobs.gv.com",
-  "companyDomain": "modular.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c95a2e7d26c1c844eb59f8867714914e_208_160?Expires=1861920000&Signature=tbVqoyu8zBB2zh7C5eiQePYOUcf9BHGZV~XrgsXw2AZFjO73FdfPN",
-  "companyId": "Modular",
-  "companySlug": "modular",
-  "companyName": "Modular",
-  "companyStaffCount": 379,
+  "applyUrl": "https://jobs.ashbyhq.com/plaid/85cd5d07-9920-45fa-931a-daf8c3558e5b?utm_source=jobs.gv.com",
+  "companyDomain": "plaid.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/78d9a9b92e908221047c49e96457d95c_232_160?Expires=1861920000&Signature=DSr6q-uZW5klFb6WrasPyJLIcHR0eryRofJrSwXKweDLMWrDixU0z",
+  "companyId": "Plaid",
+  "companySlug": "plaid",
+  "companyName": "Plaid",
+  "companyStaffCount": 2484,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Data"
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
+   },
+   {
+    "id": "machine-learning-engineer",
+    "label": "Machine Learning Engineer",
+    "value": "machine-learning-engineer"
    }
   ],
   "jobFunctions": [
@@ -173,70 +178,83 @@
    }
   ],
   "locations": [
-   "United States / Canada"
+   "San Francisco, California, United States",
+   "San Francisco HQ",
+   "Seattle Office",
+   "New York City Office"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 207000, 'maxValue': 324000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 228960, 'maxValue': 315360, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:High Performance Computing",
-    "label": "High Performance Computing",
-    "value": "resume:High Performance Computing"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:LLVM",
-    "label": "LLVM",
-    "value": "resume:LLVM"
+    "id": "resume:Fraud Detection",
+    "label": "Fraud Detection",
+    "value": "resume:Fraud Detection"
    },
    {
-    "id": "resume:Application Software",
-    "label": "Application Software",
-    "value": "resume:Application Software"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:High Performance Computing",
-    "label": "High Performance Computing",
-    "value": "resume:High Performance Computing"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:LLVM",
-    "label": "LLVM",
-    "value": "resume:LLVM"
+    "id": "resume:Fraud Detection",
+    "label": "Fraud Detection",
+    "value": "resume:Fraud Detection"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Application Software",
-    "label": "Application Software",
-    "value": "resume:Application Software"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    },
    {
     "id": "resume:Machine Learning",
@@ -244,14 +262,14 @@
     "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
+    "id": "resume:Scikit-learn",
+    "label": "Scikit-learn",
+    "value": "resume:Scikit-learn"
    },
    {
-    "id": "resume:Profiling tools",
-    "label": "Profiling tools",
-    "value": "resume:Profiling tools"
+    "id": "resume:Fraud",
+    "label": "Fraud",
+    "value": "resume:Fraud"
    }
   ],
   "manager": false,
@@ -259,64 +277,64 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 7,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI/ML",
-    "label": "AI/ML",
-    "value": "AI/ML"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    },
    {
-    "id": "Hardware",
-    "label": "Hardware",
-    "value": "Hardware"
-   },
-   {
-    "id": "Infrastructure",
-    "label": "Infrastructure",
-    "value": "Infrastructure"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
    }
   ],
-  "timeStamp": "2026-09-11T23:58:22Z",
-  "title": "Senior AI Runtime Engineer",
-  "url": "https://jobs.gem.com/modular/am9icG9zdDrbpfE9JtgR-MYS5XN027JD",
-  "jobId": "am9icG9zdDrbpfE9JtgR-MYS5XN027JD",
+  "timeStamp": "2026-09-12T00:00:00Z",
+  "title": "Senior Machine Learning Engineer - Fraud",
+  "url": "https://jobs.ashbyhq.com/plaid/85cd5d07-9920-45fa-931a-daf8c3558e5b",
+  "jobId": "85cd5d07-9920-45fa-931a-daf8c3558e5b",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1927339777103, 'matchScore': 0, 'ageScore': 0.9927339777102624, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1845348384074, 'matchScore': 0, 'ageScore': 0.9845348384074074, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

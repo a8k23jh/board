@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-12T09:27:16Z",
+ "run": "2026-09-12T13:39:02Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "YGl_lmA4aY\u2026",
+  "session.sig": "IngnEEG1Ln\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzQ3YWRkY2U0NjY5YjUyMTFmYWY1Mjk5MWExZGUyYTciLCAic2NvcmUiOiAxLjExMTkwMjk5MDgxNDgxNDh9"
+   "sequence": "eyJfaWQiOiAiMzQ3YWRkY2U0NjY5YjUyMTFmYWY1Mjk5MWExZGUyYTciLCAic2NvcmUiOiAxLjEwMzg1OTIwMDE1NDcwNjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -146,7 +146,6 @@
    "companyLogos",
    "companyName",
    "companySlug",
-   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
@@ -157,122 +156,127 @@
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/halcyon/jobs/6188819004",
-  "companyDomain": "halcyon.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/59409644a76835982f36ca458bb40887_288_160?Expires=1861920000&Signature=Dhe8ZY24VWxK2DnvFsgjT7o2S18qa4ssjk3vRZFNWc9jQGoXkoFnX",
-  "companyId": "Halcyon",
-  "companySlug": "halcyon",
-  "companyName": "Halcyon",
-  "companyStaffCount": 468,
+  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6190301004",
+  "companyDomain": "apollo.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
+  "companyId": "Apollo",
+  "companySlug": "apollo",
+  "companyName": "Apollo",
   "considerHosted": false,
   "departments": [
-   "G&A: Security - CISO"
+   "People"
   ],
   "jobTypes": [
    {
-    "id": "security-engineer",
-    "label": "Security Engineer",
-    "value": "security-engineer"
+    "id": "human-resources",
+    "label": "HR",
+    "value": "human-resources"
    },
    {
-    "id": "security-professional",
-    "label": "Security Professional",
-    "value": "security-professional"
+    "id": "program-manager",
+    "label": "Program Manager",
+    "value": "program-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
+   },
+   {
+    "id": "Project Management",
+    "label": "Project Management",
+    "value": "Project Management"
    }
   ],
   "locations": [
-   "Remote, US"
+   "Hybrid, San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 163000, 'maxValue': 235000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Adaptive security",
-    "label": "Adaptive security",
-    "value": "resume:Adaptive security"
+    "id": "resume:Sales & Marketing",
+    "label": "Sales & Marketing",
+    "value": "resume:Sales & Marketing"
    },
    {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
+    "id": "resume:Strategic Thinking",
+    "label": "Strategic Thinking",
+    "value": "resume:Strategic Thinking"
    },
    {
-    "id": "resume:Vulnerability Management",
-    "label": "Vulnerability Management",
-    "value": "resume:Vulnerability Management"
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
    },
    {
-    "id": "resume:Information Security",
-    "label": "Information Security",
-    "value": "resume:Information Security"
+    "id": "resume:Vendor Management",
+    "label": "Vendor Management",
+    "value": "resume:Vendor Management"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Adaptive security",
-    "label": "Adaptive security",
-    "value": "resume:Adaptive security"
+    "id": "resume:Sales & Marketing",
+    "label": "Sales & Marketing",
+    "value": "resume:Sales & Marketing"
    },
    {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
+    "id": "resume:Strategic Thinking",
+    "label": "Strategic Thinking",
+    "value": "resume:Strategic Thinking"
    },
    {
-    "id": "resume:Vulnerability Management",
-    "label": "Vulnerability Management",
-    "value": "resume:Vulnerability Management"
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Information Security",
-    "label": "Information Security",
-    "value": "resume:Information Security"
+    "id": "resume:Vendor Management",
+    "label": "Vendor Management",
+    "value": "resume:Vendor Management"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Disaster Recovery",
-    "label": "Disaster Recovery",
-    "value": "resume:Disaster Recovery"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Blackberry",
-    "label": "Blackberry",
-    "value": "resume:Blackberry"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Policy Development",
-    "label": "Policy Development",
-    "value": "resume:Policy Development"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    }
   ],
   "manager": false,
@@ -280,28 +284,29 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 7,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
-   {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
    {
     "id": "Growth",
     "label": "Growth",
@@ -311,29 +316,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-09-11T17:35:33Z",
-  "title": "Senior Information Security Specialist",
-  "url": "https://job-boards.greenhouse.io/halcyon/jobs/6188819004",
-  "jobId": "6188819004",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1837687673576, 'matchScore': 0, 'ageScore': 0.9837687673576389, 'richnessScore': 2}",
+  "timeStamp": "2026-09-11T19:02:09Z",
+  "title": "People Strategic Programs Manager",
+  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6190301004",
+  "jobId": "6190301004",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1771117370382, 'matchScore': 0, 'ageScore': 0.9771117370381944, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "manager"
   ],
   "isFeatured": false
  },
