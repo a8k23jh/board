@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-12T13:39:02Z",
+ "run": "2026-09-12T17:17:10Z",
  "homepage": {
   "status": 200,
   "bytes": 25229
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "i2oyRKT_XK\u2026",
+  "session.sig": "eHqFVdAa1Y\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzk5NmNhOWE1NTRiMzRmNDcwNTE0NDI2ZGRlYzExMWMiLCAic2NvcmUiOiAxLjEwNTA0ODE5NzgxNTk3MjN9"
+   "sequence": "eyJfaWQiOiAiMzk5NmNhOWE1NTRiMzRmNDcwNTE0NDI2ZGRlYzExMWMiLCAic2NvcmUiOiAxLjEwMDU5MzE3NDYxNjg5ODJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/plaid/85cd5d07-9920-45fa-931a-daf8c3558e5b?utm_source=jobs.felicis.com",
+  "applyUrl": "https://jobs.ashbyhq.com/plaid/5e56c0a6-3caa-4255-8c63-95c29cbc2a32?utm_source=jobs.felicis.com",
   "companyDomain": "plaid.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/78d9a9b92e908221047c49e96457d95c_232_160?Expires=1861920000&Signature=DSr6q-uZW5klFb6WrasPyJLIcHR0eryRofJrSwXKweDLMWrDixU0z",
   "companyId": "Plaid",
@@ -160,17 +160,27 @@
   ],
   "jobTypes": [
    {
+    "id": "machine-learning-engineer",
+    "label": "Machine Learning Engineer",
+    "value": "machine-learning-engineer"
+   },
+   {
     "id": "senior-software-engineer",
     "label": "Senior Software Engineer",
     "value": "senior-software-engineer"
    },
    {
-    "id": "machine-learning-engineer",
-    "label": "Machine Learning Engineer",
-    "value": "machine-learning-engineer"
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
    }
   ],
   "jobFunctions": [
+   {
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
+   },
    {
     "id": "Engineering",
     "label": "Engineering",
@@ -178,10 +188,10 @@
    }
   ],
   "locations": [
-   "San Francisco, California, United States",
-   "San Francisco HQ",
+   "New York, New York, United States",
+   "New York City Office",
    "Seattle Office",
-   "New York City Office"
+   "San Francisco HQ"
   ],
   "normalizedLocations": [
    {
@@ -203,58 +213,58 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 228960, 'maxValue': 315360, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Inform",
+    "label": "Inform",
+    "value": "resume:Inform"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Patents",
+    "label": "Patents",
+    "value": "resume:Patents"
    },
    {
     "id": "resume:Fraud Detection",
     "label": "Fraud Detection",
     "value": "resume:Fraud Detection"
-   },
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Inform",
+    "label": "Inform",
+    "value": "resume:Inform"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Patents",
+    "label": "Patents",
+    "value": "resume:Patents"
    },
    {
     "id": "resume:Fraud Detection",
     "label": "Fraud Detection",
     "value": "resume:Fraud Detection"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
    },
    {
     "id": "resume:Machine Learning",
@@ -262,14 +272,14 @@
     "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Scikit-learn",
-    "label": "Scikit-learn",
-    "value": "resume:Scikit-learn"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    }
   ],
   "manager": false,
@@ -277,16 +287,26 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 4,
   "regions": [
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "West Coast",
@@ -297,16 +317,6 @@
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -329,12 +339,12 @@
    }
   ],
   "timeStamp": "2026-09-12T00:00:00Z",
-  "title": "Senior Machine Learning Engineer - Fraud",
-  "url": "https://jobs.ashbyhq.com/plaid/85cd5d07-9920-45fa-931a-daf8c3558e5b",
-  "jobId": "85cd5d07-9920-45fa-931a-daf8c3558e5b",
+  "title": "Senior Machine Learning Engineer (Research Scientist) - Fraud",
+  "url": "https://jobs.ashbyhq.com/plaid/5e56c0a6-3caa-4255-8c63-95c29cbc2a32",
+  "jobId": "5e56c0a6-3caa-4255-8c63-95c29cbc2a32",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1845348384074, 'matchScore': 0, 'ageScore': 0.9845348384074074, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1803749575466, 'matchScore': 0, 'ageScore': 0.9803749575466821, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

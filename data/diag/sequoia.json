@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-12T13:39:02Z",
+ "run": "2026-09-12T17:17:10Z",
  "homepage": {
   "status": 200,
   "bytes": 20231
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "LHpfP_B9Wu\u2026",
+  "session.sig": "35wsrD3vOB\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTU4ZDQ2OGE2YzA5MDZkMTM5MzMyNDJhN2FjMGI5OTUiLCAic2NvcmUiOiAxLjE1MDY2NjUxODc0NjkxMzZ9"
+   "sequence": "eyJfaWQiOiAiMWJiZjdiNGU3OGI1OGMyMjIyZGU5NTkxZTI1Mzk3M2EiLCAic2NvcmUiOiAxLjE0NjU4MDgzNDQxNzgyNH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -173,14 +173,9 @@
     "value": "people-manager"
    },
    {
-    "id": "marketing-acquisition",
-    "label": "Marketing Acquisition",
-    "value": "marketing-acquisition"
-   },
-   {
-    "id": "marketing-engagement",
-    "label": "Marketing Engagement",
-    "value": "marketing-engagement"
+    "id": "marketing-growth",
+    "label": "Marketing Growth",
+    "value": "marketing-growth"
    },
    {
     "id": "user-marketing",
@@ -188,9 +183,14 @@
     "value": "user-marketing"
    },
    {
-    "id": "marketing-growth",
-    "label": "Marketing Growth",
-    "value": "marketing-growth"
+    "id": "marketing-engagement",
+    "label": "Marketing Engagement",
+    "value": "marketing-engagement"
+   },
+   {
+    "id": "marketing-acquisition",
+    "label": "Marketing Acquisition",
+    "value": "marketing-acquisition"
    }
   ],
   "jobFunctions": [
@@ -214,68 +214,24 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Messaging and Positioning",
-    "label": "Messaging and Positioning",
-    "value": "resume:Messaging and Positioning"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   },
-   {
-    "id": "resume:Demand Generation",
-    "label": "Demand Generation",
-    "value": "resume:Demand Generation"
-   },
-   {
     "id": "resume:Enterprise Sales",
     "label": "Enterprise Sales",
     "value": "resume:Enterprise Sales"
-   }
-  ],
-  "requiredSkills": [
+   },
    {
     "id": "resume:Messaging and Positioning",
     "label": "Messaging and Positioning",
     "value": "resume:Messaging and Positioning"
    },
    {
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Demand Generation",
-    "label": "Demand Generation",
-    "value": "resume:Demand Generation"
-   },
-   {
-    "id": "resume:Enterprise Sales",
-    "label": "Enterprise Sales",
-    "value": "resume:Enterprise Sales"
-   },
-   {
-    "id": "resume:Hardware Engineering",
-    "label": "Hardware Engineering",
-    "value": "resume:Hardware Engineering"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
    },
    {
     "id": "resume:Growth Marketing",
@@ -283,11 +239,60 @@
     "value": "resume:Growth Marketing"
    }
   ],
+  "requiredSkills": [
+   {
+    "id": "resume:Enterprise Sales",
+    "label": "Enterprise Sales",
+    "value": "resume:Enterprise Sales"
+   },
+   {
+    "id": "resume:Messaging and Positioning",
+    "label": "Messaging and Positioning",
+    "value": "resume:Messaging and Positioning"
+   },
+   {
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Growth Marketing",
+    "label": "Growth Marketing",
+    "value": "resume:Growth Marketing"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   },
+   {
+    "id": "resume:Demand Generation",
+    "label": "Demand Generation",
+    "value": "resume:Demand Generation"
+   }
+  ],
   "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [],
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "West Coast",
     "label": "West Coast",
@@ -297,11 +302,6 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -335,7 +335,7 @@
   "jobId": "7254df9d-7f36-4b8a-a510-42b512ed25d9",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1838047950448, 'matchScore': 0, 'ageScore': 0.983804795044753, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1795566731076, 'matchScore': 0, 'ageScore': 0.9795566731076389, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
