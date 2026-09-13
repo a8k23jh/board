@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-12T22:24:25Z",
+ "run": "2026-09-13T01:10:06Z",
  "homepage": {
   "status": 200,
   "bytes": 21729
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ZIJ4UeeW2Q\u2026",
+  "session.sig": "IQYzcCBqqK\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDFhN2YyYWExYzU2NmQ0YTM3MGYxOGNjNWJlOGEwODUiLCAic2NvcmUiOiAxLjEwNDQzMjAxMzYyNzcwMDZ9"
+   "sequence": "eyJfaWQiOiAiODA3YzZlYWQxN2IzNzlkYmFmZTY5MjJkODBhZDQzNTEiLCAic2NvcmUiOiAxLjEwMDQ0ODE1NDY5MDIwMDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -206,14 +206,9 @@
     "value": "resume:Physics"
    },
    {
-    "id": "resume:SolidWorks",
-    "label": "SolidWorks",
-    "value": "resume:SolidWorks"
-   },
-   {
-    "id": "resume:Consumer Electronics",
-    "label": "Consumer Electronics",
-    "value": "resume:Consumer Electronics"
+    "id": "resume:CAD",
+    "label": "CAD",
+    "value": "resume:CAD"
    },
    {
     "id": "resume:Tolerance Analysis",
@@ -221,9 +216,14 @@
     "value": "resume:Tolerance Analysis"
    },
    {
-    "id": "resume:Product Design",
-    "label": "Product Design",
-    "value": "resume:Product Design"
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
+   },
+   {
+    "id": "resume:Consumer Electronics",
+    "label": "Consumer Electronics",
+    "value": "resume:Consumer Electronics"
    }
   ],
   "requiredSkills": [
@@ -233,26 +233,31 @@
     "value": "resume:Physics"
    },
    {
-    "id": "resume:SolidWorks",
-    "label": "SolidWorks",
-    "value": "resume:SolidWorks"
+    "id": "resume:CAD",
+    "label": "CAD",
+    "value": "resume:CAD"
+   },
+   {
+    "id": "resume:Tolerance Analysis",
+    "label": "Tolerance Analysis",
+    "value": "resume:Tolerance Analysis"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
    },
    {
     "id": "resume:Consumer Electronics",
     "label": "Consumer Electronics",
     "value": "resume:Consumer Electronics"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Tolerance Analysis",
-    "label": "Tolerance Analysis",
-    "value": "resume:Tolerance Analysis"
    },
    {
-    "id": "resume:Product Design",
-    "label": "Product Design",
-    "value": "resume:Product Design"
+    "id": "resume:3D CAD",
+    "label": "3D CAD",
+    "value": "resume:3D CAD"
    },
    {
     "id": "resume:GD&T",
@@ -260,14 +265,9 @@
     "value": "resume:GD&T"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
-   },
-   {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
+    "id": "resume:SolidWorks",
+    "label": "SolidWorks",
+    "value": "resume:SolidWorks"
    }
   ],
   "manager": false,
@@ -286,11 +286,6 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -299,6 +294,11 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -327,7 +327,7 @@
   "jobId": "8197721",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1845856872485, 'matchScore': 0, 'ageScore': 0.9845856872484567, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1806681195359, 'matchScore': 0, 'ageScore': 0.9806681195358796, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
