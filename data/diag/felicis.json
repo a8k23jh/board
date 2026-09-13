@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-13T19:33:03Z",
+ "run": "2026-09-13T22:29:08Z",
  "homepage": {
   "status": 200,
   "bytes": 25229
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "OqXOEz0uAd\u2026",
+  "session.sig": "DgB8RnOJmU\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzA4NDA1YWRiYTBiMjZkNDYzMWY3ZGZkMzk1YWFhZDkiLCAic2NvcmUiOiAxLjA2NDE0MDUwNTM5MDQzMn0="
+   "sequence": "eyJfaWQiOiAiNGZjMzU2YjdkODI3NDI0YmQxZGEzMjRmZTQzNGE5NmIiLCAic2NvcmUiOiAxLjA1OTY0MTM4Mzg4MTE3M30="
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/plaid/e9a9aeab-be90-43f3-b898-63a846cb5777?utm_source=jobs.felicis.com",
+  "applyUrl": "https://jobs.ashbyhq.com/plaid/361c4725-ab72-4895-a3aa-9b642f4927a9?utm_source=jobs.felicis.com",
   "companyDomain": "plaid.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/78d9a9b92e908221047c49e96457d95c_232_160?Expires=1861920000&Signature=DSr6q-uZW5klFb6WrasPyJLIcHR0eryRofJrSwXKweDLMWrDixU0z",
   "companyId": "Plaid",
@@ -160,17 +160,22 @@
   ],
   "jobTypes": [
    {
-    "id": "machine-learning-engineer",
-    "label": "Machine Learning Engineer",
-    "value": "machine-learning-engineer"
+    "id": "aml-investigator",
+    "label": "AML Investigator",
+    "value": "aml-investigator"
    },
    {
-    "id": "senior-software-engineer",
-    "label": "Senior Software Engineer",
-    "value": "senior-software-engineer"
+    "id": "data-scientist",
+    "label": "Data Scientist",
+    "value": "data-scientist"
    }
   ],
   "jobFunctions": [
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   },
    {
     "id": "Engineering",
     "label": "Engineering",
@@ -185,14 +190,14 @@
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    },
    {
     "id": "New York, New York",
@@ -200,76 +205,76 @@
     "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 228960, 'maxValue': 315360, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 176400, 'maxValue': 226800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
-   {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:AWS SageMaker",
-    "label": "AWS SageMaker",
-    "value": "resume:AWS SageMaker"
-   },
-   {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
-   }
-  ],
-  "requiredSkills": [
    {
     "id": "resume:Fraud",
     "label": "Fraud",
     "value": "resume:Fraud"
    },
    {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:AWS SageMaker",
-    "label": "AWS SageMaker",
-    "value": "resume:AWS SageMaker"
-   },
-   {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
-   },
-   {
-    "id": "resume:Airflow",
-    "label": "Airflow",
-    "value": "resume:Airflow"
-   },
-   {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
+    "id": "resume:Product Analytics",
+    "label": "Product Analytics",
+    "value": "resume:Product Analytics"
    },
    {
     "id": "resume:Python",
     "label": "Python",
     "value": "resume:Python"
+   },
+   {
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
+   },
+   {
+    "id": "resume:Fraud",
+    "label": "Fraud",
+    "value": "resume:Fraud"
+   },
+   {
+    "id": "resume:Product Analytics",
+    "label": "Product Analytics",
+    "value": "resume:Product Analytics"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Actionable Insights",
+    "label": "Actionable Insights",
+    "value": "resume:Actionable Insights"
+   },
+   {
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    }
   ],
   "manager": false,
@@ -277,25 +282,21 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 6,
+  "minYearsExp": 3,
+  "maxYearsExp": 5,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "North America",
@@ -303,14 +304,19 @@
     "value": "North America"
    },
    {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -333,23 +339,23 @@
    }
   ],
   "timeStamp": "2026-09-12T00:00:00Z",
-  "title": "Senior Machine Learning Engineer - Infra/Ops - Fraud",
-  "url": "https://jobs.ashbyhq.com/plaid/e9a9aeab-be90-43f3-b898-63a846cb5777",
-  "jobId": "e9a9aeab-be90-43f3-b898-63a846cb5777",
+  "title": "Data Scientist - Fraud",
+  "url": "https://jobs.ashbyhq.com/plaid/361c4725-ab72-4895-a3aa-9b642f4927a9",
+  "jobId": "361c4725-ab72-4895-a3aa-9b642f4927a9",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1425930990277, 'matchScore': 0, 'ageScore': 0.9425930990277778, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1384301956026, 'matchScore': 0, 'ageScore': 0.9384301956026234, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
