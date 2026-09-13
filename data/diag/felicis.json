@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-13T16:28:10Z",
+ "run": "2026-09-13T19:33:03Z",
  "homepage": {
   "status": 200,
   "bytes": 25229
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "7RHvmmTXfA\u2026",
+  "session.sig": "OqXOEz0uAd\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGZjMzU2YjdkODI3NDI0YmQxZGEzMjRmZTQzNGE5NmIiLCAic2NvcmUiOiAxLjA2Nzk0MTA5OTQ3MTA2NDd9"
+   "sequence": "eyJfaWQiOiAiNzA4NDA1YWRiYTBiMjZkNDYzMWY3ZGZkMzk1YWFhZDkiLCAic2NvcmUiOiAxLjA2NDE0MDUwNTM5MDQzMn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "senior-software-engineer",
-    "label": "Senior Software Engineer",
-    "value": "senior-software-engineer"
-   },
-   {
     "id": "machine-learning-engineer",
     "label": "Machine Learning Engineer",
     "value": "machine-learning-engineer"
+   },
+   {
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
   "jobFunctions": [
@@ -185,14 +185,14 @@
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
     "id": "Seattle, Washington",
     "label": "Seattle, Washington",
     "value": "Seattle, Washington"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    },
    {
     "id": "New York, New York",
@@ -208,14 +208,9 @@
     "value": "resume:Fraud"
    },
    {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
-   },
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:ML Infrastructure",
+    "label": "ML Infrastructure",
+    "value": "resume:ML Infrastructure"
    },
    {
     "id": "resume:Machine Learning",
@@ -226,6 +221,11 @@
     "id": "resume:AWS SageMaker",
     "label": "AWS SageMaker",
     "value": "resume:AWS SageMaker"
+   },
+   {
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    }
   ],
   "requiredSkills": [
@@ -235,31 +235,31 @@
     "value": "resume:Fraud"
    },
    {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
+    "id": "resume:ML Infrastructure",
+    "label": "ML Infrastructure",
+    "value": "resume:ML Infrastructure"
    },
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Machine Learning",
     "label": "Machine Learning",
     "value": "resume:Machine Learning"
-   },
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:AWS SageMaker",
     "label": "AWS SageMaker",
     "value": "resume:AWS SageMaker"
    },
    {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
+   },
+   {
+    "id": "resume:Airflow",
+    "label": "Airflow",
+    "value": "resume:Airflow"
    },
    {
     "id": "resume:Apache Spark",
@@ -267,9 +267,9 @@
     "value": "resume:Apache Spark"
    },
    {
-    "id": "resume:Airflow",
-    "label": "Airflow",
-    "value": "resume:Airflow"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "manager": false,
@@ -288,29 +288,29 @@
   "minYearsExp": 6,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -338,7 +338,7 @@
   "jobId": "e9a9aeab-be90-43f3-b898-63a846cb5777",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1470585577678, 'matchScore': 0, 'ageScore': 0.947058557767747, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1425930990277, 'matchScore': 0, 'ageScore': 0.9425930990277778, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
