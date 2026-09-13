@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-13T06:19:29Z",
+ "run": "2026-09-13T12:06:52Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TMhqb5__VP\u2026",
+  "session.sig": "iopmQDLiSA\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDE5MjNhOTFkMzFiM2Y4NzczODk3ZDM3YmIxNmQ0ZWIiLCAic2NvcmUiOiAxLjA4NzcyODE5MjI3MTYwNDl9"
+   "sequence": "eyJfaWQiOiAiZDE5MjNhOTFkMzFiM2Y4NzczODk3ZDM3YmIxNmQ0ZWIiLCAic2NvcmUiOiAxLjA3NTMzMDkyNDg2MzA0fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -187,14 +187,14 @@
   ],
   "jobFunctions": [
    {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
-   },
-   {
     "id": "Project Management",
     "label": "Project Management",
     "value": "Project Management"
+   },
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    }
   ],
   "locations": [
@@ -210,36 +210,58 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 163000, 'maxValue': 235000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:New Market Expansion",
-    "label": "New Market Expansion",
-    "value": "resume:New Market Expansion"
-   },
-   {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
-   },
-   {
     "id": "resume:HubSpot",
     "label": "HubSpot",
     "value": "resume:HubSpot"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Sales & Marketing",
-    "label": "Sales & Marketing",
-    "value": "resume:Sales & Marketing"
+    "id": "resume:HRIS",
+    "label": "HR Systems",
+    "value": "resume:HRIS"
+   },
+   {
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
+   },
+   {
+    "id": "resume:Requirements Gathering",
+    "label": "Requirements Gathering",
+    "value": "resume:Requirements Gathering"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:New Market Expansion",
-    "label": "New Market Expansion",
-    "value": "resume:New Market Expansion"
+    "id": "resume:HubSpot",
+    "label": "HubSpot",
+    "value": "resume:HubSpot"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:HRIS",
+    "label": "HR Systems",
+    "value": "resume:HRIS"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
+   },
+   {
+    "id": "resume:Requirements Gathering",
+    "label": "Requirements Gathering",
+    "value": "resume:Requirements Gathering"
    },
    {
     "id": "resume:Human Resources",
@@ -247,36 +269,14 @@
     "value": "resume:Human Resources"
    },
    {
-    "id": "resume:HubSpot",
-    "label": "HubSpot",
-    "value": "resume:HubSpot"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
    },
    {
-    "id": "resume:Sales & Marketing",
-    "label": "Sales & Marketing",
-    "value": "resume:Sales & Marketing"
-   },
-   {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
-   },
-   {
-    "id": "resume:Apollo",
-    "label": "Apollo",
-    "value": "resume:Apollo"
-   },
-   {
-    "id": "resume:Mergers & Acquisitions",
-    "label": "Mergers & Acquisitions",
-    "value": "resume:Mergers & Acquisitions"
+    "id": "resume:D programming language",
+    "label": "D programming language",
+    "value": "resume:D programming language"
    }
   ],
   "manager": false,
@@ -291,6 +291,11 @@
   "minYearsExp": 7,
   "regions": [
    {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -299,11 +304,6 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -327,7 +327,7 @@
   "jobId": "6190301004",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1602121078298, 'matchScore': 0, 'ageScore': 0.9602121078298611, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1475537732489, 'matchScore': 0, 'ageScore': 0.9475537732488426, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

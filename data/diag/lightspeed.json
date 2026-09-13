@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-13T06:19:29Z",
+ "run": "2026-09-13T12:06:52Z",
  "homepage": {
   "status": 200,
   "bytes": 21200
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "GYHMnGSejM\u2026",
+  "session.sig": "yAWSDhrL9p\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTNiZTNiNzY2MWE5MmZiOTAyOTc0YmI2NTc3YWJmY2QiLCAic2NvcmUiOiAxLjE1NjgwNTI0OTkwNzc5MzJ9"
+   "sequence": "eyJfaWQiOiAiODg4NGM0NWRjOWM0YTU3YmJkZDdhZmQ1NzEyNzFkNTAiLCAic2NvcmUiOiAxLjE0Mzk1NjQ0NTY2MzU4MDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5236498007?gh_jid=5236498007",
+  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5236494007?gh_jid=5236494007",
   "companyDomain": "anduril.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d88ae975c1da94cefaeb3234d6fb00f_238_160?Expires=1861920000&Signature=nPYp1JlJZNMHspk2VuS1aXOsrIHWSiYZCa1mo5aQgLIbL2xCLdDD0",
   "companyId": "Anduril Industries",
@@ -168,9 +168,9 @@
   ],
   "jobTypes": [
    {
-    "id": "senior-software-engineer",
-    "label": "Senior Software Engineer",
-    "value": "senior-software-engineer"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
@@ -181,75 +181,21 @@
    }
   ],
   "locations": [
-   "Waltham, Massachusetts, United States"
+   "Washington, District of Columbia, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Waltham, Massachusetts",
-    "label": "Waltham, Massachusetts",
-    "value": "Waltham, Massachusetts"
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 292000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 191000, 'maxValue': 253000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   },
-   {
-    "id": "resume:Probability",
-    "label": "Probability",
-    "value": "resume:Probability"
-   },
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
-   {
-    "id": "resume:Kalman filtering",
-    "label": "Kalman filtering",
-    "value": "resume:Kalman filtering"
-   },
-   {
-    "id": "resume:Matlab",
-    "label": "Matlab",
-    "value": "resume:Matlab"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   },
-   {
-    "id": "resume:Probability",
-    "label": "Probability",
-    "value": "resume:Probability"
-   },
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Kalman filtering",
-    "label": "Kalman filtering",
-    "value": "resume:Kalman filtering"
-   },
-   {
-    "id": "resume:Matlab",
-    "label": "Matlab",
-    "value": "resume:Matlab"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
     "id": "resume:Stochastic Processes",
@@ -257,15 +203,73 @@
     "value": "resume:Stochastic Processes"
    },
    {
-    "id": "resume:Classification",
-    "label": "Classification Algorithms",
-    "value": "resume:Classification"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
+   },
+   {
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
+   },
+   {
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
+   },
+   {
+    "id": "resume:Stochastic Processes",
+    "label": "Stochastic Processes",
+    "value": "resume:Stochastic Processes"
+   },
+   {
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
+   },
+   {
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
+   },
+   {
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
+   },
+   {
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
+   },
+   {
+    "id": "resume:Fusion",
+    "label": "Fusion",
+    "value": "resume:Fusion"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
+   [
+    1,
+    2
+   ],
    [
     3,
     4
@@ -277,19 +281,14 @@
   ],
   "regions": [
    {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    }
   ],
   "stages": [
@@ -312,24 +311,24 @@
     "value": "Defense & Space"
    }
   ],
-  "timeStamp": "2026-09-12T15:05:01Z",
-  "title": "Senior Software Engineer, Robotics Tracking and Fusion",
-  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236498007?gh_jid=5236498007",
-  "jobId": "5236498007",
+  "timeStamp": "2026-09-12T14:58:20Z",
+  "title": "Software Engineer, Robotics Tracking and Fusion",
+  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236494007?gh_jid=5236494007",
+  "jobId": "5236494007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1886302956624, 'matchScore': 0, 'ageScore': 0.9886302956624229, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1761319780204, 'matchScore': 0, 'ageScore': 0.9761319780204475, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },

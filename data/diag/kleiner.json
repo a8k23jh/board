@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-09-13T06:19:29Z",
+ "run": "2026-09-13T12:06:52Z",
  "homepage": {
   "status": 200,
   "bytes": 19374
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "tNvR0G_Ney\u2026",
+  "session.sig": "4qE50eNeCV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTk0YjRmY2Y3MzU0NDM0MzM2ZjM4NTgzOWUwNGMzNDciLCAic2NvcmUiOiAxLjA0NjQ0MTk0MDg4MDQwMTN9"
+   "sequence": "eyJfaWQiOiAiYzk1MGQwY2NmN2NhYmQ2ZDQzYWY0NDZjY2JmN2MyMDMiLCAic2NvcmUiOiAxLjAzNTQ4NzU5NDk1Nzk0NzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/CesiumAstro/d5848f97-2ea2-41be-96f2-0064260e87bb?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "applyUrl": "https://jobs.lever.co/CesiumAstro/89552131-50f0-4129-a50d-244d683e63cb?lever-source%5B%5D=jobs.kleinerperkins.com",
   "companyDomain": "cesiumastro.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
   "companyId": "CesiumAstro",
@@ -169,28 +169,18 @@
   "jobTypes": [],
   "jobFunctions": [],
   "locations": [
-   "El Segundo, CA"
+   "Westminster, CO"
   ],
   "normalizedLocations": [
    {
-    "id": "El Segundo, California",
-    "label": "El Segundo, California",
-    "value": "El Segundo, California"
+    "id": "Westminster, Colorado",
+    "label": "Westminster, Colorado",
+    "value": "Westminster, Colorado"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 217000, 'maxValue': 266000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 208000, 'maxValue': 254000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
-   },
-   {
     "id": "resume:Top Secret",
     "label": "Clearance",
     "value": "resume:Top Secret"
@@ -199,45 +189,55 @@
     "id": "resume:Department of State",
     "label": "Department of State",
     "value": "resume:Department of State"
-   },
-   {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
-   },
-   {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Department of State",
-    "label": "Department of State",
-    "value": "resume:Department of State"
-   },
-   {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
    },
    {
     "id": "resume:Aerospace",
     "label": "Aerospace",
     "value": "resume:Aerospace"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Top Secret",
+    "label": "Clearance",
+    "value": "resume:Top Secret"
+   },
+   {
+    "id": "resume:Department of State",
+    "label": "Department of State",
+    "value": "resume:Department of State"
+   },
+   {
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
+   },
+   {
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
     "id": "resume:Space Technology",
@@ -264,16 +264,6 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -301,13 +291,13 @@
     "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-09-12T15:59:10.125000Z",
+  "timeStamp": "2026-09-12T16:01:10.179000Z",
   "title": "Senior Staff Capture Manager",
-  "url": "https://jobs.lever.co/CesiumAstro/d5848f97-2ea2-41be-96f2-0064260e87bb",
-  "jobId": "d5848f97-2ea2-41be-96f2-0064260e87bb",
+  "url": "https://jobs.lever.co/CesiumAstro/89552131-50f0-4129-a50d-244d683e63cb",
+  "jobId": "89552131-50f0-4129-a50d-244d683e63cb",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1901320006092, 'matchScore': 0, 'ageScore': 0.990132000609182, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1776602056937, 'matchScore': 0, 'ageScore': 0.9776602056936728, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
