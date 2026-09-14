@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-14T14:15:09Z",
+ "run": "2026-09-14T19:29:23Z",
  "homepage": {
   "status": 200,
   "bytes": 19512
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"257de7f5133cda92b247732b573d112452da3758\",\"date\":\"2026-09-11T21:34:36.150Z\"},\"server\":{\"git\":\"257de7f5133cda92b247732b573d112452da3758\",\"date\":\"2026-09-11T21:34:36.150Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"7a818bf9cfac75e3b8ba375a2291a49c8a7de7f5\",\"date\":\"2026-09-14T18:11:44.726Z\"},\"server\":{\"git\":\"7a818bf9cfac75e3b8ba375a2291a49c8a7de7f5\",\"date\":\"2026-09-14T18:11:44.726Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "oazelHXQJv\u2026",
+  "session.sig": "LxAgXGqY79\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWRlNGFhZTExNjE0YzhlODQzNDNmNGE4ZmJmYTlmMTEiLCAic2NvcmUiOiAxLjA1MDUzNTIwMzQyMTI5NjJ9"
+   "sequence": "eyJfaWQiOiAiOWRlNGFhZTExNjE0YzhlODQzNDNmNGE4ZmJmYTlmMTEiLCAic2NvcmUiOiAxLjA0MjkzOTE0OTI5NDM2NzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,22 +139,32 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/tennr/77166b21-9d4a-4af1-a45f-c224d596ab3b?utm_source=careers.ivp.com",
-  "companyDomain": "tennr.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6f7696cd9c4631eee4ce8f5b75d820a2_176_160?Expires=1861920000&Signature=X7jYD6HjDrgCiesvxkAB8LimNTOspJsSBlpzusuJ1gXvTtZKft5su",
-  "companyId": "Tennr",
-  "companySlug": "tennr",
-  "companyName": "Tennr",
-  "companyStaffCount": 308,
+  "applyUrl": "https://job-boards.greenhouse.io/obsidiansecurity/jobs/5286170008",
+  "companyDomain": "obsidiansecurity.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/dd04b1f26034f39d2852c8dbc97cecac_272_160?Expires=1861920000&Signature=InRtZ8UqGPlcFdLJpjlYtSlRDFQqrkWrlmR9M1oyjeuTOklR9JRxU",
+  "companyId": "Obsidian Security",
+  "companySlug": "obsidian-security",
+  "companyName": "Obsidian Security",
+  "companyStaffCount": 263,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Sales - Solution Engineering"
   ],
   "jobTypes": [
    {
-    "id": "site-reliability-engineer",
-    "label": "Site Reliability Engineer (SRE)",
-    "value": "site-reliability-engineer"
+    "id": "solutions-architect",
+    "label": "Solutions Architect",
+    "value": "solutions-architect"
+   },
+   {
+    "id": "principal",
+    "label": "Principal",
+    "value": "principal"
+   },
+   {
+    "id": "sales-engineer",
+    "label": "Sales Engineer",
+    "value": "sales-engineer"
    }
   ],
   "jobFunctions": [
@@ -165,86 +175,79 @@
    }
   ],
   "locations": [
-   "New York City, New York, USA",
-   "New York City Office"
+   "Remote"
   ],
-  "normalizedLocations": [
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   }
-  ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "normalizedLocations": [],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 228000, 'maxValue': 286000, 'currency': {'label': 'AUD', 'value': 'AUD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Key Management Service",
-    "label": "Key Management Service",
-    "value": "resume:Key Management Service"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Competitive Market Analysis",
+    "label": "Competitive Market Analysis",
+    "value": "resume:Competitive Market Analysis"
    },
    {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
+    "id": "resume:Webinars",
+    "label": "Webinars",
+    "value": "resume:Webinars"
    },
    {
-    "id": "resume:Datadog",
-    "label": "Datadog",
-    "value": "resume:Datadog"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Thought Leadership",
+    "label": "Thought Leadership",
+    "value": "resume:Thought Leadership"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Key Management Service",
-    "label": "Key Management Service",
-    "value": "resume:Key Management Service"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Competitive Market Analysis",
+    "label": "Competitive Market Analysis",
+    "value": "resume:Competitive Market Analysis"
    },
    {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
+    "id": "resume:Webinars",
+    "label": "Webinars",
+    "value": "resume:Webinars"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Datadog",
-    "label": "Datadog",
-    "value": "resume:Datadog"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Thought Leadership",
+    "label": "Thought Leadership",
+    "value": "resume:Thought Leadership"
    },
    {
-    "id": "resume:Instrumentation",
-    "label": "Instrumentation",
-    "value": "resume:Instrumentation"
+    "id": "resume:Sales Compensation",
+    "label": "Sales Compensation",
+    "value": "resume:Sales Compensation"
    },
    {
-    "id": "resume:Vault",
-    "label": "Vault",
-    "value": "resume:Vault"
+    "id": "resume:APAC",
+    "label": "APAC",
+    "value": "resume:APAC"
    },
    {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    }
   ],
   "manager": false,
@@ -252,40 +255,11 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
-  "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   }
-  ],
+  "regions": [],
   "stages": [
    {
     "id": "100-1000 employees",
@@ -301,23 +275,28 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Digital Health",
-    "label": "Digital Health",
-    "value": "Digital Health"
+    "id": "AI/ML",
+    "label": "AI/ML",
+    "value": "AI/ML"
    },
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
+   },
+   {
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
    }
   ],
-  "timeStamp": "2026-09-13T00:00:00Z",
-  "title": "Site Reliability Engineer",
-  "url": "https://jobs.ashbyhq.com/tennr/77166b21-9d4a-4af1-a45f-c224d596ab3b",
-  "jobId": "77166b21-9d4a-4af1-a45f-c224d596ab3b",
-  "remote": false,
+  "timeStamp": "2026-09-14T08:42:27Z",
+  "title": "Principal Solutions Engineer - APAC",
+  "url": "https://job-boards.greenhouse.io/obsidiansecurity/jobs/5286170008",
+  "jobId": "5286170008",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1511536813109, 'matchScore': 0, 'ageScore': 0.9511536813109568, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1880309111482, 'matchScore': 0, 'ageScore': 0.9880309111481481, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -325,10 +304,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
