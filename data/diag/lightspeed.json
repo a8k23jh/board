@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-13T22:29:08Z",
+ "run": "2026-09-14T01:14:25Z",
  "homepage": {
   "status": 200,
   "bytes": 21200
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "7XacyqRIyA\u2026",
+  "session.sig": "GlguIquvPg\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNmZlOWIwY2JlYThlMzIxMDY5YmQwOWQ5ZDMzZmFmZjYiLCAic2NvcmUiOiAxLjEyNzY2MjA2MTU5MTQzNTJ9"
+   "sequence": "eyJfaWQiOiAiYTUwNjU2YTZhYzBiZjE5YTczMmU5OGZhYmM3NDU3NTYiLCAic2NvcmUiOiAxLjEyMzkzMzcyMzAwMDc3MTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/tennr/77166b21-9d4a-4af1-a45f-c224d596ab3b?utm_source=jobs.lsvp.com",
+  "applyUrl": "https://jobs.ashbyhq.com/tennr/c5928e76-7a96-45bb-989b-9f7207031a8b?utm_source=jobs.lsvp.com",
   "companyDomain": "tennr.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6f7696cd9c4631eee4ce8f5b75d820a2_176_160?Expires=1861920000&Signature=X7jYD6HjDrgCiesvxkAB8LimNTOspJsSBlpzusuJ1gXvTtZKft5su",
   "companyId": "Tennr",
@@ -168,9 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "site-reliability-engineer",
-    "label": "Site Reliability Engineer (SRE)",
-    "value": "site-reliability-engineer"
+    "id": "infrastructure-engineer",
+    "label": "Infrastructure Engineer",
+    "value": "infrastructure-engineer"
+   },
+   {
+    "id": "network-engineer",
+    "label": "Network Engineer",
+    "value": "network-engineer"
    }
   ],
   "jobFunctions": [
@@ -191,66 +196,12 @@
     "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Datadog",
-    "label": "Datadog",
-    "value": "resume:Datadog"
-   },
-   {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
-   },
-   {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
-   },
-   {
-    "id": "resume:PagerDuty",
-    "label": "PagerDuty",
-    "value": "resume:PagerDuty"
-   },
-   {
-    "id": "resume:Instrumentation",
-    "label": "Instrumentation",
-    "value": "resume:Instrumentation"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Datadog",
-    "label": "Datadog",
-    "value": "resume:Datadog"
-   },
-   {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
-   },
-   {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:PagerDuty",
-    "label": "PagerDuty",
-    "value": "resume:PagerDuty"
-   },
-   {
-    "id": "resume:Instrumentation",
-    "label": "Instrumentation",
-    "value": "resume:Instrumentation"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
     "id": "resume:Infrastructure",
@@ -258,19 +209,69 @@
     "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Vault",
-    "label": "Vault",
-    "value": "resume:Vault"
+    "id": "resume:HIPAA",
+    "label": "HIPAA",
+    "value": "resume:HIPAA"
+   },
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:HIPAA",
+    "label": "HIPAA",
+    "value": "resume:HIPAA"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
+   },
+   {
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
+   },
+   {
+    "id": "resume:Datadog",
+    "label": "Datadog",
+    "value": "resume:Datadog"
+   },
+   {
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
-   [
-    1,
-    2
-   ],
    [
     3,
     4
@@ -282,6 +283,11 @@
   ],
   "regions": [
    {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
@@ -290,11 +296,6 @@
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    },
    {
     "id": "Mid Atlantic",
@@ -328,23 +329,23 @@
    }
   ],
   "timeStamp": "2026-09-13T00:00:00Z",
-  "title": "Site Reliability Engineer",
-  "url": "https://jobs.ashbyhq.com/tennr/77166b21-9d4a-4af1-a45f-c224d596ab3b",
-  "jobId": "77166b21-9d4a-4af1-a45f-c224d596ab3b",
+  "title": "Senior Infrastructure Engineer",
+  "url": "https://jobs.ashbyhq.com/tennr/c5928e76-7a96-45bb-989b-9f7207031a8b",
+  "jobId": "c5928e76-7a96-45bb-989b-9f7207031a8b",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1715012644252, 'matchScore': 0, 'ageScore': 0.9715012644251543, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1675595073264, 'matchScore': 0, 'ageScore': 0.9675595073263888, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
