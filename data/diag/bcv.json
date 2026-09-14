@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-14T06:28:23Z",
+ "run": "2026-09-14T14:15:09Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "umW1jnmp6b\u2026",
+  "session.sig": "AoVYorVc2i\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDE5MjNhOTFkMzFiM2Y4NzczODk3ZDM3YmIxNmQ0ZWIiLCAic2NvcmUiOiAxLjA1NDExMzAzNDM1NjQ4MTV9"
+   "sequence": "eyJfaWQiOiAiYTQ0MGFlODgwZjY1MTM4ZDA3YWE1M2Y1ODE4YzE0MTEiLCAic2NvcmUiOiAxLjAzNzMwODExODQ4ODQyNTl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -146,6 +146,7 @@
    "companyLogos",
    "companyName",
    "companySlug",
+   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
@@ -156,127 +157,112 @@
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6190301004",
-  "companyDomain": "apollo.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
-  "companyId": "Apollo",
-  "companySlug": "apollo",
-  "companyName": "Apollo",
+  "applyUrl": "https://jobs.ashbyhq.com/norm-ai/b18390d9-ae39-4ef1-bedd-82ea6a566c20?utm_source=jobs.baincapitalventures.com",
+  "companyDomain": "norm.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/5386fb85f376b7415532f1cde320c76a_256_160?Expires=1861920000&Signature=IR5zDmnMtsH4dTfBioGlhDmfTIqAkcFl-5ayKGDEmK-YzXx-BMvWW",
+  "companyId": "Norm Ai",
+  "companySlug": "norm-ai",
+  "companyName": "Norm Ai",
+  "companyStaffCount": 202,
   "considerHosted": false,
   "departments": [
-   "People"
+   "Marketing"
   ],
   "jobTypes": [
    {
-    "id": "human-resources",
-    "label": "HR",
-    "value": "human-resources"
-   },
-   {
-    "id": "program-manager",
-    "label": "Program Manager",
-    "value": "program-manager"
+    "id": "manager-events",
+    "label": "Events Manager",
+    "value": "manager-events"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
-   },
-   {
-    "id": "Project Management",
-    "label": "Project Management",
-    "value": "Project Management"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Hybrid, San Francisco"
+   "New York City, New York, United States",
+   "New York City"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 163000, 'maxValue': 235000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Advertising",
+    "label": "Advertising",
+    "value": "resume:Advertising"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Real Estate",
+    "label": "Real Estate",
+    "value": "resume:Real Estate"
    },
    {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
+    "id": "resume:Financial Regulations",
+    "label": "Financial Regulations",
+    "value": "resume:Financial Regulations"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Advertising",
+    "label": "Advertising",
+    "value": "resume:Advertising"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Real Estate",
+    "label": "Real Estate",
+    "value": "resume:Real Estate"
    },
    {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
+    "id": "resume:Financial Regulations",
+    "label": "Financial Regulations",
+    "value": "resume:Financial Regulations"
    },
    {
-    "id": "resume:Apollo",
-    "label": "Apollo",
-    "value": "resume:Apollo"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Requirements Gathering",
-    "label": "Requirements Gathering",
-    "value": "resume:Requirements Gathering"
+    "id": "resume:Private Equity",
+    "label": "Private Equity",
+    "value": "resume:Private Equity"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    }
   ],
   "manager": false,
@@ -296,17 +282,27 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
+   {
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
    {
     "id": "Growth",
     "label": "Growth",
@@ -316,18 +312,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
-  "timeStamp": "2026-09-11T19:02:09Z",
-  "title": "People Strategic Programs Manager",
-  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6190301004",
-  "jobId": "6190301004",
+  "timeStamp": "2026-09-14T00:00:00Z",
+  "title": "Senior Field ABM & Events Manager",
+  "url": "https://jobs.ashbyhq.com/norm-ai/b18390d9-ae39-4ef1-bedd-82ea6a566c20",
+  "jobId": "b18390d9-ae39-4ef1-bedd-82ea6a566c20",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1270102609934, 'matchScore': 0, 'ageScore': 0.9270102609934414, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1838336743538, 'matchScore': 0, 'ageScore': 0.9838336743537809, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -335,10 +331,16 @@
     "id": "manager",
     "label": "Manager/Senior Manager",
     "value": "manager"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "manager",
+   "senior"
   ],
   "isFeatured": false
  },

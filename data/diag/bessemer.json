@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-14T06:28:23Z",
+ "run": "2026-09-14T14:15:09Z",
  "homepage": {
   "status": 200,
   "bytes": 21729
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "fNSpwB8Fvs\u2026",
+  "session.sig": "7MLpQPs28N\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTk2NDY2YTZiZGFhODJiMGY5ZjlhNmY0MGIyZjM0NmQiLCAic2NvcmUiOiAxLjA2NzM3NTE5ODM4NDI1OTJ9"
+   "sequence": "eyJfaWQiOiAiZGI0NTZhODc4Nzc0ZDQ3ZjI4YmJmMGU0NTExNjNkZjMiLCAic2NvcmUiOiAxLjA1MTIyNTc5MTE4OTQyOX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -176,16 +176,6 @@
   ],
   "jobTypes": [
    {
-    "id": "engineering-manager",
-    "label": "Engineering Manager",
-    "value": "engineering-manager"
-   },
-   {
-    "id": "tech-lead",
-    "label": "Tech Lead",
-    "value": "tech-lead"
-   },
-   {
     "id": "tech-lead-manager",
     "label": "Tech Lead Manager",
     "value": "tech-lead-manager"
@@ -194,6 +184,16 @@
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
+   },
+   {
+    "id": "engineering-manager",
+    "label": "Engineering Manager",
+    "value": "engineering-manager"
+   },
+   {
+    "id": "tech-lead",
+    "label": "Tech Lead",
+    "value": "tech-lead"
    }
   ],
   "jobFunctions": [
@@ -217,14 +217,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 300000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
-   },
-   {
     "id": "resume:Python",
     "label": "Python",
     "value": "resume:Python"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
     "id": "resume:Recruiting",
@@ -232,26 +232,26 @@
     "value": "resume:Recruiting"
    },
    {
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
+   },
+   {
     "id": "resume:Technical Leadership",
     "label": "Technical Leadership",
     "value": "resume:Technical Leadership"
-   },
-   {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
-   },
-   {
     "id": "resume:Python",
     "label": "Python",
     "value": "resume:Python"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
     "id": "resume:Recruiting",
@@ -261,19 +261,14 @@
   ],
   "preferredSkills": [
    {
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
+   },
+   {
     "id": "resume:Technical Leadership",
     "label": "Technical Leadership",
     "value": "resume:Technical Leadership"
-   },
-   {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
-   },
-   {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -281,9 +276,14 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Full Stack Development",
-    "label": "Full Stack Development",
-    "value": "resume:Full Stack Development"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
+   },
+   {
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    }
   ],
   "manager": true,
@@ -307,14 +307,14 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -337,7 +337,7 @@
   "jobId": "656b4b2e-5670-411c-9091-f355983a92a0",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1673780816266, 'matchScore': 0, 'ageScore': 0.9673780816265433, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1506051428541, 'matchScore': 0, 'ageScore': 0.9506051428541666, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

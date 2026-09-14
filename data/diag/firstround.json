@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-14T06:28:23Z",
+ "run": "2026-09-14T14:15:09Z",
  "homepage": {
   "status": 200,
   "bytes": 16697
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "bU7ozU_P9o\u2026",
+  "session.sig": "3hzRrzp3VX\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWI1NmViZjAwNGQxMjVjN2M0MWJlYzQ3ODlmNzUyNzUiLCAic2NvcmUiOiAxLjAwMDM2NjA2OTg0OTkyMjh9"
+   "sequence": "eyJfaWQiOiAiNDUwMjE3NTdkMjdkMjJjYTIyZTQ4ODE0Yjg2YzA5NzgiLCAic2NvcmUiOiAwLjk4Mjc0OTU3MjY0OTY5MTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -193,6 +193,21 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 315000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Go",
+    "label": "Golang",
+    "value": "resume:Go"
+   },
+   {
+    "id": "resume:Computer Architecture",
+    "label": "Computer Architecture",
+    "value": "resume:Computer Architecture"
+   },
+   {
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
+   },
+   {
     "id": "resume:Linux",
     "label": "Linux",
     "value": "resume:Linux"
@@ -201,25 +216,27 @@
     "id": "resume:Rust",
     "label": "Rust",
     "value": "resume:Rust"
-   },
-   {
-    "id": "resume:Computer Architecture",
-    "label": "Computer Architecture",
-    "value": "resume:Computer Architecture"
-   },
-   {
-    "id": "resume:Go",
-    "label": "Golang",
-    "value": "resume:Go"
-   },
-   {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Go",
+    "label": "Golang",
+    "value": "resume:Go"
+   },
+   {
+    "id": "resume:Computer Architecture",
+    "label": "Computer Architecture",
+    "value": "resume:Computer Architecture"
+   },
+   {
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
+   }
+  ],
+  "preferredSkills": [
+   {
     "id": "resume:Linux",
     "label": "Linux",
     "value": "resume:Linux"
@@ -228,23 +245,6 @@
     "id": "resume:Rust",
     "label": "Rust",
     "value": "resume:Rust"
-   },
-   {
-    "id": "resume:Computer Architecture",
-    "label": "Computer Architecture",
-    "value": "resume:Computer Architecture"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Go",
-    "label": "Golang",
-    "value": "resume:Go"
-   },
-   {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
    }
   ],
   "manager": false,
@@ -268,14 +268,14 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -309,7 +309,7 @@
   "jobId": "5161397007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1246195986666, 'matchScore': 0, 'ageScore': 0.9246195986666667, 'richnessScore': 2}",
+  "scores": "{'score': 1001.108530460694, 'matchScore': 0, 'ageScore': 0.9085304606940586, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
