@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-15T13:41:08Z",
+ "run": "2026-09-15T18:17:42Z",
  "homepage": {
   "status": 200,
   "bytes": 25229
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "L6jg3hYa_C\u2026",
+  "session.sig": "6qCnJcBkBZ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMGVjN2RmMjRjYWZiYWZjZGZmZjY3MjA1ODRiM2NkN2IiLCAic2NvcmUiOiAxLjA1MDkxNzAyNTIzMjYzOX0="
+   "sequence": "eyJfaWQiOiAiNGUzOWMxMjljMGMyOGRkYmJlMmZjM2RhNTMzZmQ1MWQiLCAic2NvcmUiOiAxLjA0NzAzODc0OTQwMTYyMDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -158,6 +158,11 @@
   "departments": [],
   "jobTypes": [
    {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
     "id": "commisions-manager",
     "label": "Commissions Manager",
     "value": "commisions-manager"
@@ -166,11 +171,6 @@
     "id": "data-analyst",
     "label": "Data Analyst",
     "value": "data-analyst"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
    }
   ],
   "jobFunctions": [
@@ -193,73 +193,73 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 181000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Incentive Programs",
+    "label": "Incentive Programs",
+    "value": "resume:Incentive Programs"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
     "id": "resume:Compliance",
     "label": "Compliance",
     "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Incentive Programs",
+    "label": "Incentive Programs",
+    "value": "resume:Incentive Programs"
    }
   ],
   "preferredSkills": [
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   },
    {
     "id": "resume:Compliance",
     "label": "Compliance",
     "value": "resume:Compliance"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Tableau",
+    "label": "Tableau",
+    "value": "resume:Tableau"
    },
    {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Sales Compensation Design",
-    "label": "Sales Compensation Design",
-    "value": "resume:Sales Compensation Design"
-   },
-   {
-    "id": "resume:Sales Operations",
-    "label": "Sales Operations",
-    "value": "resume:Sales Operations"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    }
   ],
   "manager": true,
@@ -278,11 +278,6 @@
   "minYearsExp": 8,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
@@ -291,6 +286,11 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -319,7 +319,7 @@
   "jobId": "6000000001405397",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1843726746339, 'matchScore': 0, 'ageScore': 0.9843726746338735, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1800849788611, 'matchScore': 0, 'ageScore': 0.9800849788611111, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
