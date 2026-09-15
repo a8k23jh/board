@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-15T18:17:42Z",
+ "run": "2026-09-15T21:31:07Z",
  "homepage": {
   "status": 200,
   "bytes": 25229
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"73c49c6d212de2607d9b16a3199b075e3fbd5fb0\",\"date\":\"2026-09-15T01:10:57.657Z\"},\"server\":{\"git\":\"73c49c6d212de2607d9b16a3199b075e3fbd5fb0\",\"date\":\"2026-09-15T01:10:57.657Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"c9c4ae33da3d1946286d1a7707ca3b668335ed50\",\"date\":\"2026-09-15T19:06:26.136Z\"},\"server\":{\"git\":\"c9c4ae33da3d1946286d1a7707ca3b668335ed50\",\"date\":\"2026-09-15T19:06:26.136Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "6qCnJcBkBZ\u2026",
+  "session.sig": "ttQMWOQp70\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGUzOWMxMjljMGMyOGRkYmJlMmZjM2RhNTMzZmQ1MWQiLCAic2NvcmUiOiAxLjA0NzAzODc0OTQwMTYyMDR9"
+   "sequence": "eyJfaWQiOiAiNmE2OGE2ODFkYzc0MGI0ZWQyNmMwN2JhMTk2YTEzODUiLCAic2NvcmUiOiAxLjA0NTIyMzkwODEyNTc3MTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -158,14 +158,14 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
     "id": "commisions-manager",
     "label": "Commissions Manager",
     "value": "commisions-manager"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    },
    {
     "id": "data-analyst",
@@ -193,58 +193,53 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 181000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:DNA",
+    "label": "DNA",
+    "value": "resume:DNA"
+   },
+   {
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
+   },
+   {
+    "id": "resume:Data Structures",
+    "label": "Data Structures",
+    "value": "resume:Data Structures"
+   },
+   {
     "id": "resume:Audit",
     "label": "Audit",
     "value": "resume:Audit"
    },
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
-   },
-   {
-    "id": "resume:Incentive Programs",
-    "label": "Incentive Programs",
-    "value": "resume:Incentive Programs"
-   },
-   {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Tableau",
+    "label": "Tableau",
+    "value": "resume:Tableau"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
+    "id": "resume:DNA",
+    "label": "DNA",
+    "value": "resume:DNA"
    },
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    },
    {
-    "id": "resume:Incentive Programs",
-    "label": "Incentive Programs",
-    "value": "resume:Incentive Programs"
+    "id": "resume:Data Structures",
+    "label": "Data Structures",
+    "value": "resume:Data Structures"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
     "id": "resume:Tableau",
@@ -252,14 +247,19 @@
     "value": "resume:Tableau"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Vendor Management",
+    "label": "Vendor Management",
+    "value": "resume:Vendor Management"
    },
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
    }
   ],
   "manager": true,
@@ -278,6 +278,11 @@
   "minYearsExp": 8,
   "regions": [
    {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
@@ -286,11 +291,6 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
@@ -319,7 +319,7 @@
   "jobId": "6000000001405397",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1800849788611, 'matchScore': 0, 'ageScore': 0.9800849788611111, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1720319135768, 'matchScore': 0, 'ageScore': 0.9720319135767747, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

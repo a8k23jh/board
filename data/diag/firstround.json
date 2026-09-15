@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-15T18:17:42Z",
+ "run": "2026-09-15T21:31:07Z",
  "homepage": {
   "status": 200,
   "bytes": 16697
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"73c49c6d212de2607d9b16a3199b075e3fbd5fb0\",\"date\":\"2026-09-15T01:10:57.657Z\"},\"server\":{\"git\":\"73c49c6d212de2607d9b16a3199b075e3fbd5fb0\",\"date\":\"2026-09-15T01:10:57.657Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"c9c4ae33da3d1946286d1a7707ca3b668335ed50\",\"date\":\"2026-09-15T19:06:26.136Z\"},\"server\":{\"git\":\"c9c4ae33da3d1946286d1a7707ca3b668335ed50\",\"date\":\"2026-09-15T19:06:26.136Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "y8SI9Vsqpu\u2026",
+  "session.sig": "5zW-s0qLE4\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmZmM2FkNTY2MzA4MmMzZWJmODU1ODIyZmY4YWIyYzMiLCAic2NvcmUiOiAwLjk3NTM4NTA5ODI4NTg3OTZ9"
+   "sequence": "eyJfaWQiOiAiYmQ5MDdmYjUwYWY3ZDQ1YTUyNzk3MzdjOTg0N2JkYmEiLCAic2NvcmUiOiAwLjk3NDYzNTA5NTU5MTQzNTF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,101 +155,121 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5424247008",
-  "companyDomain": "k2space.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/96af4d328d7e54eb24c092877b0e4c96_272_160?Expires=1861920000&Signature=rWQ5vPckbn1NROsVwoPJw3Sq9oP8FnF7q6Jh6wxTzQ6DBspleAAvN",
-  "companyId": "K2 Space",
-  "companySlug": "k2-space",
-  "companyName": "K2 Space",
-  "companyStaffCount": 15,
+  "applyUrl": "https://job-boards.greenhouse.io/planetlabs/jobs/8204162",
+  "companyDomain": "planet.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/81daece2b738e7da2b2f0d7cb6f3cb9b_240_160?Expires=1861920000&Signature=i69ljP0imOrwJp3yJ28r~12-MqQGYr4EnAbq4LoC51M-tB-p~Bgmk",
+  "companyId": "Planet",
+  "companySlug": "planet",
+  "companyName": "Planet",
+  "companyStaffCount": 1682,
   "considerHosted": false,
   "departments": [
-   "Vehicle Operations"
+   "Account Executive"
   ],
   "jobTypes": [
    {
-    "id": "mechanical-engineer",
-    "label": "Mechanical Engineer",
-    "value": "mechanical-engineer"
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "Los Angeles, CA"
+   "France, Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "Greater Los Angeles Area",
-    "label": "Greater Los Angeles Area",
-    "value": "Greater Los Angeles Area"
+    "id": "France",
+    "label": "France",
+    "value": "France"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 60700, 'maxValue': 75850, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Manage Client Expectations",
+    "label": "Manage Client Expectations",
+    "value": "resume:Manage Client Expectations"
    },
    {
-    "id": "resume:Process Improvement",
-    "label": "Process Improvement",
-    "value": "resume:Process Improvement"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    },
    {
-    "id": "resume:GD&T",
-    "label": "GD&T",
-    "value": "resume:GD&T"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Design for Manufacturing",
-    "label": "Design for Manufacturing",
-    "value": "resume:Design for Manufacturing"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Manage Client Expectations",
+    "label": "Manage Client Expectations",
+    "value": "resume:Manage Client Expectations"
    },
    {
-    "id": "resume:Process Improvement",
-    "label": "Process Improvement",
-    "value": "resume:Process Improvement"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:GD&T",
-    "label": "GD&T",
-    "value": "resume:GD&T"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Design for Manufacturing",
-    "label": "Design for Manufacturing",
-    "value": "resume:Design for Manufacturing"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Assembly",
-    "label": "Assembly",
-    "value": "resume:Assembly"
+    "id": "resume:Hardware Design",
+    "label": "Hardware Design",
+    "value": "resume:Hardware Design"
+   },
+   {
+    "id": "resume:GDPR",
+    "label": "GDPR",
+    "value": "resume:GDPR"
+   },
+   {
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
    }
   ],
   "manager": false,
@@ -268,64 +288,54 @@
   "minYearsExp": 6,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
    }
   ],
-  "timeStamp": "2026-09-15T02:31:05Z",
-  "title": "Senior Mechanisms Manufacturing Engineer",
-  "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5424247008",
-  "jobId": "5424247008",
-  "remote": false,
+  "timeStamp": "2026-09-15T10:30:50Z",
+  "title": "Account Executive, Defence & Intelligence, France",
+  "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8204162",
+  "jobId": "8204162",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1836646136899, 'matchScore': 0, 'ageScore': 0.9836646136898148, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1900867021898, 'matchScore': 0, 'ageScore': 0.9900867021898148, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
