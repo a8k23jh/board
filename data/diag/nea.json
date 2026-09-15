@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-15T01:34:49Z",
+ "run": "2026-09-15T07:52:55Z",
  "homepage": {
   "status": 200,
   "bytes": 20602
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "P-MTkTpLAs\u2026",
+  "session.sig": "_0IvmOI1qN\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjdlNTBlMmJhYTA0ZmM4NWMzYzk3MmU0ZDYzNDg2N2YiLCAic2NvcmUiOiAxLjE0NzA0Mjg4NjgxOTgzMDF9"
+   "sequence": "eyJfaWQiOiAiMzMyYWIwNTk0M2IzYzg0NDY5MTRiZDgxMjA5OWJmODAiLCAic2NvcmUiOiAxLjE1ODUzMjY4NTI4MDA5MjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,151 +136,200 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=b2c32dac375e4092",
-  "companyDomain": "radpartners.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cbb7c62716082738519fbfbf183291f4_320_160?Expires=1861920000&Signature=IP2EwPq0HgJamPOiRiCrnFCNO7ptxDEq05T1ezuMj3TC6QzvZIq8E",
-  "companyId": "Radiology Partners",
-  "companySlug": "radiology-partners",
-  "companyName": "Radiology Partners",
-  "companyStaffCount": 2302,
+  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDqUkbixueE4QRnFf1q2d8Sy?utm_source=careers.nea.com",
+  "companyDomain": "launchfirestorm.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e188c39c312914da9e7993fda04e236c_320_160?Expires=1861920000&Signature=Pm7J-k33~dn1h7QkoqdLumPZldorJ59U2n6Yki9r684MrWcuwsfhz",
+  "companyId": "Firestorm",
+  "companySlug": "firestorm",
+  "companyName": "Firestorm",
+  "companyStaffCount": 192,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "People Operations"
+  ],
   "jobTypes": [
    {
-    "id": "registered-nurse",
-    "label": "Registered Nurse",
-    "value": "registered-nurse"
+    "id": "recruiter",
+    "label": "Recruiter",
+    "value": "recruiter"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
+   }
+  ],
   "locations": [
-   "Enfield, CT"
+   "San Diego, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Connecticut",
-    "label": "Connecticut",
-    "value": "Connecticut"
+    "id": "San Diego, California",
+    "label": "San Diego, California",
+    "value": "San Diego, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 46, 'maxValue': 53, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Outpatient",
-    "label": "Outpatient",
-    "value": "resume:Outpatient"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    },
    {
-    "id": "resume:Crisis Management",
-    "label": "Crisis Management",
-    "value": "resume:Crisis Management"
+    "id": "resume:Technical Sourcing",
+    "label": "Technical Sourcing",
+    "value": "resume:Technical Sourcing"
    },
    {
-    "id": "resume:Imaging",
-    "label": "Imaging",
-    "value": "resume:Imaging"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Outpatient",
-    "label": "Outpatient",
-    "value": "resume:Outpatient"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    },
    {
-    "id": "resume:Crisis Management",
-    "label": "Crisis Management",
-    "value": "resume:Crisis Management"
+    "id": "resume:Technical Sourcing",
+    "label": "Technical Sourcing",
+    "value": "resume:Technical Sourcing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Imaging",
-    "label": "Imaging",
-    "value": "resume:Imaging"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
    },
    {
-    "id": "resume:Registered Nurse",
-    "label": "Registered Nurse",
-    "value": "resume:Registered Nurse"
+    "id": "resume:Government Contracting",
+    "label": "Government Contracting",
+    "value": "resume:Government Contracting"
+   },
+   {
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
+   },
+   {
+    "id": "resume:Manufacturing Engineering",
+    "label": "Manufacturing Engineering",
+    "value": "resume:Manufacturing Engineering"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 10,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
+   },
+   {
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-09-14T20:56:46Z",
-  "title": "Registered Nurse",
-  "url": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=b2c32dac375e4092",
-  "jobId": "b2c32dac375e4092",
+  "timeStamp": "2026-09-14T23:56:24Z",
+  "title": "Staff Recruiter, Engineering",
+  "url": "https://jobs.gem.com/firestorm/am9icG9zdDqUkbixueE4QRnFf1q2d8Sy",
+  "jobId": "am9icG9zdDqUkbixueE4QRnFf1q2d8Sy",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1970224808673, 'matchScore': 0, 'ageScore': 0.997022480867284, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1925653283677, 'matchScore': 0, 'ageScore': 0.9925653283676698, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -288,6 +337,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false
