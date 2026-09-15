@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-14T23:13:19Z",
+ "run": "2026-09-15T01:34:49Z",
  "homepage": {
   "status": 200,
   "bytes": 20602
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7a818bf9cfac75e3b8ba375a2291a49c8a7de7f5\",\"date\":\"2026-09-14T18:11:44.726Z\"},\"server\":{\"git\":\"7a818bf9cfac75e3b8ba375a2291a49c8a7de7f5\",\"date\":\"2026-09-14T18:11:44.726Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"73c49c6d212de2607d9b16a3199b075e3fbd5fb0\",\"date\":\"2026-09-15T01:10:57.657Z\"},\"server\":{\"git\":\"73c49c6d212de2607d9b16a3199b075e3fbd5fb0\",\"date\":\"2026-09-15T01:10:57.657Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "LX6xxoqvOt\u2026",
+  "session.sig": "P-MTkTpLAs\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTc0NTg0NWQwOTM2ZGFhODRjNWJkMjZmNzQyMWM0Y2QiLCAic2NvcmUiOiAxLjA3ODQ4NDkzNDIxMjk2M30="
+   "sequence": "eyJfaWQiOiAiMjdlNTBlMmJhYTA0ZmM4NWMzYzk3MmU0ZDYzNDg2N2YiLCAic2NvcmUiOiAxLjE0NzA0Mjg4NjgxOTgzMDF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,120 +147,114 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/ionq/jobs/6186549004",
-  "companyDomain": "ionq.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/eac3dab0dc4e22760c884b93dd53b174_240_160?Expires=1861920000&Signature=WBHbtWEVhzDU8gCtic2a028IcKOXsr~FJTu6CAUilCmioCoyzjVx7",
-  "companyId": "IonQ",
-  "companySlug": "ionq",
-  "companyName": "IonQ",
-  "companyStaffCount": 1252,
+  "applyUrl": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=b2c32dac375e4092",
+  "companyDomain": "radpartners.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cbb7c62716082738519fbfbf183291f4_320_160?Expires=1861920000&Signature=IP2EwPq0HgJamPOiRiCrnFCNO7ptxDEq05T1ezuMj3TC6QzvZIq8E",
+  "companyId": "Radiology Partners",
+  "companySlug": "radiology-partners",
+  "companyName": "Radiology Partners",
+  "companyStaffCount": 2302,
   "considerHosted": false,
-  "departments": [
-   "Capella "
+  "departments": [],
+  "jobTypes": [
+   {
+    "id": "registered-nurse",
+    "label": "Registered Nurse",
+    "value": "registered-nurse"
+   }
   ],
-  "jobTypes": [],
   "jobFunctions": [],
   "locations": [
-   "Louisville, Colorado, United States"
+   "Enfield, CT"
   ],
   "normalizedLocations": [
    {
-    "id": "Louisville, Colorado",
-    "label": "Louisville, Colorado",
-    "value": "Louisville, Colorado"
+    "id": "Connecticut",
+    "label": "Connecticut",
+    "value": "Connecticut"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 126887, 'maxValue': 181949, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 46, 'maxValue': 53, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Product Lifecycle Management",
-    "label": "Product Lifecycle Management",
-    "value": "resume:Product Lifecycle Management"
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:Outpatient",
+    "label": "Outpatient",
+    "value": "resume:Outpatient"
    },
    {
-    "id": "resume:Inform",
-    "label": "Inform",
-    "value": "resume:Inform"
+    "id": "resume:Crisis Management",
+    "label": "Crisis Management",
+    "value": "resume:Crisis Management"
    },
    {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
+    "id": "resume:Imaging",
+    "label": "Imaging",
+    "value": "resume:Imaging"
    },
    {
-    "id": "resume:Electrical Design",
-    "label": "Electrical Design",
-    "value": "resume:Electrical Design"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Product Lifecycle Management",
-    "label": "Product Lifecycle Management",
-    "value": "resume:Product Lifecycle Management"
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:Outpatient",
+    "label": "Outpatient",
+    "value": "resume:Outpatient"
    },
    {
-    "id": "resume:Inform",
-    "label": "Inform",
-    "value": "resume:Inform"
+    "id": "resume:Crisis Management",
+    "label": "Crisis Management",
+    "value": "resume:Crisis Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
+    "id": "resume:Imaging",
+    "label": "Imaging",
+    "value": "resume:Imaging"
    },
    {
-    "id": "resume:Electrical Design",
-    "label": "Electrical Design",
-    "value": "resume:Electrical Design"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    },
    {
-    "id": "resume:Department of Commerce",
-    "label": "Department of Commerce",
-    "value": "resume:Department of Commerce"
-   },
-   {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Registered Nurse",
+    "label": "Registered Nurse",
+    "value": "resume:Registered Nurse"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
-  "minYearsExp": 5,
+  "considerLevels": [],
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -272,18 +266,18 @@
   ],
   "markets": [
    {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-09-14T10:25:37Z",
-  "title": "Staff Harness Engineer",
-  "url": "https://job-boards.greenhouse.io/ionq/jobs/6186549004",
-  "jobId": "6186549004",
+  "timeStamp": "2026-09-14T20:56:46Z",
+  "title": "Registered Nurse",
+  "url": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=b2c32dac375e4092",
+  "jobId": "b2c32dac375e4092",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1857561255825, 'matchScore': 0, 'ageScore': 0.9857561255825618, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1970224808673, 'matchScore': 0, 'ageScore': 0.997022480867284, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -291,16 +285,10 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-09-14T23:13:19Z",
+ "run": "2026-09-15T01:34:49Z",
  "homepage": {
   "status": 200,
   "bytes": 20922
@@ -29,12 +29,12 @@
    "slug": "initialized",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7a818bf9cfac75e3b8ba375a2291a49c8a7de7f5\",\"date\":\"2026-09-14T18:11:44.726Z\"},\"server\":{\"git\":\"7a818bf9cfac75e3b8ba375a2291a49c8a7de7f5\",\"date\":\"2026-09-14T18:11:44.726Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"73c49c6d212de2607d9b16a3199b075e3fbd5fb0\",\"date\":\"2026-09-15T01:10:57.657Z\"},\"server\":{\"git\":\"73c49c6d212de2607d9b16a3199b075e3fbd5fb0\",\"date\":\"2026-09-15T01:10:57.657Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "-p75MAn6B8\u2026",
+  "session.sig": "CGiXhtsBdE\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2ZiMTFmZGE0NmEyOWI5M2YwYzM3NzhkNDgzMWFlZDMiLCAic2NvcmUiOiAxMDAuMzA1MTAxMDU5NTYzMjd9"
+   "sequence": "eyJfaWQiOiAiOTgzZDQ2YjgyMmRkNGEwMWMzZTA0MzI1ODJiNGJmMzUiLCAic2NvcmUiOiAxMDAuMzAxMDI1NTIxNDMyNDh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -185,58 +185,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 70000, 'maxValue': 80000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Customer Management",
-    "label": "Customer Management",
-    "value": "resume:Customer Management"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Energy Efficiency",
-    "label": "Energy Efficiency",
-    "value": "resume:Energy Efficiency"
-   },
-   {
-    "id": "resume:Real Estate",
-    "label": "Real Estate",
-    "value": "resume:Real Estate"
-   }
-  ],
-  "requiredSkills": [
    {
     "id": "resume:Customer Management",
     "label": "Customer Management",
     "value": "resume:Customer Management"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Energy Efficiency",
-    "label": "Energy Efficiency",
-    "value": "resume:Energy Efficiency"
-   },
-   {
-    "id": "resume:Real Estate",
-    "label": "Real Estate",
-    "value": "resume:Real Estate"
+    "id": "resume:Bilingual",
+    "label": "Bilingual",
+    "value": "resume:Bilingual"
    },
    {
     "id": "resume:Boost",
@@ -244,14 +205,53 @@
     "value": "resume:Boost"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Energy Efficiency",
+    "label": "Energy Efficiency",
+    "value": "resume:Energy Efficiency"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
+   },
+   {
+    "id": "resume:Customer Management",
+    "label": "Customer Management",
+    "value": "resume:Customer Management"
+   },
+   {
+    "id": "resume:Bilingual",
+    "label": "Bilingual",
+    "value": "resume:Bilingual"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Boost",
+    "label": "Boost",
+    "value": "resume:Boost"
+   },
+   {
+    "id": "resume:Energy Efficiency",
+    "label": "Energy Efficiency",
+    "value": "resume:Energy Efficiency"
+   },
+   {
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
     "id": "resume:English",
     "label": "English",
     "value": "resume:English"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -262,9 +262,9 @@
   "maxYearsExp": 1,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "East Coast",
@@ -277,9 +277,9 @@
     "value": "Mid Atlantic"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -308,7 +308,7 @@
   "jobId": "4711654006",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.0857125488533, 'matchScore': 0, 'ageScore': 0.885712548853395, 'richnessScore': 2}",
+  "scores": "{'score': 1101.081468899931, 'matchScore': 0, 'ageScore': 0.8814688999309414, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

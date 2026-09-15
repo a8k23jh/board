@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-14T23:13:19Z",
+ "run": "2026-09-15T01:34:49Z",
  "homepage": {
   "status": 200,
   "bytes": 19512
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7a818bf9cfac75e3b8ba375a2291a49c8a7de7f5\",\"date\":\"2026-09-14T18:11:44.726Z\"},\"server\":{\"git\":\"7a818bf9cfac75e3b8ba375a2291a49c8a7de7f5\",\"date\":\"2026-09-14T18:11:44.726Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"73c49c6d212de2607d9b16a3199b075e3fbd5fb0\",\"date\":\"2026-09-15T01:10:57.657Z\"},\"server\":{\"git\":\"73c49c6d212de2607d9b16a3199b075e3fbd5fb0\",\"date\":\"2026-09-15T01:10:57.657Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "W1FnH9hmom\u2026",
+  "session.sig": "6fK4ptVu9p\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGI0NTZhODc4Nzc0ZDQ3ZjI4YmJmMGU0NTExNjNkZjMiLCAic2NvcmUiOiAxLjAzODY2ODQ2ODQzNTE4NTJ9"
+   "sequence": "eyJfaWQiOiAiNmQzZmM3MmY5MWJlNGU1MDAzYWVmYTgwMjMyODE4MzgiLCAic2NvcmUiOiAxLjA3NzcxNjcyNTY2NDM1MTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,32 +139,22 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/obsidiansecurity/jobs/5286170008",
-  "companyDomain": "obsidiansecurity.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/dd04b1f26034f39d2852c8dbc97cecac_272_160?Expires=1861920000&Signature=InRtZ8UqGPlcFdLJpjlYtSlRDFQqrkWrlmR9M1oyjeuTOklR9JRxU",
-  "companyId": "Obsidian Security",
-  "companySlug": "obsidian-security",
-  "companyName": "Obsidian Security",
-  "companyStaffCount": 263,
+  "applyUrl": "https://job-boards.greenhouse.io/chainguard/jobs/4713200006",
+  "companyDomain": "chainguard.dev",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/31a5369e0ef167a246723e25166f9bb2_320_160?Expires=1861920000&Signature=WlG8ObgFzketnOZ1GE13WkiEQj5BCejH51gbRZAOEvFTCDtl~hKti",
+  "companyId": "Chainguard",
+  "companySlug": "chainguard",
+  "companyName": "Chainguard",
+  "companyStaffCount": 758,
   "considerHosted": false,
   "departments": [
-   "Sales - Solution Engineering"
+   "R&D Engineering"
   ],
   "jobTypes": [
    {
-    "id": "principal",
-    "label": "Principal",
-    "value": "principal"
-   },
-   {
-    "id": "sales-engineer",
-    "label": "Sales Engineer",
-    "value": "sales-engineer"
-   },
-   {
-    "id": "solutions-architect",
-    "label": "Solutions Architect",
-    "value": "solutions-architect"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
   "jobFunctions": [
@@ -175,79 +165,85 @@
    }
   ],
   "locations": [
-   "Remote"
+   "United States - Remote"
   ],
-  "normalizedLocations": [],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 228000, 'maxValue': 286000, 'currency': {'label': 'AUD', 'value': 'AUD'}, 'isOriginal': True}",
+  "normalizedLocations": [
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   }
+  ],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 157000, 'maxValue': 184000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:APAC",
-    "label": "APAC",
-    "value": "resume:APAC"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Competitive Market Analysis",
-    "label": "Competitive Market Analysis",
-    "value": "resume:Competitive Market Analysis"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:APAC",
-    "label": "APAC",
-    "value": "resume:APAC"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Competitive Market Analysis",
-    "label": "Competitive Market Analysis",
-    "value": "resume:Competitive Market Analysis"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
    },
    {
-    "id": "resume:Thought Leadership",
-    "label": "Thought Leadership",
-    "value": "resume:Thought Leadership"
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:Incident Response",
+    "label": "Incident Response",
+    "value": "resume:Incident Response"
    },
    {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
+    "id": "resume:Unstructured Data",
+    "label": "Unstructured Data",
+    "value": "resume:Unstructured Data"
    }
   ],
   "manager": false,
@@ -257,9 +253,19 @@
    [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "regions": [],
+  "regions": [
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   }
+  ],
   "stages": [
    {
     "id": "100-1000 employees",
@@ -267,44 +273,29 @@
     "value": "100-1000 employees"
    },
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
-   {
-    "id": "AI/ML",
-    "label": "AI/ML",
-    "value": "AI/ML"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
-   },
    {
     "id": "Security",
     "label": "Security",
     "value": "Security"
    }
   ],
-  "timeStamp": "2026-09-14T08:42:27Z",
-  "title": "Principal Solutions Engineer - APAC",
-  "url": "https://job-boards.greenhouse.io/obsidiansecurity/jobs/5286170008",
-  "jobId": "5286170008",
+  "timeStamp": "2026-09-14T17:55:43Z",
+  "title": "Senior Software Engineer (Athena)",
+  "url": "https://job-boards.greenhouse.io/chainguard/jobs/4713200006",
+  "jobId": "4713200006",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1832275088078, 'matchScore': 0, 'ageScore': 0.9832275088078704, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1917918835467, 'matchScore': 0, 'ageScore': 0.9917918835466821, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
    {
     "id": "senior",
     "label": "Senior",
@@ -312,7 +303,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "mid",
    "senior"
   ],
   "isFeatured": false

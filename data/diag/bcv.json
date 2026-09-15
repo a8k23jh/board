@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-14T23:13:19Z",
+ "run": "2026-09-15T01:34:49Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7a818bf9cfac75e3b8ba375a2291a49c8a7de7f5\",\"date\":\"2026-09-14T18:11:44.726Z\"},\"server\":{\"git\":\"7a818bf9cfac75e3b8ba375a2291a49c8a7de7f5\",\"date\":\"2026-09-14T18:11:44.726Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"73c49c6d212de2607d9b16a3199b075e3fbd5fb0\",\"date\":\"2026-09-15T01:10:57.657Z\"},\"server\":{\"git\":\"73c49c6d212de2607d9b16a3199b075e3fbd5fb0\",\"date\":\"2026-09-15T01:10:57.657Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "sHCsNoajn_\u2026",
+  "session.sig": "LAmpSXpZM3\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTE2MzNjMWJmMWE4ODZiNmNiNDVkOTJiZjQ0N2RkNzMiLCAic2NvcmUiOiAxLjAzNzg4MDQ2MjQxNzgyNDJ9"
+   "sequence": "eyJfaWQiOiAiZDZkNDRjZjY5NGYwZmVkNGZhMjY2MDIyYjZkMjdjZTgiLCAic2NvcmUiOiAxLjA2Njk5NjAyMzM1MzAwOTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,110 +163,121 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/shipbobinc/jobs/4732229005",
-  "companyDomain": "shipbob.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/71f9c9623ad8779afcda360d6c852025_256_160?Expires=1861920000&Signature=YgqL41DHl9VZqssRyl2HXp47e02fdpKcujto1In13wYDDojXd6a0-",
-  "companyId": "ShipBob",
-  "companySlug": "shipbob",
-  "companyName": "ShipBob",
-  "companyStaffCount": 1647,
+  "applyUrl": "https://job-boards.greenhouse.io/attentive/jobs/4404473009",
+  "companyDomain": "attentive.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/88a5117e28aafa73bc3d54348423db73_246_160?Expires=1861920000&Signature=X6wvf6WxxkIVi~v0cqwJwGhqmbHL5ZbfYy5le5JCogdefHOIkZXy3",
+  "companyId": "Attentive",
+  "companySlug": "attentive",
+  "companyName": "Attentive Mobile",
+  "companyStaffCount": 1598,
   "considerHosted": false,
   "departments": [
-   "Fulfillment"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "cloud-engineer",
+    "label": "Cloud Engineer",
+    "value": "cloud-engineer"
    },
    {
-    "id": "fulfillment-specialist",
-    "label": "Fulfillment Specialist",
-    "value": "fulfillment-specialist"
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
+   },
+   {
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Bethlehem, Pennsylvania, United States"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Bethlehem, Pennsylvania",
-    "label": "Bethlehem, Pennsylvania",
-    "value": "Bethlehem, Pennsylvania"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 21.25, 'maxValue': 22.25, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 179000, 'maxValue': 264000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
    },
    {
-    "id": "resume:Full Stack Development",
-    "label": "Full Stack Development",
-    "value": "resume:Full Stack Development"
+    "id": "resume:Encryption",
+    "label": "Encryption",
+    "value": "resume:Encryption"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
    },
    {
-    "id": "resume:Productivity Software",
-    "label": "Productivity Software",
-    "value": "resume:Productivity Software"
+    "id": "resume:Data Protection",
+    "label": "Data Protection",
+    "value": "resume:Data Protection"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
    },
    {
-    "id": "resume:Full Stack Development",
-    "label": "Full Stack Development",
-    "value": "resume:Full Stack Development"
+    "id": "resume:Encryption",
+    "label": "Encryption",
+    "value": "resume:Encryption"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
    },
    {
-    "id": "resume:Productivity Software",
-    "label": "Productivity Software",
-    "value": "resume:Productivity Software"
+    "id": "resume:Data Protection",
+    "label": "Data Protection",
+    "value": "resume:Data Protection"
    },
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Developer Experience",
+    "label": "Developer Experience",
+    "value": "resume:Developer Experience"
    },
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
    },
    {
-    "id": "resume:Warehouse Management",
-    "label": "Warehouse Management",
-    "value": "resume:Warehouse Management"
+    "id": "resume:Cloud Native",
+    "label": "Cloud Native",
+    "value": "resume:Cloud Native"
    }
   ],
   "manager": false,
@@ -274,30 +285,16 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -319,28 +316,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
-   },
-   {
-    "id": "Logistics and Supply Chain",
-    "label": "Logistics and Supply Chain",
-    "value": "Logistics and Supply Chain"
-   },
-   {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Marketing and Advertising",
+    "label": "Marketing and Advertising",
+    "value": "Marketing and Advertising"
    }
   ],
-  "timeStamp": "2026-09-14T09:46:31Z",
-  "title": "Lead Fulfillment Associate",
-  "url": "https://job-boards.greenhouse.io/shipbobinc/jobs/4732229005",
-  "jobId": "4732229005",
-  "remote": false,
+  "timeStamp": "2026-09-14T12:27:49Z",
+  "title": "Staff Security Engineer, Cloud Security",
+  "url": "https://job-boards.greenhouse.io/attentive/jobs/4404473009",
+  "jobId": "4404473009",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1846400361612, 'matchScore': 0, 'ageScore': 0.9846400361612654, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1846879064618, 'matchScore': 0, 'ageScore': 0.9846879064618056, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -350,11 +337,6 @@
     "value": "mid"
    },
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
@@ -362,7 +344,6 @@
   ],
   "jobSeniorityIds": [
    "mid",
-   "junior",
    "senior"
   ],
   "isFeatured": false
