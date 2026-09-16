@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-16T00:30:59Z",
+ "run": "2026-09-16T06:10:25Z",
  "homepage": {
   "status": 200,
   "bytes": 20602
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TNE0WHDioh\u2026",
+  "session.sig": "64vaYFdrqc\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjc5ZmI4MGNiZmZjNjRhNGEwZTQwYTEyYzZiZjA2ZTEiLCAic2NvcmUiOiAxLjEzODE3Mzk1Mjk1MjkzMn0="
+   "sequence": "eyJfaWQiOiAiZGNkZjMxMzUwYmY0ZGY2MmUzZWVmNWVlMzBjNGJjMDAiLCAic2NvcmUiOiAxLjEzNTU1MTA2NDc3NzAwNjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,50 +147,69 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4496241",
-  "companyDomain": "setpointmedical.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3456eaf5fc523adf8ff61026efdeacd6_304_160?Expires=1861920000&Signature=IO-5r8tIHz3AtR~smHd-C-v2MeNhtfkvwi7iEhRLLPmO2zGUaOSM7",
-  "companyId": "SetPoint Medical",
-  "companySlug": "setpoint-medical",
-  "companyName": "SetPoint Medical",
-  "companyStaffCount": 125,
+  "applyUrl": "https://jobs.collectivehealth.com/apply/?gh_jid=8180258",
+  "companyDomain": "collectivehealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/935bde8f98cae53ac20edcd86496e628_320_160?Expires=1861920000&Signature=Pn4cXSX5Tn4n04iKT4O-GTcchohY3rFlHsnaeYb9oEeWvSZJXHMsy",
+  "companyId": "Collective Health",
+  "companySlug": "collective-health",
+  "companyName": "Collective Health",
+  "companyStaffCount": 785,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Engineering"
+  ],
   "jobTypes": [
    {
-    "id": "it-engineer",
-    "label": "IT Support Engineer",
-    "value": "it-engineer"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    },
    {
-    "id": "it-manager",
-    "label": "IT Manager",
-    "value": "it-manager"
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
    }
   ],
   "locations": [
-   "SetPoint Medical Valencia Office 25101 Rye Canyon Loop Valencia CA 91355 USA"
+   "San Francisco, CA",
+   "Lehi, UT",
+   "Plano, TX"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Plano, Texas",
+    "label": "Plano, Texas",
+    "value": "Plano, Texas"
+   },
+   {
+    "id": "Lehi, Utah",
+    "label": "Lehi, Utah",
+    "value": "Lehi, Utah"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 172500, 'maxValue': 172500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Contractors",
-    "label": "Contractors",
-    "value": "resume:Contractors"
+    "id": "resume:Security Awareness",
+    "label": "Security Awareness",
+    "value": "resume:Security Awareness"
+   },
+   {
+    "id": "resume:CISA",
+    "label": "CISA",
+    "value": "resume:CISA"
    },
    {
     "id": "resume:Audit",
@@ -198,80 +217,99 @@
     "value": "resume:Audit"
    },
    {
-    "id": "resume:IT Governance",
-    "label": "IT Governance",
-    "value": "resume:IT Governance"
+    "id": "resume:Health Insurance",
+    "label": "Health Insurance",
+    "value": "resume:Health Insurance"
    },
    {
-    "id": "resume:Budgeting",
-    "label": "Budgeting",
-    "value": "resume:Budgeting"
-   },
-   {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
+    "id": "resume:CISM",
+    "label": "CISM",
+    "value": "resume:CISM"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Contractors",
-    "label": "Contractors",
-    "value": "resume:Contractors"
+    "id": "resume:Security Awareness",
+    "label": "Security Awareness",
+    "value": "resume:Security Awareness"
+   },
+   {
+    "id": "resume:CISA",
+    "label": "CISA",
+    "value": "resume:CISA"
    },
    {
     "id": "resume:Audit",
     "label": "Audit",
     "value": "resume:Audit"
-   },
-   {
-    "id": "resume:IT Governance",
-    "label": "IT Governance",
-    "value": "resume:IT Governance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Budgeting",
-    "label": "Budgeting",
-    "value": "resume:Budgeting"
+    "id": "resume:Health Insurance",
+    "label": "Health Insurance",
+    "value": "resume:Health Insurance"
    },
    {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
+    "id": "resume:CISM",
+    "label": "CISM",
+    "value": "resume:CISM"
    },
    {
-    "id": "resume:Business Operations",
-    "label": "Business Operations",
-    "value": "resume:Business Operations"
+    "id": "resume:SOC 2",
+    "label": "SOC 2",
+    "value": "resume:SOC 2"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:User Experience Design",
+    "label": "User Experience Design",
+    "value": "resume:User Experience Design"
    },
    {
-    "id": "resume:Manage Contractors",
-    "label": "Manage Contractors",
-    "value": "resume:Manage Contractors"
+    "id": "resume:Operational audits",
+    "label": "Operational Auditing",
+    "value": "resume:Operational audits"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -289,35 +327,35 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Medical Devices",
-    "label": "Medical Devices",
-    "value": "Medical Devices"
+    "id": "Insurance",
+    "label": "Insurance",
+    "value": "Insurance"
    }
   ],
-  "timeStamp": "2026-09-15T09:21:57Z",
-  "title": "IT Manager (I - II)",
-  "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4496241",
-  "jobId": "4496241",
+  "timeStamp": "2026-09-15T17:15:38Z",
+  "title": "Lead Security Analyst-GRC",
+  "url": "https://jobs.collectivehealth.com/apply/?gh_jid=8180258",
+  "jobId": "8180258",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.184494915995, 'matchScore': 0, 'ageScore': 0.9844949159949846, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1914253515922, 'matchScore': 0, 'ageScore': 0.9914253515922068, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    },
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "junior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },

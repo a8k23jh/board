@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-16T00:30:59Z",
+ "run": "2026-09-16T06:10:25Z",
  "homepage": {
   "status": 200,
   "bytes": 21388
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "f9IzIedtUY\u2026",
+  "session.sig": "8BpMbOdrnp\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzJmYzdkMmI0OTU5MzdlYjhhZDVjMjQ5NjM5NWMxOTAiLCAic2NvcmUiOiAxLjA1NzY5MTU3MDkzNDc5OTR9"
+   "sequence": "eyJfaWQiOiAiNmVhYjc1YzMzMGE0YWMyOGRjNGExNTExYWJhZTJlNjciLCAic2NvcmUiOiAxLjA3ODMyMzQ0NTI4MTYzNn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,123 +152,132 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5424404008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://jobs.lever.co/luxurypresence/262ae59d-60b9-4667-9703-2b924ce956f4?lever-source%5B%5D=jobs.bvp.com",
+  "companyDomain": "luxurypresence.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/424eb3e37fb66a630c9d32c094fc61ca_240_160?Expires=1861920000&Signature=fSYTtnn23iqcoOJZzNYirZId9dUZkkwnb~4MnrzRI4y4YiuGpAjFW",
+  "companyId": "Luxury Presence",
+  "companySlug": "luxury-presence",
+  "companyName": "Luxury Presence",
+  "companyStaffCount": 859,
   "considerHosted": false,
   "departments": [
-   "Safeguards (Trust & Safety)"
+   "Product"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "content-marketing",
+    "label": "Content Marketing",
+    "value": "content-marketing"
+   },
+   {
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   },
+   {
+    "id": "Product Management",
+    "label": "Product Management",
+    "value": "Product Management"
    }
   ],
   "locations": [
-   "New York City, NY",
-   "San Francisco, CA"
+   "Canada"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Canada",
+    "label": "Canada",
+    "value": "Canada"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 180000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Product Strategy",
+    "label": "Product Strategy",
+    "value": "resume:Product Strategy"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Information Architecture",
+    "label": "Information Architecture",
+    "value": "resume:Information Architecture"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:WordPress",
+    "label": "WordPress",
+    "value": "resume:WordPress"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Product Strategy",
+    "label": "Product Strategy",
+    "value": "resume:Product Strategy"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Information Architecture",
+    "label": "Information Architecture",
+    "value": "resume:Information Architecture"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:WordPress",
+    "label": "WordPress",
+    "value": "resume:WordPress"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Impact Analysis",
+    "label": "Impact Analysis",
+    "value": "resume:Impact Analysis"
+   },
+   {
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    }
   ],
   "manager": false,
@@ -276,80 +285,51 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Marketing and Advertising",
+    "label": "Marketing and Advertising",
+    "value": "Marketing and Advertising"
    }
   ],
-  "timeStamp": "2026-09-15T09:43:35Z",
-  "title": "Staff+ Software Engineer, Distributed Systems",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424404008",
-  "jobId": "5424404008",
-  "remote": false,
+  "timeStamp": "2026-09-15T22:36:40.232000Z",
+  "title": "Staff Product Manager, SEO and AI Visibility - CANADA (Remote)",
+  "url": "https://jobs.lever.co/luxurypresence/262ae59d-60b9-4667-9703-2b924ce956f4",
+  "jobId": "262ae59d-60b9-4667-9703-2b924ce956f4",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1845032230312, 'matchScore': 0, 'ageScore': 0.98450322303125, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1987100104444, 'matchScore': 0, 'ageScore': 0.9987100104444444, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -357,6 +337,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false

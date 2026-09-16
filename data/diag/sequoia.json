@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-16T00:30:59Z",
+ "run": "2026-09-16T06:10:25Z",
  "homepage": {
   "status": 200,
   "bytes": 20231
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "g2KJJIWPIo\u2026",
+  "session.sig": "9uRKc140Z6\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDBmNmE5NTM2ZDE2MzA0MzQwZmY4NzRiOTE5YTY5MTciLCAic2NvcmUiOiAxLjE0NDk0Mzc2ODM4MjcxNn0="
+   "sequence": "eyJfaWQiOiAiMTkwOTRhMWJiNDkzYTZiZjRkM2I0YzRiMDE0ZmM0NWUiLCAic2NvcmUiOiAxLjE1MjcwNTIyNDUyNzAwNjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,157 +144,143 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.wiz.io/careers/job/4690414006/:title?gh_jid=4690414006",
-  "companyDomain": "wiz.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3bf556105e936d4c5fd8cd90d18770f0_128_160?Expires=1861920000&Signature=hrTPpNaXaSlV4l-RwSkRyxgsIXM7VYJ9nJ8gz0CsmgbAzuv0c4ZL0",
-  "companyId": "Wiz",
-  "companySlug": "wiz",
-  "companyName": "Wiz",
-  "companyStaffCount": 3149,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8806124002?gh_jid=8806124002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "Field Sales"
+   "Falcon and Dragon Avionics & Software Engineering"
   ],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   },
-   {
-    "id": "major-account-executive",
-    "label": "Major Account Executive",
-    "value": "major-account-executive"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Chicago, Illinois"
+   "Hawthorne, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Chicago, Illinois",
-    "label": "Chicago, Illinois",
-    "value": "Chicago, Illinois"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 166000, 'maxValue': 202000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 130000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
    },
    {
-    "id": "resume:Solution Sales",
-    "label": "Solution Sales",
-    "value": "resume:Solution Sales"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    },
    {
-    "id": "resume:Executive Relationships",
-    "label": "Executive Relationships",
-    "value": "resume:Executive Relationships"
+    "id": "resume:Data Processing",
+    "label": "Data Processing",
+    "value": "resume:Data Processing"
    },
    {
-    "id": "resume:Reproductive Health",
-    "label": "Reproductive Health",
-    "value": "resume:Reproductive Health"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Analytics Tools",
+    "label": "Analytics Tools",
+    "value": "resume:Analytics Tools"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
    },
    {
-    "id": "resume:Solution Sales",
-    "label": "Solution Sales",
-    "value": "resume:Solution Sales"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    },
    {
-    "id": "resume:Executive Relationships",
-    "label": "Executive Relationships",
-    "value": "resume:Executive Relationships"
+    "id": "resume:Data Processing",
+    "label": "Data Processing",
+    "value": "resume:Data Processing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Reproductive Health",
-    "label": "Reproductive Health",
-    "value": "resume:Reproductive Health"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Analytics Tools",
+    "label": "Analytics Tools",
+    "value": "resume:Analytics Tools"
    },
    {
-    "id": "resume:Cloud Security",
-    "label": "Cloud Security",
-    "value": "resume:Cloud Security"
+    "id": "resume:Matlab",
+    "label": "Matlab",
+    "value": "resume:Matlab"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Finite Element Analysis",
+    "label": "Finite Element Analysis",
+    "value": "resume:Finite Element Analysis"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
+  "considerLevels": [],
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
-   },
-   {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
    }
   ],
   "stages": [
@@ -302,38 +288,27 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
    },
    {
-    "id": "Cybersecurity",
-    "label": "Cybersecurity",
-    "value": "Cybersecurity"
-   },
-   {
-    "id": "Security",
-    "label": "Security",
-    "value": "Security"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-09-15T10:16:24Z",
-  "title": "Strategic Account Executive, Central",
-  "url": "https://www.wiz.io/careers/job/4690414006/:title?gh_jid=4690414006",
-  "jobId": "4690414006",
+  "timeStamp": "2026-09-15T17:57:07Z",
+  "title": "Dynamics Engineer (Falcon & Dragon)",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8806124002?gh_jid=8806124002",
+  "jobId": "8806124002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1855957524306, 'matchScore': 0, 'ageScore': 0.9855957524305555, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1920198349017, 'matchScore': 0, 'ageScore': 0.9920198349016204, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
