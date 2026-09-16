@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-16T06:10:25Z",
+ "run": "2026-09-16T11:49:27Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "UPv9dU5wZ7\u2026",
+  "session.sig": "mD-9vL8tIT\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTZhMTkyYTZhMzAwNWRjNGRhMTAzNGUzMTE1NGEzZTUiLCAic2NvcmUiOiAxLjA2NzAxNjEyNzcyNTY5NDR9"
+   "sequence": "eyJfaWQiOiAiM2VmMzEwYzZjOGIwYjdkMGIzNWQ4YzY0NjQ0MWFhZTUiLCAic2NvcmUiOiAxLjA2MTk4NDQxMTc5MDEyMzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -146,12 +146,12 @@
    "companyLogos",
    "companyName",
    "companySlug",
-   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
@@ -163,138 +163,122 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8202815?gh_jid=8202815",
-  "companyDomain": "rubrik.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/35b32caf7afd5dcbacf9b127e064a74c_240_160?Expires=1861920000&Signature=tFI1Cjso4w0tkgpR1k20QMYTdNQlzWLL6jynAO197zbCRXhV0071v",
-  "companyId": "Rubrik",
-  "companySlug": "rubrik",
-  "companyName": "Rubrik",
-  "companyStaffCount": 5198,
+  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6178921004",
+  "companyDomain": "apollo.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
+  "companyId": "Apollo",
+  "companySlug": "apollo",
+  "companyName": "Apollo",
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Revenue"
   ],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   }
-  ],
-  "jobFunctions": [
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "partner",
+    "label": "Partner",
+    "value": "partner"
    }
   ],
+  "jobFunctions": [],
   "locations": [
-   "California"
+   "Remote, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 124400, 'maxValue': 198700, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 315000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Unstructured Data",
-    "label": "Unstructured Data",
-    "value": "resume:Unstructured Data"
+    "id": "resume:Mechanics",
+    "label": "Mechanics",
+    "value": "resume:Mechanics"
    },
    {
-    "id": "resume:Pipeline Generation",
-    "label": "Pipeline Generation",
-    "value": "resume:Pipeline Generation"
+    "id": "resume:Technology Integration",
+    "label": "Technology Integration",
+    "value": "resume:Technology Integration"
    },
    {
-    "id": "resume:NAS",
-    "label": "NAS",
-    "value": "resume:NAS"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    },
    {
-    "id": "resume:Sales Development",
-    "label": "Sales Development",
-    "value": "resume:Sales Development"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Unstructured Data",
-    "label": "Unstructured Data",
-    "value": "resume:Unstructured Data"
+    "id": "resume:Mechanics",
+    "label": "Mechanics",
+    "value": "resume:Mechanics"
    },
    {
-    "id": "resume:Pipeline Generation",
-    "label": "Pipeline Generation",
-    "value": "resume:Pipeline Generation"
+    "id": "resume:Technology Integration",
+    "label": "Technology Integration",
+    "value": "resume:Technology Integration"
    },
    {
-    "id": "resume:NAS",
-    "label": "NAS",
-    "value": "resume:NAS"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Sales Development",
-    "label": "Sales Development",
-    "value": "resume:Sales Development"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Exceeding Quotas",
-    "label": "Exceeding Quotas",
-    "value": "resume:Exceeding Quotas"
+    "id": "resume:Partner Program Management",
+    "label": "Partner Program Management",
+    "value": "resume:Partner Program Management"
    },
    {
-    "id": "resume:Sales Enablement",
-    "label": "Sales Enablement",
-    "value": "resume:Sales Enablement"
+    "id": "resume:Deal Registration",
+    "label": "Deal Registration",
+    "value": "resume:Deal Registration"
    },
    {
-    "id": "resume:Channel Partners",
-    "label": "Channel Partnership",
-    "value": "resume:Channel Partners"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
-    3,
-    4
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 7,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -303,36 +287,37 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Cloud Services",
-    "label": "Cloud Services",
-    "value": "Cloud Services"
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-09-15T17:54:53Z",
-  "title": "Account Executive, NAS Product Specialist",
-  "url": "https://www.rubrik.com/company/careers/departments/job.8202815?gh_jid=8202815",
-  "jobId": "8202815",
-  "remote": false,
+  "timeStamp": "2026-09-15T19:28:01Z",
+  "title": "Head of Partner Programs, Strategy and Operations",
+  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6178921004",
+  "jobId": "6178921004",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.191821620044, 'matchScore': 0, 'ageScore': 0.9918216200439814, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1820191581991, 'matchScore': 0, 'ageScore': 0.982019158199074, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },
