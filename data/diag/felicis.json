@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-16T11:49:27Z",
+ "run": "2026-09-16T17:08:41Z",
  "homepage": {
   "status": 200,
   "bytes": 25229
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ZU0QyhTvD5\u2026",
+  "session.sig": "nsimfIKqxa\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZmY2ZGE2NzZlOTBlZGYxYjE2ZjRjMjZjYWEzOGVkZDYiLCAic2NvcmUiOiAxLjA1NTM0NjE2Mzk1NjAxODd9"
+   "sequence": "eyJfaWQiOiAiYTc2MGViY2M1ZWY0MzIwNzAxZWJkZTA2ZDA5MTNjMGYiLCAic2NvcmUiOiAxLjA0NjgxOTYwOTEwODQxMDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/sentilink/bec9d34c-abae-42d3-80ab-c27c915123d2?utm_source=jobs.felicis.com",
+  "applyUrl": "https://jobs.ashbyhq.com/sentilink/ec7435b7-ac39-45aa-b40a-aff77e22ef35?utm_source=jobs.felicis.com",
   "companyDomain": "sentilink.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/60830764975e1d6a710605115e2bdd70_300_160?Expires=1861920000&Signature=DIf7F9VtyGwsKEvgppSvxpWLfTq4HCStup3M1kx9rLaEWOvcz2-nv",
   "companyId": "SentiLink",
@@ -156,25 +156,25 @@
   "companyStaffCount": 196,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Product"
   ],
   "jobTypes": [
    {
-    "id": "enterprise-account-executive",
-    "label": "Enterprise Account Executive",
-    "value": "enterprise-account-executive"
+    "id": "director-product-management",
+    "label": "Director, Product Management",
+    "value": "director-product-management"
    },
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Product Management",
+    "label": "Product Management",
+    "value": "Product Management"
    }
   ],
   "locations": [
@@ -188,66 +188,17 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 275000, 'maxValue': 350000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:New Market Expansion",
+    "label": "New Market Expansion",
+    "value": "resume:New Market Expansion"
    },
    {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Hotels",
-    "label": "Hotels",
-    "value": "resume:Hotels"
-   },
-   {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Hotels",
-    "label": "Hotels",
-    "value": "resume:Hotels"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   },
-   {
-    "id": "resume:Bloomberg",
-    "label": "Bloomberg",
-    "value": "resume:Bloomberg"
+    "id": "resume:Big Data",
+    "label": "Big Data",
+    "value": "resume:Big Data"
    },
    {
     "id": "resume:Financial Services",
@@ -255,12 +206,61 @@
     "value": "resume:Financial Services"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    }
   ],
-  "manager": false,
+  "requiredSkills": [
+   {
+    "id": "resume:New Market Expansion",
+    "label": "New Market Expansion",
+    "value": "resume:New Market Expansion"
+   },
+   {
+    "id": "resume:Big Data",
+    "label": "Big Data",
+    "value": "resume:Big Data"
+   },
+   {
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   },
+   {
+    "id": "resume:Data Infrastructure",
+    "label": "Data Infrastructure",
+    "value": "resume:Data Infrastructure"
+   },
+   {
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
+   },
+   {
+    "id": "resume:BigQuery",
+    "label": "BigQuery",
+    "value": "resume:BigQuery"
+   }
+  ],
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -307,23 +307,23 @@
    }
   ],
   "timeStamp": "2026-09-16T00:00:00Z",
-  "title": "Enterprise Account Executive, Travel & Entertainment",
-  "url": "https://jobs.ashbyhq.com/sentilink/bec9d34c-abae-42d3-80ab-c27c915123d2",
-  "jobId": "bec9d34c-abae-42d3-80ab-c27c915123d2",
+  "title": "Product Leader, Prefill",
+  "url": "https://jobs.ashbyhq.com/sentilink/ec7435b7-ac39-45aa-b40a-aff77e22ef35",
+  "jobId": "ec7435b7-ac39-45aa-b40a-aff77e22ef35",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1882558444742, 'matchScore': 0, 'ageScore': 0.9882558444741513, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1799051904621, 'matchScore': 0, 'ageScore': 0.9799051904621914, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

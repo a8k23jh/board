@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-16T11:49:27Z",
+ "run": "2026-09-16T17:08:41Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "mD-9vL8tIT\u2026",
+  "session.sig": "ZzqNjWqAmv\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2VmMzEwYzZjOGIwYjdkMGIzNWQ4YzY0NjQ0MWFhZTUiLCAic2NvcmUiOiAxLjA2MTk4NDQxMTc5MDEyMzR9"
+   "sequence": "eyJfaWQiOiAiYTBlZjQ4ODlkZDhhZjgzYzQ5MzI5ZTlhNDM4MzI3ZTYiLCAic2NvcmUiOiAxLjA1MzExMzEzNzU1NDAxMjR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6178921004",
+  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6194197004",
   "companyDomain": "apollo.io",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
   "companyId": "Apollo",
@@ -171,114 +171,161 @@
   "companyName": "Apollo",
   "considerHosted": false,
   "departments": [
-   "Revenue"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "consultant",
+    "label": "Consultant",
+    "value": "consultant"
    },
    {
-    "id": "partner",
-    "label": "Partner",
-    "value": "partner"
+    "id": "manager-solutions-architect",
+    "label": "Manager Solutions Architects",
+    "value": "manager-solutions-architect"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   },
+   {
+    "id": "Consulting",
+    "label": "Consulting",
+    "value": "Consulting"
+   }
+  ],
   "locations": [
+   "Hybrid, Austin",
+   "Hybrid, San Francisco",
    "Remote, United States"
   ],
   "normalizedLocations": [
+   {
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 315000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Mechanics",
-    "label": "Mechanics",
-    "value": "resume:Mechanics"
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
    },
    {
-    "id": "resume:Technology Integration",
-    "label": "Technology Integration",
-    "value": "resume:Technology Integration"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Sales Operations",
+    "label": "Sales Operations",
+    "value": "resume:Sales Operations"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Mechanics",
-    "label": "Mechanics",
-    "value": "resume:Mechanics"
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
    },
    {
-    "id": "resume:Technology Integration",
-    "label": "Technology Integration",
-    "value": "resume:Technology Integration"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Sales Operations",
+    "label": "Sales Operations",
+    "value": "resume:Sales Operations"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    },
    {
-    "id": "resume:Partner Program Management",
-    "label": "Partner Program Management",
-    "value": "resume:Partner Program Management"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Deal Registration",
-    "label": "Deal Registration",
-    "value": "resume:Deal Registration"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    }
   ],
-  "manager": true,
-  "consultant": false,
+  "manager": false,
+  "consultant": true,
   "contractor": false,
   "considerLevels": [
    [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 10,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -300,25 +347,17 @@
     "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-09-15T19:28:01Z",
-  "title": "Head of Partner Programs, Strategy and Operations",
-  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6178921004",
-  "jobId": "6178921004",
+  "timeStamp": "2026-09-15T19:38:52Z",
+  "title": "Senior Manager, Solution Consulting",
+  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6194197004",
+  "jobId": "6194197004",
   "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1820191581991, 'matchScore': 0, 'ageScore': 0.982019158199074, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1740265556247, 'matchScore': 0, 'ageScore': 0.9740265556246142, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
-   }
-  ],
-  "jobSeniorityIds": [
-   "director"
-  ],
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {

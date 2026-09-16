@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-16T11:49:27Z",
+ "run": "2026-09-16T17:08:41Z",
  "homepage": {
   "status": 200,
   "bytes": 20231
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TbjO1MwQEO\u2026",
+  "session.sig": "BRUyHE3Z5L\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2EzNjZmMmUyOWZjZDFmMzI0YzFmOTU2NWIwYjM4MWMiLCAic2NvcmUiOiAxLjE0NjE1OTA3NTIyOTkzODJ9"
+   "sequence": "eyJfaWQiOiAiM2EzNjZmMmUyOWZjZDFmMzI0YzFmOTU2NWIwYjM4MWMiLCAic2NvcmUiOiAxLjEzNzY2NTM5ODQxMzU4MDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,106 +144,127 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8196302",
-  "companyDomain": "reddit.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
-  "companyId": "Reddit",
-  "companySlug": "reddit",
-  "companyName": "reddit",
-  "companyStaffCount": 4495,
+  "applyUrl": "https://job-boards.greenhouse.io/grafanalabs/jobs/6191204004",
+  "companyDomain": "grafana.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/32a90dde8d44051d64fa600f3d9b65c2_320_160?Expires=1861920000&Signature=QLDDUpzbhHfSLkiSts7c3p9gH6wI54LzqzfhnFpekGZchlhjTA1t0",
+  "companyId": "Grafana Labs",
+  "companySlug": "grafana-labs",
+  "companyName": "Grafana Labs",
+  "companyStaffCount": 1862,
   "considerHosted": false,
   "departments": [
-   "Large Customer Sales"
+   "Solutions Engineering (APAC)"
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "solutions-architect",
+    "label": "Solutions Architect",
+    "value": "solutions-architect"
    },
    {
-    "id": "partner",
-    "label": "Partner",
-    "value": "partner"
+    "id": "sales-engineer",
+    "label": "Sales Engineer",
+    "value": "sales-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "New York City, NY"
+   "India (Remote)"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "India",
+    "label": "India",
+    "value": "India"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 142200, 'maxValue': 199100, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 7.4, 'maxValue': 9.8, 'currency': {'label': 'INR', 'value': 'INR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Digital Media",
-    "label": "Digital Media",
-    "value": "resume:Digital Media"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    },
    {
-    "id": "resume:Growth Marketing",
-    "label": "Growth Marketing",
-    "value": "resume:Growth Marketing"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    },
    {
-    "id": "resume:Social Media",
-    "label": "Social Media",
-    "value": "resume:Social Media"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
+    "id": "resume:Bloomberg",
+    "label": "Bloomberg",
+    "value": "resume:Bloomberg"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Digital Media",
-    "label": "Digital Media",
-    "value": "resume:Digital Media"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    },
    {
-    "id": "resume:Growth Marketing",
-    "label": "Growth Marketing",
-    "value": "resume:Growth Marketing"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    },
    {
-    "id": "resume:Social Media",
-    "label": "Social Media",
-    "value": "resume:Social Media"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
+    "id": "resume:Bloomberg",
+    "label": "Bloomberg",
+    "value": "resume:Bloomberg"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
+   },
+   {
+    "id": "resume:Grafana",
+    "label": "Grafana",
+    "value": "resume:Grafana"
    }
   ],
   "manager": false,
@@ -251,35 +272,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
-   ],
-   [
-    7,
-    8
+    3,
+    4
    ]
   ],
-  "minYearsExp": 12,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Asia Pacific",
+    "label": "Asia Pacific",
+    "value": "Asia Pacific"
    }
   ],
   "stages": [
@@ -287,27 +288,28 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Consumer",
-    "label": "Consumer",
-    "value": "Consumer"
    },
    {
-    "id": "Social Networking",
-    "label": "Social Networking",
-    "value": "Social Networking"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-09-15T20:15:58Z",
-  "title": "Lead Client Partner, Global Strategic Accounts (Tech)",
-  "url": "https://job-boards.greenhouse.io/reddit/jobs/8196302",
-  "jobId": "8196302",
-  "remote": false,
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
+   }
+  ],
+  "timeStamp": "2026-09-15T23:31:33Z",
+  "title": "Senior Solutions Engineer | Preference for Mumbai, India",
+  "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6191204004",
+  "jobId": "6191204004",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1834961882465, 'matchScore': 0, 'ageScore': 0.9834961882465277, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1788003013661, 'matchScore': 0, 'ageScore': 0.9788003013661265, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -315,16 +317,10 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

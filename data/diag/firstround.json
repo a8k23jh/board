@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-16T11:49:27Z",
+ "run": "2026-09-16T17:08:41Z",
  "homepage": {
   "status": 200,
   "bytes": 16697
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "QEP5IfpcUE\u2026",
+  "session.sig": "iDGa7mGXf2\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDkxOWRiNDVkNTA2ZGZlN2E0ZmE3YWY0NTg3MjZiYjIiLCAic2NvcmUiOiAxLjAwNTkwNTA1MTc0NjkxMzV9"
+   "sequence": "eyJfaWQiOiAiNDkxOWRiNDVkNTA2ZGZlN2E0ZmE3YWY0NTg3MjZiYjIiLCAic2NvcmUiOiAwLjk5NzE1MjgzODkzOTQyOTF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -138,7 +138,6 @@
    "companyLogos",
    "companyName",
    "companySlug",
-   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
@@ -149,118 +148,103 @@
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Serval/373dc648-dfb7-4f65-a34b-4076f227a04c?utm_source=jobs.firstround.com",
-  "companyDomain": "serval.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d777c777f21f635fa2b513de602489ce_240_160?Expires=1861920000&Signature=SPreRMoaotnvWijsm5IPy0g-DCZeMMFja-0vgDhzmjpuqiLcPDbjg",
-  "companyId": "Serval",
-  "companySlug": "serval",
-  "companyName": "Serval",
-  "companyStaffCount": 161,
+  "applyUrl": "https://jobs.ashbyhq.com/town/42135d40-3a30-4033-8a79-371dd1237676?utm_source=jobs.firstround.com",
+  "companyDomain": "town.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a3e139f2dc0ceb6fbf344d52ed0df6c6_144_160?Expires=1861920000&Signature=s~xaxcqZwuiHWRybHxq1zJJBIWaatoqYQl5OO3HSmGgs1fFpq7ipw",
+  "companyId": "Town",
+  "companySlug": "town",
+  "companyName": "Town",
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "EPD"
   ],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Santa Clara, California, United States",
-   "Santa Clara"
+   "San Francisco, California, United States",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Santa Clara, California",
-    "label": "Santa Clara, California",
-    "value": "Santa Clara, California"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Relationship Management",
-    "label": "Relationship Management",
-    "value": "resume:Relationship Management"
+    "id": "resume:GRC",
+    "label": "GRC",
+    "value": "resume:GRC"
    },
    {
-    "id": "resume:Agent Systems",
-    "label": "Agent Systems",
-    "value": "resume:Agent Systems"
+    "id": "resume:SOC 2",
+    "label": "SOC 2",
+    "value": "resume:SOC 2"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Relationship Management",
-    "label": "Relationship Management",
-    "value": "resume:Relationship Management"
+    "id": "resume:GRC",
+    "label": "GRC",
+    "value": "resume:GRC"
    },
    {
-    "id": "resume:Agent Systems",
-    "label": "Agent Systems",
-    "value": "resume:Agent Systems"
+    "id": "resume:SOC 2",
+    "label": "SOC 2",
+    "value": "resume:SOC 2"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
-   {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
-   },
-   {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
-   },
-   {
-    "id": "resume:Identity & Access Management (IAM)",
-    "label": "Identity & Access Management (IAM)",
-    "value": "resume:Identity & Access Management (IAM)"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "manager": false,
@@ -269,9 +253,9 @@
   "considerLevels": [],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "West Coast",
@@ -279,43 +263,33 @@
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
   "timeStamp": "2026-09-16T00:00:00Z",
-  "title": "Deployment Strategist, Flagship Account",
-  "url": "https://jobs.ashbyhq.com/Serval/373dc648-dfb7-4f65-a34b-4076f227a04c",
-  "jobId": "373dc648-dfb7-4f65-a34b-4076f227a04c",
+  "title": "TechOps Engineer",
+  "url": "https://jobs.ashbyhq.com/town/42135d40-3a30-4033-8a79-371dd1237676",
+  "jobId": "42135d40-3a30-4033-8a79-371dd1237676",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1887250761115, 'matchScore': 0, 'ageScore': 0.988725076111497, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1796781893615, 'matchScore': 0, 'ageScore': 0.9796781893614969, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
