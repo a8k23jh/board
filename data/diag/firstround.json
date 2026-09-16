@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-15T21:31:07Z",
+ "run": "2026-09-16T00:30:59Z",
  "homepage": {
   "status": 200,
   "bytes": 16697
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"c9c4ae33da3d1946286d1a7707ca3b668335ed50\",\"date\":\"2026-09-15T19:06:26.136Z\"},\"server\":{\"git\":\"c9c4ae33da3d1946286d1a7707ca3b668335ed50\",\"date\":\"2026-09-15T19:06:26.136Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"},\"server\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "5zW-s0qLE4\u2026",
+  "session.sig": "RTp4D0TODT\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYmQ5MDdmYjUwYWY3ZDQ1YTUyNzk3MzdjOTg0N2JkYmEiLCAic2NvcmUiOiAwLjk3NDYzNTA5NTU5MTQzNTF9"
+   "sequence": "eyJfaWQiOiAiYmQ5MDdmYjUwYWY3ZDQ1YTUyNzk3MzdjOTg0N2JkYmEiLCAic2NvcmUiOiAwLjk3MDIxNTYyNjIwMTM4ODh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,9 +168,9 @@
   ],
   "jobTypes": [
    {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
    },
    {
     "id": "sales",
@@ -178,9 +178,9 @@
     "value": "sales"
    },
    {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
    }
   ],
   "jobFunctions": [
@@ -203,19 +203,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 60700, 'maxValue': 75850, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Manage Client Expectations",
-    "label": "Manage Client Expectations",
-    "value": "resume:Manage Client Expectations"
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
+    "id": "resume:Military Operations",
+    "label": "Military Operations",
+    "value": "resume:Military Operations"
    },
    {
     "id": "resume:Equity",
@@ -223,53 +218,58 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Manage Client Expectations",
-    "label": "Manage Client Expectations",
-    "value": "resume:Manage Client Expectations"
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
    },
+   {
+    "id": "resume:Military Operations",
+    "label": "Military Operations",
+    "value": "resume:Military Operations"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:SaaS",
     "label": "Software as a Service",
     "value": "resume:SaaS"
    },
    {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Hardware Design",
-    "label": "Hardware Design",
-    "value": "resume:Hardware Design"
+    "id": "resume:French",
+    "label": "French",
+    "value": "resume:French"
    },
    {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
-   },
-   {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
+    "id": "resume:Record Of Success",
+    "label": "Record Of Success",
+    "value": "resume:Record Of Success"
    }
   ],
   "manager": false,
@@ -324,7 +324,7 @@
   "jobId": "8204162",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1900867021898, 'matchScore': 0, 'ageScore': 0.9900867021898148, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1865341423218, 'matchScore': 0, 'ageScore': 0.9865341423217593, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

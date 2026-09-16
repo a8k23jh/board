@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-15T21:31:07Z",
+ "run": "2026-09-16T00:30:59Z",
  "homepage": {
   "status": 200,
   "bytes": 20231
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"c9c4ae33da3d1946286d1a7707ca3b668335ed50\",\"date\":\"2026-09-15T19:06:26.136Z\"},\"server\":{\"git\":\"c9c4ae33da3d1946286d1a7707ca3b668335ed50\",\"date\":\"2026-09-15T19:06:26.136Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"},\"server\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Ng_3Ce4Eb_\u2026",
+  "session.sig": "g2KJJIWPIo\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDBmNmE5NTM2ZDE2MzA0MzQwZmY4NzRiOTE5YTY5MTciLCAic2NvcmUiOiAxLjE0ODc2Njg2NDQzNjcyODR9"
+   "sequence": "eyJfaWQiOiAiNDBmNmE5NTM2ZDE2MzA0MzQwZmY4NzRiOTE5YTY5MTciLCAic2NvcmUiOiAxLjE0NDk0Mzc2ODM4MjcxNn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,131 +144,157 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8805410002?gh_jid=8805410002",
-  "companyDomain": "spacex.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
-  "companyId": "SpaceX",
-  "companySlug": "spacex",
-  "companyName": "SpaceX",
-  "companyStaffCount": 20713,
+  "applyUrl": "https://www.wiz.io/careers/job/4690414006/:title?gh_jid=4690414006",
+  "companyDomain": "wiz.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3bf556105e936d4c5fd8cd90d18770f0_128_160?Expires=1861920000&Signature=hrTPpNaXaSlV4l-RwSkRyxgsIXM7VYJ9nJ8gz0CsmgbAzuv0c4ZL0",
+  "companyId": "Wiz",
+  "companySlug": "wiz",
+  "companyName": "Wiz",
+  "companyStaffCount": 3149,
   "considerHosted": false,
   "departments": [
-   "Food Services - Hawthorne"
+   "Field Sales"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "major-account-executive",
+    "label": "Major Account Executive",
+    "value": "major-account-executive"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "Hawthorne, CA"
+   "Chicago, Illinois"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 110000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 166000, 'maxValue': 202000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Inventory Management",
-    "label": "Inventory Management",
-    "value": "resume:Inventory Management"
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    },
    {
-    "id": "resume:Human Capital Management",
-    "label": "Human Capital Management",
-    "value": "resume:Human Capital Management"
+    "id": "resume:Solution Sales",
+    "label": "Solution Sales",
+    "value": "resume:Solution Sales"
    },
    {
-    "id": "resume:Food Safety",
-    "label": "Food Safety",
-    "value": "resume:Food Safety"
+    "id": "resume:Executive Relationships",
+    "label": "Executive Relationships",
+    "value": "resume:Executive Relationships"
    },
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Reproductive Health",
+    "label": "Reproductive Health",
+    "value": "resume:Reproductive Health"
    },
    {
-    "id": "resume:Accrual",
-    "label": "Accrual",
-    "value": "resume:Accrual"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Inventory Management",
-    "label": "Inventory Management",
-    "value": "resume:Inventory Management"
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    },
    {
-    "id": "resume:Human Capital Management",
-    "label": "Human Capital Management",
-    "value": "resume:Human Capital Management"
+    "id": "resume:Solution Sales",
+    "label": "Solution Sales",
+    "value": "resume:Solution Sales"
    },
    {
-    "id": "resume:Food Safety",
-    "label": "Food Safety",
-    "value": "resume:Food Safety"
+    "id": "resume:Executive Relationships",
+    "label": "Executive Relationships",
+    "value": "resume:Executive Relationships"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Reproductive Health",
+    "label": "Reproductive Health",
+    "value": "resume:Reproductive Health"
    },
    {
-    "id": "resume:Accrual",
-    "label": "Accrual",
-    "value": "resume:Accrual"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Cloud Security",
+    "label": "Cloud Security",
+    "value": "resume:Cloud Security"
+   },
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
    }
   ],
   "stages": [
@@ -276,38 +302,49 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-09-15T10:26:38Z",
-  "title": "Manager, Hospitality (Caf\u00e9)",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8805410002?gh_jid=8805410002",
-  "jobId": "8805410002",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
+   },
+   {
+    "id": "Cybersecurity",
+    "label": "Cybersecurity",
+    "value": "Cybersecurity"
+   },
+   {
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
+   }
+  ],
+  "timeStamp": "2026-09-15T10:16:24Z",
+  "title": "Strategic Account Executive, Central",
+  "url": "https://www.wiz.io/careers/job/4690414006/:title?gh_jid=4690414006",
+  "jobId": "4690414006",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1905712567758, 'matchScore': 0, 'ageScore': 0.9905712567758488, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1855957524306, 'matchScore': 0, 'ageScore': 0.9855957524305555, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },

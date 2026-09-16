@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-15T21:31:07Z",
+ "run": "2026-09-16T00:30:59Z",
  "homepage": {
   "status": 200,
   "bytes": 19512
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"c9c4ae33da3d1946286d1a7707ca3b668335ed50\",\"date\":\"2026-09-15T19:06:26.136Z\"},\"server\":{\"git\":\"c9c4ae33da3d1946286d1a7707ca3b668335ed50\",\"date\":\"2026-09-15T19:06:26.136Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"},\"server\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Vngj_spTde\u2026",
+  "session.sig": "NiL0FBO35R\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTcyNGJiYzg4ZDBiZDk3NGUwYWE5ZWVjN2E4ZmU2NTMiLCAic2NvcmUiOiAxLjA3NTI2MDE0MDUwMTE1NzV9"
+   "sequence": "eyJfaWQiOiAiM2JlMzFlOGZjNWY3ZWZkMzYwOTY0ODhmNzkxZGY3NmEiLCAic2NvcmUiOiAxLjA3MTA5NzcxNzk1Nzk0NzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -182,58 +182,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 153000, 'maxValue': 269000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Event Marketing",
-    "label": "Event Marketing",
-    "value": "resume:Event Marketing"
-   },
-   {
-    "id": "resume:Figma",
-    "label": "Figma",
-    "value": "resume:Figma"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Reproduction",
-    "label": "Reproduction",
-    "value": "resume:Reproduction"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
     "id": "resume:Strategic Planning",
     "label": "Strategic Planning",
     "value": "resume:Strategic Planning"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Event Marketing",
-    "label": "Event Marketing",
-    "value": "resume:Event Marketing"
    },
    {
     "id": "resume:Figma",
     "label": "Figma",
     "value": "resume:Figma"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Reproduction",
-    "label": "Reproduction",
-    "value": "resume:Reproduction"
-   },
-   {
-    "id": "resume:Strategic Planning",
-    "label": "Strategic Planning",
-    "value": "resume:Strategic Planning"
    },
    {
     "id": "resume:Equity",
@@ -241,14 +202,53 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Strategic Planning",
+    "label": "Strategic Planning",
+    "value": "resume:Strategic Planning"
+   },
+   {
+    "id": "resume:Figma",
+    "label": "Figma",
+    "value": "resume:Figma"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
     "id": "resume:State & Local",
     "label": "State & Local",
     "value": "resume:State & Local"
+   },
+   {
+    "id": "resume:Reproduction",
+    "label": "Reproduction",
+    "value": "resume:Reproduction"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Sales Compensation",
+    "label": "Sales Compensation",
+    "value": "resume:Sales Compensation"
    }
   ],
   "manager": false,
@@ -266,9 +266,9 @@
   ],
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "West Coast",
@@ -276,9 +276,9 @@
     "value": "West Coast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -312,7 +312,7 @@
   "jobId": "6191882004",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1893133028792, 'matchScore': 0, 'ageScore': 0.9893133028792438, 'richnessScore': 2}",
+  "scores": "{'score': 1001.185083918257, 'matchScore': 0, 'ageScore': 0.9850839182569444, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

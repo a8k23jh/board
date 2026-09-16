@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-15T21:31:07Z",
+ "run": "2026-09-16T00:30:59Z",
  "homepage": {
   "status": 200,
   "bytes": 21388
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"c9c4ae33da3d1946286d1a7707ca3b668335ed50\",\"date\":\"2026-09-15T19:06:26.136Z\"},\"server\":{\"git\":\"c9c4ae33da3d1946286d1a7707ca3b668335ed50\",\"date\":\"2026-09-15T19:06:26.136Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"},\"server\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "6lWGJRyMxN\u2026",
+  "session.sig": "f9IzIedtUY\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjc4NjNhMWNkMzA4MmU5NGFjYjVlMTNhMmE0N2Q5YzQiLCAic2NvcmUiOiAxLjA2MTQxNTczMTg1ODAyNDZ9"
+   "sequence": "eyJfaWQiOiAiYzJmYzdkMmI0OTU5MzdlYjhhZDVjMjQ5NjM5NWMxOTAiLCAic2NvcmUiOiAxLjA1NzY5MTU3MDkzNDc5OTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -207,19 +207,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
+   },
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   },
+   {
     "id": "resume:Sales Commission",
     "label": "Sales Commission",
     "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Equity",
@@ -227,26 +227,26 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
+   },
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   },
+   {
     "id": "resume:Sales Commission",
     "label": "Sales Commission",
     "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
    }
   ],
   "preferredSkills": [
@@ -256,9 +256,9 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
     "id": "resume:Research",
@@ -266,9 +266,9 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -290,6 +290,16 @@
   ],
   "regions": [
    {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -298,16 +308,6 @@
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    },
    {
     "id": "Pacific States",
@@ -346,7 +346,7 @@
   "jobId": "5424404008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.189020288586, 'matchScore': 0, 'ageScore': 0.989020288586034, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1845032230312, 'matchScore': 0, 'ageScore': 0.98450322303125, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
