@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-16T17:08:41Z",
+ "run": "2026-09-16T20:15:01Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ZzqNjWqAmv\u2026",
+  "session.sig": "gFjpcbZy1c\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTBlZjQ4ODlkZDhhZjgzYzQ5MzI5ZTlhNDM4MzI3ZTYiLCAic2NvcmUiOiAxLjA1MzExMzEzNzU1NDAxMjR9"
+   "sequence": "eyJfaWQiOiAiNTU3NGFhMzQ4NGRhYjQ0ZDViZjhhMDJjZjAzZjk2OWIiLCAic2NvcmUiOiAxLjA4MzI0MzYyMjA4ODM0ODh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -146,12 +146,12 @@
    "companyLogos",
    "companyName",
    "companySlug",
+   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
@@ -163,16 +163,15 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6194197004",
-  "companyDomain": "apollo.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
-  "companyId": "Apollo",
-  "companySlug": "apollo",
-  "companyName": "Apollo",
+  "applyUrl": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-Arlington/Change-Management-Communications-Consultant_44588",
+  "companyDomain": "guidehouse.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8bc0bb4bf4e114d6038755ebfb6d5f24_320_160?Expires=1861920000&Signature=pCmxuJlEyug4URyLV8ZDc4EssRYCvClteAtfAIJfQavWlUAl68jVh",
+  "companyId": "Guidehouse",
+  "companySlug": "guidehouse",
+  "companyName": "Guidehouse",
+  "companyStaffCount": 15158,
   "considerHosted": false,
-  "departments": [
-   "Sales"
-  ],
+  "departments": [],
   "jobTypes": [
    {
     "id": "consultant",
@@ -180,16 +179,36 @@
     "value": "consultant"
    },
    {
-    "id": "manager-solutions-architect",
-    "label": "Manager Solutions Architects",
-    "value": "manager-solutions-architect"
+    "id": "marketing-demand-generation",
+    "label": "Marketing Demand Generation",
+    "value": "marketing-demand-generation"
+   },
+   {
+    "id": "change-manager",
+    "label": "Change Manager",
+    "value": "change-manager"
+   },
+   {
+    "id": "communications",
+    "label": "communications",
+    "value": "communications"
+   },
+   {
+    "id": "marketing-communications",
+    "label": "Marketing Communications",
+    "value": "marketing-communications"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   },
+   {
+    "id": "Public Relations",
+    "label": "Public Relations",
+    "value": "Public Relations"
    },
    {
     "id": "Consulting",
@@ -198,97 +217,92 @@
    }
   ],
   "locations": [
-   "Hybrid, Austin",
-   "Hybrid, San Francisco",
-   "Remote, United States"
+   " VA, Arlington, US ",
+   "United States of America",
+   "DC, Washington, US"
   ],
   "normalizedLocations": [
-   {
-    "id": "Austin, Texas",
-    "label": "Austin, Texas",
-    "value": "Austin, Texas"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
+   },
+   {
+    "id": "Washington",
+    "label": "Washington State",
+    "value": "Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 98000, 'maxValue': 163000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
+    "id": "resume:Executive Communications",
+    "label": "Executive Communications",
+    "value": "resume:Executive Communications"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Management Consulting",
+    "label": "Management Consulting",
+    "value": "resume:Management Consulting"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Strategic Communications",
+    "label": "Strategic Communications",
+    "value": "resume:Strategic Communications"
    },
    {
-    "id": "resume:Sales Operations",
-    "label": "Sales Operations",
-    "value": "resume:Sales Operations"
+    "id": "resume:Organizational Change",
+    "label": "Organizational Change",
+    "value": "resume:Organizational Change"
    },
    {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
+    "id": "resume:Executive Communications",
+    "label": "Executive Communications",
+    "value": "resume:Executive Communications"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Management Consulting",
+    "label": "Management Consulting",
+    "value": "resume:Management Consulting"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Strategic Communications",
+    "label": "Strategic Communications",
+    "value": "resume:Strategic Communications"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Sales Operations",
-    "label": "Sales Operations",
-    "value": "resume:Sales Operations"
+    "id": "resume:Organizational Change",
+    "label": "Organizational Change",
+    "value": "resume:Organizational Change"
    },
    {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Press Releases",
+    "label": "Press Releases",
+    "value": "resume:Press Releases"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Stakeholder Engagement",
+    "label": "Stakeholder Engagement",
+    "value": "resume:Stakeholder Engagement"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:ProSci",
+    "label": "ProSci",
+    "value": "resume:ProSci"
    }
   ],
   "manager": false,
@@ -296,35 +310,26 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
-   ],
-   [
-    7,
-    8
+    3,
+    4
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 4,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
    },
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "North America",
@@ -334,31 +339,44 @@
   ],
   "stages": [
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Business Services",
+    "label": "Business Services",
+    "value": "Business Services"
+   },
+   {
+    "id": "Management Consulting",
+    "label": "Management Consulting",
+    "value": "Management Consulting"
    }
   ],
-  "timeStamp": "2026-09-15T19:38:52Z",
-  "title": "Senior Manager, Solution Consulting",
-  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6194197004",
-  "jobId": "6194197004",
+  "timeStamp": "2026-09-16T00:00:00Z",
+  "title": "Change Management Communications Consultant",
+  "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-Arlington/Change-Management-Communications-Consultant_44588",
+  "jobId": "a33579f35e19100152d0ab4558fc0000",
   "remote": true,
-  "hybrid": true,
-  "scores": "{'score': 1001.1740265556247, 'matchScore': 0, 'ageScore': 0.9740265556246142, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1759464754788, 'matchScore': 0, 'ageScore': 0.9759464754787809, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
-  "isFeatured": false
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
+  "isFeatured": false,
+  "llmFeatures": "{'summary': 'The Change Management Communications Consultant develops and executes communication strategies to support organizational change and modernization initiatives for federal healthcare client"
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"

@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-16T17:08:41Z",
+ "run": "2026-09-16T20:15:01Z",
  "homepage": {
   "status": 200,
   "bytes": 20231
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "BRUyHE3Z5L\u2026",
+  "session.sig": "ylSgz2PQqw\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2EzNjZmMmUyOWZjZDFmMzI0YzFmOTU2NWIwYjM4MWMiLCAic2NvcmUiOiAxLjEzNzY2NTM5ODQxMzU4MDN9"
+   "sequence": "eyJfaWQiOiAiOGY5YzhmMjM3NjhhY2UzMjg5MjlhNzk0MTBiOGEzYzQiLCAic2NvcmUiOiAxLjEzNDkzMzIwOTcyNTY5NDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,38 +144,33 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/grafanalabs/jobs/6191204004",
-  "companyDomain": "grafana.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/32a90dde8d44051d64fa600f3d9b65c2_320_160?Expires=1861920000&Signature=QLDDUpzbhHfSLkiSts7c3p9gH6wI54LzqzfhnFpekGZchlhjTA1t0",
-  "companyId": "Grafana Labs",
-  "companySlug": "grafana-labs",
-  "companyName": "Grafana Labs",
-  "companyStaffCount": 1862,
+  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8187247",
+  "companyDomain": "reddit.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
+  "companyId": "Reddit",
+  "companySlug": "reddit",
+  "companyName": "reddit",
+  "companyStaffCount": 4495,
   "considerHosted": false,
   "departments": [
-   "Solutions Engineering (APAC)"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "solutions-architect",
-    "label": "Solutions Architect",
-    "value": "solutions-architect"
-   },
-   {
-    "id": "sales-engineer",
-    "label": "Sales Engineer",
-    "value": "sales-engineer"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
   "jobFunctions": [
@@ -186,70 +181,65 @@
    }
   ],
   "locations": [
-   "India (Remote)"
+   "Remote - United States"
   ],
   "normalizedLocations": [
    {
-    "id": "India",
-    "label": "India",
-    "value": "India"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 7.4, 'maxValue': 9.8, 'currency': {'label': 'INR', 'value': 'INR'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 267000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:User Acquisition",
+    "label": "User Acquisition",
+    "value": "resume:User Acquisition"
    },
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:GraphQL",
+    "label": "GraphQL",
+    "value": "resume:GraphQL"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Trust and Safety",
+    "label": "Trust and Safety",
+    "value": "resume:Trust and Safety"
    },
    {
-    "id": "resume:Bloomberg",
-    "label": "Bloomberg",
-    "value": "resume:Bloomberg"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:User Acquisition",
+    "label": "User Acquisition",
+    "value": "resume:User Acquisition"
    },
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:GraphQL",
+    "label": "GraphQL",
+    "value": "resume:GraphQL"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Trust and Safety",
+    "label": "Trust and Safety",
+    "value": "resume:Trust and Safety"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Bloomberg",
-    "label": "Bloomberg",
-    "value": "resume:Bloomberg"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -257,14 +247,19 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Grafana",
-    "label": "Grafana",
-    "value": "resume:Grafana"
+    "id": "resume:Contractors",
+    "label": "Contractors",
+    "value": "resume:Contractors"
+   },
+   {
+    "id": "resume:Mobile",
+    "label": "Mobile",
+    "value": "resume:Mobile"
    }
   ],
   "manager": false,
@@ -274,13 +269,17 @@
    [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
   "regions": [
    {
-    "id": "Asia Pacific",
-    "label": "Asia Pacific",
-    "value": "Asia Pacific"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -288,28 +287,27 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Analytics",
-    "label": "Analytics",
-    "value": "Analytics"
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
+   },
+   {
+    "id": "Social Networking",
+    "label": "Social Networking",
+    "value": "Social Networking"
    }
   ],
-  "timeStamp": "2026-09-15T23:31:33Z",
-  "title": "Senior Solutions Engineer | Preference for Mumbai, India",
-  "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6191204004",
-  "jobId": "6191204004",
+  "timeStamp": "2026-09-16T12:12:02Z",
+  "title": "Senior Software Engineer, Consumer Engineering",
+  "url": "https://job-boards.greenhouse.io/reddit/jobs/8187247",
+  "jobId": "8187247",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1788003013661, 'matchScore': 0, 'ageScore': 0.9788003013661265, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1921804234348, 'matchScore': 0, 'ageScore': 0.9921804234347994, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
