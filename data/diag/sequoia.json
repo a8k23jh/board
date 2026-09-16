@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-16T20:15:01Z",
+ "run": "2026-09-16T23:02:30Z",
  "homepage": {
   "status": 200,
   "bytes": 20231
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ylSgz2PQqw\u2026",
+  "session.sig": "5E73rvnzjb\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGY5YzhmMjM3NjhhY2UzMjg5MjlhNzk0MTBiOGEzYzQiLCAic2NvcmUiOiAxLjEzNDkzMzIwOTcyNTY5NDN9"
+   "sequence": "eyJfaWQiOiAiZTQ4MzBmYWU1YTU3NDhjOWQ0ZDI4N2FhNDZjZGJhZGYiLCAic2NvcmUiOiAxLjEzMTQzMTU3ODM5OTMwNTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,44 +144,64 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8187247",
-  "companyDomain": "reddit.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
-  "companyId": "Reddit",
-  "companySlug": "reddit",
-  "companyName": "reddit",
-  "companyStaffCount": 4495,
+  "applyUrl": "https://jobs.gem.com/bigpanda/am9icG9zdDqN0oMEa8HZKKJmEYPm7qok?utm_source=jobs.sequoiacap.com",
+  "companyDomain": "bigpanda.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/379a2d633ca42e464b33e9fb7676ec48_288_160?Expires=1861920000&Signature=lwSqcN9QQMuxHrM53UKktEJy3sYioHgxbMl41-H4pIbH~LCrfo4gx",
+  "companyId": "BigPanda",
+  "companySlug": "bigpanda",
+  "companyName": "BigPanda",
+  "companyStaffCount": 333,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Enterprise Sales"
   ],
   "jobTypes": [
    {
-    "id": "senior-software-engineer",
-    "label": "Senior Software Engineer",
-    "value": "senior-software-engineer"
+    "id": "rvp",
+    "label": "RVP",
+    "value": "rvp"
+   },
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "sales-all",
+    "label": "Sales",
+    "value": "sales-all"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "Remote - United States"
+   "USA"
   ],
   "normalizedLocations": [
    {
@@ -190,91 +210,92 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 267000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 420000, 'maxValue': 420000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:User Acquisition",
-    "label": "User Acquisition",
-    "value": "resume:User Acquisition"
+    "id": "resume:Command of the Message",
+    "label": "Command of the Message",
+    "value": "resume:Command of the Message"
    },
    {
-    "id": "resume:GraphQL",
-    "label": "GraphQL",
-    "value": "resume:GraphQL"
+    "id": "resume:Performance Metrics",
+    "label": "Performance Metrics",
+    "value": "resume:Performance Metrics"
    },
    {
-    "id": "resume:Trust and Safety",
-    "label": "Trust and Safety",
-    "value": "resume:Trust and Safety"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Pipeline Management",
+    "label": "Pipeline Management",
+    "value": "resume:Pipeline Management"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:User Acquisition",
-    "label": "User Acquisition",
-    "value": "resume:User Acquisition"
+    "id": "resume:Command of the Message",
+    "label": "Command of the Message",
+    "value": "resume:Command of the Message"
    },
    {
-    "id": "resume:GraphQL",
-    "label": "GraphQL",
-    "value": "resume:GraphQL"
+    "id": "resume:Performance Metrics",
+    "label": "Performance Metrics",
+    "value": "resume:Performance Metrics"
    },
    {
-    "id": "resume:Trust and Safety",
-    "label": "Trust and Safety",
-    "value": "resume:Trust and Safety"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Pipeline Management",
+    "label": "Pipeline Management",
+    "value": "resume:Pipeline Management"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
+    "id": "resume:Sales Strategy",
+    "label": "Sales Strategy",
+    "value": "resume:Sales Strategy"
    },
    {
-    "id": "resume:Contractors",
-    "label": "Contractors",
-    "value": "resume:Contractors"
+    "id": "resume:MEDDPICC",
+    "label": "MEDDPICC",
+    "value": "resume:MEDDPICC"
    },
    {
-    "id": "resume:Mobile",
-    "label": "Mobile",
-    "value": "resume:Mobile"
+    "id": "resume:Career Counseling",
+    "label": "Career Counseling",
+    "value": "resume:Career Counseling"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 10,
   "regions": [
    {
     "id": "North America",
@@ -284,41 +305,57 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Consumer",
-    "label": "Consumer",
-    "value": "Consumer"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Social Networking",
-    "label": "Social Networking",
-    "value": "Social Networking"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-09-16T12:12:02Z",
-  "title": "Senior Software Engineer, Consumer Engineering",
-  "url": "https://job-boards.greenhouse.io/reddit/jobs/8187247",
-  "jobId": "8187247",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
+   },
+   {
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
+   }
+  ],
+  "timeStamp": "2026-09-16T17:57:29Z",
+  "title": "Regional Vice President, Sales - Central",
+  "url": "https://jobs.gem.com/bigpanda/am9icG9zdDqN0oMEa8HZKKJmEYPm7qok",
+  "jobId": "am9icG9zdDqN0oMEa8HZKKJmEYPm7qok",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1921804234348, 'matchScore': 0, 'ageScore': 0.9921804234347994, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1962157968904, 'matchScore': 0, 'ageScore': 0.996215796890432, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "vp",
+    "label": "VP/SVP",
+    "value": "vp"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "vp"
   ],
   "isFeatured": false
  },
