@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-16T23:02:30Z",
+ "run": "2026-09-17T01:31:39Z",
  "homepage": {
   "status": 200,
   "bytes": 20707
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "2bG7DUN5eS\u2026",
+  "session.sig": "rl9Qjeq8XI\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTU3NGFhMzQ4NGRhYjQ0ZDViZjhhMDJjZjAzZjk2OWIiLCAic2NvcmUiOiAxLjA3ODkyODQ5OTY0MjM2MTF9"
+   "sequence": "eyJfaWQiOiAiNmFhZTkxMTc5MjRmNDI2YzViMzg2YWE5NGYwMDcyYWMiLCAic2NvcmUiOiAxLjEwMDQyNjM1Mjg0MzM2NDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,31 +152,33 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---DC-Washington/Engineer--IGA-_44422",
-  "companyDomain": "guidehouse.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8bc0bb4bf4e114d6038755ebfb6d5f24_320_160?Expires=1861920000&Signature=pCmxuJlEyug4URyLV8ZDc4EssRYCvClteAtfAIJfQavWlUAl68jVh",
-  "companyId": "Guidehouse",
-  "companySlug": "guidehouse",
-  "companyName": "Guidehouse",
-  "companyStaffCount": 15158,
+  "applyUrl": "https://jobs.lever.co/finix/c73695d5-fc3e-43ec-b380-765fd20595ff?lever-source%5B%5D=jobs.baincapitalventures.com",
+  "companyDomain": "finixpayments.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/da494738ea14d871b059fb0031f3f834_192_160?Expires=1861920000&Signature=soS2xTssNehgAK0JNmFdF074zit-uSJdn6LYotqfTg~hG7YvaXUw0",
+  "companyId": "Finix",
+  "companySlug": "finix",
+  "companyName": "Finix",
+  "companyStaffCount": 369,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Engineering"
+  ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
   "jobFunctions": [
@@ -187,113 +189,102 @@
    }
   ],
   "locations": [
-   " DC, Washington, US ",
-   "United States of America",
-   "VA, McLean, US"
+   "Chicago"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
-   },
-   {
-    "id": "Washington",
-    "label": "Washington State",
-    "value": "Washington"
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 113000, 'maxValue': 188000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Multitasking skills",
+    "label": "Multitasking skills",
+    "value": "resume:Multitasking skills"
    },
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Cloud Security",
-    "label": "Cloud Security",
-    "value": "resume:Cloud Security"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
    },
    {
-    "id": "resume:SCIM",
-    "label": "SCIM",
-    "value": "resume:SCIM"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Multitasking skills",
+    "label": "Multitasking skills",
+    "value": "resume:Multitasking skills"
    },
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Cloud Security",
-    "label": "Cloud Security",
-    "value": "resume:Cloud Security"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
    },
    {
-    "id": "resume:SCIM",
-    "label": "SCIM",
-    "value": "resume:SCIM"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
-   },
-   {
-    "id": "resume:DoD",
-    "label": "DoD",
-    "value": "resume:DoD"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 4,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
    },
    {
     "id": "North America",
@@ -303,44 +294,44 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Business Services",
-    "label": "Business Services",
-    "value": "Business Services"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Management Consulting",
-    "label": "Management Consulting",
-    "value": "Management Consulting"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-09-16T00:00:00Z",
-  "title": "Engineer (IGA)",
-  "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---DC-Washington/Engineer--IGA-_44422",
-  "jobId": "a33579f35e19100153f127ba32ed0000",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
+   }
+  ],
+  "timeStamp": "2026-09-16T20:55:15.774000Z",
+  "title": "Senior Software Engineer",
+  "url": "https://jobs.lever.co/finix/c73695d5-fc3e-43ec-b380-765fd20595ff",
+  "jobId": "c73695d5-fc3e-43ec-b380-765fd20595ff",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1718451410705, 'matchScore': 0, 'ageScore': 0.9718451410706018, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1963197074718, 'matchScore': 0, 'ageScore': 0.9963197074718364, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
-  "isFeatured": false,
-  "llmFeatures": "{'summary': 'The Engineer (IGA) at Guidehouse is responsible for technical engineering of Identity Governance and Administration solutions using Okta Identity Governance. The role requires at least 3 "
+  "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"

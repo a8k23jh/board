@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-16T23:02:30Z",
+ "run": "2026-09-17T01:31:39Z",
  "homepage": {
   "status": 200,
   "bytes": 21388
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "seYnMPPlmH\u2026",
+  "session.sig": "QJvie-DL0r\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2Q3MzM0NTE2YTczNTYyYzk0ZGQ3OThhNTM2NDcwYjEiLCAic2NvcmUiOiAxLjA4Mzk4MjgzMjc5ODIyNTN9"
+   "sequence": "eyJfaWQiOiAiMjMxMjU4OGEyYmNhODZmNjRiODFhMmQ1NGFkNDQzOGQiLCAic2NvcmUiOiAxLjExNzE4ODE1MzYzMzEwMTl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,33 +152,36 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/litify/jobs/8208196",
-  "companyDomain": "litify.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3f0163c664fe3430a3a0f7d1ef8a7fbc_288_160?Expires=1861920000&Signature=EbakZod2uGjDcQnVN6cGFy3NTmTsrsUFvE2TmAdjqXTei4KctrFfc",
-  "companyId": "Litify",
-  "companySlug": "litify",
-  "companyName": "Litify",
-  "companyStaffCount": 165,
+  "applyUrl": "https://www.comeet.com/jobs/port/59.004/talent-acquisition-partner/2D.270",
+  "companyDomain": "getport.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f3d2b7f2fbb75a5e7e5c6a985c31f9e8_176_160?Expires=1861920000&Signature=WS1e5ToiYUXUI1gEYzwXph15T7eq0xuhGyYDlxdN86NGSy4oREt-3",
+  "companyId": "Port IO",
+  "companySlug": "port-io",
+  "companyName": "Port IO",
+  "companyStaffCount": 409,
   "considerHosted": false,
-  "departments": [
-   "Operations"
-  ],
+  "departments": [],
   "jobTypes": [
    {
     "id": "recruiter",
     "label": "Recruiter",
     "value": "recruiter"
+   },
+   {
+    "id": "partner",
+    "label": "Partner",
+    "value": "partner"
    }
   ],
   "jobFunctions": [
@@ -189,80 +192,85 @@
    }
   ],
   "locations": [
-   "Anywhere, USA"
+   "Austin - USA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 30, 'maxValue': 40, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 110000, 'maxValue': 130000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:LinkedIn Recruiter",
-    "label": "LinkedIn Recruiter",
-    "value": "resume:LinkedIn Recruiter"
+    "id": "resume:Employer Branding",
+    "label": "Employer Branding",
+    "value": "resume:Employer Branding"
    },
    {
-    "id": "resume:Sourcing",
-    "label": "Sourcing",
-    "value": "resume:Sourcing"
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:Candidate Assessment",
-    "label": "Candidate Assessment",
-    "value": "resume:Candidate Assessment"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Greenhouse",
-    "label": "Greenhouse",
-    "value": "resume:Greenhouse"
+    "id": "resume:Sales & Marketing",
+    "label": "Sales & Marketing",
+    "value": "resume:Sales & Marketing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:LinkedIn Recruiter",
-    "label": "LinkedIn Recruiter",
-    "value": "resume:LinkedIn Recruiter"
+    "id": "resume:Employer Branding",
+    "label": "Employer Branding",
+    "value": "resume:Employer Branding"
    },
    {
-    "id": "resume:Sourcing",
-    "label": "Sourcing",
-    "value": "resume:Sourcing"
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
+   },
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Sales & Marketing",
+    "label": "Sales & Marketing",
+    "value": "resume:Sales & Marketing"
+   },
+   {
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
+   },
+   {
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    },
    {
     "id": "resume:Recruiting",
     "label": "Recruiting",
     "value": "resume:Recruiting"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Candidate Assessment",
-    "label": "Candidate Assessment",
-    "value": "resume:Candidate Assessment"
-   },
-   {
-    "id": "resume:Greenhouse",
-    "label": "Greenhouse",
-    "value": "resume:Greenhouse"
-   },
-   {
-    "id": "resume:Technical Recruiting",
-    "label": "Technical Recruiting",
-    "value": "resume:Technical Recruiting"
-   },
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
    }
   ],
   "manager": false,
@@ -270,20 +278,30 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
    }
   ],
   "stages": [
@@ -291,16 +309,28 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "markets": [],
-  "timeStamp": "2026-09-16T12:04:15Z",
-  "title": "Salesforce/Technical Recruiter (3-Month Contract)",
-  "url": "https://job-boards.greenhouse.io/litify/jobs/8208196",
-  "jobId": "8208196",
-  "remote": true,
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
+   }
+  ],
+  "timeStamp": "2026-09-16T19:49:15Z",
+  "title": "Talent Acquisition Partner",
+  "url": "https://www.comeet.com/jobs/port/59.004/talent-acquisition-partner/2D.270",
+  "jobId": "2D.270",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.188473618326, 'matchScore': 0, 'ageScore': 0.9884736183260031, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1943502944619, 'matchScore': 0, 'ageScore': 0.9943502944618056, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
