@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-17T07:48:58Z",
+ "run": "2026-09-17T13:36:19Z",
  "homepage": {
   "status": 200,
   "bytes": 19512
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "9qHO7OVvq9\u2026",
+  "session.sig": "7gHX727MBk\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWQ0YjA3Yjg3MThjYzdlZDc0NGY5N2M3MzYyODI0MmQiLCAic2NvcmUiOiAxLjE0NDU0NzE4MDI1NTQwMTN9"
+   "sequence": "eyJfaWQiOiAiYTZmNWI3ZGE2MjMwZGY0OTc1MTJjZGZkMTM5ZjYwMTUiLCAic2NvcmUiOiAxLjEzODQ1NTIxOTA1OTAyNzh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,7 +139,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/anomali/704f5027-5ea3-4cb6-b3f9-13f7879b03d8?lever-source%5B%5D=careers.ivp.com",
+  "applyUrl": "https://jobs.lever.co/anomali/5cdba447-d5e8-4001-894b-1e8d8d4f2aa2?lever-source%5B%5D=careers.ivp.com",
   "companyDomain": "anomali.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/5ba1513633d518c52f4198b4791ef788_320_160?Expires=1861920000&Signature=LgWkCThxssD8APwR0tjpup2dDtro64WdSJWA3hCiZpRh2l69qDrbq",
   "companyId": "Anomali",
@@ -152,14 +152,14 @@
   ],
   "jobTypes": [
    {
-    "id": "technical-account-manager",
-    "label": "Technical Account Manager",
-    "value": "technical-account-manager"
-   },
-   {
     "id": "data-analyst",
     "label": "Data Analyst",
     "value": "data-analyst"
+   },
+   {
+    "id": "technical-account-manager",
+    "label": "Technical Account Manager",
+    "value": "technical-account-manager"
    }
   ],
   "jobFunctions": [
@@ -175,21 +175,31 @@
    }
   ],
   "locations": [
-   "Seattle, WA"
+   "Cincinnati, OH"
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
+    "id": "Cincinnati, Ohio",
+    "label": "Cincinnati, Ohio",
+    "value": "Cincinnati, Ohio"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
+   },
+   {
     "id": "resume:SaaS",
     "label": "Software as a Service",
     "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    },
    {
     "id": "resume:Onboarding",
@@ -197,48 +207,38 @@
     "value": "resume:Onboarding"
    },
    {
-    "id": "resume:Security Analytics",
-    "label": "Security Analytics",
-    "value": "resume:Security Analytics"
-   },
-   {
-    "id": "resume:Manage Client Expectations",
-    "label": "Manage Client Expectations",
-    "value": "resume:Manage Client Expectations"
-   },
-   {
-    "id": "resume:Security Operations",
-    "label": "Security Operations",
-    "value": "resume:Security Operations"
+    "id": "resume:ROI",
+    "label": "ROI",
+    "value": "resume:ROI"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
+   },
+   {
     "id": "resume:SaaS",
     "label": "Software as a Service",
     "value": "resume:SaaS"
    },
+   {
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Onboarding",
     "label": "Onboarding",
     "value": "resume:Onboarding"
    },
    {
-    "id": "resume:Security Analytics",
-    "label": "Security Analytics",
-    "value": "resume:Security Analytics"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Manage Client Expectations",
-    "label": "Manage Client Expectations",
-    "value": "resume:Manage Client Expectations"
-   },
-   {
-    "id": "resume:Security Operations",
-    "label": "Security Operations",
-    "value": "resume:Security Operations"
+    "id": "resume:ROI",
+    "label": "ROI",
+    "value": "resume:ROI"
    },
    {
     "id": "resume:Equity",
@@ -246,9 +246,9 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Data Lake",
+    "label": "Data Lake",
+    "value": "resume:Data Lake"
    },
    {
     "id": "resume:Technical Support",
@@ -272,24 +272,24 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
    }
   ],
   "stages": [
@@ -306,13 +306,13 @@
     "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-09-16T20:54:33.586000Z",
+  "timeStamp": "2026-09-16T20:49:57.594000Z",
   "title": "Senior Technical Account Manager - SIEM/Security Analytics (US Remote)",
-  "url": "https://jobs.lever.co/anomali/704f5027-5ea3-4cb6-b3f9-13f7879b03d8",
-  "jobId": "704f5027-5ea3-4cb6-b3f9-13f7879b03d8",
+  "url": "https://jobs.lever.co/anomali/5cdba447-d5e8-4001-894b-1e8d8d4f2aa2",
+  "jobId": "5cdba447-d5e8-4001-894b-1e8d8d4f2aa2",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1884640641335, 'matchScore': 0, 'ageScore': 0.9884640641334876, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1796695398383, 'matchScore': 0, 'ageScore': 0.9796695398383488, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
