@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-17T13:36:19Z",
+ "run": "2026-09-17T18:21:31Z",
  "homepage": {
   "status": 200,
   "bytes": 21388
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "MvzeP_zpeC\u2026",
+  "session.sig": "o1SGptbyt5\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzM1YTE2YzJmZDk5NzkxYzEzODMyODgyNzcxY2NlMDciLCAic2NvcmUiOiAxLjExNzQyMTQxMjE2OTc1M30="
+   "sequence": "eyJfaWQiOiAiNDc1MzY1NDkzYTQ1ODgzMDViNTg3YzhhZDE1NTNlNDkiLCAic2NvcmUiOiAxLjExMzEzMzA5MzQ2ODM2NH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -188,14 +188,14 @@
   ],
   "jobFunctions": [
    {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
-   },
-   {
     "id": "Marketing",
     "label": "Marketing",
     "value": "Marketing"
+   },
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    }
   ],
   "locations": [
@@ -223,58 +223,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 96000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
-   },
-   {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   },
-   {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:SDR",
+    "label": "SDR",
+    "value": "resume:SDR"
    },
    {
     "id": "resume:Finance",
@@ -282,9 +233,58 @@
     "value": "resume:Finance"
    },
    {
+    "id": "resume:SD",
+    "label": "SD",
+    "value": "resume:SD"
+   },
+   {
+    "id": "resume:Sales Development",
+    "label": "Sales Development",
+    "value": "resume:Sales Development"
+   },
+   {
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:SDR",
     "label": "SDR",
     "value": "resume:SDR"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:SD",
+    "label": "SD",
+    "value": "resume:SD"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Sales Development",
+    "label": "Sales Development",
+    "value": "resume:Sales Development"
+   },
+   {
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
+   },
+   {
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
     "id": "resume:Infrastructure",
@@ -308,9 +308,9 @@
   "minYearsExp": 2,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "Pacific States",
@@ -323,9 +323,9 @@
     "value": "North America"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "Northeast",
@@ -359,24 +359,24 @@
   "jobId": "a85afad0-8051-4333-ae89-0f82321dea87",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1844438244264, 'matchScore': 0, 'ageScore': 0.9844438244263117, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1797874615173, 'matchScore': 0, 'ageScore': 0.9797874615173611, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "junior",
-   "mid"
+   "mid",
+   "junior"
   ],
   "isFeatured": false
  },

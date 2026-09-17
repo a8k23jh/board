@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-17T13:36:19Z",
+ "run": "2026-09-17T18:21:31Z",
  "homepage": {
   "status": 200,
   "bytes": 16697
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "NMNLXSUm8W\u2026",
+  "session.sig": "hGKhOxi-wK\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWQyMTEwZDE4MDVkMDRmMTM2MDM1ZWVkZjM5NDg0Y2QiLCAic2NvcmUiOiAxLjAzMjQyNTAwNTQyOTc4NH0="
+   "sequence": "eyJfaWQiOiAiMWQyMTEwZDE4MDVkMDRmMTM2MDM1ZWVkZjM5NDg0Y2QiLCAic2NvcmUiOiAxLjAyNzg0MDQwMzQ1MDIzMTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -138,6 +138,7 @@
    "companyLogos",
    "companyName",
    "companySlug",
+   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
@@ -148,134 +149,143 @@
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/town/2250ba8a-82b9-4770-9692-a62c6f892d9b?utm_source=jobs.firstround.com",
-  "companyDomain": "town.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a3e139f2dc0ceb6fbf344d52ed0df6c6_144_160?Expires=1861920000&Signature=s~xaxcqZwuiHWRybHxq1zJJBIWaatoqYQl5OO3HSmGgs1fFpq7ipw",
-  "companyId": "Town",
-  "companySlug": "town",
-  "companyName": "Town",
+  "applyUrl": "https://jobs.gem.com/instrumental-inc-/am9icG9zdDq9QTMkl-U4m5BzZ9QfbmKn?utm_source=jobs.firstround.com",
+  "companyDomain": "instrumental.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/faed8f344bc1a31e8c67c504f1437503_320_160?Expires=1861920000&Signature=NB5mAqVPlic2ayBw8vdr5ziadnE2siPpiQbyGnXEm6ITc2iF~p4nA",
+  "companyId": "Instrumental",
+  "companySlug": "instrumental",
+  "companyName": "Instrumental",
+  "companyStaffCount": 75,
   "considerHosted": false,
   "departments": [
-   "People"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "people-operations",
-    "label": "People Operations",
-    "value": "people-operations"
+    "id": "enterprise-account-manager",
+    "label": "Enterprise Account Manager",
+    "value": "enterprise-account-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "San Francisco, California, United States",
-   "San Francisco"
+   "Palo Alto, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Palo Alto, California",
+    "label": "Palo Alto, California",
+    "value": "Palo Alto, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 334000, 'maxValue': 396000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Bookings",
+    "label": "Bookings",
+    "value": "resume:Bookings"
    },
    {
-    "id": "resume:HRIS",
-    "label": "HR Systems",
-    "value": "resume:HRIS"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:MEDDIC",
+    "label": "MEDDIC",
+    "value": "resume:MEDDIC"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Bookings",
+    "label": "Bookings",
+    "value": "resume:Bookings"
    },
    {
-    "id": "resume:HRIS",
-    "label": "HR Systems",
-    "value": "resume:HRIS"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:MEDDIC",
+    "label": "MEDDIC",
+    "value": "resume:MEDDIC"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -285,30 +295,48 @@
   ],
   "stages": [
    {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "Industrial Automation",
+    "label": "Industrial Automation",
+    "value": "Industrial Automation"
    }
   ],
-  "timeStamp": "2026-09-17T00:00:00Z",
-  "title": "People Operations",
-  "url": "https://jobs.ashbyhq.com/town/2250ba8a-82b9-4770-9692-a62c6f892d9b",
-  "jobId": "2250ba8a-82b9-4770-9692-a62c6f892d9b",
+  "timeStamp": "2026-09-16T23:57:30Z",
+  "title": "Account Manager, Enterprise Accounts",
+  "url": "https://jobs.gem.com/instrumental-inc-/am9icG9zdDq9QTMkl-U4m5BzZ9QfbmKn",
+  "jobId": "am9icG9zdDq9QTMkl-U4m5BzZ9QfbmKn",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1836766482485, 'matchScore': 0, 'ageScore': 0.9836766482484568, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1795748074375, 'matchScore': 0, 'ageScore': 0.9795748074375, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {
