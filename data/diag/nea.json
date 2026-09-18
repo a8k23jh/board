@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-18T19:45:37Z",
+ "run": "2026-09-18T22:40:26Z",
  "homepage": {
   "status": 200,
   "bytes": 20605
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "V80sur2e9t\u2026",
+  "session.sig": "7Ogoeg2sxS\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjdmNjU1OWZmOWE3YTVkMzQ5NDA4MjQ2NTk0OWU4NzYiLCAic2NvcmUiOiAxLjEwNzU5NTc3OTc3ODE2MzV9"
+   "sequence": "eyJfaWQiOiAiMjdmNjU1OWZmOWE3YTVkMzQ5NDA4MjQ2NTk0OWU4NzYiLCAic2NvcmUiOiAxLjEwMzI1OTk3NTQ4NjQ5N30="
   },
   "job_keys": [
    "applicationWindow",
@@ -191,9 +191,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Executive Management",
-    "label": "Executive Management",
-    "value": "resume:Executive Management"
+    "id": "resume:Product Strategy",
+    "label": "Product Strategy",
+    "value": "resume:Product Strategy"
+   },
+   {
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
    {
     "id": "resume:Online Gaming",
@@ -201,53 +206,48 @@
     "value": "resume:Online Gaming"
    },
    {
-    "id": "resume:Prototype to Product",
-    "label": "Prototype to Product",
-    "value": "resume:Prototype to Product"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Product Strategy",
-    "label": "Product Strategy",
-    "value": "resume:Product Strategy"
+    "id": "resume:Executive Management",
+    "label": "Executive Management",
+    "value": "resume:Executive Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Executive Management",
-    "label": "Executive Management",
-    "value": "resume:Executive Management"
-   },
-   {
-    "id": "resume:Online Gaming",
-    "label": "Online Gaming",
-    "value": "resume:Online Gaming"
-   },
-   {
-    "id": "resume:Prototype to Product",
-    "label": "Prototype to Product",
-    "value": "resume:Prototype to Product"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
     "id": "resume:Product Strategy",
     "label": "Product Strategy",
     "value": "resume:Product Strategy"
    },
    {
-    "id": "resume:Engineering Design",
-    "label": "Engineering Design",
-    "value": "resume:Engineering Design"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
+   },
+   {
+    "id": "resume:Online Gaming",
+    "label": "Online Gaming",
+    "value": "resume:Online Gaming"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Executive Management",
+    "label": "Executive Management",
+    "value": "resume:Executive Management"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
     "id": "resume:Financial technology",
@@ -275,9 +275,9 @@
   ],
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -285,9 +285,9 @@
     "value": "North America"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "West Coast",
@@ -295,9 +295,9 @@
     "value": "West Coast"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -326,24 +326,24 @@
   "jobId": "8164459",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1911799171663, 'matchScore': 0, 'ageScore': 0.9911799171662808, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1867732805775, 'matchScore': 0, 'ageScore': 0.9867732805775463, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
