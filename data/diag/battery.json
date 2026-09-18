@@ -1,6 +1,7 @@
 {
  "board": "battery",
- "run": "2026-09-18T06:02:50Z",
+ "run": "2026-09-18T11:28:52Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.battery.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 18737
@@ -34,7 +35,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cIVRzcpQaW\u2026",
+  "session.sig": "4rOWHoPrEh\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +120,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDAwNjFiNGRjNjE5MTkyZGI1MTc4NjU5YTQ1ZDc3ZmIiLCAic2NvcmUiOiAxLjEyMzIwMzAyMjYyNTM4NTd9"
+   "sequence": "eyJfaWQiOiAiMmY2MGY5NTk1MWFiNWY3YzYyODQzZjRiYjJkNmVhOWMiLCAic2NvcmUiOiAxLjEyMTE4MjM4MDgzODczNDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,111 +148,111 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8818577002",
-  "companyDomain": "databricks.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/badeea31069bedbff92deb2b6eacaaac_320_160?Expires=1861920000&Signature=nvpLnCJcpEeQxnmclOC-t1xgPgBS3yOoA5LtL53r6~XUfCWfWYJwW",
-  "companyId": "Databricks",
-  "companySlug": "databricks",
-  "companyName": "Databricks",
-  "companyStaffCount": 16235,
+  "applyUrl": "https://jobs.gem.com/letter-ai/am9icG9zdDoi3GNxYVgAQE2cAP8KxsSh?utm_source=jobs.battery.com",
+  "companyDomain": "letter.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/74e16af1fa89417e9fbff91816ba1192_288_160?Expires=1861920000&Signature=kARJgZqAEKPqzVl4fqeiP2H1M02urD0NMDNVQN1VAgX4OkksDiV4G",
+  "companyId": "Letter AI",
+  "companySlug": "letter-ai",
+  "companyName": "Letter AI",
+  "companyStaffCount": 50,
   "considerHosted": false,
   "departments": [
-   "Engineering - Pipeline"
+   "Customer Success"
   ],
   "jobTypes": [
    {
-    "id": "technical-program-manager",
-    "label": "Technical Program Manager",
-    "value": "technical-program-manager"
+    "id": "support-engineer",
+    "label": "Support Engineer",
+    "value": "support-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Mountain View, California",
-   "San Francisco, California"
+   "Chicago"
   ],
   "normalizedLocations": [
    {
-    "id": "Mountain View, California",
-    "label": "Mountain View, California",
-    "value": "Mountain View, California"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 189800, 'maxValue': 256160, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 80000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Web Applications",
+    "label": "Web Applications",
+    "value": "resume:Web Applications"
    },
    {
-    "id": "resume:Application Software",
-    "label": "Application Software",
-    "value": "resume:Application Software"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:Software Project Management",
-    "label": "Software Project Management",
-    "value": "resume:Software Project Management"
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
    },
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Web Applications",
+    "label": "Web Applications",
+    "value": "resume:Web Applications"
    },
    {
-    "id": "resume:Application Software",
-    "label": "Application Software",
-    "value": "resume:Application Software"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:Software Project Management",
-    "label": "Software Project Management",
-    "value": "resume:Software Project Management"
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Data Processing",
-    "label": "Data Processing",
-    "value": "resume:Data Processing"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -259,20 +260,21 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 2,
+  "maxYearsExp": 4,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    },
    {
     "id": "North America",
@@ -280,16 +282,21 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
     "id": "Growth",
@@ -303,35 +310,31 @@
     "id": "AI",
     "label": "AI",
     "value": "AI"
-   },
-   {
-    "id": "Analytics",
-    "label": "Analytics",
-    "value": "Analytics"
    }
   ],
-  "timeStamp": "2026-09-17T18:35:55Z",
-  "title": "Sr Staff Technical Program Manager- Security",
-  "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8818577002",
-  "jobId": "8818577002",
+  "timeStamp": "2026-09-17T23:59:59Z",
+  "title": "Support Engineer",
+  "url": "https://jobs.gem.com/letter-ai/am9icG9zdDoi3GNxYVgAQE2cAP8KxsSh",
+  "jobId": "am9icG9zdDoi3GNxYVgAQE2cAP8KxsSh",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1933073876855, 'matchScore': 0, 'ageScore': 0.993307387685571, 'richnessScore': 2}",
+  "scores": "{'score': 1001.188319795753, 'matchScore': 0, 'ageScore': 0.9883197957530864, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }

@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-18T06:02:50Z",
+ "run": "2026-09-18T11:28:52Z",
  "homepage": {
   "status": 200,
   "bytes": 21388
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "BH0CEb7qDU\u2026",
+  "session.sig": "hMiv62zoHc\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTQwZWIzZmZmNjc3ZmUwYWZlMTljNDljZjQxMmE3ZWIiLCAic2NvcmUiOiAxLjEzMzUyNDc2MzkxNTEyMzR9"
+   "sequence": "eyJfaWQiOiAiMTU2NDUyNjI3MTJhODJjMzdmY2Q5OGMwOTJlMWViM2UiLCAic2NvcmUiOiAxLjEyMTYwMzU5ODA3NjM4OX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,122 +152,123 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5427834008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://jobs.ashbyhq.com/zapier/04838dc8-0efa-4fe5-b705-c99f6b3f17c6?utm_source=jobs.bvp.com",
+  "companyDomain": "zapier.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/425bef154cfe06bcb2edd6182907bda7_208_160?Expires=1861920000&Signature=H3ceCetVYjEtB9D6jrSqueDh5LeOEQRn0UmyEPB6DpJcq4fQ8iSVP",
+  "companyId": "Zapier",
+  "companySlug": "zapier",
+  "companyName": "Zapier",
+  "companyStaffCount": 1527,
   "considerHosted": false,
   "departments": [
-   "Technical Program Management"
+   "Legal"
   ],
   "jobTypes": [
    {
-    "id": "technical-program-manager",
-    "label": "Technical Program Manager",
-    "value": "technical-program-manager"
+    "id": "legal-counsel",
+    "label": "Legal Counsel",
+    "value": "legal-counsel"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Legal",
+    "label": "Legal",
+    "value": "Legal"
+   }
+  ],
   "locations": [
-   "San Francisco, CA",
-   "New York City, NY"
+   "San Francisco, California, United States",
+   "NAMER"
   ],
   "normalizedLocations": [
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
    {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 365000, 'maxValue': 435000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 158400, 'maxValue': 237500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Background Checks",
+    "label": "Background Checks",
+    "value": "resume:Background Checks"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Legal Advice",
+    "label": "Legal Advice",
+    "value": "resume:Legal Advice"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Background Checks",
+    "label": "Background Checks",
+    "value": "resume:Background Checks"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Legal Advice",
+    "label": "Legal Advice",
+    "value": "resume:Legal Advice"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Employment Law",
+    "label": "Employment Law",
+    "value": "resume:Employment Law"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Legal Operations",
+    "label": "Legal Operations",
+    "value": "resume:Legal Operations"
    }
   ],
   "manager": false,
@@ -277,37 +278,25 @@
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
+  "minYearsExp": 4,
+  "maxYearsExp": 8,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -315,33 +304,22 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
    }
   ],
-  "timeStamp": "2026-09-17T18:21:23Z",
-  "title": "Technical Program Manager, Public Sector",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5427834008",
-  "jobId": "5427834008",
-  "remote": false,
+  "timeStamp": "2026-09-18T00:00:00Z",
+  "title": "Legal Counsel",
+  "url": "https://jobs.ashbyhq.com/zapier/04838dc8-0efa-4fe5-b705-c99f6b3f17c6",
+  "jobId": "04838dc8-0efa-4fe5-b705-c99f6b3f17c6",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1923171830351, 'matchScore': 0, 'ageScore': 0.9923171830351081, 'richnessScore': 2}",
+  "scores": "{'score': 1001.18861893552, 'matchScore': 0, 'ageScore': 0.9886189355200617, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

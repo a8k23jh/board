@@ -1,6 +1,7 @@
 {
  "board": "firstround",
- "run": "2026-09-18T06:02:50Z",
+ "run": "2026-09-18T11:28:52Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.firstround.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 16697
@@ -42,7 +43,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cRJU7_7cUg\u2026",
+  "session.sig": "McgRYWq8LB\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +128,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjczNmQzNTQzNGZmZjdmY2EyMjY2ODkzZjBmYjhjMzQiLCAic2NvcmUiOiAxLjAyMDA1OTQxNTgyMzMwMjV9"
+   "sequence": "eyJfaWQiOiAiNjFhYjI1MDE3NjU4YmRhNmFlYWMxNmI4Y2IxZTZhN2Q6VGltZSBieSBQaW5nIiwgInNjb3JlIjogMS4wNTQ5Mjc1MTE5NDc1MzF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,111 +156,116 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.augury.com/careers/8816775002?gh_jid=8816775002",
-  "companyDomain": "augury.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/0ec4506e5fce7be9ed848f081ab9ddf9_208_160?Expires=1861920000&Signature=fshjidFjjEFuViRisvZFj9BWyqSlXeozTsmWXaI2Ikp0tH8AJ9Onk",
-  "companyId": "Augury",
-  "companySlug": "augury",
-  "companyName": "Augury",
-  "companyStaffCount": 348,
+  "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8211419",
+  "companyDomain": "flexport.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/963204163cf1c12c9d559f5f59e9c8eb_224_160?Expires=1861920000&Signature=NM6Nr7rLbBQFOk7dzdWVeh8D-P634vODIBuXB~xQ4hsuyqEUajpSf",
+  "companyId": "Flexport",
+  "companySlug": "flexport",
+  "companyName": "Flexport",
+  "companyStaffCount": 2926,
   "considerHosted": false,
   "departments": [
-   "Product Management"
+   "Implementation"
   ],
   "jobTypes": [
    {
-    "id": "product-manager",
-    "label": "Product Manager",
-    "value": "product-manager"
+    "id": "business-development",
+    "label": "Business Development Professional",
+    "value": "business-development"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Product Management",
-    "label": "Product Management",
-    "value": "Product Management"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   },
+   {
+    "id": "Business Development",
+    "label": "Business Development",
+    "value": "Business Development"
    }
   ],
   "locations": [
-   "US"
+   "Chicago, Illinois, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 147840, 'maxValue': 184800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Internet of Things",
-    "label": "Internet of Things",
-    "value": "resume:Internet of Things"
+    "id": "resume:Consultative Selling",
+    "label": "Consultative Selling",
+    "value": "resume:Consultative Selling"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Sales Leadership",
+    "label": "Sales Leadership",
+    "value": "resume:Sales Leadership"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Predictive Analytics",
-    "label": "Predictive Analytics",
-    "value": "resume:Predictive Analytics"
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Internet of Things",
-    "label": "Internet of Things",
-    "value": "resume:Internet of Things"
+    "id": "resume:Consultative Selling",
+    "label": "Consultative Selling",
+    "value": "resume:Consultative Selling"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Sales Leadership",
+    "label": "Sales Leadership",
+    "value": "resume:Sales Leadership"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Predictive Analytics",
-    "label": "Predictive Analytics",
-    "value": "resume:Predictive Analytics"
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    },
    {
-    "id": "resume:Workflow scheduler",
-    "label": "Workflow Scheduling",
-    "value": "resume:Workflow scheduler"
+    "id": "resume:Vendor Management",
+    "label": "Vendor Management",
+    "value": "resume:Vendor Management"
    },
    {
-    "id": "resume:Engineering Design",
-    "label": "Engineering Design",
-    "value": "resume:Engineering Design"
+    "id": "resume:ROI",
+    "label": "ROI",
+    "value": "resume:ROI"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Goods",
+    "label": "Goods",
+    "value": "resume:Goods"
    }
   ],
   "manager": false,
@@ -275,20 +281,34 @@
     6
    ]
   ],
-  "minYearsExp": 5,
-  "maxYearsExp": 7,
+  "minYearsExp": 6,
   "regions": [
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -299,14 +319,9 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Hardware",
-    "label": "Hardware",
-    "value": "Hardware"
-   },
-   {
-    "id": "Industrial Automation",
-    "label": "Industrial Automation",
-    "value": "Industrial Automation"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
    },
    {
     "id": "Logistics and Supply Chain",
@@ -314,28 +329,29 @@
     "value": "Logistics and Supply Chain"
    }
   ],
-  "timeStamp": "2026-09-17T16:41:20Z",
-  "title": "Product Manager, Machine Health & Industrial AI Workforce",
-  "url": "https://www.augury.com/careers/8816775002?gh_jid=8816775002",
-  "jobId": "8816775002",
+  "timeStamp": "2026-09-17T18:55:38Z",
+  "title": "Senior Business Development Manager, Control Tower",
+  "url": "https://job-boards.greenhouse.io/flexport/jobs/8211419",
+  "jobId": "8211419",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.190430706, 'matchScore': 0, 'ageScore': 0.990430706, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1816513589695, 'matchScore': 0, 'ageScore': 0.9816513589695216, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
