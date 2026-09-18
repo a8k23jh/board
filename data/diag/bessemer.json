@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-18T11:28:52Z",
+ "run": "2026-09-18T16:33:32Z",
  "homepage": {
   "status": 200,
   "bytes": 21388
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "hMiv62zoHc\u2026",
+  "session.sig": "HbUCNjPgs9\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTU2NDUyNjI3MTJhODJjMzdmY2Q5OGMwOTJlMWViM2UiLCAic2NvcmUiOiAxLjEyMTYwMzU5ODA3NjM4OX0="
+   "sequence": "eyJfaWQiOiAiMTEzYTcyMDFhZmJhMDc1MTFlN2Q5MTc0MGE4NzM5ZjkiLCAic2NvcmUiOiAxLjExMzM3MjMyMjE0MzkwNDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,123 +152,128 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/zapier/04838dc8-0efa-4fe5-b705-c99f6b3f17c6?utm_source=jobs.bvp.com",
-  "companyDomain": "zapier.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/425bef154cfe06bcb2edd6182907bda7_208_160?Expires=1861920000&Signature=H3ceCetVYjEtB9D6jrSqueDh5LeOEQRn0UmyEPB6DpJcq4fQ8iSVP",
-  "companyId": "Zapier",
-  "companySlug": "zapier",
-  "companyName": "Zapier",
-  "companyStaffCount": 1527,
+  "applyUrl": "https://jobs.ashbyhq.com/clickhouse/8ea8a116-f05f-4f5a-98f5-2c6ffde7c2ad?utm_source=jobs.bvp.com",
+  "companyDomain": "clickhouse.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2779852661322ab66da5dc263e72606_320_160?Expires=1861920000&Signature=r~P65IuHovDEITH8vKhbAvgpsGftasvE8O7kucrixTGLscABGrKrs",
+  "companyId": "ClickHouse",
+  "companySlug": "clickhouse",
+  "companyName": "ClickHouse",
+  "companyStaffCount": 667,
   "considerHosted": false,
   "departments": [
-   "Legal"
+   "Finance"
   ],
   "jobTypes": [
    {
-    "id": "legal-counsel",
-    "label": "Legal Counsel",
-    "value": "legal-counsel"
+    "id": "revenue-accountant",
+    "label": "Revenue Accountant",
+    "value": "revenue-accountant"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Legal",
-    "label": "Legal",
-    "value": "Legal"
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
    }
   ],
   "locations": [
-   "San Francisco, California, United States",
-   "NAMER"
+   "San Francisco, United States",
+   "United States"
   ],
   "normalizedLocations": [
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   },
    {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 158400, 'maxValue': 237500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Background Checks",
-    "label": "Background Checks",
-    "value": "resume:Background Checks"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Legal Advice",
-    "label": "Legal Advice",
-    "value": "resume:Legal Advice"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:ASC 606",
+    "label": "ASC 606",
+    "value": "resume:ASC 606"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Background Checks",
-    "label": "Background Checks",
-    "value": "resume:Background Checks"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Legal Advice",
-    "label": "Legal Advice",
-    "value": "resume:Legal Advice"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:ASC 606",
+    "label": "ASC 606",
+    "value": "resume:ASC 606"
    },
    {
-    "id": "resume:Employment Law",
-    "label": "Employment Law",
-    "value": "resume:Employment Law"
+    "id": "resume:Stripe",
+    "label": "Stripe",
+    "value": "resume:Stripe"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Legal Operations",
-    "label": "Legal Operations",
-    "value": "resume:Legal Operations"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    }
   ],
   "manager": false,
@@ -276,17 +281,20 @@
   "contractor": false,
   "considerLevels": [
    [
+    1,
+    2
+   ],
+   [
     3,
     4
    ]
   ],
-  "minYearsExp": 4,
-  "maxYearsExp": 8,
+  "minYearsExp": 3,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "West Coast",
@@ -294,43 +302,54 @@
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
+   },
+   {
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
    }
   ],
   "timeStamp": "2026-09-18T00:00:00Z",
-  "title": "Legal Counsel",
-  "url": "https://jobs.ashbyhq.com/zapier/04838dc8-0efa-4fe5-b705-c99f6b3f17c6",
-  "jobId": "04838dc8-0efa-4fe5-b705-c99f6b3f17c6",
+  "title": "Senior Revenue Accountant",
+  "url": "https://jobs.ashbyhq.com/clickhouse/8ea8a116-f05f-4f5a-98f5-2c6ffde7c2ad",
+  "jobId": "8ea8a116-f05f-4f5a-98f5-2c6ffde7c2ad",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.18861893552, 'matchScore': 0, 'ageScore': 0.9886189355200617, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1796653439305, 'matchScore': 0, 'ageScore': 0.9796653439305556, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

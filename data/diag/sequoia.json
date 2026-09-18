@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-18T11:28:52Z",
+ "run": "2026-09-18T16:33:32Z",
  "homepage": {
   "status": 200,
   "bytes": 20231
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Dp3KXolbpJ\u2026",
+  "session.sig": "aNsifK4LKW\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTcxMWFjODIwOGE1MzlkNjEwNmUxNWE2MjU1NTE1YjUiLCAic2NvcmUiOiAxLjE0NTY1NjY3NTUzNTg3OTd9"
+   "sequence": "eyJfaWQiOiAiY2YyZTY1MzY5ZGYzNmZjZjc3MjI2MGVhNDU2ODRjY2MiLCAic2NvcmUiOiAxLjEzNzE5MTI3NDkwNjYzNTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,45 +144,49 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/zapier/04838dc8-0efa-4fe5-b705-c99f6b3f17c6?utm_source=jobs.sequoiacap.com",
-  "companyDomain": "zapier.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/425bef154cfe06bcb2edd6182907bda7_208_160?Expires=1861920000&Signature=H3ceCetVYjEtB9D6jrSqueDh5LeOEQRn0UmyEPB6DpJcq4fQ8iSVP",
-  "companyId": "Zapier",
-  "companySlug": "zapier",
-  "companyName": "Zapier",
-  "companyStaffCount": 1527,
+  "applyUrl": "https://jobs.gem.com/productboard/am9icG9zdDpfq1dHcevndHGSzK_aYE1g?utm_source=jobs.sequoiacap.com",
+  "companyDomain": "productboard.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/50440ad5e18cf8eb56271ba78ac66e48_320_160?Expires=1861920000&Signature=OQNH5oRssGM3z8qiC~Ta-0~8l3lj7rtl3olFRgKBSRYdV1OgRAztL",
+  "companyId": "Productboard",
+  "companySlug": "productboard",
+  "companyName": "Productboard",
+  "companyStaffCount": 287,
   "considerHosted": false,
   "departments": [
-   "Legal"
+   "32 GTM Ops"
   ],
   "jobTypes": [
    {
-    "id": "legal-counsel",
-    "label": "Legal Counsel",
-    "value": "legal-counsel"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   },
+   {
+    "id": "marketing-all",
+    "label": "Marketing",
+    "value": "marketing-all"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Legal",
-    "label": "Legal",
-    "value": "Legal"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "San Francisco, California, United States",
-   "NAMER"
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
@@ -191,76 +195,76 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 158400, 'maxValue': 237500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 155000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
    },
    {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Background Checks",
-    "label": "Background Checks",
-    "value": "resume:Background Checks"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:Legal Advice",
-    "label": "Legal Advice",
-    "value": "resume:Legal Advice"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:HubSpot",
+    "label": "HubSpot",
+    "value": "resume:HubSpot"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
    },
    {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Background Checks",
-    "label": "Background Checks",
-    "value": "resume:Background Checks"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Legal Advice",
-    "label": "Legal Advice",
-    "value": "resume:Legal Advice"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:HubSpot",
+    "label": "HubSpot",
+    "value": "resume:HubSpot"
    },
    {
-    "id": "resume:Employment Law",
-    "label": "Employment Law",
-    "value": "resume:Employment Law"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Marketo",
+    "label": "Marketo",
+    "value": "resume:Marketo"
    },
    {
-    "id": "resume:Legal Operations",
-    "label": "Legal Operations",
-    "value": "resume:Legal Operations"
+    "id": "resume:Workato",
+    "label": "Workato",
+    "value": "resume:Workato"
    }
   ],
   "manager": false,
@@ -273,12 +277,12 @@
    ]
   ],
   "minYearsExp": 4,
-  "maxYearsExp": 8,
+  "maxYearsExp": 6,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "West Coast",
@@ -286,35 +290,46 @@
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-09-18T00:00:00Z",
-  "title": "Legal Counsel",
-  "url": "https://jobs.ashbyhq.com/zapier/04838dc8-0efa-4fe5-b705-c99f6b3f17c6",
-  "jobId": "04838dc8-0efa-4fe5-b705-c99f6b3f17c6",
-  "remote": true,
+  "timeStamp": "2026-09-17T23:59:46Z",
+  "title": "Marketing Systems Operations Lead",
+  "url": "https://jobs.gem.com/productboard/am9icG9zdDpfq1dHcevndHGSzK_aYE1g",
+  "jobId": "am9icG9zdDpfq1dHcevndHGSzK_aYE1g",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.18861893552, 'matchScore': 0, 'ageScore': 0.9886189355200617, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1795403521177, 'matchScore': 0, 'ageScore': 0.9795403521176698, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -322,6 +337,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false

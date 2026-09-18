@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-09-18T11:28:52Z",
+ "run": "2026-09-18T16:33:32Z",
  "homepage": {
   "status": 200,
   "bytes": 19374
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "2sQdfpgK-I\u2026",
+  "session.sig": "ji6whktAdC\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjE1YWJhNjRlZjkyNzkyZjk3YjI0NTIwMjdiYmMyM2QiLCAic2NvcmUiOiAxLjAyMTU4OTA1MDU5Mjk3ODZ9"
+   "sequence": "eyJfaWQiOiAiMzMzN2M1NDgzNjAwMjAxNzNkMTYyMDAxNDFhMzE0ZWQiLCAic2NvcmUiOiAxLjAxMzA4MjAyNDQ3NDE1MTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "marketing-all",
-    "label": "Marketing",
-    "value": "marketing-all"
-   },
-   {
     "id": "lead",
     "label": "Lead",
     "value": "lead"
+   },
+   {
+    "id": "marketing-all",
+    "label": "Marketing",
+    "value": "marketing-all"
    }
   ],
   "jobFunctions": [
@@ -198,63 +198,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 155000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Marketing Automation",
-    "label": "Marketing Automation",
-    "value": "resume:Marketing Automation"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:Marketing Technology",
-    "label": "Marketing Technology",
-    "value": "resume:Marketing Technology"
-   },
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
-   },
-   {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Marketing Automation",
-    "label": "Marketing Automation",
-    "value": "resume:Marketing Automation"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:Marketing Technology",
-    "label": "Marketing Technology",
-    "value": "resume:Marketing Technology"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
-   },
-   {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   },
-   {
     "id": "resume:Voter Targeting",
     "label": "Voter Targeting/Outreach",
     "value": "resume:Voter Targeting"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
     "id": "resume:Written Communication Skills",
@@ -262,9 +213,58 @@
     "value": "resume:Written Communication Skills"
    },
    {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:HubSpot",
+    "label": "HubSpot",
+    "value": "resume:HubSpot"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:HubSpot",
+    "label": "HubSpot",
+    "value": "resume:HubSpot"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
     "id": "resume:Marketo",
     "label": "Marketo",
     "value": "resume:Marketo"
+   },
+   {
+    "id": "resume:Workato",
+    "label": "Workato",
+    "value": "resume:Workato"
    }
   ],
   "manager": false,
@@ -280,9 +280,9 @@
   "maxYearsExp": 6,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "West Coast",
@@ -290,9 +290,9 @@
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -321,24 +321,24 @@
   "jobId": "am9icG9zdDpfq1dHcevndHGSzK_aYE1g",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1876795617936, 'matchScore': 0, 'ageScore': 0.9876795617935957, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1795403521177, 'matchScore': 0, 'ageScore': 0.9795403521176698, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },

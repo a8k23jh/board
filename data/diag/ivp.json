@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-18T11:28:52Z",
+ "run": "2026-09-18T16:33:32Z",
  "homepage": {
   "status": 200,
   "bytes": 19512
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Q1qSWZM8Re\u2026",
+  "session.sig": "ltzpPGdFax\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjhjMTIzY2I3MzU4Y2JiOTU2YzI3NjE1Nzg5ZDEwZDIiLCAic2NvcmUiOiAxLjEzMDU5MTM5MzEwOTU2OH0="
+   "sequence": "eyJfaWQiOiAiYjBhOTBkNGU3MzIyYWYyZDVmMGE4NTBhMjZjMDY1NGUiLCAic2NvcmUiOiAxLjEyOTgwODA4MDQyNTkyNTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -170,49 +170,66 @@
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
     "id": "United States",
     "label": "United States",
     "value": "United States"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
+   },
+   {
     "id": "resume:Analytics",
     "label": "Analytics",
     "value": "resume:Analytics"
    },
    {
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
+   },
+   {
     "id": "resume:ASC 606",
     "label": "ASC 606",
     "value": "resume:ASC 606"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
-   },
-   {
-    "id": "resume:RPO",
-    "label": "RPO",
-    "value": "resume:RPO"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
+   },
+   {
     "id": "resume:Analytics",
     "label": "Analytics",
     "value": "resume:Analytics"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
     "id": "resume:ASC 606",
@@ -220,36 +237,19 @@
     "value": "resume:ASC 606"
    },
    {
+    "id": "resume:Stripe",
+    "label": "Stripe",
+    "value": "resume:Stripe"
+   },
+   {
     "id": "resume:Marketplace",
     "label": "Marketplace",
     "value": "resume:Marketplace"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
-   },
-   {
-    "id": "resume:RPO",
-    "label": "RPO",
-    "value": "resume:RPO"
    },
    {
     "id": "resume:Salesforce",
     "label": "Salesforce",
     "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:D programming language",
-    "label": "D programming language",
-    "value": "resume:D programming language"
-   },
-   {
-    "id": "resume:Internal Controls",
-    "label": "Internal Controls",
-    "value": "resume:Internal Controls"
    }
   ],
   "manager": false,
@@ -268,9 +268,9 @@
   "minYearsExp": 3,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "West Coast",
@@ -278,9 +278,9 @@
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -314,7 +314,7 @@
   "jobId": "8ea8a116-f05f-4f5a-98f5-2c6ffde7c2ad",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1882520688503, 'matchScore': 0, 'ageScore': 0.9882520688503087, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1796653439305, 'matchScore': 0, 'ageScore': 0.9796653439305556, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

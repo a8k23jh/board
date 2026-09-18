@@ -1,7 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-18T11:28:52Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.firstround.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-09-18T16:33:32Z",
  "homepage": {
   "status": 200,
   "bytes": 16697
@@ -43,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "McgRYWq8LB\u2026",
+  "session.sig": "zzowNtF7Um\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -128,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjFhYjI1MDE3NjU4YmRhNmFlYWMxNmI4Y2IxZTZhN2Q6VGltZSBieSBQaW5nIiwgInNjb3JlIjogMS4wNTQ5Mjc1MTE5NDc1MzF9"
+   "sequence": "eyJfaWQiOiAiZDkxMTk5ZjdjMTljMTgwNTFlNDJkNWIxNGRjYWVmMWQiLCAic2NvcmUiOiAxLjA0NjAyMjgxNTYwMTg1MTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -199,9 +198,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 147840, 'maxValue': 184800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Consultative Selling",
-    "label": "Consultative Selling",
-    "value": "resume:Consultative Selling"
+    "id": "resume:SOP",
+    "label": "Standard operating procedure",
+    "value": "resume:SOP"
    },
    {
     "id": "resume:Data Privacy",
@@ -209,26 +208,26 @@
     "value": "resume:Data Privacy"
    },
    {
-    "id": "resume:Sales Leadership",
-    "label": "Sales Leadership",
-    "value": "resume:Sales Leadership"
+    "id": "resume:CCPA",
+    "label": "CCPA",
+    "value": "resume:CCPA"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
    },
    {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
+    "id": "resume:Supply Chain Optimization",
+    "label": "Supply Chain Optimization",
+    "value": "resume:Supply Chain Optimization"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Consultative Selling",
-    "label": "Consultative Selling",
-    "value": "resume:Consultative Selling"
+    "id": "resume:SOP",
+    "label": "Standard operating procedure",
+    "value": "resume:SOP"
    },
    {
     "id": "resume:Data Privacy",
@@ -236,16 +235,21 @@
     "value": "resume:Data Privacy"
    },
    {
-    "id": "resume:Sales Leadership",
-    "label": "Sales Leadership",
-    "value": "resume:Sales Leadership"
+    "id": "resume:CCPA",
+    "label": "CCPA",
+    "value": "resume:CCPA"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
+   },
+   {
+    "id": "resume:Supply Chain Optimization",
+    "label": "Supply Chain Optimization",
+    "value": "resume:Supply Chain Optimization"
    },
    {
     "id": "resume:Sales Process",
@@ -253,19 +257,14 @@
     "value": "resume:Sales Process"
    },
    {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
+    "id": "resume:Supply Chain Operations",
+    "label": "Supply Chain Operations",
+    "value": "resume:Supply Chain Operations"
    },
    {
-    "id": "resume:ROI",
-    "label": "ROI",
-    "value": "resume:ROI"
-   },
-   {
-    "id": "resume:Goods",
-    "label": "Goods",
-    "value": "resume:Goods"
+    "id": "resume:Order Management",
+    "label": "Order Management",
+    "value": "resume:Order Management"
    }
   ],
   "manager": false,
@@ -289,6 +288,11 @@
     "value": "Central US"
    },
    {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -297,11 +301,6 @@
     "id": "Rust Belt",
     "label": "Great Lakes Region",
     "value": "Rust Belt"
-   },
-   {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
    }
   ],
   "stages": [
@@ -335,7 +334,7 @@
   "jobId": "8211419",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1816513589695, 'matchScore': 0, 'ageScore': 0.9816513589695216, 'richnessScore': 2}",
+  "scores": "{'score': 1001.172390906392, 'matchScore': 0, 'ageScore': 0.9723909063919753, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -352,6 +351,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
