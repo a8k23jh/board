@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-17T21:33:32Z",
+ "run": "2026-09-18T00:28:58Z",
  "homepage": {
   "status": 200,
   "bytes": 20231
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "9aGHgX0Noi\u2026",
+  "session.sig": "okIwjPqBMb\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2Y0ODVhMmVkYTFhNDViN2NlMGM3MzA1ZDRmZGE4NzciLCAic2NvcmUiOiAxLjEzNTY5MDI1NjI2ODkwNDJ9"
+   "sequence": "eyJfaWQiOiAiN2Y0ODVhMmVkYTFhNDViN2NlMGM3MzA1ZDRmZGE4NzciLCAic2NvcmUiOiAxLjEzMTQ1MjY0MjYzNjk2fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -166,14 +166,14 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "business-ops",
-    "label": "Business Operations",
-    "value": "business-ops"
-   },
-   {
     "id": "safety-specialist",
     "label": "Safety Specialist",
     "value": "safety-specialist"
+   },
+   {
+    "id": "business-ops",
+    "label": "Business Operations",
+    "value": "business-ops"
    }
   ],
   "jobFunctions": [
@@ -196,9 +196,9 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 23, 'maxValue': 50, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    },
    {
     "id": "resume:State & Local",
@@ -206,48 +206,9 @@
     "value": "resume:State & Local"
    },
    {
-    "id": "resume:Tax Forms",
-    "label": "Tax Forms",
-    "value": "resume:Tax Forms"
-   },
-   {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
-   },
-   {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
-   },
-   {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
-   },
-   {
-    "id": "resume:Tax Forms",
-    "label": "Tax Forms",
-    "value": "resume:Tax Forms"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
-   },
-   {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Finance",
@@ -255,14 +216,53 @@
     "value": "resume:Finance"
    },
    {
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:Business Operations",
     "label": "Business Operations",
     "value": "resume:Business Operations"
    },
    {
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
+   },
+   {
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
+   },
+   {
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
+   },
+   {
+    "id": "resume:Tax Forms",
+    "label": "Tax Forms",
+    "value": "resume:Tax Forms"
    }
   ],
   "manager": false,
@@ -280,24 +280,24 @@
   ],
   "regions": [
    {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   },
+   {
     "id": "Midwest",
     "label": "Midwest",
     "value": "Midwest"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    }
   ],
   "stages": [
@@ -325,7 +325,7 @@
   "jobId": "f96bb9d4-7a81-4e1e-be01-76c643eb6cb3",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1948038115968, 'matchScore': 0, 'ageScore': 0.9948038115968364, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1906310500227, 'matchScore': 0, 'ageScore': 0.9906310500227623, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
