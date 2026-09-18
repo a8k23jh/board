@@ -1,9 +1,9 @@
 {
  "board": "kleiner",
- "run": "2026-09-18T16:33:32Z",
+ "run": "2026-09-18T19:45:37Z",
  "homepage": {
   "status": 200,
-  "bytes": 19374
+  "bytes": 19377
  },
  "slugs_tried": [
   "kleiner-perkins",
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"},\"server\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"},\"server\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ji6whktAdC\u2026",
+  "session.sig": "vQwcVHSemu\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzMzN2M1NDgzNjAwMjAxNzNkMTYyMDAxNDFhMzE0ZWQiLCAic2NvcmUiOiAxLjAxMzA4MjAyNDQ3NDE1MTJ9"
+   "sequence": "eyJfaWQiOiAiMzMzN2M1NDgzNjAwMjAxNzNkMTYyMDAxNDFhMzE0ZWQiLCAic2NvcmUiOiAxLjAwOTQwMjYxNjAwOTI1OTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,27 +144,27 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/productboard/am9icG9zdDpfq1dHcevndHGSzK_aYE1g?utm_source=jobs.kleinerperkins.com",
-  "companyDomain": "productboard.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/50440ad5e18cf8eb56271ba78ac66e48_320_160?Expires=1861920000&Signature=OQNH5oRssGM3z8qiC~Ta-0~8l3lj7rtl3olFRgKBSRYdV1OgRAztL",
-  "companyId": "Productboard",
-  "companySlug": "productboard",
-  "companyName": "Productboard",
-  "companyStaffCount": 287,
+  "applyUrl": "https://job-boards.greenhouse.io/gomotive/jobs/8782062002",
+  "companyDomain": "gomotive.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/25a89ab129481325fdea0a8ec67db334_208_160?Expires=1861920000&Signature=FOVx4pqYXCuvScQi9jIt1h-cXgKWHgmbuXcTtciYMPrORXx90yBOk",
+  "companyId": "Motive",
+  "companySlug": "motive",
+  "companyName": "Motive",
+  "companyStaffCount": 6358,
   "considerHosted": false,
   "departments": [
-   "32 GTM Ops"
+   "Finance"
   ],
   "jobTypes": [
    {
@@ -173,44 +173,49 @@
     "value": "lead"
    },
    {
-    "id": "marketing-all",
-    "label": "Marketing",
-    "value": "marketing-all"
+    "id": "financial-analyst",
+    "label": "Financial Analyst",
+    "value": "financial-analyst"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   },
+   {
+    "id": "Finance",
+    "label": "Finance",
+    "value": "Finance"
    }
   ],
   "locations": [
-   "San Francisco"
+   "United States - Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 155000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 93000, 'maxValue': 148000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:FPA",
+    "label": "FP&A",
+    "value": "resume:FPA"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Variance Analysis",
+    "label": "Variance Analysis",
+    "value": "resume:Variance Analysis"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Budgeting",
+    "label": "Budgeting",
+    "value": "resume:Budgeting"
    },
    {
     "id": "resume:Attention to Detail",
@@ -218,26 +223,26 @@
     "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:HubSpot",
-    "label": "HubSpot",
-    "value": "resume:HubSpot"
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:FPA",
+    "label": "FP&A",
+    "value": "resume:FPA"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Variance Analysis",
+    "label": "Variance Analysis",
+    "value": "resume:Variance Analysis"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Budgeting",
+    "label": "Budgeting",
+    "value": "resume:Budgeting"
    }
   ],
   "preferredSkills": [
@@ -247,24 +252,24 @@
     "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:HubSpot",
-    "label": "HubSpot",
-    "value": "resume:HubSpot"
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
    },
    {
-    "id": "resume:Marketo",
-    "label": "Marketo",
-    "value": "resume:Marketo"
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    },
    {
-    "id": "resume:Workato",
-    "label": "Workato",
-    "value": "resume:Workato"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    }
   ],
   "manager": false,
@@ -277,18 +282,7 @@
    ]
   ],
   "minYearsExp": 4,
-  "maxYearsExp": 6,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -297,31 +291,30 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-09-17T23:59:46Z",
-  "title": "Marketing Systems Operations Lead",
-  "url": "https://jobs.gem.com/productboard/am9icG9zdDpfq1dHcevndHGSzK_aYE1g",
-  "jobId": "am9icG9zdDpfq1dHcevndHGSzK_aYE1g",
-  "remote": false,
+  "timeStamp": "2026-09-18T08:42:58Z",
+  "title": "Lead FP&A Analyst",
+  "url": "https://job-boards.greenhouse.io/gomotive/jobs/8782062002",
+  "jobId": "8782062002",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1795403521177, 'matchScore': 0, 'ageScore': 0.9795403521176698, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1880690183402, 'matchScore': 0, 'ageScore': 0.9880690183402778, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

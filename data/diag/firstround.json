@@ -1,9 +1,9 @@
 {
  "board": "firstround",
- "run": "2026-09-18T16:33:32Z",
+ "run": "2026-09-18T19:45:37Z",
  "homepage": {
   "status": 200,
-  "bytes": 16697
+  "bytes": 16700
  },
  "slugs_tried": [
   "first-round-capital",
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"},\"server\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"},\"server\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "zzowNtF7Um\u2026",
+  "session.sig": "UKNQ5s7_Li\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDkxMTk5ZjdjMTljMTgwNTFlNDJkNWIxNGRjYWVmMWQiLCAic2NvcmUiOiAxLjA0NjAyMjgxNTYwMTg1MTh9"
+   "sequence": "eyJfaWQiOiAiMDcyZDkwYWYwYzk1NTc4M2Q2ZWQwMzdiNDBkMTk3NjYiLCAic2NvcmUiOiAxLjA1OTQ0ODkxNjEzMTU1ODh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,142 +155,106 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8211419",
-  "companyDomain": "flexport.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/963204163cf1c12c9d559f5f59e9c8eb_224_160?Expires=1861920000&Signature=NM6Nr7rLbBQFOk7dzdWVeh8D-P634vODIBuXB~xQ4hsuyqEUajpSf",
-  "companyId": "Flexport",
-  "companySlug": "flexport",
-  "companyName": "Flexport",
-  "companyStaffCount": 2926,
+  "applyUrl": "https://job-boards.greenhouse.io/studsinc/jobs/6200385004",
+  "companyDomain": "studs.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/928cc14370271b5bf1ed1e2cd0f89b69_192_160?Expires=1861920000&Signature=aUPXDUpPVxKoYqNFh7KhHxjFQHByuvTL2tiKY7~kxJ-4SGSbLu7S-",
+  "companyId": "Studs",
+  "companySlug": "studs",
+  "companyName": "Studs",
+  "companyStaffCount": 205,
   "considerHosted": false,
   "departments": [
-   "Implementation"
+   "Sales (SAL)"
   ],
   "jobTypes": [
    {
-    "id": "business-development",
-    "label": "Business Development Professional",
-    "value": "business-development"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "supervisor",
+    "label": "Supervisor",
+    "value": "supervisor"
    },
    {
-    "id": "Business Development",
-    "label": "Business Development",
-    "value": "Business Development"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
+  "jobFunctions": [],
   "locations": [
-   "Chicago, Illinois, United States"
+   "4416 Lovers Lane Dallas, Texas 75225"
   ],
   "normalizedLocations": [
    {
-    "id": "Chicago, Illinois",
-    "label": "Chicago, Illinois",
-    "value": "Chicago, Illinois"
+    "id": "Dallas, Texas",
+    "label": "Dallas, Texas",
+    "value": "Dallas, Texas"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 147840, 'maxValue': 184800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 17, 'maxValue': 17, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SOP",
-    "label": "Standard operating procedure",
-    "value": "resume:SOP"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
+    "id": "resume:Sales Support",
+    "label": "Sales Support",
+    "value": "resume:Sales Support"
    },
    {
-    "id": "resume:CCPA",
-    "label": "CCPA",
-    "value": "resume:CCPA"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Supply Chain Optimization",
-    "label": "Supply Chain Optimization",
-    "value": "resume:Supply Chain Optimization"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SOP",
-    "label": "Standard operating procedure",
-    "value": "resume:SOP"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
+    "id": "resume:Sales Support",
+    "label": "Sales Support",
+    "value": "resume:Sales Support"
    },
    {
-    "id": "resume:CCPA",
-    "label": "CCPA",
-    "value": "resume:CCPA"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Supply Chain Optimization",
-    "label": "Supply Chain Optimization",
-    "value": "resume:Supply Chain Optimization"
-   },
-   {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
-   },
-   {
-    "id": "resume:Supply Chain Operations",
-    "label": "Supply Chain Operations",
-    "value": "resume:Supply Chain Operations"
-   },
-   {
-    "id": "resume:Order Management",
-    "label": "Order Management",
-    "value": "resume:Order Management"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
-  "minYearsExp": 6,
+  "considerLevels": [],
   "regions": [
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
    },
    {
     "id": "North America",
@@ -298,16 +262,16 @@
     "value": "North America"
    },
    {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -318,34 +282,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "Logistics and Supply Chain",
-    "label": "Logistics and Supply Chain",
-    "value": "Logistics and Supply Chain"
+    "id": "Retail",
+    "label": "Retail",
+    "value": "Retail"
    }
   ],
-  "timeStamp": "2026-09-17T18:55:38Z",
-  "title": "Senior Business Development Manager, Control Tower",
-  "url": "https://job-boards.greenhouse.io/flexport/jobs/8211419",
-  "jobId": "8211419",
+  "timeStamp": "2026-09-18T10:23:11Z",
+  "title": "Store Supervisor (Full-Time)",
+  "url": "https://job-boards.greenhouse.io/studsinc/jobs/6200385004",
+  "jobId": "6200385004",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.172390906392, 'matchScore': 0, 'ageScore': 0.9723909063919753, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1898554874927, 'matchScore': 0, 'ageScore': 0.9898554874926697, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },

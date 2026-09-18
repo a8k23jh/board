@@ -1,9 +1,9 @@
 {
  "board": "felicis",
- "run": "2026-09-18T16:33:32Z",
+ "run": "2026-09-18T19:45:37Z",
  "homepage": {
   "status": 200,
-  "bytes": 25229
+  "bytes": 25232
  },
  "slugs_tried": [
   "felicis",
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"},\"server\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"},\"server\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Jj6lEyEvNT\u2026",
+  "session.sig": "A0CdZct4Us\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTUyYjMzOTI4ZDAyY2ExNWE2ZWUwMjJhMzNlMzY2MjkiLCAic2NvcmUiOiAxLjA4NTUzMDk5NjM4MzEwMn0="
+   "sequence": "eyJfaWQiOiAiZTA4N2JiZGZiZWNmMWU3NGE3Y2UwMWQ5Y2Q4NjMxYmIiLCAic2NvcmUiOiAxLjA4NTAxMDgyMzM1Njg2NzJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,22 +147,27 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8204399",
-  "companyDomain": "gusto.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/19a422e68b3e25e5c86870a9db150998_144_160?Expires=1861920000&Signature=CN-UUjGowYONjxHqRtVNezWXCZFUjW~rtftm9Cpvq935lA9FO8r1h",
-  "companyId": "Gusto ZenPayroll",
-  "companySlug": "gusto-zenpayroll",
-  "companyName": "Gusto",
-  "companyStaffCount": 4473,
+  "applyUrl": "https://job-boards.greenhouse.io/komodohealth/jobs/8820714002",
+  "companyDomain": "komodohealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/01adf9c376b6c2cd81f18d67dcdb234c_304_160?Expires=1861920000&Signature=PxnQHOfB0YJpmtrEfpuVUiPsN-EN-MptYK08-gtskYisHsFuouHeU",
+  "companyId": "Komodo Health",
+  "companySlug": "komodo-health",
+  "companyName": "Komodo Health",
+  "companyStaffCount": 742,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Information Technology"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "it-engineer",
+    "label": "IT Support Engineer",
+    "value": "it-engineer"
+   },
+   {
+    "id": "site-reliability-engineer",
+    "label": "Site Reliability Engineer (SRE)",
+    "value": "site-reliability-engineer"
    }
   ],
   "jobFunctions": [
@@ -173,85 +178,85 @@
    }
   ],
   "locations": [
-   "New York, NY - Hybrid"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 191000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Personalization",
-    "label": "Personalization",
-    "value": "resume:Personalization"
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Scripting",
+    "label": "Scripting",
+    "value": "resume:Scripting"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:SDK",
+    "label": "SDK",
+    "value": "resume:SDK"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:version control systems",
+    "label": "Version Control Systems",
+    "value": "resume:version control systems"
    },
    {
-    "id": "resume:Scalability",
-    "label": "Scalability",
-    "value": "resume:Scalability"
+    "id": "resume:Revenue Operations",
+    "label": "Revenue Operations",
+    "value": "resume:Revenue Operations"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Personalization",
-    "label": "Personalization",
-    "value": "resume:Personalization"
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Scripting",
+    "label": "Scripting",
+    "value": "resume:Scripting"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:SDK",
+    "label": "SDK",
+    "value": "resume:SDK"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:version control systems",
+    "label": "Version Control Systems",
+    "value": "resume:version control systems"
    },
    {
-    "id": "resume:Scalability",
-    "label": "Scalability",
-    "value": "resume:Scalability"
+    "id": "resume:Revenue Operations",
+    "label": "Revenue Operations",
+    "value": "resume:Revenue Operations"
    },
    {
-    "id": "resume:Web Applications",
-    "label": "Web Applications",
-    "value": "resume:Web Applications"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    },
    {
-    "id": "resume:Full Stack Development",
-    "label": "Full Stack Development",
-    "value": "resume:Full Stack Development"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    }
   ],
   "manager": false,
@@ -259,31 +264,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -292,9 +281,9 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -305,23 +294,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
-   },
-   {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
+    "id": "Biotech/Pharma",
+    "label": "Biotech/Pharma",
+    "value": "Biotech/Pharma"
    }
   ],
-  "timeStamp": "2026-09-18T00:07:37Z",
-  "title": "Senior Staff Software Engineer, Benefits",
-  "url": "https://job-boards.greenhouse.io/gusto/jobs/8204399",
-  "jobId": "8204399",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1801914886983, 'matchScore': 0, 'ageScore': 0.9801914886983025, 'richnessScore': 2}",
+  "timeStamp": "2026-09-18T10:24:06Z",
+  "title": "Senior IT Operations Engineer",
+  "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8820714002",
+  "jobId": "8820714002",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1903069380926, 'matchScore': 0, 'ageScore': 0.9903069380925926, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

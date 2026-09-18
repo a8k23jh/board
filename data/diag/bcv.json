@@ -1,9 +1,9 @@
 {
  "board": "bcv",
- "run": "2026-09-18T16:33:32Z",
+ "run": "2026-09-18T19:45:37Z",
  "homepage": {
   "status": 200,
-  "bytes": 20707
+  "bytes": 20710
  },
  "slugs_tried": [
   "bain-ventures",
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"},\"server\":{\"git\":\"f2feaecfa004b871d80a4547a466ca783d1f05fc\",\"date\":\"2026-09-15T22:20:57.072Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"},\"server\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "gwnY7x09uo\u2026",
+  "session.sig": "WawXoIk2sP\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGYwZDk1ZTlhODk2N2Y1MDNkZDVlZmM4MzdiN2JiZjkiLCAic2NvcmUiOiAxLjEwNjYyNzY0Mzk1MjE2MDV9"
+   "sequence": "eyJfaWQiOiAiNmVhY2Y2NzJmMGI1MTM3YTNjODI4NjI2Y2UyMDQzYjciLCAic2NvcmUiOiAxLjEwMjgzNzE5NTkzMjQ4NDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.docusign.com/jobs/30361?lang=en-us",
+  "applyUrl": "https://careers.docusign.com/jobs/30378?lang=en-us",
   "companyDomain": "docusign.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
   "companyId": "DocuSign",
@@ -174,9 +174,14 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "ciso",
-    "label": "CISO",
-    "value": "ciso"
+    "id": "it-engineer",
+    "label": "IT Support Engineer",
+    "value": "it-engineer"
+   },
+   {
+    "id": "support-engineer",
+    "label": "Support Engineer",
+    "value": "support-engineer"
    }
   ],
   "jobFunctions": [
@@ -187,94 +192,98 @@
    }
   ],
   "locations": [
-   "San Francisco, California"
+   "Seattle, Washington"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 212100, 'maxValue': 342650, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 34.9, 'maxValue': 48.38, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Security Compliance",
-    "label": "Security Compliance",
-    "value": "resume:Security Compliance"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:SDLC",
-    "label": "SDLC",
-    "value": "resume:SDLC"
+    "id": "resume:IT Automation",
+    "label": "IT Automation",
+    "value": "resume:IT Automation"
    },
    {
-    "id": "resume:GRC",
-    "label": "GRC",
-    "value": "resume:GRC"
+    "id": "resume:Root Cause Analysis",
+    "label": "Root Cause Analysis",
+    "value": "resume:Root Cause Analysis"
    },
    {
-    "id": "resume:FedRAMP",
-    "label": "FedRAMP",
-    "value": "resume:FedRAMP"
+    "id": "resume:System Administration",
+    "label": "System Administration",
+    "value": "resume:System Administration"
    },
    {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Security Compliance",
-    "label": "Security Compliance",
-    "value": "resume:Security Compliance"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:SDLC",
-    "label": "SDLC",
-    "value": "resume:SDLC"
+    "id": "resume:IT Automation",
+    "label": "IT Automation",
+    "value": "resume:IT Automation"
    },
    {
-    "id": "resume:GRC",
-    "label": "GRC",
-    "value": "resume:GRC"
+    "id": "resume:Root Cause Analysis",
+    "label": "Root Cause Analysis",
+    "value": "resume:Root Cause Analysis"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:FedRAMP",
-    "label": "FedRAMP",
-    "value": "resume:FedRAMP"
+    "id": "resume:System Administration",
+    "label": "System Administration",
+    "value": "resume:System Administration"
    },
    {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Continuous Delivery",
-    "label": "Continuous Delivery",
-    "value": "resume:Continuous Delivery"
+    "id": "resume:Vendor Management",
+    "label": "Vendor Management",
+    "value": "resume:Vendor Management"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Process Improvement",
+    "label": "Process Improvement",
+    "value": "resume:Process Improvement"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
+   ],
+   [
+    3,
+    4
    ]
   ],
   "regions": [
@@ -284,14 +293,19 @@
     "value": "Pacific States"
    },
    {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    }
   ],
   "stages": [
@@ -308,24 +322,24 @@
     "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-09-17T22:23:52Z",
-  "title": "Director, Security GRC Product Delivery",
-  "url": "https://careers.docusign.com/jobs/30361?lang=en-us",
-  "jobId": "30361",
+  "timeStamp": "2026-09-18T12:48:51Z",
+  "title": "IT Support Engineer",
+  "url": "https://careers.docusign.com/jobs/30378?lang=en-us",
+  "jobId": "30378",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1779637760309, 'matchScore': 0, 'ageScore': 0.9779637760308642, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1939245074803, 'matchScore': 0, 'ageScore': 0.9939245074803241, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "mid"
   ],
   "isFeatured": false
  },
