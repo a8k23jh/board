@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-09-19T18:06:52Z",
+ "run": "2026-09-19T20:50:28Z",
  "homepage": {
   "status": 200,
   "bytes": 26168
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "0yO2vUh6QF\u2026",
+  "session.sig": "5RTu1VEHa_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjAwMzA0ZDBhY2RmNTEyNzVjZmM1ZTg0ZDk3MTk3MjQiLCAic2NvcmUiOiAxLjEzMzIyMjY5OTg2NjEyNjZ9"
+   "sequence": "eyJfaWQiOiAiNTNkMWJlZjE3OTg5ZWUxZmE1ZDhkY2QyYjI1M2I4NGQiLCAic2NvcmUiOiAxLjEyOTI2MTI4MjAwMzg1ODF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -185,6 +185,11 @@
   ],
   "normalizedLocations": [
    {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
@@ -193,83 +198,78 @@
     "id": "Seattle, Washington",
     "label": "Seattle, Washington",
     "value": "Seattle, Washington"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 188748, 'maxValue': 242676, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Security Operations",
-    "label": "Security Operations",
-    "value": "resume:Security Operations"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Corporate Security",
-    "label": "Corporate Security",
-    "value": "resume:Corporate Security"
-   },
-   {
     "id": "resume:Offensive Security",
     "label": "Offensive Security",
     "value": "resume:Offensive Security"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Security Operations",
-    "label": "Security Operations",
-    "value": "resume:Security Operations"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Corporate Security",
-    "label": "Corporate Security",
-    "value": "resume:Corporate Security"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Offensive Security",
-    "label": "Offensive Security",
-    "value": "resume:Offensive Security"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Cloud Security",
-    "label": "Cloud Security",
-    "value": "resume:Cloud Security"
-   },
-   {
-    "id": "resume:Identity Management",
-    "label": "Identity Management",
-    "value": "resume:Identity Management"
    },
    {
     "id": "resume:Red Teaming",
     "label": "Red Teaming",
     "value": "resume:Red Teaming"
+   },
+   {
+    "id": "resume:Security Operations",
+    "label": "Security Operations",
+    "value": "resume:Security Operations"
+   },
+   {
+    "id": "resume:Corporate Security",
+    "label": "Corporate Security",
+    "value": "resume:Corporate Security"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Offensive Security",
+    "label": "Offensive Security",
+    "value": "resume:Offensive Security"
+   },
+   {
+    "id": "resume:Red Teaming",
+    "label": "Red Teaming",
+    "value": "resume:Red Teaming"
+   },
+   {
+    "id": "resume:Security Operations",
+    "label": "Security Operations",
+    "value": "resume:Security Operations"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Corporate Security",
+    "label": "Corporate Security",
+    "value": "resume:Corporate Security"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:SDLC",
+    "label": "SDLC",
+    "value": "resume:SDLC"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "manager": false,
@@ -292,24 +292,24 @@
     "value": "Pacific States"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
    },
    {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    }
   ],
   "stages": [
@@ -337,7 +337,7 @@
   "jobId": "bc64da24-0699-4611-8e62-49ffafe2a3e9",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1794677580348, 'matchScore': 0, 'ageScore': 0.9794677580347222, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1753800991702, 'matchScore': 0, 'ageScore': 0.9753800991701389, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
