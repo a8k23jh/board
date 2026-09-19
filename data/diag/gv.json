@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-09-19T06:01:45Z",
+ "run": "2026-09-19T11:12:28Z",
  "homepage": {
   "status": 200,
   "bytes": 26168
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "VtCS-lMXL1\u2026",
+  "session.sig": "YDQtzUA5CX\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTZmNzVhY2YyNDNhN2Y4MmEwYjg2MmM0ZTAzYWYyMmYiLCAic2NvcmUiOiAxLjEzNDA0Nzk4NDQ4OTU4MzR9"
+   "sequence": "eyJfaWQiOiAiYjAwMzA0ZDBhY2RmNTEyNzVjZmM1ZTg0ZDk3MTk3MjQiLCAic2NvcmUiOiAxLjE0MTU4MjI4ODY3NTkyNn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,189 +136,219 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.linkedin.com/jobs/view/clinical-scientist-director-senior-director-at-affinia-therapeutics-4469225515",
-  "companyDomain": "affiniatx.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/42ff5a817d36510e004a6a655630ace0_240_160?Expires=1861920000&Signature=om728LvbynaQGPjhX8ZHbk-gBDxPFYAuGBfCSqMZvEpvP0wMb5RNR",
-  "companyId": "Affinia Therapeutics",
-  "companySlug": "affinia-therapeutics",
-  "companyName": "Affinia Therapeutics",
-  "companyStaffCount": 49,
+  "applyUrl": "https://jobs.ashbyhq.com/plaid/bc64da24-0699-4611-8e62-49ffafe2a3e9?utm_source=jobs.gv.com",
+  "companyDomain": "plaid.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/78d9a9b92e908221047c49e96457d95c_232_160?Expires=1861920000&Signature=DSr6q-uZW5klFb6WrasPyJLIcHR0eryRofJrSwXKweDLMWrDixU0z",
+  "companyId": "Plaid",
+  "companySlug": "plaid",
+  "companyName": "Plaid",
+  "companyStaffCount": 2484,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Security"
+  ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
    },
    {
-    "id": "clinical-scientist",
-    "label": "Clinical Scientist",
-    "value": "clinical-scientist"
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Waltham, MA, US"
+   "Seattle, Washington, United States",
+   "Seattle Office",
+   "San Francisco HQ",
+   "New York City Office"
   ],
   "normalizedLocations": [
    {
-    "id": "Waltham, Massachusetts",
-    "label": "Waltham, Massachusetts",
-    "value": "Waltham, Massachusetts"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 188748, 'maxValue': 242676, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Rare Diseases",
-    "label": "Rare Diseases",
-    "value": "resume:Rare Diseases"
+    "id": "resume:Identity Management",
+    "label": "Identity Management",
+    "value": "resume:Identity Management"
    },
    {
-    "id": "resume:Posters",
-    "label": "Posters",
-    "value": "resume:Posters"
+    "id": "resume:Corporate Security",
+    "label": "Corporate Security",
+    "value": "resume:Corporate Security"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:Security Operations",
+    "label": "Security Operations",
+    "value": "resume:Security Operations"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Clinical Operations",
-    "label": "Clinical Operations",
-    "value": "resume:Clinical Operations"
+    "id": "resume:Cloud Security",
+    "label": "Cloud Security",
+    "value": "resume:Cloud Security"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Rare Diseases",
-    "label": "Rare Diseases",
-    "value": "resume:Rare Diseases"
+    "id": "resume:Identity Management",
+    "label": "Identity Management",
+    "value": "resume:Identity Management"
    },
    {
-    "id": "resume:Posters",
-    "label": "Posters",
-    "value": "resume:Posters"
+    "id": "resume:Corporate Security",
+    "label": "Corporate Security",
+    "value": "resume:Corporate Security"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:Security Operations",
+    "label": "Security Operations",
+    "value": "resume:Security Operations"
    }
   ],
   "preferredSkills": [
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Cloud Security",
+    "label": "Cloud Security",
+    "value": "resume:Cloud Security"
+   },
+   {
+    "id": "resume:Red Teaming",
+    "label": "Red Teaming",
+    "value": "resume:Red Teaming"
+   },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Clinical Operations",
-    "label": "Clinical Operations",
-    "value": "resume:Clinical Operations"
-   },
-   {
-    "id": "resume:Protocol Development",
-    "label": "Protocol Development",
-    "value": "resume:Protocol Development"
-   },
-   {
-    "id": "resume:Regulatory Requirements",
-    "label": "Regulatory Requirements",
-    "value": "resume:Regulatory Requirements"
-   },
-   {
-    "id": "resume:Executive Management",
-    "label": "Executive Management",
-    "value": "resume:Executive Management"
+    "id": "resume:Offensive Security",
+    "label": "Offensive Security",
+    "value": "resume:Offensive Security"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
   "regions": [
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
    {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Biotech/Pharma",
-    "label": "Biotech/Pharma",
-    "value": "Biotech/Pharma"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
+   },
+   {
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
    }
   ],
-  "timeStamp": "2026-09-18T19:39:19Z",
-  "title": "Clinical Scientist (Director/Senior Director)",
-  "url": "https://www.linkedin.com/jobs/view/clinical-scientist-director-senior-director-at-affinia-therapeutics-4469225515",
-  "jobId": "4469225515",
+  "timeStamp": "2026-09-19T00:00:00Z",
+  "title": "Security Engineer - Platform Security",
+  "url": "https://jobs.ashbyhq.com/plaid/bc64da24-0699-4611-8e62-49ffafe2a3e9",
+  "jobId": "bc64da24-0699-4611-8e62-49ffafe2a3e9",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1941207274422, 'matchScore': 0, 'ageScore': 0.9941207274421296, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1885230683469, 'matchScore': 0, 'ageScore': 0.9885230683468365, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "mid"
   ],
   "isFeatured": false
  },
