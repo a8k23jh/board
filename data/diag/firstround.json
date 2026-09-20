@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-20T12:29:30Z",
+ "run": "2026-09-20T16:52:39Z",
  "homepage": {
   "status": 200,
   "bytes": 16700
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "gwPdEhBv2c\u2026",
+  "session.sig": "82QsQFqcgR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTdmM2EzZWQ3YWFmOTA2YmIzZGQ3ZDIxODJiNDA3NWEiLCAic2NvcmUiOiAxLjAzMTkwMzM1MTk1MDIzMTR9"
+   "sequence": "eyJfaWQiOiAiNTdmM2EzZWQ3YWFmOTA2YmIzZGQ3ZDIxODJiNDA3NWEiLCAic2NvcmUiOiAxLjAyMzkzNzE2NDUyMDgzMzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -193,9 +193,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 105040, 'maxValue': 131280, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
     "id": "resume:Process Flow Documentation",
@@ -203,53 +208,38 @@
     "value": "resume:Process Flow Documentation"
    },
    {
-    "id": "resume:Public Policy",
-    "label": "Public Policy",
-    "value": "resume:Public Policy"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
-   },
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
     "id": "resume:Process Flow Documentation",
     "label": "Process Flow Documentation",
     "value": "resume:Process Flow Documentation"
-   },
-   {
-    "id": "resume:Public Policy",
-    "label": "Public Policy",
-    "value": "resume:Public Policy"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
-   },
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Team Leadership",
@@ -257,9 +247,19 @@
     "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:GIS",
-    "label": "GIS",
-    "value": "resume:GIS"
+    "id": "resume:Remote Sensing",
+    "label": "Remote Sensing",
+    "value": "resume:Remote Sensing"
+   },
+   {
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
+   },
+   {
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    }
   ],
   "manager": false,
@@ -315,24 +315,24 @@
   "jobId": "8189833",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1558441704568, 'matchScore': 0, 'ageScore': 0.9558441704567902, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1476716526478, 'matchScore': 0, 'ageScore': 0.9476716526477623, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "mid"
+   "mid",
+   "manager"
   ],
   "isFeatured": false
  },
