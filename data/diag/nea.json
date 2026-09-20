@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-19T23:15:07Z",
+ "run": "2026-09-20T01:18:24Z",
  "homepage": {
   "status": 200,
   "bytes": 20605
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "I7iCTwISIu\u2026",
+  "session.sig": "CRLXthMIz0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzY1ZTZhNzc1NDBmYWIwM2NmMjM5Mjg5ZTM4MmQ0ZTAiLCAic2NvcmUiOiAxLjEwNTA0NDA4NjU2MTM0Mjd9"
+   "sequence": "eyJfaWQiOiAiYzA1MzhkM2NhZjk3NTQ5YjE0MmI5OTY2MzRhZTVlYjQiLCAic2NvcmUiOiAxLjEwMDk3NTIxMzMyMDk4NzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDqml9qQZxSRNgiCtxGRK9bv?utm_source=careers.nea.com",
+  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDpRS1v5Ni03cCf59ICoFzXM?utm_source=careers.nea.com",
   "companyDomain": "launchfirestorm.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e188c39c312914da9e7993fda04e236c_320_160?Expires=1861920000&Signature=Pm7J-k33~dn1h7QkoqdLumPZldorJ59U2n6Yki9r684MrWcuwsfhz",
   "companyId": "Firestorm",
@@ -160,9 +160,19 @@
   ],
   "jobTypes": [
    {
-    "id": "engineering-manager",
-    "label": "Engineering Manager",
-    "value": "engineering-manager"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   },
+   {
+    "id": "android-developer",
+    "label": "Android Developer",
+    "value": "android-developer"
+   },
+   {
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
@@ -182,12 +192,22 @@
     "value": "San Diego, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
+    "id": "resume:Test Automation",
+    "label": "Test Automation",
+    "value": "resume:Test Automation"
+   },
+   {
+    "id": "resume:Android",
+    "label": "Android",
+    "value": "resume:Android"
+   },
+   {
+    "id": "resume:Android NDK",
+    "label": "Android NDK",
+    "value": "resume:Android NDK"
    },
    {
     "id": "resume:C/C++",
@@ -195,66 +215,56 @@
     "value": "resume:C/C++"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
-   },
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   },
-   {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:System Integration",
+    "label": "System Integration",
+    "value": "resume:System Integration"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
+    "id": "resume:Test Automation",
+    "label": "Test Automation",
+    "value": "resume:Test Automation"
    },
+   {
+    "id": "resume:Android",
+    "label": "Android",
+    "value": "resume:Android"
+   },
+   {
+    "id": "resume:Android NDK",
+    "label": "Android NDK",
+    "value": "resume:Android NDK"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:C/C++",
     "label": "C/C++",
     "value": "resume:C/C++"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:System Integration",
+    "label": "System Integration",
+    "value": "resume:System Integration"
+   },
+   {
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
+   },
+   {
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
+   },
+   {
+    "id": "resume:DevOps",
+    "label": "DevOps",
+    "value": "resume:DevOps"
    }
   ],
-  "preferredSkills": [
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   },
-   {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
-   },
-   {
-    "id": "resume:Packaging",
-    "label": "Packaging",
-    "value": "resume:Packaging"
-   },
-   {
-    "id": "resume:dynamic system",
-    "label": "Dynamic Systems",
-    "value": "resume:dynamic system"
-   },
-   {
-    "id": "resume:Robotics",
-    "label": "Robotics",
-    "value": "resume:Robotics"
-   }
-  ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -270,11 +280,6 @@
   "minYearsExp": 8,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -283,6 +288,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -315,24 +325,24 @@
     "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-09-19T08:59:43Z",
-  "title": "Engineering Manager,\u202fSimulation\u202f",
-  "url": "https://jobs.gem.com/firestorm/am9icG9zdDqml9qQZxSRNgiCtxGRK9bv",
-  "jobId": "am9icG9zdDqml9qQZxSRNgiCtxGRK9bv",
+  "timeStamp": "2026-09-19T08:58:58Z",
+  "title": "Senior Android Apps Engineer \u2013 ArcTAK Lead",
+  "url": "https://jobs.gem.com/firestorm/am9icG9zdDpRS1v5Ni03cCf59ICoFzXM",
+  "jobId": "am9icG9zdDpRS1v5Ni03cCf59ICoFzXM",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1842829226921, 'matchScore': 0, 'ageScore': 0.9842829226921296, 'richnessScore': 2}",
+  "scores": "{'score': 1001.180052157885, 'matchScore': 0, 'ageScore': 0.9800521578850309, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "senior"
   ],
   "isFeatured": false
  },
