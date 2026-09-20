@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-20T19:33:10Z",
+ "run": "2026-09-20T22:33:03Z",
  "homepage": {
   "status": 200,
   "bytes": 21203
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "AHUZXSYw90\u2026",
+  "session.sig": "FjNr_duFEq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjUzMjA1YjQ3ZWJmOTU0ZTc0ZjE2ZjY2YTg3NDQ5ZGMiLCAic2NvcmUiOiAxLjEzMjAwMjM2MTEwOTk1Mzd9"
+   "sequence": "eyJfaWQiOiAiOTVkZGU1NDIwOTU0YzY4ZTQwODhiZWMxY2FjOGMyNTciLCAic2NvcmUiOiAxLjEyODIzOTkxMjM1NzI1M30="
   },
   "job_keys": [
    "applicationWindow",
@@ -193,36 +193,63 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
+   },
+   {
     "id": "resume:Product Engineering",
     "label": "Product Engineering",
     "value": "resume:Product Engineering"
    },
    {
-    "id": "resume:Full Stack Development",
-    "label": "Full Stack Development",
-    "value": "resume:Full Stack Development"
-   },
-   {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Developer Tools",
-    "label": "Developer Tools",
-    "value": "resume:Developer Tools"
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
+   }
+  ],
+  "preferredSkills": [
+   {
     "id": "resume:Product Engineering",
     "label": "Product Engineering",
     "value": "resume:Product Engineering"
+   },
+   {
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
+   },
+   {
+    "id": "resume:Reinforcement Learning",
+    "label": "Reinforcement Learning",
+    "value": "resume:Reinforcement Learning"
    },
    {
     "id": "resume:Full Stack Development",
@@ -230,36 +257,9 @@
     "value": "resume:Full Stack Development"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Developer Tools",
-    "label": "Developer Tools",
-    "value": "resume:Developer Tools"
-   },
-   {
-    "id": "resume:Developer Platform",
-    "label": "Developer Platform",
-    "value": "resume:Developer Platform"
-   },
-   {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
-   },
-   {
-    "id": "resume:Orchestration",
-    "label": "Orchestration",
-    "value": "resume:Orchestration"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
    }
   ],
   "manager": false,
@@ -267,6 +267,11 @@
   "contractor": false,
   "considerLevels": [],
   "regions": [
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
@@ -276,11 +281,6 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
@@ -309,24 +309,24 @@
   "jobId": "4412230009",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1603244959124, 'matchScore': 0, 'ageScore': 0.9603244959124229, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1567472208202, 'matchScore': 0, 'ageScore': 0.956747220820216, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
