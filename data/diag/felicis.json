@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-20T06:26:55Z",
+ "run": "2026-09-20T12:29:30Z",
  "homepage": {
   "status": 200,
   "bytes": 25232
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "lbCCiZRrZH\u2026",
+  "session.sig": "QwjyLFF3oV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.02
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDc0ODNlZDgyZmEwNGUzMzFhYjQ5MzY1YTQyMTU5N2MiLCAic2NvcmUiOiAxLjA2NzgwMzM5NDg1ODAyNDh9"
+   "sequence": "eyJfaWQiOiAiY2ZhMzFmMDAyNzJhYWUxYjA3OWIxMTRmZDEzYzgyNzMiLCAic2NvcmUiOiAxLjA1NTA1MTgyMDU1NDc4Mzl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "security-engineer",
-    "label": "Security Engineer",
-    "value": "security-engineer"
-   },
-   {
     "id": "security-professional",
     "label": "Security Professional",
     "value": "security-professional"
+   },
+   {
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
    }
   ],
   "jobFunctions": [
@@ -185,14 +185,14 @@
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    },
    {
     "id": "New York, New York",
@@ -203,14 +203,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 188748, 'maxValue': 242676, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SDLC",
-    "label": "SDLC",
-    "value": "resume:SDLC"
+    "id": "resume:Cloud Security",
+    "label": "Cloud Security",
+    "value": "resume:Cloud Security"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Corporate Security",
+    "label": "Corporate Security",
+    "value": "resume:Corporate Security"
+   },
+   {
+    "id": "resume:Offensive Security",
+    "label": "Offensive Security",
+    "value": "resume:Offensive Security"
    },
    {
     "id": "resume:Identity Management",
@@ -218,21 +223,33 @@
     "value": "resume:Identity Management"
    },
    {
-    "id": "resume:Security Operations",
-    "label": "Security Operations",
-    "value": "resume:Security Operations"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SDLC",
-    "label": "SDLC",
-    "value": "resume:SDLC"
+    "id": "resume:Cloud Security",
+    "label": "Cloud Security",
+    "value": "resume:Cloud Security"
+   },
+   {
+    "id": "resume:Corporate Security",
+    "label": "Corporate Security",
+    "value": "resume:Corporate Security"
+   },
+   {
+    "id": "resume:Offensive Security",
+    "label": "Offensive Security",
+    "value": "resume:Offensive Security"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Identity Management",
+    "label": "Identity Management",
+    "value": "resume:Identity Management"
    },
    {
     "id": "resume:Equity",
@@ -240,26 +257,9 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Identity Management",
-    "label": "Identity Management",
-    "value": "resume:Identity Management"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Security Operations",
-    "label": "Security Operations",
-    "value": "resume:Security Operations"
-   },
-   {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Cloud Security",
-    "label": "Cloud Security",
-    "value": "resume:Cloud Security"
    },
    {
     "id": "resume:Red Teaming",
@@ -267,9 +267,9 @@
     "value": "resume:Red Teaming"
    },
    {
-    "id": "resume:Offensive Security",
-    "label": "Offensive Security",
-    "value": "resume:Offensive Security"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -287,16 +287,6 @@
   ],
   "regions": [
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
@@ -305,6 +295,16 @@
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "North America",
@@ -337,7 +337,7 @@
   "jobId": "bc64da24-0699-4611-8e62-49ffafe2a3e9",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1671624520062, 'matchScore': 0, 'ageScore': 0.9671624520061728, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1544643466158, 'matchScore': 0, 'ageScore': 0.9544643466157408, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-20T06:26:55Z",
+ "run": "2026-09-20T12:29:30Z",
  "homepage": {
   "status": 200,
   "bytes": 16700
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "jnPoZbfsej\u2026",
+  "session.sig": "gwPdEhBv2c\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTdmM2EzZWQ3YWFmOTA2YmIzZGQ3ZDIxODJiNDA3NWEiLCAic2NvcmUiOiAxLjA0NTA4MzI2MDk2MDY0ODJ9"
+   "sequence": "eyJfaWQiOiAiNTdmM2EzZWQ3YWFmOTA2YmIzZGQ3ZDIxODJiNDA3NWEiLCAic2NvcmUiOiAxLjAzMTkwMzM1MTk1MDIzMTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -193,9 +193,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 105040, 'maxValue': 131280, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Process Flow Documentation",
+    "label": "Process Flow Documentation",
+    "value": "resume:Process Flow Documentation"
    },
    {
     "id": "resume:Public Policy",
@@ -203,14 +208,9 @@
     "value": "resume:Public Policy"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Process Flow Documentation",
-    "label": "Process Flow Documentation",
-    "value": "resume:Process Flow Documentation"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
     "id": "resume:Professional Services",
@@ -220,26 +220,26 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Process Flow Documentation",
+    "label": "Process Flow Documentation",
+    "value": "resume:Process Flow Documentation"
    },
    {
     "id": "resume:Public Policy",
     "label": "Public Policy",
     "value": "resume:Public Policy"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Process Flow Documentation",
-    "label": "Process Flow Documentation",
-    "value": "resume:Process Flow Documentation"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
     "id": "resume:Professional Services",
@@ -247,19 +247,19 @@
     "value": "resume:Professional Services"
    },
    {
-    "id": "resume:Agriculture",
-    "label": "Agriculture",
-    "value": "resume:Agriculture"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Organizational Change",
-    "label": "Organizational Change",
-    "value": "resume:Organizational Change"
+    "id": "resume:GIS",
+    "label": "GIS",
+    "value": "resume:GIS"
    }
   ],
   "manager": false,
@@ -274,6 +274,11 @@
   "minYearsExp": 4,
   "regions": [
    {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
     "id": "South Atlantic",
     "label": "South Atlantic",
     "value": "South Atlantic"
@@ -282,11 +287,6 @@
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
@@ -315,24 +315,24 @@
   "jobId": "8189833",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1680862328271, 'matchScore': 0, 'ageScore': 0.9680862328271604, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1558441704568, 'matchScore': 0, 'ageScore': 0.9558441704567902, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "manager",
     "label": "Manager/Senior Manager",
     "value": "manager"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "manager"
+   "manager",
+   "mid"
   ],
   "isFeatured": false
  },
