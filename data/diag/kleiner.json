@@ -1,6 +1,7 @@
 {
  "board": "kleiner",
- "run": "2026-09-20T22:33:03Z",
+ "run": "2026-09-21T01:14:57Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
  "homepage": {
   "status": 200,
   "bytes": 19377
@@ -42,7 +43,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "8KiJ7RtP1-\u2026",
+  "session.sig": "cSKhF04LVc\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +128,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWU5Y2VmZjlmNWVjZDE1ZmJjYTAzNzUwM2JiOTQ3OTYiLCAic2NvcmUiOiAxLjAyMjQ2Mjk2MzExMjI2ODZ9"
+   "sequence": "eyJfaWQiOiAiMTA3ODc1ODVlZTVlOTNlOThiZWMyNTNjN2ZhZjdkMGYiLCAic2NvcmUiOiAxLjAxODg2NTk2MjYxODA1NTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,116 +156,111 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/modernhealth/jobs/8815514002",
-  "companyDomain": "modernhealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a3c89b94f946dc7b82656711b9067854_288_160?Expires=1861920000&Signature=f-4DMidAZu~hjofV8SIi41XMKwMHQfZw2h26nqNupRkW2ZDiIzr93",
-  "companyId": "Modern Health",
-  "companySlug": "modern-health",
-  "companyName": "Modern Health",
-  "companyStaffCount": 899,
+  "applyUrl": "https://jobs.lever.co/inkitt/496e21ab-9f4c-4070-b7a6-9cd468bec4bc?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "companyDomain": "inkitt.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/64b16710ef8359595a110c998dbad8fc_144_160?Expires=1861920000&Signature=A9TBZK7KRMnSGVNdfrUMhf6aQVkxQ10aVvVLE9DOfAMimtCl5lyWD",
+  "companyId": "Inkitt",
+  "companySlug": "inkitt",
+  "companyName": "Inkitt",
+  "companyStaffCount": 333,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Product Team"
   ],
   "jobTypes": [
    {
-    "id": "security-engineer",
-    "label": "Security Engineer",
-    "value": "security-engineer"
-   },
-   {
-    "id": "security-professional",
-    "label": "Security Professional",
-    "value": "security-professional"
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Product Management",
+    "label": "Product Management",
+    "value": "Product Management"
    }
   ],
   "locations": [
-   "Remote - US"
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 101405, 'maxValue': 140400, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Bash",
-    "label": "Bash",
-    "value": "resume:Bash"
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:A/B Testing",
+    "label": "A/B Testing",
+    "value": "resume:A/B Testing"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Scripting",
-    "label": "Scripting",
-    "value": "resume:Scripting"
+    "id": "resume:Instagram",
+    "label": "Instagram",
+    "value": "resume:Instagram"
    },
    {
-    "id": "resume:Web Application Security",
-    "label": "Application Security",
-    "value": "resume:Web Application Security"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Bash",
-    "label": "Bash",
-    "value": "resume:Bash"
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:A/B Testing",
+    "label": "A/B Testing",
+    "value": "resume:A/B Testing"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Scripting",
-    "label": "Scripting",
-    "value": "resume:Scripting"
+    "id": "resume:Instagram",
+    "label": "Instagram",
+    "value": "resume:Instagram"
    },
    {
-    "id": "resume:Web Application Security",
-    "label": "Application Security",
-    "value": "resume:Web Application Security"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    },
    {
-    "id": "resume:Mobile Programming",
-    "label": "Mobile Programming",
-    "value": "resume:Mobile Programming"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    },
    {
-    "id": "resume:Product Security",
-    "label": "Product Security",
-    "value": "resume:Product Security"
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Streaming",
+    "label": "Streaming",
+    "value": "resume:Streaming"
    }
   ],
   "manager": false,
@@ -272,17 +268,23 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
    ]
   ],
-  "minYearsExp": 2,
-  "maxYearsExp": 4,
+  "minYearsExp": 4,
+  "maxYearsExp": 10,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -304,18 +306,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Mental Health Care",
-    "label": "Mental Health Care",
-    "value": "Mental Health Care"
+    "id": "Entertainment",
+    "label": "Entertainment",
+    "value": "Entertainment"
    }
   ],
-  "timeStamp": "2026-09-18T19:34:45Z",
-  "title": "Product Security Engineer",
-  "url": "https://job-boards.greenhouse.io/modernhealth/jobs/8815514002",
-  "jobId": "8815514002",
-  "remote": true,
+  "timeStamp": "2026-09-20T17:28:07.536000Z",
+  "title": "Product Manager",
+  "url": "https://jobs.lever.co/inkitt/496e21ab-9f4c-4070-b7a6-9cd468bec4bc",
+  "jobId": "496e21ab-9f4c-4070-b7a6-9cd468bec4bc",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1316125693946, 'matchScore': 0, 'ageScore': 0.931612569394676, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1920933303144, 'matchScore': 0, 'ageScore': 0.992093330314429, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -332,5 +334,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }

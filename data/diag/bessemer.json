@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-20T22:33:03Z",
+ "run": "2026-09-21T01:14:57Z",
  "homepage": {
   "status": 200,
   "bytes": 21391
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "9x1Qgcl1IN\u2026",
+  "session.sig": "a8LJFb3J2f\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTc0NmYyNGY2YTIyNDkzOTFiOTJmMTc0NzQwN2FmOTMiLCAic2NvcmUiOiAxLjA3MTY2MDA4Mjc3Mjc2MjN9"
+   "sequence": "eyJfaWQiOiAiNzA0ZDZmM2I3NjEwNDU2ZDk1MzZhMDEzMzMxMzBmYjYiLCAic2NvcmUiOiAxLjA2NzQwOTc3ODEwOTU2OH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -163,102 +163,140 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5422950008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://jobs.ashbyhq.com/upside/3fcc7f81-5b10-4656-bf87-c051fd56f338?utm_source=jobs.bvp.com",
+  "companyDomain": "upside.com",
+  "companyLogos": "{'manual': {'height': 161, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/35ff0071ea09137b884841155d8b589a_224_161?Expires=1861920000&Signature=LvG~8V~ZVw686~n9qBhpDPbSckKuFnYWuOLcnJGYRKW~kDVj~ukbe",
+  "companyId": "Upside",
+  "companySlug": "upside",
+  "companyName": "Upside",
+  "companyStaffCount": 415,
   "considerHosted": false,
   "departments": [
-   "Security"
+   "Engineering"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "sales-enablement",
+    "label": "Sales Enablement",
+    "value": "sales-enablement"
+   },
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   }
+  ],
   "locations": [
-   "Remote-Friendly (Travel-Required)",
-   "San Francisco, CA",
-   "Seattle, WA",
-   "New York City, NY"
+   "Austin, Texas, United States",
+   "Austin",
+   "DC",
+   "New York",
+   "Chicago "
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    },
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
    },
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
+   },
+   {
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Sequencing",
+    "label": "Sequencing",
+    "value": "resume:Sequencing"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Sequencing",
+    "label": "Sequencing",
+    "value": "resume:Sequencing"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    }
   ],
   "preferredSkills": [
+   {
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
+   },
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -266,24 +304,24 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
   "regions": [
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
    },
    {
     "id": "North America",
@@ -291,21 +329,21 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -316,26 +354,41 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "ECommerce",
+    "label": "eCommerce",
+    "value": "ECommerce"
    },
    {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "Retail",
+    "label": "Retail",
+    "value": "Retail"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-09-19T19:21:00Z",
-  "title": "Security Technology Deployment Specialist",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5422950008",
-  "jobId": "5422950008",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1655887790745, 'matchScore': 0, 'ageScore': 0.9655887790744598, 'richnessScore': 2}",
+  "timeStamp": "2026-09-20T00:00:00Z",
+  "title": "AI Enablement Lead",
+  "url": "https://jobs.ashbyhq.com/upside/3fcc7f81-5b10-4656-bf87-c051fd56f338",
+  "jobId": "3fcc7f81-5b10-4656-bf87-c051fd56f338",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1678487863387, 'matchScore': 0, 'ageScore': 0.9678487863387346, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -343,6 +396,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false
