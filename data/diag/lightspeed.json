@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-21T14:21:01Z",
+ "run": "2026-09-21T19:37:18Z",
  "homepage": {
   "status": 200,
   "bytes": 21203
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "15D5FxmFvq\u2026",
+  "session.sig": "t0s_mi_a8Q\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjUzMjA1YjQ3ZWJmOTU0ZTc0ZjE2ZjY2YTg3NDQ5ZGMiLCAic2NvcmUiOiAxLjEwNzMxNDk4MzkxMDg3OTZ9"
+   "sequence": "eyJfaWQiOiAiOTYzZjE4Zjc5NDc5N2FkMzZjZDA3ZDk3OTc5N2JjN2QiLCAic2NvcmUiOiAxLjEwMDU1ODcxMzcxNTY2MzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,161 +144,153 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/kodiak/jobs/4412485009",
-  "companyDomain": "kodiak.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f9058aaca944d6f0e4c1da86f2ec3e66_128_160?Expires=1861920000&Signature=KBISQxebjx0osJPLPvoofBy367fgdGbCzM-eZnFvNBgUwlA2oTZqJ",
-  "companyId": "Kodiak Robotics",
-  "companySlug": "kodiak-robotics",
-  "companyName": "Kodiak Robotics",
-  "companyStaffCount": 379,
+  "applyUrl": "https://job-boards.greenhouse.io/ketryx/jobs/5429745008",
+  "companyDomain": "ketryx.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/889c8562c04f1b870ac1be84a4b0f1fb_240_160?Expires=1861920000&Signature=neyB0uOfbedG4Hg7YLN4wjRlVFjLB9GLJoiTzL6w5G-xTZpJYW0Ke",
+  "companyId": "Ketryx",
+  "companySlug": "ketryx",
+  "companyName": "Ketryx",
+  "companyStaffCount": 144,
   "considerHosted": false,
   "departments": [
-   "Mapping & Localization"
+   "Business Operations"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
-   },
-   {
-    "id": "localization",
-    "label": "Localization Specialist",
-    "value": "localization"
+    "id": "head-of-operations",
+    "label": "Head of Operations",
+    "value": "head-of-operations"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Strategy / Planning",
+    "label": "Strategy / Planning",
+    "value": "Strategy / Planning"
    }
   ],
   "locations": [
-   "Mountain View, CA"
+   "Boston, Massachusetts, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Mountain View, California",
-    "label": "Mountain View, California",
-    "value": "Mountain View, California"
+    "id": "Boston, Massachusetts",
+    "label": "Boston, Massachusetts",
+    "value": "Boston, Massachusetts"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:gnss",
-    "label": "gnss",
-    "value": "resume:gnss"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
+    "id": "resume:Employer Branding",
+    "label": "Employer Branding",
+    "value": "resume:Employer Branding"
    },
    {
-    "id": "resume:Localization",
-    "label": "Localization",
-    "value": "resume:Localization"
+    "id": "resume:Life Sciences",
+    "label": "Life Sciences",
+    "value": "resume:Life Sciences"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:gnss",
-    "label": "gnss",
-    "value": "resume:gnss"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
+    "id": "resume:Employer Branding",
+    "label": "Employer Branding",
+    "value": "resume:Employer Branding"
    },
    {
-    "id": "resume:Localization",
-    "label": "Localization",
-    "value": "resume:Localization"
+    "id": "resume:Life Sciences",
+    "label": "Life Sciences",
+    "value": "resume:Life Sciences"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Sequencing",
+    "label": "Sequencing",
+    "value": "resume:Sequencing"
    },
    {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Kalman filtering",
-    "label": "Kalman filtering",
-    "value": "resume:Kalman filtering"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 8,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -306,39 +298,39 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-09-20T22:03:19Z",
-  "title": "Staff Autonomy Software Engineer, Localization",
-  "url": "https://job-boards.greenhouse.io/kodiak/jobs/4412485009",
-  "jobId": "4412485009",
+  "timeStamp": "2026-09-21T10:29:50Z",
+  "title": "Head of Operations",
+  "url": "https://job-boards.greenhouse.io/ketryx/jobs/5429745008",
+  "jobId": "5429745008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1810752948206, 'matchScore': 0, 'ageScore': 0.9810752948206019, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1897987329695, 'matchScore': 0, 'ageScore': 0.9897987329695216, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },
