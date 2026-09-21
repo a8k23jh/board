@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-21T06:32:51Z",
+ "run": "2026-09-21T14:21:01Z",
  "homepage": {
   "status": 200,
   "bytes": 21391
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "RBEmsOZiNC\u2026",
+  "session.sig": "ZBuKtLXDDV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzA0ZDZmM2I3NjEwNDU2ZDk1MzZhMDEzMzMxMzBmYjYiLCAic2NvcmUiOiAxLjA2NzQwOTc3ODEwOTU2OH0="
+   "sequence": "eyJfaWQiOiAiNTc0NmYyNGY2YTIyNDkzOTFiOTJmMTc0NzQwN2FmOTMiLCAic2NvcmUiOiAxLjA1MDY1MDU5Njk5NDk4NDZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -188,14 +188,14 @@
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   },
-   {
     "id": "Marketing",
     "label": "Marketing",
     "value": "Marketing"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
@@ -207,81 +207,32 @@
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
-   },
-   {
     "id": "Chicago, Illinois",
     "label": "Chicago, Illinois",
     "value": "Chicago, Illinois"
    },
    {
-    "id": "Austin, Texas",
-    "label": "Austin, Texas",
-    "value": "Austin, Texas"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    },
    {
     "id": "Washington, District Of Columbia",
     "label": "Washington, DC",
     "value": "Washington, District Of Columbia"
+   },
+   {
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sequencing",
-    "label": "Sequencing",
-    "value": "resume:Sequencing"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
-   },
-   {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
-   },
-   {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Sequencing",
-    "label": "Sequencing",
-    "value": "resume:Sequencing"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
-   },
-   {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
     "id": "resume:Recruiting",
@@ -289,14 +240,63 @@
     "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Developer Tools",
+    "label": "Developer Tools",
+    "value": "resume:Developer Tools"
+   },
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
+   {
+    "id": "resume:Developer Tools",
+    "label": "Developer Tools",
+    "value": "resume:Developer Tools"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Sequencing",
+    "label": "Sequencing",
+    "value": "resume:Sequencing"
    }
   ],
   "manager": false,
@@ -314,9 +314,14 @@
   ],
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
    },
    {
     "id": "West South",
@@ -329,14 +334,9 @@
     "value": "North America"
    },
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -380,7 +380,7 @@
   "jobId": "3fcc7f81-5b10-4656-bf87-c051fd56f338",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1678487863387, 'matchScore': 0, 'ageScore': 0.9678487863387346, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1511711991382, 'matchScore': 0, 'ageScore': 0.9511711991381173, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

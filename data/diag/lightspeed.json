@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-21T06:32:51Z",
+ "run": "2026-09-21T14:21:01Z",
  "homepage": {
   "status": 200,
   "bytes": 21203
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "m1fd0qxAAb\u2026",
+  "session.sig": "15D5FxmFvq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTVkZGU1NDIwOTU0YzY4ZTQwODhiZWMxY2FjOGMyNTciLCAic2NvcmUiOiAxLjEyMzcxOTQ1NTcxNTY2MzZ9"
+   "sequence": "eyJfaWQiOiAiZjUzMjA1YjQ3ZWJmOTU0ZTc0ZjE2ZjY2YTg3NDQ5ZGMiLCAic2NvcmUiOiAxLjEwNzMxNDk4MzkxMDg3OTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,33 +144,38 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/patronusaiinc/jobs/4412230009",
-  "companyDomain": "patronus.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/08b85cf402d71583f600bd854911ebc6_310_160?Expires=1861920000&Signature=hIToFzSRLjDxYFfrOp04r5YKnhYOPH59R9fyOGkGd0MDufRe35kUH",
-  "companyId": "Patronus AI",
-  "companySlug": "patronus-ai",
-  "companyName": "Patronus AI",
-  "companyStaffCount": 57,
+  "applyUrl": "https://job-boards.greenhouse.io/kodiak/jobs/4412485009",
+  "companyDomain": "kodiak.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f9058aaca944d6f0e4c1da86f2ec3e66_128_160?Expires=1861920000&Signature=KBISQxebjx0osJPLPvoofBy367fgdGbCzM-eZnFvNBgUwlA2oTZqJ",
+  "companyId": "Kodiak Robotics",
+  "companySlug": "kodiak-robotics",
+  "companyName": "Kodiak Robotics",
+  "companyStaffCount": 379,
   "considerHosted": false,
   "departments": [
-   "Research and Engineering"
+   "Mapping & Localization"
   ],
   "jobTypes": [
    {
     "id": "software-engineer",
     "label": "Software Engineer",
     "value": "software-engineer"
+   },
+   {
+    "id": "localization",
+    "label": "Localization Specialist",
+    "value": "localization"
    }
   ],
   "jobFunctions": [
@@ -181,97 +186,105 @@
    }
   ],
   "locations": [
-   "San Francisco"
+   "Mountain View, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Mountain View, California",
+    "label": "Mountain View, California",
+    "value": "Mountain View, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:gnss",
+    "label": "gnss",
+    "value": "resume:gnss"
    },
    {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    },
    {
-    "id": "resume:Reinforcement Learning",
-    "label": "Reinforcement Learning",
-    "value": "resume:Reinforcement Learning"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Developer Tools",
-    "label": "Developer Tools",
-    "value": "resume:Developer Tools"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Orchestration",
-    "label": "Orchestration",
-    "value": "resume:Orchestration"
+    "id": "resume:Localization",
+    "label": "Localization",
+    "value": "resume:Localization"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:gnss",
+    "label": "gnss",
+    "value": "resume:gnss"
    },
    {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    },
    {
-    "id": "resume:Reinforcement Learning",
-    "label": "Reinforcement Learning",
-    "value": "resume:Reinforcement Learning"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Developer Tools",
-    "label": "Developer Tools",
-    "value": "resume:Developer Tools"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Orchestration",
-    "label": "Orchestration",
-    "value": "resume:Orchestration"
+    "id": "resume:Localization",
+    "label": "Localization",
+    "value": "resume:Localization"
    },
    {
-    "id": "resume:System Design",
-    "label": "System Design",
-    "value": "resume:System Design"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Kalman filtering",
+    "label": "Kalman filtering",
+    "value": "resume:Kalman filtering"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
@@ -281,35 +294,34 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "AI/ML",
-    "label": "AI/ML",
-    "value": "AI/ML"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-09-19T13:18:07Z",
-  "title": "Member of Technical Staff - Engineering",
-  "url": "https://job-boards.greenhouse.io/patronusaiinc/jobs/4412230009",
-  "jobId": "4412230009",
+  "timeStamp": "2026-09-20T22:03:19Z",
+  "title": "Staff Autonomy Software Engineer, Localization",
+  "url": "https://job-boards.greenhouse.io/kodiak/jobs/4412485009",
+  "jobId": "4412485009",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1523770643909, 'matchScore': 0, 'ageScore': 0.9523770643908179, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1810752948206, 'matchScore': 0, 'ageScore': 0.9810752948206019, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
