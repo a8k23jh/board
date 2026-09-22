@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-09-21T23:22:58Z",
+ "run": "2026-09-22T01:42:18Z",
  "homepage": {
   "status": 200,
   "bytes": 18740
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "77ZnAOS1cz\u2026",
+  "session.sig": "5W6Ol0F8TG\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDA1YjViNTM5NmU3Y2YwNWEzYjI0NDY2NDExMDg3OWQiLCAic2NvcmUiOiAxLjA1Mzc3MjIwMDQyMjgzOTZ9"
+   "sequence": "eyJfaWQiOiAiNjIzNzgwODMzMDA5NWRjYjZkMWY4MzE5ZjUyNWQ2ODUiLCAic2NvcmUiOiAxLjA2NzczMDc5MDAxODkwNDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,43 +136,36 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.collibra.com/us/en/company/careers/job-listing/?gh_jid=8219838",
-  "companyDomain": "collibra.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/479078fbf8b31244d11049fb04a5b5b3_288_160?Expires=1861920000&Signature=W4DgOlROg-xkMK4OCxPDDBoAS3t28OloFIaEyPgzEc8ZnayZ9b-mn",
-  "companyId": "Collibra",
-  "companySlug": "collibra",
-  "companyName": "Collibra",
-  "companyStaffCount": 1088,
+  "applyUrl": "https://indeed.com/cmp/Workwell-Technologies/jobs?jk=f0bcddf856050f4a",
+  "companyDomain": "workwelltech.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/56f5842d54b1e1e45f7c9275758339e6_264_160?Expires=1861920000&Signature=RhQUB~CQ33sFDV0HZKpA-GhAdkGw0GI66KbBCEx9aEXLQF5oA8FOC",
+  "companyId": "Workwell Technologies",
+  "companySlug": "workwell-technologies",
+  "companyName": "Workwell Technologies",
+  "companyStaffCount": 95,
   "considerHosted": false,
-  "departments": [
-   "Sales"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
+    "id": "sales-development-rep",
+    "label": "Sales Development Representative",
+    "value": "sales-development-rep"
    },
    {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "payroll-specialist",
+    "label": "Payroll Specialist",
+    "value": "payroll-specialist"
    }
   ],
   "jobFunctions": [
@@ -180,88 +173,93 @@
     "id": "Sales",
     "label": "Sales",
     "value": "Sales"
+   },
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    }
   ],
   "locations": [
-   "Remote, USA"
+   "Texas"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Texas",
+    "label": "Texas",
+    "value": "Texas"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 128000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 26.44, 'maxValue': 26.44, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Unstructured Data",
-    "label": "Unstructured Data",
-    "value": "resume:Unstructured Data"
+    "id": "resume:Follow through",
+    "label": "Follow through",
+    "value": "resume:Follow through"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    },
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
    },
    {
-    "id": "resume:ACV",
-    "label": "ACV",
-    "value": "resume:ACV"
+    "id": "resume:HubSpot",
+    "label": "HubSpot",
+    "value": "resume:HubSpot"
    },
    {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Unstructured Data",
-    "label": "Unstructured Data",
-    "value": "resume:Unstructured Data"
+    "id": "resume:Follow through",
+    "label": "Follow through",
+    "value": "resume:Follow through"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    },
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:ACV",
-    "label": "ACV",
-    "value": "resume:ACV"
+    "id": "resume:HubSpot",
+    "label": "HubSpot",
+    "value": "resume:HubSpot"
    },
    {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
    },
    {
-    "id": "resume:SaaS Sales",
-    "label": "SaaS Sales",
-    "value": "resume:SaaS Sales"
+    "id": "resume:Positioning",
+    "label": "Positioning",
+    "value": "resume:Positioning"
    },
    {
-    "id": "resume:Multithreading",
-    "label": "Multithreading",
-    "value": "resume:Multithreading"
+    "id": "resume:Lead Generation",
+    "label": "Lead Generation",
+    "value": "resume:Lead Generation"
    }
   ],
   "manager": false,
@@ -280,49 +278,53 @@
   "minYearsExp": 3,
   "regions": [
    {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Analytics",
-    "label": "Analytics",
-    "value": "Analytics"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-09-21T02:02:53Z",
-  "title": "Senior Account Executive I",
-  "url": "https://www.collibra.com/us/en/company/careers/job-listing/?gh_jid=8219838",
-  "jobId": "8219838",
-  "remote": true,
+  "timeStamp": "2026-09-21T20:58:07Z",
+  "title": "Payroll Sales Representative",
+  "url": "https://indeed.com/cmp/Workwell-Technologies/jobs?jk=f0bcddf856050f4a",
+  "jobId": "f0bcddf856050f4a",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1741064111474, 'matchScore': 0, 'ageScore': 0.9741064111473765, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1969633546443, 'matchScore': 0, 'ageScore': 0.9969633546442901, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
