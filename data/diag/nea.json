@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-22T07:48:02Z",
+ "run": "2026-09-22T13:29:08Z",
  "homepage": {
   "status": 200,
   "bytes": 20605
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "FcOpSfUNXT\u2026",
+  "session.sig": "iWdOEV06yq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzI2ZGFjZTcxODI5NTUzMDFkNWNkY2E2OTYzZjBjYTMiLCAic2NvcmUiOiAxLjA4NDU5OTU4MTQ5NDIxMjl9"
+   "sequence": "eyJfaWQiOiAiYzNhZDcyNjkxYjJjYzI0MDUxMWMxODA0ZTg0ZGYzMWQiLCAic2NvcmUiOiAxLjA3NzI4MzI2MjY5MzI4NzF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,6 +160,11 @@
   ],
   "jobTypes": [
    {
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
+   },
+   {
     "id": "lead",
     "label": "Lead",
     "value": "lead"
@@ -168,11 +173,6 @@
     "id": "android-developer",
     "label": "Android Developer",
     "value": "android-developer"
-   },
-   {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
    }
   ],
   "jobFunctions": [
@@ -195,63 +195,53 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Android NDK",
-    "label": "Android NDK",
-    "value": "resume:Android NDK"
+    "id": "resume:IDE",
+    "label": "IDE",
+    "value": "resume:IDE"
    },
    {
-    "id": "resume:Continuous Delivery",
-    "label": "Continuous Delivery",
-    "value": "resume:Continuous Delivery"
+    "id": "resume:Broadcast",
+    "label": "Broadcast",
+    "value": "resume:Broadcast"
    },
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
-   },
-   {
-    "id": "resume:Android",
-    "label": "Android",
-    "value": "resume:Android"
+    "id": "resume:System Integration",
+    "label": "System Integration",
+    "value": "resume:System Integration"
    },
    {
     "id": "resume:dynamic system",
     "label": "Dynamic Systems",
     "value": "resume:dynamic system"
+   },
+   {
+    "id": "resume:Video Streaming",
+    "label": "Video Streaming",
+    "value": "resume:Video Streaming"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Android NDK",
-    "label": "Android NDK",
-    "value": "resume:Android NDK"
+    "id": "resume:IDE",
+    "label": "IDE",
+    "value": "resume:IDE"
    },
    {
-    "id": "resume:Continuous Delivery",
-    "label": "Continuous Delivery",
-    "value": "resume:Continuous Delivery"
+    "id": "resume:Broadcast",
+    "label": "Broadcast",
+    "value": "resume:Broadcast"
    },
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
+    "id": "resume:System Integration",
+    "label": "System Integration",
+    "value": "resume:System Integration"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Android",
-    "label": "Android",
-    "value": "resume:Android"
-   },
-   {
     "id": "resume:dynamic system",
     "label": "Dynamic Systems",
     "value": "resume:dynamic system"
-   },
-   {
-    "id": "resume:IDE",
-    "label": "IDE",
-    "value": "resume:IDE"
    },
    {
     "id": "resume:Video Streaming",
@@ -259,9 +249,19 @@
     "value": "resume:Video Streaming"
    },
    {
-    "id": "resume:Test Automation",
-    "label": "Test Automation",
-    "value": "resume:Test Automation"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
+   },
+   {
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
+   },
+   {
+    "id": "resume:Continuous Delivery",
+    "label": "Continuous Delivery",
+    "value": "resume:Continuous Delivery"
    }
   ],
   "manager": false,
@@ -285,14 +285,14 @@
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -331,7 +331,7 @@
   "jobId": "am9icG9zdDqJ6vSRUVStqoFz4h3fZpb1",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1927392657655, 'matchScore': 0, 'ageScore': 0.9927392657654321, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1840171151671, 'matchScore': 0, 'ageScore': 0.9840171151670525, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

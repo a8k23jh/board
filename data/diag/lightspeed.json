@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-22T07:48:02Z",
+ "run": "2026-09-22T13:29:08Z",
  "homepage": {
   "status": 200,
   "bytes": 21203
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "uLgThluTFw\u2026",
+  "session.sig": "BifePIM9d-\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWUzMGI2ZmYzYWNiOGRjNjVkMGQ4ZDIyYjk2NWM4MDYiLCAic2NvcmUiOiAxLjE2NDE4Nzk1NjM2MDcyNTR9"
+   "sequence": "eyJfaWQiOiAiMThjOTEyOWJjZTY5NmM5MjczNjk1MzcyMTQyZGMxMWEiLCAic2NvcmUiOiAxLjE3MTI5MjAxMjg5Nzc2MjR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8109/",
+  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8032/",
   "companyDomain": "infoblox.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
   "companyId": "Infoblox",
@@ -166,45 +166,40 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "sales-enablement",
-    "label": "Sales Enablement",
-    "value": "sales-enablement"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   },
-   {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Burnaby, BC, Canada",
-   "Infoblox Canada Ltd, BURNABY, CA"
+   "Tacoma, Washington, United States",
+   "2106-2108 Pacific Avenue, Tacoma, WA, US"
   ],
   "normalizedLocations": [
    {
-    "id": "Canada",
-    "label": "Canada",
-    "value": "Canada"
-   },
-   {
-    "id": "Burnaby, British Columbia, Canada",
-    "label": "Burnaby, British Columbia, Canada",
-    "value": "Burnaby, British Columbia, Canada"
+    "id": "Tacoma, Washington",
+    "label": "Tacoma, Washington",
+    "value": "Tacoma, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 82400, 'maxValue': 121440, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135400, 'maxValue': 201850, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Legal Writing",
-    "label": "Legal Writing",
-    "value": "resume:Legal Writing"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
+   },
+   {
+    "id": "resume:Driving Results",
+    "label": "Driving Results",
+    "value": "resume:Driving Results"
    },
    {
     "id": "resume:Infrastructure",
@@ -212,63 +207,58 @@
     "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    },
    {
-    "id": "resume:Talent Development",
-    "label": "Talent Development",
-    "value": "resume:Talent Development"
-   },
-   {
-    "id": "resume:Organizational Effectiveness",
-    "label": "Organizational Effectiveness",
-    "value": "resume:Organizational Effectiveness"
+    "id": "resume:Network Administration",
+    "label": "Network Administration",
+    "value": "resume:Network Administration"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Legal Writing",
-    "label": "Legal Writing",
-    "value": "resume:Legal Writing"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
+   },
+   {
+    "id": "resume:Driving Results",
+    "label": "Driving Results",
+    "value": "resume:Driving Results"
    },
    {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
+   },
+   {
+    "id": "resume:Network Administration",
+    "label": "Network Administration",
+    "value": "resume:Network Administration"
+   },
+   {
+    "id": "resume:SOA",
+    "label": "SOA/Microservices",
+    "value": "resume:SOA"
    },
    {
     "id": "resume:Networking",
     "label": "Networking Technologies",
     "value": "resume:Networking"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Talent Development",
-    "label": "Talent Development",
-    "value": "resume:Talent Development"
    },
    {
-    "id": "resume:Organizational Effectiveness",
-    "label": "Organizational Effectiveness",
-    "value": "resume:Organizational Effectiveness"
-   },
-   {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
-   },
-   {
-    "id": "resume:Psychology",
-    "label": "Psychology",
-    "value": "resume:Psychology"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Docker",
+    "label": "Docker",
+    "value": "resume:Docker"
    }
   ],
   "manager": false,
@@ -276,21 +266,35 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 3,
-  "maxYearsExp": 5,
+  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    }
   ],
   "stages": [
@@ -307,24 +311,24 @@
     "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-09-21T23:59:02Z",
-  "title": "Talent Product Specialist, AI Enablement",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8109/",
-  "jobId": "8109",
+  "timeStamp": "2026-09-22T08:59:45Z",
+  "title": "Senior Software Engineer",
+  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8032/",
+  "jobId": "8032",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.192364306493, 'matchScore': 0, 'ageScore': 0.9923643064930555, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1967988014552, 'matchScore': 0, 'ageScore': 0.9967988014552469, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

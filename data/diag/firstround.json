@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-22T07:48:02Z",
+ "run": "2026-09-22T13:29:08Z",
  "homepage": {
   "status": 200,
   "bytes": 16700
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "0n79ifI_eQ\u2026",
+  "session.sig": "D0ZgiST94M\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjVlOGNlYjhjYjJhYTk5MjE1N2RlYzZhOThhODM0MDAiLCAic2NvcmUiOiAxLjAyMzg3MDkyOTQ2Nzk3ODR9"
+   "sequence": "eyJfaWQiOiAiZjFiNzYwODY3Y2UwNmQwOTc0MTE3MzlhYTM0Yjc5MzgiLCAic2NvcmUiOiAxLjAyODQ3MzgwMDM3NTM4Nn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/andrenam/am9icG9zdDpQSDAZOkmaUiiVGiOEPvVH?utm_source=jobs.firstround.com",
+  "applyUrl": "https://jobs.gem.com/andrenam/am9icG9zdDrewCtH_k2oGVPdF7SP7CBX?utm_source=jobs.firstround.com",
   "companyDomain": "andrenam.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/17c98437059405a9070df4e518cbd7b6_320_160?Expires=1861920000&Signature=M8XDbXzVoxWeEy5ECdR3UMJwjYzCTb~ANKFtbzDJhA19raI0wqwaS",
   "companyId": "Andrenam",
@@ -164,10 +164,22 @@
   "companyStaffCount": 19,
   "considerHosted": false,
   "departments": [
-   "Business Development"
+   "Engineering"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
    "Washington D.C."
   ],
@@ -178,61 +190,22 @@
     "value": "Washington, District Of Columbia"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 130000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 170000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   },
-   {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
-   },
-   {
-    "id": "resume:Technical Writing",
-    "label": "Technical Writing",
-    "value": "resume:Technical Writing"
-   },
-   {
     "id": "resume:Export Controls",
     "label": "Export Controls",
     "value": "resume:Export Controls"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
-   },
-   {
-    "id": "resume:Technical Writing",
-    "label": "Technical Writing",
-    "value": "resume:Technical Writing"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Export Controls",
-    "label": "Export Controls",
-    "value": "resume:Export Controls"
-   },
-   {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:GraphQL",
+    "label": "GraphQL",
+    "value": "resume:GraphQL"
    },
    {
     "id": "resume:Department of State",
@@ -240,30 +213,78 @@
     "value": "resume:Department of State"
    },
    {
-    "id": "resume:Grant Writing",
-    "label": "Grant Writing",
-    "value": "resume:Grant Writing"
-   },
-   {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
    }
   ],
+  "requiredSkills": [
+   {
+    "id": "resume:Export Controls",
+    "label": "Export Controls",
+    "value": "resume:Export Controls"
+   },
+   {
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
+   },
+   {
+    "id": "resume:GraphQL",
+    "label": "GraphQL",
+    "value": "resume:GraphQL"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Department of State",
+    "label": "Department of State",
+    "value": "resume:Department of State"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
+   },
+   {
+    "id": "resume:Internet of Things",
+    "label": "Internet of Things",
+    "value": "resume:Internet of Things"
+   },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
+   }
+  ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -291,24 +312,24 @@
     "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-09-21T23:58:23Z",
-  "title": "Proposal Strategist",
-  "url": "https://jobs.gem.com/andrenam/am9icG9zdDpQSDAZOkmaUiiVGiOEPvVH",
-  "jobId": "am9icG9zdDpQSDAZOkmaUiiVGiOEPvVH",
+  "timeStamp": "2026-09-22T08:59:58Z",
+  "title": "Senior Software Engineer",
+  "url": "https://jobs.gem.com/andrenam/am9icG9zdDrewCtH_k2oGVPdF7SP7CBX",
+  "jobId": "am9icG9zdDrewCtH_k2oGVPdF7SP7CBX",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1918082455533, 'matchScore': 0, 'ageScore': 0.9918082455532408, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1969351852476, 'matchScore': 0, 'ageScore': 0.9969351852476852, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-22T07:48:02Z",
+ "run": "2026-09-22T13:29:08Z",
  "homepage": {
   "status": 200,
   "bytes": 20710
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "7bsLEhmHu7\u2026",
+  "session.sig": "8x4JuKgxUJ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDc0OTUyMzcwMTZmNTAyZjkyMWRkNGE4ODc0NjMwY2IiLCAic2NvcmUiOiAxLjAzOTQ3NDMyMDg3Mzg0MjZ9"
+   "sequence": "eyJfaWQiOiAiMDViNjY5NzI4MmUzMWZiMzI0NTdiN2VhNGNhYmNjM2EiLCAic2NvcmUiOiAxLjA1MDQ1MDcwMzQ0Njc1OTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,95 +152,101 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.docusign.com/jobs/30386?lang=en-us",
-  "companyDomain": "docusign.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
-  "companyId": "DocuSign",
-  "companySlug": "docusign",
-  "companyName": "DocuSign",
-  "companyStaffCount": 8412,
+  "applyUrl": "https://job-boards.greenhouse.io/shipbobinc/jobs/4736523005",
+  "companyDomain": "shipbob.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/71f9c9623ad8779afcda360d6c852025_256_160?Expires=1861920000&Signature=YgqL41DHl9VZqssRyl2HXp47e02fdpKcujto1In13wYDDojXd6a0-",
+  "companyId": "ShipBob",
+  "companySlug": "shipbob",
+  "companyName": "ShipBob",
+  "companyStaffCount": 1647,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Fulfillment"
+  ],
   "jobTypes": [
    {
-    "id": "program-manager",
-    "label": "Program Manager",
-    "value": "program-manager"
-   }
-  ],
-  "jobFunctions": [
+    "id": "fulfillment-specialist",
+    "label": "Fulfillment Specialist",
+    "value": "fulfillment-specialist"
+   },
    {
-    "id": "Project Management",
-    "label": "Project Management",
-    "value": "Project Management"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
+  "jobFunctions": [],
   "locations": [
-   "San Francisco, California",
-   "Chicago, Illinois",
-   "Seattle, Washington"
+   "North Aurora, Illinois, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "Chicago, Illinois",
-    "label": "Chicago, Illinois",
-    "value": "Chicago, Illinois"
-   },
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
+    "id": "Aurora, Illinois",
+    "label": "Aurora, Illinois",
+    "value": "Aurora, Illinois"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 132700, 'maxValue': 206800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 21, 'maxValue': 21, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Trust Building",
-    "label": "Trust Building",
-    "value": "resume:Trust Building"
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
+   },
+   {
+    "id": "resume:E-commerce",
+    "label": "E-commerce",
+    "value": "resume:E-commerce"
+   },
+   {
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
+   },
+   {
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
     "id": "resume:Productivity Software",
     "label": "Productivity Software",
     "value": "resume:Productivity Software"
-   },
-   {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
-   },
-   {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Trust Building",
-    "label": "Trust Building",
-    "value": "resume:Trust Building"
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
+   },
+   {
+    "id": "resume:E-commerce",
+    "label": "E-commerce",
+    "value": "resume:E-commerce"
+   },
+   {
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
     "id": "resume:Productivity Software",
@@ -248,39 +254,22 @@
     "value": "resume:Productivity Software"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:Warehouse Management",
+    "label": "Warehouse Management",
+    "value": "resume:Warehouse Management"
+   },
+   {
+    "id": "resume:Mid-Market",
+    "label": "Mid-Market",
+    "value": "resume:Mid-Market"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
-  "preferredSkills": [
-   {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Software Project Management",
-    "label": "Software Project Management",
-    "value": "resume:Software Project Management"
-   },
-   {
-    "id": "resume:Confluence",
-    "label": "Confluence",
-    "value": "resume:Confluence"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -295,9 +284,14 @@
   ],
   "regions": [
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    },
    {
     "id": "Rust Belt",
@@ -305,19 +299,9 @@
     "value": "Rust Belt"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Midwest",
     "label": "Midwest",
     "value": "Midwest"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -325,22 +309,38 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
+    "id": "ECommerce",
+    "label": "eCommerce",
+    "value": "ECommerce"
+   },
+   {
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-09-21T17:17:04Z",
-  "title": "CS Strategy & Operations Program Manager",
-  "url": "https://careers.docusign.com/jobs/30386?lang=en-us",
-  "jobId": "30386",
+  "timeStamp": "2026-09-22T00:34:06Z",
+  "title": "Inbound 1st Shift Lead Fulfillment Associate",
+  "url": "https://job-boards.greenhouse.io/shipbobinc/jobs/4736523005",
+  "jobId": "4736523005",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1835836509059, 'matchScore': 0, 'ageScore': 0.9835836509058642, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1846860823654, 'matchScore': 0, 'ageScore': 0.9846860823653549, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -348,10 +348,22 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "junior",
+   "senior"
   ],
   "isFeatured": false
  },
