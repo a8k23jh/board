@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-22T01:42:18Z",
+ "run": "2026-09-22T07:48:02Z",
  "homepage": {
   "status": 200,
   "bytes": 20710
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Oy9V-_Dz33\u2026",
+  "session.sig": "7bsLEhmHu7\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDFhNTU4YjBjZTgwYjExMjIxNTQwNDkzYjhhNGQ3NDQiLCAic2NvcmUiOiAxLjA1MzMxMjgyNDEzMzg3MzR9"
+   "sequence": "eyJfaWQiOiAiMDc0OTUyMzcwMTZmNTAyZjkyMWRkNGE4ODc0NjMwY2IiLCAic2NvcmUiOiAxLjAzOTQ3NDMyMDg3Mzg0MjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -193,6 +193,11 @@
   ],
   "normalizedLocations": [
    {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
     "id": "Chicago, Illinois",
     "label": "Chicago, Illinois",
     "value": "Chicago, Illinois"
@@ -201,69 +206,10 @@
     "id": "Seattle, Washington",
     "label": "Seattle, Washington",
     "value": "Seattle, Washington"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 132700, 'maxValue': 206800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
-   },
-   {
-    "id": "resume:GRR",
-    "label": "Gross Retention Rate",
-    "value": "resume:GRR"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
-   },
-   {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
-   },
-   {
-    "id": "resume:GRR",
-    "label": "Gross Retention Rate",
-    "value": "resume:GRR"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
-   },
-   {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
-   },
    {
     "id": "resume:Trust Building",
     "label": "Trust Building",
@@ -275,9 +221,63 @@
     "value": "resume:Productivity Software"
    },
    {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
+   },
+   {
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
+   },
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
+   },
+   {
+    "id": "resume:Productivity Software",
+    "label": "Productivity Software",
+    "value": "resume:Productivity Software"
+   },
+   {
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
+   },
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
+   },
+   {
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
+   },
+   {
+    "id": "resume:Confluence",
+    "label": "Confluence",
+    "value": "resume:Confluence"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -295,9 +295,9 @@
   ],
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "Rust Belt",
@@ -305,19 +305,19 @@
     "value": "Rust Belt"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -340,7 +340,7 @@
   "jobId": "30386",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.191902094527, 'matchScore': 0, 'ageScore': 0.9919020945270062, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1835836509059, 'matchScore': 0, 'ageScore': 0.9835836509058642, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

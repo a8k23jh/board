@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-22T01:42:18Z",
+ "run": "2026-09-22T07:48:02Z",
  "homepage": {
   "status": 200,
   "bytes": 20605
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "qQcA9mbORJ\u2026",
+  "session.sig": "FcOpSfUNXT\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZmZkMDM1YThhNWY2MzY4ZmE2MTBkN2Y2NWJkYmU5ZDgiLCAic2NvcmUiOiAxLjA4NTkxMDMzMDQ0ODY4ODN9"
+   "sequence": "eyJfaWQiOiAiNzI2ZGFjZTcxODI5NTUzMDFkNWNkY2E2OTYzZjBjYTMiLCAic2NvcmUiOiAxLjA4NDU5OTU4MTQ5NDIxMjl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,140 +136,163 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://indeed.com/cmp/Moda-Operandi/jobs?jk=5c14a36bc94a59d7",
-  "companyDomain": "modaoperandi.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7da6da1df8f82c57445cef7c1c8a06cd_320_160?Expires=1861920000&Signature=i-wVggwaYMOB9H8WfqQJ3f-y7iyUouEDfhquBPu26pUrj99ixHc8w",
-  "companyId": "Moda Operandi",
-  "companySlug": "moda-operandi",
-  "companyName": "Moda Operandi",
-  "companyStaffCount": 364,
+  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDqJ6vSRUVStqoFz4h3fZpb1?utm_source=careers.nea.com",
+  "companyDomain": "launchfirestorm.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e188c39c312914da9e7993fda04e236c_320_160?Expires=1861920000&Signature=Pm7J-k33~dn1h7QkoqdLumPZldorJ59U2n6Yki9r684MrWcuwsfhz",
+  "companyId": "Firestorm",
+  "companySlug": "firestorm",
+  "companyName": "Firestorm",
+  "companyStaffCount": 192,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Engineering"
+  ],
   "jobTypes": [
    {
-    "id": "concierge",
-    "label": "Concierge",
-    "value": "concierge"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   },
+   {
+    "id": "android-developer",
+    "label": "Android Developer",
+    "value": "android-developer"
+   },
+   {
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Brooklyn, NY"
+   "San Diego, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Brooklyn, New York",
-    "label": "Brooklyn, New York",
-    "value": "Brooklyn, New York"
+    "id": "San Diego, California",
+    "label": "San Diego, California",
+    "value": "San Diego, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 55000, 'maxValue': 65000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Client Relations",
-    "label": "Client Relations",
-    "value": "resume:Client Relations"
+    "id": "resume:Android NDK",
+    "label": "Android NDK",
+    "value": "resume:Android NDK"
    },
    {
-    "id": "resume:Advisor",
-    "label": "Advisor",
-    "value": "resume:Advisor"
+    "id": "resume:Continuous Delivery",
+    "label": "Continuous Delivery",
+    "value": "resume:Continuous Delivery"
    },
    {
-    "id": "resume:Principal Component Analysis",
-    "label": "Principal Component Analysis",
-    "value": "resume:Principal Component Analysis"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Merchandising",
-    "label": "Merchandising",
-    "value": "resume:Merchandising"
+    "id": "resume:Android",
+    "label": "Android",
+    "value": "resume:Android"
    },
    {
-    "id": "resume:Client Development",
-    "label": "Client Development",
-    "value": "resume:Client Development"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Client Relations",
-    "label": "Client Relations",
-    "value": "resume:Client Relations"
+    "id": "resume:Android NDK",
+    "label": "Android NDK",
+    "value": "resume:Android NDK"
    },
    {
-    "id": "resume:Advisor",
-    "label": "Advisor",
-    "value": "resume:Advisor"
+    "id": "resume:Continuous Delivery",
+    "label": "Continuous Delivery",
+    "value": "resume:Continuous Delivery"
    },
    {
-    "id": "resume:Principal Component Analysis",
-    "label": "Principal Component Analysis",
-    "value": "resume:Principal Component Analysis"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Merchandising",
-    "label": "Merchandising",
-    "value": "resume:Merchandising"
+    "id": "resume:Android",
+    "label": "Android",
+    "value": "resume:Android"
    },
    {
-    "id": "resume:Client Development",
-    "label": "Client Development",
-    "value": "resume:Client Development"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    },
    {
-    "id": "resume:Luxury",
-    "label": "Luxury",
-    "value": "resume:Luxury"
+    "id": "resume:IDE",
+    "label": "IDE",
+    "value": "resume:IDE"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Video Streaming",
+    "label": "Video Streaming",
+    "value": "resume:Video Streaming"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Test Automation",
+    "label": "Test Automation",
+    "value": "resume:Test Automation"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    }
   ],
   "stages": [
@@ -277,26 +300,50 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
+   },
+   {
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-09-21T20:58:17Z",
-  "title": "Private Concierge",
-  "url": "https://indeed.com/cmp/Moda-Operandi/jobs?jk=5c14a36bc94a59d7",
-  "jobId": "5c14a36bc94a59d7",
+  "timeStamp": "2026-09-21T23:58:27Z",
+  "title": "Senior Android Apps Engineer \u2013 ArcTAK Lead",
+  "url": "https://jobs.gem.com/firestorm/am9icG9zdDqJ6vSRUVStqoFz4h3fZpb1",
+  "jobId": "am9icG9zdDqJ6vSRUVStqoFz4h3fZpb1",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1964128651439, 'matchScore': 0, 'ageScore': 0.9964128651439044, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1927392657655, 'matchScore': 0, 'ageScore': 0.9927392657654321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   }
+  ],
+  "jobSeniorityIds": [
+   "senior"
+  ],
   "isFeatured": false
  },
  "search_mode": {
