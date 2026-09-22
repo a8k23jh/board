@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-21T19:37:18Z",
+ "run": "2026-09-21T23:22:58Z",
  "homepage": {
   "status": 200,
   "bytes": 19515
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"},\"server\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"},\"server\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "DItR4ZhNIZ\u2026",
+  "session.sig": "TlMH8n-5pf\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTE3YmE1NWI1YWE0M2U2MTQ4NjU0ZTVkNmRkMzA0MjMiLCAic2NvcmUiOiAxLjA1OTgzMTA0NjU1MzI0MDh9"
+   "sequence": "eyJfaWQiOiAiMmFlMDc0ZWE2MThlNzAyNTU0ZTI1MzIxMTE5YmI5ZGMiLCAic2NvcmUiOiAxLjA1NTE0MjM3MDQ3NDUzN30="
   },
   "job_keys": [
    "applicationWindow",
@@ -171,63 +171,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 95000, 'maxValue': 131000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
-   {
-    "id": "resume:Management Consulting",
-    "label": "Management Consulting",
-    "value": "resume:Management Consulting"
-   },
-   {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
-   },
-   {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
-   },
-   {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
-   {
-    "id": "resume:Management Consulting",
-    "label": "Management Consulting",
-    "value": "resume:Management Consulting"
-   },
-   {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
-   },
-   {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
-   },
-   {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
    },
    {
     "id": "resume:Driving Results",
@@ -235,9 +181,63 @@
     "value": "resume:Driving Results"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
+   },
+   {
+    "id": "resume:GDPR",
+    "label": "GDPR",
+    "value": "resume:GDPR"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
+   },
+   {
+    "id": "resume:Driving Results",
+    "label": "Driving Results",
+    "value": "resume:Driving Results"
+   },
+   {
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:GDPR",
+    "label": "GDPR",
+    "value": "resume:GDPR"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Management Consulting",
+    "label": "Management Consulting",
+    "value": "resume:Management Consulting"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -292,7 +292,7 @@
   "jobId": "a32537a5-ccdc-49b9-aed7-437867e63e7f",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1932030115961, 'matchScore': 0, 'ageScore': 0.9932030115960648, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1893708209861, 'matchScore': 0, 'ageScore': 0.9893708209861111, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

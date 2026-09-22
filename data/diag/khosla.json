@@ -1,35 +1,33 @@
 {
  "board": "khosla",
- "run": "2026-09-21T19:37:18Z",
+ "run": "2026-09-21T23:22:58Z",
  "attempts": [
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=chief+of+staff",
    "status": 200,
-   "bytes": 327656,
+   "bytes": 327657,
    "jobs_parsed": 20
   },
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=chief+of+staff&page=2",
    "status": 200,
-   "bytes": 327733,
+   "bytes": 327670,
    "jobs_parsed": 20
   },
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=business+operations",
    "status": 200,
-   "bytes": 307848,
+   "bytes": 307850,
    "jobs_parsed": 20
   },
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=business+operations&page=2",
-   "status": 200,
-   "bytes": 307859,
-   "jobs_parsed": 20
+   "error": "HTTPSConnectionPool(host='jobs.khoslaventures.com', port=443): Max retries exceeded with url: /jobs?q=business+operations&page=2 (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='jobs.khoslaventu"
   },
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=strategy",
    "status": 200,
-   "bytes": 335703,
+   "bytes": 320964,
    "jobs_parsed": 20
   },
   {
@@ -41,7 +39,7 @@
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=operations",
    "status": 200,
-   "bytes": 326729,
+   "bytes": 326725,
    "jobs_parsed": 20
   },
   {
@@ -53,49 +51,41 @@
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=founder",
    "status": 200,
-   "bytes": 339606,
+   "bytes": 339539,
    "jobs_parsed": 20
   },
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=founder&page=2",
    "status": 200,
-   "bytes": 339551,
+   "bytes": 339550,
    "jobs_parsed": 20
   },
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=corporate+development",
-   "status": 200,
-   "bytes": 318227,
-   "jobs_parsed": 20
-  },
-  {
-   "url": "https://jobs.khoslaventures.com/jobs?q=corporate+development&page=2",
-   "status": 200,
-   "bytes": 318238,
-   "jobs_parsed": 20
+   "error": "HTTPSConnectionPool(host='jobs.khoslaventures.com', port=443): Max retries exceeded with url: /jobs?q=corporate+development (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='jobs.khoslaventures.c"
   },
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=general+manager",
    "status": 200,
-   "bytes": 306114,
+   "bytes": 306113,
    "jobs_parsed": 20
   },
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=general+manager&page=2",
    "status": 200,
-   "bytes": 306123,
+   "bytes": 306128,
    "jobs_parsed": 20
   },
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=revenue+operations",
    "status": 200,
-   "bytes": 336371,
+   "bytes": 336369,
    "jobs_parsed": 20
   },
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=revenue+operations&page=2",
    "status": 200,
-   "bytes": 336382,
+   "bytes": 336384,
    "jobs_parsed": 20
   },
   {
@@ -107,12 +97,12 @@
   {
    "url": "https://jobs.khoslaventures.com/jobs?q=special+projects&page=2",
    "status": 200,
-   "bytes": 340916,
+   "bytes": 340914,
    "jobs_parsed": 20
   }
  ],
  "parse_health": {
-  "jobs": 172,
+  "jobs": 161,
   "without_location": 31
  }
 }

@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-09-21T19:37:18Z",
+ "run": "2026-09-21T23:22:58Z",
  "homepage": {
   "status": 200,
   "bytes": 19377
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"},\"server\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"},\"server\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "9h70EkVn15\u2026",
+  "session.sig": "3AQ2NKDzYU\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzM3OGI0YjQ1MzliYzAwYzllZTM1NzM0MGEzYjY5ZWYiLCAic2NvcmUiOiAwLjk5NDE3OTMzNjYxMTQ5Njl9"
+   "sequence": "eyJfaWQiOiAiMzM3OGI0YjQ1MzliYzAwYzllZTM1NzM0MGEzYjY5ZWYiLCAic2NvcmUiOiAwLjk5MDQyODczNDkxNTEyMzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -193,58 +193,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
-    "id": "resume:A/B Testing",
-    "label": "A/B Testing",
-    "value": "resume:A/B Testing"
-   },
-   {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
    },
    {
     "id": "resume:Instagram",
     "label": "Instagram",
     "value": "resume:Instagram"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
-    "id": "resume:A/B Testing",
-    "label": "A/B Testing",
-    "value": "resume:A/B Testing"
-   },
-   {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Instagram",
-    "label": "Instagram",
-    "value": "resume:Instagram"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
    },
    {
     "id": "resume:Research",
@@ -252,14 +208,58 @@
     "value": "resume:Research"
    },
    {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
+   },
+   {
+    "id": "resume:Instagram",
+    "label": "Instagram",
+    "value": "resume:Instagram"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
     "id": "resume:Streaming",
     "label": "Streaming",
     "value": "resume:Streaming"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:A/B Testing",
+    "label": "A/B Testing",
+    "value": "resume:A/B Testing"
+   },
+   {
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    }
   ],
   "manager": false,
@@ -275,11 +275,6 @@
   "maxYearsExp": 10,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -288,6 +283,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -316,7 +316,7 @@
   "jobId": "496e21ab-9f4c-4070-b7a6-9cd468bec4bc",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1668158423248, 'matchScore': 0, 'ageScore': 0.9668158423248456, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1624208014633, 'matchScore': 0, 'ageScore': 0.9624208014633487, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

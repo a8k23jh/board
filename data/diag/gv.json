@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-09-21T19:37:18Z",
+ "run": "2026-09-21T23:22:58Z",
  "homepage": {
   "status": 200,
   "bytes": 26168
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"},\"server\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"},\"server\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "jd1D9_Qu8_\u2026",
+  "session.sig": "9_ch2GxQ4O\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTRiMzhlYWI4MzJkZmU4MGY1M2Y1NjQ2NTc3YjBlMzQiLCAic2NvcmUiOiAxLjA3NjQ1MjQyMjI5MzIxfQ=="
+   "sequence": "eyJfaWQiOiAiNTRiMzhlYWI4MzJkZmU4MGY1M2Y1NjQ2NTc3YjBlMzQiLCAic2NvcmUiOiAxLjA3MjUwMjE5NDgyOTg2MTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
     "id": "partner",
     "label": "Partner",
     "value": "partner"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [],
@@ -184,9 +184,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 226000, 'maxValue': 278000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:SLA",
+    "label": "SLA",
+    "value": "resume:SLA"
    },
    {
     "id": "resume:Global Teams",
@@ -194,26 +194,26 @@
     "value": "resume:Global Teams"
    },
    {
-    "id": "resume:Enterprise Support",
-    "label": "Enterprise Support",
-    "value": "resume:Enterprise Support"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    },
    {
-    "id": "resume:Classification",
-    "label": "Classification Algorithms",
-    "value": "resume:Classification"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:SLA",
-    "label": "SLA",
-    "value": "resume:SLA"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:SLA",
+    "label": "SLA",
+    "value": "resume:SLA"
    },
    {
     "id": "resume:Global Teams",
@@ -221,21 +221,16 @@
     "value": "resume:Global Teams"
    },
    {
-    "id": "resume:Enterprise Support",
-    "label": "Enterprise Support",
-    "value": "resume:Enterprise Support"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Classification",
-    "label": "Classification Algorithms",
-    "value": "resume:Classification"
-   },
-   {
-    "id": "resume:SLA",
-    "label": "SLA",
-    "value": "resume:SLA"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
     "id": "resume:B2B",
@@ -243,14 +238,19 @@
     "value": "resume:B2B"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Classification",
+    "label": "Classification Algorithms",
+    "value": "resume:Classification"
+   },
+   {
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
    }
   ],
   "manager": true,
@@ -275,11 +275,6 @@
   "minYearsExp": 15,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -288,6 +283,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -316,7 +316,7 @@
   "jobId": "8214030",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1902437990706, 'matchScore': 0, 'ageScore': 0.9902437990706019, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1858643915883, 'matchScore': 0, 'ageScore': 0.9858643915883488, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

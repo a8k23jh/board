@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-21T19:37:18Z",
+ "run": "2026-09-21T23:22:58Z",
  "homepage": {
   "status": 200,
   "bytes": 20234
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"},\"server\":{\"git\":\"3e1e57dc24caaa02bbb69ca094ba56194422e2b9\",\"date\":\"2026-09-18T18:09:20.007Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"},\"server\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Ga7hB4fgpE\u2026",
+  "session.sig": "tTXA_3L3zT\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjg5OGUxZTgxOTdjNTFkZWU3MDZmYjZhNTI0NDQ0NmMiLCAic2NvcmUiOiAxLjA3NTQ1NjUwNzU4NTY0ODF9"
+   "sequence": "eyJfaWQiOiAiMGQ2MGQ0YmQwODA2YWU5YzUzN2I3YjM3MzJkNDdmMWYiLCAic2NvcmUiOiAxLjA3MTUxNzg3NzIwNzU2MTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,6 +168,11 @@
   ],
   "jobTypes": [
    {
+    "id": "user-marketing",
+    "label": "Growth Manager",
+    "value": "user-marketing"
+   },
+   {
     "id": "marketing-engagement",
     "label": "Marketing Engagement",
     "value": "marketing-engagement"
@@ -176,11 +181,6 @@
     "id": "marketing-growth",
     "label": "Marketing Growth",
     "value": "marketing-growth"
-   },
-   {
-    "id": "user-marketing",
-    "label": "Growth Manager",
-    "value": "user-marketing"
    },
    {
     "id": "marketing-acquisition",
@@ -208,63 +208,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 98000, 'maxValue': 115000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
     "id": "resume:Marketing Operations",
     "label": "Marketing Operations",
     "value": "resume:Marketing Operations"
    },
    {
-    "id": "resume:Looker",
-    "label": "Looker",
-    "value": "resume:Looker"
-   },
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:Marketing Operations",
-    "label": "Marketing Operations",
-    "value": "resume:Marketing Operations"
+    "id": "resume:Figma",
+    "label": "Figma",
+    "value": "resume:Figma"
    },
    {
     "id": "resume:Looker",
     "label": "Looker",
     "value": "resume:Looker"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
-   },
-   {
-    "id": "resume:Employee Benefits",
-    "label": "Employee Benefits",
-    "value": "resume:Employee Benefits"
    },
    {
     "id": "resume:Growth Marketing",
@@ -275,6 +231,50 @@
     "id": "resume:Marketing",
     "label": "Marketing",
     "value": "resume:Marketing"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Marketing Operations",
+    "label": "Marketing Operations",
+    "value": "resume:Marketing Operations"
+   },
+   {
+    "id": "resume:Figma",
+    "label": "Figma",
+    "value": "resume:Figma"
+   },
+   {
+    "id": "resume:Looker",
+    "label": "Looker",
+    "value": "resume:Looker"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Growth Marketing",
+    "label": "Growth Marketing",
+    "value": "resume:Growth Marketing"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Employee Benefits",
+    "label": "Employee Benefits",
+    "value": "resume:Employee Benefits"
    }
   ],
   "manager": false,
@@ -294,6 +294,16 @@
   "maxYearsExp": 3,
   "regions": [
    {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
@@ -302,16 +312,6 @@
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
@@ -340,7 +340,7 @@
   "jobId": "8821478002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1904328342666, 'matchScore': 0, 'ageScore': 0.9904328342665895, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1864021278626, 'matchScore': 0, 'ageScore': 0.9864021278626544, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
