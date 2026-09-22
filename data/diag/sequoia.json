@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-22T13:29:08Z",
+ "run": "2026-09-22T18:09:43Z",
  "homepage": {
   "status": 200,
   "bytes": 20234
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "mEn36XpzHE\u2026",
+  "session.sig": "MWBvRbUkjU\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjAwZTg1MWE1OGY5YzFkOGQ3ZGI1NzU0NTQ0ODdmYTUiLCAic2NvcmUiOiAxLjEzNjk4MDQzOTQ1MDYxNzN9"
+   "sequence": "eyJfaWQiOiAiMjAwZTg1MWE1OGY5YzFkOGQ3ZGI1NzU0NTQ0ODdmYTUiLCAic2NvcmUiOiAxLjEzMzAzODcyNjU2MTM0MjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,108 +144,123 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Canada-Ontario-Remote/Product-Success-Specialist--Virtual-Agent_JR116038",
-  "companyDomain": "servicetitan.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/4b46ec6f6db59580f3b1f96f75cf48cf_320_160?Expires=1861920000&Signature=CkDf5cAzqjrkdJJGTyP-cjEq2I0QHTFbahdebSL8spSQaT6WpwMT~",
-  "companyId": "ServiceTitan",
-  "companySlug": "servicetitan",
-  "companyName": "ServiceTitan",
-  "companyStaffCount": 3382,
+  "applyUrl": "https://jobs.ashbyhq.com/Rogo/812a7310-575f-4241-80d4-dbbfe537ae15?utm_source=jobs.sequoiacap.com",
+  "companyDomain": "rogo.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66a7953d8c5c2886ab74e7caf90fe681_128_160?Expires=1861920000&Signature=i5epe-A8J7h0DMs~JWcg~u9gDW5REpES3SF1ZmEEgGjfVGFGXL5yl",
+  "companyId": "Rogo",
+  "companySlug": "rogo",
+  "companyName": "Rogo",
+  "companyStaffCount": 213,
   "considerHosted": false,
-  "departments": [],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "departments": [
+   "Finance"
+  ],
+  "jobTypes": [
+   {
+    "id": "accountant",
+    "label": "Accountant",
+    "value": "accountant"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
+   }
+  ],
   "locations": [
-   "Canada"
+   "New York , New York, USA",
+   "New York City"
   ],
   "normalizedLocations": [
    {
-    "id": "Canada",
-    "label": "Canada",
-    "value": "Canada"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 65300, 'maxValue': 97900, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 80000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Shared Services",
+    "label": "Shared Services",
+    "value": "resume:Shared Services"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:CPA",
+    "label": "CPA",
+    "value": "resume:CPA"
    },
    {
-    "id": "resume:CRM software",
-    "label": "CRM Software",
-    "value": "resume:CRM software"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:Big 4",
+    "label": "Big 4",
+    "value": "resume:Big 4"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Shared Services",
+    "label": "Shared Services",
+    "value": "resume:Shared Services"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:CPA",
+    "label": "CPA",
+    "value": "resume:CPA"
    },
    {
-    "id": "resume:CRM software",
-    "label": "CRM Software",
-    "value": "resume:CRM software"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:Big 4",
+    "label": "Big 4",
+    "value": "resume:Big 4"
    },
    {
-    "id": "resume:ROI",
-    "label": "ROI",
-    "value": "resume:ROI"
+    "id": "resume:Month End Close",
+    "label": "Month End Close",
+    "value": "resume:Month End Close"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -261,9 +276,23 @@
     4
    ]
   ],
-  "minYearsExp": 2,
-  "maxYearsExp": 4,
+  "minYearsExp": 3,
   "regions": [
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -272,36 +301,52 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Investment Management",
-    "label": "Investment Management",
-    "value": "Investment Management"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Financial Services",
+    "label": "Financial Services",
+    "value": "Financial Services"
+   },
+   {
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
   "timeStamp": "2026-09-22T00:00:00Z",
-  "title": "Product Success Specialist, Virtual Agent",
-  "url": "https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan/job/Canada-Ontario-Remote/Product-Success-Specialist--Virtual-Agent_JR116038",
-  "jobId": "418a53fa77091000e2806f6679f60000",
-  "remote": true,
+  "title": "Senior Accountant",
+  "url": "https://jobs.ashbyhq.com/Rogo/812a7310-575f-4241-80d4-dbbfe537ae15",
+  "jobId": "812a7310-575f-4241-80d4-dbbfe537ae15",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1845648110082, 'matchScore': 0, 'ageScore': 0.9845648110081019, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1801276551154, 'matchScore': 0, 'ageScore': 0.9801276551153549, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
