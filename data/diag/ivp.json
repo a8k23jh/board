@@ -1,6 +1,7 @@
 {
  "board": "ivp",
- "run": "2026-09-22T18:09:43Z",
+ "run": "2026-09-22T21:29:09Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='careers.ivp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 19515
@@ -26,7 +27,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "wr5ZNt1a23\u2026",
+  "session.sig": "zVd0dBPf5r\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +112,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmYwZjU1ZjNhMzZmMjllNDNkZTMzZmE5NGFjMWI5MmYiLCAic2NvcmUiOiAxLjA0NjkyMTU2NDgxMjExNDJ9"
+   "sequence": "eyJfaWQiOiAiZDg1MjFkMTZlNzkwNjE1YmNlMzZjN2Y3ZTBmYWVjY2QiLCAic2NvcmUiOiAxLjA2NTYwNzI1NTE5MjkwMTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,121 +140,121 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/vercel/jobs/6148624004",
-  "companyDomain": "vercel.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3aebce305d02e8016a2802f154dc7fbd_256_160?Expires=1861920000&Signature=EDSnmPk-oZeT58HDw5bbBJFXm4XOJ0Hl9PVLDaf-xJe~A2cmL45kh",
-  "companyId": "Vercel",
-  "companySlug": "vercel",
-  "companyName": "Vercel",
-  "companyStaffCount": 957,
+  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4735022005",
+  "companyDomain": "glean.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
+  "companyId": "Glean",
+  "companySlug": "glean",
+  "companyName": "Glean",
+  "companyStaffCount": 1772,
   "considerHosted": false,
   "departments": [
-   "Finance"
+   "Support"
   ],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "customer-support",
+    "label": "Customer Support",
+    "value": "customer-support"
    },
    {
-    "id": "sales-all",
-    "label": "Sales",
-    "value": "sales-all"
-   },
-   {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
+    "id": "it-engineer",
+    "label": "IT Support Engineer",
+    "value": "it-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   },
+   {
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
    }
   ],
   "locations": [
-   "Hybrid - San Francisco"
+   "New York, NY, Nashville, TN"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Nashville, Tennessee",
+    "label": "Nashville, Tennessee",
+    "value": "Nashville, Tennessee"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    },
    {
-    "id": "resume:Nextjs",
-    "label": "Next.js",
-    "value": "resume:Nextjs"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Arbitration",
+    "label": "Arbitration",
+    "value": "resume:Arbitration"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    },
    {
-    "id": "resume:Nextjs",
-    "label": "Next.js",
-    "value": "resume:Nextjs"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Arbitration",
+    "label": "Arbitration",
+    "value": "resume:Arbitration"
    },
    {
-    "id": "resume:SDK",
-    "label": "SDK",
-    "value": "resume:SDK"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:SAML",
+    "label": "SAML",
+    "value": "resume:SAML"
    }
   ],
   "manager": false,
@@ -261,24 +262,19 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    },
    {
     "id": "North America",
@@ -288,9 +284,9 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -301,33 +297,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer Software",
-    "label": "Computer Software",
-    "value": "Computer Software"
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
    }
   ],
-  "timeStamp": "2026-09-22T00:11:24Z",
-  "title": "Senior Finance Manager, Sales",
-  "url": "https://job-boards.greenhouse.io/vercel/jobs/6148624004",
-  "jobId": "6148624004",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1803817693684, 'matchScore': 0, 'ageScore': 0.9803817693684413, 'richnessScore': 2}",
+  "timeStamp": "2026-09-22T10:10:31Z",
+  "title": "Designated Technical Support Engineer - Central/East",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4735022005",
+  "jobId": "4735022005",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1903844729792, 'matchScore': 0, 'ageScore': 0.9903844729791667, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }

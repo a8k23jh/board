@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-22T18:09:43Z",
+ "run": "2026-09-22T21:29:09Z",
  "homepage": {
   "status": 200,
   "bytes": 21203
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "F9U2BirUCZ\u2026",
+  "session.sig": "33kpTQujO4\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMThjOTEyOWJjZTY5NmM5MjczNjk1MzcyMTQyZGMxMWEiLCAic2NvcmUiOiAxLjE2NzI5MjkyNDA5NDEzNTl9"
+   "sequence": "eyJfaWQiOiAiNmY5YTg3MDlkNDY0NTc0YWZmMzRlZmI1ZGNhOGZlYTgiLCAic2NvcmUiOiAxLjE2NjkwNzk1MzEwMjIzNzd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,31 +144,38 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8032/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3390,
+  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4735022005",
+  "companyDomain": "glean.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
+  "companyId": "Glean",
+  "companySlug": "glean",
+  "companyName": "Glean",
+  "companyStaffCount": 1772,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Support"
+  ],
   "jobTypes": [
    {
-    "id": "senior-software-engineer",
-    "label": "Senior Software Engineer",
-    "value": "senior-software-engineer"
+    "id": "customer-support",
+    "label": "Customer Support",
+    "value": "customer-support"
+   },
+   {
+    "id": "it-engineer",
+    "label": "IT Support Engineer",
+    "value": "it-engineer"
    }
   ],
   "jobFunctions": [
@@ -176,89 +183,93 @@
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
+   },
+   {
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
    }
   ],
   "locations": [
-   "Tacoma, Washington, United States",
-   "2106-2108 Pacific Avenue, Tacoma, WA, US"
+   "New York, NY, Nashville, TN"
   ],
   "normalizedLocations": [
    {
-    "id": "Tacoma, Washington",
-    "label": "Tacoma, Washington",
-    "value": "Tacoma, Washington"
+    "id": "Nashville, Tennessee",
+    "label": "Nashville, Tennessee",
+    "value": "Nashville, Tennessee"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135400, 'maxValue': 201850, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Database Design",
-    "label": "Database Arch/Design",
-    "value": "resume:Database Design"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    },
    {
-    "id": "resume:Performance Tuning",
-    "label": "Performance Tuning",
-    "value": "resume:Performance Tuning"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
-    "id": "resume:DHCP",
-    "label": "DHCP",
-    "value": "resume:DHCP"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:System Architecture",
-    "label": "System Architecture",
-    "value": "resume:System Architecture"
+    "id": "resume:Arbitration",
+    "label": "Arbitration",
+    "value": "resume:Arbitration"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Database Design",
-    "label": "Database Arch/Design",
-    "value": "resume:Database Design"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    },
    {
-    "id": "resume:Performance Tuning",
-    "label": "Performance Tuning",
-    "value": "resume:Performance Tuning"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:DHCP",
-    "label": "DHCP",
-    "value": "resume:DHCP"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:System Architecture",
-    "label": "System Architecture",
-    "value": "resume:System Architecture"
+    "id": "resume:Arbitration",
+    "label": "Arbitration",
+    "value": "resume:Arbitration"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    },
    {
-    "id": "resume:Graph Processing",
-    "label": "Graph Databases",
-    "value": "resume:Graph Processing"
+    "id": "resume:SAML",
+    "label": "SAML",
+    "value": "resume:SAML"
    }
   ],
   "manager": false,
@@ -266,30 +277,19 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    },
    {
     "id": "North America",
@@ -302,33 +302,39 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
    }
   ],
-  "timeStamp": "2026-09-22T08:59:45Z",
-  "title": "Senior Software Engineer",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8032/",
-  "jobId": "8032",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1918036796894, 'matchScore': 0, 'ageScore': 0.9918036796894291, 'richnessScore': 2}",
+  "timeStamp": "2026-09-22T10:10:31Z",
+  "title": "Designated Technical Support Engineer - Central/East",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4735022005",
+  "jobId": "4735022005",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1903844729792, 'matchScore': 0, 'ageScore': 0.9903844729791667, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
