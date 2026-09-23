@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-23T06:06:11Z",
+ "run": "2026-09-23T11:51:16Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "X7RGYYDxvt\u2026",
+  "session.sig": "8kqSErT7lJ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGNhMTZjMmYwMzM0YzVmNGQwMGQyMmJmODA3MzVmOWMiLCAic2NvcmUiOiAxLjA4NDI4MDM0OTEyNTc3MTV9"
+   "sequence": "eyJfaWQiOiAiODdlZmQwOWY1OTc5ODMzM2FiZjAzNjYyMTcwOTMyNzAiLCAic2NvcmUiOiAxLjE0MDgxMjYwNzQ0NDQ0NDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,27 +139,22 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/chainguard/jobs/4713044006",
-  "companyDomain": "chainguard.dev",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/31a5369e0ef167a246723e25166f9bb2_320_160?Expires=1861920000&Signature=WlG8ObgFzketnOZ1GE13WkiEQj5BCejH51gbRZAOEvFTCDtl~hKti",
-  "companyId": "Chainguard",
-  "companySlug": "chainguard",
-  "companyName": "Chainguard",
-  "companyStaffCount": 766,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5432558008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "R&D Engineering"
+   "Engineering & Design - Product"
   ],
   "jobTypes": [
    {
-    "id": "database-engineer",
-    "label": "Database Engineer",
-    "value": "database-engineer"
-   },
-   {
-    "id": "data-engineer",
-    "label": "Data Engineer",
-    "value": "data-engineer"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
@@ -170,85 +165,91 @@
    }
   ],
   "locations": [
-   "United States - Remote"
+   "San Francisco, CA",
+   "New York City, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 205000, 'maxValue': 231000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    },
    {
-    "id": "resume:PostgreSQL",
-    "label": "Postgres",
-    "value": "resume:PostgreSQL"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Terraform",
-    "label": "Terraform",
-    "value": "resume:Terraform"
+    "id": "resume:Construction Management",
+    "label": "Construction Management",
+    "value": "resume:Construction Management"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    },
    {
-    "id": "resume:PostgreSQL",
-    "label": "Postgres",
-    "value": "resume:PostgreSQL"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Terraform",
-    "label": "Terraform",
-    "value": "resume:Terraform"
+    "id": "resume:Construction Management",
+    "label": "Construction Management",
+    "value": "resume:Construction Management"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
-    "id": "resume:Linux",
-    "label": "Linux",
-    "value": "resume:Linux"
+    "id": "resume:Primavera P6",
+    "label": "Primavera P6",
+    "value": "resume:Primavera P6"
    },
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    },
    {
-    "id": "resume:DBMS",
-    "label": "DBMS",
-    "value": "resume:DBMS"
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    }
   ],
   "manager": false,
@@ -256,57 +257,76 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Security",
-    "label": "Security",
-    "value": "Security"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-09-22T17:48:24Z",
-  "title": "Staff Platform Database Engineer",
-  "url": "https://job-boards.greenhouse.io/chainguard/jobs/4713044006",
-  "jobId": "4713044006",
-  "remote": true,
+  "timeStamp": "2026-09-23T02:17:20Z",
+  "title": "Staff Software Engineer: Compute",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432558008",
+  "jobId": "5432558008",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1924526513399, 'matchScore': 0, 'ageScore': 0.992452651339892, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1913242934526, 'matchScore': 0, 'ageScore': 0.9913242934525462, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
    {
     "id": "senior",
     "label": "Senior",
@@ -314,7 +334,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "mid",
    "senior"
   ],
   "isFeatured": false

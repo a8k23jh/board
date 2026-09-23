@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-23T06:06:11Z",
+ "run": "2026-09-23T11:51:16Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "03caDjKeAP\u2026",
+  "session.sig": "RDR1NGsoaa\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDNkMzEzYTFkZjYxZTg4YmJkZDI4ZGM2MjliMzFlYzEiLCAic2NvcmUiOiAxLjE0NTQ0MTk4NzY2MzE5NDV9"
+   "sequence": "eyJfaWQiOiAiMTYwYWRjYmM5NDQyZjlkZTcwMjI3ZGYyYmU5NmNlNGYiLCAic2NvcmUiOiAxLjE0NDExNDcwNTI4ODE5NDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,38 +144,36 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8827682002?gh_jid=8827682002",
-  "companyDomain": "spacex.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
-  "companyId": "SpaceX",
-  "companySlug": "spacex",
-  "companyName": "SpaceX",
-  "companyStaffCount": 20713,
+  "applyUrl": "https://www.comeet.com/jobs/cyera/17.008/sales-engineer-identity-security---california/EE.079-77.50D",
+  "companyDomain": "cyera.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec6d92aec09bf6716dbbd9d50089a4ec_208_160?Expires=1861920000&Signature=hr9QoUI4iKYF8Hn~HoiixG3elVHvWPoII2QRBQjO8zeSQJpeGQNuP",
+  "companyId": "Cyera",
+  "companySlug": "cyera",
+  "companyName": "Cyera",
+  "companyStaffCount": 1645,
   "considerHosted": false,
-  "departments": [
-   "Starlink - Electronic Sourcing"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "mechanical-engineer",
-    "label": "Mechanical Engineer",
-    "value": "mechanical-engineer"
+    "id": "solutions-architect",
+    "label": "Solutions Architect",
+    "value": "solutions-architect"
    },
    {
-    "id": "mechatronics-engineer",
-    "label": "Mechatronics Engineer",
-    "value": "mechatronics-engineer"
+    "id": "sales-engineer",
+    "label": "Sales Engineer",
+    "value": "sales-engineer"
    }
   ],
   "jobFunctions": [
@@ -186,121 +184,101 @@
    }
   ],
   "locations": [
-   "Redmond, WA"
+   "Southwest (US)"
   ],
   "normalizedLocations": [
    {
-    "id": "Redmond, Washington",
-    "label": "Redmond, Washington",
-    "value": "Redmond, Washington"
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 135000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 275000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Process Improvement",
+    "label": "Process Improvement",
+    "value": "resume:Process Improvement"
    },
    {
-    "id": "resume:Process Engineering",
-    "label": "Process Engineering",
-    "value": "resume:Process Engineering"
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:SFDC",
+    "label": "SFDC",
+    "value": "resume:SFDC"
    },
    {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Experimental Design",
-    "label": "Experimental Design",
-    "value": "resume:Experimental Design"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Process Improvement",
+    "label": "Process Improvement",
+    "value": "resume:Process Improvement"
    },
    {
-    "id": "resume:Process Engineering",
-    "label": "Process Engineering",
-    "value": "resume:Process Engineering"
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:SFDC",
+    "label": "SFDC",
+    "value": "resume:SFDC"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Experimental Design",
-    "label": "Experimental Design",
-    "value": "resume:Experimental Design"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:Driving Results",
-    "label": "Driving Results",
-    "value": "resume:Driving Results"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Six Sigma",
-    "label": "Six Sigma",
-    "value": "resume:Six Sigma"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Opto-Mechanical",
-    "label": "Opto-Mechanical",
-    "value": "resume:Opto-Mechanical"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ]
-  ],
-  "minYearsExp": 2,
+  "considerLevels": [],
   "regions": [
+   {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
    }
   ],
   "stages": [
@@ -308,27 +286,28 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-09-22T18:52:01Z",
-  "title": "Manufacturing Engineer - Supplier Development, Optics & Optomechanical Systems (Starlink)",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8827682002?gh_jid=8827682002",
-  "jobId": "8827682002",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
+   }
+  ],
+  "timeStamp": "2026-09-23T01:15:43Z",
+  "title": "Sales Engineer, Identity Security - California",
+  "url": "https://www.comeet.com/jobs/cyera/17.008/sales-engineer-identity-security---california/EE.079-77.50D",
+  "jobId": "EE.079-77.50D",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1932986555089, 'matchScore': 0, 'ageScore': 0.9932986555088734, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1898270563762, 'matchScore': 0, 'ageScore': 0.9898270563761574, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
