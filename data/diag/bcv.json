@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-23T11:51:16Z",
+ "run": "2026-09-23T17:15:35Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "WZRkXZGp5w\u2026",
+  "session.sig": "oiSorkm1L6\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzBmMGQ5ZjAyYWM1YzEwMmNhZTgwMjdlZTk2NzkyZWQiLCAic2NvcmUiOiAxLjA4ODMxMzgzODM0MTQzNTJ9"
+   "sequence": "eyJfaWQiOiAiZjhiMWE4ZWUzNmQ0ZTIwNTdjYjI1ZDIyMzFjY2RiNWIiLCAic2NvcmUiOiAxLjA4MDAwNDUxMjgyMTM3MzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -176,14 +176,14 @@
   ],
   "jobTypes": [
    {
-    "id": "facilities-manager",
-    "label": "Facilities Manager",
-    "value": "facilities-manager"
-   },
-   {
     "id": "change-manager",
     "label": "Change Manager",
     "value": "change-manager"
+   },
+   {
+    "id": "facilities-manager",
+    "label": "Facilities Manager",
+    "value": "facilities-manager"
    }
   ],
   "jobFunctions": [
@@ -207,14 +207,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 110000, 'maxValue': 145000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:ProSci",
+    "label": "ProSci",
+    "value": "resume:ProSci"
    },
    {
-    "id": "resume:Change Management",
-    "label": "Change Management",
-    "value": "resume:Change Management"
+    "id": "resume:Organizational Development",
+    "label": "Organizational Development",
+    "value": "resume:Organizational Development"
+   },
+   {
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
     "id": "resume:Management Consulting",
@@ -222,43 +227,38 @@
     "value": "resume:Management Consulting"
    },
    {
-    "id": "resume:Real Estate",
-    "label": "Real Estate",
-    "value": "resume:Real Estate"
-   },
-   {
-    "id": "resume:Organizational Development",
-    "label": "Organizational Development",
-    "value": "resume:Organizational Development"
+    "id": "resume:Data Center",
+    "label": "Data Center",
+    "value": "resume:Data Center"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Change Management",
-    "label": "Change Management",
-    "value": "resume:Change Management"
-   },
-   {
-    "id": "resume:Management Consulting",
-    "label": "Management Consulting",
-    "value": "resume:Management Consulting"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Real Estate",
-    "label": "Real Estate",
-    "value": "resume:Real Estate"
+    "id": "resume:ProSci",
+    "label": "ProSci",
+    "value": "resume:ProSci"
    },
    {
     "id": "resume:Organizational Development",
     "label": "Organizational Development",
     "value": "resume:Organizational Development"
+   },
+   {
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Management Consulting",
+    "label": "Management Consulting",
+    "value": "resume:Management Consulting"
+   },
+   {
+    "id": "resume:Data Center",
+    "label": "Data Center",
+    "value": "resume:Data Center"
    },
    {
     "id": "resume:Cloud Services",
@@ -266,14 +266,14 @@
     "value": "resume:Cloud Services"
    },
    {
-    "id": "resume:Psychology",
-    "label": "Psychology",
-    "value": "resume:Psychology"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
    }
   ],
   "manager": false,
@@ -322,7 +322,7 @@
   "jobId": "5c70c64b-918c-4970-85a0-1d39f7f7c7ee",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1882738897284, 'matchScore': 0, 'ageScore': 0.988273889728395, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1795267076648, 'matchScore': 0, 'ageScore': 0.9795267076647377, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
