@@ -1,9 +1,9 @@
 {
  "board": "felicis",
- "run": "2026-09-22T21:29:09Z",
+ "run": "2026-09-23T00:43:28Z",
  "homepage": {
   "status": 200,
-  "bytes": 25232
+  "bytes": 25228
  },
  "slugs_tried": [
   "felicis",
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"},\"server\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"},\"server\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "gf03xZrY04\u2026",
+  "session.sig": "xyB_ZZHsew\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjZiY2Y0MTYyNDA1YzIwZmNiNDhkZTIyY2EyNTk0NjUiLCAic2NvcmUiOiAxLjA0MDQ2NzQ1NTA3NDQ2fQ=="
+   "sequence": "eyJfaWQiOiAiZWY3MWY1OGI1Y2Y3MTZiYTExZjBmN2Y4M2E5MzRhYmUiLCAic2NvcmUiOiAxLjA0OTkxOTEyNTUyMjc2MjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://app.careerpuck.com/job-board/prenuvo/job/4735538005",
+  "applyUrl": "https://app.careerpuck.com/job-board/prenuvo/job/4736405005",
   "companyDomain": "prenuvo.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f855494ad06dbd721840918e60608cc8_224_160?Expires=1861920000&Signature=F2KsitJcPnsGLTQzMVD4Ftje4BCUz1jm~hj5Mb1raR1Vzkp~b6xD~",
   "companyId": "Prenuvo",
@@ -156,20 +156,8 @@
   "companyStaffCount": 422,
   "considerHosted": false,
   "departments": [],
-  "jobTypes": [
-   {
-    "id": "administrative-assistant",
-    "label": "Administrative Assistant",
-    "value": "administrative-assistant"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Administrative",
-    "label": "Administrative",
-    "value": "Administrative"
-   }
-  ],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
    "Remote, USA"
   ],
@@ -180,39 +168,66 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 68000, 'maxValue': 72500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 170000, 'maxValue': 196000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Conflict Resolution",
-    "label": "Conflict Resolution",
-    "value": "resume:Conflict Resolution"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Product Operations",
+    "label": "Product Operations",
+    "value": "resume:Product Operations"
    },
    {
-    "id": "resume:Primary Care",
-    "label": "Primary Care",
-    "value": "resume:Primary Care"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Conflict Resolution",
-    "label": "Conflict Resolution",
-    "value": "resume:Conflict Resolution"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Product Operations",
+    "label": "Product Operations",
+    "value": "resume:Product Operations"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
+   },
+   {
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    },
    {
     "id": "resume:Recruiting",
@@ -220,36 +235,9 @@
     "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Primary Care",
-    "label": "Primary Care",
-    "value": "resume:Primary Care"
-   },
-   {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
-   },
-   {
-    "id": "resume:Magnetic Resonance Imaging",
-    "label": "Magnetic Resonance Imaging",
-    "value": "resume:Magnetic Resonance Imaging"
-   },
-   {
-    "id": "resume:Background Checks",
-    "label": "Background Checks",
-    "value": "resume:Background Checks"
-   },
-   {
-    "id": "resume:EMR",
-    "label": "EMR",
-    "value": "resume:EMR"
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
    }
   ],
   "manager": false,
@@ -292,13 +280,13 @@
     "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-09-22T11:50:42.428000Z",
-  "title": "Medical Practice Administrative Assistant",
-  "url": "https://app.careerpuck.com/job-board/prenuvo/job/4735538005",
-  "jobId": "4eEfa-4M",
+  "timeStamp": "2026-09-22T14:59:45.082000Z",
+  "title": "Staff Product Operations Specialist",
+  "url": "https://app.careerpuck.com/job-board/prenuvo/job/4736405005",
+  "jobId": "LAQ8L7gC",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1918448357851, 'matchScore': 0, 'ageScore': 0.9918448357851081, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1885877434776, 'matchScore': 0, 'ageScore': 0.9885877434776235, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -308,14 +296,14 @@
     "value": "mid"
    },
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
    "mid",
-   "junior"
+   "senior"
   ],
   "isFeatured": false
  },

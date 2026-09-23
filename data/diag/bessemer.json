@@ -1,9 +1,9 @@
 {
  "board": "bessemer",
- "run": "2026-09-22T21:29:09Z",
+ "run": "2026-09-23T00:43:28Z",
  "homepage": {
   "status": 200,
-  "bytes": 21391
+  "bytes": 21387
  },
  "slugs_tried": [
   "bessemer-ventures",
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"},\"server\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"},\"server\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "awRqbY3tb0\u2026",
+  "session.sig": "xHnvYqssCz\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2QzNmFiNjY2NzkzODkyNjMyZjE2MzAzNmUyODUyZWMiLCAic2NvcmUiOiAxLjA2OTM3ODA1NTcxNzk3ODR9"
+   "sequence": "eyJfaWQiOiAiM2QzNmFiNjY2NzkzODkyNjMyZjE2MzAzNmUyODUyZWMiLCAic2NvcmUiOiAxLjA2NTI1OTQzMTM1NjA5NTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,134 +152,127 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://glginsights.com/careers/jobs/8000917003?gh_jid=8000917003",
-  "companyDomain": "glginsights.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2ebfe7eb204a15f7a9e9fd65accc7d53_128_160?Expires=1861920000&Signature=WQ1hWmDltiMBEnRzwfgcShqaJ~d5tqjiOGKU50sCb3fi8it9bHfPG",
-  "companyId": "GLG",
-  "companySlug": "glg",
-  "companyName": "GLG",
-  "companyStaffCount": 12307,
+  "applyUrl": "https://www.axonius.com/company/careers/open-jobs?gh_jid=8001611003",
+  "companyDomain": "axonius.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e310bc0cc7da58ac179c4c886baecc4d_320_160?Expires=1861920000&Signature=nar-d6rDKDRjWi3exGoPv29Wke4AiMI9J2fVhatyb2BnVM8xgnwut",
+  "companyId": "Axonius",
+  "companySlug": "axonius",
+  "companyName": "Axonius",
+  "companyStaffCount": 723,
   "considerHosted": false,
   "departments": [
-   "Global Corporate"
+   "BizOps"
   ],
   "jobTypes": [
    {
-    "id": "vp-sales",
-    "label": "VP Sales",
-    "value": "vp-sales"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "finance-professional",
+    "label": "Finance",
+    "value": "finance-professional"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Finance",
+    "label": "Finance",
+    "value": "Finance"
    }
   ],
   "locations": [
-   "Austin",
-   "New York",
-   "San Francisco"
+   "Remote US"
   ],
   "normalizedLocations": [
    {
-    "id": "Austin, Texas",
-    "label": "Austin, Texas",
-    "value": "Austin, Texas"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 146500, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 148000, 'maxValue': 163000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Cross Selling",
-    "label": "Cross Selling",
-    "value": "resume:Cross Selling"
+    "id": "resume:Financial Systems",
+    "label": "Financial Systems",
+    "value": "resume:Financial Systems"
    },
    {
-    "id": "resume:Procurement",
-    "label": "Procurement",
-    "value": "resume:Procurement"
+    "id": "resume:ITGC",
+    "label": "ITGC",
+    "value": "resume:ITGC"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:NetSuite",
+    "label": "NetSuite",
+    "value": "resume:NetSuite"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Cross Selling",
-    "label": "Cross Selling",
-    "value": "resume:Cross Selling"
+    "id": "resume:Financial Systems",
+    "label": "Financial Systems",
+    "value": "resume:Financial Systems"
    },
    {
-    "id": "resume:Procurement",
-    "label": "Procurement",
-    "value": "resume:Procurement"
+    "id": "resume:ITGC",
+    "label": "ITGC",
+    "value": "resume:ITGC"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:NetSuite",
+    "label": "NetSuite",
+    "value": "resume:NetSuite"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Client Relations",
-    "label": "Client Relations",
-    "value": "resume:Client Relations"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Lead Change",
+    "label": "Lead Change",
+    "value": "resume:Lead Change"
    },
    {
-    "id": "resume:Consultative Selling",
-    "label": "Consultative Selling",
-    "value": "resume:Consultative Selling"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    }
   ],
   "manager": true,
@@ -287,36 +280,16 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -325,36 +298,42 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Information Services",
-    "label": "Information Services",
-    "value": "Information Services"
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
    }
   ],
-  "timeStamp": "2026-09-22T09:30:44Z",
-  "title": "Vice President, Sales - Global Corporate, Technology",
-  "url": "https://glginsights.com/careers/jobs/8000917003?gh_jid=8000917003",
-  "jobId": "8000917003",
-  "remote": false,
+  "timeStamp": "2026-09-22T09:50:09Z",
+  "title": "Manager, Financial Systems",
+  "url": "https://www.axonius.com/company/careers/open-jobs?gh_jid=8001611003",
+  "jobId": "8001611003",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1892694783068, 'matchScore': 0, 'ageScore': 0.989269478306713, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1856044415598, 'matchScore': 0, 'ageScore': 0.9856044415597994, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "vp",
-    "label": "VP/SVP",
-    "value": "vp"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "vp"
+   "manager"
   ],
   "isFeatured": false
  },

@@ -1,10 +1,9 @@
 {
  "board": "ivp",
- "run": "2026-09-22T21:29:09Z",
- "first_attempt_error": "HTTPSConnectionPool(host='careers.ivp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-09-23T00:43:28Z",
  "homepage": {
   "status": 200,
-  "bytes": 19515
+  "bytes": 19511
  },
  "slugs_tried": [
   "ivp"
@@ -22,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"},\"server\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"},\"server\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "zVd0dBPf5r\u2026",
+  "session.sig": "UmFpOBpQwG\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -112,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDg1MjFkMTZlNzkwNjE1YmNlMzZjN2Y3ZTBmYWVjY2QiLCAic2NvcmUiOiAxLjA2NTYwNzI1NTE5MjkwMTJ9"
+   "sequence": "eyJfaWQiOiAiNGNhMTZjMmYwMzM0YzVmNGQwMGQyMmJmODA3MzVmOWMiLCAic2NvcmUiOiAxLjA4NDI4MDM0OTEyNTc3MTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -140,27 +139,27 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4735022005",
-  "companyDomain": "glean.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
-  "companyId": "Glean",
-  "companySlug": "glean",
-  "companyName": "Glean",
-  "companyStaffCount": 1772,
+  "applyUrl": "https://job-boards.greenhouse.io/chainguard/jobs/4713044006",
+  "companyDomain": "chainguard.dev",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/31a5369e0ef167a246723e25166f9bb2_320_160?Expires=1861920000&Signature=WlG8ObgFzketnOZ1GE13WkiEQj5BCejH51gbRZAOEvFTCDtl~hKti",
+  "companyId": "Chainguard",
+  "companySlug": "chainguard",
+  "companyName": "Chainguard",
+  "companyStaffCount": 766,
   "considerHosted": false,
   "departments": [
-   "Support"
+   "R&D Engineering"
   ],
   "jobTypes": [
    {
-    "id": "customer-support",
-    "label": "Customer Support",
-    "value": "customer-support"
+    "id": "database-engineer",
+    "label": "Database Engineer",
+    "value": "database-engineer"
    },
    {
-    "id": "it-engineer",
-    "label": "IT Support Engineer",
-    "value": "it-engineer"
+    "id": "data-engineer",
+    "label": "Data Engineer",
+    "value": "data-engineer"
    }
   ],
   "jobFunctions": [
@@ -168,93 +167,88 @@
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
-   },
-   {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
    }
   ],
   "locations": [
-   "New York, NY, Nashville, TN"
+   "United States - Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "Nashville, Tennessee",
-    "label": "Nashville, Tennessee",
-    "value": "Nashville, Tennessee"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 205000, 'maxValue': 231000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    },
    {
-    "id": "resume:Arbitration",
-    "label": "Arbitration",
-    "value": "resume:Arbitration"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    },
    {
-    "id": "resume:Arbitration",
-    "label": "Arbitration",
-    "value": "resume:Arbitration"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
    },
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:SAML",
-    "label": "SAML",
-    "value": "resume:SAML"
+    "id": "resume:DBMS",
+    "label": "DBMS",
+    "value": "resume:DBMS"
    }
   ],
   "manager": false,
@@ -262,20 +256,16 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
+  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -284,31 +274,31 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
    }
   ],
-  "timeStamp": "2026-09-22T10:10:31Z",
-  "title": "Designated Technical Support Engineer - Central/East",
-  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4735022005",
-  "jobId": "4735022005",
+  "timeStamp": "2026-09-22T17:48:24Z",
+  "title": "Staff Platform Database Engineer",
+  "url": "https://job-boards.greenhouse.io/chainguard/jobs/4713044006",
+  "jobId": "4713044006",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1903844729792, 'matchScore': 0, 'ageScore': 0.9903844729791667, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1924526513399, 'matchScore': 0, 'ageScore': 0.992452651339892, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -316,15 +306,20 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }

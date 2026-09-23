@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-22T21:29:09Z",
+ "run": "2026-09-23T00:43:28Z",
  "homepage": {
   "status": 200,
   "bytes": 21203
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "33kpTQujO4\u2026",
+  "session.sig": "z6BMDqJCkL\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNmY5YTg3MDlkNDY0NTc0YWZmMzRlZmI1ZGNhOGZlYTgiLCAic2NvcmUiOiAxLjE2NjkwNzk1MzEwMjIzNzd9"
+   "sequence": "eyJfaWQiOiAiZmJiNTk1MjFhMWEwMGY0MzYzMTZjZGM4ZDNjZGQ3OTMiLCAic2NvcmUiOiAxLjE2MjgwOTA2MTc1NTQwMTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,38 +144,43 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4735022005",
-  "companyDomain": "glean.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
-  "companyId": "Glean",
-  "companySlug": "glean",
-  "companyName": "Glean",
-  "companyStaffCount": 1772,
+  "applyUrl": "https://job-boards.greenhouse.io/bluevineus/jobs/8002353003",
+  "companyDomain": "bluevine.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9cef30f5e34eb5339ef28b9a202b6817_256_160?Expires=1861920000&Signature=rIAfIlUpIv8qJhLUkIXqfF~ysoKMkxwSZFCf-kG~Rky3AcTP3at2v",
+  "companyId": "BlueVine",
+  "companySlug": "bluevine",
+  "companyName": "BlueVine",
+  "companyStaffCount": 579,
   "considerHosted": false,
   "departments": [
-   "Support"
+   "Technology"
   ],
   "jobTypes": [
    {
-    "id": "customer-support",
-    "label": "Customer Support",
-    "value": "customer-support"
+    "id": "solutions-architect",
+    "label": "Solutions Architect",
+    "value": "solutions-architect"
    },
    {
-    "id": "it-engineer",
-    "label": "IT Support Engineer",
-    "value": "it-engineer"
+    "id": "sales-engineer",
+    "label": "Sales Engineer",
+    "value": "sales-engineer"
+   },
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    }
   ],
   "jobFunctions": [
@@ -183,93 +188,88 @@
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
-   },
-   {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
    }
   ],
   "locations": [
-   "New York, NY, Nashville, TN"
+   "Jersey City, NJ"
   ],
   "normalizedLocations": [
    {
-    "id": "Nashville, Tennessee",
-    "label": "Nashville, Tennessee",
-    "value": "Nashville, Tennessee"
+    "id": "Jersey, UK",
+    "label": "Jersey, United Kingdom",
+    "value": "Jersey, UK"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 153200, 'maxValue': 187700, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
    },
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:System Integration",
+    "label": "System Integration",
+    "value": "resume:System Integration"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Arbitration",
-    "label": "Arbitration",
-    "value": "resume:Arbitration"
+    "id": "resume:Scripting",
+    "label": "Scripting",
+    "value": "resume:Scripting"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
    },
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:System Integration",
+    "label": "System Integration",
+    "value": "resume:System Integration"
    }
   ],
   "preferredSkills": [
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:Scripting",
+    "label": "Scripting",
+    "value": "resume:Scripting"
+   },
    {
     "id": "resume:Service",
     "label": "Service",
     "value": "resume:Service"
    },
    {
-    "id": "resume:Arbitration",
-    "label": "Arbitration",
-    "value": "resume:Arbitration"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
-   },
-   {
-    "id": "resume:SAML",
-    "label": "SAML",
-    "value": "resume:SAML"
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    }
   ],
   "manager": false,
@@ -277,53 +277,58 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
+    "id": "Banking",
+    "label": "Banking",
+    "value": "Banking"
+   },
+   {
+    "id": "Financial Services",
+    "label": "Financial Services",
+    "value": "Financial Services"
+   },
+   {
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-09-22T10:10:31Z",
-  "title": "Designated Technical Support Engineer - Central/East",
-  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4735022005",
-  "jobId": "4735022005",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1903844729792, 'matchScore': 0, 'ageScore': 0.9903844729791667, 'richnessScore': 2}",
+  "timeStamp": "2026-09-22T10:20:33Z",
+  "title": "Lead AI Solutions Engineer",
+  "url": "https://job-boards.greenhouse.io/bluevineus/jobs/8002353003",
+  "jobId": "8002353003",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1863140536416, 'matchScore': 0, 'ageScore': 0.9863140536415895, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -331,10 +336,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

@@ -1,9 +1,9 @@
 {
  "board": "gv",
- "run": "2026-09-22T21:29:09Z",
+ "run": "2026-09-23T00:43:28Z",
  "homepage": {
   "status": 200,
-  "bytes": 26168
+  "bytes": 26164
  },
  "slugs_tried": [
   "gv",
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"},\"server\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"},\"server\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "mcCdHVq6yb\u2026",
+  "session.sig": "LlS05UrfQm\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzFiNGNkYjEzYjY0ZjliN2YwNWJlYmY5NmU1YjJkZWUiLCAic2NvcmUiOiAxLjEwODkwOTQzNDMxODY3M30="
+   "sequence": "eyJfaWQiOiAiZjFlZWJlOGNkMTg1YjExZjMxMTQ4ZjUyMTJkZjA4ZjciLCAic2NvcmUiOiAxLjEzNDIyODU5MzMzNzE5MTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,116 +136,153 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.toasttab.com/jobs?gh_jid=8223234",
-  "companyDomain": "toasttab.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/10b76dfadaa3d02e395653d2e4ad91c7_224_160?Expires=1861920000&Signature=PtDuhlaSCZonFIeTiF7IxR9cV6U3AuXbGwRCvrN2ame58oHo82oq9",
-  "companyId": "Toast",
-  "companySlug": "toast",
-  "companyName": "Toast",
-  "companyStaffCount": 7864,
+  "applyUrl": "https://careers.withwaymo.com/jobs?gh_jid=8221956",
+  "companyDomain": "waymo.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a04896dd1b05b675a7df4762df4fe370_112_160?Expires=1861920000&Signature=EdNw9DPJCYDLbjxU5eEwWJ1ELHjFa3WTlbbzZOXLlSmfSbgMtG32z",
+  "companyId": "Waymo",
+  "companySlug": "waymo",
+  "companyName": "Waymo",
+  "companyStaffCount": 3661,
   "considerHosted": false,
   "departments": [
-   "Sales : Sales Acceleration"
+   "Pipeline (N/A)"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "school-student",
+    "label": "Intern",
+    "value": "school-student"
+   },
+   {
+    "id": "data-scientist",
+    "label": "Data Scientist",
+    "value": "data-scientist"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "San Jose, CA"
+   "Mountain View, CA, USA",
+   "San Francisco, CA, USA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Jose, California",
-    "label": "San Jose, California",
-    "value": "San Jose, California"
+    "id": "Mountain View, California",
+    "label": "Mountain View, California",
+    "value": "Mountain View, California"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 59000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 85, 'maxValue': 85, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Performance Metrics",
-    "label": "Performance Metrics",
-    "value": "resume:Performance Metrics"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Bilingual",
-    "label": "Bilingual",
-    "value": "resume:Bilingual"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Performance Metrics",
-    "label": "Performance Metrics",
-    "value": "resume:Performance Metrics"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Bilingual",
-    "label": "Bilingual",
-    "value": "resume:Bilingual"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:Autonomous Vehicles",
+    "label": "Autonomous Vehicles",
+    "value": "resume:Autonomous Vehicles"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:High Dimensional Data",
+    "label": "High Dimensional Data",
+    "value": "resume:High Dimensional Data"
+   },
+   {
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "West Coast",
@@ -253,9 +290,9 @@
     "value": "West Coast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -263,48 +300,39 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
-   },
-   {
-    "id": "Payments",
-    "label": "Payments",
-    "value": "Payments"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Autonomous Vehicles",
+    "label": "Autonomous Vehicles",
+    "value": "Autonomous Vehicles"
    }
   ],
-  "timeStamp": "2026-09-22T10:13:10Z",
-  "title": "Bilingual Hybrid Development Representative - Vietnamese",
-  "url": "https://careers.toasttab.com/jobs?gh_jid=8223234",
-  "jobId": "8223234",
+  "timeStamp": "2026-09-22T18:38:36Z",
+  "title": "2027 Summer Intern, PhD, Data Science",
+  "url": "https://careers.withwaymo.com/jobs?gh_jid=8221956",
+  "jobId": "8221956",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1898734489777, 'matchScore': 0, 'ageScore': 0.9898734489776234, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1928873808125, 'matchScore': 0, 'ageScore': 0.9928873808125, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "intern",
+    "label": "Intern",
+    "value": "intern"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "intern"
   ],
   "isFeatured": false
  },
