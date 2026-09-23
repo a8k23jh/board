@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-09-23T17:15:35Z",
+ "run": "2026-09-23T20:31:26Z",
  "homepage": {
   "status": 200,
   "bytes": 26164
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"},\"server\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"6ec565327187dc669756e1e7dddcd466993307b2\",\"date\":\"2026-09-23T18:37:05.222Z\"},\"server\":{\"git\":\"6ec565327187dc669756e1e7dddcd466993307b2\",\"date\":\"2026-09-23T18:37:05.222Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Q6QKUJ9MTF\u2026",
+  "session.sig": "09CL7iGvtN\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzdjMzY1NjJkYmQ4ZTc3OGI2OWQ2YTQ4NDFiMmVkMDYiLCAic2NvcmUiOiAxLjE0MjQ0OTc3MjI2MTE4ODJ9"
+   "sequence": "eyJfaWQiOiAiYjQ4YjA0OTQwMTg5YzdiN2MyZTk2YTNmYjMxNGNhMzciLCAic2NvcmUiOiAxLjE0MjM3ODQxNTUzNzgwODd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,19 +147,38 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.workatastartup.com/jobs/111492",
-  "companyDomain": "flick.art",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d8a3757dc75dc893310f1721441cb9a3_128_160?Expires=1861920000&Signature=GzZjBOp4gf26-CCMVqjzllm7~6LKN8eDdcMA6ltWsOnnSAX8dxktc",
-  "companyId": "Flick art",
-  "companySlug": "flick-art",
-  "companyName": "Flick",
-  "companyStaffCount": 12,
+  "applyUrl": "https://job-boards.greenhouse.io/ujet/jobs/4736239005",
+  "companyDomain": "ujet.cx",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/71a4cf8ba1951a04a040532bebf2d6e5_192_160?Expires=1861920000&Signature=lvEfRxNOYW0JdcSe1supujFiXWCIXxbJqluvvYvBQFuWO7AkWUcEN",
+  "companyId": "ujet",
+  "companySlug": "ujet",
+  "companyName": "ujet.cx",
+  "companyStaffCount": 338,
   "considerHosted": false,
-  "departments": [],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "departments": [
+   "000006 - Support"
+  ],
+  "jobTypes": [
+   {
+    "id": "product-support-engineer",
+    "label": "Product Support Engineer",
+    "value": "product-support-engineer"
+   },
+   {
+    "id": "support-engineer",
+    "label": "Support Engineer",
+    "value": "support-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Remote (US)"
+   "Remote, US"
   ],
   "normalizedLocations": [
    {
@@ -168,82 +187,91 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 70000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 80000, 'maxValue': 100000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Final Cut Pro",
-    "label": "Final Cut Pro",
-    "value": "resume:Final Cut Pro"
+    "id": "resume:SIP",
+    "label": "SIP",
+    "value": "resume:SIP"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Film Production",
-    "label": "Film Production",
-    "value": "resume:Film Production"
+    "id": "resume:Github",
+    "label": "Github",
+    "value": "resume:Github"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
    },
    {
-    "id": "resume:DaVinci",
-    "label": "DaVinci",
-    "value": "resume:DaVinci"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Final Cut Pro",
-    "label": "Final Cut Pro",
-    "value": "resume:Final Cut Pro"
+    "id": "resume:SIP",
+    "label": "SIP",
+    "value": "resume:SIP"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Film Production",
-    "label": "Film Production",
-    "value": "resume:Film Production"
+    "id": "resume:Github",
+    "label": "Github",
+    "value": "resume:Github"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
    },
    {
-    "id": "resume:DaVinci",
-    "label": "DaVinci",
-    "value": "resume:DaVinci"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    },
    {
-    "id": "resume:Premiere",
-    "label": "Premiere",
-    "value": "resume:Premiere"
+    "id": "resume:VoIP",
+    "label": "VoIP",
+    "value": "resume:VoIP"
    },
    {
-    "id": "resume:Instagram",
-    "label": "Instagram",
-    "value": "resume:Instagram"
+    "id": "resume:Telephony",
+    "label": "Telephony",
+    "value": "resume:Telephony"
    },
    {
-    "id": "resume:After Effects",
-    "label": "After Effects",
-    "value": "resume:After Effects"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
   "regions": [
    {
     "id": "North America",
@@ -253,31 +281,31 @@
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Cloud Services",
+    "label": "Cloud Services",
+    "value": "Cloud Services"
    }
   ],
-  "timeStamp": "2026-09-23T08:59:02Z",
-  "title": "AI Filmmaking YouTuber & Educator (Youtube)",
-  "url": "https://www.workatastartup.com/jobs/111492",
-  "jobId": "111492",
+  "timeStamp": "2026-09-23T11:32:08Z",
+  "title": "Customer Support Engineer (CSE)",
+  "url": "https://job-boards.greenhouse.io/ujet/jobs/4736239005",
+  "jobId": "4736239005",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1926113393843, 'matchScore': 0, 'ageScore': 0.9926113393842593, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1918814326698, 'matchScore': 0, 'ageScore': 0.991881432669753, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

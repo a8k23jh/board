@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-23T17:15:35Z",
+ "run": "2026-09-23T20:31:26Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"},\"server\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"6ec565327187dc669756e1e7dddcd466993307b2\",\"date\":\"2026-09-23T18:37:05.222Z\"},\"server\":{\"git\":\"6ec565327187dc669756e1e7dddcd466993307b2\",\"date\":\"2026-09-23T18:37:05.222Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "fPXLME_4MM\u2026",
+  "session.sig": "TXglcql__0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2YxM2RkZmVhNzdlNzNmZTU2YmU3ZGU4MjJiOTk1ZmQiLCAic2NvcmUiOiAxLjEzNjk2ODIxMjY2MzU4MDN9"
+   "sequence": "eyJfaWQiOiAiZmJiNTk1MjFhMWEwMGY0MzYzMTZjZGM4ZDNjZGQ3OTMiLCAic2NvcmUiOiAxLjEzMzcwNjE1Mjc4ODE5NDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,123 +136,127 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/worldlabs/9a1f90f1-660b-48bb-825a-e546d402e17f?utm_source=careers.nea.com",
-  "companyDomain": "worldlabs.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/5f0dbba872ff765119e2e133d2878115_320_160?Expires=1861920000&Signature=HVe4Ze927ukaTY-R~XWqP7UPwsMoaByKocX8ukr88Bg0pgRNnmtsq",
-  "companyId": "World Labs",
-  "companySlug": "world-labs",
-  "companyName": "World Labs",
-  "companyStaffCount": 75,
+  "applyUrl": "https://jobs.lever.co/goodleap/3803e48f-5931-4887-b008-e7f72ca7ce3e?lever-source%5B%5D=careers.nea.com",
+  "companyDomain": "goodleap.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b348d7a2476387a5ba1f889319c2a639_256_160?Expires=1861920000&Signature=tiLAGpyB2DahspzNGnyZdJoRHol5NnKEKcRIKqQ4eE17a7QjWXqHT",
+  "companyId": "GoodLeap",
+  "companySlug": "goodleap",
+  "companyName": "GoodLeap",
+  "companyStaffCount": 1296,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Business Development"
   ],
   "jobTypes": [
    {
-    "id": "fullstack-engineer",
-    "label": "Full Stack Engineer",
-    "value": "fullstack-engineer"
+    "id": "business-development",
+    "label": "Business Development Professional",
+    "value": "business-development"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Business Development",
+    "label": "Business Development",
+    "value": "Business Development"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "San Francisco, California, United States",
-   "San Francisco"
+   "Remote, US"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 275000, 'maxValue': 325000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 60, 'maxValue': 60, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Robotics",
-    "label": "Robotics",
-    "value": "resume:Robotics"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:Full Stack Development",
-    "label": "Full Stack Development",
-    "value": "resume:Full Stack Development"
+    "id": "resume:Business Intelligence",
+    "label": "Business Intelligence",
+    "value": "resume:Business Intelligence"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Executive Management",
+    "label": "Executive Management",
+    "value": "resume:Executive Management"
    },
    {
-    "id": "resume:3D",
-    "label": "3D",
-    "value": "resume:3D"
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
    },
    {
-    "id": "resume:Online Gaming",
-    "label": "Online Gaming",
-    "value": "resume:Online Gaming"
+    "id": "resume:Developer Tools",
+    "label": "Developer Tools",
+    "value": "resume:Developer Tools"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Robotics",
-    "label": "Robotics",
-    "value": "resume:Robotics"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:Full Stack Development",
-    "label": "Full Stack Development",
-    "value": "resume:Full Stack Development"
+    "id": "resume:Business Intelligence",
+    "label": "Business Intelligence",
+    "value": "resume:Business Intelligence"
+   },
+   {
+    "id": "resume:Executive Management",
+    "label": "Executive Management",
+    "value": "resume:Executive Management"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
+   },
+   {
+    "id": "resume:Developer Tools",
+    "label": "Developer Tools",
+    "value": "resume:Developer Tools"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:3D",
-    "label": "3D",
-    "value": "resume:3D"
    },
    {
-    "id": "resume:Online Gaming",
-    "label": "Online Gaming",
-    "value": "resume:Online Gaming"
+    "id": "resume:Batteries",
+    "label": "Batteries",
+    "value": "resume:Batteries"
    },
    {
-    "id": "resume:Language Models",
-    "label": "Language Models",
-    "value": "resume:Language Models"
-   },
-   {
-    "id": "resume:SDK",
-    "label": "SDK",
-    "value": "resume:SDK"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:HVAC",
+    "label": "HVAC",
+    "value": "resume:HVAC"
    }
   ],
   "manager": false,
@@ -268,18 +272,7 @@
     6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -288,36 +281,40 @@
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Climate",
+    "label": "Climate",
+    "value": "Climate"
    },
    {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Energy Transition",
+    "label": "Energy Transition",
+    "value": "Energy Transition"
+   },
+   {
+    "id": "Financial Services",
+    "label": "Financial Services",
+    "value": "Financial Services"
+   },
+   {
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-09-23T00:00:00Z",
-  "title": "Product Engineer",
-  "url": "https://jobs.ashbyhq.com/worldlabs/9a1f90f1-660b-48bb-825a-e546d402e17f",
-  "jobId": "9a1f90f1-660b-48bb-825a-e546d402e17f",
-  "remote": false,
+  "timeStamp": "2026-09-23T14:26:01.496000Z",
+  "title": "Business Development Manager",
+  "url": "https://jobs.lever.co/goodleap/3803e48f-5931-4887-b008-e7f72ca7ce3e",
+  "jobId": "3803e48f-5931-4887-b008-e7f72ca7ce3e",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1795484106316, 'matchScore': 0, 'ageScore': 0.9795484106315586, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1953063565525, 'matchScore': 0, 'ageScore': 0.9953063565524691, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -325,10 +322,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "manager"
   ],
   "isFeatured": false
  },
