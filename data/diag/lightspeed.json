@@ -1,9 +1,9 @@
 {
  "board": "lightspeed",
- "run": "2026-09-23T00:43:28Z",
+ "run": "2026-09-23T06:06:11Z",
  "homepage": {
   "status": 200,
-  "bytes": 21203
+  "bytes": 21199
  },
  "slugs_tried": [
   "lightspeed",
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"},\"server\":{\"git\":\"ef5b8a4f648fef4aa28032d20a7e4ea63842c7d8\",\"date\":\"2026-09-21T18:52:36.126Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"},\"server\":{\"git\":\"17d02c26789c3c6f5e4a797e56de6c841f06436c\",\"date\":\"2026-09-23T00:40:01.779Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "z6BMDqJCkL\u2026",
+  "session.sig": "aEWLVzELTq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZmJiNTk1MjFhMWEwMGY0MzYzMTZjZGM4ZDNjZGQ3OTMiLCAic2NvcmUiOiAxLjE2MjgwOTA2MTc1NTQwMTJ9"
+   "sequence": "eyJfaWQiOiAiNjE1NDNlN2YyMTk2Zjc4NTVlMGI5NmZjNDBkYmQ1MTMiLCAic2NvcmUiOiAxLjE3NTk2MTY5NDgxNTU4NjR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,135 +144,135 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/bluevineus/jobs/8002353003",
-  "companyDomain": "bluevine.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9cef30f5e34eb5339ef28b9a202b6817_256_160?Expires=1861920000&Signature=rIAfIlUpIv8qJhLUkIXqfF~ysoKMkxwSZFCf-kG~Rky3AcTP3at2v",
-  "companyId": "BlueVine",
-  "companySlug": "bluevine",
-  "companyName": "BlueVine",
-  "companyStaffCount": 579,
+  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5244254007?gh_jid=5244254007",
+  "companyDomain": "anduril.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d88ae975c1da94cefaeb3234d6fb00f_238_160?Expires=1861920000&Signature=nPYp1JlJZNMHspk2VuS1aXOsrIHWSiYZCa1mo5aQgLIbL2xCLdDD0",
+  "companyId": "Anduril Industries",
+  "companySlug": "anduril-industries",
+  "companyName": "Anduril Industries",
+  "companyStaffCount": 9633,
   "considerHosted": false,
   "departments": [
-   "Technology"
+   "Core Operations : Administration : Administration"
   ],
   "jobTypes": [
    {
-    "id": "solutions-architect",
-    "label": "Solutions Architect",
-    "value": "solutions-architect"
+    "id": "business-development",
+    "label": "Business Development Professional",
+    "value": "business-development"
    },
    {
-    "id": "sales-engineer",
-    "label": "Sales Engineer",
-    "value": "sales-engineer"
-   },
-   {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "executive",
+    "label": "Executive",
+    "value": "executive"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Business Development",
+    "label": "Business Development",
+    "value": "Business Development"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "Jersey City, NJ"
+   "Washington, District of Columbia, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Jersey, UK",
-    "label": "Jersey, United Kingdom",
-    "value": "Jersey, UK"
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 153200, 'maxValue': 187700, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 129000, 'maxValue': 171000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
+   {
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
+   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:JavaScript",
-    "label": "JavaScript",
-    "value": "resume:JavaScript"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:System Integration",
-    "label": "System Integration",
-    "value": "resume:System Integration"
+    "id": "resume:Relationship Management",
+    "label": "Relationship Management",
+    "value": "resume:Relationship Management"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
-   },
-   {
-    "id": "resume:Scripting",
-    "label": "Scripting",
-    "value": "resume:Scripting"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:JavaScript",
-    "label": "JavaScript",
-    "value": "resume:JavaScript"
-   },
-   {
-    "id": "resume:System Integration",
-    "label": "System Integration",
-    "value": "resume:System Integration"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Relationship Management",
+    "label": "Relationship Management",
+    "value": "resume:Relationship Management"
    },
    {
-    "id": "resume:Scripting",
-    "label": "Scripting",
-    "value": "resume:Scripting"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    },
    {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -285,68 +285,50 @@
     6
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 6,
   "regions": [
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Banking",
-    "label": "Banking",
-    "value": "Banking"
-   },
-   {
-    "id": "Financial Services",
-    "label": "Financial Services",
-    "value": "Financial Services"
-   },
-   {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
    }
   ],
-  "timeStamp": "2026-09-22T10:20:33Z",
-  "title": "Lead AI Solutions Engineer",
-  "url": "https://job-boards.greenhouse.io/bluevineus/jobs/8002353003",
-  "jobId": "8002353003",
+  "timeStamp": "2026-09-22T17:55:58Z",
+  "title": "Executive Business Partner",
+  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5244254007?gh_jid=5244254007",
+  "jobId": "5244254007",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1863140536416, 'matchScore': 0, 'ageScore': 0.9863140536415895, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1928182939035, 'matchScore': 0, 'ageScore': 0.9928182939035494, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   }
-  ],
-  "jobSeniorityIds": [
-   "mid",
-   "senior"
-  ],
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {
