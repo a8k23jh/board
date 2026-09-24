@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-24T15:16:24Z",
+ "run": "2026-09-24T19:18:48Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"6ec565327187dc669756e1e7dddcd466993307b2\",\"date\":\"2026-09-23T18:37:05.222Z\"},\"server\":{\"git\":\"6ec565327187dc669756e1e7dddcd466993307b2\",\"date\":\"2026-09-23T18:37:05.222Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"},\"server\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TmUHYKEJ7_\u2026",
+  "session.sig": "FQpsMZ8Dcx\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjhkZTRiNzQ4MTA3YmVhMzcyNTI2N2U4MzRmOTNjNjAiLCAic2NvcmUiOiAxLjE2NTU4OTcyNzAyMDgzMzN9"
+   "sequence": "eyJfaWQiOiAiYTM0NmQ5NWVlYTFiY2Q2MTk0OWViZGM1YmMxODJjZTQiLCAic2NvcmUiOiAxLjE1ODc2NDU5MTUwNzMzMDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,126 +144,122 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8135/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3390,
+  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5248129007?gh_jid=5248129007",
+  "companyDomain": "anduril.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d88ae975c1da94cefaeb3234d6fb00f_238_160?Expires=1861920000&Signature=nPYp1JlJZNMHspk2VuS1aXOsrIHWSiYZCa1mo5aQgLIbL2xCLdDD0",
+  "companyId": "Anduril Industries",
+  "companySlug": "anduril-industries",
+  "companyName": "Anduril Industries",
+  "companyStaffCount": 9633,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Mission Systems : Imaging Engineering : Imaging - Production and QA Software"
+  ],
   "jobTypes": [
    {
-    "id": "program-manager",
-    "label": "Program Manager",
-    "value": "program-manager"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Project Management",
-    "label": "Project Management",
-    "value": "Project Management"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "United States",
-   "Infoblox Inc., Santa Clara, CA, US"
+   "Lexington, Massachusetts, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
-   },
-   {
-    "id": "Santa Clara, California",
-    "label": "Santa Clara, California",
-    "value": "Santa Clara, California"
+    "id": "Lexington, Massachusetts",
+    "label": "Lexington, Massachusetts",
+    "value": "Lexington, Massachusetts"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150600, 'maxValue': 210100, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 191000, 'maxValue': 253000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Git",
+    "label": "Git",
+    "value": "resume:Git"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Software Integrations",
+    "label": "Software Integrations",
+    "value": "resume:Software Integrations"
    },
    {
-    "id": "resume:Project Status Reporting",
-    "label": "Project Status Reporting",
-    "value": "resume:Project Status Reporting"
+    "id": "resume:Nix",
+    "label": "Nix",
+    "value": "resume:Nix"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Git",
+    "label": "Git",
+    "value": "resume:Git"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Software Integrations",
+    "label": "Software Integrations",
+    "value": "resume:Software Integrations"
    },
    {
-    "id": "resume:Project Status Reporting",
-    "label": "Project Status Reporting",
-    "value": "resume:Project Status Reporting"
+    "id": "resume:Nix",
+    "label": "Nix",
+    "value": "resume:Nix"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:Process Flow Documentation",
-    "label": "Process Flow Documentation",
-    "value": "resume:Process Flow Documentation"
+    "id": "resume:System Architecture",
+    "label": "System Architecture",
+    "value": "resume:System Architecture"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Hardware Testing",
+    "label": "Hardware Testing",
+    "value": "resume:Hardware Testing"
    }
   ],
   "manager": false,
@@ -279,7 +275,7 @@
     8
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 8,
   "regions": [
    {
     "id": "North America",
@@ -287,14 +283,14 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -302,22 +298,28 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
    }
   ],
-  "timeStamp": "2026-09-24T08:59:42Z",
-  "title": "Senior Program Manager",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8135/",
-  "jobId": "8135",
-  "remote": true,
+  "timeStamp": "2026-09-24T10:27:22Z",
+  "title": "Senior Production Software Engineer",
+  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5248129007?gh_jid=5248129007",
+  "jobId": "5248129007",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1969918676026, 'matchScore': 0, 'ageScore': 0.9969918676026235, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1904389054495, 'matchScore': 0, 'ageScore': 0.9904389054494599, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

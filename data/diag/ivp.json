@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-24T15:16:24Z",
+ "run": "2026-09-24T19:18:48Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"6ec565327187dc669756e1e7dddcd466993307b2\",\"date\":\"2026-09-23T18:37:05.222Z\"},\"server\":{\"git\":\"6ec565327187dc669756e1e7dddcd466993307b2\",\"date\":\"2026-09-23T18:37:05.222Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"},\"server\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "s-x6iZdXNp\u2026",
+  "session.sig": "q4ej_bmF0a\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTk4YmMxMzE1NzUzZDJlOTAwOTVlNjZkOTUyZWRmNjAiLCAic2NvcmUiOiAxLjEzMTQ2ODEwODgwNTk0MTN9"
+   "sequence": "eyJfaWQiOiAiN2E1YTJkMmEzYzRhNzMzMDBkMzRhMzEwYmY4N2VhZWIiLCAic2NvcmUiOiAxLjEyODA4NzY0NTU1NTk0MTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,113 +139,67 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5433814008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://boards.greenhouse.io/figma/jobs/6204360004?gh_jid=6204360004",
+  "companyDomain": "figma.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f3610e22dff6c27a372478480750729b_161_160?Expires=1861920000&Signature=sZvplca-OsnAQuPbdLM76aW3Kd1SKEdmyatwFs-Mi6v6xIQxDG9zJ",
+  "companyId": "Figma",
+  "companySlug": "figma",
+  "companyName": "Figma",
+  "companyStaffCount": 3124,
   "considerHosted": false,
   "departments": [
-   "Safeguards (Trust & Safety)"
+   "Product"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
+   },
+   {
+    "id": "researcher",
+    "label": "Researcher",
+    "value": "researcher"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
+   },
+   {
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
    }
   ],
   "locations": [
-   "San Francisco, CA",
-   "New York City, NY",
-   "Seattle, WA"
+   "San Francisco, CA \u2022 New York, NY \u2022 United States"
   ],
   "normalizedLocations": [
    {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
-   },
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 169000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Figma",
+    "label": "Figma",
+    "value": "resume:Figma"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   },
-   {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   },
-   {
-    "id": "resume:Trust and Safety",
-    "label": "Trust and Safety",
-    "value": "resume:Trust and Safety"
+    "id": "resume:User Experience Design",
+    "label": "User Experience Design",
+    "value": "resume:User Experience Design"
    },
    {
     "id": "resume:Research",
@@ -253,50 +207,74 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Product Design",
+    "label": "Product Design",
+    "value": "resume:Product Design"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
+   },
+   {
+    "id": "resume:Figma",
+    "label": "Figma",
+    "value": "resume:Figma"
+   },
+   {
+    "id": "resume:User Experience Design",
+    "label": "User Experience Design",
+    "value": "resume:User Experience Design"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Product Design",
+    "label": "Product Design",
+    "value": "resume:Product Design"
+   },
+   {
+    "id": "resume:Qualitative Research",
+    "label": "Qualitative Research",
+    "value": "resume:Qualitative Research"
+   },
+   {
+    "id": "resume:Prototyping",
+    "label": "Prototyping",
+    "value": "resume:Prototyping"
+   },
+   {
+    "id": "resume:Tool Design",
+    "label": "Tool Design",
+    "value": "resume:Tool Design"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
-  "minYearsExp": 8,
+  "considerLevels": [],
   "regions": [
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -314,23 +292,23 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
    },
    {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-09-24T01:54:13Z",
-  "title": "Staff+ Software Engineer, Access Programs",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5433814008",
-  "jobId": "5433814008",
+  "timeStamp": "2026-09-24T09:58:18Z",
+  "title": "Researcher - Rapid Research",
+  "url": "https://boards.greenhouse.io/figma/jobs/6204360004?gh_jid=6204360004",
+  "jobId": "6204360004",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1868360788542, 'matchScore': 0, 'ageScore': 0.9868360788541667, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1892981663241, 'matchScore': 0, 'ageScore': 0.9892981663240741, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-24T15:16:24Z",
+ "run": "2026-09-24T19:18:48Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"6ec565327187dc669756e1e7dddcd466993307b2\",\"date\":\"2026-09-23T18:37:05.222Z\"},\"server\":{\"git\":\"6ec565327187dc669756e1e7dddcd466993307b2\",\"date\":\"2026-09-23T18:37:05.222Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"},\"server\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "S-igug4caE\u2026",
+  "session.sig": "eaKPO-B7aY\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTBiNTBlMjk3NTc3MmNkZmMwMGQwZWFkZjhmNjBmNzIiLCAic2NvcmUiOiAxLjExNzcyOTQ4OTg3OTI0Mzh9"
+   "sequence": "eyJfaWQiOiAiN2ExMWJiYzhiZmViMDdhYjBiZjIzOTljMjgzMmJhNmEiLCAic2NvcmUiOiAxLjEwOTI2ODA1NjkzNDc5OTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,134 +152,127 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5433814008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://www.guild.com/open-positions-at-guild?gh_jid=8227301",
+  "companyDomain": "guild.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d72ac3e2ac537a6fb562f2de346aacb5_144_160?Expires=1861920000&Signature=Z4f9jHonGHymr761xEU2j50GPgXYUnH9L5v7A2blKqfCZu5gYvzCx",
+  "companyId": "Guild Education",
+  "companySlug": "guild-education",
+  "companyName": "Guild Education",
+  "companyStaffCount": 1224,
   "considerHosted": false,
   "departments": [
-   "Safeguards (Trust & Safety)"
+   "Operations"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "sales-enablement",
+    "label": "Sales Enablement",
+    "value": "sales-enablement"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "San Francisco, CA",
-   "New York City, NY",
-   "Seattle, WA"
+   "Denver, CO, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 97800, 'maxValue': 142050, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Knowledge Management",
+    "label": "Knowledge Management",
+    "value": "resume:Knowledge Management"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Workforce Management",
+    "label": "Workforce Management",
+    "value": "resume:Workforce Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Knowledge Management",
+    "label": "Knowledge Management",
+    "value": "resume:Knowledge Management"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Workforce Management",
+    "label": "Workforce Management",
+    "value": "resume:Workforce Management"
    },
    {
-    "id": "resume:Trust and Safety",
-    "label": "Trust and Safety",
-    "value": "resume:Trust and Safety"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Workforce Planning",
+    "label": "Workforce Planning",
+    "value": "resume:Workforce Planning"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
    }
   ],
   "manager": false,
@@ -287,36 +280,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -328,33 +300,32 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Education Management",
+    "label": "Education Management",
+    "value": "Education Management"
    },
    {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Higher Education",
+    "label": "Higher Education",
+    "value": "Higher Education"
+   },
+   {
+    "id": "Workforce and Employment",
+    "label": "Workforce and Employment",
+    "value": "Workforce and Employment"
    }
   ],
-  "timeStamp": "2026-09-24T01:54:13Z",
-  "title": "Staff+ Software Engineer, Access Programs",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5433814008",
-  "jobId": "5433814008",
+  "timeStamp": "2026-09-24T09:28:37Z",
+  "title": "Manager, Enablement",
+  "url": "https://www.guild.com/open-positions-at-guild?gh_jid=8227301",
+  "jobId": "8227301",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1868360788542, 'matchScore': 0, 'ageScore': 0.9868360788541667, 'richnessScore': 2}",
+  "scores": "{'score': 1001.188642795821, 'matchScore': 0, 'ageScore': 0.9886427958209877, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
