@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-23T20:31:26Z",
+ "run": "2026-09-23T23:47:32Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "sJTOjtevhP\u2026",
+  "session.sig": "FPuqXL4kjF\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNmVjMzU0OTM5YTVjZmI3MDlmMmI2YTkyZTljOWY0NzciLCAic2NvcmUiOiAxLjE2MzM4MjUwMjkyMjA2OH0="
+   "sequence": "eyJfaWQiOiAiMTFlM2FiYmNhMjUwYWNiYzRiNjE5M2NmNGZhNzljMmMiLCAic2NvcmUiOiAxLjE1OTg1NDMxMjk4NzY1NDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,127 +144,164 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/faire/jobs/8836851002?gh_jid=8836851002",
-  "companyDomain": "faire.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9550f0334126ddf0cec55a4ae51b196e_256_160?Expires=1861920000&Signature=puvRZaIKdo7yRxmf53e4~PiO0DgJ50GMdE2l-eDSkpH1xzbEEYdBt",
-  "companyId": "Faire",
-  "companySlug": "faire",
-  "companyName": "Faire Wholesale, Inc.",
-  "companyStaffCount": 10679,
+  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8131/",
+  "companyDomain": "infoblox.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
+  "companyId": "Infoblox",
+  "companySlug": "infoblox",
+  "companyName": "Infoblox",
+  "companyStaffCount": 3390,
   "considerHosted": false,
-  "departments": [
-   "Accounting"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "federal-account-executive",
+    "label": "Federal Account Executive",
+    "value": "federal-account-executive"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "Remote - US"
+   "Virginia, United States",
+   "Maryland, United States",
+   "District of Columbia, United States",
+   "Home Office, Richmond, VA, US"
   ],
   "normalizedLocations": [
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
+   },
+   {
+    "id": "Richmond, Virginia",
+    "label": "Richmond, Virginia",
+    "value": "Richmond, Virginia"
+   },
+   {
+    "id": "Virginia",
+    "label": "Virginia",
+    "value": "Virginia"
+   },
+   {
+    "id": "Maryland",
+    "label": "Maryland",
+    "value": "Maryland"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 147000, 'maxValue': 253000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:DHCP",
+    "label": "DHCP",
+    "value": "resume:DHCP"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:DNS",
+    "label": "DNS",
+    "value": "resume:DNS"
    },
    {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:DoD",
+    "label": "DoD",
+    "value": "resume:DoD"
    },
    {
-    "id": "resume:CEP",
-    "label": "CEP",
-    "value": "resume:CEP"
+    "id": "resume:Navy",
+    "label": "Navy",
+    "value": "resume:Navy"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:DHCP",
+    "label": "DHCP",
+    "value": "resume:DHCP"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:DNS",
+    "label": "DNS",
+    "value": "resume:DNS"
    },
    {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:DoD",
+    "label": "DoD",
+    "value": "resume:DoD"
    },
    {
-    "id": "resume:CEP",
-    "label": "CEP",
-    "value": "resume:CEP"
+    "id": "resume:Navy",
+    "label": "Navy",
+    "value": "resume:Navy"
    },
    {
-    "id": "resume:Taxes",
-    "label": "Taxes",
-    "value": "resume:Taxes"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
+   },
+   {
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
-   ],
-   [
-    7,
-    8
+    3,
+    4
    ]
   ],
-  "minYearsExp": 10,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "South Atlantic",
+    "label": "South Atlantic",
+    "value": "South Atlantic"
    }
   ],
   "stages": [
@@ -272,49 +309,33 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Business Services",
-    "label": "Business Services",
-    "value": "Business Services"
-   },
-   {
-    "id": "Retail",
-    "label": "Retail",
-    "value": "Retail"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-09-23T10:06:02Z",
-  "title": "Director, Global Equity",
-  "url": "https://boards.greenhouse.io/faire/jobs/8836851002?gh_jid=8836851002",
-  "jobId": "8836851002",
+  "timeStamp": "2026-09-23T17:59:26Z",
+  "title": "Federal Account Executive - Navy/USMC",
+  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8131/",
+  "jobId": "8131",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1899380420703, 'matchScore': 0, 'ageScore': 0.9899380420702161, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1959607686355, 'matchScore': 0, 'ageScore': 0.9959607686354167, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "mid"
   ],
   "isFeatured": false
  },

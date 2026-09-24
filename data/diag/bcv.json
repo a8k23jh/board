@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-23T20:31:26Z",
+ "run": "2026-09-23T23:47:32Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "PH-qCncqV_\u2026",
+  "session.sig": "dZNNquQlaw\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWUyZDBlNGY2N2EwMmQzYWZiOTZkZWFhOGZhMDc3ODAiLCAic2NvcmUiOiAxLjEwMTk0MDI5OTgyMzMwMjV9"
+   "sequence": "eyJfaWQiOiAiNDA4ZWQyOGRhMWYzNDMxYzM3ZDNiYzgzYjNiY2MyOGUiLCAic2NvcmUiOiAxLjA5NzYzNTU3MDczMDMyNDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -198,22 +198,32 @@
     "value": "San Francisco, California"
    },
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
     "id": "Chicago, Illinois",
     "label": "Chicago, Illinois",
     "value": "Chicago, Illinois"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 164700, 'maxValue': 266000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Product Lifecycle Management",
+    "label": "Product Lifecycle Management",
+    "value": "resume:Product Lifecycle Management"
+   },
+   {
     "id": "resume:Project Estimation",
     "label": "Project Estimation",
     "value": "resume:Project Estimation"
+   },
+   {
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
    },
    {
     "id": "resume:CLM",
@@ -221,63 +231,53 @@
     "value": "resume:CLM"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Prometheus",
-    "label": "Prometheus",
-    "value": "resume:Prometheus"
-   },
-   {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
+    "id": "resume:Control Plane",
+    "label": "Control Plane",
+    "value": "resume:Control Plane"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Product Lifecycle Management",
+    "label": "Product Lifecycle Management",
+    "value": "resume:Product Lifecycle Management"
+   },
+   {
     "id": "resume:Project Estimation",
     "label": "Project Estimation",
     "value": "resume:Project Estimation"
    },
+   {
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:CLM",
     "label": "CLM",
     "value": "resume:CLM"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Prometheus",
-    "label": "Prometheus",
-    "value": "resume:Prometheus"
+    "id": "resume:Control Plane",
+    "label": "Control Plane",
+    "value": "resume:Control Plane"
    },
    {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
    },
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
-   },
-   {
-    "id": "resume:Bash",
-    "label": "Bash",
-    "value": "resume:Bash"
+    "id": "resume:Network Infrastructure",
+    "label": "Network Infrastructure",
+    "value": "resume:Network Infrastructure"
    }
   ],
   "manager": false,
@@ -295,14 +295,9 @@
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "Midwest",
@@ -310,14 +305,19 @@
     "value": "Midwest"
    },
    {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
    }
   ],
   "stages": [
@@ -340,7 +340,7 @@
   "jobId": "30395",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1936041706501, 'matchScore': 0, 'ageScore': 0.9936041706500771, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1893178892107, 'matchScore': 0, 'ageScore': 0.9893178892106481, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

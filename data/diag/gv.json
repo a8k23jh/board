@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-09-23T20:31:26Z",
+ "run": "2026-09-23T23:47:32Z",
  "homepage": {
   "status": 200,
   "bytes": 26164
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "09CL7iGvtN\u2026",
+  "session.sig": "YSLEvuNxXG\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjQ4YjA0OTQwMTg5YzdiN2MyZTk2YTNmYjMxNGNhMzciLCAic2NvcmUiOiAxLjE0MjM3ODQxNTUzNzgwODd9"
+   "sequence": "eyJfaWQiOiAiNTQyN2JlNDg3OWUxYTkyZmRkOGJmOTFlOGQwNjdjZDQiLCAic2NvcmUiOiAxLjEzNzg3ODg5MjAyMzE0ODJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/ujet/jobs/4736239005",
+  "applyUrl": "https://job-boards.greenhouse.io/ujet/jobs/4736240005",
   "companyDomain": "ujet.cx",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/71a4cf8ba1951a04a040532bebf2d6e5_192_160?Expires=1861920000&Signature=lvEfRxNOYW0JdcSe1supujFiXWCIXxbJqluvvYvBQFuWO7AkWUcEN",
   "companyId": "ujet",
@@ -160,21 +160,16 @@
   ],
   "jobTypes": [
    {
-    "id": "product-support-engineer",
-    "label": "Product Support Engineer",
-    "value": "product-support-engineer"
-   },
-   {
-    "id": "support-engineer",
-    "label": "Support Engineer",
-    "value": "support-engineer"
+    "id": "customer-support-manager",
+    "label": "Customer Support Manager",
+    "value": "customer-support-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
    }
   ],
   "locations": [
@@ -187,66 +182,12 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 80000, 'maxValue': 100000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SIP",
-    "label": "SIP",
-    "value": "resume:SIP"
-   },
-   {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
-   {
-    "id": "resume:Github",
-    "label": "Github",
-    "value": "resume:Github"
-   },
-   {
-    "id": "resume:Call Centers",
-    "label": "Call Centers",
-    "value": "resume:Call Centers"
-   },
-   {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:SIP",
-    "label": "SIP",
-    "value": "resume:SIP"
-   },
-   {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
-   {
-    "id": "resume:Github",
-    "label": "Github",
-    "value": "resume:Github"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Call Centers",
-    "label": "Call Centers",
-    "value": "resume:Call Centers"
-   },
-   {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
-   },
-   {
-    "id": "resume:VoIP",
-    "label": "VoIP",
-    "value": "resume:VoIP"
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
    },
    {
     "id": "resume:Telephony",
@@ -254,22 +195,72 @@
     "value": "resume:Telephony"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
+   },
+   {
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
+   },
+   {
+    "id": "resume:VoIP",
+    "label": "VoIP",
+    "value": "resume:VoIP"
    }
   ],
-  "manager": false,
+  "requiredSkills": [
+   {
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
+   },
+   {
+    "id": "resume:Telephony",
+    "label": "Telephony",
+    "value": "resume:Telephony"
+   },
+   {
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
+   },
+   {
+    "id": "resume:VoIP",
+    "label": "VoIP",
+    "value": "resume:VoIP"
+   },
+   {
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
+   },
+   {
+    "id": "resume:Technical Support",
+    "label": "Technical Support",
+    "value": "resume:Technical Support"
+   },
+   {
+    "id": "resume:Github",
+    "label": "Github",
+    "value": "resume:Github"
+   }
+  ],
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
-    3,
-    4
+    5,
+    6
    ]
   ],
   "regions": [
@@ -299,24 +290,24 @@
     "value": "Cloud Services"
    }
   ],
-  "timeStamp": "2026-09-23T11:32:08Z",
-  "title": "Customer Support Engineer (CSE)",
-  "url": "https://job-boards.greenhouse.io/ujet/jobs/4736239005",
-  "jobId": "4736239005",
+  "timeStamp": "2026-09-23T11:32:28Z",
+  "title": "Director, Customer Support",
+  "url": "https://job-boards.greenhouse.io/ujet/jobs/4736240005",
+  "jobId": "4736240005",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1918814326698, 'matchScore': 0, 'ageScore': 0.991881432669753, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1873866848638, 'matchScore': 0, 'ageScore': 0.9873866848638118, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },
