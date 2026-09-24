@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-24T05:03:58Z",
+ "run": "2026-09-24T10:12:59Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1S-oz58mrt\u2026",
+  "session.sig": "9bgV2ePKxl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2Q2MjA1NjA2MTlhMDM0NTQ0Y2Q2NmQ1MzIyOTU4NjciLCAic2NvcmUiOiAxLjEzMzQ4MzEzODQ2OTEzNTd9"
+   "sequence": "eyJfaWQiOiAiZDBmYjU3YWM1MGY3NzA4MGNhNDhiMmVlOWNhMjUyYzUiLCAic2NvcmUiOiAxLjEyMTQ5NDI2MDE3MzIyNTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,99 +163,123 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://synd.io/careers/?gh_jid=6207166004",
-  "companyDomain": "synd.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/51830d72bc3e0956f4ba0a1e84b9d42d_237_160?Expires=1861920000&Signature=A5ma25EUQt1KDF2ipPmD0v1yfdIRGcExr38x8vqM0IiqE9wwLtvi~",
-  "companyId": "Syndio",
-  "companySlug": "syndio",
-  "companyName": "Syndio",
-  "companyStaffCount": 169,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5433814008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Customer Success"
+   "Safeguards (Trust & Safety)"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Remote Home Office - United States"
+   "San Francisco, CA",
+   "New York City, NY",
+   "Seattle, WA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:Trust and Safety",
+    "label": "Trust and Safety",
+    "value": "resume:Trust and Safety"
    },
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Benchmarking",
-    "label": "Benchmarking",
-    "value": "resume:Benchmarking"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
-   },
-   {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
-   },
-   {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Benchmarking",
-    "label": "Benchmarking",
-    "value": "resume:Benchmarking"
-   },
-   {
-    "id": "resume:Product Requirements",
-    "label": "Product Requirements",
-    "value": "resume:Product Requirements"
-   },
-   {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Trust and Safety",
+    "label": "Trust and Safety",
+    "value": "resume:Trust and Safety"
+   },
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
+   },
+   {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    }
   ],
   "manager": false,
@@ -263,27 +287,47 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -294,35 +338,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Workforce and Employment",
-    "label": "Workforce and Employment",
-    "value": "Workforce and Employment"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-09-23T18:33:00Z",
-  "title": "Senior Domain Expert, Total Rewards",
-  "url": "https://synd.io/careers/?gh_jid=6207166004",
-  "jobId": "6207166004",
-  "remote": true,
+  "timeStamp": "2026-09-24T01:54:13Z",
+  "title": "Staff+ Software Engineer, Access Programs",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5433814008",
+  "jobId": "5433814008",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1932114941736, 'matchScore': 0, 'ageScore': 0.9932114941736111, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1912338939773, 'matchScore': 0, 'ageScore': 0.9912338939772376, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "expert",
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
