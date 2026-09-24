@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-24T10:12:59Z",
+ "run": "2026-09-24T15:16:24Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "JzBOlBpZqv\u2026",
+  "session.sig": "FxYW5w_ZfZ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmQwODU0MGUyMDcyMzc5MDZjY2Q2YWI1YWIzODFmZDUiLCAic2NvcmUiOiAxLjE1NDMyMjEzMDM0MTgyMX0="
+   "sequence": "eyJfaWQiOiAiYzI1MzczYzFmN2UzNzg0ZWM4MGFkNjQ3YTI2NGMyNjQiLCAic2NvcmUiOiAxLjE1MDE2MTQxODk0MjkwMTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -138,138 +138,133 @@
    "companyLogos",
    "companyName",
    "companySlug",
+   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds",
-   "jobTypes"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/dust/3c0ed0da-dcc2-4f55-96d2-154935a3ed32?utm_source=jobs.sequoiacap.com",
-  "companyDomain": "dust.tt",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/0eeb9907dc41a320489b4c2fb653455c_176_160?Expires=1861920000&Signature=OeDravXZk0EvaJuyb0wTEXjSP7AqiVFi-q7uil77pOiSD6EHEQ0mn",
-  "companyId": "Dust",
-  "companySlug": "dust",
-  "companyName": "Dust",
+  "applyUrl": "https://jobs.gem.com/productboard/am9icG9zdDrYRR2Ri8264a07xF_f9eI3?utm_source=jobs.sequoiacap.com",
+  "companyDomain": "productboard.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/50440ad5e18cf8eb56271ba78ac66e48_320_160?Expires=1861920000&Signature=OQNH5oRssGM3z8qiC~Ta-0~8l3lj7rtl3olFRgKBSRYdV1OgRAztL",
+  "companyId": "Productboard",
+  "companySlug": "productboard",
+  "companyName": "Productboard",
+  "companyStaffCount": 287,
   "considerHosted": false,
   "departments": [
    "Customer Success"
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "product-support-engineer",
+    "label": "Product Support Engineer",
+    "value": "product-support-engineer"
    },
    {
-    "id": "customer-success-mananger",
-    "label": "Customer Success Manager",
-    "value": "customer-success-mananger"
+    "id": "support-engineer",
+    "label": "Support Engineer",
+    "value": "support-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "New York, New York, United States",
-   "New York"
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 260000, 'maxValue': 340000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 106000, 'maxValue': 106000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
-   },
-   {
-    "id": "resume:Stripe",
-    "label": "Stripe",
-    "value": "resume:Stripe"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
-   },
-   {
-    "id": "resume:Stripe",
-    "label": "Stripe",
-    "value": "resume:Stripe"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
-   },
-   {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
-   },
-   {
-    "id": "resume:Datadog",
-    "label": "Datadog",
-    "value": "resume:Datadog"
+    "id": "resume:OKRs",
+    "label": "OKRs",
+    "value": "resume:OKRs"
    },
    {
     "id": "resume:Post-sales",
     "label": "Post-sales",
     "value": "resume:Post-sales"
+   },
+   {
+    "id": "resume:Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "resume:Enterprise Software"
+   },
+   {
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:OKRs",
+    "label": "OKRs",
+    "value": "resume:OKRs"
+   },
+   {
+    "id": "resume:Post-sales",
+    "label": "Post-sales",
+    "value": "resume:Post-sales"
+   },
+   {
+    "id": "resume:Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "resume:Enterprise Software"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    }
   ],
   "manager": false,
@@ -277,74 +272,63 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
+  "minYearsExp": 1,
+  "maxYearsExp": 2,
   "regions": [
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
-  "stages": [],
+  "stages": [
+   {
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
+   }
+  ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
-   {
-    "id": "AI/ML",
-    "label": "AI/ML",
-    "value": "AI/ML"
-   },
-   {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
    {
     "id": "SaaS",
     "label": "SaaS",
     "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-09-24T00:00:00Z",
-  "title": "Customer Success Lead",
-  "url": "https://jobs.ashbyhq.com/dust/3c0ed0da-dcc2-4f55-96d2-154935a3ed32",
-  "jobId": "3c0ed0da-dcc2-4f55-96d2-154935a3ed32",
+  "timeStamp": "2026-09-23T23:59:20Z",
+  "title": "AI Customer Success Engineer ",
+  "url": "https://jobs.gem.com/productboard/am9icG9zdDrYRR2Ri8264a07xF_f9eI3",
+  "jobId": "am9icG9zdDrYRR2Ri8264a07xF_f9eI3",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1887198094772, 'matchScore': 0, 'ageScore': 0.9887198094772377, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1842413627527, 'matchScore': 0, 'ageScore': 0.9842413627527006, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -352,7 +336,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid"
   ],
   "isFeatured": false
