@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-25T13:56:41Z",
+ "run": "2026-09-25T18:44:08Z",
  "homepage": {
   "status": 200,
   "bytes": 16696
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"},\"server\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2386bb4f6eecd6cda6b7253a1808b2cffa07bdea\",\"date\":\"2026-09-25T18:31:10.642Z\"},\"server\":{\"git\":\"2386bb4f6eecd6cda6b7253a1808b2cffa07bdea\",\"date\":\"2026-09-25T18:31:10.642Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "wtv3f0eXe9\u2026",
+  "session.sig": "MzOX4cTiI2\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjA4MjAzZTM0OGIyYjc4N2MxYTYzM2QyOGYwZjFjYzMiLCAic2NvcmUiOiAxLjA2NDUyNTAwMzQyMDEzOX0="
+   "sequence": "eyJfaWQiOiAiMDM1NDFlN2U1MzhjYjM4YzhmYTQxYTE1NjEyNmUyNWYiLCAic2NvcmUiOiAxLjA2MTI0OTEyNTg4NjE4ODJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -164,7 +164,7 @@
   "companyStaffCount": 245,
   "considerHosted": false,
   "departments": [
-   "330-Customer Success"
+   "330-Agent Strategy"
   ],
   "jobTypes": [],
   "jobFunctions": [],
@@ -175,32 +175,22 @@
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
     "id": "New York",
     "label": "New York",
     "value": "New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 155000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Valuation",
-    "label": "Valuation",
-    "value": "resume:Valuation"
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
    },
    {
     "id": "resume:Management Consulting",
@@ -208,43 +198,53 @@
     "value": "resume:Management Consulting"
    },
    {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
     "id": "resume:C",
     "label": "C",
     "value": "resume:C"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
    },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Valuation",
-    "label": "Valuation",
-    "value": "resume:Valuation"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Management Consulting",
     "label": "Management Consulting",
     "value": "resume:Management Consulting"
    },
    {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
     "id": "resume:C",
     "label": "C",
     "value": "resume:C"
    },
    {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Valuation",
+    "label": "Valuation",
+    "value": "resume:Valuation"
    },
    {
     "id": "resume:Automation",
@@ -268,19 +268,9 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "Pacific States",
@@ -291,6 +281,16 @@
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -324,7 +324,7 @@
   "jobId": "97e7c9d1-b2ab-445e-9aaf-f99f13173c14",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.184512105091, 'matchScore': 0, 'ageScore': 0.9845121050910494, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1761114296041, 'matchScore': 0, 'ageScore': 0.9761114296041666, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

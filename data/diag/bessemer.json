@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-25T13:56:41Z",
+ "run": "2026-09-25T18:44:08Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "hJ41sL0HOE\u2026",
+  "session.sig": "tCmqYaauFn\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjZjYTExMGU2MmZmMTc4YzQ1Y2NjMDA3MDUyYjRhY2MiLCAic2NvcmUiOiAxLjExNjg1NTI2MzE1NTQ3ODV9"
+   "sequence": "eyJfaWQiOiAiNzM3ZTg5MDE1MzMwZTc1MjU5ZDRiMGY3ZWViZTNiMmUiLCAic2NvcmUiOiAxLjExMjcyOTc0NDI5MjA1MjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -196,63 +196,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 350000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:TCV",
-    "label": "TCV",
-    "value": "resume:TCV"
-   },
-   {
-    "id": "resume:Strategic Alliances",
-    "label": "Strategic Alliances",
-    "value": "resume:Strategic Alliances"
-   },
-   {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:TCV",
-    "label": "TCV",
-    "value": "resume:TCV"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Strategic Alliances",
-    "label": "Strategic Alliances",
-    "value": "resume:Strategic Alliances"
-   },
-   {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   },
-   {
-    "id": "resume:D programming language",
-    "label": "D programming language",
-    "value": "resume:D programming language"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    },
    {
     "id": "resume:Operating Systems",
@@ -260,9 +216,53 @@
     "value": "resume:Operating Systems"
    },
    {
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:Full Stack Development",
     "label": "Full Stack Development",
     "value": "resume:Full Stack Development"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
+   },
+   {
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
+   },
+   {
+    "id": "resume:TCV",
+    "label": "TCV",
+    "value": "resume:TCV"
+   },
+   {
+    "id": "resume:D programming language",
+    "label": "D programming language",
+    "value": "resume:D programming language"
+   },
+   {
+    "id": "resume:Strategic Alliances",
+    "label": "Strategic Alliances",
+    "value": "resume:Strategic Alliances"
    }
   ],
   "manager": false,
@@ -285,14 +285,14 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -321,24 +321,24 @@
   "jobId": "0db73dd8-3ade-4da8-9a87-16ded8efe589",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1843241167034, 'matchScore': 0, 'ageScore': 0.9843241167033179, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1797590681659, 'matchScore': 0, 'ageScore': 0.9797590681658951, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

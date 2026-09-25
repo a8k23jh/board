@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-25T13:56:41Z",
+ "run": "2026-09-25T18:44:08Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"},\"server\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2386bb4f6eecd6cda6b7253a1808b2cffa07bdea\",\"date\":\"2026-09-25T18:31:10.642Z\"},\"server\":{\"git\":\"2386bb4f6eecd6cda6b7253a1808b2cffa07bdea\",\"date\":\"2026-09-25T18:31:10.642Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "F9-7tEKkSl\u2026",
+  "session.sig": "ZAYcWqZMwA\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMGMzMzU5N2RjNDMyM2IzZGViYTQ4OTViYmU1MmM0NjEiLCAic2NvcmUiOiAxLjEwMDkyMDI1ODU4ODczNDV9"
+   "sequence": "eyJfaWQiOiAiMjM0ZWFmNzA3MjVlMGY5NzNiZmE4ZTNjYmU5NTQ1ZDEiLCAic2NvcmUiOiAxLjA5NzQzNTE2MTE0NTgzMzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,142 +136,127 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gusto/jobs/8205633",
-  "companyDomain": "gusto.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/19a422e68b3e25e5c86870a9db150998_144_160?Expires=1861920000&Signature=CN-UUjGowYONjxHqRtVNezWXCZFUjW~rtftm9Cpvq935lA9FO8r1h",
-  "companyId": "Gusto ZenPayroll",
-  "companySlug": "gusto-zenpayroll",
-  "companyName": "Gusto",
-  "companyStaffCount": 4473,
+  "applyUrl": "https://www.pindrop.com/careers/job-title/?gh_jid=8202096",
+  "companyDomain": "pindrop.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66db7ca011dabe5ff29c157b56a4251f_288_160?Expires=1861920000&Signature=l7jCjYdBtd-x9~FoRb61NXvycjznIWMO3dSQ1QJItmzYDl9x~JFGj",
+  "companyId": "Pindrop Security",
+  "companySlug": "pindrop-security",
+  "companyName": "Pindrop Security",
+  "companyStaffCount": 365,
   "considerHosted": false,
   "departments": [
-   "Insights & Operations"
+   "CS Operations"
   ],
   "jobTypes": [
    {
-    "id": "marketing-engagement",
-    "label": "Marketing Engagement",
-    "value": "marketing-engagement"
+    "id": "principal",
+    "label": "Principal",
+    "value": "principal"
    },
    {
-    "id": "marketing-growth",
-    "label": "Marketing Growth",
-    "value": "marketing-growth"
-   },
-   {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
-   },
-   {
-    "id": "marketing-acquisition",
-    "label": "Marketing Acquisition",
-    "value": "marketing-acquisition"
+    "id": "technical-account-manager",
+    "label": "Technical Account Manager",
+    "value": "technical-account-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   },
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "San Francisco, CA - Hybrid"
+   "US - Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 188510, 'maxValue': 232496, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 110000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Experimentation",
-    "label": "Experimentation",
-    "value": "resume:Experimentation"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
    },
    {
-    "id": "resume:LTV",
-    "label": "LTV",
-    "value": "resume:LTV"
+    "id": "resume:Customer Facing Roles",
+    "label": "Customer Facing Roles",
+    "value": "resume:Customer Facing Roles"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Business Operations",
-    "label": "Business Operations",
-    "value": "resume:Business Operations"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Experimentation",
-    "label": "Experimentation",
-    "value": "resume:Experimentation"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
    },
    {
-    "id": "resume:LTV",
-    "label": "LTV",
-    "value": "resume:LTV"
+    "id": "resume:Customer Facing Roles",
+    "label": "Customer Facing Roles",
+    "value": "resume:Customer Facing Roles"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Business Operations",
-    "label": "Business Operations",
-    "value": "resume:Business Operations"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Technical Account Management",
+    "label": "Technical Account Management",
+    "value": "resume:Technical Account Management"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    },
    {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    }
   ],
   "manager": false,
@@ -285,64 +270,37 @@
    [
     7,
     8
-   ],
-   [
-    9,
-    10,
-    11,
-    12
    ]
   ],
-  "minYearsExp": 15,
+  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
-   },
-   {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-09-25T00:17:08Z",
-  "title": "R&D Insights and Operations - Growth",
-  "url": "https://job-boards.greenhouse.io/gusto/jobs/8205633",
-  "jobId": "8205633",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1849246605722, 'matchScore': 0, 'ageScore': 0.9849246605721451, 'richnessScore': 2}",
+  "timeStamp": "2026-09-25T10:32:15Z",
+  "title": "Principal Technical Account Manager",
+  "url": "https://www.pindrop.com/careers/job-title/?gh_jid=8202096",
+  "jobId": "8202096",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1905310170587, 'matchScore': 0, 'ageScore': 0.990531017058642, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -350,10 +308,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

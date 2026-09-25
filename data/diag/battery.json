@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-09-25T13:56:41Z",
+ "run": "2026-09-25T18:44:08Z",
  "homepage": {
   "status": 200,
   "bytes": 18736
@@ -29,12 +29,12 @@
    "slug": "battery-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"},\"server\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2386bb4f6eecd6cda6b7253a1808b2cffa07bdea\",\"date\":\"2026-09-25T18:31:10.642Z\"},\"server\":{\"git\":\"2386bb4f6eecd6cda6b7253a1808b2cffa07bdea\",\"date\":\"2026-09-25T18:31:10.642Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Aj1Ex3FhVO\u2026",
+  "session.sig": "sj_Uhor8KS\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWNkMmU0ZWQxM2M2NzdmZTI2MTY4NWNlZTM3MGEwYTYiLCAic2NvcmUiOiAxLjEwNDQwMTA4NjE1MzU0OTR9"
+   "sequence": "eyJfaWQiOiAiNWNkMmU0ZWQxM2M2NzdmZTI2MTY4NWNlZTM3MGEwYTYiLCAic2NvcmUiOiAxLjEwMDE3NjE2ODk3ODM5NX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -183,19 +183,14 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 26.44, 'maxValue': 26.44, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
     "id": "resume:SaaS Sales",
     "label": "SaaS Sales",
     "value": "resume:SaaS Sales"
+   },
+   {
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
     "id": "resume:Customer Acquisition",
@@ -203,53 +198,58 @@
     "value": "resume:Customer Acquisition"
    },
    {
-    "id": "resume:Sales & Marketing",
-    "label": "Sales & Marketing",
-    "value": "resume:Sales & Marketing"
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
+   },
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:SaaS Sales",
+    "label": "SaaS Sales",
+    "value": "resume:SaaS Sales"
+   },
+   {
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
+   },
+   {
+    "id": "resume:Customer Acquisition",
+    "label": "Customer Acquisition",
+    "value": "resume:Customer Acquisition"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
    },
    {
     "id": "resume:B2B",
     "label": "B2B",
     "value": "resume:B2B"
-   },
-   {
-    "id": "resume:SaaS Sales",
-    "label": "SaaS Sales",
-    "value": "resume:SaaS Sales"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Customer Acquisition",
-    "label": "Customer Acquisition",
-    "value": "resume:Customer Acquisition"
-   },
-   {
-    "id": "resume:Sales & Marketing",
-    "label": "Sales & Marketing",
-    "value": "resume:Sales & Marketing"
-   },
-   {
-    "id": "resume:Cold Calling",
-    "label": "Cold Calling",
-    "value": "resume:Cold Calling"
-   },
-   {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
    },
    {
     "id": "resume:Voter Targeting",
     "label": "Voter Targeting/Outreach",
     "value": "resume:Voter Targeting"
+   },
+   {
+    "id": "resume:Direct Sales",
+    "label": "Direct Sales",
+    "value": "resume:Direct Sales"
+   },
+   {
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    }
   ],
   "manager": false,
@@ -268,6 +268,11 @@
   "minYearsExp": 3,
   "regions": [
    {
+    "id": "South Atlantic",
+    "label": "South Atlantic",
+    "value": "South Atlantic"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -276,11 +281,6 @@
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
-   },
-   {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
    }
   ],
   "stages": [
@@ -303,7 +303,7 @@
   "jobId": "f1574926b8445056",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1918281110367, 'matchScore': 0, 'ageScore': 0.9918281110366512, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1876305328916, 'matchScore': 0, 'ageScore': 0.9876305328915895, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
