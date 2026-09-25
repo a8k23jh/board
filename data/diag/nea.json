@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-24T22:33:08Z",
+ "run": "2026-09-25T01:38:02Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "wvlZGcg-lz\u2026",
+  "session.sig": "EGDEJZB3Ks\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDFjN2I1NGJkM2Q0Mjk1OWQ1ODM2NmYyY2FhM2ExMDMiLCAic2NvcmUiOiAxLjExMzk0NzkwOTQxNTEyMzR9"
+   "sequence": "eyJfaWQiOiAiM2YwNWJjNjBmYTgzNzI5MjBlYzE3NWVhNDIyYjIxZjQiLCAic2NvcmUiOiAxLjEyNDM1MTEwMjU2MTM0MjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,147 +136,164 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDoTsaZBGxGBoq-yEMueJUXZ?utm_source=careers.nea.com",
-  "companyDomain": "launchfirestorm.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e188c39c312914da9e7993fda04e236c_320_160?Expires=1861920000&Signature=Pm7J-k33~dn1h7QkoqdLumPZldorJ59U2n6Yki9r684MrWcuwsfhz",
-  "companyId": "Firestorm",
-  "companySlug": "firestorm",
-  "companyName": "Firestorm",
-  "companyStaffCount": 192,
+  "applyUrl": "https://job-boards.greenhouse.io/omadahealth/jobs/8185092",
+  "companyDomain": "omadahealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/071d994ac5a926737e50943a830ed081_272_160?Expires=1861920000&Signature=WfLEDabKost5pyjKzeqnLmQ8D5kzAzcp-8~xk~B8wPxfcj55CCS5G",
+  "companyId": "Omada Health",
+  "companySlug": "omada-health",
+  "companyName": "Omada Health",
+  "companyStaffCount": 995,
   "considerHosted": false,
   "departments": [
-   "Manufacturing"
+   "Commercial & Sales Ops"
   ],
   "jobTypes": [
    {
-    "id": "manufacturing-technician",
-    "label": "Manufacturing Technician",
-    "value": "manufacturing-technician"
+    "id": "sales-all",
+    "label": "Sales",
+    "value": "sales-all"
+   },
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "revenue-operations",
+    "label": "Revenue Operations",
+    "value": "revenue-operations"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "San Diego, CA"
+   "Remote, USA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Diego, California",
-    "label": "San Diego, California",
-    "value": "San Diego, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 29, 'maxValue': 36, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 232760, 'maxValue': 290950, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Sales Operations",
+    "label": "Sales Operations",
+    "value": "resume:Sales Operations"
    },
    {
-    "id": "resume:Prototyping",
-    "label": "Prototyping",
-    "value": "resume:Prototyping"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:3D Printing",
-    "label": "3D Printing",
-    "value": "resume:3D Printing"
+    "id": "resume:Revenue Operations",
+    "label": "Revenue Operations",
+    "value": "resume:Revenue Operations"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Assembly",
-    "label": "Assembly",
-    "value": "resume:Assembly"
+    "id": "resume:Sales Forecasting",
+    "label": "Sales Forecasting",
+    "value": "resume:Sales Forecasting"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Sales Operations",
+    "label": "Sales Operations",
+    "value": "resume:Sales Operations"
    },
    {
-    "id": "resume:Prototyping",
-    "label": "Prototyping",
-    "value": "resume:Prototyping"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:3D Printing",
-    "label": "3D Printing",
-    "value": "resume:3D Printing"
+    "id": "resume:Revenue Operations",
+    "label": "Revenue Operations",
+    "value": "resume:Revenue Operations"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Assembly",
-    "label": "Assembly",
-    "value": "resume:Assembly"
+    "id": "resume:Sales Forecasting",
+    "label": "Sales Forecasting",
+    "value": "resume:Sales Forecasting"
    },
    {
-    "id": "resume:Machining",
-    "label": "Machining",
-    "value": "resume:Machining"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Drones",
-    "label": "Drones",
-    "value": "resume:Drones"
+    "id": "resume:IPO",
+    "label": "IPO",
+    "value": "resume:IPO"
    },
    {
-    "id": "resume:CNC",
-    "label": "CNC",
-    "value": "resume:CNC"
+    "id": "resume:Productivity Software",
+    "label": "Productivity Software",
+    "value": "resume:Productivity Software"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 12,
+  "maxYearsExp": 15,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -284,49 +301,33 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
-   },
-   {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-09-24T09:00:32Z",
-  "title": "Manufacturing Technician",
-  "url": "https://jobs.gem.com/firestorm/am9icG9zdDoTsaZBGxGBoq-yEMueJUXZ",
-  "jobId": "am9icG9zdDoTsaZBGxGBoq-yEMueJUXZ",
-  "remote": false,
+  "timeStamp": "2026-09-24T17:45:12Z",
+  "title": "Senior Director, Sales and Revenue Operations",
+  "url": "https://job-boards.greenhouse.io/omadahealth/jobs/8185092",
+  "jobId": "8185092",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1844315107195, 'matchScore': 0, 'ageScore': 0.9844315107195216, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1925003018483, 'matchScore': 0, 'ageScore': 0.9925003018483797, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },
