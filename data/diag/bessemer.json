@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-25T18:44:08Z",
+ "run": "2026-09-25T22:31:28Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"},\"server\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2386bb4f6eecd6cda6b7253a1808b2cffa07bdea\",\"date\":\"2026-09-25T18:31:10.642Z\"},\"server\":{\"git\":\"2386bb4f6eecd6cda6b7253a1808b2cffa07bdea\",\"date\":\"2026-09-25T18:31:10.642Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "tCmqYaauFn\u2026",
+  "session.sig": "O7xhC-p1FG\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzM3ZTg5MDE1MzMwZTc1MjU5ZDRiMGY3ZWViZTNiMmUiLCAic2NvcmUiOiAxLjExMjcyOTc0NDI5MjA1MjV9"
+   "sequence": "eyJfaWQiOiAiODY4YWUxNGIxZTRmMjg5ZjIwMzg2MzQ5Nzc5ZDZjMmEiLCAic2NvcmUiOiAxLjEwNDQ4MjgzMzI2NDI3NDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,117 +152,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/fireworks/0db73dd8-3ade-4da8-9a87-16ded8efe589?utm_source=jobs.bvp.com",
-  "companyDomain": "fireworks.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/40b3918a0960959c31d888e088bb965a_320_160?Expires=1861920000&Signature=UjSzeT~6BqdE5R2QnlcKR8samdbxLAm3eMZWqs6vNVYfD9dHTfpKe",
-  "companyId": "Fireworks AI",
-  "companySlug": "fireworks-ai",
-  "companyName": "Fireworks AI",
-  "companyStaffCount": 355,
+  "applyUrl": "https://job-boards.greenhouse.io/litify/jobs/8226984",
+  "companyDomain": "litify.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3f0163c664fe3430a3a0f7d1ef8a7fbc_288_160?Expires=1861920000&Signature=EbakZod2uGjDcQnVN6cGFy3NTmTsrsUFvE2TmAdjqXTei4KctrFfc",
+  "companyId": "Litify",
+  "companySlug": "litify",
+  "companyName": "Litify",
+  "companyStaffCount": 165,
   "considerHosted": false,
   "departments": [
-   "Partnerships"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "enterprise-account-executive",
+    "label": "Enterprise Account Executive",
+    "value": "enterprise-account-executive"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "",
-   "San Francisco"
+   "Anywhere, USA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 350000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Full Stack Development",
-    "label": "Full Stack Development",
-    "value": "resume:Full Stack Development"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:SaaS Sales",
+    "label": "SaaS Sales",
+    "value": "resume:SaaS Sales"
    },
    {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:ROI",
+    "label": "ROI",
+    "value": "resume:ROI"
    },
    {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
+    "id": "resume:MEDDIC",
+    "label": "MEDDIC",
+    "value": "resume:MEDDIC"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Full Stack Development",
-    "label": "Full Stack Development",
-    "value": "resume:Full Stack Development"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:SaaS Sales",
+    "label": "SaaS Sales",
+    "value": "resume:SaaS Sales"
    },
    {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:ROI",
+    "label": "ROI",
+    "value": "resume:ROI"
    },
    {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
+    "id": "resume:MEDDIC",
+    "label": "MEDDIC",
+    "value": "resume:MEDDIC"
    },
    {
-    "id": "resume:TCV",
-    "label": "TCV",
-    "value": "resume:TCV"
+    "id": "resume:Exceeding Quotas",
+    "label": "Exceeding Quotas",
+    "value": "resume:Exceeding Quotas"
    },
    {
-    "id": "resume:D programming language",
-    "label": "D programming language",
-    "value": "resume:D programming language"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:Strategic Alliances",
-    "label": "Strategic Alliances",
-    "value": "resume:Strategic Alliances"
+    "id": "resume:Business Acumen",
+    "label": "Business Acumen",
+    "value": "resume:Business Acumen"
    }
   ],
   "manager": false,
@@ -278,17 +283,8 @@
     6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -300,28 +296,16 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
-  "markets": [
-   {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   }
-  ],
-  "timeStamp": "2026-09-25T00:00:00Z",
-  "title": "AI Factory Partnerships Lead - OEM & Infrastructure Alliances",
-  "url": "https://jobs.ashbyhq.com/fireworks/0db73dd8-3ade-4da8-9a87-16ded8efe589",
-  "jobId": "0db73dd8-3ade-4da8-9a87-16ded8efe589",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1797590681659, 'matchScore': 0, 'ageScore': 0.9797590681658951, 'richnessScore': 2}",
+  "markets": [],
+  "timeStamp": "2026-09-25T10:40:44Z",
+  "title": "Account Executive (Enterprise Legal Management)",
+  "url": "https://job-boards.greenhouse.io/litify/jobs/8226984",
+  "jobId": "8226984",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1865477272836, 'matchScore': 0, 'ageScore': 0.9865477272835648, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -329,16 +313,10 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },

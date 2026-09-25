@@ -1,6 +1,7 @@
 {
  "board": "ivp",
- "run": "2026-09-25T18:44:08Z",
+ "run": "2026-09-25T22:31:28Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='careers.ivp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +27,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "jjQ5pFJ_WI\u2026",
+  "session.sig": "EjWbNevAVy\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +112,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTgzMzc0ZTQ1ZjhlYjNhNWNjZTA5MmQ3NmQyY2E3NzciLCAic2NvcmUiOiAxLjEwOTM3NTE1NTI2NzM2MTJ9"
+   "sequence": "eyJfaWQiOiAiYTliMzU0MDkzMGRiZDRmMzUzODI4YWI1M2U2NDI1MzAiLCAic2NvcmUiOiAxLjEwNDg0NDM3MDM5NDI5fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,14 +153,14 @@
   ],
   "jobTypes": [
    {
-    "id": "principal",
-    "label": "Principal",
-    "value": "principal"
-   },
-   {
     "id": "technical-account-manager",
     "label": "Technical Account Manager",
     "value": "technical-account-manager"
+   },
+   {
+    "id": "principal",
+    "label": "Principal",
+    "value": "principal"
    }
   ],
   "jobFunctions": [
@@ -182,58 +183,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 110000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Fraud Prevention",
+    "label": "Fraud Prevention",
+    "value": "resume:Fraud Prevention"
    },
    {
-    "id": "resume:Call Centers",
-    "label": "Call Centers",
-    "value": "resume:Call Centers"
-   },
-   {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
-   },
-   {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
-   },
-   {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
-   },
-   {
-    "id": "resume:Call Centers",
-    "label": "Call Centers",
-    "value": "resume:Call Centers"
-   },
-   {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
-   },
-   {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
     "id": "resume:Technical Account Management",
@@ -241,14 +198,58 @@
     "value": "resume:Technical Account Management"
    },
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Fraud Prevention",
+    "label": "Fraud Prevention",
+    "value": "resume:Fraud Prevention"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Technical Account Management",
+    "label": "Technical Account Management",
+    "value": "resume:Technical Account Management"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
+   },
+   {
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
+   },
+   {
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
+   },
+   {
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    }
   ],
   "manager": false,
@@ -292,28 +293,29 @@
   "jobId": "8202096",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1905310170587, 'matchScore': 0, 'ageScore': 0.990531017058642, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1866572950837, 'matchScore': 0, 'ageScore': 0.9866572950837191, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }

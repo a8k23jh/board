@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-09-25T18:44:08Z",
+ "run": "2026-09-25T22:31:28Z",
  "homepage": {
   "status": 200,
   "bytes": 20921
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "_dfBEBedFG\u2026",
+  "session.sig": "pK_98lgjwq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzdjODQ5ODczYzE0MjFkNThjZjNjODk0ZDU4MmUyMmQiLCAic2NvcmUiOiAxMDAuMjM1ODc2MjIxMjM4MDR9"
+   "sequence": "eyJfaWQiOiAiOWMxMzNkN2IyNWMwMmViMDdjYzAyYjJhNzU4Y2E4YWYiLCAic2NvcmUiOiAxMDAuMjMzNTIzMDQ2MTE1MzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,90 +147,103 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/laurel/4212bd1a-ea68-468d-adb6-bb71c9c7bc37?utm_source=jobs.initialized.com",
-  "companyDomain": "laurel.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3f05a37d3a77a771d48355026991ce76_144_160?Expires=1861920000&Signature=pkI-31eNwrwZttPh-c6OsNCnC4cr0gIexRmVmv3Pf44G13CHKkbgi",
-  "companyId": "Time by Ping",
-  "companySlug": "time-by-ping",
-  "companyName": "Laurel",
-  "companyStaffCount": 311,
+  "applyUrl": "https://jobs.ashbyhq.com/curri/ded30142-b191-44f1-8872-5efa001754f9?utm_source=jobs.initialized.com",
+  "companyDomain": "curri.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cd42b4bc17967542a307770bc3d8a803_176_160?Expires=1861920000&Signature=iWtOp2ijac8xpyywBLntds~fMP1OV4DagniudXTDA7FFeD9ocEprO",
+  "companyId": "Curri",
+  "companySlug": "curri",
+  "companyName": "Curri",
+  "companyStaffCount": 263,
   "considerHosted": false,
   "departments": [
    "Engineering"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "director-engineering",
+    "label": "Director of Engineering",
+    "value": "director-engineering"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "San Francisco, California, United States",
-   "San Francisco, CA"
+   "Ventura , CA, United States",
+   "Ventura, CA",
+   "Remote - United States"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   },
+   {
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 221000, 'maxValue': 275000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Orchestration",
-    "label": "Orchestration",
-    "value": "resume:Orchestration"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Demand Forecasting",
+    "label": "Demand Forecasting",
+    "value": "resume:Demand Forecasting"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:Goods",
+    "label": "Goods",
+    "value": "resume:Goods"
    },
    {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Orchestration",
-    "label": "Orchestration",
-    "value": "resume:Orchestration"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Demand Forecasting",
+    "label": "Demand Forecasting",
+    "value": "resume:Demand Forecasting"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:Goods",
+    "label": "Goods",
+    "value": "resume:Goods"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
-   },
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:Sales Support",
-    "label": "Sales Support",
-    "value": "resume:Sales Support"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Infrastructure",
@@ -238,21 +251,30 @@
     "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
+   },
+   {
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    5,
+    6
    ]
   ],
-  "minYearsExp": 4,
   "regions": [
    {
     "id": "West Coast",
@@ -260,14 +282,14 @@
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -285,34 +307,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
+    "id": "Construction",
+    "label": "Construction",
+    "value": "Construction"
    },
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
    }
   ],
-  "timeStamp": "2026-09-22T00:00:00Z",
-  "title": "Senior/Staff Forward Deployed Engineer",
-  "url": "https://jobs.ashbyhq.com/laurel/4212bd1a-ea68-468d-adb6-bb71c9c7bc37",
-  "jobId": "4212bd1a-ea68-468d-adb6-bb71c9c7bc37",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1101.0758386739421, 'matchScore': 0, 'ageScore': 0.8758386739421297, 'richnessScore': 2}",
+  "timeStamp": "2026-09-24T00:00:00Z",
+  "title": "Director, Data & AI",
+  "url": "https://jobs.ashbyhq.com/curri/ded30142-b191-44f1-8872-5efa001754f9",
+  "jobId": "ded30142-b191-44f1-8872-5efa001754f9",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1101.138037786055, 'matchScore': 0, 'ageScore': 0.9380377860551697, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "director"
   ],
   "isFeatured": true
  },

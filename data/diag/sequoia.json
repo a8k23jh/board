@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-25T18:44:08Z",
+ "run": "2026-09-25T22:31:28Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"},\"server\":{\"git\":\"d7193ad1518213ac6e564d56463bd62d60a05d62\",\"date\":\"2026-09-24T18:35:11.201Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2386bb4f6eecd6cda6b7253a1808b2cffa07bdea\",\"date\":\"2026-09-25T18:31:10.642Z\"},\"server\":{\"git\":\"2386bb4f6eecd6cda6b7253a1808b2cffa07bdea\",\"date\":\"2026-09-25T18:31:10.642Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "nL6IQvQSAf\u2026",
+  "session.sig": "7fTOMimCyQ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWNjZGVkZjNlMWRjYjJmOTgxZjgxYzAzYjJlYzIxNDQiLCAic2NvcmUiOiAxLjEzNzEzMjQwODYzMDc4N30="
+   "sequence": "eyJfaWQiOiAiMjU0NzA4NGZiMGIwMzMwYmNjNmI5NGY2MmQyMTk3YjEiLCAic2NvcmUiOiAxLjEzMDUzODkxNDg5MzEzMjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,108 +144,68 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/iambic-therapeutics/3e8cd097-a214-42cf-ab17-06dbbd159a1d?utm_source=jobs.sequoiacap.com",
-  "companyDomain": "iambic.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/4b751042993554fcc25c902cb7b8738b_224_160?Expires=1861920000&Signature=Hz0LqZF5NgWjRPn3QZMY0T5OU3CzMU1kdAjvHKkFju7LlISGmP7D6",
-  "companyId": "Iambic Therapeutics",
-  "companySlug": "iambic-therapeutics",
-  "companyName": "Iambic Therapeutics",
-  "companyStaffCount": 183,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8845089002?gh_jid=8845089002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "HTE"
+   "Application Software"
   ],
   "jobTypes": [
    {
-    "id": "biotech-scientist",
-    "label": "Scientist",
-    "value": "biotech-scientist"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
+   },
+   {
+    "id": "backend-engineer",
+    "label": "Backend Engineer",
+    "value": "backend-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Science",
-    "label": "Science",
-    "value": "Science"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "San Diego, California, United States",
-   "San Diego HQ"
+   "Hawthorne, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Diego, California",
-    "label": "San Diego, California",
-    "value": "San Diego, California"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 88000, 'maxValue': 128000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Package Manager",
+    "label": "Package Manager",
+    "value": "resume:Package Manager"
    },
    {
-    "id": "resume:Parallel Synthesis",
-    "label": "Parallel Synthesis",
-    "value": "resume:Parallel Synthesis"
-   },
-   {
-    "id": "resume:Chemistry",
-    "label": "Chemistry",
-    "value": "resume:Chemistry"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:Parallel Synthesis",
-    "label": "Parallel Synthesis",
-    "value": "resume:Parallel Synthesis"
-   },
-   {
-    "id": "resume:Chemistry",
-    "label": "Chemistry",
-    "value": "resume:Chemistry"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -253,14 +213,58 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Organic Chemistry",
-    "label": "Organic Chemistry",
-    "value": "resume:Organic Chemistry"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Drug Discovery",
-    "label": "Drug Discovery",
-    "value": "resume:Drug Discovery"
+    "id": "resume:Unix",
+    "label": "Unix",
+    "value": "resume:Unix"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Package Manager",
+    "label": "Package Manager",
+    "value": "resume:Package Manager"
+   },
+   {
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
+   },
+   {
+    "id": "resume:Unix",
+    "label": "Unix",
+    "value": "resume:Unix"
+   },
+   {
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
+   },
+   {
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
+   },
+   {
+    "id": "resume:AngularJS",
+    "label": "AngularJS",
+    "value": "resume:AngularJS"
    }
   ],
   "manager": false,
@@ -268,21 +272,16 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 2,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
@@ -292,46 +291,50 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Biotech/Pharma",
-    "label": "Biotech/Pharma",
-    "value": "Biotech/Pharma"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-09-25T00:00:00Z",
-  "title": "Sr. Associate Scientist I / II \u2013 High Throughput Chemistry",
-  "url": "https://jobs.ashbyhq.com/iambic-therapeutics/3e8cd097-a214-42cf-ab17-06dbbd159a1d",
-  "jobId": "3e8cd097-a214-42cf-ab17-06dbbd159a1d",
+  "timeStamp": "2026-09-25T10:41:12Z",
+  "title": "Software Engineer, Backend (Python/C++)",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8845089002?gh_jid=8845089002",
+  "jobId": "8845089002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1800112272064, 'matchScore': 0, 'ageScore': 0.9800112272064043, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1864035168329, 'matchScore': 0, 'ageScore': 0.9864035168329476, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
