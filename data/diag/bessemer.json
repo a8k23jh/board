@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-26T01:42:08Z",
+ "run": "2026-09-26T07:51:30Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "JwKNlc178U\u2026",
+  "session.sig": "ohr633Qn1h\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2JlYjJlYWNmNTY3MzBjOWYzNDRjNmE0ZTlmNmQ0OTMiLCAic2NvcmUiOiAxLjEwNzA2MjIxNzEwODc5NjN9"
+   "sequence": "eyJfaWQiOiAiZGFiYjFhZGE3NDBlMDQ1YzE5Nzk2OWExYzMzMzlhODEiLCAic2NvcmUiOiAxLjExMzMxOTYxMzA3OTg2MX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -163,22 +163,32 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.alloy.com/about/jobs/detail?gh_jid=8846379002&gh_jid=8846379002",
-  "companyDomain": "alloy.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a89ec683cc1c4dacb91d6f8767a67cf8_240_160?Expires=1861920000&Signature=eT-zJzMcWmCAf-PURgX47uJES1UdLm7utEDNah9qj6lBYtP0~paSi",
-  "companyId": "Alloy",
-  "companySlug": "alloy",
-  "companyName": "Alloy",
-  "companyStaffCount": 427,
+  "applyUrl": "https://job-boards.greenhouse.io/discord/jobs/8821508002",
+  "companyDomain": "discord.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6eb2e8b2ef9f74cd6efde067c53000bc_320_160?Expires=1861920000&Signature=IVWmJtRXz3X4iur6ldBT5uiItohV0wT9SyUlRzcIL47Zg5IJwxeHU",
+  "companyId": "Discord",
+  "companySlug": "discord",
+  "companyName": "Discord",
+  "companyStaffCount": 4517,
   "considerHosted": false,
   "departments": [
-   "People"
+   "Data Science & Engineering"
   ],
   "jobTypes": [
    {
-    "id": "site-reliability-engineer",
-    "label": "Site Reliability Engineer (SRE)",
-    "value": "site-reliability-engineer"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "manager-data-scientist",
+    "label": "Manager Data Science",
+    "value": "manager-data-scientist"
    }
   ],
   "jobFunctions": [
@@ -189,118 +199,122 @@
    }
   ],
   "locations": [
-   "New York City"
+   "San Francisco Bay Area"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "San Francisco Bay Area",
+    "label": "San Francisco Bay Area",
+    "value": "San Francisco Bay Area"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 342000, 'maxValue': 380000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Data Infrastructure",
+    "label": "Data Infrastructure",
+    "value": "resume:Data Infrastructure"
    },
    {
-    "id": "resume:HRIS",
-    "label": "HR Systems",
-    "value": "resume:HRIS"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Personalization",
+    "label": "Personalization",
+    "value": "resume:Personalization"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Data Infrastructure",
+    "label": "Data Infrastructure",
+    "value": "resume:Data Infrastructure"
    },
    {
-    "id": "resume:HRIS",
-    "label": "HR Systems",
-    "value": "resume:HRIS"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Personalization",
+    "label": "Personalization",
+    "value": "resume:Personalization"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Looker",
+    "label": "Looker",
+    "value": "resume:Looker"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Benchmarking",
+    "label": "Benchmarking",
+    "value": "resume:Benchmarking"
    },
    {
-    "id": "resume:Workforce Planning",
-    "label": "Workforce Planning",
-    "value": "resume:Workforce Planning"
+    "id": "resume:Business Intelligence Tools",
+    "label": "Business Intelligence Tools",
+    "value": "resume:Business Intelligence Tools"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -311,34 +325,44 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Financial Services",
-    "label": "Financial Services",
-    "value": "Financial Services"
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
    },
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Marketplace",
+    "label": "Marketplace",
+    "value": "Marketplace"
+   },
+   {
+    "id": "Social Networking",
+    "label": "Social Networking",
+    "value": "Social Networking"
+   },
+   {
+    "id": "Video Games",
+    "label": "Video Games",
+    "value": "Video Games"
    }
   ],
-  "timeStamp": "2026-09-25T17:57:50Z",
-  "title": "People Operations Engineer",
-  "url": "https://www.alloy.com/about/jobs/detail?gh_jid=8846379002&gh_jid=8846379002",
-  "jobId": "8846379002",
+  "timeStamp": "2026-09-25T19:14:20Z",
+  "title": "Senior Data Science Manager, Developer Platform",
+  "url": "https://job-boards.greenhouse.io/discord/jobs/8821508002",
+  "jobId": "8821508002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1925540640506, 'matchScore': 0, 'ageScore': 0.9925540640505401, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1862625323553, 'matchScore': 0, 'ageScore': 0.9862625323553241, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },
