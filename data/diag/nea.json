@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-25T22:31:28Z",
+ "run": "2026-09-26T01:42:08Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "leiKl2JL2U\u2026",
+  "session.sig": "LdUe-_kb8N\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2U3NDIxYmU4ZjA2MzJiODJhN2I2MDBlNDYwYTRlYjAiLCAic2NvcmUiOiAxLjEwNTMwMzA0NDk0NjM3MzR9"
+   "sequence": "eyJfaWQiOiAiOGNkZTMwMzE3ZmM3ZmVmNTEwNjBjZjI0MDUwYTU1NTEiLCAic2NvcmUiOiAxLjEyNTA0NzI5MTIyNTMwODd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,129 +136,150 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8187448?t=gh_src=&gh_jid=8187448",
-  "companyDomain": "robinhood.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a7f9760e316e94a76b4e2c5c6337d5a6_288_160?Expires=1861920000&Signature=mZQkCJ5Bp88JcFNaatMwUGHk4hZDC1ArvjUF0p4CWPQVmj3GTpnbw",
-  "companyId": "Robinhood",
-  "companySlug": "robinhood",
-  "companyName": "Robinhood",
-  "companyStaffCount": 4837,
+  "applyUrl": "https://jobs.lever.co/goodleap/a7b72bf6-42cc-47dd-8b2b-2a5e1e248802?lever-source%5B%5D=careers.nea.com",
+  "companyDomain": "goodleap.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b348d7a2476387a5ba1f889319c2a639_256_160?Expires=1861920000&Signature=tiLAGpyB2DahspzNGnyZdJoRHol5NnKEKcRIKqQ4eE17a7QjWXqHT",
+  "companyId": "GoodLeap",
+  "companySlug": "goodleap",
+  "companyName": "GoodLeap",
+  "companyStaffCount": 1296,
   "considerHosted": false,
   "departments": [
-   "Engineering Excellence"
+   "Solutions and Cross Collaboration"
   ],
   "jobTypes": [
    {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
    }
   ],
   "locations": [
-   "Toronto, Canada"
+   "West Roseville, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Toronto, Ontario, Canada",
-    "label": "Toronto",
-    "value": "Toronto, Ontario, Canada"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 80750, 'maxValue': 95000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 28.85, 'maxValue': 38.46, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Bug Tracking",
-    "label": "Bug Tracking",
-    "value": "resume:Bug Tracking"
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Business Intelligence Tools",
+    "label": "Business Intelligence Tools",
+    "value": "resume:Business Intelligence Tools"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Actionable Insights",
+    "label": "Actionable Insights",
+    "value": "resume:Actionable Insights"
    },
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:Power BI",
+    "label": "Power BI",
+    "value": "resume:Power BI"
    },
    {
-    "id": "resume:Appium",
-    "label": "Appium",
-    "value": "resume:Appium"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Bug Tracking",
-    "label": "Bug Tracking",
-    "value": "resume:Bug Tracking"
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Business Intelligence Tools",
+    "label": "Business Intelligence Tools",
+    "value": "resume:Business Intelligence Tools"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Actionable Insights",
+    "label": "Actionable Insights",
+    "value": "resume:Actionable Insights"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:Power BI",
+    "label": "Power BI",
+    "value": "resume:Power BI"
    },
    {
-    "id": "resume:Appium",
-    "label": "Appium",
-    "value": "resume:Appium"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    },
    {
-    "id": "resume:Selenium",
-    "label": "Selenium",
-    "value": "resume:Selenium"
+    "id": "resume:IVR",
+    "label": "IVR",
+    "value": "resume:IVR"
    },
    {
-    "id": "resume:Case Management",
-    "label": "Case Management",
-    "value": "resume:Case Management"
+    "id": "resume:Reporting & Analysis",
+    "label": "Reporting & Analysis",
+    "value": "resume:Reporting & Analysis"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Workforce Management",
+    "label": "Workforce Management",
+    "value": "resume:Workforce Management"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 1,
+  "maxYearsExp": 3,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -270,28 +291,37 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Public",
-    "label": "Public",
-    "value": "Public"
    }
   ],
-  "fundingLV": "{'id': 'Public', 'label': 'Public', 'value': 'Public'}",
   "markets": [
+   {
+    "id": "Climate",
+    "label": "Climate",
+    "value": "Climate"
+   },
+   {
+    "id": "Energy Transition",
+    "label": "Energy Transition",
+    "value": "Energy Transition"
+   },
+   {
+    "id": "Financial Services",
+    "label": "Financial Services",
+    "value": "Financial Services"
+   },
    {
     "id": "Fintech",
     "label": "FinTech",
     "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-09-25T12:02:14Z",
-  "title": "Quality Engineer",
-  "url": "https://boards.greenhouse.io/robinhood/jobs/8187448?t=gh_src=&gh_jid=8187448",
-  "jobId": "8187448",
+  "timeStamp": "2026-09-25T16:48:33.860000Z",
+  "title": "Contact Center Analyst",
+  "url": "https://jobs.lever.co/goodleap/a7b72bf6-42cc-47dd-8b2b-2a5e1e248802",
+  "jobId": "a7b72bf6-42cc-47dd-8b2b-2a5e1e248802",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1879887319128, 'matchScore': 0, 'ageScore': 0.9879887319128087, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1912929433337, 'matchScore': 0, 'ageScore': 0.9912929433337191, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
