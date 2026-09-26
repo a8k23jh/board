@@ -1,7 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-26T13:13:39Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.firstround.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-09-26T17:16:53Z",
  "homepage": {
   "status": 200,
   "bytes": 16696
@@ -43,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "q8ch95FNp3\u2026",
+  "session.sig": "YhMuVYqnm2\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -128,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZmQ2MzAyYzIwNTA3OWVjNzQzYmE3MWUyYjJjMDlmNGQiLCAic2NvcmUiOiAxLjA1MDIxNDk3NzgxNTIwMDZ9"
+   "sequence": "eyJfaWQiOiAiNjIxZDIwYmRlM2YzZmNkYzNmOGFlMjMzZWZmZGI4NTA6RXhwbG9yZSBPbW5pIiwgInNjb3JlIjogMS4wNDYzNzA3MTE4MjQ4NDU4fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -194,19 +193,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:GD&T",
-    "label": "GD&T",
-    "value": "resume:GD&T"
-   },
-   {
-    "id": "resume:Computational Geometry",
-    "label": "Computational Geometry",
-    "value": "resume:Computational Geometry"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
    {
     "id": "resume:Structural Analysis",
@@ -214,38 +203,48 @@
     "value": "resume:Structural Analysis"
    },
    {
-    "id": "resume:Failure Analysis",
-    "label": "Failure Analysis",
-    "value": "resume:Failure Analysis"
+    "id": "resume:Computational Geometry",
+    "label": "Computational Geometry",
+    "value": "resume:Computational Geometry"
+   },
+   {
+    "id": "resume:GD&T",
+    "label": "GD&T",
+    "value": "resume:GD&T"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:GD&T",
-    "label": "GD&T",
-    "value": "resume:GD&T"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
-   {
-    "id": "resume:Computational Geometry",
-    "label": "Computational Geometry",
-    "value": "resume:Computational Geometry"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Structural Analysis",
     "label": "Structural Analysis",
     "value": "resume:Structural Analysis"
    },
    {
-    "id": "resume:Failure Analysis",
-    "label": "Failure Analysis",
-    "value": "resume:Failure Analysis"
+    "id": "resume:Computational Geometry",
+    "label": "Computational Geometry",
+    "value": "resume:Computational Geometry"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:GD&T",
+    "label": "GD&T",
+    "value": "resume:GD&T"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "manager": false,
@@ -263,11 +262,6 @@
   ],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
@@ -276,6 +270,11 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -309,7 +308,7 @@
   "jobId": "5435698008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1786449806115, 'matchScore': 0, 'ageScore': 0.978644980611497, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1744924062331, 'matchScore': 0, 'ageScore': 0.9744924062330247, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -332,6 +331,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
