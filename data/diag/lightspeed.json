@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-26T07:51:30Z",
+ "run": "2026-09-26T13:13:39Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "U1nW3eQHFw\u2026",
+  "session.sig": "0bjmjTqZWv\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjVjYzc1YWY3MjRjYzBmMzJjNjA0MWZkNTM1YjM5MjQiLCAic2NvcmUiOiAxLjE1OTIxOTU4MDE1NjI1fQ=="
+   "sequence": "eyJfaWQiOiAiM2VmYmY1MzExZDQxZjY1OTQ2Y2NhZWRhMTlhYTU4OTQiLCAic2NvcmUiOiAxLjE1MTAyNjA0NDExODgyNzF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -166,14 +166,14 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "solutions-architect",
-    "label": "Solutions Architect",
-    "value": "solutions-architect"
-   },
-   {
     "id": "sales-engineer",
     "label": "Sales Engineer",
     "value": "sales-engineer"
+   },
+   {
+    "id": "solutions-architect",
+    "label": "Solutions Architect",
+    "value": "solutions-architect"
    }
   ],
   "jobFunctions": [
@@ -202,63 +202,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 155000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Intrusion detection system",
-    "label": "Intrusion detection system",
-    "value": "resume:Intrusion detection system"
-   },
-   {
     "id": "resume:IPv4",
     "label": "IPv4",
     "value": "resume:IPv4"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:LAN-WAN",
+    "label": "LAN-WAN",
+    "value": "resume:LAN-WAN"
    },
    {
-    "id": "resume:New Business",
-    "label": "New Business",
-    "value": "resume:New Business"
-   },
-   {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Intrusion detection system",
-    "label": "Intrusion detection system",
-    "value": "resume:Intrusion detection system"
-   },
-   {
-    "id": "resume:IPv4",
-    "label": "IPv4",
-    "value": "resume:IPv4"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:New Business",
-    "label": "New Business",
-    "value": "resume:New Business"
-   },
-   {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   },
-   {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Unix",
+    "label": "Unix",
+    "value": "resume:Unix"
    },
    {
     "id": "resume:Equity",
@@ -266,9 +222,53 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Field Sales",
+    "label": "Field Sales",
+    "value": "resume:Field Sales"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:IPv4",
+    "label": "IPv4",
+    "value": "resume:IPv4"
+   },
+   {
+    "id": "resume:LAN-WAN",
+    "label": "LAN-WAN",
+    "value": "resume:LAN-WAN"
+   },
+   {
+    "id": "resume:Unix",
+    "label": "Unix",
+    "value": "resume:Unix"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Field Sales",
+    "label": "Field Sales",
+    "value": "resume:Field Sales"
+   },
+   {
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
+   },
+   {
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
+   },
+   {
+    "id": "resume:IPS",
+    "label": "IPS",
+    "value": "resume:IPS"
    }
   ],
   "manager": false,
@@ -287,9 +287,9 @@
   "minYearsExp": 3,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    },
    {
     "id": "West South",
@@ -297,9 +297,9 @@
     "value": "West South"
    },
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -322,7 +322,7 @@
   "jobId": "8099",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1926682172708, 'matchScore': 0, 'ageScore': 0.9926682172708333, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1845170276405, 'matchScore': 0, 'ageScore': 0.9845170276404321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
