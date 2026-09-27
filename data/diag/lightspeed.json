@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-27T14:09:32Z",
+ "run": "2026-09-27T18:31:02Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "VrX-zuL3aV\u2026",
+  "session.sig": "r61e2qpyNm\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTQ0ZWM3MmVhNzBhMzlmMmM0OTJiNzFiZmU3MDY0MTMiLCAic2NvcmUiOiAxLjEyNjQ4NDUxMTk5NDU5ODh9"
+   "sequence": "eyJfaWQiOiAiNTYyNzM1YWEwNWRjMzIxYzRhNjU4NGU1YzE0ZGY2NjciLCAic2NvcmUiOiAxLjEyMjQ5MTAzODI1MDM4NTl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
     "id": "principal",
     "label": "Principal",
     "value": "principal"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [],
@@ -199,6 +199,11 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 195000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
@@ -212,11 +217,6 @@
     "id": "resume:Automation",
     "label": "Automation",
     "value": "resume:Automation"
-   },
-   {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
    },
    {
     "id": "resume:Valuation",
@@ -226,6 +226,11 @@
   ],
   "requiredSkills": [
    {
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
@@ -234,18 +239,13 @@
     "id": "resume:Early Stage",
     "label": "Early-Stage",
     "value": "resume:Early Stage"
-   },
-   {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
     "id": "resume:Valuation",
@@ -269,29 +269,29 @@
   "minYearsExp": 8,
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -325,15 +325,10 @@
   "jobId": "91b7fd13-24e9-41e2-819d-3cddbfbd56ae",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1845681202107, 'matchScore': 0, 'ageScore': 0.9845681202106481, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1804114532122, 'matchScore': 0, 'ageScore': 0.9804114532121914, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -343,12 +338,17 @@
     "id": "manager",
     "label": "Manager/Senior Manager",
     "value": "manager"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid",
-   "manager"
+   "manager",
+   "senior"
   ],
   "isFeatured": false
  },
