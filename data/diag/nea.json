@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-09-27T18:31:02Z",
+ "run": "2026-09-27T22:22:04Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "SgdvApVEBy\u2026",
+  "session.sig": "fEOw0TRIT0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDY2NWZmYWQ4N2RiMWJjNjU2OGEzOTVhOTFhNjJiYTAiLCAic2NvcmUiOiAxLjA5MjE0MzMzNjk1NjAxODV9"
+   "sequence": "eyJfaWQiOiAiOTgzMDBlZmY5ODkxYzNkMTQ1M2JjM2IyM2U4Njg1ODQiLCAic2NvcmUiOiAxLjA4Mzk2MjIxNTQ4ODQyNTl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -177,14 +177,14 @@
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   },
-   {
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
@@ -194,9 +194,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 186000, 'maxValue': 195000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sales Engineering",
-    "label": "Sales Engineering",
-    "value": "resume:Sales Engineering"
+    "id": "resume:Cloud Security",
+    "label": "Cloud Security",
+    "value": "resume:Cloud Security"
+   },
+   {
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
+   },
+   {
+    "id": "resume:EDR",
+    "label": "EDR",
+    "value": "resume:EDR"
    },
    {
     "id": "resume:Incident Response",
@@ -204,48 +214,38 @@
     "value": "resume:Incident Response"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
-   },
-   {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
-   },
-   {
-    "id": "resume:Security Operations",
-    "label": "Security Operations",
-    "value": "resume:Security Operations"
+    "id": "resume:Trusted Advisor",
+    "label": "Trusted Advisor",
+    "value": "resume:Trusted Advisor"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sales Engineering",
-    "label": "Sales Engineering",
-    "value": "resume:Sales Engineering"
+    "id": "resume:Cloud Security",
+    "label": "Cloud Security",
+    "value": "resume:Cloud Security"
    },
+   {
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
+   },
+   {
+    "id": "resume:EDR",
+    "label": "EDR",
+    "value": "resume:EDR"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Incident Response",
     "label": "Incident Response",
     "value": "resume:Incident Response"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
-   },
-   {
-    "id": "resume:Security Operations",
-    "label": "Security Operations",
-    "value": "resume:Security Operations"
+    "id": "resume:Trusted Advisor",
+    "label": "Trusted Advisor",
+    "value": "resume:Trusted Advisor"
    },
    {
     "id": "resume:Technical Enablement",
@@ -253,14 +253,14 @@
     "value": "resume:Technical Enablement"
    },
    {
-    "id": "resume:Threat Hunting",
-    "label": "Threat Hunting",
-    "value": "resume:Threat Hunting"
-   },
-   {
     "id": "resume:Network Architecture",
     "label": "Network Architecture",
     "value": "resume:Network Architecture"
+   },
+   {
+    "id": "resume:Managed Security Services",
+    "label": "Managed Security Services",
+    "value": "resume:Managed Security Services"
    }
   ],
   "manager": false,
@@ -309,7 +309,7 @@
   "jobId": "8842731002",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1614856943129, 'matchScore': 0, 'ageScore': 0.9614856943128858, 'richnessScore': 2}",
+  "scores": "{'score': 1001.153986043329, 'matchScore': 0, 'ageScore': 0.9539860433290895, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
