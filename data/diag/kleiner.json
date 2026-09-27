@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-09-26T22:59:09Z",
+ "run": "2026-09-27T01:34:24Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "wJTIh6bFjL\u2026",
+  "session.sig": "rkkP_Re09o\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWRhZTBhNTA4NjkwZjM4ZjhkZWYwMTJjNzRjMWNkYzUiLCAic2NvcmUiOiAxLjA3MTExOTUzNDY0NDI5fQ=="
+   "sequence": "eyJfaWQiOiAiM2ZhYzdjZDU2M2Q4Zjk2ZTQ3YTY0NzZlZDJjMzQ1ZGMiLCAic2NvcmUiOiAxLjA2Njg2NjY3ODUwMzQ3MjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,37 +144,44 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lumafield/d9bdf407-36dc-44dc-85aa-9913f59bf442?lever-source%5B%5D=jobs.kleinerperkins.com",
-  "companyDomain": "lumafield.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
-  "companyId": "Lumafield",
-  "companySlug": "lumafield",
-  "companyName": "Lumafield",
-  "companyStaffCount": 157,
+  "applyUrl": "https://jobs.ashbyhq.com/handshake/c337b45f-8b40-4588-9315-a9d0a1560baf?utm_source=jobs.kleinerperkins.com",
+  "companyDomain": "joinhandshake.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6cb0383a5650ae1201e02f59d8e94e34_224_160?Expires=1861920000&Signature=qJtqtGOk4~SnIcwQkyyZfiW6aUt~wcAw43nVQC-xr8~RxckpWBUE0",
+  "companyId": "Handshake",
+  "companySlug": "handshake",
+  "companyName": "Handshake",
+  "companyStaffCount": 11927,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "HAI Engineering"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
+   "San Francisco, California, United States",
    "San Francisco, CA"
   ],
   "normalizedLocations": [
@@ -184,83 +191,93 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 208000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Data Structures",
+    "label": "Data Structures",
+    "value": "resume:Data Structures"
    },
    {
-    "id": "resume:FedRAMP",
-    "label": "FedRAMP",
-    "value": "resume:FedRAMP"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Data Structures",
+    "label": "Data Structures",
+    "value": "resume:Data Structures"
    },
    {
-    "id": "resume:FedRAMP",
-    "label": "FedRAMP",
-    "value": "resume:FedRAMP"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
    },
    {
-    "id": "resume:Quantitative Data",
-    "label": "Quantitative Data",
-    "value": "resume:Quantitative Data"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Operational Excellence",
-    "label": "Operational Excellence",
-    "value": "resume:Operational Excellence"
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
+   },
+   {
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
@@ -270,40 +287,56 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Medical Devices",
-    "label": "Medical Devices",
-    "value": "Medical Devices"
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
+   },
+   {
+    "id": "Workforce and Employment",
+    "label": "Workforce and Employment",
+    "value": "Workforce and Employment"
    }
   ],
-  "timeStamp": "2026-09-25T21:12:35.433000Z",
-  "title": "Head of Software",
-  "url": "https://jobs.lever.co/lumafield/d9bdf407-36dc-44dc-85aa-9913f59bf442",
-  "jobId": "d9bdf407-36dc-44dc-85aa-9913f59bf442",
+  "timeStamp": "2026-09-26T00:00:00Z",
+  "title": "Senior Software Engineer, Coding",
+  "url": "https://jobs.ashbyhq.com/handshake/c337b45f-8b40-4588-9315-a9d0a1560baf",
+  "jobId": "c337b45f-8b40-4588-9315-a9d0a1560baf",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1680763677554, 'matchScore': 0, 'ageScore': 0.9680763677554012, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1678210177214, 'matchScore': 0, 'ageScore': 0.9678210177214506, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior"
   ],
   "isFeatured": false
  },

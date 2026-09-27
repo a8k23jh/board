@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-26T22:59:09Z",
+ "run": "2026-09-27T01:34:24Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "yHProw1GQQ\u2026",
+  "session.sig": "3sEh3MwJ2N\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWU0NjY4YzVmMjJiYTFkZjkxMzI0MGYzMDY3NTljZDUiLCAic2NvcmUiOiAxLjA5MzczMDQ2NTExMTExMX0="
+   "sequence": "eyJfaWQiOiAiMTMwMzkyNmZlOWE1NTliNDI1MjhjZDJkY2JmNDQzNzkiLCAic2NvcmUiOiAxLjA5NjAxMTMyNTgzMTQwNDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,80 +152,65 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/ramp/314d4881-e8f2-4e61-a102-3469f9566759?utm_source=jobs.bvp.com",
-  "companyDomain": "ramp.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2d7237f451ba546eda10ef39996ea406_208_160?Expires=1861920000&Signature=jyt4qwdrX1siWldM1FTld1tW~QIIfQnJx9u~AZ7-vH-ZczFAKh2Fw",
-  "companyId": "Ramp",
-  "companySlug": "ramp",
-  "companyName": "Ramp",
-  "companyStaffCount": 12108,
+  "applyUrl": "https://jobs.ashbyhq.com/current-advisors/8195ec4e-a927-4fbf-bacc-e3b8a7e5edbb?utm_source=jobs.bvp.com",
+  "companyDomain": "current.co",
+  "companyLogos": "{'linkedin': {'height': 100, 'src': 'https://dzh2zima160vx.cloudfront.net/profile/fdb148b44f804227f4a2c47e25dc1c52_100_100?Expires=1893456000&Signature=lzzklHF0NF0MpZluGnC3j6JhJxBElxy1DtDuX3V2Jgm1JD2K",
+  "companyId": "Current co",
+  "companySlug": "current-co",
+  "companyName": "Current",
+  "companyStaffCount": 125,
   "considerHosted": false,
   "departments": [
-   "Legal"
+   "RRBB Accountants + Advisors"
   ],
   "jobTypes": [
    {
-    "id": "paralegal",
-    "label": "Paralegal",
-    "value": "paralegal"
+    "id": "taxes-professional",
+    "label": "Taxes Professional",
+    "value": "taxes-professional"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Legal",
-    "label": "Legal",
-    "value": "Legal"
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
    }
   ],
   "locations": [
-   "New York City, NY, USA",
-   "New York, NY (HQ)",
-   "San Francisco, CA"
+   "Somerset, New Jersey, United States",
+   "Somerset, NJ",
+   "Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "Somerset, New Jersey",
+    "label": "Somerset, New Jersey",
+    "value": "Somerset, New Jersey"
    },
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "New Jersey",
+    "label": "New Jersey",
+    "value": "New Jersey"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 185000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 110000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Client Relations",
+    "label": "Client Relations",
+    "value": "resume:Client Relations"
    },
    {
     "id": "resume:Finance",
@@ -233,53 +218,58 @@
     "value": "resume:Finance"
    },
    {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:CPA",
+    "label": "CPA",
+    "value": "resume:CPA"
+   },
+   {
+    "id": "resume:Trusted Advisor",
+    "label": "Trusted Advisor",
+    "value": "resume:Trusted Advisor"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Client Relations",
+    "label": "Client Relations",
+    "value": "resume:Client Relations"
    },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Finance",
     "label": "Finance",
     "value": "resume:Finance"
    },
    {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:CPA",
+    "label": "CPA",
+    "value": "resume:CPA"
    },
    {
-    "id": "resume:Litigation",
-    "label": "Litigation",
-    "value": "resume:Litigation"
+    "id": "resume:Trusted Advisor",
+    "label": "Trusted Advisor",
+    "value": "resume:Trusted Advisor"
    },
    {
-    "id": "resume:IPO",
-    "label": "IPO",
-    "value": "resume:IPO"
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
    },
    {
-    "id": "resume:EMEA",
-    "label": "EMEA",
-    "value": "resume:EMEA"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    }
   ],
   "manager": false,
@@ -298,9 +288,9 @@
   "minYearsExp": 6,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "East Coast",
@@ -313,54 +303,58 @@
     "value": "Mid Atlantic"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "Financial Services",
+    "label": "Financial Services",
+    "value": "Financial Services"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
   "timeStamp": "2026-09-26T00:00:00Z",
-  "title": "Senior Corporate Paralegal",
-  "url": "https://jobs.ashbyhq.com/ramp/314d4881-e8f2-4e61-a102-3469f9566759",
-  "jobId": "314d4881-e8f2-4e61-a102-3469f9566759",
-  "remote": false,
+  "title": "Tax Manager",
+  "url": "https://jobs.ashbyhq.com/current-advisors/8195ec4e-a927-4fbf-bacc-e3b8a7e5edbb",
+  "jobId": "8195ec4e-a927-4fbf-bacc-e3b8a7e5edbb",
+  "remote": true,
   "hybrid": true,
-  "scores": "{'score': 1001.1710860530417, 'matchScore': 0, 'ageScore': 0.9710860530416666, 'richnessScore': 2}",
+  "scores": "{'score': 1001.167272751461, 'matchScore': 0, 'ageScore': 0.967272751461034, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
