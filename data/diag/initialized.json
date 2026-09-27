@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-09-27T01:34:24Z",
+ "run": "2026-09-27T08:21:34Z",
  "homepage": {
   "status": 200,
   "bytes": 20921
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1h92wSV8Uu\u2026",
+  "session.sig": "7mO5v017oH\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWE2MThiMzQwNzA3MmI2YjI5ZDI4ODA3ZDJmYTllMGMiLCAic2NvcmUiOiAxMDAuMn0="
+   "sequence": "eyJfaWQiOiAiZThlZmQwYzNkZDUwY2E4ZThmYjEzZjI0NWEwMmEwMTQiLCAic2NvcmUiOiAxMDAuMn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "director-engineering",
-    "label": "Director of Engineering",
-    "value": "director-engineering"
-   },
-   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
+   },
+   {
+    "id": "director-engineering",
+    "label": "Director of Engineering",
+    "value": "director-engineering"
    }
   ],
   "jobFunctions": [
@@ -184,71 +184,27 @@
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
-   },
-   {
     "id": "California",
     "label": "California",
     "value": "California"
+   },
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
-   },
-   {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Goods",
     "label": "Goods",
     "value": "resume:Goods"
-   },
-   {
-    "id": "resume:Demand Forecasting",
-    "label": "Demand Forecasting",
-    "value": "resume:Demand Forecasting"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
-   },
-   {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Goods",
-    "label": "Goods",
-    "value": "resume:Goods"
-   },
-   {
-    "id": "resume:Demand Forecasting",
-    "label": "Demand Forecasting",
-    "value": "resume:Demand Forecasting"
    },
    {
     "id": "resume:Infrastructure",
@@ -256,14 +212,58 @@
     "value": "resume:Infrastructure"
    },
    {
+    "id": "resume:Demand Forecasting",
+    "label": "Demand Forecasting",
+    "value": "resume:Demand Forecasting"
+   },
+   {
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Goods",
+    "label": "Goods",
+    "value": "resume:Goods"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Demand Forecasting",
+    "label": "Demand Forecasting",
+    "value": "resume:Demand Forecasting"
+   },
+   {
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
+   },
+   {
     "id": "resume:Marketplace",
     "label": "Marketplace",
     "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    }
   ],
   "manager": true,
@@ -277,9 +277,9 @@
   ],
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -287,9 +287,9 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -323,7 +323,7 @@
   "jobId": "ded30142-b191-44f1-8872-5efa001754f9",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1101.1003053673642, 'matchScore': 0, 'ageScore': 0.9003053673641975, 'richnessScore': 2}",
+  "scores": "{'score': 1101.092275683747, 'matchScore': 0, 'ageScore': 0.8922756837469136, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
