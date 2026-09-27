@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-27T08:21:34Z",
+ "run": "2026-09-27T14:09:32Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TSjWUtIOqj\u2026",
+  "session.sig": "XSWcPth0qX\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDkzZjRmMGQ0MzZiZDcyZDU0NjhhYzY5YmQ0YWQ0YjciLCAic2NvcmUiOiAxLjA3NDMwMzMzMTA3NDg0NTh9"
+   "sequence": "eyJfaWQiOiAiMTZkMDc1MmY2MDgyNTIzNzhkNTZmMzg2NWY2ZDhmNWQiLCAic2NvcmUiOiAxLjA2NzU4MDM4NzM2ODA1NTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,108 +147,143 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://app.careerpuck.com/job-board/prenuvo/job/4737713005",
-  "companyDomain": "prenuvo.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f855494ad06dbd721840918e60608cc8_224_160?Expires=1861920000&Signature=F2KsitJcPnsGLTQzMVD4Ftje4BCUz1jm~hj5Mb1raR1Vzkp~b6xD~",
-  "companyId": "Prenuvo",
-  "companySlug": "prenuvo",
-  "companyName": "Prenuvo",
-  "companyStaffCount": 422,
+  "applyUrl": "https://jobs.ashbyhq.com/assorthealth/91b7fd13-24e9-41e2-819d-3cddbfbd56ae?utm_source=jobs.felicis.com",
+  "companyDomain": "assorthealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/fd1ba5e488ea7a2603af7f75d2f697fc_320_160?Expires=1861920000&Signature=LXaWIHp0mSu2S0heETKox3P8mp5hkereiDVb8dYRKn-cOiDzI~3ku",
+  "companyId": "Assort Health",
+  "companySlug": "assort-health",
+  "companyName": "Assort Health",
+  "companyStaffCount": 245,
   "considerHosted": false,
-  "departments": [],
-  "jobTypes": [],
+  "departments": [
+   "330-Agent Strategy"
+  ],
+  "jobTypes": [
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "principal",
+    "label": "Principal",
+    "value": "principal"
+   }
+  ],
   "jobFunctions": [],
   "locations": [
-   "Vancouver, British Columbia, Canada"
+   "San Francisco, California, United States",
+   "San Francisco",
+   "New York"
   ],
   "normalizedLocations": [
    {
-    "id": "Vancouver, British Columbia, Canada",
-    "label": "Vancouver, British Columbia, Canada",
-    "value": "Vancouver, British Columbia, Canada"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 83000, 'maxValue': 93500, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 195000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Application Software",
-    "label": "Application Software",
-    "value": "resume:Application Software"
-   },
-   {
-    "id": "resume:Background Checks",
-    "label": "Background Checks",
-    "value": "resume:Background Checks"
-   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
+   },
+   {
+    "id": "resume:Valuation",
+    "label": "Valuation",
+    "value": "resume:Valuation"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Application Software",
-    "label": "Application Software",
-    "value": "resume:Application Software"
-   },
-   {
-    "id": "resume:Background Checks",
-    "label": "Background Checks",
-    "value": "resume:Background Checks"
-   }
-  ],
-  "preferredSkills": [
-   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
    },
    {
-    "id": "resume:Experimentation",
-    "label": "Experimentation",
-    "value": "resume:Experimentation"
-   },
-   {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
-   },
-   {
-    "id": "resume:Magnetic Resonance Imaging",
-    "label": "Magnetic Resonance Imaging",
-    "value": "resume:Magnetic Resonance Imaging"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    }
   ],
-  "manager": false,
+  "preferredSkills": [
+   {
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
+   },
+   {
+    "id": "resume:Valuation",
+    "label": "Valuation",
+    "value": "resume:Valuation"
+   }
+  ],
+  "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -258,30 +293,55 @@
     "value": "100-1000 employees"
    },
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Medical Devices",
-    "label": "Medical Devices",
-    "value": "Medical Devices"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Healthcare",
+    "label": "Healthcare",
+    "value": "Healthcare"
    }
   ],
-  "timeStamp": "2026-09-25T20:11:15.171000Z",
-  "title": "MRI Technologist",
-  "url": "https://app.careerpuck.com/job-board/prenuvo/job/4737713005",
-  "jobId": "rSf7vSH0",
+  "timeStamp": "2026-09-27T00:00:00Z",
+  "title": "Principal Agent Strategy Manager, Health Systems",
+  "url": "https://jobs.ashbyhq.com/assorthealth/91b7fd13-24e9-41e2-819d-3cddbfbd56ae",
+  "jobId": "91b7fd13-24e9-41e2-819d-3cddbfbd56ae",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1539682790984, 'matchScore': 0, 'ageScore': 0.9539682790983797, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1845681202107, 'matchScore': 0, 'ageScore': 0.9845681202106481, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
+   }
+  ],
+  "jobSeniorityIds": [
+   "senior",
+   "mid",
+   "manager"
+  ],
   "isFeatured": false
  },
  "search_mode": {
