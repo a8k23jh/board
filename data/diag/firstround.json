@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-28T15:39:02Z",
+ "run": "2026-09-28T22:09:20Z",
  "homepage": {
   "status": 200,
   "bytes": 16696
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "DLBOP3XOGb\u2026",
+  "session.sig": "0a1Q5ticpx\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDM4ODdlYTgxMzY5NWMzYjk1NDVlYzQ0ZTVhNzJkMDMiLCAic2NvcmUiOiAwLjk3NTIxMDc1MjE4NzExNDN9"
+   "sequence": "eyJfaWQiOiAiYmY4OTAwNmFlNDZmNzU4ZDMyOTIzZDVhMmVjOTM2OGQiLCAic2NvcmUiOiAwLjk3MTM5Mjk1NDAzMzU2NDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,117 +155,128 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/studsinc/jobs/6209136004",
-  "companyDomain": "studs.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/928cc14370271b5bf1ed1e2cd0f89b69_192_160?Expires=1861920000&Signature=aUPXDUpPVxKoYqNFh7KhHxjFQHByuvTL2tiKY7~kxJ-4SGSbLu7S-",
-  "companyId": "Studs",
-  "companySlug": "studs",
-  "companyName": "Studs",
-  "companyStaffCount": 205,
+  "applyUrl": "https://job-boards.greenhouse.io/singlestore/jobs/8185161",
+  "companyDomain": "singlestore.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1af05bf3e4b78b565199307cec69f083_321_160?Expires=1861920000&Signature=RQXH0iwGmFea7xdeJ0c0ZI0j8SmSo0QiJCTkfrVGBYUGCaOH3lbf9",
+  "companyId": "SingleStore",
+  "companySlug": "singlestore",
+  "companyName": "SingleStore",
+  "companyStaffCount": 559,
   "considerHosted": false,
   "departments": [
-   "Sales (SAL)"
+   "Engine"
   ],
   "jobTypes": [
    {
-    "id": "supervisor",
-    "label": "Supervisor",
-    "value": "supervisor"
-   },
-   {
-    "id": "freelance",
-    "label": "Contractor",
-    "value": "freelance"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "59 Pier 4 Blvd Boston, MA 02210"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Greater Boston Area",
-    "label": "Boston",
-    "value": "Greater Boston Area"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 18.5, 'maxValue': 18.5, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 210000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Cloud Native",
+    "label": "Cloud Native",
+    "value": "resume:Cloud Native"
    },
    {
-    "id": "resume:Sales Support",
-    "label": "Sales Support",
-    "value": "resume:Sales Support"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:JDBC",
+    "label": "JDBC",
+    "value": "resume:JDBC"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Cloud Native",
+    "label": "Cloud Native",
+    "value": "resume:Cloud Native"
    },
    {
-    "id": "resume:Sales Support",
-    "label": "Sales Support",
-    "value": "resume:Sales Support"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:JDBC",
+    "label": "JDBC",
+    "value": "resume:JDBC"
+   },
+   {
+    "id": "resume:DBMS",
+    "label": "DBMS",
+    "value": "resume:DBMS"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
-  "contractor": true,
-  "considerLevels": [],
+  "contractor": false,
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 10,
   "regions": [
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -287,29 +298,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Retail",
-    "label": "Retail",
-    "value": "Retail"
+    "id": "Data & Analytics",
+    "label": "Data & Analytics",
+    "value": "Data & Analytics"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
    }
   ],
-  "timeStamp": "2026-09-27T19:39:11Z",
-  "title": "Store Supervisor (Part-Time)",
-  "url": "https://job-boards.greenhouse.io/studsinc/jobs/6209136004",
-  "jobId": "6209136004",
-  "remote": false,
+  "timeStamp": "2026-09-28T08:13:06Z",
+  "title": "Staff Software Engineer",
+  "url": "https://job-boards.greenhouse.io/singlestore/jobs/8185161",
+  "jobId": "8185161",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1742491028734, 'matchScore': 0, 'ageScore': 0.9742491028734568, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1834788374514, 'matchScore': 0, 'ageScore': 0.9834788374513889, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
