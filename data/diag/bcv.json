@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-29T02:04:35Z",
+ "run": "2026-09-29T08:43:06Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TZnFEmghE9\u2026",
+  "session.sig": "TrHGdv5zEx\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYmY1NmIwYTM4YjU1YzllMDJjMzUxOWQ2MDk0ODIxMmIiLCAic2NvcmUiOiAxLjAxMzQ5NDg1NzE0NDY3Nn0="
+   "sequence": "eyJfaWQiOiAiZWNiMWNmZTQxZjQ3ZjZmYmI5YTU5MGE1ZjVhNzc0MzYiLCAic2NvcmUiOiAxLjAxOTIxODMyOTAyNDMwNTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -174,6 +174,11 @@
   "departments": [],
   "jobTypes": [
    {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
+   },
+   {
     "id": "sales-professional",
     "label": "Sales Professional",
     "value": "sales-professional"
@@ -182,11 +187,6 @@
     "id": "sales",
     "label": "Sales",
     "value": "sales"
-   },
-   {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
    }
   ],
   "jobFunctions": [
@@ -209,63 +209,63 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 26.3, 'maxValue': 36.2, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
+   },
+   {
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
+   },
+   {
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
+   },
+   {
     "id": "resume:Salesforce",
     "label": "Salesforce",
     "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Sales Forecasting",
-    "label": "Sales Forecasting",
-    "value": "resume:Sales Forecasting"
-   },
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Software Sales",
-    "label": "Software Sales",
-    "value": "resume:Software Sales"
+    "id": "resume:AES",
+    "label": "AES",
+    "value": "resume:AES"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
+   },
+   {
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
+   },
+   {
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
+   }
+  ],
+  "preferredSkills": [
+   {
     "id": "resume:Salesforce",
     "label": "Salesforce",
     "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Sales Forecasting",
-    "label": "Sales Forecasting",
-    "value": "resume:Sales Forecasting"
+    "id": "resume:AES",
+    "label": "AES",
+    "value": "resume:AES"
    },
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Software Sales",
-    "label": "Software Sales",
-    "value": "resume:Software Sales"
-   },
-   {
-    "id": "resume:Sales Presentations",
-    "label": "Sales Presentations",
-    "value": "resume:Sales Presentations"
+    "id": "resume:Direct Sales",
+    "label": "Direct Sales",
+    "value": "resume:Direct Sales"
    },
    {
     "id": "resume:SMB",
@@ -273,9 +273,9 @@
     "value": "resume:SMB"
    },
    {
-    "id": "resume:Post-sales",
-    "label": "Post-sales",
-    "value": "resume:Post-sales"
+    "id": "resume:Software Sales",
+    "label": "Software Sales",
+    "value": "resume:Software Sales"
    }
   ],
   "manager": false,
@@ -289,9 +289,9 @@
   ],
   "regions": [
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
    },
    {
     "id": "North America",
@@ -299,14 +299,14 @@
     "value": "North America"
    },
    {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
-   },
-   {
     "id": "Rust Belt",
     "label": "Great Lakes Region",
     "value": "Rust Belt"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    }
   ],
   "stages": [
@@ -329,7 +329,7 @@
   "jobId": "30401",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.198190412718, 'matchScore': 0, 'ageScore': 0.9981904127179784, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1903926674742, 'matchScore': 0, 'ageScore': 0.9903926674741512, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

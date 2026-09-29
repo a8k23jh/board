@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-29T02:04:35Z",
+ "run": "2026-09-29T08:43:06Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "OGZbmysaqc\u2026",
+  "session.sig": "5dl9vX4kTV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjA1NGU4YjRhOTZiNDc0OTgzMzM5YzVmMDA2ZTNiNjIiLCAic2NvcmUiOiAxLjA3NjcwNzU0NTA2MzY1NzR9"
+   "sequence": "eyJfaWQiOiAiMzg5NDBiMWE0YzBlZWMyMDcxZjIyMDg5NmJlNWVlOTciLCAic2NvcmUiOiAxLjA3OTc1ODAwMDI1MzA4NjR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,122 +128,132 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/vercel/jobs/6209001004",
-  "companyDomain": "vercel.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3aebce305d02e8016a2802f154dc7fbd_256_160?Expires=1861920000&Signature=EDSnmPk-oZeT58HDw5bbBJFXm4XOJ0Hl9PVLDaf-xJe~A2cmL45kh",
-  "companyId": "Vercel",
-  "companySlug": "vercel",
-  "companyName": "Vercel",
-  "companyStaffCount": 957,
+  "applyUrl": "https://jobs.lever.co/prosper/01025cc7-23aa-462d-9a17-78efe34c9fe5?lever-source%5B%5D=careers.ivp.com",
+  "companyDomain": "prosper.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7c783c77cc1afa466b1dcff2c303c713_224_160?Expires=1861920000&Signature=UbrkRFGF3~gMqOE54GTVFKAAOfNoYoXCsVqqY0FYhXavU1wg97sSK",
+  "companyId": "Prosper Marketplace",
+  "companySlug": "prosper-marketplace",
+  "companyName": "Prosper Marketplace",
+  "companyStaffCount": 475,
   "considerHosted": false,
   "departments": [
-   "Product"
+   "Operations"
   ],
   "jobTypes": [
    {
-    "id": "product-manager",
-    "label": "Product Manager",
-    "value": "product-manager"
+    "id": "compliance-risk",
+    "label": "Risk & Compliance Manager",
+    "value": "compliance-risk"
+   },
+   {
+    "id": "operations-manager",
+    "label": "Operations Manager",
+    "value": "operations-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Product Management",
-    "label": "Product Management",
-    "value": "Product Management"
+    "id": "Auditing",
+    "label": "Auditing",
+    "value": "Auditing"
+   },
+   {
+    "id": "Distribution",
+    "label": "Distribution",
+    "value": "Distribution"
    }
   ],
   "locations": [
-   "Hybrid - San Francisco"
+   "Phoenix, AZ"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Phoenix, Arizona",
+    "label": "Phoenix, Arizona",
+    "value": "Phoenix, Arizona"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 208000, 'maxValue': 312000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 20, 'maxValue': 20, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:FMLA",
+    "label": "FMLA",
+    "value": "resume:FMLA"
    },
    {
-    "id": "resume:Product Analytics",
-    "label": "Product Analytics",
-    "value": "resume:Product Analytics"
+    "id": "resume:Peer to Peer",
+    "label": "Peer to Peer",
+    "value": "resume:Peer to Peer"
    },
    {
-    "id": "resume:concurrency",
-    "label": "Concurrency Design",
-    "value": "resume:concurrency"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Anchor",
-    "label": "Anchor",
-    "value": "resume:Anchor"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:FMLA",
+    "label": "FMLA",
+    "value": "resume:FMLA"
    },
    {
-    "id": "resume:Product Analytics",
-    "label": "Product Analytics",
-    "value": "resume:Product Analytics"
+    "id": "resume:Peer to Peer",
+    "label": "Peer to Peer",
+    "value": "resume:Peer to Peer"
    },
    {
-    "id": "resume:concurrency",
-    "label": "Concurrency Design",
-    "value": "resume:concurrency"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Anchor",
-    "label": "Anchor",
-    "value": "resume:Anchor"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Serverless",
-    "label": "Serverless",
-    "value": "resume:Serverless"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Developer Platform",
-    "label": "Developer Platform",
-    "value": "resume:Developer Platform"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
    }
   ],
   "manager": false,
@@ -251,12 +261,12 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
   "regions": [
@@ -264,16 +274,6 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -281,28 +281,22 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer Software",
-    "label": "Computer Software",
-    "value": "Computer Software"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-09-28T18:08:11Z",
-  "title": "Product Manager, Compute",
-  "url": "https://job-boards.greenhouse.io/vercel/jobs/6209001004",
-  "jobId": "6209001004",
+  "timeStamp": "2026-09-28T21:47:11.181000Z",
+  "title": "Risk Operations Specialist",
+  "url": "https://jobs.lever.co/prosper/01025cc7-23aa-462d-9a17-78efe34c9fe5",
+  "jobId": "01025cc7-23aa-462d-9a17-78efe34c9fe5",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1927213949472, 'matchScore': 0, 'ageScore': 0.9927213949471451, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1894032419333, 'matchScore': 0, 'ageScore': 0.9894032419332561, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
