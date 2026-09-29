@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-09-29T15:59:37Z",
+ "run": "2026-09-29T20:54:24Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "_PpZ3D6PH1\u2026",
+  "session.sig": "aeK2V6BxeB\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWFkNTBmYzc1ZDdkNDYyYmFlZTFmZDI2MzZhMDYzMWMiLCAic2NvcmUiOiAxLjAyNjU3Mzc4MjMzOTEyMDN9"
+   "sequence": "eyJfaWQiOiAiNGZjYjI3NWVhNDE1NGMwN2ZhZWE0MTQzMWE0YjJkZGUiLCAic2NvcmUiOiAxLjAzNDg5ODcwMDQ3MjIyMjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,49 +144,54 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lumafield/3785b6dc-76b6-48ed-9456-cac53a3830a5?lever-source%5B%5D=jobs.kleinerperkins.com",
-  "companyDomain": "lumafield.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
-  "companyId": "Lumafield",
-  "companySlug": "lumafield",
-  "companyName": "Lumafield",
-  "companyStaffCount": 157,
+  "applyUrl": "https://boards.greenhouse.io/figma/jobs/6207950004?gh_jid=6207950004",
+  "companyDomain": "figma.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f3610e22dff6c27a372478480750729b_161_160?Expires=1861920000&Signature=sZvplca-OsnAQuPbdLM76aW3Kd1SKEdmyatwFs-Mi6v6xIQxDG9zJ",
+  "companyId": "Figma",
+  "companySlug": "figma",
+  "companyName": "Figma",
+  "companyStaffCount": 3124,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Marketing"
   ],
   "jobTypes": [
    {
-    "id": "infrastructure-engineer",
-    "label": "Infrastructure Engineer",
-    "value": "infrastructure-engineer"
+    "id": "content-strategist",
+    "label": "Content Strategist",
+    "value": "content-strategist"
    },
    {
-    "id": "network-engineer",
-    "label": "Network Engineer",
-    "value": "network-engineer"
+    "id": "editor",
+    "label": "Editor",
+    "value": "editor"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Writing / Editing",
+    "label": "Writing / Editing",
+    "value": "Writing / Editing"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "San Francisco, CA"
+   "San Francisco, CA \u2022 New York, NY \u2022 United States"
   ],
   "normalizedLocations": [
    {
@@ -195,82 +200,92 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 127000, 'maxValue': 269000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Case Studies",
+    "label": "Case Studies",
+    "value": "resume:Case Studies"
    },
    {
-    "id": "resume:Docker",
-    "label": "Docker",
-    "value": "resume:Docker"
+    "id": "resume:Podcasting",
+    "label": "Podcasting",
+    "value": "resume:Podcasting"
    },
    {
-    "id": "resume:Field Service",
-    "label": "Field Service",
-    "value": "resume:Field Service"
+    "id": "resume:Interviewing",
+    "label": "Interviewing",
+    "value": "resume:Interviewing"
    },
    {
-    "id": "resume:Ansible",
-    "label": "Ansible",
-    "value": "resume:Ansible"
+    "id": "resume:Tool Design",
+    "label": "Tool Design",
+    "value": "resume:Tool Design"
    },
    {
-    "id": "resume:Prototyping",
-    "label": "Prototyping",
-    "value": "resume:Prototyping"
+    "id": "resume:Product Design",
+    "label": "Product Design",
+    "value": "resume:Product Design"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Case Studies",
+    "label": "Case Studies",
+    "value": "resume:Case Studies"
    },
    {
-    "id": "resume:Docker",
-    "label": "Docker",
-    "value": "resume:Docker"
+    "id": "resume:Podcasting",
+    "label": "Podcasting",
+    "value": "resume:Podcasting"
    },
    {
-    "id": "resume:Field Service",
-    "label": "Field Service",
-    "value": "resume:Field Service"
+    "id": "resume:Interviewing",
+    "label": "Interviewing",
+    "value": "resume:Interviewing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Ansible",
-    "label": "Ansible",
-    "value": "resume:Ansible"
+    "id": "resume:Tool Design",
+    "label": "Tool Design",
+    "value": "resume:Tool Design"
    },
    {
-    "id": "resume:Prototyping",
-    "label": "Prototyping",
-    "value": "resume:Prototyping"
+    "id": "resume:Product Design",
+    "label": "Product Design",
+    "value": "resume:Product Design"
    },
    {
-    "id": "resume:Server Administration",
-    "label": "Server Administration",
-    "value": "resume:Server Administration"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Front-end Development",
+    "label": "Frontend Web Development",
+    "value": "resume:Front-end Development"
    },
    {
-    "id": "resume:Encryption",
-    "label": "Encryption",
-    "value": "resume:Encryption"
+    "id": "resume:Content Development",
+    "label": "Content Development",
+    "value": "resume:Content Development"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "West Coast",
@@ -290,25 +305,36 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Medical Devices",
-    "label": "Medical Devices",
-    "value": "Medical Devices"
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-09-28T17:33:34.703000Z",
-  "title": "Infrastructure Engineer, On-Prem Systems",
-  "url": "https://jobs.lever.co/lumafield/3785b6dc-76b6-48ed-9456-cac53a3830a5",
-  "jobId": "3785b6dc-76b6-48ed-9456-cac53a3830a5",
+  "timeStamp": "2026-09-29T08:48:17Z",
+  "title": "Content Strategist, Product",
+  "url": "https://boards.greenhouse.io/figma/jobs/6207950004?gh_jid=6207950004",
+  "jobId": "6207950004",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1704161970216, 'matchScore': 0, 'ageScore': 0.970416197021605, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1880079495745, 'matchScore': 0, 'ageScore': 0.9880079495744599, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

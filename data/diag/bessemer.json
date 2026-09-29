@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-09-29T15:59:37Z",
+ "run": "2026-09-29T20:54:24Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "zcXFOIEA_4\u2026",
+  "session.sig": "cVLPq49A7Z\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDE1MzBmMjYwYzFkMGE2ZTlhMDNmMzExMDI4MTQyMTAiLCAic2NvcmUiOiAxLjA3OTcwMjAxMDg2NjUxMjN9"
+   "sequence": "eyJfaWQiOiAiMzdiOTk1ZjNjN2QyMzUxNmU2MTUzNDIwNjQ0MDFlM2EiLCAic2NvcmUiOiAxLjA3NTg4NzYyNzgzNDQ5MDl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,39 +152,43 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/fireworks/d56d136d-2bcd-4331-bb0e-7dd6876570ad?utm_source=jobs.bvp.com",
-  "companyDomain": "fireworks.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/40b3918a0960959c31d888e088bb965a_320_160?Expires=1861920000&Signature=UjSzeT~6BqdE5R2QnlcKR8samdbxLAm3eMZWqs6vNVYfD9dHTfpKe",
-  "companyId": "Fireworks AI",
-  "companySlug": "fireworks-ai",
-  "companyName": "Fireworks AI",
-  "companyStaffCount": 355,
+  "applyUrl": "https://glginsights.com/careers/jobs/8005441003?gh_jid=8005441003",
+  "companyDomain": "glginsights.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2ebfe7eb204a15f7a9e9fd65accc7d53_128_160?Expires=1861920000&Signature=WQ1hWmDltiMBEnRzwfgcShqaJ~d5tqjiOGKU50sCb3fi8it9bHfPG",
+  "companyId": "GLG",
+  "companySlug": "glg",
+  "companyName": "GLG",
+  "companyStaffCount": 12307,
   "considerHosted": false,
   "departments": [
-   "Solution Architects"
+   "Global FS"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "San Mateo, California, United States",
-   "San Mateo",
    "New York"
   ],
   "normalizedLocations": [
@@ -192,156 +196,144 @@
     "id": "New York",
     "label": "New York",
     "value": "New York"
-   },
-   {
-    "id": "San Mateo, California",
-    "label": "San Mateo, California",
-    "value": "San Mateo, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 270000, 'maxValue': 310000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 81000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:D programming language",
-    "label": "D programming language",
-    "value": "resume:D programming language"
+    "id": "resume:Hedge Funds",
+    "label": "Hedge Funds",
+    "value": "resume:Hedge Funds"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Performance Metrics",
+    "label": "Performance Metrics",
+    "value": "resume:Performance Metrics"
    },
    {
-    "id": "resume:Technical Architecture",
-    "label": "Technical Architecture",
-    "value": "resume:Technical Architecture"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    },
    {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
+    "id": "resume:Client Acquisition",
+    "label": "Client Acquisition",
+    "value": "resume:Client Acquisition"
    },
    {
-    "id": "resume:POC",
-    "label": "POC",
-    "value": "resume:POC"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:D programming language",
-    "label": "D programming language",
-    "value": "resume:D programming language"
+    "id": "resume:Hedge Funds",
+    "label": "Hedge Funds",
+    "value": "resume:Hedge Funds"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Performance Metrics",
+    "label": "Performance Metrics",
+    "value": "resume:Performance Metrics"
    },
    {
-    "id": "resume:Technical Architecture",
-    "label": "Technical Architecture",
-    "value": "resume:Technical Architecture"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
+    "id": "resume:Client Acquisition",
+    "label": "Client Acquisition",
+    "value": "resume:Client Acquisition"
    },
    {
-    "id": "resume:POC",
-    "label": "POC",
-    "value": "resume:POC"
-   },
-   {
-    "id": "resume:Pre-sales",
-    "label": "Pre-sales",
-    "value": "resume:Pre-sales"
-   },
-   {
-    "id": "resume:Scalability",
-    "label": "Scalability",
-    "value": "resume:Scalability"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    },
    {
     "id": "resume:Research",
     "label": "Research",
     "value": "resume:Research"
+   },
+   {
+    "id": "resume:Private Equity",
+    "label": "Private Equity",
+    "value": "resume:Private Equity"
+   },
+   {
+    "id": "resume:Pipeline Management",
+    "label": "Pipeline Management",
+    "value": "resume:Pipeline Management"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
    {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Information Services",
+    "label": "Information Services",
+    "value": "Information Services"
    }
   ],
-  "timeStamp": "2026-09-29T00:00:00Z",
-  "title": "Manager, Field Engineering",
-  "url": "https://jobs.ashbyhq.com/fireworks/d56d136d-2bcd-4331-bb0e-7dd6876570ad",
-  "jobId": "d56d136d-2bcd-4331-bb0e-7dd6876570ad",
+  "timeStamp": "2026-09-29T11:37:50Z",
+  "title": "Senior Sales Executive, New Business",
+  "url": "https://glginsights.com/careers/jobs/8005441003?gh_jid=8005441003",
+  "jobId": "8005441003",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1800558894332, 'matchScore': 0, 'ageScore': 0.9800558894332562, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1917470554398, 'matchScore': 0, 'ageScore': 0.9917470554398148, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "manager",
     "label": "Manager/Senior Manager",
@@ -349,6 +341,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "manager"
   ],
   "isFeatured": false
