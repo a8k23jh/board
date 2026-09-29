@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-29T08:43:06Z",
+ "run": "2026-09-29T15:59:37Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "CvQPd9-1tX\u2026",
+  "session.sig": "vcPtESBi5Q\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzQ0MTBjNTE1ZDQ4NmMzMmIzYWRiZjZjYTJkODE3MWQiLCAic2NvcmUiOiAxLjA4MjMzMTE0OTU1MDkyNn0="
+   "sequence": "eyJfaWQiOiAiMTRkMjdmZmJlYzczZGEzOTYyNGNkMDg3ODkxNWRlYTYiLCAic2NvcmUiOiAxLjA3NDU3MjM4MzQyNDM4Mjh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,136 +144,137 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/outreach/6d7385d5-05e4-4de3-9877-139da7dac605?lever-source%5B%5D=jobs.sequoiacap.com",
-  "companyDomain": "outreach.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1319ddd61630b2dff622ecb258aafbe1_320_160?Expires=1861920000&Signature=qPsncPTTBSwLj4pbdDKJD93OwBxCnRvRc6n4sxKkCtAV7ZuHpDp0G",
-  "companyId": "Outreach.io",
-  "companySlug": "outreach.io",
-  "companyName": "Outreach.io",
-  "companyStaffCount": 1613,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8854780002?gh_jid=8854780002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "Professional Services and Education"
+   "Security - Vandenberg"
   ],
-  "jobTypes": [
-   {
-    "id": "consultant",
-    "label": "Consultant",
-    "value": "consultant"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Consulting",
-    "label": "Consulting",
-    "value": "Consulting"
-   }
-  ],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "United States"
+   "Vandenberg, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 135000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 80000, 'maxValue': 105000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SAP",
-    "label": "SAP",
-    "value": "resume:SAP"
+    "id": "resume:Visio",
+    "label": "Visio",
+    "value": "resume:Visio"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:DoD",
+    "label": "DoD",
+    "value": "resume:DoD"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Access Control",
+    "label": "Access Control",
+    "value": "resume:Access Control"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Lenel",
+    "label": "Lenel",
+    "value": "resume:Lenel"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Physical Security",
+    "label": "Physical Security",
+    "value": "resume:Physical Security"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SAP",
-    "label": "SAP",
-    "value": "resume:SAP"
+    "id": "resume:Visio",
+    "label": "Visio",
+    "value": "resume:Visio"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:DoD",
+    "label": "DoD",
+    "value": "resume:DoD"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Access Control",
+    "label": "Access Control",
+    "value": "resume:Access Control"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Lenel",
+    "label": "Lenel",
+    "value": "resume:Lenel"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Physical Security",
+    "label": "Physical Security",
+    "value": "resume:Physical Security"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Staff Management",
+    "label": "Staff Management",
+    "value": "resume:Staff Management"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Aviation",
+    "label": "Aviation",
+    "value": "resume:Aviation"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    }
   ],
   "manager": false,
-  "consultant": true,
+  "consultant": false,
   "contractor": false,
   "considerLevels": [
+   [
+    1,
+    2
+   ],
    [
     3,
     4
    ]
   ],
-  "minYearsExp": 4,
-  "maxYearsExp": 5,
+  "minYearsExp": 3,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -285,44 +286,38 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
    },
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-09-28T21:55:23.137000Z",
-  "title": "Senior Technical Consultant",
-  "url": "https://jobs.lever.co/outreach/6d7385d5-05e4-4de3-9877-139da7dac605",
-  "jobId": "6d7385d5-05e4-4de3-9877-139da7dac605",
-  "remote": true,
+  "timeStamp": "2026-09-29T01:04:38Z",
+  "title": "Physical Security Systems Specialist",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8854780002?gh_jid=8854780002",
+  "jobId": "8854780002",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.189172683466, 'matchScore': 0, 'ageScore': 0.9891726834660494, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1813389457218, 'matchScore': 0, 'ageScore': 0.9813389457218364, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },

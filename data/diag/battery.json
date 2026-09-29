@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-09-29T08:43:06Z",
+ "run": "2026-09-29T15:59:37Z",
  "homepage": {
   "status": 200,
   "bytes": 18736
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "5BJcRYg9Nv\u2026",
+  "session.sig": "3PmzLzuk6g\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjJkNzBlMWMyZDg1MzgzMzk1NTNjZjNiYjhmNzE3YTIiLCAic2NvcmUiOiAxLjA0NzU0NjI2NTMwNTU1NTZ9"
+   "sequence": "eyJfaWQiOiAiMDBhY2M2Mzg0Y2U1M2EzNTdmYzZlYTY3ZTAxM2MwNDIiLCAic2NvcmUiOiAxLjA0NjU2OTQ0Njk5MDc0MDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,122 +136,135 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.harness.io/company/jobs/apply?gh_jid=5249776007&gh_jid=5249776007",
-  "companyDomain": "harness.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/35c9f4b96174f9f1fdbffecc4a83910c_292_160?Expires=1861920000&Signature=hSpCCkCFyrOq5M5nrbe9ct~quIeNvCwToLwFerg9tcARIWrFszQ3v",
-  "companyId": "Harness",
-  "companySlug": "harness",
-  "companyName": "Harness",
-  "companyStaffCount": 1783,
+  "applyUrl": "https://indeed.com/cmp/Workwell-Technologies/jobs?jk=37fa1a5d8ca879f2",
+  "companyDomain": "workwelltech.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/56f5842d54b1e1e45f7c9275758339e6_264_160?Expires=1861920000&Signature=RhQUB~CQ33sFDV0HZKpA-GhAdkGw0GI66KbBCEx9aEXLQF5oA8FOC",
+  "companyId": "Workwell Technologies",
+  "companySlug": "workwell-technologies",
+  "companyName": "Workwell Technologies",
+  "companyStaffCount": 95,
   "considerHosted": false,
-  "departments": [
-   "Product Marketing"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "product-manager",
-    "label": "Product Manager",
-    "value": "product-manager"
+    "id": "user-marketing",
+    "label": "Growth Manager",
+    "value": "user-marketing"
+   },
+   {
+    "id": "marketing-engagement",
+    "label": "Marketing Engagement",
+    "value": "marketing-engagement"
+   },
+   {
+    "id": "marketing-acquisition",
+    "label": "Marketing Acquisition",
+    "value": "marketing-acquisition"
+   },
+   {
+    "id": "marketing-growth",
+    "label": "Marketing Growth",
+    "value": "marketing-growth"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Product Management",
-    "label": "Product Management",
-    "value": "Product Management"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "U.S. (Remote)"
+   "Texas"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Texas",
+    "label": "Texas",
+    "value": "Texas"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 215000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 90000, 'maxValue': 100000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Developer Platform",
-    "label": "Developer Platform",
-    "value": "resume:Developer Platform"
+    "id": "resume:Customer Acquisition",
+    "label": "Customer Acquisition",
+    "value": "resume:Customer Acquisition"
    },
    {
-    "id": "resume:Hotels",
-    "label": "Hotels",
-    "value": "resume:Hotels"
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:ROI",
+    "label": "ROI",
+    "value": "resume:ROI"
    },
    {
-    "id": "resume:Sales Engineering",
-    "label": "Sales Engineering",
-    "value": "resume:Sales Engineering"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Google Analytics",
+    "label": "Google Analytics",
+    "value": "resume:Google Analytics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Developer Platform",
-    "label": "Developer Platform",
-    "value": "resume:Developer Platform"
+    "id": "resume:Customer Acquisition",
+    "label": "Customer Acquisition",
+    "value": "resume:Customer Acquisition"
    },
    {
-    "id": "resume:Hotels",
-    "label": "Hotels",
-    "value": "resume:Hotels"
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:ROI",
+    "label": "ROI",
+    "value": "resume:ROI"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Sales Engineering",
-    "label": "Sales Engineering",
-    "value": "resume:Sales Engineering"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Google Analytics",
+    "label": "Google Analytics",
+    "value": "resume:Google Analytics"
    },
    {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
+    "id": "resume:Marketing Operations",
+    "label": "Marketing Operations",
+    "value": "resume:Marketing Operations"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Performance Marketing",
+    "label": "Performance Marketing",
+    "value": "resume:Performance Marketing"
    }
   ],
   "manager": false,
@@ -267,51 +280,56 @@
     6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-09-28T17:00:38Z",
-  "title": "Senior Outbound Product Manager",
-  "url": "https://www.harness.io/company/jobs/apply?gh_jid=5249776007&gh_jid=5249776007",
-  "jobId": "5249776007",
-  "remote": true,
+  "timeStamp": "2026-09-29T05:58:12Z",
+  "title": "Digital Growth Specialist",
+  "url": "https://indeed.com/cmp/Workwell-Technologies/jobs?jk=37fa1a5d8ca879f2",
+  "jobId": "37fa1a5d8ca879f2",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1827916884738, 'matchScore': 0, 'ageScore': 0.9827916884737654, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1882779760263, 'matchScore': 0, 'ageScore': 0.9882779760262346, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },

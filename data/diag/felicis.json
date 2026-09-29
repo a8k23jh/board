@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-29T08:43:06Z",
+ "run": "2026-09-29T15:59:37Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "0Lte3NJl0R\u2026",
+  "session.sig": "n1HOrP1Xvi\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTgwYTI4MzVjNzYyMjI5MTg1ODJiZWFiOGUxYzIxYTIiLCAic2NvcmUiOiAxLjA0NzMxMjkwOTU2Mjg4NTd9"
+   "sequence": "eyJfaWQiOiAiYmEyMjkzNWJmMGZkYWFhMDhjYmJiMmMxMGZkZDMxZjYiLCAic2NvcmUiOiAxLjA0NjQzMTY0NTExNzY2OTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,119 +136,141 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/exowatt/0fa969a7-2322-4451-bdbd-c6ee72ab1a09?lever-source%5B%5D=jobs.felicis.com",
-  "companyDomain": "exowatt.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/79c9a48fee810738f9269733946bc836_321_160?Expires=1861920000&Signature=nYMtPDtK2~McbQRGb2e0ckkgu~0ccjL2FuFYWW2F8yt3p8DWnL3UU",
-  "companyId": "Exowatt",
-  "companySlug": "exowatt",
-  "companyName": "Exowatt",
-  "companyStaffCount": 72,
+  "applyUrl": "https://jobs.ashbyhq.com/Crusoe/58ba6e06-7fe1-4091-bfad-bcf9f95f2117?utm_source=jobs.felicis.com",
+  "companyDomain": "crusoe.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/83e047ed53d48955e1e39bdd6f3f660f_256_160?Expires=1861920000&Signature=r2eU4jRX2uOXV1AaZbtY7Z5mnhoWhTY0I1PFAYujsp5lQ9CiX1iiB",
+  "companyId": "Crusoe",
+  "companySlug": "crusoe",
+  "companyName": "Crusoe",
+  "companyStaffCount": 1693,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "People Operations and Strategy"
+  ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
-   },
-   {
-    "id": "materials-engineer",
-    "label": "Materials Engineer",
-    "value": "materials-engineer"
+    "id": "human-resources",
+    "label": "HR",
+    "value": "human-resources"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
+   }
+  ],
   "locations": [
-   "Miami, FL"
+   "San Francisco, California, USA",
+   "Sunnyvale, California, United States",
+   "Seattle, WA, US",
+   "San Francisco, CA - US",
+   "Sunnyvale, CA - US"
   ],
   "normalizedLocations": [
    {
-    "id": "Miami/Fort Lauderdale Area",
-    "label": "Miami/Fort Lauderdale Area",
-    "value": "Miami/Fort Lauderdale Area"
+    "id": "Bellevue, Washington",
+    "label": "Bellevue, Washington",
+    "value": "Bellevue, Washington"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "Sunnyvale, California",
+    "label": "Sunnyvale, California",
+    "value": "Sunnyvale, California"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 170000, 'maxValue': 215000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 50, 'maxValue': 60, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
+    "id": "resume:Workday HCM",
+    "label": "Workday HCM",
+    "value": "resume:Workday HCM"
    },
    {
-    "id": "resume:Materials Science",
-    "label": "Materials Science",
-    "value": "resume:Materials Science"
+    "id": "resume:Real Estate",
+    "label": "Real Estate",
+    "value": "resume:Real Estate"
    },
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    },
    {
-    "id": "resume:X-ray crystallography",
-    "label": "X-ray crystallography",
-    "value": "resume:X-ray crystallography"
+    "id": "resume:Organizational Development",
+    "label": "Organizational Development",
+    "value": "resume:Organizational Development"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
+    "id": "resume:Workday HCM",
+    "label": "Workday HCM",
+    "value": "resume:Workday HCM"
    },
    {
-    "id": "resume:Materials Science",
-    "label": "Materials Science",
-    "value": "resume:Materials Science"
+    "id": "resume:Real Estate",
+    "label": "Real Estate",
+    "value": "resume:Real Estate"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    },
    {
-    "id": "resume:X-ray crystallography",
-    "label": "X-ray crystallography",
-    "value": "resume:X-ray crystallography"
+    "id": "resume:Organizational Development",
+    "label": "Organizational Development",
+    "value": "resume:Organizational Development"
    },
    {
-    "id": "resume:Thermodynamics",
-    "label": "Thermodynamics",
-    "value": "resume:Thermodynamics"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    },
    {
-    "id": "resume:Thin Films",
-    "label": "Thin Films",
-    "value": "resume:Thin Films"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Batteries",
-    "label": "Batteries",
-    "value": "resume:Batteries"
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
    }
   ],
   "manager": false,
@@ -256,64 +278,62 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
+   {
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
    {
     "id": "Energy",
     "label": "Energy",
     "value": "Energy"
-   },
-   {
-    "id": "Renewables & Environment",
-    "label": "Renewables & Environment",
-    "value": "Renewables & Environment"
    }
   ],
-  "timeStamp": "2026-09-28T21:23:51.700000Z",
-  "title": "Lead Materials Engineer (Miami, FL)",
-  "url": "https://jobs.lever.co/exowatt/0fa969a7-2322-4451-bdbd-c6ee72ab1a09",
-  "jobId": "0fa969a7-2322-4451-bdbd-c6ee72ab1a09",
+  "timeStamp": "2026-09-29T00:00:00Z",
+  "title": "People Programs Specialist (Contract)",
+  "url": "https://jobs.ashbyhq.com/Crusoe/58ba6e06-7fe1-4091-bfad-bcf9f95f2117",
+  "jobId": "58ba6e06-7fe1-4091-bfad-bcf9f95f2117",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1888487312095, 'matchScore': 0, 'ageScore': 0.9888487312094908, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1802411771115, 'matchScore': 0, 'ageScore': 0.9802411771114969, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -321,16 +341,10 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
