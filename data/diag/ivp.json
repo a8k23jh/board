@@ -1,7 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-28T22:09:20Z",
- "first_attempt_error": "HTTPSConnectionPool(host='careers.ivp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-09-29T02:04:35Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -27,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "NP4mGHW66z\u2026",
+  "session.sig": "OGZbmysaqc\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -112,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDUxNWU1ZmI4YWE5Yzk3OTg0MzYzMjVlOTVjOTBmZjAiLCAic2NvcmUiOiAxLjAzODI0NDkzMjg0MDY2MzV9"
+   "sequence": "eyJfaWQiOiAiYjA1NGU4YjRhOTZiNDc0OTgzMzM5YzVmMDA2ZTNiNjIiLCAic2NvcmUiOiAxLjA3NjcwNzU0NTA2MzY1NzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -129,122 +128,122 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.pindrop.com/careers/job-title/?gh_jid=8167881",
-  "companyDomain": "pindrop.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66db7ca011dabe5ff29c157b56a4251f_288_160?Expires=1861920000&Signature=l7jCjYdBtd-x9~FoRb61NXvycjznIWMO3dSQ1QJItmzYDl9x~JFGj",
-  "companyId": "Pindrop Security",
-  "companySlug": "pindrop-security",
-  "companyName": "Pindrop Security",
-  "companyStaffCount": 365,
+  "applyUrl": "https://job-boards.greenhouse.io/vercel/jobs/6209001004",
+  "companyDomain": "vercel.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3aebce305d02e8016a2802f154dc7fbd_256_160?Expires=1861920000&Signature=EDSnmPk-oZeT58HDw5bbBJFXm4XOJ0Hl9PVLDaf-xJe~A2cmL45kh",
+  "companyId": "Vercel",
+  "companySlug": "vercel",
+  "companyName": "Vercel",
+  "companyStaffCount": 957,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Product"
   ],
   "jobTypes": [
    {
-    "id": "account-manager",
-    "label": "Account Manager",
-    "value": "account-manager"
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Product Management",
+    "label": "Product Management",
+    "value": "Product Management"
    }
   ],
   "locations": [
-   "US - Remote"
+   "Hybrid - San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 208000, 'maxValue': 312000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Global Teams",
-    "label": "Global Teams",
-    "value": "resume:Global Teams"
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
    },
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:Product Analytics",
+    "label": "Product Analytics",
+    "value": "resume:Product Analytics"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:concurrency",
+    "label": "Concurrency Design",
+    "value": "resume:concurrency"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:Anchor",
+    "label": "Anchor",
+    "value": "resume:Anchor"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Global Teams",
-    "label": "Global Teams",
-    "value": "resume:Global Teams"
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
    },
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:Product Analytics",
+    "label": "Product Analytics",
+    "value": "resume:Product Analytics"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:concurrency",
+    "label": "Concurrency Design",
+    "value": "resume:concurrency"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:Anchor",
+    "label": "Anchor",
+    "value": "resume:Anchor"
    },
    {
-    "id": "resume:Strategic Sales Planning",
-    "label": "Sales Planning",
-    "value": "resume:Strategic Sales Planning"
+    "id": "resume:Serverless",
+    "label": "Serverless",
+    "value": "resume:Serverless"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Developer Platform",
+    "label": "Developer Platform",
+    "value": "resume:Developer Platform"
    },
    {
-    "id": "resume:Strategic Alliances",
-    "label": "Strategic Alliances",
-    "value": "resume:Strategic Alliances"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "manager": false,
@@ -252,20 +251,29 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -273,22 +281,28 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Computer Software",
+    "label": "Computer Software",
+    "value": "Computer Software"
    }
   ],
-  "timeStamp": "2026-09-28T08:28:22Z",
-  "title": "Account Manager",
-  "url": "https://www.pindrop.com/careers/job-title/?gh_jid=8167881",
-  "jobId": "8167881",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1828177817207, 'matchScore': 0, 'ageScore': 0.982817781720679, 'richnessScore': 2}",
+  "timeStamp": "2026-09-28T18:08:11Z",
+  "title": "Product Manager, Compute",
+  "url": "https://job-boards.greenhouse.io/vercel/jobs/6209001004",
+  "jobId": "6209001004",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1927213949472, 'matchScore': 0, 'ageScore': 0.9927213949471451, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -305,6 +319,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
