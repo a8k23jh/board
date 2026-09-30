@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-30T13:55:24Z",
+ "run": "2026-09-30T19:29:29Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Zofuwwtvn8\u2026",
+  "session.sig": "WtKINWm02_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjFmMDJjYjAyNDhkNzJhYmM3NzRmNWUzYWNjYmU4YWIiLCAic2NvcmUiOiAxLjA0Mjg2MTM2MDIxMzczNDd9"
+   "sequence": "eyJfaWQiOiAiNGU3NDNiZWI3NGQ4YjI3MjE3ZTRiN2EyMWFkZTlkMTAiLCAic2NvcmUiOiAxLjA1MDU0NzU2ODc0MTEyNjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,38 +136,33 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/astranis/jobs/4717758006",
-  "companyDomain": "astranis.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c623d52ca5e4cbba895225517694b112_289_160?Expires=1861920000&Signature=oTG1L-XfP6Ab2616AmjuP~qdp6Vz3sZfyCeP9yfwWQSPJPjaT94rC",
-  "companyId": "Astranis",
-  "companySlug": "astranis",
-  "companyName": "Astranis",
-  "companyStaffCount": 499,
+  "applyUrl": "https://www.pindrop.com/careers/job-title/?gh_jid=7912978",
+  "companyDomain": "pindrop.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66db7ca011dabe5ff29c157b56a4251f_288_160?Expires=1861920000&Signature=l7jCjYdBtd-x9~FoRb61NXvycjznIWMO3dSQ1QJItmzYDl9x~JFGj",
+  "companyId": "Pindrop Security",
+  "companySlug": "pindrop-security",
+  "companyName": "Pindrop Security",
+  "companyStaffCount": 365,
   "considerHosted": false,
   "departments": [
-   "3310 Avionics - Components"
+   "PRE"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
-    "id": "electrical-engineer",
-    "label": "Electrical Engineer",
-    "value": "electrical-engineer"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
   "jobFunctions": [
@@ -178,88 +173,88 @@
    }
   ],
   "locations": [
-   "San Francisco"
+   "US - Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 210000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Integrated Circuit Design",
-    "label": "Integrated Circuit Design",
-    "value": "resume:Integrated Circuit Design"
+    "id": "resume:Jenkins",
+    "label": "Jenkins",
+    "value": "resume:Jenkins"
    },
    {
-    "id": "resume:Ethernet",
-    "label": "Ethernet",
-    "value": "resume:Ethernet"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Microcontrollers",
-    "label": "Microcontrollers",
-    "value": "resume:Microcontrollers"
+    "id": "resume:SOA",
+    "label": "SOA/Microservices",
+    "value": "resume:SOA"
    },
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
+    "id": "resume:Github",
+    "label": "Github",
+    "value": "resume:Github"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Integrated Circuit Design",
-    "label": "Integrated Circuit Design",
-    "value": "resume:Integrated Circuit Design"
+    "id": "resume:Jenkins",
+    "label": "Jenkins",
+    "value": "resume:Jenkins"
    },
    {
-    "id": "resume:Ethernet",
-    "label": "Ethernet",
-    "value": "resume:Ethernet"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Microcontrollers",
-    "label": "Microcontrollers",
-    "value": "resume:Microcontrollers"
+    "id": "resume:SOA",
+    "label": "SOA/Microservices",
+    "value": "resume:SOA"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
+    "id": "resume:Github",
+    "label": "Github",
+    "value": "resume:Github"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    },
    {
-    "id": "resume:Mixed Signal",
-    "label": "Mixed Signal",
-    "value": "resume:Mixed Signal"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -272,18 +267,7 @@
     6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -295,36 +279,25 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Telecommunications",
-    "label": "Telecommunications",
-    "value": "Telecommunications"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-09-29T20:01:35Z",
-  "title": "Electrical Engineering Team Lead",
-  "url": "https://job-boards.greenhouse.io/astranis/jobs/4717758006",
-  "jobId": "4717758006",
-  "remote": false,
+  "timeStamp": "2026-09-30T10:16:08Z",
+  "title": "Senior Software Engineer (Capture)",
+  "url": "https://www.pindrop.com/careers/job-title/?gh_jid=7912978",
+  "jobId": "7912978",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1789669449653, 'matchScore': 0, 'ageScore': 0.9789669449652778, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1902219369082, 'matchScore': 0, 'ageScore': 0.9902219369081791, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
    {
     "id": "senior",
     "label": "Senior",
@@ -332,7 +305,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "mid",
    "senior"
   ],
   "isFeatured": false
