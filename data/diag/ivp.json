@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-29T20:54:24Z",
+ "run": "2026-09-30T00:34:52Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "EdZ7Tse9hY\u2026",
+  "session.sig": "hb3NVEkm7T\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTI5OGQwNDI5NDZkMTBhYTJmYmU0NGUzZDg2NzFhMDQiLCAic2NvcmUiOiAxLjA2ODA0MDE4MzQ1ODMzMzN9"
+   "sequence": "eyJfaWQiOiAiMmZhNzE1YTgzMDkzMTkxNDk0YjM3MzVjYWJjNTg2NGMiLCAic2NvcmUiOiAxLjEzNDI2ODg0MjI1MDM4NTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,193 +128,177 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://cribl.io/job-detail/?gh_jid=6202599004",
-  "companyDomain": "cribl.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/748d19f5df4c5e3b2db8057cc735611a_192_160?Expires=1861920000&Signature=SJNRIXlQ5WF7hK48z7k8lkFmAsL5Sb-gi~rgZ4pKC9QoteIMr6wH-",
-  "companyId": "Cribl",
-  "companySlug": "cribl",
-  "companyName": "Cribl",
-  "companyStaffCount": 1289,
+  "applyUrl": "https://jobs.lever.co/lumafield/2ed2a100-7f3b-4d94-832d-e64b6fb44ca7?lever-source%5B%5D=careers.ivp.com",
+  "companyDomain": "lumafield.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
+  "companyId": "Lumafield",
+  "companySlug": "lumafield",
+  "companyName": "Lumafield",
+  "companyStaffCount": 157,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Operations"
   ],
   "jobTypes": [
    {
-    "id": "territory-manager",
-    "label": "Territory Manager",
-    "value": "territory-manager"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "site-reliability-engineer",
+    "label": "Site Reliability Engineer (SRE)",
+    "value": "site-reliability-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Remote - Germany"
+   "Boston, MA"
   ],
   "normalizedLocations": [
    {
-    "id": "Germany",
-    "label": "Germany",
-    "value": "Germany"
+    "id": "Greater Boston Area",
+    "label": "Boston",
+    "value": "Greater Boston Area"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 300000, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 75000, 'maxValue': 95000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:MEDDIC",
-    "label": "MEDDIC",
-    "value": "resume:MEDDIC"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:Demand Creation",
-    "label": "Demand Creation",
-    "value": "resume:Demand Creation"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:IT Infrastructure Management",
-    "label": "IT Infrastructure Management",
-    "value": "resume:IT Infrastructure Management"
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
    },
    {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
+    "id": "resume:Field Service",
+    "label": "Field Service",
+    "value": "resume:Field Service"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:MEDDIC",
-    "label": "MEDDIC",
-    "value": "resume:MEDDIC"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:Demand Creation",
-    "label": "Demand Creation",
-    "value": "resume:Demand Creation"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:IT Infrastructure Management",
-    "label": "IT Infrastructure Management",
-    "value": "resume:IT Infrastructure Management"
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
    },
    {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
+    "id": "resume:Field Service",
+    "label": "Field Service",
+    "value": "resume:Field Service"
    },
    {
-    "id": "resume:Direct Sales",
-    "label": "Direct Sales",
-    "value": "resume:Direct Sales"
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
-  "minYearsExp": 6,
+  "considerLevels": [],
   "regions": [
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Data & Analytics",
-    "label": "Data & Analytics",
-    "value": "Data & Analytics"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-09-29T10:35:02Z",
-  "title": "Regional Sales Manager, Switzerland Territory (Enterprise)",
-  "url": "https://cribl.io/job-detail/?gh_jid=6202599004",
-  "jobId": "6202599004",
-  "remote": true,
+  "timeStamp": "2026-09-29T19:55:55.583000Z",
+  "title": "Field Service Engineer",
+  "url": "https://jobs.lever.co/lumafield/2ed2a100-7f3b-4d94-832d-e64b6fb44ca7",
+  "jobId": "2ed2a100-7f3b-4d94-832d-e64b6fb44ca7",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1906522911763, 'matchScore': 0, 'ageScore': 0.9906522911763117, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1948602107955, 'matchScore': 0, 'ageScore': 0.9948602107955247, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },
