@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-09-30T06:51:39Z",
+ "run": "2026-09-30T13:55:24Z",
  "homepage": {
   "status": 200,
   "bytes": 26164
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "HmM9QwHtGf\u2026",
+  "session.sig": "kR6HCt8Q6R\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzRlYzAzOGExNDUyYTNkYjgxZjg1N2RlODNjYzk4OTgiLCAic2NvcmUiOiAxLjE0MTc0OTQwODQ1MzcwMzd9"
+   "sequence": "eyJfaWQiOiAiOGI1MWEzMTcwMGRlMjczZjk3YWJhYWMyMDZmZWY2MmQiLCAic2NvcmUiOiAxLjEzNzY0NjI2NTU3NzkzMn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -147,101 +147,135 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/mill/jobs/4739130005",
-  "companyDomain": "mill.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/62b4b82a9b9594ca00677a6b4d7c754e_96_160?Expires=1861920000&Signature=sLpYNpPPKST~rH3MP04ooNM7fVXxVFhj6BMAfO7onW7aIXc4YM5djy",
-  "companyId": "Mill",
-  "companySlug": "mill",
-  "companyName": "Mill",
-  "companyStaffCount": 543,
+  "applyUrl": "https://jobs.ashbyhq.com/omni/b0e476d5-b222-46df-9250-b02c08562809?utm_source=jobs.gv.com",
+  "companyDomain": "omni.co",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e06e9717753effeb02d7dbe07168443c_161_160?Expires=1861920000&Signature=fppN6TaOOHuofeb0GZyY~TD8rsYQhUtHoVVxMeH3fKkHqUOeNQx~h",
+  "companyId": "Explore Omni",
+  "companySlug": "explore-omni",
+  "companyName": "Omni",
+  "companyStaffCount": 30,
   "considerHosted": false,
   "departments": [
-   "Finance"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "revenue-accountant",
-    "label": "Revenue Accountant",
-    "value": "revenue-accountant"
+    "id": "frontend-engineer",
+    "label": "Frontend Engineer",
+    "value": "frontend-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Accounting",
-    "label": "Accounting",
-    "value": "Accounting"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "San Bruno, CA"
+   "San Francisco, California, United States",
+   "San Francisco, CA",
+   "Santa Cruz, CA",
+   "Denver, CO",
+   "Philadelphia, PA"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
+   {
+    "id": "Philadelphia, Pennsylvania",
+    "label": "Philadelphia, Pennsylvania",
+    "value": "Philadelphia, Pennsylvania"
+   },
+   {
+    "id": "Santa Cruz, California",
+    "label": "Santa Cruz, California",
+    "value": "Santa Cruz, California"
+   },
+   {
+    "id": "Denver, Colorado",
+    "label": "Denver, Colorado",
+    "value": "Denver, Colorado"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:CPA",
-    "label": "CPA",
-    "value": "resume:CPA"
+    "id": "resume:Business Intelligence Tools",
+    "label": "Business Intelligence Tools",
+    "value": "resume:Business Intelligence Tools"
    },
    {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
+    "id": "resume:Semantic Model",
+    "label": "Semantic Model",
+    "value": "resume:Semantic Model"
    },
    {
-    "id": "resume:Financial Reporting",
-    "label": "Financial Reporting",
-    "value": "resume:Financial Reporting"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    },
    {
-    "id": "resume:Financial Accounting",
-    "label": "Financial Accounting",
-    "value": "resume:Financial Accounting"
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:CPA",
-    "label": "CPA",
-    "value": "resume:CPA"
+    "id": "resume:Business Intelligence Tools",
+    "label": "Business Intelligence Tools",
+    "value": "resume:Business Intelligence Tools"
    },
    {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
+    "id": "resume:Semantic Model",
+    "label": "Semantic Model",
+    "value": "resume:Semantic Model"
    },
    {
-    "id": "resume:Financial Reporting",
-    "label": "Financial Reporting",
-    "value": "resume:Financial Reporting"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    },
    {
-    "id": "resume:Financial Accounting",
-    "label": "Financial Accounting",
-    "value": "resume:Financial Accounting"
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Google Analytics",
+    "label": "Google Analytics",
+    "value": "resume:Google Analytics"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   },
+   {
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    }
   ],
   "manager": false,
@@ -251,14 +285,23 @@
    [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 4,
+  "minYearsExp": 5,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -266,16 +309,21 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
     "id": "Growth",
@@ -286,18 +334,28 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Environmental Services",
-    "label": "Environmental Services",
-    "value": "Environmental Services"
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
+   },
+   {
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
    }
   ],
-  "timeStamp": "2026-09-29T19:14:20Z",
-  "title": "Revenue Accountant",
-  "url": "https://job-boards.greenhouse.io/mill/jobs/4739130005",
-  "jobId": "4739130005",
+  "timeStamp": "2026-09-30T00:00:00Z",
+  "title": "Frontend Engineer",
+  "url": "https://jobs.ashbyhq.com/omni/b0e476d5-b222-46df-9250-b02c08562809",
+  "jobId": "b0e476d5-b222-46df-9250-b02c08562809",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1856386843399, 'matchScore': 0, 'ageScore': 0.985638684339892, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1844852016474, 'matchScore': 0, 'ageScore': 0.9844852016473765, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

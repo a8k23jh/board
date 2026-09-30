@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-09-30T06:51:39Z",
+ "run": "2026-09-30T13:55:24Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "gFWBHBDPTS\u2026",
+  "session.sig": "56zOwh-uHm\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTMzNTg5ZTZmMjc5MjVhZmY5MDJhNjdkMzY1M2UwNDkiLCAic2NvcmUiOiAxLjE3MTA5NzA4ODQ5MDM1NDl9"
+   "sequence": "eyJfaWQiOiAiZWU2NzY1NmZjMmMyZWRkNzE3NGFiZjE3N2YxMTM1MjciLCAic2NvcmUiOiAxLjE2ODExMjU0MzEwNjA5NTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -166,14 +166,14 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "business-ops",
-    "label": "Business Operations",
-    "value": "business-ops"
-   },
-   {
     "id": "business-strategy",
     "label": "Business Strategy",
     "value": "business-strategy"
+   },
+   {
+    "id": "business-ops",
+    "label": "Business Operations",
+    "value": "business-ops"
    },
    {
     "id": "people-manager",
@@ -207,9 +207,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160600, 'maxValue': 244860, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Mergers",
+    "label": "Mergers",
+    "value": "resume:Mergers"
+   },
+   {
+    "id": "resume:Mergers & Acquisitions",
+    "label": "Mergers & Acquisitions",
+    "value": "resume:Mergers & Acquisitions"
    },
    {
     "id": "resume:Organizational Effectiveness",
@@ -217,58 +222,53 @@
     "value": "resume:Organizational Effectiveness"
    },
    {
-    "id": "resume:Strategic Consulting",
-    "label": "Strategic Consulting",
-    "value": "resume:Strategic Consulting"
+    "id": "resume:Decision Support",
+    "label": "Decision Support",
+    "value": "resume:Decision Support"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Mergers",
+    "label": "Mergers",
+    "value": "resume:Mergers"
+   },
+   {
+    "id": "resume:Mergers & Acquisitions",
+    "label": "Mergers & Acquisitions",
+    "value": "resume:Mergers & Acquisitions"
    },
    {
     "id": "resume:Organizational Effectiveness",
     "label": "Organizational Effectiveness",
     "value": "resume:Organizational Effectiveness"
-   },
-   {
-    "id": "resume:Strategic Consulting",
-    "label": "Strategic Consulting",
-    "value": "resume:Strategic Consulting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Decision Support",
+    "label": "Decision Support",
+    "value": "resume:Decision Support"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Actionable Insights",
+    "label": "Actionable Insights",
+    "value": "resume:Actionable Insights"
    },
    {
-    "id": "resume:Business Planning",
-    "label": "Business Planning",
-    "value": "resume:Business Planning"
+    "id": "resume:Corporate Development",
+    "label": "Corporate Development",
+    "value": "resume:Corporate Development"
    },
    {
     "id": "resume:Business Strategy",
@@ -292,24 +292,24 @@
   "minYearsExp": 12,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -332,7 +332,7 @@
   "jobId": "8123",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1921533562747, 'matchScore': 0, 'ageScore': 0.9921533562746914, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1842657757072, 'matchScore': 0, 'ageScore': 0.9842657757071759, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

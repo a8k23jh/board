@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-09-30T06:51:39Z",
+ "run": "2026-09-30T13:55:24Z",
  "homepage": {
   "status": 200,
   "bytes": 16696
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "sn7EobklLa\u2026",
+  "session.sig": "XdiC6oXEQ3\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWVjZTk3ODdlYmJhODkzMzc1YmExNjQxMTdmNzA3ZWUiLCAic2NvcmUiOiAwLjk2NTE1Nzg4ODU0MjQzODJ9"
+   "sequence": "eyJfaWQiOiAiNWYzMjFlODI5ZTliZjkzNmU2Y2FjODVkMDJmMTVlMzEiLCAic2NvcmUiOiAwLjk3MjEwNTM1MzIzNjExMTF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/planetlabs/jobs/8220995",
+  "applyUrl": "https://job-boards.greenhouse.io/planetlabs/jobs/8202848",
   "companyDomain": "planet.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/81daece2b738e7da2b2f0d7cb6f3cb9b_240_160?Expires=1861920000&Signature=i69ljP0imOrwJp3yJ28r~12-MqQGYr4EnAbq4LoC51M-tB-p~Bgmk",
   "companyId": "Planet",
@@ -164,16 +164,36 @@
   "companyStaffCount": 1748,
   "considerHosted": false,
   "departments": [
-   "Space Operations"
+   "Pre-Sales and Services"
   ],
   "jobTypes": [
    {
-    "id": "systems-engineer",
-    "label": "Systems Engineer",
-    "value": "systems-engineer"
+    "id": "pre-sales",
+    "label": "Pre-Sales",
+    "value": "pre-sales"
+   },
+   {
+    "id": "sales-engineer",
+    "label": "Sales Engineer",
+    "value": "sales-engineer"
+   },
+   {
+    "id": "sales-engineering",
+    "label": "Sales Engineering",
+    "value": "sales-engineering"
+   },
+   {
+    "id": "senior-solutions-architect",
+    "label": "Senior Solutions Architect",
+    "value": "senior-solutions-architect"
    }
   ],
   "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   },
    {
     "id": "Engineering",
     "label": "Engineering",
@@ -181,85 +201,85 @@
    }
   ],
   "locations": [
-   "San Francisco, CA"
+   "Netherlands"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Netherlands",
+    "label": "Netherlands",
+    "value": "Netherlands"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 114200, 'maxValue': 142700, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 62902, 'maxValue': 78660, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:Statistical Analysis",
-    "label": "Statistical Analysis",
-    "value": "resume:Statistical Analysis"
+    "id": "resume:Solution Architecture",
+    "label": "Solution Architecture",
+    "value": "resume:Solution Architecture"
    },
    {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:Statistical Analysis",
-    "label": "Statistical Analysis",
-    "value": "resume:Statistical Analysis"
+    "id": "resume:Solution Architecture",
+    "label": "Solution Architecture",
+    "value": "resume:Solution Architecture"
    },
    {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    },
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Remote Sensing",
+    "label": "Remote Sensing",
+    "value": "resume:Remote Sensing"
    },
    {
-    "id": "resume:Git",
-    "label": "Git",
-    "value": "resume:Git"
+    "id": "resume:Scalability",
+    "label": "Scalability",
+    "value": "resume:Scalability"
    },
    {
-    "id": "resume:Linux",
-    "label": "Linux",
-    "value": "resume:Linux"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    }
   ],
   "manager": false,
@@ -267,30 +287,25 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 6,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
@@ -313,24 +328,30 @@
     "value": "Aviation & Aerospace"
    }
   ],
-  "timeStamp": "2026-09-29T18:24:21Z",
-  "title": "Space Systems Engineer, Space Operations",
-  "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8220995",
-  "jobId": "8220995",
-  "remote": false,
+  "timeStamp": "2026-09-30T01:45:11Z",
+  "title": "Senior Solutions Architect I, Pre-Sales - NATO",
+  "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8202848",
+  "jobId": "8202848",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1851200761397, 'matchScore': 0, 'ageScore': 0.9851200761396605, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1867986072303, 'matchScore': 0, 'ageScore': 0.9867986072303241, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "expert",
+   "senior"
   ],
   "isFeatured": false
  },

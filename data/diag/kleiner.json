@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-09-30T06:51:39Z",
+ "run": "2026-09-30T13:55:24Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "wZIbyX_dvp\u2026",
+  "session.sig": "3ZiNVb7pV8\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2MzYmY5NDBkNWEzYTM5MmU3MjZhMjhlYzIyNWM3MzkiLCAic2NvcmUiOiAxLjA0MTcyNjIxNzIzMDMyNH0="
+   "sequence": "eyJfaWQiOiAiMmJjN2Y0YTc2NGIxMDNkZjVmY2MyMTRmYWQwYTk1MzQiLCAic2NvcmUiOiAxLjAzNTM1NTc4NzkzODY1NzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -181,33 +181,55 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 158000, 'maxValue': 189000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:RF",
+    "label": "RF",
+    "value": "resume:RF"
+   },
+   {
+    "id": "resume:System Modeling",
+    "label": "System Modeling",
+    "value": "resume:System Modeling"
+   },
+   {
+    "id": "resume:System Architecture",
+    "label": "System Architecture",
+    "value": "resume:System Architecture"
+   },
+   {
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
+   },
+   {
     "id": "resume:Department of State",
     "label": "Department of State",
     "value": "resume:Department of State"
-   },
-   {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   },
-   {
-    "id": "resume:System Integration",
-    "label": "System Integration",
-    "value": "resume:System Integration"
-   },
-   {
-    "id": "resume:Configuration Management",
-    "label": "Configuration Management",
-    "value": "resume:Configuration Management"
-   },
-   {
-    "id": "resume:Requirements Gathering",
-    "label": "Requirements Gathering",
-    "value": "resume:Requirements Gathering"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:RF",
+    "label": "RF",
+    "value": "resume:RF"
+   },
+   {
+    "id": "resume:System Modeling",
+    "label": "System Modeling",
+    "value": "resume:System Modeling"
+   },
+   {
+    "id": "resume:System Architecture",
+    "label": "System Architecture",
+    "value": "resume:System Architecture"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
+   },
+   {
     "id": "resume:Department of State",
     "label": "Department of State",
     "value": "resume:Department of State"
@@ -216,28 +238,6 @@
     "id": "resume:Networking",
     "label": "Networking Technologies",
     "value": "resume:Networking"
-   },
-   {
-    "id": "resume:System Integration",
-    "label": "System Integration",
-    "value": "resume:System Integration"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Configuration Management",
-    "label": "Configuration Management",
-    "value": "resume:Configuration Management"
-   },
-   {
-    "id": "resume:Requirements Gathering",
-    "label": "Requirements Gathering",
-    "value": "resume:Requirements Gathering"
-   },
-   {
-    "id": "resume:Digital Communications",
-    "label": "Digital Communications",
-    "value": "resume:Digital Communications"
    },
    {
     "id": "resume:Aerospace",
@@ -245,9 +245,9 @@
     "value": "resume:Aerospace"
    },
    {
-    "id": "resume:System Architecture",
-    "label": "System Architecture",
-    "value": "resume:System Architecture"
+    "id": "resume:Space Technology",
+    "label": "Space Technology",
+    "value": "resume:Space Technology"
    }
   ],
   "manager": false,
@@ -303,24 +303,24 @@
   "jobId": "4b3c19d3-028c-4456-809f-1bea121224fd",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1896184258843, 'matchScore': 0, 'ageScore': 0.9896184258842593, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1808045131161, 'matchScore': 0, 'ageScore': 0.9808045131161266, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

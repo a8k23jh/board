@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-09-30T06:51:39Z",
+ "run": "2026-09-30T13:55:24Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "8TJsLyfwI2\u2026",
+  "session.sig": "PYaM_GLC1x\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzhjOTFhNTM3NjRhNTYwMDQzZWIwOTBhZDI0NWZlMTQiLCAic2NvcmUiOiAxLjEzNDc4Nzc5MjU0MjQzODN9"
+   "sequence": "eyJfaWQiOiAiZDRmYTIxYzBkMTM2NGU0ODE5NjA3ZjAxZWI3N2ExMDgiLCAic2NvcmUiOiAxLjEzNTM2NzIwMTkzNzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,138 +128,153 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lumafield/2ed2a100-7f3b-4d94-832d-e64b6fb44ca7?lever-source%5B%5D=careers.ivp.com",
-  "companyDomain": "lumafield.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
-  "companyId": "Lumafield",
-  "companySlug": "lumafield",
-  "companyName": "Lumafield",
-  "companyStaffCount": 157,
+  "applyUrl": "https://jobs.ashbyhq.com/baseten/f736f253-7b2d-4a4f-82d6-3f4ebf14c7c6?utm_source=careers.ivp.com",
+  "companyDomain": "baseten.co",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/aaa340387ade367703b1e49f53eb3028_288_160?Expires=1861920000&Signature=Al-9uky9kPkU3yG72nW3BbljsCHFZiSSqwfe53K8yzheEMID8gJHG",
+  "companyId": "BaseTen",
+  "companySlug": "baseten",
+  "companyName": "baseten",
+  "companyStaffCount": 440,
   "considerHosted": false,
   "departments": [
-   "Operations"
+   "Talent"
   ],
   "jobTypes": [
    {
-    "id": "site-reliability-engineer",
-    "label": "Site Reliability Engineer (SRE)",
-    "value": "site-reliability-engineer"
+    "id": "recruiting-coordinator",
+    "label": "Recruiting Ops",
+    "value": "recruiting-coordinator"
+   },
+   {
+    "id": "program-manager",
+    "label": "Program Manager",
+    "value": "program-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Project Management",
+    "label": "Project Management",
+    "value": "Project Management"
    }
   ],
   "locations": [
-   "Boston, MA"
+   "San Francisco, California, United States",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Greater Boston Area",
-    "label": "Boston",
-    "value": "Greater Boston Area"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 75000, 'maxValue': 95000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Quantitative Data",
-    "label": "Quantitative Data",
-    "value": "resume:Quantitative Data"
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Field Service",
-    "label": "Field Service",
-    "value": "resume:Field Service"
-   },
-   {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Quantitative Data",
-    "label": "Quantitative Data",
-    "value": "resume:Quantitative Data"
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Field Service",
-    "label": "Field Service",
-    "value": "resume:Field Service"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
    {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
    },
    {
-    "id": "resume:Operational Excellence",
-    "label": "Operational Excellence",
-    "value": "resume:Operational Excellence"
-   },
-   {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -272,22 +287,43 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Medical Devices",
-    "label": "Medical Devices",
-    "value": "Medical Devices"
+    "id": "AI/ML",
+    "label": "AI/ML",
+    "value": "AI/ML"
+   },
+   {
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-09-29T19:55:55.583000Z",
-  "title": "Field Service Engineer",
-  "url": "https://jobs.lever.co/lumafield/2ed2a100-7f3b-4d94-832d-e64b6fb44ca7",
-  "jobId": "2ed2a100-7f3b-4d94-832d-e64b6fb44ca7",
+  "timeStamp": "2026-09-30T00:00:00Z",
+  "title": "Recruiting Operations Program Manager",
+  "url": "https://jobs.ashbyhq.com/baseten/f736f253-7b2d-4a4f-82d6-3f4ebf14c7c6",
+  "jobId": "f736f253-7b2d-4a4f-82d6-3f4ebf14c7c6",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1865349486343, 'matchScore': 0, 'ageScore': 0.9865349486342593, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1844237494495, 'matchScore': 0, 'ageScore': 0.9844237494494599, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

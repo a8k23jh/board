@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-30T06:51:39Z",
+ "run": "2026-09-30T13:55:24Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Mk8Flzvodu\u2026",
+  "session.sig": "I2_ETReICH\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGE0NjAwNWVkODNhN2JjYWMwOTE3MzA4OTVlNTc3NTQiLCAic2NvcmUiOiAxLjEyNjE2NzAwMjQ0NDQ0NDN9"
+   "sequence": "eyJfaWQiOiAiZDRmYTIxYzBkMTM2NGU0ODE5NjA3ZjAxZWI3N2ExMDgiLCAic2NvcmUiOiAxLjEzNTM2NzIwMTkzNzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,132 +144,151 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8856840002?gh_jid=8856840002",
-  "companyDomain": "spacex.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
-  "companyId": "SpaceX",
-  "companySlug": "spacex",
-  "companyName": "SpaceX",
-  "companyStaffCount": 20713,
+  "applyUrl": "https://job-boards.greenhouse.io/mercury/jobs/6211401004",
+  "companyDomain": "mercury.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f98054b413ecb703192095377d043aea_320_160?Expires=1861920000&Signature=ma3OPcXFl99XqBt5juUNn1IOSW7hoByAEPbz4Wm9ukCILr1auKCAL",
+  "companyId": "Mercury Banking for Startups",
+  "companySlug": "mercury-banking-for-startups",
+  "companyName": "Mercury",
+  "companyStaffCount": 1807,
   "considerHosted": false,
   "departments": [
-   "Purchasing"
+   "Finance"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "business-development",
+    "label": "Business Development Professional",
+    "value": "business-development"
+   },
+   {
+    "id": "procurement",
+    "label": "Procurement Manager",
+    "value": "procurement"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   },
+   {
+    "id": "Business Development",
+    "label": "Business Development",
+    "value": "Business Development"
+   },
+   {
+    "id": "Supply Chain",
+    "label": "Supply Chain",
+    "value": "Supply Chain"
+   }
+  ],
   "locations": [
-   "Hawthorne, CA"
+   "San Francisco, CA, New York, NY, Portland, OR,",
+   "Remote within Canada",
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "Canada",
+    "label": "Canada",
+    "value": "Canada"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 245000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 138800, 'maxValue': 192800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Data Center",
-    "label": "Data Center",
-    "value": "resume:Data Center"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
-   },
-   {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Data Center",
-    "label": "Data Center",
-    "value": "resume:Data Center"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
-   },
-   {
-    "id": "resume:Contract Negotiation",
-    "label": "Contract Negotiation",
-    "value": "resume:Contract Negotiation"
-   },
    {
     "id": "resume:Attention to Detail",
     "label": "Attention to Detail",
     "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
+   },
+   {
+    "id": "resume:P2P",
+    "label": "P2P",
+    "value": "resume:P2P"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
-  "manager": true,
+  "requiredSkills": [
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
+   },
+   {
+    "id": "resume:P2P",
+    "label": "P2P",
+    "value": "resume:P2P"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   }
+  ],
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 5,
+  "maxYearsExp": 8,
   "regions": [
    {
     "id": "Pacific States",
@@ -277,14 +296,14 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -292,38 +311,44 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-09-29T17:52:51Z",
-  "title": "Sr. Manager, Purchasing",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8856840002?gh_jid=8856840002",
-  "jobId": "8856840002",
-  "remote": false,
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Banking",
+    "label": "Banking",
+    "value": "Banking"
+   },
+   {
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
+   }
+  ],
+  "timeStamp": "2026-09-30T01:02:07Z",
+  "title": "Senior Procurement Business Partner",
+  "url": "https://job-boards.greenhouse.io/mercury/jobs/6211401004",
+  "jobId": "6211401004",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1844039093398, 'matchScore': 0, 'ageScore': 0.984403909339892, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1855304655818, 'matchScore': 0, 'ageScore': 0.9855304655817901, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "senior"
   ],
   "isFeatured": false
  },

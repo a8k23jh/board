@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-30T06:51:39Z",
+ "run": "2026-09-30T13:55:24Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "pqKIPkxFDo\u2026",
+  "session.sig": "s160yLNG6p\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGQ1Y2I3ZTFjMmZhMTNjZTAyMmJjMTUzODg3NTAyYTkiLCAic2NvcmUiOiAxLjA2NTE2MzU2MzgxNTk3MjJ9"
+   "sequence": "eyJfaWQiOiAiM2IyYzlhNDQwMWIyMzI0M2QxNjVlZjIxMjUzMjFlNDMiLCAic2NvcmUiOiAxLjA2NTg1MTE1MzU2MTM0MjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,151 +152,137 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.docusign.com/jobs/30419?lang=en-us",
-  "companyDomain": "docusign.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
-  "companyId": "DocuSign",
-  "companySlug": "docusign",
-  "companyName": "DocuSign",
-  "companyStaffCount": 8412,
+  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1060659/In-Home-Traveler-Physician-Full-Time-Wisconsin",
+  "companyDomain": "signifyhealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/99c6eb3fb8f6516bd248544cef759df3_320_160?Expires=1861920000&Signature=ftG2yoquWQ77fhZJlIDtDtJjH0EkrbN-V-l5EkosBrwWnHIsKX3Yj",
+  "companyId": "Signify Health",
+  "companySlug": "signify-health",
+  "companyName": "Signify Health",
+  "companyStaffCount": 3625,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   ""
+  ],
   "jobTypes": [
    {
-    "id": "commercial-account-executive",
-    "label": "Commercial Account Executive",
-    "value": "commercial-account-executive"
+    "id": "medical-professional",
+    "label": "Medical Professional",
+    "value": "medical-professional"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Washington, United States"
+   "Work\u00a0at Home, Wisconsin, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Washington",
-    "label": "Washington State",
-    "value": "Washington"
+    "id": "Wisconsin",
+    "label": "Wisconsin",
+    "value": "Wisconsin"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 50.2, 'maxValue': 72.23, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 174070, 'maxValue': 374920, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Client Relations",
-    "label": "Client Relations",
-    "value": "resume:Client Relations"
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    },
    {
-    "id": "resume:Trust Building",
-    "label": "Trust Building",
-    "value": "resume:Trust Building"
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    },
    {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
+    "id": "resume:CVS",
+    "label": "CVS",
+    "value": "resume:CVS"
    },
    {
-    "id": "resume:SaaS Sales",
-    "label": "SaaS Sales",
-    "value": "resume:SaaS Sales"
+    "id": "resume:Primary Care",
+    "label": "Primary Care",
+    "value": "resume:Primary Care"
    },
    {
-    "id": "resume:Sales Development",
-    "label": "Sales Development",
-    "value": "resume:Sales Development"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Client Relations",
-    "label": "Client Relations",
-    "value": "resume:Client Relations"
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    },
    {
-    "id": "resume:Trust Building",
-    "label": "Trust Building",
-    "value": "resume:Trust Building"
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    },
    {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
+    "id": "resume:CVS",
+    "label": "CVS",
+    "value": "resume:CVS"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:SaaS Sales",
-    "label": "SaaS Sales",
-    "value": "resume:SaaS Sales"
+    "id": "resume:Primary Care",
+    "label": "Primary Care",
+    "value": "resume:Primary Care"
    },
    {
-    "id": "resume:Sales Development",
-    "label": "Sales Development",
-    "value": "resume:Sales Development"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    },
    {
-    "id": "resume:Sales Forecasting",
-    "label": "Sales Forecasting",
-    "value": "resume:Sales Forecasting"
+    "id": "resume:Health/Human Services",
+    "label": "Health/Human Services",
+    "value": "resume:Health/Human Services"
    },
    {
-    "id": "resume:Market Development",
-    "label": "Market Development",
-    "value": "resume:Market Development"
-   },
-   {
-    "id": "resume:Business Acumen",
-    "label": "Business Acumen",
-    "value": "resume:Business Acumen"
+    "id": "resume:iPad",
+    "label": "iPad",
+    "value": "resume:iPad"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ]
-  ],
+  "considerLevels": [],
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -304,25 +290,36 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Public",
+    "label": "Public",
+    "value": "Public"
    }
   ],
+  "fundingLV": "{'id': 'Public', 'label': 'Public', 'value': 'Public'}",
   "markets": [
    {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-09-29T20:16:18Z",
-  "title": "Sr. Account Executive, Commercial Sales",
-  "url": "https://careers.docusign.com/jobs/30419?lang=en-us",
-  "jobId": "30419",
+  "timeStamp": "2026-09-30T00:00:00Z",
+  "title": "In-Home Traveler Physician Full Time - Wisconsin",
+  "url": "https://jobs.cvshealth.com/us/en/job/R1060659/In-Home-Traveler-Physician-Full-Time-Wisconsin",
+  "jobId": "R1060659",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.187554055024, 'matchScore': 0, 'ageScore': 0.9875540550239198, 'richnessScore': 2}",
+  "scores": "{'score': 1001.18419344011, 'matchScore': 0, 'ageScore': 0.9841934401099537, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
+   },
    {
     "id": "senior",
     "label": "Senior",
@@ -330,6 +327,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "expert",
    "senior"
   ],
   "isFeatured": false
