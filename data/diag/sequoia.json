@@ -1,9 +1,9 @@
 {
  "board": "sequoia",
- "run": "2026-09-30T00:34:52Z",
+ "run": "2026-09-30T06:51:39Z",
  "homepage": {
   "status": 200,
-  "bytes": 12902
+  "bytes": 20230
  },
  "slugs_tried": [
   "sequoia-capital",
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "7rZXR8M9ZO\u2026",
+  "session.sig": "Mk8Flzvodu\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDE3MDQ0OWFkMTI3NDZkYTAyZjhkMDRjZGJhYWNiODIiLCAic2NvcmUiOiAxLjA4MDY0NDAzNzYwMDMwODZ9"
+   "sequence": "eyJfaWQiOiAiOGE0NjAwNWVkODNhN2JjYWMwOTE3MzA4OTVlNTc3NTQiLCAic2NvcmUiOiAxLjEyNjE2NzAwMjQ0NDQ0NDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,127 +144,116 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://cribl.io/job-detail/?gh_jid=6202599004&gh_src=8c0276084us",
-  "companyDomain": "cribl.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/748d19f5df4c5e3b2db8057cc735611a_192_160?Expires=1861920000&Signature=SJNRIXlQ5WF7hK48z7k8lkFmAsL5Sb-gi~rgZ4pKC9QoteIMr6wH-",
-  "companyId": "Cribl",
-  "companySlug": "cribl",
-  "companyName": "Cribl",
-  "companyStaffCount": 1289,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8856840002?gh_jid=8856840002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Purchasing"
   ],
   "jobTypes": [
-   {
-    "id": "territory-manager",
-    "label": "Territory Manager",
-    "value": "territory-manager"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   },
    {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Remote - Germany"
+   "Hawthorne, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Germany",
-    "label": "Germany",
-    "value": "Germany"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 300000, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 245000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Data Center",
+    "label": "Data Center",
+    "value": "resume:Data Center"
    },
    {
-    "id": "resume:IT Infrastructure Management",
-    "label": "IT Infrastructure Management",
-    "value": "resume:IT Infrastructure Management"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Demand Creation",
-    "label": "Demand Creation",
-    "value": "resume:Demand Creation"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:MEDDIC",
-    "label": "MEDDIC",
-    "value": "resume:MEDDIC"
+    "id": "resume:Vendor Management",
+    "label": "Vendor Management",
+    "value": "resume:Vendor Management"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Data Center",
+    "label": "Data Center",
+    "value": "resume:Data Center"
    },
    {
-    "id": "resume:IT Infrastructure Management",
-    "label": "IT Infrastructure Management",
-    "value": "resume:IT Infrastructure Management"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Demand Creation",
-    "label": "Demand Creation",
-    "value": "resume:Demand Creation"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:MEDDIC",
-    "label": "MEDDIC",
-    "value": "resume:MEDDIC"
+    "id": "resume:Vendor Management",
+    "label": "Vendor Management",
+    "value": "resume:Vendor Management"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Direct Sales",
-    "label": "Direct Sales",
-    "value": "resume:Direct Sales"
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
+    "id": "resume:Contract Negotiation",
+    "label": "Contract Negotiation",
+    "value": "resume:Contract Negotiation"
+   },
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "manager": true,
@@ -272,25 +261,30 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 6,
+  "minYearsExp": 10,
   "regions": [
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -298,28 +292,27 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Data & Analytics",
-    "label": "Data & Analytics",
-    "value": "Data & Analytics"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-09-29T10:35:02Z",
-  "title": "Regional Sales Manager, Switzerland Territory (Enterprise)",
-  "url": "https://cribl.io/job-detail/?gh_jid=6202599004",
-  "jobId": "6202599004",
-  "remote": true,
+  "timeStamp": "2026-09-29T17:52:51Z",
+  "title": "Sr. Manager, Purchasing",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8856840002?gh_jid=8856840002",
+  "jobId": "8856840002",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1861684208615, 'matchScore': 0, 'ageScore': 0.9861684208614969, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1844039093398, 'matchScore': 0, 'ageScore': 0.984403909339892, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
