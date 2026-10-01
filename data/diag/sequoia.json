@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-09-30T19:29:29Z",
+ "run": "2026-09-30T23:58:40Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "YA_h2IQ9Z0\u2026",
+  "session.sig": "H6-brAP5vC\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDJkNDk0ZjM4MDlhM2RjZjY0MTc0MGQwOGUwMzE3MDQiLCAic2NvcmUiOiAxLjEyNzg5NDE5NzI1MjcwMDZ9"
+   "sequence": "eyJfaWQiOiAiMDJkNDk0ZjM4MDlhM2RjZjY0MTc0MGQwOGUwMzE3MDQiLCAic2NvcmUiOiAxLjEyMzk0OTM0MzgyMzY4ODN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,122 +144,132 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.noom.com/careers/job-listings/?gh_jid=8141958",
-  "companyDomain": "noom.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/74dadc006f8eeef33ca9e961b8e59617_176_160?Expires=1861920000&Signature=hivAJYVdYcSe5usW91tMNDDG9-S4~xqOwewfMnuAEa1WB0S-PN5Om",
-  "companyId": "Noom",
-  "companySlug": "noom",
-  "companyName": "Noom",
-  "companyStaffCount": 1201,
+  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8243010",
+  "companyDomain": "reddit.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
+  "companyId": "Reddit",
+  "companySlug": "reddit",
+  "companyName": "reddit",
+  "companyStaffCount": 4495,
   "considerHosted": false,
   "departments": [
-   "Legal & Business Affairs"
+   "Machine Learning"
   ],
   "jobTypes": [
    {
-    "id": "compliance-risk",
-    "label": "Risk & Compliance Manager",
-    "value": "compliance-risk"
+    "id": "data-scientist",
+    "label": "Data Scientist",
+    "value": "data-scientist"
+   },
+   {
+    "id": "machine-learning-engineer",
+    "label": "Machine Learning Engineer",
+    "value": "machine-learning-engineer"
+   },
+   {
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Auditing",
-    "label": "Auditing",
-    "value": "Auditing"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Princeton, New Jersey, United States"
+   "Remote - United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Princeton, New Jersey",
-    "label": "Princeton, New Jersey",
-    "value": "Princeton, New Jersey"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 107000, 'maxValue': 126000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 266000, 'maxValue': 372400, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Enterprise Sales",
-    "label": "Enterprise Sales",
-    "value": "resume:Enterprise Sales"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    },
    {
-    "id": "resume:Contractors",
-    "label": "Contractors",
-    "value": "resume:Contractors"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Paralegal",
-    "label": "Paralegal",
-    "value": "resume:Paralegal"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:Low Latency",
+    "label": "Low Latency",
+    "value": "resume:Low Latency"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Enterprise Sales",
-    "label": "Enterprise Sales",
-    "value": "resume:Enterprise Sales"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    },
    {
-    "id": "resume:Contractors",
-    "label": "Contractors",
-    "value": "resume:Contractors"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Paralegal",
-    "label": "Paralegal",
-    "value": "resume:Paralegal"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:Low Latency",
+    "label": "Low Latency",
+    "value": "resume:Low Latency"
    },
    {
-    "id": "resume:Content Management",
-    "label": "Content Management",
-    "value": "resume:Content Management"
+    "id": "resume:High Availability",
+    "label": "High Availability",
+    "value": "resume:High Availability"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Advertising",
+    "label": "Advertising",
+    "value": "resume:Advertising"
    }
   ],
   "manager": false,
@@ -269,30 +279,17 @@
    [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 4,
-  "maxYearsExp": 6,
   "regions": [
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    }
   ],
   "stages": [
@@ -300,39 +297,38 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Health, Wellness and Fitness",
-    "label": "Health, Wellness and Fitness",
-    "value": "Health, Wellness and Fitness"
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
+   },
+   {
+    "id": "Social Networking",
+    "label": "Social Networking",
+    "value": "Social Networking"
    }
   ],
-  "timeStamp": "2026-09-30T10:18:58Z",
-  "title": "Healthcare Compliance Manager",
-  "url": "https://www.noom.com/careers/job-listings/?gh_jid=8141958",
-  "jobId": "8141958",
-  "remote": false,
+  "timeStamp": "2026-09-30T10:22:33Z",
+  "title": "Senior Staff Machine Learning Engineer, ML Understanding",
+  "url": "https://job-boards.greenhouse.io/reddit/jobs/8243010",
+  "jobId": "8243010",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1895683381057, 'matchScore': 0, 'ageScore': 0.9895683381057099, 'richnessScore': 2}",
+  "scores": "{'score': 1001.18583460689, 'matchScore': 0, 'ageScore': 0.9858346068900463, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

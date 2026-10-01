@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-09-30T19:29:29Z",
+ "run": "2026-09-30T23:58:40Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "uuQTt7KtdA\u2026",
+  "session.sig": "VoNMRYZzta\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2RkMjY1OGI4YTNmNWFkNzU1N2QwMzU2ZjYwMWYyYTciLCAic2NvcmUiOiAxLjEwODUwNzE2MjUzMDA5MjZ9"
+   "sequence": "eyJfaWQiOiAiNzRjZGMyNjk4YTY0ZjM2Y2U1MGRkNzE0NzYzN2FjN2EiLCAic2NvcmUiOiAxLjEwNDMwMTYwNTAxNDI3NDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -174,6 +174,11 @@
   "departments": [],
   "jobTypes": [
    {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   },
+   {
     "id": "finance-professional",
     "label": "Finance",
     "value": "finance-professional"
@@ -182,11 +187,6 @@
     "id": "change-manager",
     "label": "Change Manager",
     "value": "change-manager"
-   },
-   {
-    "id": "Analyst",
-    "label": "Analyst",
-    "value": "Analyst"
    }
   ],
   "jobFunctions": [
@@ -214,14 +214,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 105800, 'maxValue': 163450, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
-   },
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
     "id": "resume:Enablement",
@@ -229,21 +224,43 @@
     "value": "resume:Enablement"
    },
    {
-    "id": "resume:Change Management",
-    "label": "Change Management",
-    "value": "resume:Change Management"
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
    },
    {
-    "id": "resume:Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "resume:Enterprise Software"
+    "id": "resume:White Papers",
+    "label": "White Papers",
+    "value": "resume:White Papers"
+   },
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
+   },
+   {
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:White Papers",
+    "label": "White Papers",
+    "value": "resume:White Papers"
    },
    {
     "id": "resume:B2B",
@@ -251,26 +268,9 @@
     "value": "resume:B2B"
    },
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Change Management",
-    "label": "Change Management",
-    "value": "resume:Change Management"
-   },
-   {
-    "id": "resume:Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "resume:Enterprise Software"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
    },
    {
     "id": "resume:Trust Building",
@@ -278,9 +278,9 @@
     "value": "resume:Trust Building"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "manager": false,
@@ -333,7 +333,7 @@
   "jobId": "30428",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1946398380795, 'matchScore': 0, 'ageScore': 0.9946398380794753, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1901214577905, 'matchScore': 0, 'ageScore': 0.9901214577905093, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

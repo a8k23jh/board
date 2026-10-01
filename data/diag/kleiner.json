@@ -1,6 +1,7 @@
 {
  "board": "kleiner",
- "run": "2026-09-30T19:29:29Z",
+ "run": "2026-09-30T23:58:40Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +43,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "9klFxO4Rq0\u2026",
+  "session.sig": "KDbFrUiN7p\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +128,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTE0MmUzOGMzYzBiYTE3NDBhYzdkYjQzOWQyMjk3MWQiLCAic2NvcmUiOiAxLjAyODI0MTg0OTE1NzQwNzV9"
+   "sequence": "eyJfaWQiOiAiMTE0MmUzOGMzYzBiYTE3NDBhYzdkYjQzOWQyMjk3MWQiLCAic2NvcmUiOiAxLjAyMzcxNTEyNTI1MzQ3MjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -193,14 +194,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 153000, 'maxValue': 241000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Employment Law",
+    "label": "Employment Law",
+    "value": "resume:Employment Law"
    },
    {
-    "id": "resume:Employee Relations",
-    "label": "Employee Relations",
-    "value": "resume:Employee Relations"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Incentive Programs",
@@ -208,9 +209,9 @@
     "value": "resume:Incentive Programs"
    },
    {
-    "id": "resume:Employment Law",
-    "label": "Employment Law",
-    "value": "resume:Employment Law"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
     "id": "resume:Equity",
@@ -220,14 +221,14 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Employment Law",
+    "label": "Employment Law",
+    "value": "resume:Employment Law"
    },
    {
-    "id": "resume:Employee Relations",
-    "label": "Employee Relations",
-    "value": "resume:Employee Relations"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Incentive Programs",
@@ -237,9 +238,9 @@
   ],
   "preferredSkills": [
    {
-    "id": "resume:Employment Law",
-    "label": "Employment Law",
-    "value": "resume:Employment Law"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
     "id": "resume:Equity",
@@ -247,9 +248,9 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Employee Relations",
+    "label": "Employee Relations",
+    "value": "resume:Employee Relations"
    }
   ],
   "manager": false,
@@ -298,7 +299,7 @@
   "jobId": "8857797002",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1878394137099, 'matchScore': 0, 'ageScore': 0.9878394137098765, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1837117342855, 'matchScore': 0, 'ageScore': 0.9837117342854939, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -315,5 +316,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
