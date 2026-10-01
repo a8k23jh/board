@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-09-30T23:58:40Z",
+ "run": "2026-10-01T06:10:00Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"2386bb4f6eecd6cda6b7253a1808b2cffa07bdea\",\"date\":\"2026-09-25T18:31:10.642Z\"},\"server\":{\"git\":\"2386bb4f6eecd6cda6b7253a1808b2cffa07bdea\",\"date\":\"2026-09-25T18:31:10.642Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f31e10e6a1d79b9d1edc98a3740a5c219fadaec7\",\"date\":\"2026-10-01T00:20:58.783Z\"},\"server\":{\"git\":\"f31e10e6a1d79b9d1edc98a3740a5c219fadaec7\",\"date\":\"2026-10-01T00:20:58.783Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "K5lrdqUhSc\u2026",
+  "session.sig": "qL1gYmUpYl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGU3NDNiZWI3NGQ4YjI3MjE3ZTRiN2EyMWFkZTlkMTAiLCAic2NvcmUiOiAxLjA0NjI1MzEyMDIzMzAyNDd9"
+   "sequence": "eyJfaWQiOiAiZjU4YjZiMDJkMmNhYjNkNWQxZmM1YTY0MTk3OTc4YTEiLCAic2NvcmUiOiAxLjA4NTc2NTc5NzU3OTQ3NTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,33 +136,31 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.pindrop.com/careers/job-title/?gh_jid=7912978",
-  "companyDomain": "pindrop.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66db7ca011dabe5ff29c157b56a4251f_288_160?Expires=1861920000&Signature=l7jCjYdBtd-x9~FoRb61NXvycjznIWMO3dSQ1QJItmzYDl9x~JFGj",
-  "companyId": "Pindrop Security",
-  "companySlug": "pindrop-security",
-  "companyName": "Pindrop Security",
-  "companyStaffCount": 365,
+  "applyUrl": "https://app.careerpuck.com/job-board/prenuvo/job/4738973005",
+  "companyDomain": "prenuvo.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f855494ad06dbd721840918e60608cc8_224_160?Expires=1861920000&Signature=F2KsitJcPnsGLTQzMVD4Ftje4BCUz1jm~hj5Mb1raR1Vzkp~b6xD~",
+  "companyId": "Prenuvo",
+  "companySlug": "prenuvo",
+  "companyName": "Prenuvo",
+  "companyStaffCount": 422,
   "considerHosted": false,
-  "departments": [
-   "PRE"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "senior-software-engineer",
-    "label": "Senior Software Engineer",
-    "value": "senior-software-engineer"
+    "id": "backend-engineer",
+    "label": "Backend Engineer",
+    "value": "backend-engineer"
    }
   ],
   "jobFunctions": [
@@ -173,7 +171,7 @@
    }
   ],
   "locations": [
-   "US - Remote"
+   "Remote, USA"
   ],
   "normalizedLocations": [
    {
@@ -182,76 +180,76 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:Continuous Delivery",
-    "label": "Continuous Delivery",
-    "value": "resume:Continuous Delivery"
+    "id": "resume:HL7",
+    "label": "HL7",
+    "value": "resume:HL7"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    },
    {
-    "id": "resume:Global Teams",
-    "label": "Global Teams",
-    "value": "resume:Global Teams"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:FastAPI",
+    "label": "FastAPI",
+    "value": "resume:FastAPI"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:Continuous Delivery",
-    "label": "Continuous Delivery",
-    "value": "resume:Continuous Delivery"
+    "id": "resume:HL7",
+    "label": "HL7",
+    "value": "resume:HL7"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Global Teams",
-    "label": "Global Teams",
-    "value": "resume:Global Teams"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:FastAPI",
+    "label": "FastAPI",
+    "value": "resume:FastAPI"
    },
    {
-    "id": "resume:SIP",
-    "label": "SIP",
-    "value": "resume:SIP"
+    "id": "resume:Flask",
+    "label": "Flask",
+    "value": "resume:Flask"
    },
    {
-    "id": "resume:Jenkins",
-    "label": "Jenkins",
-    "value": "resume:Jenkins"
+    "id": "resume:EHR",
+    "label": "EHR",
+    "value": "resume:EHR"
    },
    {
-    "id": "resume:SOA",
-    "label": "SOA/Microservices",
-    "value": "resume:SOA"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    }
   ],
   "manager": false,
@@ -279,22 +277,28 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-09-30T10:16:08Z",
-  "title": "Senior Software Engineer (Capture)",
-  "url": "https://www.pindrop.com/careers/job-title/?gh_jid=7912978",
-  "jobId": "7912978",
+  "timeStamp": "2026-09-30T22:22:01.103000Z",
+  "title": "Senior Backend Engineer II - Data",
+  "url": "https://app.careerpuck.com/job-board/prenuvo/job/4738973005",
+  "jobId": "s0fjz0dI",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1855182295895, 'matchScore': 0, 'ageScore': 0.9855182295895062, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1987175165664, 'matchScore': 0, 'ageScore': 0.998717516566358, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
