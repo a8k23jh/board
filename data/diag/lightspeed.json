@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-02T18:32:09Z",
+ "run": "2026-10-02T23:04:43Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "lJS9XXSInk\u2026",
+  "session.sig": "8gfbFFMTdx\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjk4YTcyZWNiNmQzYmRjODliMDQyN2QyMWRmMzRkMjgiLCAic2NvcmUiOiAxLjE2MjQyNTkyMjQ2Mjk2M30="
+   "sequence": "eyJfaWQiOiAiMjUyZmJiMGIzOTgwNjc3MTBiMmIxMTA2YjY4MmJhYzciLCAic2NvcmUiOiAxLjE1NDk3MjE4OTA5MjIwN30="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,125 +144,121 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://predicthq.teamtailor.com/jobs/8488433-solutions-engineer",
-  "companyDomain": "predicthq.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/0698f50cdc8ffdbc46b78230893470e9_304_160?Expires=1861920000&Signature=cgFrJKxrNIR5jf3-Zgbo37cFt4WvGvmdTMonjD3ktoJnkfRbhSeh-",
-  "companyId": "PredictHQ",
-  "companySlug": "predicthq",
-  "companyName": "PredictHQ",
-  "companyStaffCount": 49,
+  "applyUrl": "https://job-boards.greenhouse.io/olema/jobs/6211586004",
+  "companyDomain": "olema.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/59e14d372a52e143afddc864c0800e1c_256_160?Expires=1861920000&Signature=T8n0BFx8AIjEdIfsUbZLVhZX1ZeQUvqU9lqhR8p-SFO7Zp2LVmM2d",
+  "companyId": "Olema Oncology",
+  "companySlug": "olema-oncology",
+  "companyName": "Olema Oncology",
+  "companyStaffCount": 152,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Clinical"
+  ],
   "jobTypes": [
    {
-    "id": "sales-engineer",
-    "label": "Sales Engineer",
-    "value": "sales-engineer"
+    "id": "medical-affairs",
+    "label": "Medical Affairs",
+    "value": "medical-affairs"
    },
    {
-    "id": "solutions-architect",
-    "label": "Solutions Architect",
-    "value": "solutions-architect"
+    "id": "clinical-trial-manager",
+    "label": "Clinical Trial Manager",
+    "value": "clinical-trial-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "New York, US"
+   "Boston, Massachusetts"
   ],
   "normalizedLocations": [
    {
-    "id": "Greater New York City Area",
-    "label": "New York City Area",
-    "value": "Greater New York City Area"
+    "id": "Boston, Massachusetts",
+    "label": "Boston, Massachusetts",
+    "value": "Boston, Massachusetts"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 275000, 'maxValue': 275000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Software Development Process",
+    "label": "Software Development Processes",
+    "value": "resume:Software Development Process"
    },
    {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
+    "id": "resume:Cancer Biology",
+    "label": "Cancer Biology",
+    "value": "resume:Cancer Biology"
    },
    {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
+    "id": "resume:Clinical data",
+    "label": "Clinical data",
+    "value": "resume:Clinical data"
    },
    {
-    "id": "resume:Post-sales",
-    "label": "Post-sales",
-    "value": "resume:Post-sales"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Health Insurance",
-    "label": "Health Insurance",
-    "value": "resume:Health Insurance"
+    "id": "resume:Cancer Treatment",
+    "label": "Cancer Treatment",
+    "value": "resume:Cancer Treatment"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Software Development Process",
+    "label": "Software Development Processes",
+    "value": "resume:Software Development Process"
    },
    {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
+    "id": "resume:Cancer Biology",
+    "label": "Cancer Biology",
+    "value": "resume:Cancer Biology"
    },
    {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
+    "id": "resume:Clinical data",
+    "label": "Clinical data",
+    "value": "resume:Clinical data"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Post-sales",
-    "label": "Post-sales",
-    "value": "resume:Post-sales"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Health Insurance",
-    "label": "Health Insurance",
-    "value": "resume:Health Insurance"
+    "id": "resume:Cancer Treatment",
+    "label": "Cancer Treatment",
+    "value": "resume:Cancer Treatment"
    },
    {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    },
    {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    }
   ],
   "manager": false,
@@ -278,19 +274,8 @@
     4
    ]
   ],
-  "minYearsExp": 3,
-  "maxYearsExp": 5,
+  "minYearsExp": 2,
   "regions": [
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "Northeast",
     "label": "Northeast",
@@ -300,51 +285,45 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Biotech/Pharma",
+    "label": "Biotech/Pharma",
+    "value": "Biotech/Pharma"
    }
   ],
-  "timeStamp": "2026-10-02T05:58:32Z",
-  "title": "Solutions Engineer",
-  "url": "https://predicthq.teamtailor.com/jobs/8488433-solutions-engineer",
-  "jobId": "8488433",
+  "timeStamp": "2026-10-02T10:51:51Z",
+  "title": "Medical Director, Clinical Development",
+  "url": "https://job-boards.greenhouse.io/olema/jobs/6211586004",
+  "jobId": "6211586004",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.187815997196, 'matchScore': 0, 'ageScore': 0.9878159971959877, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1859242591454, 'matchScore': 0, 'ageScore': 0.9859242591454476, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },

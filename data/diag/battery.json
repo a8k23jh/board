@@ -1,7 +1,6 @@
 {
  "board": "battery",
- "run": "2026-10-02T18:32:09Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.battery.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-10-02T23:04:43Z",
  "homepage": {
   "status": 200,
   "bytes": 18736
@@ -35,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cFIWZh50bz\u2026",
+  "session.sig": "JXuENUD2P3\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -120,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGQwNTZmOGEyNDA5M2E2NzE3N2U0Y2VjMTkwMWJhMDEiLCAic2NvcmUiOiAxLjA3OTE2MTY4MDgyNjc3NDh9"
+   "sequence": "eyJfaWQiOiAiZDU2OTJhN2E3NmY1YmJmYmQ0YTVlNjM4MDMzMGExMTciLCAic2NvcmUiOiAxLjA3MDg2ODM0MDUyMDQ0NzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -137,145 +136,182 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://bitwarden.com/careers/7989370003/?gh_jid=7989370003",
-  "companyDomain": "bitwarden.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e147c61df1eea1a0ccb62933cb3c4591_320_160?Expires=1861920000&Signature=FGYgxPba8fNBP055EQE8IpyOH8XRt18FeN6G2E~tlTFaK3a0RA7k7",
-  "companyId": "Bitwarden",
-  "companySlug": "bitwarden",
-  "companyName": "Bitwarden",
-  "companyStaffCount": 269,
+  "applyUrl": "https://jobs.ashbyhq.com/clickhouse/962f45f3-d8d3-4073-add2-af763f7c3ffb?utm_source=jobs.battery.com",
+  "companyDomain": "clickhouse.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2779852661322ab66da5dc263e72606_320_160?Expires=1861920000&Signature=r~P65IuHovDEITH8vKhbAvgpsGftasvE8O7kucrixTGLscABGrKrs",
+  "companyId": "ClickHouse",
+  "companySlug": "clickhouse",
+  "companyName": "ClickHouse",
+  "companyStaffCount": 667,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "ClickHouse Labs"
   ],
   "jobTypes": [
    {
-    "id": "enterprise-account-executive",
-    "label": "Enterprise Account Executive",
-    "value": "enterprise-account-executive"
+    "id": "biotech-scientist",
+    "label": "Scientist",
+    "value": "biotech-scientist"
    },
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
    }
   ],
   "locations": [
-   "Remote, US"
+   "San Francisco, United States",
+   "United States",
+   "Canada",
+   "United Kingdom",
+   "Germany"
   ],
   "normalizedLocations": [
+   {
+    "id": "Canada",
+    "label": "Canada",
+    "value": "Canada"
+   },
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
+   },
+   {
+    "id": "Netherlands",
+    "label": "Netherlands",
+    "value": "Netherlands"
+   },
+   {
+    "id": "Germany",
+    "label": "Germany",
+    "value": "Germany"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 75000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 235000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:CRM software",
-    "label": "CRM Software",
-    "value": "resume:CRM software"
+    "id": "resume:Query Optimization",
+    "label": "Query Optimization",
+    "value": "resume:Query Optimization"
    },
    {
-    "id": "resume:Multitasking skills",
-    "label": "Multitasking skills",
-    "value": "resume:Multitasking skills"
+    "id": "resume:Quality Systems",
+    "label": "Quality Systems",
+    "value": "resume:Quality Systems"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:concurrency",
+    "label": "Concurrency Design",
+    "value": "resume:concurrency"
    },
    {
-    "id": "resume:IT Sales",
-    "label": "IT Sales",
-    "value": "resume:IT Sales"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:CRM software",
-    "label": "CRM Software",
-    "value": "resume:CRM software"
+    "id": "resume:Query Optimization",
+    "label": "Query Optimization",
+    "value": "resume:Query Optimization"
    },
    {
-    "id": "resume:Multitasking skills",
-    "label": "Multitasking skills",
-    "value": "resume:Multitasking skills"
+    "id": "resume:Quality Systems",
+    "label": "Quality Systems",
+    "value": "resume:Quality Systems"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:concurrency",
+    "label": "Concurrency Design",
+    "value": "resume:concurrency"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:IT Sales",
-    "label": "IT Sales",
-    "value": "resume:IT Sales"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Public Speaking",
-    "label": "Public Speaking",
-    "value": "resume:Public Speaking"
+    "id": "resume:Query Planning",
+    "label": "Query Planning",
+    "value": "resume:Query Planning"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
    },
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ]
-  ],
-  "minYearsExp": 4,
-  "maxYearsExp": 8,
+  "considerLevels": [],
   "regions": [
+   {
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
+   },
+   {
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -283,22 +319,33 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Security",
-    "label": "Security",
-    "value": "Security"
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
+   },
+   {
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
    }
   ],
-  "timeStamp": "2026-10-01T17:06:17Z",
-  "title": "Enterprise Account Executive",
-  "url": "https://bitwarden.com/careers/7989370003/?gh_jid=7989370003",
-  "jobId": "7989370003",
+  "timeStamp": "2026-10-02T00:00:00Z",
+  "title": "Database Research Scientist",
+  "url": "https://jobs.ashbyhq.com/clickhouse/962f45f3-d8d3-4073-add2-af763f7c3ffb",
+  "jobId": "962f45f3-d8d3-4073-add2-af763f7c3ffb",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.170695696855, 'matchScore': 0, 'ageScore': 0.9706956968549383, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1705682699622, 'matchScore': 0, 'ageScore': 0.9705682699621914, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -315,6 +362,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }

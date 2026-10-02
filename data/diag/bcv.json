@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-02T18:32:09Z",
+ "run": "2026-10-02T23:04:43Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "4lpk1FLj2v\u2026",
+  "session.sig": "m1znvkOrdX\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTNiNjhiMTU1YjMyZWJmYmVlMDA4OTIwYzg3Y2FmOTkiLCAic2NvcmUiOiAxLjA5MjY5NDM0NzczMjI1M30="
+   "sequence": "eyJfaWQiOiAiMzhkNDE2MTA3OTVjMzBkNWU2MTc2M2UzYTc2NDRjN2IiLCAic2NvcmUiOiAxLjA4MzQ4ODc3MjMzMjE3Nn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -146,12 +146,12 @@
    "companyLogos",
    "companyName",
    "companySlug",
-   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
@@ -163,96 +163,95 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Crusoe/e9374a42-aefd-451e-8a41-583083060c79?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "crusoe.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/83e047ed53d48955e1e39bdd6f3f660f_256_160?Expires=1861920000&Signature=r2eU4jRX2uOXV1AaZbtY7Z5mnhoWhTY0I1PFAYujsp5lQ9CiX1iiB",
-  "companyId": "Crusoe",
-  "companySlug": "crusoe",
-  "companyName": "Crusoe",
-  "companyStaffCount": 1693,
+  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6205730004",
+  "companyDomain": "apollo.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
+  "companyId": "Apollo",
+  "companySlug": "apollo",
+  "companyName": "Apollo",
   "considerHosted": false,
   "departments": [
-   "Strategic Initiatives"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "application-engineer",
-    "label": "Application Engineer",
-    "value": "application-engineer"
+    "id": "solutions-architect",
+    "label": "Solutions Architect",
+    "value": "solutions-architect"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Denver, Colorado, US",
-   "Denver, CO - US"
+   "Hybrid, Austin"
   ],
   "normalizedLocations": [
    {
-    "id": "Denver, Colorado",
-    "label": "Denver, Colorado",
-    "value": "Denver, Colorado"
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 215000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 115000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Marketing Automation",
+    "label": "Marketing Automation",
+    "value": "resume:Marketing Automation"
    },
    {
-    "id": "resume:Data Center",
-    "label": "Data Center",
-    "value": "resume:Data Center"
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
    },
    {
-    "id": "resume:Product Roadmap",
-    "label": "Product Roadmap",
-    "value": "resume:Product Roadmap"
+    "id": "resume:MEDDPICC",
+    "label": "MEDDPICC",
+    "value": "resume:MEDDPICC"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Marketing Automation",
+    "label": "Marketing Automation",
+    "value": "resume:Marketing Automation"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Data Center",
-    "label": "Data Center",
-    "value": "resume:Data Center"
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
    },
    {
-    "id": "resume:Product Roadmap",
-    "label": "Product Roadmap",
-    "value": "resume:Product Roadmap"
-   },
-   {
-    "id": "resume:Power Generation",
-    "label": "Power Generation",
-    "value": "resume:Power Generation"
+    "id": "resume:MEDDPICC",
+    "label": "MEDDPICC",
+    "value": "resume:MEDDPICC"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -260,9 +259,14 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    }
   ],
   "manager": false,
@@ -270,59 +274,71 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 2,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Energy",
-    "label": "Energy",
-    "value": "Energy"
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-10-02T00:00:00Z",
-  "title": "Senior Staff Applications Engineer - Spark",
-  "url": "https://jobs.ashbyhq.com/Crusoe/e9374a42-aefd-451e-8a41-583083060c79",
-  "jobId": "e9374a42-aefd-451e-8a41-583083060c79",
+  "timeStamp": "2026-10-02T10:57:11Z",
+  "title": "Associate Solutions Consultant II",
+  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6205730004",
+  "jobId": "6205730004",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1803754114729, 'matchScore': 0, 'ageScore': 0.9803754114729938, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1857136040826, 'matchScore': 0, 'ageScore': 0.9857136040825617, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid",
+   "junior"
   ],
   "isFeatured": false
  },
