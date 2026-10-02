@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-01T23:57:47Z",
+ "run": "2026-10-02T05:53:32Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "vmDt7X3Eez\u2026",
+  "session.sig": "YQTJbvSmRM\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzgzMDJmZDdjMDA1MzJjOGMwNzBkOTFiMDk5OGZiZjIiLCAic2NvcmUiOiAxLjA0OTgxNzM5MDg0NjQ1MDh9"
+   "sequence": "eyJfaWQiOiAiZTVjZDZkY2I0ZDgwNmM5ZDJmNTA2ZmE1NDU5ZjljMTgiLCAic2NvcmUiOiAxLjA2NzA3NTI5NzE0MDA0NjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/huntress/jobs/8008772003",
+  "applyUrl": "https://job-boards.greenhouse.io/huntress/jobs/8009763003",
   "companyDomain": "huntress.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/47db98fd43ff2e54aa48da1038df6676_273_160?Expires=1861920000&Signature=WG8ArnSqJ6c79MOMUtw2npKbYVzp9xpAirjJgS7t9jvgSNoqk3qdo",
   "companyId": "Huntress",
@@ -164,20 +164,35 @@
   "companyStaffCount": 875,
   "considerHosted": false,
   "departments": [
-   "Recruiting"
+   "IIS"
   ],
   "jobTypes": [
    {
-    "id": "technical-recruiter",
-    "label": "Technical Recruiter",
-    "value": "technical-recruiter"
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
+   },
+   {
+    "id": "sales-mid-maket",
+    "label": "Sales Mid Market",
+    "value": "sales-mid-maket"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
@@ -190,76 +205,71 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 80000, 'maxValue': 80000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Strategic Sales Planning",
+    "label": "Sales Planning",
+    "value": "resume:Strategic Sales Planning"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Mid-Market",
+    "label": "Mid-Market",
+    "value": "resume:Mid-Market"
    },
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    },
    {
-    "id": "resume:Creative Sourcing",
-    "label": "Creative Sourcing",
-    "value": "resume:Creative Sourcing"
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Strategic Sales Planning",
+    "label": "Sales Planning",
+    "value": "resume:Strategic Sales Planning"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Mid-Market",
+    "label": "Mid-Market",
+    "value": "resume:Mid-Market"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    },
    {
-    "id": "resume:Creative Sourcing",
-    "label": "Creative Sourcing",
-    "value": "resume:Creative Sourcing"
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
    },
    {
-    "id": "resume:Employer Branding",
-    "label": "Employer Branding",
-    "value": "resume:Employer Branding"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Full-cycle Recruiting",
-    "label": "Full-cycle Recruiting",
-    "value": "resume:Full-cycle Recruiting"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    }
   ],
   "manager": false,
@@ -267,11 +277,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
+   ],
+   [
+    3,
+    4
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 2,
   "regions": [
    {
     "id": "North America",
@@ -299,24 +313,30 @@
     "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-10-01T10:00:42Z",
-  "title": "Senior Technical Recruiter",
-  "url": "https://job-boards.greenhouse.io/huntress/jobs/8008772003",
-  "jobId": "8008772003",
+  "timeStamp": "2026-10-01T17:21:54Z",
+  "title": "Account Executive II, Mid-Market",
+  "url": "https://job-boards.greenhouse.io/huntress/jobs/8009763003",
+  "jobId": "8009763003",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1859249341238, 'matchScore': 0, 'ageScore': 0.9859249341238426, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1913717543272, 'matchScore': 0, 'ageScore': 0.9913717543271605, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid",
+   "junior"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-01T23:57:47Z",
+ "run": "2026-10-02T05:53:32Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "syH7VjpuT-\u2026",
+  "session.sig": "gO2iOgj7QU\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTE3YmM4OTc1ZDVjN2RiOTc5NmExMmNkMDE0YTBhMWEiLCAic2NvcmUiOiAxLjEyOTYyOTU0NjI0MzQ0MTR9"
+   "sequence": "eyJfaWQiOiAiMTMyMGI5ZmU0OWZlOTcxMWQ4ZmUwM2QwYzU3ZjEyYzEiLCAic2NvcmUiOiAxLjE0NjI3MzY1ODIxNjA0OTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,185 +144,189 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8239905",
-  "companyDomain": "reddit.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
-  "companyId": "Reddit",
-  "companySlug": "reddit",
-  "companyName": "reddit",
-  "companyStaffCount": 4495,
+  "applyUrl": "https://jobs.lever.co/captivateiq/2b444752-f222-40b7-9d3b-a8a467f2fa73?lever-source%5B%5D=jobs.sequoiacap.com",
+  "companyDomain": "captivateiq.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/38cc60bf74d750e14fddc734b5c7ffb0_320_160?Expires=1861920000&Signature=hH3yceFmYb4gL3iy~giCkiv46duW7sycYRGlOCXAzTpoY29ejKDu4",
+  "companyId": "CaptivateIQ",
+  "companySlug": "captivateiq",
+  "companyName": "CaptivateIQ",
+  "companyStaffCount": 281,
   "considerHosted": false,
   "departments": [
-   "Sales Strategy & Operations"
+   "Customer Experience"
   ],
   "jobTypes": [
    {
-    "id": "platform-operations",
-    "label": "Platform Operations",
-    "value": "platform-operations"
+    "id": "consultant",
+    "label": "Consultant",
+    "value": "consultant"
+   },
+   {
+    "id": "professional-services",
+    "label": "Professional Services",
+    "value": "professional-services"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Consulting",
+    "label": "Consulting",
+    "value": "Consulting"
+   }
+  ],
   "locations": [
-   "New York City, NY"
+   "Remote USA"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180200, 'maxValue': 252300, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 105000, 'maxValue': 140000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Business Operations",
-    "label": "Business Operations",
-    "value": "resume:Business Operations"
+    "id": "resume:Design Systems",
+    "label": "Design Systems",
+    "value": "resume:Design Systems"
    },
    {
-    "id": "resume:Sales Operations",
-    "label": "Sales Operations",
-    "value": "resume:Sales Operations"
+    "id": "resume:Xactly Incent",
+    "label": "Xactly Incent",
+    "value": "resume:Xactly Incent"
    },
    {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:NetSuite",
+    "label": "NetSuite",
+    "value": "resume:NetSuite"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Business Operations",
-    "label": "Business Operations",
-    "value": "resume:Business Operations"
+    "id": "resume:Design Systems",
+    "label": "Design Systems",
+    "value": "resume:Design Systems"
    },
    {
-    "id": "resume:Sales Operations",
-    "label": "Sales Operations",
-    "value": "resume:Sales Operations"
+    "id": "resume:Xactly Incent",
+    "label": "Xactly Incent",
+    "value": "resume:Xactly Incent"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:NetSuite",
+    "label": "NetSuite",
+    "value": "resume:NetSuite"
    },
    {
-    "id": "resume:Program Implementation",
-    "label": "Program Implementation",
-    "value": "resume:Program Implementation"
+    "id": "resume:Sales Compensation",
+    "label": "Sales Compensation",
+    "value": "resume:Sales Compensation"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
    }
   ],
   "manager": false,
-  "consultant": false,
+  "consultant": true,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
-  "maxYearsExp": 12,
+  "minYearsExp": 6,
   "regions": [
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Consumer",
-    "label": "Consumer",
-    "value": "Consumer"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Social Networking",
-    "label": "Social Networking",
-    "value": "Social Networking"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-10-01T12:24:49Z",
-  "title": "Revenue Strategy & Operations Partner",
-  "url": "https://job-boards.greenhouse.io/reddit/jobs/8239905",
-  "jobId": "8239905",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1889507066053, 'matchScore': 0, 'ageScore': 0.988950706605324, 'richnessScore': 2}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
+   }
+  ],
+  "timeStamp": "2026-10-01T22:16:53.668000Z",
+  "title": "Senior Professional Services Consultant",
+  "url": "https://jobs.lever.co/captivateiq/2b444752-f222-40b7-9d3b-a8a467f2fa73",
+  "jobId": "2b444752-f222-40b7-9d3b-a8a467f2fa73",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.197948783223, 'matchScore': 0, 'ageScore': 0.9979487832229939, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   }
+  ],
+  "jobSeniorityIds": [
+   "senior"
+  ],
   "isFeatured": false
  },
  "search_mode": {
