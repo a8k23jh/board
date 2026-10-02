@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-01T19:37:44Z",
+ "run": "2026-10-01T23:57:47Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f31e10e6a1d79b9d1edc98a3740a5c219fadaec7\",\"date\":\"2026-10-01T00:20:58.783Z\"},\"server\":{\"git\":\"f31e10e6a1d79b9d1edc98a3740a5c219fadaec7\",\"date\":\"2026-10-01T00:20:58.783Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"},\"server\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "6HCM9_uzkn\u2026",
+  "session.sig": "vmDt7X3Eez\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzgzMDJmZDdjMDA1MzJjOGMwNzBkOTFiMDk5OGZiZjIiLCAic2NvcmUiOiAxLjA1MzUxMjY5MTk1NDQ3NTN9"
+   "sequence": "eyJfaWQiOiAiYzgzMDJmZDdjMDA1MzJjOGMwNzBkOTFiMDk5OGZiZjIiLCAic2NvcmUiOiAxLjA0OTgxNzM5MDg0NjQ1MDh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -193,58 +193,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
-   },
-   {
-    "id": "resume:Ruby on Rails",
-    "label": "Ruby on Rails",
-    "value": "resume:Ruby on Rails"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
     "id": "resume:Recruiting",
     "label": "Recruiting",
     "value": "resume:Recruiting"
-   },
-   {
-    "id": "resume:Creative Sourcing",
-    "label": "Creative Sourcing",
-    "value": "resume:Creative Sourcing"
-   },
-   {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
-   },
-   {
-    "id": "resume:Ruby on Rails",
-    "label": "Ruby on Rails",
-    "value": "resume:Ruby on Rails"
-   },
-   {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Creative Sourcing",
-    "label": "Creative Sourcing",
-    "value": "resume:Creative Sourcing"
-   },
-   {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
    },
    {
     "id": "resume:Scheduling",
@@ -252,14 +208,58 @@
     "value": "resume:Scheduling"
    },
    {
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
+   },
+   {
+    "id": "resume:Creative Sourcing",
+    "label": "Creative Sourcing",
+    "value": "resume:Creative Sourcing"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
+   {
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
+   },
+   {
+    "id": "resume:Creative Sourcing",
+    "label": "Creative Sourcing",
+    "value": "resume:Creative Sourcing"
+   },
+   {
     "id": "resume:Employer Branding",
     "label": "Employer Branding",
     "value": "resume:Employer Branding"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    }
   ],
   "manager": false,
@@ -305,7 +305,7 @@
   "jobId": "8008772003",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1900235797281, 'matchScore': 0, 'ageScore': 0.9900235797280093, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1859249341238, 'matchScore': 0, 'ageScore': 0.9859249341238426, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-01T19:37:44Z",
+ "run": "2026-10-01T23:57:47Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f31e10e6a1d79b9d1edc98a3740a5c219fadaec7\",\"date\":\"2026-10-01T00:20:58.783Z\"},\"server\":{\"git\":\"f31e10e6a1d79b9d1edc98a3740a5c219fadaec7\",\"date\":\"2026-10-01T00:20:58.783Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"},\"server\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Oto3KQM2Tp\u2026",
+  "session.sig": "n4RiKzvDCF\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWU0NDhlM2I5NDA4NmU2MjY5OTM5N2IxOTcyNDgxYjEiLCAic2NvcmUiOiAxLjEwODc1ODkyMjcyODc4MDh9"
+   "sequence": "eyJfaWQiOiAiMDc3ZTQ5YTMxMzkxY2JlYjIzNTRiZmQ1ZThiOTYzMzgiLCAic2NvcmUiOiAxLjEwNDQwMDE0ODg1NzI1M30="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,19 +152,14 @@
   ],
   "jobTypes": [
    {
-    "id": "marketing-growth",
-    "label": "Marketing Growth",
-    "value": "marketing-growth"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   },
-   {
     "id": "marketing-engagement",
     "label": "Marketing Engagement",
     "value": "marketing-engagement"
+   },
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
    },
    {
     "id": "sales-professional",
@@ -172,21 +167,26 @@
     "value": "sales-professional"
    },
    {
-    "id": "marketing-acquisition",
-    "label": "Marketing Acquisition",
-    "value": "marketing-acquisition"
+    "id": "user-marketing",
+    "label": "Growth Manager",
+    "value": "user-marketing"
+   },
+   {
+    "id": "marketing-growth",
+    "label": "Marketing Growth",
+    "value": "marketing-growth"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   },
-   {
     "id": "Sales",
     "label": "Sales",
     "value": "Sales"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
@@ -207,24 +207,24 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Developer Tools",
-    "label": "Developer Tools",
-    "value": "resume:Developer Tools"
-   },
-   {
     "id": "resume:EMEA",
     "label": "EMEA",
     "value": "resume:EMEA"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
     "id": "resume:Data Infrastructure",
     "label": "Data Infrastructure",
     "value": "resume:Data Infrastructure"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Commercial Agreements",
+    "label": "Commercial Agreements",
+    "value": "resume:Commercial Agreements"
    }
   ],
   "requiredSkills": [
@@ -234,26 +234,26 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Developer Tools",
-    "label": "Developer Tools",
-    "value": "resume:Developer Tools"
-   },
-   {
     "id": "resume:EMEA",
     "label": "EMEA",
     "value": "resume:EMEA"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
    },
    {
     "id": "resume:Data Infrastructure",
     "label": "Data Infrastructure",
     "value": "resume:Data Infrastructure"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Commercial Agreements",
+    "label": "Commercial Agreements",
+    "value": "resume:Commercial Agreements"
    },
    {
     "id": "resume:Sales Commission",
@@ -266,9 +266,9 @@
     "value": "resume:Biology"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Developer Tools",
+    "label": "Developer Tools",
+    "value": "resume:Developer Tools"
    }
   ],
   "manager": false,
@@ -328,7 +328,7 @@
   "jobId": "5440799008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1852928933341, 'matchScore': 0, 'ageScore': 0.985292893334105, 'richnessScore': 2}",
+  "scores": "{'score': 1001.181332292699, 'matchScore': 0, 'ageScore': 0.9813322926990741, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-10-01T19:37:44Z",
+ "run": "2026-10-01T23:57:47Z",
  "homepage": {
   "status": 200,
   "bytes": 26164
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f31e10e6a1d79b9d1edc98a3740a5c219fadaec7\",\"date\":\"2026-10-01T00:20:58.783Z\"},\"server\":{\"git\":\"f31e10e6a1d79b9d1edc98a3740a5c219fadaec7\",\"date\":\"2026-10-01T00:20:58.783Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"},\"server\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "MFzQkuev-E\u2026",
+  "session.sig": "JmiAz1FVrr\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjQ5OTRjNjVmM2RhNDI5Yzk4NzJkNWNhY2Q0YzZiYWUiLCAic2NvcmUiOiAxLjEzNjAxOTI2Njg0NzIyMjJ9"
+   "sequence": "eyJfaWQiOiAiMjQ5OTRjNjVmM2RhNDI5Yzk4NzJkNWNhY2Q0YzZiYWUiLCAic2NvcmUiOiAxLjEzMTUxODA0OTIzMDMyNH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,147 +136,128 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/virbiotechnologyinc/jobs/4739639005",
-  "companyDomain": "vir.bio",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f90a47ebf2665864b94e3f1580bc311a_96_160?Expires=1861920000&Signature=QxtSHT5s99Luw3ZJiTR2UXJgIg20OoL2vAddWwtjOZTg0Jny4HlpB2",
-  "companyId": "Vir Biotechnology",
-  "companySlug": "vir-biotechnology",
-  "companyName": "Vir Biotechnology",
-  "companyStaffCount": 471,
+  "applyUrl": "https://jobs.gem.com/modular/am9icG9zdDrVK9NbHxLgw0380oPKWyWS?utm_source=jobs.gv.com",
+  "companyDomain": "modular.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c95a2e7d26c1c844eb59f8867714914e_208_160?Expires=1861920000&Signature=tbVqoyu8zBB2zh7C5eiQePYOUcf9BHGZV~XrgsXw2AZFjO73FdfPN",
+  "companyId": "Modular",
+  "companySlug": "modular",
+  "companyName": "Modular",
+  "companyStaffCount": 379,
   "considerHosted": false,
   "departments": [
-   "Human Resources"
+   "Mojo"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "San Francisco, California, United States"
+   "United States / Canada / Europe"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 227500, 'maxValue': 318000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 270000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
+    "id": "resume:LLVM",
+    "label": "LLVM",
+    "value": "resume:LLVM"
    },
    {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Stakeholder Engagement",
-    "label": "Stakeholder Engagement",
-    "value": "resume:Stakeholder Engagement"
+    "id": "resume:Compilers",
+    "label": "Compilers",
+    "value": "resume:Compilers"
    },
    {
-    "id": "resume:Biotechnology",
-    "label": "Biotechnology",
-    "value": "resume:Biotechnology"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Collaborative Leadership",
-    "label": "Collaborative Leadership",
-    "value": "resume:Collaborative Leadership"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
+    "id": "resume:LLVM",
+    "label": "LLVM",
+    "value": "resume:LLVM"
    },
    {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Stakeholder Engagement",
-    "label": "Stakeholder Engagement",
-    "value": "resume:Stakeholder Engagement"
+    "id": "resume:Compilers",
+    "label": "Compilers",
+    "value": "resume:Compilers"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Biotechnology",
-    "label": "Biotechnology",
-    "value": "resume:Biotechnology"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Collaborative Leadership",
-    "label": "Collaborative Leadership",
-    "value": "resume:Collaborative Leadership"
-   },
-   {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
-   },
-   {
-    "id": "resume:HRIS",
-    "label": "HR Systems",
-    "value": "resume:HRIS"
-   },
-   {
-    "id": "resume:Accrual",
-    "label": "Accrual",
-    "value": "resume:Accrual"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
    ]
   ],
-  "minYearsExp": 12,
+  "minYearsExp": 3,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -284,33 +265,54 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Biotech/Pharma",
-    "label": "Biotech/Pharma",
-    "value": "Biotech/Pharma"
+    "id": "AI/ML",
+    "label": "AI/ML",
+    "value": "AI/ML"
+   },
+   {
+    "id": "Hardware",
+    "label": "Hardware",
+    "value": "Hardware"
+   },
+   {
+    "id": "Infrastructure",
+    "label": "Infrastructure",
+    "value": "Infrastructure"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-10-01T10:19:46Z",
-  "title": "Senior Director, Total Rewards and HRIS",
-  "url": "https://job-boards.greenhouse.io/virbiotechnologyinc/jobs/4739639005",
-  "jobId": "4739639005",
-  "remote": false,
+  "timeStamp": "2026-10-01T17:58:59Z",
+  "title": "Mojo Back-End Compiler Engineer ",
+  "url": "https://jobs.gem.com/modular/am9icG9zdDrVK9NbHxLgw0380oPKWyWS",
+  "jobId": "am9icG9zdDrVK9NbHxLgw0380oPKWyWS",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1901031323183, 'matchScore': 0, 'ageScore': 0.9901031323182871, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1968332525278, 'matchScore': 0, 'ageScore': 0.9968332525277778, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "mid"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-01T19:37:44Z",
+ "run": "2026-10-01T23:57:47Z",
  "homepage": {
   "status": 200,
   "bytes": 16696
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f31e10e6a1d79b9d1edc98a3740a5c219fadaec7\",\"date\":\"2026-10-01T00:20:58.783Z\"},\"server\":{\"git\":\"f31e10e6a1d79b9d1edc98a3740a5c219fadaec7\",\"date\":\"2026-10-01T00:20:58.783Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"},\"server\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "YEcanb5Z8C\u2026",
+  "session.sig": "8X15fHAsMC\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmFlM2I4NzdjYjg2OGI2YjU1YTM4MjFkNDI4MTE2MTgiLCAic2NvcmUiOiAxLjAwMDU3NDA2NDMwMTMxMTd9"
+   "sequence": "eyJfaWQiOiAiYjZjZDBiMmY4YTQ2YTg5MGI4NTg2NjQ3YmM0YTI5MTMiLCAic2NvcmUiOiAwLjk5NzEyODY5MTA0MjgyNDF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "sales-director",
-    "label": "Sales Director",
-    "value": "sales-director"
-   },
-   {
     "id": "sales-professional",
     "label": "Sales Professional",
     "value": "sales-professional"
+   },
+   {
+    "id": "sales-director",
+    "label": "Sales Director",
+    "value": "sales-director"
    }
   ],
   "jobFunctions": [
@@ -198,14 +198,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 117200, 'maxValue': 146500, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:dynamic system",
-    "label": "Dynamic Systems",
-    "value": "resume:dynamic system"
+    "id": "resume:Sales Leadership",
+    "label": "Sales Leadership",
+    "value": "resume:Sales Leadership"
    },
    {
-    "id": "resume:Revenue Forecasting",
-    "label": "Revenue Forecasting",
-    "value": "resume:Revenue Forecasting"
+    "id": "resume:National Security",
+    "label": "National Security",
+    "value": "resume:National Security"
    },
    {
     "id": "resume:DCS",
@@ -213,44 +213,17 @@
     "value": "resume:DCS"
    },
    {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
+    "id": "resume:MEDDPICC",
+    "label": "MEDDPICC",
+    "value": "resume:MEDDPICC"
    },
    {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    }
   ],
   "requiredSkills": [
-   {
-    "id": "resume:dynamic system",
-    "label": "Dynamic Systems",
-    "value": "resume:dynamic system"
-   },
-   {
-    "id": "resume:Revenue Forecasting",
-    "label": "Revenue Forecasting",
-    "value": "resume:Revenue Forecasting"
-   },
-   {
-    "id": "resume:DCS",
-    "label": "DCS",
-    "value": "resume:DCS"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
-   },
-   {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
-   },
    {
     "id": "resume:Sales Leadership",
     "label": "Sales Leadership",
@@ -260,6 +233,33 @@
     "id": "resume:National Security",
     "label": "National Security",
     "value": "resume:National Security"
+   },
+   {
+    "id": "resume:DCS",
+    "label": "DCS",
+    "value": "resume:DCS"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:MEDDPICC",
+    "label": "MEDDPICC",
+    "value": "resume:MEDDPICC"
+   },
+   {
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
+   },
+   {
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
+   },
+   {
+    "id": "resume:Recruit",
+    "label": "Recruit",
+    "value": "resume:Recruit"
    },
    {
     "id": "resume:System Integrators",
@@ -319,7 +319,7 @@
   "jobId": "8245407",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1824104264082, 'matchScore': 0, 'ageScore': 0.982410426408179, 'richnessScore': 2}",
+  "scores": "{'score': 1001.178669060262, 'matchScore': 0, 'ageScore': 0.9786690602619599, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

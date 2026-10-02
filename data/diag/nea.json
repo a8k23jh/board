@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-10-01T19:37:44Z",
+ "run": "2026-10-01T23:57:47Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f31e10e6a1d79b9d1edc98a3740a5c219fadaec7\",\"date\":\"2026-10-01T00:20:58.783Z\"},\"server\":{\"git\":\"f31e10e6a1d79b9d1edc98a3740a5c219fadaec7\",\"date\":\"2026-10-01T00:20:58.783Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"},\"server\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "kSD4gtGaiS\u2026",
+  "session.sig": "PjJPM4gDGe\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDk4Y2FmY2E3OThhNjcyNTBmZTNiMmM0MjJmN2U3NmUiLCAic2NvcmUiOiAxLjEzMzg2Njk5MzY3MzIyNTN9"
+   "sequence": "eyJfaWQiOiAiNWVlNzE1Yjg4MzFkNDMwNGRjNTRmMjFiYzM0MzhkMzUiLCAic2NvcmUiOiAxLjEyOTcxMTc3NjU2MDE4NTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/korrobio/b2a0715d-d91b-4ca6-ba9b-8b3bc0165cb4?lever-source%5B%5D=careers.nea.com",
+  "applyUrl": "https://jobs.lever.co/korrobio/64319029-3805-4249-9022-afa742f7197d?lever-source%5B%5D=careers.nea.com",
   "companyDomain": "korrobio.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8d7bb5853ea05e7357dcfa900a8f8857_208_160?Expires=1861920000&Signature=EIvKQyX3YYOw8WP-4l~tMXThG0cF7XwlK1U3scJ2RLZh~jfxGL2iS",
   "companyId": "Korro Bio",
@@ -160,26 +160,16 @@
   ],
   "jobTypes": [
    {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
-   },
-   {
-    "id": "quality-assurance",
-    "label": "Quality Assurance",
-    "value": "quality-assurance"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "biotech-scientist",
+    "label": "Scientist",
+    "value": "biotech-scientist"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
    }
   ],
   "locations": [
@@ -192,79 +182,79 @@
     "value": "Cambridge, Massachusetts"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:RNA Sequencing",
+    "label": "RNA Sequencing",
+    "value": "resume:RNA Sequencing"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Sequencing",
+    "label": "Sequencing",
+    "value": "resume:Sequencing"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    },
    {
-    "id": "resume:Operational audits",
-    "label": "Operational Auditing",
-    "value": "resume:Operational audits"
+    "id": "resume:RNA",
+    "label": "RNA",
+    "value": "resume:RNA"
    },
    {
-    "id": "resume:GCP",
-    "label": "GCP",
-    "value": "resume:GCP"
+    "id": "resume:Cell Biology",
+    "label": "Cell Biology",
+    "value": "resume:Cell Biology"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:RNA Sequencing",
+    "label": "RNA Sequencing",
+    "value": "resume:RNA Sequencing"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Sequencing",
+    "label": "Sequencing",
+    "value": "resume:Sequencing"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Operational audits",
-    "label": "Operational Auditing",
-    "value": "resume:Operational audits"
+    "id": "resume:RNA",
+    "label": "RNA",
+    "value": "resume:RNA"
    },
    {
-    "id": "resume:GCP",
-    "label": "GCP",
-    "value": "resume:GCP"
+    "id": "resume:Cell Biology",
+    "label": "Cell Biology",
+    "value": "resume:Cell Biology"
    },
    {
-    "id": "resume:Good Lab Practice",
-    "label": "Good Lab Practice",
-    "value": "resume:Good Lab Practice"
+    "id": "resume:Molecular Biology",
+    "label": "Molecular Biology",
+    "value": "resume:Molecular Biology"
    },
    {
-    "id": "resume:Clinical Development",
-    "label": "Clinical Development",
-    "value": "resume:Clinical Development"
+    "id": "resume:Confluence",
+    "label": "Confluence",
+    "value": "resume:Confluence"
    },
    {
-    "id": "resume:Clinical Research",
-    "label": "Clinical Research",
-    "value": "resume:Clinical Research"
+    "id": "resume:Characterization",
+    "label": "Characterization",
+    "value": "resume:Characterization"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -277,13 +267,8 @@
     8
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 12,
   "regions": [
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
    {
     "id": "Northeast",
     "label": "Northeast",
@@ -293,6 +278,11 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -309,30 +299,24 @@
     "value": "Biotech/Pharma"
    }
   ],
-  "timeStamp": "2026-10-01T13:33:35.360000Z",
-  "title": "Associate Director, Clinical Quality Assurance",
-  "url": "https://jobs.lever.co/korrobio/b2a0715d-d91b-4ca6-ba9b-8b3bc0165cb4",
-  "jobId": "b2a0715d-d91b-4ca6-ba9b-8b3bc0165cb4",
+  "timeStamp": "2026-10-01T13:27:03.522000Z",
+  "title": "Senior Scientist",
+  "url": "https://jobs.lever.co/korrobio/64319029-3805-4249-9022-afa742f7197d",
+  "jobId": "64319029-3805-4249-9022-afa742f7197d",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1947209075366, 'matchScore': 0, 'ageScore': 0.9947209075366512, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1904735662562, 'matchScore': 0, 'ageScore': 0.9904735662561729, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
-   },
-   {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director",
-   "manager"
+   "senior"
   ],
   "isFeatured": false
  },
