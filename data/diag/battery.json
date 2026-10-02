@@ -1,6 +1,7 @@
 {
  "board": "battery",
- "run": "2026-10-02T12:51:44Z",
+ "run": "2026-10-02T18:32:09Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.battery.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 18736
@@ -34,7 +35,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "8oMX0uPwXS\u2026",
+  "session.sig": "cFIWZh50bz\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +120,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGVjZjcyOGE5NzBkOTA2OGIzYTJiYzlmNGVmMjk1YWEiLCAic2NvcmUiOiAxLjA4MzcxNjQ5NDgxODY3Mjh9"
+   "sequence": "eyJfaWQiOiAiNGQwNTZmOGEyNDA5M2E2NzE3N2U0Y2VjMTkwMWJhMDEiLCAic2NvcmUiOiAxLjA3OTE2MTY4MDgyNjc3NDh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -190,58 +191,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 75000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Multitasking skills",
-    "label": "Multitasking skills",
-    "value": "resume:Multitasking skills"
+    "id": "resume:CRM software",
+    "label": "CRM Software",
+    "value": "resume:CRM software"
    },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   },
-   {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
-   },
-   {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
-   },
-   {
-    "id": "resume:IT Sales",
-    "label": "IT Sales",
-    "value": "resume:IT Sales"
-   }
-  ],
-  "requiredSkills": [
    {
     "id": "resume:Multitasking skills",
     "label": "Multitasking skills",
     "value": "resume:Multitasking skills"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   },
-   {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
-   },
-   {
-    "id": "resume:IT Sales",
-    "label": "IT Sales",
-    "value": "resume:IT Sales"
    },
    {
     "id": "resume:Business Development",
@@ -249,14 +206,58 @@
     "value": "resume:Business Development"
    },
    {
+    "id": "resume:IT Sales",
+    "label": "IT Sales",
+    "value": "resume:IT Sales"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:CRM software",
     "label": "CRM Software",
     "value": "resume:CRM software"
    },
    {
+    "id": "resume:Multitasking skills",
+    "label": "Multitasking skills",
+    "value": "resume:Multitasking skills"
+   },
+   {
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:IT Sales",
+    "label": "IT Sales",
+    "value": "resume:IT Sales"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   },
+   {
     "id": "resume:Public Speaking",
     "label": "Public Speaking",
     "value": "resume:Public Speaking"
+   },
+   {
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
+   },
+   {
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
    }
   ],
   "manager": false,
@@ -297,7 +298,7 @@
   "jobId": "7989370003",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1747461241976, 'matchScore': 0, 'ageScore': 0.9747461241975308, 'richnessScore': 2}",
+  "scores": "{'score': 1001.170695696855, 'matchScore': 0, 'ageScore': 0.9706956968549383, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -314,5 +315,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }

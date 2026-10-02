@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T12:51:44Z",
+ "generated_at": "2026-10-02T18:32:09Z",
  "first_run": false,
  "boards": {
   "a16z": {
@@ -30,7 +30,7 @@
    "name": "Bessemer Venture Partners",
    "platform": "consider",
    "ok": true,
-   "fetched": 7540,
+   "fetched": 7539,
    "matched": 95,
    "error": null
   },
@@ -45,10 +45,10 @@
   "kleiner": {
    "name": "Kleiner Perkins",
    "platform": "consider",
-   "ok": true,
-   "fetched": 3094,
-   "matched": 49,
-   "error": null
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
   },
   "nea": {
    "name": "NEA",
@@ -85,33 +85,33 @@
   "ivp": {
    "name": "IVP",
    "platform": "consider",
-   "ok": true,
-   "fetched": 4748,
-   "matched": 78,
-   "error": null
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HTTPSConnectionPool(host='careers.ivp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
   },
   "accel": {
    "name": "Accel",
    "platform": "getro",
    "ok": true,
-   "fetched": 170,
-   "matched": 89,
+   "fetched": 171,
+   "matched": 93,
    "error": null
   },
   "generalcatalyst": {
    "name": "General Catalyst",
    "platform": "getro",
    "ok": true,
-   "fetched": 164,
-   "matched": 85,
+   "fetched": 170,
+   "matched": 91,
    "error": null
   },
   "khosla": {
    "name": "Khosla Ventures",
    "platform": "getro",
    "ok": true,
-   "fetched": 168,
-   "matched": 67,
+   "fetched": 169,
+   "matched": 68,
    "error": null
   },
   "insight": {
@@ -119,7 +119,7 @@
    "platform": "getro",
    "ok": true,
    "fetched": 157,
-   "matched": 59,
+   "matched": 61,
    "error": null
   },
   "menlo": {
@@ -142,16 +142,16 @@
    "name": "Index Ventures",
    "platform": "getro",
    "ok": true,
-   "fetched": 153,
-   "matched": 82,
+   "fetched": 128,
+   "matched": 60,
    "error": null
   },
   "jobsinvc": {
    "name": "Jobs in VC (roles at VC firms)",
    "platform": "getro",
    "ok": true,
-   "fetched": 82,
-   "matched": 11,
+   "fetched": 81,
+   "matched": 12,
    "error": null
   },
   "craft": {
@@ -166,8 +166,8 @@
    "name": "8VC",
    "platform": "getro",
    "ok": true,
-   "fetched": 163,
-   "matched": 50,
+   "fetched": 164,
+   "matched": 51,
    "error": null
   },
   "sapphire": {
@@ -182,8 +182,8 @@
    "name": "Thrive Capital",
    "platform": "getro",
    "ok": true,
-   "fetched": 145,
-   "matched": 58,
+   "fetched": 150,
+   "matched": 57,
    "error": null
   },
   "scalevp": {
@@ -198,40 +198,40 @@
    "name": "Getro Community (multi-network, incl. Pear VC)",
    "platform": "getro",
    "ok": true,
-   "fetched": 175,
-   "matched": 45,
+   "fetched": 174,
+   "matched": 44,
    "error": null
   },
   "felicis": {
    "name": "Felicis",
    "platform": "consider",
    "ok": true,
-   "fetched": 3737,
-   "matched": 78,
+   "fetched": 3738,
+   "matched": 77,
    "error": null
   },
   "gv": {
    "name": "GV (Google Ventures)",
    "platform": "consider",
    "ok": true,
-   "fetched": 8062,
-   "matched": 133,
+   "fetched": 8059,
+   "matched": 131,
    "error": null
   },
   "initialized": {
    "name": "Initialized Capital",
    "platform": "consider",
    "ok": true,
-   "fetched": 1572,
-   "matched": 39,
+   "fetched": 1576,
+   "matched": 38,
    "error": null
   },
   "yc": {
    "name": "Y Combinator",
    "platform": "yc",
    "ok": true,
-   "fetched": 124,
-   "matched": 11,
+   "fetched": 125,
+   "matched": 10,
    "error": null
   }
  }
