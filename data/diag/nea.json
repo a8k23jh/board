@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-10-02T05:53:32Z",
+ "run": "2026-10-02T12:51:44Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "nVQYbJJ9V7\u2026",
+  "session.sig": "tlAfPumHM6\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDVmNWI3Y2RlNmRiNTdkOTEzN2JkNGIzNDA1NWMxM2EiLCAic2NvcmUiOiAxLjEyNjI4MzMxODk5MTEyNjV9"
+   "sequence": "eyJfaWQiOiAiNTMyYWQ4ZjQ2M2I0YzY2NTQwZTUzOTNkM2UyOTAwOTYiLCAic2NvcmUiOiAxLjE3MjQ0MDk2MTY4NTk1Njh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,147 +136,124 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/mashgin/b4296191-22e9-4a1f-a479-82dca6bf49b7?lever-source%5B%5D=careers.nea.com",
-  "companyDomain": "mashgin.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a8a50e7bf23c8a97efe2159e6ed00f82_244_160?Expires=1861920000&Signature=pMEzItHazRAENcboZSwRFMhghQnKnnwBhOYSEUwrCSPjOp5jQYzhL",
-  "companyId": "Mashgin",
-  "companySlug": "mashgin",
-  "companyName": "Mashgin",
-  "companyStaffCount": 128,
+  "applyUrl": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=b440a53bbcafd214",
+  "companyDomain": "radpartners.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cbb7c62716082738519fbfbf183291f4_320_160?Expires=1861920000&Signature=IP2EwPq0HgJamPOiRiCrnFCNO7ptxDEq05T1ezuMj3TC6QzvZIq8E",
+  "companyId": "Radiology Partners",
+  "companySlug": "radiology-partners",
+  "companyName": "Radiology Partners",
+  "companyStaffCount": 2302,
   "considerHosted": false,
-  "departments": [
-   "Research & Development"
-  ],
-  "jobTypes": [
-   {
-    "id": "engineering-manager",
-    "label": "Engineering Manager",
-    "value": "engineering-manager"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "departments": [],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "Palo Alto, CA"
+   "Wethersfield, CT"
   ],
   "normalizedLocations": [
    {
-    "id": "Palo Alto, California",
-    "label": "Palo Alto, California",
-    "value": "Palo Alto, California"
+    "id": "Connecticut",
+    "label": "Connecticut",
+    "value": "Connecticut"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 40, 'maxValue': 51, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Magnetic Resonance Imaging",
+    "label": "Magnetic Resonance Imaging",
+    "value": "resume:Magnetic Resonance Imaging"
    },
    {
-    "id": "resume:Algorithms and data structures",
-    "label": "Algorithms and Data Structures",
-    "value": "resume:Algorithms and data structures"
+    "id": "resume:Imaging",
+    "label": "Imaging",
+    "value": "resume:Imaging"
    },
    {
-    "id": "resume:Node.js",
-    "label": "Node.js",
-    "value": "resume:Node.js"
+    "id": "resume:Outpatient",
+    "label": "Outpatient",
+    "value": "resume:Outpatient"
    },
    {
-    "id": "resume:Grunt.js",
-    "label": "Grunt.js",
-    "value": "resume:Grunt.js"
+    "id": "resume:Drug Injection",
+    "label": "Drug Injection",
+    "value": "resume:Drug Injection"
    },
    {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
+    "id": "resume:Communication Networks",
+    "label": "Communication Networks",
+    "value": "resume:Communication Networks"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Magnetic Resonance Imaging",
+    "label": "Magnetic Resonance Imaging",
+    "value": "resume:Magnetic Resonance Imaging"
    },
    {
-    "id": "resume:Algorithms and data structures",
-    "label": "Algorithms and Data Structures",
-    "value": "resume:Algorithms and data structures"
+    "id": "resume:Imaging",
+    "label": "Imaging",
+    "value": "resume:Imaging"
    },
    {
-    "id": "resume:Node.js",
-    "label": "Node.js",
-    "value": "resume:Node.js"
+    "id": "resume:Outpatient",
+    "label": "Outpatient",
+    "value": "resume:Outpatient"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Grunt.js",
-    "label": "Grunt.js",
-    "value": "resume:Grunt.js"
+    "id": "resume:Drug Injection",
+    "label": "Drug Injection",
+    "value": "resume:Drug Injection"
    },
    {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
+    "id": "resume:Communication Networks",
+    "label": "Communication Networks",
+    "value": "resume:Communication Networks"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
-   {
-    "id": "resume:Internet of Things",
-    "label": "Internet of Things",
-    "value": "resume:Internet of Things"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:BLS",
+    "label": "BLS",
+    "value": "resume:BLS"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
+  "minYearsExp": 2,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "North America",
@@ -286,48 +263,29 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-10-01T21:00:37.199000Z",
-  "title": "Software Engineering Manager",
-  "url": "https://jobs.lever.co/mashgin/b4296191-22e9-4a1f-a479-82dca6bf49b7",
-  "jobId": "b4296191-22e9-4a1f-a479-82dca6bf49b7",
+  "timeStamp": "2026-10-02T05:58:04Z",
+  "title": "MRI Technologist | Wethersfield",
+  "url": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=b440a53bbcafd214",
+  "jobId": "b440a53bbcafd214",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1968456600467, 'matchScore': 0, 'ageScore': 0.9968456600466821, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1928626483684, 'matchScore': 0, 'ageScore': 0.9928626483684414, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
-   }
-  ],
-  "jobSeniorityIds": [
-   "manager"
-  ],
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {

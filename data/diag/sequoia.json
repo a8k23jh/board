@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-02T05:53:32Z",
+ "run": "2026-10-02T12:51:44Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "gO2iOgj7QU\u2026",
+  "session.sig": "sgafx47XW6\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTMyMGI5ZmU0OWZlOTcxMWQ4ZmUwM2QwYzU3ZjEyYzEiLCAic2NvcmUiOiAxLjE0NjI3MzY1ODIxNjA0OTN9"
+   "sequence": "eyJfaWQiOiAiYWJiNmU5ZmVlYzI3ZTU1YzUxMDE2N2JmOTc2YzMwMzAiLCAic2NvcmUiOiAxLjE0NDU0OTg5NzI0MDc0MDl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "consultant",
-    "label": "Consultant",
-    "value": "consultant"
-   },
-   {
     "id": "professional-services",
     "label": "Professional Services",
     "value": "professional-services"
+   },
+   {
+    "id": "consultant",
+    "label": "Consultant",
+    "value": "consultant"
    }
   ],
   "jobFunctions": [
@@ -198,19 +198,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 105000, 'maxValue': 140000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Design Systems",
-    "label": "Design Systems",
-    "value": "resume:Design Systems"
-   },
-   {
-    "id": "resume:Xactly Incent",
-    "label": "Xactly Incent",
-    "value": "resume:Xactly Incent"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
     "id": "resume:Prioritization Skills",
@@ -218,38 +208,9 @@
     "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:NetSuite",
-    "label": "NetSuite",
-    "value": "resume:NetSuite"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Design Systems",
-    "label": "Design Systems",
-    "value": "resume:Design Systems"
-   },
-   {
-    "id": "resume:Xactly Incent",
-    "label": "Xactly Incent",
-    "value": "resume:Xactly Incent"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
-   },
-   {
-    "id": "resume:NetSuite",
-    "label": "NetSuite",
-    "value": "resume:NetSuite"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
     "id": "resume:Sales Compensation",
@@ -257,14 +218,53 @@
     "value": "resume:Sales Compensation"
    },
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Design Systems",
+    "label": "Design Systems",
+    "value": "resume:Design Systems"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
+   },
+   {
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Sales Compensation",
+    "label": "Sales Compensation",
+    "value": "resume:Sales Compensation"
+   },
+   {
+    "id": "resume:Design Systems",
+    "label": "Design Systems",
+    "value": "resume:Design Systems"
+   },
+   {
+    "id": "resume:NetSuite",
+    "label": "NetSuite",
+    "value": "resume:NetSuite"
+   },
+   {
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
+   },
+   {
+    "id": "resume:Xactly Incent",
+    "label": "Xactly Incent",
+    "value": "resume:Xactly Incent"
    }
   ],
   "manager": false,
@@ -314,7 +314,7 @@
   "jobId": "2b444752-f222-40b7-9d3b-a8a467f2fa73",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.197948783223, 'matchScore': 0, 'ageScore': 0.9979487832229939, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1815555011219, 'matchScore': 0, 'ageScore': 0.9815555011219136, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
