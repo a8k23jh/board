@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-02T23:04:43Z",
+ "run": "2026-10-03T02:06:31Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "iOBoXIgIIb\u2026",
+  "session.sig": "eQryhpRrkc\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTc4ZTk0YTMwZWNmNzY5MWFlMDJhOGQxYmFiZWMzYjUiLCAic2NvcmUiOiAxLjEzMjYyMzk3MDQ2NDg5Mn0="
+   "sequence": "eyJfaWQiOiAiYWEwM2UxMWFmMmEyODJkODMyMjA2YmZmNGZiMDU5MTYiLCAic2NvcmUiOiAxLjE1MzcxMTg4NzAzMDA5MjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -138,6 +138,7 @@
    "companyLogos",
    "companyName",
    "companySlug",
+   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
@@ -148,117 +149,122 @@
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6205730004",
-  "companyDomain": "apollo.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
-  "companyId": "Apollo",
-  "companySlug": "apollo",
-  "companyName": "Apollo",
+  "applyUrl": "https://jobs.lever.co/ridezum/ab708676-6ee3-44f9-bd9e-794133f09478?lever-source%5B%5D=jobs.sequoiacap.com",
+  "companyDomain": "ridezum.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c6c435aa210c9689b6d3fecd3fe6fb21_176_160?Expires=1861920000&Signature=dDfXpjHC~4E-Tz68j5GklbbDsWb8UBjEcjndolqXHTfFZwsHx8fL7",
+  "companyId": "Zum",
+  "companySlug": "zum",
+  "companyName": "Z\u016bm",
+  "companyStaffCount": 509,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "School Bus Yard Operations"
   ],
   "jobTypes": [
    {
-    "id": "solutions-architect",
-    "label": "Solutions Architect",
-    "value": "solutions-architect"
+    "id": "technician",
+    "label": "Technician",
+    "value": "technician"
+   },
+   {
+    "id": "mechanic",
+    "label": "Mechanic",
+    "value": "mechanic"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Technician",
+    "label": "Technician",
+    "value": "Technician"
    }
   ],
   "locations": [
-   "Hybrid, Austin"
+   "St. Louis, MO"
   ],
   "normalizedLocations": [
    {
-    "id": "Austin, Texas",
-    "label": "Austin, Texas",
-    "value": "Austin, Texas"
+    "id": "Saint Louis, Missouri",
+    "label": "Saint Louis, Missouri",
+    "value": "Saint Louis, Missouri"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 115000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 32, 'maxValue': 35, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Computer Proficiency",
+    "label": "Computer Proficiency",
+    "value": "resume:Computer Proficiency"
    },
    {
-    "id": "resume:Marketing Automation",
-    "label": "Marketing Automation",
-    "value": "resume:Marketing Automation"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:Genetics",
+    "label": "Genetics",
+    "value": "resume:Genetics"
    },
    {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Computer Proficiency",
+    "label": "Computer Proficiency",
+    "value": "resume:Computer Proficiency"
    },
    {
-    "id": "resume:Marketing Automation",
-    "label": "Marketing Automation",
-    "value": "resume:Marketing Automation"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:Genetics",
+    "label": "Genetics",
+    "value": "resume:Genetics"
    },
    {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "manager": false,
@@ -266,15 +272,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
@@ -282,9 +288,9 @@
     "value": "North America"
    },
    {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
    },
    {
     "id": "Central US",
@@ -294,6 +300,11 @@
   ],
   "stages": [
    {
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
     "id": "Growth",
     "label": "Growth",
     "value": "Growth"
@@ -302,18 +313,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-10-02T10:57:11Z",
-  "title": "Associate Solutions Consultant II",
-  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6205730004",
-  "jobId": "6205730004",
+  "timeStamp": "2026-10-02T21:15:23.986000Z",
+  "title": "Diesel Technician / Mechanic I",
+  "url": "https://jobs.lever.co/ridezum/ab708676-6ee3-44f9-bd9e-794133f09478",
+  "jobId": "ab708676-6ee3-44f9-bd9e-794133f09478",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1857136040826, 'matchScore': 0, 'ageScore': 0.9857136040825617, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1969522455205, 'matchScore': 0, 'ageScore': 0.9969522455204475, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

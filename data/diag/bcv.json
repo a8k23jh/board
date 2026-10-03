@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-02T23:04:43Z",
+ "run": "2026-10-03T02:06:31Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "m1znvkOrdX\u2026",
+  "session.sig": "EjCvextZxp\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzhkNDE2MTA3OTVjMzBkNWU2MTc2M2UzYTc2NDRjN2IiLCAic2NvcmUiOiAxLjA4MzQ4ODc3MjMzMjE3Nn0="
+   "sequence": "eyJfaWQiOiAiYzg0YTZhZjQ5ZDAyOTBjNzI3ZmMzYmUyNGUyZWFkYWYiLCAic2NvcmUiOiAxLjEwMDM4MzA4NzAwMzg1OH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -146,12 +146,12 @@
    "companyLogos",
    "companyName",
    "companySlug",
+   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
@@ -163,21 +163,30 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6205730004",
-  "companyDomain": "apollo.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
-  "companyId": "Apollo",
-  "companySlug": "apollo",
-  "companyName": "Apollo",
+  "applyUrl": "https://careers.docusign.com/jobs/30383?lang=en-us",
+  "companyDomain": "docusign.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
+  "companyId": "DocuSign",
+  "companySlug": "docusign",
+  "companyName": "DocuSign",
+  "companyStaffCount": 8412,
   "considerHosted": false,
-  "departments": [
-   "Sales"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "solutions-architect",
-    "label": "Solutions Architect",
-    "value": "solutions-architect"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   },
+   {
+    "id": "software-architect",
+    "label": "Software Architect",
+    "value": "software-architect"
+   },
+   {
+    "id": "qa-engineer",
+    "label": "QA Engineer",
+    "value": "qa-engineer"
    }
   ],
   "jobFunctions": [
@@ -188,16 +197,16 @@
    }
   ],
   "locations": [
-   "Hybrid, Austin"
+   "San Francisco, California"
   ],
   "normalizedLocations": [
    {
-    "id": "Austin, Texas",
-    "label": "Austin, Texas",
-    "value": "Austin, Texas"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 115000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 146400, 'maxValue': 235375, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
     "id": "resume:SaaS",
@@ -205,24 +214,24 @@
     "value": "resume:SaaS"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Marketing Automation",
-    "label": "Marketing Automation",
-    "value": "resume:Marketing Automation"
+    "id": "resume:Smoke Testing",
+    "label": "Smoke Testing",
+    "value": "resume:Smoke Testing"
    },
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:Build Automation Software",
+    "label": "Build Automation Software",
+    "value": "resume:Build Automation Software"
    },
    {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
+    "id": "resume:3rd Party Integrations",
+    "label": "3rd Party Integrations",
+    "value": "resume:3rd Party Integrations"
    }
   ],
   "requiredSkills": [
@@ -232,41 +241,41 @@
     "value": "resume:SaaS"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Marketing Automation",
-    "label": "Marketing Automation",
-    "value": "resume:Marketing Automation"
+    "id": "resume:Smoke Testing",
+    "label": "Smoke Testing",
+    "value": "resume:Smoke Testing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:Build Automation Software",
+    "label": "Build Automation Software",
+    "value": "resume:Build Automation Software"
    },
    {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
+    "id": "resume:3rd Party Integrations",
+    "label": "3rd Party Integrations",
+    "value": "resume:3rd Party Integrations"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:XML",
+    "label": "XML",
+    "value": "resume:XML"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Multitasking skills",
+    "label": "Multitasking skills",
+    "value": "resume:Multitasking skills"
    }
   ],
   "manager": false,
@@ -274,15 +283,20 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
+   ],
+   [
+    9,
+    10,
+    11,
+    12
    ]
   ],
-  "minYearsExp": 2,
   "regions": [
    {
     "id": "North America",
@@ -290,38 +304,37 @@
     "value": "North America"
    },
    {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-10-02T10:57:11Z",
-  "title": "Associate Solutions Consultant II",
-  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6205730004",
-  "jobId": "6205730004",
+  "timeStamp": "2026-10-02T21:30:16Z",
+  "title": "Lead SDET, Agentic AI Architect",
+  "url": "https://careers.docusign.com/jobs/30383?lang=en-us",
+  "jobId": "30383",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1857136040826, 'matchScore': 0, 'ageScore': 0.9857136040825617, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1971478685529, 'matchScore': 0, 'ageScore': 0.997147868552855, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -331,14 +344,20 @@
     "value": "mid"
    },
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
    "mid",
-   "junior"
+   "expert",
+   "senior"
   ],
   "isFeatured": false
  },
