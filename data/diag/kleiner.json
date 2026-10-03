@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-03T13:31:32Z",
+ "run": "2026-10-03T18:01:37Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "n6pYYiKtf6\u2026",
+  "session.sig": "QTjXIAekqO\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzc4YTVkZTg2MmJhYzBmYzQwNDhhYjJjNmI2Njc3NGYiLCAic2NvcmUiOiAxLjA1MDk4MDc0MTY0NzM3NjZ9"
+   "sequence": "eyJfaWQiOiAiZjZlMjg3YzUwODFmNzY0NTUxYjRjYzg3NjU5MmVhYjMiLCAic2NvcmUiOiAxLjA0NjgwOTY1MjA0NzgzOTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,9 +168,9 @@
   ],
   "jobTypes": [
    {
-    "id": "communications",
-    "label": "communications",
-    "value": "communications"
+    "id": "director-brand",
+    "label": "Director of Brand",
+    "value": "director-brand"
    },
    {
     "id": "public-relations",
@@ -178,19 +178,19 @@
     "value": "public-relations"
    },
    {
-    "id": "director-brand",
-    "label": "Director of Brand",
-    "value": "director-brand"
+    "id": "marketing-demand-generation",
+    "label": "Marketing Demand Generation",
+    "value": "marketing-demand-generation"
+   },
+   {
+    "id": "communications",
+    "label": "communications",
+    "value": "communications"
    },
    {
     "id": "marketing-communications",
     "label": "Marketing Communications",
     "value": "marketing-communications"
-   },
-   {
-    "id": "marketing-demand-generation",
-    "label": "Marketing Demand Generation",
-    "value": "marketing-demand-generation"
    }
   ],
   "jobFunctions": [
@@ -218,19 +218,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
-   },
-   {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:Creative Direction",
+    "label": "Creative Direction",
+    "value": "resume:Creative Direction"
    },
    {
     "id": "resume:Batteries",
@@ -238,16 +233,38 @@
     "value": "resume:Batteries"
    },
    {
-    "id": "resume:Podcasting",
-    "label": "Podcasting",
-    "value": "resume:Podcasting"
+    "id": "resume:Press Releases",
+    "label": "Press Releases",
+    "value": "resume:Press Releases"
+   },
+   {
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Creative Direction",
+    "label": "Creative Direction",
+    "value": "resume:Creative Direction"
+   },
+   {
+    "id": "resume:Batteries",
+    "label": "Batteries",
+    "value": "resume:Batteries"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Press Releases",
+    "label": "Press Releases",
+    "value": "resume:Press Releases"
    },
    {
     "id": "resume:Apache Spark",
@@ -258,18 +275,6 @@
     "id": "resume:C",
     "label": "C",
     "value": "resume:C"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Batteries",
-    "label": "Batteries",
-    "value": "resume:Batteries"
-   },
-   {
-    "id": "resume:Podcasting",
-    "label": "Podcasting",
-    "value": "resume:Podcasting"
    },
    {
     "id": "resume:Social Media",
@@ -277,14 +282,9 @@
     "value": "resume:Social Media"
    },
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "manager": false,
@@ -338,24 +338,24 @@
   "jobId": "61d600ed-9cff-482f-90ab-514c2b00716d",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1797561716428, 'matchScore': 0, 'ageScore': 0.9797561716427469, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1752361081438, 'matchScore': 0, 'ageScore': 0.9752361081439043, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "director",
-   "mid"
+   "mid",
+   "director"
   ],
   "isFeatured": false
  },

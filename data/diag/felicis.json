@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-03T13:31:32Z",
+ "run": "2026-10-03T18:01:37Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "0Oip695nXA\u2026",
+  "session.sig": "_xhCwetO6O\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTRkMjlkODA0ZDhhMWRiMzUyNmUwMDJlNDk5ZTU3ZjYiLCAic2NvcmUiOiAxLjA4Mzg1ODc0NDgxODI4N30="
+   "sequence": "eyJfaWQiOiAiM2VkMDIyYjIyMjY4ZmQ5MWQ5NDU2YjMwZjMyMDQ2YzciLCAic2NvcmUiOiAxLjA3OTYxNDc3NjY3Nzg1NX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -180,63 +180,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130800, 'maxValue': 163200, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Product Operations",
-    "label": "Product Operations",
-    "value": "resume:Product Operations"
+    "id": "resume:Technical Support",
+    "label": "Technical Support",
+    "value": "resume:Technical Support"
    },
-   {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
-   },
-   {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
-   {
-    "id": "resume:Trusted Advisor",
-    "label": "Trusted Advisor",
-    "value": "resume:Trusted Advisor"
-   },
-   {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
-   }
-  ],
-  "requiredSkills": [
    {
     "id": "resume:Product Operations",
     "label": "Product Operations",
     "value": "resume:Product Operations"
    },
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
-   },
-   {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Trusted Advisor",
-    "label": "Trusted Advisor",
-    "value": "resume:Trusted Advisor"
-   },
-   {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
-   },
-   {
-    "id": "resume:Technical Presentations",
-    "label": "Technical Communication",
-    "value": "resume:Technical Presentations"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
     "id": "resume:Prototype to Product",
@@ -244,9 +200,53 @@
     "value": "resume:Prototype to Product"
    },
    {
+    "id": "resume:Trusted Advisor",
+    "label": "Trusted Advisor",
+    "value": "resume:Trusted Advisor"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Technical Support",
+    "label": "Technical Support",
+    "value": "resume:Technical Support"
+   },
+   {
+    "id": "resume:Product Operations",
+    "label": "Product Operations",
+    "value": "resume:Product Operations"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Prototype to Product",
+    "label": "Prototype to Product",
+    "value": "resume:Prototype to Product"
+   },
+   {
+    "id": "resume:Trusted Advisor",
+    "label": "Trusted Advisor",
+    "value": "resume:Trusted Advisor"
+   },
+   {
     "id": "resume:Data Driven",
     "label": "Data Driven",
     "value": "resume:Data Driven"
+   },
+   {
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
+   },
+   {
+    "id": "resume:Technical Presentations",
+    "label": "Technical Communication",
+    "value": "resume:Technical Presentations"
    }
   ],
   "manager": false,
@@ -264,19 +264,19 @@
   ],
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "West Coast",
@@ -284,9 +284,9 @@
     "value": "West Coast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -314,7 +314,7 @@
   "jobId": "a063f469-1ec5-44d1-8cc5-1da47a7b8783",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1839349707898, 'matchScore': 0, 'ageScore': 0.9839349707897377, 'richnessScore': 2}",
+  "scores": "{'score': 1001.179484718581, 'matchScore': 0, 'ageScore': 0.9794847185810185, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

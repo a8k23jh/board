@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-03T13:31:32Z",
+ "run": "2026-10-03T18:01:37Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "CKLjgWNWA0\u2026",
+  "session.sig": "UAHq99Hixv\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTRkMjlkODA0ZDhhMWRiMzUyNmUwMDJlNDk5ZTU3ZjYiLCAic2NvcmUiOiAxLjA4Mzg1ODc0NDgxODI4N30="
+   "sequence": "eyJfaWQiOiAiZGFjZTQ5ODk4NjJiZjU0NjU3NGFmODEwNzlhY2E5N2UiLCAic2NvcmUiOiAxLjA3OTc2NzA5NDIzMjI1M30="
   },
   "job_keys": [
    "applicationWindow",
@@ -174,6 +174,11 @@
   "departments": [],
   "jobTypes": [
    {
+    "id": "qa-engineer",
+    "label": "QA Engineer",
+    "value": "qa-engineer"
+   },
+   {
     "id": "lead",
     "label": "Lead",
     "value": "lead"
@@ -182,11 +187,6 @@
     "id": "software-architect",
     "label": "Software Architect",
     "value": "software-architect"
-   },
-   {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
    }
   ],
   "jobFunctions": [
@@ -209,63 +209,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 146400, 'maxValue': 235375, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:3rd Party Integrations",
-    "label": "3rd Party Integrations",
-    "value": "resume:3rd Party Integrations"
-   },
-   {
-    "id": "resume:Test Automation",
-    "label": "Test Automation",
-    "value": "resume:Test Automation"
-   },
-   {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:3rd Party Integrations",
-    "label": "3rd Party Integrations",
-    "value": "resume:3rd Party Integrations"
-   },
-   {
-    "id": "resume:Test Automation",
-    "label": "Test Automation",
-    "value": "resume:Test Automation"
-   },
-   {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
-    "id": "resume:JMeter",
-    "label": "JMeter",
-    "value": "resume:JMeter"
+    "id": "resume:XML",
+    "label": "XML",
+    "value": "resume:XML"
    },
    {
     "id": "resume:API Testing",
@@ -273,9 +219,63 @@
     "value": "resume:API Testing"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
+   },
+   {
+    "id": "resume:SDLC",
+    "label": "SDLC",
+    "value": "resume:SDLC"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:XML",
+    "label": "XML",
+    "value": "resume:XML"
+   },
+   {
+    "id": "resume:API Testing",
+    "label": "API Testing",
+    "value": "resume:API Testing"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
+   },
+   {
+    "id": "resume:SDLC",
+    "label": "SDLC",
+    "value": "resume:SDLC"
+   },
+   {
+    "id": "resume:Integration Testing",
+    "label": "Integration Testing",
+    "value": "resume:Integration Testing"
+   },
+   {
+    "id": "resume:Process Flow Documentation",
+    "label": "Process Flow Documentation",
+    "value": "resume:Process Flow Documentation"
+   },
+   {
+    "id": "resume:Build Automation Software",
+    "label": "Build Automation Software",
+    "value": "resume:Build Automation Software"
    }
   ],
   "manager": false,
@@ -334,7 +334,7 @@
   "jobId": "30383",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1801351411042, 'matchScore': 0, 'ageScore': 0.9801351411041667, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1766882168646, 'matchScore': 0, 'ageScore': 0.9766882168645833, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -344,20 +344,20 @@
     "value": "senior"
    },
    {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
    }
   ],
   "jobSeniorityIds": [
    "senior",
-   "expert",
-   "mid"
+   "mid",
+   "expert"
   ],
   "isFeatured": false
  },
