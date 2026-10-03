@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-10-03T08:18:49Z",
+ "run": "2026-10-03T13:31:32Z",
  "homepage": {
   "status": 200,
   "bytes": 26164
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "VrkStmOJ07\u2026",
+  "session.sig": "AxPR9Xrndf\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYThiMjI3MGQ4ODk3NzNiMGU5NzhhZjBhOTFkOWI3ODgiLCAic2NvcmUiOiAxLjEzMTM3MTA5OTM0ODc2NTN9"
+   "sequence": "eyJfaWQiOiAiY2JiNzU0MmY0YTAxYTgxZTc0MTNlMjFiZGFjNjc0NzIiLCAic2NvcmUiOiAxLjEzNDA2NDAzODcxNDg5Mn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -147,133 +147,112 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/snorkelai/jobs/6215918004",
-  "companyDomain": "snorkel.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f04983c941a31a7d78dc0e47c8e477fc_256_160?Expires=1861920000&Signature=V68RkA-n4PdXFhJGKOlKk1HceCBKSU9pFr5Ky8kgTbuEWSJkxZMKg",
-  "companyId": "Snorkel AI",
-  "companySlug": "snorkel-ai",
-  "companyName": "Snorkel AI",
-  "companyStaffCount": 1290,
+  "applyUrl": "https://jobs.ashbyhq.com/osmo/c74344f4-65d7-4bd6-99f8-d6b3b69da32c?utm_source=jobs.gv.com",
+  "companyDomain": "osmo.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d335e57d58d6bd693719a9f59255d637_176_160?Expires=1861920000&Signature=eIuAHjteG0HcwnsEM-K6ich15PVHQBBJK54zJmxa-Fa-ZMlr6PEZw",
+  "companyId": "Osmo ai",
+  "companySlug": "osmo-ai",
+  "companyName": "Osmo",
+  "companyStaffCount": 123,
   "considerHosted": false,
   "departments": [
-   "430 - Marketing"
+   "Technical Evaluation"
   ],
   "jobTypes": [
    {
-    "id": "brand-design",
-    "label": "Brand Designer",
-    "value": "brand-design"
+    "id": "freelance",
+    "label": "Contractor",
+    "value": "freelance"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Design",
-    "label": "Design",
-    "value": "Design"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "New York City, NY (Hybrid)",
-   "San Francisco, CA (Hybrid)"
+   "Elizabeth, New Jersey, United States",
+   "Elizabeth, NJ"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "New Jersey",
+    "label": "New Jersey",
+    "value": "New Jersey"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 225000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 30, 'maxValue': 30, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Data Visualization",
-    "label": "Data Visualization",
-    "value": "resume:Data Visualization"
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    },
    {
-    "id": "resume:Visual Design",
-    "label": "Visual Design",
-    "value": "resume:Visual Design"
+    "id": "resume:Ontologies",
+    "label": "Ontologies",
+    "value": "resume:Ontologies"
    },
    {
-    "id": "resume:Typography",
-    "label": "Typography",
-    "value": "resume:Typography"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Brand Design",
-    "label": "Brand Design",
-    "value": "resume:Brand Design"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
+   },
+   {
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
+   },
+   {
+    "id": "resume:Ontologies",
+    "label": "Ontologies",
+    "value": "resume:Ontologies"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Data Visualization",
-    "label": "Data Visualization",
-    "value": "resume:Data Visualization"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Visual Design",
-    "label": "Visual Design",
-    "value": "resume:Visual Design"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Typography",
-    "label": "Typography",
-    "value": "resume:Typography"
-   },
-   {
-    "id": "resume:Brand Design",
-    "label": "Brand Design",
-    "value": "resume:Brand Design"
-   },
-   {
-    "id": "resume:Legal Writing",
-    "label": "Legal Writing",
-    "value": "resume:Legal Writing"
-   },
-   {
-    "id": "resume:Figma",
-    "label": "Figma",
-    "value": "resume:Figma"
-   },
-   {
-    "id": "resume:Design Systems",
-    "label": "Design Systems",
-    "value": "resume:Design Systems"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    }
   ],
   "manager": false,
   "consultant": false,
-  "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
-  "minYearsExp": 8,
+  "contractor": true,
+  "considerLevels": [],
   "regions": [
    {
     "id": "North America",
@@ -281,31 +260,26 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -316,46 +290,22 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "AI/ML",
+    "label": "AI/ML",
+    "value": "AI/ML"
    }
   ],
-  "timeStamp": "2026-10-02T18:36:08Z",
-  "title": "Staff Brand Designer",
-  "url": "https://job-boards.greenhouse.io/snorkelai/jobs/6215918004",
-  "jobId": "6215918004",
+  "timeStamp": "2026-10-03T00:00:00Z",
+  "title": "Contract Trained Sensory Panelist (Fragrance)",
+  "url": "https://jobs.ashbyhq.com/osmo/c74344f4-65d7-4bd6-99f8-d6b3b69da32c",
+  "jobId": "c74344f4-65d7-4bd6-99f8-d6b3b69da32c",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1845990051632, 'matchScore': 0, 'ageScore': 0.9845990051631944, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1844814227627, 'matchScore': 0, 'ageScore': 0.9844814227627314, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   }
-  ],
-  "jobSeniorityIds": [
-   "senior",
-   "mid"
-  ],
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {

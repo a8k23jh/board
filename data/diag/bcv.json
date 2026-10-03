@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-03T08:18:49Z",
+ "run": "2026-10-03T13:31:32Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "5cIU09hhLH\u2026",
+  "session.sig": "CKLjgWNWA0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTRkMjlkODA0ZDhhMWRiMzUyNmUwMDJlNDk5ZTU3ZjYiLCAic2NvcmUiOiAxLjA5MjM5NTE3NjA3NzE2MDR9"
+   "sequence": "eyJfaWQiOiAiNTRkMjlkODA0ZDhhMWRiMzUyNmUwMDJlNDk5ZTU3ZjYiLCAic2NvcmUiOiAxLjA4Mzg1ODc0NDgxODI4N30="
   },
   "job_keys": [
    "applicationWindow",
@@ -174,9 +174,9 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    },
    {
     "id": "software-architect",
@@ -184,9 +184,9 @@
     "value": "software-architect"
    },
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "qa-engineer",
+    "label": "QA Engineer",
+    "value": "qa-engineer"
    }
   ],
   "jobFunctions": [
@@ -214,14 +214,9 @@
     "value": "resume:3rd Party Integrations"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Smoke Testing",
-    "label": "Smoke Testing",
-    "value": "resume:Smoke Testing"
+    "id": "resume:Test Automation",
+    "label": "Test Automation",
+    "value": "resume:Test Automation"
    },
    {
     "id": "resume:REST",
@@ -229,9 +224,14 @@
     "value": "resume:REST"
    },
    {
-    "id": "resume:API Testing",
-    "label": "API Testing",
-    "value": "resume:API Testing"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
    }
   ],
   "requiredSkills": [
@@ -241,21 +241,31 @@
     "value": "resume:3rd Party Integrations"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Test Automation",
+    "label": "Test Automation",
+    "value": "resume:Test Automation"
    },
-   {
-    "id": "resume:Smoke Testing",
-    "label": "Smoke Testing",
-    "value": "resume:Smoke Testing"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:REST",
     "label": "REST",
     "value": "resume:REST"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
+   },
+   {
+    "id": "resume:JMeter",
+    "label": "JMeter",
+    "value": "resume:JMeter"
    },
    {
     "id": "resume:API Testing",
@@ -263,19 +273,9 @@
     "value": "resume:API Testing"
    },
    {
-    "id": "resume:Trust Building",
-    "label": "Trust Building",
-    "value": "resume:Trust Building"
-   },
-   {
-    "id": "resume:Root Cause Analysis",
-    "label": "Root Cause Analysis",
-    "value": "resume:Root Cause Analysis"
-   },
-   {
-    "id": "resume:Manual Testing",
-    "label": "Manual Testing",
-    "value": "resume:Manual Testing"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    }
   ],
   "manager": false,
@@ -304,14 +304,14 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -334,7 +334,7 @@
   "jobId": "30383",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1886079728704, 'matchScore': 0, 'ageScore': 0.9886079728703704, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1801351411042, 'matchScore': 0, 'ageScore': 0.9801351411041667, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
