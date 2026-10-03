@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-03T02:06:31Z",
+ "run": "2026-10-03T08:18:49Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "eQryhpRrkc\u2026",
+  "session.sig": "VRIe-0QsM9\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWEwM2UxMWFmMmEyODJkODMyMjA2YmZmNGZiMDU5MTYiLCAic2NvcmUiOiAxLjE1MzcxMTg4NzAzMDA5MjZ9"
+   "sequence": "eyJfaWQiOiAiN2UzYjBlMDEyMTY3M2EwYjdlMzE4ZGE1ZTRlMTE2MmQiLCAic2NvcmUiOiAxLjE0OTIzMjU0MjcwMjkzMjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "technician",
-    "label": "Technician",
-    "value": "technician"
-   },
-   {
     "id": "mechanic",
     "label": "Mechanic",
     "value": "mechanic"
+   },
+   {
+    "id": "technician",
+    "label": "Technician",
+    "value": "technician"
    }
   ],
   "jobFunctions": [
@@ -198,9 +198,19 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 32, 'maxValue': 35, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
+   },
+   {
     "id": "resume:Maintenance",
     "label": "Maintenance",
     "value": "resume:Maintenance"
+   },
+   {
+    "id": "resume:Genetics",
+    "label": "Genetics",
+    "value": "resume:Genetics"
    },
    {
     "id": "resume:Computer Proficiency",
@@ -211,24 +221,26 @@
     "id": "resume:Compliance",
     "label": "Compliance",
     "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Genetics",
-    "label": "Genetics",
-    "value": "resume:Genetics"
-   },
-   {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
+   },
+   {
     "id": "resume:Maintenance",
     "label": "Maintenance",
     "value": "resume:Maintenance"
    },
+   {
+    "id": "resume:Genetics",
+    "label": "Genetics",
+    "value": "resume:Genetics"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Computer Proficiency",
     "label": "Computer Proficiency",
@@ -238,23 +250,6 @@
     "id": "resume:Compliance",
     "label": "Compliance",
     "value": "resume:Compliance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Genetics",
-    "label": "Genetics",
-    "value": "resume:Genetics"
-   },
-   {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
-   },
-   {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
    },
    {
     "id": "resume:Troubleshooting",
@@ -262,9 +257,14 @@
     "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
+   },
+   {
+    "id": "resume:Diagnostics",
+    "label": "Diagnostics",
+    "value": "resume:Diagnostics"
    }
   ],
   "manager": false,
@@ -324,7 +324,7 @@
   "jobId": "ab708676-6ee3-44f9-bd9e-794133f09478",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1969522455205, 'matchScore': 0, 'ageScore': 0.9969522455204475, 'richnessScore': 2}",
+  "scores": "{'score': 1001.188831446304, 'matchScore': 0, 'ageScore': 0.9888314463040123, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
