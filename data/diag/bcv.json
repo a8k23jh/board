@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-04T01:41:53Z",
+ "run": "2026-10-04T08:32:41Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "VNjsNePcBa\u2026",
+  "session.sig": "urO0-aE4Tl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmFkZGJjNGE0NDI0YjMyNTZlMTA5YTg2ZWI4YjA4OGYiLCAic2NvcmUiOiAxLjA2NzAzNzIwMzM5NTgzMzN9"
+   "sequence": "eyJfaWQiOiAiYjhjODBhY2U0MTk1OTcyY2QzM2Y0MGVjOTcwZThiNDAiLCAic2NvcmUiOiAxLjA1OTA1Nzc3ODc0NjE0Mn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -174,6 +174,11 @@
   "departments": [],
   "jobTypes": [
    {
+    "id": "software-architect",
+    "label": "Software Architect",
+    "value": "software-architect"
+   },
+   {
     "id": "qa-engineer",
     "label": "QA Engineer",
     "value": "qa-engineer"
@@ -182,11 +187,6 @@
     "id": "lead",
     "label": "Lead",
     "value": "lead"
-   },
-   {
-    "id": "software-architect",
-    "label": "Software Architect",
-    "value": "software-architect"
    }
   ],
   "jobFunctions": [
@@ -209,73 +209,73 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 146400, 'maxValue': 235375, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Test Driven Development",
+    "label": "Test Driven Development",
+    "value": "resume:Test Driven Development"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    },
    {
-    "id": "resume:Manual Testing",
-    "label": "Manual Testing",
-    "value": "resume:Manual Testing"
+    "id": "resume:Scenario Testing",
+    "label": "Scenario Testing",
+    "value": "resume:Scenario Testing"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:API Testing",
-    "label": "API Testing",
-    "value": "resume:API Testing"
+    "id": "resume:3rd Party Integrations",
+    "label": "3rd Party Integrations",
+    "value": "resume:3rd Party Integrations"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Test Driven Development",
+    "label": "Test Driven Development",
+    "value": "resume:Test Driven Development"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    },
    {
-    "id": "resume:Manual Testing",
-    "label": "Manual Testing",
-    "value": "resume:Manual Testing"
+    "id": "resume:Scenario Testing",
+    "label": "Scenario Testing",
+    "value": "resume:Scenario Testing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:API Testing",
-    "label": "API Testing",
-    "value": "resume:API Testing"
+    "id": "resume:3rd Party Integrations",
+    "label": "3rd Party Integrations",
+    "value": "resume:3rd Party Integrations"
    },
    {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
+    "id": "resume:Gatling Framework",
+    "label": "Gatling Framework",
+    "value": "resume:Gatling Framework"
    },
    {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
+    "id": "resume:Root Cause Analysis",
+    "label": "Root Cause Analysis",
+    "value": "resume:Root Cause Analysis"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    }
   ],
   "manager": false,
@@ -304,14 +304,14 @@
     "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -334,14 +334,14 @@
   "jobId": "30383",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.163809370573, 'matchScore': 0, 'ageScore': 0.9638093705729167, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1556693709949, 'matchScore': 0, 'ageScore': 0.9556693709949846, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
    },
    {
     "id": "senior",
@@ -349,15 +349,15 @@
     "value": "senior"
    },
    {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
+   "expert",
    "senior",
-   "expert"
+   "mid"
   ],
   "isFeatured": false
  },
