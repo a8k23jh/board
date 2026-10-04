@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-03T21:28:32Z",
+ "run": "2026-10-04T01:41:53Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Jp9Cr-7hXR\u2026",
+  "session.sig": "VNjsNePcBa\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTRkMjlkODA0ZDhhMWRiMzUyNmUwMDJlNDk5ZTU3ZjYiLCAic2NvcmUiOiAxLjA3NTczNjA2MjAzNTQ5Mzl9"
+   "sequence": "eyJfaWQiOiAiMmFkZGJjNGE0NDI0YjMyNTZlMTA5YTg2ZWI4YjA4OGYiLCAic2NvcmUiOiAxLjA2NzAzNzIwMzM5NTgzMzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -209,36 +209,53 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 146400, 'maxValue': 235375, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:API Testing",
-    "label": "API Testing",
-    "value": "resume:API Testing"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Multitasking skills",
-    "label": "Multitasking skills",
-    "value": "resume:Multitasking skills"
-   },
-   {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
+    "id": "resume:Manual Testing",
+    "label": "Manual Testing",
+    "value": "resume:Manual Testing"
    },
    {
     "id": "resume:Finance",
     "label": "Finance",
     "value": "resume:Finance"
+   },
+   {
+    "id": "resume:API Testing",
+    "label": "API Testing",
+    "value": "resume:API Testing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
+    "id": "resume:Manual Testing",
+    "label": "Manual Testing",
+    "value": "resume:Manual Testing"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
     "id": "resume:API Testing",
@@ -246,36 +263,19 @@
     "value": "resume:API Testing"
    },
    {
-    "id": "resume:Multitasking skills",
-    "label": "Multitasking skills",
-    "value": "resume:Multitasking skills"
-   }
-  ],
-  "preferredSkills": [
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
+   },
    {
     "id": "resume:Release",
     "label": "Release",
     "value": "resume:Release"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Oracle ERP",
-    "label": "Oracle ERP",
-    "value": "resume:Oracle ERP"
-   },
-   {
-    "id": "resume:XML",
-    "label": "XML",
-    "value": "resume:XML"
-   },
-   {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -334,19 +334,19 @@
   "jobId": "30383",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1718467408415, 'matchScore': 0, 'ageScore': 0.9718467408414352, 'richnessScore': 2}",
+  "scores": "{'score': 1001.163809370573, 'matchScore': 0, 'ageScore': 0.9638093705729167, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    },
    {
     "id": "expert",
@@ -355,8 +355,8 @@
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid",
+   "senior",
    "expert"
   ],
   "isFeatured": false
