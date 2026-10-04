@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-04T18:40:44Z",
+ "run": "2026-10-04T22:22:24Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "S3hp4ifSFS\u2026",
+  "session.sig": "ohlR1Oq-74\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmRmNWNiOWVlNTFiMDQ3OGRhZTNkMzRmZTM4NWFiM2QiLCAic2NvcmUiOiAxLjA0NjI4NzYxMjk0MjEyOTd9"
+   "sequence": "eyJfaWQiOiAiZGM5YzRiMzYwMmRlZTFlOGUxYTFjNzU5MGIzZjFlNWMiLCAic2NvcmUiOiAxLjAzNzk1ODYxNzkwNDcwN30="
   },
   "job_keys": [
    "applicationWindow",
@@ -209,19 +209,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 146400, 'maxValue': 235375, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Test Driven Development",
-    "label": "Test Driven Development",
-    "value": "resume:Test Driven Development"
-   },
-   {
-    "id": "resume:Smoke Testing",
-    "label": "Smoke Testing",
-    "value": "resume:Smoke Testing"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
     "id": "resume:Process Flow Documentation",
@@ -229,53 +219,63 @@
     "value": "resume:Process Flow Documentation"
    },
    {
-    "id": "resume:JSON",
-    "label": "JSON",
-    "value": "resume:JSON"
+    "id": "resume:3rd Party Integrations",
+    "label": "3rd Party Integrations",
+    "value": "resume:3rd Party Integrations"
+   },
+   {
+    "id": "resume:Multitasking skills",
+    "label": "Multitasking skills",
+    "value": "resume:Multitasking skills"
+   },
+   {
+    "id": "resume:Integration Testing",
+    "label": "Integration Testing",
+    "value": "resume:Integration Testing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Test Driven Development",
-    "label": "Test Driven Development",
-    "value": "resume:Test Driven Development"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
-   {
-    "id": "resume:Smoke Testing",
-    "label": "Smoke Testing",
-    "value": "resume:Smoke Testing"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Process Flow Documentation",
     "label": "Process Flow Documentation",
     "value": "resume:Process Flow Documentation"
    },
    {
-    "id": "resume:JSON",
-    "label": "JSON",
-    "value": "resume:JSON"
+    "id": "resume:3rd Party Integrations",
+    "label": "3rd Party Integrations",
+    "value": "resume:3rd Party Integrations"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Multitasking skills",
+    "label": "Multitasking skills",
+    "value": "resume:Multitasking skills"
    },
    {
-    "id": "resume:Build Automation Software",
-    "label": "Build Automation Software",
-    "value": "resume:Build Automation Software"
+    "id": "resume:Integration Testing",
+    "label": "Integration Testing",
+    "value": "resume:Integration Testing"
    },
    {
-    "id": "resume:Manual Testing",
-    "label": "Manual Testing",
-    "value": "resume:Manual Testing"
+    "id": "resume:Oracle ERP",
+    "label": "Oracle ERP",
+    "value": "resume:Oracle ERP"
    },
    {
-    "id": "resume:Performance Testing",
-    "label": "Performance Testing",
-    "value": "resume:Performance Testing"
+    "id": "resume:XML",
+    "label": "XML",
+    "value": "resume:XML"
+   },
+   {
+    "id": "resume:JMeter",
+    "label": "JMeter",
+    "value": "resume:JMeter"
    }
   ],
   "manager": false,
@@ -304,14 +304,14 @@
     "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -334,10 +334,15 @@
   "jobId": "30383",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.143568102069, 'matchScore': 0, 'ageScore': 0.9435681020690586, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1352450504224, 'matchScore': 0, 'ageScore': 0.9352450504224536, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -347,17 +352,12 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
-   },
-   {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
    }
   ],
   "jobSeniorityIds": [
+   "expert",
    "mid",
-   "senior",
-   "expert"
+   "senior"
   ],
   "isFeatured": false
  },
