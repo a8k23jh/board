@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-04T14:52:41Z",
+ "run": "2026-10-04T18:40:44Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "5IeUfM6GtY\u2026",
+  "session.sig": "D9i4bOYcF3\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGFjZTQ5ODk4NjJiZjU0NjU3NGFmODEwNzlhY2E5N2UiLCAic2NvcmUiOiAxLjA1MDU0NDAxNzkxMDg3OTZ9"
+   "sequence": "eyJfaWQiOiAiMzZiYmRmZDhmZDViNTgzZWY1ZjI4NzU4YWVlYmRkZTYiLCAic2NvcmUiOiAxLjA0MjMzNTE1ODI3MTIxOX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/radiant-industries/73092ec3-e9b7-4532-ad6e-50cf17f6c9fd?utm_source=jobs.felicis.com",
+  "applyUrl": "https://jobs.ashbyhq.com/radiant-industries/472a87af-8775-4827-81af-23d67facaa95?utm_source=jobs.felicis.com",
   "companyDomain": "radiantnuclear.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/5a48343bc6fe59cb550078e8e625dc44_256_160?Expires=1861920000&Signature=SyckoCKEv~EgL1wgDH34-h1jXUe5Andwfb1~9hxLpZYdPDoV31L~r",
   "companyId": "Radiant",
@@ -156,10 +156,22 @@
   "companyStaffCount": 561,
   "considerHosted": false,
   "departments": [
-   "Nuclear Engineering"
+   "Production & Manufacturing"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "mechanical-engineer",
+    "label": "Mechanical Engineer",
+    "value": "mechanical-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
    "El Segundo, California, United States",
    "El Segundo, CA"
@@ -171,76 +183,76 @@
     "value": "El Segundo, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 185000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 210000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Power Distribution",
-    "label": "Power Distribution",
-    "value": "resume:Power Distribution"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Root Cause Analysis",
+    "label": "Root Cause Analysis",
+    "value": "resume:Root Cause Analysis"
    },
    {
-    "id": "resume:Monte Carlo Simulation",
-    "label": "Monte Carlo Simulation",
-    "value": "resume:Monte Carlo Simulation"
+    "id": "resume:Machining",
+    "label": "Machining",
+    "value": "resume:Machining"
    },
    {
-    "id": "resume:Commissioning",
-    "label": "Commissioning",
-    "value": "resume:Commissioning"
+    "id": "resume:Assembly",
+    "label": "Assembly",
+    "value": "resume:Assembly"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Design for Manufacturing",
+    "label": "Design for Manufacturing",
+    "value": "resume:Design for Manufacturing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Power Distribution",
-    "label": "Power Distribution",
-    "value": "resume:Power Distribution"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Root Cause Analysis",
+    "label": "Root Cause Analysis",
+    "value": "resume:Root Cause Analysis"
    },
    {
-    "id": "resume:Monte Carlo Simulation",
-    "label": "Monte Carlo Simulation",
-    "value": "resume:Monte Carlo Simulation"
+    "id": "resume:Machining",
+    "label": "Machining",
+    "value": "resume:Machining"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Commissioning",
-    "label": "Commissioning",
-    "value": "resume:Commissioning"
+    "id": "resume:Assembly",
+    "label": "Assembly",
+    "value": "resume:Assembly"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Design for Manufacturing",
+    "label": "Design for Manufacturing",
+    "value": "resume:Design for Manufacturing"
    },
    {
-    "id": "resume:Analytics Tools",
-    "label": "Analytics Tools",
-    "value": "resume:Analytics Tools"
+    "id": "resume:Reliability Engineering",
+    "label": "Reliability Engineering",
+    "value": "resume:Reliability Engineering"
    },
    {
-    "id": "resume:Licensing",
-    "label": "Licensing",
-    "value": "resume:Licensing"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:CAD",
+    "label": "CAD",
+    "value": "resume:CAD"
    }
   ],
   "manager": false,
@@ -259,14 +271,14 @@
   "minYearsExp": 8,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -295,12 +307,12 @@
    }
   ],
   "timeStamp": "2026-10-03T00:00:00Z",
-  "title": "Staff Nuclear Engineer",
-  "url": "https://jobs.ashbyhq.com/radiant-industries/73092ec3-e9b7-4532-ad6e-50cf17f6c9fd",
-  "jobId": "73092ec3-e9b7-4532-ad6e-50cf17f6c9fd",
+  "title": "Staff Manufacturing Engineer, DFM",
+  "url": "https://jobs.ashbyhq.com/radiant-industries/472a87af-8775-4827-81af-23d67facaa95",
+  "jobId": "472a87af-8775-4827-81af-23d67facaa95",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1508429375509, 'matchScore': 0, 'ageScore': 0.950842937550926, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1426971802114, 'matchScore': 0, 'ageScore': 0.9426971802114198, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
