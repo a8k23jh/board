@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-04T08:32:41Z",
+ "run": "2026-10-04T14:52:41Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "oRc3y6SvYA\u2026",
+  "session.sig": "5IeUfM6GtY\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjQ2Zjc4ZDZjOTJjMTlhZDNkMzkwOWU5ZGY5ZTJjMGQiLCAic2NvcmUiOiAxLjA1OTE3NTE1MTM4Njk1OTh9"
+   "sequence": "eyJfaWQiOiAiZGFjZTQ5ODk4NjJiZjU0NjU3NGFmODEwNzlhY2E5N2UiLCAic2NvcmUiOiAxLjA1MDU0NDAxNzkxMDg3OTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -174,6 +174,11 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 185000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Power Distribution",
+    "label": "Power Distribution",
+    "value": "resume:Power Distribution"
+   },
+   {
     "id": "resume:Physics",
     "label": "Physics",
     "value": "resume:Physics"
@@ -184,14 +189,9 @@
     "value": "resume:Monte Carlo Simulation"
    },
    {
-    "id": "resume:Power Distribution",
-    "label": "Power Distribution",
-    "value": "resume:Power Distribution"
-   },
-   {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Commissioning",
+    "label": "Commissioning",
+    "value": "resume:Commissioning"
    },
    {
     "id": "resume:Python",
@@ -201,6 +201,11 @@
   ],
   "requiredSkills": [
    {
+    "id": "resume:Power Distribution",
+    "label": "Power Distribution",
+    "value": "resume:Power Distribution"
+   },
+   {
     "id": "resume:Physics",
     "label": "Physics",
     "value": "resume:Physics"
@@ -209,18 +214,13 @@
     "id": "resume:Monte Carlo Simulation",
     "label": "Monte Carlo Simulation",
     "value": "resume:Monte Carlo Simulation"
-   },
-   {
-    "id": "resume:Power Distribution",
-    "label": "Power Distribution",
-    "value": "resume:Power Distribution"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Commissioning",
+    "label": "Commissioning",
+    "value": "resume:Commissioning"
    },
    {
     "id": "resume:Python",
@@ -233,14 +233,14 @@
     "value": "resume:Analytics Tools"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
     "id": "resume:Licensing",
     "label": "Licensing",
     "value": "resume:Licensing"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    }
   ],
   "manager": false,
@@ -259,9 +259,9 @@
   "minYearsExp": 8,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -269,9 +269,9 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -300,24 +300,24 @@
   "jobId": "73092ec3-e9b7-4532-ad6e-50cf17f6c9fd",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1591432862932, 'matchScore': 0, 'ageScore': 0.9591432862932099, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1508429375509, 'matchScore': 0, 'ageScore': 0.950842937550926, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

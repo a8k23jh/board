@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-04T08:32:41Z",
+ "run": "2026-10-04T14:52:41Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "urO0-aE4Tl\u2026",
+  "session.sig": "J7TAeb8KHr\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjhjODBhY2U0MTk1OTcyY2QzM2Y0MGVjOTcwZThiNDAiLCAic2NvcmUiOiAxLjA1OTA1Nzc3ODc0NjE0Mn0="
+   "sequence": "eyJfaWQiOiAiMmFkZGJjNGE0NDI0YjMyNTZlMTA5YTg2ZWI4YjA4OGYiLCAic2NvcmUiOiAxLjA1MDMxMzEwMjU4OTg5Mn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -174,9 +174,9 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "software-architect",
-    "label": "Software Architect",
-    "value": "software-architect"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    },
    {
     "id": "qa-engineer",
@@ -184,9 +184,9 @@
     "value": "qa-engineer"
    },
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "software-architect",
+    "label": "Software Architect",
+    "value": "software-architect"
    }
   ],
   "jobFunctions": [
@@ -209,19 +209,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 146400, 'maxValue': 235375, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Test Driven Development",
-    "label": "Test Driven Development",
-    "value": "resume:Test Driven Development"
-   },
-   {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
-   },
-   {
-    "id": "resume:Scenario Testing",
-    "label": "Scenario Testing",
-    "value": "resume:Scenario Testing"
+    "id": "resume:Manual Testing",
+    "label": "Manual Testing",
+    "value": "resume:Manual Testing"
    },
    {
     "id": "resume:ERP",
@@ -229,53 +219,63 @@
     "value": "resume:ERP"
    },
    {
-    "id": "resume:3rd Party Integrations",
-    "label": "3rd Party Integrations",
-    "value": "resume:3rd Party Integrations"
+    "id": "resume:Test Automation",
+    "label": "Test Automation",
+    "value": "resume:Test Automation"
+   },
+   {
+    "id": "resume:Oracle ERP",
+    "label": "Oracle ERP",
+    "value": "resume:Oracle ERP"
+   },
+   {
+    "id": "resume:API Testing",
+    "label": "API Testing",
+    "value": "resume:API Testing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Test Driven Development",
-    "label": "Test Driven Development",
-    "value": "resume:Test Driven Development"
+    "id": "resume:Manual Testing",
+    "label": "Manual Testing",
+    "value": "resume:Manual Testing"
    },
-   {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
-   },
-   {
-    "id": "resume:Scenario Testing",
-    "label": "Scenario Testing",
-    "value": "resume:Scenario Testing"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:ERP",
     "label": "ERP",
     "value": "resume:ERP"
    },
    {
-    "id": "resume:3rd Party Integrations",
-    "label": "3rd Party Integrations",
-    "value": "resume:3rd Party Integrations"
+    "id": "resume:Test Automation",
+    "label": "Test Automation",
+    "value": "resume:Test Automation"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Oracle ERP",
+    "label": "Oracle ERP",
+    "value": "resume:Oracle ERP"
    },
    {
-    "id": "resume:Gatling Framework",
-    "label": "Gatling Framework",
-    "value": "resume:Gatling Framework"
+    "id": "resume:API Testing",
+    "label": "API Testing",
+    "value": "resume:API Testing"
    },
    {
-    "id": "resume:Root Cause Analysis",
-    "label": "Root Cause Analysis",
-    "value": "resume:Root Cause Analysis"
+    "id": "resume:Smoke Testing",
+    "label": "Smoke Testing",
+    "value": "resume:Smoke Testing"
    },
    {
-    "id": "resume:Trust Building",
-    "label": "Trust Building",
-    "value": "resume:Trust Building"
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "manager": false,
@@ -299,9 +299,9 @@
   ],
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -309,9 +309,9 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -334,14 +334,14 @@
   "jobId": "30383",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1556693709949, 'matchScore': 0, 'ageScore': 0.9556693709949846, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1475508496497, 'matchScore': 0, 'ageScore': 0.9475508496496914, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    },
    {
     "id": "senior",
@@ -349,15 +349,15 @@
     "value": "senior"
    },
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
    }
   ],
   "jobSeniorityIds": [
-   "expert",
+   "mid",
    "senior",
-   "mid"
+   "expert"
   ],
   "isFeatured": false
  },
