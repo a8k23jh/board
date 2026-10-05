@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-05T07:12:26Z",
+ "run": "2026-10-05T16:11:45Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Ib4eIdih_r\u2026",
+  "session.sig": "aq0M7p7LlC\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmFkZGJjNGE0NDI0YjMyNTZlMTA5YTg2ZWI4YjA4OGYiLCAic2NvcmUiOiAxLjAyNTc0MzYyNzczOTU4MzN9"
+   "sequence": "eyJfaWQiOiAiNTRkMjlkODA0ZDhhMWRiMzUyNmUwMDJlNDk5ZTU3ZjYiLCAic2NvcmUiOiAxLjAxMzY5NzI3NjEzNzM0NTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,117 +152,137 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.cvshealth.com/us/en/job/R1018100/In-Home-Health-NP-or-PA-Part-Time-Denver-CO-Arapahoe",
-  "companyDomain": "signifyhealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/99c6eb3fb8f6516bd248544cef759df3_320_160?Expires=1861920000&Signature=ftG2yoquWQ77fhZJlIDtDtJjH0EkrbN-V-l5EkosBrwWnHIsKX3Yj",
-  "companyId": "Signify Health",
-  "companySlug": "signify-health",
-  "companyName": "Signify Health",
-  "companyStaffCount": 3625,
+  "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8139779?gh_jid=8139779",
+  "companyDomain": "rubrik.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/35b32caf7afd5dcbacf9b127e064a74c_240_160?Expires=1861920000&Signature=tFI1Cjso4w0tkgpR1k20QMYTdNQlzWLL6jynAO197zbCRXhV0071v",
+  "companyId": "Rubrik",
+  "companySlug": "rubrik",
+  "companyName": "Rubrik",
+  "companyStaffCount": 5198,
   "considerHosted": false,
   "departments": [
-   ""
+   "Support"
   ],
   "jobTypes": [
    {
-    "id": "freelance",
-    "label": "Contractor",
-    "value": "freelance"
+    "id": "customer-success-mananger",
+    "label": "Customer Success Manager",
+    "value": "customer-success-mananger"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
+   }
+  ],
   "locations": [
-   "Work\u00a0at Home, Colorado, United States"
+   "US Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "Colorado",
-    "label": "Colorado",
-    "value": "Colorado"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 41.85, 'maxValue': 90.13, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 164600, 'maxValue': 246800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    },
    {
-    "id": "resume:NPS",
-    "label": "NPS",
-    "value": "resume:NPS"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    },
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
+    "id": "resume:Benchmarking",
+    "label": "Benchmarking",
+    "value": "resume:Benchmarking"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:iPad",
-    "label": "iPad",
-    "value": "resume:iPad"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    },
    {
-    "id": "resume:NPS",
-    "label": "NPS",
-    "value": "resume:NPS"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:CVS",
-    "label": "CVS",
-    "value": "resume:CVS"
+    "id": "resume:Benchmarking",
+    "label": "Benchmarking",
+    "value": "resume:Benchmarking"
    },
    {
-    "id": "resume:Health/Human Services",
-    "label": "Health/Human Services",
-    "value": "resume:Health/Human Services"
+    "id": "resume:Root Cause Analysis",
+    "label": "Root Cause Analysis",
+    "value": "resume:Root Cause Analysis"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Sales & Marketing",
+    "label": "Sales & Marketing",
+    "value": "resume:Sales & Marketing"
+   },
+   {
+    "id": "resume:POC",
+    "label": "POC",
+    "value": "resume:POC"
    }
   ],
   "manager": false,
   "consultant": false,
-  "contractor": true,
-  "considerLevels": [],
+  "contractor": false,
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
    {
     "id": "North America",
@@ -275,32 +295,40 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Public",
-    "label": "Public",
-    "value": "Public"
    }
   ],
-  "fundingLV": "{'id': 'Public', 'label': 'Public', 'value': 'Public'}",
   "markets": [
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "Cloud Services",
+    "label": "Cloud Services",
+    "value": "Cloud Services"
    }
   ],
-  "timeStamp": "2026-10-04T00:00:00Z",
-  "title": "In-Home Health - NP or PA (Part Time) -  Denver, CO - Arapahoe",
-  "url": "https://jobs.cvshealth.com/us/en/job/R1018100/In-Home-Health-NP-or-PA-Part-Time-Denver-CO-Arapahoe",
-  "jobId": "R1018100",
+  "timeStamp": "2026-10-05T00:35:55Z",
+  "title": "Customer Resilience Manager - Customer Success (Remote)",
+  "url": "https://www.rubrik.com/company/careers/departments/job.8139779?gh_jid=8139779",
+  "jobId": "8139779",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1586676027589, 'matchScore': 0, 'ageScore': 0.9586676027588734, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1808166748048, 'matchScore': 0, 'ageScore': 0.980816674804784, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid",
+   "manager"
+  ],
   "isFeatured": false
  },
  "search_mode": {
