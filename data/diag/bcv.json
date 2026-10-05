@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-05T16:11:45Z",
+ "run": "2026-10-05T22:46:14Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"},\"server\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"0a625fd1039f96947de50ff120127971656180ec\",\"date\":\"2026-10-05T19:19:08.065Z\"},\"server\":{\"git\":\"0a625fd1039f96947de50ff120127971656180ec\",\"date\":\"2026-10-05T19:19:08.065Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "aq0M7p7LlC\u2026",
+  "session.sig": "kezk03vQX8\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTRkMjlkODA0ZDhhMWRiMzUyNmUwMDJlNDk5ZTU3ZjYiLCAic2NvcmUiOiAxLjAxMzY5NzI3NjEzNzM0NTd9"
+   "sequence": "eyJfaWQiOiAiZTUxOTYyMDU5YTNkZjZkZjQ0YTBiN2UyYTZjNGQ2NDQiLCAic2NvcmUiOiAxLjAzMDUxNzI2MzgwMDkyNn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -163,111 +163,126 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8139779?gh_jid=8139779",
-  "companyDomain": "rubrik.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/35b32caf7afd5dcbacf9b127e064a74c_240_160?Expires=1861920000&Signature=tFI1Cjso4w0tkgpR1k20QMYTdNQlzWLL6jynAO197zbCRXhV0071v",
-  "companyId": "Rubrik",
-  "companySlug": "rubrik",
-  "companyName": "Rubrik",
-  "companyStaffCount": 5198,
+  "applyUrl": "https://boards.greenhouse.io/justworks/jobs/8236867?gh_jid=8236867",
+  "companyDomain": "justworks.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/53b0732e2508296561b7994e981e9873_256_160?Expires=1861920000&Signature=jpUYCUzpRAbunynZAa39zYnehCkOtBPQxtKwFu~wstUHTfmFkK59E",
+  "companyId": "Justworks",
+  "companySlug": "justworks",
+  "companyName": "Justworks",
+  "companyStaffCount": 1633,
   "considerHosted": false,
   "departments": [
-   "Support"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "customer-success-mananger",
-    "label": "Customer Success Manager",
-    "value": "customer-success-mananger"
+    "id": "release-engineer",
+    "label": "DevOps",
+    "value": "release-engineer"
+   },
+   {
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
+   },
+   {
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
+   },
+   {
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "US Remote"
+   "New York, New York"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 164600, 'maxValue': 246800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 188000, 'maxValue': 242000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Continuous Delivery",
+    "label": "Continuous Delivery",
+    "value": "resume:Continuous Delivery"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
    },
    {
-    "id": "resume:Benchmarking",
-    "label": "Benchmarking",
-    "value": "resume:Benchmarking"
+    "id": "resume:Github",
+    "label": "Github",
+    "value": "resume:Github"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Continuous Delivery",
+    "label": "Continuous Delivery",
+    "value": "resume:Continuous Delivery"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
    },
    {
-    "id": "resume:Benchmarking",
-    "label": "Benchmarking",
-    "value": "resume:Benchmarking"
+    "id": "resume:Github",
+    "label": "Github",
+    "value": "resume:Github"
    },
    {
-    "id": "resume:Root Cause Analysis",
-    "label": "Root Cause Analysis",
-    "value": "resume:Root Cause Analysis"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Sales & Marketing",
-    "label": "Sales & Marketing",
-    "value": "resume:Sales & Marketing"
+    "id": "resume:Web Application Security",
+    "label": "Application Security",
+    "value": "resume:Web Application Security"
    },
    {
-    "id": "resume:POC",
-    "label": "POC",
-    "value": "resume:POC"
+    "id": "resume:Ruby",
+    "label": "Ruby",
+    "value": "resume:Ruby"
    }
   ],
   "manager": false,
@@ -283,11 +298,27 @@
     6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -299,35 +330,34 @@
   ],
   "markets": [
    {
-    "id": "Cloud Services",
-    "label": "Cloud Services",
-    "value": "Cloud Services"
+    "id": "Future of Work",
+    "label": "Future of Work",
+    "value": "Future of Work"
+   },
+   {
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-10-05T00:35:55Z",
-  "title": "Customer Resilience Manager - Customer Success (Remote)",
-  "url": "https://www.rubrik.com/company/careers/departments/job.8139779?gh_jid=8139779",
-  "jobId": "8139779",
-  "remote": true,
+  "timeStamp": "2026-10-05T09:56:43Z",
+  "title": "Senior DevSecOps Engineer",
+  "url": "https://boards.greenhouse.io/justworks/jobs/8236867?gh_jid=8236867",
+  "jobId": "8236867",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1808166748048, 'matchScore': 0, 'ageScore': 0.980816674804784, 'richnessScore': 2}",
+  "scores": "{'score': 1001.185863820468, 'matchScore': 0, 'ageScore': 0.9858638204679784, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "manager"
+   "senior"
   ],
   "isFeatured": false
  },

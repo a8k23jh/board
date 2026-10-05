@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-05T16:11:45Z",
+ "run": "2026-10-05T22:46:14Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"},\"server\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"0a625fd1039f96947de50ff120127971656180ec\",\"date\":\"2026-10-05T19:19:08.065Z\"},\"server\":{\"git\":\"0a625fd1039f96947de50ff120127971656180ec\",\"date\":\"2026-10-05T19:19:08.065Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "SpeaOyjVxU\u2026",
+  "session.sig": "CfSYM_xaMF\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTljMmJjZmFlNTk2MmQ4YmI0MjVlZTQzNmRjNjFmNGYiLCAic2NvcmUiOiAwLjk5MTYxNjI2NDE1NDMyMDl9"
+   "sequence": "eyJfaWQiOiAiNWFlZmEzNzg0NjhkODI1MTYwMzllNGZlZDQ2MzQwYWQiLCAic2NvcmUiOiAwLjk5MzA5NjA4Nzg4NzczMTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -186,76 +186,22 @@
   ],
   "normalizedLocations": [
    {
-    "id": "United Kingdom",
-    "label": "United Kingdom",
-    "value": "United Kingdom"
-   },
-   {
     "id": "London, Greater London, United Kingdom",
     "label": "London",
     "value": "London, Greater London, United Kingdom"
+   },
+   {
+    "id": "United Kingdom",
+    "label": "United Kingdom",
+    "value": "United Kingdom"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:HRIS",
-    "label": "HR Systems",
-    "value": "resume:HRIS"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:HRIS",
-    "label": "HR Systems",
-    "value": "resume:HRIS"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
    },
    {
     "id": "resume:Private Equity",
@@ -263,9 +209,63 @@
     "value": "resume:Private Equity"
    },
    {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
+   },
+   {
+    "id": "resume:Private Equity",
+    "label": "Private Equity",
+    "value": "resume:Private Equity"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
     "id": "resume:New Market Expansion",
     "label": "New Market Expansion",
     "value": "resume:New Market Expansion"
+   },
+   {
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
+   },
+   {
+    "id": "resume:HRIS",
+    "label": "HR Systems",
+    "value": "resume:HRIS"
    }
   ],
   "manager": false,
@@ -284,14 +284,14 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
-   },
-   {
     "id": "Western Europe",
     "label": "Western Europe",
     "value": "Western Europe"
+   },
+   {
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
@@ -330,7 +330,7 @@
   "jobId": "5973b2e4-d756-4be6-a485-50be2cc8196a",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1803850853001, 'matchScore': 0, 'ageScore': 0.9803850853001543, 'richnessScore': 2}",
+  "scores": "{'score': 1001.17113555787, 'matchScore': 0, 'ageScore': 0.9711355578699845, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

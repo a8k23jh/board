@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-05T16:11:45Z",
+ "run": "2026-10-05T22:46:14Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"},\"server\":{\"git\":\"d76cf37206cd991654c958cb033ba45c001c8549\",\"date\":\"2026-10-01T23:28:14.566Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"0a625fd1039f96947de50ff120127971656180ec\",\"date\":\"2026-10-05T19:19:08.065Z\"},\"server\":{\"git\":\"0a625fd1039f96947de50ff120127971656180ec\",\"date\":\"2026-10-05T19:19:08.065Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "RuQBmEj3li\u2026",
+  "session.sig": "OmXtkN7LcF\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTdhNjU0ZjIzNWFkMzQ0NzBjMDQzY2JlMWJhZWU4MDMiLCAic2NvcmUiOiAxLjAzODg3NzM2MjIzMTg2NzJ9"
+   "sequence": "eyJfaWQiOiAiMzQ3OTAxZjU2MTIyYmY4OTlhMmMwYTRiNDdiNmI5MTkiLCAic2NvcmUiOiAxLjAzODAxMzcyNjM1OTE4MjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,46 +128,41 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lyrahealth/e667d142-d413-4d99-9689-eea64be3f716?lever-source%5B%5D=careers.ivp.com",
-  "companyDomain": "lyrahealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/143cd3a237462e2e7a2ccd47b2d73fac_96_160?Expires=1861920000&Signature=NN4EpXx0uHmRsAc6GKWU1E0aaw8tKG4yCj2QYcyRkjmu-TasPWWqFM",
-  "companyId": "Lyra Health",
-  "companySlug": "lyra-health",
-  "companyName": "Lyra Health",
-  "companyStaffCount": 2800,
+  "applyUrl": "https://www.brex.com/careers/8856842002?gh_jid=8856842002",
+  "companyDomain": "brex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3f2aa579751cea124ad807326f6a985b_192_160?Expires=1861920000&Signature=Wu5piHHl3U5fi-NhKB8WMrOoJBgsm9khtv6eWfwfp3CgMiI7ud9~y",
+  "companyId": "Brex",
+  "companySlug": "brex",
+  "companyName": "Brex",
+  "companyStaffCount": 1776,
   "considerHosted": false,
   "departments": [
-   "Go-To-Market"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    },
    {
-    "id": "coordinator",
-    "label": "Coordinator",
-    "value": "coordinator"
+    "id": "sales-mid-maket",
+    "label": "Sales Mid Market",
+    "value": "sales-mid-maket"
    }
   ],
   "jobFunctions": [
-   {
-    "id": "Administrative",
-    "label": "Administrative",
-    "value": "Administrative"
-   },
    {
     "id": "Sales",
     "label": "Sales",
@@ -175,70 +170,26 @@
    }
   ],
   "locations": [
-   "Mexico City"
+   "San Francisco, California, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Mexico City Area, Mexico",
-    "label": "Mexico City",
-    "value": "Mexico City Area, Mexico"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Month', 'value': 'month'}, 'minValue': 15000, 'maxValue': 17000, 'currency': {'label': 'MXN', 'value': 'MXN'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 343520, 'maxValue': 429400, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Content Management",
-    "label": "Content Management",
-    "value": "resume:Content Management"
-   },
-   {
-    "id": "resume:Trade Shows",
-    "label": "Trade Shows",
-    "value": "resume:Trade Shows"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
-   },
-   {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Content Management",
-    "label": "Content Management",
-    "value": "resume:Content Management"
-   },
-   {
-    "id": "resume:Trade Shows",
-    "label": "Trade Shows",
-    "value": "resume:Trade Shows"
+    "id": "resume:Organizational Change",
+    "label": "Organizational Change",
+    "value": "resume:Organizational Change"
    },
    {
     "id": "resume:Cross-functional Team Leadership",
@@ -246,40 +197,89 @@
     "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
    },
    {
-    "id": "resume:International Logistics",
-    "label": "International Logistics",
-    "value": "resume:International Logistics"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
-  "manager": false,
+  "requiredSkills": [
+   {
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
+   },
+   {
+    "id": "resume:Organizational Change",
+    "label": "Organizational Change",
+    "value": "resume:Organizational Change"
+   },
+   {
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
+   },
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Mid-Market",
+    "label": "Mid-Market",
+    "value": "resume:Mid-Market"
+   },
+   {
+    "id": "resume:Stakeholder Engagement",
+    "label": "Stakeholder Engagement",
+    "value": "resume:Stakeholder Engagement"
+   }
+  ],
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 10,
   "regions": [
    {
-    "id": "Latin America",
-    "label": "Latin America",
-    "value": "Latin America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -287,50 +287,33 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Digital Health",
-    "label": "Digital Health",
-    "value": "Digital Health"
-   },
-   {
-    "id": "Mental Health Care",
-    "label": "Mental Health Care",
-    "value": "Mental Health Care"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-10-02T22:31:44.504000Z",
-  "title": "Jr, Account & Wellness Activities Coordinator",
-  "url": "https://jobs.lever.co/lyrahealth/e667d142-d413-4d99-9689-eea64be3f716",
-  "jobId": "e667d142-d413-4d99-9689-eea64be3f716",
+  "timeStamp": "2026-10-05T12:24:57Z",
+  "title": "Senior Director, Mid Market Sales",
+  "url": "https://www.brex.com/careers/8856842002?gh_jid=8856842002",
+  "jobId": "8856842002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1110246787655, 'matchScore': 0, 'ageScore': 0.9110246787654321, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1890974398568, 'matchScore': 0, 'ageScore': 0.9890974398568673, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "junior"
+   "director"
   ],
   "isFeatured": false
  },
