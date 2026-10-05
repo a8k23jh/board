@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-04T22:22:24Z",
+ "run": "2026-10-05T01:05:41Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "FTsqHh983T\u2026",
+  "session.sig": "NZd7c9OLdy\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzczMDE3NTdhMDBlNWU5YTQ2NmU2NzZhZWRiZGE2MjAiLCAic2NvcmUiOiAxLjEyMDA4MjcwODIwMzMxOH0="
+   "sequence": "eyJfaWQiOiAiYzAwYTg5ZTkyM2U4ZjAwYmY3YzUxZDYxODI4MDc1YmIiLCAic2NvcmUiOiAxLjExNjMyNDU1NTE1MzU0OTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5256456007?gh_jid=5256456007",
+  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5253234007?gh_jid=5253234007",
   "companyDomain": "anduril.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d88ae975c1da94cefaeb3234d6fb00f_238_160?Expires=1861920000&Signature=nPYp1JlJZNMHspk2VuS1aXOsrIHWSiYZCa1mo5aQgLIbL2xCLdDD0",
   "companyId": "Anduril Industries",
@@ -164,13 +164,18 @@
   "companyStaffCount": 9633,
   "considerHosted": false,
   "departments": [
-   "Manufacturing : Heavy Metal - Production"
+   "Manufacturing : Heavy Metal - Production : Manufacturing Technicians"
   ],
   "jobTypes": [
    {
-    "id": "technical-program-manager",
-    "label": "Technical Program Manager",
-    "value": "technical-program-manager"
+    "id": "Production Associate",
+    "label": "Production Associate",
+    "value": "Production Associate"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [],
@@ -184,98 +189,108 @@
     "value": "Santa Ana, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 166000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 129000, 'maxValue': 171000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Change Orders",
-    "label": "Change Orders",
-    "value": "resume:Change Orders"
+    "id": "resume:CNC",
+    "label": "CNC",
+    "value": "resume:CNC"
    },
    {
-    "id": "resume:Systems Engineering",
-    "label": "Systems Engineering",
-    "value": "resume:Systems Engineering"
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
    },
    {
-    "id": "resume:Incident Response",
-    "label": "Incident Response",
-    "value": "resume:Incident Response"
+    "id": "resume:Machining",
+    "label": "Machining",
+    "value": "resume:Machining"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Operations Management",
+    "label": "Operations Management",
+    "value": "resume:Operations Management"
    },
    {
-    "id": "resume:Resource Allocation",
-    "label": "Resource Allocation",
-    "value": "resume:Resource Allocation"
+    "id": "resume:Six Sigma",
+    "label": "Six Sigma",
+    "value": "resume:Six Sigma"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Change Orders",
-    "label": "Change Orders",
-    "value": "resume:Change Orders"
+    "id": "resume:CNC",
+    "label": "CNC",
+    "value": "resume:CNC"
    },
    {
-    "id": "resume:Systems Engineering",
-    "label": "Systems Engineering",
-    "value": "resume:Systems Engineering"
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
    },
    {
-    "id": "resume:Incident Response",
-    "label": "Incident Response",
-    "value": "resume:Incident Response"
+    "id": "resume:Machining",
+    "label": "Machining",
+    "value": "resume:Machining"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Operations Management",
+    "label": "Operations Management",
+    "value": "resume:Operations Management"
    },
    {
-    "id": "resume:Resource Allocation",
-    "label": "Resource Allocation",
-    "value": "resume:Resource Allocation"
+    "id": "resume:Six Sigma",
+    "label": "Six Sigma",
+    "value": "resume:Six Sigma"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:Product Lifecycle Management",
+    "label": "Product Lifecycle Management",
+    "value": "resume:Product Lifecycle Management"
    },
    {
-    "id": "resume:PDM",
-    "label": "PDM",
-    "value": "resume:PDM"
+    "id": "resume:System Integration",
+    "label": "System Integration",
+    "value": "resume:System Integration"
    },
    {
-    "id": "resume:Contract Management",
-    "label": "Contract Management",
-    "value": "resume:Contract Management"
+    "id": "resume:Industrial Engineering",
+    "label": "Industrial Engineering",
+    "value": "resume:Industrial Engineering"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
     5,
     6
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    9,
+    10,
+    11,
+    12
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 15,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "West Coast",
@@ -303,25 +318,17 @@
     "value": "Defense & Space"
    }
   ],
-  "timeStamp": "2026-10-04T10:18:22Z",
-  "title": "Technical Program Manager, PMO",
-  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5256456007?gh_jid=5256456007",
-  "jobId": "5256456007",
+  "timeStamp": "2026-10-04T10:38:31Z",
+  "title": "Production Operations Manager, Maritime Manufacturing",
+  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5253234007?gh_jid=5253234007",
+  "jobId": "5253234007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1863194200806, 'matchScore': 0, 'ageScore': 0.9863194200806327, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1824684273712, 'matchScore': 0, 'ageScore': 0.9824684273711419, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   }
-  ],
-  "jobSeniorityIds": [
-   "mid"
-  ],
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {
