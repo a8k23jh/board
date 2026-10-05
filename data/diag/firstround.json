@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-05T01:05:41Z",
+ "run": "2026-10-05T07:12:26Z",
  "homepage": {
   "status": 200,
   "bytes": 16696
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "8RL2g1xPRK\u2026",
+  "session.sig": "tH56-Kp1W-\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWQ2MWQ4NThkMGZhYjlkNzFkZGZiNWI4OGUzNDg5ZWMiLCAic2NvcmUiOiAxLjAwMDQ0OTAyOTI0MTg5ODJ9"
+   "sequence": "eyJfaWQiOiAiMGYzMmMxYzc3N2MxYmY3MWM3YTUyMTg1ZjE2MjJlYzYiLCAic2NvcmUiOiAwLjk5MjA0ODY0MzUyNDMwNTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
-   },
-   {
     "id": "engineering-manager",
     "label": "Engineering Manager",
     "value": "engineering-manager"
+   },
+   {
+    "id": "qa-engineer",
+    "label": "QA Engineer",
+    "value": "qa-engineer"
    }
   ],
   "jobFunctions": [
@@ -199,68 +199,68 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
     "id": "resume:Reproduction",
     "label": "Reproduction",
     "value": "resume:Reproduction"
    },
    {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Product Design",
+    "label": "Product Design",
+    "value": "resume:Product Design"
    },
    {
     "id": "resume:Device Management",
     "label": "Device Management",
     "value": "resume:Device Management"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "requiredSkills": [
-   {
-    "id": "resume:Reproduction",
-    "label": "Reproduction",
-    "value": "resume:Reproduction"
-   },
-   {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Device Management",
-    "label": "Device Management",
-    "value": "resume:Device Management"
-   },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
    },
    {
+    "id": "resume:Reproduction",
+    "label": "Reproduction",
+    "value": "resume:Reproduction"
+   },
+   {
     "id": "resume:Product Design",
     "label": "Product Design",
     "value": "resume:Product Design"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Device Management",
+    "label": "Device Management",
+    "value": "resume:Device Management"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
    }
   ],
   "manager": true,
@@ -319,24 +319,24 @@
   "jobId": "32e61aa7-38c3-4687-98af-143b21996159",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.166939020784, 'matchScore': 0, 'ageScore': 0.9669390207839507, 'richnessScore': 2}",
+  "scores": "{'score': 1001.158599709635, 'matchScore': 0, 'ageScore': 0.9585997096350308, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "mid"
+   "mid",
+   "manager"
   ],
   "isFeatured": false
  },
