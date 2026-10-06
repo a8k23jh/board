@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-06T10:32:54Z",
+ "run": "2026-10-06T17:17:38Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "N_YCmcR94T\u2026",
+  "session.sig": "tngrSwsA9E\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzE3NDhmZTc4YjRiMTJhZjk4YmFlNDMyMDA5MzU0NWUiLCAic2NvcmUiOiAxLjA4MDk3NTQ5MTczODgxMTd9"
+   "sequence": "eyJfaWQiOiAiZjRlZTM4MGI4NzVjYmJhNDEwY2NiNGM2MDc1ODZkOWMiLCAic2NvcmUiOiAxLjA3MzI5NTQyNTU5NTY3OX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -166,9 +166,9 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
    },
    {
     "id": "account-executive",
@@ -176,9 +176,9 @@
     "value": "account-executive"
    },
    {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    }
   ],
   "jobFunctions": [
@@ -201,14 +201,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 300000, 'maxValue': 360000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   },
-   {
     "id": "resume:Channel Partners",
     "label": "Channel Partnership",
     "value": "resume:Channel Partners"
+   },
+   {
+    "id": "resume:Driving Results",
+    "label": "Driving Results",
+    "value": "resume:Driving Results"
+   },
+   {
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
     "id": "resume:Sales Process",
@@ -216,43 +221,38 @@
     "value": "resume:Sales Process"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   },
-   {
     "id": "resume:Channel Partners",
     "label": "Channel Partnership",
     "value": "resume:Channel Partners"
    },
    {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
+    "id": "resume:Driving Results",
+    "label": "Driving Results",
+    "value": "resume:Driving Results"
+   },
+   {
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
     "id": "resume:Amazon Web Services",
@@ -260,14 +260,14 @@
     "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Creative Solutions",
-    "label": "Creative Solutions",
-    "value": "resume:Creative Solutions"
+    "id": "resume:Pipeline Generation",
+    "label": "Pipeline Generation",
+    "value": "resume:Pipeline Generation"
    },
    {
-    "id": "resume:Cloud Security",
-    "label": "Cloud Security",
-    "value": "resume:Cloud Security"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    }
   ],
   "manager": false,
@@ -317,7 +317,7 @@
   "jobId": "08.375",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1928932166848, 'matchScore': 0, 'ageScore': 0.9928932166847994, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1850761186462, 'matchScore': 0, 'ageScore': 0.9850761186462191, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

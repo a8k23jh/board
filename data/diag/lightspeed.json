@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-06T10:32:54Z",
+ "run": "2026-10-06T17:17:38Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "-655UBxunz\u2026",
+  "session.sig": "q8TVzW4TDe\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2E5MjIyOTdjNmQ1Y2YzZmJjNWRkODI4YWI0MTdiYTUiLCAic2NvcmUiOiAxLjE1NTA2NzI1Nzk5NDIxM30="
+   "sequence": "eyJfaWQiOiAiM2E5MjIyOTdjNmQ1Y2YzZmJjNWRkODI4YWI0MTdiYTUiLCAic2NvcmUiOiAxLjE0NjgwMzM1Mzg0NzIyMjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -166,14 +166,14 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "product-manager",
-    "label": "Product Manager",
-    "value": "product-manager"
-   },
-   {
     "id": "lead",
     "label": "Lead",
     "value": "lead"
+   },
+   {
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
    }
   ],
   "jobFunctions": [
@@ -196,53 +196,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Ranking",
-    "label": "Ranking",
-    "value": "resume:Ranking"
-   },
-   {
-    "id": "resume:Security Research",
-    "label": "Security Research",
-    "value": "resume:Security Research"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Ranking",
-    "label": "Ranking",
-    "value": "resume:Ranking"
+    "id": "resume:Penetration Testing",
+    "label": "Penetration Testing",
+    "value": "resume:Penetration Testing"
    },
    {
     "id": "resume:Security Research",
@@ -255,14 +211,58 @@
     "value": "resume:Incident Response"
    },
    {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:Penetration Testing",
     "label": "Penetration Testing",
     "value": "resume:Penetration Testing"
    },
    {
-    "id": "resume:Agenda",
-    "label": "Agenda",
-    "value": "resume:Agenda"
+    "id": "resume:Security Research",
+    "label": "Security Research",
+    "value": "resume:Security Research"
+   },
+   {
+    "id": "resume:Incident Response",
+    "label": "Incident Response",
+    "value": "resume:Incident Response"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
+   },
+   {
+    "id": "resume:Transaction Monitoring",
+    "label": "Transaction Monitoring",
+    "value": "resume:Transaction Monitoring"
+   },
+   {
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
+   },
+   {
+    "id": "resume:Ranking",
+    "label": "Ranking",
+    "value": "resume:Ranking"
    }
   ],
   "manager": false,
@@ -321,24 +321,24 @@
   "jobId": "baf6830a-28d6-4391-bb71-916cb7b631b0",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1956291837346, 'matchScore': 0, 'ageScore': 0.9956291837345679, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1878789243206, 'matchScore': 0, 'ageScore': 0.9878789243206019, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
