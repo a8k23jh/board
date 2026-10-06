@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-05T22:46:14Z",
+ "run": "2026-10-06T03:08:09Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "pSpUJB6EUz\u2026",
+  "session.sig": "eezxS3qArX\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDg0MGQxZDZiNTg3NzlhNzdmMDE4MDE1ZTg5ZWFkZTEiLCAic2NvcmUiOiAxLjA0ODgxMDc4OTEyNzMxNDh9"
+   "sequence": "eyJfaWQiOiAiZGViZDZlZmUxMzk0OWYxYjk1MDY0N2FiMTg2ZTcyOTgiLCAic2NvcmUiOiAxLjA2Njg4NDkwNTU5Mzc1fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -163,55 +163,69 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.smartrecruiters.com/Canva/6000000001462288-commercial-counsel-gtm",
-  "companyDomain": "canva.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8144f77560d15b22676edf288aa5d016_176_160?Expires=1861920000&Signature=K6e-ByKJ1kkfQgQWKAdBc12FF~vTJprCP13Ku9MxDPLq5kh4Cb3K1",
-  "companyId": "Canva",
-  "companySlug": "canva",
-  "companyName": "Canva",
-  "companyStaffCount": 16046,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5440477008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Security"
+  ],
   "jobTypes": [
    {
-    "id": "commercial-counsel",
-    "label": "Commercial Counsel",
-    "value": "commercial-counsel"
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
    },
    {
-    "id": "gtm",
-    "label": "GTM",
-    "value": "gtm"
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Legal",
-    "label": "Legal",
-    "value": "Legal"
-   },
-   {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "San Francisco, CA"
+   "San Francisco, CA",
+   "New York City, NY",
+   "Seattle, WA"
   ],
   "normalizedLocations": [
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
    {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Commercial Agreements",
-    "label": "Commercial Agreements",
-    "value": "resume:Commercial Agreements"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Test Equipment",
+    "label": "Test Equipment",
+    "value": "resume:Test Equipment"
    },
    {
     "id": "resume:Equity",
@@ -219,63 +233,58 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Kernel",
+    "label": "Kernel",
+    "value": "resume:Kernel"
    },
    {
-    "id": "resume:Ironclad",
-    "label": "Ironclad",
-    "value": "resume:Ironclad"
-   },
-   {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
+    "id": "resume:Zero Knowledge",
+    "label": "Zero Knowledge",
+    "value": "resume:Zero Knowledge"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Commercial Agreements",
-    "label": "Commercial Agreements",
-    "value": "resume:Commercial Agreements"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Test Equipment",
+    "label": "Test Equipment",
+    "value": "resume:Test Equipment"
    },
    {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Ironclad",
-    "label": "Ironclad",
-    "value": "resume:Ironclad"
+    "id": "resume:Kernel",
+    "label": "Kernel",
+    "value": "resume:Kernel"
    },
    {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
+    "id": "resume:Zero Knowledge",
+    "label": "Zero Knowledge",
+    "value": "resume:Zero Knowledge"
    },
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
+    "id": "resume:Offensive Security",
+    "label": "Offensive Security",
+    "value": "resume:Offensive Security"
    },
    {
-    "id": "resume:Government Contracts",
-    "label": "Government Contracts",
-    "value": "resume:Government Contracts"
+    "id": "resume:ML Infrastructure",
+    "label": "ML Infrastructure",
+    "value": "resume:ML Infrastructure"
    },
    {
-    "id": "resume:FedRAMP",
-    "label": "FedRAMP",
-    "value": "resume:FedRAMP"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    }
   ],
   "manager": false,
@@ -291,13 +300,7 @@
     6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -307,6 +310,21 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -324,18 +342,23 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Design",
-    "label": "Design",
-    "value": "Design"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-10-05T14:35:26.911000Z",
-  "title": "Commercial Counsel, GTM",
-  "url": "https://jobs.smartrecruiters.com/Canva/6000000001462288-commercial-counsel-gtm",
-  "jobId": "6000000001462288",
+  "timeStamp": "2026-10-05T17:46:25Z",
+  "title": "Software Security Engineer, Labs",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5440477008",
+  "jobId": "5440477008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1915031809236, 'matchScore': 0, 'ageScore': 0.9915031809236111, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1918201478974, 'matchScore': 0, 'ageScore': 0.9918201478973765, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
