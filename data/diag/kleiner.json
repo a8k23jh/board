@@ -1,6 +1,7 @@
 {
  "board": "kleiner",
- "run": "2026-10-06T03:08:09Z",
+ "run": "2026-10-06T10:32:54Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +43,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "CDmz8DDTyh\u2026",
+  "session.sig": "dGUQQxElT0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +128,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjViODg2ZGZmZTA2NTAzNTk4YzRkMjMyYzZlOTY1NWUiLCAic2NvcmUiOiAxLjAwMDU5MDMzMjAwMzg1OH0="
+   "sequence": "eyJfaWQiOiAiNTk1M2UxOWY1NDM4N2I2OGQ1NjExYzU0NWI1MzM3MmEiLCAic2NvcmUiOiAxLjAwMDU1OTQ4NTc3NTA3NzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,133 +145,108 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/togetherai/jobs/5255618007",
-  "companyDomain": "together.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ab310562763eeec1a870bd57b0a9704b_256_160?Expires=1861920000&Signature=DqaWvH3vUeF1a7rLhZrorwzEHn6S-ol3vJVqmfO9AkN~8UuCFWnkz",
-  "companyId": "Together AI",
-  "companySlug": "together-ai",
-  "companyName": "Together AI",
-  "companyStaffCount": 438,
+  "applyUrl": "https://settle.applytojob.com/apply/SIlu1KHkn5/Senior-Credit-Alternative-Financing-Specialist",
+  "companyDomain": "settle.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8084d3507b9f743131d20f4c9a6e0124_208_160?Expires=1861920000&Signature=l5hVDR2ndhoG0Qk98YWk~iJm3HWi1RBDFjNAPYsDgS2IuQ~h~Qypf",
+  "companyId": "Settle",
+  "companySlug": "settle",
+  "companyName": "Settle",
+  "companyStaffCount": 67,
   "considerHosted": false,
-  "departments": [
-   "Marketing"
-  ],
-  "jobTypes": [
-   {
-    "id": "community-manager",
-    "label": "Community Manager",
-    "value": "community-manager"
-   },
-   {
-    "id": "field-marketing",
-    "label": "Field Marketing",
-    "value": "field-marketing"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   }
-  ],
+  "departments": [],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "San Francisco",
-   "NYC"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 170000, 'maxValue': 195000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 95000, 'maxValue': 115000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Legal Writing",
-    "label": "Legal Writing",
-    "value": "resume:Legal Writing"
+    "id": "resume:Financial Statements",
+    "label": "Financial Statements",
+    "value": "resume:Financial Statements"
    },
    {
-    "id": "resume:Event Marketing",
-    "label": "Event Marketing",
-    "value": "resume:Event Marketing"
+    "id": "resume:CPG Industry",
+    "label": "CPG Industry",
+    "value": "resume:CPG Industry"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Legal Writing",
-    "label": "Legal Writing",
-    "value": "resume:Legal Writing"
+    "id": "resume:Financial Statements",
+    "label": "Financial Statements",
+    "value": "resume:Financial Statements"
    },
    {
-    "id": "resume:Event Marketing",
-    "label": "Event Marketing",
-    "value": "resume:Event Marketing"
+    "id": "resume:CPG Industry",
+    "label": "CPG Industry",
+    "value": "resume:CPG Industry"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Underwriting",
+    "label": "Underwriting",
+    "value": "resume:Underwriting"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Cash Flow",
+    "label": "Cash Flow",
+    "value": "resume:Cash Flow"
    },
    {
-    "id": "resume:Account Based Marketing",
-    "label": "Account Based Marketing",
-    "value": "resume:Account Based Marketing"
+    "id": "resume:Credit Risk",
+    "label": "Credit Risk",
+    "value": "resume:Credit Risk"
    }
   ],
   "manager": false,
@@ -278,80 +254,59 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
+   ],
+   [
+    3,
+    4
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 3,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI/ML",
-    "label": "AI/ML",
-    "value": "AI/ML"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-10-05T17:29:45Z",
-  "title": "Field Marketing & Community Manager",
-  "url": "https://job-boards.greenhouse.io/togetherai/jobs/5255618007",
-  "jobId": "5255618007",
-  "remote": false,
+  "timeStamp": "2026-10-05T23:58:48Z",
+  "title": "Senior Credit & Alternative Financing Specialist",
+  "url": "https://settle.applytojob.com/apply/SIlu1KHkn5/Senior-Credit-Alternative-Financing-Specialist",
+  "jobId": "job_20261002174242_TTI3H7A8WP0YSO0H",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1917106331829, 'matchScore': 0, 'ageScore': 0.9917106331828703, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1885234938457, 'matchScore': 0, 'ageScore': 0.9885234938456791, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }

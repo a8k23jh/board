@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-06T03:08:09Z",
+ "run": "2026-10-06T10:32:54Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Q_j4sbIf5R\u2026",
+  "session.sig": "fs9twYIq8J\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzZjMmQwYjBmMDJkYWJkNzU4OGYyYjNjYzYwZGY3ZjgiLCAic2NvcmUiOiAxLjA4MDU0NTQ4MTA3MjkxNjd9"
+   "sequence": "eyJfaWQiOiAiNTc4M2FjMDc0ZWI3MTBjYjkzYmNiNmI5NmNlMjQ3MTUiLCAic2NvcmUiOiAxLjA3Njg2MDQwNTU1MDE1NDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,45 +139,59 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/checkr/jobs/8257646",
-  "companyDomain": "checkr.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e2bf750e58d00f60c6ee80c394004e67_192_160?Expires=1861920000&Signature=JNSv6SWFArHs8aOstjNFyiWS0MuZFvw4HMxjeVVLPqolNYR6k58lT",
-  "companyId": "Checkr",
-  "companySlug": "checkr",
-  "companyName": "Checkr, Inc.",
-  "companyStaffCount": 1838,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5398328008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Operations"
+   "Product Management, Support, & Operations"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "program-manager",
+    "label": "Program Manager",
+    "value": "program-manager"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Project Management",
+    "label": "Project Management",
+    "value": "Project Management"
+   }
+  ],
   "locations": [
-   "Nashville, Tennessee, United States"
+   "New York City, NY",
+   "San Francisco, CA",
+   "Seattle, WA"
   ],
   "normalizedLocations": [
    {
-    "id": "Nashville, Tennessee",
-    "label": "Nashville, Tennessee",
-    "value": "Nashville, Tennessee"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 64000, 'maxValue': 80000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Six Sigma",
-    "label": "Six Sigma",
-    "value": "resume:Six Sigma"
-   },
-   {
-    "id": "resume:Pivot Tables",
-    "label": "Pivot Tables",
-    "value": "resume:Pivot Tables"
-   },
-   {
-    "id": "resume:Process Flow Documentation",
-    "label": "Process Flow Documentation",
-    "value": "resume:Process Flow Documentation"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -185,53 +199,63 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   },
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Six Sigma",
-    "label": "Six Sigma",
-    "value": "resume:Six Sigma"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
-   {
-    "id": "resume:Pivot Tables",
-    "label": "Pivot Tables",
-    "value": "resume:Pivot Tables"
-   },
-   {
-    "id": "resume:Process Flow Documentation",
-    "label": "Process Flow Documentation",
-    "value": "resume:Process Flow Documentation"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    },
    {
-    "id": "resume:Confluence",
-    "label": "Confluence",
-    "value": "resume:Confluence"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Gap Analysis",
-    "label": "Gap Analysis",
-    "value": "resume:Gap Analysis"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Roll-ups",
+    "label": "Roll-ups",
+    "value": "resume:Roll-ups"
+   },
+   {
+    "id": "resume:Payment Systems",
+    "label": "Payment Systems",
+    "value": "resume:Payment Systems"
    }
   ],
   "manager": false,
@@ -239,25 +263,40 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 10,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -275,18 +314,23 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-10-05T17:55:05Z",
-  "title": "Operations Process Design Specialist",
-  "url": "https://job-boards.greenhouse.io/checkr/jobs/8257646",
-  "jobId": "8257646",
+  "timeStamp": "2026-10-06T02:04:54Z",
+  "title": "Commercial Operations Program Manager",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5398328008",
+  "jobId": "5398328008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1927426289834, 'matchScore': 0, 'ageScore': 0.9927426289834105, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1914272514032, 'matchScore': 0, 'ageScore': 0.9914272514031636, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
