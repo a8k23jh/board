@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-06T17:17:38Z",
+ "run": "2026-10-06T21:44:20Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "VbZKJBO2Or\u2026",
+  "session.sig": "F3kxmaUe8f\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWRhNmIzMzUwN2UxNjdhMGExOWU1OTRhZWY5OGM2NTIiLCAic2NvcmUiOiAxLjA2NDY5MDA1NTQ4NjExMTJ9"
+   "sequence": "eyJfaWQiOiAiYjUzMDU4YzEyYWNhYzRhNjU5OTM5YWMyY2Q5ZTA3NzgiLCAic2NvcmUiOiAxLjA2MzUyNTA3NTA5Nzk5Mzl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,134 +152,140 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5398328008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://jobs.lever.co/cloudinary/79bfaff4-eabd-40a8-975d-d6be4b06a09f?lever-source%5B%5D=jobs.bvp.com",
+  "companyDomain": "cloudinary.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c743b0a12e55d5949b2146d88a0aaabf_320_160?Expires=1861920000&Signature=GviXENgmnftIRd--i7s9r3nrAWNZAfd8pfIm0Xl-0ZHi1VbnoJdfQ",
+  "companyId": "Cloudinary",
+  "companySlug": "cloudinary",
+  "companyName": "Cloudinary",
+  "companyStaffCount": 432,
   "considerHosted": false,
-  "departments": [
-   "Product Management, Support, & Operations"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "program-manager",
-    "label": "Program Manager",
-    "value": "program-manager"
+    "id": "marketing-engagement",
+    "label": "Marketing Engagement",
+    "value": "marketing-engagement"
+   },
+   {
+    "id": "marketing-acquisition",
+    "label": "Marketing Acquisition",
+    "value": "marketing-acquisition"
+   },
+   {
+    "id": "marketing-growth",
+    "label": "Marketing Growth",
+    "value": "marketing-growth"
+   },
+   {
+    "id": "user-marketing",
+    "label": "Growth Manager",
+    "value": "user-marketing"
+   },
+   {
+    "id": "marketing-director",
+    "label": "Director of Marketing",
+    "value": "marketing-director"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Project Management",
-    "label": "Project Management",
-    "value": "Project Management"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "New York City, NY",
-   "San Francisco, CA",
-   "Seattle, WA"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 142000, 'maxValue': 247000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:ROI",
-    "label": "ROI",
-    "value": "resume:ROI"
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Performance Marketing",
+    "label": "Performance Marketing",
+    "value": "resume:Performance Marketing"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Channel Management",
+    "label": "Channel Management",
+    "value": "resume:Channel Management"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Content Management",
+    "label": "Content Management",
+    "value": "resume:Content Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:ROI",
-    "label": "ROI",
-    "value": "resume:ROI"
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Performance Marketing",
+    "label": "Performance Marketing",
+    "value": "resume:Performance Marketing"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Channel Management",
+    "label": "Channel Management",
+    "value": "resume:Channel Management"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Content Management",
+    "label": "Content Management",
+    "value": "resume:Content Management"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:Growth Marketing",
+    "label": "Growth Marketing",
+    "value": "resume:Growth Marketing"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    }
   ],
   "manager": false,
@@ -289,83 +295,47 @@
    [
     5,
     6
-   ],
-   [
-    7,
-    8
    ]
   ],
-  "minYearsExp": 10,
   "regions": [
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Cloud Services",
+    "label": "Cloud Services",
+    "value": "Cloud Services"
    }
   ],
-  "timeStamp": "2026-10-06T02:04:54Z",
-  "title": "Commercial Operations Program Manager",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5398328008",
-  "jobId": "5398328008",
-  "remote": false,
+  "timeStamp": "2026-10-06T11:06:53.261000Z",
+  "title": "Director of Marketing Growth",
+  "url": "https://jobs.lever.co/cloudinary/79bfaff4-eabd-40a8-975d-d6be4b06a09f",
+  "jobId": "79bfaff4-eabd-40a8-975d-d6be4b06a09f",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.18252502889, 'matchScore': 0, 'ageScore': 0.9825250288900463, 'richnessScore': 2}",
+  "scores": "{'score': 1001.186795277152, 'matchScore': 0, 'ageScore': 0.9867952771520062, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },

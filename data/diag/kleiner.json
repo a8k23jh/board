@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-06T17:17:38Z",
+ "run": "2026-10-06T21:44:20Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "3OPWCYO7lk\u2026",
+  "session.sig": "RhwoTn0jaF\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTk1M2UxOWY1NDM4N2I2OGQ1NjExYzU0NWI1MzM3MmEiLCAic2NvcmUiOiAwLjk5MjQ4NTMyNzE0NjYwNX0="
+   "sequence": "eyJfaWQiOiAiYmFkYjc5N2IyYzc1MjlhZWE1ZTdjNDRhMDEwYjhmZmIiLCAic2NvcmUiOiAxLjAwNDg5NTU5NzEzNzM0NTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,108 +144,122 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://settle.applytojob.com/apply/SIlu1KHkn5/Senior-Credit-Alternative-Financing-Specialist",
-  "companyDomain": "settle.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8084d3507b9f743131d20f4c9a6e0124_208_160?Expires=1861920000&Signature=l5hVDR2ndhoG0Qk98YWk~iJm3HWi1RBDFjNAPYsDgS2IuQ~h~Qypf",
-  "companyId": "Settle",
-  "companySlug": "settle",
-  "companyName": "Settle",
-  "companyStaffCount": 67,
+  "applyUrl": "https://jobs.lever.co/CesiumAstro/70dd8223-4038-4739-a1cf-478770326d5c?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "companyDomain": "cesiumastro.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
+  "companyId": "CesiumAstro",
+  "companySlug": "cesiumastro",
+  "companyName": "CesiumAstro",
+  "companyStaffCount": 452,
   "considerHosted": false,
-  "departments": [],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "departments": [
+   "Engineering"
+  ],
+  "jobTypes": [
+   {
+    "id": "mechanical-engineer",
+    "label": "Mechanical Engineer",
+    "value": "mechanical-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "United States"
+   "Westminster, CO"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Westminster, Colorado",
+    "label": "Westminster, Colorado",
+    "value": "Westminster, Colorado"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 95000, 'maxValue': 115000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 133000, 'maxValue': 161000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Packaging",
+    "label": "Packaging",
+    "value": "resume:Packaging"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Mechanical Design",
+    "label": "Mechanical Design",
+    "value": "resume:Mechanical Design"
    },
    {
-    "id": "resume:Financial Statements",
-    "label": "Financial Statements",
-    "value": "resume:Financial Statements"
+    "id": "resume:Engineering Design",
+    "label": "Engineering Design",
+    "value": "resume:Engineering Design"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Finite Element Analysis",
+    "label": "Finite Element Analysis",
+    "value": "resume:Finite Element Analysis"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Packaging",
+    "label": "Packaging",
+    "value": "resume:Packaging"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Mechanical Design",
+    "label": "Mechanical Design",
+    "value": "resume:Mechanical Design"
    },
    {
-    "id": "resume:Financial Statements",
-    "label": "Financial Statements",
-    "value": "resume:Financial Statements"
+    "id": "resume:Engineering Design",
+    "label": "Engineering Design",
+    "value": "resume:Engineering Design"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Finite Element Analysis",
+    "label": "Finite Element Analysis",
+    "value": "resume:Finite Element Analysis"
    },
    {
-    "id": "resume:Income Statements",
-    "label": "Income Statements",
-    "value": "resume:Income Statements"
+    "id": "resume:CAD",
+    "label": "CAD",
+    "value": "resume:CAD"
    },
    {
-    "id": "resume:CPG Industry",
-    "label": "CPG Industry",
-    "value": "resume:CPG Industry"
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:Cash Flow",
-    "label": "Cash Flow",
-    "value": "resume:Cash Flow"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    }
   ],
   "manager": false,
@@ -253,15 +267,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 8,
   "regions": [
    {
     "id": "North America",
@@ -271,28 +285,44 @@
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-10-05T23:58:48Z",
-  "title": "Senior Credit & Alternative Financing Specialist",
-  "url": "https://settle.applytojob.com/apply/SIlu1KHkn5/Senior-Credit-Alternative-Financing-Specialist",
-  "jobId": "job_20261002174242_TTI3H7A8WP0YSO0H",
-  "remote": true,
+  "timeStamp": "2026-10-06T12:53:48.651000Z",
+  "title": "Staff Mechanical Engineer",
+  "url": "https://jobs.lever.co/CesiumAstro/70dd8223-4038-4739-a1cf-478770326d5c",
+  "jobId": "70dd8223-4038-4739-a1cf-478770326d5c",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1797419506231, 'matchScore': 0, 'ageScore': 0.979741950623071, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1900189345737, 'matchScore': 0, 'ageScore': 0.9900189345736883, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
    {
     "id": "senior",
     "label": "Senior",
@@ -300,6 +330,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "mid",
    "senior"
   ],
   "isFeatured": false
