@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-07T01:39:33Z",
+ "run": "2026-10-07T08:54:14Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "KN_-5wipWL\u2026",
+  "session.sig": "YjJgLM7aiG\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzhiYzZkZTUzYTllNTFlMjQ5YjUxNDAyZWIyYzNmYmIiLCAic2NvcmUiOiAxLjE0OTY1NjYxMTc0MjY2OTl9"
+   "sequence": "eyJfaWQiOiAiM2JlYjQ3MjY1MWYxZDNlZmQxZDY1NDNiMzEyOGEzZmMiLCAic2NvcmUiOiAxLjE0MzE3MTIyMTY3MjgzOTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -166,24 +166,24 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
-   },
-   {
     "id": "sales",
     "label": "Sales",
     "value": "sales"
    },
    {
-    "id": "sales-all",
-    "label": "Sales",
-    "value": "sales-all"
-   },
-   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
+   },
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "sales-all",
+    "label": "Sales",
+    "value": "sales-all"
    }
   ],
   "jobFunctions": [
@@ -206,63 +206,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Digital Marketing",
-    "label": "Digital Marketing",
-    "value": "resume:Digital Marketing"
+    "id": "resume:Trading Systems",
+    "label": "Trading Systems",
+    "value": "resume:Trading Systems"
    },
    {
     "id": "resume:Recruit",
     "label": "Recruit",
     "value": "resume:Recruit"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   },
-   {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Digital Marketing",
-    "label": "Digital Marketing",
-    "value": "resume:Digital Marketing"
-   },
-   {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   },
-   {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
-   },
-   {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
    },
    {
     "id": "resume:Market Data",
@@ -270,9 +221,58 @@
     "value": "resume:Market Data"
    },
    {
+    "id": "resume:Digital Marketing",
+    "label": "Digital Marketing",
+    "value": "resume:Digital Marketing"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Trading Systems",
+    "label": "Trading Systems",
+    "value": "resume:Trading Systems"
+   },
+   {
+    "id": "resume:Recruit",
+    "label": "Recruit",
+    "value": "resume:Recruit"
+   },
+   {
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Digital Marketing",
+    "label": "Digital Marketing",
+    "value": "resume:Digital Marketing"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
+   },
+   {
     "id": "resume:CRM software",
     "label": "CRM Software",
     "value": "resume:CRM software"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    }
   ],
   "manager": true,
@@ -281,9 +281,9 @@
   "considerLevels": [],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "Northeast",
@@ -291,14 +291,14 @@
     "value": "Northeast"
    },
    {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -337,7 +337,7 @@
   "jobId": "37.37A",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1976822223029, 'matchScore': 0, 'ageScore': 0.997682222302855, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1895000260266, 'matchScore': 0, 'ageScore': 0.9895000260266203, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
