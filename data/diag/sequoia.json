@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-07T08:54:14Z",
+ "run": "2026-10-07T16:40:22Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "YjJgLM7aiG\u2026",
+  "session.sig": "M8mI8mjcr_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2JlYjQ3MjY1MWYxZDNlZmQxZDY1NDNiMzEyOGEzZmMiLCAic2NvcmUiOiAxLjE0MzE3MTIyMTY3MjgzOTZ9"
+   "sequence": "eyJfaWQiOiAiODhlY2I1OTcxMDFjYmZhMDJmNTc0NmQ1NGExOTgzMGUiLCAic2NvcmUiOiAxLjEzNDQ1NzA0NzQxMDg3OTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,211 +144,185 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/skai/22.00A/head-of-agency-sales/37.37A",
-  "companyDomain": "skai.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/35d0c96e33bdad12b311fa33f1bbd250_128_160?Expires=1861920000&Signature=b3SVpx8ZWA9Jed1wS1ybti6qppzCbys0K6SeMRhbdYp1Y4QKpBY1E",
-  "companyId": "Skai",
-  "companySlug": "skai",
-  "companyName": "Skai",
-  "companyStaffCount": 738,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8731940002?gh_jid=8731940002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Total Rewards"
+  ],
   "jobTypes": [
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   },
    {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
-   },
-   {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
-   },
-   {
-    "id": "sales-all",
-    "label": "Sales",
-    "value": "sales-all"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "New York City, United States"
+   "Hawthorne, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135000, 'maxValue': 185000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Trading Systems",
-    "label": "Trading Systems",
-    "value": "resume:Trading Systems"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
+    "id": "resume:HRIS",
+    "label": "HR Systems",
+    "value": "resume:HRIS"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    },
    {
-    "id": "resume:Digital Marketing",
-    "label": "Digital Marketing",
-    "value": "resume:Digital Marketing"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Trading Systems",
-    "label": "Trading Systems",
-    "value": "resume:Trading Systems"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
+    "id": "resume:HRIS",
+    "label": "HR Systems",
+    "value": "resume:HRIS"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Digital Marketing",
-    "label": "Digital Marketing",
-    "value": "resume:Digital Marketing"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
    },
    {
-    "id": "resume:CRM software",
-    "label": "CRM Software",
-    "value": "resume:CRM software"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Employee Benefits",
+    "label": "Employee Benefits",
+    "value": "resume:Employee Benefits"
    }
   ],
   "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
    },
    {
-    "id": "Analytics",
-    "label": "Analytics",
-    "value": "Analytics"
-   },
-   {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-10-06T22:03:51Z",
-  "title": "Head of Agency Sales",
-  "url": "https://www.comeet.com/jobs/skai/22.00A/head-of-agency-sales/37.37A",
-  "jobId": "37.37A",
+  "timeStamp": "2026-10-07T01:45:50Z",
+  "title": "Manager, Benefits",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8731940002?gh_jid=8731940002",
+  "jobId": "8731940002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1895000260266, 'matchScore': 0, 'ageScore': 0.9895000260266203, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1826858020344, 'matchScore': 0, 'ageScore': 0.9826858020343364, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "manager"
   ],
   "isFeatured": false
  },

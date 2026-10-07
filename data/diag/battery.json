@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-10-07T08:54:14Z",
+ "run": "2026-10-07T16:40:22Z",
  "homepage": {
   "status": 200,
   "bytes": 18736
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "OdE8u6PQSL\u2026",
+  "session.sig": "M4DOMWpM9K\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmRiYTliYzY2MGQyN2FhZjA0NGIxYzY1ZTJhNjkxYzAiLCAic2NvcmUiOiAxLjA1ODkyMDQyNzc4NDMzNjV9"
+   "sequence": "eyJfaWQiOiAiMjJlNGY0ODMwN2VkMDJmMDYxNTgwYzA1NGYxNGJkYzYiLCAic2NvcmUiOiAxLjA1NjM5NzA3NzI1NzMzMDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,93 +136,137 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://indeed.com/cmp/Nvt-Group-1/jobs?jk=daf62d30066e97c3",
-  "companyDomain": "nvtgroup.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9438af36d1ade75f6f95638fa1c4ee89_312_160?Expires=1861920000&Signature=gBfxyyq4SdXjHhMT-N02kMvpiv0tIG4mKSW4XyKGs9~sl3wl5G95G",
-  "companyId": "The NVT Group",
-  "companySlug": "the-nvt-group",
-  "companyName": "The NVT Group",
-  "companyStaffCount": 31,
+  "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8824179002",
+  "companyDomain": "databricks.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/badeea31069bedbff92deb2b6eacaaac_320_160?Expires=1861920000&Signature=nvpLnCJcpEeQxnmclOC-t1xgPgBS3yOoA5LtL53r6~XUfCWfWYJwW",
+  "companyId": "Databricks",
+  "companySlug": "databricks",
+  "companyName": "Databricks",
+  "companyStaffCount": 16235,
   "considerHosted": false,
-  "departments": [],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "departments": [
+   "Field Engineering - Enablement"
+  ],
+  "jobTypes": [
+   {
+    "id": "sales-enablement",
+    "label": "Sales Enablement",
+    "value": "sales-enablement"
+   },
+   {
+    "id": "gtm",
+    "label": "GTM",
+    "value": "gtm"
+   },
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "Riverside, CA"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 26, 'maxValue': 26, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 111200, 'maxValue': 191050, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Perception",
-    "label": "Perception",
-    "value": "resume:Perception"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Material Handling Equipment",
-    "label": "Material Handling Equipment",
-    "value": "resume:Material Handling Equipment"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Hiring Practices",
+    "label": "Hiring Practices",
+    "value": "resume:Hiring Practices"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:YouTube",
+    "label": "YouTube",
+    "value": "resume:YouTube"
    },
    {
-    "id": "resume:Assembly",
-    "label": "Assembly",
-    "value": "resume:Assembly"
+    "id": "resume:Command of the Message",
+    "label": "Command of the Message",
+    "value": "resume:Command of the Message"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Perception",
-    "label": "Perception",
-    "value": "resume:Perception"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Material Handling Equipment",
-    "label": "Material Handling Equipment",
-    "value": "resume:Material Handling Equipment"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Hiring Practices",
+    "label": "Hiring Practices",
+    "value": "resume:Hiring Practices"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:YouTube",
+    "label": "YouTube",
+    "value": "resume:YouTube"
    },
    {
-    "id": "resume:Assembly",
-    "label": "Assembly",
-    "value": "resume:Assembly"
+    "id": "resume:Command of the Message",
+    "label": "Command of the Message",
+    "value": "resume:Command of the Message"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   },
+   {
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    }
   ],
   "manager": false,
@@ -230,26 +274,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -258,29 +291,54 @@
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Mechanical or Industrial Engineering",
-    "label": "Mechanical or Industrial Engineering",
-    "value": "Mechanical or Industrial Engineering"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
    }
   ],
-  "timeStamp": "2026-10-06T20:56:25Z",
-  "title": "Coil Winder",
-  "url": "https://indeed.com/cmp/Nvt-Group-1/jobs?jk=daf62d30066e97c3",
-  "jobId": "daf62d30066e97c3",
-  "remote": false,
+  "timeStamp": "2026-10-06T23:47:59Z",
+  "title": "GTM Product Enablement Lead",
+  "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8824179002",
+  "jobId": "8824179002",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1880443959544, 'matchScore': 0, 'ageScore': 0.9880443959544754, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1800377228731, 'matchScore': 0, 'ageScore': 0.980037722873071, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "senior",
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {
