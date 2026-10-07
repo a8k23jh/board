@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-06T21:44:20Z",
+ "run": "2026-10-07T01:39:33Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"0a625fd1039f96947de50ff120127971656180ec\",\"date\":\"2026-10-05T19:19:08.065Z\"},\"server\":{\"git\":\"0a625fd1039f96947de50ff120127971656180ec\",\"date\":\"2026-10-05T19:19:08.065Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"},\"server\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1CxkJn7HwF\u2026",
+  "session.sig": "A54olqxKVq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWQ5NzY3YTRjODBhNjk5ZmQzODk4YjcwMzEwOTkxYTMiLCAic2NvcmUiOiAxLjA1Mzc0NDg4NjAwNzMzMDJ9"
+   "sequence": "eyJfaWQiOiAiYTg5ZTViYWRkZjhlZDE4YmUzNDJkNjA0OTNiNjJkNjAiLCAic2NvcmUiOiAxLjEyNzE5NDIzMDUxMjczMTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,127 +152,135 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/shipbobinc/jobs/4695198005",
-  "companyDomain": "shipbob.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/71f9c9623ad8779afcda360d6c852025_256_160?Expires=1861920000&Signature=YgqL41DHl9VZqssRyl2HXp47e02fdpKcujto1In13wYDDojXd6a0-",
-  "companyId": "ShipBob",
-  "companySlug": "shipbob",
-  "companyName": "ShipBob",
-  "companyStaffCount": 1647,
+  "applyUrl": "https://careers.docusign.com/jobs/30480?lang=en-us",
+  "companyDomain": "docusign.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
+  "companyId": "DocuSign",
+  "companySlug": "docusign",
+  "companyName": "DocuSign",
+  "companyStaffCount": 8412,
   "considerHosted": false,
-  "departments": [
-   "Fulfillment"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    },
    {
-    "id": "fulfillment-specialist",
-    "label": "Fulfillment Specialist",
-    "value": "fulfillment-specialist"
+    "id": "school-student",
+    "label": "Intern",
+    "value": "school-student"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Fort Worth, Texas, United States"
+   "Seattle, Washington"
   ],
   "normalizedLocations": [
    {
-    "id": "Fort Worth, Texas",
-    "label": "Fort Worth, Texas",
-    "value": "Fort Worth, Texas"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 19, 'maxValue': 20, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 38, 'maxValue': 45, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
    },
    {
-    "id": "resume:Productivity Software",
-    "label": "Productivity Software",
-    "value": "resume:Productivity Software"
+    "id": "resume:Node",
+    "label": "Node",
+    "value": "resume:Node"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    },
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
    },
    {
-    "id": "resume:Productivity Software",
-    "label": "Productivity Software",
-    "value": "resume:Productivity Software"
+    "id": "resume:Node",
+    "label": "Node",
+    "value": "resume:Node"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    },
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:E-commerce",
-    "label": "E-commerce",
-    "value": "resume:E-commerce"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    },
    {
     "id": "resume:Full Stack Development",
     "label": "Full Stack Development",
     "value": "resume:Full Stack Development"
+   },
+   {
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
+   },
+   {
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
+   [
+    1,
+    2
+   ],
    [
     3,
     4
@@ -284,19 +292,24 @@
   ],
   "regions": [
    {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
    }
   ],
   "stages": [
@@ -304,61 +317,33 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
-   },
-   {
-    "id": "Logistics and Supply Chain",
-    "label": "Logistics and Supply Chain",
-    "value": "Logistics and Supply Chain"
-   },
-   {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-10-06T09:37:39Z",
-  "title": "Lead Fulfillment Associate-Night Shift",
-  "url": "https://job-boards.greenhouse.io/shipbobinc/jobs/4695198005",
-  "jobId": "4695198005",
+  "timeStamp": "2026-10-06T20:06:17Z",
+  "title": "Software Engineer Intern",
+  "url": "https://careers.docusign.com/jobs/30480?lang=en-us",
+  "jobId": "30480",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1850203189556, 'matchScore': 0, 'ageScore': 0.9850203189556327, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1951084321443, 'matchScore': 0, 'ageScore': 0.9951084321442901, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "intern",
+    "label": "Intern",
+    "value": "intern"
    }
   ],
   "jobSeniorityIds": [
-   "junior",
-   "mid",
-   "senior"
+   "intern"
   ],
   "isFeatured": false
  },

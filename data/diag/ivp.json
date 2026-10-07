@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-06T21:44:20Z",
+ "run": "2026-10-07T01:39:33Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"0a625fd1039f96947de50ff120127971656180ec\",\"date\":\"2026-10-05T19:19:08.065Z\"},\"server\":{\"git\":\"0a625fd1039f96947de50ff120127971656180ec\",\"date\":\"2026-10-05T19:19:08.065Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"},\"server\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "9ESPzDVEdV\u2026",
+  "session.sig": "eueJ7-L_gy\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTI0MDVmZWJlN2QzZGNlOTEzMDhkMzhlNDcyMDBmMGYiLCAic2NvcmUiOiAxLjA2OTYyNjEwNTg5NjIxOX0="
+   "sequence": "eyJfaWQiOiAiZWQ2NDNmZTAyY2ZiZjA0MDQxZmU0YzU2MzA2OGM4N2EiLCAic2NvcmUiOiAxLjEzNDA5NjMyNzE2MTY1MTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,167 +139,208 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/chainguard/jobs/4718160006",
-  "companyDomain": "chainguard.dev",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/31a5369e0ef167a246723e25166f9bb2_320_160?Expires=1861920000&Signature=WlG8ObgFzketnOZ1GE13WkiEQj5BCejH51gbRZAOEvFTCDtl~hKti",
-  "companyId": "Chainguard",
-  "companySlug": "chainguard",
-  "companyName": "Chainguard",
-  "companyStaffCount": 766,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5445366008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Partnerships"
+   "Product Management, Support, & Operations"
   ],
   "jobTypes": [
    {
-    "id": "partner-account-manager",
-    "label": "Partner Account Manager",
-    "value": "partner-account-manager"
+    "id": "program-manager",
+    "label": "Program Manager",
+    "value": "program-manager"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Project Management",
+    "label": "Project Management",
+    "value": "Project Management"
    }
   ],
   "locations": [
-   "United States - Remote"
+   "San Francisco, CA",
+   "New York City, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 123000, 'maxValue': 145000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 365000, 'maxValue': 365000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Channel Partners",
-    "label": "Channel Partnership",
-    "value": "resume:Channel Partners"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    },
    {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Software Sales",
-    "label": "Software Sales",
-    "value": "resume:Software Sales"
+    "id": "resume:Developer Platform",
+    "label": "Developer Platform",
+    "value": "resume:Developer Platform"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Channel Partners",
-    "label": "Channel Partnership",
-    "value": "resume:Channel Partners"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    },
    {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Software Sales",
-    "label": "Software Sales",
-    "value": "resume:Software Sales"
+    "id": "resume:Developer Platform",
+    "label": "Developer Platform",
+    "value": "resume:Developer Platform"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 12,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Security",
-    "label": "Security",
-    "value": "Security"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-10-06T09:57:39Z",
-  "title": "Partner Manager - Commercial",
-  "url": "https://job-boards.greenhouse.io/chainguard/jobs/4718160006",
-  "jobId": "4718160006",
-  "remote": true,
+  "timeStamp": "2026-10-06T18:17:16Z",
+  "title": "Manager, Product Program Management",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5445366008",
+  "jobId": "5445366008",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.184980973654, 'matchScore': 0, 'ageScore': 0.9849809736539352, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1929970310899, 'matchScore': 0, 'ageScore': 0.992997031089892, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },

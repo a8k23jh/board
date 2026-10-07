@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-06T21:44:20Z",
+ "run": "2026-10-07T01:39:33Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"0a625fd1039f96947de50ff120127971656180ec\",\"date\":\"2026-10-05T19:19:08.065Z\"},\"server\":{\"git\":\"0a625fd1039f96947de50ff120127971656180ec\",\"date\":\"2026-10-05T19:19:08.065Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"},\"server\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "lApJQh4mYA\u2026",
+  "session.sig": "P3reDci7To\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.03
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.03
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.03
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.03
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.03
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.03
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.03
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTgzYjlmNGVkMzMwODlhYjcxZGRiNjQ2MjdlNDBkNGMiLCAic2NvcmUiOiAxLjE1NzA2MjQwMzY3MDEzOX0="
+   "sequence": "eyJfaWQiOiAiMDg0YWNiZTIyMDZhYjE3MWE0YTAwOTM1YjFjZDJjMDgiLCAic2NvcmUiOiAxLjE2NzEyOTg5MzQwODk1MDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,125 +155,123 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/cyera/17.008/sales-engineer-identity-security---mid-atlantic/17.277",
-  "companyDomain": "cyera.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec6d92aec09bf6716dbbd9d50089a4ec_208_160?Expires=1861920000&Signature=hr9QoUI4iKYF8Hn~HoiixG3elVHvWPoII2QRBQjO8zeSQJpeGQNuP",
-  "companyId": "Cyera",
-  "companySlug": "cyera",
-  "companyName": "Cyera",
-  "companyStaffCount": 1725,
+  "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/5255724007",
+  "companyDomain": "verkada.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8fef24f24d7f5794eed4923eb25b16ff_304_160?Expires=1861920000&Signature=GrVmnkwsr5pViGdcRkXENC1~-cN3J7WMdPab~Q947Jpu8OsXzdwLQ",
+  "companyId": "Verkada",
+  "companySlug": "verkada",
+  "companyName": "Verkada",
+  "companyStaffCount": 2877,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Growth"
+  ],
   "jobTypes": [
    {
-    "id": "sales-engineer",
-    "label": "Sales Engineer",
-    "value": "sales-engineer"
-   },
-   {
-    "id": "solutions-architect",
-    "label": "Solutions Architect",
-    "value": "solutions-architect"
+    "id": "user-marketing",
+    "label": "Growth Manager",
+    "value": "user-marketing"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "Mid-Atlantic (US)"
+   "San Mateo, CA United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "San Mateo, California",
+    "label": "San Mateo, California",
+    "value": "San Mateo, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 275000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 195000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sales Engineering",
-    "label": "Sales Engineering",
-    "value": "resume:Sales Engineering"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:DLP",
-    "label": "DLP",
-    "value": "resume:DLP"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:Performance Marketing",
+    "label": "Performance Marketing",
+    "value": "resume:Performance Marketing"
    },
    {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
+    "id": "resume:Account Based Marketing",
+    "label": "Account Based Marketing",
+    "value": "resume:Account Based Marketing"
    },
    {
-    "id": "resume:Network Protocols",
-    "label": "Network Protocols",
-    "value": "resume:Network Protocols"
+    "id": "resume:Growth Marketing",
+    "label": "Growth Marketing",
+    "value": "resume:Growth Marketing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sales Engineering",
-    "label": "Sales Engineering",
-    "value": "resume:Sales Engineering"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:DLP",
-    "label": "DLP",
-    "value": "resume:DLP"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:Performance Marketing",
+    "label": "Performance Marketing",
+    "value": "resume:Performance Marketing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
+    "id": "resume:Account Based Marketing",
+    "label": "Account Based Marketing",
+    "value": "resume:Account Based Marketing"
    },
    {
-    "id": "resume:Network Protocols",
-    "label": "Network Protocols",
-    "value": "resume:Network Protocols"
+    "id": "resume:Growth Marketing",
+    "label": "Growth Marketing",
+    "value": "resume:Growth Marketing"
    },
    {
-    "id": "resume:Encryption",
-    "label": "Encryption",
-    "value": "resume:Encryption"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Data Storage",
-    "label": "Data Storage",
-    "value": "resume:Data Storage"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 4,
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -296,18 +294,23 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Consumer Electronics",
+    "label": "Consumer Electronics",
+    "value": "Consumer Electronics"
+   },
+   {
+    "id": "Hardware",
+    "label": "Hardware",
+    "value": "Hardware"
    }
   ],
-  "timeStamp": "2026-10-06T13:47:35Z",
-  "title": "Sales Engineer, Identity Security - Mid-Atlantic",
-  "url": "https://www.comeet.com/jobs/cyera/17.008/sales-engineer-identity-security---mid-atlantic/17.277",
-  "jobId": "17.277",
+  "timeStamp": "2026-10-06T18:12:02Z",
+  "title": "Growth Marketing Manager, Upper Funnel",
+  "url": "https://job-boards.greenhouse.io/verkada/jobs/5255724007",
+  "jobId": "5255724007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1952224256963, 'matchScore': 0, 'ageScore': 0.9952224256963734, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1922668808472, 'matchScore': 0, 'ageScore': 0.9922668808472223, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
