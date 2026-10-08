@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-08T16:37:57Z",
+ "run": "2026-10-08T22:12:47Z",
  "homepage": {
   "status": 200,
   "bytes": 16696
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "PmzZkxiqGn\u2026",
+  "session.sig": "l_pXv6whf0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODE0NmNjYjMxZGY1MWU5OWIxMzgzNTAwMWFhNmM2MGMiLCAic2NvcmUiOiAxLjAxMzEzMjQ2MzQ0OTg0NTh9"
+   "sequence": "eyJfaWQiOiAiMmIzYjYzMmE2YmY3MTZmYzhjMGUwYTk4NjAxYjNiZWUiLCAic2NvcmUiOiAxLjAwNTM3OTEzNTU2MzI3MTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -198,32 +198,22 @@
     "value": "New York"
    },
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
-   },
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
     "id": "resume:Machine Learning",
@@ -231,38 +221,43 @@
     "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
+   },
+   {
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Machine Learning",
     "label": "Machine Learning",
     "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
    },
    {
     "id": "resume:Research",
@@ -270,14 +265,19 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Contract Negotiation",
-    "label": "Contract Negotiation",
-    "value": "resume:Contract Negotiation"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    }
   ],
   "manager": false,
@@ -296,9 +296,9 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "East Coast",
@@ -306,19 +306,19 @@
     "value": "East Coast"
    },
    {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -352,7 +352,7 @@
   "jobId": "0ac0fb9f-61f8-4c46-8e1e-304b097af5b3",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1798369674923, 'matchScore': 0, 'ageScore': 0.979836967492284, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1720426129718, 'matchScore': 0, 'ageScore': 0.9720426129718365, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
