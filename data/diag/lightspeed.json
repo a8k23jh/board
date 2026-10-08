@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-08T09:09:42Z",
+ "run": "2026-10-08T16:37:57Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ofwtDKcKiy\u2026",
+  "session.sig": "enkQUb-7-h\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2NkNzA3YjJjNDZmMDQ5N2RmMTRiNGU5YmQ1YjE5ZWEiLCAic2NvcmUiOiAxLjE1OTA4NjEwNjAwNTAxNTV9"
+   "sequence": "eyJfaWQiOiAiM2Y2YTc3YjhkOTU1ZmQxYmYyNjU0Njc3MTk2NmRhZTQiLCAic2NvcmUiOiAxLjE1NTcxNDY4MDExNjEyNjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,107 +144,126 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5447340008",
-  "companyDomain": "k2space.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/96af4d328d7e54eb24c092877b0e4c96_272_160?Expires=1861920000&Signature=rWQ5vPckbn1NROsVwoPJw3Sq9oP8FnF7q6Jh6wxTzQ6DBspleAAvN",
-  "companyId": "K2 Space",
-  "companySlug": "k2-space",
-  "companyName": "K2 Space",
-  "companyStaffCount": 15,
+  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8173/",
+  "companyDomain": "infoblox.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
+  "companyId": "Infoblox",
+  "companySlug": "infoblox",
+  "companyName": "Infoblox",
+  "companyStaffCount": 3466,
   "considerHosted": false,
-  "departments": [
-   "Product Engineering"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "executive-assistant",
+    "label": "Executive Assistant",
+    "value": "executive-assistant"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
    }
   ],
   "locations": [
-   "Los Angeles, CA"
+   "Burnaby, BC, Canada",
+   "Infoblox Canada Ltd, BURNABY, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Greater Los Angeles Area",
-    "label": "Greater Los Angeles Area",
-    "value": "Greater Los Angeles Area"
+    "id": "Burnaby, British Columbia, Canada",
+    "label": "Burnaby, British Columbia, Canada",
+    "value": "Burnaby, British Columbia, Canada"
+   },
+   {
+    "id": "Canada",
+    "label": "Canada",
+    "value": "Canada"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 110000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 82400, 'maxValue': 121440, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Emotional Intelligence",
+    "label": "Emotional Intelligence",
+    "value": "resume:Emotional Intelligence"
    },
    {
-    "id": "resume:Network Analyzer",
-    "label": "Network Analyzer",
-    "value": "resume:Network Analyzer"
+    "id": "resume:SharePoint",
+    "label": "SharePoint",
+    "value": "resume:SharePoint"
    },
    {
-    "id": "resume:Test Equipment",
-    "label": "Test Equipment",
-    "value": "resume:Test Equipment"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Spectrum Analyzer",
-    "label": "Spectrum Analyzer",
-    "value": "resume:Spectrum Analyzer"
+    "id": "resume:Proofreading",
+    "label": "Proofreading",
+    "value": "resume:Proofreading"
    },
    {
-    "id": "resume:RF",
-    "label": "RF",
-    "value": "resume:RF"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Emotional Intelligence",
+    "label": "Emotional Intelligence",
+    "value": "resume:Emotional Intelligence"
    },
    {
-    "id": "resume:Network Analyzer",
-    "label": "Network Analyzer",
-    "value": "resume:Network Analyzer"
+    "id": "resume:SharePoint",
+    "label": "SharePoint",
+    "value": "resume:SharePoint"
    },
    {
-    "id": "resume:Test Equipment",
-    "label": "Test Equipment",
-    "value": "resume:Test Equipment"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Spectrum Analyzer",
-    "label": "Spectrum Analyzer",
-    "value": "resume:Spectrum Analyzer"
+    "id": "resume:Proofreading",
+    "label": "Proofreading",
+    "value": "resume:Proofreading"
    },
    {
-    "id": "resume:RF",
-    "label": "RF",
-    "value": "resume:RF"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    }
   ],
   "manager": false,
@@ -252,64 +271,43 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-10-07T20:20:17Z",
-  "title": "RF Antenna Engineer",
-  "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5447340008",
-  "jobId": "5447340008",
-  "remote": false,
+  "timeStamp": "2026-10-08T08:59:09Z",
+  "title": "Executive Assistant",
+  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8173/",
+  "jobId": "8173",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.186833671608, 'matchScore': 0, 'ageScore': 0.9868336716080247, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1926481564128, 'matchScore': 0, 'ageScore': 0.9926481564128087, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -317,10 +315,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

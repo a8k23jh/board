@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-08T09:09:42Z",
+ "run": "2026-10-08T16:37:57Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "HcqJ--D-Hw\u2026",
+  "session.sig": "ldyN6-ziEV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTJhOWJjZDEzNDEwNmQ0Y2U5OThmMWU3Y2FkZDhiYWMiLCAic2NvcmUiOiAxLjE0NDM3MjYxMDAzOTczNzZ9"
+   "sequence": "eyJfaWQiOiAiMGE5NDAyMmZmYjUyYmJlOTI3NDgwOGQ4YzQ4MjBjNGIiLCAic2NvcmUiOiAxLjEzODk0NzU3NDM1MzAwOTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -138,7 +138,6 @@
    "companyLogos",
    "companyName",
    "companySlug",
-   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
@@ -149,72 +148,102 @@
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/skai/22.00A/agency-partner/AA.378",
-  "companyDomain": "skai.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/35d0c96e33bdad12b311fa33f1bbd250_128_160?Expires=1861920000&Signature=b3SVpx8ZWA9Jed1wS1ybti6qppzCbys0K6SeMRhbdYp1Y4QKpBY1E",
-  "companyId": "Skai",
-  "companySlug": "skai",
-  "companyName": "Skai",
-  "companyStaffCount": 738,
+  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6220136004",
+  "companyDomain": "apollo.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
+  "companyId": "Apollo",
+  "companySlug": "apollo",
+  "companyName": "Apollo",
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "People"
+  ],
   "jobTypes": [
    {
-    "id": "partner",
-    "label": "Partner",
-    "value": "partner"
+    "id": "recruiter",
+    "label": "Recruiter",
+    "value": "recruiter"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
+   }
+  ],
   "locations": [
-   "New York City, United States"
+   "Remote, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 138000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Computational Advertising",
-    "label": "Computational Advertising",
-    "value": "resume:Computational Advertising"
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Apollo",
+    "label": "Apollo",
+    "value": "resume:Apollo"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Exceeding Quotas",
-    "label": "Exceeding Quotas",
-    "value": "resume:Exceeding Quotas"
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
    },
    {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
+    "id": "resume:Greenhouse",
+    "label": "Greenhouse",
+    "value": "resume:Greenhouse"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Computational Advertising",
-    "label": "Computational Advertising",
-    "value": "resume:Computational Advertising"
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
+   },
+   {
+    "id": "resume:Apollo",
+    "label": "Apollo",
+    "value": "resume:Apollo"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
+   },
+   {
+    "id": "resume:Greenhouse",
+    "label": "Greenhouse",
+    "value": "resume:Greenhouse"
    },
    {
     "id": "resume:Equity",
@@ -222,105 +251,67 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Exceeding Quotas",
-    "label": "Exceeding Quotas",
-    "value": "resume:Exceeding Quotas"
+    "id": "resume:RubyGems",
+    "label": "RubyGems",
+    "value": "resume:RubyGems"
    },
    {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
-   },
-   {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
-   },
-   {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
-   },
-   {
-    "id": "resume:Commission Plans",
-    "label": "Commission Plans",
-    "value": "resume:Commission Plans"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ]
+  ],
+  "minYearsExp": 7,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Analytics",
-    "label": "Analytics",
-    "value": "Analytics"
-   },
-   {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-10-07T21:26:19Z",
-  "title": "Agency Partner",
-  "url": "https://www.comeet.com/jobs/skai/22.00A/agency-partner/AA.378",
-  "jobId": "AA.378",
-  "remote": false,
+  "timeStamp": "2026-10-08T03:03:01Z",
+  "title": "Business Recruiter",
+  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6220136004",
+  "jobId": "6220136004",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1888319645209, 'matchScore': 0, 'ageScore': 0.9888319645208333, 'richnessScore': 2}",
+  "scores": "{'score': 1001.184128145703, 'matchScore': 0, 'ageScore': 0.9841281457029321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {

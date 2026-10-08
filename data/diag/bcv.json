@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-08T09:09:42Z",
+ "run": "2026-10-08T16:37:57Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "t9KEBUSej4\u2026",
+  "session.sig": "ZfILapfPPi\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzNhZDM5MWIzMGY2YjVhZGE3OTJmYWY0YmQ2NzRlOTYiLCAic2NvcmUiOiAxLjExNDYzNzA0OTU2NTU4NjR9"
+   "sequence": "eyJfaWQiOiAiM2Q5MWYyOWJkMjU3YzE4ZDk4NGYxYTcwMjA2NTE2NmUiLCAic2NvcmUiOiAxLjExMjY5ODI0MDU2MDE4NTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -146,12 +146,12 @@
    "companyLogos",
    "companyName",
    "companySlug",
-   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
@@ -163,119 +163,110 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.docusign.com/jobs/30498?lang=en-us",
-  "companyDomain": "docusign.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
-  "companyId": "DocuSign",
-  "companySlug": "docusign",
-  "companyName": "DocuSign",
-  "companyStaffCount": 8412,
+  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6220136004",
+  "companyDomain": "apollo.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
+  "companyId": "Apollo",
+  "companySlug": "apollo",
+  "companyName": "Apollo",
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "People"
+  ],
   "jobTypes": [
    {
-    "id": "data-scientist",
-    "label": "Data Scientist",
-    "value": "data-scientist"
-   },
-   {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
-   },
-   {
-    "id": "machine-learning-engineer",
-    "label": "Machine Learning Engineer",
-    "value": "machine-learning-engineer"
+    "id": "recruiter",
+    "label": "Recruiter",
+    "value": "recruiter"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    }
   ],
   "locations": [
-   "Seattle, Washington"
+   "Remote, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 178900, 'maxValue': 262825, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 138000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Streaming",
-    "label": "Streaming",
-    "value": "resume:Streaming"
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:Trust and Safety",
-    "label": "Trust and Safety",
-    "value": "resume:Trust and Safety"
+    "id": "resume:Apollo",
+    "label": "Apollo",
+    "value": "resume:Apollo"
    },
    {
-    "id": "resume:System Design",
-    "label": "System Design",
-    "value": "resume:System Design"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Fraud Detection",
-    "label": "Fraud Detection",
-    "value": "resume:Fraud Detection"
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
    },
    {
-    "id": "resume:Grafana",
-    "label": "Grafana",
-    "value": "resume:Grafana"
+    "id": "resume:Greenhouse",
+    "label": "Greenhouse",
+    "value": "resume:Greenhouse"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Streaming",
-    "label": "Streaming",
-    "value": "resume:Streaming"
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:Trust and Safety",
-    "label": "Trust and Safety",
-    "value": "resume:Trust and Safety"
+    "id": "resume:Apollo",
+    "label": "Apollo",
+    "value": "resume:Apollo"
    },
    {
-    "id": "resume:System Design",
-    "label": "System Design",
-    "value": "resume:System Design"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Fraud Detection",
-    "label": "Fraud Detection",
-    "value": "resume:Fraud Detection"
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
    },
    {
-    "id": "resume:Grafana",
-    "label": "Grafana",
-    "value": "resume:Grafana"
+    "id": "resume:Greenhouse",
+    "label": "Greenhouse",
+    "value": "resume:Greenhouse"
    },
    {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Azure DevOps",
-    "label": "Azure DevOps",
-    "value": "resume:Azure DevOps"
+    "id": "resume:RubyGems",
+    "label": "RubyGems",
+    "value": "resume:RubyGems"
    },
    {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "manager": false,
@@ -283,68 +274,51 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
    ]
   ],
+  "minYearsExp": 7,
   "regions": [
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-10-07T20:06:18Z",
-  "title": "Sr. Machine Learning Engineer",
-  "url": "https://careers.docusign.com/jobs/30498?lang=en-us",
-  "jobId": "30498",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1866050587357, 'matchScore': 0, 'ageScore': 0.9866050587357253, 'richnessScore': 2}",
+  "timeStamp": "2026-10-08T03:03:01Z",
+  "title": "Business Recruiter",
+  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6220136004",
+  "jobId": "6220136004",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.184128145703, 'matchScore': 0, 'ageScore': 0.9841281457029321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
