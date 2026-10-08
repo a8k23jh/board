@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-07T22:05:22Z",
+ "run": "2026-10-08T02:04:32Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "OTVIjS95sa\u2026",
+  "session.sig": "cf23AUV3sO\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNmMxMTE3ODQ1ODkzZWI5MzQ1ZWU0ODkxZmMxYjA5ZDYiLCAic2NvcmUiOiAxLjEyNzI5NjM1MDY2ODIwOTl9"
+   "sequence": "eyJfaWQiOiAiYmE0OWNkZjJjNDdjZDFjOWMyOWI0ZWZkMjhmYTI4MTciLCAic2NvcmUiOiAxLjEzMzY3MjUzMDM1NjQ4MTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,7 +139,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5394780008",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5447118008",
   "companyDomain": "anthropic.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
   "companyId": "Anthropic",
@@ -148,73 +148,76 @@
   "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "People"
+   "Software Engineering - Infrastructure"
   ],
   "jobTypes": [
    {
-    "id": "administrative-assistant",
-    "label": "Administrative Assistant",
-    "value": "administrative-assistant"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    },
    {
-    "id": "business-development",
-    "label": "Business Development Professional",
-    "value": "business-development"
+    "id": "systems-engineer",
+    "label": "Systems Engineer",
+    "value": "systems-engineer"
    },
    {
-    "id": "gtm",
-    "label": "GTM",
-    "value": "gtm"
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Business Development",
-    "label": "Business Development",
-    "value": "Business Development"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    },
    {
-    "id": "Administrative",
-    "label": "Administrative",
-    "value": "Administrative"
-   },
-   {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   },
-   {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
    }
   ],
   "locations": [
-   "London, UK"
+   "Remote-Friendly (Travel-Required)",
+   "San Francisco, CA",
+   "Seattle, WA",
+   "New York City, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "London, Greater London, United Kingdom",
-    "label": "London",
-    "value": "London, Greater London, United Kingdom"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 145000, 'currency': {'label': 'GBP', 'value': 'GBP'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:ML Infrastructure",
+    "label": "ML Infrastructure",
+    "value": "resume:ML Infrastructure"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Linux Kernel",
+    "label": "Linux Kernel",
+    "value": "resume:Linux Kernel"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -229,19 +232,19 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:ML Infrastructure",
+    "label": "ML Infrastructure",
+    "value": "resume:ML Infrastructure"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Linux Kernel",
+    "label": "Linux Kernel",
+    "value": "resume:Linux Kernel"
    }
   ],
   "preferredSkills": [
@@ -256,9 +259,9 @@
     "value": "resume:Physics"
    },
    {
-    "id": "resume:Data Protection",
-    "label": "Data Protection",
-    "value": "resume:Data Protection"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
     "id": "resume:Biology",
@@ -266,25 +269,50 @@
     "value": "resume:Biology"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 10,
   "regions": [
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -312,17 +340,25 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-10-07T09:28:31Z",
-  "title": "Administrative Business Partner, GTM - London",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5394780008",
-  "jobId": "5394780008",
-  "remote": false,
+  "timeStamp": "2026-10-07T18:24:52Z",
+  "title": "Staff+ Software Engineer, Research Systems Engineering",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5447118008",
+  "jobId": "5447118008",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1849743127874, 'matchScore': 0, 'ageScore': 0.9849743127874229, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1928703413623, 'matchScore': 0, 'ageScore': 0.9928703413622685, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {
