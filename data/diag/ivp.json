@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-08T02:04:32Z",
+ "run": "2026-10-08T09:09:42Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cf23AUV3sO\u2026",
+  "session.sig": "CmKi-fAUhq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYmE0OWNkZjJjNDdjZDFjOWMyOWI0ZWZkMjhmYTI4MTciLCAic2NvcmUiOiAxLjEzMzY3MjUzMDM1NjQ4MTR9"
+   "sequence": "eyJfaWQiOiAiYzg2MmIxZjNlY2RmMGZmODQxZGI4NDYzZmRmYTA3ZWUiLCAic2NvcmUiOiAxLjEyNTkwMjkxNTY3MDUyNDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,9 +152,9 @@
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
    },
    {
     "id": "systems-engineer",
@@ -162,21 +162,21 @@
     "value": "systems-engineer"
    },
    {
-    "id": "research-scientist",
-    "label": "Research Scientist",
-    "value": "research-scientist"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   },
-   {
     "id": "Science",
     "label": "Science",
     "value": "Science"
+   },
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
@@ -187,6 +187,11 @@
   ],
   "normalizedLocations": [
    {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
     "id": "Seattle, Washington",
     "label": "Seattle, Washington",
     "value": "Seattle, Washington"
@@ -195,63 +200,19 @@
     "id": "New York, New York",
     "label": "New York, New York",
     "value": "New York, New York"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Linux Kernel",
-    "label": "Linux Kernel",
-    "value": "resume:Linux Kernel"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
-   },
-   {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Linux Kernel",
-    "label": "Linux Kernel",
-    "value": "resume:Linux Kernel"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
     "id": "resume:Physics",
@@ -264,14 +225,53 @@
     "value": "resume:Infrastructure"
    },
    {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:Biology",
     "label": "Biology",
     "value": "resume:Biology"
    },
    {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
     "id": "resume:Privacy",
     "label": "Privacy",
     "value": "resume:Privacy"
+   },
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
+   },
+   {
+    "id": "resume:ML Infrastructure",
+    "label": "ML Infrastructure",
+    "value": "resume:ML Infrastructure"
    }
   ],
   "manager": false,
@@ -290,14 +290,9 @@
   "minYearsExp": 10,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Northeast",
@@ -305,14 +300,19 @@
     "value": "Northeast"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    }
   ],
   "stages": [
@@ -346,7 +346,7 @@
   "jobId": "5447118008",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1928703413623, 'matchScore': 0, 'ageScore': 0.9928703413622685, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1848266756921, 'matchScore': 0, 'ageScore': 0.9848266756921297, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

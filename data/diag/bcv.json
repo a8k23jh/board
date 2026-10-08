@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-08T02:04:32Z",
+ "run": "2026-10-08T09:09:42Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Ie_04rJO2M\u2026",
+  "session.sig": "t9KEBUSej4\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTdlYTU0NzdkYTEyNWNiMWRmMTI0YjAxNTdiMjA1ZmMiLCAic2NvcmUiOiAxLjExMzYxNzczMjkwNzc5MzJ9"
+   "sequence": "eyJfaWQiOiAiYzNhZDM5MWIzMGY2YjVhZGE3OTJmYWY0YmQ2NzRlOTYiLCAic2NvcmUiOiAxLjExNDYzNzA0OTU2NTU4NjR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -174,9 +174,9 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "machine-learning-engineer",
-    "label": "Machine Learning Engineer",
-    "value": "machine-learning-engineer"
+    "id": "data-scientist",
+    "label": "Data Scientist",
+    "value": "data-scientist"
    },
    {
     "id": "software-engineer",
@@ -184,9 +184,9 @@
     "value": "software-engineer"
    },
    {
-    "id": "data-scientist",
-    "label": "Data Scientist",
-    "value": "data-scientist"
+    "id": "machine-learning-engineer",
+    "label": "Machine Learning Engineer",
+    "value": "machine-learning-engineer"
    }
   ],
   "jobFunctions": [
@@ -209,9 +209,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 178900, 'maxValue': 262825, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Streaming",
+    "label": "Streaming",
+    "value": "resume:Streaming"
+   },
+   {
+    "id": "resume:Trust and Safety",
+    "label": "Trust and Safety",
+    "value": "resume:Trust and Safety"
    },
    {
     "id": "resume:System Design",
@@ -219,48 +224,43 @@
     "value": "resume:System Design"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Fraud Detection",
+    "label": "Fraud Detection",
+    "value": "resume:Fraud Detection"
    },
    {
-    "id": "resume:Streaming",
-    "label": "Streaming",
-    "value": "resume:Streaming"
-   },
-   {
-    "id": "resume:Feature Extraction",
-    "label": "Feature Extraction",
-    "value": "resume:Feature Extraction"
+    "id": "resume:Grafana",
+    "label": "Grafana",
+    "value": "resume:Grafana"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
-   },
-   {
-    "id": "resume:System Design",
-    "label": "System Design",
-    "value": "resume:System Design"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   }
-  ],
-  "preferredSkills": [
-   {
     "id": "resume:Streaming",
     "label": "Streaming",
     "value": "resume:Streaming"
    },
    {
-    "id": "resume:Feature Extraction",
-    "label": "Feature Extraction",
-    "value": "resume:Feature Extraction"
+    "id": "resume:Trust and Safety",
+    "label": "Trust and Safety",
+    "value": "resume:Trust and Safety"
+   },
+   {
+    "id": "resume:System Design",
+    "label": "System Design",
+    "value": "resume:System Design"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Fraud Detection",
+    "label": "Fraud Detection",
+    "value": "resume:Fraud Detection"
+   },
+   {
+    "id": "resume:Grafana",
+    "label": "Grafana",
+    "value": "resume:Grafana"
    },
    {
     "id": "resume:Java",
@@ -268,14 +268,14 @@
     "value": "resume:Java"
    },
    {
-    "id": "resume:C#",
-    "label": "C#",
-    "value": "resume:C#"
+    "id": "resume:Azure DevOps",
+    "label": "Azure DevOps",
+    "value": "resume:Azure DevOps"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
    }
   ],
   "manager": false,
@@ -293,6 +293,16 @@
   ],
   "regions": [
    {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -301,16 +311,6 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
    }
   ],
   "stages": [
@@ -333,7 +333,7 @@
   "jobId": "30498",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1957165394475, 'matchScore': 0, 'ageScore': 0.9957165394475309, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1866050587357, 'matchScore': 0, 'ageScore': 0.9866050587357253, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
