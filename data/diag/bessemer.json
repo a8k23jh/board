@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-08T22:12:47Z",
+ "run": "2026-10-09T02:18:23Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "LEMB4SZehp\u2026",
+  "session.sig": "zJHDWksiOW\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTU3NzBmYTk4MmY4ZWZlYTdhOWU5YzY5NzEwNzBmZTkiLCAic2NvcmUiOiAxLjEwNTA3Nzg4NjU3NTIzMTV9"
+   "sequence": "eyJfaWQiOiAiNWY1ZjEzYmJkNDRiZDc1MTRlOTU1N2EyZmY2ZjNmZjAiLCAic2NvcmUiOiAxLjExOTkwNDU3NTY5MDU4NjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,33 +152,48 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/cents/5dc3920e-0f7c-43ff-9079-44d214bcadf2?lever-source%5B%5D=jobs.bvp.com",
-  "companyDomain": "trycents.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cf88f55dd6065ee58014d353027b5ed1_160_160?Expires=1861920000&Signature=XYtAwUUcOeVhcBKEGdYCtUCDw~dgISFIg6Y~XWPFomL7RHpPCLPGe",
-  "companyId": "Cents",
-  "companySlug": "cents",
-  "companyName": "Cents",
-  "companyStaffCount": 85,
+  "applyUrl": "https://jobs.lever.co/restaurant365/7c07ac62-5f75-4181-b0a5-cca825043287?lever-source%5B%5D=jobs.bvp.com",
+  "companyDomain": "restaurant365.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6bc9ba8ab51f0e3260175fa3450c4490_320_160?Expires=1861920000&Signature=BjaLUgcasR36Gki0m9~xsGkU2Ydeq9NhehEt09M35A3xDg~4qiIGQ",
+  "companyId": "Restaurant365",
+  "companySlug": "restaurant365",
+  "companyName": "Restaurant365",
+  "companyStaffCount": 3963,
   "considerHosted": false,
   "departments": [
-   "Go-to-Market"
+   "Sales Growth"
   ],
   "jobTypes": [
    {
-    "id": "business-development",
-    "label": "Business Development Professional",
-    "value": "business-development"
+    "id": "sales-all",
+    "label": "Sales",
+    "value": "sales-all"
+   },
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
+   },
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    }
   ],
   "jobFunctions": [
@@ -186,93 +201,88 @@
     "id": "Sales",
     "label": "Sales",
     "value": "Sales"
-   },
-   {
-    "id": "Business Development",
-    "label": "Business Development",
-    "value": "Business Development"
    }
   ],
   "locations": [
-   "New York, NY"
+   "Irvine, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "Irvine, California",
+    "label": "Irvine, California",
+    "value": "Irvine, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 66300, 'maxValue': 66300, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85000, 'maxValue': 100000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Requirements Gathering",
-    "label": "Requirements Gathering",
-    "value": "resume:Requirements Gathering"
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
    },
    {
-    "id": "resume:Cold Calling",
-    "label": "Cold Calling",
-    "value": "resume:Cold Calling"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    },
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Customer Retention Programs",
-    "label": "Customer Retention Programs",
-    "value": "resume:Customer Retention Programs"
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Requirements Gathering",
-    "label": "Requirements Gathering",
-    "value": "resume:Requirements Gathering"
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
    },
    {
-    "id": "resume:Cold Calling",
-    "label": "Cold Calling",
-    "value": "resume:Cold Calling"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Customer Retention Programs",
-    "label": "Customer Retention Programs",
-    "value": "resume:Customer Retention Programs"
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Workforce Management",
+    "label": "Workforce Management",
+    "value": "resume:Workforce Management"
    },
    {
-    "id": "resume:Business Development",
-    "label": "Business Development",
-    "value": "resume:Business Development"
+    "id": "resume:Restaurants",
+    "label": "Restaurants",
+    "value": "resume:Restaurants"
    }
   ],
   "manager": false,
@@ -280,68 +290,53 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Consumer Services",
-    "label": "Consumer Services",
-    "value": "Consumer Services"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Restaurants",
+    "label": "Restaurants",
+    "value": "Restaurants"
    }
   ],
-  "timeStamp": "2026-10-08T14:14:46.189000Z",
-  "title": "Business Development Representative",
-  "url": "https://jobs.lever.co/cents/5dc3920e-0f7c-43ff-9079-44d214bcadf2",
-  "jobId": "5dc3920e-0f7c-43ff-9079-44d214bcadf2",
-  "remote": false,
+  "timeStamp": "2026-10-08T20:56:17.291000Z",
+  "title": "Account Executive, Payroll Sales",
+  "url": "https://jobs.lever.co/restaurant365/7c07ac62-5f75-4181-b0a5-cca825043287",
+  "jobId": "7c07ac62-5f75-4181-b0a5-cca825043287",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1910827485551, 'matchScore': 0, 'ageScore': 0.9910827485551698, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1961163455131, 'matchScore': 0, 'ageScore': 0.9961163455131172, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
