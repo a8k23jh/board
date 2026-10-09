@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-09T16:21:49Z",
+ "run": "2026-10-09T21:04:42Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"},\"server\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"},\"server\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "G5mK2ePB8f\u2026",
+  "session.sig": "fDoMiFzljD\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTAwMWI2YTUwMmJiMWU1MGJlMTMzYzAwODQ2ZTVlOWYiLCAic2NvcmUiOiAxLjE0NjM0NzU2MDM1OTU2Nzl9"
+   "sequence": "eyJfaWQiOiAiOWQ0NjI2ZWUzZTFlZThiNTgzNzJjYjM4MmUyZWQyMDQiLCAic2NvcmUiOiAxLjE0MjU0MzUzMjE3MTY4MjF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,97 +155,111 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://instacart.careers/job/?gh_jid=8266403",
-  "companyDomain": "instacart.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6746274d9bc238ba6ee0bc415342dff2_272_160?Expires=1861920000&Signature=ktKnSZkeri~1vnj9MfUr69KMPWA7Hzfv6khdOuQtEEu0v54cQLkyU",
-  "companyId": "Instacart",
-  "companySlug": "instacart",
-  "companyName": "Instacart",
-  "companyStaffCount": 25209,
+  "applyUrl": "https://job-boards.greenhouse.io/mercury/jobs/6221254004",
+  "companyDomain": "mercury.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f98054b413ecb703192095377d043aea_320_160?Expires=1861920000&Signature=ma3OPcXFl99XqBt5juUNn1IOSW7hoByAEPbz4Wm9ukCILr1auKCAL",
+  "companyId": "Mercury Banking for Startups",
+  "companySlug": "mercury-banking-for-startups",
+  "companyName": "Mercury",
+  "companyStaffCount": 1807,
   "considerHosted": false,
   "departments": [
-   "Product Management"
+   "Data"
   ],
   "jobTypes": [
    {
-    "id": "senior-product-manager",
-    "label": "Senior Product Manager",
-    "value": "senior-product-manager"
+    "id": "user-marketing",
+    "label": "Growth Manager",
+    "value": "user-marketing"
    },
    {
-    "id": "product-manager",
-    "label": "Product Manager",
-    "value": "product-manager"
+    "id": "marketing-growth",
+    "label": "Marketing Growth",
+    "value": "marketing-growth"
+   },
+   {
+    "id": "marketing-acquisition",
+    "label": "Marketing Acquisition",
+    "value": "marketing-acquisition"
+   },
+   {
+    "id": "data-scientist",
+    "label": "Data Scientist",
+    "value": "data-scientist"
+   },
+   {
+    "id": "marketing-engagement",
+    "label": "Marketing Engagement",
+    "value": "marketing-engagement"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Product Management",
-    "label": "Product Management",
-    "value": "Product Management"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "Canada - Remote (ON, AB, BC,",
-   "NS Only)"
+   "San Francisco, CA, New York, NY, Portland, OR,",
+   "Remote within Canada",
+   "United States"
   ],
   "normalizedLocations": [
    {
     "id": "Canada",
     "label": "Canada",
     "value": "Canada"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 194000, 'maxValue': 204500, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200700, 'maxValue': 250900, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Content Management",
-    "label": "Content Management",
-    "value": "resume:Content Management"
-   },
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
+    "id": "resume:Design of Experiments",
+    "label": "Design of Experiments",
+    "value": "resume:Design of Experiments"
    },
    {
     "id": "resume:Analytics",
     "label": "Analytics",
     "value": "resume:Analytics"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
+   },
+   {
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Content Management",
-    "label": "Content Management",
-    "value": "resume:Content Management"
-   },
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
+    "id": "resume:Design of Experiments",
+    "label": "Design of Experiments",
+    "value": "resume:Design of Experiments"
    },
    {
     "id": "resume:Analytics",
@@ -253,19 +267,36 @@
     "value": "resume:Analytics"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
+   },
+   {
+    "id": "resume:Business Intelligence Tools",
+    "label": "Business Intelligence Tools",
+    "value": "resume:Business Intelligence Tools"
+   },
+   {
+    "id": "resume:Statistical Programming",
+    "label": "Statistical Programming",
+    "value": "resume:Statistical Programming"
    }
   ],
   "manager": false,
@@ -273,20 +304,30 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
+  "minYearsExp": 6,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -304,28 +345,23 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Consumer",
-    "label": "Consumer",
-    "value": "Consumer"
+    "id": "Banking",
+    "label": "Banking",
+    "value": "Banking"
    },
    {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
-   },
-   {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-10-09T00:33:20Z",
-  "title": "Senior Product Manager, Enterprise Creative Tools & Outbound Product",
-  "url": "https://instacart.careers/job/?gh_jid=8266403",
-  "jobId": "8266403",
+  "timeStamp": "2026-10-09T11:12:05Z",
+  "title": "Senior Data Scientist - Growth",
+  "url": "https://job-boards.greenhouse.io/mercury/jobs/6221254004",
+  "jobId": "6221254004",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1811782987419, 'matchScore': 0, 'ageScore': 0.9811782987418981, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1907638180054, 'matchScore': 0, 'ageScore': 0.9907638180054013, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -333,16 +369,10 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

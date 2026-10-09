@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-10-09T16:21:49Z",
+ "run": "2026-10-09T21:04:42Z",
  "homepage": {
   "status": 200,
   "bytes": 26164
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"},\"server\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"},\"server\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "uq1bAzmxEH\u2026",
+  "session.sig": "W1rQK5m1yK\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWVjYWJjMGIyMzM4ZWJhMzY2YTBkZjFiZGIwOGQ2NjQiLCAic2NvcmUiOiAxLjEyOTY2NzgyMzY2NDczNzd9"
+   "sequence": "eyJfaWQiOiAiOTUzZjM1YTUzMTRmMzc0NDBkNjc1YjE1NDg4NTVlNWUiLCAic2NvcmUiOiAxLjEyNTkxMzEwMzA4MTQwNDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,83 +136,74 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/vercel/jobs/6208037004",
-  "companyDomain": "vercel.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3aebce305d02e8016a2802f154dc7fbd_256_160?Expires=1861920000&Signature=EDSnmPk-oZeT58HDw5bbBJFXm4XOJ0Hl9PVLDaf-xJe~A2cmL45kh",
-  "companyId": "Vercel",
-  "companySlug": "vercel",
-  "companyName": "Vercel",
-  "companyStaffCount": 957,
+  "applyUrl": "https://careers.upstart.com/jobs?gh_jid=8267029",
+  "companyDomain": "upstart.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c0cc02126c2324f88bd2b63fc70fb98a_256_160?Expires=1861920000&Signature=HT83ZeowfwEm4egF1PHgNWXv7Vv9xlaRmmeZrKotYms24r7qtQhQN",
+  "companyId": "Upstart",
+  "companySlug": "upstart",
+  "companyName": "Upstart",
+  "companyStaffCount": 1973,
   "considerHosted": false,
   "departments": [
-   "Security"
+   "Data Analytics Department"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "principal",
+    "label": "Principal",
+    "value": "principal"
    },
    {
-    "id": "safety-specialist",
-    "label": "Safety Specialist",
-    "value": "safety-specialist"
+    "id": "marketing-analytics",
+    "label": "Marketing Analytics",
+    "value": "marketing-analytics"
    },
    {
-    "id": "machine-learning-engineer",
-    "label": "Machine Learning Engineer",
-    "value": "machine-learning-engineer"
-   },
-   {
-    "id": "data-scientist",
-    "label": "Data Scientist",
-    "value": "data-scientist"
+    "id": "marketing-all",
+    "label": "Marketing",
+    "value": "marketing-all"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "Hybrid - San Francisco, New York City"
+   "United States",
+   "Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 208000, 'maxValue': 312000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 182300, 'maxValue': 252500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
+    "id": "resume:A/B Testing",
+    "label": "A/B Testing",
+    "value": "resume:A/B Testing"
    },
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    },
    {
     "id": "resume:Python",
@@ -220,16 +211,48 @@
     "value": "resume:Python"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
+    "id": "resume:A/B Testing",
+    "label": "A/B Testing",
+    "value": "resume:A/B Testing"
+   },
+   {
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
     "id": "resume:Modeling",
@@ -237,36 +260,9 @@
     "value": "resume:Modeling"
    },
    {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Trust and Safety",
-    "label": "Trust and Safety",
-    "value": "resume:Trust and Safety"
-   },
-   {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
-   },
-   {
-    "id": "resume:JavaScript",
-    "label": "JavaScript",
-    "value": "resume:JavaScript"
+    "id": "resume:Causal reasoning and diagnostics",
+    "label": "Causal reasoning and diagnostics",
+    "value": "resume:Causal reasoning and diagnostics"
    }
   ],
   "manager": false,
@@ -274,64 +270,43 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer Software",
-    "label": "Computer Software",
-    "value": "Computer Software"
+    "id": "Financial Services",
+    "label": "Financial Services",
+    "value": "Financial Services"
    }
   ],
-  "timeStamp": "2026-10-09T00:59:47Z",
-  "title": "Machine Learning Engineer, Trust & Safety",
-  "url": "https://job-boards.greenhouse.io/vercel/jobs/6208037004",
-  "jobId": "6208037004",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.181441992296, 'matchScore': 0, 'ageScore': 0.9814419922959104, 'richnessScore': 2}",
+  "timeStamp": "2026-10-09T09:31:46Z",
+  "title": "Principal Data Scientist, Marketing Measurement",
+  "url": "https://careers.upstart.com/jobs?gh_jid=8267029",
+  "jobId": "8267029",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1889840643333, 'matchScore': 0, 'ageScore': 0.9889840643333333, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -339,10 +314,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

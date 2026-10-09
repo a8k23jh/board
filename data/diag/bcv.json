@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-09T16:21:49Z",
+ "run": "2026-10-09T21:04:42Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"},\"server\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"},\"server\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ZLEDndYr_j\u2026",
+  "session.sig": "sBApPwrSdK\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDA5ZDE5Y2RiMGU4Mjk5YjhiNGE3MGNlOThmMGZiZjIiLCAic2NvcmUiOiAxLjExMzM5MjU3NzU4NDg3NjV9"
+   "sequence": "eyJfaWQiOiAiZTViNjFhNjdkN2FhNWMzNmE5NmMwZjYwNDUzMjhkYjUiLCAic2NvcmUiOiAxLjEwOTQzOTMxOTU4MzcxOX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/maintainx/80f98c88-ea33-4b71-9dfc-2bf2f79ee69e?utm_source=jobs.baincapitalventures.com",
+  "applyUrl": "https://jobs.ashbyhq.com/maintainx/70d9a53f-4a63-44ca-9c80-213975e892ca?utm_source=jobs.baincapitalventures.com",
   "companyDomain": "getmaintainx.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b8ee14f86055e305b5108c32375a50af_288_160?Expires=1861920000&Signature=ZyuoaG96wOCstJUNsB6E~TiBmRlr26XXeFc0Vgs~vZJos5HWPsYau",
   "companyId": "MaintainX",
@@ -174,8 +174,35 @@
   "departments": [
    "Account Manager"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "sales-mid-maket",
+    "label": "Sales Mid Market",
+    "value": "sales-mid-maket"
+   },
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
    "Montreal, Qu\u00e9bec, Canada",
    "Montreal"
@@ -187,17 +214,22 @@
     "value": "Montreal, Quebec, Canada"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 220000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 126000, 'maxValue': 210000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
    {
     "id": "resume:Salesloft",
     "label": "Salesloft",
     "value": "resume:Salesloft"
+   },
+   {
+    "id": "resume:Mid-Market",
+    "label": "Mid-Market",
+    "value": "resume:Mid-Market"
+   },
+   {
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
     "id": "resume:Shell Scripting",
@@ -205,64 +237,65 @@
     "value": "resume:Shell Scripting"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   },
-   {
-    "id": "resume:FlexSim",
-    "label": "FlexSim",
-    "value": "resume:FlexSim"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
     "id": "resume:Salesloft",
     "label": "Salesloft",
     "value": "resume:Salesloft"
    },
    {
-    "id": "resume:Shell Scripting",
-    "label": "Shell Scripting",
-    "value": "resume:Shell Scripting"
+    "id": "resume:Mid-Market",
+    "label": "Mid-Market",
+    "value": "resume:Mid-Market"
+   },
+   {
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Shell Scripting",
+    "label": "Shell Scripting",
+    "value": "resume:Shell Scripting"
    },
    {
-    "id": "resume:FlexSim",
-    "label": "FlexSim",
-    "value": "resume:FlexSim"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:Exploitation",
-    "label": "Exploitation",
-    "value": "resume:Exploitation"
+    "id": "resume:Complex Sales",
+    "label": "Complex Sales",
+    "value": "resume:Complex Sales"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    },
    {
-    "id": "resume:Fusion",
-    "label": "Fusion",
-    "value": "resume:Fusion"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 4,
   "regions": [
    {
     "id": "North America",
@@ -300,16 +333,24 @@
    }
   ],
   "timeStamp": "2026-10-09T00:00:00Z",
-  "title": "Gestionnaire de comptes \u2013 march\u00e9 interm\u00e9diaire",
-  "url": "https://jobs.ashbyhq.com/maintainx/80f98c88-ea33-4b71-9dfc-2bf2f79ee69e",
-  "jobId": "80f98c88-ea33-4b71-9dfc-2bf2f79ee69e",
+  "title": "Expansion Account Executive, Mid-Market",
+  "url": "https://jobs.ashbyhq.com/maintainx/70d9a53f-4a63-44ca-9c80-213975e892ca",
+  "jobId": "70d9a53f-4a63-44ca-9c80-213975e892ca",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1803378740628, 'matchScore': 0, 'ageScore': 0.9803378740628858, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1761135140077, 'matchScore': 0, 'ageScore': 0.9761135140077161, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {

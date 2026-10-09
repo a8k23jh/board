@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-09T16:21:49Z",
+ "run": "2026-10-09T21:04:42Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"},\"server\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"},\"server\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "N_PCZ4k08j\u2026",
+  "session.sig": "wfY9hZH6FV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2QxMWQwMTQ1NWI1M2E0ODUyMzE5ODhiMGFiNzU3OTEiLCAic2NvcmUiOiAxLjE1NTkxMzgxNjQwNTA5MjZ9"
+   "sequence": "eyJfaWQiOiAiM2Y3ODIyOTZhOGU2YzU4Y2M4ZGIzZTFjNGE5MDhiNjEiLCAic2NvcmUiOiAxLjE1NzU5MjY1OTAyNzM5Mn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,126 +144,127 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8185/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3466,
+  "applyUrl": "https://job-boards.greenhouse.io/fronterahealth/jobs/5262292007",
+  "companyDomain": "fronterahealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f123f0f353c2cdf6007bb6731101b7da_288_160?Expires=1861920000&Signature=rRF-y~DPymKF8pvDlQpTgibZq0~MtrKAUHTO0VlSZ4QCdx~peKjqv",
+  "companyId": "Frontera Health",
+  "companySlug": "frontera-health",
+  "companyName": "Frontera Health",
+  "companyStaffCount": 109,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "IT"
+  ],
   "jobTypes": [
    {
-    "id": "leadership-recruiter",
-    "label": "Leadership Recruiter",
-    "value": "leadership-recruiter"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   },
+   {
+    "id": "it-engineer",
+    "label": "IT Support Engineer",
+    "value": "it-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "United States",
-   "2106-2108 Pacific Avenue, Tacoma, WA, US"
+   "Denver, Colorado"
   ],
   "normalizedLocations": [
    {
-    "id": "Tacoma, Washington",
-    "label": "Tacoma, Washington",
-    "value": "Tacoma, Washington"
-   },
-   {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Denver, Colorado",
+    "label": "Denver, Colorado",
+    "value": "Denver, Colorado"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 122000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Access Management",
+    "label": "Access Management",
+    "value": "resume:Access Management"
    },
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Exit Interviews",
+    "label": "Exit Interviews",
+    "value": "resume:Exit Interviews"
    },
    {
-    "id": "resume:Content Development",
-    "label": "Content Development",
-    "value": "resume:Content Development"
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
    },
    {
-    "id": "resume:Psychology",
-    "label": "Psychology",
-    "value": "resume:Psychology"
+    "id": "resume:Employee Benefits",
+    "label": "Employee Benefits",
+    "value": "resume:Employee Benefits"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Access Management",
+    "label": "Access Management",
+    "value": "resume:Access Management"
    },
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Exit Interviews",
+    "label": "Exit Interviews",
+    "value": "resume:Exit Interviews"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Content Development",
-    "label": "Content Development",
-    "value": "resume:Content Development"
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
    },
    {
-    "id": "resume:Psychology",
-    "label": "Psychology",
-    "value": "resume:Psychology"
+    "id": "resume:Employee Benefits",
+    "label": "Employee Benefits",
+    "value": "resume:Employee Benefits"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Behavioral Health",
+    "label": "Behavioral Health",
+    "value": "resume:Behavioral Health"
    },
    {
-    "id": "resume:Private Equity",
-    "label": "Private Equity",
-    "value": "resume:Private Equity"
+    "id": "resume:Mergers & Acquisitions",
+    "label": "Mergers & Acquisitions",
+    "value": "resume:Mergers & Acquisitions"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "manager": false,
@@ -273,56 +274,43 @@
    [
     5,
     6
-   ],
-   [
-    7,
-    8
    ]
   ],
-  "minYearsExp": 12,
+  "minYearsExp": 7,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Seed funded",
+    "label": "Seed",
+    "value": "Seed funded"
    }
   ],
+  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-10-08T23:59:02Z",
-  "title": "Executive Recruiter",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8185/",
-  "jobId": "8185",
-  "remote": true,
+  "timeStamp": "2026-10-09T11:48:12Z",
+  "title": "IT & Systems Lead",
+  "url": "https://job-boards.greenhouse.io/fronterahealth/jobs/5262292007",
+  "jobId": "5262292007",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1800401451828, 'matchScore': 0, 'ageScore': 0.9800401451828704, 'richnessScore': 2}",
+  "scores": "{'score': 1001.191836137578, 'matchScore': 0, 'ageScore': 0.9918361375779321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -330,10 +318,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
