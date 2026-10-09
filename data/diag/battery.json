@@ -1,5 +1,332 @@
 {
  "board": "battery",
- "run": "2026-10-09T09:18:16Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.battery.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+ "run": "2026-10-09T16:21:49Z",
+ "homepage": {
+  "status": 200,
+  "bytes": 18736
+ },
+ "slugs_tried": [
+  "battery-ventures",
+  "battery"
+ ],
+ "attempts": [
+  {
+   "endpoint": "https://jobs.battery.com/api-boards/search-jobs",
+   "slug": "battery-ventures",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.battery.com/api-boards/search-jobs",
+   "slug": "battery",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.battery.com/api-boards/search-jobs",
+   "slug": "battery-ventures",
+   "csrf_header": "x-csrf-token",
+   "status": 200,
+   "body_head": "{\"version\":{\"client\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"},\"server\":{\"git\":\"1669f52101712aaca98cf1037f6f7f1e18969e86\",\"date\":\"2026-10-07T00:07:45.625Z\"}}"
+  }
+ ],
+ "cookies": {
+  "session": "eyJmbGFzaC\u2026",
+  "session.sig": "eXvuYKCjw5\u2026",
+  "AWSALBAPP-0": "AAAAAAAAAA\u2026",
+  "AWSALBAPP-1": "_remove_",
+  "AWSALBAPP-2": "_remove_",
+  "AWSALBAPP-3": "_remove_"
+ },
+ "token_endpoints": [
+  {
+   "path": "/api-boards/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/api-boards/csrf-token",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  }
+ ],
+ "csrf_candidates": [
+  {
+   "src": "html",
+   "len": 36
+  }
+ ],
+ "working": {
+  "endpoint": "https://jobs.battery.com/api-boards/search-jobs",
+  "slug": "battery-ventures",
+  "csrf_header": [
+   "x-csrf-token"
+  ]
+ },
+ "search_probe": [
+  {
+   "variant": "query.searchQuery+promote",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.search",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.text",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.q",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "top.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.keywords",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  }
+ ],
+ "response_shape": {
+  "keys": [
+   "availableFilters",
+   "debug",
+   "errors",
+   "jobs",
+   "meta",
+   "total",
+   "version"
+  ],
+  "meta": {
+   "size": 100,
+   "sequence": "eyJfaWQiOiAiZTlhNGJkZWY2NGYxOGY4M2QzN2RhMzY0YWFjMDFhN2EiLCAic2NvcmUiOiAxLjA3OTkyNjk2NTQ2OTkwNzV9"
+  },
+  "job_keys": [
+   "applicationWindow",
+   "applyUrl",
+   "atsJobs",
+   "companyDomain",
+   "companyId",
+   "companyLogos",
+   "companyName",
+   "companySlug",
+   "companyStaffCount",
+   "considerHosted",
+   "considerLevels",
+   "consultant",
+   "contractor",
+   "departments",
+   "fundingLV",
+   "hybrid",
+   "isFeatured",
+   "jobFunctions",
+   "jobId",
+   "jobSeniorities"
+  ],
+  "job_count": 100
+ },
+ "sample_job": {
+  "applicationWindow": "{'status': 'accepting'}",
+  "applyUrl": "https://www.collibra.com/us/en/company/careers/job-listing/?gh_jid=8266426",
+  "companyDomain": "collibra.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/479078fbf8b31244d11049fb04a5b5b3_288_160?Expires=1861920000&Signature=W4DgOlROg-xkMK4OCxPDDBoAS3t28OloFIaEyPgzEc8ZnayZ9b-mn",
+  "companyId": "Collibra",
+  "companySlug": "collibra",
+  "companyName": "Collibra",
+  "companyStaffCount": 1088,
+  "considerHosted": false,
+  "departments": [
+   "Sales"
+  ],
+  "jobTypes": [
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
+  "locations": [
+   "Remote, USA"
+  ],
+  "normalizedLocations": [
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   }
+  ],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "skills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Collibra",
+    "label": "Collibra",
+    "value": "resume:Collibra"
+   },
+   {
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Collibra",
+    "label": "Collibra",
+    "value": "resume:Collibra"
+   },
+   {
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
+   },
+   {
+    "id": "resume:Pipeline Generation",
+    "label": "Pipeline Generation",
+    "value": "resume:Pipeline Generation"
+   },
+   {
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
+   }
+  ],
+  "manager": false,
+  "consultant": false,
+  "contractor": false,
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "minYearsExp": 6,
+  "regions": [
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   }
+  ],
+  "stages": [
+   {
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
+   }
+  ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
+   }
+  ],
+  "timeStamp": "2026-10-09T02:01:22Z",
+  "title": "Senior Account Executive II",
+  "url": "https://www.collibra.com/us/en/company/careers/job-listing/?gh_jid=8266426",
+  "jobId": "8266426",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1831299908696, 'matchScore': 0, 'ageScore': 0.9831299908695987, 'richnessScore': 2}",
+  "atsJobs": [],
+  "matchingTalent": "{'count': 0, 'matches': []}",
+  "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   }
+  ],
+  "jobSeniorityIds": [
+   "senior"
+  ],
+  "isFeatured": false
+ },
+ "search_mode": {
+  "variant": "cursor:meta.sequence"
+ }
 }
