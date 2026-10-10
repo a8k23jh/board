@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-09T21:04:42Z",
+ "run": "2026-10-10T01:00:56Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "hPBgGa5uT_\u2026",
+  "session.sig": "9u1P1eIeZw\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGZiYjMzZmVmMmEzMWI2ODk5YzA1MzhhNWRhN2U1MWEiLCAic2NvcmUiOiAxLjA5MzczMzA3NDEwMzAwOTR9"
+   "sequence": "eyJfaWQiOiAiNjUzZjIzZTFhZDFjM2M3MWNmZTEyOGJjYWUzZDU4ZDAiLCAic2NvcmUiOiAxLjEwMDUwMzA3MjIwODMzMzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,123 +144,149 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/CesiumAstro/c3554a25-4a3b-4d89-9406-68e0c5960007?lever-source%5B%5D=jobs.kleinerperkins.com",
-  "companyDomain": "cesiumastro.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
-  "companyId": "CesiumAstro",
-  "companySlug": "cesiumastro",
-  "companyName": "CesiumAstro",
-  "companyStaffCount": 452,
+  "applyUrl": "https://jobs.lever.co/lumafield/b009c0dd-e959-4be9-bc11-69a260d3078f?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "companyDomain": "lumafield.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
+  "companyId": "Lumafield",
+  "companySlug": "lumafield",
+  "companyName": "Lumafield",
+  "companyStaffCount": 157,
   "considerHosted": false,
   "departments": [
-   "Manufacturing & Operations"
+   "Customer Success"
   ],
   "jobTypes": [
    {
-    "id": "manufacturing-technician",
-    "label": "Manufacturing Technician",
-    "value": "manufacturing-technician"
+    "id": "customer-success-mananger",
+    "label": "Customer Success Manager",
+    "value": "customer-success-mananger"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
+   }
+  ],
   "locations": [
-   "Westminster, CO"
+   "Boston, MA"
   ],
   "normalizedLocations": [
    {
-    "id": "Westminster, Colorado",
-    "label": "Westminster, Colorado",
-    "value": "Westminster, Colorado"
+    "id": "Greater Boston Area",
+    "label": "Boston",
+    "value": "Greater Boston Area"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 26, 'maxValue': 30.73, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Spacecraft",
-    "label": "Spacecraft",
-    "value": "resume:Spacecraft"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:Department of State",
-    "label": "Department of State",
-    "value": "resume:Department of State"
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
    },
    {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:OEM",
+    "label": "OEM",
+    "value": "resume:OEM"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Spacecraft",
-    "label": "Spacecraft",
-    "value": "resume:Spacecraft"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:Department of State",
-    "label": "Department of State",
-    "value": "resume:Department of State"
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:OEM",
+    "label": "OEM",
+    "value": "resume:OEM"
    },
    {
-    "id": "resume:Material Handling Equipment",
-    "label": "Material Handling Equipment",
-    "value": "resume:Material Handling Equipment"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Medical Devices",
-    "label": "Medical Devices",
-    "value": "resume:Medical Devices"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 10,
   "regions": [
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -272,41 +298,25 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-10-09T13:31:01.687000Z",
-  "title": "Manufacturing Technician I",
-  "url": "https://jobs.lever.co/CesiumAstro/c3554a25-4a3b-4d89-9406-68e0c5960007",
-  "jobId": "c3554a25-4a3b-4d89-9406-68e0c5960007",
+  "timeStamp": "2026-10-09T19:56:54.888000Z",
+  "title": "Customer Success Manager, Automotive",
+  "url": "https://jobs.lever.co/lumafield/b009c0dd-e959-4be9-bc11-69a260d3078f",
+  "jobId": "b009c0dd-e959-4be9-bc11-69a260d3078f",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1944979945351, 'matchScore': 0, 'ageScore': 0.994497994535108, 'richnessScore': 2}",
+  "scores": "{'score': 1001.195591298397, 'matchScore': 0, 'ageScore': 0.9955912983969908, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -314,7 +324,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "junior",
    "mid"
   ],
   "isFeatured": false
