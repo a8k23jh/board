@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-10T13:52:01Z",
+ "run": "2026-10-10T18:42:36Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "UhhPlqCyq0\u2026",
+  "session.sig": "Smqrm0gn05\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWJhYTMxYzU3ZGIxNjNjMDEzMzcxOWM2ODFjMjgxMzUiLCAic2NvcmUiOiAxLjA4MzU3MDg4NjY1OTcyMjJ9"
+   "sequence": "eyJfaWQiOiAiNTE1YmU4OTg4MDY5NWQ4MzVmODA2M2M1ZTZiZjhiNDAiLCAic2NvcmUiOiAxLjA3NTM4MzA3OTE5ODY4ODN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -165,14 +165,14 @@
     "value": "copywriter"
    },
    {
-    "id": "marketing-product-marketing",
-    "label": "Marketing Product Marketing",
-    "value": "marketing-product-marketing"
-   },
-   {
     "id": "product-marketing",
     "label": "Product Marketing",
     "value": "product-marketing"
+   },
+   {
+    "id": "marketing-product-marketing",
+    "label": "Marketing Product Marketing",
+    "value": "marketing-product-marketing"
    }
   ],
   "jobFunctions": [
@@ -219,58 +219,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Language Models",
-    "label": "Language Models",
-    "value": "resume:Language Models"
-   },
-   {
-    "id": "resume:Landing Page Optimization",
-    "label": "Landing Page Optimization",
-    "value": "resume:Landing Page Optimization"
-   },
-   {
-    "id": "resume:Copywriting",
-    "label": "Copywriting",
-    "value": "resume:Copywriting"
-   },
-   {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   },
-   {
-    "id": "resume:Product Design",
-    "label": "Product Design",
-    "value": "resume:Product Design"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Language Models",
-    "label": "Language Models",
-    "value": "resume:Language Models"
-   },
-   {
-    "id": "resume:Landing Page Optimization",
-    "label": "Landing Page Optimization",
-    "value": "resume:Landing Page Optimization"
-   },
-   {
-    "id": "resume:Copywriting",
-    "label": "Copywriting",
-    "value": "resume:Copywriting"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   },
-   {
-    "id": "resume:Product Design",
-    "label": "Product Design",
-    "value": "resume:Product Design"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
     "id": "resume:Equity",
@@ -278,14 +229,63 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Product Marketing",
-    "label": "Product Marketing",
-    "value": "resume:Product Marketing"
+    "id": "resume:Landing Page Optimization",
+    "label": "Landing Page Optimization",
+    "value": "resume:Landing Page Optimization"
+   },
+   {
+    "id": "resume:Copywriting",
+    "label": "Copywriting",
+    "value": "resume:Copywriting"
    },
    {
     "id": "resume:Onboarding",
     "label": "Onboarding",
     "value": "resume:Onboarding"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Landing Page Optimization",
+    "label": "Landing Page Optimization",
+    "value": "resume:Landing Page Optimization"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Copywriting",
+    "label": "Copywriting",
+    "value": "resume:Copywriting"
+   },
+   {
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
+   },
+   {
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
+   },
+   {
+    "id": "resume:Growth Marketing",
+    "label": "Growth Marketing",
+    "value": "resume:Growth Marketing"
+   },
+   {
+    "id": "resume:Advertising",
+    "label": "Advertising",
+    "value": "resume:Advertising"
    }
   ],
   "manager": false,
@@ -300,19 +300,19 @@
   "minYearsExp": 4,
   "regions": [
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "Mid Atlantic",
@@ -320,9 +320,9 @@
     "value": "Mid Atlantic"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    }
   ],
   "stages": [
@@ -351,7 +351,7 @@
   "jobId": "386d468e-2a49-4901-877d-d2bf6b33abd1",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1842704123646, 'matchScore': 0, 'ageScore': 0.9842704123645833, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1751643464792, 'matchScore': 0, 'ageScore': 0.9751643464791666, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
