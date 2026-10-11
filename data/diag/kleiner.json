@@ -1,7 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-11T01:59:40Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
+ "run": "2026-10-11T09:04:05Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -43,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "RI3AQaTVV1\u2026",
+  "session.sig": "aVx5XxrpRx\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -128,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTYyODIzNTQyNzg4MDg5MWZkNmI5Nzc3N2ZkYjg0ZjgiLCAic2NvcmUiOiAxLjA2NzIwNjgxMzE2OTc1MzJ9"
+   "sequence": "eyJfaWQiOiAiNjk3ZGFiM2NiMTRiMGUyZjliMWI0MWVmMDRhM2I4OGYiLCAic2NvcmUiOiAxLjA1ODg0NTcyMjc4MzE3OX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -194,63 +193,53 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
-   },
-   {
     "id": "resume:OEM",
     "label": "OEM",
     "value": "resume:OEM"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Operational Excellence",
-    "label": "Operational Excellence",
-    "value": "resume:Operational Excellence"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
-   },
-   {
-    "id": "resume:OEM",
-    "label": "OEM",
-    "value": "resume:OEM"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Operational Excellence",
-    "label": "Operational Excellence",
-    "value": "resume:Operational Excellence"
    },
    {
     "id": "resume:Quantitative Data",
     "label": "Quantitative Data",
     "value": "resume:Quantitative Data"
+   },
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
+   },
+   {
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:OEM",
+    "label": "OEM",
+    "value": "resume:OEM"
+   },
+   {
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
+   },
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
     "id": "resume:Software Project Management",
@@ -261,6 +250,16 @@
     "id": "resume:Written Communication Skills",
     "label": "Written Communication Skills",
     "value": "resume:Written Communication Skills"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    }
   ],
   "manager": false,
@@ -279,11 +278,6 @@
   "minYearsExp": 10,
   "regions": [
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
@@ -292,6 +286,11 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -314,7 +313,7 @@
   "jobId": "b009c0dd-e959-4be9-bc11-69a260d3078f",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1622543553314, 'matchScore': 0, 'ageScore': 0.9622543553314044, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1538328584159, 'matchScore': 0, 'ageScore': 0.953832858415895, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -331,6 +330,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
