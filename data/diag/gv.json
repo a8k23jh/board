@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-10-10T22:41:43Z",
+ "run": "2026-10-11T01:59:40Z",
  "homepage": {
   "status": 200,
   "bytes": 26164
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TwDrsVjwOO\u2026",
+  "session.sig": "iVDG2dolXx\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2JjYzk5NThlOWRjOGU4MTYxNTRhYWZhZDA3NDBlMDYiLCAic2NvcmUiOiAxLjEwNDkzODAzODMzMTQwNDJ9"
+   "sequence": "eyJfaWQiOiAiMGZjMjg2YWJhNmFjN2QwNDk3ZTNlZDRiNmY0Y2JhNmMiLCAic2NvcmUiOiAxLjEwMDYyNzQ3Mjk1NjQwNDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,49 +136,44 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/modular/am9icG9zdDqLZ7KnA4RSL6h9DyXuNmGY?utm_source=jobs.gv.com",
-  "companyDomain": "modular.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c95a2e7d26c1c844eb59f8867714914e_208_160?Expires=1861920000&Signature=tbVqoyu8zBB2zh7C5eiQePYOUcf9BHGZV~XrgsXw2AZFjO73FdfPN",
-  "companyId": "Modular",
-  "companySlug": "modular",
-  "companyName": "Modular",
-  "companyStaffCount": 375,
+  "applyUrl": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8261109",
+  "companyDomain": "pindrop.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66db7ca011dabe5ff29c157b56a4251f_288_160?Expires=1861920000&Signature=l7jCjYdBtd-x9~FoRb61NXvycjznIWMO3dSQ1QJItmzYDl9x~JFGj",
+  "companyId": "Pindrop Security",
+  "companySlug": "pindrop-security",
+  "companyName": "Pindrop Security",
+  "companyStaffCount": 365,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Customer Success Management"
   ],
   "jobTypes": [
    {
-    "id": "embedded-engineer",
-    "label": "Embedded Linux Engineer",
-    "value": "embedded-engineer"
-   },
-   {
-    "id": "engineering-manager",
-    "label": "Engineering Manager",
-    "value": "engineering-manager"
+    "id": "customer-success-mananger",
+    "label": "Customer Success Manager",
+    "value": "customer-success-mananger"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
    }
   ],
   "locations": [
-   "United States"
+   "US - Remote"
   ],
   "normalizedLocations": [
    {
@@ -187,92 +182,92 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 248000, 'maxValue': 372000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 88000, 'maxValue': 106000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:High Performance Computing",
-    "label": "High Performance Computing",
-    "value": "resume:High Performance Computing"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Benchmarking",
-    "label": "Benchmarking",
-    "value": "resume:Benchmarking"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
+    "id": "resume:Fraud",
+    "label": "Fraud",
+    "value": "resume:Fraud"
+   },
+   {
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:CUDA",
-    "label": "CUDA",
-    "value": "resume:CUDA"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:High Performance Computing",
-    "label": "High Performance Computing",
-    "value": "resume:High Performance Computing"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Benchmarking",
-    "label": "Benchmarking",
-    "value": "resume:Benchmarking"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
+    "id": "resume:Fraud",
+    "label": "Fraud",
+    "value": "resume:Fraud"
    }
   ],
   "preferredSkills": [
+   {
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
+   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:CUDA",
-    "label": "CUDA",
-    "value": "resume:CUDA"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Performance Tuning",
-    "label": "Performance Tuning",
-    "value": "resume:Performance Tuning"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Kernel",
-    "label": "Kernel",
-    "value": "resume:Kernel"
-   },
-   {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Mid-Market",
+    "label": "Mid-Market",
+    "value": "resume:Mid-Market"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
@@ -285,54 +280,33 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI/ML",
-    "label": "AI/ML",
-    "value": "AI/ML"
-   },
-   {
-    "id": "Hardware",
-    "label": "Hardware",
-    "value": "Hardware"
-   },
-   {
-    "id": "Infrastructure",
-    "label": "Infrastructure",
-    "value": "Infrastructure"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-10-10T09:00:24Z",
-  "title": "MAX Kernel Engineering Manager",
-  "url": "https://jobs.gem.com/modular/am9icG9zdDqLZ7KnA4RSL6h9DyXuNmGY",
-  "jobId": "am9icG9zdDqLZ7KnA4RSL6h9DyXuNmGY",
+  "timeStamp": "2026-10-10T14:37:49Z",
+  "title": "Customer Success Manager",
+  "url": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8261109",
+  "jobId": "8261109",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1839087540737, 'matchScore': 0, 'ageScore': 0.9839087540736883, 'richnessScore': 2}",
+  "scores": "{'score': 1001.187550234409, 'matchScore': 0, 'ageScore': 0.9875502344089506, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },
