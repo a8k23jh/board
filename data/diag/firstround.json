@@ -1,7 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-11T09:04:05Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.firstround.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-10-11T15:49:00Z",
  "homepage": {
   "status": 200,
   "bytes": 16696
@@ -43,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "9LHj9He_du\u2026",
+  "session.sig": "pjWvxIwrg9\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -128,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjE4MzZmODMxMTFhZGJlOWMyY2QyZjY4ODMxMTAxOGUiLCAic2NvcmUiOiAxLjAyNTQ5Nzg5ODA0MTI4MDh9"
+   "sequence": "eyJfaWQiOiAiNjE4MzZmODMxMTFhZGJlOWMyY2QyZjY4ODMxMTAxOGUiLCAic2NvcmUiOiAxLjAxNzMxODA2NzEzNjU3NH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -194,14 +193,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 77000, 'maxValue': 96000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sales Leadership",
-    "label": "Sales Leadership",
-    "value": "resume:Sales Leadership"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Leadership Development",
+    "label": "Leadership Development",
+    "value": "resume:Leadership Development"
    },
    {
     "id": "resume:Knowledge Management",
@@ -209,43 +203,53 @@
     "value": "resume:Knowledge Management"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
    },
    {
     "id": "resume:Sales Operations",
     "label": "Sales Operations",
     "value": "resume:Sales Operations"
+   },
+   {
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sales Leadership",
-    "label": "Sales Leadership",
-    "value": "resume:Sales Leadership"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Leadership Development",
+    "label": "Leadership Development",
+    "value": "resume:Leadership Development"
    },
    {
     "id": "resume:Knowledge Management",
     "label": "Knowledge Management",
     "value": "resume:Knowledge Management"
+   },
+   {
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
-   },
-   {
     "id": "resume:Sales Operations",
     "label": "Sales Operations",
     "value": "resume:Sales Operations"
+   },
+   {
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
+   },
+   {
+    "id": "resume:Sales Enablement",
+    "label": "Sales Enablement",
+    "value": "resume:Sales Enablement"
    },
    {
     "id": "resume:Onboarding",
@@ -253,14 +257,9 @@
     "value": "resume:Onboarding"
    },
    {
-    "id": "resume:Confluence",
-    "label": "Confluence",
-    "value": "resume:Confluence"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
    }
   ],
   "manager": false,
@@ -331,7 +330,7 @@
   "jobId": "8214366",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1763417747627, 'matchScore': 0, 'ageScore': 0.9763417747627314, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1680518910714, 'matchScore': 0, 'ageScore': 0.9680518910713735, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -354,6 +353,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
