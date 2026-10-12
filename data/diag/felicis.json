@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-12T00:38:09Z",
+ "run": "2026-10-12T07:28:47Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "syenhq2kFI\u2026",
+  "session.sig": "SS_NWTd2pe\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDI2ZmI3M2MzZjhmZjNmYmQ0Mzg0ODZmMzgwOGY5ZjciLCAic2NvcmUiOiAxLjAzMzc5NDgzNjEwNzI1M30="
+   "sequence": "eyJfaWQiOiAiYjk5MGNhYTE4MjRkZGYyNGVjYTU0NDZiNjg5MjE1OTYiLCAic2NvcmUiOiAxLjAyNTc2OTg5MjQ4MDcxfQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "product-manager",
-    "label": "Product Manager",
-    "value": "product-manager"
-   },
-   {
     "id": "lead",
     "label": "Lead",
     "value": "lead"
+   },
+   {
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
    }
   ],
   "jobFunctions": [
@@ -190,9 +190,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 205000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SCIM",
-    "label": "SCIM",
-    "value": "resume:SCIM"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
     "id": "resume:Compliance",
@@ -200,26 +200,26 @@
     "value": "resume:Compliance"
    },
    {
-    "id": "resume:Customer Acquisition",
-    "label": "Customer Acquisition",
-    "value": "resume:Customer Acquisition"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
    },
    {
-    "id": "resume:SSO",
-    "label": "SSO",
-    "value": "resume:SSO"
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SCIM",
-    "label": "SCIM",
-    "value": "resume:SCIM"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
     "id": "resume:Compliance",
@@ -227,12 +227,22 @@
     "value": "resume:Compliance"
    },
    {
-    "id": "resume:Customer Acquisition",
-    "label": "Customer Acquisition",
-    "value": "resume:Customer Acquisition"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    }
   ],
   "preferredSkills": [
+   {
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
+   },
+   {
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
+   },
    {
     "id": "resume:Equity",
     "label": "Equity",
@@ -247,16 +257,6 @@
     "id": "resume:Microsoft Azure",
     "label": "Microsoft Azure",
     "value": "resume:Microsoft Azure"
-   },
-   {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
    }
   ],
   "manager": false,
@@ -280,14 +280,14 @@
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -321,24 +321,24 @@
   "jobId": "5176478007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1926031125602, 'matchScore': 0, 'ageScore': 0.9926031125601852, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1843872041188, 'matchScore': 0, 'ageScore': 0.9843872041188272, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
