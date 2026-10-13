@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-13T07:49:49Z",
+ "run": "2026-10-13T16:07:48Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "mXaxZ8JWA-\u2026",
+  "session.sig": "FvkLCvRSFM\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWZiODBkN2JjYjMxMjllOTIyOGY1YzcxZTc2YzczNTciLCAic2NvcmUiOiAxLjA3NjczMDUyMDc0MTUxMjN9"
+   "sequence": "eyJfaWQiOiAiZmU2YThjZjViZDQ5YWVlMTg0ZDQ5YjllNjdhZmJhZWQiLCAic2NvcmUiOiAxLjA3NDM4MTM4MTQ3Mzc2NTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,43 +144,33 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4742957005",
-  "companyDomain": "glean.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
-  "companyId": "Glean",
-  "companySlug": "glean",
-  "companyName": "Glean",
-  "companyStaffCount": 1772,
+  "applyUrl": "https://job-boards.greenhouse.io/ethoslife/jobs/8877399002",
+  "companyDomain": "ethoslife.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/11d02e8554b1f82695585fa042f51b82_224_160?Expires=1861920000&Signature=ovslhwWm84YTDjliCBH1o1WK0BUIDLqMlJpMVNphKqHR~iLq8ajfC",
+  "companyId": "Ethos Life",
+  "companySlug": "ethos-life",
+  "companyName": "Ethos Life",
+  "companyStaffCount": 1046,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Software Engineering"
   ],
   "jobTypes": [
    {
-    "id": "tech-lead",
-    "label": "Tech Lead",
-    "value": "tech-lead"
-   },
-   {
-    "id": "tech-lead-manager",
-    "label": "Tech Lead Manager",
-    "value": "tech-lead-manager"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "salesforce-developer",
+    "label": "Salesforce Developer",
+    "value": "salesforce-developer"
    }
   ],
   "jobFunctions": [
@@ -191,112 +181,102 @@
    }
   ],
   "locations": [
-   "Mountain View, CA"
+   "Remote US"
   ],
   "normalizedLocations": [
    {
-    "id": "Mountain View, California",
-    "label": "Mountain View, California",
-    "value": "Mountain View, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 350000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 96000, 'maxValue': 169000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Red Teaming",
-    "label": "Red Teaming",
-    "value": "resume:Red Teaming"
+    "id": "resume:Apache Apex",
+    "label": "Apache Apex",
+    "value": "resume:Apache Apex"
    },
    {
-    "id": "resume:Statistical Analysis",
-    "label": "Statistical Analysis",
-    "value": "resume:Statistical Analysis"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Marketing Technology",
+    "label": "Marketing Technology",
+    "value": "resume:Marketing Technology"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Red Teaming",
-    "label": "Red Teaming",
-    "value": "resume:Red Teaming"
+    "id": "resume:Apache Apex",
+    "label": "Apache Apex",
+    "value": "resume:Apache Apex"
    },
    {
-    "id": "resume:Statistical Analysis",
-    "label": "Statistical Analysis",
-    "value": "resume:Statistical Analysis"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Marketing Technology",
+    "label": "Marketing Technology",
+    "value": "resume:Marketing Technology"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Privacy Compliance",
+    "label": "Privacy Compliance",
+    "value": "resume:Privacy Compliance"
    },
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:SOQL",
+    "label": "SOQL",
+    "value": "resume:SOQL"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -308,28 +288,22 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
+    "id": "Insurance",
+    "label": "Insurance",
+    "value": "Insurance"
    }
   ],
-  "timeStamp": "2026-10-12T18:27:22Z",
-  "title": "Tech Lead Manager, AI Evaluations",
-  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4742957005",
-  "jobId": "4742957005",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1846186633924, 'matchScore': 0, 'ageScore': 0.9846186633923611, 'richnessScore': 2}",
+  "timeStamp": "2026-10-13T00:39:59Z",
+  "title": "Salesforce Developer",
+  "url": "https://job-boards.greenhouse.io/ethoslife/jobs/8877399002",
+  "jobId": "8877399002",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1803480209642, 'matchScore': 0, 'ageScore': 0.9803480209641203, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -337,16 +311,10 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
-   },
-   {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },

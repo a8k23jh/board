@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-13T07:49:49Z",
+ "run": "2026-10-13T16:07:48Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "OpUS1o8Qo7\u2026",
+  "session.sig": "vUXjUypQDK\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWJjOGMyNWRlZjliNDU0YWQ1NjY3YWJlN2Y5Njc1ZmMiLCAic2NvcmUiOiAxLjA0NTUyMTAwNTgxMDk1Njd9"
+   "sequence": "eyJfaWQiOiAiY2I4MmEzZmEwOGE3ZGZlOGY5N2IyNTYwZTEwNWIxNGEiLCAic2NvcmUiOiAxLjAzNTU0OTc3NDAwNjk0NDZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,7 +139,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4742957005",
+  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4742953005",
   "companyDomain": "glean.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
   "companyId": "Glean",
@@ -152,19 +152,9 @@
   ],
   "jobTypes": [
    {
-    "id": "tech-lead",
-    "label": "Tech Lead",
-    "value": "tech-lead"
-   },
-   {
-    "id": "tech-lead-manager",
-    "label": "Tech Lead Manager",
-    "value": "tech-lead-manager"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
@@ -184,102 +174,100 @@
     "value": "Mountain View, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 350000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 210000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Red Teaming",
-    "label": "Red Teaming",
-    "value": "resume:Red Teaming"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Statistical Analysis",
-    "label": "Statistical Analysis",
-    "value": "resume:Statistical Analysis"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Arbitration",
+    "label": "Arbitration",
+    "value": "resume:Arbitration"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:GDPR",
+    "label": "GDPR",
+    "value": "resume:GDPR"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Red Teaming",
-    "label": "Red Teaming",
-    "value": "resume:Red Teaming"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Statistical Analysis",
-    "label": "Statistical Analysis",
-    "value": "resume:Statistical Analysis"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "preferredSkills": [
    {
+    "id": "resume:Arbitration",
+    "label": "Arbitration",
+    "value": "resume:Arbitration"
+   },
+   {
+    "id": "resume:GDPR",
+    "label": "GDPR",
+    "value": "resume:GDPR"
+   },
+   {
+    "id": "resume:CCPA",
+    "label": "CCPA",
+    "value": "resume:CCPA"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
-   },
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
-   {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -307,13 +295,13 @@
     "value": "Productivity"
    }
   ],
-  "timeStamp": "2026-10-12T18:27:22Z",
-  "title": "Tech Lead Manager, AI Evaluations",
-  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4742957005",
-  "jobId": "4742957005",
+  "timeStamp": "2026-10-12T19:36:06Z",
+  "title": "Software Engineer, Agentic Runtime",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4742953005",
+  "jobId": "4742953005",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1846186633924, 'matchScore': 0, 'ageScore': 0.9846186633923611, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1733205606455, 'matchScore': 0, 'ageScore': 0.9733205606454476, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -321,16 +309,10 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
-   },
-   {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },

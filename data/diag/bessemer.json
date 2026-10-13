@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-13T07:49:49Z",
+ "run": "2026-10-13T16:07:48Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "MpyCc-ghum\u2026",
+  "session.sig": "jY9sljgTjj\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2Y2NmZhNjI0MjNiMTYyY2Q3N2E3OWM4Y2Y4YmY3OTciLCAic2NvcmUiOiAxLjA1OTA0NjgxOTgzODM0ODd9"
+   "sequence": "eyJfaWQiOiAiNzlkODY0NzJkZmRhZGE3NTZiNDM1ZjhmNWY5MGNiYTAiLCAic2NvcmUiOiAxLjA0NzAyNDU4NDU2MDE4NX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/fieldguide/0abead05-1f68-4737-b69e-74cbb955d0dc?utm_source=jobs.bvp.com",
+  "applyUrl": "https://jobs.ashbyhq.com/fieldguide/e35c9fec-e35f-4147-ba9e-7fef8a75cea4?utm_source=jobs.bvp.com",
   "companyDomain": "fieldguide.io",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/899ad9426d51391d3a82d77dee9fa67c_288_160?Expires=1861920000&Signature=hPytQxPrUm78ebDJI3FzNIf3q30S68RY7i8gT4-1kTn7p6oDAvIqU",
   "companyId": "Fieldguide",
@@ -172,97 +172,114 @@
   "companyStaffCount": 217,
   "considerHosted": false,
   "departments": [
-   "Customer Success"
+   "Engineering, Product, and Design"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
+   },
+   {
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "United Kingdom",
-   "Remote (UK)",
-   "London, England, UK"
+   "San Francisco, California, United States",
+   "San Francisco, CA",
+   "Remote (USA)"
   ],
   "normalizedLocations": [
    {
-    "id": "London, Greater London, United Kingdom",
-    "label": "London",
-    "value": "London, Greater London, United Kingdom"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    },
    {
-    "id": "United Kingdom",
-    "label": "United Kingdom",
-    "value": "United Kingdom"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 35000, 'maxValue': 50000, 'currency': {'label': 'GBP', 'value': 'GBP'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 215000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Knowledge Management",
-    "label": "Knowledge Management",
-    "value": "resume:Knowledge Management"
+    "id": "resume:RBAC",
+    "label": "RBAC",
+    "value": "resume:RBAC"
+   },
+   {
+    "id": "resume:OAuth",
+    "label": "OAuth",
+    "value": "resume:OAuth"
    },
    {
     "id": "resume:Capital Markets",
     "label": "Capital Markets",
     "value": "resume:Capital Markets"
-   },
-   {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Knowledge Management",
-    "label": "Knowledge Management",
-    "value": "resume:Knowledge Management"
+    "id": "resume:RBAC",
+    "label": "RBAC",
+    "value": "resume:RBAC"
    }
   ],
   "preferredSkills": [
+   {
+    "id": "resume:OAuth",
+    "label": "OAuth",
+    "value": "resume:OAuth"
+   },
    {
     "id": "resume:Capital Markets",
     "label": "Capital Markets",
     "value": "resume:Capital Markets"
    },
    {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:SAML",
+    "label": "SAML",
+    "value": "resume:SAML"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   },
-   {
-    "id": "resume:Client Relations",
-    "label": "Client Relations",
-    "value": "resume:Client Relations"
+    "id": "resume:GraphQL",
+    "label": "GraphQL",
+    "value": "resume:GraphQL"
    }
   ],
   "manager": false,
@@ -270,26 +287,30 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
-  "maxYearsExp": 3,
+  "minYearsExp": 5,
   "regions": [
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -323,23 +344,23 @@
    }
   ],
   "timeStamp": "2026-10-13T00:00:00Z",
-  "title": "Product Support Representative",
-  "url": "https://jobs.ashbyhq.com/fieldguide/0abead05-1f68-4737-b69e-74cbb955d0dc",
-  "jobId": "0abead05-1f68-4737-b69e-74cbb955d0dc",
+  "title": "Senior Software Security Engineer",
+  "url": "https://jobs.ashbyhq.com/fieldguide/e35c9fec-e35f-4147-ba9e-7fef8a75cea4",
+  "jobId": "e35c9fec-e35f-4147-ba9e-7fef8a75cea4",
   "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1925475075902, 'matchScore': 0, 'ageScore': 0.9925475075902778, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1803602418283, 'matchScore': 0, 'ageScore': 0.9803602418283179, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
