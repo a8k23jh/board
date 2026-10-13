@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-13T16:07:48Z",
+ "run": "2026-10-13T21:21:08Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "vUXjUypQDK\u2026",
+  "session.sig": "EQW0fsuuD2\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2I4MmEzZmEwOGE3ZGZlOGY5N2IyNTYwZTEwNWIxNGEiLCAic2NvcmUiOiAxLjAzNTU0OTc3NDAwNjk0NDZ9"
+   "sequence": "eyJfaWQiOiAiODRmNGNiMjIzYWRiY2M5ZjdhNWU0ZGU1M2JlNmNkMDgiLCAic2NvcmUiOiAxLjA0Mjg2OTQ1NjY5NDgzMDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,112 +128,78 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4742953005",
-  "companyDomain": "glean.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
-  "companyId": "Glean",
-  "companySlug": "glean",
-  "companyName": "Glean",
-  "companyStaffCount": 1772,
+  "applyUrl": "https://job-boards.greenhouse.io/gomotive/jobs/8372647002",
+  "companyDomain": "gomotive.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/25a89ab129481325fdea0a8ec67db334_208_160?Expires=1861920000&Signature=FOVx4pqYXCuvScQi9jIt1h-cXgKWHgmbuXcTtciYMPrORXx90yBOk",
+  "companyId": "Motive",
+  "companySlug": "motive",
+  "companyName": "Motive",
+  "companyStaffCount": 6461,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "HR"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "people-operations",
+    "label": "People Operations",
+    "value": "people-operations"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    }
   ],
   "locations": [
-   "Mountain View, CA"
+   "United States - Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "Mountain View, California",
-    "label": "Mountain View, California",
-    "value": "Mountain View, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 210000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 133000, 'maxValue': 183000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    },
    {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
+    "id": "resume:Benefits Administration",
+    "label": "Benefits Administration",
+    "value": "resume:Benefits Administration"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Arbitration",
-    "label": "Arbitration",
-    "value": "resume:Arbitration"
-   },
-   {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Arbitration",
-    "label": "Arbitration",
-    "value": "resume:Arbitration"
-   },
-   {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
-   },
-   {
-    "id": "resume:CCPA",
-    "label": "CCPA",
-    "value": "resume:CCPA"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -241,34 +207,65 @@
     "value": "resume:Artificial Intelligence"
    }
   ],
-  "manager": false,
+  "requiredSkills": [
+   {
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
+   },
+   {
+    "id": "resume:Benefits Administration",
+    "label": "Benefits Administration",
+    "value": "resume:Benefits Administration"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:HRIS",
+    "label": "HR Systems",
+    "value": "resume:HRIS"
+   },
+   {
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
+   },
+   {
+    "id": "resume:Shared Services",
+    "label": "Shared Services",
+    "value": "resume:Shared Services"
+   }
+  ],
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -280,39 +277,38 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-10-12T19:36:06Z",
-  "title": "Software Engineer, Agentic Runtime",
-  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4742953005",
-  "jobId": "4742953005",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1733205606455, 'matchScore': 0, 'ageScore': 0.9733205606454476, 'richnessScore': 2}",
+  "timeStamp": "2026-10-13T10:18:39Z",
+  "title": "Senior Manager, People Operations",
+  "url": "https://job-boards.greenhouse.io/gomotive/jobs/8372647002",
+  "jobId": "8372647002",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1897308211713, 'matchScore': 0, 'ageScore': 0.9897308211712963, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },
