@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-13T00:51:05Z",
+ "run": "2026-10-13T07:49:49Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "KrbRNrlai0\u2026",
+  "session.sig": "it3RqVM6MF\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWQwYjdjYjgyN2Y2OGM0MDVhM2FlMTY1MzBhYjk0M2QiLCAic2NvcmUiOiAxLjA2NzIxMjkwOTUyODU0OTR9"
+   "sequence": "eyJfaWQiOiAiNmZjZjZmNzE0YTQwOGU0ZDZhOWFmZDM2Y2YyMzFlNjYiLCAic2NvcmUiOiAxLjA1OTA4NTg1MzE0NDI5MDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,197 +152,187 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/justworks/jobs/8263097?gh_jid=8263097",
-  "companyDomain": "justworks.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/53b0732e2508296561b7994e981e9873_256_160?Expires=1861920000&Signature=jpUYCUzpRAbunynZAa39zYnehCkOtBPQxtKwFu~wstUHTfmFkK59E",
-  "companyId": "Justworks",
-  "companySlug": "justworks",
-  "companyName": "Justworks",
-  "companyStaffCount": 1669,
+  "applyUrl": "https://jobs.ashbyhq.com/evenup/3a19c859-95a3-4b8f-82c9-f56823a604bd?utm_source=jobs.baincapitalventures.com",
+  "companyDomain": "evenuplaw.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/0c500d60c0c99d76de302be2b9992624_240_160?Expires=1861920000&Signature=aCzqi2b860pMlYvo6x4ylOnMSJQlpdGGqLf086hD-3YBFTEQ~PPbg",
+  "companyId": "EvenUp",
+  "companySlug": "evenup",
+  "companyName": "EvenUp",
+  "companyStaffCount": 855,
   "considerHosted": false,
   "departments": [
-   "Customer Success"
+   "Talent"
   ],
-  "jobTypes": [
-   {
-    "id": "customer-success-director",
-    "label": "Customer Success Director",
-    "value": "customer-success-director"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
-   }
-  ],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "New York, New York"
+   "San Francisco, California, United States",
+   "San Francisco (hybrid)",
+   "Toronto (hybrid)"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Toronto, Ontario, Canada",
+    "label": "Toronto",
+    "value": "Toronto, Ontario, Canada"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 188000, 'maxValue': 242000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Personal Injury",
+    "label": "Personal Injury",
+    "value": "resume:Personal Injury"
+   },
+   {
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    },
    {
     "id": "resume:SaaS",
     "label": "Software as a Service",
     "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
   "regions": [
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Future of Work",
-    "label": "Future of Work",
-    "value": "Future of Work"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-10-12T18:41:31Z",
-  "title": "Director, Customer Success",
-  "url": "https://boards.greenhouse.io/justworks/jobs/8263097?gh_jid=8263097",
-  "jobId": "8263097",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Legal Services",
+    "label": "Legal Services",
+    "value": "Legal Services"
+   }
+  ],
+  "timeStamp": "2026-10-13T00:00:00Z",
+  "title": "Senior Technical Talent Partner",
+  "url": "https://jobs.ashbyhq.com/evenup/3a19c859-95a3-4b8f-82c9-f56823a604bd",
+  "jobId": "3a19c859-95a3-4b8f-82c9-f56823a604bd",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1936515304607, 'matchScore': 0, 'ageScore': 0.9936515304606481, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1919294073994, 'matchScore': 0, 'ageScore': 0.9919294073993056, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior"
   ],
   "isFeatured": false
  },

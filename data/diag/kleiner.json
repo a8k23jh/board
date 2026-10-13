@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-13T00:51:05Z",
+ "run": "2026-10-13T07:49:49Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "yJQ5HG_lgj\u2026",
+  "session.sig": "SxmhLKu6Ow\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjYwYWVkYWY4MTc5YzQxMDdiMDUwZjBhMTA5ZGVhZTgiLCAic2NvcmUiOiAxLjAyOTUyODgzNDc2OTI5MDF9"
+   "sequence": "eyJfaWQiOiAiMWI1NDQ1YjU0ODZhYTAzMzM0ZmMzYTUxZjhkMGZkYmIiLCAic2NvcmUiOiAxLjAyMTc5MTAyMjYzMjMzMDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,6 +168,11 @@
   ],
   "jobTypes": [
    {
+    "id": "tech-lead",
+    "label": "Tech Lead",
+    "value": "tech-lead"
+   },
+   {
     "id": "tech-lead-manager",
     "label": "Tech Lead Manager",
     "value": "tech-lead-manager"
@@ -176,11 +181,6 @@
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
-   },
-   {
-    "id": "tech-lead",
-    "label": "Tech Lead",
-    "value": "tech-lead"
    }
   ],
   "jobFunctions": [
@@ -203,14 +203,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 350000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
+    "id": "resume:Red Teaming",
+    "label": "Red Teaming",
+    "value": "resume:Red Teaming"
    },
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Statistical Analysis",
+    "label": "Statistical Analysis",
+    "value": "resume:Statistical Analysis"
    },
    {
     "id": "resume:Distributed Systems",
@@ -218,26 +218,26 @@
     "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Database Design",
-    "label": "Database Arch/Design",
-    "value": "resume:Database Design"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
+    "id": "resume:Red Teaming",
+    "label": "Red Teaming",
+    "value": "resume:Red Teaming"
    },
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Statistical Analysis",
+    "label": "Statistical Analysis",
+    "value": "resume:Statistical Analysis"
    },
    {
     "id": "resume:Distributed Systems",
@@ -247,14 +247,19 @@
   ],
   "preferredSkills": [
    {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Database Design",
-    "label": "Database Arch/Design",
-    "value": "resume:Database Design"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
     "id": "resume:Cloud Infrastructure",
@@ -262,14 +267,9 @@
     "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:Red Teaming",
-    "label": "Red Teaming",
-    "value": "resume:Red Teaming"
-   },
-   {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    }
   ],
   "manager": true,
@@ -288,6 +288,11 @@
   "minYearsExp": 10,
   "regions": [
    {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -296,11 +301,6 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -329,24 +329,24 @@
   "jobId": "4742957005",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1925635095374, 'matchScore': 0, 'ageScore': 0.9925635095374228, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1846186633924, 'matchScore': 0, 'ageScore': 0.9846186633923611, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "mid"
+   "mid",
+   "manager"
   ],
   "isFeatured": false
  },
