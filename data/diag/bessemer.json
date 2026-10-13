@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-12T18:02:39Z",
+ "run": "2026-10-13T00:51:05Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"},\"server\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"ef596ec41b95bc0cb702e6157205a2110525f0da\",\"date\":\"2026-10-12T23:51:02.536Z\"},\"server\":{\"git\":\"ef596ec41b95bc0cb702e6157205a2110525f0da\",\"date\":\"2026-10-12T23:51:02.536Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "gWFdAUjoN2\u2026",
+  "session.sig": "e5npf5vnAY\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTljMTUwODc1MWM3ZDczZDUwYWQ5OGMyMWMxZjg4YTciLCAic2NvcmUiOiAxLjA2ODYyOTUzMjE4NjM0MjZ9"
+   "sequence": "eyJfaWQiOiAiMmE4YTdkODQ4NGRmMTIyNDkyM2Q0NjgyN2YxMjgwYjYiLCAic2NvcmUiOiAxLjA2NzA0Nzk5MDQyNjY5NzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,31 +152,33 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://in.linkedin.com/jobs/view/software-development-engineer-in-test-at-leena-ai-4477503562",
-  "companyDomain": "leena.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/fec667faa149a2f082dd8ef66d8ca919_240_160?Expires=1861920000&Signature=OPINVi7ATMsUJkFABt1H8VhLGxrmwcj0ab4177qEYs2Mm5cd2WGfl",
-  "companyId": "Leena AI",
-  "companySlug": "leena-ai",
-  "companyName": "Leena AI",
-  "companyStaffCount": 323,
+  "applyUrl": "https://hibob-e013d08dd01044.careers.hibob.com/jobs/ed7b5efc-f5d9-488f-b7a0-10e87d387b79",
+  "companyDomain": "hibob.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/087fd6af0a27130e4c6507e4e5f205fc_144_160?Expires=1861920000&Signature=eyGd2NYmusswGSq2mjtXrdgmXjr29x6F0Gu4tMJ~SqLHQFpEY-jfN",
+  "companyId": "Hibob",
+  "companySlug": "hibob",
+  "companyName": "Hibob",
+  "companyStaffCount": 2122,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Tech"
+  ],
   "jobTypes": [
    {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
+    "id": "backend-engineer",
+    "label": "Backend Engineer",
+    "value": "backend-engineer"
    }
   ],
   "jobFunctions": [
@@ -187,136 +189,145 @@
    }
   ],
   "locations": [
-   "Gurugram, IN"
+   "US United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Gurgaon, Haryana, India",
-    "label": "Gurgaon, Haryana, India",
-    "value": "Gurgaon, Haryana, India"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 1500000, 'maxValue': 3000000, 'currency': {'label': 'INR', 'value': 'INR'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 170000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Process Flow Documentation",
-    "label": "Process Flow Documentation",
-    "value": "resume:Process Flow Documentation"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Back Office",
-    "label": "Back Office",
-    "value": "resume:Back Office"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:HRIS",
-    "label": "HR Systems",
-    "value": "resume:HRIS"
+    "id": "resume:Scala",
+    "label": "Scala",
+    "value": "resume:Scala"
    },
    {
-    "id": "resume:API Testing",
-    "label": "API Testing",
-    "value": "resume:API Testing"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Process Flow Documentation",
-    "label": "Process Flow Documentation",
-    "value": "resume:Process Flow Documentation"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Back Office",
-    "label": "Back Office",
-    "value": "resume:Back Office"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:HRIS",
-    "label": "HR Systems",
-    "value": "resume:HRIS"
+    "id": "resume:Scala",
+    "label": "Scala",
+    "value": "resume:Scala"
    },
    {
-    "id": "resume:API Testing",
-    "label": "API Testing",
-    "value": "resume:API Testing"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:Unit Testing",
+    "label": "Unit Testing",
+    "value": "resume:Unit Testing"
    },
    {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
+    "id": "resume:MySQL",
+    "label": "MySQL",
+    "value": "resume:MySQL"
    },
    {
-    "id": "resume:REST Assured",
-    "label": "REST Assured",
-    "value": "resume:REST Assured"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "minYearsExp": 6,
   "regions": [
    {
-    "id": "Asia Pacific",
-    "label": "Asia Pacific",
-    "value": "Asia Pacific"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Future of Work",
+    "label": "Future of Work",
+    "value": "Future of Work"
+   },
+   {
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-10-12T07:36:04Z",
-  "title": "Software Development Engineer in Test",
-  "url": "https://in.linkedin.com/jobs/view/software-development-engineer-in-test-at-leena-ai-4477503562",
-  "jobId": "4477503562",
-  "remote": false,
+  "timeStamp": "2026-10-12T16:30:29.764000Z",
+  "title": "Senior Backend Engineer - Payroll - EST",
+  "url": "https://hibob-e013d08dd01044.careers.hibob.com/jobs/ed7b5efc-f5d9-488f-b7a0-10e87d387b79",
+  "jobId": "ed7b5efc-f5d9-488f-b7a0-10e87d387b79",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.190344692721, 'matchScore': 0, 'ageScore': 0.9903446927210648, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1908112766589, 'matchScore': 0, 'ageScore': 0.9908112766589506, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

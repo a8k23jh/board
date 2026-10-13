@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-12T18:02:39Z",
+ "run": "2026-10-13T00:51:05Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"},\"server\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"ef596ec41b95bc0cb702e6157205a2110525f0da\",\"date\":\"2026-10-12T23:51:02.536Z\"},\"server\":{\"git\":\"ef596ec41b95bc0cb702e6157205a2110525f0da\",\"date\":\"2026-10-12T23:51:02.536Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "qOWPpAfH1N\u2026",
+  "session.sig": "AFUVNWfnOO\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjgxNGNhMjk0YWM2ZGFiZTE1ZDE5YTU0MGFmNzQ4YmYiLCAic2NvcmUiOiAxLjA3OTI3MDYyNTk2NjgyMX0="
+   "sequence": "eyJfaWQiOiAiZGNhZGFjMjE5Yzk4YjYyODRhYWE1M2Q3ZmFhYWQwZWEiLCAic2NvcmUiOiAxLjA4MTU5MDQ5OTUxMDQxNjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,55 +155,86 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/cyera/17.008/account-executive-identity-security---carolinas/08.375-BC.40D",
-  "companyDomain": "cyera.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec6d92aec09bf6716dbbd9d50089a4ec_208_160?Expires=1861920000&Signature=hr9QoUI4iKYF8Hn~HoiixG3elVHvWPoII2QRBQjO8zeSQJpeGQNuP",
-  "companyId": "Cyera",
-  "companySlug": "cyera",
-  "companyName": "Cyera",
-  "companyStaffCount": 1725,
+  "applyUrl": "https://job-boards.greenhouse.io/gongio/jobs/4718601006",
+  "companyDomain": "gong.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ae663910294ff6c1a0e863e5cf837d18_192_160?Expires=1861920000&Signature=OSsu4kyDtDHlFHzbNEfCix0e-4rc~FRCvmqRr1I0Ld65WH8UVCpvN",
+  "companyId": "Gong",
+  "companySlug": "gong",
+  "companyName": "Gong",
+  "companyStaffCount": 3587,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Customer Success Managers"
+  ],
   "jobTypes": [
    {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
+    "id": "software-architect",
+    "label": "Software Architect",
+    "value": "software-architect"
    },
    {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Atlanta"
+   "Austin",
+   "Chicago",
+   "New York City",
+   "Salt Lake City",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Atlanta, Georgia",
-    "label": "Atlanta, Georgia",
-    "value": "Atlanta, Georgia"
+    "id": "Salt Lake City, Utah",
+    "label": "Salt Lake City, Utah",
+    "value": "Salt Lake City, Utah"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   },
+   {
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
+   },
+   {
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 300000, 'maxValue': 360000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 181000, 'maxValue': 239000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
+   },
+   {
+    "id": "resume:Customer Facing Roles",
+    "label": "Customer Facing Roles",
+    "value": "resume:Customer Facing Roles"
+   },
+   {
+    "id": "resume:ROI",
+    "label": "ROI",
+    "value": "resume:ROI"
    },
    {
     "id": "resume:Marketing",
@@ -211,66 +242,56 @@
     "value": "resume:Marketing"
    },
    {
-    "id": "resume:Product Marketing",
-    "label": "Product Marketing",
-    "value": "resume:Product Marketing"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    },
+   {
+    "id": "resume:Customer Facing Roles",
+    "label": "Customer Facing Roles",
+    "value": "resume:Customer Facing Roles"
+   },
+   {
+    "id": "resume:ROI",
+    "label": "ROI",
+    "value": "resume:ROI"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Marketing",
     "label": "Marketing",
     "value": "resume:Marketing"
    },
    {
-    "id": "resume:Product Marketing",
-    "label": "Product Marketing",
-    "value": "resume:Product Marketing"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
+   },
+   {
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
+   },
+   {
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    }
   ],
-  "preferredSkills": [
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
-   },
-   {
-    "id": "resume:Channel Partners",
-    "label": "Channel Partnership",
-    "value": "resume:Channel Partners"
-   },
-   {
-    "id": "resume:Cloud Security",
-    "label": "Cloud Security",
-    "value": "resume:Cloud Security"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   }
-  ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -283,22 +304,32 @@
     8
    ]
   ],
-  "minYearsExp": 8,
+  "minYearsExp": 10,
   "regions": [
    {
-    "id": "Deep South",
-    "label": "Deep South",
-    "value": "Deep South"
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
    }
   ],
   "stages": [
@@ -308,37 +339,48 @@
     "value": "1000+ employees"
    },
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Seed funded",
+    "label": "Seed",
+    "value": "Seed funded"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "AI-Powered Applications",
+    "label": "AI-Powered Applications",
+    "value": "AI-Powered Applications"
+   },
+   {
+    "id": "Agile Workplace",
+    "label": "Agile Workplace",
+    "value": "Agile Workplace"
    }
   ],
-  "timeStamp": "2026-10-12T03:06:57Z",
-  "title": "Account Executive, Identity Security - Carolinas",
-  "url": "https://www.comeet.com/jobs/cyera/17.008/account-executive-identity-security---carolinas/08.375-BC.40D",
-  "jobId": "08.375-BC.40D",
-  "remote": false,
+  "timeStamp": "2026-10-12T18:12:16Z",
+  "title": "Sr. Manager, Enterprise Revenue Architect",
+  "url": "https://job-boards.greenhouse.io/gongio/jobs/4718601006",
+  "jobId": "4718601006",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1847653103245, 'matchScore': 0, 'ageScore': 0.9847653103244599, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1929787665155, 'matchScore': 0, 'ageScore': 0.9929787665154322, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
+   },
+   {
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager",
+   "expert"
   ],
   "isFeatured": false
  },

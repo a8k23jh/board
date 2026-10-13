@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-12T18:02:39Z",
+ "run": "2026-10-13T00:51:05Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"},\"server\":{\"git\":\"a593f9df27792b187a191b4c0f72af01eb34374e\",\"date\":\"2026-10-08T23:56:42.497Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"ef596ec41b95bc0cb702e6157205a2110525f0da\",\"date\":\"2026-10-12T23:51:02.536Z\"},\"server\":{\"git\":\"ef596ec41b95bc0cb702e6157205a2110525f0da\",\"date\":\"2026-10-12T23:51:02.536Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "NAujdYVLmw\u2026",
+  "session.sig": "P443rQCNq_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGYyOTRjZDA2NWZhMTk4NzQxYzgyODhlZDQzNTVkMWEiLCAic2NvcmUiOiAxLjAzNjU3NDMwOTQ5MDc0MDd9"
+   "sequence": "eyJfaWQiOiAiNDk5NDE2Mjg3NzEwMWY2MGMyZDhiOWYyYjJmNWZjZGMiLCAic2NvcmUiOiAxLjAzNDUzMTE3ODk1NjQwNDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,116 +139,121 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lyrahealth/fa62dc18-6e38-4a6e-aed9-9f6cfddc0220?lever-source%5B%5D=careers.ivp.com",
-  "companyDomain": "lyrahealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/143cd3a237462e2e7a2ccd47b2d73fac_96_160?Expires=1861920000&Signature=NN4EpXx0uHmRsAc6GKWU1E0aaw8tKG4yCj2QYcyRkjmu-TasPWWqFM",
-  "companyId": "Lyra Health",
-  "companySlug": "lyra-health",
-  "companyName": "Lyra Health",
-  "companyStaffCount": 2800,
+  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4742957005",
+  "companyDomain": "glean.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
+  "companyId": "Glean",
+  "companySlug": "glean",
+  "companyName": "Glean",
+  "companyStaffCount": 1772,
   "considerHosted": false,
   "departments": [
-   "G&A"
+   "Engineering"
   ],
   "jobTypes": [
+   {
+    "id": "tech-lead-manager",
+    "label": "Tech Lead Manager",
+    "value": "tech-lead-manager"
+   },
    {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
    },
    {
-    "id": "accountant",
-    "label": "Accountant",
-    "value": "accountant"
+    "id": "tech-lead",
+    "label": "Tech Lead",
+    "value": "tech-lead"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Accounting",
-    "label": "Accounting",
-    "value": "Accounting"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "United States"
+   "Mountain View, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Mountain View, California",
+    "label": "Mountain View, California",
+    "value": "Mountain View, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 213030, 'maxValue': 286670, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 350000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Financial Statements",
-    "label": "Financial Statements",
-    "value": "resume:Financial Statements"
+    "id": "resume:ML Infrastructure",
+    "label": "ML Infrastructure",
+    "value": "resume:ML Infrastructure"
    },
    {
-    "id": "resume:SOX",
-    "label": "SOX",
-    "value": "resume:SOX"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
+    "id": "resume:Technical Leadership",
+    "label": "Technical Leadership",
+    "value": "resume:Technical Leadership"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Financial Statements",
-    "label": "Financial Statements",
-    "value": "resume:Financial Statements"
+    "id": "resume:ML Infrastructure",
+    "label": "ML Infrastructure",
+    "value": "resume:ML Infrastructure"
    },
    {
-    "id": "resume:SOX",
-    "label": "SOX",
-    "value": "resume:SOX"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
+    "id": "resume:Technical Leadership",
+    "label": "Technical Leadership",
+    "value": "resume:Technical Leadership"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    },
    {
-    "id": "resume:SEC Reporting",
-    "label": "SEC Reporting",
-    "value": "resume:SEC Reporting"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Red Teaming",
+    "label": "Red Teaming",
+    "value": "resume:Red Teaming"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
    }
   ],
   "manager": true,
@@ -262,20 +267,24 @@
    [
     7,
     8
-   ],
-   [
-    9,
-    10,
-    11,
-    12
    ]
   ],
-  "minYearsExp": 15,
+  "minYearsExp": 10,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -293,34 +302,35 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Digital Health",
-    "label": "Digital Health",
-    "value": "Digital Health"
-   },
-   {
-    "id": "Mental Health Care",
-    "label": "Mental Health Care",
-    "value": "Mental Health Care"
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
    }
   ],
-  "timeStamp": "2026-10-12T02:46:22.067000Z",
-  "title": "Vice President, Global Accounting",
-  "url": "https://jobs.lever.co/lyrahealth/fa62dc18-6e38-4a6e-aed9-9f6cfddc0220",
-  "jobId": "fa62dc18-6e38-4a6e-aed9-9f6cfddc0220",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1839797699556, 'matchScore': 0, 'ageScore': 0.9839797699556327, 'richnessScore': 2}",
+  "timeStamp": "2026-10-12T18:27:22Z",
+  "title": "Tech Lead Manager, AI Evaluations",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4742957005",
+  "jobId": "4742957005",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1925635095374, 'matchScore': 0, 'ageScore': 0.9925635095374228, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "vp",
-    "label": "VP/SVP",
-    "value": "vp"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "vp"
+   "manager",
+   "mid"
   ],
   "isFeatured": false
  },
