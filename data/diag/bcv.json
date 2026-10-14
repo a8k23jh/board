@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-13T21:21:08Z",
+ "run": "2026-10-14T00:25:48Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cZ0yTo4cGu\u2026",
+  "session.sig": "Nmzq6d7tHe\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjUyZGNmMzQ0MzE0ZjkzMGFjYWI1OWQyNjUwMTU2N2MiLCAic2NvcmUiOiAxLjA1OTY2MjM1MzIwNjQwNDJ9"
+   "sequence": "eyJfaWQiOiAiYjZkNDA2ODY3YzYyNzYzYjIwZjI0NGI3YzEzOGQwZTMiLCAic2NvcmUiOiAxLjA1NTYxNzExMTA5NDkwNzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -174,9 +174,9 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
    },
    {
     "id": "sales-professional",
@@ -184,9 +184,9 @@
     "value": "sales-professional"
    },
    {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    }
   ],
   "jobFunctions": [
@@ -209,19 +209,14 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 39.3, 'maxValue': 54.08, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:ROI",
-    "label": "ROI",
-    "value": "resume:ROI"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    },
    {
-    "id": "resume:Customer Onboarding",
-    "label": "Customer Onboarding",
-    "value": "resume:Customer Onboarding"
-   },
-   {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
     "id": "resume:Salesforce",
@@ -229,53 +224,58 @@
     "value": "resume:Salesforce"
    },
    {
-    "id": "resume:HubSpot",
-    "label": "HubSpot",
-    "value": "resume:HubSpot"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
+   },
+   {
+    "id": "resume:Linkedin Sales Navigator",
+    "label": "Linkedin Sales Navigator",
+    "value": "resume:Linkedin Sales Navigator"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:ROI",
-    "label": "ROI",
-    "value": "resume:ROI"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    },
    {
-    "id": "resume:Customer Onboarding",
-    "label": "Customer Onboarding",
-    "value": "resume:Customer Onboarding"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
-   {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Salesforce",
     "label": "Salesforce",
     "value": "resume:Salesforce"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:HubSpot",
-    "label": "HubSpot",
-    "value": "resume:HubSpot"
+    "id": "resume:Linkedin Sales Navigator",
+    "label": "Linkedin Sales Navigator",
+    "value": "resume:Linkedin Sales Navigator"
    },
    {
-    "id": "resume:Multithreading",
-    "label": "Multithreading",
-    "value": "resume:Multithreading"
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
+    "id": "resume:Deal Execution",
+    "label": "Deal Execution",
+    "value": "resume:Deal Execution"
    }
   ],
   "manager": false,
@@ -294,14 +294,14 @@
     "value": "West Coast"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "Pacific States",
@@ -329,7 +329,7 @@
   "jobId": "30527",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1951541704483, 'matchScore': 0, 'ageScore': 0.9951541704483025, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1917786765725, 'matchScore': 0, 'ageScore': 0.9917786765725308, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
