@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-10-14T06:15:12Z",
+ "run": "2026-10-14T12:07:50Z",
  "homepage": {
   "status": 200,
   "bytes": 18736
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "kr9wn2ALDR\u2026",
+  "session.sig": "ciWO2130_n\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODA1NTFjNmYwNjBkOTg3YWU3YjVkYThlYzg3ZTMxM2MiLCAic2NvcmUiOiAxLjA1Mjk4MjUzOTg5MDQzMn0="
+   "sequence": "eyJfaWQiOiAiMzhjZWI5M2FhN2E3ZmViMzk0NDBlNDE4Njc1M2FiZjAiLCAic2NvcmUiOiAxLjA1NDY3NzA2MTM1NzYzODh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,38 +136,53 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/liberate/jobs/5451751008",
-  "companyDomain": "liberateinc.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/84bfb20fd12d4a761c9ae669f7acec9b_256_160?Expires=1861920000&Signature=hVDTdbH32aDNw9PTa88vD8Avi8yyioJGoJ47jlQ8gbkcjhMcvML88",
-  "companyId": "Liberate",
-  "companySlug": "liberate",
-  "companyName": "Liberate",
-  "companyStaffCount": 110,
+  "applyUrl": "https://hibob-e013d08dd01044.careers.hibob.com/jobs/d83170ca-5d31-4648-9651-500303c34d74",
+  "companyDomain": "hibob.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/087fd6af0a27130e4c6507e4e5f205fc_144_160?Expires=1861920000&Signature=eyGd2NYmusswGSq2mjtXrdgmXjr29x6F0Gu4tMJ~SqLHQFpEY-jfN",
+  "companyId": "Hibob",
+  "companySlug": "hibob",
+  "companyName": "Hibob",
+  "companyStaffCount": 2122,
   "considerHosted": false,
   "departments": [
-   "Marketing"
+   "GTM"
   ],
   "jobTypes": [
    {
-    "id": "marketing-all",
-    "label": "Marketing",
-    "value": "marketing-all"
+    "id": "marketing-growth",
+    "label": "Marketing Growth",
+    "value": "marketing-growth"
    },
    {
-    "id": "school-student",
-    "label": "Intern",
-    "value": "school-student"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "user-marketing",
+    "label": "Growth Manager",
+    "value": "user-marketing"
+   },
+   {
+    "id": "marketing-engagement",
+    "label": "Marketing Engagement",
+    "value": "marketing-engagement"
+   },
+   {
+    "id": "marketing-acquisition",
+    "label": "Marketing Acquisition",
+    "value": "marketing-acquisition"
    }
   ],
   "jobFunctions": [
@@ -178,160 +193,141 @@
    }
   ],
   "locations": [
-   "Berkeley"
+   "US United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Berkeley, California",
-    "label": "Berkeley, California",
-    "value": "Berkeley, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 33, 'maxValue': 35, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 127000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Account Based Marketing",
-    "label": "Account Based Marketing",
-    "value": "resume:Account Based Marketing"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Journalism",
-    "label": "Journalism",
-    "value": "resume:Journalism"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Linkedin Sales Navigator",
+    "label": "Linkedin Sales Navigator",
+    "value": "resume:Linkedin Sales Navigator"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Account Based Marketing",
-    "label": "Account Based Marketing",
-    "value": "resume:Account Based Marketing"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Journalism",
-    "label": "Journalism",
-    "value": "resume:Journalism"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Linkedin Sales Navigator",
+    "label": "Linkedin Sales Navigator",
+    "value": "resume:Linkedin Sales Navigator"
    },
    {
-    "id": "resume:B2B Marketing",
-    "label": "B2B Marketing",
-    "value": "resume:B2B Marketing"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    },
    {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Marketing Communications",
-    "label": "Marketing Communications",
-    "value": "resume:Marketing Communications"
+    "id": "resume:LATAM",
+    "label": "LATAM",
+    "value": "resume:LATAM"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
-   [
-    1,
-    2
-   ],
    [
     3,
     4
    ]
   ],
+  "minYearsExp": 4,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
+    "id": "Future of Work",
+    "label": "Future of Work",
+    "value": "Future of Work"
    },
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-10-13T18:40:24Z",
-  "title": "Marketing Intern",
-  "url": "https://job-boards.greenhouse.io/liberate/jobs/5451751008",
-  "jobId": "5451751008",
-  "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1936876733287, 'matchScore': 0, 'ageScore': 0.9936876733287037, 'richnessScore': 2}",
+  "timeStamp": "2026-10-13T22:07:03.841000Z",
+  "title": "Manager, Customer Growth- Americas",
+  "url": "https://hibob-e013d08dd01044.careers.hibob.com/jobs/d83170ca-5d31-4648-9651-500303c34d74",
+  "jobId": "d83170ca-5d31-4648-9651-500303c34d74",
+  "remote": true,
+  "hybrid": true,
+  "scores": "{'score': 1001.1859205921141, 'matchScore': 0, 'ageScore': 0.9859205921141976, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "intern",
-    "label": "Intern",
-    "value": "intern"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "intern"
+   "manager"
   ],
   "isFeatured": false
  },

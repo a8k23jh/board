@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-14T06:15:12Z",
+ "run": "2026-10-14T12:07:50Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "e2xmWWWDUO\u2026",
+  "session.sig": "UHpO4mNpM2\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmIxOWY0YTk2ZDc5YjgzMDU2NGIxZWU5YmQzNTk1ZTkiLCAic2NvcmUiOiAxLjA2NzAwNzQ2MTQ5NTc1NjN9"
+   "sequence": "eyJfaWQiOiAiOGY0MTVmYzZjMGQ4YTVjNDVmZTI4MjE2YWRkZWVjMDkiLCAic2NvcmUiOiAxLjEyMTk0NzQyOTc1NTAxNTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,117 +152,74 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/restaurant365/0acbce69-e5cf-4b97-9116-3000e9074807?lever-source%5B%5D=jobs.bvp.com",
-  "companyDomain": "restaurant365.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6bc9ba8ab51f0e3260175fa3450c4490_320_160?Expires=1861920000&Signature=BjaLUgcasR36Gki0m9~xsGkU2Ydeq9NhehEt09M35A3xDg~4qiIGQ",
-  "companyId": "Restaurant365",
-  "companySlug": "restaurant365",
-  "companyName": "Restaurant365",
-  "companyStaffCount": 3963,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5378643008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Customer Success"
+   "Engineering & Design - Product"
   ],
   "jobTypes": [
    {
-    "id": "payroll-specialist",
-    "label": "Payroll Specialist",
-    "value": "payroll-specialist"
-   },
-   {
-    "id": "taxes-professional",
-    "label": "Taxes Professional",
-    "value": "taxes-professional"
+    "id": "engineering-manager",
+    "label": "Engineering Manager",
+    "value": "engineering-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Accounting",
-    "label": "Accounting",
-    "value": "Accounting"
-   },
-   {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Irvine, CA, Austin, TX, San Francisco Bay Area, CA, Denver, CO"
+   "San Francisco, CA",
+   "New York City, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco Bay Area",
-    "label": "San Francisco Bay Area",
-    "value": "San Francisco Bay Area"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 33.65, 'maxValue': 39.33, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 405000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
-   },
-   {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
-   },
-   {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    },
    {
     "id": "resume:Research",
@@ -270,31 +227,64 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Taxes",
-    "label": "Taxes",
-    "value": "resume:Taxes"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
-  "manager": false,
+  "requiredSkills": [
+   {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
+   }
+  ],
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
   "regions": [
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
    {
     "id": "West Coast",
     "label": "West Coast",
@@ -309,6 +299,11 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -316,33 +311,44 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Restaurants",
-    "label": "Restaurants",
-    "value": "Restaurants"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-10-13T22:04:20.919000Z",
-  "title": "Payroll Tax Corrections Specialist",
-  "url": "https://jobs.lever.co/restaurant365/0acbce69-e5cf-4b97-9116-3000e9074807",
-  "jobId": "0acbce69-e5cf-4b97-9116-3000e9074807",
+  "timeStamp": "2026-10-14T00:15:36Z",
+  "title": "Engineering Manager, Claude Platform",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5378643008",
+  "jobId": "5378643008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1985438118916, 'matchScore': 0, 'ageScore': 0.9985438118915895, 'richnessScore': 2}",
+  "scores": "{'score': 1001.189145534581, 'matchScore': 0, 'ageScore': 0.9891455345810185, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },

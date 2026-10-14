@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-10-14T06:15:12Z",
+ "run": "2026-10-14T12:07:50Z",
  "homepage": {
   "status": 200,
   "bytes": 26164
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "zfvFFOptnC\u2026",
+  "session.sig": "6RoPrn-y21\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDZjMWE4YTA5YjI3OGViNzE1MDQwZDg0YTU4ZGYxNGQiLCAic2NvcmUiOiAxLjEzMzU0NTg2NTI5NzQ1Mzd9"
+   "sequence": "eyJfaWQiOiAiODY4ZWJmNzU3MDExZGMwZDAyYmJjZDdmYTZmNWJiZDMiLCAic2NvcmUiOiAxLjEzODcxOTU5MDU0NzQ1MzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,125 +136,110 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/peerspace/eaa9168b-93d4-4bca-a7a8-fa5e8dceac2b?lever-source%5B%5D=jobs.gv.com",
-  "companyDomain": "peerspace.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/bd33f9fc886bc99d17171b7925d5323d_176_160?Expires=1861920000&Signature=Oio08acQNXIsS5H3foE~Sfq0mwSLClfpPEo2qzxmb4stDZH~W9TVU",
-  "companyId": "Peerspace",
-  "companySlug": "peerspace",
-  "companyName": "Peerspace",
-  "companyStaffCount": 123,
+  "applyUrl": "https://job-boards.greenhouse.io/veratherapeuticsinc/jobs/4438797009",
+  "companyDomain": "veratx.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/13833565b18d1090c62734dca6d1482b_176_160?Expires=1861920000&Signature=N0TQxxdCT5NrxPJwlpePxjYyfGqD6U2ZWTdClJBUT9I~Ybg326DP2",
+  "companyId": "Vera Therapeutics",
+  "companySlug": "vera-therapeutics",
+  "companyName": "Vera Therapeutics",
+  "companyStaffCount": 359,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Development Operations"
+  ],
   "jobTypes": [
    {
-    "id": "senior-product-manager",
-    "label": "Senior Product Manager",
-    "value": "senior-product-manager"
-   },
-   {
-    "id": "product-manager",
-    "label": "Product Manager",
-    "value": "product-manager"
+    "id": "clinical-trial-manager",
+    "label": "Clinical Trial Manager",
+    "value": "clinical-trial-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Product Management",
-    "label": "Product Management",
-    "value": "Product Management"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "United States"
+   "Remote"
   ],
-  "normalizedLocations": [
-   {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
-   }
-  ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 155000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "normalizedLocations": [],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Standard operating procedure",
+    "label": "Standard operating procedure",
+    "value": "resume:Standard operating procedure"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Ligands",
+    "label": "Ligands",
+    "value": "resume:Ligands"
    },
    {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Standard operating procedure",
+    "label": "Standard operating procedure",
+    "value": "resume:Standard operating procedure"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Ligands",
+    "label": "Ligands",
+    "value": "resume:Ligands"
    },
    {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Supply side",
-    "label": "Supply side",
-    "value": "resume:Supply side"
+    "id": "resume:Medicine",
+    "label": "Medicine",
+    "value": "resume:Medicine"
    },
    {
-    "id": "resume:Lever",
-    "label": "Lever",
-    "value": "resume:Lever"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Contractors",
+    "label": "Contractors",
+    "value": "resume:Contractors"
    }
   ],
   "manager": false,
@@ -271,40 +256,28 @@
    ]
   ],
   "minYearsExp": 5,
-  "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   }
-  ],
+  "regions": [],
   "stages": [
    {
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Peer to Peer Marketplace",
-    "label": "Peer to Peer Marketplace",
-    "value": "Peer to Peer Marketplace"
+    "id": "Biotech/Pharma",
+    "label": "Biotech/Pharma",
+    "value": "Biotech/Pharma"
    }
   ],
-  "timeStamp": "2026-10-13T22:22:54.508000Z",
-  "title": "Senior Product Manager",
-  "url": "https://jobs.lever.co/peerspace/eaa9168b-93d4-4bca-a7a8-fa5e8dceac2b",
-  "jobId": "eaa9168b-93d4-4bca-a7a8-fa5e8dceac2b",
+  "timeStamp": "2026-10-14T00:40:14Z",
+  "title": "Senior Clinical Trial Manager",
+  "url": "https://job-boards.greenhouse.io/veratherapeuticsinc/jobs/4438797009",
+  "jobId": "4438797009",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1988312192542, 'matchScore': 0, 'ageScore': 0.9988312192542438, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1892343915903, 'matchScore': 0, 'ageScore': 0.9892343915902778, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -314,14 +287,14 @@
     "value": "senior"
    },
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
    "senior",
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },
