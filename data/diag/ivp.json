@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-14T17:21:21Z",
+ "run": "2026-10-14T20:50:00Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "t_pjjy2naH\u2026",
+  "session.sig": "miTZGDtZR0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzA4Y2M4NzIyOWQ5NmNlNTY3N2Y0OWI0NDBjYWRhNmMiLCAic2NvcmUiOiAxLjA2OTkzNjE2MjQ3NTMwODh9"
+   "sequence": "eyJfaWQiOiAiMDE3Y2RhYjIzNzliOTk3NDYwMjBiNDEzNzE4ZTMyODkiLCAic2NvcmUiOiAxLjA5NTExMjcxOTg0MjU5MjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,7 +139,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5378643008",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5449885008",
   "companyDomain": "anthropic.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
   "companyId": "Anthropic",
@@ -148,93 +148,70 @@
   "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Engineering & Design - Product"
+   "People"
   ],
   "jobTypes": [
    {
-    "id": "engineering-manager",
-    "label": "Engineering Manager",
-    "value": "engineering-manager"
+    "id": "recruiter",
+    "label": "Recruiter",
+    "value": "recruiter"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    }
   ],
   "locations": [
-   "San Francisco, CA",
-   "New York City, NY"
+   "London, UK"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "London, Greater London, United Kingdom",
+    "label": "London",
+    "value": "London, Greater London, United Kingdom"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 405000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 105000, 'maxValue': 145000, 'currency': {'label': 'GBP', 'value': 'GBP'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
+   },
+   {
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
     "id": "resume:Physics",
     "label": "Physics",
     "value": "resume:Physics"
-   },
-   {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
-   },
-   {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
     "id": "resume:Equity",
@@ -242,7 +219,34 @@
     "value": "resume:Equity"
    }
   ],
-  "manager": true,
+  "preferredSkills": [
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
+   },
+   {
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
+   },
+   {
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
+   },
+   {
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
+   }
+  ],
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -255,31 +259,17 @@
     6
    ]
   ],
+  "minYearsExp": 6,
   "regions": [
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
@@ -307,24 +297,24 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-10-14T00:15:36Z",
-  "title": "Engineering Manager, Claude Platform",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5378643008",
-  "jobId": "5378643008",
+  "timeStamp": "2026-10-14T04:46:52Z",
+  "title": "Recruiter, G&A",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5449885008",
+  "jobId": "5449885008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1806523784892, 'matchScore': 0, 'ageScore': 0.9806523784891975, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1817946769282, 'matchScore': 0, 'ageScore': 0.9817946769282407, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },

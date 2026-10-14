@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-14T17:21:21Z",
+ "run": "2026-10-14T20:50:00Z",
  "homepage": {
   "status": 200,
   "bytes": 16696
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "LnDXDZj31R\u2026",
+  "session.sig": "10k8sz6u8d\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTMzM2VjYjg1ZWVlNzdiZTVmYmU0MzA3ZTBmMWY5YjUiLCAic2NvcmUiOiAwLjk3Mjk1ODYyOTU3MDYwMTl9"
+   "sequence": "eyJfaWQiOiAiNjUyN2I1MmE2ZGE4Yzc0NTY5OWIwMDRkMzUwMTg0YTYiLCAic2NvcmUiOiAwLjk4MTM1Njg1NDE1NTA5Mjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,112 +155,134 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/studsinc/jobs/6223770004",
-  "companyDomain": "studs.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/928cc14370271b5bf1ed1e2cd0f89b69_192_160?Expires=1861920000&Signature=aUPXDUpPVxKoYqNFh7KhHxjFQHByuvTL2tiKY7~kxJ-4SGSbLu7S-",
-  "companyId": "Studs",
-  "companySlug": "studs",
-  "companyName": "Studs",
-  "companyStaffCount": 205,
+  "applyUrl": "https://secure.collage.co/jobs/diversio/66300",
+  "companyDomain": "diversio.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e1198953cfd84de31d9799aa6e327c6f_241_160?Expires=1861920000&Signature=ctV-088S-wGAbhDdp0QhSZ10~QDGZhyUOvGIiKSOhqrB69yevTJVw",
+  "companyId": "Diversio",
+  "companySlug": "diversio",
+  "companyName": "Diversio",
+  "companyStaffCount": 30,
   "considerHosted": false,
   "departments": [
-   "Sales (SAL)"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
    },
    {
-    "id": "supervisor",
-    "label": "Supervisor",
-    "value": "supervisor"
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "1003 Newport Center Drive Newport Beach, CA 92660"
+   "Canada (Remote)"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "Canada",
+    "label": "Canada",
+    "value": "Canada"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 20.5, 'maxValue': 20.5, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 80000, 'maxValue': 100000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
-    "id": "resume:Sales Support",
-    "label": "Sales Support",
-    "value": "resume:Sales Support"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Market Research",
+    "label": "Market Research",
+    "value": "resume:Market Research"
    },
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
-    "id": "resume:Sales Support",
-    "label": "Sales Support",
-    "value": "resume:Sales Support"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Market Research",
+    "label": "Market Research",
+    "value": "resume:Market Research"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:Mid-Market",
+    "label": "Mid-Market",
+    "value": "resume:Mid-Market"
+   },
+   {
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
+   },
+   {
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 4,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -269,31 +291,41 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Retail",
-    "label": "Retail",
-    "value": "Retail"
+    "id": "AI/ML",
+    "label": "AI/ML",
+    "value": "AI/ML"
+   },
+   {
+    "id": "Business Services",
+    "label": "Business Services",
+    "value": "Business Services"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-10-13T22:31:14Z",
-  "title": "Store Supervisor (Full-Time)",
-  "url": "https://job-boards.greenhouse.io/studsinc/jobs/6223770004",
-  "jobId": "6223770004",
-  "remote": false,
+  "timeStamp": "2026-10-14T14:28:12Z",
+  "title": "New Business Account Executive",
+  "url": "https://secure.collage.co/jobs/diversio/66300",
+  "jobId": "66300",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1777478345247, 'matchScore': 0, 'ageScore': 0.9777478345246914, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1962922911431, 'matchScore': 0, 'ageScore': 0.9962922911431327, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
