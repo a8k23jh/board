@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-14T00:25:48Z",
+ "run": "2026-10-14T06:15:12Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "DzXhLN9Xbi\u2026",
+  "session.sig": "e2xmWWWDUO\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTA4MTNlMDQ0MDUyYzE3YThkZTkxNzY2YzY1NzdhY2UiLCAic2NvcmUiOiAxLjA1NzIxODQ4MjQ0NTk4NzZ9"
+   "sequence": "eyJfaWQiOiAiMmIxOWY0YTk2ZDc5YjgzMDU2NGIxZWU5YmQzNTk1ZTkiLCAic2NvcmUiOiAxLjA2NzAwNzQ2MTQ5NTc1NjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,63 +152,78 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://synd.io/careers/?gh_jid=6223044004",
-  "companyDomain": "synd.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/51830d72bc3e0956f4ba0a1e84b9d42d_237_160?Expires=1861920000&Signature=A5ma25EUQt1KDF2ipPmD0v1yfdIRGcExr38x8vqM0IiqE9wwLtvi~",
-  "companyId": "Syndio",
-  "companySlug": "syndio",
-  "companyName": "Syndio",
-  "companyStaffCount": 175,
+  "applyUrl": "https://jobs.lever.co/restaurant365/0acbce69-e5cf-4b97-9116-3000e9074807?lever-source%5B%5D=jobs.bvp.com",
+  "companyDomain": "restaurant365.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6bc9ba8ab51f0e3260175fa3450c4490_320_160?Expires=1861920000&Signature=BjaLUgcasR36Gki0m9~xsGkU2Ydeq9NhehEt09M35A3xDg~4qiIGQ",
+  "companyId": "Restaurant365",
+  "companySlug": "restaurant365",
+  "companyName": "Restaurant365",
+  "companyStaffCount": 3963,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Customer Success"
   ],
   "jobTypes": [
    {
-    "id": "enterprise-account-executive",
-    "label": "Enterprise Account Executive",
-    "value": "enterprise-account-executive"
+    "id": "payroll-specialist",
+    "label": "Payroll Specialist",
+    "value": "payroll-specialist"
    },
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "taxes-professional",
+    "label": "Taxes Professional",
+    "value": "taxes-professional"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
+   },
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    }
   ],
   "locations": [
-   "Remote Home Office - United States"
+   "Irvine, CA, Austin, TX, San Francisco Bay Area, CA, Denver, CO"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco Bay Area",
+    "label": "San Francisco Bay Area",
+    "value": "San Francisco Bay Area"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 33.65, 'maxValue': 39.33, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Project Management",
@@ -216,63 +231,53 @@
     "value": "resume:Project Management"
    },
    {
-    "id": "resume:Organizational Change",
-    "label": "Organizational Change",
-    "value": "resume:Organizational Change"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Project Management",
     "label": "Project Management",
     "value": "resume:Project Management"
    },
    {
-    "id": "resume:Organizational Change",
-    "label": "Organizational Change",
-    "value": "resume:Organizational Change"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:HR Analytics",
-    "label": "HR Analytics",
-    "value": "resume:HR Analytics"
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
    },
    {
-    "id": "resume:Spreadsheets",
-    "label": "Spreadsheets",
-    "value": "resume:Spreadsheets"
-   },
-   {
-    "id": "resume:Linkedin Sales Navigator",
-    "label": "Linkedin Sales Navigator",
-    "value": "resume:Linkedin Sales Navigator"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "manager": false,
@@ -280,45 +285,53 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
+   ],
+   [
+    3,
+    4
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 2,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Workforce and Employment",
-    "label": "Workforce and Employment",
-    "value": "Workforce and Employment"
+    "id": "Restaurants",
+    "label": "Restaurants",
+    "value": "Restaurants"
    }
   ],
-  "timeStamp": "2026-10-13T10:33:28Z",
-  "title": "Enterprise Account Executive",
-  "url": "https://synd.io/careers/?gh_jid=6223044004",
-  "jobId": "6223044004",
-  "remote": true,
+  "timeStamp": "2026-10-13T22:04:20.919000Z",
+  "title": "Payroll Tax Corrections Specialist",
+  "url": "https://jobs.lever.co/restaurant365/0acbce69-e5cf-4b97-9116-3000e9074807",
+  "jobId": "0acbce69-e5cf-4b97-9116-3000e9074807",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1857738742261, 'matchScore': 0, 'ageScore': 0.9857738742260802, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1985438118916, 'matchScore': 0, 'ageScore': 0.9985438118915895, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

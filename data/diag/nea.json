@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-10-14T00:25:48Z",
+ "run": "2026-10-14T06:15:12Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "l4wzsCSX_h\u2026",
+  "session.sig": "_XCbZpAu_M\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzJiN2I2ZDNjNzU3ZDY4N2IwODA5ZTNlYWM1MmY0MDYiLCAic2NvcmUiOiAxLjA3OTU2MDE0MjY4OTQyOX0="
+   "sequence": "eyJfaWQiOiAiMTQzNDY4YzViMTMzMDNhOTExNzBkY2FiYjU1OTAxNWYiLCAic2NvcmUiOiAxLjExODc3NjA3MTM4NjU3NH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,127 +136,157 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/strivehealth/jobs/4721458006",
-  "companyDomain": "strivehealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c013139aced83719018a65668570f915_160_160?Expires=1861920000&Signature=NcoFCLj~~CPKn47IsMMEaGg3sONHH3~6dJt4Pu4aL6ddGe4HGbFae",
-  "companyId": "Strive Health",
-  "companySlug": "strive-health",
-  "companyName": "Strive Health",
-  "companyStaffCount": 602,
+  "applyUrl": "https://job-boards.greenhouse.io/echodynecorp/jobs/4721644006",
+  "companyDomain": "echodyne.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f814668c54f14247b07ab1ff8cbf3fb5_320_160?Expires=1861920000&Signature=gYzCI2g0KXU4aD6jDHtAmfRzeCiWWTRwgHJp6x-KWeARfaamBfBZW",
+  "companyId": "Echodyne",
+  "companySlug": "echodyne",
+  "companyName": "Echodyne",
+  "companyStaffCount": 255,
   "considerHosted": false,
   "departments": [
-   "Digital Product"
+   "Manufacturing"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "United States"
+   "Kirkland, WA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Kirkland, Washington",
+    "label": "Kirkland, Washington",
+    "value": "Kirkland, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 163000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 124733, 'maxValue': 187048, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:CMOS",
-    "label": "CMOS",
-    "value": "resume:CMOS"
+    "id": "resume:DFT",
+    "label": "DFT",
+    "value": "resume:DFT"
    },
    {
-    "id": "resume:Product Vision",
-    "label": "Product Vision",
-    "value": "resume:Product Vision"
+    "id": "resume:CAD",
+    "label": "CAD",
+    "value": "resume:CAD"
    },
    {
-    "id": "resume:Registered Nurse",
-    "label": "Registered Nurse",
-    "value": "resume:Registered Nurse"
+    "id": "resume:Altium Designer",
+    "label": "Altium Designer",
+    "value": "resume:Altium Designer"
    },
    {
-    "id": "resume:EHR",
-    "label": "EHR",
-    "value": "resume:EHR"
+    "id": "resume:Communication Protocols",
+    "label": "Communication Protocols",
+    "value": "resume:Communication Protocols"
    },
    {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:CMOS",
-    "label": "CMOS",
-    "value": "resume:CMOS"
+    "id": "resume:DFT",
+    "label": "DFT",
+    "value": "resume:DFT"
    },
    {
-    "id": "resume:Product Vision",
-    "label": "Product Vision",
-    "value": "resume:Product Vision"
+    "id": "resume:CAD",
+    "label": "CAD",
+    "value": "resume:CAD"
    },
    {
-    "id": "resume:Registered Nurse",
-    "label": "Registered Nurse",
-    "value": "resume:Registered Nurse"
+    "id": "resume:Altium Designer",
+    "label": "Altium Designer",
+    "value": "resume:Altium Designer"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:EHR",
-    "label": "EHR",
-    "value": "resume:EHR"
+    "id": "resume:Communication Protocols",
+    "label": "Communication Protocols",
+    "value": "resume:Communication Protocols"
    },
    {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Nursing",
-    "label": "Nursing",
-    "value": "resume:Nursing"
+    "id": "resume:Minitab",
+    "label": "Minitab",
+    "value": "resume:Minitab"
+   },
+   {
+    "id": "resume:Test Automation",
+    "label": "Test Automation",
+    "value": "resume:Test Automation"
+   },
+   {
+    "id": "resume:Statistical Analysis",
+    "label": "Statistical Analysis",
+    "value": "resume:Statistical Analysis"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -264,33 +294,49 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "Consumer Electronics",
+    "label": "Consumer Electronics",
+    "value": "Consumer Electronics"
+   },
+   {
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
+   },
+   {
+    "id": "Electrical/Electronic Manufacturing",
+    "label": "Electrical/Electronic Manufacturing",
+    "value": "Electrical/Electronic Manufacturing"
    }
   ],
-  "timeStamp": "2026-10-13T09:59:57Z",
-  "title": "Director, Clinical Product Management",
-  "url": "https://job-boards.greenhouse.io/strivehealth/jobs/4721458006",
-  "jobId": "4721458006",
-  "remote": true,
+  "timeStamp": "2026-10-13T18:56:42Z",
+  "title": "Sr Manufacturing Test Development Engineer",
+  "url": "https://job-boards.greenhouse.io/echodynecorp/jobs/4721644006",
+  "jobId": "4721644006",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1858364038808, 'matchScore': 0, 'ageScore': 0.9858364038807871, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1940601193785, 'matchScore': 0, 'ageScore': 0.9940601193784723, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior"
   ],
   "isFeatured": false
  },
