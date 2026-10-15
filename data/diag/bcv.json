@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-14T20:50:00Z",
+ "run": "2026-10-14T23:58:15Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef596ec41b95bc0cb702e6157205a2110525f0da\",\"date\":\"2026-10-12T23:51:02.536Z\"},\"server\":{\"git\":\"ef596ec41b95bc0cb702e6157205a2110525f0da\",\"date\":\"2026-10-12T23:51:02.536Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"},\"server\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "12V4oBhFme\u2026",
+  "session.sig": "hyjv9KxdZ2\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDk5MmI2NzBmNmMwY2YwYzk1N2NlMzI2MTllMDY5NGQiLCAic2NvcmUiOiAxLjEyMTg4NzY5MTg4NTgwMjV9"
+   "sequence": "eyJfaWQiOiAiOTQ3ZjliZTQ0NGRiMGQxODllYzFkMWQ5MzA0YWEyMWUiLCAic2NvcmUiOiAxLjExNzkxNDgyNzAzMzE3OX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -176,9 +176,9 @@
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "regulatory-affairs",
+    "label": "Regulatory Affairs",
+    "value": "regulatory-affairs"
    },
    {
     "id": "compliance-risk",
@@ -186,9 +186,9 @@
     "value": "compliance-risk"
    },
    {
-    "id": "regulatory-affairs",
-    "label": "Regulatory Affairs",
-    "value": "regulatory-affairs"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [
@@ -211,58 +211,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 147000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
-   },
-   {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
-   },
-   {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
-   },
-   {
-    "id": "resume:Taxes",
-    "label": "Taxes",
-    "value": "resume:Taxes"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
     "id": "resume:Knowledge Management",
     "label": "Knowledge Management",
     "value": "resume:Knowledge Management"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
-   },
-   {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Taxes",
-    "label": "Taxes",
-    "value": "resume:Taxes"
-   },
-   {
-    "id": "resume:Knowledge Management",
-    "label": "Knowledge Management",
-    "value": "resume:Knowledge Management"
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
    },
    {
     "id": "resume:Internal Audit",
@@ -270,14 +231,53 @@
     "value": "resume:Internal Audit"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Knowledge Management",
+    "label": "Knowledge Management",
+    "value": "resume:Knowledge Management"
+   },
+   {
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Internal Audit",
+    "label": "Internal Audit",
+    "value": "resume:Internal Audit"
+   },
+   {
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
+   },
+   {
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
+   },
+   {
+    "id": "resume:SOX",
+    "label": "SOX",
+    "value": "resume:SOX"
+   },
+   {
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    }
   ],
   "manager": true,
@@ -296,14 +296,9 @@
   "minYearsExp": 10,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "East Coast",
@@ -311,9 +306,14 @@
     "value": "East Coast"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -341,7 +341,7 @@
   "jobId": "8257440",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1901147530598, 'matchScore': 0, 'ageScore': 0.9901147530597993, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1858645121594, 'matchScore': 0, 'ageScore': 0.9858645121593365, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-14T20:50:00Z",
+ "run": "2026-10-14T23:58:15Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef596ec41b95bc0cb702e6157205a2110525f0da\",\"date\":\"2026-10-12T23:51:02.536Z\"},\"server\":{\"git\":\"ef596ec41b95bc0cb702e6157205a2110525f0da\",\"date\":\"2026-10-12T23:51:02.536Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"},\"server\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "MOmlq2g3B7\u2026",
+  "session.sig": "5TxeB1Xujg\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzU3NWMxOWVmNmUzNzVlYjhkODVkNDRkMDM4N2FiODIiLCAic2NvcmUiOiAxLjAyOTAxMjk3MTU0NDc1MzF9"
+   "sequence": "eyJfaWQiOiAiNjM2NzAwZjdhOWU3Y2UyZTQzZDU5OTdiOGMzOGVmZTgiLCAic2NvcmUiOiAxLjAyNjkzNTk0MTQzMjg3MDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -166,24 +166,24 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
-   },
-   {
     "id": "procurement",
     "label": "Procurement Manager",
     "value": "procurement"
    },
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
    },
    {
     "id": "sales-professional",
     "label": "Sales Professional",
     "value": "sales-professional"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    }
   ],
   "jobFunctions": [
@@ -211,19 +211,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 185000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Supply side",
-    "label": "Supply side",
-    "value": "resume:Supply side"
+    "id": "resume:Packaging",
+    "label": "Packaging",
+    "value": "resume:Packaging"
    },
    {
     "id": "resume:CRM",
@@ -231,48 +221,58 @@
     "value": "resume:CRM"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Supply side",
+    "label": "Supply side",
+    "value": "resume:Supply side"
+   },
+   {
+    "id": "resume:Credit Risk",
+    "label": "Credit Risk",
+    "value": "resume:Credit Risk"
    }
   ],
   "requiredSkills": [
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Supply side",
-    "label": "Supply side",
-    "value": "resume:Supply side"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
-   },
-   {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
-   },
    {
     "id": "resume:Packaging",
     "label": "Packaging",
     "value": "resume:Packaging"
    },
    {
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Supply side",
+    "label": "Supply side",
+    "value": "resume:Supply side"
+   },
+   {
     "id": "resume:Credit Risk",
     "label": "Credit Risk",
     "value": "resume:Credit Risk"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
     "id": "resume:Financial Services",
@@ -317,7 +317,7 @@
   "jobId": "job_20261013220714_KKF0HNI1BFAZSXW6",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1877568988249, 'matchScore': 0, 'ageScore': 0.9877568988248456, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1836195211497, 'matchScore': 0, 'ageScore': 0.9836195211496913, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

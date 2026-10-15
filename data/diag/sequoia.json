@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-14T20:50:00Z",
+ "run": "2026-10-14T23:58:15Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef596ec41b95bc0cb702e6157205a2110525f0da\",\"date\":\"2026-10-12T23:51:02.536Z\"},\"server\":{\"git\":\"ef596ec41b95bc0cb702e6157205a2110525f0da\",\"date\":\"2026-10-12T23:51:02.536Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"},\"server\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TbEMRSwUpU\u2026",
+  "session.sig": "G35gh_pdbC\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGI3MTcxMGUyYjNlZmZmMjM2NzZmOGM2ZTgzNTk5ZGYiLCAic2NvcmUiOiAxLjEzMDY1OTU3NjQ1MDYxNzN9"
+   "sequence": "eyJfaWQiOiAiOGI3MTcxMGUyYjNlZmZmMjM2NzZmOGM2ZTgzNTk5ZGYiLCAic2NvcmUiOiAxLjEyNzA5NTU0NjI3ODkzNTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "solutions-architect",
-    "label": "Solutions Architect",
-    "value": "solutions-architect"
-   },
-   {
     "id": "sales-engineer",
     "label": "Sales Engineer",
     "value": "sales-engineer"
+   },
+   {
+    "id": "solutions-architect",
+    "label": "Solutions Architect",
+    "value": "solutions-architect"
    },
    {
     "id": "partner",
@@ -203,63 +203,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 204000, 'maxValue': 244000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Prometheus",
-    "label": "Prometheus",
-    "value": "resume:Prometheus"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
-   },
-   {
     "id": "resume:Global Teams",
     "label": "Global Teams",
     "value": "resume:Global Teams"
    },
    {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Prometheus",
-    "label": "Prometheus",
-    "value": "resume:Prometheus"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Global Teams",
-    "label": "Global Teams",
-    "value": "resume:Global Teams"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Pre-sales",
-    "label": "Pre-sales",
-    "value": "resume:Pre-sales"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
     "id": "resume:Enablement",
@@ -267,9 +218,58 @@
     "value": "resume:Enablement"
    },
    {
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
+   },
+   {
+    "id": "resume:Grafana",
+    "label": "Grafana",
+    "value": "resume:Grafana"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Global Teams",
+    "label": "Global Teams",
+    "value": "resume:Global Teams"
+   },
+   {
     "id": "resume:Kubernetes",
     "label": "Kubernetes",
     "value": "resume:Kubernetes"
+   },
+   {
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
+   },
+   {
+    "id": "resume:Grafana",
+    "label": "Grafana",
+    "value": "resume:Grafana"
+   },
+   {
+    "id": "resume:MEDDIC",
+    "label": "MEDDIC",
+    "value": "resume:MEDDIC"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Pre-sales",
+    "label": "Pre-sales",
+    "value": "resume:Pre-sales"
    }
   ],
   "manager": false,
@@ -319,7 +319,7 @@
   "jobId": "6222975004",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1892416673453, 'matchScore': 0, 'ageScore': 0.9892416673452932, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1853345369336, 'matchScore': 0, 'ageScore': 0.9853345369336419, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
