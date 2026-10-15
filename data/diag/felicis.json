@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-15T04:53:05Z",
+ "run": "2026-10-15T10:06:09Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "0XysmcyHNI\u2026",
+  "session.sig": "_iMCA9rINi\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTk0ZmNjYzM2NzRmMDM4YWQ0ZDFkNjVkOTlkYWE1NGYiLCAic2NvcmUiOiAxLjA0MjU5OTYyNjg1NjQ4MTR9"
+   "sequence": "eyJfaWQiOiAiYWUwNGJkNDFlNzU2ZTNiYmIwNThmNjU4OTI5ZTQ0NDEiLCAic2NvcmUiOiAxLjEwMzQ4MjE3OTc0MDM1NX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -147,107 +147,127 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/5265168007",
-  "companyDomain": "verkada.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8fef24f24d7f5794eed4923eb25b16ff_304_160?Expires=1861920000&Signature=GrVmnkwsr5pViGdcRkXENC1~-cN3J7WMdPab~Q947Jpu8OsXzdwLQ",
-  "companyId": "Verkada",
-  "companySlug": "verkada",
-  "companyName": "Verkada",
-  "companyStaffCount": 2877,
+  "applyUrl": "https://job-boards.greenhouse.io/attentive/jobs/4452679009",
+  "companyDomain": "attentive.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/88a5117e28aafa73bc3d54348423db73_246_160?Expires=1861920000&Signature=X6wvf6WxxkIVi~v0cqwJwGhqmbHL5ZbfYy5le5JCogdefHOIkZXy3",
+  "companyId": "Attentive",
+  "companySlug": "attentive",
+  "companyName": "Attentive Mobile",
+  "companyStaffCount": 1598,
   "considerHosted": false,
   "departments": [
-   "Pricing and Commercial Operations"
+   "Finance"
   ],
-  "jobTypes": [],
+  "jobTypes": [
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "compensation-manager",
+    "label": "Compensation Manager",
+    "value": "compensation-manager"
+   }
+  ],
   "jobFunctions": [],
   "locations": [
-   "San Mateo, CA United States"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "San Mateo, California",
-    "label": "San Mateo, California",
-    "value": "San Mateo, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 270000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "resume:Enterprise Software"
+    "id": "resume:Xactly Incent",
+    "label": "Xactly Incent",
+    "value": "resume:Xactly Incent"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
+   },
+   {
+    "id": "resume:Revenue Operations",
+    "label": "Revenue Operations",
+    "value": "resume:Revenue Operations"
    },
    {
     "id": "resume:Finance",
     "label": "Finance",
     "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
-   },
-   {
-    "id": "resume:Process Flow Documentation",
-    "label": "Process Flow Documentation",
-    "value": "resume:Process Flow Documentation"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "resume:Enterprise Software"
+    "id": "resume:Xactly Incent",
+    "label": "Xactly Incent",
+    "value": "resume:Xactly Incent"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Revenue Operations",
+    "label": "Revenue Operations",
+    "value": "resume:Revenue Operations"
    },
    {
     "id": "resume:Finance",
     "label": "Finance",
     "value": "resume:Finance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
    },
    {
-    "id": "resume:Process Flow Documentation",
-    "label": "Process Flow Documentation",
-    "value": "resume:Process Flow Documentation"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
+   },
+   {
+    "id": "resume:ICM",
+    "label": "ICM",
+    "value": "resume:ICM"
+   },
+   {
+    "id": "resume:Incentive Programs",
+    "label": "Incentive Programs",
+    "value": "resume:Incentive Programs"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    5,
+    6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 4,
+  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -269,34 +289,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Consumer Electronics",
-    "label": "Consumer Electronics",
-    "value": "Consumer Electronics"
-   },
-   {
-    "id": "Hardware",
-    "label": "Hardware",
-    "value": "Hardware"
+    "id": "Marketing and Advertising",
+    "label": "Marketing and Advertising",
+    "value": "Marketing and Advertising"
    }
   ],
-  "timeStamp": "2026-10-14T18:35:56Z",
-  "title": "Senior Associate, Pricing & Commercial Operations",
-  "url": "https://job-boards.greenhouse.io/verkada/jobs/5265168007",
-  "jobId": "5265168007",
-  "remote": false,
+  "timeStamp": "2026-10-15T01:08:05Z",
+  "title": "Director, Incentive Compensation",
+  "url": "https://job-boards.greenhouse.io/attentive/jobs/4452679009",
+  "jobId": "4452679009",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1931001060124, 'matchScore': 0, 'ageScore': 0.9931001060123457, 'richnessScore': 2}",
+  "scores": "{'score': 1001.18938752476, 'matchScore': 0, 'ageScore': 0.9893875247600309, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "director"
   ],
   "isFeatured": false
  },
