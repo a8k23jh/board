@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-15T15:07:55Z",
+ "run": "2026-10-15T19:15:19Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "IZrDFtpErJ\u2026",
+  "session.sig": "1-q1M5Ro0H\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWUwNGJkNDFlNzU2ZTNiYmIwNThmNjU4OTI5ZTQ0NDEiLCAic2NvcmUiOiAxLjA5NTcwMzMwMTMyNzE2MDR9"
+   "sequence": "eyJfaWQiOiAiYWUwNGJkNDFlNzU2ZTNiYmIwNThmNjU4OTI5ZTQ0NDEiLCAic2NvcmUiOiAxLjA5MDg0NTAwNTc1NzcxNjF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,110 +147,116 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/attentive/jobs/4452679009",
-  "companyDomain": "attentive.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/88a5117e28aafa73bc3d54348423db73_246_160?Expires=1861920000&Signature=X6wvf6WxxkIVi~v0cqwJwGhqmbHL5ZbfYy5le5JCogdefHOIkZXy3",
-  "companyId": "Attentive",
-  "companySlug": "attentive",
-  "companyName": "Attentive Mobile",
-  "companyStaffCount": 1598,
+  "applyUrl": "https://jobs.lever.co/orcabiosystems/2a8bb8b5-09bb-45d5-b5d9-9da412f1d992?lever-source%5B%5D=jobs.felicis.com",
+  "companyDomain": "orcabio.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/57f096748d0755a61625cce65323397d_304_160?Expires=1861920000&Signature=VK3GmGTzObzyLIYDtNSLvipDrisWDOUjEteC6K0~t5Y1y80Djz9g2",
+  "companyId": "Orca Bio",
+  "companySlug": "orca-bio",
+  "companyName": "Orca Bio",
+  "companyStaffCount": 288,
   "considerHosted": false,
   "departments": [
-   "Finance"
+   "Manufacturing"
   ],
   "jobTypes": [
+   {
+    "id": "supply-logistics",
+    "label": "Supply/Logistics",
+    "value": "supply-logistics"
+   },
    {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
-   },
-   {
-    "id": "compensation-manager",
-    "label": "Compensation Manager",
-    "value": "compensation-manager"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Supply Chain",
+    "label": "Supply Chain",
+    "value": "Supply Chain"
+   }
+  ],
   "locations": [
-   "United States"
+   "Sacramento, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Sacramento, California",
+    "label": "Sacramento, California",
+    "value": "Sacramento, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 270000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 145000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Inventory Management",
+    "label": "Inventory Management",
+    "value": "resume:Inventory Management"
    },
    {
-    "id": "resume:Incentive Programs",
-    "label": "Incentive Programs",
-    "value": "resume:Incentive Programs"
+    "id": "resume:Warehouse Operations",
+    "label": "Warehouse Operations",
+    "value": "resume:Warehouse Operations"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Xactly Incent",
-    "label": "Xactly Incent",
-    "value": "resume:Xactly Incent"
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    },
    {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
+    "id": "resume:Gene Therapy",
+    "label": "Gene Therapy",
+    "value": "resume:Gene Therapy"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Inventory Management",
+    "label": "Inventory Management",
+    "value": "resume:Inventory Management"
    },
    {
-    "id": "resume:Incentive Programs",
-    "label": "Incentive Programs",
-    "value": "resume:Incentive Programs"
+    "id": "resume:Warehouse Operations",
+    "label": "Warehouse Operations",
+    "value": "resume:Warehouse Operations"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Xactly Incent",
-    "label": "Xactly Incent",
-    "value": "resume:Xactly Incent"
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    },
    {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
+    "id": "resume:Gene Therapy",
+    "label": "Gene Therapy",
+    "value": "resume:Gene Therapy"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Cancer Biology",
+    "label": "Cancer Biology",
+    "value": "resume:Cancer Biology"
    },
    {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
+    "id": "resume:GMP",
+    "label": "GMP",
+    "value": "resume:GMP"
    },
    {
-    "id": "resume:ICM",
-    "label": "ICM",
-    "value": "resume:ICM"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "manager": true,
@@ -258,27 +264,37 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -289,29 +305,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Marketing and Advertising",
-    "label": "Marketing and Advertising",
-    "value": "Marketing and Advertising"
+    "id": "Biotech/Pharma",
+    "label": "Biotech/Pharma",
+    "value": "Biotech/Pharma"
+   },
+   {
+    "id": "Pharmaceuticals",
+    "label": "Pharmaceuticals",
+    "value": "Pharmaceuticals"
    }
   ],
-  "timeStamp": "2026-10-15T01:08:05Z",
-  "title": "Director, Incentive Compensation",
-  "url": "https://job-boards.greenhouse.io/attentive/jobs/4452679009",
-  "jobId": "4452679009",
-  "remote": true,
+  "timeStamp": "2026-10-15T15:41:38.842000Z",
+  "title": "Manager, Warehouse",
+  "url": "https://jobs.lever.co/orcabiosystems/2a8bb8b5-09bb-45d5-b5d9-9da412f1d992",
+  "jobId": "2a8bb8b5-09bb-45d5-b5d9-9da412f1d992",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1818555217453, 'matchScore': 0, 'ageScore': 0.9818555217453704, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1980141654583, 'matchScore': 0, 'ageScore': 0.9980141654583333, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "manager"
   ],
   "isFeatured": false
  },

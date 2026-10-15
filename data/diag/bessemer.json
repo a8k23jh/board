@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-15T15:07:55Z",
+ "run": "2026-10-15T19:15:19Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "2Fi16FAyoW\u2026",
+  "session.sig": "N2k4dFI9eu\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjlmNWI0ZmRkYjUwMGQxYzM4MjQ1NmE4MGRhYWZjODAiLCAic2NvcmUiOiAxLjExNzQ2ODk3NjIyMDY3OX0="
+   "sequence": "eyJfaWQiOiAiMDZiNDEzM2FlOTNiYWMzZjNhM2RiNGU0YjdkMzk2NzgiLCAic2NvcmUiOiAxLjEwOTQ5ODkxMzM1NjQ4MTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,105 +152,122 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8acda1103fbd6f4f013fd5511ea10fcd&parentUrl=https%3A%2F%2Fwww.criadv.com%2Fcareer-opportunities%2F%3Fgnk%3Djob&gni=8a78839ea13353c501a13b9d34c80400&lang=en&id=8a78839ea13353c501a13b9d34c80400",
-  "companyDomain": "criadv.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7ec5931f04b6de3c88a053e59b4cae18_240_160?Expires=1861920000&Signature=smuBifykIDewwS2wMUlJ4KUadOUldFfZwmGf-AGc7TTcgcDmR5qwK",
-  "companyId": "Carr Riggs Ingram",
-  "companySlug": "carr-riggs-ingram",
-  "companyName": "Carr, Riggs & Ingram",
-  "companyStaffCount": 2141,
+  "applyUrl": "https://job-boards.greenhouse.io/launchdarkly/jobs/8034251003",
+  "companyDomain": "launchdarkly.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2f5ea540340c48bfe200724851e9cdd2_312_160?Expires=1861920000&Signature=sqp2Pph~Ep67VMcw3HhZ1brHNkWCkUSN0LUilGpv~COxMOTPTdjz0",
+  "companyId": "LaunchDarkly",
+  "companySlug": "launchdarkly",
+  "companyName": "LaunchDarkly",
+  "companyStaffCount": 685,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Customer Success"
+  ],
   "jobTypes": [
    {
-    "id": "audit",
-    "label": "Audit Manager",
-    "value": "audit"
+    "id": "customer-success-mananger",
+    "label": "Customer Success Manager",
+    "value": "customer-success-mananger"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Auditing",
-    "label": "Auditing",
-    "value": "Auditing"
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
    }
   ],
   "locations": [
-   "New York, NY"
+   "Remote - US"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 115000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 171200, 'maxValue': 171200, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Operational audits",
-    "label": "Operational Auditing",
-    "value": "resume:Operational audits"
+    "id": "resume:Trusted Advisor",
+    "label": "Trusted Advisor",
+    "value": "resume:Trusted Advisor"
    },
    {
-    "id": "resume:Nonprofits",
-    "label": "Nonprofits",
-    "value": "resume:Nonprofits"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    },
    {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
+    "id": "resume:Customer Onboarding",
+    "label": "Customer Onboarding",
+    "value": "resume:Customer Onboarding"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Executive Relationships",
+    "label": "Executive Relationships",
+    "value": "resume:Executive Relationships"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Operational audits",
-    "label": "Operational Auditing",
-    "value": "resume:Operational audits"
+    "id": "resume:Trusted Advisor",
+    "label": "Trusted Advisor",
+    "value": "resume:Trusted Advisor"
    },
    {
-    "id": "resume:Nonprofits",
-    "label": "Nonprofits",
-    "value": "resume:Nonprofits"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
+    "id": "resume:Customer Onboarding",
+    "label": "Customer Onboarding",
+    "value": "resume:Customer Onboarding"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Executive Relationships",
+    "label": "Executive Relationships",
+    "value": "resume:Executive Relationships"
+   },
+   {
+    "id": "resume:DevOps",
+    "label": "DevOps",
+    "value": "resume:DevOps"
+   },
+   {
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
+   },
+   {
+    "id": "resume:Command of the Message",
+    "label": "Command of the Message",
+    "value": "resume:Command of the Message"
    }
   ],
   "manager": false,
@@ -266,65 +283,52 @@
     6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Business Services",
-    "label": "Business Services",
-    "value": "Business Services"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Management Consulting",
-    "label": "Management Consulting",
-    "value": "Management Consulting"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-10-15T05:58:38Z",
-  "title": "Senior Associate, Audit",
-  "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8acda1103fbd6f4f013fd5511ea10fcd&parentUrl=https%3A%2F%2Fwww.criadv.com%2Fcareer-opportunities%2F%3Fgnk%3Djob&gni=8a78839ea13353c501a13b9d34c80400&lang=en&id=8a78839ea13353c501a13b9d34c80400",
-  "jobId": "8a78839ea13353c501a13b9d34c80400",
-  "remote": false,
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
+   }
+  ],
+  "timeStamp": "2026-10-15T11:28:44Z",
+  "title": "Strategic Customer Success Manager",
+  "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/8034251003",
+  "jobId": "8034251003",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1917795578198, 'matchScore': 0, 'ageScore': 0.9917795578198303, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1914913670856, 'matchScore': 0, 'ageScore': 0.9914913670856481, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },

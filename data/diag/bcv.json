@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-15T15:07:55Z",
+ "run": "2026-10-15T19:15:19Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "byQWHCzGSj\u2026",
+  "session.sig": "QNA-EqkDM6\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmMyNjBhY2U0YjQ4ZjRiMzZmYTE5MWEwODI5NDg2YTAiLCAic2NvcmUiOiAxLjExNzQxNzY3Mzc2OTI5fQ=="
+   "sequence": "eyJfaWQiOiAiM2NlYzA1YTgzOTU5MzMzZjg3YzA1NzgzZjhhMzk4ZjgiLCAic2NvcmUiOiAxLjEwOTI1MzE4NzM1NDkzODN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,142 +152,163 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/attentive/jobs/4452679009",
-  "companyDomain": "attentive.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/88a5117e28aafa73bc3d54348423db73_246_160?Expires=1861920000&Signature=X6wvf6WxxkIVi~v0cqwJwGhqmbHL5ZbfYy5le5JCogdefHOIkZXy3",
-  "companyId": "Attentive",
-  "companySlug": "attentive",
-  "companyName": "Attentive Mobile",
-  "companyStaffCount": 1598,
+  "applyUrl": "https://boards.greenhouse.io/justworks/jobs/8267509?gh_jid=8267509",
+  "companyDomain": "justworks.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/53b0732e2508296561b7994e981e9873_256_160?Expires=1861920000&Signature=jpUYCUzpRAbunynZAa39zYnehCkOtBPQxtKwFu~wstUHTfmFkK59E",
+  "companyId": "Justworks",
+  "companySlug": "justworks",
+  "companyName": "Justworks",
+  "companyStaffCount": 1669,
   "considerHosted": false,
   "departments": [
-   "Finance"
+   "Revenue Effectiveness"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "marketing-ops",
+    "label": "Marketing Operations",
+    "value": "marketing-ops"
    },
    {
-    "id": "compensation-manager",
-    "label": "Compensation Manager",
-    "value": "compensation-manager"
+    "id": "marketing-engagement",
+    "label": "Marketing Engagement",
+    "value": "marketing-engagement"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   }
+  ],
   "locations": [
-   "United States"
+   "New York, New York"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 270000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 121000, 'maxValue': 151000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Marketing Automation",
+    "label": "Marketing Automation",
+    "value": "resume:Marketing Automation"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Marketing Operations",
+    "label": "Marketing Operations",
+    "value": "resume:Marketing Operations"
    },
    {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
+    "id": "resume:Customer Engagement",
+    "label": "Customer Engagement",
+    "value": "resume:Customer Engagement"
    },
    {
-    "id": "resume:ICM",
-    "label": "ICM",
-    "value": "resume:ICM"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Marketing Automation",
+    "label": "Marketing Automation",
+    "value": "resume:Marketing Automation"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Marketing Operations",
+    "label": "Marketing Operations",
+    "value": "resume:Marketing Operations"
    },
    {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
+    "id": "resume:Customer Engagement",
+    "label": "Customer Engagement",
+    "value": "resume:Customer Engagement"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:ICM",
-    "label": "ICM",
-    "value": "resume:ICM"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Revenue Operations",
+    "label": "Revenue Operations",
+    "value": "resume:Revenue Operations"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    },
    {
-    "id": "resume:Bookings",
-    "label": "Bookings",
-    "value": "resume:Bookings"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
+  "minYearsExp": 6,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -295,39 +316,38 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Marketing and Advertising",
-    "label": "Marketing and Advertising",
-    "value": "Marketing and Advertising"
+    "id": "Future of Work",
+    "label": "Future of Work",
+    "value": "Future of Work"
+   },
+   {
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-10-15T01:08:05Z",
-  "title": "Director, Incentive Compensation",
-  "url": "https://job-boards.greenhouse.io/attentive/jobs/4452679009",
-  "jobId": "4452679009",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1853889926023, 'matchScore': 0, 'ageScore': 0.9853889926022377, 'richnessScore': 2}",
+  "timeStamp": "2026-10-15T10:38:08Z",
+  "title": "Marketing Operations Manager \u2014 Funnel & Lifecycle",
+  "url": "https://boards.greenhouse.io/justworks/jobs/8267509?gh_jid=8267509",
+  "jobId": "8267509",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1907026271189, 'matchScore': 0, 'ageScore': 0.9907026271188272, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "manager"
   ],
   "isFeatured": false
  },

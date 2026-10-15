@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-15T15:07:55Z",
+ "run": "2026-10-15T19:15:19Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "_WzFTkQG4c\u2026",
+  "session.sig": "xC8egjYsIR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTQwMzE4MzhmNTE3ZjczZWNiMDdmOGFiMDBkY2IyYmUiLCAic2NvcmUiOiAxLjE0NjI2MjI1NzQ1MzcwMzh9"
+   "sequence": "eyJfaWQiOiAiNjEwYmZiMTAwMjdhZjEyMWYwZGY2M2JhYzlkNzY5NTQiLCAic2NvcmUiOiAxLjEzODUzNDcxOTU1OTAyNzl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,183 +144,197 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/bigpanda/am9icG9zdDozF0UOUIMsDXu8qIjuP1QF?utm_source=jobs.sequoiacap.com",
-  "companyDomain": "bigpanda.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/379a2d633ca42e464b33e9fb7676ec48_288_160?Expires=1861920000&Signature=lwSqcN9QQMuxHrM53UKktEJy3sYioHgxbMl41-H4pIbH~LCrfo4gx",
-  "companyId": "BigPanda",
-  "companySlug": "bigpanda",
-  "companyName": "BigPanda",
-  "companyStaffCount": 330,
+  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8282187",
+  "companyDomain": "reddit.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
+  "companyId": "Reddit",
+  "companySlug": "reddit",
+  "companyName": "reddit",
+  "companyStaffCount": 4495,
   "considerHosted": false,
   "departments": [
-   "Business Operations"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "product-operations",
-    "label": "Strategy & Product Operations",
-    "value": "product-operations"
+    "id": "manager-solutions-architect",
+    "label": "Manager Solutions Architects",
+    "value": "manager-solutions-architect"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Supply Chain",
-    "label": "Supply Chain",
-    "value": "Supply Chain"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "USA"
+   "Chicago, IL",
+   "New York City, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 136000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 132600, 'maxValue': 185600, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Agenda",
-    "label": "Agenda",
-    "value": "resume:Agenda"
+    "id": "resume:Developer Tools",
+    "label": "Developer Tools",
+    "value": "resume:Developer Tools"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:API Testing",
+    "label": "API Testing",
+    "value": "resume:API Testing"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:SDK",
+    "label": "SDK",
+    "value": "resume:SDK"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Agenda",
-    "label": "Agenda",
-    "value": "resume:Agenda"
+    "id": "resume:Developer Tools",
+    "label": "Developer Tools",
+    "value": "resume:Developer Tools"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:API Testing",
+    "label": "API Testing",
+    "value": "resume:API Testing"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:SDK",
+    "label": "SDK",
+    "value": "resume:SDK"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Mobile",
+    "label": "Mobile",
+    "value": "resume:Mobile"
    },
    {
-    "id": "resume:Career Counseling",
-    "label": "Career Counseling",
-    "value": "resume:Career Counseling"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Advertising",
+    "label": "Advertising",
+    "value": "resume:Advertising"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 4,
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
    },
    {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
-   },
-   {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Social Networking",
+    "label": "Social Networking",
+    "value": "Social Networking"
    }
   ],
-  "timeStamp": "2026-10-15T05:58:04Z",
-  "title": "Product Operations Manager, Launch Readiness & Tooling",
-  "url": "https://jobs.gem.com/bigpanda/am9icG9zdDozF0UOUIMsDXu8qIjuP1QF",
-  "jobId": "am9icG9zdDozF0UOUIMsDXu8qIjuP1QF",
-  "remote": true,
+  "timeStamp": "2026-10-15T11:40:02Z",
+  "title": "Technical Solutions Manager, App Ads",
+  "url": "https://job-boards.greenhouse.io/reddit/jobs/8282187",
+  "jobId": "8282187",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1923883982133, 'matchScore': 0, 'ageScore': 0.9923883982133488, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1916206928854, 'matchScore': 0, 'ageScore': 0.9916206928854167, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
