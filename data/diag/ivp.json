@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-16T12:35:03Z",
+ "run": "2026-10-16T17:31:56Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "HIzb4tcXDz\u2026",
+  "session.sig": "82bWFtiuFx\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWE5NGUwN2M0OTA4YTE0YTMyNzJlYWFmM2NkYTE0ZjUiLCAic2NvcmUiOiAxLjEyMTIzMzg5MTEwMjYyMzR9"
+   "sequence": "eyJfaWQiOiAiOWViOTgwMjIxZTExZWZjMmUzOTU2ZGZmOTRhY2I5NGMiLCAic2NvcmUiOiAxLjExMzA2NzkyOTI0ODA3MX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,14 +152,14 @@
   ],
   "jobTypes": [
    {
-    "id": "business-ops",
-    "label": "Business Operations",
-    "value": "business-ops"
-   },
-   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
+   },
+   {
+    "id": "business-ops",
+    "label": "Business Operations",
+    "value": "business-ops"
    }
   ],
   "jobFunctions": [
@@ -182,73 +182,73 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 287000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    },
    {
-    "id": "resume:Business Intelligence",
-    "label": "Business Intelligence",
-    "value": "resume:Business Intelligence"
+    "id": "resume:Statistics",
+    "label": "Statistics",
+    "value": "resume:Statistics"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   },
+   {
+    "id": "resume:EDA",
+    "label": "EDA",
+    "value": "resume:EDA"
    },
    {
     "id": "resume:Peer to Peer",
     "label": "Peer to Peer",
     "value": "resume:Peer to Peer"
-   },
-   {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
-   },
-   {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    },
    {
-    "id": "resume:Business Intelligence",
-    "label": "Business Intelligence",
-    "value": "resume:Business Intelligence"
+    "id": "resume:Statistics",
+    "label": "Statistics",
+    "value": "resume:Statistics"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:EDA",
+    "label": "EDA",
+    "value": "resume:EDA"
    },
    {
     "id": "resume:Peer to Peer",
     "label": "Peer to Peer",
     "value": "resume:Peer to Peer"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
    },
    {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
+    "id": "resume:Root Cause Analysis",
+    "label": "Root Cause Analysis",
+    "value": "resume:Root Cause Analysis"
    },
    {
-    "id": "resume:CCPA",
-    "label": "CCPA",
-    "value": "resume:CCPA"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
-   },
-   {
-    "id": "resume:Credit Cards",
-    "label": "Credit Cards",
-    "value": "resume:Credit Cards"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    }
   ],
   "manager": true,
@@ -267,11 +267,6 @@
   "minYearsExp": 10,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -280,6 +275,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -302,7 +302,7 @@
   "jobId": "b8951dba-7c07-48e6-8b8a-8030d242ec57",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1886413601404, 'matchScore': 0, 'ageScore': 0.9886413601404321, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1803513220544, 'matchScore': 0, 'ageScore': 0.9803513220543981, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

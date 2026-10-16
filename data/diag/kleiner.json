@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-16T12:35:03Z",
+ "run": "2026-10-16T17:31:56Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ivEW0xdeUV\u2026",
+  "session.sig": "xcVwpUDXsu\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDRiNzRjYTRiYzhiNDFkYjY0MTVmZTcyNTBkZjFmNmMiLCAic2NvcmUiOiAxLjA5OTQxMzE5MDEzMzEwMn0="
+   "sequence": "eyJfaWQiOiAiMTQyZmQwMmMyMGQ2ZTcwZTQ4YjkwOTYxYzA3YjgyZDQiLCAic2NvcmUiOiAxLjA4MDI4NzQxOTY0ODE0ODJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/togetherai/jobs/5238469007",
+  "applyUrl": "https://job-boards.greenhouse.io/togetherai/jobs/5238471007",
   "companyDomain": "together.ai",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ab310562763eeec1a870bd57b0a9704b_256_160?Expires=1861920000&Signature=DqaWvH3vUeF1a7rLhZrorwzEHn6S-ol3vJVqmfO9AkN~8UuCFWnkz",
   "companyId": "Together AI",
@@ -168,24 +168,19 @@
   ],
   "jobTypes": [
    {
-    "id": "security-professional",
-    "label": "Security Professional",
-    "value": "security-professional"
-   },
-   {
     "id": "security-engineer",
     "label": "Security Engineer",
     "value": "security-engineer"
    },
    {
-    "id": "school-student",
-    "label": "Intern",
-    "value": "school-student"
-   },
-   {
     "id": "hardware-engineer",
     "label": "Hardware Engineer",
     "value": "hardware-engineer"
+   },
+   {
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
    }
   ],
   "jobFunctions": [
@@ -205,17 +200,17 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 58, 'maxValue': 58, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
    {
     "id": "resume:Networking",
     "label": "Networking Technologies",
     "value": "resume:Networking"
+   },
+   {
+    "id": "resume:Computer Architecture",
+    "label": "Computer Architecture",
+    "value": "resume:Computer Architecture"
    },
    {
     "id": "resume:Operating Systems",
@@ -223,9 +218,9 @@
     "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:Embedded Systems",
-    "label": "Embedded Systems",
-    "value": "resume:Embedded Systems"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Bash",
@@ -235,14 +230,14 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
-   {
     "id": "resume:Networking",
     "label": "Networking Technologies",
     "value": "resume:Networking"
+   },
+   {
+    "id": "resume:Computer Architecture",
+    "label": "Computer Architecture",
+    "value": "resume:Computer Architecture"
    },
    {
     "id": "resume:Operating Systems",
@@ -252,9 +247,9 @@
   ],
   "preferredSkills": [
    {
-    "id": "resume:Embedded Systems",
-    "label": "Embedded Systems",
-    "value": "resume:Embedded Systems"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Bash",
@@ -262,14 +257,14 @@
     "value": "resume:Bash"
    },
    {
-    "id": "resume:Computer Architecture",
-    "label": "Computer Architecture",
-    "value": "resume:Computer Architecture"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Embedded Systems",
+    "label": "Embedded Systems",
+    "value": "resume:Embedded Systems"
    }
   ],
   "manager": false,
@@ -287,11 +282,6 @@
   ],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -300,6 +290,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -322,24 +317,24 @@
     "value": "AI/ML"
    }
   ],
-  "timeStamp": "2026-10-16T00:33:08Z",
-  "title": "Hardware Security Engineer Intern (Summer 2027)",
-  "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238469007",
-  "jobId": "5238469007",
+  "timeStamp": "2026-10-16T00:32:37Z",
+  "title": "Hardware Security Engineer, New Grad (2027)",
+  "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238471007",
+  "jobId": "5238471007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1888493341543, 'matchScore': 0, 'ageScore': 0.988849334154321, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1804133779938, 'matchScore': 0, 'ageScore': 0.9804133779938271, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "intern",
-    "label": "Intern",
-    "value": "intern"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "intern"
+   "mid"
   ],
   "isFeatured": false
  },
