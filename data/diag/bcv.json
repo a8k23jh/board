@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-16T17:31:56Z",
+ "run": "2026-10-16T21:24:12Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "voljv-H2Wi\u2026",
+  "session.sig": "Gx0Kj8yGO0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYThkODg2MmZjNDc4ODAyNWFmMjUyNDQ4MDgxNTMwN2MiLCAic2NvcmUiOiAxLjEyNzA2NzUzMjQ5MzgyN30="
+   "sequence": "eyJfaWQiOiAiMGMwYTY5ZTQzZGIxZTc0ZDk4ZmIyYTM3ODE2OWU5NTQiLCAic2NvcmUiOiAxLjEzMDA0NTUwMzcyMDI5MzJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.docusign.com/jobs/30553?lang=en-us",
+  "applyUrl": "https://careers.docusign.com/jobs/30454?lang=en-us",
   "companyDomain": "docusign.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
   "companyId": "DocuSign",
@@ -174,117 +174,143 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "gtm",
+    "label": "GTM",
+    "value": "gtm"
+   },
+   {
+    "id": "sales-enablement",
+    "label": "Sales Enablement",
+    "value": "sales-enablement"
+   },
+   {
+    "id": "school-student",
+    "label": "Intern",
+    "value": "school-student"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "San Francisco, California"
+   "Seattle, Washington"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 212100, 'maxValue': 342650, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 48, 'maxValue': 52, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Emerging Technologies",
-    "label": "Emerging Technologies",
-    "value": "resume:Emerging Technologies"
+    "id": "resume:Decision Tree",
+    "label": "Decision Trees",
+    "value": "resume:Decision Tree"
    },
    {
-    "id": "resume:Budgeting",
-    "label": "Budgeting",
-    "value": "resume:Budgeting"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    },
    {
-    "id": "resume:Town Halls/Forums",
-    "label": "Town Halls/Forums",
-    "value": "resume:Town Halls/Forums"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
    ]
   ],
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "North America",
@@ -306,24 +332,24 @@
     "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-10-15T20:52:01Z",
-  "title": "Sr. Director, ABM",
-  "url": "https://careers.docusign.com/jobs/30553?lang=en-us",
-  "jobId": "30553",
+  "timeStamp": "2026-10-16T14:13:02Z",
+  "title": "GTM Enablement - Tools & Process Content Intern",
+  "url": "https://careers.docusign.com/jobs/30454?lang=en-us",
+  "jobId": "30454",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1759829377118, 'matchScore': 0, 'ageScore': 0.9759829377118056, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1953190082947, 'matchScore': 0, 'ageScore': 0.9953190082947531, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "intern",
+    "label": "Intern",
+    "value": "intern"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "intern"
   ],
   "isFeatured": false
  },

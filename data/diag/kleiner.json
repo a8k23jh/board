@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-16T17:31:56Z",
+ "run": "2026-10-16T21:24:12Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "xcVwpUDXsu\u2026",
+  "session.sig": "oMdbQTfnf1\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTQyZmQwMmMyMGQ2ZTcwZTQ4YjkwOTYxYzA3YjgyZDQiLCAic2NvcmUiOiAxLjA4MDI4NzQxOTY0ODE0ODJ9"
+   "sequence": "eyJfaWQiOiAiMDRiNzRjYTRiYzhiNDFkYjY0MTVmZTcyNTBkZjFmNmMiLCAic2NvcmUiOiAxLjA4NjkyNTQ1NjU3MDIxNn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,78 +144,58 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/togetherai/jobs/5238471007",
-  "companyDomain": "together.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ab310562763eeec1a870bd57b0a9704b_256_160?Expires=1861920000&Signature=DqaWvH3vUeF1a7rLhZrorwzEHn6S-ol3vJVqmfO9AkN~8UuCFWnkz",
-  "companyId": "Together AI",
-  "companySlug": "together-ai",
-  "companyName": "Together AI",
-  "companyStaffCount": 438,
+  "applyUrl": "https://jobs.lever.co/lumafield/6dae1c89-2f2c-4bd0-ac42-52c02a25b0f3?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "companyDomain": "lumafield.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
+  "companyId": "Lumafield",
+  "companySlug": "lumafield",
+  "companyName": "Lumafield",
+  "companyStaffCount": 156,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Manufacturing"
   ],
   "jobTypes": [
    {
-    "id": "security-engineer",
-    "label": "Security Engineer",
-    "value": "security-engineer"
-   },
-   {
-    "id": "hardware-engineer",
-    "label": "Hardware Engineer",
-    "value": "hardware-engineer"
-   },
-   {
-    "id": "security-professional",
-    "label": "Security Professional",
-    "value": "security-professional"
+    "id": "qa-technician",
+    "label": "QA Technician",
+    "value": "qa-technician"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Technician",
+    "label": "Technician",
+    "value": "Technician"
    }
   ],
   "locations": [
-   "San Francisco"
+   "Everett, MA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Massachusetts",
+    "label": "Massachusetts",
+    "value": "Massachusetts"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 28, 'maxValue': 32, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   },
-   {
-    "id": "resume:Computer Architecture",
-    "label": "Computer Architecture",
-    "value": "resume:Computer Architecture"
-   },
-   {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -223,48 +203,53 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Bash",
-    "label": "Bash",
-    "value": "resume:Bash"
+    "id": "resume:ISO",
+    "label": "ISO",
+    "value": "resume:ISO"
+   },
+   {
+    "id": "resume:Quality Management",
+    "label": "Quality Management",
+    "value": "resume:Quality Management"
+   },
+   {
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
    },
-   {
-    "id": "resume:Computer Architecture",
-    "label": "Computer Architecture",
-    "value": "resume:Computer Architecture"
-   },
-   {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Bash",
-    "label": "Bash",
-    "value": "resume:Bash"
+    "id": "resume:ISO",
+    "label": "ISO",
+    "value": "resume:ISO"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Quality Management",
+    "label": "Quality Management",
+    "value": "resume:Quality Management"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:Embedded Systems",
-    "label": "Embedded Systems",
-    "value": "resume:Embedded Systems"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    }
   ],
   "manager": false,
@@ -272,29 +257,30 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
+  "minYearsExp": 2,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -302,28 +288,22 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI/ML",
-    "label": "AI/ML",
-    "value": "AI/ML"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-10-16T00:32:37Z",
-  "title": "Hardware Security Engineer, New Grad (2027)",
-  "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238471007",
-  "jobId": "5238471007",
+  "timeStamp": "2026-10-16T14:57:58.859000Z",
+  "title": "Quality Technician",
+  "url": "https://jobs.lever.co/lumafield/6dae1c89-2f2c-4bd0-ac42-52c02a25b0f3",
+  "jobId": "6dae1c89-2f2c-4bd0-ac42-52c02a25b0f3",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1804133779938, 'matchScore': 0, 'ageScore': 0.9804133779938271, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1963891067824, 'matchScore': 0, 'ageScore': 0.9963891067824074, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
