@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-10-17T10:57:53Z",
+ "run": "2026-10-17T14:16:46Z",
  "homepage": {
   "status": 200,
   "bytes": 18736
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ZpmLUn_DO5\u2026",
+  "session.sig": "jR7iMK0to7\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGU4OTc5Y2MwZjA1MjkyMDA2ZGY0NTNhZDQ2OTA4Y2IiLCAic2NvcmUiOiAxLjA3Mjg2MzA4OTQyMDUyNDd9"
+   "sequence": "eyJfaWQiOiAiYTlmNzE4YjEzYzFkMjJkMDliMWNkOTViZGI2N2FmOTAiLCAic2NvcmUiOiAxLjA2ODU3MjQzNzQyMjA2OH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -191,86 +191,76 @@
     "value": "New York"
    },
    {
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
+   },
+   {
+    "id": "Atlanta, Georgia",
+    "label": "Atlanta, Georgia",
+    "value": "Atlanta, Georgia"
+   },
+   {
     "id": "Charlotte, North Carolina",
     "label": "Charlotte, North Carolina",
     "value": "Charlotte, North Carolina"
    },
    {
-    "id": "Austin, Texas",
-    "label": "Austin, Texas",
-    "value": "Austin, Texas"
-   },
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
-    "id": "Chicago, Illinois",
-    "label": "Chicago, Illinois",
-    "value": "Chicago, Illinois"
+    "id": "Greater Boston Area",
+    "label": "Boston",
+    "value": "Greater Boston Area"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
-   },
-   {
-    "id": "resume:Payment Systems",
-    "label": "Payment Systems",
-    "value": "resume:Payment Systems"
-   },
-   {
     "id": "resume:Revenue Recognition",
     "label": "Revenue Recognition",
     "value": "resume:Revenue Recognition"
+   },
+   {
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
+   },
+   {
+    "id": "resume:Order to Cash",
+    "label": "Order to Cash",
+    "value": "resume:Order to Cash"
+   },
+   {
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
+   },
+   {
+    "id": "resume:Invoicing",
+    "label": "Invoicing",
+    "value": "resume:Invoicing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Payment Systems",
-    "label": "Payment Systems",
-    "value": "resume:Payment Systems"
-   },
-   {
     "id": "resume:Revenue Recognition",
     "label": "Revenue Recognition",
     "value": "resume:Revenue Recognition"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
+   },
+   {
+    "id": "resume:Order to Cash",
+    "label": "Order to Cash",
+    "value": "resume:Order to Cash"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
    },
    {
     "id": "resume:Invoicing",
@@ -281,6 +271,16 @@
     "id": "resume:Developer Platform",
     "label": "Developer Platform",
     "value": "resume:Developer Platform"
+   },
+   {
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
+   },
+   {
+    "id": "resume:Disbursement",
+    "label": "Disbursement",
+    "value": "resume:Disbursement"
    }
   ],
   "manager": false,
@@ -299,29 +299,29 @@
   "minYearsExp": 10,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
     "id": "Rust Belt",
     "label": "Great Lakes Region",
     "value": "Rust Belt"
-   },
-   {
-    "id": "Deep South",
-    "label": "Deep South",
-    "value": "Deep South"
    }
   ],
   "stages": [
@@ -355,24 +355,24 @@
   "jobId": "dab5bb2b-db63-49b4-b839-684dc4743675",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1881150360895, 'matchScore': 0, 'ageScore': 0.9881150360895061, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1843086397947, 'matchScore': 0, 'ageScore': 0.9843086397947531, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

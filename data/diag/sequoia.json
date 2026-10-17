@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-17T10:57:53Z",
+ "run": "2026-10-17T14:16:46Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "X-w-JEO8Ql\u2026",
+  "session.sig": "9mazxR1Thn\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTE5NTJjMjc1ZTMxOTEwMjM4MTVkMzM2YjMxYWMzZjAiLCAic2NvcmUiOiAxLjE0MjkxMDE4NzYzNTAzMX0="
+   "sequence": "eyJfaWQiOiAiZTE5NTJjMjc1ZTMxOTEwMjM4MTVkMzM2YjMxYWMzZjAiLCAic2NvcmUiOiAxLjEzODQ2NjM5MjIzNDU2OH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/wonolo/am9icG9zdDoNXj4wwVohhogvL4wr6Zue?utm_source=jobs.sequoiacap.com",
+  "applyUrl": "https://jobs.gem.com/wonolo/am9icG9zdDrJwZBgKzvWoHnK6BlhA4U_?utm_source=jobs.sequoiacap.com",
   "companyDomain": "wonolo.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec5d4fa0298068cd22d50bb085f94f27_240_160?Expires=1861920000&Signature=fQsngyHmijPhqs1~Ectyxtf3bzQyrDte3D-KYwq-jlxJWrbPHfU-t",
   "companyId": "Wonolo",
@@ -166,40 +166,47 @@
   "departments": [
    "Market Operations"
   ],
-  "jobTypes": [],
+  "jobTypes": [
+   {
+    "id": "recruiting-coordinator",
+    "label": "Recruiting Ops",
+    "value": "recruiting-coordinator"
+   }
+  ],
   "jobFunctions": [],
   "locations": [
+   "Atlanta, Georgia",
    "Dallas",
    "Fort Worth, Texas"
   ],
   "normalizedLocations": [
    {
-    "id": "Dallas, Texas",
-    "label": "Dallas, Texas",
-    "value": "Dallas, Texas"
-   },
-   {
     "id": "Fort Worth, Texas",
     "label": "Fort Worth, Texas",
     "value": "Fort Worth, Texas"
+   },
+   {
+    "id": "Atlanta, Georgia",
+    "label": "Atlanta, Georgia",
+    "value": "Atlanta, Georgia"
+   },
+   {
+    "id": "Dallas, Texas",
+    "label": "Dallas, Texas",
+    "value": "Dallas, Texas"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 27, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 28, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
-   },
-   {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    },
    {
     "id": "resume:Recruiting",
@@ -207,43 +214,58 @@
     "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Sourcing New Business",
-    "label": "Sourcing New Business",
-    "value": "resume:Sourcing New Business"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
+   },
+   {
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    },
-   {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Recruiting",
     "label": "Recruiting",
     "value": "resume:Recruiting"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Sourcing New Business",
-    "label": "Sourcing New Business",
-    "value": "resume:Sourcing New Business"
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
    },
    {
-    "id": "resume:Qualitative Data",
-    "label": "Qualitative Data",
-    "value": "resume:Qualitative Data"
+    "id": "resume:Job Search Strategies",
+    "label": "Job Search Strategies",
+    "value": "resume:Job Search Strategies"
+   },
+   {
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
+   },
+   {
+    "id": "resume:Inform",
+    "label": "Inform",
+    "value": "resume:Inform"
    }
   ],
   "manager": false,
@@ -259,7 +281,6 @@
     4
    ]
   ],
-  "minYearsExp": 2,
   "regions": [
    {
     "id": "North America",
@@ -267,14 +288,24 @@
     "value": "North America"
    },
    {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
     "id": "West South",
     "label": "Southwestern US",
     "value": "West South"
    },
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "Deep South",
+    "label": "Deep South",
+    "value": "Deep South"
+   },
+   {
+    "id": "South Atlantic",
+    "label": "South Atlantic",
+    "value": "South Atlantic"
    }
   ],
   "stages": [
@@ -297,13 +328,13 @@
     "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-10-16T23:58:48Z",
-  "title": "Customer Onsite Specialist (3 months contract)",
-  "url": "https://jobs.gem.com/wonolo/am9icG9zdDoNXj4wwVohhogvL4wr6Zue",
-  "jobId": "am9icG9zdDoNXj4wwVohhogvL4wr6Zue",
+  "timeStamp": "2026-10-16T23:58:33Z",
+  "title": "Recruiting Operations Specialist",
+  "url": "https://jobs.gem.com/wonolo/am9icG9zdDrJwZBgKzvWoHnK6BlhA4U_",
+  "jobId": "am9icG9zdDrJwZBgKzvWoHnK6BlhA4U_",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1885425785116, 'matchScore': 0, 'ageScore': 0.9885425785115741, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1843991341277, 'matchScore': 0, 'ageScore': 0.9843991341277006, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

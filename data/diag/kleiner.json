@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-17T10:57:53Z",
+ "run": "2026-10-17T14:16:46Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "a6W9-QYLhC\u2026",
+  "session.sig": "XbERmx8XbU\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzAzYTk3NzdlNGEzMTAzM2YzNzZmNDBlOTRmYzFmZGUiLCAic2NvcmUiOiAxLjA4ODIyNzE1MTEyNDYxNDJ9"
+   "sequence": "eyJfaWQiOiAiYjcwMTYxY2Y2NjRkMGIyOWU4NzcwNTBiMTRiNDUxMTQiLCAic2NvcmUiOiAxLjA4Mzg4ODEwOTE2NzQzODJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
-   },
-   {
     "id": "lead",
     "label": "Lead",
     "value": "lead"
+   },
+   {
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
@@ -198,19 +198,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 192000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Risk Analysis",
-    "label": "Risk Analysis",
-    "value": "resume:Risk Analysis"
-   },
-   {
-    "id": "resume:DFMEA",
-    "label": "DFMEA",
-    "value": "resume:DFMEA"
-   },
-   {
-    "id": "resume:Mobile Robot",
-    "label": "Mobile Robot",
-    "value": "resume:Mobile Robot"
+    "id": "resume:Industrial Robots",
+    "label": "Industrial Robots",
+    "value": "resume:Industrial Robots"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -218,53 +208,63 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:ISO",
-    "label": "ISO",
-    "value": "resume:ISO"
+    "id": "resume:ANSI",
+    "label": "ANSI",
+    "value": "resume:ANSI"
+   },
+   {
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
+   },
+   {
+    "id": "resume:Microcontrollers",
+    "label": "Microcontrollers",
+    "value": "resume:Microcontrollers"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Risk Analysis",
-    "label": "Risk Analysis",
-    "value": "resume:Risk Analysis"
+    "id": "resume:Industrial Robots",
+    "label": "Industrial Robots",
+    "value": "resume:Industrial Robots"
    },
-   {
-    "id": "resume:DFMEA",
-    "label": "DFMEA",
-    "value": "resume:DFMEA"
-   },
-   {
-    "id": "resume:Mobile Robot",
-    "label": "Mobile Robot",
-    "value": "resume:Mobile Robot"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:ISO",
-    "label": "ISO",
-    "value": "resume:ISO"
+    "id": "resume:ANSI",
+    "label": "ANSI",
+    "value": "resume:ANSI"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
    },
    {
-    "id": "resume:Standard operating procedure",
-    "label": "Standard operating procedure",
-    "value": "resume:Standard operating procedure"
+    "id": "resume:Microcontrollers",
+    "label": "Microcontrollers",
+    "value": "resume:Microcontrollers"
    },
    {
-    "id": "resume:Failure Analysis",
-    "label": "Failure Analysis",
-    "value": "resume:Failure Analysis"
+    "id": "resume:Risk Analysis",
+    "label": "Risk Analysis",
+    "value": "resume:Risk Analysis"
    },
    {
-    "id": "resume:Quality Management",
-    "label": "Quality Management",
-    "value": "resume:Quality Management"
+    "id": "resume:RIA",
+    "label": "RIA",
+    "value": "resume:RIA"
+   },
+   {
+    "id": "resume:Ethernet",
+    "label": "Ethernet",
+    "value": "resume:Ethernet"
    }
   ],
   "manager": false,
@@ -283,9 +283,9 @@
   "minYearsExp": 10,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "West Coast",
@@ -293,9 +293,9 @@
     "value": "West Coast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -324,24 +324,24 @@
   "jobId": "ab404c3f-a336-4a6c-b31b-07d048feb3dc",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1883893750186, 'matchScore': 0, 'ageScore': 0.9883893750185185, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1848633722943, 'matchScore': 0, 'ageScore': 0.9848633722943673, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
