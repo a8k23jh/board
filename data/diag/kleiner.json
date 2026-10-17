@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-17T19:33:12Z",
+ "run": "2026-10-17T22:27:19Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Yrm6CTD4TP\u2026",
+  "session.sig": "83VjAz5Vcl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWI1NDc1ZWM2MGYxNmViZmE1YWFjZGE0ZjEyZmU4YjkiLCAic2NvcmUiOiAxLjA3NTY0OTE4NTcyOTE2NjZ9"
+   "sequence": "eyJfaWQiOiAiOTkyODY4NjAwMzFkMzMxZGJhYWY0OGE3NmMwOTcyZjUiLCAic2NvcmUiOiAxLjA3MTQyMjQzNzYwMTA4MDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
-   },
-   {
     "id": "engineer",
     "label": "Engineer",
     "value": "engineer"
+   },
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    }
   ],
   "jobFunctions": [
@@ -198,73 +198,73 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 192000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:VV",
-    "label": "Verification and Validation",
-    "value": "resume:VV"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
    {
-    "id": "resume:Communication Protocols",
-    "label": "Communication Protocols",
-    "value": "resume:Communication Protocols"
-   },
-   {
-    "id": "resume:Perception",
-    "label": "Perception",
-    "value": "resume:Perception"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:RIA",
-    "label": "RIA",
-    "value": "resume:RIA"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:VV",
-    "label": "Verification and Validation",
-    "value": "resume:VV"
-   },
-   {
-    "id": "resume:Communication Protocols",
-    "label": "Communication Protocols",
-    "value": "resume:Communication Protocols"
-   },
-   {
-    "id": "resume:Perception",
-    "label": "Perception",
-    "value": "resume:Perception"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:RIA",
-    "label": "RIA",
-    "value": "resume:RIA"
-   },
-   {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
-   {
-    "id": "resume:Structural Analysis",
-    "label": "Structural Analysis",
-    "value": "resume:Structural Analysis"
+    "id": "resume:Ethernet",
+    "label": "Ethernet",
+    "value": "resume:Ethernet"
    },
    {
     "id": "resume:Industrial Automation",
     "label": "Industrial Automation",
     "value": "resume:Industrial Automation"
+   },
+   {
+    "id": "resume:Motion Control",
+    "label": "Motion Control",
+    "value": "resume:Motion Control"
+   },
+   {
+    "id": "resume:Control Systems Design",
+    "label": "Control Systems Design",
+    "value": "resume:Control Systems Design"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
+   },
+   {
+    "id": "resume:Ethernet",
+    "label": "Ethernet",
+    "value": "resume:Ethernet"
+   },
+   {
+    "id": "resume:Industrial Automation",
+    "label": "Industrial Automation",
+    "value": "resume:Industrial Automation"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Motion Control",
+    "label": "Motion Control",
+    "value": "resume:Motion Control"
+   },
+   {
+    "id": "resume:Control Systems Design",
+    "label": "Control Systems Design",
+    "value": "resume:Control Systems Design"
+   },
+   {
+    "id": "resume:Market Requirements Document",
+    "label": "Market Requirements Document",
+    "value": "resume:Market Requirements Document"
+   },
+   {
+    "id": "resume:RIA",
+    "label": "RIA",
+    "value": "resume:RIA"
+   },
+   {
+    "id": "resume:Communication Protocols",
+    "label": "Communication Protocols",
+    "value": "resume:Communication Protocols"
    }
   ],
   "manager": false,
@@ -283,11 +283,6 @@
   "minYearsExp": 10,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -296,6 +291,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -324,24 +324,24 @@
   "jobId": "ab404c3f-a336-4a6c-b31b-07d048feb3dc",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1760134230193, 'matchScore': 0, 'ageScore': 0.9760134230192902, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1721275397146, 'matchScore': 0, 'ageScore': 0.9721275397145062, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-17T19:33:12Z",
+ "run": "2026-10-17T22:27:19Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "QIkosLprLe\u2026",
+  "session.sig": "lujme6HhOP\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWI0YmY1MTRiNjYxZTIyOWNhNGJlYzJiNGU0ZTMyNzIiLCAic2NvcmUiOiAxLjEwODc5NDY2NDczNjQ5N30="
+   "sequence": "eyJfaWQiOiAiNjJiMmEyMTdlYzM5OGY4ODBkZDlkZGQ2NTU4ZGE0OWUiLCAic2NvcmUiOiAxLjEwNDU3NTQ1ODg5MzkwNDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,7 +139,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/clickhouse/dab5bb2b-db63-49b4-b839-684dc4743675?utm_source=careers.ivp.com",
+  "applyUrl": "https://jobs.ashbyhq.com/clickhouse/e966d4cd-3373-43fe-879d-876e854b8a86?utm_source=careers.ivp.com",
   "companyDomain": "clickhouse.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2779852661322ab66da5dc263e72606_320_160?Expires=1861920000&Signature=r~P65IuHovDEITH8vKhbAvgpsGftasvE8O7kucrixTGLscABGrKrs",
   "companyId": "ClickHouse",
@@ -152,14 +152,14 @@
   ],
   "jobTypes": [
    {
+    "id": "senior-product-manager",
+    "label": "Senior Product Manager",
+    "value": "senior-product-manager"
+   },
+   {
     "id": "product-manager",
     "label": "Product Manager",
     "value": "product-manager"
-   },
-   {
-    "id": "principal",
-    "label": "Principal",
-    "value": "principal"
    }
   ],
   "jobFunctions": [
@@ -178,81 +178,37 @@
   ],
   "normalizedLocations": [
    {
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "Charlotte, North Carolina",
+    "label": "Charlotte, North Carolina",
+    "value": "Charlotte, North Carolina"
+   },
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   },
+   {
     "id": "Austin, Texas",
     "label": "Austin, Texas",
     "value": "Austin, Texas"
-   },
-   {
-    "id": "Greater Boston Area",
-    "label": "Boston",
-    "value": "Greater Boston Area"
-   },
-   {
-    "id": "Chicago, Illinois",
-    "label": "Chicago, Illinois",
-    "value": "Chicago, Illinois"
-   },
-   {
-    "id": "Atlanta, Georgia",
-    "label": "Atlanta, Georgia",
-    "value": "Atlanta, Georgia"
-   },
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 265000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Invoicing",
-    "label": "Invoicing",
-    "value": "resume:Invoicing"
-   },
-   {
-    "id": "resume:Payment Systems",
-    "label": "Payment Systems",
-    "value": "resume:Payment Systems"
-   },
-   {
-    "id": "resume:Stripe",
-    "label": "Stripe",
-    "value": "resume:Stripe"
-   },
-   {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
-   },
-   {
-    "id": "resume:Google Cloud Platform",
-    "label": "Google Cloud Platform",
-    "value": "resume:Google Cloud Platform"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Invoicing",
-    "label": "Invoicing",
-    "value": "resume:Invoicing"
-   },
-   {
-    "id": "resume:Payment Systems",
-    "label": "Payment Systems",
-    "value": "resume:Payment Systems"
-   },
-   {
-    "id": "resume:Stripe",
-    "label": "Stripe",
-    "value": "resume:Stripe"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    },
    {
     "id": "resume:Google Cloud Platform",
@@ -265,14 +221,58 @@
     "value": "resume:Marketplace"
    },
    {
+    "id": "resume:Stripe",
+    "label": "Stripe",
+    "value": "resume:Stripe"
+   },
+   {
+    "id": "resume:Revenue Recognition",
+    "label": "Revenue Recognition",
+    "value": "resume:Revenue Recognition"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:Open Source Software",
     "label": "Open Source Software",
     "value": "resume:Open Source Software"
    },
    {
-    "id": "resume:Order to Cash",
-    "label": "Order to Cash",
-    "value": "resume:Order to Cash"
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
+   },
+   {
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Stripe",
+    "label": "Stripe",
+    "value": "resume:Stripe"
+   },
+   {
+    "id": "resume:Revenue Recognition",
+    "label": "Revenue Recognition",
+    "value": "resume:Revenue Recognition"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
+   },
+   {
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
    }
   ],
   "manager": false,
@@ -282,38 +282,34 @@
    [
     5,
     6
-   ],
-   [
-    7,
-    8
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 7,
   "regions": [
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
    {
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
    },
    {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
-   },
-   {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
-   },
-   {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    }
   ],
   "stages": [
@@ -342,29 +338,29 @@
    }
   ],
   "timeStamp": "2026-10-17T00:00:00Z",
-  "title": "Principal Product Manager, Billing & Marketplaces",
-  "url": "https://jobs.ashbyhq.com/clickhouse/dab5bb2b-db63-49b4-b839-684dc4743675",
-  "jobId": "dab5bb2b-db63-49b4-b839-684dc4743675",
+  "title": "Senior Product Manager, Billing & Marketplaces",
+  "url": "https://jobs.ashbyhq.com/clickhouse/e966d4cd-3373-43fe-879d-876e854b8a86",
+  "jobId": "e966d4cd-3373-43fe-879d-876e854b8a86",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1761057344521, 'matchScore': 0, 'ageScore': 0.9761057344521605, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1716824278337, 'matchScore': 0, 'ageScore': 0.9716824278337192, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
