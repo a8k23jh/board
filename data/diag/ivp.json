@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-17T17:20:00Z",
+ "run": "2026-10-17T19:33:12Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "8tgoFrT7EI\u2026",
+  "session.sig": "QIkosLprLe\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTk2YmIwOTE4ZmMxYTViNjU0NjE2NzM4NzY2NThmZDciLCAic2NvcmUiOiAxLjExMjk0MTExNjc2MTk1OTh9"
+   "sequence": "eyJfaWQiOiAiOWI0YmY1MTRiNjYxZTIyOWNhNGJlYzJiNGU0ZTMyNzIiLCAic2NvcmUiOiAxLjEwODc5NDY2NDczNjQ5N30="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,14 +152,14 @@
   ],
   "jobTypes": [
    {
-    "id": "principal",
-    "label": "Principal",
-    "value": "principal"
-   },
-   {
     "id": "product-manager",
     "label": "Product Manager",
     "value": "product-manager"
+   },
+   {
+    "id": "principal",
+    "label": "Principal",
+    "value": "principal"
    }
   ],
   "jobFunctions": [
@@ -178,101 +178,101 @@
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
-   },
-   {
     "id": "Austin, Texas",
     "label": "Austin, Texas",
     "value": "Austin, Texas"
    },
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
-   },
-   {
     "id": "Greater Boston Area",
     "label": "Boston",
     "value": "Greater Boston Area"
+   },
+   {
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
+   },
+   {
+    "id": "Atlanta, Georgia",
+    "label": "Atlanta, Georgia",
+    "value": "Atlanta, Georgia"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Invoicing",
+    "label": "Invoicing",
+    "value": "resume:Invoicing"
+   },
+   {
+    "id": "resume:Payment Systems",
+    "label": "Payment Systems",
+    "value": "resume:Payment Systems"
+   },
+   {
     "id": "resume:Stripe",
     "label": "Stripe",
     "value": "resume:Stripe"
    },
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
     "id": "resume:Google Cloud Platform",
     "label": "Google Cloud Platform",
     "value": "resume:Google Cloud Platform"
-   },
-   {
-    "id": "resume:Developer Platform",
-    "label": "Developer Platform",
-    "value": "resume:Developer Platform"
-   },
-   {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Invoicing",
+    "label": "Invoicing",
+    "value": "resume:Invoicing"
+   },
+   {
+    "id": "resume:Payment Systems",
+    "label": "Payment Systems",
+    "value": "resume:Payment Systems"
+   },
+   {
     "id": "resume:Stripe",
     "label": "Stripe",
     "value": "resume:Stripe"
-   },
+   }
+  ],
+  "preferredSkills": [
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
     "id": "resume:Google Cloud Platform",
     "label": "Google Cloud Platform",
     "value": "resume:Google Cloud Platform"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Developer Platform",
-    "label": "Developer Platform",
-    "value": "resume:Developer Platform"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    },
    {
     "id": "resume:Order to Cash",
     "label": "Order to Cash",
     "value": "resume:Order to Cash"
-   },
-   {
-    "id": "resume:Taxes",
-    "label": "Taxes",
-    "value": "resume:Taxes"
    }
   ],
   "manager": false,
@@ -291,19 +291,14 @@
   "minYearsExp": 10,
   "regions": [
    {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
+   },
+   {
+    "id": "South Atlantic",
+    "label": "South Atlantic",
+    "value": "South Atlantic"
    },
    {
     "id": "Midwest",
@@ -311,9 +306,14 @@
     "value": "Midwest"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -347,7 +347,7 @@
   "jobId": "dab5bb2b-db63-49b4-b839-684dc4743675",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.18019134062, 'matchScore': 0, 'ageScore': 0.9801913406199846, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1761057344521, 'matchScore': 0, 'ageScore': 0.9761057344521605, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

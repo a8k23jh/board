@@ -1,7 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-17T17:20:00Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.lsvp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-10-17T19:33:12Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -43,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "DOWiQ5RJ62\u2026",
+  "session.sig": "Yep5Hl8q5j\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -128,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGFiYWY3ZTliNDdmMzEzOTI4NDkyNjRhNTAzM2UwZTMiLCAic2NvcmUiOiAxLjE2NTcwMDg3NTQ4MTg2NzR9"
+   "sequence": "eyJfaWQiOiAiNGFiYWY3ZTliNDdmMzEzOTI4NDkyNjRhNTAzM2UwZTMiLCAic2NvcmUiOiAxLjE2MTA0NTk0NTkxMDg3OTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -145,142 +144,151 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8200/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3466,
+  "applyUrl": "https://jobs.ashbyhq.com/clickhouse/dab5bb2b-db63-49b4-b839-684dc4743675?utm_source=jobs.lsvp.com",
+  "companyDomain": "clickhouse.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2779852661322ab66da5dc263e72606_320_160?Expires=1861920000&Signature=r~P65IuHovDEITH8vKhbAvgpsGftasvE8O7kucrixTGLscABGrKrs",
+  "companyId": "ClickHouse",
+  "companySlug": "clickhouse",
+  "companyName": "ClickHouse",
+  "companyStaffCount": 726,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Product Management"
+  ],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
    },
    {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
-   },
-   {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
+    "id": "principal",
+    "label": "Principal",
+    "value": "principal"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Product Management",
+    "label": "Product Management",
+    "value": "Product Management"
    }
   ],
   "locations": [
-   "Los Angeles, California, United States",
-   "California, United States",
-   "Home Office, Sacramento, CA, US"
+   "San Francisco, United States",
+   "United States",
+   "Charlotte",
+   "Chicago",
+   "Seattle"
   ],
   "normalizedLocations": [
    {
-    "id": "Los Angeles, California",
-    "label": "Los Angeles, California",
-    "value": "Los Angeles, California"
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
    },
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "Greater Boston Area",
+    "label": "Boston",
+    "value": "Greater Boston Area"
    },
    {
-    "id": "Sacramento, California",
-    "label": "Sacramento, California",
-    "value": "Sacramento, California"
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
+   },
+   {
+    "id": "Atlanta, Georgia",
+    "label": "Atlanta, Georgia",
+    "value": "Atlanta, Georgia"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 70000, 'maxValue': 85000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Invoicing",
+    "label": "Invoicing",
+    "value": "resume:Invoicing"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Payment Systems",
+    "label": "Payment Systems",
+    "value": "resume:Payment Systems"
    },
    {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
+    "id": "resume:Stripe",
+    "label": "Stripe",
+    "value": "resume:Stripe"
    },
    {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Customer Engagement",
-    "label": "Customer Engagement",
-    "value": "resume:Customer Engagement"
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Invoicing",
+    "label": "Invoicing",
+    "value": "resume:Invoicing"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Payment Systems",
+    "label": "Payment Systems",
+    "value": "resume:Payment Systems"
    },
    {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
+    "id": "resume:Stripe",
+    "label": "Stripe",
+    "value": "resume:Stripe"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Customer Engagement",
-    "label": "Customer Engagement",
-    "value": "resume:Customer Engagement"
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Order to Cash",
+    "label": "Order to Cash",
+    "value": "resume:Order to Cash"
    }
   ],
   "manager": false,
@@ -288,54 +296,74 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 2,
-  "maxYearsExp": 5,
+  "minYearsExp": 10,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "South Atlantic",
+    "label": "South Atlantic",
+    "value": "South Atlantic"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
+   },
+   {
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
    }
   ],
-  "timeStamp": "2026-10-16T23:59:00Z",
-  "title": "Inside Account Executive",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8200/",
-  "jobId": "8200",
+  "timeStamp": "2026-10-17T00:00:00Z",
+  "title": "Principal Product Manager, Billing & Marketplaces",
+  "url": "https://jobs.ashbyhq.com/clickhouse/dab5bb2b-db63-49b4-b839-684dc4743675",
+  "jobId": "dab5bb2b-db63-49b4-b839-684dc4743675",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1803929695633, 'matchScore': 0, 'ageScore': 0.9803929695632716, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1761057344521, 'matchScore': 0, 'ageScore': 0.9761057344521605, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -343,15 +371,20 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
