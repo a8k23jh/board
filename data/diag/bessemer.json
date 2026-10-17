@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-16T21:24:12Z",
+ "run": "2026-10-17T00:35:33Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"},\"server\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"0b3da5e98e913070ba94e8de5a67eb50f789ee80\",\"date\":\"2026-10-16T21:06:16.773Z\"},\"server\":{\"git\":\"0b3da5e98e913070ba94e8de5a67eb50f789ee80\",\"date\":\"2026-10-16T21:06:16.773Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "SMVQ5MYYVO\u2026",
+  "session.sig": "_3xnp8GzK_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzE5YmVjN2YzYTZlYmNhNmRlNTk4ODc2YTlmNjU4NDQiLCAic2NvcmUiOiAxLjEyODc4NTYzOTYyODQ3MjF9"
+   "sequence": "eyJfaWQiOiAiNzE5YmVjN2YzYTZlYmNhNmRlNTk4ODc2YTlmNjU4NDQiLCAic2NvcmUiOiAxLjEyNDYyMjgzNTAwODg3MzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -176,14 +176,14 @@
   ],
   "jobTypes": [
    {
-    "id": "solutions-architect",
-    "label": "Solutions Architect",
-    "value": "solutions-architect"
-   },
-   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
+   },
+   {
+    "id": "solutions-architect",
+    "label": "Solutions Architect",
+    "value": "solutions-architect"
    }
   ],
   "jobFunctions": [
@@ -206,58 +206,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Real Estate",
-    "label": "Real Estate",
-    "value": "resume:Real Estate"
-   },
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Sales Engineering",
+    "label": "Sales Engineering",
+    "value": "resume:Sales Engineering"
    },
    {
     "id": "resume:Investment Management",
     "label": "Investment Management",
     "value": "resume:Investment Management"
-   },
-   {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
-   },
-   {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Real Estate",
-    "label": "Real Estate",
-    "value": "resume:Real Estate"
-   },
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
-   },
-   {
-    "id": "resume:Investment Management",
-    "label": "Investment Management",
-    "value": "resume:Investment Management"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
-   },
-   {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -265,14 +221,58 @@
     "value": "resume:Artificial Intelligence"
    },
    {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Leases",
+    "label": "Leases",
+    "value": "resume:Leases"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:Sales Engineering",
     "label": "Sales Engineering",
     "value": "resume:Sales Engineering"
    },
    {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:Investment Management",
+    "label": "Investment Management",
+    "value": "resume:Investment Management"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Leases",
+    "label": "Leases",
+    "value": "resume:Leases"
+   },
+   {
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
+   },
+   {
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
+   },
+   {
+    "id": "resume:Commercial Real Estate",
+    "label": "Commercial Real Estate",
+    "value": "resume:Commercial Real Estate"
    }
   ],
   "manager": true,
@@ -291,24 +291,24 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -337,24 +337,24 @@
   "jobId": "4742631005",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1878477854259, 'matchScore': 0, 'ageScore': 0.9878477854259259, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1841825631238, 'matchScore': 0, 'ageScore': 0.9841825631238426, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "director",
-   "mid"
+   "mid",
+   "director"
   ],
   "isFeatured": false
  },

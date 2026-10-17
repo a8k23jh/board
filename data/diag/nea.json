@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-10-16T21:24:12Z",
+ "run": "2026-10-17T00:35:33Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"},\"server\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"0b3da5e98e913070ba94e8de5a67eb50f789ee80\",\"date\":\"2026-10-16T21:06:16.773Z\"},\"server\":{\"git\":\"0b3da5e98e913070ba94e8de5a67eb50f789ee80\",\"date\":\"2026-10-16T21:06:16.773Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "8vVsV_Ll6l\u2026",
+  "session.sig": "JuxCH1Djpm\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWI5YjRmZTFjMjQ0ZDY1NzRmMWEzMThkMmUwMzU4YWEiLCAic2NvcmUiOiAxLjEwODcwMzQyNTM0NDUyMTZ9"
+   "sequence": "eyJfaWQiOiAiYzEzM2MwMDE3YTc5MzdkMDMyNzZiZTFlMGE4OWZmNzciLCAic2NvcmUiOiAxLjEwNDUzODM1ODQ0MjUxNTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,132 +136,111 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/strivehealth/jobs/4721887006",
-  "companyDomain": "strivehealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c013139aced83719018a65668570f915_160_160?Expires=1861920000&Signature=NcoFCLj~~CPKn47IsMMEaGg3sONHH3~6dJt4Pu4aL6ddGe4HGbFae",
-  "companyId": "Strive Health",
-  "companySlug": "strive-health",
-  "companyName": "Strive Health",
-  "companyStaffCount": 602,
+  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDoqUYPgAjvpxAHjF0SSd5zx?utm_source=careers.nea.com",
+  "companyDomain": "launchfirestorm.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e188c39c312914da9e7993fda04e236c_320_160?Expires=1861920000&Signature=Pm7J-k33~dn1h7QkoqdLumPZldorJ59U2n6Yki9r684MrWcuwsfhz",
+  "companyId": "Firestorm",
+  "companySlug": "firestorm",
+  "companyName": "Firestorm",
+  "companyStaffCount": 192,
   "considerHosted": false,
   "departments": [
-   "FP&A"
+   "Manufacturing"
   ],
   "jobTypes": [
    {
-    "id": "finance-professional",
-    "label": "Finance",
-    "value": "finance-professional"
-   },
-   {
-    "id": "Analyst",
-    "label": "Analyst",
-    "value": "Analyst"
+    "id": "quality-control",
+    "label": "Quality Control",
+    "value": "quality-control"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Analyst",
-    "label": "Analyst",
-    "value": "Analyst"
-   },
-   {
-    "id": "Finance",
-    "label": "Finance",
-    "value": "Finance"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Denver, CO"
+   "San Diego, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Denver, Colorado",
-    "label": "Denver, Colorado",
-    "value": "Denver, Colorado"
+    "id": "San Diego, California",
+    "label": "San Diego, California",
+    "value": "San Diego, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85500, 'maxValue': 104000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 32, 'maxValue': 42, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Essbase",
-    "label": "Essbase",
-    "value": "resume:Essbase"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:FPA",
-    "label": "FP&A",
-    "value": "resume:FPA"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:NetSuite",
-    "label": "NetSuite",
-    "value": "resume:NetSuite"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    },
    {
-    "id": "resume:Power BI",
-    "label": "Power BI",
-    "value": "resume:Power BI"
+    "id": "resume:Quality Management",
+    "label": "Quality Management",
+    "value": "resume:Quality Management"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Essbase",
-    "label": "Essbase",
-    "value": "resume:Essbase"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:FPA",
-    "label": "FP&A",
-    "value": "resume:FPA"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:NetSuite",
-    "label": "NetSuite",
-    "value": "resume:NetSuite"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Power BI",
-    "label": "Power BI",
-    "value": "resume:Power BI"
+    "id": "resume:Quality Management",
+    "label": "Quality Management",
+    "value": "resume:Quality Management"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Financial Statements",
-    "label": "Financial Statements",
-    "value": "resume:Financial Statements"
+    "id": "resume:Electromechanics",
+    "label": "Electromechanics",
+    "value": "resume:Electromechanics"
    },
    {
-    "id": "resume:Statistics",
-    "label": "Statistics",
-    "value": "resume:Statistics"
-   },
-   {
-    "id": "resume:Hyperion",
-    "label": "Hyperion",
-    "value": "resume:Hyperion"
+    "id": "resume:GD&T",
+    "label": "GD&T",
+    "value": "resume:GD&T"
    }
   ],
   "manager": false,
@@ -269,20 +248,30 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -290,22 +279,38 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
+   },
+   {
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-10-16T09:30:39Z",
-  "title": "Sr. Analyst, Financial Planning & Analysis",
-  "url": "https://job-boards.greenhouse.io/strivehealth/jobs/4721887006",
-  "jobId": "4721887006",
+  "timeStamp": "2026-10-16T17:58:49Z",
+  "title": "Senior Quality Inspector",
+  "url": "https://jobs.gem.com/firestorm/am9icG9zdDoqUYPgAjvpxAHjF0SSd5zx",
+  "jobId": "am9icG9zdDoqUYPgAjvpxAHjF0SSd5zx",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1892218832353, 'matchScore': 0, 'ageScore': 0.9892218832353395, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1959363693248, 'matchScore': 0, 'ageScore': 0.9959363693248456, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

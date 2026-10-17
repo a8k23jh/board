@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-16T21:24:12Z",
+ "run": "2026-10-17T00:35:33Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"},\"server\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"0b3da5e98e913070ba94e8de5a67eb50f789ee80\",\"date\":\"2026-10-16T21:06:16.773Z\"},\"server\":{\"git\":\"0b3da5e98e913070ba94e8de5a67eb50f789ee80\",\"date\":\"2026-10-16T21:06:16.773Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "2ELVy3aylB\u2026",
+  "session.sig": "CKUcTdRtwf\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDEzMjM4YmY2ZDMxMjgwYWQ3YzgxNTBhMmNhMjJiNjIiLCAic2NvcmUiOiAxLjEzNzY2MzY1MDA3NDA3NH0="
+   "sequence": "eyJfaWQiOiAiNDEzMjM4YmY2ZDMxMjgwYWQ3YzgxNTBhMmNhMjJiNjIiLCAic2NvcmUiOiAxLjEzMzc1ODM5ODg5NjYwNX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -193,9 +193,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 140000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Microelectronics",
-    "label": "Microelectronics",
-    "value": "resume:Microelectronics"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
    {
     "id": "resume:CAD",
@@ -203,26 +203,26 @@
     "value": "resume:CAD"
    },
    {
-    "id": "resume:Nanotechnology",
-    "label": "Nanotechnology",
-    "value": "resume:Nanotechnology"
-   },
-   {
     "id": "resume:Statistical Programming",
     "label": "Statistical Programming",
     "value": "resume:Statistical Programming"
    },
    {
-    "id": "resume:Chemistry",
-    "label": "Chemistry",
-    "value": "resume:Chemistry"
+    "id": "resume:Microelectronics",
+    "label": "Microelectronics",
+    "value": "resume:Microelectronics"
+   },
+   {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Microelectronics",
-    "label": "Microelectronics",
-    "value": "resume:Microelectronics"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
    {
     "id": "resume:CAD",
@@ -230,21 +230,21 @@
     "value": "resume:CAD"
    },
    {
-    "id": "resume:Nanotechnology",
-    "label": "Nanotechnology",
-    "value": "resume:Nanotechnology"
+    "id": "resume:Statistical Programming",
+    "label": "Statistical Programming",
+    "value": "resume:Statistical Programming"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Statistical Programming",
-    "label": "Statistical Programming",
-    "value": "resume:Statistical Programming"
+    "id": "resume:Microelectronics",
+    "label": "Microelectronics",
+    "value": "resume:Microelectronics"
    },
    {
-    "id": "resume:Chemistry",
-    "label": "Chemistry",
-    "value": "resume:Chemistry"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
     "id": "resume:Metrology",
@@ -252,9 +252,9 @@
     "value": "resume:Metrology"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:JMP",
+    "label": "JMP",
+    "value": "resume:JMP"
    },
    {
     "id": "resume:Accrual",
@@ -278,24 +278,24 @@
   "minYearsExp": 1,
   "regions": [
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -323,7 +323,7 @@
   "jobId": "8891635002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.188941785485, 'matchScore': 0, 'ageScore': 0.9889417854849537, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1851067498673, 'matchScore': 0, 'ageScore': 0.985106749867284, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

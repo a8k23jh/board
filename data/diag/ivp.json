@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-16T21:24:12Z",
+ "run": "2026-10-17T00:35:33Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"},\"server\":{\"git\":\"0071a2e687b44ef3e8bf08731759064e031a41e3\",\"date\":\"2026-10-14T23:20:55.041Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"0b3da5e98e913070ba94e8de5a67eb50f789ee80\",\"date\":\"2026-10-16T21:06:16.773Z\"},\"server\":{\"git\":\"0b3da5e98e913070ba94e8de5a67eb50f789ee80\",\"date\":\"2026-10-16T21:06:16.773Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "h_jDBVKviD\u2026",
+  "session.sig": "9nt1Tu7yFG\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWE5NGUwN2M0OTA4YTE0YTMyNzJlYWFmM2NkYTE0ZjUiLCAic2NvcmUiOiAxLjEwODg3ODUzMDA1ODI1NjJ9"
+   "sequence": "eyJfaWQiOiAiNTY5YzA3OGIzYjM0YjMxNGI3YjE2YTIyNDNmZWJiZTUiLCAic2NvcmUiOiAxLjExODY3MjA4MDI4NjI2NTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,85 +128,102 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lumafield/6dae1c89-2f2c-4bd0-ac42-52c02a25b0f3?lever-source%5B%5D=careers.ivp.com",
-  "companyDomain": "lumafield.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
-  "companyId": "Lumafield",
-  "companySlug": "lumafield",
-  "companyName": "Lumafield",
-  "companyStaffCount": 156,
+  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4743056005",
+  "companyDomain": "glean.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
+  "companyId": "Glean",
+  "companySlug": "glean",
+  "companyName": "Glean",
+  "companyStaffCount": 1772,
   "considerHosted": false,
   "departments": [
-   "Manufacturing"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "qa-technician",
-    "label": "QA Technician",
-    "value": "qa-technician"
+    "id": "manager-solutions-architect",
+    "label": "Manager Solutions Architects",
+    "value": "manager-solutions-architect"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Technician",
-    "label": "Technician",
-    "value": "Technician"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Everett, MA"
+   "Nashville"
   ],
   "normalizedLocations": [
    {
-    "id": "Massachusetts",
-    "label": "Massachusetts",
-    "value": "Massachusetts"
+    "id": "Nashville, Tennessee",
+    "label": "Nashville, Tennessee",
+    "value": "Nashville, Tennessee"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 28, 'maxValue': 32, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Quantitative Data",
-    "label": "Quantitative Data",
-    "value": "resume:Quantitative Data"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Arbitration",
+    "label": "Arbitration",
+    "value": "resume:Arbitration"
+   },
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:ISO",
-    "label": "ISO",
-    "value": "resume:ISO"
-   },
-   {
-    "id": "resume:Quality Management",
-    "label": "Quality Management",
-    "value": "resume:Quality Management"
-   },
-   {
-    "id": "resume:Operational Excellence",
-    "label": "Operational Excellence",
-    "value": "resume:Operational Excellence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Quantitative Data",
-    "label": "Quantitative Data",
-    "value": "resume:Quantitative Data"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Arbitration",
+    "label": "Arbitration",
+    "value": "resume:Arbitration"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -214,91 +231,79 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:ISO",
-    "label": "ISO",
-    "value": "resume:ISO"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Quality Management",
-    "label": "Quality Management",
-    "value": "resume:Quality Management"
+    "id": "resume:GDPR",
+    "label": "GDPR",
+    "value": "resume:GDPR"
    },
    {
-    "id": "resume:Operational Excellence",
-    "label": "Operational Excellence",
-    "value": "resume:Operational Excellence"
-   },
-   {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:CCPA",
+    "label": "CCPA",
+    "value": "resume:CCPA"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
   "regions": [
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Medical Devices",
-    "label": "Medical Devices",
-    "value": "Medical Devices"
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
    }
   ],
-  "timeStamp": "2026-10-16T14:57:58.859000Z",
-  "title": "Quality Technician",
-  "url": "https://jobs.lever.co/lumafield/6dae1c89-2f2c-4bd0-ac42-52c02a25b0f3",
-  "jobId": "6dae1c89-2f2c-4bd0-ac42-52c02a25b0f3",
-  "remote": false,
+  "timeStamp": "2026-10-16T18:33:49Z",
+  "title": "Solutions Engineering Manager",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4743056005",
+  "jobId": "4743056005",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1963891067824, 'matchScore': 0, 'ageScore': 0.9963891067824074, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1932032572755, 'matchScore': 0, 'ageScore': 0.993203257275463, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },
