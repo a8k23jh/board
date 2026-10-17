@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-17T14:16:46Z",
+ "run": "2026-10-17T17:20:00Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "vaGGbOz5jj\u2026",
+  "session.sig": "eYSGAUHVyF\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTBjNmZlYWMyN2EwMDBjYjZjY2I5NDI0YTI1ZmVhZmMiLCAic2NvcmUiOiAxLjEwMTIxMTYwMzUyMDQ0NzZ9"
+   "sequence": "eyJfaWQiOiAiYTdiNTNlMmQxNWY1MTc3ZjdmNzA5ZjhkYjBhMTIxNjIiLCAic2NvcmUiOiAxLjA5NzA2MjcxMTg0ODc2NTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -158,11 +158,6 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
-   },
-   {
     "id": "sales",
     "label": "Sales",
     "value": "sales"
@@ -171,6 +166,11 @@
     "id": "sales-professional",
     "label": "Sales Professional",
     "value": "sales-professional"
+   },
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
    }
   ],
   "jobFunctions": [
@@ -187,63 +187,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
-   },
-   {
-    "id": "resume:Asana",
-    "label": "Asana",
-    "value": "resume:Asana"
-   },
-   {
-    "id": "resume:Linkedin Sales Navigator",
-    "label": "Linkedin Sales Navigator",
-    "value": "resume:Linkedin Sales Navigator"
-   },
-   {
-    "id": "resume:HRIS",
-    "label": "HR Systems",
-    "value": "resume:HRIS"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
-   },
-   {
-    "id": "resume:Asana",
-    "label": "Asana",
-    "value": "resume:Asana"
-   },
-   {
-    "id": "resume:Linkedin Sales Navigator",
-    "label": "Linkedin Sales Navigator",
-    "value": "resume:Linkedin Sales Navigator"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:HRIS",
-    "label": "HR Systems",
-    "value": "resume:HRIS"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
    },
    {
     "id": "resume:Pipeline Management",
@@ -251,9 +197,63 @@
     "value": "resume:Pipeline Management"
    },
    {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Full-cycle",
+    "label": "Full-cycle",
+    "value": "resume:Full-cycle"
+   },
+   {
+    "id": "resume:Pipeline Management",
+    "label": "Pipeline Management",
+    "value": "resume:Pipeline Management"
+   },
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
+   },
+   {
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
+   },
+   {
+    "id": "resume:Figma",
+    "label": "Figma",
+    "value": "resume:Figma"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    }
   ],
   "manager": false,
@@ -292,7 +292,7 @@
   "jobId": "0c19cd94-af98-4109-94fd-9b3c9a7bd57d",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1837903344834, 'matchScore': 0, 'ageScore': 0.9837903344834105, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1796879025934, 'matchScore': 0, 'ageScore': 0.9796879025933642, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

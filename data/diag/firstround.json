@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-17T14:16:46Z",
+ "run": "2026-10-17T17:20:00Z",
  "homepage": {
   "status": 200,
   "bytes": 17444
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Sts8c_0hk9\u2026",
+  "session.sig": "aSsLhPNoF6\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGM0ZjMxYmIxZjM2NjhjZDJlZTY3Nzk2Yzk4N2U3MDUiLCAic2NvcmUiOiAxLjA2Nzg0NTk1NDczNDk1Mzd9"
+   "sequence": "eyJfaWQiOiAiOGM0ZjMxYmIxZjM2NjhjZDJlZTY3Nzk2Yzk4N2U3MDUiLCAic2NvcmUiOiAxLjA2NDAyNjA5MzQ3ODc4MDl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5456021008",
+  "applyUrl": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5456022008",
   "companyDomain": "k2space.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/96af4d328d7e54eb24c092877b0e4c96_272_160?Expires=1861920000&Signature=rWQ5vPckbn1NROsVwoPJw3Sq9oP8FnF7q6Jh6wxTzQ6DBspleAAvN",
   "companyId": "K2 Space",
@@ -168,16 +168,16 @@
   ],
   "jobTypes": [
    {
-    "id": "site-reliability-engineer",
-    "label": "Site Reliability Engineer (SRE)",
-    "value": "site-reliability-engineer"
+    "id": "compliance-risk",
+    "label": "Risk & Compliance Manager",
+    "value": "compliance-risk"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Auditing",
+    "label": "Auditing",
+    "value": "Auditing"
    }
   ],
   "locations": [
@@ -193,19 +193,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Spacecraft",
-    "label": "Spacecraft",
-    "value": "resume:Spacecraft"
-   },
-   {
-    "id": "resume:Export Controls",
-    "label": "Export Controls",
-    "value": "resume:Export Controls"
-   },
-   {
     "id": "resume:Vehicles",
     "label": "Vehicles",
     "value": "resume:Vehicles"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
     "id": "resume:Interviews",
@@ -213,53 +208,58 @@
     "value": "resume:Interviews"
    },
    {
-    "id": "resume:Supply Chain Operations",
-    "label": "Supply Chain Operations",
-    "value": "resume:Supply Chain Operations"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
+   },
+   {
+    "id": "resume:Advisor",
+    "label": "Advisor",
+    "value": "resume:Advisor"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
+   }
+  ],
+  "preferredSkills": [
+   {
     "id": "resume:Spacecraft",
     "label": "Spacecraft",
     "value": "resume:Spacecraft"
    },
    {
-    "id": "resume:Export Controls",
-    "label": "Export Controls",
-    "value": "resume:Export Controls"
+    "id": "resume:Advisor",
+    "label": "Advisor",
+    "value": "resume:Advisor"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
-    "id": "resume:Supply Chain Operations",
-    "label": "Supply Chain Operations",
-    "value": "resume:Supply Chain Operations"
+    "id": "resume:Compliance Management",
+    "label": "Compliance Management",
+    "value": "resume:Compliance Management"
    },
    {
-    "id": "resume:ERP",
-    "label": "ERP",
-    "value": "resume:ERP"
-   },
-   {
-    "id": "resume:Data Driven",
-    "label": "Data Driven",
-    "value": "resume:Data Driven"
-   },
-   {
-    "id": "resume:Data Visualization",
-    "label": "Data Visualization",
-    "value": "resume:Data Visualization"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    }
   ],
   "manager": false,
@@ -267,15 +267,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
@@ -283,14 +283,14 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -318,13 +318,13 @@
     "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-10-16T20:20:09Z",
-  "title": "Senior Supply Chain Operations Engineer",
-  "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5456021008",
-  "jobId": "5456021008",
+  "timeStamp": "2026-10-16T20:25:08Z",
+  "title": "Senior Supply Chain Compliance Manager",
+  "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5456022008",
+  "jobId": "5456022008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.179158777831, 'matchScore': 0, 'ageScore': 0.9791587778310186, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1751445147604, 'matchScore': 0, 'ageScore': 0.9751445147604166, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
