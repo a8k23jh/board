@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-18T06:04:23Z",
+ "run": "2026-10-18T11:24:07Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "pMKAKcOwCB\u2026",
+  "session.sig": "yrI-Z4G_SQ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzIyYzNmNzAyYTkwZTQwNzdkOWVhZmFlZTI1NjU2NjYiLCAic2NvcmUiOiAxLjEwMDc3MjE5MjUxNDY2MDV9"
+   "sequence": "eyJfaWQiOiAiZTg4YTJmOWE1NDY3ZDczMmM5Yjc5MzIxNDNmYmZjZDQiLCAic2NvcmUiOiAxLjA4ODA1OTc4MDc4Mjc5MzJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -202,24 +202,24 @@
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
+   },
+   {
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    },
    {
     "id": "Atlanta, Georgia",
     "label": "Atlanta, Georgia",
     "value": "Atlanta, Georgia"
-   },
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
-    "id": "Charlotte, North Carolina",
-    "label": "Charlotte, North Carolina",
-    "value": "Charlotte, North Carolina"
    },
    {
     "id": "Austin, Texas",
@@ -230,63 +230,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 265000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Order to Cash",
-    "label": "Order to Cash",
-    "value": "resume:Order to Cash"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
    },
    {
     "id": "resume:Amazon Web Services",
     "label": "Amazon Web Services",
     "value": "resume:Amazon Web Services"
-   },
-   {
-    "id": "resume:Revenue Recognition",
-    "label": "Revenue Recognition",
-    "value": "resume:Revenue Recognition"
-   },
-   {
-    "id": "resume:Taxes",
-    "label": "Taxes",
-    "value": "resume:Taxes"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Order to Cash",
-    "label": "Order to Cash",
-    "value": "resume:Order to Cash"
-   },
-   {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
-   },
-   {
-    "id": "resume:Revenue Recognition",
-    "label": "Revenue Recognition",
-    "value": "resume:Revenue Recognition"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Taxes",
-    "label": "Taxes",
-    "value": "resume:Taxes"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
    },
    {
     "id": "resume:Open Source Software",
@@ -294,9 +250,53 @@
     "value": "resume:Open Source Software"
    },
    {
+    "id": "resume:Order to Cash",
+    "label": "Order to Cash",
+    "value": "resume:Order to Cash"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
+   },
+   {
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
+   },
+   {
+    "id": "resume:Order to Cash",
+    "label": "Order to Cash",
+    "value": "resume:Order to Cash"
+   },
+   {
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
+   },
+   {
+    "id": "resume:Stripe",
+    "label": "Stripe",
+    "value": "resume:Stripe"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "manager": false,
@@ -311,14 +311,9 @@
   "minYearsExp": 7,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
    },
    {
     "id": "West Coast",
@@ -331,9 +326,14 @@
     "value": "East Coast"
    },
    {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
+    "id": "Deep South",
+    "label": "Deep South",
+    "value": "Deep South"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    }
   ],
   "stages": [
@@ -367,24 +367,24 @@
   "jobId": "e966d4cd-3373-43fe-879d-876e854b8a86",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1672391208199, 'matchScore': 0, 'ageScore': 0.9672391208198302, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1547263546204, 'matchScore': 0, 'ageScore': 0.9547263546203704, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },

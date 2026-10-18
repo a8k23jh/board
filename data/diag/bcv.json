@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-18T06:04:23Z",
+ "run": "2026-10-18T11:24:07Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "-3VGjVlFLw\u2026",
+  "session.sig": "vg8jYD13Xw\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZmY3ZWU2NmIxNzAwOTQ3ZGUzNzcyYzhjNmE3ZTE4OTUiLCAic2NvcmUiOiAxLjEwMDkyOTk5ODE1NzQwNzR9"
+   "sequence": "eyJfaWQiOiAiZjI5M2NjNGVmZjlmOGYzZmRkODliNWQ2Zjg5Mzc2MmYiLCAic2NvcmUiOiAxLjA4ODMxOTkzMjI4Mzk1MDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,43 +152,36 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Redis/4a268133-b302-44fb-ba95-ab5c99a851b7?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "redis.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/75b442e4d20d4631d98293f1b8efe2d1_160_160?Expires=1861920000&Signature=OpO~wH-tdzjnzPRxeUIqyFBcOqzeSi8T1-mXnYWg31Rx5HIfihy5-",
-  "companyId": "Redis Labs",
-  "companySlug": "redis-labs",
-  "companyName": "Redis Labs",
-  "companyStaffCount": 1499,
+  "applyUrl": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---Remote-Any-location/Claims--Billing--Specialist---Patient-Account-Representative---Healthcare_45643",
+  "companyDomain": "guidehouse.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8bc0bb4bf4e114d6038755ebfb6d5f24_320_160?Expires=1861920000&Signature=pCmxuJlEyug4URyLV8ZDc4EssRYCvClteAtfAIJfQavWlUAl68jVh",
+  "companyId": "Guidehouse",
+  "companySlug": "guidehouse",
+  "companyName": "Guidehouse",
+  "companyStaffCount": 15958,
   "considerHosted": false,
-  "departments": [
-   "Field Sales"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "ebilling-specialist",
+    "label": "Ebilling Specialist",
+    "value": "ebilling-specialist"
    },
    {
-    "id": "territory-manager",
-    "label": "Territory Manager",
-    "value": "territory-manager"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "account-manager",
+    "label": "Account Manager",
+    "value": "account-manager"
    }
   ],
   "jobFunctions": [
@@ -196,105 +189,115 @@
     "id": "Sales",
     "label": "Sales",
     "value": "Sales"
+   },
+   {
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
    }
   ],
   "locations": [
-   "United States",
-   "United States"
+   "United States of America",
+   "CA, El Segundo, US"
   ],
   "normalizedLocations": [
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
+   },
+   {
+    "id": "El Segundo, California",
+    "label": "El Segundo, California",
+    "value": "El Segundo, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 178000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 38000, 'maxValue': 64000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Commission Plans",
-    "label": "Commission Plans",
-    "value": "resume:Commission Plans"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Subscription Sales",
-    "label": "Subscription Sales",
-    "value": "resume:Subscription Sales"
+    "id": "resume:General Ledger",
+    "label": "General Ledger",
+    "value": "resume:General Ledger"
    },
    {
-    "id": "resume:Licensing",
-    "label": "Licensing",
-    "value": "resume:Licensing"
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    },
    {
-    "id": "resume:Redis",
-    "label": "Redis",
-    "value": "resume:Redis"
+    "id": "resume:Follow through",
+    "label": "Follow through",
+    "value": "resume:Follow through"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Commission Plans",
-    "label": "Commission Plans",
-    "value": "resume:Commission Plans"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Subscription Sales",
-    "label": "Subscription Sales",
-    "value": "resume:Subscription Sales"
+    "id": "resume:General Ledger",
+    "label": "General Ledger",
+    "value": "resume:General Ledger"
    },
    {
-    "id": "resume:Licensing",
-    "label": "Licensing",
-    "value": "resume:Licensing"
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Redis",
-    "label": "Redis",
-    "value": "resume:Redis"
+    "id": "resume:Follow through",
+    "label": "Follow through",
+    "value": "resume:Follow through"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
-   },
-   {
-    "id": "resume:SFDC",
-    "label": "SFDC",
-    "value": "resume:SFDC"
-   },
-   {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
-   },
-   {
-    "id": "resume:Sales Management",
-    "label": "Sales Management",
-    "value": "resume:Sales Management"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
+   ],
+   [
+    3,
+    4
    ]
   ],
+  "minYearsExp": 3,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -302,39 +305,38 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Data & Analytics",
-    "label": "Data & Analytics",
-    "value": "Data & Analytics"
+    "id": "Business Services",
+    "label": "Business Services",
+    "value": "Business Services"
+   },
+   {
+    "id": "Management Consulting",
+    "label": "Management Consulting",
+    "value": "Management Consulting"
    }
   ],
   "timeStamp": "2026-10-17T00:00:00Z",
-  "title": "Regional Sales Director - West",
-  "url": "https://jobs.ashbyhq.com/Redis/4a268133-b302-44fb-ba95-ab5c99a851b7",
-  "jobId": "4a268133-b302-44fb-ba95-ab5c99a851b7",
+  "title": "Claims (Billing) Specialist / Patient Account Representative - Healthcare",
+  "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---Remote-Any-location/Claims--Billing--Specialist---Patient-Account-Representative---Healthcare_45643",
+  "jobId": "fa62024aba5b100039961170b27a0000",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1678392854429, 'matchScore': 0, 'ageScore': 0.9678392854429012, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1551673051447, 'matchScore': 0, 'ageScore': 0.955167305144676, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "mid"
   ],
   "isFeatured": false
  },

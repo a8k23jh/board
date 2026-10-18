@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-18T06:04:23Z",
+ "run": "2026-10-18T11:24:07Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "F4WAfABk65\u2026",
+  "session.sig": "hD6ACK8GVS\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTc1Y2VjZTM1YTBkMDRmZDRlMTVhM2ZlMjIwMDVhZjUiLCAic2NvcmUiOiAxLjE1MzMzMTMxOTE5ODMwMjZ9"
+   "sequence": "eyJfaWQiOiAiOGQ3YmEwZjliMWE2ZTRlMjc2OWVjZjhhYjNiNTQ4MGUiLCAic2NvcmUiOiAxLjE0MDgzNjMyODg3MTkxMzd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -201,9 +201,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
    },
    {
     "id": "resume:Amazon Web Services",
@@ -211,48 +216,43 @@
     "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
    },
    {
     "id": "resume:Amazon Web Services",
     "label": "Amazon Web Services",
     "value": "resume:Amazon Web Services"
-   },
-   {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
    }
   ],
   "preferredSkills": [
    {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
    },
    {
     "id": "resume:Security Architecture Design",
@@ -260,14 +260,14 @@
     "value": "resume:Security Architecture Design"
    },
    {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Cloud Security",
-    "label": "Cloud Security",
-    "value": "resume:Cloud Security"
    }
   ],
   "manager": true,
@@ -316,24 +316,24 @@
   "jobId": "82.471",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1959433982959, 'matchScore': 0, 'ageScore': 0.9959433982959105, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1843248395165, 'matchScore': 0, 'ageScore': 0.9843248395165896, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
