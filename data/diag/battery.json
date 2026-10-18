@@ -1,6 +1,7 @@
 {
  "board": "battery",
- "run": "2026-10-18T18:43:12Z",
+ "run": "2026-10-18T21:35:48Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.battery.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 18736
@@ -34,7 +35,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "lA6cfdv0GM\u2026",
+  "session.sig": "H8f_F1SCCn\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +120,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGU4OTc5Y2MwZjA1MjkyMDA2ZGY0NTNhZDQ2OTA4Y2IiLCAic2NvcmUiOiAxLjAzMDk4MTc4MjQyNDc2ODV9"
+   "sequence": "eyJfaWQiOiAiZTkyMjQwOGQwNjdkYzk4OGExN2FlNGZjMzY2YjE4ODAiLCAic2NvcmUiOiAxLjAyOTI5MDQwMDA2MDU3MX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -147,140 +148,111 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/clickhouse/e966d4cd-3373-43fe-879d-876e854b8a86?utm_source=jobs.battery.com",
-  "companyDomain": "clickhouse.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2779852661322ab66da5dc263e72606_320_160?Expires=1861920000&Signature=r~P65IuHovDEITH8vKhbAvgpsGftasvE8O7kucrixTGLscABGrKrs",
-  "companyId": "ClickHouse",
-  "companySlug": "clickhouse",
-  "companyName": "ClickHouse",
-  "companyStaffCount": 726,
+  "applyUrl": "https://cleerly.com/careers-board?gh_jid=6227879004",
+  "companyDomain": "cleerlyhealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1e25d4eff728db161714c549bcb1e9b5_192_160?Expires=1861920000&Signature=Fxlu3V-XtSZhHBwaQOv0N2fbpbt4MW0TT1YfN3i8byTEsurn9PYLr",
+  "companyId": "Cleerly",
+  "companySlug": "cleerly",
+  "companyName": "Cleerly",
+  "companyStaffCount": 276,
   "considerHosted": false,
   "departments": [
-   "Product Management"
+   "Product"
   ],
   "jobTypes": [
    {
-    "id": "product-manager",
-    "label": "Product Manager",
-    "value": "product-manager"
-   },
-   {
-    "id": "senior-product-manager",
-    "label": "Senior Product Manager",
-    "value": "senior-product-manager"
+    "id": "ux-designer",
+    "label": "UX Designer",
+    "value": "ux-designer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Product Management",
-    "label": "Product Management",
-    "value": "Product Management"
+    "id": "Design",
+    "label": "Design",
+    "value": "Design"
    }
   ],
   "locations": [
-   "San Francisco, United States",
-   "United States",
-   "Charlotte",
-   "Chicago",
-   "Seattle"
+   "Virtual US"
   ],
   "normalizedLocations": [
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "Charlotte, North Carolina",
-    "label": "Charlotte, North Carolina",
-    "value": "Charlotte, North Carolina"
-   },
-   {
-    "id": "Atlanta, Georgia",
-    "label": "Atlanta, Georgia",
-    "value": "Atlanta, Georgia"
-   },
-   {
-    "id": "Greater Boston Area",
-    "label": "Boston",
-    "value": "Greater Boston Area"
-   },
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 265000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 166950, 'maxValue': 192180, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Revenue Recognition",
-    "label": "Revenue Recognition",
-    "value": "resume:Revenue Recognition"
+    "id": "resume:Risk Management",
+    "label": "Risk Management",
+    "value": "resume:Risk Management"
    },
    {
-    "id": "resume:Developer Platform",
-    "label": "Developer Platform",
-    "value": "resume:Developer Platform"
+    "id": "resume:Design Systems",
+    "label": "Design Systems",
+    "value": "resume:Design Systems"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:Quantitative Analytics",
+    "label": "Quantitative Analytics",
+    "value": "resume:Quantitative Analytics"
    },
    {
-    "id": "resume:Order to Cash",
-    "label": "Order to Cash",
-    "value": "resume:Order to Cash"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Risk Analysis",
+    "label": "Risk Analysis",
+    "value": "resume:Risk Analysis"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Revenue Recognition",
-    "label": "Revenue Recognition",
-    "value": "resume:Revenue Recognition"
+    "id": "resume:Risk Management",
+    "label": "Risk Management",
+    "value": "resume:Risk Management"
    },
    {
-    "id": "resume:Developer Platform",
-    "label": "Developer Platform",
-    "value": "resume:Developer Platform"
+    "id": "resume:Design Systems",
+    "label": "Design Systems",
+    "value": "resume:Design Systems"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:Quantitative Analytics",
+    "label": "Quantitative Analytics",
+    "value": "resume:Quantitative Analytics"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Order to Cash",
-    "label": "Order to Cash",
-    "value": "resume:Order to Cash"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Risk Analysis",
+    "label": "Risk Analysis",
+    "value": "resume:Risk Analysis"
    },
    {
-    "id": "resume:Taxes",
-    "label": "Taxes",
-    "value": "resume:Taxes"
+    "id": "resume:Case Studies",
+    "label": "Case Studies",
+    "value": "resume:Case Studies"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Characterization",
+    "label": "Characterization",
+    "value": "resume:Characterization"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Rapid Prototyping",
+    "label": "Rapid Prototyping",
+    "value": "resume:Rapid Prototyping"
    }
   ],
   "manager": false,
@@ -290,34 +262,18 @@
    [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 8,
   "regions": [
    {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
-   },
-   {
-    "id": "Deep South",
-    "label": "Deep South",
-    "value": "Deep South"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -335,23 +291,23 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Analytics",
-    "label": "Analytics",
-    "value": "Analytics"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    },
    {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
+    "id": "Life Sciences",
+    "label": "Life Sciences",
+    "value": "Life Sciences"
    }
   ],
-  "timeStamp": "2026-10-17T00:00:00Z",
-  "title": "Senior Product Manager, Billing & Marketplaces",
-  "url": "https://jobs.ashbyhq.com/clickhouse/e966d4cd-3373-43fe-879d-876e854b8a86",
-  "jobId": "e966d4cd-3373-43fe-879d-876e854b8a86",
-  "remote": true,
+  "timeStamp": "2026-10-18T09:52:30Z",
+  "title": "Sr. Product Designer",
+  "url": "https://cleerly.com/careers-board?gh_jid=6227879004",
+  "jobId": "6227879004",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1467441088303, 'matchScore': 0, 'ageScore': 0.946744108830247, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1891492849476, 'matchScore': 0, 'ageScore': 0.9891492849475308, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -359,20 +315,15 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }

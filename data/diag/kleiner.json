@@ -1,6 +1,7 @@
 {
  "board": "kleiner",
- "run": "2026-10-18T18:43:12Z",
+ "run": "2026-10-18T21:35:48Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +43,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "b9MuTm_dPr\u2026",
+  "session.sig": "wPBQWWVfve\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +128,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGM0M2IxNTMyYWYyNDlhMDBlMTc1MDcyZjg0ODNiYjYiLCAic2NvcmUiOiAxLjA0NjM1Nzk2NDk3NDkyMjh9"
+   "sequence": "eyJfaWQiOiAiN2JjZGNjMTEyZmY1ODY1YzFhZmRjODI0ZTM0OWFlNTUiLCAic2NvcmUiOiAxLjA0MjE1NTM2NjM0NTI5MzJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +169,14 @@
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
-   },
-   {
     "id": "engineer",
     "label": "Engineer",
     "value": "engineer"
+   },
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    }
   ],
   "jobFunctions": [
@@ -198,14 +199,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 192000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Microcontrollers",
-    "label": "Microcontrollers",
-    "value": "resume:Microcontrollers"
-   },
-   {
-    "id": "resume:Standard operating procedure",
-    "label": "Standard operating procedure",
-    "value": "resume:Standard operating procedure"
+    "id": "resume:DFMEA",
+    "label": "DFMEA",
+    "value": "resume:DFMEA"
    },
    {
     "id": "resume:Regulatory Requirements",
@@ -213,53 +209,58 @@
     "value": "resume:Regulatory Requirements"
    },
    {
-    "id": "resume:Motion Control",
-    "label": "Motion Control",
-    "value": "resume:Motion Control"
+    "id": "resume:Standard operating procedure",
+    "label": "Standard operating procedure",
+    "value": "resume:Standard operating procedure"
    },
    {
-    "id": "resume:Quality Management",
-    "label": "Quality Management",
-    "value": "resume:Quality Management"
+    "id": "resume:Mobile",
+    "label": "Mobile",
+    "value": "resume:Mobile"
+   },
+   {
+    "id": "resume:Risk Analysis",
+    "label": "Risk Analysis",
+    "value": "resume:Risk Analysis"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Microcontrollers",
-    "label": "Microcontrollers",
-    "value": "resume:Microcontrollers"
-   },
-   {
-    "id": "resume:Standard operating procedure",
-    "label": "Standard operating procedure",
-    "value": "resume:Standard operating procedure"
+    "id": "resume:DFMEA",
+    "label": "DFMEA",
+    "value": "resume:DFMEA"
    },
    {
     "id": "resume:Regulatory Requirements",
     "label": "Regulatory Requirements",
     "value": "resume:Regulatory Requirements"
+   },
+   {
+    "id": "resume:Standard operating procedure",
+    "label": "Standard operating procedure",
+    "value": "resume:Standard operating procedure"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Motion Control",
-    "label": "Motion Control",
-    "value": "resume:Motion Control"
+    "id": "resume:Mobile",
+    "label": "Mobile",
+    "value": "resume:Mobile"
    },
    {
-    "id": "resume:Quality Management",
-    "label": "Quality Management",
-    "value": "resume:Quality Management"
+    "id": "resume:Risk Analysis",
+    "label": "Risk Analysis",
+    "value": "resume:Risk Analysis"
    },
    {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
    {
-    "id": "resume:Programmable Logic Controller",
-    "label": "PLC",
-    "value": "resume:Programmable Logic Controller"
+    "id": "resume:VV",
+    "label": "Verification and Validation",
+    "value": "resume:VV"
    },
    {
     "id": "resume:RIA",
@@ -283,6 +284,11 @@
   "minYearsExp": 10,
   "regions": [
    {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
@@ -291,11 +297,6 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -324,28 +325,29 @@
   "jobId": "ab404c3f-a336-4a6c-b31b-07d048feb3dc",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1469403159051, 'matchScore': 0, 'ageScore': 0.9469403159050926, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1431307517385, 'matchScore': 0, 'ageScore': 0.943130751738426, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
