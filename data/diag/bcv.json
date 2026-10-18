@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-17T22:27:19Z",
+ "run": "2026-10-18T01:13:02Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ivSbuOkQf3\u2026",
+  "session.sig": "uawDXgA2gv\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWU5YWQ0NzllMzc3MTc5ZmM3OGYyYjJlYTIyZmJhNmEiLCAic2NvcmUiOiAxLjEwNDc3MDkyNDE0MDgxOH0="
+   "sequence": "eyJfaWQiOiAiZmY3ZWU2NmIxNzAwOTQ3ZGUzNzcyYzhjNmE3ZTE4OTUiLCAic2NvcmUiOiAxLjEwMDkyOTk5ODE1NzQwNzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -176,9 +176,9 @@
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    },
    {
     "id": "territory-manager",
@@ -186,9 +186,9 @@
     "value": "territory-manager"
    },
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [
@@ -212,58 +212,53 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 178000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Commission Plans",
+    "label": "Commission Plans",
+    "value": "resume:Commission Plans"
+   },
+   {
     "id": "resume:Subscription Sales",
     "label": "Subscription Sales",
     "value": "resume:Subscription Sales"
    },
    {
-    "id": "resume:Sales Management",
-    "label": "Sales Management",
-    "value": "resume:Sales Management"
+    "id": "resume:Licensing",
+    "label": "Licensing",
+    "value": "resume:Licensing"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Redis",
+    "label": "Redis",
+    "value": "resume:Redis"
    },
    {
-    "id": "resume:SFDC",
-    "label": "SFDC",
-    "value": "resume:SFDC"
-   },
-   {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Commission Plans",
+    "label": "Commission Plans",
+    "value": "resume:Commission Plans"
+   },
+   {
     "id": "resume:Subscription Sales",
     "label": "Subscription Sales",
     "value": "resume:Subscription Sales"
    },
    {
-    "id": "resume:Sales Management",
-    "label": "Sales Management",
-    "value": "resume:Sales Management"
-   },
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Licensing",
+    "label": "Licensing",
+    "value": "resume:Licensing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:SFDC",
-    "label": "SFDC",
-    "value": "resume:SFDC"
-   },
-   {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Redis",
+    "label": "Redis",
+    "value": "resume:Redis"
    },
    {
     "id": "resume:Databases",
@@ -271,14 +266,19 @@
     "value": "resume:Databases"
    },
    {
-    "id": "resume:Direct Sales",
-    "label": "Direct Sales",
-    "value": "resume:Direct Sales"
+    "id": "resume:SFDC",
+    "label": "SFDC",
+    "value": "resume:SFDC"
    },
    {
-    "id": "resume:Licensing",
-    "label": "Licensing",
-    "value": "resume:Licensing"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
+   },
+   {
+    "id": "resume:Sales Management",
+    "label": "Sales Management",
+    "value": "resume:Sales Management"
    }
   ],
   "manager": true,
@@ -323,7 +323,7 @@
   "jobId": "4a268133-b302-44fb-ba95-ab5c99a851b7",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1714734568588, 'matchScore': 0, 'ageScore': 0.9714734568587963, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1678392854429, 'matchScore': 0, 'ageScore': 0.9678392854429012, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

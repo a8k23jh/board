@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-17T22:27:19Z",
+ "run": "2026-10-18T01:13:02Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "hL88DSkXLC\u2026",
+  "session.sig": "b0TZkVG0Jn\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTVmNmUyNzc2MzE3YTBlMzQyYmQwNDljNmJjODNhMGUiLCAic2NvcmUiOiAxLjEwNDc1MzA2MzU2NDA0MzJ9"
+   "sequence": "eyJfaWQiOiAiNzIyYzNmNzAyYTkwZTQwNzdkOWVhZmFlZTI1NjU2NjYiLCAic2NvcmUiOiAxLjEwMDc3MjE5MjUxNDY2MDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -176,14 +176,14 @@
   ],
   "jobTypes": [
    {
-    "id": "senior-product-manager",
-    "label": "Senior Product Manager",
-    "value": "senior-product-manager"
-   },
-   {
     "id": "product-manager",
     "label": "Product Manager",
     "value": "product-manager"
+   },
+   {
+    "id": "senior-product-manager",
+    "label": "Senior Product Manager",
+    "value": "senior-product-manager"
    }
   ],
   "jobFunctions": [
@@ -202,24 +202,24 @@
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    },
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Atlanta, Georgia",
+    "label": "Atlanta, Georgia",
+    "value": "Atlanta, Georgia"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    },
    {
     "id": "Charlotte, North Carolina",
     "label": "Charlotte, North Carolina",
     "value": "Charlotte, North Carolina"
-   },
-   {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
    },
    {
     "id": "Austin, Texas",
@@ -230,63 +230,58 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 265000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Order to Cash",
+    "label": "Order to Cash",
+    "value": "resume:Order to Cash"
    },
    {
-    "id": "resume:Google Cloud Platform",
-    "label": "Google Cloud Platform",
-    "value": "resume:Google Cloud Platform"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Stripe",
-    "label": "Stripe",
-    "value": "resume:Stripe"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
     "id": "resume:Revenue Recognition",
     "label": "Revenue Recognition",
     "value": "resume:Revenue Recognition"
+   },
+   {
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
+   },
+   {
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Order to Cash",
+    "label": "Order to Cash",
+    "value": "resume:Order to Cash"
    },
    {
-    "id": "resume:Google Cloud Platform",
-    "label": "Google Cloud Platform",
-    "value": "resume:Google Cloud Platform"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Stripe",
-    "label": "Stripe",
-    "value": "resume:Stripe"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
     "id": "resume:Revenue Recognition",
     "label": "Revenue Recognition",
     "value": "resume:Revenue Recognition"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
     "id": "resume:Databases",
@@ -294,9 +289,14 @@
     "value": "resume:Databases"
    },
    {
-    "id": "resume:Taxes",
-    "label": "Taxes",
-    "value": "resume:Taxes"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "manager": false,
@@ -316,9 +316,14 @@
     "value": "Northeast"
    },
    {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "East Coast",
@@ -326,14 +331,9 @@
     "value": "East Coast"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
    }
   ],
   "stages": [
@@ -367,24 +367,24 @@
   "jobId": "e966d4cd-3373-43fe-879d-876e854b8a86",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1716824278337, 'matchScore': 0, 'ageScore': 0.9716824278337192, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1672391208199, 'matchScore': 0, 'ageScore': 0.9672391208198302, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
