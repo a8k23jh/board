@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-19T00:15:30Z",
+ "run": "2026-10-19T04:55:34Z",
  "homepage": {
   "status": 200,
   "bytes": 21387
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "HtFloykFCh\u2026",
+  "session.sig": "oiI8X4xrP5\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTg4YTJmOWE1NDY3ZDczMmM5Yjc5MzIxNDNmYmZjZDQiLCAic2NvcmUiOiAxLjA3MTQ3NzE2NTgxOTgzMDN9"
+   "sequence": "eyJfaWQiOiAiNDVhOGM2NjhlYzFjOGY0YmZmNTJjMjlhNjJkM2Q5ZDQiLCAic2NvcmUiOiAxLjA2NzI5MzI0ODg1NzI1M30="
   },
   "job_keys": [
    "applicationWindow",
@@ -176,11 +176,6 @@
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
-   },
-   {
     "id": "principal-software-engineer",
     "label": "Principal Software Engineer",
     "value": "principal-software-engineer"
@@ -189,6 +184,11 @@
     "id": "senior-software-engineer",
     "label": "Senior Software Engineer",
     "value": "senior-software-engineer"
+   },
+   {
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
@@ -211,63 +211,53 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
-   },
-   {
-    "id": "resume:Capacity Planning",
-    "label": "Capacity Planning",
-    "value": "resume:Capacity Planning"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
     "id": "resume:Storage",
@@ -275,9 +265,19 @@
     "value": "resume:Storage"
    },
    {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
+    "id": "resume:Resource Allocation",
+    "label": "Resource Allocation",
+    "value": "resume:Resource Allocation"
+   },
+   {
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -295,6 +295,11 @@
   ],
   "regions": [
    {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
@@ -303,11 +308,6 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -341,24 +341,24 @@
   "jobId": "5456039008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1860370517292, 'matchScore': 0, 'ageScore': 0.9860370517291667, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1810811620289, 'matchScore': 0, 'ageScore': 0.9810811620289351, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-19T00:15:30Z",
+ "run": "2026-10-19T04:55:34Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Wiu1jODYZ2\u2026",
+  "session.sig": "trd7G0FYgH\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWNmNmUxODEwY2IyYWViMGUxNWJkZjkyZjc3NDI1YTMiLCAic2NvcmUiOiAxLjA3MTcyNDkzMzI2MzUwM30="
+   "sequence": "eyJfaWQiOiAiNTFmZWUyM2M3YmRhZDc3MjBjMDk3MmY4MGEzMjc3M2EiLCAic2NvcmUiOiAxLjA2NzQzMTE2NzY1MjAwNn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,208 +152,190 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/wonolo/am9icG9zdDrJwZBgKzvWoHnK6BlhA4U_?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "wonolo.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec5d4fa0298068cd22d50bb085f94f27_240_160?Expires=1861920000&Signature=fQsngyHmijPhqs1~Ectyxtf3bzQyrDte3D-KYwq-jlxJWrbPHfU-t",
-  "companyId": "Wonolo",
-  "companySlug": "wonolo",
-  "companyName": "Wonolo",
-  "companyStaffCount": 822,
+  "applyUrl": "https://careers.docusign.com/jobs/30555?lang=en-us",
+  "companyDomain": "docusign.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
+  "companyId": "DocuSign",
+  "companySlug": "docusign",
+  "companyName": "DocuSign",
+  "companyStaffCount": 8412,
   "considerHosted": false,
-  "departments": [
-   "Market Operations"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "recruiting-coordinator",
-    "label": "Recruiting Ops",
-    "value": "recruiting-coordinator"
+    "id": "consultant",
+    "label": "Consultant",
+    "value": "consultant"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Consulting",
+    "label": "Consulting",
+    "value": "Consulting"
+   }
+  ],
   "locations": [
-   "Atlanta, Georgia",
-   "Dallas",
-   "Fort Worth, Texas"
+   "United States",
+   "California, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Atlanta, Georgia",
-    "label": "Atlanta, Georgia",
-    "value": "Atlanta, Georgia"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    },
    {
-    "id": "Dallas, Texas",
-    "label": "Dallas, Texas",
-    "value": "Dallas, Texas"
-   },
-   {
-    "id": "Fort Worth, Texas",
-    "label": "Fort Worth, Texas",
-    "value": "Fort Worth, Texas"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 28, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 111000, 'maxValue': 158400, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Tax Forms",
-    "label": "Tax Forms",
-    "value": "resume:Tax Forms"
+    "id": "resume:Network Security",
+    "label": "Network Security",
+    "value": "resume:Network Security"
    },
    {
-    "id": "resume:Job Search Strategies",
-    "label": "Job Search Strategies",
-    "value": "resume:Job Search Strategies"
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    },
    {
-    "id": "resume:Bilingual",
-    "label": "Bilingual",
-    "value": "resume:Bilingual"
+    "id": "resume:SpringCM",
+    "label": "SpringCM",
+    "value": "resume:SpringCM"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
    },
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Tax Forms",
-    "label": "Tax Forms",
-    "value": "resume:Tax Forms"
+    "id": "resume:Network Security",
+    "label": "Network Security",
+    "value": "resume:Network Security"
    },
    {
-    "id": "resume:Job Search Strategies",
-    "label": "Job Search Strategies",
-    "value": "resume:Job Search Strategies"
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    },
    {
-    "id": "resume:Bilingual",
-    "label": "Bilingual",
-    "value": "resume:Bilingual"
+    "id": "resume:SpringCM",
+    "label": "SpringCM",
+    "value": "resume:SpringCM"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
    },
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Documentum",
+    "label": "Documentum",
+    "value": "resume:Documentum"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    }
   ],
   "manager": false,
-  "consultant": false,
+  "consultant": true,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
   "regions": [
    {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
-   },
-   {
-    "id": "Deep South",
-    "label": "Deep South",
-    "value": "Deep South"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-10-16T23:58:33Z",
-  "title": "Recruiting Operations Specialist",
-  "url": "https://jobs.gem.com/wonolo/am9icG9zdDrJwZBgKzvWoHnK6BlhA4U_",
-  "jobId": "am9icG9zdDrJwZBgKzvWoHnK6BlhA4U_",
-  "remote": false,
+  "timeStamp": "2026-10-18T15:42:01Z",
+  "title": "Senior Product Consultant",
+  "url": "https://careers.docusign.com/jobs/30555?lang=en-us",
+  "jobId": "30555",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1385740466177, 'matchScore': 0, 'ageScore': 0.9385740466176697, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1890867887723, 'matchScore': 0, 'ageScore': 0.9890867887723765, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
