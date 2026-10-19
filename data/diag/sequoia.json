@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-19T10:57:33Z",
+ "run": "2026-10-19T17:34:48Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cVJI0vzH84\u2026",
+  "session.sig": "wm0fcx6pX6\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYmUwYTQ2NDlkMDQ3NmRhOWMzOWUxMWIzMzNhNGU1OTAiLCAic2NvcmUiOiAxLjA4MTI4Nzk2NDA0OTM4Mjd9"
+   "sequence": "eyJfaWQiOiAiNzhjZjA5ZDVkMjc5YTAzYTNkYWY3NzliZTQzMjBkYzQiLCAic2NvcmUiOiAxLjA3ODk1Mjc5NjI2ODEzMjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,33 +155,43 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://cribl.io/job-detail/?gh_jid=6218958004&gh_src=8c0276084us",
-  "companyDomain": "cribl.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/748d19f5df4c5e3b2db8057cc735611a_192_160?Expires=1861920000&Signature=SJNRIXlQ5WF7hK48z7k8lkFmAsL5Sb-gi~rgZ4pKC9QoteIMr6wH-",
-  "companyId": "Cribl",
-  "companySlug": "cribl",
-  "companyName": "Cribl",
-  "companyStaffCount": 1289,
+  "applyUrl": "https://job-boards.greenhouse.io/grafanalabs/jobs/6227911004",
+  "companyDomain": "grafana.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/32a90dde8d44051d64fa600f3d9b65c2_320_160?Expires=1861920000&Signature=QLDDUpzbhHfSLkiSts7c3p9gH6wI54LzqzfhnFpekGZchlhjTA1t0",
+  "companyId": "Grafana Labs",
+  "companySlug": "grafana-labs",
+  "companyName": "Grafana Labs",
+  "companyStaffCount": 1909,
   "considerHosted": false,
   "departments": [
-   "Operations"
+   "Product Management"
   ],
   "jobTypes": [
    {
-    "id": "data-analyst",
-    "label": "Data Analyst",
-    "value": "data-analyst"
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
+   },
+   {
+    "id": "sales-engineering",
+    "label": "Sales Engineering",
+    "value": "sales-engineering"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Analyst",
-    "label": "Analyst",
-    "value": "Analyst"
+    "id": "Product Management",
+    "label": "Product Management",
+    "value": "Product Management"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "Remote - United States"
+   "United States (Remote)"
   ],
   "normalizedLocations": [
    {
@@ -190,76 +200,76 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 208602, 'maxValue': 208602, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   },
+   {
+    "id": "resume:Multi Tenant Systems",
+    "label": "Multi Tenant Systems",
+    "value": "resume:Multi Tenant Systems"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
    {
     "id": "resume:Act-On",
     "label": "Act-On",
     "value": "resume:Act-On"
    },
    {
-    "id": "resume:Business Intelligence Tools",
-    "label": "Business Intelligence Tools",
-    "value": "resume:Business Intelligence Tools"
-   },
-   {
-    "id": "resume:Looker",
-    "label": "Looker",
-    "value": "resume:Looker"
-   },
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
-   },
-   {
-    "id": "resume:Business Intelligence Tools",
-    "label": "Business Intelligence Tools",
-    "value": "resume:Business Intelligence Tools"
-   },
-   {
-    "id": "resume:Looker",
-    "label": "Looker",
-    "value": "resume:Looker"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
     "id": "resume:Marketing Strategy",
     "label": "Marketing Strategy",
     "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Multi Tenant Systems",
+    "label": "Multi Tenant Systems",
+    "value": "resume:Multi Tenant Systems"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
+   },
+   {
+    "id": "resume:LEE Advocacy",
+    "label": "Advocacy",
+    "value": "resume:LEE Advocacy"
+   },
+   {
+    "id": "resume:FedRAMP",
+    "label": "FedRAMP",
+    "value": "resume:FedRAMP"
+   },
+   {
+    "id": "resume:SLED",
+    "label": "SLED",
+    "value": "resume:SLED"
    }
   ],
   "manager": false,
@@ -267,11 +277,15 @@
   "contractor": false,
   "considerLevels": [
    [
+    3,
+    4
+   ],
+   [
     5,
     6
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
@@ -294,35 +308,35 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Data & Analytics",
-    "label": "Data & Analytics",
-    "value": "Data & Analytics"
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
    }
   ],
-  "timeStamp": "2026-10-18T21:25:58Z",
-  "title": "Staff Data Analyst",
-  "url": "https://cribl.io/job-detail/?gh_jid=6218958004",
-  "jobId": "6218958004",
+  "timeStamp": "2026-10-19T01:25:07Z",
+  "title": "Staff Product Manager, Enterprise Deployment Solutions |  USA | Remote",
+  "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6227911004",
+  "jobId": "6227911004",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1845368214414, 'matchScore': 0, 'ageScore': 0.984536821441358, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1823338712234, 'matchScore': 0, 'ageScore': 0.9823338712233797, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-19T10:57:33Z",
+ "run": "2026-10-19T17:34:48Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "KcRzgCzYZH\u2026",
+  "session.sig": "Gk7rVBFYZl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjNjMDRmZjNhN2FkZDU2OGY1ZjZlYWJlMDkyZWExNjUiLCAic2NvcmUiOiAxLjA1NDkzMDg0MzcyNjg1MTl9"
+   "sequence": "eyJfaWQiOiAiM2YwNTgxMzRhZGNhYmExYjU3NTI3OGZiZTQxYjRiNWUiLCAic2NvcmUiOiAxLjA0NjQ0OTg5Mjk1Nzk0NzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -173,32 +173,42 @@
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
-   },
-   {
     "id": "Seattle, Washington",
     "label": "Seattle, Washington",
     "value": "Seattle, Washington"
    },
    {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
+   },
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 320000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:HIPAA",
+    "label": "HIPAA",
+    "value": "resume:HIPAA"
+   },
+   {
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
+   },
+   {
+    "id": "resume:Ranking",
+    "label": "Ranking",
+    "value": "resume:Ranking"
    },
    {
     "id": "resume:Encryption",
@@ -206,48 +216,38 @@
     "value": "resume:Encryption"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   },
-   {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
-   },
-   {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:HIPAA",
+    "label": "HIPAA",
+    "value": "resume:HIPAA"
    },
+   {
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
+   },
+   {
+    "id": "resume:Ranking",
+    "label": "Ranking",
+    "value": "resume:Ranking"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Encryption",
     "label": "Encryption",
     "value": "resume:Encryption"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
-   },
-   {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
     "id": "resume:Machine Learning",
@@ -255,14 +255,14 @@
     "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    }
   ],
   "manager": false,
@@ -289,9 +289,9 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "West Coast",
@@ -304,9 +304,9 @@
     "value": "East Coast"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    }
   ],
   "stages": [
@@ -340,7 +340,7 @@
   "jobId": "5456453008",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1894273036913, 'matchScore': 0, 'ageScore': 0.989427303691358, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1810776803295, 'matchScore': 0, 'ageScore': 0.9810776803294753, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

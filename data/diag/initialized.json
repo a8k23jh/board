@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-10-19T10:57:33Z",
+ "run": "2026-10-19T17:34:48Z",
  "homepage": {
   "status": 200,
   "bytes": 20921
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "W-eLr8MMYe\u2026",
+  "session.sig": "5psZN8z0dS\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -179,11 +179,6 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 185000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Grant Writing",
-    "label": "Grant Writing",
-    "value": "resume:Grant Writing"
-   },
-   {
     "id": "resume:Aerospace",
     "label": "Aerospace",
     "value": "resume:Aerospace"
@@ -194,43 +189,9 @@
     "value": "resume:Scheduling"
    },
    {
-    "id": "resume:Aviation",
-    "label": "Aviation",
-    "value": "resume:Aviation"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Grant Writing",
-    "label": "Grant Writing",
-    "value": "resume:Grant Writing"
-   },
-   {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
-   {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Aviation",
-    "label": "Aviation",
-    "value": "resume:Aviation"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Top Secret",
+    "label": "Clearance",
+    "value": "resume:Top Secret"
    },
    {
     "id": "resume:Regulatory Compliance",
@@ -238,9 +199,48 @@
     "value": "resume:Regulatory Compliance"
    },
    {
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
+   },
+   {
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
+   },
+   {
     "id": "resume:Top Secret",
     "label": "Clearance",
     "value": "resume:Top Secret"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Regulatory Compliance",
+    "label": "Regulatory Compliance",
+    "value": "resume:Regulatory Compliance"
+   },
+   {
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
+   },
+   {
+    "id": "resume:Aviation",
+    "label": "Aviation",
+    "value": "resume:Aviation"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "manager": false,
@@ -255,11 +255,6 @@
   "minYearsExp": 4,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -268,6 +263,11 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -301,24 +301,24 @@
   "jobId": "5454396008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.0773429705398, 'matchScore': 0, 'ageScore': 0.8773429705397376, 'richnessScore': 2}",
+  "scores": "{'score': 1101.0686186512346, 'matchScore': 0, 'ageScore': 0.8686186512345679, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": true
  },
