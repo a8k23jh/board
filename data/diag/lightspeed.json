@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-18T21:35:48Z",
+ "run": "2026-10-19T00:15:30Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "v--LbqvLQg\u2026",
+  "session.sig": "wbNc0ytVAV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTc1YzZmMGFhYTRjMDYzNzZhMTU3MmIyNTllYThhNjEiLCAic2NvcmUiOiAxLjEyODg0NTEwMjg2MTExMX0="
+   "sequence": "eyJfaWQiOiAiOGUxY2JhMGNkNWE4ODg0OTdhNmNkMmQwMWQ1MjE0YWIiLCAic2NvcmUiOiAxLjEyNDcxMDY2NzcwMTc3NDZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -166,6 +166,11 @@
   "departments": [],
   "jobTypes": [
    {
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
+   },
+   {
     "id": "business-ops",
     "label": "Business Operations",
     "value": "business-ops"
@@ -174,11 +179,6 @@
     "id": "business-strategy",
     "label": "Business Strategy",
     "value": "business-strategy"
-   },
-   {
-    "id": "product-manager",
-    "label": "Product Manager",
-    "value": "product-manager"
    }
   ],
   "jobFunctions": [
@@ -212,63 +212,53 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 106900, 'maxValue': 150280, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Product Strategy",
+    "label": "Product Strategy",
+    "value": "resume:Product Strategy"
+   },
+   {
     "id": "resume:Change Management",
     "label": "Change Management",
     "value": "resume:Change Management"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Sales Operations",
+    "label": "Sales Operations",
+    "value": "resume:Sales Operations"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
-   },
-   {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Change Management",
-    "label": "Change Management",
-    "value": "resume:Change Management"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
-   },
-   {
     "id": "resume:Finance",
     "label": "Finance",
     "value": "resume:Finance"
    },
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
+    "id": "resume:Product Strategy",
+    "label": "Product Strategy",
+    "value": "resume:Product Strategy"
+   },
+   {
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Sales Operations",
+    "label": "Sales Operations",
+    "value": "resume:Sales Operations"
    },
    {
     "id": "resume:Act-On",
@@ -276,9 +266,19 @@
     "value": "resume:Act-On"
    },
    {
-    "id": "resume:Business Strategy",
-    "label": "Business Strategy",
-    "value": "resume:Business Strategy"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    }
   ],
   "manager": false,
@@ -298,11 +298,6 @@
   "maxYearsExp": 7,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
@@ -316,6 +311,11 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -338,7 +338,7 @@
   "jobId": "8204",
   "remote": true,
   "hybrid": true,
-  "scores": "{'score': 1001.1881751407326, 'matchScore': 0, 'ageScore': 0.9881751407326389, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1836493354248, 'matchScore': 0, 'ageScore': 0.9836493354247685, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
