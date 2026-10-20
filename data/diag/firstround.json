@@ -1,5 +1,356 @@
 {
  "board": "firstround",
- "run": "2026-10-20T01:55:30Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.firstround.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))"
+ "run": "2026-10-20T07:45:02Z",
+ "homepage": {
+  "status": 200,
+  "bytes": 17444
+ },
+ "slugs_tried": [
+  "first-round-capital",
+  "firstround",
+  "first-round"
+ ],
+ "attempts": [
+  {
+   "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+   "slug": "first-round-capital",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+   "slug": "firstround",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+   "slug": "first-round",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+  },
+  {
+   "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+   "slug": "first-round-capital",
+   "csrf_header": "x-csrf-token",
+   "status": 200,
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f528dd14e60d10a0f28884bea76aab102265accc\",\"date\":\"2026-10-19T22:33:48.916Z\"},\"server\":{\"git\":\"f528dd14e60d10a0f28884bea76aab102265accc\",\"date\":\"2026-10-19T22:33:48.916Z\"}}"
+  }
+ ],
+ "cookies": {
+  "session": "eyJmbGFzaC\u2026",
+  "session.sig": "FK3E8vl4Hj\u2026",
+  "AWSALBAPP-0": "AAAAAAAAAA\u2026",
+  "AWSALBAPP-1": "_remove_",
+  "AWSALBAPP-2": "_remove_",
+  "AWSALBAPP-3": "_remove_"
+ },
+ "token_endpoints": [
+  {
+   "path": "/api-boards/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/api-boards/csrf-token",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  },
+  {
+   "path": "/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+  }
+ ],
+ "csrf_candidates": [
+  {
+   "src": "html",
+   "len": 36
+  }
+ ],
+ "working": {
+  "endpoint": "https://jobs.firstround.com/api-boards/search-jobs",
+  "slug": "first-round-capital",
+  "csrf_header": [
+   "x-csrf-token"
+  ]
+ },
+ "search_probe": [
+  {
+   "variant": "query.searchQuery+promote",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.search",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.text",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.q",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "top.searchQuery",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  },
+  {
+   "variant": "query.keywords",
+   "jobs": 100,
+   "kw_hit_rate": 0.0
+  }
+ ],
+ "response_shape": {
+  "keys": [
+   "availableFilters",
+   "debug",
+   "errors",
+   "jobs",
+   "meta",
+   "total",
+   "version"
+  ],
+  "meta": {
+   "size": 100,
+   "sequence": "eyJfaWQiOiAiYjVjOWI2OTE0YTExODg5MTE1YTQ1ZGI3ZTRlMzY2YTYiLCAic2NvcmUiOiAxLjAwMDM2NjMyMTU3MzMwMjV9"
+  },
+  "job_keys": [
+   "applicationWindow",
+   "applyUrl",
+   "atsJobs",
+   "companyDomain",
+   "companyId",
+   "companyLogos",
+   "companyName",
+   "companySlug",
+   "companyStaffCount",
+   "considerHosted",
+   "considerLevels",
+   "consultant",
+   "contractor",
+   "departments",
+   "fundingLV",
+   "hybrid",
+   "isFeatured",
+   "jobFunctions",
+   "jobId",
+   "jobSeniorities"
+  ],
+  "job_count": 100
+ },
+ "sample_job": {
+  "applicationWindow": "{'status': 'accepting'}",
+  "applyUrl": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5457791008",
+  "companyDomain": "k2space.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/96af4d328d7e54eb24c092877b0e4c96_272_160?Expires=1861920000&Signature=rWQ5vPckbn1NROsVwoPJw3Sq9oP8FnF7q6Jh6wxTzQ6DBspleAAvN",
+  "companyId": "K2 Space",
+  "companySlug": "k2-space",
+  "companyName": "K2 Space",
+  "companyStaffCount": 347,
+  "considerHosted": false,
+  "departments": [
+   "IT"
+  ],
+  "jobTypes": [
+   {
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
+   },
+   {
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
+  "locations": [
+   "Los Angeles, CA"
+  ],
+  "normalizedLocations": [
+   {
+    "id": "Greater Los Angeles Area",
+    "label": "Greater Los Angeles Area",
+    "value": "Greater Los Angeles Area"
+   }
+  ],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "skills": [
+   {
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
+   },
+   {
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
+   },
+   {
+    "id": "resume:Incident Response",
+    "label": "Incident Response",
+    "value": "resume:Incident Response"
+   },
+   {
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
+   },
+   {
+    "id": "resume:Security Operations",
+    "label": "Security Operations",
+    "value": "resume:Security Operations"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
+   },
+   {
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
+   },
+   {
+    "id": "resume:Incident Response",
+    "label": "Incident Response",
+    "value": "resume:Incident Response"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
+   },
+   {
+    "id": "resume:Security Operations",
+    "label": "Security Operations",
+    "value": "resume:Security Operations"
+   },
+   {
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
+   },
+   {
+    "id": "resume:Export Controls",
+    "label": "Export Controls",
+    "value": "resume:Export Controls"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   }
+  ],
+  "manager": false,
+  "consultant": false,
+  "contractor": false,
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 10,
+  "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   }
+  ],
+  "stages": [
+   {
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Seed funded",
+    "label": "Seed",
+    "value": "Seed funded"
+   }
+  ],
+  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
+  "markets": [
+   {
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
+   }
+  ],
+  "timeStamp": "2026-10-19T18:59:55Z",
+  "title": "Principal Security Engineer, Operations",
+  "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5457791008",
+  "jobId": "5457791008",
+  "remote": false,
+  "hybrid": false,
+  "scores": "{'score': 1001.1855517793344, 'matchScore': 0, 'ageScore': 0.9855517793344908, 'richnessScore': 2}",
+  "atsJobs": [],
+  "matchingTalent": "{'count': 0, 'matches': []}",
+  "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "senior",
+   "mid"
+  ],
+  "isFeatured": false
+ },
+ "search_mode": {
+  "variant": "cursor:meta.sequence"
+ }
 }

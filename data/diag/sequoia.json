@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-20T01:55:30Z",
+ "run": "2026-10-20T07:45:02Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "bTgz2c4bz0\u2026",
+  "session.sig": "WXTYdwUpBX\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTMwZjFlYWNkMjAwZmFjYWUxZDgxODNlZGMwNjljYzIiLCAic2NvcmUiOiAxLjA4NjkyMTQ0NDk5MzA1NTV9"
+   "sequence": "eyJfaWQiOiAiYmJlMmQ2MGQ3YmFhOTYzMTJlYzRlNjcwMDY4OWRhZWEiLCAic2NvcmUiOiAxLjA4MjAxMzI3Njk1NzU2MTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -193,59 +193,49 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 37, 'maxValue': 41, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
-   },
-   {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
-   },
-   {
-    "id": "resume:Computer Proficiency",
-    "label": "Computer Proficiency",
-    "value": "resume:Computer Proficiency"
-   },
-   {
     "id": "resume:Vehicles",
     "label": "Vehicles",
     "value": "resume:Vehicles"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
+   },
+   {
+    "id": "resume:Genetics",
+    "label": "Genetics",
+    "value": "resume:Genetics"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Diagnostics",
+    "label": "Diagnostics",
+    "value": "resume:Diagnostics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
-   },
-   {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
-   },
-   {
-    "id": "resume:Computer Proficiency",
-    "label": "Computer Proficiency",
-    "value": "resume:Computer Proficiency"
-   }
-  ],
-  "preferredSkills": [
-   {
     "id": "resume:Vehicles",
     "label": "Vehicles",
     "value": "resume:Vehicles"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
    },
+   {
+    "id": "resume:Genetics",
+    "label": "Genetics",
+    "value": "resume:Genetics"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Compliance",
     "label": "Compliance",
@@ -257,9 +247,19 @@
     "value": "resume:Diagnostics"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
+   },
+   {
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "manager": false,
@@ -279,11 +279,6 @@
   "maxYearsExp": 4,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
@@ -297,6 +292,11 @@
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -325,7 +325,7 @@
   "jobId": "37679300-db8a-40df-88a6-ff8347792d13",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1980574853781, 'matchScore': 0, 'ageScore': 0.9980574853780865, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1894636366111, 'matchScore': 0, 'ageScore': 0.9894636366111111, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

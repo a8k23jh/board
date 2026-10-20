@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-20T01:55:30Z",
+ "run": "2026-10-20T07:45:02Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "MTU9cZuGxr\u2026",
+  "session.sig": "f7pQBjlMX-\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjdhNTc1MmJjODkyYjIzMzM3YzQ1YWY1YmNkNzlhYWYiLCAic2NvcmUiOiAxLjE2Njk4MTAyNzAzNjY1MTJ9"
+   "sequence": "eyJfaWQiOiAiYjdhNTc1MmJjODkyYjIzMzM3YzQ1YWY1YmNkNzlhYWYiLCAic2NvcmUiOiAxLjE1OTA4OTgzMTcyMjIyMjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,111 +155,121 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/roofstock/jobs/8901148002",
-  "companyDomain": "roofstock.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/54d722dd1c4872ce34b86006ffdcb0e3_288_160?Expires=1861920000&Signature=kE5lRJz-b0POVBxOnbK6CsRAiM5Tkriuz-QekCfWgZUG44ictJr8N",
-  "companyId": "Roofstock",
-  "companySlug": "roofstock",
-  "companyName": "Roofstock",
-  "companyStaffCount": 368,
+  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8195/",
+  "companyDomain": "infoblox.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
+  "companyId": "Infoblox",
+  "companySlug": "infoblox",
+  "companyName": "Infoblox",
+  "companyStaffCount": 3466,
   "considerHosted": false,
-  "departments": [
-   "Legal"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "operations-manager",
-    "label": "Operations Manager",
-    "value": "operations-manager"
+    "id": "senior-sales-engineer",
+    "label": "Senior Sales Engineer",
+    "value": "senior-sales-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Distribution",
-    "label": "Distribution",
-    "value": "Distribution"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Bay Area, CA"
+   "Fort Lauderdale, Florida, United States",
+   "Florida, United States",
+   "Home Office, Tallahassee, FL, US"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco Bay Area",
-    "label": "San Francisco Bay Area",
-    "value": "San Francisco Bay Area"
+    "id": "Fort Lauderdale, Florida",
+    "label": "Fort Lauderdale, Florida",
+    "value": "Fort Lauderdale, Florida"
+   },
+   {
+    "id": "Tallahassee, Florida Area",
+    "label": "Tallahassee, Florida Area",
+    "value": "Tallahassee, Florida Area"
+   },
+   {
+    "id": "Florida",
+    "label": "Florida",
+    "value": "Florida"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 135000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Real Estate",
-    "label": "Real Estate",
-    "value": "resume:Real Estate"
+    "id": "resume:Intrusion detection system",
+    "label": "Intrusion detection system",
+    "value": "resume:Intrusion detection system"
    },
    {
-    "id": "resume:Ironclad",
-    "label": "Ironclad",
-    "value": "resume:Ironclad"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Litigation",
-    "label": "Litigation",
-    "value": "resume:Litigation"
+    "id": "resume:DevOps",
+    "label": "DevOps",
+    "value": "resume:DevOps"
    },
    {
-    "id": "resume:Property Management",
-    "label": "Property Management",
-    "value": "resume:Property Management"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Legal Operations",
-    "label": "Legal Operations",
-    "value": "resume:Legal Operations"
+    "id": "resume:IPv4",
+    "label": "IPv4",
+    "value": "resume:IPv4"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Real Estate",
-    "label": "Real Estate",
-    "value": "resume:Real Estate"
+    "id": "resume:Intrusion detection system",
+    "label": "Intrusion detection system",
+    "value": "resume:Intrusion detection system"
    },
    {
-    "id": "resume:Ironclad",
-    "label": "Ironclad",
-    "value": "resume:Ironclad"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Litigation",
-    "label": "Litigation",
-    "value": "resume:Litigation"
+    "id": "resume:DevOps",
+    "label": "DevOps",
+    "value": "resume:DevOps"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Property Management",
-    "label": "Property Management",
-    "value": "resume:Property Management"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Legal Operations",
-    "label": "Legal Operations",
-    "value": "resume:Legal Operations"
+    "id": "resume:IPv4",
+    "label": "IPv4",
+    "value": "resume:IPv4"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Sales Engineering",
+    "label": "Sales Engineering",
+    "value": "resume:Sales Engineering"
    },
    {
-    "id": "resume:Claims Management",
-    "label": "Claims Management",
-    "value": "resume:Claims Management"
+    "id": "resume:IPS",
+    "label": "IPS",
+    "value": "resume:IPS"
    }
   ],
   "manager": false,
@@ -267,25 +277,25 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 3,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "South Atlantic",
+    "label": "South Atlantic",
+    "value": "South Atlantic"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "North America",
@@ -295,25 +305,25 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
   "markets": [
    {
-    "id": "Real Estate",
-    "label": "Real Estate",
-    "value": "Real Estate"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-10-19T18:02:08Z",
-  "title": "Senior Legal Operations Manager",
-  "url": "https://job-boards.greenhouse.io/roofstock/jobs/8901148002",
-  "jobId": "8901148002",
-  "remote": false,
+  "timeStamp": "2026-10-19T23:59:15Z",
+  "title": "Senior Sales Engineer - Miami / FT Lauderdale",
+  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8195/",
+  "jobId": "8195",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1928870253831, 'matchScore': 0, 'ageScore': 0.9928870253831018, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1922211889467, 'matchScore': 0, 'ageScore': 0.9922211889467593, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -321,16 +331,10 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
-   },
-   {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "manager"
+   "senior"
   ],
   "isFeatured": false
  },
