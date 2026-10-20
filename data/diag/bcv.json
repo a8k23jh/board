@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-20T07:45:02Z",
+ "run": "2026-10-20T13:40:34Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "k3jbTndWC6\u2026",
+  "session.sig": "wBUbC9WNZl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTA1NTA2NGI0MjU2OTMzOTM1NjA0ZTBhYWZlYWIxOWYiLCAic2NvcmUiOiAxLjA1ODkwNjA0Njg3NX0="
+   "sequence": "eyJfaWQiOiAiYTkyODNjMGNlYzE5Nzg3ZjM5OTdjZjdkYzAwMGQxNDQiLCAic2NvcmUiOiAxLjA1MDY1MTU4NDU0ODIyNTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -146,6 +146,7 @@
    "companyLogos",
    "companyName",
    "companySlug",
+   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
@@ -156,117 +157,123 @@
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/apolloio/jobs/6228882004",
-  "companyDomain": "apollo.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/529e4b403977c6e30c675c5186b02b5e_256_160?Expires=1861920000&Signature=b6LCUUmq2m1ddxEbw142kCNPbSNlE60bnAD55RH7lI6rT9katk4Qm",
-  "companyId": "Apollo",
-  "companySlug": "apollo",
-  "companyName": "Apollo",
+  "applyUrl": "https://jobs.ashbyhq.com/Etched/4696006a-a43b-450b-95e1-6d9b55ed2665?utm_source=jobs.baincapitalventures.com",
+  "companyDomain": "etched.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f416cbbef6d5264d5fd4bab8574efe3e_234_160?Expires=1861920000&Signature=g4f0dmolGEAoo9ItHpwN63grnMyGw0SD8iEWVzbrOjoZxe5cGE-HX",
+  "companyId": "Etched",
+  "companySlug": "etched",
+  "companyName": "Etched",
+  "companyStaffCount": 568,
   "considerHosted": false,
   "departments": [
-   "People"
+   "Platform"
   ],
   "jobTypes": [
    {
-    "id": "sales-recruiter",
-    "label": "Sales Recruiter",
-    "value": "sales-recruiter"
+    "id": "thermal-engineer",
+    "label": "Thermal Engineer",
+    "value": "thermal-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Remote, United States"
+   "San Jose, CA, United States",
+   "San Jose"
   ],
   "normalizedLocations": [
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
+   },
+   {
+    "id": "San Jose, California",
+    "label": "San Jose, California",
+    "value": "San Jose, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 138000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Apollo",
-    "label": "Apollo",
-    "value": "resume:Apollo"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:OEM",
+    "label": "OEM",
+    "value": "resume:OEM"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Greenhouse",
-    "label": "Greenhouse",
-    "value": "resume:Greenhouse"
+    "id": "resume:Thermal Engineering",
+    "label": "Thermal Engineering",
+    "value": "resume:Thermal Engineering"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Apollo",
-    "label": "Apollo",
-    "value": "resume:Apollo"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:OEM",
+    "label": "OEM",
+    "value": "resume:OEM"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Greenhouse",
-    "label": "Greenhouse",
-    "value": "resume:Greenhouse"
+    "id": "resume:Thermal Engineering",
+    "label": "Thermal Engineering",
+    "value": "resume:Thermal Engineering"
    },
    {
-    "id": "resume:Full-cycle Recruiting",
-    "label": "Full-cycle Recruiting",
-    "value": "resume:Full-cycle Recruiting"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:RubyGems",
-    "label": "RubyGems",
-    "value": "resume:RubyGems"
+    "id": "resume:Chemistry",
+    "label": "Chemistry",
+    "value": "resume:Chemistry"
    },
    {
-    "id": "resume:Sales Recruiting",
-    "label": "Sales Recruiting",
-    "value": "resume:Sales Recruiting"
+    "id": "resume:High Performance Computing",
+    "label": "High Performance Computing",
+    "value": "resume:High Performance Computing"
    }
   ],
   "manager": false,
@@ -274,19 +281,39 @@
   "contractor": false,
   "considerLevels": [
    [
+    3,
+    4
+   ],
+   [
     5,
     6
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 5,
+  "maxYearsExp": 10,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
+   {
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
    {
     "id": "Growth",
     "label": "Growth",
@@ -296,18 +323,33 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Hardware",
+    "label": "Hardware",
+    "value": "Hardware"
+   },
+   {
+    "id": "Infrastructure",
+    "label": "Infrastructure",
+    "value": "Infrastructure"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-10-19T18:26:30Z",
-  "title": "Sales Recruiter",
-  "url": "https://job-boards.greenhouse.io/apolloio/jobs/6228882004",
-  "jobId": "6228882004",
-  "remote": true,
+  "timeStamp": "2026-10-20T00:00:00Z",
+  "title": "Thermal Engineer, Rack Level",
+  "url": "https://jobs.ashbyhq.com/Etched/4696006a-a43b-450b-95e1-6d9b55ed2665",
+  "jobId": "4696006a-a43b-450b-95e1-6d9b55ed2665",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1849630530463, 'matchScore': 0, 'ageScore': 0.9849630530462963, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1845605693862, 'matchScore': 0, 'ageScore': 0.9845605693861883, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,7 @@
 {
  "board": "ivp",
- "run": "2026-10-20T07:45:02Z",
+ "run": "2026-10-20T13:40:34Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='careers.ivp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +27,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "FFHwnw3d0H\u2026",
+  "session.sig": "2l2XeznJDu\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -66,37 +67,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -111,7 +112,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDkyYTJkZjNiY2Y5MzY1ZjM5NmE3Njg4MDNiY2NiMzciLCAic2NvcmUiOiAxLjA4MTYzNTMzNTQwNTg2NDN9"
+   "sequence": "eyJfaWQiOiAiOWVjODA4ZmI5NDFhMzA4NDAzYzE1N2VkNWFlY2ExNWQiLCAic2NvcmUiOiAxLjA3NTE1OTI4MjE5NzUzMDl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,106 +129,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/glossier/jobs/8302405?gh_jid=8302405",
-  "companyDomain": "glossier.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1c681e6aa36b0b50d9e227ed7c58dee6_188_160?Expires=1861920000&Signature=PlPjqcyW3Rd2ThT2x~QGvPZiAQVOp7SJha4RB9ZW26upLVFjhoM9l",
-  "companyId": "Glossier",
-  "companySlug": "glossier",
-  "companyName": "Glossier",
-  "companyStaffCount": 475,
+  "applyUrl": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8239746",
+  "companyDomain": "pindrop.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66db7ca011dabe5ff29c157b56a4251f_288_160?Expires=1861920000&Signature=l7jCjYdBtd-x9~FoRb61NXvycjznIWMO3dSQ1QJItmzYDl9x~JFGj",
+  "companyId": "Pindrop Security",
+  "companySlug": "pindrop-security",
+  "companyName": "Pindrop Security",
+  "companyStaffCount": 374,
   "considerHosted": false,
   "departments": [
-   "Retail (Stores)"
+   "Accounting and Finance"
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "chief-of-staff",
+    "label": "Chief of Staff",
+    "value": "chief-of-staff"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
+   }
+  ],
   "locations": [
-   "Philadelphia, PA"
+   "US - Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "Philadelphia, Pennsylvania",
-    "label": "Philadelphia, Pennsylvania",
-    "value": "Philadelphia, Pennsylvania"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 19, 'maxValue': 20, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 286000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:KPI Dashboards",
-    "label": "KPI Dashboards",
-    "value": "resume:KPI Dashboards"
+    "id": "resume:Pattern Recognition",
+    "label": "Pattern Recognition",
+    "value": "resume:Pattern Recognition"
    },
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Strategic Operations",
+    "label": "Strategic Operations",
+    "value": "resume:Strategic Operations"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Global Teams",
+    "label": "Global Teams",
+    "value": "resume:Global Teams"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Management Consulting",
+    "label": "Management Consulting",
+    "value": "resume:Management Consulting"
    },
    {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
+    "id": "resume:Follow through",
+    "label": "Follow through",
+    "value": "resume:Follow through"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:KPI Dashboards",
-    "label": "KPI Dashboards",
-    "value": "resume:KPI Dashboards"
+    "id": "resume:Pattern Recognition",
+    "label": "Pattern Recognition",
+    "value": "resume:Pattern Recognition"
    },
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Strategic Operations",
+    "label": "Strategic Operations",
+    "value": "resume:Strategic Operations"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Global Teams",
+    "label": "Global Teams",
+    "value": "resume:Global Teams"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Management Consulting",
+    "label": "Management Consulting",
+    "value": "resume:Management Consulting"
    },
    {
-    "id": "resume:Roll-ups",
-    "label": "Roll-ups",
-    "value": "resume:Roll-ups"
+    "id": "resume:Follow through",
+    "label": "Follow through",
+    "value": "resume:Follow through"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    }
   ],
   "manager": false,
@@ -243,27 +260,12 @@
     4
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 3,
   "regions": [
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -271,33 +273,22 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Apparel & Fashion",
-    "label": "Apparel & Fashion",
-    "value": "Apparel & Fashion"
-   },
-   {
-    "id": "Cosmetics",
-    "label": "Cosmetics",
-    "value": "Cosmetics"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-10-19T19:46:40Z",
-  "title": "Key Lead, Philadelphia",
-  "url": "https://boards.greenhouse.io/glossier/jobs/8302405?gh_jid=8302405",
-  "jobId": "8302405",
-  "remote": false,
+  "timeStamp": "2026-10-19T22:11:31Z",
+  "title": "Chief of Staff",
+  "url": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8239746",
+  "jobId": "8239746",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1866092544934, 'matchScore': 0, 'ageScore': 0.9866092544934414, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1820859075841, 'matchScore': 0, 'ageScore': 0.982085907584105, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -320,5 +311,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
