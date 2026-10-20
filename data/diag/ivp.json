@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-20T18:32:28Z",
+ "run": "2026-10-20T22:25:02Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f528dd14e60d10a0f28884bea76aab102265accc\",\"date\":\"2026-10-19T22:33:48.916Z\"},\"server\":{\"git\":\"f528dd14e60d10a0f28884bea76aab102265accc\",\"date\":\"2026-10-19T22:33:48.916Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"},\"server\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cU-ZNfLppb\u2026",
+  "session.sig": "LAzp1aZoW7\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWYwMjMyZmFkMGRmNTY0ZjNiMjMyNDViNTM5NWY3YTAiLCAic2NvcmUiOiAxLjA3MTI0MjQwMDEwNjQ4MTV9"
+   "sequence": "eyJfaWQiOiAiMDUwZDU5YjA3MDEwNzgwOTE0ZTdhYTMwMGE2MGM3NzIiLCAic2NvcmUiOiAxLjA2MzU3NDIyNzU3NjAwMzJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,102 +128,118 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8239746",
-  "companyDomain": "pindrop.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66db7ca011dabe5ff29c157b56a4251f_288_160?Expires=1861920000&Signature=l7jCjYdBtd-x9~FoRb61NXvycjznIWMO3dSQ1QJItmzYDl9x~JFGj",
-  "companyId": "Pindrop Security",
-  "companySlug": "pindrop-security",
-  "companyName": "Pindrop Security",
-  "companyStaffCount": 374,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5456812008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Accounting and Finance"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "chief-of-staff",
-    "label": "Chief of Staff",
-    "value": "chief-of-staff"
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "sales-all",
+    "label": "Sales",
+    "value": "sales-all"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Administrative",
-    "label": "Administrative",
-    "value": "Administrative"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "US - Remote"
+   "San Francisco, CA",
+   "Seattle, WA",
+   "New York City, NY",
+   "Washington, DC"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
+   {
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 286000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 450000, 'maxValue': 550000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
-   },
-   {
-    "id": "resume:Global Teams",
-    "label": "Global Teams",
-    "value": "resume:Global Teams"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
     "id": "resume:Computer Security",
     "label": "Computer Security",
     "value": "resume:Computer Security"
+   },
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Global Teams",
-    "label": "Global Teams",
-    "value": "resume:Global Teams"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
     "id": "resume:Computer Security",
@@ -231,36 +247,67 @@
     "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Management Consulting",
-    "label": "Management Consulting",
-    "value": "resume:Management Consulting"
-   },
-   {
-    "id": "resume:Patents",
-    "label": "Patents",
-    "value": "resume:Patents"
-   },
-   {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    }
   ],
-  "manager": false,
+  "preferredSkills": [
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
   "regions": [
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -269,42 +316,53 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-10-19T22:11:31Z",
-  "title": "Chief of Staff",
-  "url": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8239746",
-  "jobId": "8239746",
-  "remote": true,
+  "timeStamp": "2026-10-20T09:13:47Z",
+  "title": "Manager, Cybersecurity Sales Specialist",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456812008",
+  "jobId": "5456812008",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1768773973812, 'matchScore': 0, 'ageScore': 0.9768773973811729, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1844860573765, 'matchScore': 0, 'ageScore': 0.9844860573765432, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
+   },
+   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "manager",
+   "mid"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-20T18:32:28Z",
+ "run": "2026-10-20T22:25:02Z",
  "homepage": {
   "status": 200,
   "bytes": 21383
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f528dd14e60d10a0f28884bea76aab102265accc\",\"date\":\"2026-10-19T22:33:48.916Z\"},\"server\":{\"git\":\"f528dd14e60d10a0f28884bea76aab102265accc\",\"date\":\"2026-10-19T22:33:48.916Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"},\"server\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1HWkABDDD0\u2026",
+  "session.sig": "zK0rsSuiA6\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWJmNGE2NmNjZTZiN2I3YjE5NjBjNzliYWUxOTE1NzMiLCAic2NvcmUiOiAxLjA3MjE0MTQwOTg4NjE4ODN9"
+   "sequence": "eyJfaWQiOiAiZTY1NTdjOTAyMWM4M2E0ZDZjYTFiNjhlNzkwMzZkMjciLCAic2NvcmUiOiAxLjA3OTkyOTg2NjQ0OTA3NDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,120 +152,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.smartrecruiters.com/Canva/6000000001505454-legal-counsel-intellectual-property-12-month-ftc",
-  "companyDomain": "canva.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8144f77560d15b22676edf288aa5d016_176_160?Expires=1861920000&Signature=K6e-ByKJ1kkfQgQWKAdBc12FF~vTJprCP13Ku9MxDPLq5kh4Cb3K1",
-  "companyId": "Canva",
-  "companySlug": "canva",
-  "companyName": "Canva",
-  "companyStaffCount": 16046,
+  "applyUrl": "https://glginsights.com/careers/jobs/8038009003?gh_jid=8038009003",
+  "companyDomain": "glginsights.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2ebfe7eb204a15f7a9e9fd65accc7d53_128_160?Expires=1861920000&Signature=WQ1hWmDltiMBEnRzwfgcShqaJ~d5tqjiOGKU50sCb3fi8it9bHfPG",
+  "companyId": "GLG",
+  "companySlug": "glg",
+  "companyName": "GLG",
+  "companyStaffCount": 12307,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Marketing"
+  ],
   "jobTypes": [
    {
-    "id": "legal-counsel",
-    "label": "Legal Counsel",
-    "value": "legal-counsel"
+    "id": "content-marketing",
+    "label": "Content Marketing",
+    "value": "content-marketing"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Legal",
-    "label": "Legal",
-    "value": "Legal"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "San Francisco, CA"
+   "New York"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 70500, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Content Development",
+    "label": "Content Development",
+    "value": "resume:Content Development"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Journalism",
+    "label": "Journalism",
+    "value": "resume:Journalism"
    },
    {
-    "id": "resume:Mergers & Acquisitions",
-    "label": "Mergers & Acquisitions",
-    "value": "resume:Mergers & Acquisitions"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Sales Compensation",
+    "label": "Sales Compensation",
+    "value": "resume:Sales Compensation"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Content Development",
+    "label": "Content Development",
+    "value": "resume:Content Development"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Journalism",
+    "label": "Journalism",
+    "value": "resume:Journalism"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Mergers & Acquisitions",
-    "label": "Mergers & Acquisitions",
-    "value": "resume:Mergers & Acquisitions"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Sales Compensation",
+    "label": "Sales Compensation",
+    "value": "resume:Sales Compensation"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Content Strategy",
+    "label": "Content Strategy",
+    "value": "resume:Content Strategy"
    },
    {
-    "id": "resume:Litigation",
-    "label": "Litigation",
-    "value": "resume:Litigation"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Private Equity",
+    "label": "Private Equity",
+    "value": "resume:Private Equity"
    }
   ],
   "manager": false,
@@ -275,29 +277,30 @@
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
-  "minYearsExp": 6,
-  "maxYearsExp": 8,
+  "minYearsExp": 4,
+  "maxYearsExp": 6,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -305,28 +308,22 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Design",
-    "label": "Design",
-    "value": "Design"
+    "id": "Information Services",
+    "label": "Information Services",
+    "value": "Information Services"
    }
   ],
-  "timeStamp": "2026-10-20T06:23:28.820000Z",
-  "title": "Legal Counsel, Intellectual Property, 12 month FTC",
-  "url": "https://jobs.smartrecruiters.com/Canva/6000000001505454-legal-counsel-intellectual-property-12-month-ftc",
-  "jobId": "6000000001505454",
+  "timeStamp": "2026-10-20T11:38:49Z",
+  "title": "Content Marketing Strategist",
+  "url": "https://glginsights.com/careers/jobs/8038009003?gh_jid=8038009003",
+  "jobId": "8038009003",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.189191540375, 'matchScore': 0, 'ageScore': 0.989191540375, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1875008198496, 'matchScore': 0, 'ageScore': 0.9875008198495371, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
