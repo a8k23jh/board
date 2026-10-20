@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-10-19T22:29:10Z",
+ "run": "2026-10-20T01:55:30Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"be8fbc57341131bb998e81fa33b030c2da4b0920\",\"date\":\"2026-10-17T02:11:27.649Z\"},\"server\":{\"git\":\"be8fbc57341131bb998e81fa33b030c2da4b0920\",\"date\":\"2026-10-17T02:11:27.649Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f528dd14e60d10a0f28884bea76aab102265accc\",\"date\":\"2026-10-19T22:33:48.916Z\"},\"server\":{\"git\":\"f528dd14e60d10a0f28884bea76aab102265accc\",\"date\":\"2026-10-19T22:33:48.916Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ALhg6wQTh2\u2026",
+  "session.sig": "dxXjEY3ie-\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjRkOWNiYzc3MWE2MzVmZmVlNjVkNjdlZTE2ZGY4ZTMiLCAic2NvcmUiOiAxLjA3MTA0NjMzODA4MTAxODV9"
+   "sequence": "eyJfaWQiOiAiODlkZmVjMTUxMGFkOTUwY2VmNjgyNzRiODNhYTEwMTIiLCAic2NvcmUiOiAxLjA4MTMyODE3NzMyMTM3MzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,119 +136,140 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/mejuri/jobs/4722983006",
-  "companyDomain": "mejuri.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9adb31a5d2718fe9c6fbb447ce72fbc4_224_160?Expires=1861920000&Signature=EIyQ~VuMTiBpClwLBLsCYdNOIlyj6EM75R~yga~7YdDLw5FkU1F9L",
-  "companyId": "Mejuri",
-  "companySlug": "mejuri",
-  "companyName": "Mejuri",
-  "companyStaffCount": 690,
+  "applyUrl": "https://job-boards.greenhouse.io/coursera/jobs/6192106004",
+  "companyDomain": "coursera.org",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/789940f136238669c4988a404496c4ed_224_160?Expires=1861920000&Signature=R65c8EOztLxrA9FE5xTzCjChYHCoQKe1j3FcY~5JzkJrCL~UivwE4",
+  "companyId": "Coursera",
+  "companySlug": "coursera",
+  "companyName": "Coursera",
+  "companyStaffCount": 6564,
   "considerHosted": false,
   "departments": [
-   "Stores"
+   "Finance"
   ],
   "jobTypes": [
    {
-    "id": "branch-manager",
-    "label": "Branch Manager",
-    "value": "branch-manager"
+    "id": "finance-professional",
+    "label": "Finance",
+    "value": "finance-professional"
+   },
+   {
+    "id": "fpa-manager",
+    "label": "FP&A Manager",
+    "value": "fpa-manager"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
+   },
+   {
+    "id": "Finance",
+    "label": "Finance",
+    "value": "Finance"
+   }
+  ],
   "locations": [
-   "Washington, DC & Bethesda, MD"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Washington, District Of Columbia",
-    "label": "Washington, DC",
-    "value": "Washington, District Of Columbia"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 95000, 'maxValue': 105000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 136000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Creative Solutions",
-    "label": "Creative Solutions",
-    "value": "resume:Creative Solutions"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Financial Management",
-    "label": "Financial Management",
-    "value": "resume:Financial Management"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Corporate Finance",
+    "label": "Corporate Finance",
+    "value": "resume:Corporate Finance"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Business Modeling",
+    "label": "Business Modeling",
+    "value": "resume:Business Modeling"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Creative Solutions",
-    "label": "Creative Solutions",
-    "value": "resume:Creative Solutions"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Financial Management",
-    "label": "Financial Management",
-    "value": "resume:Financial Management"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Corporate Finance",
+    "label": "Corporate Finance",
+    "value": "resume:Corporate Finance"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Business Modeling",
+    "label": "Business Modeling",
+    "value": "resume:Business Modeling"
    },
    {
-    "id": "resume:Accessibility",
-    "label": "Accessibility",
-    "value": "resume:Accessibility"
+    "id": "resume:Financial Planning",
+    "label": "Financial Planning",
+    "value": "resume:Financial Planning"
    },
    {
-    "id": "resume:KPI Dashboards",
-    "label": "KPI Dashboards",
-    "value": "resume:KPI Dashboards"
+    "id": "resume:Cash Flow",
+    "label": "Cash Flow",
+    "value": "resume:Cash Flow"
    },
    {
-    "id": "resume:Inform",
-    "label": "Inform",
-    "value": "resume:Inform"
+    "id": "resume:Financial Statements",
+    "label": "Financial Statements",
+    "value": "resume:Financial Statements"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -261,12 +282,8 @@
     6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -275,43 +292,45 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Luxury Goods & Jewelry",
-    "label": "Luxury Goods & Jewelry",
-    "value": "Luxury Goods & Jewelry"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
-    "id": "Retail",
-    "label": "Retail",
-    "value": "Retail"
+    "id": "Public",
+    "label": "Public",
+    "value": "Public"
    }
   ],
-  "timeStamp": "2026-10-19T10:13:19Z",
-  "title": "Dual Store Manager",
-  "url": "https://job-boards.greenhouse.io/mejuri/jobs/4722983006",
-  "jobId": "4722983006",
-  "remote": false,
+  "fundingLV": "{'id': 'Public', 'label': 'Public', 'value': 'Public'}",
+  "markets": [
+   {
+    "id": "Education Management",
+    "label": "Education Management",
+    "value": "Education Management"
+   }
+  ],
+  "timeStamp": "2026-10-19T17:57:56Z",
+  "title": "Corporate FP&A Manager",
+  "url": "https://job-boards.greenhouse.io/coursera/jobs/6192106004",
+  "jobId": "6192106004",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1861203558105, 'matchScore': 0, 'ageScore': 0.986120355810571, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1922093961701, 'matchScore': 0, 'ageScore': 0.9922093961701389, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
-  "isFeatured": false
+  "isFeatured": false,
+  "llmFeatures": "{'summary': 'The Corporate FP&A Manager at Coursera + Udemy leads budgeting, forecasting, and financial analysis, partnering with department leaders and executive teams. The role requires strong finan"
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"

@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-19T22:29:10Z",
+ "run": "2026-10-20T01:55:30Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"be8fbc57341131bb998e81fa33b030c2da4b0920\",\"date\":\"2026-10-17T02:11:27.649Z\"},\"server\":{\"git\":\"be8fbc57341131bb998e81fa33b030c2da4b0920\",\"date\":\"2026-10-17T02:11:27.649Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f528dd14e60d10a0f28884bea76aab102265accc\",\"date\":\"2026-10-19T22:33:48.916Z\"},\"server\":{\"git\":\"f528dd14e60d10a0f28884bea76aab102265accc\",\"date\":\"2026-10-19T22:33:48.916Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Jp040Wtzyc\u2026",
+  "session.sig": "whBo3ohD0R\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGYzOGVkODBhMjQxNjZkNmQwYWJiMGEyZjkyMmMxYmYiLCAic2NvcmUiOiAxLjA1NDY0MDc2MDcxMjU3NzJ9"
+   "sequence": "eyJfaWQiOiAiODkwYmNkZTgyYjIxZjdkYmM0NDI1YWY3ZTYzOTViYmQiLCAic2NvcmUiOiAxLjA3NTIzMjQ4NTc2MjM0NTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,7 +139,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5448194008",
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5457137008",
   "companyDomain": "anthropic.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
   "companyId": "Anthropic",
@@ -148,150 +148,146 @@
   "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Finance"
+   "Security"
   ],
   "jobTypes": [
    {
-    "id": "accounting-operations",
-    "label": "Accounting Operations Manager",
-    "value": "accounting-operations"
-   },
-   {
-    "id": "program-manager",
-    "label": "Program Manager",
-    "value": "program-manager"
+    "id": "audit",
+    "label": "Audit Manager",
+    "value": "audit"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Project Management",
-    "label": "Project Management",
-    "value": "Project Management"
-   },
-   {
-    "id": "Accounting",
-    "label": "Accounting",
-    "value": "Accounting"
+    "id": "Auditing",
+    "label": "Auditing",
+    "value": "Auditing"
    }
   ],
   "locations": [
    "San Francisco, CA",
-   "New York City, NY"
+   "Seattle, WA",
+   "New York City, NY",
+   "Washington, DC"
   ],
   "normalizedLocations": [
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
    {
     "id": "New York, New York",
     "label": "New York, New York",
     "value": "New York, New York"
+   },
+   {
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 255000, 'maxValue': 270000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Follow through",
-    "label": "Follow through",
-    "value": "resume:Follow through"
+    "id": "resume:ISO 27001",
+    "label": "ISO 27001",
+    "value": "resume:ISO 27001"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
+   },
+   {
+    "id": "resume:GRC",
+    "label": "GRC",
+    "value": "resume:GRC"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Follow through",
-    "label": "Follow through",
-    "value": "resume:Follow through"
+    "id": "resume:ISO 27001",
+    "label": "ISO 27001",
+    "value": "resume:ISO 27001"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    }
   ],
   "preferredSkills": [
+   {
+    "id": "resume:GRC",
+    "label": "GRC",
+    "value": "resume:GRC"
+   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:HIPAA",
+    "label": "HIPAA",
+    "value": "resume:HIPAA"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Global Teams",
-    "label": "Global Teams",
-    "value": "resume:Global Teams"
+    "id": "resume:ISO",
+    "label": "ISO",
+    "value": "resume:ISO"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ]
-  ],
-  "minYearsExp": 7,
+  "considerLevels": [],
   "regions": [
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "Northeast",
@@ -324,25 +320,17 @@
     "value": "Research"
    }
   ],
-  "timeStamp": "2026-10-19T09:34:54Z",
-  "title": "Program Manager, Accounting Operations & Strategy",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5448194008",
-  "jobId": "5448194008",
+  "timeStamp": "2026-10-19T17:25:12Z",
+  "title": "Audit, Security GRC",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5457137008",
+  "jobId": "5457137008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1844752397338, 'matchScore': 0, 'ageScore': 0.9844752397337962, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1917500666092, 'matchScore': 0, 'ageScore': 0.9917500666091821, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   }
-  ],
-  "jobSeniorityIds": [
-   "mid"
-  ],
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {

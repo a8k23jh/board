@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-19T22:29:10Z",
+ "run": "2026-10-20T01:55:30Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"be8fbc57341131bb998e81fa33b030c2da4b0920\",\"date\":\"2026-10-17T02:11:27.649Z\"},\"server\":{\"git\":\"be8fbc57341131bb998e81fa33b030c2da4b0920\",\"date\":\"2026-10-17T02:11:27.649Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f528dd14e60d10a0f28884bea76aab102265accc\",\"date\":\"2026-10-19T22:33:48.916Z\"},\"server\":{\"git\":\"f528dd14e60d10a0f28884bea76aab102265accc\",\"date\":\"2026-10-19T22:33:48.916Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "WSb41LWQcO\u2026",
+  "session.sig": "xQvjR1Rna9\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODY1NjFjMWU1YTFmN2U0Y2E5MDdjODQyOTIxY2U0ZjYiLCAic2NvcmUiOiAxLjA1NjMyMTE0NzQ3OTkzODN9"
+   "sequence": "eyJfaWQiOiAiYjk0OGNkOTUzMjRmODVlZGQ1OTRlNmM3ZDFjMjZlNTQiLCAic2NvcmUiOiAxLjA2NTEwNTg0MzcxNzU5MjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,121 +152,148 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.workatastartup.com/jobs/107168",
-  "companyDomain": "getprescience.com",
-  "companyLogos": "{'linkedin': {'height': 100, 'src': 'https://dzh2zima160vx.cloudfront.net/profile/5b7e0d186621aa1057accdb01ab498ff_100_100?Expires=1893456000&Signature=nn2iuf2Cs70W4GSQJU933Jn3JDNMrbRwRa7nfaUy1biUMX8L",
-  "companyId": "Prescience",
-  "companySlug": "prescience",
-  "companyName": "Prescience",
-  "companyStaffCount": 3,
+  "applyUrl": "https://job-boards.greenhouse.io/roofstock/jobs/8901148002",
+  "companyDomain": "roofstock.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/54d722dd1c4872ce34b86006ffdcb0e3_288_160?Expires=1861920000&Signature=kE5lRJz-b0POVBxOnbK6CsRAiM5Tkriuz-QekCfWgZUG44ictJr8N",
+  "companyId": "Roofstock",
+  "companySlug": "roofstock",
+  "companyName": "Roofstock",
+  "companyStaffCount": 368,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Legal"
+  ],
   "jobTypes": [
    {
-    "id": "head-of-operations",
-    "label": "Head of Operations",
-    "value": "head-of-operations"
+    "id": "operations-manager",
+    "label": "Operations Manager",
+    "value": "operations-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Strategy / Planning",
-    "label": "Strategy / Planning",
-    "value": "Strategy / Planning"
+    "id": "Distribution",
+    "label": "Distribution",
+    "value": "Distribution"
    }
   ],
   "locations": [
-   "San Francisco, CA, US"
+   "Bay Area, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "San Francisco Bay Area",
+    "label": "San Francisco Bay Area",
+    "value": "San Francisco Bay Area"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 135000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Real Estate",
+    "label": "Real Estate",
+    "value": "resume:Real Estate"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Ironclad",
+    "label": "Ironclad",
+    "value": "resume:Ironclad"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Litigation",
+    "label": "Litigation",
+    "value": "resume:Litigation"
    },
    {
-    "id": "resume:Immunotherapy",
-    "label": "Immunotherapy",
-    "value": "resume:Immunotherapy"
+    "id": "resume:Property Management",
+    "label": "Property Management",
+    "value": "resume:Property Management"
    },
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:Legal Operations",
+    "label": "Legal Operations",
+    "value": "resume:Legal Operations"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Real Estate",
+    "label": "Real Estate",
+    "value": "resume:Real Estate"
+   },
+   {
+    "id": "resume:Ironclad",
+    "label": "Ironclad",
+    "value": "resume:Ironclad"
+   },
+   {
+    "id": "resume:Litigation",
+    "label": "Litigation",
+    "value": "resume:Litigation"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Property Management",
+    "label": "Property Management",
+    "value": "resume:Property Management"
+   },
+   {
+    "id": "resume:Legal Operations",
+    "label": "Legal Operations",
+    "value": "resume:Legal Operations"
+   },
+   {
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Claims Management",
+    "label": "Claims Management",
+    "value": "resume:Claims Management"
    }
   ],
-  "preferredSkills": [
-   {
-    "id": "resume:Immunotherapy",
-    "label": "Immunotherapy",
-    "value": "resume:Immunotherapy"
-   },
-   {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
-   }
-  ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -276,42 +303,42 @@
   ],
   "stages": [
    {
-    "id": "1-10 employees",
-    "label": "1-10 employees",
-    "value": "1-10 employees"
-   },
-   {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Real Estate",
+    "label": "Real Estate",
+    "value": "Real Estate"
    }
   ],
-  "timeStamp": "2026-10-19T14:59:20Z",
-  "title": "Founding Operations / Head of Operations",
-  "url": "https://www.workatastartup.com/jobs/107168",
-  "jobId": "107168",
+  "timeStamp": "2026-10-19T18:02:08Z",
+  "title": "Senior Legal Operations Manager",
+  "url": "https://job-boards.greenhouse.io/roofstock/jobs/8901148002",
+  "jobId": "8901148002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1925562181158, 'matchScore': 0, 'ageScore': 0.9925562181157408, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1928870253831, 'matchScore': 0, 'ageScore': 0.9928870253831018, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior",
+   "manager"
   ],
   "isFeatured": false
  },
