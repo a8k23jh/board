@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-21T18:45:47Z",
+ "run": "2026-10-21T22:28:41Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "BWkDAjBuqH\u2026",
+  "session.sig": "kqT_I47oid\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzg5N2ZhN2U4NTgyZjI3NDI5YmRjODViOTMxNTY2YzYiLCAic2NvcmUiOiAxLjE2NjIwNDYyMDczNzI2ODV9"
+   "sequence": "eyJfaWQiOiAiNGVkMGJlNjRjYmE4ZjU2NmY4NDY0MjY2YWM0NWJhMTciLCAic2NvcmUiOiAxLjE1ODU0NTE4ODI5MDg5NX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,27 +155,22 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.vinted.com/jobs/5007061101?gh_jid=5007061101",
-  "companyDomain": "vinted.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/dbad8e00507381f7334c80ec4762244a_192_160?Expires=1861920000&Signature=ey44G9xKs7RyJsJYnwMY~a5DjFvmPAKGWkndMUWNzgdj0wKKeXv8m",
-  "companyId": "Vinted",
-  "companySlug": "vinted",
-  "companyName": "Vinted",
-  "companyStaffCount": 4398,
+  "applyUrl": "https://job-boards.greenhouse.io/grafanalabs/jobs/6230155004",
+  "companyDomain": "grafana.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/32a90dde8d44051d64fa600f3d9b65c2_320_160?Expires=1861920000&Signature=QLDDUpzbhHfSLkiSts7c3p9gH6wI54LzqzfhnFpekGZchlhjTA1t0",
+  "companyId": "Grafana Labs",
+  "companySlug": "grafana-labs",
+  "companyName": "Grafana Labs",
+  "companyStaffCount": 1909,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "R&D: Grafana"
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
-   },
-   {
-    "id": "backend-engineer",
-    "label": "Backend Engineer",
-    "value": "backend-engineer"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
   "jobFunctions": [
@@ -186,85 +181,85 @@
    }
   ],
   "locations": [
-   "Vilnius, Lithuania"
+   "United States (Remote)"
   ],
   "normalizedLocations": [
    {
-    "id": "Lithuania",
-    "label": "Lithuania",
-    "value": "Lithuania"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 6900, 'maxValue': 9333, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 154445, 'maxValue': 185334, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
+   {
+    "id": "resume:Ideation",
+    "label": "Ideation",
+    "value": "resume:Ideation"
+   },
+   {
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
+   },
    {
     "id": "resume:Distributed Systems",
     "label": "Distributed Systems",
     "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   },
-   {
-    "id": "resume:Incident Management",
-    "label": "Incident Management",
-    "value": "resume:Incident Management"
+    "id": "resume:Grafana",
+    "label": "Grafana",
+    "value": "resume:Grafana"
    },
    {
     "id": "resume:Python",
     "label": "Python",
     "value": "resume:Python"
-   },
-   {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Ideation",
+    "label": "Ideation",
+    "value": "resume:Ideation"
+   },
+   {
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
+   },
+   {
     "id": "resume:Distributed Systems",
     "label": "Distributed Systems",
     "value": "resume:Distributed Systems"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   },
-   {
-    "id": "resume:Incident Management",
-    "label": "Incident Management",
-    "value": "resume:Incident Management"
    }
   ],
   "preferredSkills": [
+   {
+    "id": "resume:Grafana",
+    "label": "Grafana",
+    "value": "resume:Grafana"
+   },
    {
     "id": "resume:Python",
     "label": "Python",
     "value": "resume:Python"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    },
    {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
+    "id": "resume:ORM",
+    "label": "ORM",
+    "value": "resume:ORM"
    },
    {
-    "id": "resume:Technical Presentations",
-    "label": "Technical Communication",
-    "value": "resume:Technical Presentations"
-   },
-   {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    }
   ],
   "manager": false,
@@ -282,9 +277,9 @@
   ],
   "regions": [
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -302,23 +297,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
-   },
-   {
-    "id": "Peer to Peer Marketplace",
-    "label": "Peer to Peer Marketplace",
-    "value": "Peer to Peer Marketplace"
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
    }
   ],
-  "timeStamp": "2026-10-21T02:44:05Z",
-  "title": "Lead Backend Engineer, Incident Management",
-  "url": "https://careers.vinted.com/jobs/5007061101?gh_jid=5007061101",
-  "jobId": "5007061101",
-  "remote": false,
+  "timeStamp": "2026-10-21T12:00:31Z",
+  "title": "Senior Software Engineer - Grafana Search & Storage | US | Remote",
+  "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6230155004",
+  "jobId": "6230155004",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1839951432354, 'matchScore': 0, 'ageScore': 0.9839951432353395, 'richnessScore': 2}",
+  "scores": "{'score': 1001.188472121064, 'matchScore': 0, 'ageScore': 0.9884721210640433, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -326,16 +316,10 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
