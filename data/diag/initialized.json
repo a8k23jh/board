@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-10-21T13:56:57Z",
+ "run": "2026-10-21T18:45:47Z",
  "homepage": {
   "status": 200,
   "bytes": 20921
@@ -29,12 +29,12 @@
    "slug": "initialized",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"},\"server\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"},\"server\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "xwKrIOWEIQ\u2026",
+  "session.sig": "1607OcecFz\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "human-resources",
-    "label": "HR",
-    "value": "human-resources"
-   },
-   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
+   },
+   {
+    "id": "human-resources",
+    "label": "HR",
+    "value": "human-resources"
    }
   ],
   "jobFunctions": [
@@ -190,53 +190,36 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
     "id": "resume:HRIS",
     "label": "HR Systems",
     "value": "resume:HRIS"
    },
    {
-    "id": "resume:Government Contracts",
-    "label": "Government Contracts",
-    "value": "resume:Government Contracts"
-   },
-   {
-    "id": "resume:Employee Relations",
-    "label": "Employee Relations",
-    "value": "resume:Employee Relations"
-   },
-   {
     "id": "resume:Grant Writing",
     "label": "Grant Writing",
     "value": "resume:Grant Writing"
+   },
+   {
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
+   },
+   {
+    "id": "resume:Employment Law",
+    "label": "Employment Law",
+    "value": "resume:Employment Law"
+   },
+   {
+    "id": "resume:Export Controls",
+    "label": "Export Controls",
+    "value": "resume:Export Controls"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
     "id": "resume:HRIS",
     "label": "HR Systems",
     "value": "resume:HRIS"
-   },
-   {
-    "id": "resume:Government Contracts",
-    "label": "Government Contracts",
-    "value": "resume:Government Contracts"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Employee Relations",
-    "label": "Employee Relations",
-    "value": "resume:Employee Relations"
    },
    {
     "id": "resume:Grant Writing",
@@ -244,9 +227,16 @@
     "value": "resume:Grant Writing"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Employment Law",
+    "label": "Employment Law",
+    "value": "resume:Employment Law"
    },
    {
     "id": "resume:Export Controls",
@@ -257,6 +247,16 @@
     "id": "resume:Human Resources",
     "label": "Human Resources",
     "value": "resume:Human Resources"
+   },
+   {
+    "id": "resume:Government Contracts",
+    "label": "Government Contracts",
+    "value": "resume:Government Contracts"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "manager": true,
@@ -275,14 +275,14 @@
   "minYearsExp": 6,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -321,7 +321,7 @@
   "jobId": "5455676008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.1349200270483, 'matchScore': 0, 'ageScore': 0.9349200270482253, 'richnessScore': 2}",
+  "scores": "{'score': 1101.1264821384536, 'matchScore': 0, 'ageScore': 0.9264821384537036, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

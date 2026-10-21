@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-21T13:56:57Z",
+ "run": "2026-10-21T18:45:47Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"},\"server\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"},\"server\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "6eQlmZAZhQ\u2026",
+  "session.sig": "_055d5Lijs\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGJjZDFkMzg0NWE4NGM5ZjQ5OTBlYjhmN2JmODY5YTMiLCAic2NvcmUiOiAxLjExNzMwOTI1MDgwNzg3MDR9"
+   "sequence": "eyJfaWQiOiAiNGJmMTBlODkxMGZiMDk3OGY4MzkwNWUyN2QzZjJkZWMiLCAic2NvcmUiOiAxLjExMDI3MTcwODMxNzkwMTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,141 +128,127 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/0113c03a-69d0-489d-bd11-451d11a9f64b?utm_source=careers.ivp.com",
-  "companyDomain": "perplexity.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
-  "companyId": "Perplexity AI",
-  "companySlug": "perplexity-ai",
-  "companyName": "Perplexity AI",
-  "companyStaffCount": 1415,
+  "applyUrl": "https://job-boards.greenhouse.io/chainguard/jobs/4723566006",
+  "companyDomain": "chainguard.dev",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/31a5369e0ef167a246723e25166f9bb2_320_160?Expires=1861920000&Signature=WlG8ObgFzketnOZ1GE13WkiEQj5BCejH51gbRZAOEvFTCDtl~hKti",
+  "companyId": "Chainguard",
+  "companySlug": "chainguard",
+  "companyName": "Chainguard",
+  "companyStaffCount": 766,
   "considerHosted": false,
   "departments": [
-   "Platform & Infrastructure"
+   "Business Development"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "business-development",
+    "label": "Business Development Professional",
+    "value": "business-development"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   },
+   {
+    "id": "Business Development",
+    "label": "Business Development",
+    "value": "Business Development"
    }
   ],
   "locations": [
-   "San Francisco, California, United States",
-   "Palo Alto, California, United States",
-   "Seattle, Washington, United States",
-   "New York City, New York, United States",
-   "San Francisco"
+   "United States - Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "Palo Alto, California",
-    "label": "Palo Alto, California",
-    "value": "Palo Alto, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 100000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Microsoft Certified Professional",
-    "label": "Microsoft Certified Professional",
-    "value": "resume:Microsoft Certified Professional"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
+    "id": "resume:DevOps",
+    "label": "DevOps",
+    "value": "resume:DevOps"
    },
    {
-    "id": "resume:Developer Tools",
-    "label": "Developer Tools",
-    "value": "resume:Developer Tools"
+    "id": "resume:AES",
+    "label": "AES",
+    "value": "resume:AES"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Microsoft Certified Professional",
-    "label": "Microsoft Certified Professional",
-    "value": "resume:Microsoft Certified Professional"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
+    "id": "resume:DevOps",
+    "label": "DevOps",
+    "value": "resume:DevOps"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Developer Tools",
-    "label": "Developer Tools",
-    "value": "resume:Developer Tools"
+    "id": "resume:AES",
+    "label": "AES",
+    "value": "resume:AES"
+   },
+   {
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
+   },
+   {
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
+   },
+   {
+    "id": "resume:Salesloft",
+    "label": "Salesloft",
+    "value": "resume:Salesloft"
    },
    {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
    }
   ],
   "manager": false,
@@ -270,59 +256,48 @@
   "contractor": false,
   "considerLevels": [
    [
+    1,
+    2
+   ],
+   [
     3,
     4
    ]
   ],
-  "minYearsExp": 4,
   "regions": [
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
    }
   ],
-  "timeStamp": "2026-10-21T00:00:00Z",
-  "title": "Software Engineer, Enterprise Knowledge Platform",
-  "url": "https://jobs.ashbyhq.com/Perplexity/0113c03a-69d0-489d-bd11-451d11a9f64b",
-  "jobId": "0113c03a-69d0-489d-bd11-451d11a9f64b",
-  "remote": false,
+  "timeStamp": "2026-10-21T10:20:59Z",
+  "title": "Commercial Business Development Representative",
+  "url": "https://job-boards.greenhouse.io/chainguard/jobs/4723566006",
+  "jobId": "4723566006",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1845490130536, 'matchScore': 0, 'ageScore': 0.9845490130536265, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1905571785413, 'matchScore': 0, 'ageScore': 0.9905571785412809, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

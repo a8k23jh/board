@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-21T13:56:57Z",
+ "run": "2026-10-21T18:45:47Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"},\"server\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"},\"server\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "sTgujmnx0a\u2026",
+  "session.sig": "5_v7peJiky\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjI4ZTI0MjY2OGVjNzBiMDkwOTJlMWRjNzYwMWJkODEiLCAic2NvcmUiOiAxLjExMDM2ODUzOTI0MDc0MDd9"
+   "sequence": "eyJfaWQiOiAiZDRjYWMyZmMzZWY0ZmYwMjE4ZDZlNDFmYmE2MzcwODUiLCAic2NvcmUiOiAxLjEwOTU0MjAxMTAyMTk5MDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,50 +163,61 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.docusign.com/jobs/30562?lang=en-us",
-  "companyDomain": "docusign.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
-  "companyId": "DocuSign",
-  "companySlug": "docusign",
-  "companyName": "DocuSign",
-  "companyStaffCount": 8412,
+  "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8306164?gh_jid=8306164",
+  "companyDomain": "rubrik.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/35b32caf7afd5dcbacf9b127e064a74c_240_160?Expires=1861920000&Signature=tFI1Cjso4w0tkgpR1k20QMYTdNQlzWLL6jynAO197zbCRXhV0071v",
+  "companyId": "Rubrik",
+  "companySlug": "rubrik",
+  "companyName": "Rubrik",
+  "companyStaffCount": 5202,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Information Security"
+  ],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "compliance-risk",
+    "label": "Risk & Compliance Manager",
+    "value": "compliance-risk"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Auditing",
+    "label": "Auditing",
+    "value": "Auditing"
    }
   ],
   "locations": [
-   "Seattle, Washington"
+   "Remote"
   ],
-  "normalizedLocations": [
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   }
-  ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 178900, 'maxValue': 262825, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "normalizedLocations": [],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 163400, 'maxValue': 272400, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
    },
    {
-    "id": "resume:Low Latency",
-    "label": "Low Latency",
-    "value": "resume:Low Latency"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
+   },
+   {
+    "id": "resume:Web Application Security",
+    "label": "Application Security",
+    "value": "resume:Web Application Security"
    },
    {
     "id": "resume:SaaS",
@@ -214,95 +225,70 @@
     "value": "resume:SaaS"
    },
    {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Tableau",
+    "label": "Tableau",
+    "value": "resume:Tableau"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
    },
    {
-    "id": "resume:Low Latency",
-    "label": "Low Latency",
-    "value": "resume:Low Latency"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Web Application Security",
+    "label": "Application Security",
+    "value": "resume:Web Application Security"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Tableau",
+    "label": "Tableau",
+    "value": "resume:Tableau"
    },
    {
-    "id": "resume:gRPC",
-    "label": "gRPC",
-    "value": "resume:gRPC"
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
    },
    {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   }
-  ],
+  "minYearsExp": 8,
+  "regions": [],
   "stages": [
    {
     "id": "1000+ employees",
@@ -312,18 +298,18 @@
   ],
   "markets": [
    {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
+    "id": "Cloud Services",
+    "label": "Cloud Services",
+    "value": "Cloud Services"
    }
   ],
-  "timeStamp": "2026-10-21T05:28:01Z",
-  "title": "Sr. Manager, Engineering - Account Provisioning and Settings",
-  "url": "https://careers.docusign.com/jobs/30562?lang=en-us",
-  "jobId": "30562",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1916912677237, 'matchScore': 0, 'ageScore': 0.9916912677237655, 'richnessScore': 2}",
+  "timeStamp": "2026-10-21T10:58:51Z",
+  "title": "Manager, CyberSecurity Risk Management",
+  "url": "https://www.rubrik.com/company/careers/departments/job.8306164?gh_jid=8306164",
+  "jobId": "8306164",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1914807212523, 'matchScore': 0, 'ageScore': 0.9914807212523148, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

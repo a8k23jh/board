@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-21T13:56:57Z",
+ "run": "2026-10-21T18:45:47Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"},\"server\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"},\"server\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "lNmb4dClMH\u2026",
+  "session.sig": "BWkDAjBuqH\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGVkMGJlNjRjYmE4ZjU2NmY4NDY0MjY2YWM0NWJhMTciLCAic2NvcmUiOiAxLjE3MDI2MDg4MjU1NjMyNzJ9"
+   "sequence": "eyJfaWQiOiAiYzg5N2ZhN2U4NTgyZjI3NDI5YmRjODViOTMxNTY2YzYiLCAic2NvcmUiOiAxLjE2NjIwNDYyMDczNzI2ODV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.vinted.com/jobs/5007063101?gh_jid=5007063101",
+  "applyUrl": "https://careers.vinted.com/jobs/5007061101?gh_jid=5007061101",
   "companyDomain": "vinted.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/dbad8e00507381f7334c80ec4762244a_192_160?Expires=1861920000&Signature=ey44G9xKs7RyJsJYnwMY~a5DjFvmPAKGWkndMUWNzgdj0wKKeXv8m",
   "companyId": "Vinted",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "backend-engineer",
-    "label": "Backend Engineer",
-    "value": "backend-engineer"
-   },
-   {
     "id": "lead",
     "label": "Lead",
     "value": "lead"
+   },
+   {
+    "id": "backend-engineer",
+    "label": "Backend Engineer",
+    "value": "backend-engineer"
    }
   ],
   "jobFunctions": [
@@ -186,7 +186,7 @@
    }
   ],
   "locations": [
-   "Kaunas, Lithuania"
+   "Vilnius, Lithuania"
   ],
   "normalizedLocations": [
    {
@@ -198,63 +198,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 6900, 'maxValue': 9333, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
-   },
-   {
     "id": "resume:Distributed Systems",
     "label": "Distributed Systems",
     "value": "resume:Distributed Systems"
-   },
-   {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
-   },
-   {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
-   },
-   {
-    "id": "resume:Incident Management",
-    "label": "Incident Management",
-    "value": "resume:Incident Management"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
-   },
-   {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
-   },
-   {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
-   },
-   {
-    "id": "resume:Incident Management",
-    "label": "Incident Management",
-    "value": "resume:Incident Management"
-   },
-   {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
    },
    {
     "id": "resume:Observability",
@@ -262,9 +208,63 @@
     "value": "resume:Observability"
    },
    {
+    "id": "resume:Incident Management",
+    "label": "Incident Management",
+    "value": "resume:Incident Management"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
+   },
+   {
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
+   },
+   {
+    "id": "resume:Incident Management",
+    "label": "Incident Management",
+    "value": "resume:Incident Management"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
+   },
+   {
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
+   },
+   {
     "id": "resume:Technical Presentations",
     "label": "Technical Communication",
     "value": "resume:Technical Presentations"
+   },
+   {
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    }
   ],
   "manager": false,
@@ -312,30 +312,30 @@
     "value": "Peer to Peer Marketplace"
    }
   ],
-  "timeStamp": "2026-10-21T02:44:08Z",
+  "timeStamp": "2026-10-21T02:44:05Z",
   "title": "Lead Backend Engineer, Incident Management",
-  "url": "https://careers.vinted.com/jobs/5007063101?gh_jid=5007063101",
-  "jobId": "5007063101",
+  "url": "https://careers.vinted.com/jobs/5007061101?gh_jid=5007061101",
+  "jobId": "5007061101",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1881891507442, 'matchScore': 0, 'ageScore': 0.988189150744213, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1839951432354, 'matchScore': 0, 'ageScore': 0.9839951432353395, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },

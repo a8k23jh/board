@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-21T13:56:57Z",
+ "run": "2026-10-21T18:45:47Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"},\"server\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"},\"server\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "OwP26lK1LU\u2026",
+  "session.sig": "zq9wszMAPE\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMGZmNmY5Zjk4Y2RlNzNmZDAwNjM1MmJjNmRhN2Y0MGYiLCAic2NvcmUiOiAxLjA2Nzg4MzY2NjExOTk4NDZ9"
+   "sequence": "eyJfaWQiOiAiMDJjZTdmOTg1YzEwZDdlZDAwMTA1YjQ3OWJiOTVhMmMiLCAic2NvcmUiOiAxLjA2MjE4Njk5MDI0MjY2OTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -183,58 +183,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
-   },
-   {
-    "id": "resume:Performance Management",
-    "label": "Performance Management",
-    "value": "resume:Performance Management"
-   },
-   {
-    "id": "resume:Employee Relations",
-    "label": "Employee Relations",
-    "value": "resume:Employee Relations"
-   },
-   {
-    "id": "resume:Litigation",
-    "label": "Litigation",
-    "value": "resume:Litigation"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
-   },
-   {
-    "id": "resume:Performance Management",
-    "label": "Performance Management",
-    "value": "resume:Performance Management"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Employee Relations",
-    "label": "Employee Relations",
-    "value": "resume:Employee Relations"
-   },
-   {
-    "id": "resume:Litigation",
-    "label": "Litigation",
-    "value": "resume:Litigation"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
     "id": "resume:Legal Advice",
@@ -242,9 +193,58 @@
     "value": "resume:Legal Advice"
    },
    {
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
+   },
+   {
+    "id": "resume:Swift",
+    "label": "Swift",
+    "value": "resume:Swift"
+   },
+   {
+    "id": "resume:State Bar",
+    "label": "State Bar",
+    "value": "resume:State Bar"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:Interviews",
     "label": "Interviews",
     "value": "resume:Interviews"
+   },
+   {
+    "id": "resume:Legal Advice",
+    "label": "Legal Advice",
+    "value": "resume:Legal Advice"
+   },
+   {
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Swift",
+    "label": "Swift",
+    "value": "resume:Swift"
+   },
+   {
+    "id": "resume:State Bar",
+    "label": "State Bar",
+    "value": "resume:State Bar"
+   },
+   {
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
+   },
+   {
+    "id": "resume:Employment Law",
+    "label": "Employment Law",
+    "value": "resume:Employment Law"
    },
    {
     "id": "resume:Market Data",
@@ -268,14 +268,14 @@
   "minYearsExp": 8,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -309,7 +309,7 @@
   "jobId": "6000000001507947",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1876309772133, 'matchScore': 0, 'ageScore': 0.9876309772133488, 'richnessScore': 2}",
+  "scores": "{'score': 1001.179332341316, 'matchScore': 0, 'ageScore': 0.9793323413159722, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

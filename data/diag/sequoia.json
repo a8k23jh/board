@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-21T13:56:57Z",
+ "run": "2026-10-21T18:45:47Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"},\"server\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"},\"server\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "zEVbJuVZNu\u2026",
+  "session.sig": "gTfCFDOLdc\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGZlMzQ5ZDQ1OWUyZWM3YmMxYTQxNWQxYjc0NjI3MTUiLCAic2NvcmUiOiAxLjE0NDMwMjk2OTU2MzI3MTZ9"
+   "sequence": "eyJfaWQiOiAiN2U4YTE5Y2ZkM2Q0MDI1YjA2YWE1YjI1ODRiYTUzNzEiLCAic2NvcmUiOiAxLjE0MDM3Njk3NzAzNDcyMjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/harvey/de1d9fbe-c7a9-49ac-b5c0-aaaa606325b2?utm_source=jobs.sequoiacap.com",
+  "applyUrl": "https://jobs.ashbyhq.com/harvey/724731a2-ad58-4cb4-a784-c90386309501?utm_source=jobs.sequoiacap.com",
   "companyDomain": "harvey.ai",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2be5d63be7354b540c94eee9efbb0fa_176_160?Expires=1861920000&Signature=gGuMg4b-uxV1b~F2mr~UsVNlbNUHUojHReeO1yQOzw09rnj8QM6i~",
   "companyId": "Harvey",
@@ -164,20 +164,30 @@
   "companyStaffCount": 1840,
   "considerHosted": false,
   "departments": [
-   "Backend Platform"
+   "Marketing"
   ],
   "jobTypes": [
    {
-    "id": "engineering-manager",
-    "label": "Engineering Manager",
-    "value": "engineering-manager"
+    "id": "customer-support",
+    "label": "Customer Support",
+    "value": "customer-support"
+   },
+   {
+    "id": "program-manager",
+    "label": "Program Manager",
+    "value": "program-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Project Management",
+    "label": "Project Management",
+    "value": "Project Management"
+   },
+   {
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
    }
   ],
   "locations": [
@@ -196,69 +206,79 @@
     "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 272000, 'maxValue': 355000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 136000, 'maxValue': 187000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Sales & Marketing",
+    "label": "Sales & Marketing",
+    "value": "resume:Sales & Marketing"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
-   {
-    "id": "resume:FastAPI",
-    "label": "FastAPI",
-    "value": "resume:FastAPI"
-   },
-   {
-    "id": "resume:Flask",
-    "label": "Flask",
-    "value": "resume:Flask"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   },
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:FastAPI",
-    "label": "FastAPI",
-    "value": "resume:FastAPI"
-   },
-   {
-    "id": "resume:Flask",
-    "label": "Flask",
-    "value": "resume:Flask"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Customer Engagement",
+    "label": "Customer Engagement",
+    "value": "resume:Customer Engagement"
    }
   ],
-  "manager": true,
+  "requiredSkills": [
+   {
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
+   },
+   {
+    "id": "resume:Sales & Marketing",
+    "label": "Sales & Marketing",
+    "value": "resume:Sales & Marketing"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Customer Engagement",
+    "label": "Customer Engagement",
+    "value": "resume:Customer Engagement"
+   },
+   {
+    "id": "resume:Customer Marketing",
+    "label": "Customer Marketing",
+    "value": "resume:Customer Marketing"
+   },
+   {
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
+   },
+   {
+    "id": "resume:Strategic Operations",
+    "label": "Strategic Operations",
+    "value": "resume:Strategic Operations"
+   }
+  ],
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -271,7 +291,7 @@
     8
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 8,
   "regions": [
    {
     "id": "Mid Atlantic",
@@ -330,23 +350,23 @@
    }
   ],
   "timeStamp": "2026-10-21T00:00:00Z",
-  "title": "Senior Engineering Manager",
-  "url": "https://jobs.ashbyhq.com/harvey/de1d9fbe-c7a9-49ac-b5c0-aaaa606325b2",
-  "jobId": "de1d9fbe-c7a9-49ac-b5c0-aaaa606325b2",
+  "title": "Program Manager, Customer Engagement",
+  "url": "https://jobs.ashbyhq.com/harvey/724731a2-ad58-4cb4-a784-c90386309501",
+  "jobId": "724731a2-ad58-4cb4-a784-c90386309501",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1839262570818, 'matchScore': 0, 'ageScore': 0.9839262570817902, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1802106201108, 'matchScore': 0, 'ageScore': 0.9802106201107254, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },
