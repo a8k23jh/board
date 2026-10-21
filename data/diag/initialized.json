@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-10-20T22:25:02Z",
+ "run": "2026-10-21T01:42:34Z",
  "homepage": {
   "status": 200,
   "bytes": 20921
@@ -29,12 +29,12 @@
    "slug": "initialized",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"},\"server\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"},\"server\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "5rCsBGBXio\u2026",
+  "session.sig": "k0A66OxKvt\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -79,32 +79,32 @@
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjA1M2YyNTNhODI0ZGZhNDVlZTVjZWViNTE3NTNhNDAiLCAic2NvcmUiOiAxMDAuMn0="
+   "sequence": "eyJfaWQiOiAiZjA1M2YyNTNhODI0ZGZhNDVlZTVjZWViNTE3NTNhNDA6VGltZSBieSBQaW5nIiwgInNjb3JlIjogMTAwLjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
     "id": "human-resources",
     "label": "HR",
     "value": "human-resources"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [
@@ -190,16 +190,6 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Export Controls",
-    "label": "Export Controls",
-    "value": "resume:Export Controls"
-   },
-   {
-    "id": "resume:Government Contracts",
-    "label": "Government Contracts",
-    "value": "resume:Government Contracts"
-   },
-   {
     "id": "resume:Human Resources",
     "label": "Human Resources",
     "value": "resume:Human Resources"
@@ -208,6 +198,16 @@
     "id": "resume:Employment Law",
     "label": "Employment Law",
     "value": "resume:Employment Law"
+   },
+   {
+    "id": "resume:Government Contracts",
+    "label": "Government Contracts",
+    "value": "resume:Government Contracts"
+   },
+   {
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
     "id": "resume:HRIS",
@@ -217,26 +217,26 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Export Controls",
-    "label": "Export Controls",
-    "value": "resume:Export Controls"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
+   },
+   {
+    "id": "resume:Employment Law",
+    "label": "Employment Law",
+    "value": "resume:Employment Law"
    },
    {
     "id": "resume:Government Contracts",
     "label": "Government Contracts",
     "value": "resume:Government Contracts"
-   },
-   {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Employment Law",
-    "label": "Employment Law",
-    "value": "resume:Employment Law"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
     "id": "resume:HRIS",
@@ -244,9 +244,9 @@
     "value": "resume:HRIS"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
    },
    {
     "id": "resume:Equity",
@@ -254,9 +254,9 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Employee Relations",
-    "label": "Employee Relations",
-    "value": "resume:Employee Relations"
+    "id": "resume:Export Controls",
+    "label": "Export Controls",
+    "value": "resume:Export Controls"
    }
   ],
   "manager": true,
@@ -275,9 +275,9 @@
   "minYearsExp": 6,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -285,9 +285,9 @@
     "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -321,7 +321,7 @@
   "jobId": "5455676008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.1557191088912, 'matchScore': 0, 'ageScore': 0.9557191088912037, 'richnessScore': 2}",
+  "scores": "{'score': 1101.1512606215563, 'matchScore': 0, 'ageScore': 0.9512606215563272, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-20T22:25:02Z",
+ "run": "2026-10-21T01:42:34Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"},\"server\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"},\"server\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "LAzp1aZoW7\u2026",
+  "session.sig": "dQMdYJ8ZJm\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDUwZDU5YjA3MDEwNzgwOTE0ZTdhYTMwMGE2MGM3NzIiLCAic2NvcmUiOiAxLjA2MzU3NDIyNzU3NjAwMzJ9"
+   "sequence": "eyJfaWQiOiAiYTc1ZDc0MDMzMDE4ZTMxMzlhOWFjNWE5MWI2NTRlYzgiLCAic2NvcmUiOiAxLjA5NDQ5Nzc3MjY0OTY5MTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,164 +139,154 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5456812008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://job-boards.greenhouse.io/checkr/jobs/8246108",
+  "companyDomain": "checkr.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e2bf750e58d00f60c6ee80c394004e67_192_160?Expires=1861920000&Signature=JNSv6SWFArHs8aOstjNFyiWS0MuZFvw4HMxjeVVLPqolNYR6k58lT",
+  "companyId": "Checkr",
+  "companySlug": "checkr",
+  "companyName": "Checkr, Inc.",
+  "companyStaffCount": 1846,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Marketing"
   ],
   "jobTypes": [
    {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    },
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   },
-   {
-    "id": "sales-all",
-    "label": "Sales",
-    "value": "sales-all"
+    "id": "gtm",
+    "label": "GTM",
+    "value": "gtm"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "San Francisco, CA",
-   "Seattle, WA",
-   "New York City, NY",
-   "Washington, DC"
+   "Denver, Colorado, United States",
+   "Nashville, Tennessee, United States",
+   "San Francisco, California, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
-    "id": "Washington, District Of Columbia",
-    "label": "Washington, DC",
-    "value": "Washington, District Of Columbia"
+    "id": "Denver, Colorado",
+    "label": "Denver, Colorado",
+    "value": "Denver, Colorado"
    },
    {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
+   },
+   {
+    "id": "Nashville, Tennessee",
+    "label": "Nashville, Tennessee",
+    "value": "Nashville, Tennessee"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 450000, 'maxValue': 550000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 153000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Sales & Marketing",
+    "label": "Sales & Marketing",
+    "value": "resume:Sales & Marketing"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Marketing Technology",
+    "label": "Marketing Technology",
+    "value": "resume:Marketing Technology"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Sales & Marketing",
+    "label": "Sales & Marketing",
+    "value": "resume:Sales & Marketing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Marketing Technology",
+    "label": "Marketing Technology",
+    "value": "resume:Marketing Technology"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:LTV",
+    "label": "LTV",
+    "value": "resume:LTV"
+   },
+   {
+    "id": "resume:SEO",
+    "label": "SEO",
+    "value": "resume:SEO"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
+  "minYearsExp": 3,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    },
    {
     "id": "West Coast",
@@ -304,9 +294,9 @@
     "value": "West Coast"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -329,31 +319,21 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-10-20T09:13:47Z",
-  "title": "Manager, Cybersecurity Sales Specialist",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456812008",
-  "jobId": "5456812008",
+  "timeStamp": "2026-10-20T16:14:01Z",
+  "title": "GTM Engineer",
+  "url": "https://job-boards.greenhouse.io/checkr/jobs/8246108",
+  "jobId": "8246108",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1844860573765, 'matchScore': 0, 'ageScore': 0.9844860573765432, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1903372401165, 'matchScore': 0, 'ageScore': 0.9903372401165124, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -361,7 +341,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "manager",
    "mid"
   ],
   "isFeatured": false

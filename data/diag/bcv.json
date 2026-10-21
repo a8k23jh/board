@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-20T22:25:02Z",
+ "run": "2026-10-21T01:42:34Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"},\"server\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"},\"server\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "HYOP1lWCdf\u2026",
+  "session.sig": "SQ_K03ZAzf\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODI5Yzk5MDAwZDhhZDY4YmYzZGQ0OTkyM2M0ZTRlNDgiLCAic2NvcmUiOiAxLjA1NzcyNTY2MDY3MTY4Mn0="
+   "sequence": "eyJfaWQiOiAiYTFiNTM1MjY2MjcwYzIzZTQxMDAwNDE4NWYzMGU0ZjkiLCAic2NvcmUiOiAxLjA3MzY5MzQ5NTM1MDMwODZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,144 +152,158 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.docusign.com/jobs/30540?lang=en-us",
-  "companyDomain": "docusign.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
-  "companyId": "DocuSign",
-  "companySlug": "docusign",
-  "companyName": "DocuSign",
-  "companyStaffCount": 8412,
+  "applyUrl": "https://job-boards.greenhouse.io/shipbobinc/jobs/4744797005",
+  "companyDomain": "shipbob.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/71f9c9623ad8779afcda360d6c852025_256_160?Expires=1861920000&Signature=YgqL41DHl9VZqssRyl2HXp47e02fdpKcujto1In13wYDDojXd6a0-",
+  "companyId": "ShipBob",
+  "companySlug": "shipbob",
+  "companyName": "ShipBob",
+  "companyStaffCount": 1730,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "ShipBob Fulfillment Network"
+  ],
   "jobTypes": [
    {
-    "id": "school-student",
-    "label": "Intern",
-    "value": "school-student"
+    "id": "principal",
+    "label": "Principal",
+    "value": "principal"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "operations-support",
+    "label": "Operations Support",
+    "value": "operations-support"
    }
   ],
   "jobFunctions": [],
   "locations": [
-   "San Francisco, California"
+   "Elwood, Illinois, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Illinois",
+    "label": "Illinois",
+    "value": "Illinois"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 39, 'maxValue': 51, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 112817, 'maxValue': 112817, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SDLC",
-    "label": "SDLC",
-    "value": "resume:SDLC"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    },
    {
-    "id": "resume:C#",
-    "label": "C#",
-    "value": "resume:C#"
+    "id": "resume:Mid-Market",
+    "label": "Mid-Market",
+    "value": "resume:Mid-Market"
    },
    {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:LEE Organizing",
+    "label": "Organizing",
+    "value": "resume:LEE Organizing"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SDLC",
-    "label": "SDLC",
-    "value": "resume:SDLC"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    },
    {
-    "id": "resume:C#",
-    "label": "C#",
-    "value": "resume:C#"
+    "id": "resume:Mid-Market",
+    "label": "Mid-Market",
+    "value": "resume:Mid-Market"
    },
    {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:LEE Organizing",
+    "label": "Organizing",
+    "value": "resume:LEE Organizing"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:KPI Dashboards",
-    "label": "KPI Dashboards",
-    "value": "resume:KPI Dashboards"
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:SLA",
+    "label": "SLA",
+    "value": "resume:SLA"
    },
    {
-    "id": "resume:Penetration Testing",
-    "label": "Penetration Testing",
-    "value": "resume:Penetration Testing"
+    "id": "resume:3PL",
+    "label": "3PL",
+    "value": "resume:3PL"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
-    3,
-    4
+    5,
+    6
    ]
   ],
+  "minYearsExp": 7,
   "regions": [
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
    }
   ],
   "stages": [
@@ -297,33 +311,55 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
+    "id": "ECommerce",
+    "label": "eCommerce",
+    "value": "ECommerce"
+   },
+   {
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-10-20T13:55:01Z",
-  "title": "Security Intern",
-  "url": "https://careers.docusign.com/jobs/30540?lang=en-us",
-  "jobId": "30540",
+  "timeStamp": "2026-10-20T18:33:48Z",
+  "title": "Principal Operations Support Manager",
+  "url": "https://job-boards.greenhouse.io/shipbobinc/jobs/4744797005",
+  "jobId": "4744797005",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1911677775895, 'matchScore': 0, 'ageScore': 0.9911677775895061, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1936897112284, 'matchScore': 0, 'ageScore': 0.9936897112283951, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "intern",
-    "label": "Intern",
-    "value": "intern"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "intern"
+   "manager",
+   "senior"
   ],
   "isFeatured": false
  },

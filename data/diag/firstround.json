@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-20T22:25:02Z",
+ "run": "2026-10-21T01:42:34Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"},\"server\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"},\"server\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "7Vct__qxYg\u2026",
+  "session.sig": "KuM6ZH3OIM\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzc2Y2RmYzYyMjNiODQ3Y2ExZjYxZDIwOWY2NzE0ODMiLCAic2NvcmUiOiAxLjAwNTI5NzgwNjIxMDI2MjR9"
+   "sequence": "eyJfaWQiOiAiMTJlNTZjNmE5ZjMyNmIwZGJlZmRkM2E5MWJmMjZmN2MiLCAic2NvcmUiOiAxLjAyNDE2NTEyMzA1MTMxMTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,121 +155,99 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8263322",
-  "companyDomain": "flexport.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/963204163cf1c12c9d559f5f59e9c8eb_224_160?Expires=1861920000&Signature=NM6Nr7rLbBQFOk7dzdWVeh8D-P634vODIBuXB~xQ4hsuyqEUajpSf",
-  "companyId": "Flexport",
-  "companySlug": "flexport",
-  "companyName": "Flexport",
-  "companyStaffCount": 2961,
+  "applyUrl": "https://job-boards.greenhouse.io/togetherai/jobs/5266079007",
+  "companyDomain": "together.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ab310562763eeec1a870bd57b0a9704b_256_160?Expires=1861920000&Signature=DqaWvH3vUeF1a7rLhZrorwzEHn6S-ol3vJVqmfO9AkN~8UuCFWnkz",
+  "companyId": "Together AI",
+  "companySlug": "together-ai",
+  "companyName": "Together AI",
+  "companyStaffCount": 445,
   "considerHosted": false,
   "departments": [
-   "Sales, Enterprise"
+   "Engineering"
   ],
-  "jobTypes": [
-   {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
-   },
-   {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   }
-  ],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "Bellevue, Washington, United States"
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Bellevue, Washington",
-    "label": "Bellevue, Washington",
-    "value": "Bellevue, Washington"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 55680, 'maxValue': 69600, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 320000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Node",
+    "label": "Node",
+    "value": "resume:Node"
    },
    {
-    "id": "resume:Goods",
-    "label": "Goods",
-    "value": "resume:Goods"
+    "id": "resume:Multi Tenant Systems",
+    "label": "Multi Tenant Systems",
+    "value": "resume:Multi Tenant Systems"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Remote Direct Memory Access",
+    "label": "Remote Direct Memory Access",
+    "value": "resume:Remote Direct Memory Access"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Node",
+    "label": "Node",
+    "value": "resume:Node"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Goods",
-    "label": "Goods",
-    "value": "resume:Goods"
+    "id": "resume:Multi Tenant Systems",
+    "label": "Multi Tenant Systems",
+    "value": "resume:Multi Tenant Systems"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Remote Direct Memory Access",
+    "label": "Remote Direct Memory Access",
+    "value": "resume:Remote Direct Memory Access"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
-    "id": "resume:Direct Sales",
-    "label": "Direct Sales",
-    "value": "resume:Direct Sales"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    }
   ],
   "manager": false,
@@ -277,20 +255,19 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 1,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -298,21 +275,16 @@
     "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -323,40 +295,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "Logistics and Supply Chain",
-    "label": "Logistics and Supply Chain",
-    "value": "Logistics and Supply Chain"
+    "id": "AI/ML",
+    "label": "AI/ML",
+    "value": "AI/ML"
    }
   ],
-  "timeStamp": "2026-10-20T11:10:00Z",
-  "title": "Account Executive I (Farmer)",
-  "url": "https://job-boards.greenhouse.io/flexport/jobs/8263322",
-  "jobId": "8263322",
+  "timeStamp": "2026-10-20T18:37:29Z",
+  "title": "(Staff / Senior Staff) AI Infra Engineer, Inference Infrastructure",
+  "url": "https://job-boards.greenhouse.io/togetherai/jobs/5266079007",
+  "jobId": "5266079007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1869972516392, 'matchScore': 0, 'ageScore': 0.9869972516392747, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1928193091485, 'matchScore': 0, 'ageScore': 0.992819309148534, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "junior",
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

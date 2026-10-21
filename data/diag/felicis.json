@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-20T22:25:02Z",
+ "run": "2026-10-21T01:42:34Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"},\"server\":{\"git\":\"7a6d44204c88cb36e9aa3cae6a73f873aad40c07\",\"date\":\"2026-10-20T20:20:48.255Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"},\"server\":{\"git\":\"ef22a427b524d81bb615c6c786d60f83395b8ccd\",\"date\":\"2026-10-21T00:29:29.900Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "fR14uiRmuX\u2026",
+  "session.sig": "M93mVylXvT\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjA0M2ZlMzJjZjg5OGFkNTk4ZmRiMmVhM2Q5OGNhODAiLCAic2NvcmUiOiAxLjAzNzk1MzQ2ODUxMzg4OX0="
+   "sequence": "eyJfaWQiOiAiNDFmNWRhMzEzOTI5YTEzMzYzMzdiZDIzOWQ5ZWExMzUiLCAic2NvcmUiOiAxLjA0ODUyMTYxMDM4Njk2fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,127 +136,117 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8263322",
-  "companyDomain": "flexport.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/963204163cf1c12c9d559f5f59e9c8eb_224_160?Expires=1861920000&Signature=NM6Nr7rLbBQFOk7dzdWVeh8D-P634vODIBuXB~xQ4hsuyqEUajpSf",
-  "companyId": "Flexport",
-  "companySlug": "flexport",
-  "companyName": "Flexport",
-  "companyStaffCount": 2961,
+  "applyUrl": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8303414",
+  "companyDomain": "pindrop.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66db7ca011dabe5ff29c157b56a4251f_288_160?Expires=1861920000&Signature=l7jCjYdBtd-x9~FoRb61NXvycjznIWMO3dSQ1QJItmzYDl9x~JFGj",
+  "companyId": "Pindrop Security",
+  "companySlug": "pindrop-security",
+  "companyName": "Pindrop Security",
+  "companyStaffCount": 374,
   "considerHosted": false,
   "departments": [
-   "Sales, Enterprise"
+   "Customer Support"
   ],
   "jobTypes": [
    {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
-   },
-   {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "customer-success-mananger",
+    "label": "Customer Success Manager",
+    "value": "customer-success-mananger"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
    }
   ],
   "locations": [
-   "Bellevue, Washington, United States"
+   "US-Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "Bellevue, Washington",
-    "label": "Bellevue, Washington",
-    "value": "Bellevue, Washington"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 55680, 'maxValue': 69600, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 140000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Global Teams",
+    "label": "Global Teams",
+    "value": "resume:Global Teams"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "resume:Enterprise Software"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Goods",
-    "label": "Goods",
-    "value": "resume:Goods"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Global Teams",
+    "label": "Global Teams",
+    "value": "resume:Global Teams"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "resume:Enterprise Software"
    },
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Goods",
-    "label": "Goods",
-    "value": "resume:Goods"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:LEE Advocacy",
+    "label": "Advocacy",
+    "value": "resume:LEE Advocacy"
    },
    {
-    "id": "resume:Direct Sales",
-    "label": "Direct Sales",
-    "value": "resume:Direct Sales"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
     "id": "resume:SaaS",
@@ -269,86 +259,54 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 1,
+  "minYearsExp": 10,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "Logistics and Supply Chain",
-    "label": "Logistics and Supply Chain",
-    "value": "Logistics and Supply Chain"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-10-20T11:10:00Z",
-  "title": "Account Executive I (Farmer)",
-  "url": "https://job-boards.greenhouse.io/flexport/jobs/8263322",
-  "jobId": "8263322",
-  "remote": false,
+  "timeStamp": "2026-10-20T15:55:23Z",
+  "title": "Senior Customer Success Manager",
+  "url": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8303414",
+  "jobId": "8303414",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1869972516392, 'matchScore': 0, 'ageScore': 0.9869972516392747, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1891670182858, 'matchScore': 0, 'ageScore': 0.9891670182858796, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "junior",
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

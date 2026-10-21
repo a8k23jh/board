@@ -1,6 +1,6 @@
 {
  "board": "craft",
- "run": "2026-10-20T22:25:02Z",
+ "run": "2026-10-21T01:42:34Z",
  "attempts": [
   {
    "url": "https://jobs.craftventures.com/jobs?q=chief+of+staff",
@@ -10,7 +10,15 @@
   },
   {
    "url": "https://jobs.craftventures.com/jobs?q=business+operations",
-   "error": "Response ended prematurely"
+   "status": 200,
+   "bytes": 269267,
+   "jobs_parsed": 20
+  },
+  {
+   "url": "https://jobs.craftventures.com/jobs?q=business+operations&page=2",
+   "status": 200,
+   "bytes": 269278,
+   "jobs_parsed": 20
   },
   {
    "url": "https://jobs.craftventures.com/jobs?q=strategy",
@@ -92,7 +100,7 @@
   }
  ],
  "parse_health": {
-  "jobs": 89,
-  "without_location": 21
+  "jobs": 104,
+  "without_location": 26
  }
 }
