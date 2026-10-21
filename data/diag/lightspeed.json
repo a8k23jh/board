@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-21T07:49:08Z",
+ "run": "2026-10-21T13:56:57Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "LHyqtwCRGT\u2026",
+  "session.sig": "lNmb4dClMH\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2Y0ZmYxNjJkNDNkMGViZmU5ZjI3ZmZmN2E0N2MzYmQiLCAic2NvcmUiOiAxLjE3NTU1Mzc2NDkwODk1MDd9"
+   "sequence": "eyJfaWQiOiAiNGVkMGJlNjRjYmE4ZjU2NmY4NDY0MjY2YWM0NWJhMTciLCAic2NvcmUiOiAxLjE3MDI2MDg4MjU1NjMyNzJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,109 +144,127 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7996/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3466,
+  "applyUrl": "https://careers.vinted.com/jobs/5007063101?gh_jid=5007063101",
+  "companyDomain": "vinted.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/dbad8e00507381f7334c80ec4762244a_192_160?Expires=1861920000&Signature=ey44G9xKs7RyJsJYnwMY~a5DjFvmPAKGWkndMUWNzgdj0wKKeXv8m",
+  "companyId": "Vinted",
+  "companySlug": "vinted",
+  "companyName": "Vinted",
+  "companyStaffCount": 4398,
   "considerHosted": false,
-  "departments": [],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "departments": [
+   "Engineering"
+  ],
+  "jobTypes": [
+   {
+    "id": "backend-engineer",
+    "label": "Backend Engineer",
+    "value": "backend-engineer"
+   },
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Tacoma, Washington, United States",
-   "2106-2108 Pacific Avenue, Tacoma, WA, US"
+   "Kaunas, Lithuania"
   ],
   "normalizedLocations": [
    {
-    "id": "Tacoma, Washington",
-    "label": "Tacoma, Washington",
-    "value": "Tacoma, Washington"
+    "id": "Lithuania",
+    "label": "Lithuania",
+    "value": "Lithuania"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 68500, 'maxValue': 99770, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 6900, 'maxValue': 9333, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    },
    {
-    "id": "resume:Business Strategy",
-    "label": "Business Strategy",
-    "value": "resume:Business Strategy"
+    "id": "resume:Incident Management",
+    "label": "Incident Management",
+    "value": "resume:Incident Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    },
    {
-    "id": "resume:Business Strategy",
-    "label": "Business Strategy",
-    "value": "resume:Business Strategy"
+    "id": "resume:Incident Management",
+    "label": "Incident Management",
+    "value": "resume:Incident Management"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:IT Ops",
-    "label": "IT Ops",
-    "value": "resume:IT Ops"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
-    "id": "resume:Decision Support",
-    "label": "Decision Support",
-    "value": "resume:Decision Support"
+    "id": "resume:Technical Presentations",
+    "label": "Technical Communication",
+    "value": "resume:Technical Presentations"
    }
   ],
   "manager": false,
@@ -254,35 +272,19 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
@@ -290,22 +292,33 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "ECommerce",
+    "label": "eCommerce",
+    "value": "ECommerce"
+   },
+   {
+    "id": "Peer to Peer Marketplace",
+    "label": "Peer to Peer Marketplace",
+    "value": "Peer to Peer Marketplace"
    }
   ],
-  "timeStamp": "2026-10-20T23:58:43Z",
-  "title": "AI Solution Specialist",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7996/",
-  "jobId": "7996",
+  "timeStamp": "2026-10-21T02:44:08Z",
+  "title": "Lead Backend Engineer, Incident Management",
+  "url": "https://careers.vinted.com/jobs/5007063101?gh_jid=5007063101",
+  "jobId": "5007063101",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1921482445551, 'matchScore': 0, 'ageScore': 0.9921482445551697, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1881891507442, 'matchScore': 0, 'ageScore': 0.988189150744213, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -313,10 +326,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

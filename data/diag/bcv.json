@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-21T07:49:08Z",
+ "run": "2026-10-21T13:56:57Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "loj7Bt-QgE\u2026",
+  "session.sig": "sTgujmnx0a\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDU4MjU2YzMyNzQyMDgxZDhjN2RiNmZkMzZhZGRhMDAiLCAic2NvcmUiOiAxLjExMzc5MzU1MTA3NDA3NDJ9"
+   "sequence": "eyJfaWQiOiAiNjI4ZTI0MjY2OGVjNzBiMDkwOTJlMWRjNzYwMWJkODEiLCAic2NvcmUiOiAxLjExMDM2ODUzOTI0MDc0MDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,143 +152,145 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/shipbobinc/jobs/4744797005",
-  "companyDomain": "shipbob.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/71f9c9623ad8779afcda360d6c852025_256_160?Expires=1861920000&Signature=YgqL41DHl9VZqssRyl2HXp47e02fdpKcujto1In13wYDDojXd6a0-",
-  "companyId": "ShipBob",
-  "companySlug": "shipbob",
-  "companyName": "ShipBob",
-  "companyStaffCount": 1730,
+  "applyUrl": "https://careers.docusign.com/jobs/30562?lang=en-us",
+  "companyDomain": "docusign.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
+  "companyId": "DocuSign",
+  "companySlug": "docusign",
+  "companyName": "DocuSign",
+  "companyStaffCount": 8412,
   "considerHosted": false,
-  "departments": [
-   "ShipBob Fulfillment Network"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "operations-support",
-    "label": "Operations Support",
-    "value": "operations-support"
-   },
-   {
-    "id": "principal",
-    "label": "Principal",
-    "value": "principal"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "Elwood, Illinois, United States"
+   "Seattle, Washington"
   ],
   "normalizedLocations": [
    {
-    "id": "Illinois",
-    "label": "Illinois",
-    "value": "Illinois"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 112817, 'maxValue': 112817, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 178900, 'maxValue': 262825, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Low Latency",
+    "label": "Low Latency",
+    "value": "resume:Low Latency"
    },
    {
-    "id": "resume:Productivity Software",
-    "label": "Productivity Software",
-    "value": "resume:Productivity Software"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
    },
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Low Latency",
+    "label": "Low Latency",
+    "value": "resume:Low Latency"
    },
    {
-    "id": "resume:Productivity Software",
-    "label": "Productivity Software",
-    "value": "resume:Productivity Software"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
    },
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:SLA",
-    "label": "SLA",
-    "value": "resume:SLA"
+    "id": "resume:gRPC",
+    "label": "gRPC",
+    "value": "resume:gRPC"
    },
    {
-    "id": "resume:LEE Organizing",
-    "label": "Organizing",
-    "value": "resume:LEE Organizing"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Genetics",
-    "label": "Genetics",
-    "value": "resume:Genetics"
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
+   [
+    3,
+    4
+   ],
    [
     5,
     6
    ]
   ],
-  "minYearsExp": 7,
   "regions": [
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -296,14 +298,9 @@
     "value": "North America"
    },
    {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
-   },
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    }
   ],
   "stages": [
@@ -311,38 +308,22 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
-   },
-   {
-    "id": "Logistics and Supply Chain",
-    "label": "Logistics and Supply Chain",
-    "value": "Logistics and Supply Chain"
-   },
-   {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-10-20T18:33:48Z",
-  "title": "Principal Operations Support Manager",
-  "url": "https://job-boards.greenhouse.io/shipbobinc/jobs/4744797005",
-  "jobId": "4744797005",
+  "timeStamp": "2026-10-21T05:28:01Z",
+  "title": "Sr. Manager, Engineering - Account Provisioning and Settings",
+  "url": "https://careers.docusign.com/jobs/30562?lang=en-us",
+  "jobId": "30562",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1853555253283, 'matchScore': 0, 'ageScore': 0.9853555253283179, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1916912677237, 'matchScore': 0, 'ageScore': 0.9916912677237655, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -350,16 +331,10 @@
     "id": "manager",
     "label": "Manager/Senior Manager",
     "value": "manager"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "senior"
+   "manager"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-21T07:49:08Z",
+ "run": "2026-10-21T13:56:57Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "vmuR6BG6Qn\u2026",
+  "session.sig": "nRdgfWRtV2\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYmNiYTA4MDUwZDljYmQ3NDg2Zjg3NjUyYzFjNzM4ZDYiLCAic2NvcmUiOiAxLjA0ODcxOTMwNjA0ODYxMX0="
+   "sequence": "eyJfaWQiOiAiMGVjYzhlMGY4OTZkNWFmNWQ1ZWZiZGE0N2I0MzAyOTMiLCAic2NvcmUiOiAxLjA0NTA0ODMzMzY3MDUyNDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,40 +155,53 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/togetherai/jobs/5266079007",
-  "companyDomain": "together.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ab310562763eeec1a870bd57b0a9704b_256_160?Expires=1861920000&Signature=DqaWvH3vUeF1a7rLhZrorwzEHn6S-ol3vJVqmfO9AkN~8UuCFWnkz",
-  "companyId": "Together AI",
-  "companySlug": "together-ai",
-  "companyName": "Together AI",
-  "companyStaffCount": 445,
+  "applyUrl": "https://jobs.ashbyhq.com/harvey/de1d9fbe-c7a9-49ac-b5c0-aaaa606325b2?utm_source=jobs.kleinerperkins.com",
+  "companyDomain": "harvey.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2be5d63be7354b540c94eee9efbb0fa_176_160?Expires=1861920000&Signature=gGuMg4b-uxV1b~F2mr~UsVNlbNUHUojHReeO1yQOzw09rnj8QM6i~",
+  "companyId": "Harvey",
+  "companySlug": "harvey",
+  "companyName": "Harvey",
+  "companyStaffCount": 1840,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Backend Platform"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "engineering-manager",
+    "label": "Engineering Manager",
+    "value": "engineering-manager"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "San Francisco"
+   "New York, New York, USA",
+   "New York"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   }
-  ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 320000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
-  "skills": [
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    },
    {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   }
+  ],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 272000, 'maxValue': 355000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "skills": [
+   {
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
     "id": "resume:Observability",
@@ -196,95 +209,96 @@
     "value": "resume:Observability"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:FastAPI",
+    "label": "FastAPI",
+    "value": "resume:FastAPI"
+   },
+   {
+    "id": "resume:Flask",
+    "label": "Flask",
+    "value": "resume:Flask"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    },
    {
     "id": "resume:Observability",
     "label": "Observability",
     "value": "resume:Observability"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:FastAPI",
+    "label": "FastAPI",
+    "value": "resume:FastAPI"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Flask",
+    "label": "Flask",
+    "value": "resume:Flask"
    },
    {
-    "id": "resume:CUDA",
-    "label": "CUDA",
-    "value": "resume:CUDA"
-   },
-   {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
-   },
-   {
-    "id": "resume:Node",
-    "label": "Node",
-    "value": "resume:Node"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 10,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -295,29 +309,44 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI/ML",
-    "label": "AI/ML",
-    "value": "AI/ML"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "Legal Services",
+    "label": "Legal Services",
+    "value": "Legal Services"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-10-20T18:37:29Z",
-  "title": "(Staff / Senior Staff) AI Infra Engineer, Inference Infrastructure",
-  "url": "https://job-boards.greenhouse.io/togetherai/jobs/5266079007",
-  "jobId": "5266079007",
+  "timeStamp": "2026-10-21T00:00:00Z",
+  "title": "Senior Engineering Manager",
+  "url": "https://jobs.ashbyhq.com/harvey/de1d9fbe-c7a9-49ac-b5c0-aaaa606325b2",
+  "jobId": "de1d9fbe-c7a9-49ac-b5c0-aaaa606325b2",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1853085111543, 'matchScore': 0, 'ageScore': 0.9853085111543209, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1839262570818, 'matchScore': 0, 'ageScore': 0.9839262570817902, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "manager"
   ],
   "isFeatured": false
  },
