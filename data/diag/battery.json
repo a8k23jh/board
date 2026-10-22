@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-10-22T13:55:10Z",
+ "run": "2026-10-22T18:38:51Z",
  "homepage": {
   "status": 200,
   "bytes": 18736
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "B5jiW2F6-r\u2026",
+  "session.sig": "-94qmrz-85\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzMzYjAzNDdhYTVjODY3MDVlZWY1MThmNjdjNWQ3MmIiLCAic2NvcmUiOiAxLjA2NzIwMTIwMjQ5MDM1NX0="
+   "sequence": "eyJfaWQiOiAiNTRjZTEwYTFjZjFlZWYwOTJlYmIzOGQ2ZDY5MWQwYzQiLCAic2NvcmUiOiAxLjA3NTI1MTAyMTkyMDEzOX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,36 +136,44 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/bigpanda/am9icG9zdDqKly9vUI1r4ZBmfCWb7nB6?utm_source=jobs.battery.com",
-  "companyDomain": "bigpanda.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/379a2d633ca42e464b33e9fb7676ec48_288_160?Expires=1861920000&Signature=lwSqcN9QQMuxHrM53UKktEJy3sYioHgxbMl41-H4pIbH~LCrfo4gx",
-  "companyId": "BigPanda",
-  "companySlug": "bigpanda",
-  "companyName": "BigPanda",
-  "companyStaffCount": 330,
+  "applyUrl": "https://www.comeet.com/jobs/minute/45.00A/director-publisher-business-development/E5.47D",
+  "companyDomain": "minutemedia.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/de6ab7e06e8bae4787647a41bc35aae4_320_160?Expires=1861920000&Signature=WceEJe4-9Ay2Y14VDxe1TA1qP1tOdAw57fJsAEULKHSw9ysg~uF12",
+  "companyId": "Minute Media",
+  "companySlug": "minute-media",
+  "companyName": "Minute Media",
+  "companyStaffCount": 426,
   "considerHosted": false,
-  "departments": [
-   "Account Management"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "technical-account-manager",
-    "label": "Technical Account Manager",
-    "value": "technical-account-manager"
+    "id": "business-development",
+    "label": "Business Development Professional",
+    "value": "business-development"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [
+   {
+    "id": "Business Development",
+    "label": "Business Development",
+    "value": "Business Development"
+   },
    {
     "id": "Sales",
     "label": "Sales",
@@ -173,7 +181,7 @@
    }
   ],
   "locations": [
-   "USA"
+   "US Remote"
   ],
   "normalizedLocations": [
    {
@@ -182,92 +190,92 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 145000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Incident Management",
-    "label": "Incident Management",
-    "value": "resume:Incident Management"
+    "id": "resume:Pipeline Management",
+    "label": "Pipeline Management",
+    "value": "resume:Pipeline Management"
    },
    {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Datadog",
-    "label": "Datadog",
-    "value": "resume:Datadog"
+    "id": "resume:Looker",
+    "label": "Looker",
+    "value": "resume:Looker"
    },
    {
-    "id": "resume:Network on chip",
-    "label": "Network on chip",
-    "value": "resume:Network on chip"
+    "id": "resume:Online Advertising",
+    "label": "Online Advertising",
+    "value": "resume:Online Advertising"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Incident Management",
-    "label": "Incident Management",
-    "value": "resume:Incident Management"
+    "id": "resume:Pipeline Management",
+    "label": "Pipeline Management",
+    "value": "resume:Pipeline Management"
    },
    {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Datadog",
-    "label": "Datadog",
-    "value": "resume:Datadog"
+    "id": "resume:Looker",
+    "label": "Looker",
+    "value": "resume:Looker"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Network on chip",
-    "label": "Network on chip",
-    "value": "resume:Network on chip"
+    "id": "resume:Online Advertising",
+    "label": "Online Advertising",
+    "value": "resume:Online Advertising"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Scripting",
-    "label": "Scripting",
-    "value": "resume:Scripting"
+    "id": "resume:Health Insurance",
+    "label": "Health Insurance",
+    "value": "resume:Health Insurance"
    },
    {
-    "id": "resume:Emotional Intelligence",
-    "label": "Emotional Intelligence",
-    "value": "resume:Emotional Intelligence"
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
    },
    {
-    "id": "resume:Splunk",
-    "label": "Splunk",
-    "value": "resume:Splunk"
+    "id": "resume:Ad Serving",
+    "label": "Ad Serving",
+    "value": "resume:Ad Serving"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
@@ -280,54 +288,33 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
-   },
-   {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Online Media",
+    "label": "Digital Media",
+    "value": "Online Media"
    }
   ],
-  "timeStamp": "2026-10-22T05:58:45Z",
-  "title": "Technical Account Manager",
-  "url": "https://jobs.gem.com/bigpanda/am9icG9zdDqKly9vUI1r4ZBmfCWb7nB6",
-  "jobId": "am9icG9zdDqKly9vUI1r4ZBmfCWb7nB6",
+  "timeStamp": "2026-10-22T15:33:00Z",
+  "title": "Director, Publisher Business Development",
+  "url": "https://www.comeet.com/jobs/minute/45.00A/director-publisher-business-development/E5.47D",
+  "jobId": "E5.47D",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1928442173125, 'matchScore': 0, 'ageScore': 0.9928442173125, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1978320450718, 'matchScore': 0, 'ageScore': 0.9978320450717593, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },
