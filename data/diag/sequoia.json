@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-22T01:37:34Z",
+ "run": "2026-10-22T07:45:03Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"},\"server\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"64169608b71c1d24cdc3b118efcf67b7d7ac8acb\",\"date\":\"2026-10-22T04:54:24.945Z\"},\"server\":{\"git\":\"64169608b71c1d24cdc3b118efcf67b7d7ac8acb\",\"date\":\"2026-10-22T04:54:24.945Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1BOWRKsl4w\u2026",
+  "session.sig": "xC2bOOHAam\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWZmMTk4ZTY4ZTYyNWFjZWZkNWE3NjQ5YWM1NzllYTciLCAic2NvcmUiOiAxLjE1NzM5NjU3MTY2ODU5NTd9"
+   "sequence": "eyJfaWQiOiAiNGI0NzgyZDBiNjRiOTJkODRmZTY5OWM1M2FhMTNjMmYiLCAic2NvcmUiOiAxLjE1MTMzNDY0Mjc0OTIyODR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,25 +155,22 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/cyera/17.008/principal-product-marketing-manager---threat-research/D3.471",
-  "companyDomain": "cyera.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec6d92aec09bf6716dbbd9d50089a4ec_208_160?Expires=1861920000&Signature=hr9QoUI4iKYF8Hn~HoiixG3elVHvWPoII2QRBQjO8zeSQJpeGQNuP",
-  "companyId": "Cyera",
-  "companySlug": "cyera",
-  "companyName": "Cyera",
-  "companyStaffCount": 1776,
+  "applyUrl": "https://job-boards.greenhouse.io/cresta/jobs/5460644008",
+  "companyDomain": "cresta.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cdef11ad3798fa79159590b9a9617a6d_256_160?Expires=1861920000&Signature=F-pZspvtxJV3efZ2hLM3KcUEr8Jr~Nw4WWtETe8tU0rQTEZExYjy0",
+  "companyId": "Cresta",
+  "companySlug": "cresta",
+  "companyName": "Cresta",
+  "companyStaffCount": 856,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Marketing"
+  ],
   "jobTypes": [
    {
-    "id": "research-scientist",
-    "label": "Research Scientist",
-    "value": "research-scientist"
-   },
-   {
-    "id": "principal",
-    "label": "Principal",
-    "value": "principal"
+    "id": "product-marketing",
+    "label": "Product Marketing",
+    "value": "product-marketing"
    },
    {
     "id": "people-manager",
@@ -184,6 +181,11 @@
     "id": "marketing-product-marketing",
     "label": "Marketing Product Marketing",
     "value": "marketing-product-marketing"
+   },
+   {
+    "id": "sales-engineering",
+    "label": "Sales Engineering",
+    "value": "sales-engineering"
    }
   ],
   "jobFunctions": [
@@ -193,81 +195,49 @@
     "value": "Marketing"
    },
    {
-    "id": "Science",
-    "label": "Science",
-    "value": "Science"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "US Remote"
+   "New York, United, States (Hybrid)",
+   "San Francisco, United, States (Hybrid)",
+   "United States (Remote)"
   ],
   "normalizedLocations": [
+   {
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
     "id": "resume:Product Marketing",
     "label": "Product Marketing",
     "value": "resume:Product Marketing"
    },
    {
-    "id": "resume:Cloud Security",
-    "label": "Cloud Security",
-    "value": "resume:Cloud Security"
+    "id": "resume:Hospitality",
+    "label": "Hospitality",
+    "value": "resume:Hospitality"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Product Marketing",
-    "label": "Product Marketing",
-    "value": "resume:Product Marketing"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Cloud Security",
-    "label": "Cloud Security",
-    "value": "resume:Cloud Security"
-   },
-   {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   },
-   {
-    "id": "resume:Analyst Relations",
-    "label": "Analyst Relations",
-    "value": "resume:Analyst Relations"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
     "id": "resume:Research",
@@ -275,9 +245,53 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Content Marketing",
-    "label": "Content Marketing",
-    "value": "resume:Content Marketing"
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
+   },
+   {
+    "id": "resume:Hospitality",
+    "label": "Hospitality",
+    "value": "resume:Hospitality"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
+   },
+   {
+    "id": "resume:Solutions Marketing",
+    "label": "Solutions Marketing",
+    "value": "resume:Solutions Marketing"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Competitive Analysis",
+    "label": "Competitive Analysis",
+    "value": "resume:Competitive Analysis"
    }
   ],
   "manager": true,
@@ -285,16 +299,32 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 7,
   "regions": [
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -303,9 +333,9 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -316,26 +346,31 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "AI-Powered Applications",
+    "label": "AI-Powered Applications",
+    "value": "AI-Powered Applications"
+   },
+   {
+    "id": "AI/ML",
+    "label": "AI/ML",
+    "value": "AI/ML"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-10-21T19:06:15Z",
-  "title": "Principal Product Marketing Manager - Threat Research",
-  "url": "https://www.comeet.com/jobs/cyera/17.008/principal-product-marketing-manager---threat-research/D3.471",
-  "jobId": "D3.471",
+  "timeStamp": "2026-10-21T19:21:22Z",
+  "title": "Senior Product Marketing Manager, Vertical Solutions",
+  "url": "https://job-boards.greenhouse.io/cresta/jobs/5460644008",
+  "jobId": "5460644008",
   "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1934889512994, 'matchScore': 0, 'ageScore': 0.9934889512993827, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1861850529904, 'matchScore': 0, 'ageScore': 0.986185052990355, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
    {
     "id": "senior",
     "label": "Senior",
@@ -343,7 +378,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "mid",
    "senior"
   ],
   "isFeatured": false

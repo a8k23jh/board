@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-22T01:37:34Z",
+ "run": "2026-10-22T07:45:03Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"},\"server\":{\"git\":\"79dc33c02c89c2eacc631660508a08390b306e6a\",\"date\":\"2026-10-21T17:56:39.997Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"64169608b71c1d24cdc3b118efcf67b7d7ac8acb\",\"date\":\"2026-10-22T04:54:24.945Z\"},\"server\":{\"git\":\"64169608b71c1d24cdc3b118efcf67b7d7ac8acb\",\"date\":\"2026-10-22T04:54:24.945Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "xltb74IdOy\u2026",
+  "session.sig": "N2FtC2Mnys\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDhiNDFjNzY4ZjNlMjQwYzQ2MzJkZDg0MDM3Mjc5MDAiLCAic2NvcmUiOiAxLjEzNDQxNjg3MTczNTMzOTZ9"
+   "sequence": "eyJfaWQiOiAiNDdlMWYyZmEzZTc2NWZkNjM1YzQzZmRlODA5OGQzYTAiLCAic2NvcmUiOiAxLjEzODYyMjA4NzY2NzQzODJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -206,63 +206,53 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 132700, 'maxValue': 206800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:RubyGems",
-    "label": "RubyGems",
-    "value": "resume:RubyGems"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Competitive Market Analysis",
-    "label": "Competitive Market Analysis",
-    "value": "resume:Competitive Market Analysis"
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
    },
    {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
+    "id": "resume:Sales Leadership",
+    "label": "Sales Leadership",
+    "value": "resume:Sales Leadership"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:LinkedIn Recruiter",
+    "label": "LinkedIn Recruiter",
+    "value": "resume:LinkedIn Recruiter"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:RubyGems",
-    "label": "RubyGems",
-    "value": "resume:RubyGems"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Competitive Market Analysis",
-    "label": "Competitive Market Analysis",
-    "value": "resume:Competitive Market Analysis"
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
    },
    {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
+    "id": "resume:Sales Leadership",
+    "label": "Sales Leadership",
+    "value": "resume:Sales Leadership"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   },
-   {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:LinkedIn Recruiter",
+    "label": "LinkedIn Recruiter",
+    "value": "resume:LinkedIn Recruiter"
    },
    {
     "id": "resume:CLM",
@@ -270,9 +260,19 @@
     "value": "resume:CLM"
    },
    {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
+    "id": "resume:Competitive Market Analysis",
+    "label": "Competitive Market Analysis",
+    "value": "resume:Competitive Market Analysis"
+   },
+   {
+    "id": "resume:RubyGems",
+    "label": "RubyGems",
+    "value": "resume:RubyGems"
+   },
+   {
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
    }
   ],
   "manager": false,
@@ -290,11 +290,6 @@
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
@@ -303,6 +298,11 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -330,7 +330,7 @@
   "jobId": "30570",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1953052658777, 'matchScore': 0, 'ageScore': 0.9953052658777006, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1869252415092, 'matchScore': 0, 'ageScore': 0.9869252415092593, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
