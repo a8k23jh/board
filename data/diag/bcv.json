@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-22T07:45:03Z",
+ "run": "2026-10-22T13:55:10Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "N2FtC2Mnys\u2026",
+  "session.sig": "b5J9aa4AkN\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDdlMWYyZmEzZTc2NWZkNjM1YzQzZmRlODA5OGQzYTAiLCAic2NvcmUiOiAxLjEzODYyMjA4NzY2NzQzODJ9"
+   "sequence": "eyJfaWQiOiAiYjhiNzM3YzA4Nzk2ZWYyMWVkOWE4ZjE3M2VjY2MwMWYiLCAic2NvcmUiOiAxLjEzNDA4NzI1ODc5OTc2ODZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.docusign.com/jobs/30570?lang=en-us",
+  "applyUrl": "https://careers.docusign.com/jobs/30580?lang=en-us",
   "companyDomain": "docusign.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
   "companyId": "DocuSign",
@@ -174,22 +174,26 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "recruiter",
-    "label": "Recruiter",
-    "value": "recruiter"
+    "id": "software-architect",
+    "label": "Software Architect",
+    "value": "software-architect"
+   },
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Colorado, United States",
-   "Colorado, United States",
-   "Washington, United States"
+   "Washington, United States",
+   "United States"
   ],
   "normalizedLocations": [
    {
@@ -198,17 +202,27 @@
     "value": "Washington"
    },
    {
-    "id": "Colorado",
-    "label": "Colorado",
-    "value": "Colorado"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 132700, 'maxValue': 206800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135100, 'maxValue': 195925, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "resume:Enterprise Software"
+   },
+   {
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
+   },
+   {
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
     "id": "resume:DocuSign",
@@ -216,63 +230,53 @@
     "value": "resume:DocuSign"
    },
    {
-    "id": "resume:Sales Leadership",
-    "label": "Sales Leadership",
-    "value": "resume:Sales Leadership"
-   },
-   {
-    "id": "resume:LinkedIn Recruiter",
-    "label": "LinkedIn Recruiter",
-    "value": "resume:LinkedIn Recruiter"
-   },
-   {
-    "id": "resume:CLM",
-    "label": "CLM",
-    "value": "resume:CLM"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "resume:Enterprise Software"
    },
+   {
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
+   },
+   {
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:DocuSign",
     "label": "DocuSign",
     "value": "resume:DocuSign"
    },
    {
-    "id": "resume:Sales Leadership",
-    "label": "Sales Leadership",
-    "value": "resume:Sales Leadership"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:LinkedIn Recruiter",
-    "label": "LinkedIn Recruiter",
-    "value": "resume:LinkedIn Recruiter"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:CLM",
-    "label": "CLM",
-    "value": "resume:CLM"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Competitive Market Analysis",
-    "label": "Competitive Market Analysis",
-    "value": "resume:Competitive Market Analysis"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:RubyGems",
-    "label": "RubyGems",
-    "value": "resume:RubyGems"
-   },
-   {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    }
   ],
   "manager": false,
@@ -280,12 +284,18 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    9,
+    10,
+    11,
+    12
    ]
   ],
   "regions": [
@@ -295,9 +305,9 @@
     "value": "Northwest"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "West Coast",
@@ -305,9 +315,9 @@
     "value": "West Coast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -324,13 +334,13 @@
     "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-10-21T20:25:01Z",
-  "title": "Sr. Recruiter",
-  "url": "https://careers.docusign.com/jobs/30570?lang=en-us",
-  "jobId": "30570",
+  "timeStamp": "2026-10-21T22:55:59Z",
+  "title": "Lead Demo Architect",
+  "url": "https://careers.docusign.com/jobs/30580?lang=en-us",
+  "jobId": "30580",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1869252415092, 'matchScore': 0, 'ageScore': 0.9869252415092593, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1824951811466, 'matchScore': 0, 'ageScore': 0.982495181146605, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -338,10 +348,22 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "senior",
+   "mid",
+   "expert"
   ],
   "isFeatured": false
  },
