@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-22T18:38:51Z",
+ "run": "2026-10-22T22:29:17Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TTR149oioW\u2026",
+  "session.sig": "DLy7dFk8UR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDZjNWM5NGM2YzQ5YzY1ZDQyMWZlNDQ2MDFhNDJkOTUiLCAic2NvcmUiOiAxLjEyNzE1NzMxNzM4MDQwMTN9"
+   "sequence": "eyJfaWQiOiAiYWFmYWZlOGI5OTZmNWZhYzExOTQ4YTk2NjMwOTA0ZWMiLCAic2NvcmUiOiAxLjEyMjYxNDY4Mzc0NTM3MDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/maintainx/1d5778e9-60a8-4a56-b00c-e9b003d1190b?utm_source=jobs.baincapitalventures.com",
+  "applyUrl": "https://jobs.ashbyhq.com/maintainx/18416cb9-5a75-45ea-b04f-236a0d567a1a?utm_source=jobs.baincapitalventures.com",
   "companyDomain": "getmaintainx.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b8ee14f86055e305b5108c32375a50af_288_160?Expires=1861920000&Signature=ZyuoaG96wOCstJUNsB6E~TiBmRlr26XXeFc0Vgs~vZJos5HWPsYau",
   "companyId": "MaintainX",
@@ -176,14 +176,9 @@
   ],
   "jobTypes": [
    {
-    "id": "principal",
-    "label": "Principal",
-    "value": "principal"
-   },
-   {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "principal-software-engineer",
+    "label": "Principal Software Engineer",
+    "value": "principal-software-engineer"
    }
   ],
   "jobFunctions": [
@@ -194,10 +189,16 @@
    }
   ],
   "locations": [
-   "Montreal, Qu\u00e9bec, Canada",
+   "Toronto, Ontario, Canada",
+   "Toronto",
    "Montreal"
   ],
   "normalizedLocations": [
+   {
+    "id": "Toronto, Ontario, Canada",
+    "label": "Toronto",
+    "value": "Toronto, Ontario, Canada"
+   },
    {
     "id": "Montreal, Quebec, Canada",
     "label": "Montreal, Quebec, Canada",
@@ -207,19 +208,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 88000, 'maxValue': 195000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
+    "id": "resume:Shell Scripting",
+    "label": "Shell Scripting",
+    "value": "resume:Shell Scripting"
+   },
+   {
     "id": "resume:Fusion",
     "label": "Fusion",
     "value": "resume:Fusion"
-   },
-   {
-    "id": "resume:Mobile",
-    "label": "Mobile",
-    "value": "resume:Mobile"
-   },
-   {
-    "id": "resume:FlexSim",
-    "label": "FlexSim",
-    "value": "resume:FlexSim"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -227,26 +228,26 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Shell Scripting",
-    "label": "Shell Scripting",
-    "value": "resume:Shell Scripting"
+    "id": "resume:Mobile",
+    "label": "Mobile",
+    "value": "resume:Mobile"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
+    "id": "resume:Shell Scripting",
+    "label": "Shell Scripting",
+    "value": "resume:Shell Scripting"
+   },
+   {
     "id": "resume:Fusion",
     "label": "Fusion",
     "value": "resume:Fusion"
-   },
-   {
-    "id": "resume:Mobile",
-    "label": "Mobile",
-    "value": "resume:Mobile"
-   },
-   {
-    "id": "resume:FlexSim",
-    "label": "FlexSim",
-    "value": "resume:FlexSim"
    }
   ],
   "preferredSkills": [
@@ -256,9 +257,19 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Shell Scripting",
-    "label": "Shell Scripting",
-    "value": "resume:Shell Scripting"
+    "id": "resume:Mobile",
+    "label": "Mobile",
+    "value": "resume:Mobile"
+   },
+   {
+    "id": "resume:Technical Leadership",
+    "label": "Technical Leadership",
+    "value": "resume:Technical Leadership"
+   },
+   {
+    "id": "resume:FlexSim",
+    "label": "FlexSim",
+    "value": "resume:FlexSim"
    }
   ],
   "manager": false,
@@ -266,14 +277,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 10,
   "regions": [
    {
     "id": "North America",
@@ -311,12 +323,12 @@
    }
   ],
   "timeStamp": "2026-10-22T00:00:00Z",
-  "title": "D\u00e9veloppeur logiciel principal senior, Plateforme mobile",
-  "url": "https://jobs.ashbyhq.com/maintainx/1d5778e9-60a8-4a56-b00c-e9b003d1190b",
-  "jobId": "1d5778e9-60a8-4a56-b00c-e9b003d1190b",
+  "title": "Senior Principal Software Developer, Mobile Platform",
+  "url": "https://jobs.ashbyhq.com/maintainx/18416cb9-5a75-45ea-b04f-236a0d567a1a",
+  "jobId": "18416cb9-5a75-45ea-b04f-236a0d567a1a",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1760612397295, 'matchScore': 0, 'ageScore': 0.9760612397295525, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1719271175799, 'matchScore': 0, 'ageScore': 0.971927117579861, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
