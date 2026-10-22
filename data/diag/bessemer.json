@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-21T22:28:41Z",
+ "run": "2026-10-22T01:37:34Z",
  "homepage": {
   "status": 200,
   "bytes": 21383
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "LXlLISGaNV\u2026",
+  "session.sig": "S7lV6TkbMB\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGJmMTBlODkxMGZiMDk3OGY4MzkwNWUyN2QzZjJkZWMiLCAic2NvcmUiOiAxLjEwNjAxMTQ0NzcwNjAxODZ9"
+   "sequence": "eyJfaWQiOiAiOTdjMWYzYzdjMzhmMTI1MGJjMjc4NzA2ZTMxYjEyMjciLCAic2NvcmUiOiAxLjEyMTk0NDk4Mzc4MjAyMTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,20 +163,22 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/Claroty/F2.004/senior-software-engineer-public-sector/02.47A",
-  "companyDomain": "claroty.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/79c671128b9509d30616f65102ceb9c5_304_160?Expires=1861920000&Signature=NALcIcAq-mp8YgbS~UCOjIiVE5JlytobLXOGEwTHfpK12WrF~v55X",
-  "companyId": "Claroty",
-  "companySlug": "claroty",
-  "companyName": "Claroty",
-  "companyStaffCount": 858,
+  "applyUrl": "https://synd.io/careers/?gh_jid=6231512004",
+  "companyDomain": "synd.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/51830d72bc3e0956f4ba0a1e84b9d42d_237_160?Expires=1861920000&Signature=A5ma25EUQt1KDF2ipPmD0v1yfdIRGcExr38x8vqM0IiqE9wwLtvi~",
+  "companyId": "Syndio",
+  "companySlug": "syndio",
+  "companyName": "Syndio",
+  "companyStaffCount": 175,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Software Engineering"
+  ],
   "jobTypes": [
    {
-    "id": "senior-software-engineer",
-    "label": "Senior Software Engineer",
-    "value": "senior-software-engineer"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
@@ -187,85 +189,109 @@
    }
   ],
   "locations": [
-   "United States"
+   "Calgary, Alberta, Canada",
+   "Remote Home Office - Greater Seattle",
+   "San Francisco Bay Area",
+   "Remote Home Office - Greater Seattle, San Francisco Bay Area",
+   "New York Metro"
   ],
   "normalizedLocations": [
+   {
+    "id": "Calgary, Alberta, Canada",
+    "label": "Calgary, Alberta, Canada",
+    "value": "Calgary, Alberta, Canada"
+   },
+   {
+    "id": "Greater Seattle Area",
+    "label": "Greater Seattle Area",
+    "value": "Greater Seattle Area"
+   },
+   {
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   },
+   {
+    "id": "San Francisco Bay Area",
+    "label": "San Francisco Bay Area",
+    "value": "San Francisco Bay Area"
+   },
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 148000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Ubuntu",
-    "label": "Ubuntu",
-    "value": "resume:Ubuntu"
+    "id": "resume:Boomi",
+    "label": "Boomi",
+    "value": "resume:Boomi"
    },
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:RedHat",
-    "label": "RedHat",
-    "value": "resume:RedHat"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:Docker",
-    "label": "Docker",
-    "value": "resume:Docker"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Ubuntu",
-    "label": "Ubuntu",
-    "value": "resume:Ubuntu"
+    "id": "resume:Boomi",
+    "label": "Boomi",
+    "value": "resume:Boomi"
    },
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:RedHat",
-    "label": "RedHat",
-    "value": "resume:RedHat"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:Docker",
-    "label": "Docker",
-    "value": "resume:Docker"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:FedRAMP",
-    "label": "FedRAMP",
-    "value": "resume:FedRAMP"
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    },
    {
-    "id": "resume:Log Analysis",
-    "label": "Log Analysis",
-    "value": "resume:Log Analysis"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    }
   ],
   "manager": false,
@@ -275,18 +301,34 @@
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 4,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -304,29 +346,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Security",
-    "label": "Security",
-    "value": "Security"
+    "id": "Workforce and Employment",
+    "label": "Workforce and Employment",
+    "value": "Workforce and Employment"
    }
   ],
-  "timeStamp": "2026-10-21T14:09:48Z",
-  "title": "Senior Software Engineer, Public Sector",
-  "url": "https://www.comeet.com/jobs/Claroty/F2.004/senior-software-engineer-public-sector/02.47A",
-  "jobId": "02.47A",
+  "timeStamp": "2026-10-21T16:44:25Z",
+  "title": "Software Engineer, Integrations (US + Calgary)",
+  "url": "https://synd.io/careers/?gh_jid=6231512004",
+  "jobId": "6231512004",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1912889585166, 'matchScore': 0, 'ageScore': 0.9912889585165895, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1906669721894, 'matchScore': 0, 'ageScore': 0.990666972189429, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
