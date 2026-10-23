@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-23T18:29:48Z",
+ "run": "2026-10-23T22:22:56Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "60eamR-KuD\u2026",
+  "session.sig": "GiuIlZmovR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjk5ZDgxMjBjMmJhYjQ1ODQ3ODczYzUwN2FjZGQxMmUiLCAic2NvcmUiOiAxLjExMzAwMDYwNDUyNzM5Mn0="
+   "sequence": "eyJfaWQiOiAiYzc4MWJmNzRkMDk3NjUwYzhjNzgzMWQzOTI4M2JlMDAiLCAic2NvcmUiOiAxLjEwNDg5MTUwNDUwODQ4Nzd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,127 +152,132 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/finix/a0f31086-a66b-4b6a-8c40-1d1db545bc10?lever-source%5B%5D=jobs.baincapitalventures.com",
-  "companyDomain": "finixpayments.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/da494738ea14d871b059fb0031f3f834_192_160?Expires=1861920000&Signature=soS2xTssNehgAK0JNmFdF074zit-uSJdn6LYotqfTg~hG7YvaXUw0",
-  "companyId": "Finix",
-  "companySlug": "finix",
-  "companyName": "Finix",
-  "companyStaffCount": 369,
+  "applyUrl": "https://boards.greenhouse.io/justworks/jobs/8265404?gh_jid=8265404",
+  "companyDomain": "justworks.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/53b0732e2508296561b7994e981e9873_256_160?Expires=1861920000&Signature=jpUYCUzpRAbunynZAa39zYnehCkOtBPQxtKwFu~wstUHTfmFkK59E",
+  "companyId": "Justworks",
+  "companySlug": "justworks",
+  "companyName": "Justworks",
+  "companyStaffCount": 1669,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Corporate & Finance"
   ],
   "jobTypes": [
    {
-    "id": "security-engineer",
-    "label": "Security Engineer",
-    "value": "security-engineer"
+    "id": "finance-professional",
+    "label": "Finance",
+    "value": "finance-professional"
    },
    {
-    "id": "security-professional",
-    "label": "Security Professional",
-    "value": "security-professional"
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   },
+   {
+    "id": "Finance",
+    "label": "Finance",
+    "value": "Finance"
    }
   ],
   "locations": [
-   "San Francisco"
+   "New York, New York"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 82000, 'maxValue': 99000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    },
    {
-    "id": "resume:Continuous Integration",
-    "label": "Continuous Integration",
-    "value": "resume:Continuous Integration"
+    "id": "resume:System Administration",
+    "label": "System Administration",
+    "value": "resume:System Administration"
    },
    {
-    "id": "resume:Bug Bounty",
-    "label": "Bug Bounty",
-    "value": "resume:Bug Bounty"
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
    },
    {
-    "id": "resume:Cryptography",
-    "label": "Cryptography",
-    "value": "resume:Cryptography"
+    "id": "resume:NetSuite",
+    "label": "NetSuite",
+    "value": "resume:NetSuite"
    },
    {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Automation Systems",
+    "label": "Automation Systems",
+    "value": "resume:Automation Systems"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    },
    {
-    "id": "resume:Continuous Integration",
-    "label": "Continuous Integration",
-    "value": "resume:Continuous Integration"
+    "id": "resume:System Administration",
+    "label": "System Administration",
+    "value": "resume:System Administration"
    },
    {
-    "id": "resume:Bug Bounty",
-    "label": "Bug Bounty",
-    "value": "resume:Bug Bounty"
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Cryptography",
-    "label": "Cryptography",
-    "value": "resume:Cryptography"
+    "id": "resume:NetSuite",
+    "label": "NetSuite",
+    "value": "resume:NetSuite"
    },
    {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Automation Systems",
+    "label": "Automation Systems",
+    "value": "resume:Automation Systems"
    },
    {
-    "id": "resume:PCI DSS",
-    "label": "PCI DSS",
-    "value": "resume:PCI DSS"
+    "id": "resume:Software Development Process",
+    "label": "Software Development Processes",
+    "value": "resume:Software Development Process"
    },
    {
-    "id": "resume:Terraform",
-    "label": "Terraform",
-    "value": "resume:Terraform"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Financial Systems",
+    "label": "Financial Systems",
+    "value": "resume:Financial Systems"
    }
   ],
   "manager": false,
@@ -280,58 +285,63 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
+  "minYearsExp": 3,
   "regions": [
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Future of Work",
+    "label": "Future of Work",
+    "value": "Future of Work"
+   },
+   {
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-10-22T22:30:28.896000Z",
-  "title": "Senior Security Engineer",
-  "url": "https://jobs.lever.co/finix/a0f31086-a66b-4b6a-8c40-1d1db545bc10",
-  "jobId": "a0f31086-a66b-4b6a-8c40-1d1db545bc10",
+  "timeStamp": "2026-10-23T10:37:51Z",
+  "title": "Senior Financial Systems Analyst",
+  "url": "https://boards.greenhouse.io/justworks/jobs/8265404?gh_jid=8265404",
+  "jobId": "8265404",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.178043722949, 'matchScore': 0, 'ageScore': 0.978043722949074, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1863838797948, 'matchScore': 0, 'ageScore': 0.9863838797947531, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
