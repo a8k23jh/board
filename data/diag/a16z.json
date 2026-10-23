@@ -1,10 +1,9 @@
 {
  "board": "a16z",
- "run": "2026-10-22T22:29:17Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.a16z.com', port=443): Max retries exceeded with url: /jobs (Caused by ResponseError('too many 500 error responses'))",
+ "run": "2026-10-23T01:38:44Z",
  "homepage": {
   "status": 200,
-  "bytes": 397400
+  "bytes": 400608
  },
  "slugs_tried": [
   "a16z",
@@ -40,6 +39,14 @@
    "body_head": "{\"error\":\"INVALID_CSRF\"}"
   }
  ],
- "cookies": {},
- "csrf_candidates": []
+ "cookies": {
+  "session": "eyJjc3JmU2\u2026",
+  "session.sig": "cgz14DHL9B\u2026",
+  "AWSALBAPP-0": "AAAAAAAAAA\u2026",
+  "AWSALBAPP-1": "_remove_",
+  "AWSALBAPP-2": "_remove_",
+  "AWSALBAPP-3": "_remove_"
+ },
+ "csrf_candidates": [],
+ "first_attempt_error": "consider: CSRF/endpoint probe failed for https://jobs.a16z.com (see diag)"
 }

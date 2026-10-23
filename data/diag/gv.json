@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-10-22T22:29:17Z",
+ "run": "2026-10-23T01:38:44Z",
  "homepage": {
   "status": 200,
   "bytes": 26164
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"64169608b71c1d24cdc3b118efcf67b7d7ac8acb\",\"date\":\"2026-10-22T04:54:24.945Z\"},\"server\":{\"git\":\"64169608b71c1d24cdc3b118efcf67b7d7ac8acb\",\"date\":\"2026-10-22T04:54:24.945Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"},\"server\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "3pWkkR7zfM\u2026",
+  "session.sig": "zWCevGn4ah\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWM1YTZmNmZiZjhiZTZjYThiMGQ4YzVhNDFiODE5YjQiLCAic2NvcmUiOiAxLjEyMjcxMTgyMTg4NzM0NTh9"
+   "sequence": "eyJfaWQiOiAiY2NhZTA1MGRhOGVjM2Q1MDM4MzFkZTU5YzAzOGUxY2EiLCAic2NvcmUiOiAxLjEzMzc0NDM2ODUwNDI0Mzl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,169 +136,162 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "http://divergehealth.org/jobs/5272334007?gh_jid=5272334007",
-  "companyDomain": "divergecares.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/372629cff78db3e3b9e109612af5e471_256_160?Expires=1861920000&Signature=C3-P-U8Go~jqm8gVlNsK16Kzz1LUoboPvrcGuS4QIZ5b7ZnZ0JiqT",
-  "companyId": "Diverge Health",
-  "companySlug": "diverge-health",
-  "companyName": "Diverge Health",
-  "companyStaffCount": 120,
+  "applyUrl": "https://jobs.lever.co/aledade/b1d72b05-488b-416f-8b83-d8ea8d2be84d?lever-source%5B%5D=jobs.gv.com",
+  "companyDomain": "aledade.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/bd2138c964bd6433d2b5ea9e1f86b4fe_208_160?Expires=1861920000&Signature=JIApJVTZcWDUh2ZJdjxx7LblqnyA0ExTC7wBbmfP7rRc5pkveyKXy",
+  "companyId": "Aledade",
+  "companySlug": "aledade",
+  "companyName": "Aledade",
+  "companyStaffCount": 1964,
   "considerHosted": false,
   "departments": [
-   "Practice Enablement "
+   "Provider Networks"
   ],
   "jobTypes": [
    {
-    "id": "consultant",
-    "label": "Consultant",
-    "value": "consultant"
+    "id": "operations-manager",
+    "label": "Operations Manager",
+    "value": "operations-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Consulting",
-    "label": "Consulting",
-    "value": "Consulting"
+    "id": "Distribution",
+    "label": "Distribution",
+    "value": "Distribution"
    }
   ],
   "locations": [
-   "East St. Louis, IL"
+   "Ann Arbor, MI"
   ],
   "normalizedLocations": [
    {
-    "id": "Saint Louis, Missouri",
-    "label": "Saint Louis, Missouri",
-    "value": "Saint Louis, Missouri"
+    "id": "Ann Arbor, Michigan",
+    "label": "Ann Arbor, Michigan",
+    "value": "Ann Arbor, Michigan"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 95000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 90000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   },
-   {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
-   },
-   {
-    "id": "resume:Business Management",
-    "label": "Business Management",
-    "value": "resume:Business Management"
-   },
-   {
-    "id": "resume:Healthcare Management",
-    "label": "Healthcare Management",
-    "value": "resume:Healthcare Management"
-   },
-   {
-    "id": "resume:Primary Care",
-    "label": "Primary Care",
-    "value": "resume:Primary Care"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   },
-   {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
-   },
-   {
-    "id": "resume:Business Management",
-    "label": "Business Management",
-    "value": "resume:Business Management"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Healthcare Management",
-    "label": "Healthcare Management",
-    "value": "resume:Healthcare Management"
-   },
-   {
-    "id": "resume:Primary Care",
-    "label": "Primary Care",
-    "value": "resume:Primary Care"
-   },
-   {
-    "id": "resume:Medicaid",
-    "label": "Medicaid",
-    "value": "resume:Medicaid"
-   },
-   {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
-   },
    {
     "id": "resume:Service",
     "label": "Service",
     "value": "resume:Service"
+   },
+   {
+    "id": "resume:Public Health",
+    "label": "Public Health",
+    "value": "resume:Public Health"
+   },
+   {
+    "id": "resume:Healthcare Management",
+    "label": "Healthcare Management",
+    "value": "resume:Healthcare Management"
+   },
+   {
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
+   },
+   {
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
+   },
+   {
+    "id": "resume:Public Health",
+    "label": "Public Health",
+    "value": "resume:Public Health"
+   },
+   {
+    "id": "resume:Healthcare Management",
+    "label": "Healthcare Management",
+    "value": "resume:Healthcare Management"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
+   },
+   {
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
+   },
+   {
+    "id": "resume:Service Delivery",
+    "label": "Service Delivery",
+    "value": "resume:Service Delivery"
+   },
+   {
+    "id": "resume:Primary Care",
+    "label": "Primary Care",
+    "value": "resume:Primary Care"
    }
   ],
   "manager": false,
-  "consultant": true,
+  "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 2,
-  "maxYearsExp": 4,
+  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   },
+   {
     "id": "Midwest",
     "label": "Midwest",
     "value": "Midwest"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
     "id": "Hospital & Health Care",
@@ -306,24 +299,24 @@
     "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-10-22T10:55:38Z",
-  "title": "Practice Consultant",
-  "url": "http://divergehealth.org/jobs/5272334007?gh_jid=5272334007",
-  "jobId": "5272334007",
-  "remote": false,
+  "timeStamp": "2026-10-22T21:06:32.525000Z",
+  "title": "Michigan Payer Enrollment Operations Manager, Remote",
+  "url": "https://jobs.lever.co/aledade/b1d72b05-488b-416f-8b83-d8ea8d2be84d",
+  "jobId": "b1d72b05-488b-416f-8b83-d8ea8d2be84d",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1864167548349, 'matchScore': 0, 'ageScore': 0.9864167548348766, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1969073747196, 'matchScore': 0, 'ageScore': 0.9969073747195216, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },

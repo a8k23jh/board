@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-22T22:29:17Z",
+ "run": "2026-10-23T01:38:44Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"64169608b71c1d24cdc3b118efcf67b7d7ac8acb\",\"date\":\"2026-10-22T04:54:24.945Z\"},\"server\":{\"git\":\"64169608b71c1d24cdc3b118efcf67b7d7ac8acb\",\"date\":\"2026-10-22T04:54:24.945Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"},\"server\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "171x2oAX5R\u2026",
+  "session.sig": "uqey_36njn\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzhjNzQzZmM1MmVhNjRkNTc0ZjMwMGZkYTI4ZWJjZDEiLCAic2NvcmUiOiAxLjE1NDU0MjUyNjU3NzU0NjR9"
+   "sequence": "eyJfaWQiOiAiNzM3MGQ0OTEwNmJiMmM2MTI4NzQ2YzdjMTExYTQ2YjgiLCAic2NvcmUiOiAxLjE2MTUzNjUyMDUwODg3MzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,165 +144,147 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8232/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3466,
+  "applyUrl": "https://jobs.lever.co/finix/a0f31086-a66b-4b6a-8c40-1d1db545bc10?lever-source%5B%5D=jobs.lsvp.com",
+  "companyDomain": "finixpayments.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/da494738ea14d871b059fb0031f3f834_192_160?Expires=1861920000&Signature=soS2xTssNehgAK0JNmFdF074zit-uSJdn6LYotqfTg~hG7YvaXUw0",
+  "companyId": "Finix",
+  "companySlug": "finix",
+  "companyName": "Finix",
+  "companyStaffCount": 369,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Engineering"
+  ],
   "jobTypes": [
    {
-    "id": "sales-director",
-    "label": "Sales Director",
-    "value": "sales-director"
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
+   },
+   {
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "California, United States",
-   "Washington, United States",
-   "Chicago, Illinois, United States",
-   "Colorado, United States",
-   "Oregon, United States"
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Minnesota",
-    "label": "Minnesota",
-    "value": "Minnesota"
-   },
-   {
-    "id": "Oregon",
-    "label": "Oregon",
-    "value": "Oregon"
-   },
-   {
-    "id": "Sacramento, California",
-    "label": "Sacramento, California",
-    "value": "Sacramento, California"
-   },
-   {
-    "id": "Utah",
-    "label": "Utah",
-    "value": "Utah"
-   },
-   {
-    "id": "Chicago, Illinois",
-    "label": "Chicago, Illinois",
-    "value": "Chicago, Illinois"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 175000, 'maxValue': 215000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:New Business",
-    "label": "New Business",
-    "value": "resume:New Business"
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Cryptography",
+    "label": "Cryptography",
+    "value": "resume:Cryptography"
    },
    {
-    "id": "resume:Sales Engineering",
-    "label": "Sales Engineering",
-    "value": "resume:Sales Engineering"
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Bug Bounty",
+    "label": "Bug Bounty",
+    "value": "resume:Bug Bounty"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:New Business",
-    "label": "New Business",
-    "value": "resume:New Business"
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Cryptography",
+    "label": "Cryptography",
+    "value": "resume:Cryptography"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Sales Engineering",
-    "label": "Sales Engineering",
-    "value": "resume:Sales Engineering"
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Bug Bounty",
+    "label": "Bug Bounty",
+    "value": "resume:Bug Bounty"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Continuous Delivery",
+    "label": "Continuous Delivery",
+    "value": "resume:Continuous Delivery"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:PCI DSS",
+    "label": "PCI DSS",
+    "value": "resume:PCI DSS"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:Incident Response",
+    "label": "Incident Response",
+    "value": "resume:Incident Response"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "West Coast",
@@ -310,53 +292,49 @@
     "value": "West Coast"
    },
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-10-22T17:57:09Z",
-  "title": "Director, Sales - New Logo - West",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8232/",
-  "jobId": "8232",
-  "remote": true,
+  "timeStamp": "2026-10-22T22:30:28.896000Z",
+  "title": "Senior Security Engineer",
+  "url": "https://jobs.lever.co/finix/a0f31086-a66b-4b6a-8c40-1d1db545bc10",
+  "jobId": "a0f31086-a66b-4b6a-8c40-1d1db545bc10",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1961490433267, 'matchScore': 0, 'ageScore': 0.9961490433267747, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1991352798866, 'matchScore': 0, 'ageScore': 0.999135279886574, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior"
   ],
   "isFeatured": false
  },

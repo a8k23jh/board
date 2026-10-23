@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-10-22T22:29:17Z",
+ "run": "2026-10-23T01:38:44Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"64169608b71c1d24cdc3b118efcf67b7d7ac8acb\",\"date\":\"2026-10-22T04:54:24.945Z\"},\"server\":{\"git\":\"64169608b71c1d24cdc3b118efcf67b7d7ac8acb\",\"date\":\"2026-10-22T04:54:24.945Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"},\"server\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TPFNMyIOkq\u2026",
+  "session.sig": "xKHrVwxgJ5\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjEzNmFkMTU1ZWVjNTE2Y2RmYTJiMzFiNDUxYmJkYjkiLCAic2NvcmUiOiAxLjA5NzYzNjE1NjE4MjQ4NDZ9"
+   "sequence": "eyJfaWQiOiAiMTA1NTQ1YTExY2ZkMGUyNTJlNGM3NGQ4YjcxNzA1ZmMiLCAic2NvcmUiOiAxLjEwMTEyNTEwNTQyMDEzOX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,150 +136,101 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8312485?t=gh_src=&gh_jid=8312485",
-  "companyDomain": "robinhood.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a7f9760e316e94a76b4e2c5c6337d5a6_288_160?Expires=1861920000&Signature=mZQkCJ5Bp88JcFNaatMwUGHk4hZDC1ArvjUF0p4CWPQVmj3GTpnbw",
-  "companyId": "Robinhood",
-  "companySlug": "robinhood",
-  "companyName": "Robinhood",
-  "companyStaffCount": 4837,
+  "applyUrl": "https://job-boards.greenhouse.io/mejuri/jobs/4724248006",
+  "companyDomain": "mejuri.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9adb31a5d2718fe9c6fbb447ce72fbc4_224_160?Expires=1861920000&Signature=EIyQ~VuMTiBpClwLBLsCYdNOIlyj6EM75R~yga~7YdDLw5FkU1F9L",
+  "companyId": "Mejuri",
+  "companySlug": "mejuri",
+  "companyName": "Mejuri",
+  "companyStaffCount": 690,
   "considerHosted": false,
   "departments": [
-   "Customer Trust and Safety"
+   "Stores"
   ],
   "jobTypes": [
    {
-    "id": "aml-investigator",
-    "label": "AML Investigator",
-    "value": "aml-investigator"
-   },
-   {
-    "id": "program-manager",
-    "label": "Program Manager",
-    "value": "program-manager"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Project Management",
-    "label": "Project Management",
-    "value": "Project Management"
-   },
-   {
-    "id": "Analyst",
-    "label": "Analyst",
-    "value": "Analyst"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Chicago, IL",
-   "Denver, CO",
-   "Lake Mary, FL",
-   "Westlake, TX"
+   "Bellevue Square, Washington"
   ],
   "normalizedLocations": [
    {
-    "id": "Chicago, Illinois",
-    "label": "Chicago, Illinois",
-    "value": "Chicago, Illinois"
-   },
-   {
-    "id": "Lake Mary, Florida",
-    "label": "Lake Mary, Florida",
-    "value": "Lake Mary, Florida"
-   },
-   {
-    "id": "Texas",
-    "label": "Texas",
-    "value": "Texas"
-   },
-   {
-    "id": "Denver, Colorado",
-    "label": "Denver, Colorado",
-    "value": "Denver, Colorado"
+    "id": "Washington",
+    "label": "Washington State",
+    "value": "Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 93000, 'maxValue': 140000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 23, 'maxValue': 26, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Equities",
-    "label": "Equities",
-    "value": "resume:Equities"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:NPS",
+    "label": "NPS",
+    "value": "resume:NPS"
    },
    {
-    "id": "resume:BPO",
-    "label": "BPO",
-    "value": "resume:BPO"
+    "id": "resume:Sourcing",
+    "label": "Sourcing",
+    "value": "resume:Sourcing"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
    },
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Equities",
-    "label": "Equities",
-    "value": "resume:Equities"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:NPS",
+    "label": "NPS",
+    "value": "resume:NPS"
    },
    {
-    "id": "resume:BPO",
-    "label": "BPO",
-    "value": "resume:BPO"
+    "id": "resume:Sourcing",
+    "label": "Sourcing",
+    "value": "resume:Sourcing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
    },
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
-   },
-   {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:Trust and Safety",
-    "label": "Trust and Safety",
-    "value": "resume:Trust and Safety"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    }
   ],
   "manager": false,
@@ -295,64 +246,62 @@
     6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
    {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Public",
-    "label": "Public",
-    "value": "Public"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Public', 'label': 'Public', 'value': 'Public'}",
   "markets": [
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Luxury Goods & Jewelry",
+    "label": "Luxury Goods & Jewelry",
+    "value": "Luxury Goods & Jewelry"
+   },
+   {
+    "id": "Retail",
+    "label": "Retail",
+    "value": "Retail"
    }
   ],
-  "timeStamp": "2026-10-22T10:56:51Z",
-  "title": "Fraud Operations Program Manager",
-  "url": "https://boards.greenhouse.io/robinhood/jobs/8312485?t=gh_src=&gh_jid=8312485",
-  "jobId": "8312485",
+  "timeStamp": "2026-10-22T17:49:28Z",
+  "title": "Floor Lead (Retail) (Full-time)",
+  "url": "https://job-boards.greenhouse.io/mejuri/jobs/4724248006",
+  "jobId": "4724248006",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1866845838858, 'matchScore': 0, 'ageScore': 0.9866845838858025, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1918271498496, 'matchScore': 0, 'ageScore': 0.991827149849537, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -360,6 +309,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false
