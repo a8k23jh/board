@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-23T13:36:20Z",
+ "run": "2026-10-23T18:29:48Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"},\"server\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"51fc46618c0b71dec03c03d5ded93952a1f27e7b\",\"date\":\"2026-10-23T17:14:36.705Z\"},\"server\":{\"git\":\"51fc46618c0b71dec03c03d5ded93952a1f27e7b\",\"date\":\"2026-10-23T17:14:36.705Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "qINvxFtExd\u2026",
+  "session.sig": "_wtclkYE1U\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGRlMzk1ZmIzOGNkNjdlMzdlYThjMGNlODQ4ZGY4ZWEiLCAic2NvcmUiOiAxLjA3OTk5NTYwNDE0Nzc2MjN9"
+   "sequence": "eyJfaWQiOiAiMzhiNmFhNjFiZjdkNWZmZTZmZWFiYjVhZTE4OWZmYmQiLCAic2NvcmUiOiAxLjA3NjAxNTcxODgxMTM0MjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -199,63 +199,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
     "id": "resume:CUDA",
     "label": "CUDA",
     "value": "resume:CUDA"
    },
    {
-    "id": "resume:Node",
-    "label": "Node",
-    "value": "resume:Node"
-   },
-   {
-    "id": "resume:database caching",
-    "label": "Database Caching",
-    "value": "resume:database caching"
-   },
-   {
     "id": "resume:Load Balancing",
     "label": "Load Balancing",
     "value": "resume:Load Balancing"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:CUDA",
-    "label": "CUDA",
-    "value": "resume:CUDA"
-   },
-   {
-    "id": "resume:Node",
-    "label": "Node",
-    "value": "resume:Node"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:database caching",
-    "label": "Database Caching",
-    "value": "resume:database caching"
-   },
-   {
-    "id": "resume:Load Balancing",
-    "label": "Load Balancing",
-    "value": "resume:Load Balancing"
-   },
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
    },
    {
     "id": "resume:Physics",
@@ -263,9 +214,58 @@
     "value": "resume:Physics"
    },
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
+    "id": "resume:Node",
+    "label": "Node",
+    "value": "resume:Node"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:CUDA",
+    "label": "CUDA",
+    "value": "resume:CUDA"
+   },
+   {
+    "id": "resume:Load Balancing",
+    "label": "Load Balancing",
+    "value": "resume:Load Balancing"
+   },
+   {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Node",
+    "label": "Node",
+    "value": "resume:Node"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
+   },
+   {
+    "id": "resume:database caching",
+    "label": "Database Caching",
+    "value": "resume:database caching"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "manager": false,
@@ -329,7 +329,7 @@
   "jobId": "3a41edaf-6075-486f-ba1a-0fc504b8ce84",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1836284360433, 'matchScore': 0, 'ageScore': 0.9836284360432099, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1801551575475, 'matchScore': 0, 'ageScore': 0.9801551575474537, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

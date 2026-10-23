@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-10-23T13:36:20Z",
+ "run": "2026-10-23T18:29:48Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"},\"server\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"51fc46618c0b71dec03c03d5ded93952a1f27e7b\",\"date\":\"2026-10-23T17:14:36.705Z\"},\"server\":{\"git\":\"51fc46618c0b71dec03c03d5ded93952a1f27e7b\",\"date\":\"2026-10-23T17:14:36.705Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "N13VKNnoOB\u2026",
+  "session.sig": "7vAvx4G3cV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMGQyODNiNjljYWU0ZDEyNDA0YTM0YzgwNDQ5NWFjM2MiLCAic2NvcmUiOiAxLjExNjMzOTYzMjM5MTIwMzZ9"
+   "sequence": "eyJfaWQiOiAiNjk0YjE0ZTAzNTJmMWJiY2Y0OTc2MGJhNTIxOTU4MzIiLCAic2NvcmUiOiAxLjExMjY2NTgxMDA0ODIyNTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,9 +160,9 @@
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "android-developer",
+    "label": "Android Developer",
+    "value": "android-developer"
    },
    {
     "id": "lead",
@@ -170,9 +170,9 @@
     "value": "lead"
    },
    {
-    "id": "android-developer",
-    "label": "Android Developer",
-    "value": "android-developer"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
@@ -195,9 +195,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:System Integration",
-    "label": "System Integration",
-    "value": "resume:System Integration"
+    "id": "resume:Communication Protocols",
+    "label": "Communication Protocols",
+    "value": "resume:Communication Protocols"
+   },
+   {
+    "id": "resume:Android",
+    "label": "Android",
+    "value": "resume:Android"
    },
    {
     "id": "resume:Java",
@@ -205,53 +210,48 @@
     "value": "resume:Java"
    },
    {
-    "id": "resume:Video Streaming",
-    "label": "Video Streaming",
-    "value": "resume:Video Streaming"
+    "id": "resume:Android SDK",
+    "label": "Android SDK",
+    "value": "resume:Android SDK"
    },
    {
-    "id": "resume:IDE",
-    "label": "IDE",
-    "value": "resume:IDE"
-   },
-   {
-    "id": "resume:Communication Protocols",
-    "label": "Communication Protocols",
-    "value": "resume:Communication Protocols"
+    "id": "resume:Android Studio",
+    "label": "Android Studio",
+    "value": "resume:Android Studio"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:System Integration",
-    "label": "System Integration",
-    "value": "resume:System Integration"
-   },
-   {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
-   },
-   {
-    "id": "resume:Video Streaming",
-    "label": "Video Streaming",
-    "value": "resume:Video Streaming"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:IDE",
-    "label": "IDE",
-    "value": "resume:IDE"
-   },
-   {
     "id": "resume:Communication Protocols",
     "label": "Communication Protocols",
     "value": "resume:Communication Protocols"
    },
    {
-    "id": "resume:Continuous Delivery",
-    "label": "Continuous Delivery",
-    "value": "resume:Continuous Delivery"
+    "id": "resume:Android",
+    "label": "Android",
+    "value": "resume:Android"
+   },
+   {
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Android SDK",
+    "label": "Android SDK",
+    "value": "resume:Android SDK"
+   },
+   {
+    "id": "resume:Android Studio",
+    "label": "Android Studio",
+    "value": "resume:Android Studio"
+   },
+   {
+    "id": "resume:Test Automation",
+    "label": "Test Automation",
+    "value": "resume:Test Automation"
    },
    {
     "id": "resume:User Experience Design",
@@ -259,9 +259,9 @@
     "value": "resume:User Experience Design"
    },
    {
-    "id": "resume:Test Automation",
-    "label": "Test Automation",
-    "value": "resume:Test Automation"
+    "id": "resume:dynamic system",
+    "label": "Dynamic Systems",
+    "value": "resume:dynamic system"
    }
   ],
   "manager": false,
@@ -331,7 +331,7 @@
   "jobId": "am9icG9zdDqVFxFFLiiMPW6YP2STAOj3",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1968311266351, 'matchScore': 0, 'ageScore': 0.9968311266350308, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1923770382083, 'matchScore': 0, 'ageScore': 0.9923770382083333, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

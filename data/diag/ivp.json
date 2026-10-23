@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-23T13:36:20Z",
+ "run": "2026-10-23T18:29:48Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"},\"server\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"51fc46618c0b71dec03c03d5ded93952a1f27e7b\",\"date\":\"2026-10-23T17:14:36.705Z\"},\"server\":{\"git\":\"51fc46618c0b71dec03c03d5ded93952a1f27e7b\",\"date\":\"2026-10-23T17:14:36.705Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "CDHLFsZtDh\u2026",
+  "session.sig": "0FDJGZTn_x\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2RkZWJhYzcyYjQ3ODVlZDUzOTVkMzQyZmRiM2I0OWQiLCAic2NvcmUiOiAxLjE0MTc5NDQxNTk5OTYxNDN9"
+   "sequence": "eyJfaWQiOiAiNmVkMTQyMzg5NWZiY2Q0NzFmYjZmZmYyMDVlNzU2YmEiLCAic2NvcmUiOiAxLjEzODI5MzE3NDg4NTgwMjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,11 +152,6 @@
   ],
   "jobTypes": [
    {
-    "id": "sales-manager",
-    "label": "Sales Manager",
-    "value": "sales-manager"
-   },
-   {
     "id": "sales",
     "label": "Sales",
     "value": "sales"
@@ -165,6 +160,11 @@
     "id": "sales-professional",
     "label": "Sales Professional",
     "value": "sales-professional"
+   },
+   {
+    "id": "sales-manager",
+    "label": "Sales Manager",
+    "value": "sales-manager"
    }
   ],
   "jobFunctions": [
@@ -180,86 +180,86 @@
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 310000, 'maxValue': 360000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Build Automation Software",
-    "label": "Build Automation Software",
-    "value": "resume:Build Automation Software"
-   },
-   {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
-   },
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Build Automation Software",
-    "label": "Build Automation Software",
-    "value": "resume:Build Automation Software"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
-   },
-   {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
-   },
    {
     "id": "resume:Physics",
     "label": "Physics",
     "value": "resume:Physics"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Build Automation Software",
+    "label": "Build Automation Software",
+    "value": "resume:Build Automation Software"
+   },
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    },
    {
     "id": "resume:Sales Commission",
     "label": "Sales Commission",
     "value": "resume:Sales Commission"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
+   },
+   {
+    "id": "resume:Build Automation Software",
+    "label": "Build Automation Software",
+    "value": "resume:Build Automation Software"
+   },
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "manager": true,
@@ -268,14 +268,9 @@
   "considerLevels": [],
   "regions": [
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Mid Atlantic",
@@ -283,14 +278,19 @@
     "value": "Mid Atlantic"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -324,7 +324,7 @@
   "jobId": "5459272008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1839582837515, 'matchScore': 0, 'ageScore': 0.9839582837515433, 'richnessScore': 2}",
+  "scores": "{'score': 1001.180579163272, 'matchScore': 0, 'ageScore': 0.9805791632719908, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

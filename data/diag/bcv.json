@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-23T13:36:20Z",
+ "run": "2026-10-23T18:29:48Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"},\"server\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"51fc46618c0b71dec03c03d5ded93952a1f27e7b\",\"date\":\"2026-10-23T17:14:36.705Z\"},\"server\":{\"git\":\"51fc46618c0b71dec03c03d5ded93952a1f27e7b\",\"date\":\"2026-10-23T17:14:36.705Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "xPx7sxtM7r\u2026",
+  "session.sig": "60eamR-KuD\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTJiZmIwZTY1YTc4YjJkYjhmMDk1NzZjZDQzZTNlNDgiLCAic2NvcmUiOiAxLjExNjk5MTQwNDA4ODM0ODh9"
+   "sequence": "eyJfaWQiOiAiZjk5ZDgxMjBjMmJhYjQ1ODQ3ODczYzUwN2FjZGQxMmUiLCAic2NvcmUiOiAxLjExMzAwMDYwNDUyNzM5Mn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -163,112 +163,116 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/relayfi/41a887e7-428b-41b2-9a0a-fcde53ba3292?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "relayfi.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2254a6127e0dad5722a527585dbb8c73_160_160?Expires=1861920000&Signature=IAjUOiKvPzLvpwW8XVN5a1NoIFfe5wXCxxJWvyADPzzmXABjTAJBc",
-  "companyId": "Relay Financial",
-  "companySlug": "relay-financial",
-  "companyName": "Relay Financial",
-  "companyStaffCount": 411,
+  "applyUrl": "https://jobs.lever.co/finix/a0f31086-a66b-4b6a-8c40-1d1db545bc10?lever-source%5B%5D=jobs.baincapitalventures.com",
+  "companyDomain": "finixpayments.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/da494738ea14d871b059fb0031f3f834_192_160?Expires=1861920000&Signature=soS2xTssNehgAK0JNmFdF074zit-uSJdn6LYotqfTg~hG7YvaXUw0",
+  "companyId": "Finix",
+  "companySlug": "finix",
+  "companyName": "Finix",
+  "companyStaffCount": 369,
   "considerHosted": false,
   "departments": [
-   "Revenue Operations"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "marketing-ops",
-    "label": "Marketing Operations",
-    "value": "marketing-ops"
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
+   },
+   {
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Toronto, Ontario, Canada",
-   "Toronto, ON"
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Toronto, Ontario, Canada",
-    "label": "Toronto",
-    "value": "Toronto, Ontario, Canada"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 112500, 'maxValue': 137500, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    },
    {
-    "id": "resume:Marketing Automation",
-    "label": "Marketing Automation",
-    "value": "resume:Marketing Automation"
+    "id": "resume:Bug Bounty",
+    "label": "Bug Bounty",
+    "value": "resume:Bug Bounty"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Cryptography",
+    "label": "Cryptography",
+    "value": "resume:Cryptography"
    },
    {
-    "id": "resume:Marketing Technology",
-    "label": "Marketing Technology",
-    "value": "resume:Marketing Technology"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    },
    {
-    "id": "resume:Marketing Automation",
-    "label": "Marketing Automation",
-    "value": "resume:Marketing Automation"
+    "id": "resume:Bug Bounty",
+    "label": "Bug Bounty",
+    "value": "resume:Bug Bounty"
    }
   ],
   "preferredSkills": [
    {
+    "id": "resume:Cryptography",
+    "label": "Cryptography",
+    "value": "resume:Cryptography"
+   },
+   {
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
+   },
+   {
+    "id": "resume:PCI DSS",
+    "label": "PCI DSS",
+    "value": "resume:PCI DSS"
+   },
+   {
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
+   },
+   {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Marketing Technology",
-    "label": "Marketing Technology",
-    "value": "resume:Marketing Technology"
-   },
-   {
-    "id": "resume:Marketing Operations",
-    "label": "Marketing Operations",
-    "value": "resume:Marketing Operations"
-   },
-   {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -278,14 +282,27 @@
    [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 4,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -303,34 +320,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Banking",
-    "label": "Banking",
-    "value": "Banking"
-   },
-   {
-    "id": "Financial Services",
-    "label": "Financial Services",
-    "value": "Financial Services"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-10-23T00:00:00Z",
-  "title": "Marketing Operations Manager",
-  "url": "https://jobs.ashbyhq.com/relayfi/41a887e7-428b-41b2-9a0a-fcde53ba3292",
-  "jobId": "41a887e7-428b-41b2-9a0a-fcde53ba3292",
+  "timeStamp": "2026-10-22T22:30:28.896000Z",
+  "title": "Senior Security Engineer",
+  "url": "https://jobs.lever.co/finix/a0f31086-a66b-4b6a-8c40-1d1db545bc10",
+  "jobId": "a0f31086-a66b-4b6a-8c40-1d1db545bc10",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1843544124695, 'matchScore': 0, 'ageScore': 0.9843544124695216, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.178043722949, 'matchScore': 0, 'ageScore': 0.978043722949074, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "senior"
   ],
   "isFeatured": false
  },

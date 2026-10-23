@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-23T13:36:20Z",
+ "run": "2026-10-23T18:29:48Z",
  "homepage": {
   "status": 200,
   "bytes": 21383
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"},\"server\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"51fc46618c0b71dec03c03d5ded93952a1f27e7b\",\"date\":\"2026-10-23T17:14:36.705Z\"},\"server\":{\"git\":\"51fc46618c0b71dec03c03d5ded93952a1f27e7b\",\"date\":\"2026-10-23T17:14:36.705Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "5i1OIuDPym\u2026",
+  "session.sig": "7DiVFDP6x9\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzI2NTk4YWI0ZTlhYjg0NDgyYzE1OWIyM2RiOGQ3MzciLCAic2NvcmUiOiAxLjExNzc0MDg2NzM0NjQ1MDZ9"
+   "sequence": "eyJfaWQiOiAiOTE0MTI2MDY4NmU1YjFmMzJhNjMzY2Y2YzdmNWIxYTEiLCAic2NvcmUiOiAxLjExMzY4OTgzMzYzNTAzMX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,39 +152,29 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/restaurant365/0627f85c-b1aa-460b-8880-9668c7731436?lever-source%5B%5D=jobs.bvp.com",
-  "companyDomain": "restaurant365.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6bc9ba8ab51f0e3260175fa3450c4490_320_160?Expires=1861920000&Signature=BjaLUgcasR36Gki0m9~xsGkU2Ydeq9NhehEt09M35A3xDg~4qiIGQ",
-  "companyId": "Restaurant365",
-  "companySlug": "restaurant365",
-  "companyName": "Restaurant365",
-  "companyStaffCount": 3963,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5459272008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Sales Growth"
+   "Sales"
   ],
   "jobTypes": [
-   {
-    "id": "enterprise-account-executive",
-    "label": "Enterprise Account Executive",
-    "value": "enterprise-account-executive"
-   },
-   {
-    "id": "sales-all",
-    "label": "Sales",
-    "value": "sales-all"
-   },
    {
     "id": "sales",
     "label": "Sales",
@@ -194,6 +184,11 @@
     "id": "sales-professional",
     "label": "Sales Professional",
     "value": "sales-professional"
+   },
+   {
+    "id": "sales-manager",
+    "label": "Sales Manager",
+    "value": "sales-manager"
    }
   ],
   "jobFunctions": [
@@ -204,128 +199,167 @@
    }
   ],
   "locations": [
-   "Remote"
+   "San Francisco, CA",
+   "New York City, NY"
   ],
-  "normalizedLocations": [],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "normalizedLocations": [
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   }
+  ],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 310000, 'maxValue': 360000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Build Automation Software",
+    "label": "Build Automation Software",
+    "value": "resume:Build Automation Software"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    },
    {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Build Automation Software",
+    "label": "Build Automation Software",
+    "value": "resume:Build Automation Software"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Accounting Operations",
-    "label": "Accounting Operations",
-    "value": "resume:Accounting Operations"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    },
    {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
+  "considerLevels": [],
+  "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   }
   ],
-  "minYearsExp": 5,
-  "regions": [],
   "stages": [
    {
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Restaurants",
-    "label": "Restaurants",
-    "value": "Restaurants"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-10-23T00:20:06.782000Z",
-  "title": "Account Executive, Enterprise, Payroll Sales",
-  "url": "https://jobs.lever.co/restaurant365/0627f85c-b1aa-460b-8880-9668c7731436",
-  "jobId": "0627f85c-b1aa-460b-8880-9668c7731436",
-  "remote": true,
+  "timeStamp": "2026-10-23T00:16:56Z",
+  "title": "Head of Sales Excellence & Methodology",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5459272008",
+  "jobId": "5459272008",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.184877616037, 'matchScore': 0, 'ageScore': 0.984877616037037, 'richnessScore': 2}",
+  "scores": "{'score': 1001.180579163272, 'matchScore': 0, 'ageScore': 0.9805791632719908, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },

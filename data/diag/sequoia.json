@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-23T13:36:20Z",
+ "run": "2026-10-23T18:29:48Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"},\"server\":{\"git\":\"a8ab761d741c3aa724df2d8ce61f1a049900a893\",\"date\":\"2026-10-22T23:30:17.294Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"51fc46618c0b71dec03c03d5ded93952a1f27e7b\",\"date\":\"2026-10-23T17:14:36.705Z\"},\"server\":{\"git\":\"51fc46618c0b71dec03c03d5ded93952a1f27e7b\",\"date\":\"2026-10-23T17:14:36.705Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "VefzLL1DK-\u2026",
+  "session.sig": "ykTJah7yzA\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMGQwNjA4MjMxOWNiMDZhNDMxOGE0ZGQwOWEwNzRiZjYiLCAic2NvcmUiOiAxLjE2ODAwMzcxNTA3NzE2MDV9"
+   "sequence": "eyJfaWQiOiAiZDI0NTZjMzc1ZDExMGY1MDQxMTA4MjEzN2RjOTRjZTMiLCAic2NvcmUiOiAxLjE2MzE2MTg0MzYyNzcwMDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -186,71 +186,32 @@
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
     "id": "Chicago, Illinois",
     "label": "Chicago, Illinois",
     "value": "Chicago, Illinois"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 121000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Email Marketing",
-    "label": "Email Marketing",
-    "value": "resume:Email Marketing"
+    "id": "resume:Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "resume:Enterprise Software"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:SDR",
-    "label": "SDR",
-    "value": "resume:SDR"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Email Marketing",
-    "label": "Email Marketing",
-    "value": "resume:Email Marketing"
-   },
-   {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   },
-   {
-    "id": "resume:SDR",
-    "label": "SDR",
-    "value": "resume:SDR"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Marketo",
+    "label": "Marketo",
+    "value": "resume:Marketo"
    },
    {
     "id": "resume:GDPR",
@@ -258,14 +219,53 @@
     "value": "resume:GDPR"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Conversion Optimization",
+    "label": "Conversion Optimization",
+    "value": "resume:Conversion Optimization"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "resume:Enterprise Software"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
     "id": "resume:Marketo",
     "label": "Marketo",
     "value": "resume:Marketo"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:GDPR",
+    "label": "GDPR",
+    "value": "resume:GDPR"
+   },
+   {
+    "id": "resume:Conversion Optimization",
+    "label": "Conversion Optimization",
+    "value": "resume:Conversion Optimization"
+   },
+   {
+    "id": "resume:SDR",
+    "label": "SDR",
+    "value": "resume:SDR"
+   },
+   {
+    "id": "resume:Salesloft",
+    "label": "Salesloft",
+    "value": "resume:Salesloft"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    }
   ],
   "manager": false,
@@ -289,14 +289,14 @@
     "value": "Rust Belt"
    },
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "Northeast",
@@ -304,9 +304,9 @@
     "value": "Northeast"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -340,7 +340,7 @@
   "jobId": "4717642006",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1849808598441, 'matchScore': 0, 'ageScore': 0.9849808598441359, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1807896028889, 'matchScore': 0, 'ageScore': 0.980789602888889, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
