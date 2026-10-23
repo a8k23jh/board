@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-23T07:42:48Z",
+ "run": "2026-10-23T13:36:20Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "t6bsVAcaW2\u2026",
+  "session.sig": "CDHLFsZtDh\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjFmMGQ3MDI5MDkwNTE0ZDFhOTk2OWMxZDliYTcxMDIiLCAic2NvcmUiOiAxLjE0MjQxMzcwNzU0MTI4MDh9"
+   "sequence": "eyJfaWQiOiAiY2RkZWJhYzcyYjQ3ODVlZDUzOTVkMzQyZmRiM2I0OWQiLCAic2NvcmUiOiAxLjE0MTc5NDQxNTk5OTYxNDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,143 +128,159 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/aledade/b1d72b05-488b-416f-8b83-d8ea8d2be84d?lever-source%5B%5D=careers.ivp.com",
-  "companyDomain": "aledade.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/bd2138c964bd6433d2b5ea9e1f86b4fe_208_160?Expires=1861920000&Signature=JIApJVTZcWDUh2ZJdjxx7LblqnyA0ExTC7wBbmfP7rRc5pkveyKXy",
-  "companyId": "Aledade",
-  "companySlug": "aledade",
-  "companyName": "Aledade",
-  "companyStaffCount": 1964,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5459272008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Provider Networks"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "operations-manager",
-    "label": "Operations Manager",
-    "value": "operations-manager"
+    "id": "sales-manager",
+    "label": "Sales Manager",
+    "value": "sales-manager"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Distribution",
-    "label": "Distribution",
-    "value": "Distribution"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "Ann Arbor, MI"
+   "San Francisco, CA",
+   "New York City, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "Ann Arbor, Michigan",
-    "label": "Ann Arbor, Michigan",
-    "value": "Ann Arbor, Michigan"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 90000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 310000, 'maxValue': 360000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Healthcare Management",
-    "label": "Healthcare Management",
-    "value": "resume:Healthcare Management"
+    "id": "resume:Build Automation Software",
+    "label": "Build Automation Software",
+    "value": "resume:Build Automation Software"
    },
    {
-    "id": "resume:Service Delivery",
-    "label": "Service Delivery",
-    "value": "resume:Service Delivery"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    },
    {
-    "id": "resume:Primary Care",
-    "label": "Primary Care",
-    "value": "resume:Primary Care"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Healthcare Management",
-    "label": "Healthcare Management",
-    "value": "resume:Healthcare Management"
+    "id": "resume:Build Automation Software",
+    "label": "Build Automation Software",
+    "value": "resume:Build Automation Software"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Service Delivery",
-    "label": "Service Delivery",
-    "value": "resume:Service Delivery"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    },
    {
-    "id": "resume:Primary Care",
-    "label": "Primary Care",
-    "value": "resume:Primary Care"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    },
    {
-    "id": "resume:Public Health",
-    "label": "Public Health",
-    "value": "resume:Public Health"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
-  "minYearsExp": 8,
+  "considerLevels": [],
   "regions": [
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "North America",
@@ -272,9 +288,9 @@
     "value": "North America"
    },
    {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -282,33 +298,44 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-10-22T21:06:32.525000Z",
-  "title": "Michigan Payer Enrollment Operations Manager, Remote",
-  "url": "https://jobs.lever.co/aledade/b1d72b05-488b-416f-8b83-d8ea8d2be84d",
-  "jobId": "b1d72b05-488b-416f-8b83-d8ea8d2be84d",
-  "remote": true,
+  "timeStamp": "2026-10-23T00:16:56Z",
+  "title": "Head of Sales Excellence & Methodology",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5459272008",
+  "jobId": "5459272008",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1881436727326, 'matchScore': 0, 'ageScore': 0.9881436727326389, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1839582837515, 'matchScore': 0, 'ageScore': 0.9839582837515433, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "director"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-23T07:42:48Z",
+ "run": "2026-10-23T13:36:20Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "uAnWrrkhq1\u2026",
+  "session.sig": "qINvxFtExd\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODY1NWY3Y2NiNmRmNGVlMzdlOGViOGJiN2FkMThlZjIiLCAic2NvcmUiOiAxLjA2NTM0MzgzNzgzMjE3Nn0="
+   "sequence": "eyJfaWQiOiAiOGRlMzk1ZmIzOGNkNjdlMzdlYThjMGNlODQ4ZGY4ZWEiLCAic2NvcmUiOiAxLjA3OTk5NTYwNDE0Nzc2MjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,99 +155,117 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/CesiumAstro/7d82c48f-d39a-4bfb-b56f-dce16b970599?lever-source%5B%5D=jobs.kleinerperkins.com",
-  "companyDomain": "cesiumastro.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
-  "companyId": "CesiumAstro",
-  "companySlug": "cesiumastro",
-  "companyName": "CesiumAstro",
-  "companyStaffCount": 452,
+  "applyUrl": "https://jobs.ashbyhq.com/inworld-ai/3a41edaf-6075-486f-ba1a-0fc504b8ce84?utm_source=jobs.kleinerperkins.com",
+  "companyDomain": "inworld.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c34fe0a83612d0fd36f24e97ea0e9328_256_160?Expires=1861920000&Signature=KWOP9ps8WuQ80ghtJrHG1yDn99YENChBX3Iph4fJWRaw68SpcYRQo",
+  "companyId": "Inworld AI",
+  "companySlug": "inworld-ai",
+  "companyName": "Inworld AI",
+  "companyStaffCount": 105,
   "considerHosted": false,
   "departments": [
-   "Manufacturing & Operations"
+   "ML Engineering"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
+   },
+   {
+    "id": "machine-learning-engineer",
+    "label": "Machine Learning Engineer",
+    "value": "machine-learning-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Westminster, CO"
+   "",
+   "Mountain View, California, USA"
   ],
   "normalizedLocations": [
    {
-    "id": "Westminster, Colorado",
-    "label": "Westminster, Colorado",
-    "value": "Westminster, Colorado"
+    "id": "Mountain View, California",
+    "label": "Mountain View, California",
+    "value": "Mountain View, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 12100, 'maxValue': 143000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:MRP",
-    "label": "MRP",
-    "value": "resume:MRP"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Enterprise Resource Planning",
-    "label": "Enterprise Resource Planning",
-    "value": "resume:Enterprise Resource Planning"
+    "id": "resume:CUDA",
+    "label": "CUDA",
+    "value": "resume:CUDA"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Node",
+    "label": "Node",
+    "value": "resume:Node"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:database caching",
+    "label": "Database Caching",
+    "value": "resume:database caching"
    },
    {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
+    "id": "resume:Load Balancing",
+    "label": "Load Balancing",
+    "value": "resume:Load Balancing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:MRP",
-    "label": "MRP",
-    "value": "resume:MRP"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Enterprise Resource Planning",
-    "label": "Enterprise Resource Planning",
-    "value": "resume:Enterprise Resource Planning"
+    "id": "resume:CUDA",
+    "label": "CUDA",
+    "value": "resume:CUDA"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Node",
+    "label": "Node",
+    "value": "resume:Node"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:database caching",
+    "label": "Database Caching",
+    "value": "resume:database caching"
    },
    {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
+    "id": "resume:Load Balancing",
+    "label": "Load Balancing",
+    "value": "resume:Load Balancing"
    },
    {
-    "id": "resume:ERP",
-    "label": "ERP",
-    "value": "resume:ERP"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Department of State",
-    "label": "Department of State",
-    "value": "resume:Department of State"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
-    "id": "resume:NetSuite",
-    "label": "NetSuite",
-    "value": "resume:NetSuite"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    }
   ],
   "manager": false,
@@ -255,20 +273,29 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -278,31 +305,31 @@
     "value": "100-1000 employees"
    },
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
    },
    {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-10-22T20:43:41.829000Z",
-  "title": "Staff Material Planner",
-  "url": "https://jobs.lever.co/CesiumAstro/7d82c48f-d39a-4bfb-b56f-dce16b970599",
-  "jobId": "7d82c48f-d39a-4bfb-b56f-dce16b970599",
+  "timeStamp": "2026-10-23T00:00:00Z",
+  "title": "Senior Machine Learning Engineer, Inference",
+  "url": "https://jobs.ashbyhq.com/inworld-ai/3a41edaf-6075-486f-ba1a-0fc504b8ce84",
+  "jobId": "3a41edaf-6075-486f-ba1a-0fc504b8ce84",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1878824746909, 'matchScore': 0, 'ageScore': 0.9878824746909722, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1836284360433, 'matchScore': 0, 'ageScore': 0.9836284360432099, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -310,16 +337,10 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
