@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-24T18:14:53Z",
+ "run": "2026-10-24T20:59:02Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "2VEzIyRVSI\u2026",
+  "session.sig": "Os4h_abaxA\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjliMjAwNTRiMDE1OGIxMWJkZmE4NTM3MDIzZmRjMjIiLCAic2NvcmUiOiAxLjE0Njg0MjE5NTE2OTM2NzN9"
+   "sequence": "eyJfaWQiOiAiNGI3MmYyZjMyMDhjZDE2ZTdlYjA2NWJiODAyN2ZhNzAiLCAic2NvcmUiOiAxLjE0MjU3OTAwODgyOTA4OTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,28 +144,26 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5256145007?gh_jid=5256145007",
-  "companyDomain": "anduril.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d88ae975c1da94cefaeb3234d6fb00f_238_160?Expires=1861920000&Signature=nPYp1JlJZNMHspk2VuS1aXOsrIHWSiYZCa1mo5aQgLIbL2xCLdDD0",
-  "companyId": "Anduril Industries",
-  "companySlug": "anduril-industries",
-  "companyName": "Anduril Industries",
-  "companyStaffCount": 10152,
+  "applyUrl": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Principal-Test-Development-Engineer_2604753",
+  "companyDomain": "marvell.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/73a6cdab9d6504842be8c0d0977fb509_320_160?Expires=1861920000&Signature=dDVPmUoEgQQnqAzI3Kf9DGodNPIdZk1EfkqDeL-2O-FRKoCKP75d7",
+  "companyId": "Marvell Semiconductor",
+  "companySlug": "marvell-semiconductor",
+  "companyName": "Marvell Semiconductor",
+  "companyStaffCount": 11779,
   "considerHosted": false,
-  "departments": [
-   "Air Dominance & Strike : Air Dominance & Strike Hardware : Air Vehicle Structures"
-  ],
+  "departments": [],
   "jobTypes": [
    {
     "id": "engineer",
@@ -181,31 +179,37 @@
    }
   ],
   "locations": [
-   "Costa Mesa, California, United States"
+   "Santa Clara, CA",
+   "United States of America"
   ],
   "normalizedLocations": [
    {
-    "id": "Costa Mesa, California",
-    "label": "Costa Mesa, California",
-    "value": "Costa Mesa, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   },
+   {
+    "id": "Santa Clara, California",
+    "label": "Santa Clara, California",
+    "value": "Santa Clara, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 191000, 'maxValue': 254000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 136880, 'maxValue': 205000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Finite Element Analysis",
-    "label": "Finite Element Analysis",
-    "value": "resume:Finite Element Analysis"
+    "id": "resume:Characterization",
+    "label": "Characterization",
+    "value": "resume:Characterization"
    },
    {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
+    "id": "resume:DFT",
+    "label": "DFT",
+    "value": "resume:DFT"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
     "id": "resume:Design for Manufacturing",
@@ -213,26 +217,26 @@
     "value": "resume:Design for Manufacturing"
    },
    {
-    "id": "resume:NX",
-    "label": "NX",
-    "value": "resume:NX"
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Finite Element Analysis",
-    "label": "Finite Element Analysis",
-    "value": "resume:Finite Element Analysis"
+    "id": "resume:Characterization",
+    "label": "Characterization",
+    "value": "resume:Characterization"
    },
    {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
+    "id": "resume:DFT",
+    "label": "DFT",
+    "value": "resume:DFT"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    }
   ],
   "preferredSkills": [
@@ -242,24 +246,24 @@
     "value": "resume:Design for Manufacturing"
    },
    {
-    "id": "resume:NX",
-    "label": "NX",
-    "value": "resume:NX"
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Software Project Management",
-    "label": "Software Project Management",
-    "value": "resume:Software Project Management"
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    }
   ],
   "manager": false,
@@ -267,20 +271,21 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
+  "minYearsExp": 6,
+  "maxYearsExp": 10,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -288,9 +293,9 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -298,31 +303,40 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
+    "id": "Electrical/Electronic Manufacturing",
+    "label": "Electrical/Electronic Manufacturing",
+    "value": "Electrical/Electronic Manufacturing"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
+   },
+   {
+    "id": "Semiconductors",
+    "label": "Semiconductors",
+    "value": "Semiconductors"
    }
   ],
-  "timeStamp": "2026-10-23T22:46:55Z",
-  "title": "Engineer, Manager - MRB/Sustainment",
-  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5256145007?gh_jid=5256145007",
-  "jobId": "5256145007",
+  "timeStamp": "2026-10-24T00:00:00Z",
+  "title": "Principal Test Development Engineer",
+  "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Principal-Test-Development-Engineer_2604753",
+  "jobId": "c35ae5e15e781001f8ddb463bf5b0000",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1786415462389, 'matchScore': 0, 'ageScore': 0.9786415462388117, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1752760086566, 'matchScore': 0, 'ageScore': 0.9752760086566358, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -330,6 +344,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false
