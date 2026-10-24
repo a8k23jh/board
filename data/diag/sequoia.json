@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-24T06:01:10Z",
+ "run": "2026-10-24T11:17:24Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "kU5Wo8v6Nn\u2026",
+  "session.sig": "aYzLh6vDA7\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWY0Y2VlYTQ1N2U3NmVhYjI3NmJiMzNiNWQ3N2I5Y2IiLCAic2NvcmUiOiAxLjE2MjQ3Nzg2NjQwNzAyMTd9"
+   "sequence": "eyJfaWQiOiAiMDY1N2I2ODhkZGMwNGJhOWIwODQwYmM5ZGU2YTU3YTQiLCAic2NvcmUiOiAxLjE1NDUzMzgzNDI4ODk2NjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,114 +144,132 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/cyera/17.008/technical-project-manager/26.472",
-  "companyDomain": "cyera.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec6d92aec09bf6716dbbd9d50089a4ec_208_160?Expires=1861920000&Signature=hr9QoUI4iKYF8Hn~HoiixG3elVHvWPoII2QRBQjO8zeSQJpeGQNuP",
-  "companyId": "Cyera",
-  "companySlug": "cyera",
-  "companyName": "Cyera",
-  "companyStaffCount": 1776,
+  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8316086",
+  "companyDomain": "reddit.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
+  "companyId": "Reddit",
+  "companySlug": "reddit",
+  "companyName": "reddit",
+  "companyStaffCount": 4495,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Ads Product & Engineering"
+  ],
   "jobTypes": [
    {
-    "id": "technical-program-manager",
-    "label": "Technical Program Manager",
-    "value": "technical-program-manager"
+    "id": "data-scientist",
+    "label": "Data Scientist",
+    "value": "data-scientist"
+   },
+   {
+    "id": "machine-learning-engineer",
+    "label": "Machine Learning Engineer",
+    "value": "machine-learning-engineer"
+   },
+   {
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "St. Louis"
+   "Remote - United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Saint Louis, Missouri",
-    "label": "Saint Louis, Missouri",
-    "value": "Saint Louis, Missouri"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 322000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Kanban",
-    "label": "Kanban",
-    "value": "resume:Kanban"
+    "id": "resume:Ad Serving",
+    "label": "Ad Serving",
+    "value": "resume:Ad Serving"
    },
    {
-    "id": "resume:Project Management Software",
-    "label": "Project Management Software",
-    "value": "resume:Project Management Software"
+    "id": "resume:User Engagement",
+    "label": "User Engagement",
+    "value": "resume:User Engagement"
    },
    {
-    "id": "resume:Certified Scrum Master CSM",
-    "label": "Certified Scrum Master CSM",
-    "value": "resume:Certified Scrum Master CSM"
+    "id": "resume:Ads Ranking",
+    "label": "Ads Ranking",
+    "value": "resume:Ads Ranking"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:TensorFlow",
+    "label": "TensorFlow",
+    "value": "resume:TensorFlow"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Kanban",
-    "label": "Kanban",
-    "value": "resume:Kanban"
+    "id": "resume:Ad Serving",
+    "label": "Ad Serving",
+    "value": "resume:Ad Serving"
    },
    {
-    "id": "resume:Project Management Software",
-    "label": "Project Management Software",
-    "value": "resume:Project Management Software"
+    "id": "resume:User Engagement",
+    "label": "User Engagement",
+    "value": "resume:User Engagement"
    },
    {
-    "id": "resume:Certified Scrum Master CSM",
-    "label": "Certified Scrum Master CSM",
-    "value": "resume:Certified Scrum Master CSM"
+    "id": "resume:Ads Ranking",
+    "label": "Ads Ranking",
+    "value": "resume:Ads Ranking"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:TensorFlow",
+    "label": "TensorFlow",
+    "value": "resume:TensorFlow"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Information Retrieval",
+    "label": "Information Retrieval",
+    "value": "resume:Information Retrieval"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Jira",
-    "label": "Jira",
-    "value": "resume:Jira"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    }
   ],
   "manager": false,
@@ -259,26 +277,12 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 7,
   "regions": [
-   {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -290,28 +294,27 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
+   },
+   {
+    "id": "Social Networking",
+    "label": "Social Networking",
+    "value": "Social Networking"
    }
   ],
-  "timeStamp": "2026-10-23T18:40:06Z",
-  "title": "Technical Project Manager",
-  "url": "https://www.comeet.com/jobs/cyera/17.008/technical-project-manager/26.472",
-  "jobId": "26.472",
-  "remote": false,
+  "timeStamp": "2026-10-23T20:22:48Z",
+  "title": "Staff Machine Learning Engineer, Retrieval & Targeting",
+  "url": "https://job-boards.greenhouse.io/reddit/jobs/8316086",
+  "jobId": "8316086",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.193637569054, 'matchScore': 0, 'ageScore': 0.9936375690540123, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1829478447843, 'matchScore': 0, 'ageScore': 0.9829478447843364, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -319,10 +322,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

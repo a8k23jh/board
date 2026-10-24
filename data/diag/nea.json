@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-10-24T06:01:10Z",
+ "run": "2026-10-24T11:17:24Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ODEG9XSL9l\u2026",
+  "session.sig": "ZcbSk3lHMv\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWU3NjU0NzFmM2U1MzIzNmQ2OGEzMDJjYmZkMThmOTAiLCAic2NvcmUiOiAxLjEzMzU1OTc2Mzk0OTA3NH0="
+   "sequence": "eyJfaWQiOiAiYzk5ZWQ5NWY3NjBjNDg3ZjZiNDYxZmQ2OTk5MTA3MGMiLCAic2NvcmUiOiAxLjEyMTU4Mzg3NTE1MDQ2M30="
   },
   "job_keys": [
    "applicationWindow",
@@ -147,121 +147,138 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/inkitt/ec9696a9-35b8-4135-b9e3-713d75762bc9?lever-source%5B%5D=careers.nea.com",
-  "companyDomain": "inkitt.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/64b16710ef8359595a110c998dbad8fc_144_160?Expires=1861920000&Signature=A9TBZK7KRMnSGVNdfrUMhf6aQVkxQ10aVvVLE9DOfAMimtCl5lyWD",
-  "companyId": "Inkitt",
-  "companySlug": "inkitt",
-  "companyName": "Inkitt",
-  "companyStaffCount": 346,
+  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDqCdrcIrpWe1BBvkbw5BUuM?utm_source=careers.nea.com",
+  "companyDomain": "launchfirestorm.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e188c39c312914da9e7993fda04e236c_320_160?Expires=1861920000&Signature=Pm7J-k33~dn1h7QkoqdLumPZldorJ59U2n6Yki9r684MrWcuwsfhz",
+  "companyId": "Firestorm",
+  "companySlug": "firestorm",
+  "companyName": "Firestorm",
+  "companyStaffCount": 192,
   "considerHosted": false,
   "departments": [
-   "Marketing"
+   "Manufacturing"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "freelance",
+    "label": "Contractor",
+    "value": "freelance"
+   },
+   {
+    "id": "manufacturing-technician",
+    "label": "Manufacturing Technician",
+    "value": "manufacturing-technician"
+   },
+   {
+    "id": "consultant",
+    "label": "Consultant",
+    "value": "consultant"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Consulting",
+    "label": "Consulting",
+    "value": "Consulting"
+   }
+  ],
   "locations": [
-   "Remote US"
+   "San Diego, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Diego, California",
+    "label": "San Diego, California",
+    "value": "San Diego, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 60000, 'maxValue': 90000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 30, 'maxValue': 40, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Localization",
-    "label": "Localization",
-    "value": "resume:Localization"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Android",
-    "label": "Android",
-    "value": "resume:Android"
+    "id": "resume:Assembly",
+    "label": "Assembly",
+    "value": "resume:Assembly"
    },
    {
-    "id": "resume:Keyword Research",
-    "label": "Keyword Research",
-    "value": "resume:Keyword Research"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    },
    {
-    "id": "resume:iOS",
-    "label": "iOS",
-    "value": "resume:iOS"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Localization",
-    "label": "Localization",
-    "value": "resume:Localization"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Android",
-    "label": "Android",
-    "value": "resume:Android"
+    "id": "resume:Assembly",
+    "label": "Assembly",
+    "value": "resume:Assembly"
    },
    {
-    "id": "resume:Keyword Research",
-    "label": "Keyword Research",
-    "value": "resume:Keyword Research"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:iOS",
-    "label": "iOS",
-    "value": "resume:iOS"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
-   },
-   {
-    "id": "resume:Android Intent",
-    "label": "Android Intents",
-    "value": "resume:Android Intent"
-   },
-   {
-    "id": "resume:Graphics",
-    "label": "Graphics",
-    "value": "resume:Graphics"
+    "id": "resume:Electromechanics",
+    "label": "Electromechanics",
+    "value": "resume:Electromechanics"
    }
   ],
-  "manager": true,
-  "consultant": false,
-  "contractor": false,
+  "manager": false,
+  "consultant": true,
+  "contractor": true,
   "considerLevels": [
+   [
+    1,
+    2
+   ],
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
+  "minYearsExp": 2,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -283,29 +300,39 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Entertainment",
-    "label": "Entertainment",
-    "value": "Entertainment"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
+   },
+   {
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-10-23T22:25:49.583000Z",
-  "title": "ASO Manager",
-  "url": "https://jobs.lever.co/inkitt/ec9696a9-35b8-4135-b9e3-713d75762bc9",
-  "jobId": "ec9696a9-35b8-4135-b9e3-713d75762bc9",
-  "remote": true,
+  "timeStamp": "2026-10-24T05:59:31Z",
+  "title": "Manufacturing Technician (contractor)",
+  "url": "https://jobs.gem.com/firestorm/am9icG9zdDqCdrcIrpWe1BBvkbw5BUuM",
+  "jobId": "am9icG9zdDqCdrcIrpWe1BBvkbw5BUuM",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1985782270185, 'matchScore': 0, 'ageScore': 0.9985782270185185, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1966044043234, 'matchScore': 0, 'ageScore': 0.9966044043233024, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },
