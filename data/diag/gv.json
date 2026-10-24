@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-10-24T11:17:24Z",
+ "run": "2026-10-24T14:39:37Z",
  "homepage": {
   "status": 200,
   "bytes": 26164
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "dauUUFCsHu\u2026",
+  "session.sig": "Snjoo1FbvZ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzIyNDU0ZDBiNzBmMmM2YmRhYzIyYzIxMDZlODhjYjUiLCAic2NvcmUiOiAxLjE1NDM0MTk2ODM2OTU5ODh9"
+   "sequence": "eyJfaWQiOiAiZGIzZjdhOTRhMTJhYmYwYTViMzZkNmIyODVlODkwYjIiLCAic2NvcmUiOiAxLjE1MDIwODIyMDc5MzU5NTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,136 +136,135 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.revmed.com/careers-list/?gh_jid=7825024003",
-  "companyDomain": "revmed.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/dbf8add11aa29395c30495bc34459c3e_256_160?Expires=1861920000&Signature=AzvYU6ivtWnn~MrHs3Oq4pnMtcJhJVPfxsZL32WimSZEfNlVuGcS2",
-  "companyId": "REVOLUTION Medicines",
-  "companySlug": "revolution-medicines",
-  "companyName": "REVOLUTION Medicines",
-  "companyStaffCount": 967,
+  "applyUrl": "https://careers.withwaymo.com/jobs?gh_jid=8304574",
+  "companyDomain": "waymo.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a04896dd1b05b675a7df4762df4fe370_112_160?Expires=1861920000&Signature=EdNw9DPJCYDLbjxU5eEwWJ1ELHjFa3WTlbbzZOXLlSmfSbgMtG32z",
+  "companyId": "Waymo",
+  "companySlug": "waymo",
+  "companyName": "Waymo",
+  "companyStaffCount": 3661,
   "considerHosted": false,
   "departments": [
-   "Program, Lifecycle and Portfolio Strategy"
+   "Pipeline (N/A)"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "driver",
+    "label": "Driver",
+    "value": "driver"
    },
    {
-    "id": "portfolio-manager",
-    "label": "Portfolio Manager",
-    "value": "portfolio-manager"
+    "id": "data-scientist",
+    "label": "Data Scientist",
+    "value": "data-scientist"
+   },
+   {
+    "id": "school-student",
+    "label": "Intern",
+    "value": "school-student"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Finance",
-    "label": "Finance",
-    "value": "Finance"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   },
+   {
+    "id": "Other",
+    "label": "Other",
+    "value": "Other"
    }
   ],
   "locations": [
-   "Redwood City, California, United States"
+   "San Francisco, CA, USA"
   ],
   "normalizedLocations": [
    {
-    "id": "Redwood City, California",
-    "label": "Redwood City, California",
-    "value": "Redwood City, California"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 186000, 'maxValue': 233000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 70, 'maxValue': 85, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Biotechnology",
-    "label": "Biotechnology",
-    "value": "resume:Biotechnology"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    },
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Commercialization",
-    "label": "Commercialization",
-    "value": "resume:Commercialization"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Pharmaceutical Industry",
-    "label": "Pharmaceutical Industry",
-    "value": "resume:Pharmaceutical Industry"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Biotechnology",
-    "label": "Biotechnology",
-    "value": "resume:Biotechnology"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    },
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Commercialization",
-    "label": "Commercialization",
-    "value": "resume:Commercialization"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Pharmaceutical Industry",
-    "label": "Pharmaceutical Industry",
-    "value": "resume:Pharmaceutical Industry"
-   },
-   {
-    "id": "resume:Life Sciences",
-    "label": "Life Sciences",
-    "value": "resume:Life Sciences"
-   },
-   {
-    "id": "resume:Drug Development",
-    "label": "Drug Development",
-    "value": "resume:Drug Development"
-   },
-   {
-    "id": "resume:Sequencing",
-    "label": "Sequencing",
-    "value": "resume:Sequencing"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
+   ],
+   [
+    3,
+    4
    ]
   ],
   "regions": [
@@ -287,42 +286,42 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Biotech/Pharma",
-    "label": "Biotech/Pharma",
-    "value": "Biotech/Pharma"
+    "id": "Autonomous Vehicles",
+    "label": "Autonomous Vehicles",
+    "value": "Autonomous Vehicles"
    }
   ],
-  "timeStamp": "2026-10-23T18:32:40Z",
-  "title": "Associate Director, Portfolio Management",
-  "url": "https://www.revmed.com/careers-list/?gh_jid=7825024003",
-  "jobId": "7825024003",
+  "timeStamp": "2026-10-23T20:36:01Z",
+  "title": "2027 Summer Intern, MS/PhD, Machine Learning, Driver Refinement Foundations",
+  "url": "https://careers.withwaymo.com/jobs?gh_jid=8304574",
+  "jobId": "8304574",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.180661580527, 'matchScore': 0, 'ageScore': 0.9806615805270061, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1789675742782, 'matchScore': 0, 'ageScore': 0.9789675742781636, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
-   },
-   {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "intern",
+    "label": "Intern",
+    "value": "intern"
    }
   ],
   "jobSeniorityIds": [
-   "director",
-   "manager"
+   "intern"
   ],
   "isFeatured": false
  },
