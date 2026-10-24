@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-24T14:39:37Z",
+ "run": "2026-10-24T18:14:53Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "IdkKm7pIwo\u2026",
+  "session.sig": "J0TuBKzN4Y\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzEwNzFhN2EzMGVlZDMyYTcwMTA2M2Y4NmEwNDU4NDkiLCAic2NvcmUiOiAxLjE1MDQzMDg3MDc5NzA2Nzl9"
+   "sequence": "eyJfaWQiOiAiM2JjNjFjMDU2MTFlYTgyYWY4M2QwMzBhNmI1OWM4Y2MiLCAic2NvcmUiOiAxLjE0NjE0MDk4NzAwODEwMTl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,43 +144,33 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8316086",
-  "companyDomain": "reddit.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
-  "companyId": "Reddit",
-  "companySlug": "reddit",
-  "companyName": "reddit",
-  "companyStaffCount": 4495,
+  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4747393005",
+  "companyDomain": "glean.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
+  "companyId": "Glean",
+  "companySlug": "glean",
+  "companyName": "Glean",
+  "companyStaffCount": 1772,
   "considerHosted": false,
   "departments": [
-   "Ads Product & Engineering"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "data-scientist",
-    "label": "Data Scientist",
-    "value": "data-scientist"
-   },
-   {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
-   },
-   {
-    "id": "machine-learning-engineer",
-    "label": "Machine Learning Engineer",
-    "value": "machine-learning-engineer"
+    "id": "site-reliability-engineer",
+    "label": "Site Reliability Engineer (SRE)",
+    "value": "site-reliability-engineer"
    }
   ],
   "jobFunctions": [
@@ -191,85 +181,85 @@
    }
   ],
   "locations": [
-   "Remote - United States"
+   "Mountain View, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Mountain View, California",
+    "label": "Mountain View, California",
+    "value": "Mountain View, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 322000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Experimental Design",
-    "label": "Experimental Design",
-    "value": "resume:Experimental Design"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Patents",
-    "label": "Patents",
-    "value": "resume:Patents"
+    "id": "resume:Virtualization",
+    "label": "Virtualization",
+    "value": "resume:Virtualization"
    },
    {
-    "id": "resume:Experimentation",
-    "label": "Experimentation",
-    "value": "resume:Experimentation"
+    "id": "resume:Docker",
+    "label": "Docker",
+    "value": "resume:Docker"
    },
    {
-    "id": "resume:Recommender Systems",
-    "label": "Recommender Systems",
-    "value": "resume:Recommender Systems"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Experimental Design",
-    "label": "Experimental Design",
-    "value": "resume:Experimental Design"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Patents",
-    "label": "Patents",
-    "value": "resume:Patents"
+    "id": "resume:Virtualization",
+    "label": "Virtualization",
+    "value": "resume:Virtualization"
    },
    {
-    "id": "resume:Experimentation",
-    "label": "Experimentation",
-    "value": "resume:Experimentation"
+    "id": "resume:Docker",
+    "label": "Docker",
+    "value": "resume:Docker"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Recommender Systems",
-    "label": "Recommender Systems",
-    "value": "resume:Recommender Systems"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Advertising",
-    "label": "Advertising",
-    "value": "resume:Advertising"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Ads Ranking",
-    "label": "Ads Ranking",
-    "value": "resume:Ads Ranking"
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    },
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
    },
    {
-    "id": "resume:Ranking",
-    "label": "Ranking",
-    "value": "resume:Ranking"
+    "id": "resume:Reliability Engineering",
+    "label": "Reliability Engineering",
+    "value": "resume:Reliability Engineering"
    }
   ],
   "manager": false,
@@ -277,16 +267,30 @@
   "contractor": false,
   "considerLevels": [
    [
+    3,
+    4
+   ],
+   [
     5,
     6
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -294,35 +298,31 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Consumer",
-    "label": "Consumer",
-    "value": "Consumer"
    },
    {
-    "id": "Social Networking",
-    "label": "Social Networking",
-    "value": "Social Networking"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-10-23T20:22:48Z",
-  "title": "Staff Machine Learning Engineer, Retrieval & Targeting",
-  "url": "https://job-boards.greenhouse.io/reddit/jobs/8316086",
-  "jobId": "8316086",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1792899395837, 'matchScore': 0, 'ageScore': 0.9792899395837191, 'richnessScore': 2}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
+   }
+  ],
+  "timeStamp": "2026-10-23T19:50:53Z",
+  "title": "Senior Site Reliability Engineer",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4747393005",
+  "jobId": "4747393005",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1746797275687, 'matchScore': 0, 'ageScore': 0.9746797275686728, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
    {
     "id": "senior",
     "label": "Senior",
@@ -330,7 +330,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "mid",
    "senior"
   ],
   "isFeatured": false

@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-10-24T14:39:37Z",
+ "run": "2026-10-24T18:14:53Z",
  "homepage": {
   "status": 200,
   "bytes": 26164
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Snjoo1FbvZ\u2026",
+  "session.sig": "Yz5iah2b5Y\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGIzZjdhOTRhMTJhYmYwYTViMzZkNmIyODVlODkwYjIiLCAic2NvcmUiOiAxLjE1MDIwODIyMDc5MzU5NTd9"
+   "sequence": "eyJfaWQiOiAiYTFkYzZlN2IzNmYyMTY3MjY5NGM2NWFlMzEwMWYxNTgiLCAic2NvcmUiOiAxLjE0NjA0ODc0NzQxNjY2Njd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,9 +160,9 @@
   ],
   "jobTypes": [
    {
-    "id": "driver",
-    "label": "Driver",
-    "value": "driver"
+    "id": "school-student",
+    "label": "Intern",
+    "value": "school-student"
    },
    {
     "id": "data-scientist",
@@ -170,21 +170,21 @@
     "value": "data-scientist"
    },
    {
-    "id": "school-student",
-    "label": "Intern",
-    "value": "school-student"
+    "id": "driver",
+    "label": "Driver",
+    "value": "driver"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   },
-   {
     "id": "Other",
     "label": "Other",
     "value": "Other"
+   },
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
@@ -200,14 +200,9 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 70, 'maxValue': 85, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
-   {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
     "id": "resume:C/C++",
@@ -220,13 +215,35 @@
     "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
+   },
+   {
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   }
+  ],
+  "preferredSkills": [
+   {
     "id": "resume:SQL",
     "label": "SQL",
     "value": "resume:SQL"
@@ -235,23 +252,6 @@
     "id": "resume:PyTorch",
     "label": "PyTorch",
     "value": "resume:PyTorch"
-   },
-   {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
    }
   ],
   "manager": false,
@@ -274,14 +274,14 @@
     "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -310,7 +310,7 @@
   "jobId": "8304574",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1789675742782, 'matchScore': 0, 'ageScore': 0.9789675742781636, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1752997803866, 'matchScore': 0, 'ageScore': 0.9752997803865741, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
