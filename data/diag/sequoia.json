@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-24T23:24:56Z",
+ "run": "2026-10-25T04:57:16Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"aaaec9894f54265a60502df1dc345bb743b42fcf\",\"date\":\"2026-10-24T02:50:35.599Z\"},\"server\":{\"git\":\"aaaec9894f54265a60502df1dc345bb743b42fcf\",\"date\":\"2026-10-24T02:50:35.599Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"},\"server\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "b3d0_CNyBK\u2026",
+  "session.sig": "YruO2vymju\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTFkYzZlN2IzNmYyMTY3MjY5NGM2NWFlMzEwMWYxNTgiLCAic2NvcmUiOiAxLjEzNzk0MTU1NzIwMjE2MDV9"
+   "sequence": "eyJfaWQiOiAiMDY1N2I2ODhkZGMwNGJhOWIwODQwYmM5ZGU2YTU3YTQiLCAic2NvcmUiOiAxLjEzMzU1NzQ3ODY0NTgzMzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "supervisor",
-    "label": "Supervisor",
-    "value": "supervisor"
-   },
-   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
+   },
+   {
+    "id": "supervisor",
+    "label": "Supervisor",
+    "value": "supervisor"
    }
   ],
   "jobFunctions": [],
@@ -192,63 +192,58 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 90000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Accrual",
-    "label": "Accrual",
-    "value": "resume:Accrual"
-   },
-   {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
-   },
-   {
     "id": "resume:Attention to Detail",
     "label": "Attention to Detail",
     "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
-   },
-   {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Accrual",
-    "label": "Accrual",
-    "value": "resume:Accrual"
-   },
-   {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
-   },
-   {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
    },
    {
     "id": "resume:Restaurants",
     "label": "Restaurants",
     "value": "resume:Restaurants"
+   },
+   {
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
+   },
+   {
+    "id": "resume:Hospitality",
+    "label": "Hospitality",
+    "value": "resume:Hospitality"
+   },
+   {
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:Restaurants",
+    "label": "Restaurants",
+    "value": "resume:Restaurants"
+   },
+   {
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Hospitality",
+    "label": "Hospitality",
+    "value": "resume:Hospitality"
+   },
+   {
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
     "id": "resume:Food Safety",
@@ -259,6 +254,11 @@
     "id": "resume:Human Resources",
     "label": "Human Resources",
     "value": "resume:Human Resources"
+   },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "manager": true,
@@ -277,11 +277,6 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -290,6 +285,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -317,7 +317,7 @@
   "jobId": "8908183002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1867570026111, 'matchScore': 0, 'ageScore': 0.9867570026111111, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1824414970479, 'matchScore': 0, 'ageScore': 0.9824414970478395, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-24T23:24:56Z",
+ "run": "2026-10-25T04:57:16Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"aaaec9894f54265a60502df1dc345bb743b42fcf\",\"date\":\"2026-10-24T02:50:35.599Z\"},\"server\":{\"git\":\"aaaec9894f54265a60502df1dc345bb743b42fcf\",\"date\":\"2026-10-24T02:50:35.599Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"},\"server\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "_KJ0EURld5\u2026",
+  "session.sig": "l9--ijNBGP\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTg2NGFkZjUyOTdjMmU3ZGViYmUzNmRmZWUwMDEyNmQiLCAic2NvcmUiOiAxLjEzODU4MDM2NjQzOTQyOX0="
+   "sequence": "eyJfaWQiOiAiNTdiNjQ2ZDI1YTYzMjY2YjY3NTlhNmU2MmE0ZjgxMzAiLCAic2NvcmUiOiAxLjEzNDI1MjQ2NjgxMDk1Njh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -197,41 +197,24 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 136880, 'maxValue': 205000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Department of Commerce",
-    "label": "Department of Commerce",
-    "value": "resume:Department of Commerce"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Characterization",
-    "label": "Characterization",
-    "value": "resume:Characterization"
-   },
-   {
     "id": "resume:Release",
     "label": "Release",
     "value": "resume:Release"
-   }
-  ],
-  "requiredSkills": [
+   },
+   {
+    "id": "resume:Design for Manufacturing",
+    "label": "Design for Manufacturing",
+    "value": "resume:Design for Manufacturing"
+   },
+   {
+    "id": "resume:Data Infrastructure",
+    "label": "Data Infrastructure",
+    "value": "resume:Data Infrastructure"
+   },
    {
     "id": "resume:Quality Assurance",
     "label": "Quality Assurance",
     "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Department of Commerce",
-    "label": "Department of Commerce",
-    "value": "resume:Department of Commerce"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -239,12 +222,7 @@
     "value": "resume:Artificial Intelligence"
    }
   ],
-  "preferredSkills": [
-   {
-    "id": "resume:Characterization",
-    "label": "Characterization",
-    "value": "resume:Characterization"
-   },
+  "requiredSkills": [
    {
     "id": "resume:Release",
     "label": "Release",
@@ -256,14 +234,36 @@
     "value": "resume:Design for Manufacturing"
    },
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
+    "id": "resume:Data Infrastructure",
+    "label": "Data Infrastructure",
+    "value": "resume:Data Infrastructure"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Licensing",
+    "label": "Licensing",
+    "value": "resume:Licensing"
+   },
+   {
+    "id": "resume:Multitasking skills",
+    "label": "Multitasking skills",
+    "value": "resume:Multitasking skills"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "manager": false,
@@ -283,11 +283,6 @@
   "maxYearsExp": 10,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -296,6 +291,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -328,7 +328,7 @@
   "jobId": "c35ae5e15e781001f8ddb463bf5b0000",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1711390720722, 'matchScore': 0, 'ageScore': 0.9711390720721451, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1668956240687, 'matchScore': 0, 'ageScore': 0.9668956240686728, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

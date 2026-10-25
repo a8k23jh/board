@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-24T23:24:56Z",
+ "run": "2026-10-25T04:57:16Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"aaaec9894f54265a60502df1dc345bb743b42fcf\",\"date\":\"2026-10-24T02:50:35.599Z\"},\"server\":{\"git\":\"aaaec9894f54265a60502df1dc345bb743b42fcf\",\"date\":\"2026-10-24T02:50:35.599Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"},\"server\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "rdAhOlDEMl\u2026",
+  "session.sig": "FwOqC-0VU0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTc0NzA4NDI2OTRkNDM3MWNiNmM5OTBmZGM5ODM5ZmIiLCAic2NvcmUiOiAxLjAyMzY1OTU5OTQ5ODg0Mjd9"
+   "sequence": "eyJfaWQiOiAiMjBmM2ViYzcyYmFhZjI1MmIzOWQwOWEyOTAzMjk5M2IiLCAic2NvcmUiOiAxLjAyNTM5NzIwMTE5MzI4N30="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,32 +155,27 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/togetherai/jobs/5274195007",
-  "companyDomain": "together.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ab310562763eeec1a870bd57b0a9704b_256_160?Expires=1861920000&Signature=DqaWvH3vUeF1a7rLhZrorwzEHn6S-ol3vJVqmfO9AkN~8UuCFWnkz",
-  "companyId": "Together AI",
-  "companySlug": "together-ai",
-  "companyName": "Together AI",
-  "companyStaffCount": 445,
+  "applyUrl": "https://jobs.ashbyhq.com/Serval/ce9fd975-957b-42e2-9837-75fd87b4333a?utm_source=jobs.firstround.com",
+  "companyDomain": "serval.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d777c777f21f635fa2b513de602489ce_240_160?Expires=1861920000&Signature=SPreRMoaotnvWijsm5IPy0g-DCZeMMFja-0vgDhzmjpuqiLcPDbjg",
+  "companyId": "Serval",
+  "companySlug": "serval",
+  "companyName": "Serval",
+  "companyStaffCount": 161,
   "considerHosted": false,
   "departments": [
-   "Customer Success"
+   "Marketing"
   ],
   "jobTypes": [
    {
-    "id": "sales-engineering",
-    "label": "Sales Engineering",
-    "value": "sales-engineering"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
+   "San Francisco, California, United States",
    "San Francisco"
   ],
   "normalizedLocations": [
@@ -190,88 +185,83 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 270000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
-   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:Event Management",
+    "label": "Event Management",
+    "value": "resume:Event Management"
+   },
+   {
+    "id": "resume:Budgeting",
+    "label": "Budgeting",
+    "value": "resume:Budgeting"
+   },
+   {
+    "id": "resume:Agent Systems",
+    "label": "Agent Systems",
+    "value": "resume:Agent Systems"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
-   },
-   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Event Management",
+    "label": "Event Management",
+    "value": "resume:Event Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Budgeting",
+    "label": "Budgeting",
+    "value": "resume:Budgeting"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:Agent Systems",
+    "label": "Agent Systems",
+    "value": "resume:Agent Systems"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Natural Language Processing",
+    "label": "Natural Language Processing",
+    "value": "resume:Natural Language Processing"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:APAC",
+    "label": "APAC",
+    "value": "resume:APAC"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
-  "minYearsExp": 5,
+  "considerLevels": [],
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -281,6 +271,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -298,29 +293,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI/ML",
-    "label": "AI/ML",
-    "value": "AI/ML"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-10-23T20:20:17Z",
-  "title": "Forward Deployed Engineer, Post-Training",
-  "url": "https://job-boards.greenhouse.io/togetherai/jobs/5274195007",
-  "jobId": "5274195007",
+  "timeStamp": "2026-10-24T00:00:00Z",
+  "title": "Head of Global Events",
+  "url": "https://jobs.ashbyhq.com/Serval/ce9fd975-957b-42e2-9837-75fd87b4333a",
+  "jobId": "ce9fd975-957b-42e2-9837-75fd87b4333a",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1664034838171, 'matchScore': 0, 'ageScore': 0.9664034838171296, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1675256538923, 'matchScore': 0, 'ageScore': 0.9675256538923611, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },
