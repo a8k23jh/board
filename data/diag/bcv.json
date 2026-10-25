@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-25T04:57:16Z",
+ "run": "2026-10-25T09:55:29Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "O_dQ-vqWVI\u2026",
+  "session.sig": "mOLg3NgwU_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzIyOGZiMzRmNjY0ZTMxMGM5Y2E1NzVhYWYxZGI3MWQiLCAic2NvcmUiOiAxLjA5MDIyMDI0NDExMTExMX0="
+   "sequence": "eyJfaWQiOiAiYzIyOGZiMzRmNjY0ZTMxMGM5Y2E1NzVhYWYxZGI3MWQiLCAic2NvcmUiOiAxLjA3NzM0MjI5NTY0ODE0ODJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -176,14 +176,14 @@
   ],
   "jobTypes": [
    {
-    "id": "customer-support",
-    "label": "Customer Support",
-    "value": "customer-support"
-   },
-   {
     "id": "freelance",
     "label": "Contractor",
     "value": "freelance"
+   },
+   {
+    "id": "customer-support",
+    "label": "Customer Support",
+    "value": "customer-support"
    }
   ],
   "jobFunctions": [
@@ -206,14 +206,9 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 25, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:SaaS",
@@ -221,58 +216,63 @@
     "value": "resume:SaaS"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   },
-   {
     "id": "resume:Attention to Detail",
     "label": "Attention to Detail",
     "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:Zendesk",
+    "label": "Zendesk",
+    "value": "resume:Zendesk"
+   },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:SaaS",
     "label": "Software as a Service",
     "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "preferredSkills": [
+   {
+    "id": "resume:Zendesk",
+    "label": "Zendesk",
+    "value": "resume:Zendesk"
+   },
    {
     "id": "resume:Service",
     "label": "Service",
     "value": "resume:Service"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:HVAC",
-    "label": "HVAC",
-    "value": "resume:HVAC"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
-   },
-   {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Follow through",
+    "label": "Follow through",
+    "value": "resume:Follow through"
    }
   ],
   "manager": false,
@@ -332,24 +332,24 @@
   "jobId": "4746675005",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1605685083723, 'matchScore': 0, 'ageScore': 0.9605685083722993, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1475571944113, 'matchScore': 0, 'ageScore': 0.9475571944112654, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "junior",
     "label": "Junior",
     "value": "junior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "junior"
+   "junior",
+   "mid"
   ],
   "isFeatured": false
  },
