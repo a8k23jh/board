@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-25T09:55:29Z",
+ "run": "2026-10-25T14:27:49Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "mOLg3NgwU_\u2026",
+  "session.sig": "ad2sZe6DSs\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzIyOGZiMzRmNjY0ZTMxMGM5Y2E1NzVhYWYxZGI3MWQiLCAic2NvcmUiOiAxLjA3NzM0MjI5NTY0ODE0ODJ9"
+   "sequence": "eyJfaWQiOiAiYzIyOGZiMzRmNjY0ZTMxMGM5Y2E1NzVhYWYxZGI3MWQiLCAic2NvcmUiOiAxLjA3MzUzOTE3NDI4NDcyMjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -176,14 +176,14 @@
   ],
   "jobTypes": [
    {
-    "id": "freelance",
-    "label": "Contractor",
-    "value": "freelance"
-   },
-   {
     "id": "customer-support",
     "label": "Customer Support",
     "value": "customer-support"
+   },
+   {
+    "id": "freelance",
+    "label": "Contractor",
+    "value": "freelance"
    }
   ],
   "jobFunctions": [
@@ -206,19 +206,14 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 25, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:NPS",
+    "label": "NPS",
+    "value": "resume:NPS"
    },
    {
     "id": "resume:Zendesk",
@@ -226,38 +221,43 @@
     "value": "resume:Zendesk"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:HVAC",
+    "label": "HVAC",
+    "value": "resume:HVAC"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:NPS",
+    "label": "NPS",
+    "value": "resume:NPS"
    },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Zendesk",
     "label": "Zendesk",
     "value": "resume:Zendesk"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:HVAC",
+    "label": "HVAC",
+    "value": "resume:HVAC"
    },
    {
     "id": "resume:Written Communication Skills",
@@ -265,14 +265,14 @@
     "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Follow through",
-    "label": "Follow through",
-    "value": "resume:Follow through"
+    "id": "resume:Customer Facing Roles",
+    "label": "Customer Facing Roles",
+    "value": "resume:Customer Facing Roles"
    }
   ],
   "manager": false,
@@ -332,24 +332,24 @@
   "jobId": "4746675005",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1475571944113, 'matchScore': 0, 'ageScore': 0.9475571944112654, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1434639042785, 'matchScore': 0, 'ageScore': 0.9434639042785494, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "junior",
-   "mid"
+   "mid",
+   "junior"
   ],
   "isFeatured": false
  },

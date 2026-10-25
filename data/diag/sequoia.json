@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-25T09:55:29Z",
+ "run": "2026-10-25T14:27:49Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "8sb3K8zRYk\u2026",
+  "session.sig": "qDT6M2ecE5\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjhiOTBkZjE2ZGIzNWM2YmFhY2M3ODViNTBlMzYxZDYiLCAic2NvcmUiOiAxLjEyMTE4ODkyMzIzNjExMTJ9"
+   "sequence": "eyJfaWQiOiAiZmYzMzVlMDFjMGM3MjY2YzExMWYyYTZiNjYwMjM1MmIiLCAic2NvcmUiOiAxLjExNjk4MDM1MzE5ODMwMjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "supervisor",
-    "label": "Supervisor",
-    "value": "supervisor"
-   },
-   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
+   },
+   {
+    "id": "supervisor",
+    "label": "Supervisor",
+    "value": "supervisor"
    }
   ],
   "jobFunctions": [],
@@ -192,19 +192,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 90000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Food Safety",
-    "label": "Food Safety",
-    "value": "resume:Food Safety"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:Restaurants",
-    "label": "Restaurants",
-    "value": "resume:Restaurants"
+    "id": "resume:Hospitality",
+    "label": "Hospitality",
+    "value": "resume:Hospitality"
    },
    {
     "id": "resume:Service",
@@ -215,40 +205,6 @@
     "id": "resume:Written Communication Skills",
     "label": "Written Communication Skills",
     "value": "resume:Written Communication Skills"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Food Safety",
-    "label": "Food Safety",
-    "value": "resume:Food Safety"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:Restaurants",
-    "label": "Restaurants",
-    "value": "resume:Restaurants"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   },
-   {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
-   },
-   {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
    },
    {
     "id": "resume:Accrual",
@@ -256,9 +212,53 @@
     "value": "resume:Accrual"
    },
    {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:Hospitality",
     "label": "Hospitality",
     "value": "resume:Hospitality"
+   },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
+   },
+   {
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
+   },
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:Food Safety",
+    "label": "Food Safety",
+    "value": "resume:Food Safety"
+   },
+   {
+    "id": "resume:Restaurants",
+    "label": "Restaurants",
+    "value": "resume:Restaurants"
+   },
+   {
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    }
   ],
   "manager": true,
@@ -277,14 +277,14 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "West Coast",
@@ -317,7 +317,7 @@
   "jobId": "8908183002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1694977193237, 'matchScore': 0, 'ageScore': 0.9694977193236882, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1650037092234, 'matchScore': 0, 'ageScore': 0.9650037092233796, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
