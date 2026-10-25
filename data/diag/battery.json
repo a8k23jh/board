@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-10-25T18:27:37Z",
+ "run": "2026-10-25T21:55:02Z",
  "homepage": {
   "status": 200,
   "bytes": 18736
@@ -29,12 +29,12 @@
    "slug": "battery-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"},\"server\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"},\"server\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "uWk2CDaeQ3\u2026",
+  "session.sig": "RY6Jg21LJQ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjA4YzAxOWYxN2I3ZDUxNGEwNmQ3MTM3MWEwMTFkMzAiLCAic2NvcmUiOiAxLjAzNzIwNjUzMTM3NTM4NTh9"
+   "sequence": "eyJfaWQiOiAiNjA5ZDVlYTRlZmNmZDJlM2U2M2E5YWQ2YTJmZjA2ZTEiLCAic2NvcmUiOiAxLjAyODc4NDM2MTU4NDEwNX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -185,63 +185,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 102000, 'maxValue': 143000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
-   },
-   {
     "id": "resume:Confluence",
     "label": "Confluence",
     "value": "resume:Confluence"
-   },
-   {
-    "id": "resume:Anomaly Detection",
-    "label": "Anomaly Detection",
-    "value": "resume:Anomaly Detection"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
-   },
-   {
-    "id": "resume:Confluence",
-    "label": "Confluence",
-    "value": "resume:Confluence"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Anomaly Detection",
-    "label": "Anomaly Detection",
-    "value": "resume:Anomaly Detection"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
    },
    {
     "id": "resume:Knowledge Management",
@@ -252,6 +198,60 @@
     "id": "resume:Payroll",
     "label": "Payroll",
     "value": "resume:Payroll"
+   },
+   {
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Confluence",
+    "label": "Confluence",
+    "value": "resume:Confluence"
+   },
+   {
+    "id": "resume:Knowledge Management",
+    "label": "Knowledge Management",
+    "value": "resume:Knowledge Management"
+   },
+   {
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Anomaly Detection",
+    "label": "Anomaly Detection",
+    "value": "resume:Anomaly Detection"
    }
   ],
   "manager": false,
@@ -269,14 +269,14 @@
   ],
   "regions": [
    {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "South Atlantic",
+    "label": "South Atlantic",
+    "value": "South Atlantic"
    }
   ],
   "stages": [
@@ -309,7 +309,7 @@
   "jobId": "8892622002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1399890098392, 'matchScore': 0, 'ageScore': 0.9399890098391204, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1321659661285, 'matchScore': 0, 'ageScore': 0.9321659661284722, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

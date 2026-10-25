@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-25T18:27:37Z",
+ "run": "2026-10-25T21:55:02Z",
  "homepage": {
   "status": 200,
   "bytes": 21383
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"},\"server\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"},\"server\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "HGNASJjYoE\u2026",
+  "session.sig": "bDnFb7Nu7A\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTVjYmQyYTI1YWQ3Yzk2OTMwMWEyOWM4Y2U5OTlkMTMiLCAic2NvcmUiOiAxLjA4MDI4NDk2MTY2NDczNzZ9"
+   "sequence": "eyJfaWQiOiAiMjI0MWEwZWU4OGUyYzU0OWFiNGJkMmJmZDM4YmY0ZTQiLCAic2NvcmUiOiAxLjA4MDAwODIxNTQxNTg5NTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -197,14 +197,14 @@
   ],
   "normalizedLocations": [
    {
-    "id": "Washington, District Of Columbia",
-    "label": "Washington, DC",
-    "value": "Washington, District Of Columbia"
-   },
-   {
     "id": "Seattle, Washington",
     "label": "Seattle, Washington",
     "value": "Seattle, Washington"
+   },
+   {
+    "id": "Greater Boston Area",
+    "label": "Boston",
+    "value": "Greater Boston Area"
    },
    {
     "id": "San Francisco, California",
@@ -212,9 +212,9 @@
     "value": "San Francisco, California"
    },
    {
-    "id": "Greater Boston Area",
-    "label": "Boston",
-    "value": "Greater Boston Area"
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
    },
    {
     "id": "New York, New York",
@@ -225,6 +225,11 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 245000, 'maxValue': 285000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
     "id": "resume:Sales Commission",
     "label": "Sales Commission",
     "value": "resume:Sales Commission"
@@ -235,23 +240,23 @@
     "value": "resume:Biology"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
     "id": "resume:Sales Commission",
     "label": "Sales Commission",
     "value": "resume:Sales Commission"
@@ -260,23 +265,18 @@
     "id": "resume:Biology",
     "label": "Biology",
     "value": "resume:Biology"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Physics",
@@ -304,24 +304,24 @@
     "value": "Northwest"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -355,7 +355,7 @@
   "jobId": "5462893008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1781750152986, 'matchScore': 0, 'ageScore': 0.9781750152986111, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1695597841505, 'matchScore': 0, 'ageScore': 0.969559784150463, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

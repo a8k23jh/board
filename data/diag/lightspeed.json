@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-25T18:27:37Z",
+ "run": "2026-10-25T21:55:02Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"},\"server\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"},\"server\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "84Ijt5523c\u2026",
+  "session.sig": "zBUF953HbC\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2FhYmY5NmJmOTk4MTJkZWY4YjY2YzE2MzdkMDE0NDgiLCAic2NvcmUiOiAxLjExMzU4NDkyNzI4MTI1fQ=="
+   "sequence": "eyJfaWQiOiAiMTJiNDJhODQ0MzM5NDU1OTAzZDcwMzM4Yjc2NjM3NTUiLCAic2NvcmUiOiAxLjEwOTQ2OTkzNjQxMjgwODd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,135 +155,147 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5274651007?gh_jid=5274651007",
-  "companyDomain": "anduril.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d88ae975c1da94cefaeb3234d6fb00f_238_160?Expires=1861920000&Signature=nPYp1JlJZNMHspk2VuS1aXOsrIHWSiYZCa1mo5aQgLIbL2xCLdDD0",
-  "companyId": "Anduril Industries",
-  "companySlug": "anduril-industries",
-  "companyName": "Anduril Industries",
-  "companyStaffCount": 10152,
+  "applyUrl": "https://job-boards.greenhouse.io/grafanalabs/jobs/6234231004",
+  "companyDomain": "grafana.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/32a90dde8d44051d64fa600f3d9b65c2_320_160?Expires=1861920000&Signature=QLDDUpzbhHfSLkiSts7c3p9gH6wI54LzqzfhnFpekGZchlhjTA1t0",
+  "companyId": "Grafana Labs",
+  "companySlug": "grafana-labs",
+  "companyName": "Grafana Labs",
+  "companyStaffCount": 1909,
   "considerHosted": false,
   "departments": [
-   "Mission Systems : Battlespace Awareness Engineering"
+   "Finance"
   ],
   "jobTypes": [
    {
-    "id": "technical-program-manager",
-    "label": "Technical Program Manager",
-    "value": "technical-program-manager"
+    "id": "finance-professional",
+    "label": "Finance",
+    "value": "finance-professional"
+   },
+   {
+    "id": "fpa-manager",
+    "label": "FP&A Manager",
+    "value": "fpa-manager"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
+   },
+   {
+    "id": "Finance",
+    "label": "Finance",
+    "value": "Finance"
+   }
+  ],
   "locations": [
-   "Huntsville, Alabama, United States"
+   "United States (Remote)"
   ],
   "normalizedLocations": [
    {
-    "id": "Huntsville, Alabama",
-    "label": "Huntsville, Alabama",
-    "value": "Huntsville, Alabama"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 144000, 'maxValue': 192000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 260000, 'maxValue': 312000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Financial Modeling",
+    "label": "Financial Modeling",
+    "value": "resume:Financial Modeling"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Cash Flow",
+    "label": "Cash Flow",
+    "value": "resume:Cash Flow"
    },
    {
-    "id": "resume:Grant Writing",
-    "label": "Grant Writing",
-    "value": "resume:Grant Writing"
+    "id": "resume:Investment Banking",
+    "label": "Investment Banking",
+    "value": "resume:Investment Banking"
    },
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Strategic Thinking",
+    "label": "Strategic Thinking",
+    "value": "resume:Strategic Thinking"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Financial Modeling",
+    "label": "Financial Modeling",
+    "value": "resume:Financial Modeling"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Cash Flow",
+    "label": "Cash Flow",
+    "value": "resume:Cash Flow"
    },
    {
-    "id": "resume:Grant Writing",
-    "label": "Grant Writing",
-    "value": "resume:Grant Writing"
+    "id": "resume:Investment Banking",
+    "label": "Investment Banking",
+    "value": "resume:Investment Banking"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Strategic Thinking",
+    "label": "Strategic Thinking",
+    "value": "resume:Strategic Thinking"
    },
    {
-    "id": "resume:Sensor Fusion",
-    "label": "Sensor Fusion",
-    "value": "resume:Sensor Fusion"
+    "id": "resume:FPA",
+    "label": "FP&A",
+    "value": "resume:FPA"
    },
    {
-    "id": "resume:3D",
-    "label": "3D",
-    "value": "resume:3D"
+    "id": "resume:Strategic Finance",
+    "label": "Strategic Finance",
+    "value": "resume:Strategic Finance"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 10,
   "regions": [
-   {
-    "id": "Deep South",
-    "label": "Deep South",
-    "value": "Deep South"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
    }
   ],
   "stages": [
@@ -301,29 +313,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
    }
   ],
-  "timeStamp": "2026-10-24T21:15:30Z",
-  "title": "Senior TPM, Mathematical Software & Algorithms",
-  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5274651007?gh_jid=5274651007",
-  "jobId": "5274651007",
-  "remote": false,
+  "timeStamp": "2026-10-25T11:16:59Z",
+  "title": "Senior Director, Corporate FP&A | United States | Remote",
+  "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6234231004",
+  "jobId": "6234231004",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1761476818484, 'matchScore': 0, 'ageScore': 0.9761476818483796, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1915912153843, 'matchScore': 0, 'ageScore': 0.9915912153842592, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "director"
   ],
   "isFeatured": false
  },

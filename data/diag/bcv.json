@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-25T18:27:37Z",
+ "run": "2026-10-25T21:55:02Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"},\"server\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"},\"server\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "e18kunrIq2\u2026",
+  "session.sig": "NOo62R-WDe\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzIyOGZiMzRmNjY0ZTMxMGM5Y2E1NzVhYWYxZGI3MWQiLCAic2NvcmUiOiAxLjA2ODY5MTEzNDYwMzAwOTJ9"
+   "sequence": "eyJfaWQiOiAiMWYzNThjYTg3ODU4OTk1NTJmNjk4MDRhODMxYjhlMzQiLCAic2NvcmUiOiAxLjA2MDg0MDM5OTc3OTcwNjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/wisetack/jobs/4746675005",
+  "applyUrl": "https://job-boards.greenhouse.io/wisetack/jobs/4745584005",
   "companyDomain": "wisetack.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c48faff9d58fcdd36e14658d8b4c16e4_320_160?Expires=1861920000&Signature=LaMiChq7Bdx96hmYFqfVDcS1PHvu6NR43mkDAvzOBpRo4-Xg~WsEP",
   "companyId": "Wisetack",
@@ -175,11 +175,6 @@
    "Customer Experience"
   ],
   "jobTypes": [
-   {
-    "id": "freelance",
-    "label": "Contractor",
-    "value": "freelance"
-   },
    {
     "id": "customer-support",
     "label": "Customer Support",
@@ -206,68 +201,24 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 25, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    },
    {
-    "id": "resume:Instagram",
-    "label": "Instagram",
-    "value": "resume:Instagram"
+    "id": "resume:Zendesk",
+    "label": "Zendesk",
+    "value": "resume:Zendesk"
    },
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:HVAC",
-    "label": "HVAC",
-    "value": "resume:HVAC"
-   }
-  ],
-  "requiredSkills": [
    {
     "id": "resume:Attention to Detail",
     "label": "Attention to Detail",
     "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Instagram",
-    "label": "Instagram",
-    "value": "resume:Instagram"
-   },
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:HVAC",
-    "label": "HVAC",
-    "value": "resume:HVAC"
-   },
-   {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
-   },
-   {
-    "id": "resume:Follow through",
-    "label": "Follow through",
-    "value": "resume:Follow through"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
     "id": "resume:Customer Facing Roles",
@@ -275,9 +226,53 @@
     "value": "resume:Customer Facing Roles"
    }
   ],
+  "requiredSkills": [
+   {
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
+   },
+   {
+    "id": "resume:Zendesk",
+    "label": "Zendesk",
+    "value": "resume:Zendesk"
+   },
+   {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
+   },
+   {
+    "id": "resume:Customer Facing Roles",
+    "label": "Customer Facing Roles",
+    "value": "resume:Customer Facing Roles"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
+   }
+  ],
   "manager": false,
   "consultant": false,
-  "contractor": true,
+  "contractor": false,
   "considerLevels": [
    [
     1,
@@ -326,13 +321,13 @@
     "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-10-23T18:53:47Z",
-  "title": "Customer Experience Associate I (Part-Time)",
-  "url": "https://job-boards.greenhouse.io/wisetack/jobs/4746675005",
-  "jobId": "4746675005",
+  "timeStamp": "2026-10-23T18:25:57Z",
+  "title": "Customer Experience Associate I",
+  "url": "https://job-boards.greenhouse.io/wisetack/jobs/4745584005",
+  "jobId": "4745584005",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1396130962427, 'matchScore': 0, 'ageScore': 0.9396130962426698, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1308012338163, 'matchScore': 0, 'ageScore': 0.930801233816358, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

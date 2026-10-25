@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-25T18:27:37Z",
+ "run": "2026-10-25T21:55:02Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"},\"server\":{\"git\":\"e8627bf2b2010cfa5fd51c594805c181c244e6a8\",\"date\":\"2026-10-25T01:43:04.107Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"},\"server\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ExRWS-a7j3\u2026",
+  "session.sig": "SOIUN-p4Ya\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDY1N2I2ODhkZGMwNGJhOWIwODQwYmM5ZGU2YTU3YTQiLCAic2NvcmUiOiAxLjExMjc4NzA0OTk2MDY0ODN9"
+   "sequence": "eyJfaWQiOiAiM2JjNjFjMDU2MTFlYTgyYWY4M2QwMzBhNmI1OWM4Y2MiLCAic2NvcmUiOiAxLjEwODgwMDA4Mjk1NzE3Nn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,121 +144,137 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8908183002?gh_jid=8908183002",
-  "companyDomain": "spacex.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
-  "companyId": "SpaceX",
-  "companySlug": "spacex",
-  "companyName": "SpaceX",
-  "companyStaffCount": 20713,
+  "applyUrl": "https://job-boards.greenhouse.io/grafanalabs/jobs/6234231004",
+  "companyDomain": "grafana.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/32a90dde8d44051d64fa600f3d9b65c2_320_160?Expires=1861920000&Signature=QLDDUpzbhHfSLkiSts7c3p9gH6wI54LzqzfhnFpekGZchlhjTA1t0",
+  "companyId": "Grafana Labs",
+  "companySlug": "grafana-labs",
+  "companyName": "Grafana Labs",
+  "companyStaffCount": 1909,
   "considerHosted": false,
   "departments": [
-   "Food Services - Hawthorne"
+   "Finance"
   ],
   "jobTypes": [
+   {
+    "id": "finance-professional",
+    "label": "Finance",
+    "value": "finance-professional"
+   },
+   {
+    "id": "fpa-manager",
+    "label": "FP&A Manager",
+    "value": "fpa-manager"
+   },
    {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
-   },
-   {
-    "id": "supervisor",
-    "label": "Supervisor",
-    "value": "supervisor"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
+   },
+   {
+    "id": "Finance",
+    "label": "Finance",
+    "value": "Finance"
+   }
+  ],
   "locations": [
-   "Hawthorne, CA"
+   "United States (Remote)"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 90000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 260000, 'maxValue': 312000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Financial Modeling",
+    "label": "Financial Modeling",
+    "value": "resume:Financial Modeling"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Cash Flow",
+    "label": "Cash Flow",
+    "value": "resume:Cash Flow"
    },
    {
-    "id": "resume:Restaurants",
-    "label": "Restaurants",
-    "value": "resume:Restaurants"
+    "id": "resume:Investment Banking",
+    "label": "Investment Banking",
+    "value": "resume:Investment Banking"
    },
    {
-    "id": "resume:Accrual",
-    "label": "Accrual",
-    "value": "resume:Accrual"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Food Safety",
-    "label": "Food Safety",
-    "value": "resume:Food Safety"
+    "id": "resume:Strategic Thinking",
+    "label": "Strategic Thinking",
+    "value": "resume:Strategic Thinking"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Financial Modeling",
+    "label": "Financial Modeling",
+    "value": "resume:Financial Modeling"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Cash Flow",
+    "label": "Cash Flow",
+    "value": "resume:Cash Flow"
    },
    {
-    "id": "resume:Restaurants",
-    "label": "Restaurants",
-    "value": "resume:Restaurants"
+    "id": "resume:Investment Banking",
+    "label": "Investment Banking",
+    "value": "resume:Investment Banking"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Accrual",
-    "label": "Accrual",
-    "value": "resume:Accrual"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Food Safety",
-    "label": "Food Safety",
-    "value": "resume:Food Safety"
+    "id": "resume:Strategic Thinking",
+    "label": "Strategic Thinking",
+    "value": "resume:Strategic Thinking"
    },
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:FPA",
+    "label": "FP&A",
+    "value": "resume:FPA"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Strategic Finance",
+    "label": "Strategic Finance",
+    "value": "resume:Strategic Finance"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": true,
@@ -266,26 +282,16 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 10,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -297,38 +303,39 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-10-24T10:38:43Z",
-  "title": "Hospitality Supervisor (Restaurants)",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8908183002?gh_jid=8908183002",
-  "jobId": "8908183002",
-  "remote": false,
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
+   }
+  ],
+  "timeStamp": "2026-10-25T11:16:59Z",
+  "title": "Senior Director, Corporate FP&A | United States | Remote",
+  "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6234231004",
+  "jobId": "6234231004",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1615426255752, 'matchScore': 0, 'ageScore': 0.9615426255752315, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1915912153843, 'matchScore': 0, 'ageScore': 0.9915912153842592, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "director"
   ],
   "isFeatured": false
  },
