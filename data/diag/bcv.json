@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-26T00:28:41Z",
+ "run": "2026-10-26T06:26:28Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cWBNuGdPLy\u2026",
+  "session.sig": "jX9PF5ez8L\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWYzNThjYTg3ODU4OTk1NTJmNjk4MDRhODMxYjhlMzQiLCAic2NvcmUiOiAxLjA2MDg0MDM5OTc3OTcwNjd9"
+   "sequence": "eyJfaWQiOiAiMjBjYzc5NDM0ZjhkYjc2YzA0ZjVmZDhmMTk2Mjg3ZGQiLCAic2NvcmUiOiAxLjA1ODQ2NDI1NzQ4MTA5NTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,122 +152,143 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/wisetack/jobs/4745584005",
-  "companyDomain": "wisetack.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c48faff9d58fcdd36e14658d8b4c16e4_320_160?Expires=1861920000&Signature=LaMiChq7Bdx96hmYFqfVDcS1PHvu6NR43mkDAvzOBpRo4-Xg~WsEP",
-  "companyId": "Wisetack",
-  "companySlug": "wisetack",
-  "companyName": "Wisetack",
-  "companyStaffCount": 132,
+  "applyUrl": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/IT-Cybersecurity-Compliance-Technical-Associate--Campus-2027_45899",
+  "companyDomain": "guidehouse.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8bc0bb4bf4e114d6038755ebfb6d5f24_320_160?Expires=1861920000&Signature=pCmxuJlEyug4URyLV8ZDc4EssRYCvClteAtfAIJfQavWlUAl68jVh",
+  "companyId": "Guidehouse",
+  "companySlug": "guidehouse",
+  "companyName": "Guidehouse",
+  "companyStaffCount": 15958,
   "considerHosted": false,
-  "departments": [
-   "Customer Experience"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "customer-support",
-    "label": "Customer Support",
-    "value": "customer-support"
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
+   },
+   {
+    "id": "compliance-risk",
+    "label": "Risk & Compliance Manager",
+    "value": "compliance-risk"
+   },
+   {
+    "id": "it-engineer",
+    "label": "IT Support Engineer",
+    "value": "it-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
+    "id": "Auditing",
+    "label": "Auditing",
+    "value": "Auditing"
+   },
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Remote, USA"
+   " VA, McLean, US ",
+   "United States of America",
+   "GH Office: Chicago, IL (Green St)",
+   "VA, Arlington, US"
   ],
   "normalizedLocations": [
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
+   },
+   {
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 25, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 56000, 'maxValue': 94000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:Zendesk",
-    "label": "Zendesk",
-    "value": "resume:Zendesk"
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:ISO",
+    "label": "ISO",
+    "value": "resume:ISO"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:GRC",
+    "label": "GRC",
+    "value": "resume:GRC"
    },
    {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
+    "id": "resume:Risk Analysis",
+    "label": "Risk Analysis",
+    "value": "resume:Risk Analysis"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:Zendesk",
-    "label": "Zendesk",
-    "value": "resume:Zendesk"
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:ISO",
+    "label": "ISO",
+    "value": "resume:ISO"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:GRC",
+    "label": "GRC",
+    "value": "resume:GRC"
    },
    {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
+    "id": "resume:Risk Analysis",
+    "label": "Risk Analysis",
+    "value": "resume:Risk Analysis"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:NIST",
+    "label": "NIST",
+    "value": "resume:NIST"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "manager": false,
@@ -283,8 +304,22 @@
     4
    ]
   ],
-  "minYearsExp": 2,
   "regions": [
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -293,41 +328,30 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Financial Services",
-    "label": "Financial Services",
-    "value": "Financial Services"
+    "id": "Business Services",
+    "label": "Business Services",
+    "value": "Business Services"
    },
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Management Consulting",
+    "label": "Management Consulting",
+    "value": "Management Consulting"
    }
   ],
-  "timeStamp": "2026-10-23T18:25:57Z",
-  "title": "Customer Experience Associate I",
-  "url": "https://job-boards.greenhouse.io/wisetack/jobs/4745584005",
-  "jobId": "4745584005",
+  "timeStamp": "2026-10-25T00:00:00Z",
+  "title": "IT Cybersecurity Compliance Technical Associate- Campus 2027",
+  "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/IT-Cybersecurity-Compliance-Technical-Associate--Campus-2027_45899",
+  "jobId": "10da16c227af1000792f803355190000",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1308012338163, 'matchScore': 0, 'ageScore': 0.930801233816358, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1679163359927, 'matchScore': 0, 'ageScore': 0.9679163359926698, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -346,7 +370,8 @@
    "junior",
    "mid"
   ],
-  "isFeatured": false
+  "isFeatured": false,
+  "llmFeatures": "{'summary': 'The IT Cybersecurity Compliance Technical Associate (Campus 2027) role at Guidehouse supports risk assessments, compliance activities, and audit documentation within IT security. The posi"
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"

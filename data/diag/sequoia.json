@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-26T00:28:41Z",
+ "run": "2026-10-26T06:26:28Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"},\"server\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"540b62689ce08382aa442e732a15fb00e2d09126\",\"date\":\"2026-10-26T00:27:58.402Z\"},\"server\":{\"git\":\"540b62689ce08382aa442e732a15fb00e2d09126\",\"date\":\"2026-10-26T00:27:58.402Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "wnGTKVWT_q\u2026",
+  "session.sig": "_2zWFAPTld\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmIxMTU5ZGE4ZGJlZjhlNjk5NmM0MzJmZTI5MWRmNTUiLCAic2NvcmUiOiAxLjEwNDU0Mjk5OTYwOTU2OH0="
+   "sequence": "eyJfaWQiOiAiYTFkYzZlN2IzNmYyMTY3MjY5NGM2NWFlMzEwMWYxNTgiLCAic2NvcmUiOiAxLjEwMDUxMTcxMTgwODI1NjF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,6 +168,11 @@
   ],
   "jobTypes": [
    {
+    "id": "fpa-manager",
+    "label": "FP&A Manager",
+    "value": "fpa-manager"
+   },
+   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
@@ -176,23 +181,18 @@
     "id": "finance-professional",
     "label": "Finance",
     "value": "finance-professional"
-   },
-   {
-    "id": "fpa-manager",
-    "label": "FP&A Manager",
-    "value": "fpa-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Finance",
-    "label": "Finance",
-    "value": "Finance"
-   },
-   {
     "id": "Accounting",
     "label": "Accounting",
     "value": "Accounting"
+   },
+   {
+    "id": "Finance",
+    "label": "Finance",
+    "value": "Finance"
    }
   ],
   "locations": [
@@ -208,63 +208,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 260000, 'maxValue': 312000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:FPA",
-    "label": "FP&A",
-    "value": "resume:FPA"
-   },
-   {
-    "id": "resume:Financial Modeling",
-    "label": "Financial Modeling",
-    "value": "resume:Financial Modeling"
-   },
-   {
-    "id": "resume:Model Building",
-    "label": "Model Building",
-    "value": "resume:Model Building"
-   },
-   {
-    "id": "resume:Income Statements",
-    "label": "Income Statements",
-    "value": "resume:Income Statements"
-   },
-   {
     "id": "resume:Analytical Skills",
     "label": "Analytical Skills",
     "value": "resume:Analytical Skills"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:FPA",
-    "label": "FP&A",
-    "value": "resume:FPA"
-   },
-   {
-    "id": "resume:Financial Modeling",
-    "label": "Financial Modeling",
-    "value": "resume:Financial Modeling"
-   },
-   {
-    "id": "resume:Model Building",
-    "label": "Model Building",
-    "value": "resume:Model Building"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Income Statements",
-    "label": "Income Statements",
-    "value": "resume:Income Statements"
-   },
-   {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
-   },
-   {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
    },
    {
     "id": "resume:Actionable Insights",
@@ -275,6 +221,60 @@
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Corporate Finance",
+    "label": "Corporate Finance",
+    "value": "resume:Corporate Finance"
+   },
+   {
+    "id": "resume:Strategic Thinking",
+    "label": "Strategic Thinking",
+    "value": "resume:Strategic Thinking"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
+   },
+   {
+    "id": "resume:Actionable Insights",
+    "label": "Actionable Insights",
+    "value": "resume:Actionable Insights"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Corporate Finance",
+    "label": "Corporate Finance",
+    "value": "resume:Corporate Finance"
+   },
+   {
+    "id": "resume:Strategic Thinking",
+    "label": "Strategic Thinking",
+    "value": "resume:Strategic Thinking"
+   },
+   {
+    "id": "resume:Model Building",
+    "label": "Model Building",
+    "value": "resume:Model Building"
+   },
+   {
+    "id": "resume:Strategic Finance",
+    "label": "Strategic Finance",
+    "value": "resume:Strategic Finance"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "manager": true,
@@ -324,7 +324,7 @@
   "jobId": "6234231004",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1872434390343, 'matchScore': 0, 'ageScore': 0.9872434390343364, 'richnessScore': 2}",
+  "scores": "{'score': 1001.182943691792, 'matchScore': 0, 'ageScore': 0.9829436917920524, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

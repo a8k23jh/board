@@ -1,7 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-26T00:28:41Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.firstround.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-10-26T06:26:28Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -43,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "d0u3NrkSjt\u2026",
+  "session.sig": "wDy3jCMkBl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -128,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzIyMmU0YjAzOTZhMjQxMDc2ZWRiZjc4NzY3NmJmNjEiLCAic2NvcmUiOiAwLjk5NTc0MzYzNjg5MTk3NTR9"
+   "sequence": "eyJfaWQiOiAiYzIyMmU0YjAzOTZhMjQxMDc2ZWRiZjc4NzY3NmJmNjEiLCAic2NvcmUiOiAwLjk5MjA4MTQ4ODUyMDA2MTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -156,127 +155,138 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Serval/ce9fd975-957b-42e2-9837-75fd87b4333a?utm_source=jobs.firstround.com",
-  "companyDomain": "serval.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d777c777f21f635fa2b513de602489ce_240_160?Expires=1861920000&Signature=SPreRMoaotnvWijsm5IPy0g-DCZeMMFja-0vgDhzmjpuqiLcPDbjg",
-  "companyId": "Serval",
-  "companySlug": "serval",
-  "companyName": "Serval",
-  "companyStaffCount": 161,
+  "applyUrl": "https://jobs.ashbyhq.com/alt/67faa0cc-173a-4788-a9a8-255b836e424d?utm_source=jobs.firstround.com",
+  "companyDomain": "onlyalt.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/77c49c4db0a319853c305659e46a8052_96_160?Expires=1861920000&Signature=VrZb~n5ph5JXC1VcExkCTB7Sal5krbgQsS5mQABu0gBP-cJvCDDrDo",
+  "companyId": "Alt",
+  "companySlug": "alt",
+  "companyName": "Alt",
+  "companyStaffCount": 179,
   "considerHosted": false,
   "departments": [
-   "Marketing"
+   "Product and Data"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "researcher",
+    "label": "Researcher",
+    "value": "researcher"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
+   }
+  ],
   "locations": [
-   "San Francisco, California, United States",
-   "San Francisco"
+   "New York, New York, United States",
+   "Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 185000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Natural Language Processing",
-    "label": "Natural Language Processing",
-    "value": "resume:Natural Language Processing"
+    "id": "resume:Market Pricing",
+    "label": "Market Pricing",
+    "value": "resume:Market Pricing"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Corporate Events",
-    "label": "Corporate Events",
-    "value": "resume:Corporate Events"
+    "id": "resume:Stripe",
+    "label": "Stripe",
+    "value": "resume:Stripe"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Natural Language Processing",
-    "label": "Natural Language Processing",
-    "value": "resume:Natural Language Processing"
+    "id": "resume:Market Pricing",
+    "label": "Market Pricing",
+    "value": "resume:Market Pricing"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Corporate Events",
-    "label": "Corporate Events",
-    "value": "resume:Corporate Events"
+    "id": "resume:Stripe",
+    "label": "Stripe",
+    "value": "resume:Stripe"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:EMEA",
-    "label": "EMEA",
-    "value": "resume:EMEA"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Budgeting",
-    "label": "Budgeting",
-    "value": "resume:Budgeting"
+    "id": "resume:Vault",
+    "label": "Vault",
+    "value": "resume:Vault"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [],
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -294,39 +304,39 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-10-24T00:00:00Z",
-  "title": "Head of Global Events",
-  "url": "https://jobs.ashbyhq.com/Serval/ce9fd975-957b-42e2-9837-75fd87b4333a",
-  "jobId": "ce9fd975-957b-42e2-9837-75fd87b4333a",
-  "remote": false,
+  "timeStamp": "2026-10-25T00:00:00Z",
+  "title": "Staff Quantitative Researcher, Pricing",
+  "url": "https://jobs.ashbyhq.com/alt/67faa0cc-173a-4788-a9a8-255b836e424d",
+  "jobId": "67faa0cc-173a-4788-a9a8-255b836e424d",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1380773841393, 'matchScore': 0, 'ageScore': 0.9380773841392747, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1677519037983, 'matchScore': 0, 'ageScore': 0.9677519037982253, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
