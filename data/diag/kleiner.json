@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-26T14:24:35Z",
+ "run": "2026-10-26T20:36:56Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"540b62689ce08382aa442e732a15fb00e2d09126\",\"date\":\"2026-10-26T00:27:58.402Z\"},\"server\":{\"git\":\"540b62689ce08382aa442e732a15fb00e2d09126\",\"date\":\"2026-10-26T00:27:58.402Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"293bb749f89ea137f9a9352f2b5a0ca71eb657c0\",\"date\":\"2026-10-26T18:09:23.957Z\"},\"server\":{\"git\":\"293bb749f89ea137f9a9352f2b5a0ca71eb657c0\",\"date\":\"2026-10-26T18:09:23.957Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "-kYm14Xleq\u2026",
+  "session.sig": "nFScDjBAQf\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGU2OTBkZGY3ZWE2ODdmOTg4MjU4YTBjNjk3MGEyYWYiLCAic2NvcmUiOiAxLjAxNjgxMDMwODgzMDYzMjh9"
+   "sequence": "eyJfaWQiOiAiZWE4NmU4NWZkNmEyMjE2NmIwZmEwNmI4YzdjMWNlMWIiLCAic2NvcmUiOiAxLjAwODk5NDk0MzI4OTM1Mn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,197 +144,107 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gomotive/jobs/8915912002",
-  "companyDomain": "gomotive.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/25a89ab129481325fdea0a8ec67db334_208_160?Expires=1861920000&Signature=FOVx4pqYXCuvScQi9jIt1h-cXgKWHgmbuXcTtciYMPrORXx90yBOk",
-  "companyId": "Motive",
-  "companySlug": "motive",
-  "companyName": "Motive",
-  "companyStaffCount": 6461,
+  "applyUrl": "https://jobs.ashbyhq.com/Flock%20Safety/41d8346f-af31-42c3-89d2-6eb5243915de?utm_source=jobs.kleinerperkins.com",
+  "companyDomain": "flocksafety.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/aa375f8c0f7dc12ea9f1e5f32302bad4_320_160?Expires=1861920000&Signature=qLs7L7sxf9ZijGakjlgf0buZ8EqmoZoeVECib7KzjASVg~vpfskDv",
+  "companyId": "Flock Safety",
+  "companySlug": "flock-safety",
+  "companyName": "Flock Safety",
+  "companyStaffCount": 1432,
   "considerHosted": false,
   "departments": [
-   "Security"
+   "Delivery"
   ],
-  "jobTypes": [
-   {
-    "id": "security-engineer",
-    "label": "Security Engineer",
-    "value": "security-engineer"
-   },
-   {
-    "id": "hardware-engineer",
-    "label": "Hardware Engineer",
-    "value": "hardware-engineer"
-   },
-   {
-    "id": "security-professional",
-    "label": "Security Professional",
-    "value": "security-professional"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "Hybrid - Austin, Texas",
-   "Hybrid - Buffalo, New York",
-   "Hybrid - Nashville, Tennessee",
-   "Hybrid - San Francisco, California",
-   "Hybrid - Seattle"
+   "United States",
+   "Remote - USA"
   ],
   "normalizedLocations": [
    {
-    "id": "Nashville, Tennessee",
-    "label": "Nashville, Tennessee",
-    "value": "Nashville, Tennessee"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "Buffalo/Niagara, New York Area",
-    "label": "Buffalo/Niagara, New York Area",
-    "value": "Buffalo/Niagara, New York Area"
-   },
-   {
-    "id": "Austin, Texas",
-    "label": "Austin, Texas",
-    "value": "Austin, Texas"
-   },
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 205000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 40000, 'maxValue': 50000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Design Patterns",
-    "label": "Design Patterns",
-    "value": "resume:Design Patterns"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Cloud Security",
-    "label": "Cloud Security",
-    "value": "resume:Cloud Security"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Web Application Security",
-    "label": "Application Security",
-    "value": "resume:Web Application Security"
+    "id": "resume:Agency Coordination",
+    "label": "Agency Coordination",
+    "value": "resume:Agency Coordination"
    },
    {
-    "id": "resume:Optics",
-    "label": "Optics",
-    "value": "resume:Optics"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Design Patterns",
-    "label": "Design Patterns",
-    "value": "resume:Design Patterns"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Cloud Security",
-    "label": "Cloud Security",
-    "value": "resume:Cloud Security"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Web Application Security",
-    "label": "Application Security",
-    "value": "resume:Web Application Security"
+    "id": "resume:Agency Coordination",
+    "label": "Agency Coordination",
+    "value": "resume:Agency Coordination"
    },
    {
-    "id": "resume:Optics",
-    "label": "Optics",
-    "value": "resume:Optics"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
-  "minYearsExp": 5,
+  "considerLevels": [],
   "regions": [
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -342,27 +252,28 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Logistics and Supply Chain",
-    "label": "Logistics and Supply Chain",
-    "value": "Logistics and Supply Chain"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-10-25T21:20:20Z",
-  "title": "Security Engineer, Device/Hardware",
-  "url": "https://job-boards.greenhouse.io/gomotive/jobs/8915912002",
-  "jobId": "8915912002",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.18035476272, 'matchScore': 0, 'ageScore': 0.9803547627199074, 'richnessScore': 2}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Public Safety",
+    "label": "Public Safety",
+    "value": "Public Safety"
+   }
+  ],
+  "timeStamp": "2026-10-26T00:00:00Z",
+  "title": "811 Operator",
+  "url": "https://jobs.ashbyhq.com/Flock%20Safety/41d8346f-af31-42c3-89d2-6eb5243915de",
+  "jobId": "41d8346f-af31-42c3-89d2-6eb5243915de",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1761339549, 'matchScore': 0, 'ageScore': 0.9761339549000771, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

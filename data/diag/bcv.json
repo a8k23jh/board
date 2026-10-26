@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-26T14:24:35Z",
+ "run": "2026-10-26T20:36:56Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"540b62689ce08382aa442e732a15fb00e2d09126\",\"date\":\"2026-10-26T00:27:58.402Z\"},\"server\":{\"git\":\"540b62689ce08382aa442e732a15fb00e2d09126\",\"date\":\"2026-10-26T00:27:58.402Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"293bb749f89ea137f9a9352f2b5a0ca71eb657c0\",\"date\":\"2026-10-26T18:09:23.957Z\"},\"server\":{\"git\":\"293bb749f89ea137f9a9352f2b5a0ca71eb657c0\",\"date\":\"2026-10-26T18:09:23.957Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "IJN99eqinb\u2026",
+  "session.sig": "DAc30RfAVi\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjkyNWFlOTVkZjYxZmU0M2YxYjQyN2UxOTMyNTY4NTMiLCAic2NvcmUiOiAxLjA0Mzg5NzU4MDUyNzAwNjN9"
+   "sequence": "eyJfaWQiOiAiNmM0M2QxODk2NGM5NzQ3YjJmNGM2NjQ3ZTlhZDViY2MiLCAic2NvcmUiOiAxLjA2ODE2NTE0OTA2MTcyODN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,38 +152,38 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/wisetack/jobs/4746675005",
-  "companyDomain": "wisetack.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c48faff9d58fcdd36e14658d8b4c16e4_320_160?Expires=1861920000&Signature=LaMiChq7Bdx96hmYFqfVDcS1PHvu6NR43mkDAvzOBpRo4-Xg~WsEP",
-  "companyId": "Wisetack",
-  "companySlug": "wisetack",
-  "companyName": "Wisetack",
-  "companyStaffCount": 132,
+  "applyUrl": "https://boards.greenhouse.io/justworks/jobs/8265612?gh_jid=8265612",
+  "companyDomain": "justworks.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/53b0732e2508296561b7994e981e9873_256_160?Expires=1861920000&Signature=jpUYCUzpRAbunynZAa39zYnehCkOtBPQxtKwFu~wstUHTfmFkK59E",
+  "companyId": "Justworks",
+  "companySlug": "justworks",
+  "companyName": "Justworks",
+  "companyStaffCount": 1669,
   "considerHosted": false,
   "departments": [
-   "Customer Experience"
+   "Customer Success"
   ],
   "jobTypes": [
    {
-    "id": "customer-support",
-    "label": "Customer Support",
-    "value": "customer-support"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    },
    {
-    "id": "freelance",
-    "label": "Contractor",
-    "value": "freelance"
+    "id": "customer-onboarding",
+    "label": "Customer Onboarding",
+    "value": "customer-onboarding"
    }
   ],
   "jobFunctions": [
@@ -194,162 +194,159 @@
    }
   ],
   "locations": [
-   "Remote, USA"
+   "New York, New York"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 25, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 109000, 'maxValue': 136000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Follow through",
-    "label": "Follow through",
-    "value": "resume:Follow through"
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Relationship Management",
+    "label": "Relationship Management",
+    "value": "resume:Relationship Management"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Process Optimization",
+    "label": "Process Optimization",
+    "value": "resume:Process Optimization"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Follow through",
-    "label": "Follow through",
-    "value": "resume:Follow through"
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Relationship Management",
+    "label": "Relationship Management",
+    "value": "resume:Relationship Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Process Optimization",
+    "label": "Process Optimization",
+    "value": "resume:Process Optimization"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
+    "id": "resume:Post-sales",
+    "label": "Post-sales",
+    "value": "resume:Post-sales"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
-  "contractor": true,
+  "contractor": false,
   "considerLevels": [
-   [
-    1,
-    2
-   ],
    [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Financial Services",
-    "label": "Financial Services",
-    "value": "Financial Services"
+    "id": "Future of Work",
+    "label": "Future of Work",
+    "value": "Future of Work"
    },
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-10-23T18:53:47Z",
-  "title": "Customer Experience Associate I (Part-Time)",
-  "url": "https://job-boards.greenhouse.io/wisetack/jobs/4746675005",
-  "jobId": "4746675005",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1099480238283, 'matchScore': 0, 'ageScore': 0.9099480238283179, 'richnessScore': 2}",
+  "timeStamp": "2026-10-26T10:01:40Z",
+  "title": "Manager, Customer Onboarding",
+  "url": "https://boards.greenhouse.io/justworks/jobs/8265612?gh_jid=8265612",
+  "jobId": "8265612",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1893104329043, 'matchScore': 0, 'ageScore': 0.989310432904321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "junior",
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },

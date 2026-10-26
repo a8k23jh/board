@@ -1,6 +1,6 @@
 {
  "board": "8vc",
- "run": "2026-10-26T14:24:35Z",
+ "run": "2026-10-26T20:36:56Z",
  "attempts": [
   {
    "url": "https://jobs.8vc.com/jobs?q=chief+of+staff",
@@ -83,24 +83,30 @@
   {
    "url": "https://jobs.8vc.com/jobs?q=revenue+operations",
    "status": 200,
-   "bytes": 168062,
-   "jobs_parsed": 0
+   "bytes": 400285,
+   "jobs_parsed": 20
+  },
+  {
+   "url": "https://jobs.8vc.com/jobs?q=revenue+operations&page=2",
+   "status": 200,
+   "bytes": 400296,
+   "jobs_parsed": 20
   },
   {
    "url": "https://jobs.8vc.com/jobs?q=special+projects",
    "status": 200,
-   "bytes": 379648,
+   "bytes": 379642,
    "jobs_parsed": 20
   },
   {
    "url": "https://jobs.8vc.com/jobs?q=special+projects&page=2",
    "status": 200,
-   "bytes": 379659,
+   "bytes": 379653,
    "jobs_parsed": 20
   }
  ],
  "parse_health": {
-  "jobs": 142,
-  "without_location": 10
+  "jobs": 158,
+  "without_location": 11
  }
 }

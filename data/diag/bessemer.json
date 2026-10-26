@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-26T14:24:35Z",
+ "run": "2026-10-26T20:36:56Z",
  "homepage": {
   "status": 200,
   "bytes": 21383
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"540b62689ce08382aa442e732a15fb00e2d09126\",\"date\":\"2026-10-26T00:27:58.402Z\"},\"server\":{\"git\":\"540b62689ce08382aa442e732a15fb00e2d09126\",\"date\":\"2026-10-26T00:27:58.402Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"293bb749f89ea137f9a9352f2b5a0ca71eb657c0\",\"date\":\"2026-10-26T18:09:23.957Z\"},\"server\":{\"git\":\"293bb749f89ea137f9a9352f2b5a0ca71eb657c0\",\"date\":\"2026-10-26T18:09:23.957Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "UxFx237KwA\u2026",
+  "session.sig": "oByg5KFZ8n\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjI0MWEwZWU4OGUyYzU0OWFiNGJkMmJmZDM4YmY0ZTQiLCAic2NvcmUiOiAxLjA1OTkxNzcyMTg1MDMwODZ9"
+   "sequence": "eyJfaWQiOiAiYWE2YTdmMmRmMGIxZTQyOTVkNzMzMzU3NWNhZmU1NmEiLCAic2NvcmUiOiAxLjA2NzczNTY4NTExNTM1NX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,33 +152,31 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/d865c821-9a27-416c-9c6a-14132a86f760?utm_source=jobs.bvp.com",
-  "companyDomain": "perplexity.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
-  "companyId": "Perplexity AI",
-  "companySlug": "perplexity-ai",
-  "companyName": "Perplexity AI",
-  "companyStaffCount": 1415,
+  "applyUrl": "https://in.linkedin.com/jobs/view/senior-qa-engineer-implementation-at-leena-ai-4483540781",
+  "companyDomain": "leena.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/fec667faa149a2f082dd8ef66d8ca919_240_160?Expires=1861920000&Signature=OPINVi7ATMsUJkFABt1H8VhLGxrmwcj0ab4177qEYs2Mm5cd2WGfl",
+  "companyId": "Leena AI",
+  "companySlug": "leena-ai",
+  "companyName": "Leena AI",
+  "companyStaffCount": 323,
   "considerHosted": false,
-  "departments": [
-   "AI Research & Systems"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "qa-engineer",
+    "label": "QA Engineer",
+    "value": "qa-engineer"
    }
   ],
   "jobFunctions": [
@@ -189,81 +187,91 @@
    }
   ],
   "locations": [
-   "San Francisco, California, United States",
-   "San Francisco"
+   "Gurugram, IN"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Gurgaon, Haryana, India",
+    "label": "Gurgaon, Haryana, India",
+    "value": "Gurgaon, Haryana, India"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 1000000, 'maxValue': 1900000, 'currency': {'label': 'INR', 'value': 'INR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
+    "id": "resume:Jenkins",
+    "label": "Jenkins",
+    "value": "resume:Jenkins"
    },
    {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
+    "id": "resume:TestNG",
+    "label": "TestNG",
+    "value": "resume:TestNG"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:API Testing",
+    "label": "API Testing",
+    "value": "resume:API Testing"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Selenium",
+    "label": "Selenium",
+    "value": "resume:Selenium"
    },
    {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
+    "id": "resume:Jenkins",
+    "label": "Jenkins",
+    "value": "resume:Jenkins"
    },
    {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
+    "id": "resume:TestNG",
+    "label": "TestNG",
+    "value": "resume:TestNG"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:API Testing",
+    "label": "API Testing",
+    "value": "resume:API Testing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Selenium",
+    "label": "Selenium",
+    "value": "resume:Selenium"
    },
    {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Github",
+    "label": "Github",
+    "value": "resume:Github"
+   },
+   {
+    "id": "resume:Continuous Delivery",
+    "label": "Continuous Delivery",
+    "value": "resume:Continuous Delivery"
+   },
+   {
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
-   [
-    1,
-    2
-   ],
    [
     3,
     4
@@ -275,28 +283,24 @@
   ],
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Asia Pacific",
+    "label": "Asia Pacific",
+    "value": "Asia Pacific"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
     "id": "AI",
@@ -304,13 +308,13 @@
     "value": "AI"
    }
   ],
-  "timeStamp": "2026-10-26T00:00:00Z",
-  "title": "Member of Technical Staff (AI Software Engineer, Agent Engine)",
-  "url": "https://jobs.ashbyhq.com/Perplexity/d865c821-9a27-416c-9c6a-14132a86f760",
-  "jobId": "d865c821-9a27-416c-9c6a-14132a86f760",
+  "timeStamp": "2026-10-26T11:17:53Z",
+  "title": "Senior QA Engineer - Implementation",
+  "url": "https://in.linkedin.com/jobs/view/senior-qa-engineer-implementation-at-leena-ai-4483540781",
+  "jobId": "4483540781",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1845511249711, 'matchScore': 0, 'ageScore': 0.9845511249710648, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1915083968565, 'matchScore': 0, 'ageScore': 0.9915083968564815, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -318,16 +322,10 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

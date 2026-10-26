@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-26T14:24:35Z",
+ "run": "2026-10-26T20:36:56Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"540b62689ce08382aa442e732a15fb00e2d09126\",\"date\":\"2026-10-26T00:27:58.402Z\"},\"server\":{\"git\":\"540b62689ce08382aa442e732a15fb00e2d09126\",\"date\":\"2026-10-26T00:27:58.402Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"293bb749f89ea137f9a9352f2b5a0ca71eb657c0\",\"date\":\"2026-10-26T18:09:23.957Z\"},\"server\":{\"git\":\"293bb749f89ea137f9a9352f2b5a0ca71eb657c0\",\"date\":\"2026-10-26T18:09:23.957Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "yPd-jxdGz7\u2026",
+  "session.sig": "h8-a4NFqlG\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzcxMjM4ZTM3ODk4ZjA3MDljZjFmMjIyZmI3NzkwNjgiLCAic2NvcmUiOiAxLjA3MzU5NjA2NzIzMzQxMDR9"
+   "sequence": "eyJfaWQiOiAiYTZiODAzYjA5NDRmNDNkOWNjNmZmNGY5MjBjN2QzYmIiLCAic2NvcmUiOiAxLjA3MDY2NDIxMTUwMzQ3MjF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,27 +128,27 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/d865c821-9a27-416c-9c6a-14132a86f760?utm_source=careers.ivp.com",
-  "companyDomain": "perplexity.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
-  "companyId": "Perplexity AI",
-  "companySlug": "perplexity-ai",
-  "companyName": "Perplexity AI",
-  "companyStaffCount": 1415,
+  "applyUrl": "http://www.circleci.com/careers/jobs/8882264002/?gh_jid=8882264002",
+  "companyDomain": "circleci.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a772b16008e6e7046492388e9d850a7e_240_160?Expires=1861920000&Signature=TyGm8IOj77e-7sLq1uzayyGGywVO1X0ZBBfLtDAP7WJRhPquh7fRX",
+  "companyId": "CircleCI",
+  "companySlug": "circleci",
+  "companyName": "CircleCI",
+  "companyStaffCount": 360,
   "considerHosted": false,
   "departments": [
-   "AI Research & Systems"
+   "Engineering"
   ],
   "jobTypes": [
    {
@@ -165,71 +165,85 @@
    }
   ],
   "locations": [
-   "San Francisco, California, United States",
-   "San Francisco"
+   "Remote, Canada (EST) OR Remote, UK"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Canada",
+    "label": "Canada",
+    "value": "Canada"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 195000, 'maxValue': 265000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
-   },
-   {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
-   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    },
    {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
+    "id": "resume:Posters",
+    "label": "Posters",
+    "value": "resume:Posters"
+   },
+   {
+    "id": "resume:Microsoft Certified Professional",
+    "label": "Microsoft Certified Professional",
+    "value": "resume:Microsoft Certified Professional"
+   },
+   {
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
-   },
-   {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
-   },
-   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
+   },
+   {
+    "id": "resume:Posters",
+    "label": "Posters",
+    "value": "resume:Posters"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Microsoft Certified Professional",
+    "label": "Microsoft Certified Professional",
+    "value": "resume:Microsoft Certified Professional"
    },
    {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
+   },
+   {
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
+   },
+   {
+    "id": "resume:Developer Experience",
+    "label": "Developer Experience",
+    "value": "resume:Developer Experience"
+   },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "manager": false,
@@ -237,56 +251,49 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
    }
   ],
-  "timeStamp": "2026-10-26T00:00:00Z",
-  "title": "Member of Technical Staff (AI Software Engineer, Agent Engine)",
-  "url": "https://jobs.ashbyhq.com/Perplexity/d865c821-9a27-416c-9c6a-14132a86f760",
-  "jobId": "d865c821-9a27-416c-9c6a-14132a86f760",
-  "remote": false,
+  "timeStamp": "2026-10-26T10:39:03Z",
+  "title": "Staff Software Engineer, Delivery Engineering",
+  "url": "http://www.circleci.com/careers/jobs/8882264002/?gh_jid=8882264002",
+  "jobId": "8882264002",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1845511249711, 'matchScore': 0, 'ageScore': 0.9845511249710648, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1905200648106, 'matchScore': 0, 'ageScore': 0.990520064810571, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -294,16 +301,10 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
