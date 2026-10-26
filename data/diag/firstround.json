@@ -1,6 +1,7 @@
 {
  "board": "firstround",
- "run": "2026-10-25T21:55:02Z",
+ "run": "2026-10-26T00:28:41Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.firstround.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -37,12 +38,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"},\"server\":{\"git\":\"2e6b2efde317c3e4dffbd265b983a05fd5a31943\",\"date\":\"2026-10-25T21:12:38.287Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"540b62689ce08382aa442e732a15fb00e2d09126\",\"date\":\"2026-10-26T00:27:58.402Z\"},\"server\":{\"git\":\"540b62689ce08382aa442e732a15fb00e2d09126\",\"date\":\"2026-10-26T00:27:58.402Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "HVqKOOnLno\u2026",
+  "session.sig": "d0u3NrkSjt\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -326,5 +327,6 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
