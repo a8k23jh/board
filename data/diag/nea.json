@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-10-26T06:26:28Z",
+ "run": "2026-10-26T14:24:35Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TiOc81qV4K\u2026",
+  "session.sig": "4N7d7ucXYe\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODZlMWQyNGMxZTY3M2ZhODhjYTRmMDA0NDVmMTc4YWYiLCAic2NvcmUiOiAxLjA2NzYwNDAzMzAwMjcwMDZ9"
+   "sequence": "eyJfaWQiOiAiZTAxZGIxNzgzNGFmMTA2ODdhOGQ5ZDY0ZTIzMjc0ZWUiLCAic2NvcmUiOiAxLjA1MDkwMzUyMzMwNDc4Mzl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,65 +136,45 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/assembledhq/c29dfb9f-a0ed-4757-984b-a018ed32f97c?utm_source=careers.nea.com",
-  "companyDomain": "assembled.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/5325970ff1b9b50f2b1dbd7049fc5ea0_320_160?Expires=1861920000&Signature=PjvburmRJe~0n4WcySnLHD8yikD6zfXzjGGX6A9Spuw6H6KWGoNuN",
-  "companyId": "Assembled",
-  "companySlug": "assembled",
-  "companyName": "Assembled",
-  "companyStaffCount": 132,
+  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/d865c821-9a27-416c-9c6a-14132a86f760?utm_source=careers.nea.com",
+  "companyDomain": "perplexity.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
+  "companyId": "Perplexity AI",
+  "companySlug": "perplexity-ai",
+  "companyName": "Perplexity AI",
+  "companyStaffCount": 1415,
   "considerHosted": false,
   "departments": [
-   "Marketing"
+   "AI Research & Systems"
   ],
   "jobTypes": [
    {
-    "id": "marketing-acquisition",
-    "label": "Marketing Acquisition",
-    "value": "marketing-acquisition"
-   },
-   {
-    "id": "marketing-growth",
-    "label": "Marketing Growth",
-    "value": "marketing-growth"
-   },
-   {
-    "id": "user-marketing",
-    "label": "Growth Manager",
-    "value": "user-marketing"
-   },
-   {
-    "id": "marketing-engagement",
-    "label": "Marketing Engagement",
-    "value": "marketing-engagement"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
    "San Francisco, California, United States",
-   "San Francisco, CA"
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
@@ -203,61 +183,17 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Customer Marketing",
-    "label": "Customer Marketing",
-    "value": "resume:Customer Marketing"
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    },
    {
-    "id": "resume:Stripe",
-    "label": "Stripe",
-    "value": "resume:Stripe"
-   },
-   {
-    "id": "resume:Federal Government",
-    "label": "Federal Government",
-    "value": "resume:Federal Government"
-   },
-   {
-    "id": "resume:Growth Marketing",
-    "label": "Growth Marketing",
-    "value": "resume:Growth Marketing"
-   },
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Customer Marketing",
-    "label": "Customer Marketing",
-    "value": "resume:Customer Marketing"
-   },
-   {
-    "id": "resume:Stripe",
-    "label": "Stripe",
-    "value": "resume:Stripe"
-   },
-   {
-    "id": "resume:Federal Government",
-    "label": "Federal Government",
-    "value": "resume:Federal Government"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Growth Marketing",
-    "label": "Growth Marketing",
-    "value": "resume:Growth Marketing"
-   },
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -265,26 +201,63 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Product Marketing",
-    "label": "Product Marketing",
-    "value": "resume:Product Marketing"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:SDR",
-    "label": "SDR",
-    "value": "resume:SDR"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    }
   ],
-  "manager": true,
+  "requiredSkills": [
+   {
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
+   },
+   {
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
+   }
+  ],
+  "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
@@ -294,51 +267,51 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
-  "timeStamp": "2026-10-25T00:00:00Z",
-  "title": "Head of Growth Marketing",
-  "url": "https://jobs.ashbyhq.com/assembledhq/c29dfb9f-a0ed-4757-984b-a018ed32f97c",
-  "jobId": "c29dfb9f-a0ed-4757-984b-a018ed32f97c",
+  "timeStamp": "2026-10-26T00:00:00Z",
+  "title": "Member of Technical Staff (AI Software Engineer, Agent Engine)",
+  "url": "https://jobs.ashbyhq.com/Perplexity/d865c821-9a27-416c-9c6a-14132a86f760",
+  "jobId": "d865c821-9a27-416c-9c6a-14132a86f760",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1678965261196, 'matchScore': 0, 'ageScore': 0.9678965261195988, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1845511249711, 'matchScore': 0, 'ageScore': 0.9845511249710648, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
