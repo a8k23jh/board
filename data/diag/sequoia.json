@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-27T00:36:00Z",
+ "run": "2026-10-27T06:25:37Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "AfXBUrNYo-\u2026",
+  "session.sig": "f13s7ETCpD\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTNjODY3YWUzYTMxNWZlYzYyMzM1Yjg4M2VlZjlhNTMiLCAic2NvcmUiOiAxLjA3MTk0ODUxODEwMTA4MDJ9"
+   "sequence": "eyJfaWQiOiAiYWI3M2JlNjBmNzk1ZWQyMWNkZTY2Y2RkY2M2M2Y2NTkiLCAic2NvcmUiOiAxLjA4NjM3NzU2ODExOTU5ODh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,44 +144,54 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8303511",
-  "companyDomain": "reddit.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
-  "companyId": "Reddit",
-  "companySlug": "reddit",
-  "companyName": "reddit",
-  "companyStaffCount": 4495,
+  "applyUrl": "https://jobs.lever.co/captivateiq/7eeba044-5350-427e-bfc4-af60d5679645?lever-source%5B%5D=jobs.sequoiacap.com",
+  "companyDomain": "captivateiq.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/38cc60bf74d750e14fddc734b5c7ffb0_320_160?Expires=1861920000&Signature=hH3yceFmYb4gL3iy~giCkiv46duW7sycYRGlOCXAzTpoY29ejKDu4",
+  "companyId": "CaptivateIQ",
+  "companySlug": "captivateiq",
+  "companyName": "CaptivateIQ",
+  "companyStaffCount": 284,
   "considerHosted": false,
   "departments": [
-   "User Experience"
+   "Marketing"
   ],
   "jobTypes": [
    {
-    "id": "ux-designer",
-    "label": "UX Designer",
-    "value": "ux-designer"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
+   },
+   {
+    "id": "gtm",
+    "label": "GTM",
+    "value": "gtm"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Design",
-    "label": "Design",
-    "value": "Design"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "Remote - United States"
+   "Remote USA"
   ],
   "normalizedLocations": [
    {
@@ -190,91 +200,82 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 317000, 'maxValue': 443800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Personalization",
-    "label": "Personalization",
-    "value": "resume:Personalization"
+    "id": "resume:AES",
+    "label": "AES",
+    "value": "resume:AES"
    },
    {
-    "id": "resume:Information Architecture",
-    "label": "Information Architecture",
-    "value": "resume:Information Architecture"
+    "id": "resume:Sales Compensation",
+    "label": "Sales Compensation",
+    "value": "resume:Sales Compensation"
    },
    {
-    "id": "resume:Recording",
-    "label": "Recording",
-    "value": "resume:Recording"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
     "id": "resume:Marketing",
     "label": "Marketing",
     "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Sales Performance",
+    "label": "Sales Performance",
+    "value": "resume:Sales Performance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Personalization",
-    "label": "Personalization",
-    "value": "resume:Personalization"
+    "id": "resume:AES",
+    "label": "AES",
+    "value": "resume:AES"
    },
    {
-    "id": "resume:Information Architecture",
-    "label": "Information Architecture",
-    "value": "resume:Information Architecture"
+    "id": "resume:Sales Compensation",
+    "label": "Sales Compensation",
+    "value": "resume:Sales Compensation"
    },
    {
-    "id": "resume:Recording",
-    "label": "Recording",
-    "value": "resume:Recording"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    }
   ],
   "preferredSkills": [
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
    {
     "id": "resume:Marketing",
     "label": "Marketing",
     "value": "resume:Marketing"
    },
    {
-    "id": "resume:Contractors",
-    "label": "Contractors",
-    "value": "resume:Contractors"
+    "id": "resume:Sales Performance",
+    "label": "Sales Performance",
+    "value": "resume:Sales Performance"
    },
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Marketing Operations",
+    "label": "Marketing Operations",
+    "value": "resume:Marketing Operations"
    },
    {
-    "id": "resume:Ranking",
-    "label": "Ranking",
-    "value": "resume:Ranking"
+    "id": "resume:Sales Operations",
+    "label": "Sales Operations",
+    "value": "resume:Sales Operations"
+   },
+   {
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
+  "considerLevels": [],
   "regions": [
    {
     "id": "North America",
@@ -284,41 +285,42 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Consumer",
-    "label": "Consumer",
-    "value": "Consumer"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Social Networking",
-    "label": "Social Networking",
-    "value": "Social Networking"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-10-26T12:09:06Z",
-  "title": "Senior Director of Design, Search & Feeds",
-  "url": "https://job-boards.greenhouse.io/reddit/jobs/8303511",
-  "jobId": "8303511",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
+   }
+  ],
+  "timeStamp": "2026-10-26T20:44:40.915000Z",
+  "title": "GTM Engineer",
+  "url": "https://jobs.lever.co/captivateiq/7eeba044-5350-427e-bfc4-af60d5679645",
+  "jobId": "7eeba044-5350-427e-bfc4-af60d5679645",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1880425868696, 'matchScore': 0, 'ageScore': 0.9880425868695988, 'richnessScore': 2}",
+  "scores": "{'score': 1001.195939844451, 'matchScore': 0, 'ageScore': 0.995939844451003, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "mid"
   ],
   "isFeatured": false
  },
