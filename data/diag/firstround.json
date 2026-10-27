@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-27T18:49:16Z",
+ "run": "2026-10-27T23:00:18Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"6464f24743d466f3a0d58b5191561523f1139e98\",\"date\":\"2026-10-27T16:14:26.899Z\"},\"server\":{\"git\":\"6464f24743d466f3a0d58b5191561523f1139e98\",\"date\":\"2026-10-27T16:14:26.899Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f2fff2ff77b9640f580afb9e70b6782e17684a97\",\"date\":\"2026-10-27T18:37:31.721Z\"},\"server\":{\"git\":\"f2fff2ff77b9640f580afb9e70b6782e17684a97\",\"date\":\"2026-10-27T18:37:31.721Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "kU7Siuoafn\u2026",
+  "session.sig": "lZX8pF06xZ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTc1YmQ4NmM2MDg2NThkNzc0ZjBlYWY4MzIzOWZlNmUiLCAic2NvcmUiOiAwLjk3NTI4ODc4MTg3MTE0Mn0="
+   "sequence": "eyJfaWQiOiAiZTJhNjZkNjllNWUyMDFjYzg0ZjI5ZmYxMWIxNDIwZTEiLCAic2NvcmUiOiAwLjk3MTIxNjkyMDQ0MDk3MjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -198,58 +198,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 60900, 'maxValue': 76100, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
-   },
-   {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
-   },
-   {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
-   },
-   {
-    "id": "resume:Licensing",
-    "label": "Licensing",
-    "value": "resume:Licensing"
-   },
-   {
-    "id": "resume:MRP",
-    "label": "MRP",
-    "value": "resume:MRP"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
-   },
-   {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
-   },
-   {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Licensing",
-    "label": "Licensing",
-    "value": "resume:Licensing"
-   },
-   {
-    "id": "resume:MRP",
-    "label": "MRP",
-    "value": "resume:MRP"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    },
    {
     "id": "resume:CPIM",
@@ -257,14 +208,63 @@
     "value": "resume:CPIM"
    },
    {
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
+   },
+   {
+    "id": "resume:NetSuite",
+    "label": "NetSuite",
+    "value": "resume:NetSuite"
+   },
+   {
+    "id": "resume:German",
+    "label": "German",
+    "value": "resume:German"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:Logistics",
     "label": "Logistics",
     "value": "resume:Logistics"
    },
    {
-    "id": "resume:PCBA",
-    "label": "PCBA",
-    "value": "resume:PCBA"
+    "id": "resume:CPIM",
+    "label": "CPIM",
+    "value": "resume:CPIM"
+   },
+   {
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:NetSuite",
+    "label": "NetSuite",
+    "value": "resume:NetSuite"
+   },
+   {
+    "id": "resume:German",
+    "label": "German",
+    "value": "resume:German"
+   },
+   {
+    "id": "resume:Licensing",
+    "label": "Licensing",
+    "value": "resume:Licensing"
+   },
+   {
+    "id": "resume:Electromechanics",
+    "label": "Electromechanics",
+    "value": "resume:Electromechanics"
+   },
+   {
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    }
   ],
   "manager": false,
@@ -283,14 +283,14 @@
   "minYearsExp": 2,
   "regions": [
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
-   },
-   {
     "id": "Western Europe",
     "label": "Western Europe",
     "value": "Western Europe"
+   },
+   {
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
@@ -319,7 +319,7 @@
   "jobId": "8289157",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1881997331045, 'matchScore': 0, 'ageScore': 0.9881997331045524, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1849392021307, 'matchScore': 0, 'ageScore': 0.984939202130787, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-27T18:49:16Z",
+ "run": "2026-10-27T23:00:18Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"6464f24743d466f3a0d58b5191561523f1139e98\",\"date\":\"2026-10-27T16:14:26.899Z\"},\"server\":{\"git\":\"6464f24743d466f3a0d58b5191561523f1139e98\",\"date\":\"2026-10-27T16:14:26.899Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f2fff2ff77b9640f580afb9e70b6782e17684a97\",\"date\":\"2026-10-27T18:37:31.721Z\"},\"server\":{\"git\":\"f2fff2ff77b9640f580afb9e70b6782e17684a97\",\"date\":\"2026-10-27T18:37:31.721Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "XiI0g1C8b_\u2026",
+  "session.sig": "Cr8VFjo7d0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYmIxNzYxMjc3MjQxNjk5M2YyNzZmNzU4ZWQ5ZjkxM2QiLCAic2NvcmUiOiAxLjE0NjYxMzI0NTA1OTAyNzh9"
+   "sequence": "eyJfaWQiOiAiNzg2MGMyODk2NGU1NDhmMWY4NjA4ZmM0YzU5ZmMxOTIiLCAic2NvcmUiOiAxLjEzODc1ODczNjA0MzIwOTl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,114 +144,127 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8249/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3466,
+  "applyUrl": "https://job-boards.greenhouse.io/grafanalabs/jobs/6236204004",
+  "companyDomain": "grafana.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/32a90dde8d44051d64fa600f3d9b65c2_320_160?Expires=1861920000&Signature=QLDDUpzbhHfSLkiSts7c3p9gH6wI54LzqzfhnFpekGZchlhjTA1t0",
+  "companyId": "Grafana Labs",
+  "companySlug": "grafana-labs",
+  "companyName": "Grafana Labs",
+  "companyStaffCount": 1909,
   "considerHosted": false,
-  "departments": [],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "departments": [
+   "Solutions Engineering (North & South America)"
+  ],
+  "jobTypes": [
+   {
+    "id": "sales-engineer",
+    "label": "Sales Engineer",
+    "value": "sales-engineer"
+   },
+   {
+    "id": "solutions-architect",
+    "label": "Solutions Architect",
+    "value": "solutions-architect"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Burnaby, BC, Canada",
-   "Infoblox Canada Ltd, BURNABY, CA"
+   "United States (Remote)"
   ],
   "normalizedLocations": [
    {
-    "id": "Canada",
-    "label": "Canada",
-    "value": "Canada"
-   },
-   {
-    "id": "Burnaby, British Columbia, Canada",
-    "label": "Burnaby, British Columbia, Canada",
-    "value": "Burnaby, British Columbia, Canada"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 58900, 'maxValue': 84920, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 182000, 'maxValue': 226000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Knowledge Management",
+    "label": "Knowledge Management",
+    "value": "resume:Knowledge Management"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    },
    {
-    "id": "resume:IT Ops",
-    "label": "IT Ops",
-    "value": "resume:IT Ops"
+    "id": "resume:Post-sales",
+    "label": "Post-sales",
+    "value": "resume:Post-sales"
    },
    {
-    "id": "resume:Business Intelligence",
-    "label": "Business Intelligence",
-    "value": "resume:Business Intelligence"
+    "id": "resume:Grafana",
+    "label": "Grafana",
+    "value": "resume:Grafana"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Knowledge Management",
+    "label": "Knowledge Management",
+    "value": "resume:Knowledge Management"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:IT Ops",
-    "label": "IT Ops",
-    "value": "resume:IT Ops"
+    "id": "resume:Post-sales",
+    "label": "Post-sales",
+    "value": "resume:Post-sales"
    },
    {
-    "id": "resume:Business Intelligence",
-    "label": "Business Intelligence",
-    "value": "resume:Business Intelligence"
+    "id": "resume:Grafana",
+    "label": "Grafana",
+    "value": "resume:Grafana"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Technical Presales",
+    "label": "Technical Presales",
+    "value": "resume:Technical Presales"
    },
    {
-    "id": "resume:Business Strategy",
-    "label": "Business Strategy",
-    "value": "resume:Business Strategy"
+    "id": "resume:Technical Presentations",
+    "label": "Technical Communication",
+    "value": "resume:Technical Presentations"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Creative Solutions",
+    "label": "Creative Solutions",
+    "value": "resume:Creative Solutions"
    }
   ],
   "manager": false,
@@ -259,14 +272,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
@@ -279,22 +293,28 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
    }
   ],
-  "timeStamp": "2026-10-27T08:57:33Z",
-  "title": "AI Solution Specialist",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8249/",
-  "jobId": "8249",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1925981505124, 'matchScore': 0, 'ageScore': 0.9925981505123457, 'richnessScore': 2}",
+  "timeStamp": "2026-10-27T11:10:07Z",
+  "title": "Solutions Engineer | PST or EST US | Remote",
+  "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6236204004",
+  "jobId": "6236204004",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1875548978392, 'matchScore': 0, 'ageScore': 0.9875548978391203, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
