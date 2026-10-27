@@ -1,6 +1,6 @@
 {
  "board": "initialized",
- "run": "2026-10-26T20:36:56Z",
+ "run": "2026-10-27T00:36:00Z",
  "homepage": {
   "status": 200,
   "bytes": 20921
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "neshVJWVaa\u2026",
+  "session.sig": "g-K2UN_e_7\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzk1N2NkZmM3NmQ0YTJmM2M3OTZjYWIwMjQyM2QxZjYiLCAic2NvcmUiOiAxMDAuMjQyODYzNDg1ODgzMX0="
+   "sequence": "eyJfaWQiOiAiMzk1N2NkZmM3NmQ0YTJmM2M3OTZjYWIwMjQyM2QxZjYiLCAic2NvcmUiOiAxMDAuMjMzNzY2NTY3NTQzMjF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -185,14 +185,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 210000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Active Directory",
-    "label": "Active Directory",
-    "value": "resume:Active Directory"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
    },
    {
-    "id": "resume:Firewalls",
-    "label": "Firewalls",
-    "value": "resume:Firewalls"
+    "id": "resume:Access Control",
+    "label": "Access Control",
+    "value": "resume:Access Control"
+   },
+   {
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
    },
    {
     "id": "resume:Networking",
@@ -200,21 +205,33 @@
     "value": "resume:Networking"
    },
    {
-    "id": "resume:DNS",
-    "label": "DNS",
-    "value": "resume:DNS"
-   },
-   {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Firewalls",
+    "label": "Firewalls",
+    "value": "resume:Firewalls"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Active Directory",
-    "label": "Active Directory",
-    "value": "resume:Active Directory"
+    "id": "resume:Storage",
+    "label": "Storage",
+    "value": "resume:Storage"
+   },
+   {
+    "id": "resume:Access Control",
+    "label": "Access Control",
+    "value": "resume:Access Control"
+   },
+   {
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
     "id": "resume:Firewalls",
@@ -222,36 +239,19 @@
     "value": "resume:Firewalls"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:DNS",
-    "label": "DNS",
-    "value": "resume:DNS"
-   },
-   {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
-   },
-   {
-    "id": "resume:Group Policy",
-    "label": "Group Policy",
-    "value": "resume:Group Policy"
-   },
-   {
-    "id": "resume:Power Distribution",
-    "label": "Power Distribution",
-    "value": "resume:Power Distribution"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
     "id": "resume:Virtualization",
     "label": "Virtualization",
     "value": "resume:Virtualization"
+   },
+   {
+    "id": "resume:Group Policy",
+    "label": "Group Policy",
+    "value": "resume:Group Policy"
    }
   ],
   "manager": false,
@@ -269,9 +269,9 @@
   ],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -279,9 +279,9 @@
     "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -310,7 +310,7 @@
   "jobId": "4463523009",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1101.1070863886207, 'matchScore': 0, 'ageScore': 0.9070863886207562, 'richnessScore': 2}",
+  "scores": "{'score': 1101.0983479783965, 'matchScore': 0, 'ageScore': 0.898347978396605, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

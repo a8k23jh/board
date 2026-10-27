@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-26T20:36:56Z",
+ "run": "2026-10-27T00:36:00Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "nB7dnph_pY\u2026",
+  "session.sig": "ZYkh4npQr_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjBmM2ViYzcyYmFhZjI1MmIzOWQwOWEyOTAzMjk5M2IiLCAic2NvcmUiOiAwLjk2NjYxNzI3MTQ3ODM5NTJ9"
+   "sequence": "eyJfaWQiOiAiYzIyMmU0YjAzOTZhMjQxMDc2ZWRiZjc4NzY3NmJmNjEiLCAic2NvcmUiOiAwLjk2MzE5NDg2MjU1NTU1NTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -180,14 +180,14 @@
   ],
   "jobFunctions": [
    {
-    "id": "Administrative",
-    "label": "Administrative",
-    "value": "Administrative"
-   },
-   {
     "id": "Business Development",
     "label": "Business Development",
     "value": "Business Development"
+   },
+   {
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
    }
   ],
   "locations": [
@@ -203,19 +203,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 115000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Operations Management",
-    "label": "Operations Management",
-    "value": "resume:Operations Management"
-   },
-   {
-    "id": "resume:Performance Management",
-    "label": "Performance Management",
-    "value": "resume:Performance Management"
-   },
-   {
     "id": "resume:Compliance",
     "label": "Compliance",
     "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
    },
    {
     "id": "resume:Productivity Software",
@@ -223,38 +218,43 @@
     "value": "resume:Productivity Software"
    },
    {
-    "id": "resume:KPI Dashboards",
-    "label": "KPI Dashboards",
-    "value": "resume:KPI Dashboards"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
+   },
+   {
+    "id": "resume:Operations Management",
+    "label": "Operations Management",
+    "value": "resume:Operations Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Operations Management",
-    "label": "Operations Management",
-    "value": "resume:Operations Management"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
+   {
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
+   },
+   {
+    "id": "resume:Productivity Software",
+    "label": "Productivity Software",
+    "value": "resume:Productivity Software"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Performance Management",
     "label": "Performance Management",
     "value": "resume:Performance Management"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Productivity Software",
-    "label": "Productivity Software",
-    "value": "resume:Productivity Software"
-   },
-   {
-    "id": "resume:KPI Dashboards",
-    "label": "KPI Dashboards",
-    "value": "resume:KPI Dashboards"
+    "id": "resume:Operations Management",
+    "label": "Operations Management",
+    "value": "resume:Operations Management"
    },
    {
     "id": "resume:Logistics",
@@ -278,14 +278,9 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "Mid Atlantic",
@@ -293,9 +288,14 @@
     "value": "Mid Atlantic"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -329,24 +329,24 @@
   "jobId": "6234429004",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1913288936913, 'matchScore': 0, 'ageScore': 0.991328893691358, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1870189143125, 'matchScore': 0, 'ageScore': 0.9870189143125, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "junior",
-   "mid"
+   "mid",
+   "junior"
   ],
   "isFeatured": false
  },
