@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-27T13:22:51Z",
+ "run": "2026-10-27T18:49:16Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"293bb749f89ea137f9a9352f2b5a0ca71eb657c0\",\"date\":\"2026-10-26T18:09:23.957Z\"},\"server\":{\"git\":\"293bb749f89ea137f9a9352f2b5a0ca71eb657c0\",\"date\":\"2026-10-26T18:09:23.957Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"6464f24743d466f3a0d58b5191561523f1139e98\",\"date\":\"2026-10-27T16:14:26.899Z\"},\"server\":{\"git\":\"6464f24743d466f3a0d58b5191561523f1139e98\",\"date\":\"2026-10-27T16:14:26.899Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "tWLC0xxqsK\u2026",
+  "session.sig": "kdppPhLw2V\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGFkNTE0NmJhZmU3M2IzMTc0Y2U5NThkMWRlYjgxZDgiLCAic2NvcmUiOiAxLjAxNzM2MzE2ODA3MjUzMDh9"
+   "sequence": "eyJfaWQiOiAiNWY0Y2VlYTQ1N2U3NmVhYjI3NmJiMzNiNWQ3N2I5Y2IiLCAic2NvcmUiOiAxLjAzNzU3MzkzOTE2MDQ5NH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,114 +144,122 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://settle.applytojob.com/apply/bC5zzDfG4q/Senior-Factoring-Underwriter-Credit-Specialist",
-  "companyDomain": "settle.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8084d3507b9f743131d20f4c9a6e0124_208_160?Expires=1861920000&Signature=l5hVDR2ndhoG0Qk98YWk~iJm3HWi1RBDFjNAPYsDgS2IuQ~h~Qypf",
-  "companyId": "Settle",
-  "companySlug": "settle",
-  "companyName": "Settle",
-  "companyStaffCount": 67,
+  "applyUrl": "https://jobs.lever.co/CesiumAstro/c3fa451b-8b01-49e8-ab4e-3656da59e5f0?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "companyDomain": "cesiumastro.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
+  "companyId": "CesiumAstro",
+  "companySlug": "cesiumastro",
+  "companyName": "CesiumAstro",
+  "companyStaffCount": 452,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Security & IT"
+  ],
   "jobTypes": [
    {
-    "id": "underwriter",
-    "label": "Underwriter",
-    "value": "underwriter"
+    "id": "it-engineer",
+    "label": "IT Support Engineer",
+    "value": "it-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "(Multiple States), United States"
+   "Melbourne, FL"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Melbourne, Florida",
+    "label": "Melbourne, Florida",
+    "value": "Melbourne, Florida"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 95000, 'maxValue': 119000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 32, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Underwriting",
-    "label": "Underwriting",
-    "value": "resume:Underwriting"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Taxes",
-    "label": "Taxes",
-    "value": "resume:Taxes"
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    },
    {
-    "id": "resume:Cash Flow",
-    "label": "Cash Flow",
-    "value": "resume:Cash Flow"
+    "id": "resume:MIS",
+    "label": "MIS",
+    "value": "resume:MIS"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Underwriting",
-    "label": "Underwriting",
-    "value": "resume:Underwriting"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Taxes",
-    "label": "Taxes",
-    "value": "resume:Taxes"
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Cash Flow",
-    "label": "Cash Flow",
-    "value": "resume:Cash Flow"
+    "id": "resume:MIS",
+    "label": "MIS",
+    "value": "resume:MIS"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Conflict Resolution",
-    "label": "Conflict Resolution",
-    "value": "resume:Conflict Resolution"
+    "id": "resume:Software Licensing",
+    "label": "Software Licensing",
+    "value": "resume:Software Licensing"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
+    "id": "resume:Technical Support",
+    "label": "Technical Support",
+    "value": "resume:Technical Support"
    }
   ],
   "manager": false,
@@ -267,46 +275,73 @@
     4
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 2,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "South Atlantic",
+    "label": "South Atlantic",
+    "value": "South Atlantic"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-10-26T23:58:19Z",
-  "title": "Senior Factoring Underwriter & Credit Specialist",
-  "url": "https://settle.applytojob.com/apply/bC5zzDfG4q/Senior-Factoring-Underwriter-Credit-Specialist",
-  "jobId": "job_20261026214350_DNAISWGQMVVLANNR",
+  "timeStamp": "2026-10-27T12:50:35.094000Z",
+  "title": "IT Support Technician II",
+  "url": "https://jobs.lever.co/CesiumAstro/c3fa451b-8b01-49e8-ab4e-3656da59e5f0",
+  "jobId": "c3fa451b-8b01-49e8-ab4e-3656da59e5f0",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1844350367446, 'matchScore': 0, 'ageScore': 0.9844350367445988, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1931046845891, 'matchScore': 0, 'ageScore': 0.9931046845891204, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid",
+   "junior"
   ],
   "isFeatured": false
  },
