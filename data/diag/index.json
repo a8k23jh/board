@@ -1,6 +1,6 @@
 {
  "board": "index",
- "run": "2026-10-27T06:25:37Z",
+ "run": "2026-10-27T13:22:51Z",
  "attempts": [
   {
    "url": "https://indexventures.getro.com/jobs?q=chief+of+staff",
@@ -23,53 +23,61 @@
   {
    "url": "https://indexventures.getro.com/jobs?q=strategy",
    "status": 200,
-   "bytes": 279797,
+   "bytes": 281453,
    "jobs_parsed": 20
   },
   {
    "url": "https://indexventures.getro.com/jobs?q=strategy&page=2",
    "status": 200,
-   "bytes": 279808,
+   "bytes": 281464,
    "jobs_parsed": 20
   },
   {
    "url": "https://indexventures.getro.com/jobs?q=operations",
-   "error": "Response ended prematurely"
+   "status": 200,
+   "bytes": 267311,
+   "jobs_parsed": 20
+  },
+  {
+   "url": "https://indexventures.getro.com/jobs?q=operations&page=2",
+   "status": 200,
+   "bytes": 267322,
+   "jobs_parsed": 20
   },
   {
    "url": "https://indexventures.getro.com/jobs?q=founder",
    "status": 200,
-   "bytes": 242724,
+   "bytes": 242713,
    "jobs_parsed": 20
   },
   {
    "url": "https://indexventures.getro.com/jobs?q=founder&page=2",
    "status": 200,
-   "bytes": 242735,
+   "bytes": 242724,
    "jobs_parsed": 20
   },
   {
    "url": "https://indexventures.getro.com/jobs?q=corporate+development",
    "status": 200,
-   "bytes": 290993,
+   "bytes": 291012,
    "jobs_parsed": 18
   },
   {
    "url": "https://indexventures.getro.com/jobs?q=corporate+development&page=2",
    "status": 200,
-   "bytes": 291004,
+   "bytes": 291023,
    "jobs_parsed": 18
   },
   {
    "url": "https://indexventures.getro.com/jobs?q=general+manager",
    "status": 200,
-   "bytes": 282556,
+   "bytes": 282571,
    "jobs_parsed": 19
   },
   {
    "url": "https://indexventures.getro.com/jobs?q=general+manager&page=2",
    "status": 200,
-   "bytes": 282567,
+   "bytes": 282582,
    "jobs_parsed": 19
   },
   {
@@ -98,7 +106,7 @@
   }
  ],
  "parse_health": {
-  "jobs": 140,
-  "without_location": 25
+  "jobs": 157,
+  "without_location": 26
  }
 }

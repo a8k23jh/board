@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-27T06:25:37Z",
+ "run": "2026-10-27T13:22:51Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "oF79rw2BRG\u2026",
+  "session.sig": "ldQlwE85Nj\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzFhZmE5ZGYxZmEwYzYxNTIzYzRmNjRmNjc1NzZmOWQiLCAic2NvcmUiOiAxLjAwMDgwMzIwNzUxMTE4ODN9"
+   "sequence": "eyJfaWQiOiAiMDM4ZjFhZjI5ODAyMTAxNjIyZGI0YzdjOGZjYTkyNTIiLCAic2NvcmUiOiAxLjAxMjIwNDkzNTE0MzEzMjh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,119 +136,131 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/armada/jobs/5461308008",
-  "companyDomain": "armada.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/96b4183f47851cbe49f6b95bb18f933c_288_160?Expires=1861920000&Signature=maVuyV3FhLi7ghABOQLqxyAD8f5TPJ-cmh9~U-Ov1N-nIGHJw5TL1",
-  "companyId": "Armada",
-  "companySlug": "armada",
-  "companyName": "Armada",
-  "companyStaffCount": 615,
+  "applyUrl": "https://jobs.ashbyhq.com/Crusoe/dd7e2ce3-0726-4b19-8978-531874ddce91?utm_source=jobs.felicis.com",
+  "companyDomain": "crusoe.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/83e047ed53d48955e1e39bdd6f3f660f_256_160?Expires=1861920000&Signature=r2eU4jRX2uOXV1AaZbtY7Z5mnhoWhTY0I1PFAYujsp5lQ9CiX1iiB",
+  "companyId": "Crusoe",
+  "companySlug": "crusoe",
+  "companyName": "Crusoe",
+  "companyStaffCount": 1693,
   "considerHosted": false,
   "departments": [
-   "Hardware Design Engineering"
+   "Employee Relations"
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "human-resources",
+    "label": "HR",
+    "value": "human-resources"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
+   }
+  ],
   "locations": [
-   "United States (Remote)"
+   "San Francisco, California, USA",
+   "San Francisco, CA - US"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 163040, 'maxValue': 203800, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 215000, 'maxValue': 295000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
    },
    {
-    "id": "resume:Change Control",
-    "label": "Change Control",
-    "value": "resume:Change Control"
+    "id": "resume:Business Strategy",
+    "label": "Business Strategy",
+    "value": "resume:Business Strategy"
    },
    {
-    "id": "resume:IL5",
-    "label": "IL5",
-    "value": "resume:IL5"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Business Acumen",
-    "label": "Business Acumen",
-    "value": "resume:Business Acumen"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
+   },
+   {
+    "id": "resume:Business Strategy",
+    "label": "Business Strategy",
+    "value": "resume:Business Strategy"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
     "id": "resume:Infrastructure",
     "label": "Infrastructure",
     "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Change Control",
-    "label": "Change Control",
-    "value": "resume:Change Control"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:IL5",
-    "label": "IL5",
-    "value": "resume:IL5"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    }
   ],
-  "preferredSkills": [
-   {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
-   },
-   {
-    "id": "resume:Business Acumen",
-    "label": "Business Acumen",
-    "value": "resume:Business Acumen"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Intelligence Community",
-    "label": "Intelligence Community",
-    "value": "resume:Intelligence Community"
-   },
-   {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   }
-  ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -261,8 +273,18 @@
     8
    ]
   ],
-  "minYearsExp": 12,
+  "minYearsExp": 10,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -271,17 +293,11 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
     "id": "AI",
@@ -289,45 +305,29 @@
     "value": "AI"
    },
    {
-    "id": "Cloud Services",
-    "label": "Cloud Services",
-    "value": "Cloud Services"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Energy",
+    "label": "Energy",
+    "value": "Energy"
    }
   ],
-  "timeStamp": "2026-10-26T18:03:25Z",
-  "title": "Infrastructure Lead, DoD / DoW",
-  "url": "https://job-boards.greenhouse.io/armada/jobs/5461308008",
-  "jobId": "5461308008",
-  "remote": true,
+  "timeStamp": "2026-10-27T00:00:00Z",
+  "title": "Director, People Success - Corporate",
+  "url": "https://jobs.ashbyhq.com/Crusoe/dd7e2ce3-0726-4b19-8978-531874ddce91",
+  "jobId": "dd7e2ce3-0726-4b19-8978-531874ddce91",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1929267684009, 'matchScore': 0, 'ageScore': 0.9929267684008488, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1845297533032, 'matchScore': 0, 'ageScore': 0.9845297533032408, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "director"
   ],
   "isFeatured": false
  },

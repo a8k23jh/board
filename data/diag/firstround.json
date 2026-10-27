@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-27T06:25:37Z",
+ "run": "2026-10-27T13:22:51Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "PpXJWv2ZoY\u2026",
+  "session.sig": "NBnRQXozmn\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDQ2OGMyNDQyNDQ1ZDQzMWI2MDVkOTM5NDliN2Q4NzYiLCAic2NvcmUiOiAwLjk2Njk5MzE4NTk4NDE4Mn0="
+   "sequence": "eyJfaWQiOiAiYTc1YmQ4NmM2MDg2NThkNzc0ZjBlYWY4MzIzOWZlNmUiLCAic2NvcmUiOiAwLjk4Mzk4MTczNDIzNDE4MjF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -138,7 +138,6 @@
    "companyLogos",
    "companyName",
    "companySlug",
-   "companyStaffCount",
    "considerHosted",
    "considerLevels",
    "consultant",
@@ -149,39 +148,50 @@
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/planetlabs/jobs/8255987",
-  "companyDomain": "planet.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/81daece2b738e7da2b2f0d7cb6f3cb9b_240_160?Expires=1861920000&Signature=i69ljP0imOrwJp3yJ28r~12-MqQGYr4EnAbq4LoC51M-tB-p~Bgmk",
-  "companyId": "Planet",
-  "companySlug": "planet",
-  "companyName": "Planet",
-  "companyStaffCount": 1748,
+  "applyUrl": "https://jobs.ashbyhq.com/town/85a2aff9-06ba-4244-a56e-0546bc969d8b?utm_source=jobs.firstround.com",
+  "companyDomain": "town.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a3e139f2dc0ceb6fbf344d52ed0df6c6_144_160?Expires=1861920000&Signature=s~xaxcqZwuiHWRybHxq1zJJBIWaatoqYQl5OO3HSmGgs1fFpq7ipw",
+  "companyId": "Town",
+  "companySlug": "town",
+  "companyName": "Town",
   "considerHosted": false,
   "departments": [
-   "Data Science & Insights"
+   "Business"
   ],
   "jobTypes": [
    {
-    "id": "data-analyst",
-    "label": "Data Analyst",
-    "value": "data-analyst"
+    "id": "marketing-brand-creative",
+    "label": "Marketing Brand Creative",
+    "value": "marketing-brand-creative"
+   },
+   {
+    "id": "executive-producer",
+    "label": "Executive Producer",
+    "value": "executive-producer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Analyst",
-    "label": "Analyst",
-    "value": "Analyst"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   },
+   {
+    "id": "Design",
+    "label": "Design",
+    "value": "Design"
    }
   ],
   "locations": [
-   "San Francisco, CA"
+   "San Francisco, California, United States",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
@@ -190,88 +200,67 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 114200, 'maxValue': 142700, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Marketing Operations",
+    "label": "Marketing Operations",
+    "value": "resume:Marketing Operations"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
+    "id": "resume:Budgeting",
+    "label": "Budgeting",
+    "value": "resume:Budgeting"
    },
    {
-    "id": "resume:Language Models",
-    "label": "Language Models",
-    "value": "resume:Language Models"
+    "id": "resume:Legal Writing",
+    "label": "Legal Writing",
+    "value": "resume:Legal Writing"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Marketing Operations",
+    "label": "Marketing Operations",
+    "value": "resume:Marketing Operations"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
+    "id": "resume:Budgeting",
+    "label": "Budgeting",
+    "value": "resume:Budgeting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Language Models",
-    "label": "Language Models",
-    "value": "resume:Language Models"
+    "id": "resume:Legal Writing",
+    "label": "Legal Writing",
+    "value": "resume:Legal Writing"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   },
-   {
-    "id": "resume:version control systems",
-    "label": "Version Control Systems",
-    "value": "resume:version control systems"
-   },
-   {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
-   },
-   {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ]
-  ],
-  "minYearsExp": 4,
+  "considerLevels": [],
   "regions": [
    {
     "id": "West Coast",
@@ -291,31 +280,26 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
-  "timeStamp": "2026-10-26T15:15:43Z",
-  "title": "Data Analyst - Cloud Financial Operations",
-  "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8255987",
-  "jobId": "8255987",
+  "timeStamp": "2026-10-27T00:00:00Z",
+  "title": "Executive Producer, Brand Ops",
+  "url": "https://jobs.ashbyhq.com/town/85a2aff9-06ba-4244-a56e-0546bc969d8b",
+  "jobId": "85a2aff9-06ba-4244-a56e-0546bc969d8b",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1884084956138, 'matchScore': 0, 'ageScore': 0.9884084956138117, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1838769407045, 'matchScore': 0, 'ageScore': 0.9838769407044753, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

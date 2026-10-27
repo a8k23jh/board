@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-27T06:25:37Z",
+ "run": "2026-10-27T13:22:51Z",
  "homepage": {
   "status": 200,
   "bytes": 21383
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "MiDqsCZzT7\u2026",
+  "session.sig": "ozc0RoUbaq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDJkODhkYWI5MGYxNWQwMTdmNzZhMWE0NDVkYWZjZDciLCAic2NvcmUiOiAxLjA2NzQ2MzQ0NTU4OTEyMDN9"
+   "sequence": "eyJfaWQiOiAiOTk0YWNmM2EyYjU3MTJhZWRmZWIyMmE3NWQ3ZDMyNGQiLCAic2NvcmUiOiAxLjA2NTkxMzY2MjgyMzMwMjR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,114 +152,123 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0ec91009-ea18-462b-8742-ee7f8eaaca1c&ccId=19000101_000001&source=CC2&lang=en_US&jobId=599449",
-  "companyDomain": "seismictx.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2031dcaaa1d94ee77c020180ad390794_256_160?Expires=1861920000&Signature=I-sNI2sHk84gykLbWFlamTBf5PHget7yIroEdsDf3xbdfvjfxT7u2",
-  "companyId": "Seismic Therapeutic",
-  "companySlug": "seismic-therapeutic",
-  "companyName": "Seismic Therapeutic",
-  "companyStaffCount": 55,
+  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/3f0dc0ad-aa9a-4cd8-aa75-245112f3b2de?utm_source=jobs.bvp.com",
+  "companyDomain": "perplexity.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
+  "companyId": "Perplexity AI",
+  "companySlug": "perplexity-ai",
+  "companyName": "Perplexity AI",
+  "companyStaffCount": 1415,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "AI Research & Systems"
+  ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "engineering-manager",
+    "label": "Engineering Manager",
+    "value": "engineering-manager"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   " Watertown, MA, US"
+   "San Francisco, California, United States",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Massachusetts",
-    "label": "Massachusetts",
-    "value": "Massachusetts"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 195000, 'maxValue': 195000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 300000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Biopharmaceuticals",
-    "label": "Biopharmaceuticals",
-    "value": "resume:Biopharmaceuticals"
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
    },
    {
-    "id": "resume:Fusion",
-    "label": "Fusion",
-    "value": "resume:Fusion"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    },
    {
-    "id": "resume:Pharmaceutical Sciences",
-    "label": "Pharmaceutical Sciences",
-    "value": "resume:Pharmaceutical Sciences"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Monoclonal antibodies",
-    "label": "Monoclonal antibodies",
-    "value": "resume:Monoclonal antibodies"
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    },
    {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Biopharmaceuticals",
-    "label": "Biopharmaceuticals",
-    "value": "resume:Biopharmaceuticals"
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
    },
    {
-    "id": "resume:Fusion",
-    "label": "Fusion",
-    "value": "resume:Fusion"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    },
    {
-    "id": "resume:Pharmaceutical Sciences",
-    "label": "Pharmaceutical Sciences",
-    "value": "resume:Pharmaceutical Sciences"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Monoclonal antibodies",
-    "label": "Monoclonal antibodies",
-    "value": "resume:Monoclonal antibodies"
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    },
    {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Collaborative Leadership",
-    "label": "Collaborative Leadership",
-    "value": "resume:Collaborative Leadership"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Clinical Development",
-    "label": "Clinical Development",
-    "value": "resume:Clinical Development"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:FDA",
-    "label": "FDA",
-    "value": "resume:FDA"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    }
   ],
   "manager": true,
@@ -275,17 +284,17 @@
     8
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 8,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -295,42 +304,42 @@
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Biotech/Pharma",
-    "label": "Biotech/Pharma",
-    "value": "Biotech/Pharma"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
-  "timeStamp": "2026-10-26T21:13:00Z",
-  "title": "Director / Senior Director, Analytical Develo",
-  "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0ec91009-ea18-462b-8742-ee7f8eaaca1c&ccId=19000101_000001&source=CC2&lang=en_US&jobId=599449",
-  "jobId": "599449",
+  "timeStamp": "2026-10-27T00:00:00Z",
+  "title": "Engineering Manager (Agent Engine)",
+  "url": "https://jobs.ashbyhq.com/Perplexity/3f0dc0ad-aa9a-4cd8-aa75-245112f3b2de",
+  "jobId": "3f0dc0ad-aa9a-4cd8-aa75-245112f3b2de",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1962802261528, 'matchScore': 0, 'ageScore': 0.9962802261527778, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1841516815031, 'matchScore': 0, 'ageScore': 0.9841516815030864, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "mid",
+   "manager"
   ],
   "isFeatured": false
  },
