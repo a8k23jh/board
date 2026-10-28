@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-28T16:43:38Z",
+ "run": "2026-10-28T21:45:07Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "f__FPp1G3J\u2026",
+  "session.sig": "vtEx2wi4Xk\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTU3MjZhNDI2NWNlNzkwNjFiNTFmYTExOTE1MGE0YTEiLCAic2NvcmUiOiAxLjExMjg2MzAzODU1MjA4MzJ9"
+   "sequence": "eyJfaWQiOiAiNWIwZDMwODc4NmQ4MzgwYmM2ODBkMWQ3ZmY5ZmRkNTkiLCAic2NvcmUiOiAxLjEwNDc4ODE2NDgxNDgxNDh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,117 +152,125 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Crusoe/4c5de99e-87e0-4269-acf4-505c5d5b9d2b?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "crusoe.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/83e047ed53d48955e1e39bdd6f3f660f_256_160?Expires=1861920000&Signature=r2eU4jRX2uOXV1AaZbtY7Z5mnhoWhTY0I1PFAYujsp5lQ9CiX1iiB",
-  "companyId": "Crusoe",
-  "companySlug": "crusoe",
-  "companyName": "Crusoe",
-  "companyStaffCount": 1693,
+  "applyUrl": "https://www.workatastartup.com/jobs/106407",
+  "companyDomain": "youshift.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a2abf3bb68bc45adff727dbca49769fa_240_160?Expires=1861920000&Signature=hV18wPPkyItUG-p-3xWC2MGgJZYZnzwx1DDfKYHgEKJqhpfw2yiaj",
+  "companyId": "YouShift",
+  "companySlug": "youshift",
+  "companyName": "YouShift",
+  "companyStaffCount": 17,
   "considerHosted": false,
-  "departments": [
-   "Technical Program Management"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "technical-program-manager",
-    "label": "Technical Program Manager",
-    "value": "technical-program-manager"
+    "id": "business-development",
+    "label": "Business Development Professional",
+    "value": "business-development"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   },
+   {
+    "id": "Business Development",
+    "label": "Business Development",
+    "value": "Business Development"
+   }
+  ],
   "locations": [
-   "San Francisco, California, USA",
-   "San Francisco, CA - US"
+   "New York, NY, US / Remote (US)"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Incident Response",
-    "label": "Incident Response",
-    "value": "resume:Incident Response"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:High Availability",
-    "label": "High Availability",
-    "value": "resume:High Availability"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    },
    {
-    "id": "resume:Incident Management",
-    "label": "Incident Management",
-    "value": "resume:Incident Management"
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
    },
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Incident Response",
-    "label": "Incident Response",
-    "value": "resume:Incident Response"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:High Availability",
-    "label": "High Availability",
-    "value": "resume:High Availability"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Incident Management",
-    "label": "Incident Management",
-    "value": "resume:Incident Management"
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
    },
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:SLA",
-    "label": "SLA",
-    "value": "resume:SLA"
+    "id": "resume:Apollo",
+    "label": "Apollo",
+    "value": "resume:Apollo"
    },
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    }
   ],
   "manager": false,
@@ -270,66 +278,76 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
-    "id": "Energy",
-    "label": "Energy",
-    "value": "Energy"
+    "id": "Seed funded",
+    "label": "Seed",
+    "value": "Seed funded"
    }
   ],
-  "timeStamp": "2026-10-28T00:00:00Z",
-  "title": "Staff Technical Program Manager, Cloud Availability",
-  "url": "https://jobs.ashbyhq.com/Crusoe/4c5de99e-87e0-4269-acf4-505c5d5b9d2b",
-  "jobId": "4c5de99e-87e0-4269-acf4-505c5d5b9d2b",
-  "remote": false,
+  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
+  "markets": [
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
+   }
+  ],
+  "timeStamp": "2026-10-27T23:57:15Z",
+  "title": "Founding Business Development Representative",
+  "url": "https://www.workatastartup.com/jobs/106407",
+  "jobId": "106407",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1802125384429, 'matchScore': 0, 'ageScore': 0.9802125384429012, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1719861336451, 'matchScore': 0, 'ageScore': 0.9719861336450617, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -337,7 +355,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid"
   ],
   "isFeatured": false

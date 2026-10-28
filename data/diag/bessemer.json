@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-28T16:43:38Z",
+ "run": "2026-10-28T21:45:07Z",
  "homepage": {
   "status": 200,
   "bytes": 21383
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "3LcHg_BJyI\u2026",
+  "session.sig": "rcb9d7GQcr\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTk5NDk1MDU0ZmMxODhmYTkxZDE2NTkzZTE4OGJiM2QiLCAic2NvcmUiOiAxLjExMjg1MTcyMTg2NDE5NzZ9"
+   "sequence": "eyJfaWQiOiAiY2JhYWQ3M2Q1YTYwM2Y5ZGIwOWQ1YTczYmI1Mzg0NTkiLCAic2NvcmUiOiAxLjEwNDU3NjY4NDgxOTQ0NDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,20 +163,27 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0ec91009-ea18-462b-8742-ee7f8eaaca1c&ccId=19000101_000001&source=CC2&lang=en_US&jobId=599522",
-  "companyDomain": "seismictx.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2031dcaaa1d94ee77c020180ad390794_256_160?Expires=1861920000&Signature=I-sNI2sHk84gykLbWFlamTBf5PHget7yIroEdsDf3xbdfvjfxT7u2",
-  "companyId": "Seismic Therapeutic",
-  "companySlug": "seismic-therapeutic",
-  "companyName": "Seismic Therapeutic",
-  "companyStaffCount": 55,
+  "applyUrl": "https://job-boards.greenhouse.io/bevicareers/jobs/4470486009",
+  "companyDomain": "bevi.co",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/739cc9a43e87a153bd75443f1b6c429b_176_160?Expires=1861920000&Signature=Bkvh-CqCZBnCet7MlCSg7tJdMKAEB3-8FulKMKBf9iPSRJL0uwiHp",
+  "companyId": "Bevi",
+  "companySlug": "bevi",
+  "companyName": "Bevi",
+  "companyStaffCount": 412,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Manufacturing & Quality"
+  ],
   "jobTypes": [
    {
-    "id": "biostatistician",
-    "label": "Bioinformatics",
-    "value": "biostatistician"
+    "id": "qa-director",
+    "label": "QA Director",
+    "value": "qa-director"
+   },
+   {
+    "id": "hardware-engineer",
+    "label": "Hardware Engineer",
+    "value": "hardware-engineer"
    },
    {
     "id": "people-manager",
@@ -184,9 +191,9 @@
     "value": "people-manager"
    },
    {
-    "id": "data-scientist",
-    "label": "Data Scientist",
-    "value": "data-scientist"
+    "id": "qa-engineer",
+    "label": "QA Engineer",
+    "value": "qa-engineer"
    }
   ],
   "jobFunctions": [
@@ -197,85 +204,85 @@
    }
   ],
   "locations": [
-   " Cambridge, MA, US"
+   "Boston"
   ],
   "normalizedLocations": [
    {
-    "id": "Cambridge, Massachusetts",
-    "label": "Cambridge, Massachusetts",
-    "value": "Cambridge, Massachusetts"
+    "id": "Greater Boston Area",
+    "label": "Boston",
+    "value": "Greater Boston Area"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 315000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 184620, 'maxValue': 184620, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:R",
-    "label": "R",
-    "value": "resume:R"
+    "id": "resume:Process Validation",
+    "label": "Process Validation",
+    "value": "resume:Process Validation"
    },
    {
-    "id": "resume:Statistics",
-    "label": "Statistics",
-    "value": "resume:Statistics"
+    "id": "resume:Reliability Engineering",
+    "label": "Reliability Engineering",
+    "value": "resume:Reliability Engineering"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Firmware",
+    "label": "Firmware",
+    "value": "resume:Firmware"
    },
    {
-    "id": "resume:EDC",
-    "label": "EDC",
-    "value": "resume:EDC"
+    "id": "resume:Electromechanics",
+    "label": "Electromechanics",
+    "value": "resume:Electromechanics"
    },
    {
-    "id": "resume:Budgeting",
-    "label": "Budgeting",
-    "value": "resume:Budgeting"
+    "id": "resume:Failure Mode and Effects Analysis (FMEA)",
+    "label": "Failure Mode and Effects Analysis (FMEA)",
+    "value": "resume:Failure Mode and Effects Analysis (FMEA)"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:R",
-    "label": "R",
-    "value": "resume:R"
+    "id": "resume:Process Validation",
+    "label": "Process Validation",
+    "value": "resume:Process Validation"
    },
    {
-    "id": "resume:Statistics",
-    "label": "Statistics",
-    "value": "resume:Statistics"
+    "id": "resume:Reliability Engineering",
+    "label": "Reliability Engineering",
+    "value": "resume:Reliability Engineering"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Firmware",
+    "label": "Firmware",
+    "value": "resume:Firmware"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:EDC",
-    "label": "EDC",
-    "value": "resume:EDC"
+    "id": "resume:Electromechanics",
+    "label": "Electromechanics",
+    "value": "resume:Electromechanics"
    },
    {
-    "id": "resume:Budgeting",
-    "label": "Budgeting",
-    "value": "resume:Budgeting"
+    "id": "resume:Failure Mode and Effects Analysis (FMEA)",
+    "label": "Failure Mode and Effects Analysis (FMEA)",
+    "value": "resume:Failure Mode and Effects Analysis (FMEA)"
    },
    {
-    "id": "resume:Clinical data",
-    "label": "Clinical data",
-    "value": "resume:Clinical data"
+    "id": "resume:Quality Management",
+    "label": "Quality Management",
+    "value": "resume:Quality Management"
    },
    {
-    "id": "resume:Data Integrity",
-    "label": "Data Integrity",
-    "value": "resume:Data Integrity"
+    "id": "resume:Internet of Things",
+    "label": "Internet of Things",
+    "value": "resume:Internet of Things"
    },
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Statistical Process Control",
+    "label": "SPC",
+    "value": "resume:Statistical Process Control"
    }
   ],
   "manager": true,
@@ -291,12 +298,12 @@
     8
    ]
   ],
-  "minYearsExp": 12,
+  "minYearsExp": 10,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "Northeast",
@@ -304,16 +311,16 @@
     "value": "Northeast"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -324,18 +331,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Biotech/Pharma",
-    "label": "Biotech/Pharma",
-    "value": "Biotech/Pharma"
+    "id": "Food & Beverages",
+    "label": "Food & Beverages",
+    "value": "Food & Beverages"
    }
   ],
-  "timeStamp": "2026-10-27T23:57:18Z",
-  "title": "Director / Senior Director, Biometrics & Data Science",
-  "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0ec91009-ea18-462b-8742-ee7f8eaaca1c&ccId=19000101_000001&source=CC2&lang=en_US&jobId=599522",
-  "jobId": "599522",
+  "timeStamp": "2026-10-28T08:34:44Z",
+  "title": "Director, Hardware Quality Engineering",
+  "url": "https://job-boards.greenhouse.io/bevicareers/jobs/4470486009",
+  "jobId": "4470486009",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1801678487859, 'matchScore': 0, 'ageScore': 0.9801678487858796, 'richnessScore': 2}",
+  "scores": "{'score': 1001.184017511248, 'matchScore': 0, 'ageScore': 0.984017511248071, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
