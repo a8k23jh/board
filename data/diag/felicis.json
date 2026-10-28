@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-27T23:00:18Z",
+ "run": "2026-10-28T02:25:37Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f2fff2ff77b9640f580afb9e70b6782e17684a97\",\"date\":\"2026-10-27T18:37:31.721Z\"},\"server\":{\"git\":\"f2fff2ff77b9640f580afb9e70b6782e17684a97\",\"date\":\"2026-10-27T18:37:31.721Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"},\"server\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "qR74RrqvXn\u2026",
+  "session.sig": "1idSnlEJKZ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmE3MDU5ZTg5MzYzYWIwYWU2YzhkMTM0NTA3M2E3ZGEiLCAic2NvcmUiOiAwLjk5NDkwNDQwNDk5MDM1NDh9"
+   "sequence": "eyJfaWQiOiAiZTQ5MmRjMDNhNGEyMGNlMjcyYjMwMjk3YWU4M2M2ZTkiLCAic2NvcmUiOiAxLjAwMDk2NTk5MzA3MjUzMDh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,38 +136,50 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/trueml/94019cbf-f05b-43b5-b959-ce6644999740?lever-source%5B%5D=jobs.felicis.com",
-  "companyDomain": "trueaccord.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c9edb03836701b289ad74041dec9066b_304_160?Expires=1861920000&Signature=N2vGIgXWhPMnC49BLkiaI~1SHShOeQaScF051Qr5QPSkH-ybkaEwN",
-  "companyId": "TrueAccord",
-  "companySlug": "trueaccord",
-  "companyName": "TrueAccord",
-  "companyStaffCount": 151,
+  "applyUrl": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8328776",
+  "companyDomain": "pindrop.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66db7ca011dabe5ff29c157b56a4251f_288_160?Expires=1861920000&Signature=l7jCjYdBtd-x9~FoRb61NXvycjznIWMO3dSQ1QJItmzYDl9x~JFGj",
+  "companyId": "Pindrop Security",
+  "companySlug": "pindrop-security",
+  "companyName": "Pindrop Security",
+  "companyStaffCount": 374,
   "considerHosted": false,
   "departments": [
-   "TrueAccord"
+   "Research"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
+   },
+   {
+    "id": "biotech-scientist",
+    "label": "Scientist",
+    "value": "biotech-scientist"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
+   }
+  ],
   "locations": [
-   "Remote in USA"
+   "US - Remote",
+   "US-Remote"
   ],
   "normalizedLocations": [
    {
@@ -176,91 +188,92 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 185000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Tableau",
-    "label": "Tableau",
-    "value": "resume:Tableau"
+    "id": "resume:ONNX",
+    "label": "ONNX",
+    "value": "resume:ONNX"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:TensorRT",
+    "label": "TensorRT",
+    "value": "resume:TensorRT"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Natural Language Processing",
+    "label": "Natural Language Processing",
+    "value": "resume:Natural Language Processing"
    },
    {
-    "id": "resume:Business Planning",
-    "label": "Business Planning",
-    "value": "resume:Business Planning"
+    "id": "resume:Functional Programming",
+    "label": "Functional Programming",
+    "value": "resume:Functional Programming"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Kaggle",
+    "label": "Kaggle Competitions",
+    "value": "resume:Kaggle"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Tableau",
-    "label": "Tableau",
-    "value": "resume:Tableau"
+    "id": "resume:ONNX",
+    "label": "ONNX",
+    "value": "resume:ONNX"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:TensorRT",
+    "label": "TensorRT",
+    "value": "resume:TensorRT"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Natural Language Processing",
+    "label": "Natural Language Processing",
+    "value": "resume:Natural Language Processing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Business Planning",
-    "label": "Business Planning",
-    "value": "resume:Business Planning"
+    "id": "resume:Functional Programming",
+    "label": "Functional Programming",
+    "value": "resume:Functional Programming"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Kaggle",
+    "label": "Kaggle Competitions",
+    "value": "resume:Kaggle"
    },
    {
-    "id": "resume:Business Intelligence",
-    "label": "Business Intelligence",
-    "value": "resume:Business Intelligence"
+    "id": "resume:Fraud",
+    "label": "Fraud",
+    "value": "resume:Fraud"
    },
    {
-    "id": "resume:Prioritization Skills",
-    "label": "Prioritization Skills",
-    "value": "resume:Prioritization Skills"
+    "id": "resume:TensorFlow",
+    "label": "TensorFlow",
+    "value": "resume:TensorFlow"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Global Teams",
+    "label": "Global Teams",
+    "value": "resume:Global Teams"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
+  "minYearsExp": 3,
   "regions": [
    {
     "id": "North America",
@@ -273,45 +286,39 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-10-27T15:43:02.714000Z",
-  "title": "Sr. Collections Strategy Manager",
-  "url": "https://jobs.lever.co/trueml/94019cbf-f05b-43b5-b959-ce6644999740",
-  "jobId": "94019cbf-f05b-43b5-b959-ce6644999740",
+  "timeStamp": "2026-10-27T15:51:36Z",
+  "title": "Research Scientist II \u2013 Deepfake Detection & Authentication (Video & Audio)",
+  "url": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8328776",
+  "jobId": "8328776",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1929961825969, 'matchScore': 0, 'ageScore': 0.9929961825968364, 'richnessScore': 2}",
+  "scores": "{'score': 1001.189976232397, 'matchScore': 0, 'ageScore': 0.9899762323969907, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    },
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "senior"
+   "junior",
+   "mid"
   ],
   "isFeatured": false
  },

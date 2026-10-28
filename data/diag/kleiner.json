@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-27T23:00:18Z",
+ "run": "2026-10-28T02:25:37Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f2fff2ff77b9640f580afb9e70b6782e17684a97\",\"date\":\"2026-10-27T18:37:31.721Z\"},\"server\":{\"git\":\"f2fff2ff77b9640f580afb9e70b6782e17684a97\",\"date\":\"2026-10-27T18:37:31.721Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"},\"server\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "61P5cImWzd\u2026",
+  "session.sig": "8ZilGd7mvC\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjEzMzBmZTIyZDdmNDkwYmMzOGFhODZkNDJkN2ZkYTciLCAic2NvcmUiOiAxLjAzMzUwNTUyMzkyMjA2Nzh9"
+   "sequence": "eyJfaWQiOiAiOTlmNjc5MTg0ZGVmOTU0NmNhNjcwYjNlMjVjM2JkNDQiLCAic2NvcmUiOiAxLjAzNDQwMzg0MTMzMDI0N30="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/CesiumAstro/c3fa451b-8b01-49e8-ab4e-3656da59e5f0?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "applyUrl": "https://jobs.lever.co/CesiumAstro/5b89197d-46f2-49e0-ae64-2a41ec1006ec?lever-source%5B%5D=jobs.kleinerperkins.com",
   "companyDomain": "cesiumastro.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
   "companyId": "CesiumAstro",
@@ -164,13 +164,18 @@
   "companyStaffCount": 452,
   "considerHosted": false,
   "departments": [
-   "Security & IT"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "it-engineer",
-    "label": "IT Support Engineer",
-    "value": "it-engineer"
+    "id": "hardware-engineer",
+    "label": "Hardware Engineer",
+    "value": "hardware-engineer"
+   },
+   {
+    "id": "project-engineer",
+    "label": "Project Engineer",
+    "value": "project-engineer"
    }
   ],
   "jobFunctions": [
@@ -181,85 +186,85 @@
    }
   ],
   "locations": [
-   "Melbourne, FL"
+   "El Segundo, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Melbourne, Florida",
-    "label": "Melbourne, Florida",
-    "value": "Melbourne, Florida"
+    "id": "El Segundo, California",
+    "label": "El Segundo, California",
+    "value": "El Segundo, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 32, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 199000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:MIS",
-    "label": "MIS",
-    "value": "resume:MIS"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Product Lifecycle Management",
+    "label": "Product Lifecycle Management",
+    "value": "resume:Product Lifecycle Management"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
+    "id": "resume:Risk Management",
+    "label": "Risk Management",
+    "value": "resume:Risk Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:MIS",
-    "label": "MIS",
-    "value": "resume:MIS"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Product Lifecycle Management",
+    "label": "Product Lifecycle Management",
+    "value": "resume:Product Lifecycle Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
+    "id": "resume:Risk Management",
+    "label": "Risk Management",
+    "value": "resume:Risk Management"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Department of State",
-    "label": "Department of State",
-    "value": "resume:Department of State"
+    "id": "resume:Space Technology",
+    "label": "Space Technology",
+    "value": "resume:Space Technology"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Process Improvement",
+    "label": "Process Improvement",
+    "value": "resume:Process Improvement"
    }
   ],
   "manager": false,
@@ -267,30 +272,31 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 8,
+  "maxYearsExp": 12,
   "regions": [
-   {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -318,30 +324,30 @@
     "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-10-27T12:50:35.094000Z",
-  "title": "IT Support Technician II",
-  "url": "https://jobs.lever.co/CesiumAstro/c3fa451b-8b01-49e8-ab4e-3656da59e5f0",
-  "jobId": "c3fa451b-8b01-49e8-ab4e-3656da59e5f0",
+  "timeStamp": "2026-10-27T21:37:07.600000Z",
+  "title": "Staff FPGA Operations Project Engineer",
+  "url": "https://jobs.lever.co/CesiumAstro/5b89197d-46f2-49e0-ae64-2a41ec1006ec",
+  "jobId": "5b89197d-46f2-49e0-ae64-2a41ec1006ec",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1889454626404, 'matchScore': 0, 'ageScore': 0.9889454626404321, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1978951986385, 'matchScore': 0, 'ageScore': 0.9978951986385031, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
+   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
-   },
-   {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "junior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },

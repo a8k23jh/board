@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-27T23:00:18Z",
+ "run": "2026-10-28T02:25:37Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f2fff2ff77b9640f580afb9e70b6782e17684a97\",\"date\":\"2026-10-27T18:37:31.721Z\"},\"server\":{\"git\":\"f2fff2ff77b9640f580afb9e70b6782e17684a97\",\"date\":\"2026-10-27T18:37:31.721Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"},\"server\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "lZX8pF06xZ\u2026",
+  "session.sig": "B_xUFVIHmp\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTJhNjZkNjllNWUyMDFjYzg0ZjI5ZmYxMWIxNDIwZTEiLCAic2NvcmUiOiAwLjk3MTIxNjkyMDQ0MDk3MjJ9"
+   "sequence": "eyJfaWQiOiAiZmEzMDNmNmFiY2VmNmRmOWQ4MDFkYTU2NDlkZjVmMmIiLCAic2NvcmUiOiAxLjAxNTc2MzY5MDM4NDY0NX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,116 +155,111 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/planetlabs/jobs/8289157",
-  "companyDomain": "planet.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/81daece2b738e7da2b2f0d7cb6f3cb9b_240_160?Expires=1861920000&Signature=i69ljP0imOrwJp3yJ28r~12-MqQGYr4EnAbq4LoC51M-tB-p~Bgmk",
-  "companyId": "Planet",
-  "companySlug": "planet",
-  "companyName": "Planet",
-  "companyStaffCount": 1748,
+  "applyUrl": "https://job-boards.greenhouse.io/singlestore/jobs/8329227",
+  "companyDomain": "singlestore.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1af05bf3e4b78b565199307cec69f083_321_160?Expires=1861920000&Signature=RQXH0iwGmFea7xdeJ0c0ZI0j8SmSo0QiJCTkfrVGBYUGCaOH3lbf9",
+  "companyId": "SingleStore",
+  "companySlug": "singlestore",
+  "companyName": "SingleStore",
+  "companyStaffCount": 558,
   "considerHosted": false,
   "departments": [
-   "Supply Chain"
+   "Americas SE"
   ],
   "jobTypes": [
    {
-    "id": "supply-logistics",
-    "label": "Supply/Logistics",
-    "value": "supply-logistics"
-   },
-   {
-    "id": "procurement",
-    "label": "Procurement Manager",
-    "value": "procurement"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Supply Chain",
-    "label": "Supply Chain",
-    "value": "Supply Chain"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Berlin, Germany"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Berlin, Berlin, Germany",
-    "label": "Berlin, Germany",
-    "value": "Berlin, Berlin, Germany"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 60900, 'maxValue': 76100, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
    },
    {
-    "id": "resume:CPIM",
-    "label": "CPIM",
-    "value": "resume:CPIM"
+    "id": "resume:Pre-sales",
+    "label": "Pre-sales",
+    "value": "resume:Pre-sales"
    },
    {
-    "id": "resume:ERP",
-    "label": "ERP",
-    "value": "resume:ERP"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    },
    {
-    "id": "resume:NetSuite",
-    "label": "NetSuite",
-    "value": "resume:NetSuite"
+    "id": "resume:Solution Architecture",
+    "label": "Solution Architecture",
+    "value": "resume:Solution Architecture"
    },
    {
-    "id": "resume:German",
-    "label": "German",
-    "value": "resume:German"
+    "id": "resume:Post-sales",
+    "label": "Post-sales",
+    "value": "resume:Post-sales"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Organization Skills",
+    "label": "Organization Skills",
+    "value": "resume:Organization Skills"
    },
    {
-    "id": "resume:CPIM",
-    "label": "CPIM",
-    "value": "resume:CPIM"
+    "id": "resume:Pre-sales",
+    "label": "Pre-sales",
+    "value": "resume:Pre-sales"
    },
    {
-    "id": "resume:ERP",
-    "label": "ERP",
-    "value": "resume:ERP"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:NetSuite",
-    "label": "NetSuite",
-    "value": "resume:NetSuite"
+    "id": "resume:Solution Architecture",
+    "label": "Solution Architecture",
+    "value": "resume:Solution Architecture"
    },
    {
-    "id": "resume:German",
-    "label": "German",
-    "value": "resume:German"
+    "id": "resume:Post-sales",
+    "label": "Post-sales",
+    "value": "resume:Post-sales"
    },
    {
-    "id": "resume:Licensing",
-    "label": "Licensing",
-    "value": "resume:Licensing"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "manager": false,
@@ -272,32 +267,27 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 10,
   "regions": [
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
-   },
-   {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -308,29 +298,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
+    "id": "Data & Analytics",
+    "label": "Data & Analytics",
+    "value": "Data & Analytics"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
    }
   ],
-  "timeStamp": "2026-10-27T09:20:12Z",
-  "title": "Supply Chain Manager, Procurement & Logistics Operations",
-  "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8289157",
-  "jobId": "8289157",
-  "remote": false,
+  "timeStamp": "2026-10-27T17:18:17Z",
+  "title": "Forward Deployment Engineer",
+  "url": "https://job-boards.greenhouse.io/singlestore/jobs/8329227",
+  "jobId": "8329227",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1849392021307, 'matchScore': 0, 'ageScore': 0.984939202130787, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1918116736779, 'matchScore': 0, 'ageScore': 0.9918116736778549, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },

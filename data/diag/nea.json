@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-10-27T23:00:18Z",
+ "run": "2026-10-28T02:25:37Z",
  "homepage": {
   "status": 200,
   "bytes": 20601
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f2fff2ff77b9640f580afb9e70b6782e17684a97\",\"date\":\"2026-10-27T18:37:31.721Z\"},\"server\":{\"git\":\"f2fff2ff77b9640f580afb9e70b6782e17684a97\",\"date\":\"2026-10-27T18:37:31.721Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"},\"server\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "iz2wOQzmKw\u2026",
+  "session.sig": "kvD042vrTk\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWY3ODE2NzA2MzIzNjIxYWMxMjhmYjNkODQ3YmVmMTIiLCAic2NvcmUiOiAxLjA2NTMwOTc5NzY3NzA4MzN9"
+   "sequence": "eyJfaWQiOiAiNmJlNzc2YTc5ZWE5OGMwYWMzNmVkNzc3MzE3ODBhNTQiLCAic2NvcmUiOiAxLjEzNDM5MDUzNDA1MDE1NDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,137 +136,142 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/nitra/e481c2d3-bc6d-4aab-8d9e-c97af20b8561?lever-source%5B%5D=careers.nea.com",
-  "companyDomain": "nitra.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/938a1b420629573bca5a2b6a66370902_240_160?Expires=1861920000&Signature=Z3oN0MBJQbZRUTl4nAaKG9jSAEqtkl1Hvv1CGddYZY40r~tkfTlYM",
-  "companyId": "Nitra",
-  "companySlug": "nitra",
-  "companyName": "Nitra",
-  "companyStaffCount": 148,
+  "applyUrl": "https://jobs.lever.co/korrobio/20609c9d-6ccb-4402-93b0-81e58f9ef876?lever-source%5B%5D=careers.nea.com",
+  "companyDomain": "korrobio.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8d7bb5853ea05e7357dcfa900a8f8857_208_160?Expires=1861920000&Signature=EIvKQyX3YYOw8WP-4l~tMXThG0cF7XwlK1U3scJ2RLZh~jfxGL2iS",
+  "companyId": "Korro Bio",
+  "companySlug": "korro-bio",
+  "companyName": "Korro Bio",
+  "companyStaffCount": 99,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "G & A"
+  ],
   "jobTypes": [
    {
-    "id": "product-manager",
-    "label": "Product Manager",
-    "value": "product-manager"
-   }
-  ],
-  "jobFunctions": [
+    "id": "order-manager",
+    "label": "Order Manager",
+    "value": "order-manager"
+   },
    {
-    "id": "Product Management",
-    "label": "Product Management",
-    "value": "Product Management"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
+  "jobFunctions": [],
   "locations": [
-   "New York, New York, USA"
+   "60 First St, Cambridge, MA 02141"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Cambridge, Massachusetts",
+    "label": "Cambridge, Massachusetts",
+    "value": "Cambridge, Massachusetts"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 154808, 'maxValue': 195793, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Product Requirements",
-    "label": "Product Requirements",
-    "value": "resume:Product Requirements"
+    "id": "resume:Paralegal",
+    "label": "Paralegal",
+    "value": "resume:Paralegal"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Commercial Agreements",
+    "label": "Commercial Agreements",
+    "value": "resume:Commercial Agreements"
    },
    {
-    "id": "resume:Rx",
-    "label": "Rx",
-    "value": "resume:Rx"
+    "id": "resume:Life Sciences",
+    "label": "Life Sciences",
+    "value": "resume:Life Sciences"
    },
    {
-    "id": "resume:Licensing",
-    "label": "Licensing",
-    "value": "resume:Licensing"
+    "id": "resume:Conversion Optimization",
+    "label": "Conversion Optimization",
+    "value": "resume:Conversion Optimization"
    },
    {
-    "id": "resume:Bloomberg",
-    "label": "Bloomberg",
-    "value": "resume:Bloomberg"
+    "id": "resume:HCP",
+    "label": "HCP",
+    "value": "resume:HCP"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Product Requirements",
-    "label": "Product Requirements",
-    "value": "resume:Product Requirements"
+    "id": "resume:Paralegal",
+    "label": "Paralegal",
+    "value": "resume:Paralegal"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Commercial Agreements",
+    "label": "Commercial Agreements",
+    "value": "resume:Commercial Agreements"
    },
    {
-    "id": "resume:Rx",
-    "label": "Rx",
-    "value": "resume:Rx"
+    "id": "resume:Life Sciences",
+    "label": "Life Sciences",
+    "value": "resume:Life Sciences"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Licensing",
-    "label": "Licensing",
-    "value": "resume:Licensing"
+    "id": "resume:Conversion Optimization",
+    "label": "Conversion Optimization",
+    "value": "resume:Conversion Optimization"
    },
    {
-    "id": "resume:Bloomberg",
-    "label": "Bloomberg",
-    "value": "resume:Bloomberg"
+    "id": "resume:HCP",
+    "label": "HCP",
+    "value": "resume:HCP"
    },
    {
-    "id": "resume:Workforce Management",
-    "label": "Workforce Management",
-    "value": "resume:Workforce Management"
+    "id": "resume:HIPAA",
+    "label": "HIPAA",
+    "value": "resume:HIPAA"
    },
    {
-    "id": "resume:Ontologies",
-    "label": "Ontologies",
-    "value": "resume:Ontologies"
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:GDPR",
+    "label": "GDPR",
+    "value": "resume:GDPR"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    5,
+    6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 4,
+  "minYearsExp": 8,
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Northeast",
@@ -277,56 +282,40 @@
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
   "markets": [
    {
-    "id": "Financial Services",
-    "label": "Financial Services",
-    "value": "Financial Services"
-   },
-   {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Biotech/Pharma",
+    "label": "Biotech/Pharma",
+    "value": "Biotech/Pharma"
    }
   ],
-  "timeStamp": "2026-10-27T13:29:22.191000Z",
-  "title": "Product Manager, Marketplace Supply",
-  "url": "https://jobs.lever.co/nitra/e481c2d3-bc6d-4aab-8d9e-c97af20b8561",
-  "jobId": "e481c2d3-bc6d-4aab-8d9e-c97af20b8561",
+  "timeStamp": "2026-10-27T19:55:35.242000Z",
+  "title": "Senior Manager, Contracts Management",
+  "url": "https://jobs.lever.co/korrobio/20609c9d-6ccb-4402-93b0-81e58f9ef876",
+  "jobId": "20609c9d-6ccb-4402-93b0-81e58f9ef876",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1907781369619, 'matchScore': 0, 'ageScore': 0.9907781369618056, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1954428129873, 'matchScore': 0, 'ageScore': 0.9954428129872686, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },
