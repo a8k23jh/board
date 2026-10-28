@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-10-28T09:51:41Z",
+ "run": "2026-10-28T16:43:38Z",
  "homepage": {
   "status": 200,
   "bytes": 18736
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Fyax6E7o3I\u2026",
+  "session.sig": "qajGe47-VZ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzljMGQxZjFlOWQ1YzFmNTkwODEwYTA4YTNjNzFiOWMiLCAic2NvcmUiOiAxLjA2NDc5NTQ0OTU4NzE5MTR9"
+   "sequence": "eyJfaWQiOiAiNTVlZmZkNWRmNDUwOGFiOThjZTM1YzU4YTkwNDgyMmIiLCAic2NvcmUiOiAxLjA1OTY0NTg5MzYxNjEyNjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "mechanical-engineer",
-    "label": "Mechanical Engineer",
-    "value": "mechanical-engineer"
-   },
-   {
     "id": "hardware-engineer",
     "label": "Hardware Engineer",
     "value": "hardware-engineer"
+   },
+   {
+    "id": "mechanical-engineer",
+    "label": "Mechanical Engineer",
+    "value": "mechanical-engineer"
    }
   ],
   "jobFunctions": [
@@ -190,32 +190,10 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Register Transfer Level",
-    "label": "Register Transfer Level",
-    "value": "resume:Register Transfer Level"
-   },
-   {
-    "id": "resume:Scripting",
-    "label": "Scripting",
-    "value": "resume:Scripting"
-   },
-   {
     "id": "resume:TCL",
     "label": "TCL",
     "value": "resume:TCL"
    },
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
-   {
-    "id": "resume:VLSI",
-    "label": "VLSI",
-    "value": "resume:VLSI"
-   }
-  ],
-  "requiredSkills": [
    {
     "id": "resume:Register Transfer Level",
     "label": "Register Transfer Level",
@@ -225,23 +203,6 @@
     "id": "resume:Scripting",
     "label": "Scripting",
     "value": "resume:Scripting"
-   },
-   {
-    "id": "resume:TCL",
-    "label": "TCL",
-    "value": "resume:TCL"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
-   {
-    "id": "resume:VLSI",
-    "label": "VLSI",
-    "value": "resume:VLSI"
    },
    {
     "id": "resume:Physical Design",
@@ -254,16 +215,50 @@
     "value": "resume:Integrated Circuit Design"
    }
   ],
+  "requiredSkills": [
+   {
+    "id": "resume:TCL",
+    "label": "TCL",
+    "value": "resume:TCL"
+   },
+   {
+    "id": "resume:Register Transfer Level",
+    "label": "Register Transfer Level",
+    "value": "resume:Register Transfer Level"
+   },
+   {
+    "id": "resume:Scripting",
+    "label": "Scripting",
+    "value": "resume:Scripting"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Physical Design",
+    "label": "Physical Design",
+    "value": "resume:Physical Design"
+   },
+   {
+    "id": "resume:Integrated Circuit Design",
+    "label": "Integrated Circuit Design",
+    "value": "resume:Integrated Circuit Design"
+   },
+   {
+    "id": "resume:VLSI",
+    "label": "VLSI",
+    "value": "resume:VLSI"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   }
+  ],
   "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [],
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
@@ -273,6 +268,11 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -306,7 +306,7 @@
   "jobId": "6236609004",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1800409734544, 'matchScore': 0, 'ageScore': 0.9800409734544753, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1720485919499, 'matchScore': 0, 'ageScore': 0.9720485919498457, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
