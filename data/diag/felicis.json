@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-28T02:25:37Z",
+ "run": "2026-10-28T09:51:41Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1idSnlEJKZ\u2026",
+  "session.sig": "qCYxrevhFn\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTQ5MmRjMDNhNGEyMGNlMjcyYjMwMjk3YWU4M2M2ZTkiLCAic2NvcmUiOiAxLjAwMDk2NTk5MzA3MjUzMDh9"
+   "sequence": "eyJfaWQiOiAiNjM2OTIwZTZhNGE4N2JhNWEwOWQxZmE3MjZjNDcxYzUiLCAic2NvcmUiOiAxLjAyMTM4NTI3MDExNDU4MzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,117 +147,106 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8328776",
-  "companyDomain": "pindrop.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66db7ca011dabe5ff29c157b56a4251f_288_160?Expires=1861920000&Signature=l7jCjYdBtd-x9~FoRb61NXvycjznIWMO3dSQ1QJItmzYDl9x~JFGj",
-  "companyId": "Pindrop Security",
-  "companySlug": "pindrop-security",
-  "companyName": "Pindrop Security",
-  "companyStaffCount": 374,
+  "applyUrl": "https://jobs.ashbyhq.com/Crusoe/4c5de99e-87e0-4269-acf4-505c5d5b9d2b?utm_source=jobs.felicis.com",
+  "companyDomain": "crusoe.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/83e047ed53d48955e1e39bdd6f3f660f_256_160?Expires=1861920000&Signature=r2eU4jRX2uOXV1AaZbtY7Z5mnhoWhTY0I1PFAYujsp5lQ9CiX1iiB",
+  "companyId": "Crusoe",
+  "companySlug": "crusoe",
+  "companyName": "Crusoe",
+  "companyStaffCount": 1693,
   "considerHosted": false,
   "departments": [
-   "Research"
+   "Technical Program Management"
   ],
   "jobTypes": [
    {
-    "id": "research-scientist",
-    "label": "Research Scientist",
-    "value": "research-scientist"
-   },
-   {
-    "id": "biotech-scientist",
-    "label": "Scientist",
-    "value": "biotech-scientist"
+    "id": "technical-program-manager",
+    "label": "Technical Program Manager",
+    "value": "technical-program-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Science",
-    "label": "Science",
-    "value": "Science"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "US - Remote",
-   "US-Remote"
+   "San Francisco, California, USA",
+   "San Francisco, CA - US"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 185000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:ONNX",
-    "label": "ONNX",
-    "value": "resume:ONNX"
+    "id": "resume:Data Center",
+    "label": "Data Center",
+    "value": "resume:Data Center"
    },
    {
-    "id": "resume:TensorRT",
-    "label": "TensorRT",
-    "value": "resume:TensorRT"
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    },
    {
-    "id": "resume:Natural Language Processing",
-    "label": "Natural Language Processing",
-    "value": "resume:Natural Language Processing"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Functional Programming",
-    "label": "Functional Programming",
-    "value": "resume:Functional Programming"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Kaggle",
-    "label": "Kaggle Competitions",
-    "value": "resume:Kaggle"
+    "id": "resume:SLA",
+    "label": "SLA",
+    "value": "resume:SLA"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:ONNX",
-    "label": "ONNX",
-    "value": "resume:ONNX"
+    "id": "resume:Data Center",
+    "label": "Data Center",
+    "value": "resume:Data Center"
    },
    {
-    "id": "resume:TensorRT",
-    "label": "TensorRT",
-    "value": "resume:TensorRT"
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    },
    {
-    "id": "resume:Natural Language Processing",
-    "label": "Natural Language Processing",
-    "value": "resume:Natural Language Processing"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Functional Programming",
-    "label": "Functional Programming",
-    "value": "resume:Functional Programming"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Kaggle",
-    "label": "Kaggle Competitions",
-    "value": "resume:Kaggle"
+    "id": "resume:SLA",
+    "label": "SLA",
+    "value": "resume:SLA"
    },
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
    },
    {
-    "id": "resume:TensorFlow",
-    "label": "TensorFlow",
-    "value": "resume:TensorFlow"
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
    },
    {
-    "id": "resume:Global Teams",
-    "label": "Global Teams",
-    "value": "resume:Global Teams"
+    "id": "resume:Firmware",
+    "label": "Firmware",
+    "value": "resume:Firmware"
    }
   ],
   "manager": false,
@@ -265,16 +254,26 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -283,32 +282,37 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Energy",
+    "label": "Energy",
+    "value": "Energy"
    }
   ],
-  "timeStamp": "2026-10-27T15:51:36Z",
-  "title": "Research Scientist II \u2013 Deepfake Detection & Authentication (Video & Audio)",
-  "url": "https://job-boards.greenhouse.io/pindropsecurity/jobs/8328776",
-  "jobId": "8328776",
-  "remote": true,
+  "timeStamp": "2026-10-28T00:00:00Z",
+  "title": "Staff Technical Program Manager, Cloud Availability",
+  "url": "https://jobs.ashbyhq.com/Crusoe/4c5de99e-87e0-4269-acf4-505c5d5b9d2b",
+  "jobId": "4c5de99e-87e0-4269-acf4-505c5d5b9d2b",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.189976232397, 'matchScore': 0, 'ageScore': 0.9899762323969907, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1876619786748, 'matchScore': 0, 'ageScore': 0.9876619786747686, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    },
    {
     "id": "mid",
@@ -317,7 +321,7 @@
    }
   ],
   "jobSeniorityIds": [
-   "junior",
+   "senior",
    "mid"
   ],
   "isFeatured": false

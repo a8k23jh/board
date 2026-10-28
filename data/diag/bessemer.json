@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-28T02:25:37Z",
+ "run": "2026-10-28T09:51:41Z",
  "homepage": {
   "status": 200,
   "bytes": 21383
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "MoPbQJIqPz\u2026",
+  "session.sig": "RAQfSASCCw\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzk3MzE5ZTM2NjhmMTA0YjEyNDc0ZjM5YTljZTlkYjAiLCAic2NvcmUiOiAxLjEwMTEwMDAwMjE5MDIwMDd9"
+   "sequence": "eyJfaWQiOiAiZDJkZjQ3MzY2ZWQ0NDI1MmRjNjAwZThiNzZlZGYyM2MiLCAic2NvcmUiOiAxLjEyMTE3MTM4ODQyOTc4NH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,202 +152,245 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0ec91009-ea18-462b-8742-ee7f8eaaca1c&ccId=19000101_000001&source=CC2&lang=en_US&jobId=599530",
-  "companyDomain": "seismictx.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2031dcaaa1d94ee77c020180ad390794_256_160?Expires=1861920000&Signature=I-sNI2sHk84gykLbWFlamTBf5PHget7yIroEdsDf3xbdfvjfxT7u2",
-  "companyId": "Seismic Therapeutic",
-  "companySlug": "seismic-therapeutic",
-  "companyName": "Seismic Therapeutic",
-  "companyStaffCount": 55,
+  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/5fe2b80d-9d59-42bb-90e6-9a0b78d7d403?utm_source=jobs.bvp.com",
+  "companyDomain": "perplexity.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
+  "companyId": "Perplexity AI",
+  "companySlug": "perplexity-ai",
+  "companyName": "Perplexity AI",
+  "companyStaffCount": 1408,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Platform & Infrastructure"
+  ],
   "jobTypes": [
    {
-    "id": "biotech-scientist",
-    "label": "Scientist",
-    "value": "biotech-scientist"
+    "id": "network-engineer",
+    "label": "Network Engineer",
+    "value": "network-engineer"
    },
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
+   },
+   {
+    "id": "cloud-engineer",
+    "label": "Cloud Engineer",
+    "value": "cloud-engineer"
+   },
+   {
+    "id": "site-reliability-engineer",
+    "label": "Site Reliability Engineer (SRE)",
+    "value": "site-reliability-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Science",
-    "label": "Science",
-    "value": "Science"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Watertown, Watertown, MA, US"
+   "San Francisco, California, United States",
+   "California, United States",
+   "Seattle, Washington, United States",
+   "New York City, New York, United States",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Massachusetts",
-    "label": "Massachusetts",
-    "value": "Massachusetts"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "California",
+    "label": "California",
+    "value": "California"
+   },
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Pharmaceutical Industry",
-    "label": "Pharmaceutical Industry",
-    "value": "resume:Pharmaceutical Industry"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Allergy",
-    "label": "Allergy",
-    "value": "resume:Allergy"
+    "id": "resume:Web Services",
+    "label": "Web Services",
+    "value": "resume:Web Services"
    },
    {
-    "id": "resume:Gastroenterology",
-    "label": "Gastroenterology",
-    "value": "resume:Gastroenterology"
+    "id": "resume:Load Balancing",
+    "label": "Load Balancing",
+    "value": "resume:Load Balancing"
    },
    {
-    "id": "resume:PK/PD",
-    "label": "PK/PD",
-    "value": "resume:PK/PD"
+    "id": "resume:VPC",
+    "label": "VPC",
+    "value": "resume:VPC"
    },
    {
-    "id": "resume:Biomarkers",
-    "label": "Biomarkers",
-    "value": "resume:Biomarkers"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Pharmaceutical Industry",
-    "label": "Pharmaceutical Industry",
-    "value": "resume:Pharmaceutical Industry"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Allergy",
-    "label": "Allergy",
-    "value": "resume:Allergy"
+    "id": "resume:Web Services",
+    "label": "Web Services",
+    "value": "resume:Web Services"
    },
    {
-    "id": "resume:Gastroenterology",
-    "label": "Gastroenterology",
-    "value": "resume:Gastroenterology"
+    "id": "resume:Load Balancing",
+    "label": "Load Balancing",
+    "value": "resume:Load Balancing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:PK/PD",
-    "label": "PK/PD",
-    "value": "resume:PK/PD"
+    "id": "resume:VPC",
+    "label": "VPC",
+    "value": "resume:VPC"
    },
    {
-    "id": "resume:Biomarkers",
-    "label": "Biomarkers",
-    "value": "resume:Biomarkers"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    },
    {
-    "id": "resume:POC",
-    "label": "POC",
-    "value": "resume:POC"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    },
    {
-    "id": "resume:Drug Development",
-    "label": "Drug Development",
-    "value": "resume:Drug Development"
+    "id": "resume:Dynamo",
+    "label": "Dynamo",
+    "value": "resume:Dynamo"
    },
    {
-    "id": "resume:Antibodies",
-    "label": "Antibodies",
-    "value": "resume:Antibodies"
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 12,
   "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
    {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Biotech/Pharma",
-    "label": "Biotech/Pharma",
-    "value": "Biotech/Pharma"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
-  "timeStamp": "2026-10-28T01:33:00Z",
-  "title": "Senior Director/Vice President Translational Medicine",
-  "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0ec91009-ea18-462b-8742-ee7f8eaaca1c&ccId=19000101_000001&source=CC2&lang=en_US&jobId=599530",
-  "jobId": "599530",
-  "remote": false,
+  "timeStamp": "2026-10-28T00:00:00Z",
+  "title": "Member of Technical Staff (Site Reliability Engineer, Cloud Infrastructure)",
+  "url": "https://jobs.ashbyhq.com/Perplexity/5fe2b80d-9d59-42bb-90e6-9a0b78d7d403",
+  "jobId": "5fe2b80d-9d59-42bb-90e6-9a0b78d7d403",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.2, 'matchScore': 0, 'ageScore': 1, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1884605644325, 'matchScore': 0, 'ageScore': 0.9884605644324845, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    },
    {
-    "id": "vp",
-    "label": "VP/SVP",
-    "value": "vp"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "director",
-   "vp"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
