@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-29T16:16:18Z",
+ "run": "2026-10-29T21:14:44Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"},\"server\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"6b2e902fb01ffedb01cfbd09a77d8659f00821a6\",\"date\":\"2026-10-29T19:39:38.961Z\"},\"server\":{\"git\":\"6b2e902fb01ffedb01cfbd09a77d8659f00821a6\",\"date\":\"2026-10-29T19:39:38.961Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Hu6B8dDG7z\u2026",
+  "session.sig": "MIbblFrv86\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWNiYTBlNmVkMDc0NjRiNjM0YWUxNWVkYTM2MDc4MDUiLCAic2NvcmUiOiAxLjA3OTQxNjMzOTkzMjA5ODh9"
+   "sequence": "eyJfaWQiOiAiNWNiYTBlNmVkMDc0NjRiNjM0YWUxNWVkYTM2MDc4MDUiLCAic2NvcmUiOiAxLjA3NTYyNjM4MjAwNzMzMDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,136 +155,116 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5466550008",
-  "companyDomain": "k2space.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/96af4d328d7e54eb24c092877b0e4c96_272_160?Expires=1861920000&Signature=rWQ5vPckbn1NROsVwoPJw3Sq9oP8FnF7q6Jh6wxTzQ6DBspleAAvN",
-  "companyId": "K2 Space",
-  "companySlug": "k2-space",
-  "companyName": "K2 Space",
-  "companyStaffCount": 347,
+  "applyUrl": "https://job-boards.greenhouse.io/studsinc/jobs/6238300004",
+  "companyDomain": "studs.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/928cc14370271b5bf1ed1e2cd0f89b69_192_160?Expires=1861920000&Signature=aUPXDUpPVxKoYqNFh7KhHxjFQHByuvTL2tiKY7~kxJ-4SGSbLu7S-",
+  "companyId": "Studs",
+  "companySlug": "studs",
+  "companyName": "Studs",
+  "companyStaffCount": 205,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Sales (SAL)"
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
-   }
-  ],
-  "jobFunctions": [
+    "id": "freelance",
+    "label": "Contractor",
+    "value": "freelance"
+   },
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "supervisor",
+    "label": "Supervisor",
+    "value": "supervisor"
    }
   ],
+  "jobFunctions": [],
   "locations": [
-   "Los Angeles, CA"
+   "10250 Santa Monica Blvd #1705 Los Angeles, California 90067"
   ],
   "normalizedLocations": [
    {
-    "id": "Greater Los Angeles Area",
-    "label": "Greater Los Angeles Area",
-    "value": "Greater Los Angeles Area"
+    "id": "Los Angeles, California",
+    "label": "Los Angeles, California",
+    "value": "Los Angeles, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 21.75, 'maxValue': 21.75, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Soldering",
-    "label": "Soldering",
-    "value": "resume:Soldering"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Power Systems",
-    "label": "Power Systems",
-    "value": "resume:Power Systems"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:JMP",
-    "label": "JMP",
-    "value": "resume:JMP"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Statistical Analysis",
-    "label": "Statistical Analysis",
-    "value": "resume:Statistical Analysis"
+    "id": "resume:Sales Support",
+    "label": "Sales Support",
+    "value": "resume:Sales Support"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Soldering",
-    "label": "Soldering",
-    "value": "resume:Soldering"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Power Systems",
-    "label": "Power Systems",
-    "value": "resume:Power Systems"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:JMP",
-    "label": "JMP",
-    "value": "resume:JMP"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Statistical Analysis",
-    "label": "Statistical Analysis",
-    "value": "resume:Statistical Analysis"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Characterization",
-    "label": "Characterization",
-    "value": "resume:Characterization"
-   },
-   {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:Sales Support",
+    "label": "Sales Support",
+    "value": "resume:Sales Support"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
-  "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
+  "contractor": true,
+  "considerLevels": [],
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -299,42 +279,37 @@
     "value": "100-1000 employees"
    },
    {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Retail",
+    "label": "Retail",
+    "value": "Retail"
    }
   ],
-  "timeStamp": "2026-10-28T17:57:18Z",
-  "title": "Senior Solar Equipment Engineer",
-  "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5466550008",
-  "jobId": "5466550008",
+  "timeStamp": "2026-10-29T09:21:59Z",
+  "title": "Store Supervisor (Part-Time)",
+  "url": "https://job-boards.greenhouse.io/studsinc/jobs/6238300004",
+  "jobId": "6238300004",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1720107084178, 'matchScore': 0, 'ageScore': 0.9720107084178241, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1882800424738, 'matchScore': 0, 'ageScore': 0.9882800424737654, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
