@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-29T01:52:06Z",
+ "run": "2026-10-29T08:40:05Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "_xGm-6Jahp\u2026",
+  "session.sig": "GfBvKGznoL\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2Y3NzQwMzYyMmM3ZTJlZDYwZTBlNzAxZWRjMmE5YzkiLCAic2NvcmUiOiAxLjExODczMDEyNzQ0OTg0NTh9"
+   "sequence": "eyJfaWQiOiAiM2Y3NzQwMzYyMmM3ZTJlZDYwZTBlNzAxZWRjMmE5YzkiLCAic2NvcmUiOiAxLjExMDU3MzQ3MjAyMzUzMzh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -172,11 +172,6 @@
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
     "id": "Seattle, Washington",
     "label": "Seattle, Washington",
     "value": "Seattle, Washington"
@@ -185,6 +180,11 @@
     "id": "New York, New York",
     "label": "New York, New York",
     "value": "New York, New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 405000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
@@ -195,14 +195,9 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
-   },
-   {
-    "id": "resume:Change Management",
-    "label": "Change Management",
-    "value": "resume:Change Management"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    },
    {
     "id": "resume:Terraform",
@@ -213,6 +208,11 @@
     "id": "resume:Release",
     "label": "Release",
     "value": "resume:Release"
+   },
+   {
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    }
   ],
   "requiredSkills": [
@@ -222,41 +222,41 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    },
-   {
-    "id": "resume:Change Management",
-    "label": "Change Management",
-    "value": "resume:Change Management"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Terraform",
     "label": "Terraform",
     "value": "resume:Terraform"
-   },
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Release",
     "label": "Release",
     "value": "resume:Release"
    },
    {
-    "id": "resume:Incident Response",
-    "label": "Incident Response",
-    "value": "resume:Incident Response"
-   },
-   {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
     "id": "resume:Developer Platform",
     "label": "Developer Platform",
     "value": "resume:Developer Platform"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    }
   ],
   "manager": false,
@@ -278,9 +278,14 @@
   ],
   "regions": [
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "North America",
@@ -288,19 +293,14 @@
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -334,7 +334,7 @@
   "jobId": "5466480008",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1903876143696, 'matchScore': 0, 'ageScore': 0.9903876143695988, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1822423540174, 'matchScore': 0, 'ageScore': 0.9822423540173612, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

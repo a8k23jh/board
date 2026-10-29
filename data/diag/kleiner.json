@@ -1,7 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-29T01:52:06Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
+ "run": "2026-10-29T08:40:05Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -43,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Neb4z3Qcem\u2026",
+  "session.sig": "Qs2F8QdP6p\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -128,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNmZhYjIyZTg2NTA0YWNkMDc1M2I2MWExNDcxYTJkMzAiLCAic2NvcmUiOiAxLjA2MzU4ODM5Njc0ODQ1Njd9"
+   "sequence": "eyJfaWQiOiAiNjE2NTc2MDVmY2U1ZGFkNGFjMjVjYTJkMzAxMDMwZGMiLCAic2NvcmUiOiAxLjA2NTk5Mjg3NjY0NDY3Nn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -174,14 +173,14 @@
     "value": "quality-control"
    },
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
     "id": "supervisor",
     "label": "Supervisor",
     "value": "supervisor"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [],
@@ -198,19 +197,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 107000, 'maxValue': 126000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Department of State",
-    "label": "Department of State",
-    "value": "resume:Department of State"
-   },
-   {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
-   },
-   {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
+    "id": "resume:Quality Control",
+    "label": "Quality Control",
+    "value": "resume:Quality Control"
    },
    {
     "id": "resume:Quality Assurance",
@@ -218,43 +207,9 @@
     "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Quality Control",
-    "label": "Quality Control",
-    "value": "resume:Quality Control"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Department of State",
-    "label": "Department of State",
-    "value": "resume:Department of State"
-   },
-   {
-    "id": "resume:Space Technology",
-    "label": "Space Technology",
-    "value": "resume:Space Technology"
-   },
-   {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Quality Control",
-    "label": "Quality Control",
-    "value": "resume:Quality Control"
-   },
-   {
-    "id": "resume:Quality Management",
-    "label": "Quality Management",
-    "value": "resume:Quality Management"
+    "id": "resume:Operations Management",
+    "label": "Operations Management",
+    "value": "resume:Operations Management"
    },
    {
     "id": "resume:GD&T",
@@ -262,9 +217,53 @@
     "value": "resume:GD&T"
    },
    {
+    "id": "resume:Space Technology",
+    "label": "Space Technology",
+    "value": "resume:Space Technology"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Quality Control",
+    "label": "Quality Control",
+    "value": "resume:Quality Control"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
     "id": "resume:Operations Management",
     "label": "Operations Management",
     "value": "resume:Operations Management"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:GD&T",
+    "label": "GD&T",
+    "value": "resume:GD&T"
+   },
+   {
+    "id": "resume:Space Technology",
+    "label": "Space Technology",
+    "value": "resume:Space Technology"
+   },
+   {
+    "id": "resume:Quality Management",
+    "label": "Quality Management",
+    "value": "resume:Quality Management"
+   },
+   {
+    "id": "resume:Department of State",
+    "label": "Department of State",
+    "value": "resume:Department of State"
+   },
+   {
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
    }
   ],
   "manager": true,
@@ -315,7 +314,7 @@
   "jobId": "4101f1dc-4c18-41d8-8077-b9dff0028a5e",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.194849591985, 'matchScore': 0, 'ageScore': 0.9948495919849537, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1869340350358, 'matchScore': 0, 'ageScore': 0.9869340350358796, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -332,6 +331,5 @@
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
