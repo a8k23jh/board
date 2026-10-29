@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-10-29T08:40:05Z",
+ "run": "2026-10-29T16:16:18Z",
  "homepage": {
   "status": 200,
   "bytes": 21199
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "r49bJREU1C\u2026",
+  "session.sig": "lVPHjMeIlF\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWM3NjBmZDVhOGZkOGE5YzI4YzI3OTIxYzIwMTY4MDkiLCAic2NvcmUiOiAxLjE1ODY4OTAyNTMzMzMzMzN9"
+   "sequence": "eyJfaWQiOiAiZWMzMDdjYWNmZGEwZmZjODQxYWQyNTJiYTljN2IxMGEiLCAic2NvcmUiOiAxLjE0Njg1MzcyOTgzNjgwNTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,72 +144,63 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8234/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3466,
+  "applyUrl": "https://jobs.lever.co/finix/975ce14f-b57c-4f4f-95d4-18c3cf390871?lever-source%5B%5D=jobs.lsvp.com",
+  "companyDomain": "finixpayments.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/da494738ea14d871b059fb0031f3f834_192_160?Expires=1861920000&Signature=soS2xTssNehgAK0JNmFdF074zit-uSJdn6LYotqfTg~hG7YvaXUw0",
+  "companyId": "Finix",
+  "companySlug": "finix",
+  "companyName": "Finix",
+  "companyStaffCount": 369,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Marketing"
+  ],
   "jobTypes": [
    {
-    "id": "major-account-executive",
-    "label": "Major Account Executive",
-    "value": "major-account-executive"
+    "id": "social-media-manager",
+    "label": "Social Media Manager",
+    "value": "social-media-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "Los Angeles, California, United States",
-   "Home Office, Sacramento, CA, US"
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "Los Angeles, California",
-    "label": "Los Angeles, California",
-    "value": "Los Angeles, California"
-   },
-   {
-    "id": "Sacramento, California",
-    "label": "Sacramento, California",
-    "value": "Sacramento, California"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 90000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Podcasting",
+    "label": "Podcasting",
+    "value": "resume:Podcasting"
    },
    {
-    "id": "resume:New Business",
-    "label": "New Business",
-    "value": "resume:New Business"
-   },
-   {
-    "id": "resume:Linkedin Sales Navigator",
-    "label": "Linkedin Sales Navigator",
-    "value": "resume:Linkedin Sales Navigator"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
     "id": "resume:Strategic Partnerships",
@@ -217,48 +208,53 @@
     "value": "resume:Strategic Partnerships"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:HootSuite",
+    "label": "HootSuite",
+    "value": "resume:HootSuite"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Podcasting",
+    "label": "Podcasting",
+    "value": "resume:Podcasting"
    },
    {
-    "id": "resume:New Business",
-    "label": "New Business",
-    "value": "resume:New Business"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
-   {
-    "id": "resume:Linkedin Sales Navigator",
-    "label": "Linkedin Sales Navigator",
-    "value": "resume:Linkedin Sales Navigator"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Strategic Partnerships",
     "label": "Strategic Partnerships",
     "value": "resume:Strategic Partnerships"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:HootSuite",
+    "label": "HootSuite",
+    "value": "resume:HootSuite"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
-   },
-   {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
    },
    {
     "id": "resume:Analytics Tools",
@@ -271,12 +267,21 @@
   "contractor": false,
   "considerLevels": [
    [
+    3,
+    4
+   ],
+   [
     5,
     6
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -286,34 +291,35 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-10-28T23:58:47Z",
-  "title": "Senior Major Account Executive - New Logo",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8234/",
-  "jobId": "8234",
+  "timeStamp": "2026-10-29T00:26:59.156000Z",
+  "title": "Senior Social Media Manager",
+  "url": "https://jobs.lever.co/finix/975ce14f-b57c-4f4f-95d4-18c3cf390871",
+  "jobId": "975ce14f-b57c-4f4f-95d4-18c3cf390871",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1924763477531, 'matchScore': 0, 'ageScore': 0.9924763477530865, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1805013652195, 'matchScore': 0, 'ageScore': 0.9805013652195216, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -321,10 +327,16 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "senior",
+   "manager"
   ],
   "isFeatured": false
  },

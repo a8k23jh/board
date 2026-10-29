@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-29T08:40:05Z",
+ "run": "2026-10-29T16:16:18Z",
  "homepage": {
   "status": 200,
   "bytes": 21383
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "v5SxXPCDMM\u2026",
+  "session.sig": "EwolzU9cM3\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTFjNjZkYjU5NjM4OWNjODVjOGZlZmYxMTM1MWVjZDEiLCAic2NvcmUiOiAxLjEyNTc4NjEzNDY1NjI1fQ=="
+   "sequence": "eyJfaWQiOiAiMzE2ZGMwNDNjZmFjZTRkMDMyYzllOWE0NTM2ZWIxNGMiLCAic2NvcmUiOiAxLjExMzIwOTc4NjUwNTQwMTF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,30 +163,33 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.overjoy.ai/41700",
-  "companyDomain": "overjoy.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d4cdc7d8addae8010fd5482188cbfa97_208_160?Expires=1861920000&Signature=jsm~8NZceALuDKqFsjMFlBigCqgLL24clW20TxruXs2Kvc~nV7sjB",
-  "companyId": "Overjoy",
-  "companySlug": "overjoy",
-  "companyName": "Overjoy",
-  "companyStaffCount": 18,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5173120008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Engineering & Design - Product"
+  ],
   "jobTypes": [
    {
-    "id": "compliance-risk",
-    "label": "Risk & Compliance Manager",
-    "value": "compliance-risk"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Auditing",
-    "label": "Auditing",
-    "value": "Auditing"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
+   "San Francisco, CA",
    "New York City, NY"
   ],
   "normalizedLocations": [
@@ -194,14 +197,29 @@
     "id": "New York, New York",
     "label": "New York, New York",
     "value": "New York, New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 405000, 'maxValue': 485000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Internal Controls",
-    "label": "Internal Controls",
-    "value": "resume:Internal Controls"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   },
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
+   },
+   {
+    "id": "resume:OAuth",
+    "label": "OAuth",
+    "value": "resume:OAuth"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -209,53 +227,53 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
-   },
-   {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Internal Controls",
-    "label": "Internal Controls",
-    "value": "resume:Internal Controls"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    },
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
+   },
+   {
+    "id": "resume:OAuth",
+    "label": "OAuth",
+    "value": "resume:OAuth"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:DLP",
+    "label": "DLP",
+    "value": "resume:DLP"
    },
    {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Data Governance",
+    "label": "Data Governance",
+    "value": "resume:Data Governance"
    }
   ],
   "manager": false,
@@ -263,14 +281,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 8,
   "regions": [
    {
     "id": "Northeast",
@@ -278,34 +297,39 @@
     "value": "Northeast"
    },
    {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
     "id": "AI",
@@ -313,23 +337,18 @@
     "value": "AI"
    },
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-10-28T20:50:35.226000Z",
-  "title": "Forward Deployed Compliance Manager",
-  "url": "https://jobs.overjoy.ai/41700",
-  "jobId": "41700",
+  "timeStamp": "2026-10-29T01:36:39Z",
+  "title": "Staff+ Software Engineer, Enterprise Connectivity",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5173120008",
+  "jobId": "5173120008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.188118887965, 'matchScore': 0, 'ageScore': 0.988118887964892, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1825902554934, 'matchScore': 0, 'ageScore': 0.9825902554934414, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
