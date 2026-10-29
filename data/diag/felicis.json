@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-10-28T21:45:07Z",
+ "run": "2026-10-29T01:52:06Z",
  "homepage": {
   "status": 200,
   "bytes": 25228
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"},\"server\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"},\"server\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "0cuRccvSq3\u2026",
+  "session.sig": "m-AEITUXom\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTA3NzQ3OTMzNWUzNDZjMmZlMWU2NDViNjMxNzhhZTQiLCAic2NvcmUiOiAxLjAwNTAzNDU3NzgzNDQ5MDd9"
+   "sequence": "eyJfaWQiOiAiY2RmMDcyZDVmNjhkNjY3M2E1MjQxYzc4ZGUzODRiMzUiLCAic2NvcmUiOiAxLjAzNTA4MjY2OTg0NDkwNzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,117 +136,122 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Crusoe/4c5de99e-87e0-4269-acf4-505c5d5b9d2b?utm_source=jobs.felicis.com",
-  "companyDomain": "crusoe.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/83e047ed53d48955e1e39bdd6f3f660f_256_160?Expires=1861920000&Signature=r2eU4jRX2uOXV1AaZbtY7Z5mnhoWhTY0I1PFAYujsp5lQ9CiX1iiB",
-  "companyId": "Crusoe",
-  "companySlug": "crusoe",
-  "companyName": "Crusoe",
-  "companyStaffCount": 1693,
+  "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/5278670007",
+  "companyDomain": "verkada.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8fef24f24d7f5794eed4923eb25b16ff_304_160?Expires=1861920000&Signature=GrVmnkwsr5pViGdcRkXENC1~-cN3J7WMdPab~Q947Jpu8OsXzdwLQ",
+  "companyId": "Verkada",
+  "companySlug": "verkada",
+  "companyName": "Verkada",
+  "companyStaffCount": 2877,
   "considerHosted": false,
   "departments": [
-   "Technical Program Management"
+   "Core Services"
   ],
   "jobTypes": [
    {
-    "id": "technical-program-manager",
-    "label": "Technical Program Manager",
-    "value": "technical-program-manager"
+    "id": "backend-engineer",
+    "label": "Backend Engineer",
+    "value": "backend-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "San Francisco, California, USA",
-   "San Francisco, CA - US"
+   "San Mateo, CA United States"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "San Mateo, California",
+    "label": "San Mateo, California",
+    "value": "San Mateo, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 240000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Firmware",
-    "label": "Firmware",
-    "value": "resume:Firmware"
+    "id": "resume:gRPC",
+    "label": "gRPC",
+    "value": "resume:gRPC"
    },
    {
-    "id": "resume:Data Center",
-    "label": "Data Center",
-    "value": "resume:Data Center"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:database caching",
+    "label": "Database Caching",
+    "value": "resume:database caching"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Redis",
+    "label": "Redis",
+    "value": "resume:Redis"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Firmware",
-    "label": "Firmware",
-    "value": "resume:Firmware"
+    "id": "resume:gRPC",
+    "label": "gRPC",
+    "value": "resume:gRPC"
    },
    {
-    "id": "resume:Data Center",
-    "label": "Data Center",
-    "value": "resume:Data Center"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:database caching",
+    "label": "Database Caching",
+    "value": "resume:database caching"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Redis",
+    "label": "Redis",
+    "value": "resume:Redis"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:MySQL",
+    "label": "MySQL",
+    "value": "resume:MySQL"
    },
    {
-    "id": "resume:Incident Response",
-    "label": "Incident Response",
-    "value": "resume:Incident Response"
+    "id": "resume:Memcached",
+    "label": "Memcached",
+    "value": "resume:Memcached"
    }
   ],
   "manager": false,
@@ -256,18 +261,14 @@
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 4,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Pacific States",
@@ -275,9 +276,9 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -285,27 +286,33 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
    },
    {
-    "id": "Energy",
-    "label": "Energy",
-    "value": "Energy"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-10-28T00:00:00Z",
-  "title": "Staff Technical Program Manager, Cloud Availability",
-  "url": "https://jobs.ashbyhq.com/Crusoe/4c5de99e-87e0-4269-acf4-505c5d5b9d2b",
-  "jobId": "4c5de99e-87e0-4269-acf4-505c5d5b9d2b",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Consumer Electronics",
+    "label": "Consumer Electronics",
+    "value": "Consumer Electronics"
+   },
+   {
+    "id": "Hardware",
+    "label": "Hardware",
+    "value": "Hardware"
+   }
+  ],
+  "timeStamp": "2026-10-28T16:42:02Z",
+  "title": "Senior Backend Engineer",
+  "url": "https://job-boards.greenhouse.io/verkada/jobs/5278670007",
+  "jobId": "5278670007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1713787231486, 'matchScore': 0, 'ageScore': 0.9713787231485339, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1909964048044, 'matchScore': 0, 'ageScore': 0.9909964048043981, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -313,16 +320,10 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

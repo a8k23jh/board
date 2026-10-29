@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-28T21:45:07Z",
+ "run": "2026-10-29T01:52:06Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"},\"server\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"},\"server\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "vtEx2wi4Xk\u2026",
+  "session.sig": "4rVgslvbAy\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWIwZDMwODc4NmQ4MzgwYmM2ODBkMWQ3ZmY5ZmRkNTkiLCAic2NvcmUiOiAxLjEwNDc4ODE2NDgxNDgxNDh9"
+   "sequence": "eyJfaWQiOiAiNmJiNmMyZDMzMWY4ZjA1YmIxMmI0NTAxM2QyNDliY2MiLCAic2NvcmUiOiAxLjEyNTYwNjMyNjA5ODc2NTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,125 +152,126 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.workatastartup.com/jobs/106407",
-  "companyDomain": "youshift.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a2abf3bb68bc45adff727dbca49769fa_240_160?Expires=1861920000&Signature=hV18wPPkyItUG-p-3xWC2MGgJZYZnzwx1DDfKYHgEKJqhpfw2yiaj",
-  "companyId": "YouShift",
-  "companySlug": "youshift",
-  "companyName": "YouShift",
-  "companyStaffCount": 17,
+  "applyUrl": "https://careers.docusign.com/jobs/30592?lang=en-us",
+  "companyDomain": "docusign.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
+  "companyId": "DocuSign",
+  "companySlug": "docusign",
+  "companyName": "DocuSign",
+  "companyStaffCount": 8412,
   "considerHosted": false,
   "departments": [],
   "jobTypes": [
    {
-    "id": "business-development",
-    "label": "Business Development Professional",
-    "value": "business-development"
+    "id": "commercial-manager",
+    "label": "Commercial Manager",
+    "value": "commercial-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   },
-   {
-    "id": "Business Development",
-    "label": "Business Development",
-    "value": "Business Development"
+    "id": "General Business",
+    "label": "General Business",
+    "value": "General Business"
    }
   ],
   "locations": [
-   "New York, NY, US / Remote (US)"
+   "Seattle, Washington",
+   "Chicago, Illinois"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Chicago, Illinois",
+    "label": "Chicago, Illinois",
+    "value": "Chicago, Illinois"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 115000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 131800, 'maxValue': 191200, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
    },
    {
-    "id": "resume:Apollo",
-    "label": "Apollo",
-    "value": "resume:Apollo"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    }
   ],
   "manager": false,
@@ -278,84 +279,75 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    7,
+    8
    ],
    [
-    3,
-    4
+    9,
+    10,
+    11,
+    12
    ]
   ],
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-10-27T23:57:15Z",
-  "title": "Founding Business Development Representative",
-  "url": "https://www.workatastartup.com/jobs/106407",
-  "jobId": "106407",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1719861336451, 'matchScore': 0, 'ageScore': 0.9719861336450617, 'richnessScore': 2}",
+  "timeStamp": "2026-10-28T20:19:58Z",
+  "title": "Regional Vice President, Commercial Sales",
+  "url": "https://careers.docusign.com/jobs/30592?lang=en-us",
+  "jobId": "30592",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1950715396231, 'matchScore': 0, 'ageScore': 0.9950715396230709, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "vp",
+    "label": "VP/SVP",
+    "value": "vp"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "vp"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-28T21:45:07Z",
+ "run": "2026-10-29T01:52:06Z",
  "homepage": {
   "status": 200,
   "bytes": 21383
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"},\"server\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"},\"server\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "rcb9d7GQcr\u2026",
+  "session.sig": "ZvPwdM_7JD\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2JhYWQ3M2Q1YTYwM2Y5ZGIwOWQ1YTczYmI1Mzg0NTkiLCAic2NvcmUiOiAxLjEwNDU3NjY4NDgxOTQ0NDV9"
+   "sequence": "eyJfaWQiOiAiYTdiMDM3ZTVlZmNlZjRlOGE1M2VmNmYzYWJiNDlmZDgiLCAic2NvcmUiOiAxLjEyOTYyMTU4NjM3MDM3MDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,37 +163,22 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/bevicareers/jobs/4470486009",
-  "companyDomain": "bevi.co",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/739cc9a43e87a153bd75443f1b6c429b_176_160?Expires=1861920000&Signature=Bkvh-CqCZBnCet7MlCSg7tJdMKAEB3-8FulKMKBf9iPSRJL0uwiHp",
-  "companyId": "Bevi",
-  "companySlug": "bevi",
-  "companyName": "Bevi",
-  "companyStaffCount": 412,
+  "applyUrl": "https://jobs.lever.co/captivateiq/f7e7fa1b-2024-4423-81d5-1b061101e4ee?lever-source%5B%5D=jobs.bvp.com",
+  "companyDomain": "captivateiq.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/38cc60bf74d750e14fddc734b5c7ffb0_320_160?Expires=1861920000&Signature=hH3yceFmYb4gL3iy~giCkiv46duW7sycYRGlOCXAzTpoY29ejKDu4",
+  "companyId": "CaptivateIQ",
+  "companySlug": "captivateiq",
+  "companyName": "CaptivateIQ",
+  "companyStaffCount": 284,
   "considerHosted": false,
   "departments": [
-   "Manufacturing & Quality"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "qa-director",
-    "label": "QA Director",
-    "value": "qa-director"
-   },
-   {
-    "id": "hardware-engineer",
-    "label": "Hardware Engineer",
-    "value": "hardware-engineer"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
+    "id": "engineering-manager",
+    "label": "Engineering Manager",
+    "value": "engineering-manager"
    }
   ],
   "jobFunctions": [
@@ -204,85 +189,79 @@
    }
   ],
   "locations": [
-   "Boston"
+   "Remote"
   ],
-  "normalizedLocations": [
-   {
-    "id": "Greater Boston Area",
-    "label": "Boston",
-    "value": "Greater Boston Area"
-   }
-  ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 184620, 'maxValue': 184620, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "normalizedLocations": [],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 186102, 'maxValue': 292845, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Process Validation",
-    "label": "Process Validation",
-    "value": "resume:Process Validation"
+    "id": "resume:Product Design",
+    "label": "Product Design",
+    "value": "resume:Product Design"
    },
    {
-    "id": "resume:Reliability Engineering",
-    "label": "Reliability Engineering",
-    "value": "resume:Reliability Engineering"
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
    },
    {
-    "id": "resume:Firmware",
-    "label": "Firmware",
-    "value": "resume:Firmware"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    },
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:Failure Mode and Effects Analysis (FMEA)",
-    "label": "Failure Mode and Effects Analysis (FMEA)",
-    "value": "resume:Failure Mode and Effects Analysis (FMEA)"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Process Validation",
-    "label": "Process Validation",
-    "value": "resume:Process Validation"
+    "id": "resume:Product Design",
+    "label": "Product Design",
+    "value": "resume:Product Design"
    },
    {
-    "id": "resume:Reliability Engineering",
-    "label": "Reliability Engineering",
-    "value": "resume:Reliability Engineering"
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
    },
    {
-    "id": "resume:Firmware",
-    "label": "Firmware",
-    "value": "resume:Firmware"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:Failure Mode and Effects Analysis (FMEA)",
-    "label": "Failure Mode and Effects Analysis (FMEA)",
-    "value": "resume:Failure Mode and Effects Analysis (FMEA)"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:Quality Management",
-    "label": "Quality Management",
-    "value": "resume:Quality Management"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Internet of Things",
-    "label": "Internet of Things",
-    "value": "resume:Internet of Things"
+    "id": "resume:Technical Leadership",
+    "label": "Technical Leadership",
+    "value": "resume:Technical Leadership"
    },
    {
-    "id": "resume:Statistical Process Control",
-    "label": "SPC",
-    "value": "resume:Statistical Process Control"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    }
   ],
   "manager": true,
@@ -298,24 +277,8 @@
     8
    ]
   ],
-  "minYearsExp": 10,
-  "regions": [
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   }
-  ],
+  "minYearsExp": 8,
+  "regions": [],
   "stages": [
    {
     "id": "100-1000 employees",
@@ -331,29 +294,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Food & Beverages",
-    "label": "Food & Beverages",
-    "value": "Food & Beverages"
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-10-28T08:34:44Z",
-  "title": "Director, Hardware Quality Engineering",
-  "url": "https://job-boards.greenhouse.io/bevicareers/jobs/4470486009",
-  "jobId": "4470486009",
-  "remote": false,
+  "timeStamp": "2026-10-28T20:43:03.010000Z",
+  "title": "Sr. Engineering Manager - Core Platform",
+  "url": "https://jobs.lever.co/captivateiq/f7e7fa1b-2024-4423-81d5-1b061101e4ee",
+  "jobId": "f7e7fa1b-2024-4423-81d5-1b061101e4ee",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.184017511248, 'matchScore': 0, 'ageScore': 0.984017511248071, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1965591039082, 'matchScore': 0, 'ageScore': 0.996559103908179, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "manager"
   ],
   "isFeatured": false
  },

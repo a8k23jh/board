@@ -1,9 +1,9 @@
 {
  "board": "initialized",
- "run": "2026-10-28T21:45:07Z",
+ "run": "2026-10-29T01:52:06Z",
  "homepage": {
   "status": 200,
-  "bytes": 20921
+  "bytes": 1316285
  },
  "slugs_tried": [
   "initialized",
@@ -14,27 +14,34 @@
    "endpoint": "https://jobs.initialized.com/api-boards/search-jobs",
    "slug": "initialized",
    "csrf_header": null,
-   "status": 412,
-   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+   "status": 200,
+   "body_head": "<!DOCTYPE html><html data-dpl-id=\"dpl_2Mu2VzfgVg3QBzrX6G7z3MPQ4GKK\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"/><lin"
   },
   {
    "endpoint": "https://jobs.initialized.com/api-boards/search-jobs",
    "slug": "initialized-capital",
    "csrf_header": null,
+   "status": 200,
+   "body_head": "<!DOCTYPE html><html data-dpl-id=\"dpl_2Mu2VzfgVg3QBzrX6G7z3MPQ4GKK\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"/><lin"
+  },
+  {
+   "endpoint": "https://consider.com/api-boards/search-jobs",
+   "slug": "initialized",
+   "csrf_header": null,
    "status": 412,
    "body_head": "{\"error\":\"INVALID_CSRF\"}"
   },
   {
-   "endpoint": "https://jobs.initialized.com/api-boards/search-jobs",
-   "slug": "initialized",
-   "csrf_header": "x-csrf-token",
-   "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"},\"server\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"}}"
+   "endpoint": "https://consider.com/api-boards/search-jobs",
+   "slug": "initialized-capital",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "6RtT-EziCs\u2026",
+  "session.sig": "TNXyOgAhm9\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -44,283 +51,44 @@
   {
    "path": "/api-boards/csrf",
    "status": 200,
-   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+   "head": "<!DOCTYPE html><html data-dpl-id=\"dpl_2Mu2VzfgVg3QBzrX6G7z3MPQ4GKK\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"v"
   },
   {
    "path": "/api-boards/csrf-token",
    "status": 200,
-   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+   "head": "<!DOCTYPE html><html data-dpl-id=\"dpl_2Mu2VzfgVg3QBzrX6G7z3MPQ4GKK\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"v"
+  },
+  {
+   "path": "/api/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html><html data-dpl-id=\"dpl_2Mu2VzfgVg3QBzrX6G7z3MPQ4GKK\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"v"
   },
   {
    "path": "/csrf",
    "status": 200,
-   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
+   "head": "<!DOCTYPE html><html data-dpl-id=\"dpl_2Mu2VzfgVg3QBzrX6G7z3MPQ4GKK\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"v"
+  },
+  {
+   "path": "/api-boards/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html><html data-dpl-id=\"dpl_2Mu2VzfgVg3QBzrX6G7z3MPQ4GKK\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"v"
+  },
+  {
+   "path": "/api-boards/csrf-token",
+   "status": 200,
+   "head": "<!DOCTYPE html><html data-dpl-id=\"dpl_2Mu2VzfgVg3QBzrX6G7z3MPQ4GKK\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"v"
+  },
+  {
+   "path": "/api/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html><html data-dpl-id=\"dpl_2Mu2VzfgVg3QBzrX6G7z3MPQ4GKK\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"v"
+  },
+  {
+   "path": "/csrf",
+   "status": 200,
+   "head": "<!DOCTYPE html><html data-dpl-id=\"dpl_2Mu2VzfgVg3QBzrX6G7z3MPQ4GKK\" lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"v"
   }
  ],
- "csrf_candidates": [
-  {
-   "src": "html",
-   "len": 36
-  }
- ],
- "working": {
-  "endpoint": "https://jobs.initialized.com/api-boards/search-jobs",
-  "slug": "initialized",
-  "csrf_header": [
-   "x-csrf-token"
-  ]
- },
- "search_probe": [
-  {
-   "variant": "query.searchQuery+promote",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  },
-  {
-   "variant": "query.searchQuery",
-   "jobs": 100,
-   "kw_hit_rate": 0.01
-  },
-  {
-   "variant": "query.search",
-   "jobs": 100,
-   "kw_hit_rate": 0.01
-  },
-  {
-   "variant": "query.text",
-   "jobs": 100,
-   "kw_hit_rate": 0.01
-  },
-  {
-   "variant": "query.q",
-   "jobs": 100,
-   "kw_hit_rate": 0.01
-  },
-  {
-   "variant": "top.searchQuery",
-   "jobs": 100,
-   "kw_hit_rate": 0.01
-  },
-  {
-   "variant": "query.keywords",
-   "jobs": 100,
-   "kw_hit_rate": 0.01
-  }
- ],
- "response_shape": {
-  "keys": [
-   "availableFilters",
-   "debug",
-   "errors",
-   "jobs",
-   "meta",
-   "total",
-   "version"
-  ],
-  "meta": {
-   "size": 100,
-   "sequence": "eyJfaWQiOiAiYzU4NzQ0MGY4NTQ2ZGRhMmYxOTk1YzU5YjUwNTUzYzEiLCAic2NvcmUiOiAxMDAuMjcxODY0ODU3NTcwOTl9"
-  },
-  "job_keys": [
-   "applicationWindow",
-   "applyUrl",
-   "atsJobs",
-   "companyDomain",
-   "companyId",
-   "companyLogos",
-   "companyName",
-   "companySlug",
-   "companyStaffCount",
-   "considerHosted",
-   "considerLevels",
-   "consultant",
-   "contractor",
-   "departments",
-   "fundingLV",
-   "hybrid",
-   "isFeatured",
-   "jobFunctions",
-   "jobId",
-   "jobSeniorities"
-  ],
-  "job_count": 100
- },
- "sample_job": {
-  "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/valaratomics/jobs/4429144009",
-  "companyDomain": "valaratomics.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/52ecc6d30563c1f52c2589b2e743e448_304_160?Expires=1861920000&Signature=m-KxTgWflM4oYj5B99nM7e8C2oPv4MPQ9BXQxEURt3TL1FT37URVv",
-  "companyId": "Valar Atomics",
-  "companySlug": "valar-atomics",
-  "companyName": "Valar Atomics",
-  "companyStaffCount": 93,
-  "considerHosted": false,
-  "departments": [
-   "Instrumentation & Controls"
-  ],
-  "jobTypes": [
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   }
-  ],
-  "jobFunctions": [],
-  "locations": [
-   "Torrance, California, United States"
-  ],
-  "normalizedLocations": [
-   {
-    "id": "Torrance, California",
-    "label": "Torrance, California",
-    "value": "Torrance, California"
-   }
-  ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 225000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
-  "skills": [
-   {
-    "id": "resume:Design for Manufacturing",
-    "label": "Design for Manufacturing",
-    "value": "resume:Design for Manufacturing"
-   },
-   {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
-   {
-    "id": "resume:VV",
-    "label": "Verification and Validation",
-    "value": "resume:VV"
-   },
-   {
-    "id": "resume:Instrumentation",
-    "label": "Instrumentation",
-    "value": "resume:Instrumentation"
-   },
-   {
-    "id": "resume:Medical Devices",
-    "label": "Medical Devices",
-    "value": "resume:Medical Devices"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Design for Manufacturing",
-    "label": "Design for Manufacturing",
-    "value": "resume:Design for Manufacturing"
-   },
-   {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
-   {
-    "id": "resume:VV",
-    "label": "Verification and Validation",
-    "value": "resume:VV"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Instrumentation",
-    "label": "Instrumentation",
-    "value": "resume:Instrumentation"
-   },
-   {
-    "id": "resume:Medical Devices",
-    "label": "Medical Devices",
-    "value": "resume:Medical Devices"
-   },
-   {
-    "id": "resume:Firmware",
-    "label": "Firmware",
-    "value": "resume:Firmware"
-   },
-   {
-    "id": "resume:Signal Integrity",
-    "label": "Signal Integrity",
-    "value": "resume:Signal Integrity"
-   },
-   {
-    "id": "resume:DFT",
-    "label": "DFT",
-    "value": "resume:DFT"
-   }
-  ],
-  "manager": true,
-  "consultant": false,
-  "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
-  "minYearsExp": 12,
-  "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   }
-  ],
-  "stages": [
-   {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
-   }
-  ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
-  "markets": [
-   {
-    "id": "Oil & Energy",
-    "label": "Oil & Energy",
-    "value": "Oil & Energy"
-   }
-  ],
-  "timeStamp": "2026-10-27T22:50:47Z",
-  "title": "Director, Nuclear Instrumentation & Electronics",
-  "url": "https://job-boards.greenhouse.io/valaratomics/jobs/4429144009",
-  "jobId": "4429144009",
-  "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1101.1698491050558, 'matchScore': 0, 'ageScore': 0.9698491050559414, 'richnessScore': 2}",
-  "atsJobs": [],
-  "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
-   }
-  ],
-  "jobSeniorityIds": [
-   "director"
-  ],
-  "isFeatured": true
- },
- "search_mode": {
-  "variant": "cursor:meta.sequence"
- }
+ "csrf_candidates": [],
+ "first_attempt_error": "consider: CSRF/endpoint probe failed for https://jobs.initialized.com (see diag)"
 }

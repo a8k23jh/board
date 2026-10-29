@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-28T21:45:07Z",
+ "run": "2026-10-29T01:52:06Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"},\"server\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"},\"server\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "g6stK1vMKS\u2026",
+  "session.sig": "AuHKAcT2Aj\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDhhOWJhMjEwOTBlN2Q1ZjY5YTQyYTVmNzNkMmI2YjUiLCAic2NvcmUiOiAxLjAyMDY1OTA0NTEyMjY4NTF9"
+   "sequence": "eyJfaWQiOiAiMjhmYzczOGFmYTc5Yzg4ZTA3ZTBiZjIxZjY3NzRmYzAiLCAic2NvcmUiOiAxLjA0NTA5OTM5MTQ3Mjk5Mzh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,121 +155,111 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/studsinc/jobs/6237343004",
-  "companyDomain": "studs.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/928cc14370271b5bf1ed1e2cd0f89b69_192_160?Expires=1861920000&Signature=aUPXDUpPVxKoYqNFh7KhHxjFQHByuvTL2tiKY7~kxJ-4SGSbLu7S-",
-  "companyId": "Studs",
-  "companySlug": "studs",
-  "companyName": "Studs",
-  "companyStaffCount": 205,
+  "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/5278670007",
+  "companyDomain": "verkada.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8fef24f24d7f5794eed4923eb25b16ff_304_160?Expires=1861920000&Signature=GrVmnkwsr5pViGdcRkXENC1~-cN3J7WMdPab~Q947Jpu8OsXzdwLQ",
+  "companyId": "Verkada",
+  "companySlug": "verkada",
+  "companyName": "Verkada",
+  "companyStaffCount": 2877,
   "considerHosted": false,
   "departments": [
-   "People & Culture"
+   "Core Services"
   ],
   "jobTypes": [
    {
-    "id": "finance-professional",
-    "label": "Finance",
-    "value": "finance-professional"
-   },
-   {
-    "id": "fpa-manager",
-    "label": "FP&A Manager",
-    "value": "fpa-manager"
+    "id": "backend-engineer",
+    "label": "Backend Engineer",
+    "value": "backend-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Finance",
-    "label": "Finance",
-    "value": "Finance"
-   },
-   {
-    "id": "Accounting",
-    "label": "Accounting",
-    "value": "Accounting"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "594 Broadway New York, NY 10012"
+   "San Mateo, CA United States"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "San Mateo, California",
+    "label": "San Mateo, California",
+    "value": "San Mateo, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 155000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Financial Planning",
-    "label": "Financial Planning",
-    "value": "resume:Financial Planning"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:gRPC",
+    "label": "gRPC",
+    "value": "resume:gRPC"
    },
    {
-    "id": "resume:Liquidity",
-    "label": "Liquidity",
-    "value": "resume:Liquidity"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Income Statements",
-    "label": "Income Statements",
-    "value": "resume:Income Statements"
+    "id": "resume:database caching",
+    "label": "Database Caching",
+    "value": "resume:database caching"
    },
    {
-    "id": "resume:ERP",
-    "label": "ERP",
-    "value": "resume:ERP"
+    "id": "resume:Redis",
+    "label": "Redis",
+    "value": "resume:Redis"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Financial Planning",
-    "label": "Financial Planning",
-    "value": "resume:Financial Planning"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:gRPC",
+    "label": "gRPC",
+    "value": "resume:gRPC"
    },
    {
-    "id": "resume:Liquidity",
-    "label": "Liquidity",
-    "value": "resume:Liquidity"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Income Statements",
-    "label": "Income Statements",
-    "value": "resume:Income Statements"
+    "id": "resume:database caching",
+    "label": "Database Caching",
+    "value": "resume:database caching"
    },
    {
-    "id": "resume:ERP",
-    "label": "ERP",
-    "value": "resume:ERP"
+    "id": "resume:Redis",
+    "label": "Redis",
+    "value": "resume:Redis"
    },
    {
-    "id": "resume:Performance Reporting",
-    "label": "Performance Reporting",
-    "value": "resume:Performance Reporting"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:E-commerce",
-    "label": "E-commerce",
-    "value": "resume:E-commerce"
+    "id": "resume:MySQL",
+    "label": "MySQL",
+    "value": "resume:MySQL"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Memcached",
+    "label": "Memcached",
+    "value": "resume:Memcached"
    }
   ],
   "manager": false,
@@ -279,40 +269,31 @@
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
-  "minYearsExp": 6,
+  "minYearsExp": 4,
   "regions": [
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -323,35 +304,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Retail",
-    "label": "Retail",
-    "value": "Retail"
+    "id": "Consumer Electronics",
+    "label": "Consumer Electronics",
+    "value": "Consumer Electronics"
+   },
+   {
+    "id": "Hardware",
+    "label": "Hardware",
+    "value": "Hardware"
    }
   ],
-  "timeStamp": "2026-10-28T07:27:11Z",
-  "title": "Associate Director, FP&A",
-  "url": "https://job-boards.greenhouse.io/studsinc/jobs/6237343004",
-  "jobId": "6237343004",
+  "timeStamp": "2026-10-28T16:42:02Z",
+  "title": "Senior Backend Engineer",
+  "url": "https://job-boards.greenhouse.io/verkada/jobs/5278670007",
+  "jobId": "5278670007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1816098261555, 'matchScore': 0, 'ageScore': 0.9816098261554784, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1909964048044, 'matchScore': 0, 'ageScore': 0.9909964048043981, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
-   },
-   {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "director"
+   "senior"
   ],
   "isFeatured": false
  },

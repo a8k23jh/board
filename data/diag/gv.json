@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-10-28T21:45:07Z",
+ "run": "2026-10-29T01:52:06Z",
  "homepage": {
   "status": 200,
   "bytes": 26164
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"},\"server\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"},\"server\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Z06nVXNnbr\u2026",
+  "session.sig": "TNXyOgAhm9\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWVkZDU2NmI2ZDg0OWUyNDVjNzVlMmZhMWE0ODIzMDIiLCAic2NvcmUiOiAxLjEzODIzNjY1OTM2OTIxM30="
+   "sequence": "eyJfaWQiOiAiYjYwZjk5ZTFiNTU5NDQxOTEzMjA2ZmVmMTNhMGU4ZDQiLCAic2NvcmUiOiAxLjE2NjkxNDgyMDEzMTE3Mjh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,115 +147,124 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/beaconbiosignals/jobs/4470548009",
-  "companyDomain": "beacon.bio",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7bbe41ae8525d092b25037f774e240d2_272_160?Expires=1861920000&Signature=iAzuVZfK484xzqWtgVqWNvMCvH57x69RnUgg6-L6QMWBIZMTNptAu",
-  "companyId": "Beacon Biosignals",
-  "companySlug": "beacon-biosignals",
-  "companyName": "Beacon Biosignals",
-  "companyStaffCount": 191,
+  "applyUrl": "https://job-boards.greenhouse.io/iterativehealth/jobs/4723447006",
+  "companyDomain": "iterative.health",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ae55aeceac113f7d10f69e08e5478dee_272_160?Expires=1861920000&Signature=fk1y-mw175h~oE8jQkjir-IvdZJWQ~9ymSxjeDH7JK~encP43qhhw",
+  "companyId": "Iterative Scopes",
+  "companySlug": "iterative-scopes",
+  "companyName": "Iterative Health",
+  "companyStaffCount": 152,
   "considerHosted": false,
   "departments": [
-   "Platform Engineering"
+   "Executive Management"
   ],
   "jobTypes": [
    {
-    "id": "senior-software-engineer",
-    "label": "Senior Software Engineer",
-    "value": "senior-software-engineer"
+    "id": "chief-of-staff",
+    "label": "Chief of Staff",
+    "value": "chief-of-staff"
+   },
+   {
+    "id": "chief-executive-officer",
+    "label": "CEO",
+    "value": "chief-executive-officer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
+   },
+   {
+    "id": "General Business",
+    "label": "General Business",
+    "value": "General Business"
    }
   ],
   "locations": [
-   "Remote",
-   "Boston, MA"
+   "New York City, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "Greater Boston Area",
-    "label": "Boston",
-    "value": "Greater Boston Area"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 270000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Kinesis",
-    "label": "Kinesis",
-    "value": "resume:Kinesis"
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    },
    {
-    "id": "resume:Apache Kafka",
-    "label": "Apache Kafka",
-    "value": "resume:Apache Kafka"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
    },
    {
-    "id": "resume:Node.js",
-    "label": "Node.js",
-    "value": "resume:Node.js"
+    "id": "resume:Business Acumen",
+    "label": "Business Acumen",
+    "value": "resume:Business Acumen"
    },
    {
-    "id": "resume:Helm",
-    "label": "Helm",
-    "value": "resume:Helm"
+    "id": "resume:Decision Support",
+    "label": "Decision Support",
+    "value": "resume:Decision Support"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Kinesis",
-    "label": "Kinesis",
-    "value": "resume:Kinesis"
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    },
    {
-    "id": "resume:Apache Kafka",
-    "label": "Apache Kafka",
-    "value": "resume:Apache Kafka"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Node.js",
-    "label": "Node.js",
-    "value": "resume:Node.js"
+    "id": "resume:Business Acumen",
+    "label": "Business Acumen",
+    "value": "resume:Business Acumen"
    },
    {
-    "id": "resume:Helm",
-    "label": "Helm",
-    "value": "resume:Helm"
+    "id": "resume:Decision Support",
+    "label": "Decision Support",
+    "value": "resume:Decision Support"
    },
    {
-    "id": "resume:Terraform",
-    "label": "Terraform",
-    "value": "resume:Terraform"
+    "id": "resume:Clinical Research",
+    "label": "Clinical Research",
+    "value": "resume:Clinical Research"
    },
    {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
+    "id": "resume:Life Sciences",
+    "label": "Life Sciences",
+    "value": "resume:Life Sciences"
    },
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Management Consulting",
+    "label": "Management Consulting",
+    "value": "resume:Management Consulting"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -268,7 +277,8 @@
     6
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 6,
+  "maxYearsExp": 8,
   "regions": [
    {
     "id": "East Coast",
@@ -276,14 +286,19 @@
     "value": "East Coast"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -301,26 +316,36 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Computer Vision",
+    "label": "Computer Vision",
+    "value": "Computer Vision"
    },
    {
-    "id": "Data & Analytics",
-    "label": "Data & Analytics",
-    "value": "Data & Analytics"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-10-28T09:35:43Z",
-  "title": "Senior Software Engineer",
-  "url": "https://job-boards.greenhouse.io/beaconbiosignals/jobs/4470548009",
-  "jobId": "4470548009",
-  "remote": true,
+  "timeStamp": "2026-10-28T15:28:44Z",
+  "title": "Chief of Staff - CEO",
+  "url": "https://job-boards.greenhouse.io/iterativehealth/jobs/4723447006",
+  "jobId": "4723447006",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.185089676429, 'matchScore': 0, 'ageScore': 0.9850896764290124, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1884412818908, 'matchScore': 0, 'ageScore': 0.9884412818908179, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
    {
     "id": "senior",
     "label": "Senior",
@@ -328,6 +353,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "mid",
    "senior"
   ],
   "isFeatured": false

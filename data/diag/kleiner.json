@@ -1,6 +1,7 @@
 {
  "board": "kleiner",
- "run": "2026-10-28T21:45:07Z",
+ "run": "2026-10-29T01:52:06Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -37,12 +38,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"},\"server\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"},\"server\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "QSxXOMZc1Q\u2026",
+  "session.sig": "Neb4z3Qcem\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +128,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTE4NDQyN2E0NjI1NTNjOGI1YzRhN2E4NDdhZjZlMWIiLCAic2NvcmUiOiAxLjAzNzA0OTY1Njg5MTU4OTV9"
+   "sequence": "eyJfaWQiOiAiNmZhYjIyZTg2NTA0YWNkMDc1M2I2MWExNDcxYTJkMzAiLCAic2NvcmUiOiAxLjA2MzU4ODM5Njc0ODQ1Njd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,144 +156,128 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/harvey/bc94becd-102e-49a1-abdc-5ce42076a68d?utm_source=jobs.kleinerperkins.com",
-  "companyDomain": "harvey.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2be5d63be7354b540c94eee9efbb0fa_176_160?Expires=1861920000&Signature=gGuMg4b-uxV1b~F2mr~UsVNlbNUHUojHReeO1yQOzw09rnj8QM6i~",
-  "companyId": "Harvey",
-  "companySlug": "harvey",
-  "companyName": "Harvey",
-  "companyStaffCount": 1840,
+  "applyUrl": "https://jobs.lever.co/CesiumAstro/4101f1dc-4c18-41d8-8077-b9dff0028a5e?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "companyDomain": "cesiumastro.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
+  "companyId": "CesiumAstro",
+  "companySlug": "cesiumastro",
+  "companyName": "CesiumAstro",
+  "companyStaffCount": 452,
   "considerHosted": false,
   "departments": [
-   "Product"
+   "Manufacturing & Operations"
   ],
   "jobTypes": [
    {
-    "id": "product-manager",
-    "label": "Product Manager",
-    "value": "product-manager"
+    "id": "quality-control",
+    "label": "Quality Control",
+    "value": "quality-control"
    },
    {
-    "id": "embedded-engineer",
-    "label": "Embedded Linux Engineer",
-    "value": "embedded-engineer"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    },
    {
-    "id": "senior-product-manager",
-    "label": "Senior Product Manager",
-    "value": "senior-product-manager"
+    "id": "supervisor",
+    "label": "Supervisor",
+    "value": "supervisor"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Product Management",
-    "label": "Product Management",
-    "value": "Product Management"
-   },
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "San Francisco, California, USA",
-   "San Francisco"
+   "Westminster, CO"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Westminster, Colorado",
+    "label": "Westminster, Colorado",
+    "value": "Westminster, Colorado"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 177700, 'maxValue': 266500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 107000, 'maxValue': 126000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Engineering Design",
-    "label": "Engineering Design",
-    "value": "resume:Engineering Design"
+    "id": "resume:Department of State",
+    "label": "Department of State",
+    "value": "resume:Department of State"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Space Technology",
+    "label": "Space Technology",
+    "value": "resume:Space Technology"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:B2C",
-    "label": "B2C",
-    "value": "resume:B2C"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Quality Control",
+    "label": "Quality Control",
+    "value": "resume:Quality Control"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Engineering Design",
-    "label": "Engineering Design",
-    "value": "resume:Engineering Design"
+    "id": "resume:Department of State",
+    "label": "Department of State",
+    "value": "resume:Department of State"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Space Technology",
+    "label": "Space Technology",
+    "value": "resume:Space Technology"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:B2C",
-    "label": "B2C",
-    "value": "resume:B2C"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Quality Control",
+    "label": "Quality Control",
+    "value": "resume:Quality Control"
    },
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:Quality Management",
+    "label": "Quality Management",
+    "value": "resume:Quality Management"
+   },
+   {
+    "id": "resume:GD&T",
+    "label": "GD&T",
+    "value": "resume:GD&T"
+   },
+   {
+    "id": "resume:Operations Management",
+    "label": "Operations Management",
+    "value": "resume:Operations Management"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 4,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -301,9 +286,9 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -314,41 +299,26 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
    },
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "Legal Services",
-    "label": "Legal Services",
-    "value": "Legal Services"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-10-28T00:00:00Z",
-  "title": "Senior Product Manager, Embedded Experiences",
-  "url": "https://jobs.ashbyhq.com/harvey/bc94becd-102e-49a1-abdc-5ce42076a68d",
-  "jobId": "bc94becd-102e-49a1-abdc-5ce42076a68d",
+  "timeStamp": "2026-10-28T20:01:08.134000Z",
+  "title": "Supervisor Quality Control",
+  "url": "https://jobs.lever.co/CesiumAstro/4101f1dc-4c18-41d8-8077-b9dff0028a5e",
+  "jobId": "4101f1dc-4c18-41d8-8077-b9dff0028a5e",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1717511628349, 'matchScore': 0, 'ageScore': 0.9717511628348765, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.194849591985, 'matchScore': 0, 'ageScore': 0.9948495919849537, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -356,12 +326,12 @@
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }

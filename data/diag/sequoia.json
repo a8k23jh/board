@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-28T21:45:07Z",
+ "run": "2026-10-29T01:52:06Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"},\"server\":{\"git\":\"aa12fe3086d24e8a7d7a6440daf8cce4b0fa721e\",\"date\":\"2026-10-28T00:33:56.064Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"},\"server\":{\"git\":\"e624600f2882c1db5e6c24d1bbb87aac36e74d7a\",\"date\":\"2026-10-28T22:23:20.612Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "n9fHPcUKXp\u2026",
+  "session.sig": "-t79p3ueIl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWI4YmUwY2Y3ZTRkNjU0MDYzYTcyOWJjZTA0NzI1YjEiLCAic2NvcmUiOiAxLjEyNjMwMDY1NTQwNTA5MjV9"
+   "sequence": "eyJfaWQiOiAiZjQ0NDA5NTM4YmEyMWRkZjE1MzE0NWIxYjliMjcyOWEiLCAic2NvcmUiOiAxLjEzMzUxNzg2ODQ2OTkwNzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,139 +155,132 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/mercury/jobs/6236906004",
-  "companyDomain": "mercury.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f98054b413ecb703192095377d043aea_320_160?Expires=1861920000&Signature=ma3OPcXFl99XqBt5juUNn1IOSW7hoByAEPbz4Wm9ukCILr1auKCAL",
-  "companyId": "Mercury Banking for Startups",
-  "companySlug": "mercury-banking-for-startups",
-  "companyName": "Mercury",
-  "companyStaffCount": 1807,
+  "applyUrl": "https://jobs.lever.co/ridezum/e2c3648d-6e4f-4618-99b5-deaa88aea5db?lever-source%5B%5D=jobs.sequoiacap.com",
+  "companyDomain": "ridezum.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c6c435aa210c9689b6d3fecd3fe6fb21_176_160?Expires=1861920000&Signature=dDfXpjHC~4E-Tz68j5GklbbDsWb8UBjEcjndolqXHTfFZwsHx8fL7",
+  "companyId": "Zum",
+  "companySlug": "zum",
+  "companyName": "Z\u016bm",
+  "companyStaffCount": 509,
   "considerHosted": false,
   "departments": [
-   "Sales & Partnerships"
+   "School Bus Yard Operations"
   ],
-  "jobTypes": [
-   {
-    "id": "relationship-manager",
-    "label": "Relationship Manager",
-    "value": "relationship-manager"
-   }
-  ],
+  "jobTypes": [],
   "jobFunctions": [],
   "locations": [
-   "San Francisco, CA"
+   "Seattle, WA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 142900, 'maxValue': 178600, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 35, 'maxValue': 38, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    },
    {
-    "id": "resume:Series 65",
-    "label": "Series 65",
-    "value": "resume:Series 65"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Service Delivery",
+    "label": "Service Delivery",
+    "value": "resume:Service Delivery"
    },
    {
-    "id": "resume:CFA",
-    "label": "CFA",
-    "value": "resume:CFA"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Hospitality",
+    "label": "Hospitality",
+    "value": "resume:Hospitality"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Account Management",
-    "label": "Account Management",
-    "value": "resume:Account Management"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    },
    {
-    "id": "resume:Series 65",
-    "label": "Series 65",
-    "value": "resume:Series 65"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Service Delivery",
+    "label": "Service Delivery",
+    "value": "resume:Service Delivery"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:CFA",
-    "label": "CFA",
-    "value": "resume:CFA"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Hospitality",
+    "label": "Hospitality",
+    "value": "resume:Hospitality"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Early Stage",
-    "label": "Early-Stage",
-    "value": "resume:Early Stage"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
+   },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ]
-  ],
-  "minYearsExp": 3,
-  "maxYearsExp": 7,
+  "considerLevels": [],
   "regions": [
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -298,35 +291,22 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Banking",
-    "label": "Banking",
-    "value": "Banking"
-   },
-   {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-10-28T11:58:47Z",
-  "title": "Senior Relationship Manager",
-  "url": "https://job-boards.greenhouse.io/mercury/jobs/6236906004",
-  "jobId": "6236906004",
+  "timeStamp": "2026-10-28T21:56:01.770000Z",
+  "title": "Dispatcher",
+  "url": "https://jobs.lever.co/ridezum/e2c3648d-6e4f-4618-99b5-deaa88aea5db",
+  "jobId": "e2c3648d-6e4f-4618-99b5-deaa88aea5db",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1919273939831, 'matchScore': 0, 'ageScore': 0.9919273939830247, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1972936191466, 'matchScore': 0, 'ageScore': 0.997293619146605, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   }
-  ],
-  "jobSeniorityIds": [
-   "senior"
-  ],
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {
