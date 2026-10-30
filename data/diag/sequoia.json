@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-10-30T01:09:23Z",
+ "run": "2026-10-30T07:17:52Z",
  "homepage": {
   "status": 200,
   "bytes": 20230
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "PussrOcemC\u2026",
+  "session.sig": "swLz44TMqI\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODk3NDJhM2VlNGRmY2YxNWRiYmE2OTljNzU5MTE2ZjAiLCAic2NvcmUiOiAxLjEzNTQwOTc2NzUyODE2MzZ9"
+   "sequence": "eyJfaWQiOiAiYjExYTU5OTk0ZWM2NGNmOTcyNjJkYWRhNTg4ZTA4MGMiLCAic2NvcmUiOiAxLjE0NDIxNjQ5MTkzNDQxMzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,117 +144,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://cribl.io/job-detail/?gh_jid=5852256004&gh_src=8c0276084us",
-  "companyDomain": "cribl.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/748d19f5df4c5e3b2db8057cc735611a_192_160?Expires=1861920000&Signature=SJNRIXlQ5WF7hK48z7k8lkFmAsL5Sb-gi~rgZ4pKC9QoteIMr6wH-",
-  "companyId": "Cribl",
-  "companySlug": "cribl",
-  "companyName": "Cribl",
-  "companyStaffCount": 1319,
+  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8287466",
+  "companyDomain": "reddit.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
+  "companyId": "Reddit",
+  "companySlug": "reddit",
+  "companyName": "reddit",
+  "companyStaffCount": 4495,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Ads Product & Engineering"
   ],
   "jobTypes": [
    {
-    "id": "sales-development-rep",
-    "label": "Sales Development Representative",
-    "value": "sales-development-rep"
+    "id": "frontend-engineer",
+    "label": "Frontend Engineer",
+    "value": "frontend-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Remote - Austin, Texas"
+   "Remote - United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Austin, Texas",
-    "label": "Austin, Texas",
-    "value": "Austin, Texas"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 75000, 'maxValue': 90000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190800, 'maxValue': 267100, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SaaS Sales",
-    "label": "SaaS Sales",
-    "value": "resume:SaaS Sales"
+    "id": "resume:Scalability",
+    "label": "Scalability",
+    "value": "resume:Scalability"
    },
    {
-    "id": "resume:Channel Partners",
-    "label": "Channel Partnership",
-    "value": "resume:Channel Partners"
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
    },
    {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
+    "id": "resume:Mobile",
+    "label": "Mobile",
+    "value": "resume:Mobile"
    },
    {
-    "id": "resume:MEDDIC",
-    "label": "MEDDIC",
-    "value": "resume:MEDDIC"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Lead Generation",
-    "label": "Lead Generation",
-    "value": "resume:Lead Generation"
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SaaS Sales",
-    "label": "SaaS Sales",
-    "value": "resume:SaaS Sales"
+    "id": "resume:Scalability",
+    "label": "Scalability",
+    "value": "resume:Scalability"
    },
    {
-    "id": "resume:Channel Partners",
-    "label": "Channel Partnership",
-    "value": "resume:Channel Partners"
+    "id": "resume:JavaScript",
+    "label": "JavaScript",
+    "value": "resume:JavaScript"
    },
    {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
+    "id": "resume:Mobile",
+    "label": "Mobile",
+    "value": "resume:Mobile"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:MEDDIC",
-    "label": "MEDDIC",
-    "value": "resume:MEDDIC"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Lead Generation",
-    "label": "Lead Generation",
-    "value": "resume:Lead Generation"
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Product Design",
+    "label": "Product Design",
+    "value": "resume:Product Design"
    },
    {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
+   },
+   {
+    "id": "resume:Rendering",
+    "label": "Rendering",
+    "value": "resume:Rendering"
    }
   ],
   "manager": false,
@@ -262,29 +267,20 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
    }
   ],
   "stages": [
@@ -292,39 +288,38 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Data & Analytics",
-    "label": "Data & Analytics",
-    "value": "Data & Analytics"
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
+   },
+   {
+    "id": "Social Networking",
+    "label": "Social Networking",
+    "value": "Social Networking"
    }
   ],
-  "timeStamp": "2026-10-29T17:31:30Z",
-  "title": "Commercial Sales Representative",
-  "url": "https://cribl.io/job-detail/?gh_jid=5852256004",
-  "jobId": "5852256004",
+  "timeStamp": "2026-10-29T20:10:06Z",
+  "title": "Senior Frontend Engineer, Ads Formats",
+  "url": "https://job-boards.greenhouse.io/reddit/jobs/8287466",
+  "jobId": "8287466",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1919393963839, 'matchScore': 0, 'ageScore': 0.9919393963838734, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1869687512967, 'matchScore': 0, 'ageScore': 0.986968751296682, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

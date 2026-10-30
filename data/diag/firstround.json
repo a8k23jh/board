@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-30T01:09:23Z",
+ "run": "2026-10-30T07:17:52Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "5HQFFikfpn\u2026",
+  "session.sig": "_ytfmGM9OM\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZThhNDFmNWQ3N2FiY2ViOGZjNGI0M2U3ZmQ5YTE5ZWIiLCAic2NvcmUiOiAxLjA2NzM0MjIwOTE0MTIwMzd9"
+   "sequence": "eyJfaWQiOiAiYjU1NTZkZTFlZmJmYzZiMzgwMzM1Y2ZlY2MyMzA5ZmUiLCAic2NvcmUiOiAxLjA1OTUzNDUzMzkzNTk1Njh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -184,9 +184,14 @@
     "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Customer Relationship Management",
+    "label": "Customer Relationship Management",
+    "value": "resume:Customer Relationship Management"
    },
    {
     "id": "resume:Styling",
@@ -194,14 +199,9 @@
     "value": "resume:Styling"
    },
    {
-    "id": "resume:Sourcing",
-    "label": "Sourcing",
-    "value": "resume:Sourcing"
-   },
-   {
-    "id": "resume:Manufacturing Engineering",
-    "label": "Manufacturing Engineering",
-    "value": "resume:Manufacturing Engineering"
+    "id": "resume:Homeland Security",
+    "label": "Homeland Security",
+    "value": "resume:Homeland Security"
    }
   ],
   "requiredSkills": [
@@ -209,33 +209,6 @@
     "id": "resume:Customer Satisfaction",
     "label": "Customer Satisfaction",
     "value": "resume:Customer Satisfaction"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Styling",
-    "label": "Styling",
-    "value": "resume:Styling"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Sourcing",
-    "label": "Sourcing",
-    "value": "resume:Sourcing"
-   },
-   {
-    "id": "resume:Manufacturing Engineering",
-    "label": "Manufacturing Engineering",
-    "value": "resume:Manufacturing Engineering"
-   },
-   {
-    "id": "resume:Homeland Security",
-    "label": "Homeland Security",
-    "value": "resume:Homeland Security"
    },
    {
     "id": "resume:Equity",
@@ -246,6 +219,33 @@
     "id": "resume:Customer Relationship Management",
     "label": "Customer Relationship Management",
     "value": "resume:Customer Relationship Management"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Styling",
+    "label": "Styling",
+    "value": "resume:Styling"
+   },
+   {
+    "id": "resume:Homeland Security",
+    "label": "Homeland Security",
+    "value": "resume:Homeland Security"
+   },
+   {
+    "id": "resume:Manufacturing Engineering",
+    "label": "Manufacturing Engineering",
+    "value": "resume:Manufacturing Engineering"
+   },
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
+   },
+   {
+    "id": "resume:Sourcing",
+    "label": "Sourcing",
+    "value": "resume:Sourcing"
    }
   ],
   "manager": false,
@@ -263,6 +263,11 @@
   ],
   "regions": [
    {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
@@ -271,11 +276,6 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    },
    {
     "id": "Northeast",
@@ -319,24 +319,24 @@
   "jobId": "a60348bd-efb3-4106-8dbc-853d4cf86d6d",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1959689454217, 'matchScore': 0, 'ageScore': 0.9959689454216821, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1879905995876, 'matchScore': 0, 'ageScore': 0.9879905995875772, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "junior",
-   "mid"
+   "mid",
+   "junior"
   ],
   "isFeatured": false
  },

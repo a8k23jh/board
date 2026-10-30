@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-30T01:09:23Z",
+ "run": "2026-10-30T07:17:52Z",
  "homepage": {
   "status": 200,
   "bytes": 19511
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "gCrgZdtS-J\u2026",
+  "session.sig": "w98Vr8ovkt\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmViN2Y2NTZiODY0Yjk3NDFjNzQyY2JkNDI3M2U3YzYiLCAic2NvcmUiOiAxLjEwODU2NTIyNDA3NjM4OX0="
+   "sequence": "eyJfaWQiOiAiNzZlMTQ3NTU1NjcyNzkwZThjMWVhNzlmMTQ5Y2EyOGEiLCAic2NvcmUiOiAxLjExMTMzODcyNDM4NTgwMjR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,148 +128,142 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lumafield/5728a152-2182-4ec7-905d-3902ed611f6d?lever-source%5B%5D=careers.ivp.com",
-  "companyDomain": "lumafield.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
-  "companyId": "Lumafield",
-  "companySlug": "lumafield",
-  "companyName": "Lumafield",
-  "companyStaffCount": 156,
+  "applyUrl": "https://jobs.lever.co/lyrahealth/a2678b08-8dce-4902-aa5a-ed29eedc486c?lever-source%5B%5D=careers.ivp.com",
+  "companyDomain": "lyrahealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/143cd3a237462e2e7a2ccd47b2d73fac_96_160?Expires=1861920000&Signature=NN4EpXx0uHmRsAc6GKWU1E0aaw8tKG4yCj2QYcyRkjmu-TasPWWqFM",
+  "companyId": "Lyra Health",
+  "companySlug": "lyra-health",
+  "companyName": "Lyra Health",
+  "companyStaffCount": 2800,
   "considerHosted": false,
   "departments": [
-   "Manufacturing"
+   "LCA"
   ],
   "jobTypes": [
    {
-    "id": "electrical-engineer",
-    "label": "Electrical Engineer",
-    "value": "electrical-engineer"
-   }
-  ],
-  "jobFunctions": [
+    "id": "medical-professional",
+    "label": "Medical Professional",
+    "value": "medical-professional"
+   },
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "freelance",
+    "label": "Contractor",
+    "value": "freelance"
    }
   ],
+  "jobFunctions": [],
   "locations": [
-   "Everett, MA"
+   "New York"
   ],
   "normalizedLocations": [
    {
-    "id": "Massachusetts",
-    "label": "Massachusetts",
-    "value": "Massachusetts"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 40.4, 'maxValue': 50.97, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Test Automation",
-    "label": "Test Automation",
-    "value": "resume:Test Automation"
+    "id": "resume:CBT",
+    "label": "CBT",
+    "value": "resume:CBT"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
    },
    {
-    "id": "resume:EDA",
-    "label": "EDA",
-    "value": "resume:EDA"
+    "id": "resume:Psychology",
+    "label": "Psychology",
+    "value": "resume:Psychology"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Licensing",
+    "label": "Licensing",
+    "value": "resume:Licensing"
    },
    {
-    "id": "resume:Altium Designer",
-    "label": "Altium Designer",
-    "value": "resume:Altium Designer"
+    "id": "resume:Trauma",
+    "label": "Trauma",
+    "value": "resume:Trauma"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Test Automation",
-    "label": "Test Automation",
-    "value": "resume:Test Automation"
+    "id": "resume:CBT",
+    "label": "CBT",
+    "value": "resume:CBT"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
    },
    {
-    "id": "resume:EDA",
-    "label": "EDA",
-    "value": "resume:EDA"
+    "id": "resume:Psychology",
+    "label": "Psychology",
+    "value": "resume:Psychology"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Licensing",
+    "label": "Licensing",
+    "value": "resume:Licensing"
    },
    {
-    "id": "resume:Altium Designer",
-    "label": "Altium Designer",
-    "value": "resume:Altium Designer"
+    "id": "resume:Trauma",
+    "label": "Trauma",
+    "value": "resume:Trauma"
    },
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    },
    {
-    "id": "resume:Hardware Testing",
-    "label": "Hardware Testing",
-    "value": "resume:Hardware Testing"
+    "id": "resume:Clinical Psychology",
+    "label": "Clinical Psychology",
+    "value": "resume:Clinical Psychology"
    },
    {
-    "id": "resume:Power Electronics",
-    "label": "Power Electronics",
-    "value": "resume:Power Electronics"
+    "id": "resume:GDPR",
+    "label": "GDPR",
+    "value": "resume:GDPR"
    }
   ],
   "manager": false,
   "consultant": false,
-  "contractor": false,
-  "considerLevels": [
-   [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ]
-  ],
-  "minYearsExp": 3,
+  "contractor": true,
+  "considerLevels": [],
   "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
    {
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Northeast",
@@ -279,25 +273,36 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Medical Devices",
-    "label": "Medical Devices",
-    "value": "Medical Devices"
+    "id": "Digital Health",
+    "label": "Digital Health",
+    "value": "Digital Health"
+   },
+   {
+    "id": "Mental Health Care",
+    "label": "Mental Health Care",
+    "value": "Mental Health Care"
    }
   ],
-  "timeStamp": "2026-10-29T18:09:23.797000Z",
-  "title": "Manufacturing Electrical Engineer",
-  "url": "https://jobs.lever.co/lumafield/5728a152-2182-4ec7-905d-3902ed611f6d",
-  "jobId": "5728a152-2182-4ec7-905d-3902ed611f6d",
-  "remote": false,
+  "timeStamp": "2026-10-29T21:12:59.853000Z",
+  "title": "Licensed Mental Health Therapist - Pediatric Experience\u00a0 - Part-Time Telehealth - Unrestricted LCSW, LMHC, LMFT w/Diagnostic Privilege - New York",
+  "url": "https://jobs.lever.co/lyrahealth/a2678b08-8dce-4902-aa5a-ed29eedc486c",
+  "jobId": "a2678b08-8dce-4902-aa5a-ed29eedc486c",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.192162388218, 'matchScore': 0, 'ageScore': 0.9921623882179784, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1883211680181, 'matchScore': 0, 'ageScore': 0.9883211680181327, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

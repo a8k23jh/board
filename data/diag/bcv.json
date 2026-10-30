@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-10-30T01:09:23Z",
+ "run": "2026-10-30T07:17:52Z",
  "homepage": {
   "status": 200,
   "bytes": 20706
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "VizHzXdzK5\u2026",
+  "session.sig": "MYwe8yiFRU\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjE5MzIxNDI0ZWM5ZWU2OWE0M2JhYjhkNDEyOTVjOWYiLCAic2NvcmUiOiAxLjExOTA2MzU0NTcxNDg5Mn0="
+   "sequence": "eyJfaWQiOiAiNmViNzc2YzMxY2UyYTYxNTRiODQ5YjNjMTYwMjM5M2QiLCAic2NvcmUiOiAxLjExOTA5MDk4MjQwODk1MDZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -201,19 +201,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 66000, 'maxValue': 78000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
-   },
-   {
-    "id": "resume:Restaurant Management",
-    "label": "Restaurant Management",
-    "value": "resume:Restaurant Management"
-   },
-   {
-    "id": "resume:Operations Management",
-    "label": "Operations Management",
-    "value": "resume:Operations Management"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
     "id": "resume:Property Management",
@@ -221,21 +211,31 @@
     "value": "resume:Property Management"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Operations Management",
+    "label": "Operations Management",
+    "value": "resume:Operations Management"
+   },
+   {
+    "id": "resume:KPI Dashboards",
+    "label": "KPI Dashboards",
+    "value": "resume:KPI Dashboards"
+   },
+   {
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Restaurant Management",
-    "label": "Restaurant Management",
-    "value": "resume:Restaurant Management"
+    "id": "resume:Property Management",
+    "label": "Property Management",
+    "value": "resume:Property Management"
    },
    {
     "id": "resume:Operations Management",
@@ -245,29 +245,29 @@
   ],
   "preferredSkills": [
    {
-    "id": "resume:Property Management",
-    "label": "Property Management",
-    "value": "resume:Property Management"
-   },
-   {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   },
-   {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
-   },
-   {
     "id": "resume:KPI Dashboards",
     "label": "KPI Dashboards",
     "value": "resume:KPI Dashboards"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
+   },
+   {
+    "id": "resume:Restaurant Management",
+    "label": "Restaurant Management",
+    "value": "resume:Restaurant Management"
+   },
+   {
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
+   },
+   {
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    }
   ],
   "manager": false,
@@ -291,14 +291,14 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -332,15 +332,10 @@
   "jobId": "8924663002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1922483397245, 'matchScore': 0, 'ageScore': 0.9922483397245371, 'richnessScore': 2}",
+  "scores": "{'score': 1001.183625324027, 'matchScore': 0, 'ageScore': 0.9836253240270062, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
    {
     "id": "manager",
     "label": "Manager/Senior Manager",
@@ -350,12 +345,17 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "junior",
    "manager",
-   "mid"
+   "mid",
+   "junior"
   ],
   "isFeatured": false
  },
