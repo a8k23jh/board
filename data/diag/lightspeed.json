@@ -1,9 +1,9 @@
 {
  "board": "lightspeed",
- "run": "2026-10-30T14:21:05Z",
+ "run": "2026-10-30T19:32:00Z",
  "homepage": {
   "status": 200,
-  "bytes": 21199
+  "bytes": 21200
  },
  "slugs_tried": [
   "lightspeed",
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"6b2e902fb01ffedb01cfbd09a77d8659f00821a6\",\"date\":\"2026-10-29T19:39:38.961Z\"},\"server\":{\"git\":\"6b2e902fb01ffedb01cfbd09a77d8659f00821a6\",\"date\":\"2026-10-29T19:39:38.961Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"9c6ca404b6044dd47e45cad28b8221f49b29a69e\",\"date\":\"2026-10-30T17:47:08.115Z\"},\"server\":{\"git\":\"9c6ca404b6044dd47e45cad28b8221f49b29a69e\",\"date\":\"2026-10-30T17:47:08.115Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1-aB-2TaRy\u2026",
+  "session.sig": "E8YRnRZ-_3\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWJlMjhlYjg4MzNjN2JlZjE0N2Q3ZjRmNWYxMjhkMjMiLCAic2NvcmUiOiAxLjE1MTA2MjU2MTg0NjgzNjR9"
+   "sequence": "eyJfaWQiOiAiYmQ5YjM1ZjVkODdjZGQ3OWViYWM1ZTdhYzM3MzBiY2QiLCAic2NvcmUiOiAxLjE0OTcyMzAxNjg3NTM4NTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,33 +144,31 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5280003007?gh_jid=5280003007",
-  "companyDomain": "anduril.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d88ae975c1da94cefaeb3234d6fb00f_238_160?Expires=1861920000&Signature=nPYp1JlJZNMHspk2VuS1aXOsrIHWSiYZCa1mo5aQgLIbL2xCLdDD0",
-  "companyId": "Anduril Industries",
-  "companySlug": "anduril-industries",
-  "companyName": "Anduril Industries",
-  "companyStaffCount": 10152,
+  "applyUrl": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4628579",
+  "companyDomain": "cloudbees.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/098c463587cd05fcd57e30b09946b571_320_160?Expires=1861920000&Signature=s9C0YQ2J3KvQjBWhCQQx0-jm-ow3cWU1RF~Zowm0XYw2ZVHFLgHI0",
+  "companyId": "CloudBees",
+  "companySlug": "cloudbees",
+  "companyName": "CloudBees",
+  "companyStaffCount": 485,
   "considerHosted": false,
-  "departments": [
-   "Programs : Deployments : Sustainment Engineering"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "product-support-engineer",
-    "label": "Product Support Engineer",
-    "value": "product-support-engineer"
+    "id": "principal-software-engineer",
+    "label": "Principal Software Engineer",
+    "value": "principal-software-engineer"
    }
   ],
   "jobFunctions": [
@@ -181,85 +179,85 @@
    }
   ],
   "locations": [
-   "Atlanta, Georgia, United States"
+   "Denver, CO - Hybrid Denver CO USA"
   ],
   "normalizedLocations": [
    {
-    "id": "Atlanta, Georgia",
-    "label": "Atlanta, Georgia",
-    "value": "Atlanta, Georgia"
+    "id": "Denver, Colorado",
+    "label": "Denver, Colorado",
+    "value": "Denver, Colorado"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 114000, 'maxValue': 171000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:NX",
-    "label": "NX",
-    "value": "resume:NX"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
    {
-    "id": "resume:Systems Engineering",
-    "label": "Systems Engineering",
-    "value": "resume:Systems Engineering"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    },
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    },
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:NX",
-    "label": "NX",
-    "value": "resume:NX"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
    {
-    "id": "resume:Systems Engineering",
-    "label": "Systems Engineering",
-    "value": "resume:Systems Engineering"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    },
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Technical Leadership",
+    "label": "Technical Leadership",
+    "value": "resume:Technical Leadership"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "resume:Enterprise Software"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    }
   ],
   "manager": false,
@@ -267,62 +265,51 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 12,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
-   },
-   {
-    "id": "Deep South",
-    "label": "Deep South",
-    "value": "Deep South"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
+    "id": "Computer Software",
+    "label": "Computer Software",
+    "value": "Computer Software"
    }
   ],
-  "timeStamp": "2026-10-30T02:03:52Z",
-  "title": "Product Support Engineer - Altius 600",
-  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5280003007?gh_jid=5280003007",
-  "jobId": "5280003007",
+  "timeStamp": "2026-10-30T10:31:56Z",
+  "title": "Principal Software Engineer, CBCI",
+  "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4628579",
+  "jobId": "4628579",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1867075013183, 'matchScore': 0, 'ageScore': 0.986707501318287, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1907180254109, 'matchScore': 0, 'ageScore': 0.9907180254108796, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -330,6 +317,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false

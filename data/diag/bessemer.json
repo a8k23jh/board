@@ -1,9 +1,9 @@
 {
  "board": "bessemer",
- "run": "2026-10-30T14:21:05Z",
+ "run": "2026-10-30T19:32:00Z",
  "homepage": {
   "status": 200,
-  "bytes": 21383
+  "bytes": 21384
  },
  "slugs_tried": [
   "bessemer-ventures",
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"6b2e902fb01ffedb01cfbd09a77d8659f00821a6\",\"date\":\"2026-10-29T19:39:38.961Z\"},\"server\":{\"git\":\"6b2e902fb01ffedb01cfbd09a77d8659f00821a6\",\"date\":\"2026-10-29T19:39:38.961Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"9c6ca404b6044dd47e45cad28b8221f49b29a69e\",\"date\":\"2026-10-30T17:47:08.115Z\"},\"server\":{\"git\":\"9c6ca404b6044dd47e45cad28b8221f49b29a69e\",\"date\":\"2026-10-30T17:47:08.115Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "sx5cFdcOCQ\u2026",
+  "session.sig": "yb0O360tTz\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjQ0ZmEwMjg1YTU3NmY1NGRjMDIzM2M4MWQxYmIwOTQiLCAic2NvcmUiOiAxLjExNzExMjkwMzc4NDcyMjN9"
+   "sequence": "eyJfaWQiOiAiZjk3Yzg3Mjc5NDYyOWUyY2Y2ZTRhMDllODdkNTgzYWUiLCAic2NvcmUiOiAxLjEwOTA3MDk2Nzc3MjM3NjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,196 +152,182 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.smartrecruiters.com/Canva/6000000001536485-senior-manager-product-finance",
-  "companyDomain": "canva.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8144f77560d15b22676edf288aa5d016_176_160?Expires=1861920000&Signature=K6e-ByKJ1kkfQgQWKAdBc12FF~vTJprCP13Ku9MxDPLq5kh4Cb3K1",
-  "companyId": "Canva",
-  "companySlug": "canva",
-  "companyName": "Canva",
-  "companyStaffCount": 16046,
+  "applyUrl": "https://www.betterment.com/careers/current-openings/job?gh_jid=8327765&gh_jid=8327765",
+  "companyDomain": "betterment.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d0ccb9d0b85b91cdb6e9accf14f02055_320_160?Expires=1861920000&Signature=cke82HIAYHEtDeWcx-XOWXinPoPc~ohf8eAEnWKa0rq3q7u4jVkYi",
+  "companyId": "Betterment",
+  "companySlug": "betterment",
+  "companyName": "Betterment",
+  "companyStaffCount": 669,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Legal and Compliance"
+  ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
-    "id": "finance-professional",
-    "label": "Finance",
-    "value": "finance-professional"
+    "id": "compliance-risk",
+    "label": "Risk & Compliance Manager",
+    "value": "compliance-risk"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Finance",
-    "label": "Finance",
-    "value": "Finance"
+    "id": "Auditing",
+    "label": "Auditing",
+    "value": "Auditing"
    }
   ],
   "locations": [
-   "San Francisco, CA"
+   "Betterment HQ - New York City"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Day', 'value': 'day'}, 'minValue': 90000, 'maxValue': 105000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
+   {
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
+   },
+   {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Regulatory Compliance",
+    "label": "Regulatory Compliance",
+    "value": "resume:Regulatory Compliance"
+   },
    {
     "id": "resume:Act-On",
     "label": "Act-On",
     "value": "resume:Act-On"
-   },
-   {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
-   },
-   {
-    "id": "resume:DNA",
-    "label": "DNA",
-    "value": "resume:DNA"
-   },
-   {
-    "id": "resume:Anaplan",
-    "label": "Anaplan",
-    "value": "resume:Anaplan"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    },
    {
-    "id": "resume:DNA",
-    "label": "DNA",
-    "value": "resume:DNA"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Anaplan",
-    "label": "Anaplan",
-    "value": "resume:Anaplan"
+    "id": "resume:Regulatory Compliance",
+    "label": "Regulatory Compliance",
+    "value": "resume:Regulatory Compliance"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Looker",
-    "label": "Looker",
-    "value": "resume:Looker"
-   },
-   {
-    "id": "resume:Income Statements",
-    "label": "Income Statements",
-    "value": "resume:Income Statements"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Design",
-    "label": "Design",
-    "value": "Design"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-10-30T03:03:33.765000Z",
-  "title": "Senior Manager, Product Finance",
-  "url": "https://jobs.smartrecruiters.com/Canva/6000000001536485-senior-manager-product-finance",
-  "jobId": "6000000001536485",
+  "timeStamp": "2026-10-30T11:34:40Z",
+  "title": "Compliance Associate",
+  "url": "https://www.betterment.com/careers/current-openings/job?gh_jid=8327765&gh_jid=8327765",
+  "jobId": "8327765",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1883340815787, 'matchScore': 0, 'ageScore': 0.9883340815787037, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1915323199661, 'matchScore': 0, 'ageScore': 0.9915323199660494, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid",
+   "junior"
   ],
   "isFeatured": false
  },

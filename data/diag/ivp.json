@@ -1,9 +1,9 @@
 {
  "board": "ivp",
- "run": "2026-10-30T14:21:05Z",
+ "run": "2026-10-30T19:32:00Z",
  "homepage": {
   "status": 200,
-  "bytes": 19511
+  "bytes": 19512
  },
  "slugs_tried": [
   "ivp"
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"6b2e902fb01ffedb01cfbd09a77d8659f00821a6\",\"date\":\"2026-10-29T19:39:38.961Z\"},\"server\":{\"git\":\"6b2e902fb01ffedb01cfbd09a77d8659f00821a6\",\"date\":\"2026-10-29T19:39:38.961Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"9c6ca404b6044dd47e45cad28b8221f49b29a69e\",\"date\":\"2026-10-30T17:47:08.115Z\"},\"server\":{\"git\":\"9c6ca404b6044dd47e45cad28b8221f49b29a69e\",\"date\":\"2026-10-30T17:47:08.115Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "RGiaKVX52c\u2026",
+  "session.sig": "gBpxAdTBzx\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGY0ZjQxZGMwYTU0MzVlYTFiNWRlYTliNjY2OWY0NWQiLCAic2NvcmUiOiAxLjEwMzg3NDI4Mzc1MzA4NjR9"
+   "sequence": "eyJfaWQiOiAiZTMwMTMyNTg2N2FjNTlhNDI4N2NlNjM1MzFiNmY0MjMiLCAic2NvcmUiOiAxLjA5ODU0NjMzNTAzNTQ5Mzh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,116 +128,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/chainguard/jobs/4725964006",
-  "companyDomain": "chainguard.dev",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/31a5369e0ef167a246723e25166f9bb2_320_160?Expires=1861920000&Signature=WlG8ObgFzketnOZ1GE13WkiEQj5BCejH51gbRZAOEvFTCDtl~hKti",
-  "companyId": "Chainguard",
-  "companySlug": "chainguard",
-  "companyName": "Chainguard",
-  "companyStaffCount": 766,
+  "applyUrl": "https://job-boards.greenhouse.io/gomotive/jobs/8925237002",
+  "companyDomain": "gomotive.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/25a89ab129481325fdea0a8ec67db334_208_160?Expires=1861920000&Signature=FOVx4pqYXCuvScQi9jIt1h-cXgKWHgmbuXcTtciYMPrORXx90yBOk",
+  "companyId": "Motive",
+  "companySlug": "motive",
+  "companyName": "Motive",
+  "companyStaffCount": 6461,
   "considerHosted": false,
   "departments": [
-   "Demand Generation"
+   "Software Engineering"
   ],
   "jobTypes": [
    {
-    "id": "account-based-marketing",
-    "label": "Account Based Marketing",
-    "value": "account-based-marketing"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "United States - Remote"
+   "Hybrid - Seattle"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 167500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 164000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:HubSpot",
-    "label": "HubSpot",
-    "value": "resume:HubSpot"
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
    },
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:Redis",
+    "label": "Redis",
+    "value": "resume:Redis"
    },
    {
-    "id": "resume:Sales Leadership",
-    "label": "Sales Leadership",
-    "value": "resume:Sales Leadership"
+    "id": "resume:Stream Processing",
+    "label": "Stream Processing",
+    "value": "resume:Stream Processing"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Cassandra",
+    "label": "Cassandra",
+    "value": "resume:Cassandra"
    },
    {
-    "id": "resume:Account Based Marketing",
-    "label": "Account Based Marketing",
-    "value": "resume:Account Based Marketing"
+    "id": "resume:Kinesis",
+    "label": "Kinesis",
+    "value": "resume:Kinesis"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:HubSpot",
-    "label": "HubSpot",
-    "value": "resume:HubSpot"
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
    },
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:Redis",
+    "label": "Redis",
+    "value": "resume:Redis"
    },
    {
-    "id": "resume:Sales Leadership",
-    "label": "Sales Leadership",
-    "value": "resume:Sales Leadership"
+    "id": "resume:Stream Processing",
+    "label": "Stream Processing",
+    "value": "resume:Stream Processing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Cassandra",
+    "label": "Cassandra",
+    "value": "resume:Cassandra"
    },
    {
-    "id": "resume:Account Based Marketing",
-    "label": "Account Based Marketing",
-    "value": "resume:Account Based Marketing"
+    "id": "resume:Kinesis",
+    "label": "Kinesis",
+    "value": "resume:Kinesis"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Optics",
+    "label": "Optics",
+    "value": "resume:Optics"
    }
   ],
   "manager": false,
@@ -259,52 +265,60 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Security",
-    "label": "Security",
-    "value": "Security"
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-10-29T22:14:14Z",
-  "title": "Senior ABM Manager",
-  "url": "https://job-boards.greenhouse.io/chainguard/jobs/4725964006",
-  "jobId": "4725964006",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.18121784151, 'matchScore': 0, 'ageScore': 0.9812178415100309, 'richnessScore': 2}",
+  "timeStamp": "2026-10-30T11:46:01Z",
+  "title": "Software Engineer - Monitoring",
+  "url": "https://job-boards.greenhouse.io/gomotive/jobs/8925237002",
+  "jobId": "8925237002",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1920321918731, 'matchScore': 0, 'ageScore': 0.992032191873071, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager",
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
