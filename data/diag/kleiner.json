@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-10-29T21:14:44Z",
+ "run": "2026-10-30T01:09:23Z",
  "homepage": {
   "status": 200,
   "bytes": 19373
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Eb4X-Oe0C6\u2026",
+  "session.sig": "GWH9K2x00Y\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzUxYTI4NDc5YWU0YjkyMDcyOTRkMTA4M2NlZDcxY2IiLCAic2NvcmUiOiAxLjA3NTk4MTcyODQ5MDc0MDd9"
+   "sequence": "eyJfaWQiOiAiNTQxMjVmMzUwN2IxMjJmMThiN2QzMzRjNjk5MDFmMGQiLCAic2NvcmUiOiAxLjEwMDMyNzQ5Mzg1NzI1MzF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,117 +144,68 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/huntress/jobs/8077559003",
-  "companyDomain": "huntress.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/47db98fd43ff2e54aa48da1038df6676_273_160?Expires=1861920000&Signature=WG8ArnSqJ6c79MOMUtw2npKbYVzp9xpAirjJgS7t9jvgSNoqk3qdo",
-  "companyId": "Huntress",
-  "companySlug": "huntress",
-  "companyName": "Huntress",
-  "companyStaffCount": 1002,
+  "applyUrl": "https://jobs.lever.co/lumafield/5728a152-2182-4ec7-905d-3902ed611f6d?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "companyDomain": "lumafield.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
+  "companyId": "Lumafield",
+  "companySlug": "lumafield",
+  "companyName": "Lumafield",
+  "companyStaffCount": 156,
   "considerHosted": false,
   "departments": [
-   "Field Marketing"
+   "Manufacturing"
   ],
   "jobTypes": [
    {
-    "id": "marketing-manager",
-    "label": "Marketing Manager",
-    "value": "marketing-manager"
-   },
-   {
-    "id": "sales-mid-maket",
-    "label": "Sales Mid Market",
-    "value": "sales-mid-maket"
+    "id": "electrical-engineer",
+    "label": "Electrical Engineer",
+    "value": "electrical-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   },
-   {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "United States of America"
+   "Everett, MA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Massachusetts",
+    "label": "Massachusetts",
+    "value": "Massachusetts"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 155000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Test Automation",
+    "label": "Test Automation",
+    "value": "resume:Test Automation"
    },
    {
-    "id": "resume:Demand Generation",
-    "label": "Demand Generation",
-    "value": "resume:Demand Generation"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   },
-   {
-    "id": "resume:Follow through",
-    "label": "Follow through",
-    "value": "resume:Follow through"
-   },
-   {
-    "id": "resume:Field Marketing",
-    "label": "Field Marketing",
-    "value": "resume:Field Marketing"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
-   },
-   {
-    "id": "resume:Demand Generation",
-    "label": "Demand Generation",
-    "value": "resume:Demand Generation"
-   },
-   {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Follow through",
-    "label": "Follow through",
-    "value": "resume:Follow through"
-   },
-   {
-    "id": "resume:Field Marketing",
-    "label": "Field Marketing",
-    "value": "resume:Field Marketing"
+    "id": "resume:EDA",
+    "label": "EDA",
+    "value": "resume:EDA"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -262,9 +213,53 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:B2B Marketing",
-    "label": "B2B Marketing",
-    "value": "resume:B2B Marketing"
+    "id": "resume:Altium Designer",
+    "label": "Altium Designer",
+    "value": "resume:Altium Designer"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Test Automation",
+    "label": "Test Automation",
+    "value": "resume:Test Automation"
+   },
+   {
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
+   },
+   {
+    "id": "resume:EDA",
+    "label": "EDA",
+    "value": "resume:EDA"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Altium Designer",
+    "label": "Altium Designer",
+    "value": "resume:Altium Designer"
+   },
+   {
+    "id": "resume:Electromechanics",
+    "label": "Electromechanics",
+    "value": "resume:Electromechanics"
+   },
+   {
+    "id": "resume:Hardware Testing",
+    "label": "Hardware Testing",
+    "value": "resume:Hardware Testing"
+   },
+   {
+    "id": "resume:Power Electronics",
+    "label": "Power Electronics",
+    "value": "resume:Power Electronics"
    }
   ],
   "manager": false,
@@ -272,60 +267,64 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 3,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-10-29T11:37:54Z",
-  "title": "Senior Regional Marketing Manager (Mid-Market)",
-  "url": "https://job-boards.greenhouse.io/huntress/jobs/8077559003",
-  "jobId": "8077559003",
+  "timeStamp": "2026-10-29T18:09:23.797000Z",
+  "title": "Manufacturing Electrical Engineer",
+  "url": "https://jobs.lever.co/lumafield/5728a152-2182-4ec7-905d-3902ed611f6d",
+  "jobId": "5728a152-2182-4ec7-905d-3902ed611f6d",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1918729242423, 'matchScore': 0, 'ageScore': 0.9918729242422839, 'richnessScore': 2}",
+  "scores": "{'score': 1001.192162388218, 'matchScore': 0, 'ageScore': 0.9921623882179784, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
