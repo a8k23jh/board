@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-30T23:54:28Z",
+ "run": "2026-10-31T05:57:37Z",
  "homepage": {
   "status": 200,
   "bytes": 17462
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"4aca90d905649183cfba951e16c7da0e7c35bb41\",\"date\":\"2026-10-30T21:13:08.992Z\"},\"server\":{\"git\":\"4aca90d905649183cfba951e16c7da0e7c35bb41\",\"date\":\"2026-10-30T21:13:08.992Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"3ecdc3c3f8834dd8efcd6c84b47ef14b967e2729\",\"date\":\"2026-10-31T01:39:46.678Z\"},\"server\":{\"git\":\"3ecdc3c3f8834dd8efcd6c84b47ef14b967e2729\",\"date\":\"2026-10-31T01:39:46.678Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "00fTNeM_9v\u2026",
+  "session.sig": "qb1HSkiN8m\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjY4Mjk2OGI1NjIyYjY3MmU5YjRlNDBiNTE3N2JjZDgiLCAic2NvcmUiOiAxLjA1OTI2NzU3NjczNDU2Nzh9"
+   "sequence": "eyJfaWQiOiAiMDNkMTY1YTdiNmM2NjExMjFlNTFkNDkzNGM0NzA5MTEiLCAic2NvcmUiOiAxLjA1ODY2ODg4OTc0NTc1NjF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,121 +155,151 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/studsinc/jobs/6239282004",
-  "companyDomain": "studs.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/928cc14370271b5bf1ed1e2cd0f89b69_192_160?Expires=1861920000&Signature=aUPXDUpPVxKoYqNFh7KhHxjFQHByuvTL2tiKY7~kxJ-4SGSbLu7S-",
-  "companyId": "Studs",
-  "companySlug": "studs",
-  "companyName": "Studs",
-  "companyStaffCount": 205,
+  "applyUrl": "https://job-boards.greenhouse.io/singlestore/jobs/8338096",
+  "companyDomain": "singlestore.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1af05bf3e4b78b565199307cec69f083_321_160?Expires=1861920000&Signature=RQXH0iwGmFea7xdeJ0c0ZI0j8SmSo0QiJCTkfrVGBYUGCaOH3lbf9",
+  "companyId": "SingleStore",
+  "companySlug": "singlestore",
+  "companyName": "SingleStore",
+  "companyStaffCount": 558,
   "considerHosted": false,
   "departments": [
-   "Sales (SAL)"
+   "Marketing Ops"
   ],
   "jobTypes": [
+   {
+    "id": "marketing-acquisition",
+    "label": "Marketing Acquisition",
+    "value": "marketing-acquisition"
+   },
+   {
+    "id": "marketing-growth",
+    "label": "Marketing Growth",
+    "value": "marketing-growth"
+   },
+   {
+    "id": "marketing-engagement",
+    "label": "Marketing Engagement",
+    "value": "marketing-engagement"
+   },
+   {
+    "id": "user-marketing",
+    "label": "Growth Manager",
+    "value": "user-marketing"
+   },
    {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
-   },
-   {
-    "id": "supervisor",
-    "label": "Supervisor",
-    "value": "supervisor"
-   },
-   {
-    "id": "freelance",
-    "label": "Contractor",
-    "value": "freelance"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   }
+  ],
   "locations": [
-   "767 Spectrum Center Drive Irvine, CA 92618"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Irvine, California",
-    "label": "Irvine, California",
-    "value": "Irvine, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 20.5, 'maxValue': 20.5, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 155000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Positioning",
+    "label": "Positioning",
+    "value": "resume:Positioning"
    },
    {
-    "id": "resume:Sales Support",
-    "label": "Sales Support",
-    "value": "resume:Sales Support"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    },
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Product Requirements",
+    "label": "Product Requirements",
+    "value": "resume:Product Requirements"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
+    "id": "resume:Positioning",
+    "label": "Positioning",
+    "value": "resume:Positioning"
    },
    {
-    "id": "resume:Sales Support",
-    "label": "Sales Support",
-    "value": "resume:Sales Support"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    },
    {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
+    "id": "resume:Product Requirements",
+    "label": "Product Requirements",
+    "value": "resume:Product Requirements"
+   },
+   {
+    "id": "resume:Microsoft Certified Professional",
+    "label": "Microsoft Certified Professional",
+    "value": "resume:Microsoft Certified Professional"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Product Analytics",
+    "label": "Product Analytics",
+    "value": "resume:Product Analytics"
    }
   ],
   "manager": true,
   "consultant": false,
-  "contractor": true,
-  "considerLevels": [],
+  "contractor": false,
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -287,18 +317,23 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Retail",
-    "label": "Retail",
-    "value": "Retail"
+    "id": "Data & Analytics",
+    "label": "Data & Analytics",
+    "value": "Data & Analytics"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
    }
   ],
-  "timeStamp": "2026-10-30T09:40:46Z",
-  "title": "Store Supervisor (Part-Time)",
-  "url": "https://job-boards.greenhouse.io/studsinc/jobs/6239282004",
-  "jobId": "6239282004",
-  "remote": false,
+  "timeStamp": "2026-10-30T18:00:42Z",
+  "title": "Manager, PLG & Agent-led Growth",
+  "url": "https://job-boards.greenhouse.io/singlestore/jobs/8338096",
+  "jobId": "8338096",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1849155653083, 'matchScore': 0, 'ageScore': 0.9849155653082562, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1924113455899, 'matchScore': 0, 'ageScore': 0.992411345589892, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -306,10 +341,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "manager"
   ],
   "isFeatured": false
  },

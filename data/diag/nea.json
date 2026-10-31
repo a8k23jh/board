@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-10-30T23:54:28Z",
+ "run": "2026-10-31T05:57:37Z",
  "homepage": {
   "status": 200,
   "bytes": 20603
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"4aca90d905649183cfba951e16c7da0e7c35bb41\",\"date\":\"2026-10-30T21:13:08.992Z\"},\"server\":{\"git\":\"4aca90d905649183cfba951e16c7da0e7c35bb41\",\"date\":\"2026-10-30T21:13:08.992Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"3ecdc3c3f8834dd8efcd6c84b47ef14b967e2729\",\"date\":\"2026-10-31T01:39:46.678Z\"},\"server\":{\"git\":\"3ecdc3c3f8834dd8efcd6c84b47ef14b967e2729\",\"date\":\"2026-10-31T01:39:46.678Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "pNvc3d9t_U\u2026",
+  "session.sig": "xtem-saFgS\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDQ1MzQ3OTBiNjkyZDc0NTVkMGI0MGYxN2ZhZDI2ZTciLCAic2NvcmUiOiAxLjEyMjU5NTQ4MjY5NzE0NTJ9"
+   "sequence": "eyJfaWQiOiAiYzlkNmVmMTlkMjczMjVmYjI3MDk0MjU0M2MwNWYwYTQiLCAic2NvcmUiOiAxLjE0NDI5NDk5NDgwMTY5NzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,125 +136,127 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.workatastartup.com/jobs/119449",
-  "companyDomain": "truebiz.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a02bf79cbf89797e76c2c4b3d8169759_208_160?Expires=1861920000&Signature=jwSVOuDZc5t2h~INwiKXwryJPm5b90Z86LOcvONWRWam9sZOzuGcM",
-  "companyId": "TrueBiz",
-  "companySlug": "truebiz",
-  "companyName": "TrueBiz",
-  "companyStaffCount": 7,
+  "applyUrl": "https://job-boards.greenhouse.io/mejuri/jobs/4726241006",
+  "companyDomain": "mejuri.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9adb31a5d2718fe9c6fbb447ce72fbc4_224_160?Expires=1861920000&Signature=EIyQ~VuMTiBpClwLBLsCYdNOIlyj6EM75R~yga~7YdDLw5FkU1F9L",
+  "companyId": "Mejuri",
+  "companySlug": "mejuri",
+  "companyName": "Mejuri",
+  "companyStaffCount": 690,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Stores"
+  ],
   "jobTypes": [
    {
-    "id": "enterprise-account-executive",
-    "label": "Enterprise Account Executive",
-    "value": "enterprise-account-executive"
+    "id": "branch-manager",
+    "label": "Branch Manager",
+    "value": "branch-manager"
    },
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
+    "id": "assistant",
+    "label": "Assistant",
+    "value": "assistant"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
    }
   ],
   "locations": [
-   "US / Remote (US)"
+   "Westfield UTC, San Diego"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Diego, California",
+    "label": "San Diego, California",
+    "value": "San Diego, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 350000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 29, 'maxValue': 33, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Merchandising",
+    "label": "Merchandising",
+    "value": "resume:Merchandising"
    },
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    },
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Financial Management",
+    "label": "Financial Management",
+    "value": "resume:Financial Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Merchandising",
+    "label": "Merchandising",
+    "value": "resume:Merchandising"
    },
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    },
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Experimentation",
+    "label": "Experimentation",
+    "value": "resume:Experimentation"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Financial Management",
+    "label": "Financial Management",
+    "value": "resume:Financial Management"
    },
    {
-    "id": "resume:Underwriting",
-    "label": "Underwriting",
-    "value": "resume:Underwriting"
+    "id": "resume:Inventory Management",
+    "label": "Inventory Management",
+    "value": "resume:Inventory Management"
    },
    {
-    "id": "resume:Consultative Selling",
-    "label": "Consultative Selling",
-    "value": "resume:Consultative Selling"
+    "id": "resume:NPS",
+    "label": "NPS",
+    "value": "resume:NPS"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Budgeting",
+    "label": "Budgeting",
+    "value": "resume:Budgeting"
    }
   ],
   "manager": false,
@@ -270,8 +272,17 @@
     6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -280,36 +291,30 @@
   ],
   "stages": [
    {
-    "id": "1-10 employees",
-    "label": "1-10 employees",
-    "value": "1-10 employees"
-   },
-   {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
   "markets": [
    {
-    "id": "Financial Services",
-    "label": "Financial Services",
-    "value": "Financial Services"
+    "id": "Luxury Goods & Jewelry",
+    "label": "Luxury Goods & Jewelry",
+    "value": "Luxury Goods & Jewelry"
    },
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Retail",
+    "label": "Retail",
+    "value": "Retail"
    }
   ],
-  "timeStamp": "2026-10-30T05:57:20Z",
-  "title": "Enterprise Account Executive",
-  "url": "https://www.workatastartup.com/jobs/119449",
-  "jobId": "119449",
-  "remote": true,
+  "timeStamp": "2026-10-30T18:25:59Z",
+  "title": "Assistant Store Manager",
+  "url": "https://job-boards.greenhouse.io/mejuri/jobs/4726241006",
+  "jobId": "4726241006",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1794404621797, 'matchScore': 0, 'ageScore': 0.979440462179784, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1931241330498, 'matchScore': 0, 'ageScore': 0.9931241330497685, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -317,10 +322,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "junior"
   ],
   "isFeatured": false
  },

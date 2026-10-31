@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-30T23:54:28Z",
+ "run": "2026-10-31T05:57:37Z",
  "homepage": {
   "status": 200,
   "bytes": 21385
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"4aca90d905649183cfba951e16c7da0e7c35bb41\",\"date\":\"2026-10-30T21:13:08.992Z\"},\"server\":{\"git\":\"4aca90d905649183cfba951e16c7da0e7c35bb41\",\"date\":\"2026-10-30T21:13:08.992Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"3ecdc3c3f8834dd8efcd6c84b47ef14b967e2729\",\"date\":\"2026-10-31T01:39:46.678Z\"},\"server\":{\"git\":\"3ecdc3c3f8834dd8efcd6c84b47ef14b967e2729\",\"date\":\"2026-10-31T01:39:46.678Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "b1KKcn6dO7\u2026",
+  "session.sig": "nWHABXfVCN\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzdjMWJiMTBiNDIwZjJhNzZiYzk5MTczOTU0MGQ3OWUiLCAic2NvcmUiOiAxLjEwNTA5NzAyNTU2NDgxNDd9"
+   "sequence": "eyJfaWQiOiAiNWM4MzdmZTlhZWU4YWJkNWRlMjY5MDQ3N2QyYWNhODUiLCAic2NvcmUiOiAxLjEyMTk4NTkwNzc2MTk1OTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,182 +152,209 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.betterment.com/careers/current-openings/job?gh_jid=8327765&gh_jid=8327765",
-  "companyDomain": "betterment.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d0ccb9d0b85b91cdb6e9accf14f02055_320_160?Expires=1861920000&Signature=cke82HIAYHEtDeWcx-XOWXinPoPc~ohf8eAEnWKa0rq3q7u4jVkYi",
-  "companyId": "Betterment",
-  "companySlug": "betterment",
-  "companyName": "Betterment",
-  "companyStaffCount": 669,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5394403008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Legal and Compliance"
+   "Security"
   ],
   "jobTypes": [
    {
-    "id": "compliance-risk",
-    "label": "Risk & Compliance Manager",
-    "value": "compliance-risk"
+    "id": "engineering-manager",
+    "label": "Engineering Manager",
+    "value": "engineering-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Auditing",
-    "label": "Auditing",
-    "value": "Auditing"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Betterment HQ - New York City"
+   "San Francisco, CA",
+   "Seattle, WA"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Day', 'value': 'day'}, 'minValue': 90000, 'maxValue': 105000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 405000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    },
    {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    },
    {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
+  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-10-30T11:34:40Z",
-  "title": "Compliance Associate",
-  "url": "https://www.betterment.com/careers/current-openings/job?gh_jid=8327765&gh_jid=8327765",
-  "jobId": "8327765",
+  "timeStamp": "2026-10-30T15:47:54Z",
+  "title": "Engineering Manager, Integrity and Attestation",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5394403008",
+  "jobId": "5394403008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1871883361466, 'matchScore': 0, 'ageScore': 0.987188336146605, 'richnessScore': 2}",
+  "scores": "{'score': 1001.189458283946, 'matchScore': 0, 'ageScore': 0.9894582839459877, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "junior",
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },
