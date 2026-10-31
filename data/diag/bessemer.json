@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-10-31T12:49:23Z",
+ "run": "2026-10-31T17:49:27Z",
  "homepage": {
   "status": 200,
   "bytes": 21385
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Vx-ydpwKbq\u2026",
+  "session.sig": "TMN4NDsqmq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGQ3ZWM3NWJiMmIxYzBjZWFiOWFkZDYwZWRjMzk3ZDIiLCAic2NvcmUiOiAxLjExMzEwNzU5NjQyMjgzOTR9"
+   "sequence": "eyJfaWQiOiAiZGNjZmJhMjA1YjIzY2JhMGZhZTdiNTdlY2Y5MDdkZDciLCAic2NvcmUiOiAxLjEwODk4MzE2NjA2MTcyODR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -176,24 +176,24 @@
   ],
   "jobTypes": [
    {
-    "id": "sales-all",
-    "label": "Sales",
-    "value": "sales-all"
-   },
-   {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
-   },
-   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
    },
    {
+    "id": "sales-all",
+    "label": "Sales",
+    "value": "sales-all"
+   },
+   {
     "id": "sales",
     "label": "Sales",
     "value": "sales"
+   },
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
    }
   ],
   "jobFunctions": [
@@ -217,63 +217,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 360000, 'maxValue': 400000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
-   },
-   {
-    "id": "resume:D programming language",
-    "label": "D programming language",
-    "value": "resume:D programming language"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   },
-   {
-    "id": "resume:Developer Platform",
-    "label": "Developer Platform",
-    "value": "resume:Developer Platform"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
-   },
-   {
-    "id": "resume:D programming language",
-    "label": "D programming language",
-    "value": "resume:D programming language"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Developer Platform",
-    "label": "Developer Platform",
-    "value": "resume:Developer Platform"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
     "id": "resume:TCV",
     "label": "TCV",
     "value": "resume:TCV"
+   },
+   {
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -281,9 +232,58 @@
     "value": "resume:Artificial Intelligence"
    },
    {
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:TCV",
+    "label": "TCV",
+    "value": "resume:TCV"
+   },
+   {
     "id": "resume:Strategic Partnerships",
     "label": "Strategic Partnerships",
     "value": "resume:Strategic Partnerships"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   },
+   {
+    "id": "resume:D programming language",
+    "label": "D programming language",
+    "value": "resume:D programming language"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Developer Platform",
+    "label": "Developer Platform",
+    "value": "resume:Developer Platform"
    }
   ],
   "manager": true,
@@ -333,7 +333,7 @@
   "jobId": "7414fe6a-f416-4dcc-9d81-85df43dc17ea",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1837098875212, 'matchScore': 0, 'ageScore': 0.9837098875212191, 'richnessScore': 2}",
+  "scores": "{'score': 1001.179416051365, 'matchScore': 0, 'ageScore': 0.9794160513649691, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
