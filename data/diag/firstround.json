@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-10-31T17:49:27Z",
+ "run": "2026-10-31T21:44:50Z",
  "homepage": {
   "status": 200,
   "bytes": 17462
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "dysKFSitpr\u2026",
+  "session.sig": "hRp4gP9EQk\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDU2NjE1ZWY4YzI2YjI5NDliNWM0Y2JhNTY4NWFkY2UiLCAic2NvcmUiOiAxLjA0NjQ1NjYwMTQzMjg3MDR9"
+   "sequence": "eyJfaWQiOiAiMmU1YjM0MWNjZmQ0YjE5ZDI2NWJmY2JmMDg0ZWU0M2MiLCAic2NvcmUiOiAxLjAzNzk1NDIwOTA1OTc5OTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,6 +168,11 @@
   ],
   "jobTypes": [
    {
+    "id": "production-manager",
+    "label": "Production Manager",
+    "value": "production-manager"
+   },
+   {
     "id": "mechatronics-engineer",
     "label": "Mechatronics Engineer",
     "value": "mechatronics-engineer"
@@ -176,11 +181,6 @@
     "id": "mechanical-engineer",
     "label": "Mechanical Engineer",
     "value": "mechanical-engineer"
-   },
-   {
-    "id": "production-manager",
-    "label": "Production Manager",
-    "value": "production-manager"
    }
   ],
   "jobFunctions": [
@@ -203,59 +203,49 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
-    "id": "resume:Avionics",
-    "label": "Avionics",
-    "value": "resume:Avionics"
+    "id": "resume:Batteries",
+    "label": "Batteries",
+    "value": "resume:Batteries"
    },
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
    },
    {
-    "id": "resume:Export Controls",
-    "label": "Export Controls",
-    "value": "resume:Export Controls"
+    "id": "resume:Advisor",
+    "label": "Advisor",
+    "value": "resume:Advisor"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
    },
    {
-    "id": "resume:Avionics",
-    "label": "Avionics",
-    "value": "resume:Avionics"
+    "id": "resume:Batteries",
+    "label": "Batteries",
+    "value": "resume:Batteries"
    },
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
    }
   ],
   "preferredSkills": [
-   {
-    "id": "resume:Export Controls",
-    "label": "Export Controls",
-    "value": "resume:Export Controls"
-   },
-   {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
    {
     "id": "resume:Advisor",
     "label": "Advisor",
@@ -270,6 +260,16 @@
     "id": "resume:Compliance",
     "label": "Compliance",
     "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Export Controls",
+    "label": "Export Controls",
+    "value": "resume:Export Controls"
+   },
+   {
+    "id": "resume:PCBA",
+    "label": "PCBA",
+    "value": "resume:PCBA"
    }
   ],
   "manager": false,
@@ -288,6 +288,11 @@
   "minYearsExp": 8,
   "regions": [
    {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -296,11 +301,6 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
@@ -334,7 +334,7 @@
   "jobId": "5468972008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1753287987967, 'matchScore': 0, 'ageScore': 0.9753287987966821, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1672058164382, 'matchScore': 0, 'ageScore': 0.9672058164382716, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
