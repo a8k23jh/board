@@ -1,9 +1,9 @@
 {
  "board": "ivp",
- "run": "2026-10-30T19:32:00Z",
+ "run": "2026-10-30T23:54:28Z",
  "homepage": {
   "status": 200,
-  "bytes": 19512
+  "bytes": 19513
  },
  "slugs_tried": [
   "ivp"
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"9c6ca404b6044dd47e45cad28b8221f49b29a69e\",\"date\":\"2026-10-30T17:47:08.115Z\"},\"server\":{\"git\":\"9c6ca404b6044dd47e45cad28b8221f49b29a69e\",\"date\":\"2026-10-30T17:47:08.115Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"4aca90d905649183cfba951e16c7da0e7c35bb41\",\"date\":\"2026-10-30T21:13:08.992Z\"},\"server\":{\"git\":\"4aca90d905649183cfba951e16c7da0e7c35bb41\",\"date\":\"2026-10-30T21:13:08.992Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "gBpxAdTBzx\u2026",
+  "session.sig": "3V4cQYq11n\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTMwMTMyNTg2N2FjNTlhNDI4N2NlNjM1MzFiNmY0MjMiLCAic2NvcmUiOiAxLjA5ODU0NjMzNTAzNTQ5Mzh9"
+   "sequence": "eyJfaWQiOiAiNzZkMzAyZTE1Njk1ZjdmY2U4M2I4NDFmYmUxNjRhYTciLCAic2NvcmUiOiAxLjA5NDM5NTk4MDE5OTQ1OTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -177,58 +177,63 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 164000, 'maxValue': 200000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
+    "id": "resume:Dynamo",
+    "label": "Dynamo",
+    "value": "resume:Dynamo"
    },
    {
-    "id": "resume:Redis",
-    "label": "Redis",
-    "value": "resume:Redis"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
+   },
+   {
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
+   },
+   {
+    "id": "resume:Apache Flink",
+    "label": "Apache Flink",
+    "value": "resume:Apache Flink"
    },
    {
     "id": "resume:Stream Processing",
     "label": "Stream Processing",
     "value": "resume:Stream Processing"
-   },
-   {
-    "id": "resume:Cassandra",
-    "label": "Cassandra",
-    "value": "resume:Cassandra"
-   },
-   {
-    "id": "resume:Kinesis",
-    "label": "Kinesis",
-    "value": "resume:Kinesis"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
+    "id": "resume:Dynamo",
+    "label": "Dynamo",
+    "value": "resume:Dynamo"
    },
    {
-    "id": "resume:Redis",
-    "label": "Redis",
-    "value": "resume:Redis"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
+   },
+   {
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Apache Flink",
+    "label": "Apache Flink",
+    "value": "resume:Apache Flink"
    },
    {
     "id": "resume:Stream Processing",
     "label": "Stream Processing",
     "value": "resume:Stream Processing"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Cassandra",
-    "label": "Cassandra",
-    "value": "resume:Cassandra"
    },
    {
-    "id": "resume:Kinesis",
-    "label": "Kinesis",
-    "value": "resume:Kinesis"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
     "id": "resume:Distributed Systems",
@@ -236,14 +241,9 @@
     "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
-   },
-   {
-    "id": "resume:Optics",
-    "label": "Optics",
-    "value": "resume:Optics"
+    "id": "resume:Sensors",
+    "label": "Sensors",
+    "value": "resume:Sensors"
    }
   ],
   "manager": false,
@@ -267,6 +267,11 @@
     "value": "North America"
    },
    {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
@@ -275,11 +280,6 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -307,7 +307,7 @@
   "jobId": "8925237002",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1920321918731, 'matchScore': 0, 'ageScore': 0.992032191873071, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1881161146111, 'matchScore': 0, 'ageScore': 0.9881161146111112, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

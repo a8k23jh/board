@@ -1,9 +1,9 @@
 {
  "board": "bessemer",
- "run": "2026-10-30T19:32:00Z",
+ "run": "2026-10-30T23:54:28Z",
  "homepage": {
   "status": 200,
-  "bytes": 21384
+  "bytes": 21385
  },
  "slugs_tried": [
   "bessemer-ventures",
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"9c6ca404b6044dd47e45cad28b8221f49b29a69e\",\"date\":\"2026-10-30T17:47:08.115Z\"},\"server\":{\"git\":\"9c6ca404b6044dd47e45cad28b8221f49b29a69e\",\"date\":\"2026-10-30T17:47:08.115Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"4aca90d905649183cfba951e16c7da0e7c35bb41\",\"date\":\"2026-10-30T21:13:08.992Z\"},\"server\":{\"git\":\"4aca90d905649183cfba951e16c7da0e7c35bb41\",\"date\":\"2026-10-30T21:13:08.992Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "yb0O360tTz\u2026",
+  "session.sig": "b1KKcn6dO7\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjk3Yzg3Mjc5NDYyOWUyY2Y2ZTRhMDllODdkNTgzYWUiLCAic2NvcmUiOiAxLjEwOTA3MDk2Nzc3MjM3NjV9"
+   "sequence": "eyJfaWQiOiAiMzdjMWJiMTBiNDIwZjJhNzZiYzk5MTczOTU0MGQ3OWUiLCAic2NvcmUiOiAxLjEwNTA5NzAyNTU2NDgxNDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -201,14 +201,19 @@
   "salary": "{'period': {'label': 'Day', 'value': 'day'}, 'minValue': 90000, 'maxValue': 105000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
     "id": "resume:Financial Services",
     "label": "Financial Services",
     "value": "resume:Financial Services"
    },
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    },
    {
     "id": "resume:Compliance",
@@ -219,40 +224,35 @@
     "id": "resume:Regulatory Compliance",
     "label": "Regulatory Compliance",
     "value": "resume:Regulatory Compliance"
-   },
-   {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
-   },
-   {
     "id": "resume:REST",
     "label": "REST",
     "value": "resume:REST"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    },
    {
     "id": "resume:Act-On",
     "label": "Act-On",
     "value": "resume:Act-On"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Regulatory Compliance",
+    "label": "Regulatory Compliance",
+    "value": "resume:Regulatory Compliance"
    }
   ],
   "manager": false,
@@ -270,11 +270,6 @@
   ],
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -288,6 +283,11 @@
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
@@ -310,24 +310,24 @@
   "jobId": "8327765",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1915323199661, 'matchScore': 0, 'ageScore': 0.9915323199660494, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1871883361466, 'matchScore': 0, 'ageScore': 0.987188336146605, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "junior",
     "label": "Junior",
     "value": "junior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "junior"
+   "junior",
+   "mid"
   ],
   "isFeatured": false
  },

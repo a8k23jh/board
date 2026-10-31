@@ -1,9 +1,9 @@
 {
  "board": "bcv",
- "run": "2026-10-30T19:32:00Z",
+ "run": "2026-10-30T23:54:28Z",
  "homepage": {
   "status": 200,
-  "bytes": 20707
+  "bytes": 20708
  },
  "slugs_tried": [
   "bain-ventures",
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"9c6ca404b6044dd47e45cad28b8221f49b29a69e\",\"date\":\"2026-10-30T17:47:08.115Z\"},\"server\":{\"git\":\"9c6ca404b6044dd47e45cad28b8221f49b29a69e\",\"date\":\"2026-10-30T17:47:08.115Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"4aca90d905649183cfba951e16c7da0e7c35bb41\",\"date\":\"2026-10-30T21:13:08.992Z\"},\"server\":{\"git\":\"4aca90d905649183cfba951e16c7da0e7c35bb41\",\"date\":\"2026-10-30T21:13:08.992Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "tqbC4cm_6j\u2026",
+  "session.sig": "TQ4C5aDzty\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjBjNmFhYzM5ZjU0MTNhY2NkYjdlODIyNDM2NjIwMzgiLCAic2NvcmUiOiAxLjEwODkxMjc0NjUxMDgwMjR9"
+   "sequence": "eyJfaWQiOiAiNzY2NGIyM2VlOTY0YTI5ZmQzNTQ1ZDkyYTJhZmJkMGUiLCAic2NvcmUiOiAxLjEwNDgwMzAyMDg1MjIzNzd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -204,63 +204,14 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 24, 'maxValue': 31, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
-    "id": "resume:Strategic Planning",
-    "label": "Strategic Planning",
-    "value": "resume:Strategic Planning"
-   },
-   {
-    "id": "resume:Operations Research",
-    "label": "Operations Research",
-    "value": "resume:Operations Research"
-   },
-   {
-    "id": "resume:Trust Building",
-    "label": "Trust Building",
-    "value": "resume:Trust Building"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Modeling",
-    "label": "Modeling",
-    "value": "resume:Modeling"
-   },
-   {
-    "id": "resume:Strategic Planning",
-    "label": "Strategic Planning",
-    "value": "resume:Strategic Planning"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Operations Research",
-    "label": "Operations Research",
-    "value": "resume:Operations Research"
-   },
-   {
     "id": "resume:Trust Building",
     "label": "Trust Building",
     "value": "resume:Trust Building"
    },
    {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
+    "id": "resume:Operations Research",
+    "label": "Operations Research",
+    "value": "resume:Operations Research"
    },
    {
     "id": "resume:Operational Excellence",
@@ -268,9 +219,58 @@
     "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:CLM",
-    "label": "CLM",
-    "value": "resume:CLM"
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
+   },
+   {
+    "id": "resume:Strategic Planning",
+    "label": "Strategic Planning",
+    "value": "resume:Strategic Planning"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
+   },
+   {
+    "id": "resume:Operations Research",
+    "label": "Operations Research",
+    "value": "resume:Operations Research"
+   },
+   {
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
+   },
+   {
+    "id": "resume:Strategic Planning",
+    "label": "Strategic Planning",
+    "value": "resume:Strategic Planning"
+   },
+   {
+    "id": "resume:Data Driven",
+    "label": "Data Driven",
+    "value": "resume:Data Driven"
+   },
+   {
+    "id": "resume:DocuSign",
+    "label": "DocuSign",
+    "value": "resume:DocuSign"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -293,6 +293,11 @@
     "value": "North America"
    },
    {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
@@ -301,11 +306,6 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -328,7 +328,7 @@
   "jobId": "30593",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1944075545205, 'matchScore': 0, 'ageScore': 0.9944075545204475, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1906495543291, 'matchScore': 0, 'ageScore': 0.9906495543290895, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
