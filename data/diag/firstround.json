@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-11-01T01:17:31Z",
+ "run": "2026-11-01T07:40:13Z",
  "homepage": {
   "status": 200,
   "bytes": 17462
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "UKWe_RE7_w\u2026",
+  "session.sig": "10Vn7Sheyk\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjcyNTRjZjM2Y2E5MzVlMGJlM2FlYjViMTBiNDFiOTMiLCAic2NvcmUiOiAxLjAzNDAxODc5NjY0ODE0ODJ9"
+   "sequence": "eyJfaWQiOiAiYjIwYjk0MmUzYTVmZWRiYjE5OGM4YTRhZmUxYWMwM2IiLCAic2NvcmUiOiAxLjAyNTkyOTA3NTU1NTk0MTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,11 +168,6 @@
   ],
   "jobTypes": [
    {
-    "id": "production-manager",
-    "label": "Production Manager",
-    "value": "production-manager"
-   },
-   {
     "id": "mechanical-engineer",
     "label": "Mechanical Engineer",
     "value": "mechanical-engineer"
@@ -181,6 +176,11 @@
     "id": "mechatronics-engineer",
     "label": "Mechatronics Engineer",
     "value": "mechatronics-engineer"
+   },
+   {
+    "id": "production-manager",
+    "label": "Production Manager",
+    "value": "production-manager"
    }
   ],
   "jobFunctions": [
@@ -203,16 +203,6 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Avionics",
-    "label": "Avionics",
-    "value": "resume:Avionics"
-   },
-   {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
-   {
     "id": "resume:Assembly",
     "label": "Assembly",
     "value": "resume:Assembly"
@@ -223,43 +213,53 @@
     "value": "resume:Batteries"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
+   },
+   {
+    "id": "resume:Export Controls",
+    "label": "Export Controls",
+    "value": "resume:Export Controls"
+   },
+   {
+    "id": "resume:Electromechanics",
+    "label": "Electromechanics",
+    "value": "resume:Electromechanics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Avionics",
-    "label": "Avionics",
-    "value": "resume:Avionics"
-   },
-   {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
-   {
     "id": "resume:Assembly",
     "label": "Assembly",
     "value": "resume:Assembly"
-   }
-  ],
-  "preferredSkills": [
+   },
    {
     "id": "resume:Batteries",
     "label": "Batteries",
     "value": "resume:Batteries"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Export Controls",
+    "label": "Export Controls",
+    "value": "resume:Export Controls"
    },
    {
-    "id": "resume:Advisor",
-    "label": "Advisor",
-    "value": "resume:Advisor"
+    "id": "resume:Electromechanics",
+    "label": "Electromechanics",
+    "value": "resume:Electromechanics"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
     "id": "resume:Interviews",
@@ -267,9 +267,9 @@
     "value": "resume:Interviews"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    }
   ],
   "manager": false,
@@ -334,7 +334,7 @@
   "jobId": "5468972008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1637558819059, 'matchScore': 0, 'ageScore': 0.9637558819058641, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1551179674112, 'matchScore': 0, 'ageScore': 0.9551179674112654, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
