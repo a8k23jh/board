@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-01T07:40:13Z",
+ "run": "2026-11-01T15:18:04Z",
  "homepage": {
   "status": 200,
   "bytes": 20232
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "nWh-l03ckg\u2026",
+  "session.sig": "fejeR7fjGh\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDhjYWEwNDNhNmQyYzg0MTM4NmM1ZjYwYmY1MDYwNTYiLCAic2NvcmUiOiAxLjExNjcwNTY1OTI0MTg5ODJ9"
+   "sequence": "eyJfaWQiOiAiMWQ4Zjc4MDQwYWUyNzU1NDRkMzc5YmU3OWMwYzNhYWIiLCAic2NvcmUiOiAxLjEwNjYzOTcxOTA2NDA0MzF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,11 +168,6 @@
   ],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   },
-   {
     "id": "sales-professional",
     "label": "Sales Professional",
     "value": "sales-professional"
@@ -181,6 +176,11 @@
     "id": "account-executive",
     "label": "Account Executive",
     "value": "account-executive"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    }
   ],
   "jobFunctions": [
@@ -203,63 +203,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 270000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SDR",
-    "label": "SDR",
-    "value": "resume:SDR"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
+    "id": "resume:Multithreading",
+    "label": "Multithreading",
+    "value": "resume:Multithreading"
    },
    {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
-   },
-   {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:SDR",
-    "label": "SDR",
-    "value": "resume:SDR"
-   },
-   {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
-   },
-   {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
-   },
-   {
-    "id": "resume:Sales Engineering",
-    "label": "Sales Engineering",
-    "value": "resume:Sales Engineering"
+    "id": "resume:Business Acumen",
+    "label": "Business Acumen",
+    "value": "resume:Business Acumen"
    },
    {
     "id": "resume:Revenue Operations",
@@ -267,9 +223,53 @@
     "value": "resume:Revenue Operations"
    },
    {
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Multithreading",
+    "label": "Multithreading",
+    "value": "resume:Multithreading"
+   },
+   {
     "id": "resume:Business Acumen",
     "label": "Business Acumen",
     "value": "resume:Business Acumen"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Revenue Operations",
+    "label": "Revenue Operations",
+    "value": "resume:Revenue Operations"
+   },
+   {
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
+   },
+   {
+    "id": "resume:SDR",
+    "label": "SDR",
+    "value": "resume:SDR"
+   },
+   {
+    "id": "resume:Pipeline Building",
+    "label": "Pipeline Building",
+    "value": "resume:Pipeline Building"
+   },
+   {
+    "id": "resume:Sales Compensation",
+    "label": "Sales Compensation",
+    "value": "resume:Sales Compensation"
    }
   ],
   "manager": false,
@@ -324,7 +324,7 @@
   "jobId": "4726183006",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1638302105976, 'matchScore': 0, 'ageScore': 0.963830210597608, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1554630843881, 'matchScore': 0, 'ageScore': 0.9554630843881173, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
