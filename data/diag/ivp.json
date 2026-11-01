@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-10-31T21:44:50Z",
+ "run": "2026-11-01T01:17:31Z",
  "homepage": {
   "status": 200,
   "bytes": 19513
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "RLl1uH-kV4\u2026",
+  "session.sig": "QfCDb1UfEa\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOThjY2QxMDZjNmZkOTNhNTQxYzdlZGYyODEyNWVmM2IiLCAic2NvcmUiOiAxLjEwNDM5ODI0NDkwNzAyMTV9"
+   "sequence": "eyJfaWQiOiAiNTU2OTQxZTUzZGU2Njk5MWJlNDBjM2Q1ODI3ZjJlNDgiLCAic2NvcmUiOiAxLjEwMDExODc4MDg0Nzk5Mzd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,7 +139,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Lime/ea730ad8-a20e-4a4b-98d8-2557cffee088?utm_source=careers.ivp.com",
+  "applyUrl": "https://jobs.ashbyhq.com/Lime/44608bc3-80ff-4c12-8991-499e7da4775f?utm_source=careers.ivp.com",
   "companyDomain": "li.me",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/151f8ec98b16c3ccc0f3003cf9555e1f_208_160?Expires=1861920000&Signature=Q9nCv~H4ZZnYv3BCEAoCH2lxvmbSSermQG2-dbPn1ZQpW5BCEvQtA",
   "companyId": "Lime",
@@ -152,9 +152,14 @@
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "cloud-architect",
+    "label": "Cloud Architect",
+    "value": "cloud-architect"
+   },
+   {
+    "id": "cloud-engineer",
+    "label": "Cloud Engineer",
+    "value": "cloud-engineer"
    }
   ],
   "jobFunctions": [
@@ -165,27 +170,27 @@
    }
   ],
   "locations": [
-   "Canada",
-   "Canada"
+   "United States",
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Canada",
-    "label": "Canada",
-    "value": "Canada"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 102000, 'maxValue': 143000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 126000, 'maxValue': 217000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Boomi",
-    "label": "Boomi",
-    "value": "resume:Boomi"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
     "id": "resume:CLM",
@@ -193,26 +198,26 @@
     "value": "resume:CLM"
    },
    {
-    "id": "resume:Oracle Order Management",
-    "label": "Oracle Order Management",
-    "value": "resume:Oracle Order Management"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Fusion",
-    "label": "Fusion",
-    "value": "resume:Fusion"
+    "id": "resume:Financial Reporting",
+    "label": "Financial Reporting",
+    "value": "resume:Financial Reporting"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Boomi",
-    "label": "Boomi",
-    "value": "resume:Boomi"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
     "id": "resume:CLM",
@@ -222,35 +227,45 @@
   ],
   "preferredSkills": [
    {
-    "id": "resume:Oracle Order Management",
-    "label": "Oracle Order Management",
-    "value": "resume:Oracle Order Management"
-   },
-   {
-    "id": "resume:Fusion",
-    "label": "Fusion",
-    "value": "resume:Fusion"
-   },
-   {
-    "id": "resume:OTC",
-    "label": "OTC",
-    "value": "resume:OTC"
-   },
-   {
     "id": "resume:CRM",
     "label": "CRM",
     "value": "resume:CRM"
    },
    {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
+    "id": "resume:Financial Reporting",
+    "label": "Financial Reporting",
+    "value": "resume:Financial Reporting"
+   },
+   {
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
+   },
+   {
+    "id": "resume:version control systems",
+    "label": "Version Control Systems",
+    "value": "resume:version control systems"
+   },
+   {
+    "id": "resume:Order Management",
+    "label": "Order Management",
+    "value": "resume:Order Management"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 10,
   "regions": [
    {
     "id": "North America",
@@ -278,23 +293,23 @@
    }
   ],
   "timeStamp": "2026-10-31T00:00:00Z",
-  "title": "Oracle Fusion Financial Engineer - Subscriptions, Billing & Revenue",
-  "url": "https://jobs.ashbyhq.com/Lime/ea730ad8-a20e-4a4b-98d8-2557cffee088",
-  "jobId": "ea730ad8-a20e-4a4b-98d8-2557cffee088",
+  "title": "Oracle Fusion Cloud Architect - Subscriptions, Billing & Revenue",
+  "url": "https://jobs.ashbyhq.com/Lime/44608bc3-80ff-4c12-8991-499e7da4775f",
+  "jobId": "44608bc3-80ff-4c12-8991-499e7da4775f",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1716665048723, 'matchScore': 0, 'ageScore': 0.9716665048722994, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1678940071763, 'matchScore': 0, 'ageScore': 0.9678940071763117, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "expert"
   ],
   "isFeatured": false
  },
