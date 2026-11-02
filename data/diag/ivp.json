@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-02T06:28:01Z",
+ "run": "2026-11-02T17:14:32Z",
  "homepage": {
   "status": 200,
   "bytes": 19513
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "q-vG7yyplR\u2026",
+  "session.sig": "G1wr08sAfb\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWM3ZDZiNTljODBmZjczNTQwZTA2ZTFkNDYxM2UxNDgiLCAic2NvcmUiOiAxLjA2Njg4MTc0OTY2MDEwOH0="
+   "sequence": "eyJfaWQiOiAiNTU2OTQxZTUzZGU2Njk5MWJlNDBjM2Q1ODI3ZjJlNDgiLCAic2NvcmUiOiAxLjA0NTk5MDI0MTgyNzE2MDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,22 +139,27 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/whoop/652d1ff1-6aa4-4f4e-b28f-ae929a5adc39?utm_source=careers.ivp.com",
-  "companyDomain": "whoop.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c88f49d3b1934f5fb268fecceb72ee23_192_160?Expires=1861920000&Signature=DoCodMoDPLvwjfQ5tDJxmSOaLC8rZQp87kxHJgbdkK~EwuzJE0W02",
-  "companyId": "WHOOP",
-  "companySlug": "whoop",
-  "companyName": "WHOOP",
-  "companyStaffCount": 1502,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5468947008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 5681,
   "considerHosted": false,
   "departments": [
-   "Business Systems"
+   "AI Research & Engineering"
   ],
   "jobTypes": [
    {
-    "id": "backend-engineer",
-    "label": "Backend Engineer",
-    "value": "backend-engineer"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
+   },
+   {
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
    }
   ],
   "jobFunctions": [
@@ -162,110 +167,122 @@
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
+   },
+   {
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
    }
   ],
   "locations": [
-   "Boston, Massachusetts, United States",
-   "Boston, MA"
+   "Remote-Friendly (Travel-Required)",
+   "San Francisco, CA",
+   "Seattle, WA",
+   "New York City, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "Boston, Massachusetts",
-    "label": "Boston, Massachusetts",
-    "value": "Boston, Massachusetts"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    },
    {
-    "id": "Greater Boston Area",
-    "label": "Boston",
-    "value": "Greater Boston Area"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 170000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 500000, 'maxValue': 850000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Agenda",
-    "label": "Agenda",
-    "value": "resume:Agenda"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    },
    {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
+    "id": "resume:Language Models",
+    "label": "Language Models",
+    "value": "resume:Language Models"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Reinforcement Learning",
+    "label": "Reinforcement Learning",
+    "value": "resume:Reinforcement Learning"
    },
    {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Agenda",
-    "label": "Agenda",
-    "value": "resume:Agenda"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    },
    {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
+    "id": "resume:Language Models",
+    "label": "Language Models",
+    "value": "resume:Language Models"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Reinforcement Learning",
+    "label": "Reinforcement Learning",
+    "value": "resume:Reinforcement Learning"
    },
    {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Data Processing",
+    "label": "Data Processing",
+    "value": "resume:Data Processing"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
-  "minYearsExp": 8,
+  "considerLevels": [],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "East Coast",
@@ -273,9 +290,14 @@
     "value": "East Coast"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -293,39 +315,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Consumer Electronics",
-    "label": "Consumer Electronics",
-    "value": "Consumer Electronics"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    },
    {
-    "id": "Health, Wellness and Fitness",
-    "label": "Health, Wellness and Fitness",
-    "value": "Health, Wellness and Fitness"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-11-01T00:00:00Z",
-  "title": "Staff Software Engineer (Backend, Business Systems)",
-  "url": "https://jobs.ashbyhq.com/whoop/652d1ff1-6aa4-4f4e-b28f-ae929a5adc39",
-  "jobId": "652d1ff1-6aa4-4f4e-b28f-ae929a5adc39",
-  "remote": false,
+  "timeStamp": "2026-11-01T23:17:08Z",
+  "title": "Research Engineer / Scientist, Pre-training",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468947008",
+  "jobId": "5468947008",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1677489624155, 'matchScore': 0, 'ageScore': 0.9677489624155092, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1792698003245, 'matchScore': 0, 'ageScore': 0.9792698003244599, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },

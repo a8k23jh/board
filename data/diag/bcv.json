@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-02T06:28:01Z",
+ "run": "2026-11-02T17:14:32Z",
  "homepage": {
   "status": 200,
   "bytes": 20708
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "SsEXU8TGVq\u2026",
+  "session.sig": "6xiWD4hGVj\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmM1Y2FlYmUwNzE1ZDA2NDA3Zjc4ZmUzNjU3MTRjZjkiLCAic2NvcmUiOiAxLjA2MDE1MzAxOTQwMTYyMDR9"
+   "sequence": "eyJfaWQiOiAiNmEwMTFmNGM5ZTM5MTZmMDcyZDQwNTA4ZjU1M2NjMTEiLCAic2NvcmUiOiAxLjAzOTYwNzc5NzY3NzA4MzJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,50 +152,57 @@
    "consultant",
    "contractor",
    "departments",
+   "educationRequirements",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Lime/44608bc3-80ff-4c12-8991-499e7da4775f?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "li.me",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/151f8ec98b16c3ccc0f3003cf9555e1f_208_160?Expires=1861920000&Signature=Q9nCv~H4ZZnYv3BCEAoCH2lxvmbSSermQG2-dbPn1ZQpW5BCEvQtA",
-  "companyId": "Lime",
-  "companySlug": "lime",
-  "companyName": "Lime",
-  "companyStaffCount": 2674,
+  "applyUrl": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consultant---Defense---Security---IT-Controls---Campus-2027_46116-1",
+  "companyDomain": "guidehouse.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8bc0bb4bf4e114d6038755ebfb6d5f24_320_160?Expires=1861920000&Signature=pCmxuJlEyug4URyLV8ZDc4EssRYCvClteAtfAIJfQavWlUAl68jVh",
+  "companyId": "Guidehouse",
+  "companySlug": "guidehouse",
+  "companyName": "Guidehouse",
+  "companyStaffCount": 15958,
   "considerHosted": false,
-  "departments": [
-   "Corporate Technology"
+  "departments": [],
+  "educationRequirements": [
+   {
+    "degree": {
+     "id": "Bachelors",
+     "label": "Bachelors",
+     "value": "Bachelors"
+    }
+   }
   ],
   "jobTypes": [
    {
-    "id": "cloud-engineer",
-    "label": "Cloud Engineer",
-    "value": "cloud-engineer"
+    "id": "it-engineer",
+    "label": "IT Support Engineer",
+    "value": "it-engineer"
    },
    {
-    "id": "cloud-architect",
-    "label": "Cloud Architect",
-    "value": "cloud-architect"
+    "id": "consultant",
+    "label": "Consultant",
+    "value": "consultant"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Consulting",
+    "label": "Consulting",
+    "value": "Consulting"
    }
   ],
   "locations": [
-   "United States",
-   "United States"
+   " VA, McLean, US ",
+   "United States of America"
   ],
   "normalizedLocations": [
    {
@@ -204,92 +211,83 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 126000, 'maxValue': 217000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 56000, 'maxValue': 94000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Scalable Architecture",
-    "label": "Scalable Architecture",
-    "value": "resume:Scalable Architecture"
+    "id": "resume:Vulnerability Management",
+    "label": "Vulnerability Management",
+    "value": "resume:Vulnerability Management"
    },
    {
-    "id": "resume:System Architecture",
-    "label": "System Architecture",
-    "value": "resume:System Architecture"
+    "id": "resume:Financial Systems",
+    "label": "Financial Systems",
+    "value": "resume:Financial Systems"
    },
    {
-    "id": "resume:Oracle Order Management",
-    "label": "Oracle Order Management",
-    "value": "resume:Oracle Order Management"
+    "id": "resume:Federal Government",
+    "label": "Federal Government",
+    "value": "resume:Federal Government"
    },
    {
-    "id": "resume:OTC",
-    "label": "OTC",
-    "value": "resume:OTC"
+    "id": "resume:Unix",
+    "label": "Unix",
+    "value": "resume:Unix"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Scalable Architecture",
-    "label": "Scalable Architecture",
-    "value": "resume:Scalable Architecture"
+    "id": "resume:Vulnerability Management",
+    "label": "Vulnerability Management",
+    "value": "resume:Vulnerability Management"
    },
    {
-    "id": "resume:System Architecture",
-    "label": "System Architecture",
-    "value": "resume:System Architecture"
+    "id": "resume:Financial Systems",
+    "label": "Financial Systems",
+    "value": "resume:Financial Systems"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Oracle Order Management",
-    "label": "Oracle Order Management",
-    "value": "resume:Oracle Order Management"
+    "id": "resume:Federal Government",
+    "label": "Federal Government",
+    "value": "resume:Federal Government"
    },
    {
-    "id": "resume:OTC",
-    "label": "OTC",
-    "value": "resume:OTC"
+    "id": "resume:Unix",
+    "label": "Unix",
+    "value": "resume:Unix"
    },
    {
-    "id": "resume:General Ledger",
-    "label": "General Ledger",
-    "value": "resume:General Ledger"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Invoicing",
-    "label": "Invoicing",
-    "value": "resume:Invoicing"
+    "id": "resume:Oracle SQL Developer",
+    "label": "Oracle SQL Developer",
+    "value": "resume:Oracle SQL Developer"
    },
    {
-    "id": "resume:Financial Statements",
-    "label": "Financial Statements",
-    "value": "resume:Financial Statements"
+    "id": "resume:NIST",
+    "label": "NIST",
+    "value": "resume:NIST"
    }
   ],
   "manager": false,
-  "consultant": false,
+  "consultant": true,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
-  "minYearsExp": 10,
+  "considerLevels": [],
+  "minYearsExp": 0,
   "regions": [
    {
     "id": "North America",
@@ -306,36 +304,37 @@
   ],
   "markets": [
    {
-    "id": "Consumer",
-    "label": "Consumer",
-    "value": "Consumer"
+    "id": "Business Services",
+    "label": "Business Services",
+    "value": "Business Services"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Management Consulting",
+    "label": "Management Consulting",
+    "value": "Management Consulting"
    }
   ],
-  "timeStamp": "2026-10-31T00:00:00Z",
-  "title": "Oracle Fusion Cloud Architect - Subscriptions, Billing & Revenue",
-  "url": "https://jobs.ashbyhq.com/Lime/44608bc3-80ff-4c12-8991-499e7da4775f",
-  "jobId": "44608bc3-80ff-4c12-8991-499e7da4775f",
-  "remote": true,
+  "timeStamp": "2026-11-01T00:00:00Z",
+  "title": "Consultant - Defense & Security - IT Controls - Campus 2027",
+  "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consultant---Defense---Security---IT-Controls---Campus-2027_46116-1",
+  "jobId": "91d693984f491000894c0ce6be1b0000",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1337612609032, 'matchScore': 0, 'ageScore': 0.9337612609031636, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1460175020884, 'matchScore': 0, 'ageScore': 0.9460175020883488, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "expert"
+   "junior"
   ],
-  "isFeatured": false
+  "isFeatured": false,
+  "llmFeatures": "{'summary': \"This entry-level consulting role supports federal Defense & Security clients with IT risk and controls assessments, remediation, and related support. The consultant will perform technical"
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"

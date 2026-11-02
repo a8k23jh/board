@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-11-02T06:28:01Z",
+ "run": "2026-11-02T17:14:32Z",
  "homepage": {
   "status": 200,
   "bytes": 19375
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "dmeDVvDOsn\u2026",
+  "session.sig": "OyxhLcUNCX\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTEzYWY1NDM5OGI1MzRhOGQzMGU2MTgwNGI2Mjk2NGEiLCAic2NvcmUiOiAxLjAyNzc5NjIxNjc5MTI4MDl9"
+   "sequence": "eyJfaWQiOiAiYTEzYWY1NDM5OGI1MzRhOGQzMGU2MTgwNGI2Mjk2NGEiLCAic2NvcmUiOiAxLjAwNzAwNzAyMzc3NTA3NzJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,96 +155,144 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/inkitt/40be5ad0-00ec-4806-a4e7-04e0327712a1?lever-source%5B%5D=jobs.kleinerperkins.com",
-  "companyDomain": "inkitt.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/64b16710ef8359595a110c998dbad8fc_144_160?Expires=1861920000&Signature=A9TBZK7KRMnSGVNdfrUMhf6aQVkxQ10aVvVLE9DOfAMimtCl5lyWD",
-  "companyId": "Inkitt",
-  "companySlug": "inkitt",
-  "companyName": "Inkitt",
-  "companyStaffCount": 346,
+  "applyUrl": "https://jobs.ashbyhq.com/ambiencehealthcare/89d3f789-c835-4efc-ac64-a1ba3df184e3?utm_source=jobs.kleinerperkins.com",
+  "companyDomain": "ambiencehealthcare.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/0fcfb2f2aa2b91edfeee6d2e586b03ae_288_160?Expires=1861920000&Signature=GyizU5bf0O4R2ZaY4BO16J5-QwOjfZCFf58cI7ryon~6XhZtP2RTs",
+  "companyId": "Ambience Healthcare",
+  "companySlug": "ambience-healthcare",
+  "companyName": "Ambience Healthcare",
+  "companyStaffCount": 231,
   "considerHosted": false,
   "departments": [
-   "Content Team"
+   "Office of the President"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "chief-of-staff",
+    "label": "Chief of Staff",
+    "value": "chief-of-staff"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
+   }
+  ],
   "locations": [
-   "Remote US"
+   "San Francisco, California, United States",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 20, 'maxValue': 35, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 185000, 'maxValue': 275000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Streaming",
-    "label": "Streaming",
-    "value": "resume:Streaming"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    },
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Algorithms",
-    "label": "Algorithms",
-    "value": "resume:Algorithms"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:OKRs",
+    "label": "OKRs",
+    "value": "resume:OKRs"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Streaming",
-    "label": "Streaming",
-    "value": "resume:Streaming"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    },
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Algorithms",
-    "label": "Algorithms",
-    "value": "resume:Algorithms"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:OKRs",
+    "label": "OKRs",
+    "value": "resume:OKRs"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
+   },
+   {
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
+   },
+   {
+    "id": "resume:ROI",
+    "label": "ROI",
+    "value": "resume:ROI"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 10,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -266,22 +314,36 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Entertainment",
-    "label": "Entertainment",
-    "value": "Entertainment"
+    "id": "AI-Powered Applications",
+    "label": "AI-Powered Applications",
+    "value": "AI-Powered Applications"
    }
   ],
-  "timeStamp": "2026-10-30T23:24:30.304000Z",
-  "title": "Freelance Ghostwriter - Romance/Romantasy (Remote)",
-  "url": "https://jobs.lever.co/inkitt/40be5ad0-00ec-4806-a4e7-04e0327712a1",
-  "jobId": "40be5ad0-00ec-4806-a4e7-04e0327712a1",
-  "remote": true,
+  "timeStamp": "2026-10-31T00:00:00Z",
+  "title": "Chief of Staff, Office of the President",
+  "url": "https://jobs.ashbyhq.com/ambiencehealthcare/89d3f789-c835-4efc-ac64-a1ba3df184e3",
+  "jobId": "89d3f789-c835-4efc-ac64-a1ba3df184e3",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1335263308931, 'matchScore': 0, 'ageScore': 0.9335263308931327, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1132373067967, 'matchScore': 0, 'ageScore': 0.9132373067966821, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "senior",
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {
