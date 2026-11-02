@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-01T23:41:46Z",
+ "run": "2026-11-02T06:28:01Z",
  "homepage": {
   "status": 200,
   "bytes": 20708
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Z8FuenYGB5\u2026",
+  "session.sig": "SsEXU8TGVq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmM1Y2FlYmUwNzE1ZDA2NDA3Zjc4ZmUzNjU3MTRjZjkiLCAic2NvcmUiOiAxLjA2NDQ0MTU5MjExOTk4NDZ9"
+   "sequence": "eyJfaWQiOiAiMmM1Y2FlYmUwNzE1ZDA2NDA3Zjc4ZmUzNjU3MTRjZjkiLCAic2NvcmUiOiAxLjA2MDE1MzAxOTQwMTYyMDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Lime/ea730ad8-a20e-4a4b-98d8-2557cffee088?utm_source=jobs.baincapitalventures.com",
+  "applyUrl": "https://jobs.ashbyhq.com/Lime/44608bc3-80ff-4c12-8991-499e7da4775f?utm_source=jobs.baincapitalventures.com",
   "companyDomain": "li.me",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/151f8ec98b16c3ccc0f3003cf9555e1f_208_160?Expires=1861920000&Signature=Q9nCv~H4ZZnYv3BCEAoCH2lxvmbSSermQG2-dbPn1ZQpW5BCEvQtA",
   "companyId": "Lime",
@@ -176,9 +176,14 @@
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "cloud-engineer",
+    "label": "Cloud Engineer",
+    "value": "cloud-engineer"
+   },
+   {
+    "id": "cloud-architect",
+    "label": "Cloud Architect",
+    "value": "cloud-architect"
    }
   ],
   "jobFunctions": [
@@ -189,92 +194,102 @@
    }
   ],
   "locations": [
-   "Canada",
-   "Canada"
+   "United States",
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Canada",
-    "label": "Canada",
-    "value": "Canada"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 102000, 'maxValue': 143000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 126000, 'maxValue': 217000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   },
    {
     "id": "resume:Service",
     "label": "Service",
     "value": "resume:Service"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Scalable Architecture",
+    "label": "Scalable Architecture",
+    "value": "resume:Scalable Architecture"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:System Architecture",
+    "label": "System Architecture",
+    "value": "resume:System Architecture"
+   },
+   {
+    "id": "resume:Oracle Order Management",
+    "label": "Oracle Order Management",
+    "value": "resume:Oracle Order Management"
+   },
+   {
+    "id": "resume:OTC",
+    "label": "OTC",
+    "value": "resume:OTC"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   },
-   {
     "id": "resume:Service",
     "label": "Service",
     "value": "resume:Service"
+   },
+   {
+    "id": "resume:Scalable Architecture",
+    "label": "Scalable Architecture",
+    "value": "resume:Scalable Architecture"
+   },
+   {
+    "id": "resume:System Architecture",
+    "label": "System Architecture",
+    "value": "resume:System Architecture"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Oracle Order Management",
+    "label": "Oracle Order Management",
+    "value": "resume:Oracle Order Management"
    },
    {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
+    "id": "resume:OTC",
+    "label": "OTC",
+    "value": "resume:OTC"
    },
    {
-    "id": "resume:CLM",
-    "label": "CLM",
-    "value": "resume:CLM"
+    "id": "resume:General Ledger",
+    "label": "General Ledger",
+    "value": "resume:General Ledger"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Invoicing",
+    "label": "Invoicing",
+    "value": "resume:Invoicing"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Financial Statements",
+    "label": "Financial Statements",
+    "value": "resume:Financial Statements"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 10,
   "regions": [
    {
     "id": "North America",
@@ -302,23 +317,23 @@
    }
   ],
   "timeStamp": "2026-10-31T00:00:00Z",
-  "title": "Oracle Fusion Financial Engineer - Subscriptions, Billing & Revenue",
-  "url": "https://jobs.ashbyhq.com/Lime/ea730ad8-a20e-4a4b-98d8-2557cffee088",
-  "jobId": "ea730ad8-a20e-4a4b-98d8-2557cffee088",
+  "title": "Oracle Fusion Cloud Architect - Subscriptions, Billing & Revenue",
+  "url": "https://jobs.ashbyhq.com/Lime/44608bc3-80ff-4c12-8991-499e7da4775f",
+  "jobId": "44608bc3-80ff-4c12-8991-499e7da4775f",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1385024629544, 'matchScore': 0, 'ageScore': 0.9385024629544753, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1337612609032, 'matchScore': 0, 'ageScore': 0.9337612609031636, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "expert"
   ],
   "isFeatured": false
  },
