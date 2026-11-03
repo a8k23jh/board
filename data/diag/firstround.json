@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-11-03T15:20:50Z",
+ "run": "2026-11-03T21:09:37Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"114f317c4eda09252c2ff0797e363f6458d234d5\",\"date\":\"2026-11-03T01:22:13.592Z\"},\"server\":{\"git\":\"114f317c4eda09252c2ff0797e363f6458d234d5\",\"date\":\"2026-11-03T01:22:13.592Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"947ac9e90d12e6c0198b9eb01ffe4ba7afbc9f1b\",\"date\":\"2026-11-03T19:14:56.356Z\"},\"server\":{\"git\":\"947ac9e90d12e6c0198b9eb01ffe4ba7afbc9f1b\",\"date\":\"2026-11-03T19:14:56.356Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "k7b84Tr4po\u2026",
+  "session.sig": "ffbEFfwfHb\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTZmYWU2ZDE2ODYxY2UzOTY4ZDdiNTZkODNjOWIyYjAiLCAic2NvcmUiOiAwLjk4MzY3ODU4OTM0NzIyMjJ9"
+   "sequence": "eyJfaWQiOiAiODk3NDJhM2VlNGRmY2YxNWRiYmE2OTljNzU5MTE2ZjAiLCAic2NvcmUiOiAwLjk3Njc4MTgxMzE0OTMwNTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,22 +155,28 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/assorthealth/f74a193c-1232-443d-bcbb-854a46d835ba?utm_source=jobs.firstround.com",
-  "companyDomain": "assorthealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/fd1ba5e488ea7a2603af7f75d2f697fc_320_160?Expires=1861920000&Signature=LXaWIHp0mSu2S0heETKox3P8mp5hkereiDVb8dYRKn-cOiDzI~3ku",
-  "companyId": "Assort Health",
-  "companySlug": "assort-health",
-  "companyName": "Assort Health",
-  "companyStaffCount": 268,
+  "applyUrl": "https://jobs.ashbyhq.com/Gumloop/21b4f0f8-dfb8-498b-951c-1a2857d7ae0e?utm_source=jobs.firstround.com",
+  "companyDomain": "gumloop.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/772fa6e9598ace5834e220a60a51d233_240_160?Expires=1861920000&Signature=B4-7eroNLd~5nw-hUGTI~9Lm1RcNMtMGVQDHCAiGdLUHCzCAlxawu",
+  "companyId": "Gumloop",
+  "companySlug": "gumloop",
+  "companyName": "Gumloop",
+  "companyStaffCount": 46,
   "considerHosted": false,
   "departments": [
-   "430-Product & Design"
+   "Sales"
   ],
-  "jobTypes": [],
+  "jobTypes": [
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   }
+  ],
   "jobFunctions": [],
   "locations": [
    "San Francisco, California, United States",
-   "San Francisco"
+   "San Francisco Office"
   ],
   "normalizedLocations": [
    {
@@ -179,96 +185,96 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 215000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Nexus",
+    "label": "Nexus",
+    "value": "resume:Nexus"
    },
    {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:Access Control",
+    "label": "Access Control",
+    "value": "resume:Access Control"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Product Strategy",
-    "label": "Product Strategy",
-    "value": "resume:Product Strategy"
+    "id": "resume:SDR",
+    "label": "SDR",
+    "value": "resume:SDR"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:SaaS Sales",
+    "label": "SaaS Sales",
+    "value": "resume:SaaS Sales"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Nexus",
+    "label": "Nexus",
+    "value": "resume:Nexus"
    },
    {
-    "id": "resume:C",
-    "label": "C",
-    "value": "resume:C"
+    "id": "resume:Access Control",
+    "label": "Access Control",
+    "value": "resume:Access Control"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Product Strategy",
-    "label": "Product Strategy",
-    "value": "resume:Product Strategy"
+    "id": "resume:SDR",
+    "label": "SDR",
+    "value": "resume:SDR"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:SaaS Sales",
+    "label": "SaaS Sales",
+    "value": "resume:SaaS Sales"
    },
    {
-    "id": "resume:Figma",
-    "label": "Figma",
-    "value": "resume:Figma"
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
    },
    {
-    "id": "resume:Product Vision",
-    "label": "Product Vision",
-    "value": "resume:Product Vision"
+    "id": "resume:Multiplayer",
+    "label": "Multiplayer",
+    "value": "resume:Multiplayer"
    },
    {
-    "id": "resume:Valuation",
-    "label": "Valuation",
-    "value": "resume:Valuation"
+    "id": "resume:Sales Development",
+    "label": "Sales Development",
+    "value": "resume:Sales Development"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "West Coast",
@@ -276,60 +282,55 @@
     "value": "West Coast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
     "id": "AI",
     "label": "AI",
     "value": "AI"
-   },
-   {
-    "id": "Healthcare",
-    "label": "Healthcare",
-    "value": "Healthcare"
    }
   ],
   "timeStamp": "2026-11-03T00:00:00Z",
-  "title": "Staff Product Designer",
-  "url": "https://jobs.ashbyhq.com/assorthealth/f74a193c-1232-443d-bcbb-854a46d835ba",
-  "jobId": "f74a193c-1232-443d-bcbb-854a46d835ba",
+  "title": "Founding SDR Manager",
+  "url": "https://jobs.ashbyhq.com/Gumloop/21b4f0f8-dfb8-498b-951c-1a2857d7ae0e",
+  "jobId": "21b4f0f8-dfb8-498b-951c-1a2857d7ae0e",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1843783829756, 'matchScore': 0, 'ageScore': 0.9843783829756945, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.176062722578, 'matchScore': 0, 'ageScore': 0.9760627225779321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
+   },
+   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "manager",
+   "mid"
   ],
   "isFeatured": false
  },

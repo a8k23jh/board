@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-11-03T15:20:50Z",
+ "run": "2026-11-03T21:09:37Z",
  "homepage": {
   "status": 200,
   "bytes": 21354
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"114f317c4eda09252c2ff0797e363f6458d234d5\",\"date\":\"2026-11-03T01:22:13.592Z\"},\"server\":{\"git\":\"114f317c4eda09252c2ff0797e363f6458d234d5\",\"date\":\"2026-11-03T01:22:13.592Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"947ac9e90d12e6c0198b9eb01ffe4ba7afbc9f1b\",\"date\":\"2026-11-03T19:14:56.356Z\"},\"server\":{\"git\":\"947ac9e90d12e6c0198b9eb01ffe4ba7afbc9f1b\",\"date\":\"2026-11-03T19:14:56.356Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "HUbRrLf9vH\u2026",
+  "session.sig": "dawwBwrbG9\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWMyYTdlNzIwMzJlY2Y1MGE3ZWZlZDkyMmU5ZjNhZTAiLCAic2NvcmUiOiAxLjE2MzI5OTQwMjcwNzU2MTh9"
+   "sequence": "eyJfaWQiOiAiNzI2MDg2Y2QzMzQxYmYxNDA4ZjlmMTY1OTQwNDg2N2MiLCAic2NvcmUiOiAxLjE1NTE1MTc0MTUzMzU2NDh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,125 +155,158 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.kula.ai/pebblelife/66123",
-  "companyDomain": "pebblelife.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a631e78611e22160c140db796d366d52_288_160?Expires=1861920000&Signature=nm31qxKDs0fs7D4bz~cBKanL7kAgUDQDMe1UcjxU1ITk4GFFrzbCv",
-  "companyId": "Pebble Life",
-  "companySlug": "pebble-life",
-  "companyName": "Pebble",
-  "companyStaffCount": 98,
+  "applyUrl": "https://job-boards.greenhouse.io/flex/jobs/4750380005",
+  "companyDomain": "getflex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/719e1991977431f19bc9f20f7db0c57a_128_160?Expires=1861920000&Signature=pDotqDTKhqqXAi9yeOZw6OiUwO-dviv12CAxvGlFkJJoksxYS3Qro",
+  "companyId": "Flex Financial",
+  "companySlug": "flex-financial",
+  "companyName": "Flex",
+  "companyStaffCount": 897,
   "considerHosted": false,
   "departments": [
-   "Logistics"
+   "Accounting"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "finance-professional",
+    "label": "Finance",
+    "value": "finance-professional"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Finance",
+    "label": "Finance",
+    "value": "Finance"
+   }
+  ],
   "locations": [
-   "Fremont, California, United States"
+   "New York, NY",
+   "San Francisco, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Fremont, California",
-    "label": "Fremont, California",
-    "value": "Fremont, California"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 32, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Spreadsheets",
-    "label": "Spreadsheets",
-    "value": "resume:Spreadsheets"
+    "id": "resume:External Audit",
+    "label": "External Audit",
+    "value": "resume:External Audit"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:SAP",
-    "label": "SAP",
-    "value": "resume:SAP"
+    "id": "resume:SOX",
+    "label": "SOX",
+    "value": "resume:SOX"
    },
    {
-    "id": "resume:Warehouse Management",
-    "label": "Warehouse Management",
-    "value": "resume:Warehouse Management"
+    "id": "resume:Floqast",
+    "label": "Floqast",
+    "value": "resume:Floqast"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Spreadsheets",
-    "label": "Spreadsheets",
-    "value": "resume:Spreadsheets"
+    "id": "resume:External Audit",
+    "label": "External Audit",
+    "value": "resume:External Audit"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:SAP",
-    "label": "SAP",
-    "value": "resume:SAP"
+    "id": "resume:SOX",
+    "label": "SOX",
+    "value": "resume:SOX"
    },
    {
-    "id": "resume:Warehouse Management",
-    "label": "Warehouse Management",
-    "value": "resume:Warehouse Management"
+    "id": "resume:Floqast",
+    "label": "Floqast",
+    "value": "resume:Floqast"
    },
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Financial Systems",
+    "label": "Financial Systems",
+    "value": "resume:Financial Systems"
    },
    {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
+    "id": "resume:Big 4",
+    "label": "Big 4",
+    "value": "resume:Big 4"
    },
    {
-    "id": "resume:Material Handling Equipment",
-    "label": "Material Handling Equipment",
-    "value": "resume:Material Handling Equipment"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 10,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
     "id": "North America",
@@ -283,53 +316,42 @@
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Automotive",
-    "label": "Automotive",
-    "value": "Automotive"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Financial Services",
+    "label": "Financial Services",
+    "value": "Financial Services"
    }
   ],
-  "timeStamp": "2026-11-03T08:57:16Z",
-  "title": "Material Handler",
-  "url": "https://careers.kula.ai/pebblelife/66123",
-  "jobId": "66123",
+  "timeStamp": "2026-11-03T09:41:44Z",
+  "title": "Director, Financial Systems & Transformation",
+  "url": "https://job-boards.greenhouse.io/flex/jobs/4750380005",
+  "jobId": "4750380005",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1968685591412, 'matchScore': 0, 'ageScore': 0.9968685591412038, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1889596809618, 'matchScore': 0, 'ageScore': 0.9889596809618055, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "junior"
+   "director"
   ],
   "isFeatured": false
  },
