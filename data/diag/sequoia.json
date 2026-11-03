@@ -1,9 +1,9 @@
 {
  "board": "sequoia",
- "run": "2026-11-02T23:56:18Z",
+ "run": "2026-11-03T06:59:50Z",
  "homepage": {
   "status": 200,
-  "bytes": 20232
+  "bytes": 20385
  },
  "slugs_tried": [
   "sequoia-capital",
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"},\"server\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"114f317c4eda09252c2ff0797e363f6458d234d5\",\"date\":\"2026-11-03T01:22:13.592Z\"},\"server\":{\"git\":\"114f317c4eda09252c2ff0797e363f6458d234d5\",\"date\":\"2026-11-03T01:22:13.592Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "StfKuaSy9r\u2026",
+  "session.sig": "kbfiIEOn2W\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZmNjZWJiYTBiMzE0NjVmY2QyMWI0ZjA4ZTIwMmNiMDIiLCAic2NvcmUiOiAxLjA3MTIwOTg4NzU5MzM2NDJ9"
+   "sequence": "eyJfaWQiOiAiMDk0OGZkZTgzYzIwYjU0ZGFlMGI2OTgxNjQ0Yzc4MzciLCAic2NvcmUiOiAxLjA5MjA4OTYwNTI3MDA2MTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,122 +144,130 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8926159002?gh_jid=8926159002",
-  "companyDomain": "spacex.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
-  "companyId": "SpaceX",
-  "companySlug": "spacex",
-  "companyName": "SpaceX",
-  "companyStaffCount": 20713,
+  "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a832d453-6bcf-4421-aa6a-f2a4cf0b96ea&ccId=9201147381424_3&lang=en_US&jobId=747739",
+  "companyDomain": "100thieves.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/20f4ef93ea4f104802f7e59105c7813f_220_160?Expires=1861920000&Signature=OiITlxHeARX8wASdTc2WtgjQdv8PYyjS2UI68e~KpSUuWRboT9kAe",
+  "companyId": "100 Thieves",
+  "companySlug": "100-thieves",
+  "companyName": "100 Thieves",
+  "companyStaffCount": 214,
   "considerHosted": false,
-  "departments": [
-   "Security - Vandenberg"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "hardware-engineer",
-    "label": "Hardware Engineer",
-    "value": "hardware-engineer"
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "coordinator",
+    "label": "Coordinator",
+    "value": "coordinator"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   },
+   {
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
    }
   ],
   "locations": [
-   "Vandenberg, CA"
+   " Los Angeles, CA, US"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "Los Angeles, California",
+    "label": "Los Angeles, California",
+    "value": "Los Angeles, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 95000, 'maxValue': 130000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Month', 'value': 'month'}, 'minValue': 4500, 'maxValue': 5000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Lenel",
-    "label": "Lenel",
-    "value": "resume:Lenel"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Physical Security",
-    "label": "Physical Security",
-    "value": "resume:Physical Security"
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
    },
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Online Gaming",
+    "label": "Online Gaming",
+    "value": "resume:Online Gaming"
    },
    {
-    "id": "resume:DoD",
-    "label": "DoD",
-    "value": "resume:DoD"
+    "id": "resume:Client Relations",
+    "label": "Client Relations",
+    "value": "resume:Client Relations"
    },
    {
-    "id": "resume:Aviation",
-    "label": "Aviation",
-    "value": "resume:Aviation"
+    "id": "resume:YouTube",
+    "label": "YouTube",
+    "value": "resume:YouTube"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Lenel",
-    "label": "Lenel",
-    "value": "resume:Lenel"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Physical Security",
-    "label": "Physical Security",
-    "value": "resume:Physical Security"
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
    },
    {
-    "id": "resume:Operating Systems",
-    "label": "Operating Systems",
-    "value": "resume:Operating Systems"
+    "id": "resume:Online Gaming",
+    "label": "Online Gaming",
+    "value": "resume:Online Gaming"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:DoD",
-    "label": "DoD",
-    "value": "resume:DoD"
+    "id": "resume:Client Relations",
+    "label": "Client Relations",
+    "value": "resume:Client Relations"
    },
    {
-    "id": "resume:Aviation",
-    "label": "Aviation",
-    "value": "resume:Aviation"
+    "id": "resume:YouTube",
+    "label": "YouTube",
+    "value": "resume:YouTube"
    },
    {
-    "id": "resume:Access Control",
-    "label": "Access Control",
-    "value": "resume:Access Control"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Staff Management",
-    "label": "Staff Management",
-    "value": "resume:Staff Management"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    },
    {
-    "id": "resume:Visio",
-    "label": "Visio",
-    "value": "resume:Visio"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    }
   ],
   "manager": false,
@@ -275,13 +283,8 @@
     4
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 2,
   "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
@@ -291,45 +294,51 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-11-02T09:52:12Z",
-  "title": "Sr. Physical Security Hardware Specialist",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8926159002?gh_jid=8926159002",
-  "jobId": "8926159002",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Apparel & Fashion",
+    "label": "Apparel & Fashion",
+    "value": "Apparel & Fashion"
+   }
+  ],
+  "timeStamp": "2026-11-03T03:35:00Z",
+  "title": "Account Coordinator, Partnerships (6-Month Contract)",
+  "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a832d453-6bcf-4421-aa6a-f2a4cf0b96ea&ccId=9201147381424_3&lang=en_US&jobId=747739",
+  "jobId": "747739",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1855775814248, 'matchScore': 0, 'ageScore': 0.9855775814247685, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1970264336154, 'matchScore': 0, 'ageScore': 0.9970264336153549, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "junior"
   ],
   "isFeatured": false
  },

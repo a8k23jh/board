@@ -1,9 +1,9 @@
 {
  "board": "firstround",
- "run": "2026-11-02T23:56:18Z",
+ "run": "2026-11-03T06:59:50Z",
  "homepage": {
   "status": 200,
-  "bytes": 17462
+  "bytes": 17460
  },
  "slugs_tried": [
   "first-round-capital",
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"},\"server\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"114f317c4eda09252c2ff0797e363f6458d234d5\",\"date\":\"2026-11-03T01:22:13.592Z\"},\"server\":{\"git\":\"114f317c4eda09252c2ff0797e363f6458d234d5\",\"date\":\"2026-11-03T01:22:13.592Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "O8il6N39ld\u2026",
+  "session.sig": "FDNRRQ6I2l\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZmRkNGRlMTU1MDkzMzMxZDQ3NzBlYjJiNTkyZTgzYTgiLCAic2NvcmUiOiAwLjk3ODc1NDA3NzA0NzA2OH0="
+   "sequence": "eyJfaWQiOiAiZDMyOGI3NjFiNjc4M2ExMGIxMWJiZjVkNjU5NWNjN2EiLCAic2NvcmUiOiAwLjk3ODg1MzQyNDM3NzMxNDh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,111 +155,121 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/planetlabs/jobs/8316764",
-  "companyDomain": "planet.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/81daece2b738e7da2b2f0d7cb6f3cb9b_240_160?Expires=1861920000&Signature=i69ljP0imOrwJp3yJ28r~12-MqQGYr4EnAbq4LoC51M-tB-p~Bgmk",
-  "companyId": "Planet",
-  "companySlug": "planet",
-  "companyName": "Planet",
-  "companyStaffCount": 1748,
+  "applyUrl": "https://job-boards.greenhouse.io/flexport/jobs/8347716",
+  "companyDomain": "flexport.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/963204163cf1c12c9d559f5f59e9c8eb_224_160?Expires=1861920000&Signature=NM6Nr7rLbBQFOk7dzdWVeh8D-P634vODIBuXB~xQ4hsuyqEUajpSf",
+  "companyId": "Flexport",
+  "companySlug": "flexport",
+  "companyName": "Flexport",
+  "companyStaffCount": 2961,
   "considerHosted": false,
   "departments": [
-   "Orbits R&D"
+   "Capital"
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
+   },
+   {
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "Berlin, Germany"
+   "San Francisco, California, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Berlin, Berlin, Germany",
-    "label": "Berlin, Germany",
-    "value": "Berlin, Berlin, Germany"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 86600, 'maxValue': 108300, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 91000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
-   {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
-   },
-   {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
-   },
-   {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
-   },
-   {
-    "id": "resume:dynamic system",
-    "label": "Dynamic Systems",
-    "value": "resume:dynamic system"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
-   },
-   {
-    "id": "resume:Storage",
-    "label": "Storage",
-    "value": "resume:Storage"
-   },
-   {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
-   },
-   {
-    "id": "resume:dynamic system",
-    "label": "Dynamic Systems",
-    "value": "resume:dynamic system"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
-   },
-   {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
-   },
    {
     "id": "resume:Mechanics",
     "label": "Mechanics",
     "value": "resume:Mechanics"
+   },
+   {
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Goods",
+    "label": "Goods",
+    "value": "resume:Goods"
+   },
+   {
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Mechanics",
+    "label": "Mechanics",
+    "value": "resume:Mechanics"
+   },
+   {
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Goods",
+    "label": "Goods",
+    "value": "resume:Goods"
+   },
+   {
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
+   },
+   {
+    "id": "resume:Data Privacy",
+    "label": "Data Privacy",
+    "value": "resume:Data Privacy"
+   },
+   {
+    "id": "resume:Capital Markets",
+    "label": "Capital Markets",
+    "value": "resume:Capital Markets"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    }
   ],
   "manager": false,
@@ -267,25 +277,30 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 6,
   "regions": [
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -303,29 +318,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
    }
   ],
-  "timeStamp": "2026-11-02T09:24:28Z",
-  "title": "Senior Flight Dynamics Engineer, Orbits R&D",
-  "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8316764",
-  "jobId": "8316764",
+  "timeStamp": "2026-11-02T17:24:31Z",
+  "title": "Account Executive, Flexport Capital",
+  "url": "https://job-boards.greenhouse.io/flexport/jobs/8347716",
+  "jobId": "8347716",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1843403180683, 'matchScore': 0, 'ageScore': 0.984340318068287, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1826955480699, 'matchScore': 0, 'ageScore': 0.9826955480698303, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },

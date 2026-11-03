@@ -1,9 +1,9 @@
 {
  "board": "nea",
- "run": "2026-11-02T23:56:18Z",
+ "run": "2026-11-03T06:59:50Z",
  "homepage": {
   "status": 200,
-  "bytes": 20603
+  "bytes": 20756
  },
  "slugs_tried": [
   "nea",
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"},\"server\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"114f317c4eda09252c2ff0797e363f6458d234d5\",\"date\":\"2026-11-03T01:22:13.592Z\"},\"server\":{\"git\":\"114f317c4eda09252c2ff0797e363f6458d234d5\",\"date\":\"2026-11-03T01:22:13.592Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "g4Mbq9bD4Z\u2026",
+  "session.sig": "A7IPLC-Hdy\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGM4MWUyOTRkZGVhNWZkMTVkZjIwMjNjNjFiNjE4ZDAiLCAic2NvcmUiOiAxLjA2OTUyOTU0ODMyMTc1OTN9"
+   "sequence": "eyJfaWQiOiAiNzkzNGNlMzFhMDI2YjZiMTNiZDRlNjFkMjdiZmU5ODAiLCAic2NvcmUiOiAxLjA3MTM3MDkwNDQ1NTYzMjh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8334344?t=gh_src=&gh_jid=8334344",
+  "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8348038?t=gh_src=&gh_jid=8348038",
   "companyDomain": "robinhood.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a7f9760e316e94a76b4e2c5c6337d5a6_288_160?Expires=1861920000&Signature=mZQkCJ5Bp88JcFNaatMwUGHk4hZDC1ArvjUF0p4CWPQVmj3GTpnbw",
   "companyId": "Robinhood",
@@ -156,23 +156,24 @@
   "companyStaffCount": 4837,
   "considerHosted": false,
   "departments": [
-   "Crypto Operations"
+   "Enterprise Technology Division"
   ],
   "jobTypes": [
    {
-    "id": "compliance-risk",
-    "label": "Risk & Compliance Manager",
-    "value": "compliance-risk"
+    "id": "site-reliability-engineer",
+    "label": "Site Reliability Engineer (SRE)",
+    "value": "site-reliability-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Auditing",
-    "label": "Auditing",
-    "value": "Auditing"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
+   "Bellevue, WA",
    "Menlo Park, CA",
    "New York, NY"
   ],
@@ -186,78 +187,83 @@
     "id": "New York",
     "label": "New York",
     "value": "New York"
+   },
+   {
+    "id": "Bellevue, Washington",
+    "label": "Bellevue, Washington",
+    "value": "Bellevue, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 73000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 119000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Configuration Management",
+    "label": "Configuration Management",
+    "value": "resume:Configuration Management"
    },
    {
-    "id": "resume:Root Cause Analysis",
-    "label": "Root Cause Analysis",
-    "value": "resume:Root Cause Analysis"
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    },
    {
-    "id": "resume:Ontologies",
-    "label": "Ontologies",
-    "value": "resume:Ontologies"
+    "id": "resume:Chef",
+    "label": "Chef",
+    "value": "resume:Chef"
    },
    {
-    "id": "resume:Business Continuity",
-    "label": "Business Continuity",
-    "value": "resume:Business Continuity"
+    "id": "resume:Ansible",
+    "label": "Ansible",
+    "value": "resume:Ansible"
    },
    {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Configuration Management",
+    "label": "Configuration Management",
+    "value": "resume:Configuration Management"
    },
    {
-    "id": "resume:Root Cause Analysis",
-    "label": "Root Cause Analysis",
-    "value": "resume:Root Cause Analysis"
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    },
    {
-    "id": "resume:Ontologies",
-    "label": "Ontologies",
-    "value": "resume:Ontologies"
+    "id": "resume:Chef",
+    "label": "Chef",
+    "value": "resume:Chef"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Business Continuity",
-    "label": "Business Continuity",
-    "value": "resume:Business Continuity"
+    "id": "resume:Ansible",
+    "label": "Ansible",
+    "value": "resume:Ansible"
    },
    {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:Disaster Recovery",
-    "label": "Disaster Recovery",
-    "value": "resume:Disaster Recovery"
+    "id": "resume:Bash",
+    "label": "Bash",
+    "value": "resume:Bash"
    },
    {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Reliability Engineering",
+    "label": "Reliability Engineering",
+    "value": "resume:Reliability Engineering"
    }
   ],
   "manager": false,
@@ -276,6 +282,11 @@
   "minYearsExp": 5,
   "regions": [
    {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
@@ -289,11 +300,6 @@
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    },
    {
     "id": "Pacific States",
@@ -321,24 +327,24 @@
     "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-11-02T10:23:36Z",
-  "title": "Risk Specialist",
-  "url": "https://boards.greenhouse.io/robinhood/jobs/8334344?t=gh_src=&gh_jid=8334344",
-  "jobId": "8334344",
+  "timeStamp": "2026-11-02T18:29:28Z",
+  "title": "Senior AI Operations Engineer, Enterprise Tech",
+  "url": "https://boards.greenhouse.io/robinhood/jobs/8348038?t=gh_src=&gh_jid=8348038",
+  "jobId": "8348038",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1860649197172, 'matchScore': 0, 'ageScore': 0.9860649197172068, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1848075417851, 'matchScore': 0, 'ageScore': 0.984807541785108, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

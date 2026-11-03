@@ -1,9 +1,9 @@
 {
  "board": "ivp",
- "run": "2026-11-02T23:56:18Z",
+ "run": "2026-11-03T06:59:50Z",
  "homepage": {
   "status": 200,
-  "bytes": 19513
+  "bytes": 19666
  },
  "slugs_tried": [
   "ivp"
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"},\"server\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"114f317c4eda09252c2ff0797e363f6458d234d5\",\"date\":\"2026-11-03T01:22:13.592Z\"},\"server\":{\"git\":\"114f317c4eda09252c2ff0797e363f6458d234d5\",\"date\":\"2026-11-03T01:22:13.592Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ZSBMOSUGRR\u2026",
+  "session.sig": "h36MgH446_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzY3ZWZkZTlhYTgyZjkyYzM5OTczNGIyYzk2OTlmNjgiLCAic2NvcmUiOiAxLjAzODY3MTEyNzI1MTkyOTF9"
+   "sequence": "eyJfaWQiOiAiNTk0MjNmNzBiMjliNWU2MjkyOTU3MjY1NDlmM2MxYmMiLCAic2NvcmUiOiAxLjA2NDY5OTQ0ODM5MjM2MX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -128,136 +128,132 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5469367008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 5681,
+  "applyUrl": "https://job-boards.greenhouse.io/tanium/jobs/8335155",
+  "companyDomain": "tanium.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/38a2ddacf8fb8022ac3d42ce259850cf_288_160?Expires=1861920000&Signature=ANr5jzdvXbfnCoUmdkkPc9ZG55N8dFXGEYrxyoIzBWmIjfODm56ph",
+  "companyId": "Tanium",
+  "companySlug": "tanium",
+  "companyName": "Tanium",
+  "companyStaffCount": 2365,
   "considerHosted": false,
   "departments": [
-   "Compute"
+   "SLED"
   ],
-  "jobTypes": [],
+  "jobTypes": [
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   }
+  ],
   "jobFunctions": [],
   "locations": [
-   "London, UK"
+   "Remote, US"
   ],
   "normalizedLocations": [
    {
-    "id": "London, Greater London, United Kingdom",
-    "label": "London",
-    "value": "London, Greater London, United Kingdom"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 1, 'maxValue': 1, 'currency': {'label': 'GBP', 'value': 'GBP'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 139000, 'maxValue': 213000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Arena",
-    "label": "Arena",
-    "value": "resume:Arena"
+    "id": "resume:Exceeding Quotas",
+    "label": "Exceeding Quotas",
+    "value": "resume:Exceeding Quotas"
    },
    {
-    "id": "resume:Buck",
-    "label": "Buck",
-    "value": "resume:Buck"
+    "id": "resume:SLED",
+    "label": "SLED",
+    "value": "resume:SLED"
    },
    {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
+    "id": "resume:Field Sales",
+    "label": "Field Sales",
+    "value": "resume:Field Sales"
    },
    {
-    "id": "resume:Garbage Collection",
-    "label": "Garbage Collection",
-    "value": "resume:Garbage Collection"
+    "id": "resume:Sourcing New Business",
+    "label": "Sourcing New Business",
+    "value": "resume:Sourcing New Business"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Arena",
-    "label": "Arena",
-    "value": "resume:Arena"
+    "id": "resume:Exceeding Quotas",
+    "label": "Exceeding Quotas",
+    "value": "resume:Exceeding Quotas"
    },
    {
-    "id": "resume:Buck",
-    "label": "Buck",
-    "value": "resume:Buck"
+    "id": "resume:SLED",
+    "label": "SLED",
+    "value": "resume:SLED"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
+    "id": "resume:Field Sales",
+    "label": "Field Sales",
+    "value": "resume:Field Sales"
    },
    {
-    "id": "resume:Garbage Collection",
-    "label": "Garbage Collection",
-    "value": "resume:Garbage Collection"
+    "id": "resume:Sourcing New Business",
+    "label": "Sourcing New Business",
+    "value": "resume:Sourcing New Business"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Red Teaming",
+    "label": "Red Teaming",
+    "value": "resume:Red Teaming"
    },
    {
-    "id": "resume:Benchmarking",
-    "label": "Benchmarking",
-    "value": "resume:Benchmarking"
+    "id": "resume:Enterprise Sales",
+    "label": "Enterprise Sales",
+    "value": "resume:Enterprise Sales"
    },
    {
-    "id": "resume:Leases",
-    "label": "Leases",
-    "value": "resume:Leases"
+    "id": "resume:Complex Sales",
+    "label": "Complex Sales",
+    "value": "resume:Complex Sales"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
     5,
     6
-   ],
-   [
-    7,
-    8
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
-   },
-   {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -265,44 +261,33 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-11-02T09:07:27Z",
-  "title": "Senior Data Center Pre-Construction and Capacity Delivery Manager, EMEA",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5469367008",
-  "jobId": "5469367008",
-  "remote": false,
+  "timeStamp": "2026-11-02T17:36:54Z",
+  "title": "Director of Strategic Accounts (U.S. Mid-Atlantic Education)",
+  "url": "https://job-boards.greenhouse.io/tanium/jobs/8335155",
+  "jobId": "8335155",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1843898877512, 'matchScore': 0, 'ageScore': 0.9843898877511574, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1830280865328, 'matchScore': 0, 'ageScore': 0.9830280865327932, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "director"
   ],
   "isFeatured": false
  },
