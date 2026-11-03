@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-02T17:14:32Z",
+ "run": "2026-11-02T23:56:18Z",
  "homepage": {
   "status": 200,
   "bytes": 20708
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"3ecdc3c3f8834dd8efcd6c84b47ef14b967e2729\",\"date\":\"2026-10-31T01:39:46.678Z\"},\"server\":{\"git\":\"3ecdc3c3f8834dd8efcd6c84b47ef14b967e2729\",\"date\":\"2026-10-31T01:39:46.678Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"},\"server\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "6xiWD4hGVj\u2026",
+  "session.sig": "D7kR2jkzrI\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNmEwMTFmNGM5ZTM5MTZmMDcyZDQwNTA4ZjU1M2NjMTEiLCAic2NvcmUiOiAxLjAzOTYwNzc5NzY3NzA4MzJ9"
+   "sequence": "eyJfaWQiOiAiY2ZmMjJiNDA2ZGQzNTMxMWFmYzM5OWU4NzMzOGNhMmIiLCAic2NvcmUiOiAxLjAzODE5NDAxMTE2NzgyNH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,7 +152,7 @@
    "consultant",
    "contractor",
    "departments",
-   "educationRequirements",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
@@ -163,131 +163,138 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consultant---Defense---Security---IT-Controls---Campus-2027_46116-1",
-  "companyDomain": "guidehouse.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8bc0bb4bf4e114d6038755ebfb6d5f24_320_160?Expires=1861920000&Signature=pCmxuJlEyug4URyLV8ZDc4EssRYCvClteAtfAIJfQavWlUAl68jVh",
-  "companyId": "Guidehouse",
-  "companySlug": "guidehouse",
-  "companyName": "Guidehouse",
-  "companyStaffCount": 15958,
+  "applyUrl": "https://jobs.ashbyhq.com/socure/425210d6-1f00-436a-8780-c07afc797989?utm_source=jobs.baincapitalventures.com",
+  "companyDomain": "socure.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c0d33f3df500d682f382b9e6d4ba2daa_256_160?Expires=1861920000&Signature=DdPbsJ22-Qfx24rJ8EQ5Cpyx0mvvSLvkwBACZmk29zHjNuOR~hQgU",
+  "companyId": "Socure",
+  "companySlug": "socure",
+  "companyName": "Socure",
+  "companyStaffCount": 690,
   "considerHosted": false,
-  "departments": [],
-  "educationRequirements": [
-   {
-    "degree": {
-     "id": "Bachelors",
-     "label": "Bachelors",
-     "value": "Bachelors"
-    }
-   }
+  "departments": [
+   "Commercial"
   ],
   "jobTypes": [
    {
-    "id": "it-engineer",
-    "label": "IT Support Engineer",
-    "value": "it-engineer"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    },
    {
-    "id": "consultant",
-    "label": "Consultant",
-    "value": "consultant"
+    "id": "business-development",
+    "label": "Business Development Professional",
+    "value": "business-development"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Consulting",
-    "label": "Consulting",
-    "value": "Consulting"
+    "id": "Business Development",
+    "label": "Business Development",
+    "value": "Business Development"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   " VA, McLean, US ",
-   "United States of America"
+   "Incline Village, Nevada, United States",
+   "Remote - USA"
   ],
   "normalizedLocations": [
+   {
+    "id": "Incline Village, Nevada",
+    "label": "Incline Village, Nevada",
+    "value": "Incline Village, Nevada"
+   },
    {
     "id": "United States",
     "label": "United States",
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 56000, 'maxValue': 94000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Fraud",
+    "label": "Fraud",
+    "value": "resume:Fraud"
    },
    {
-    "id": "resume:Vulnerability Management",
-    "label": "Vulnerability Management",
-    "value": "resume:Vulnerability Management"
+    "id": "resume:Deal Registration",
+    "label": "Deal Registration",
+    "value": "resume:Deal Registration"
    },
    {
-    "id": "resume:Financial Systems",
-    "label": "Financial Systems",
-    "value": "resume:Financial Systems"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Federal Government",
-    "label": "Federal Government",
-    "value": "resume:Federal Government"
+    "id": "resume:Partner Management",
+    "label": "Partner Management",
+    "value": "resume:Partner Management"
    },
    {
-    "id": "resume:Unix",
-    "label": "Unix",
-    "value": "resume:Unix"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Fraud",
+    "label": "Fraud",
+    "value": "resume:Fraud"
    },
    {
-    "id": "resume:Vulnerability Management",
-    "label": "Vulnerability Management",
-    "value": "resume:Vulnerability Management"
+    "id": "resume:Deal Registration",
+    "label": "Deal Registration",
+    "value": "resume:Deal Registration"
    },
    {
-    "id": "resume:Financial Systems",
-    "label": "Financial Systems",
-    "value": "resume:Financial Systems"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Federal Government",
-    "label": "Federal Government",
-    "value": "resume:Federal Government"
+    "id": "resume:Partner Management",
+    "label": "Partner Management",
+    "value": "resume:Partner Management"
    },
    {
-    "id": "resume:Unix",
-    "label": "Unix",
-    "value": "resume:Unix"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Oracle SQL Developer",
-    "label": "Oracle SQL Developer",
-    "value": "resume:Oracle SQL Developer"
+    "id": "resume:Strategic Alliances",
+    "label": "Strategic Alliances",
+    "value": "resume:Strategic Alliances"
    },
    {
-    "id": "resume:NIST",
-    "label": "NIST",
-    "value": "resume:NIST"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    }
   ],
-  "manager": false,
-  "consultant": true,
+  "manager": true,
+  "consultant": false,
   "contractor": false,
-  "considerLevels": [],
-  "minYearsExp": 0,
+  "considerLevels": [
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
    {
     "id": "North America",
@@ -297,44 +304,54 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Business Services",
-    "label": "Business Services",
-    "value": "Business Services"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Management Consulting",
-    "label": "Management Consulting",
-    "value": "Management Consulting"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-11-01T00:00:00Z",
-  "title": "Consultant - Defense & Security - IT Controls - Campus 2027",
-  "url": "https://guidehouse.wd1.myworkdayjobs.com/External/job/US---VA-McLean/Consultant---Defense---Security---IT-Controls---Campus-2027_46116-1",
-  "jobId": "91d693984f491000894c0ce6be1b0000",
-  "remote": false,
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
+   },
+   {
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
+   },
+   {
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
+   }
+  ],
+  "timeStamp": "2026-11-02T00:00:00Z",
+  "title": "Strategic Alliance Director",
+  "url": "https://jobs.ashbyhq.com/socure/425210d6-1f00-436a-8780-c07afc797989",
+  "jobId": "425210d6-1f00-436a-8780-c07afc797989",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1460175020884, 'matchScore': 0, 'ageScore': 0.9460175020883488, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1720360060903, 'matchScore': 0, 'ageScore': 0.9720360060902777, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "junior"
+   "director"
   ],
-  "isFeatured": false,
-  "llmFeatures": "{'summary': \"This entry-level consulting role supports federal Defense & Security clients with IT risk and controls assessments, remediation, and related support. The consultant will perform technical"
+  "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"

@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-02T17:14:32Z",
+ "run": "2026-11-02T23:56:18Z",
  "homepage": {
   "status": 200,
   "bytes": 20232
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"3ecdc3c3f8834dd8efcd6c84b47ef14b967e2729\",\"date\":\"2026-10-31T01:39:46.678Z\"},\"server\":{\"git\":\"3ecdc3c3f8834dd8efcd6c84b47ef14b967e2729\",\"date\":\"2026-10-31T01:39:46.678Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"},\"server\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "F-pjF708_j\u2026",
+  "session.sig": "StfKuaSy9r\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzMyN2VlMWFkOTM0NzNkZGM0ODgwMzVhYjk3MTIzMmYiLCAic2NvcmUiOiAxLjA2NjY1MjMzODY1NjI1fQ=="
+   "sequence": "eyJfaWQiOiAiZmNjZWJiYTBiMzE0NjVmY2QyMWI0ZjA4ZTIwMmNiMDIiLCAic2NvcmUiOiAxLjA3MTIwOTg4NzU5MzM2NDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,92 +144,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/clipboard/09b687bd-a7a9-479f-80cc-8b460eb4d99a?utm_source=jobs.sequoiacap.com",
-  "companyDomain": "clipboardhealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/52bfbf89e4ba0a209548f8bc7a223d8c_288_160?Expires=1861920000&Signature=U2-k4NkDeSp03VTizlnAIygjCq-Y9nd1HfoLOnP0AFKBClc5vZOx2",
-  "companyId": "Clipboard Health",
-  "companySlug": "clipboard-health",
-  "companyName": "Clipboard Health",
-  "companyStaffCount": 3520,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8926159002?gh_jid=8926159002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "General"
+   "Security - Vandenberg"
   ],
   "jobTypes": [
    {
-    "id": "manager-events",
-    "label": "Events Manager",
-    "value": "manager-events"
+    "id": "hardware-engineer",
+    "label": "Hardware Engineer",
+    "value": "hardware-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "San Francisco, California, United States",
-   "Hybrid (San Francisco, CA)"
+   "Vandenberg, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 95000, 'maxValue': 130000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Maintenance & Repair",
-    "label": "Maintenance & Repair",
-    "value": "resume:Maintenance & Repair"
+    "id": "resume:Lenel",
+    "label": "Lenel",
+    "value": "resume:Lenel"
    },
    {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
+    "id": "resume:Physical Security",
+    "label": "Physical Security",
+    "value": "resume:Physical Security"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:Long-Term Care",
-    "label": "Long-Term Care",
-    "value": "resume:Long-Term Care"
+    "id": "resume:DoD",
+    "label": "DoD",
+    "value": "resume:DoD"
+   },
+   {
+    "id": "resume:Aviation",
+    "label": "Aviation",
+    "value": "resume:Aviation"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Maintenance & Repair",
-    "label": "Maintenance & Repair",
-    "value": "resume:Maintenance & Repair"
+    "id": "resume:Lenel",
+    "label": "Lenel",
+    "value": "resume:Lenel"
    },
    {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
+    "id": "resume:Physical Security",
+    "label": "Physical Security",
+    "value": "resume:Physical Security"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Long-Term Care",
-    "label": "Long-Term Care",
-    "value": "resume:Long-Term Care"
+    "id": "resume:DoD",
+    "label": "DoD",
+    "value": "resume:DoD"
+   },
+   {
+    "id": "resume:Aviation",
+    "label": "Aviation",
+    "value": "resume:Aviation"
+   },
+   {
+    "id": "resume:Access Control",
+    "label": "Access Control",
+    "value": "resume:Access Control"
+   },
+   {
+    "id": "resume:Staff Management",
+    "label": "Staff Management",
+    "value": "resume:Staff Management"
+   },
+   {
+    "id": "resume:Visio",
+    "label": "Visio",
+    "value": "resume:Visio"
    }
   ],
   "manager": false,
@@ -237,15 +267,21 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
+  "minYearsExp": 3,
   "regions": [
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
@@ -255,11 +291,6 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
@@ -267,39 +298,38 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-11-02T00:00:00Z",
-  "title": "Office and Events Manager",
-  "url": "https://jobs.ashbyhq.com/clipboard/09b687bd-a7a9-479f-80cc-8b460eb4d99a",
-  "jobId": "09b687bd-a7a9-479f-80cc-8b460eb4d99a",
+  "timeStamp": "2026-11-02T09:52:12Z",
+  "title": "Sr. Physical Security Hardware Specialist",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8926159002?gh_jid=8926159002",
+  "jobId": "8926159002",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1598727572642, 'matchScore': 0, 'ageScore': 0.9798727572642747, 'richnessScore': 1.8}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1855775814248, 'matchScore': 0, 'ageScore': 0.9855775814247685, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "senior"
   ],
   "isFeatured": false
  },

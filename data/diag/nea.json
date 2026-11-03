@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-11-02T17:14:32Z",
+ "run": "2026-11-02T23:56:18Z",
  "homepage": {
   "status": 200,
   "bytes": 20603
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"3ecdc3c3f8834dd8efcd6c84b47ef14b967e2729\",\"date\":\"2026-10-31T01:39:46.678Z\"},\"server\":{\"git\":\"3ecdc3c3f8834dd8efcd6c84b47ef14b967e2729\",\"date\":\"2026-10-31T01:39:46.678Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"},\"server\":{\"git\":\"61d5c44c216de93558e6f4e3209e88057ca936cb\",\"date\":\"2026-11-02T17:59:59.873Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "xrDifj57nz\u2026",
+  "session.sig": "g4Mbq9bD4Z\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzcyNWZkYmI5YjA5NDg3YjlmZjM0NDhiZGZmYjUzZDgiLCAic2NvcmUiOiAxLjA2OTk2Mzk4MjYwODc5NjN9"
+   "sequence": "eyJfaWQiOiAiNGM4MWUyOTRkZGVhNWZkMTVkZjIwMjNjNjFiNjE4ZDAiLCAic2NvcmUiOiAxLjA2OTUyOTU0ODMyMTc1OTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,133 +136,128 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/plaid/8d8378cf-edf2-4c86-afcc-49df91ece2e4?utm_source=careers.nea.com",
-  "companyDomain": "plaid.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/78d9a9b92e908221047c49e96457d95c_232_160?Expires=1861920000&Signature=DSr6q-uZW5klFb6WrasPyJLIcHR0eryRofJrSwXKweDLMWrDixU0z",
-  "companyId": "Plaid",
-  "companySlug": "plaid",
-  "companyName": "Plaid",
-  "companyStaffCount": 2484,
+  "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8334344?t=gh_src=&gh_jid=8334344",
+  "companyDomain": "robinhood.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a7f9760e316e94a76b4e2c5c6337d5a6_288_160?Expires=1861920000&Signature=mZQkCJ5Bp88JcFNaatMwUGHk4hZDC1ArvjUF0p4CWPQVmj3GTpnbw",
+  "companyId": "Robinhood",
+  "companySlug": "robinhood",
+  "companyName": "Robinhood",
+  "companyStaffCount": 4837,
   "considerHosted": false,
   "departments": [
-   "Data"
+   "Crypto Operations"
   ],
   "jobTypes": [
    {
-    "id": "data-scientist",
-    "label": "Data Scientist",
-    "value": "data-scientist"
-   },
-   {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
-   },
-   {
-    "id": "machine-learning-engineer",
-    "label": "Machine Learning Engineer",
-    "value": "machine-learning-engineer"
+    "id": "compliance-risk",
+    "label": "Risk & Compliance Manager",
+    "value": "compliance-risk"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Auditing",
+    "label": "Auditing",
+    "value": "Auditing"
    }
   ],
   "locations": [
-   "New York, New York, United States",
-   "New York City Office"
+   "Menlo Park, CA",
+   "New York, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Menlo Park, California",
+    "label": "Menlo Park, California",
+    "value": "Menlo Park, California"
+   },
+   {
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 211680, 'maxValue': 272160, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 73000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
-   },
-   {
-    "id": "resume:Data Infrastructure",
-    "label": "Data Infrastructure",
-    "value": "resume:Data Infrastructure"
-   },
    {
     "id": "resume:Financial technology",
     "label": "Financial technology",
     "value": "resume:Financial technology"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Root Cause Analysis",
+    "label": "Root Cause Analysis",
+    "value": "resume:Root Cause Analysis"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Ontologies",
+    "label": "Ontologies",
+    "value": "resume:Ontologies"
+   },
+   {
+    "id": "resume:Business Continuity",
+    "label": "Business Continuity",
+    "value": "resume:Business Continuity"
+   },
+   {
+    "id": "resume:Risk Management",
+    "label": "Risk Management",
+    "value": "resume:Risk Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Distributed Systems",
-    "label": "Distributed Systems",
-    "value": "resume:Distributed Systems"
-   },
-   {
-    "id": "resume:Data Infrastructure",
-    "label": "Data Infrastructure",
-    "value": "resume:Data Infrastructure"
-   },
-   {
     "id": "resume:Financial technology",
     "label": "Financial technology",
     "value": "resume:Financial technology"
+   },
+   {
+    "id": "resume:Root Cause Analysis",
+    "label": "Root Cause Analysis",
+    "value": "resume:Root Cause Analysis"
+   },
+   {
+    "id": "resume:Ontologies",
+    "label": "Ontologies",
+    "value": "resume:Ontologies"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Business Continuity",
+    "label": "Business Continuity",
+    "value": "resume:Business Continuity"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Risk Management",
+    "label": "Risk Management",
+    "value": "resume:Risk Management"
    },
    {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Underwriting",
-    "label": "Underwriting",
-    "value": "resume:Underwriting"
+    "id": "resume:Disaster Recovery",
+    "label": "Disaster Recovery",
+    "value": "resume:Disaster Recovery"
    },
    {
-    "id": "resume:Jupyter Notebook",
-    "label": "Jupyter Notebook",
-    "value": "resume:Jupyter Notebook"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    }
   ],
   "manager": false,
@@ -270,15 +265,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 5,
   "regions": [
    {
     "id": "Mid Atlantic",
@@ -286,9 +281,9 @@
     "value": "Mid Atlantic"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "Northeast",
@@ -296,9 +291,14 @@
     "value": "Northeast"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -306,27 +306,28 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Public",
+    "label": "Public",
+    "value": "Public"
    }
   ],
+  "fundingLV": "{'id': 'Public', 'label': 'Public', 'value': 'Public'}",
   "markets": [
    {
     "id": "Fintech",
     "label": "FinTech",
     "value": "Fintech"
-   },
-   {
-    "id": "Security",
-    "label": "Security",
-    "value": "Security"
    }
   ],
-  "timeStamp": "2026-11-02T00:00:00Z",
-  "title": "Machine Learning Engineer - Lendscore",
-  "url": "https://jobs.ashbyhq.com/plaid/8d8378cf-edf2-4c86-afcc-49df91ece2e4",
-  "jobId": "8d8378cf-edf2-4c86-afcc-49df91ece2e4",
+  "timeStamp": "2026-11-02T10:23:36Z",
+  "title": "Risk Specialist",
+  "url": "https://boards.greenhouse.io/robinhood/jobs/8334344?t=gh_src=&gh_jid=8334344",
+  "jobId": "8334344",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1796431007642, 'matchScore': 0, 'ageScore': 0.9796431007642747, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1860649197172, 'matchScore': 0, 'ageScore': 0.9860649197172068, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
