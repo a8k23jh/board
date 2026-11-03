@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-03T06:59:50Z",
+ "run": "2026-11-03T15:20:50Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ayX9hLzpT1\u2026",
+  "session.sig": "OKjjgIQvPw\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjViNzAyOTc4MjcyMTU0NGYzNWJlODMyMzY3MDUwODIiLCAic2NvcmUiOiAxLjA1OTA2MTM4OTY1ODU2NDh9"
+   "sequence": "eyJfaWQiOiAiMzU0NzhhYzgwYTVhNjJlZDQ1ZDk5YWY0NjFlMWY1ZGUiLCAic2NvcmUiOiAxLjA2MTc3MDA3MTEwMDY5NDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,20 +163,27 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0ec91009-ea18-462b-8742-ee7f8eaaca1c&ccId=19000101_000001&source=CC2&lang=en_US&jobId=599792",
-  "companyDomain": "seismictx.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2031dcaaa1d94ee77c020180ad390794_256_160?Expires=1861920000&Signature=I-sNI2sHk84gykLbWFlamTBf5PHget7yIroEdsDf3xbdfvjfxT7u2",
-  "companyId": "Seismic Therapeutic",
-  "companySlug": "seismic-therapeutic",
-  "companyName": "Seismic Therapeutic",
-  "companyStaffCount": 55,
+  "applyUrl": "https://jobs.ashbyhq.com/ramp/d8925f84-562f-470c-a5bd-4f6c20009361?utm_source=jobs.bvp.com",
+  "companyDomain": "ramp.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2d7237f451ba546eda10ef39996ea406_208_160?Expires=1861920000&Signature=jyt4qwdrX1siWldM1FTld1tW~QIIfQnJx9u~AZ7-vH-ZczFAKh2Fw",
+  "companyId": "Ramp",
+  "companySlug": "ramp",
+  "companyName": "Ramp",
+  "companyStaffCount": 12108,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Engineering"
+  ],
   "jobTypes": [
    {
-    "id": "biotech-scientist",
-    "label": "Scientist",
-    "value": "biotech-scientist"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
+   },
+   {
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
    }
   ],
   "jobFunctions": [
@@ -184,73 +191,90 @@
     "id": "Science",
     "label": "Science",
     "value": "Science"
+   },
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   " Watertown, MA, US"
+   "New York City, NY, USA",
+   "New York, NY (HQ)",
+   "San Francisco, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Massachusetts",
-    "label": "Massachusetts",
-    "value": "Massachusetts"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
+   {
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 95000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 204400, 'maxValue': 352000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:In Vitro",
-    "label": "In Vitro",
-    "value": "resume:In Vitro"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Dosing",
-    "label": "Dosing",
-    "value": "resume:Dosing"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:in vivo pharmacology",
-    "label": "in vivo pharmacology",
-    "value": "resume:in vivo pharmacology"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Flow Cytometry",
-    "label": "Flow Cytometry",
-    "value": "resume:Flow Cytometry"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:ELISA",
-    "label": "ELISA",
-    "value": "resume:ELISA"
+    "id": "resume:Month End Close",
+    "label": "Month End Close",
+    "value": "resume:Month End Close"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:In Vitro",
-    "label": "In Vitro",
-    "value": "resume:In Vitro"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Dosing",
-    "label": "Dosing",
-    "value": "resume:Dosing"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:in vivo pharmacology",
-    "label": "in vivo pharmacology",
-    "value": "resume:in vivo pharmacology"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Flow Cytometry",
-    "label": "Flow Cytometry",
-    "value": "resume:Flow Cytometry"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:ELISA",
-    "label": "ELISA",
-    "value": "resume:ELISA"
+    "id": "resume:Month End Close",
+    "label": "Month End Close",
+    "value": "resume:Month End Close"
    },
    {
     "id": "resume:Research",
@@ -258,34 +282,30 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:Clinical Monitoring",
-    "label": "Clinical Monitoring",
-    "value": "resume:Clinical Monitoring"
+    "id": "resume:Benchmarking",
+    "label": "Benchmarking",
+    "value": "resume:Benchmarking"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
+  "considerLevels": [],
   "regions": [
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Northeast",
@@ -293,16 +313,16 @@
     "value": "Northeast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -313,29 +333,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Biotech/Pharma",
-    "label": "Biotech/Pharma",
-    "value": "Biotech/Pharma"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-11-02T22:16:00Z",
-  "title": "Senior Associate Scientist",
-  "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0ec91009-ea18-462b-8742-ee7f8eaaca1c&ccId=19000101_000001&source=CC2&lang=en_US&jobId=599792",
-  "jobId": "599792",
+  "timeStamp": "2026-11-03T00:00:00Z",
+  "title": "Research Engineer, Benchmarks & Evaluation",
+  "url": "https://jobs.ashbyhq.com/ramp/d8925f84-562f-470c-a5bd-4f6c20009361",
+  "jobId": "d8925f84-562f-470c-a5bd-4f6c20009361",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1899873831281, 'matchScore': 0, 'ageScore': 0.9899873831280864, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1838707750475, 'matchScore': 0, 'ageScore': 0.9838707750474537, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },

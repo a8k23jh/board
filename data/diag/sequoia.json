@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-03T06:59:50Z",
+ "run": "2026-11-03T15:20:50Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "kbfiIEOn2W\u2026",
+  "session.sig": "o4JryZmRAK\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDk0OGZkZTgzYzIwYjU0ZGFlMGI2OTgxNjQ0Yzc4MzciLCAic2NvcmUiOiAxLjA5MjA4OTYwNTI3MDA2MTd9"
+   "sequence": "eyJfaWQiOiAiYzI4YzAzZjU2YmE3NTZiZjNhZjFhMzkyMGMyODJmNDciLCAic2NvcmUiOiAxLjE1MDc4MTU2NzIxMjk2Mjl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -166,26 +166,26 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   },
-   {
     "id": "coordinator",
     "label": "Coordinator",
     "value": "coordinator"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   },
-   {
     "id": "Administrative",
     "label": "Administrative",
     "value": "Administrative"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
@@ -201,59 +201,32 @@
   "salary": "{'period': {'label': 'Month', 'value': 'month'}, 'minValue': 4500, 'maxValue': 5000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
+   },
+   {
     "id": "resume:Marketing",
     "label": "Marketing",
     "value": "resume:Marketing"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    },
    {
-    "id": "resume:Online Gaming",
-    "label": "Online Gaming",
-    "value": "resume:Online Gaming"
-   },
-   {
-    "id": "resume:Client Relations",
-    "label": "Client Relations",
-    "value": "resume:Client Relations"
-   },
-   {
-    "id": "resume:YouTube",
-    "label": "YouTube",
-    "value": "resume:YouTube"
+    "id": "resume:Digital Media",
+    "label": "Digital Media",
+    "value": "resume:Digital Media"
    }
   ],
   "requiredSkills": [
-   {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   },
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
-   },
-   {
-    "id": "resume:Online Gaming",
-    "label": "Online Gaming",
-    "value": "resume:Online Gaming"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Client Relations",
-    "label": "Client Relations",
-    "value": "resume:Client Relations"
-   },
-   {
-    "id": "resume:YouTube",
-    "label": "YouTube",
-    "value": "resume:YouTube"
-   },
    {
     "id": "resume:Attention to Detail",
     "label": "Attention to Detail",
@@ -265,9 +238,36 @@
     "value": "resume:Jira"
    },
    {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   }
+  ],
+  "preferredSkills": [
+   {
     "id": "resume:Strategic Partnerships",
     "label": "Strategic Partnerships",
     "value": "resume:Strategic Partnerships"
+   },
+   {
+    "id": "resume:Digital Media",
+    "label": "Digital Media",
+    "value": "resume:Digital Media"
+   },
+   {
+    "id": "resume:Discord",
+    "label": "Discord",
+    "value": "resume:Discord"
+   },
+   {
+    "id": "resume:Online Gaming",
+    "label": "Online Gaming",
+    "value": "resume:Online Gaming"
+   },
+   {
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
    }
   ],
   "manager": false,
@@ -327,7 +327,7 @@
   "jobId": "747739",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1970264336154, 'matchScore': 0, 'ageScore': 0.9970264336153549, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1891095127681, 'matchScore': 0, 'ageScore': 0.9891095127681327, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
