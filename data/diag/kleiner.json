@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-11-03T21:09:37Z",
+ "run": "2026-11-04T01:29:25Z",
  "homepage": {
   "status": 200,
   "bytes": 19528
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "3m6urtbZxr\u2026",
+  "session.sig": "OjQ6E78CYZ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGM4YjUzMzFkYWI5MmNkODZiNDg3NTVlOTg2N2UxOTkiLCAic2NvcmUiOiAxLjA0Mjg0MTY2NDMxMTcyODR9"
+   "sequence": "eyJfaWQiOiAiZjNmOGMxMDBiMjc4OGJkZTIyZWVlY2E3YmQxMjY0OGUiLCAic2NvcmUiOiAxLjA1OTk2MTgyMTgzNDEwNX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/CesiumAstro/d296af98-6dc2-472f-a062-07d051b09743?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "applyUrl": "https://jobs.lever.co/CesiumAstro/bce25e6e-7666-457c-82ae-4940219b25ec?lever-source%5B%5D=jobs.kleinerperkins.com",
   "companyDomain": "cesiumastro.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
   "companyId": "CesiumAstro",
@@ -168,9 +168,9 @@
   ],
   "jobTypes": [
    {
-    "id": "electrical-engineer",
-    "label": "Electrical Engineer",
-    "value": "electrical-engineer"
+    "id": "qa-engineer",
+    "label": "QA Engineer",
+    "value": "qa-engineer"
    }
   ],
   "jobFunctions": [
@@ -181,21 +181,31 @@
    }
   ],
   "locations": [
-   "El Segundo, CA"
+   "Westminster, CO"
   ],
   "normalizedLocations": [
    {
-    "id": "El Segundo, California",
-    "label": "El Segundo, California",
-    "value": "El Segundo, California"
+    "id": "Westminster, Colorado",
+    "label": "Westminster, Colorado",
+    "value": "Westminster, Colorado"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 168000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 134000, 'maxValue': 161000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
     "id": "resume:Spacecraft",
@@ -203,63 +213,53 @@
     "value": "resume:Spacecraft"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
-   },
-   {
-    "id": "resume:Budgeting",
-    "label": "Budgeting",
-    "value": "resume:Budgeting"
-   },
-   {
-    "id": "resume:System Design",
-    "label": "System Design",
-    "value": "resume:System Design"
+    "id": "resume:Proposal Writing",
+    "label": "Proposal Writing",
+    "value": "resume:Proposal Writing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Spacecraft",
     "label": "Spacecraft",
     "value": "resume:Spacecraft"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Budgeting",
-    "label": "Budgeting",
-    "value": "resume:Budgeting"
+    "id": "resume:Proposal Writing",
+    "label": "Proposal Writing",
+    "value": "resume:Proposal Writing"
    },
    {
-    "id": "resume:System Design",
-    "label": "System Design",
-    "value": "resume:System Design"
+    "id": "resume:Hardware Testing",
+    "label": "Hardware Testing",
+    "value": "resume:Hardware Testing"
+   },
+   {
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
     "id": "resume:Department of State",
     "label": "Department of State",
     "value": "resume:Department of State"
-   },
-   {
-    "id": "resume:Processors",
-    "label": "Processors",
-    "value": "resume:Processors"
-   },
-   {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
    }
   ],
   "manager": false,
@@ -281,16 +281,6 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -318,13 +308,13 @@
     "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-11-03T14:00:23.903000Z",
-  "title": "Senior Electrical Engineer \u2013 Satellite C&DH Subsystem - $10K Sign On Bonus",
-  "url": "https://jobs.lever.co/CesiumAstro/d296af98-6dc2-472f-a062-07d051b09743",
-  "jobId": "d296af98-6dc2-472f-a062-07d051b09743",
+  "timeStamp": "2026-11-03T20:55:19.405000Z",
+  "title": "Senior RF Test Engineer",
+  "url": "https://jobs.lever.co/CesiumAstro/bce25e6e-7666-457c-82ae-4940219b25ec",
+  "jobId": "bce25e6e-7666-457c-82ae-4940219b25ec",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.19557004098, 'matchScore': 0, 'ageScore': 0.9955700409799383, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1969365756215, 'matchScore': 0, 'ageScore': 0.9969365756215278, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
