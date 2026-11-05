@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-04T23:47:04Z",
+ "run": "2026-11-05T07:01:38Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "bmDjClWwed\u2026",
+  "session.sig": "HK3MRLcHRH\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNjAxZGQxMDczMWE5NmM3ZmI5ZDk3MjFjM2RlNDg5YTgiLCAic2NvcmUiOiAxLjA4NzY4NzIwODA2MDE4NTJ9"
+   "sequence": "eyJfaWQiOiAiZDI1MzE1MDA5YzMzZWQ2ZGY2ZTRmYzgwZGNjYmQxN2UiLCAic2NvcmUiOiAxLjExNzMxMzg2MDgzNDg3NjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,51 +152,47 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/team8/61.003/team8-stealth-cyber-startup--sales-development-representative/9C.47D",
-  "companyDomain": "team8.vc",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/eaa5ec79953387a25c32d64551c08458_240_160?Expires=1861920000&Signature=GDh-VRQzyAVIhLxE~mmbrwHXwXgvm3rt5p0q1ymkNAuZ4FnCHGMpk",
-  "companyId": "Team8",
-  "companySlug": "team8",
-  "companyName": "Team8",
-  "companyStaffCount": 289,
+  "applyUrl": "https://jobs.lever.co/cents/58134bb8-05f1-4d70-8ad9-581a0cfc046a?lever-source%5B%5D=jobs.bvp.com",
+  "companyDomain": "trycents.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cf88f55dd6065ee58014d353027b5ed1_160_160?Expires=1861920000&Signature=XYtAwUUcOeVhcBKEGdYCtUCDw~dgISFIg6Y~XWPFomL7RHpPCLPGe",
+  "companyId": "Cents",
+  "companySlug": "cents",
+  "companyName": "Cents",
+  "companyStaffCount": 85,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Go-to-Market"
+  ],
   "jobTypes": [
    {
-    "id": "sales-development-rep",
-    "label": "Sales Development Representative",
-    "value": "sales-development-rep"
+    "id": "onboarding-specialist",
+    "label": "Onboarding Specialist",
+    "value": "onboarding-specialist"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "USA Remote"
+   "New York, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 70000, 'maxValue': 75000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
     "id": "resume:CRM",
@@ -204,24 +200,24 @@
     "value": "resume:CRM"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Anchor",
+    "label": "Anchor",
+    "value": "resume:Anchor"
    },
    {
-    "id": "resume:Sales Development",
-    "label": "Sales Development",
-    "value": "resume:Sales Development"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    }
   ],
   "requiredSkills": [
@@ -231,36 +227,41 @@
     "value": "resume:CRM"
    },
    {
-    "id": "resume:Computer Security",
-    "label": "Computer Security",
-    "value": "resume:Computer Security"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Anchor",
+    "label": "Anchor",
+    "value": "resume:Anchor"
    },
    {
-    "id": "resume:Sales Development",
-    "label": "Sales Development",
-    "value": "resume:Sales Development"
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Inside Sales",
+    "label": "Inside Sales",
+    "value": "resume:Inside Sales"
    },
    {
-    "id": "resume:Sales & Marketing",
-    "label": "Sales & Marketing",
-    "value": "resume:Sales & Marketing"
+    "id": "resume:POS",
+    "label": "POS",
+    "value": "resume:POS"
+   },
+   {
+    "id": "resume:Customer Facing Roles",
+    "label": "Customer Facing Roles",
+    "value": "resume:Customer Facing Roles"
    }
   ],
   "manager": false,
@@ -278,32 +279,58 @@
   ],
   "regions": [
    {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Venture Capital & Private Equity",
-    "label": "Venture Capital & Private Equity",
-    "value": "Venture Capital & Private Equity"
+    "id": "Consumer Services",
+    "label": "Consumer Services",
+    "value": "Consumer Services"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-11-04T14:14:26Z",
-  "title": "Team8 Stealth Cyber Startup- Sales Development Representative",
-  "url": "https://www.comeet.com/jobs/team8/61.003/team8-stealth-cyber-startup--sales-development-representative/9C.47D",
-  "jobId": "9C.47D",
-  "remote": true,
+  "timeStamp": "2026-11-04T22:05:22.353000Z",
+  "title": "Onboarding Specialist",
+  "url": "https://jobs.lever.co/cents/58134bb8-05f1-4d70-8ad9-581a0cfc046a",
+  "jobId": "58134bb8-05f1-4d70-8ad9-581a0cfc046a",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1909861156998, 'matchScore': 0, 'ageScore': 0.9909861156998456, 'richnessScore': 2}",
+  "scores": "{'score': 1001.189329708669, 'matchScore': 0, 'ageScore': 0.9893297086689815, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
