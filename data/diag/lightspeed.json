@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-11-05T07:01:38Z",
+ "run": "2026-11-05T15:38:06Z",
  "homepage": {
   "status": 200,
   "bytes": 21354
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "2oOoMt8WnJ\u2026",
+  "session.sig": "GGSYi0i3Co\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzdmZjI0ZmJiM2EwNGU3NDhlNWU1NGViZTRiMmNhNjYiLCAic2NvcmUiOiAxLjE3MTc0MDA3MTUzMTI1fQ=="
+   "sequence": "eyJfaWQiOiAiZmZlZjFhMGNjYWM4MWI5Y2EyZmY4NDI3MTBjNGI5ODkiLCAic2NvcmUiOiAxLjE2NTYyNTc5MDIwODcxOTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8294/",
+  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8289/",
   "companyDomain": "infoblox.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
   "companyId": "Infoblox",
@@ -166,14 +166,19 @@
   "departments": [],
   "jobTypes": [
    {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
+   },
+   {
     "id": "sales",
     "label": "Sales",
     "value": "sales"
    },
    {
-    "id": "major-account-executive",
-    "label": "Major Account Executive",
-    "value": "major-account-executive"
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
    }
   ],
   "jobFunctions": [
@@ -184,9 +189,8 @@
    }
   ],
   "locations": [
-   "California, United States",
-   "Santa Clara, California, United States",
-   "Home Office, Sacramento, CA, US"
+   "BC, Canada",
+   "Home Office, Victoria, CA"
   ],
   "normalizedLocations": [
    {
@@ -195,22 +199,17 @@
     "value": "California"
    },
    {
-    "id": "Sacramento, California",
-    "label": "Sacramento, California",
-    "value": "Sacramento, California"
-   },
-   {
-    "id": "Santa Clara, California",
-    "label": "Santa Clara, California",
-    "value": "Santa Clara, California"
+    "id": "Canada",
+    "label": "Canada",
+    "value": "Canada"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:ROI",
-    "label": "ROI",
-    "value": "resume:ROI"
+    "id": "resume:Field Marketing",
+    "label": "Field Marketing",
+    "value": "resume:Field Marketing"
    },
    {
     "id": "resume:Machine Learning",
@@ -218,53 +217,9 @@
     "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:ROI",
-    "label": "ROI",
-    "value": "resume:ROI"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   },
-   {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
     "id": "resume:Solution Sales",
@@ -272,9 +227,53 @@
     "value": "resume:Solution Sales"
    },
    {
+    "id": "resume:Solution Architecture",
+    "label": "Solution Architecture",
+    "value": "resume:Solution Architecture"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Field Marketing",
+    "label": "Field Marketing",
+    "value": "resume:Field Marketing"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Solution Sales",
+    "label": "Solution Sales",
+    "value": "resume:Solution Sales"
+   },
+   {
+    "id": "resume:Solution Architecture",
+    "label": "Solution Architecture",
+    "value": "resume:Solution Architecture"
+   },
+   {
+    "id": "resume:ROI",
+    "label": "ROI",
+    "value": "resume:ROI"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -282,25 +281,25 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 8,
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -322,13 +321,13 @@
     "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-11-04T23:58:02Z",
-  "title": "Strategic Account Executive - Bay Area",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8294/",
-  "jobId": "8294",
+  "timeStamp": "2026-11-04T23:58:38Z",
+  "title": "Named Account Executive - Western Canada",
+  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8289/",
+  "jobId": "8289",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1927074463881, 'matchScore': 0, 'ageScore': 0.9927074463881173, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1845249285609, 'matchScore': 0, 'ageScore': 0.9845249285609567, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

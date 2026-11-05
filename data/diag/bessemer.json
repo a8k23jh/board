@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-05T07:01:38Z",
+ "run": "2026-11-05T15:38:06Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "HK3MRLcHRH\u2026",
+  "session.sig": "r5iFvLh6NW\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDI1MzE1MDA5YzMzZWQ2ZGY2ZTRmYzgwZGNjYmQxN2UiLCAic2NvcmUiOiAxLjExNzMxMzg2MDgzNDg3NjV9"
+   "sequence": "eyJfaWQiOiAiYTlhYjk3N2Q4NTgzN2EyMzgxMDI5OGI5OTAwNWU2MjAiLCAic2NvcmUiOiAxLjExMjk4OTM3MjE5NTIxNn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -163,105 +163,127 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/cents/58134bb8-05f1-4d70-8ad9-581a0cfc046a?lever-source%5B%5D=jobs.bvp.com",
-  "companyDomain": "trycents.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cf88f55dd6065ee58014d353027b5ed1_160_160?Expires=1861920000&Signature=XYtAwUUcOeVhcBKEGdYCtUCDw~dgISFIg6Y~XWPFomL7RHpPCLPGe",
-  "companyId": "Cents",
-  "companySlug": "cents",
-  "companyName": "Cents",
-  "companyStaffCount": 85,
+  "applyUrl": "https://jobs.ashbyhq.com/ramp/814edb3c-fa7a-452f-bde6-91daa9ffdd86?utm_source=jobs.bvp.com",
+  "companyDomain": "ramp.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/2d7237f451ba546eda10ef39996ea406_208_160?Expires=1861920000&Signature=jyt4qwdrX1siWldM1FTld1tW~QIIfQnJx9u~AZ7-vH-ZczFAKh2Fw",
+  "companyId": "Ramp",
+  "companySlug": "ramp",
+  "companyName": "Ramp",
+  "companyStaffCount": 12108,
   "considerHosted": false,
   "departments": [
-   "Go-to-Market"
+   "Account Manager"
   ],
   "jobTypes": [
    {
-    "id": "onboarding-specialist",
-    "label": "Onboarding Specialist",
-    "value": "onboarding-specialist"
+    "id": "manager-user-marketing",
+    "label": "Manager, User Acquisition Marketing",
+    "value": "manager-user-marketing"
+   },
+   {
+    "id": "account-manager",
+    "label": "Account Manager",
+    "value": "account-manager"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "New York, NY"
+   "New York City, NY, USA",
+   "New York, NY (HQ)"
   ],
   "normalizedLocations": [
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   },
    {
     "id": "New York",
     "label": "New York",
     "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 70000, 'maxValue': 75000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 247000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Analytics Tools",
+    "label": "Analytics Tools",
+    "value": "resume:Analytics Tools"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Pipeline Generation",
+    "label": "Pipeline Generation",
+    "value": "resume:Pipeline Generation"
    },
    {
-    "id": "resume:Anchor",
-    "label": "Anchor",
-    "value": "resume:Anchor"
+    "id": "resume:Looker",
+    "label": "Looker",
+    "value": "resume:Looker"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Analytics Tools",
+    "label": "Analytics Tools",
+    "value": "resume:Analytics Tools"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Pipeline Generation",
+    "label": "Pipeline Generation",
+    "value": "resume:Pipeline Generation"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Anchor",
-    "label": "Anchor",
-    "value": "resume:Anchor"
+    "id": "resume:Looker",
+    "label": "Looker",
+    "value": "resume:Looker"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Inside Sales",
-    "label": "Inside Sales",
-    "value": "resume:Inside Sales"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
    },
    {
-    "id": "resume:POS",
-    "label": "POS",
-    "value": "resume:POS"
+    "id": "resume:New Business",
+    "label": "New Business",
+    "value": "resume:New Business"
    },
    {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    }
   ],
   "manager": false,
@@ -277,12 +299,8 @@
     4
    ]
   ],
+  "minYearsExp": 2,
   "regions": [
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -297,13 +315,18 @@
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -314,23 +337,18 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Consumer Services",
-    "label": "Consumer Services",
-    "value": "Consumer Services"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-11-04T22:05:22.353000Z",
-  "title": "Onboarding Specialist",
-  "url": "https://jobs.lever.co/cents/58134bb8-05f1-4d70-8ad9-581a0cfc046a",
-  "jobId": "58134bb8-05f1-4d70-8ad9-581a0cfc046a",
+  "timeStamp": "2026-11-05T00:00:00Z",
+  "title": "Manager, Account Manager | Growth",
+  "url": "https://jobs.ashbyhq.com/ramp/814edb3c-fa7a-452f-bde6-91daa9ffdd86",
+  "jobId": "814edb3c-fa7a-452f-bde6-91daa9ffdd86",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.189329708669, 'matchScore': 0, 'ageScore': 0.9893297086689815, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1837463753835, 'matchScore': 0, 'ageScore': 0.9837463753834876, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
