@@ -1,9 +1,9 @@
 {
  "board": "ivp",
- "run": "2026-11-05T15:38:06Z",
+ "run": "2026-11-05T22:07:50Z",
  "homepage": {
   "status": 200,
-  "bytes": 19666
+  "bytes": 19668
  },
  "slugs_tried": [
   "ivp"
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"},\"server\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"8ce384b960b3492f5f08cd958c7319509a1bffa1\",\"date\":\"2026-11-05T20:52:29.333Z\"},\"server\":{\"git\":\"8ce384b960b3492f5f08cd958c7319509a1bffa1\",\"date\":\"2026-11-05T20:52:29.333Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "q6VapdEGcQ\u2026",
+  "session.sig": "LEkSPDSsCp\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWYwYTE4NmNmNTc3YjIwNzllOTg3NGEyMTFkMTU4MTgiLCAic2NvcmUiOiAxLjEzMDYwMDg3NDQ0OTg0NTd9"
+   "sequence": "eyJfaWQiOiAiNWYwYTE4NmNmNTc3YjIwNzllOTg3NGEyMTFkMTU4MTgiLCAic2NvcmUiOiAxLjEyMjU3MDIyOTA4MTc5fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -169,14 +169,14 @@
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   },
-   {
     "id": "Marketing",
     "label": "Marketing",
     "value": "Marketing"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
@@ -193,63 +193,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135000, 'maxValue': 155000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Channel Partners",
-    "label": "Channel Partnership",
-    "value": "resume:Channel Partners"
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
    },
    {
     "id": "resume:Marketing",
     "label": "Marketing",
     "value": "resume:Marketing"
-   },
-   {
-    "id": "resume:Sales Enablement",
-    "label": "Sales Enablement",
-    "value": "resume:Sales Enablement"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Software Industry",
-    "label": "Software Industry",
-    "value": "resume:Software Industry"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Channel Partners",
-    "label": "Channel Partnership",
-    "value": "resume:Channel Partners"
-   },
-   {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   },
-   {
-    "id": "resume:Sales Enablement",
-    "label": "Sales Enablement",
-    "value": "resume:Sales Enablement"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Software Industry",
-    "label": "Software Industry",
-    "value": "resume:Software Industry"
-   },
-   {
-    "id": "resume:Strategic Partnerships",
-    "label": "Strategic Partnerships",
-    "value": "resume:Strategic Partnerships"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -257,9 +208,58 @@
     "value": "resume:Artificial Intelligence"
    },
    {
+    "id": "resume:Content Management",
+    "label": "Content Management",
+    "value": "resume:Content Management"
+   },
+   {
     "id": "resume:Global Teams",
     "label": "Global Teams",
     "value": "resume:Global Teams"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Content Management",
+    "label": "Content Management",
+    "value": "resume:Content Management"
+   },
+   {
+    "id": "resume:Global Teams",
+    "label": "Global Teams",
+    "value": "resume:Global Teams"
+   },
+   {
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
+   },
+   {
+    "id": "resume:Sales Enablement",
+    "label": "Sales Enablement",
+    "value": "resume:Sales Enablement"
+   },
+   {
+    "id": "resume:Channel Partners",
+    "label": "Channel Partnership",
+    "value": "resume:Channel Partners"
    }
   ],
   "manager": false,
@@ -308,7 +308,7 @@
   "jobId": "bdcf793b-9a44-4a01-ad1e-7df34b8a59d3",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1794209809267, 'matchScore': 0, 'ageScore': 0.9794209809266975, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1714258643415, 'matchScore': 0, 'ageScore': 0.9714258643414352, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,9 +1,9 @@
 {
  "board": "felicis",
- "run": "2026-11-05T15:38:06Z",
+ "run": "2026-11-05T22:07:50Z",
  "homepage": {
   "status": 200,
-  "bytes": 25383
+  "bytes": 25385
  },
  "slugs_tried": [
   "felicis",
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"},\"server\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"8ce384b960b3492f5f08cd958c7319509a1bffa1\",\"date\":\"2026-11-05T20:52:29.333Z\"},\"server\":{\"git\":\"8ce384b960b3492f5f08cd958c7319509a1bffa1\",\"date\":\"2026-11-05T20:52:29.333Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "c8u-unY29R\u2026",
+  "session.sig": "y_qQOPPJgN\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDhmMjU2MjIwZjYzNTlmODNiYTE3YWIzY2M1ZmZlNTgiLCAic2NvcmUiOiAxLjExMzA1MTc0NDE0NzM3NjZ9"
+   "sequence": "eyJfaWQiOiAiMGQyMjMzYzE2MzFmOGY1YTJiODVmMTg0ZjBkYzE4NmIiLCAic2NvcmUiOiAxLjEwNDU3Njc2MjM5ODUzMzl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,101 +136,108 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/trueml/0a0bffeb-af3c-4902-bc0a-b1d12aa8b7bf?lever-source%5B%5D=jobs.felicis.com",
-  "companyDomain": "trueaccord.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c9edb03836701b289ad74041dec9066b_304_160?Expires=1861920000&Signature=N2vGIgXWhPMnC49BLkiaI~1SHShOeQaScF051Qr5QPSkH-ybkaEwN",
-  "companyId": "TrueAccord",
-  "companySlug": "trueaccord",
-  "companyName": "TrueAccord",
-  "companyStaffCount": 151,
+  "applyUrl": "https://jobs.ashbyhq.com/plaid/c6d60c71-94f6-4083-a7ab-48a6b8e77f05?utm_source=jobs.felicis.com",
+  "companyDomain": "plaid.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/78d9a9b92e908221047c49e96457d95c_232_160?Expires=1861920000&Signature=DSr6q-uZW5klFb6WrasPyJLIcHR0eryRofJrSwXKweDLMWrDixU0z",
+  "companyId": "Plaid",
+  "companySlug": "plaid",
+  "companyName": "Plaid",
+  "companyStaffCount": 2484,
   "considerHosted": false,
   "departments": [
-   "TrueAccord"
+   "Product Engineering"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "engineering-manager",
+    "label": "Engineering Manager",
+    "value": "engineering-manager"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Remote in USA"
+   "New York, New York, United States",
+   "New York City Office"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 80000, 'maxValue': 100000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 264000, 'maxValue': 400000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:ACH",
+    "label": "ACH",
+    "value": "resume:ACH"
+   },
    {
     "id": "resume:Fraud",
     "label": "Fraud",
     "value": "resume:Fraud"
    },
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
-   },
-   {
-    "id": "resume:Strategic Thinking",
-    "label": "Strategic Thinking",
-    "value": "resume:Strategic Thinking"
-   },
-   {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:ACH",
+    "label": "ACH",
+    "value": "resume:ACH"
+   },
+   {
     "id": "resume:Fraud",
     "label": "Fraud",
     "value": "resume:Fraud"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
-   },
-   {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Strategic Thinking",
-    "label": "Strategic Thinking",
-    "value": "resume:Strategic Thinking"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Finite Automata",
-    "label": "Finite Automata",
-    "value": "resume:Finite Automata"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "manager": true,
@@ -238,71 +245,74 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 10,
   "regions": [
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
     "id": "Fintech",
     "label": "FinTech",
     "value": "Fintech"
+   },
+   {
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
    }
   ],
-  "timeStamp": "2026-11-05T00:25:15.920000Z",
-  "title": "Associate Client Manager",
-  "url": "https://jobs.lever.co/trueml/0a0bffeb-af3c-4902-bc0a-b1d12aa8b7bf",
-  "jobId": "0a0bffeb-af3c-4902-bc0a-b1d12aa8b7bf",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1806139377338, 'matchScore': 0, 'ageScore': 0.9806139377337963, 'richnessScore': 2}",
+  "timeStamp": "2026-11-05T00:00:00Z",
+  "title": "Experienced Engineering Manager, Payments",
+  "url": "https://jobs.ashbyhq.com/plaid/c6d60c71-94f6-4083-a7ab-48a6b8e77f05",
+  "jobId": "c6d60c71-94f6-4083-a7ab-48a6b8e77f05",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1721060705872, 'matchScore': 0, 'ageScore': 0.9721060705871913, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
     "id": "manager",
     "label": "Manager/Senior Manager",
     "value": "manager"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "junior",
-   "manager",
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },

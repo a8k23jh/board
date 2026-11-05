@@ -1,9 +1,9 @@
 {
  "board": "sequoia",
- "run": "2026-11-05T15:38:06Z",
+ "run": "2026-11-05T22:07:50Z",
  "homepage": {
   "status": 200,
-  "bytes": 20385
+  "bytes": 20387
  },
  "slugs_tried": [
   "sequoia-capital",
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"},\"server\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"8ce384b960b3492f5f08cd958c7319509a1bffa1\",\"date\":\"2026-11-05T20:52:29.333Z\"},\"server\":{\"git\":\"8ce384b960b3492f5f08cd958c7319509a1bffa1\",\"date\":\"2026-11-05T20:52:29.333Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "rE4gPkDNEB\u2026",
+  "session.sig": "3dU6YWmiwY\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzFmMDc5NTVkMDEyYWY0OTk2MDA3OTdlNjY1ZTFkZTQiLCAic2NvcmUiOiAxLjE0NTU2OTc0MjQxOTc1M30="
+   "sequence": "eyJfaWQiOiAiM2IxY2MzYTFmZWM4MzJlZmNjZjQ4OGI2NjZiOTkwYmYiLCAic2NvcmUiOiAxLjEzNDE3OTE3MDUzMDg2NDF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,117 +144,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Sierra/b487d632-a99b-469e-b481-9707828f2917?utm_source=jobs.sequoiacap.com",
-  "companyDomain": "sierra.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9ee71e008551f41a7d60220c12a5f491_256_160?Expires=1861920000&Signature=OYnskJXqQ0K-7Sp7wrDxF~XgSdlmgzW9WF5CvSrRd-tot37i7vucZ",
-  "companyId": "Sierra",
-  "companySlug": "sierra",
-  "companyName": "Sierra",
-  "companyStaffCount": 1164,
+  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8349881",
+  "companyDomain": "reddit.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
+  "companyId": "Reddit",
+  "companySlug": "reddit",
+  "companyName": "reddit",
+  "companyStaffCount": 4495,
   "considerHosted": false,
   "departments": [
-   "Workplace"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   }
+  ],
   "locations": [
-   "San Francisco, CA, United States",
-   "San Francisco, CA"
+   "New York City, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 75, 'maxValue': 90, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 159100, 'maxValue': 185600, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Executive Protection",
-    "label": "Executive Protection",
-    "value": "resume:Executive Protection"
+    "id": "resume:Revenue Forecasting",
+    "label": "Revenue Forecasting",
+    "value": "resume:Revenue Forecasting"
    },
    {
-    "id": "resume:Okta",
-    "label": "Okta",
-    "value": "resume:Okta"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Looker",
+    "label": "Looker",
+    "value": "resume:Looker"
    },
    {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
+    "id": "resume:Analytics Tools",
+    "label": "Analytics Tools",
+    "value": "resume:Analytics Tools"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Executive Protection",
-    "label": "Executive Protection",
-    "value": "resume:Executive Protection"
+    "id": "resume:Revenue Forecasting",
+    "label": "Revenue Forecasting",
+    "value": "resume:Revenue Forecasting"
    },
    {
-    "id": "resume:Okta",
-    "label": "Okta",
-    "value": "resume:Okta"
+    "id": "resume:Database Design",
+    "label": "Database Arch/Design",
+    "value": "resume:Database Design"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Looker",
+    "label": "Looker",
+    "value": "resume:Looker"
    },
    {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
+    "id": "resume:Analytics Tools",
+    "label": "Analytics Tools",
+    "value": "resume:Analytics Tools"
    },
    {
-    "id": "resume:Threat Assessment",
-    "label": "Threat Assessment",
-    "value": "resume:Threat Assessment"
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Jira",
+    "label": "Jira",
+    "value": "resume:Jira"
    },
    {
-    "id": "resume:Access Control",
-    "label": "Access Control",
-    "value": "resume:Access Control"
+    "id": "resume:Tableau",
+    "label": "Tableau",
+    "value": "resume:Tableau"
    }
   ],
   "manager": false,
@@ -262,32 +267,35 @@
   "contractor": false,
   "considerLevels": [
    [
-    7,
-    8
+    1,
+    2
    ],
    [
-    9,
-    10,
-    11,
-    12
+    3,
+    4
    ]
   ],
-  "minYearsExp": 18,
+  "minYearsExp": 3,
   "regions": [
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -295,36 +303,30 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
+   },
+   {
+    "id": "Social Networking",
+    "label": "Social Networking",
+    "value": "Social Networking"
    }
   ],
-  "timeStamp": "2026-11-05T00:00:00Z",
-  "title": "Physical Security Lead",
-  "url": "https://jobs.ashbyhq.com/Sierra/b487d632-a99b-469e-b481-9707828f2917",
-  "jobId": "b487d632-a99b-469e-b481-9707828f2917",
+  "timeStamp": "2026-11-05T11:15:52Z",
+  "title": "Business Analyst",
+  "url": "https://job-boards.greenhouse.io/reddit/jobs/8349881",
+  "jobId": "8349881",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1839825476922, 'matchScore': 0, 'ageScore': 0.9839825476921297, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1876195689453, 'matchScore': 0, 'ageScore': 0.9876195689452161, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -332,7 +334,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid"
   ],
   "isFeatured": false

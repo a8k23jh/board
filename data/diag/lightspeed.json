@@ -1,9 +1,9 @@
 {
  "board": "lightspeed",
- "run": "2026-11-05T15:38:06Z",
+ "run": "2026-11-05T22:07:50Z",
  "homepage": {
   "status": 200,
-  "bytes": 21354
+  "bytes": 21356
  },
  "slugs_tried": [
   "lightspeed",
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"},\"server\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"8ce384b960b3492f5f08cd958c7319509a1bffa1\",\"date\":\"2026-11-05T20:52:29.333Z\"},\"server\":{\"git\":\"8ce384b960b3492f5f08cd958c7319509a1bffa1\",\"date\":\"2026-11-05T20:52:29.333Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "GGSYi0i3Co\u2026",
+  "session.sig": "-KYz9NtIU_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZmZlZjFhMGNjYWM4MWI5Y2EyZmY4NDI3MTBjNGI5ODkiLCAic2NvcmUiOiAxLjE2NTYyNTc5MDIwODcxOTN9"
+   "sequence": "eyJfaWQiOiAiY2U0MzdkY2YwZmZhNjdiYWI4NTNiZjNlZjM5MWMxMTkiLCAic2NvcmUiOiAxLjE1NDEzMzQwNDgzOTg5Mn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,136 +144,112 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8289/",
-  "companyDomain": "infoblox.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
-  "companyId": "Infoblox",
-  "companySlug": "infoblox",
-  "companyName": "Infoblox",
-  "companyStaffCount": 3466,
+  "applyUrl": "https://careers.vinted.com/jobs/5020448101?gh_jid=5020448101",
+  "companyDomain": "vinted.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/dbad8e00507381f7334c80ec4762244a_192_160?Expires=1861920000&Signature=ey44G9xKs7RyJsJYnwMY~a5DjFvmPAKGWkndMUWNzgdj0wKKeXv8m",
+  "companyId": "Vinted",
+  "companySlug": "vinted",
+  "companyName": "Vinted",
+  "companyStaffCount": 4398,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "People"
+  ],
   "jobTypes": [
    {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   },
-   {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
+    "id": "human-resources",
+    "label": "HR",
+    "value": "human-resources"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    }
   ],
   "locations": [
-   "BC, Canada",
-   "Home Office, Victoria, CA"
+   "Kaunas, Lithuania"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
-   },
-   {
-    "id": "Canada",
-    "label": "Canada",
-    "value": "Canada"
+    "id": "Lithuania",
+    "label": "Lithuania",
+    "value": "Lithuania"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 3483, 'maxValue': 4717, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Field Marketing",
-    "label": "Field Marketing",
-    "value": "resume:Field Marketing"
+    "id": "resume:Workday HCM",
+    "label": "Workday HCM",
+    "value": "resume:Workday HCM"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Human Capital Management",
+    "label": "Human Capital Management",
+    "value": "resume:Human Capital Management"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Solution Sales",
-    "label": "Solution Sales",
-    "value": "resume:Solution Sales"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Field Marketing",
-    "label": "Field Marketing",
-    "value": "resume:Field Marketing"
+    "id": "resume:Workday HCM",
+    "label": "Workday HCM",
+    "value": "resume:Workday HCM"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Human Capital Management",
+    "label": "Human Capital Management",
+    "value": "resume:Human Capital Management"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Solution Sales",
-    "label": "Solution Sales",
-    "value": "resume:Solution Sales"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Solution Architecture",
-    "label": "Solution Architecture",
-    "value": "resume:Solution Architecture"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    },
    {
-    "id": "resume:ROI",
-    "label": "ROI",
-    "value": "resume:ROI"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "manager": false,
@@ -289,22 +265,11 @@
     6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
@@ -312,33 +277,44 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "ECommerce",
+    "label": "eCommerce",
+    "value": "ECommerce"
+   },
+   {
+    "id": "Peer to Peer Marketplace",
+    "label": "Peer to Peer Marketplace",
+    "value": "Peer to Peer Marketplace"
    }
   ],
-  "timeStamp": "2026-11-04T23:58:38Z",
-  "title": "Named Account Executive - Western Canada",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8289/",
-  "jobId": "8289",
-  "remote": true,
+  "timeStamp": "2026-11-05T09:28:16Z",
+  "title": "Senior People Tech Specialist (FTC)",
+  "url": "https://careers.vinted.com/jobs/5020448101?gh_jid=5020448101",
+  "jobId": "5020448101",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1845249285609, 'matchScore': 0, 'ageScore': 0.9845249285609567, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1850396852002, 'matchScore': 0, 'ageScore': 0.9850396852002314, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
