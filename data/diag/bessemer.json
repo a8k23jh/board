@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-04T18:05:11Z",
+ "run": "2026-11-04T23:47:04Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"947ac9e90d12e6c0198b9eb01ffe4ba7afbc9f1b\",\"date\":\"2026-11-03T19:14:56.356Z\"},\"server\":{\"git\":\"947ac9e90d12e6c0198b9eb01ffe4ba7afbc9f1b\",\"date\":\"2026-11-03T19:14:56.356Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"},\"server\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "RB-JZ_BIFP\u2026",
+  "session.sig": "bmDjClWwed\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTU3NzI3ZjQ1OWMzZmYxMzE3MjZjOGUyMmJjZjZhNDQiLCAic2NvcmUiOiAxLjA3MDEzMTkwMzgyMzMwMjZ9"
+   "sequence": "eyJfaWQiOiAiNjAxZGQxMDczMWE5NmM3ZmI5ZDk3MjFjM2RlNDg5YTgiLCAic2NvcmUiOiAxLjA4NzY4NzIwODA2MDE4NTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,132 +152,115 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/productboard/am9icG9zdDrFg9_6wgyO86zOcY8VFSvy?utm_source=jobs.bvp.com",
-  "companyDomain": "productboard.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/50440ad5e18cf8eb56271ba78ac66e48_320_160?Expires=1861920000&Signature=OQNH5oRssGM3z8qiC~Ta-0~8l3lj7rtl3olFRgKBSRYdV1OgRAztL",
-  "companyId": "Productboard",
-  "companySlug": "productboard",
-  "companyName": "Productboard",
-  "companyStaffCount": 256,
+  "applyUrl": "https://www.comeet.com/jobs/team8/61.003/team8-stealth-cyber-startup--sales-development-representative/9C.47D",
+  "companyDomain": "team8.vc",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/eaa5ec79953387a25c32d64551c08458_240_160?Expires=1861920000&Signature=GDh-VRQzyAVIhLxE~mmbrwHXwXgvm3rt5p0q1ymkNAuZ4FnCHGMpk",
+  "companyId": "Team8",
+  "companySlug": "team8",
+  "companyName": "Team8",
+  "companyStaffCount": 289,
   "considerHosted": false,
-  "departments": [
-   "GTM Ops"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
-   },
-   {
-    "id": "gtm",
-    "label": "GTM",
-    "value": "gtm"
+    "id": "sales-development-rep",
+    "label": "Sales Development Representative",
+    "value": "sales-development-rep"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   },
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "San Francisco"
+   "USA Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Workato",
-    "label": "Workato",
-    "value": "resume:Workato"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    },
    {
-    "id": "resume:Marketing Automation",
-    "label": "Marketing Automation",
-    "value": "resume:Marketing Automation"
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
    },
    {
-    "id": "resume:B2B Marketing",
-    "label": "B2B Marketing",
-    "value": "resume:B2B Marketing"
+    "id": "resume:Sales Development",
+    "label": "Sales Development",
+    "value": "resume:Sales Development"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Workato",
-    "label": "Workato",
-    "value": "resume:Workato"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Marketing Automation",
-    "label": "Marketing Automation",
-    "value": "resume:Marketing Automation"
+    "id": "resume:Voter Targeting",
+    "label": "Voter Targeting/Outreach",
+    "value": "resume:Voter Targeting"
    },
    {
-    "id": "resume:B2B Marketing",
-    "label": "B2B Marketing",
-    "value": "resume:B2B Marketing"
+    "id": "resume:Sales Development",
+    "label": "Sales Development",
+    "value": "resume:Sales Development"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Marketo",
-    "label": "Marketo",
-    "value": "resume:Marketo"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Sales & Marketing",
+    "label": "Sales & Marketing",
+    "value": "resume:Sales & Marketing"
    }
   ],
   "manager": false,
@@ -293,22 +276,11 @@
     4
    ]
   ],
-  "minYearsExp": 3,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -316,28 +288,22 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Venture Capital & Private Equity",
+    "label": "Venture Capital & Private Equity",
+    "value": "Venture Capital & Private Equity"
    }
   ],
-  "timeStamp": "2026-11-04T05:59:17Z",
-  "title": "GTM Engineer",
-  "url": "https://jobs.gem.com/productboard/am9icG9zdDrFg9_6wgyO86zOcY8VFSvy",
-  "jobId": "am9icG9zdDrFg9_6wgyO86zOcY8VFSvy",
-  "remote": false,
+  "timeStamp": "2026-11-04T14:14:26Z",
+  "title": "Team8 Stealth Cyber Startup- Sales Development Representative",
+  "url": "https://www.comeet.com/jobs/team8/61.003/team8-stealth-cyber-startup--sales-development-representative/9C.47D",
+  "jobId": "9C.47D",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1879606216396, 'matchScore': 0, 'ageScore': 0.9879606216396605, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1909861156998, 'matchScore': 0, 'ageScore': 0.9909861156998456, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

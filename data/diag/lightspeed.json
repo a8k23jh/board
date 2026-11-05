@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-11-04T18:05:11Z",
+ "run": "2026-11-04T23:47:04Z",
  "homepage": {
   "status": 200,
   "bytes": 21354
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"947ac9e90d12e6c0198b9eb01ffe4ba7afbc9f1b\",\"date\":\"2026-11-03T19:14:56.356Z\"},\"server\":{\"git\":\"947ac9e90d12e6c0198b9eb01ffe4ba7afbc9f1b\",\"date\":\"2026-11-03T19:14:56.356Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"},\"server\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "6FMvd2-ky6\u2026",
+  "session.sig": "X2mXQKXYr0\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjM0MjNmMmE1MTg4NTNhZTE5YmJiZDg4NjEzZWEyNTkiLCAic2NvcmUiOiAxLjE2Mzg5NDA3MTI5OTM4Mjh9"
+   "sequence": "eyJfaWQiOiAiOTA2YjQ3MTYwZjg3ZDlkNjU2MGJiYzExNGE2YThkZWYiLCAic2NvcmUiOiAxLjE1NTYyODMxNTU3NDA3NH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,15 +155,17 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.workatastartup.com/jobs/120317",
-  "companyDomain": "raindrop.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/dc4bbb450123dd8b2861edf965611bd8_256_160?Expires=1861920000&Signature=Sc6XRhAVSwVVHPAJU-ZftDOzdZ8EVElDID0PRF3vYEybpTmOb2mGk",
-  "companyId": "Raindrop",
-  "companySlug": "raindrop",
-  "companyName": "Raindrop",
-  "companyStaffCount": 10,
+  "applyUrl": "https://job-boards.greenhouse.io/grafanalabs/jobs/6226999004",
+  "companyDomain": "grafana.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/32a90dde8d44051d64fa600f3d9b65c2_320_160?Expires=1861920000&Signature=QLDDUpzbhHfSLkiSts7c3p9gH6wI54LzqzfhnFpekGZchlhjTA1t0",
+  "companyId": "Grafana Labs",
+  "companySlug": "grafana-labs",
+  "companyName": "Grafana Labs",
+  "companyStaffCount": 1909,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "R&D: Grafana"
+  ],
   "jobTypes": [
    {
     "id": "engineer",
@@ -171,17 +173,12 @@
     "value": "engineer"
    },
    {
-    "id": "research-scientist",
-    "label": "Research Scientist",
-    "value": "research-scientist"
+    "id": "fullstack-engineer",
+    "label": "Full Stack Engineer",
+    "value": "fullstack-engineer"
    }
   ],
   "jobFunctions": [
-   {
-    "id": "Science",
-    "label": "Science",
-    "value": "Science"
-   },
    {
     "id": "Engineering",
     "label": "Engineering",
@@ -189,136 +186,145 @@
    }
   ],
   "locations": [
-   "San Francisco"
+   "United States (Remote)"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 167143, 'maxValue': 200572, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
-    "id": "resume:NGP VAN",
-    "label": "NGP VAN",
-    "value": "resume:NGP VAN"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    },
    {
-    "id": "resume:Agenda",
-    "label": "Agenda",
-    "value": "resume:Agenda"
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
    },
    {
-    "id": "resume:Scenario Testing",
-    "label": "Scenario Testing",
-    "value": "resume:Scenario Testing"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
+   },
+   {
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
+   },
+   {
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
+   },
+   {
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:NGP VAN",
-    "label": "NGP VAN",
-    "value": "resume:NGP VAN"
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
    },
    {
-    "id": "resume:Agenda",
-    "label": "Agenda",
-    "value": "resume:Agenda"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Scenario Testing",
-    "label": "Scenario Testing",
-    "value": "resume:Scenario Testing"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Figma",
-    "label": "Figma",
-    "value": "resume:Figma"
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
    }
   ],
-  "timeStamp": "2026-11-04T05:58:44Z",
-  "title": "Founding Research Engineer ",
-  "url": "https://www.workatastartup.com/jobs/120317",
-  "jobId": "120317",
-  "remote": false,
+  "timeStamp": "2026-11-04T11:25:34Z",
+  "title": "Senior FullStack Engineer - Grafana Catalog| US | Remote",
+  "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6226999004",
+  "jobId": "6226999004",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1884857882272, 'matchScore': 0, 'ageScore': 0.9884857882272376, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1871174131489, 'matchScore': 0, 'ageScore': 0.9871174131489198, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

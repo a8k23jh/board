@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-11-04T18:05:11Z",
+ "run": "2026-11-04T23:47:04Z",
  "homepage": {
   "status": 200,
   "bytes": 26319
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"947ac9e90d12e6c0198b9eb01ffe4ba7afbc9f1b\",\"date\":\"2026-11-03T19:14:56.356Z\"},\"server\":{\"git\":\"947ac9e90d12e6c0198b9eb01ffe4ba7afbc9f1b\",\"date\":\"2026-11-03T19:14:56.356Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"},\"server\":{\"git\":\"c14d310b94ae3a8f6d0ef790e548d8c6e1c4ac22\",\"date\":\"2026-11-04T20:45:24.710Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "67PMcVCeL9\u2026",
+  "session.sig": "y9sevHRpSV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzFmNGE4YmQ2ZTBiZWExNjQzNzNhZDIxYmQ4NDIyYzUiLCAic2NvcmUiOiAxLjEyNzAyNjQzNzUxODkwNDN9"
+   "sequence": "eyJfaWQiOiAiOTMwOTg3OTViY2UzMGFkZGY3ZjU2M2MwNzQzMDRiY2IiLCAic2NvcmUiOiAxLjEyMjUxMzI1MzY0MjM2MTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -179,58 +179,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 143400, 'maxValue': 277200, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:software testing",
-    "label": "Software Testing",
-    "value": "resume:software testing"
-   },
-   {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
-   },
-   {
-    "id": "resume:Continuous Delivery",
-    "label": "Continuous Delivery",
-    "value": "resume:Continuous Delivery"
-   },
-   {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
     "id": "resume:Continuous Integration",
     "label": "Continuous Integration",
     "value": "resume:Continuous Integration"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:software testing",
-    "label": "Software Testing",
-    "value": "resume:software testing"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
-   },
-   {
-    "id": "resume:Continuous Delivery",
-    "label": "Continuous Delivery",
-    "value": "resume:Continuous Delivery"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
-   },
-   {
-    "id": "resume:Continuous Integration",
-    "label": "Continuous Integration",
-    "value": "resume:Continuous Integration"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:ML Infrastructure",
@@ -238,14 +194,58 @@
     "value": "resume:ML Infrastructure"
    },
    {
-    "id": "resume:Software Project Management",
-    "label": "Software Project Management",
-    "value": "resume:Software Project Management"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:ML Infrastructure",
+    "label": "ML Infrastructure",
+    "value": "resume:ML Infrastructure"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Written Communication Skills",
     "label": "Written Communication Skills",
     "value": "resume:Written Communication Skills"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Continuous Delivery",
+    "label": "Continuous Delivery",
+    "value": "resume:Continuous Delivery"
+   },
+   {
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
+   },
+   {
+    "id": "resume:software testing",
+    "label": "Software Testing",
+    "value": "resume:software testing"
    }
   ],
   "manager": false,
@@ -310,7 +310,7 @@
   "jobId": "am9icG9zdDomVyI3YHD_AS1KxY9tbiC5",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1925323456304, 'matchScore': 0, 'ageScore': 0.9925323456304013, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1838662045598, 'matchScore': 0, 'ageScore': 0.9838662045597993, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
