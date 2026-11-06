@@ -1,9 +1,9 @@
 {
  "board": "lightspeed",
- "run": "2026-11-06T18:07:13Z",
+ "run": "2026-11-06T23:17:31Z",
  "homepage": {
   "status": 200,
-  "bytes": 21356
+  "bytes": 21354
  },
  "slugs_tried": [
   "lightspeed",
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"8ce384b960b3492f5f08cd958c7319509a1bffa1\",\"date\":\"2026-11-05T20:52:29.333Z\"},\"server\":{\"git\":\"8ce384b960b3492f5f08cd958c7319509a1bffa1\",\"date\":\"2026-11-05T20:52:29.333Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"4ee97f4ae11afec11560c3f8edce1b7a23865942\",\"date\":\"2026-11-06T22:18:21.233Z\"},\"server\":{\"git\":\"4ee97f4ae11afec11560c3f8edce1b7a23865942\",\"date\":\"2026-11-06T22:18:21.233Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "c9wYuHEkhq\u2026",
+  "session.sig": "FauWVvDWoE\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTFhMmEwYWE4YTFhMDY5MzFkZjA4ZDc0YWM0NzMyODMiLCAic2NvcmUiOiAxLjE2NjIwMTI5NDc2MTk2fQ=="
+   "sequence": "eyJfaWQiOiAiNDRhOGNmM2ZiOTBmNmNlN2Q2OTMwNTJmMTEzYTAxOTgiLCAic2NvcmUiOiAxLjE1ODQxNzQ5NTg0NTI5MzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,33 +144,43 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/xai/jobs/5286980007",
-  "companyDomain": "x.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a563be051526800c631b57d051023cd3_56_160?Expires=1861920000&Signature=hBRrhvnHYFuPHuz9CLSCj5456MymjsM2N65I2tjXlYjJlhlgM~dQFR",
-  "companyId": "xAI",
-  "companySlug": "xai",
-  "companyName": "xAI",
-  "companyStaffCount": 6672,
+  "applyUrl": "https://scrut.keka.com/careers/jobdetails/169377",
+  "companyDomain": "scrut.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/0ec1d512a4c43bf2d01eb99fb6c2e191_320_160?Expires=1861920000&Signature=NGRA0CFkCQL-qampbcDe9hmrxgrJIiwEDLp2ft1CD5qB2Kpo2iRkp",
+  "companyId": "Scrut Automation",
+  "companySlug": "scrut-automation",
+  "companyName": "Scrut Automation",
+  "companyStaffCount": 234,
   "considerHosted": false,
   "departments": [
-   "Product"
+   "bb2b5b24-1f66-4425-a35e-0d51efa23e35"
   ],
   "jobTypes": [
    {
-    "id": "ios-developer",
-    "label": "iOS Developer",
-    "value": "ios-developer"
+    "id": "executive",
+    "label": "Executive",
+    "value": "executive"
+   },
+   {
+    "id": "ciso",
+    "label": "CISO",
+    "value": "ciso"
+   },
+   {
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
    }
   ],
   "jobFunctions": [
@@ -181,94 +191,88 @@
    }
   ],
   "locations": [
-   "New York, NY",
-   "Palo Alto, CA"
+   "India, DL, India"
   ],
   "normalizedLocations": [
    {
-    "id": "Palo Alto, California",
-    "label": "Palo Alto, California",
-    "value": "Palo Alto, California"
-   },
-   {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "India",
+    "label": "India",
+    "value": "India"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 6000000, 'maxValue': 7000000, 'currency': {'label': 'INR', 'value': 'INR'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Mobile",
-    "label": "Mobile",
-    "value": "resume:Mobile"
+    "id": "resume:Application Security",
+    "label": "Application Security",
+    "value": "resume:Application Security"
    },
    {
-    "id": "resume:App Store",
-    "label": "App Store",
-    "value": "resume:App Store"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Swift",
-    "label": "Swift",
-    "value": "resume:Swift"
+    "id": "resume:Cloud Native",
+    "label": "Cloud Native",
+    "value": "resume:Cloud Native"
    },
    {
-    "id": "resume:Reactive Programming",
-    "label": "Reactive Programming",
-    "value": "resume:Reactive Programming"
+    "id": "resume:SLA",
+    "label": "SLA",
+    "value": "resume:SLA"
    },
    {
-    "id": "resume:iOS development",
-    "label": "iOS Development",
-    "value": "resume:iOS development"
+    "id": "resume:EDR",
+    "label": "EDR",
+    "value": "resume:EDR"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Mobile",
-    "label": "Mobile",
-    "value": "resume:Mobile"
+    "id": "resume:Application Security",
+    "label": "Application Security",
+    "value": "resume:Application Security"
    },
    {
-    "id": "resume:App Store",
-    "label": "App Store",
-    "value": "resume:App Store"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Swift",
-    "label": "Swift",
-    "value": "resume:Swift"
+    "id": "resume:Cloud Native",
+    "label": "Cloud Native",
+    "value": "resume:Cloud Native"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Reactive Programming",
-    "label": "Reactive Programming",
-    "value": "resume:Reactive Programming"
+    "id": "resume:SLA",
+    "label": "SLA",
+    "value": "resume:SLA"
    },
    {
-    "id": "resume:iOS development",
-    "label": "iOS Development",
-    "value": "resume:iOS development"
+    "id": "resume:EDR",
+    "label": "EDR",
+    "value": "resume:EDR"
    },
    {
-    "id": "resume:Scalability",
-    "label": "Scalability",
-    "value": "resume:Scalability"
+    "id": "resume:OWASP",
+    "label": "OWASP",
+    "value": "resume:OWASP"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:SDLC",
+    "label": "SDLC",
+    "value": "resume:SDLC"
    },
    {
-    "id": "resume:iOS",
-    "label": "iOS",
-    "value": "resume:iOS"
+    "id": "resume:NIST",
+    "label": "NIST",
+    "value": "resume:NIST"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -281,65 +285,52 @@
     6
    ]
   ],
+  "minYearsExp": 6,
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Asia Pacific",
+    "label": "Asia Pacific",
+    "value": "Asia Pacific"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
    }
   ],
-  "timeStamp": "2026-11-06T02:17:14Z",
-  "title": "Sr. Mobile iOS Engineer",
-  "url": "https://job-boards.greenhouse.io/xai/jobs/5286980007",
-  "jobId": "5286980007",
+  "timeStamp": "2026-11-06T17:57:55Z",
+  "title": "Head of Security",
+  "url": "https://scrut.keka.com/careers/jobdetails/169377",
+  "jobId": "169377",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1836028442002, 'matchScore': 0, 'ageScore': 0.9836028442002315, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1970134524221, 'matchScore': 0, 'ageScore': 0.9970134524220678, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "director"
   ],
   "isFeatured": false
  },

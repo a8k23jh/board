@@ -1,9 +1,9 @@
 {
  "board": "felicis",
- "run": "2026-11-06T18:07:13Z",
+ "run": "2026-11-06T23:17:31Z",
  "homepage": {
   "status": 200,
-  "bytes": 25385
+  "bytes": 25383
  },
  "slugs_tried": [
   "felicis",
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"8ce384b960b3492f5f08cd958c7319509a1bffa1\",\"date\":\"2026-11-05T20:52:29.333Z\"},\"server\":{\"git\":\"8ce384b960b3492f5f08cd958c7319509a1bffa1\",\"date\":\"2026-11-05T20:52:29.333Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"4ee97f4ae11afec11560c3f8edce1b7a23865942\",\"date\":\"2026-11-06T22:18:21.233Z\"},\"server\":{\"git\":\"4ee97f4ae11afec11560c3f8edce1b7a23865942\",\"date\":\"2026-11-06T22:18:21.233Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "UoNUF_qY9b\u2026",
+  "session.sig": "l2969sgFht\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODJmNjBjMTMwMWI3MGI2M2M5MjNlZDY1MmI3YzFlNmMiLCAic2NvcmUiOiAxLjExMzEwODQzMzY1MzU0OTN9"
+   "sequence": "eyJfaWQiOiAiNTJlNTIxODJiMDZkYTU2NDMwZWVlYzczODAxM2ZjOTgiLCAic2NvcmUiOiAxLjEwNDc4MDAyMTM2MTQ5Njl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,199 +136,210 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/sentilink/2106637d-2635-48b1-9c10-427b2d22eed7?utm_source=jobs.felicis.com",
-  "companyDomain": "sentilink.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/60830764975e1d6a710605115e2bdd70_300_160?Expires=1861920000&Signature=DIf7F9VtyGwsKEvgppSvxpWLfTq4HCStup3M1kx9rLaEWOvcz2-nv",
-  "companyId": "SentiLink",
-  "companySlug": "sentilink",
-  "companyName": "SentiLink",
-  "companyStaffCount": 196,
+  "applyUrl": "https://jobs.ashbyhq.com/Crusoe/f3d7e76e-5356-48c2-968b-0c8b632a5d47?utm_source=jobs.felicis.com",
+  "companyDomain": "crusoe.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/83e047ed53d48955e1e39bdd6f3f660f_256_160?Expires=1861920000&Signature=r2eU4jRX2uOXV1AaZbtY7Z5mnhoWhTY0I1PFAYujsp5lQ9CiX1iiB",
+  "companyId": "Crusoe",
+  "companySlug": "crusoe",
+  "companyName": "Crusoe",
+  "companyStaffCount": 1693,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Cloud Engineering"
   ],
   "jobTypes": [
    {
-    "id": "compliance-risk",
-    "label": "Risk & Compliance Manager",
-    "value": "compliance-risk"
+    "id": "marketing-engagement",
+    "label": "Marketing Engagement",
+    "value": "marketing-engagement"
    },
    {
-    "id": "ciso",
-    "label": "CISO",
-    "value": "ciso"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
    {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   },
+   {
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
-   },
-   {
-    "id": "Auditing",
-    "label": "Auditing",
-    "value": "Auditing"
    }
   ],
   "locations": [
-   "United States",
-   "United States"
+   "San Francisco, California, USA",
+   "Sunnyvale, California, United States",
+   "San Francisco, CA - US",
+   "Sunnyvale, CA - US"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "Sunnyvale, California",
+    "label": "Sunnyvale, California",
+    "value": "Sunnyvale, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:PCI DSS",
-    "label": "PCI DSS",
-    "value": "resume:PCI DSS"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Reinforcement Learning",
+    "label": "Reinforcement Learning",
+    "value": "resume:Reinforcement Learning"
    },
    {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Security Compliance",
-    "label": "Security Compliance",
-    "value": "resume:Security Compliance"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    },
    {
-    "id": "resume:FedRAMP",
-    "label": "FedRAMP",
-    "value": "resume:FedRAMP"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:PCI DSS",
-    "label": "PCI DSS",
-    "value": "resume:PCI DSS"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Reinforcement Learning",
+    "label": "Reinforcement Learning",
+    "value": "resume:Reinforcement Learning"
    },
    {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Security Compliance",
-    "label": "Security Compliance",
-    "value": "resume:Security Compliance"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    },
    {
-    "id": "resume:FedRAMP",
-    "label": "FedRAMP",
-    "value": "resume:FedRAMP"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    },
    {
-    "id": "resume:Identity & Access Management (IAM)",
-    "label": "Identity & Access Management (IAM)",
-    "value": "resume:Identity & Access Management (IAM)"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Language Models",
+    "label": "Language Models",
+    "value": "resume:Language Models"
    },
    {
-    "id": "resume:Security Architecture Design",
-    "label": "Security Architecture Design",
-    "value": "resume:Security Architecture Design"
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    },
    {
-    "id": "Security",
-    "label": "Security",
-    "value": "Security"
+    "id": "Energy",
+    "label": "Energy",
+    "value": "Energy"
    }
   ],
   "timeStamp": "2026-11-06T00:00:00Z",
-  "title": "Director of Security & Risk",
-  "url": "https://jobs.ashbyhq.com/sentilink/2106637d-2635-48b1-9c10-427b2d22eed7",
-  "jobId": "2106637d-2635-48b1-9c10-427b2d22eed7",
-  "remote": true,
+  "title": "Staff Software Engineer, AI Model Lifecycle",
+  "url": "https://jobs.ashbyhq.com/Crusoe/f3d7e76e-5356-48c2-968b-0c8b632a5d47",
+  "jobId": "f3d7e76e-5356-48c2-968b-0c8b632a5d47",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1801003327446, 'matchScore': 0, 'ageScore': 0.9801003327445987, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1718687383511, 'matchScore': 0, 'ageScore': 0.9718687383510802, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior"
   ],
   "isFeatured": false
  },
