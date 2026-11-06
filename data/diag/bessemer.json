@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-06T11:10:47Z",
+ "run": "2026-11-06T18:07:13Z",
  "homepage": {
   "status": 200,
   "bytes": 21540
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "PeACuFl-R4\u2026",
+  "session.sig": "XUREsTZ5NA\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTg2NTM2Njk1M2RkZDhkNTRjMDM5NTg3N2JlZjBmOTciLCAic2NvcmUiOiAxLjEyMTkxNjAwMjY5NjM3MzV9"
+   "sequence": "eyJfaWQiOiAiNGFhZTI1NGY1Mjc2MTUwMzVkNGQxMzVkYTQ2MmI4YjEiLCAic2NvcmUiOiAxLjExMzcxNTc4OTcyNjA4MDN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -176,14 +176,14 @@
   ],
   "jobTypes": [
    {
-    "id": "security-professional",
-    "label": "Security Professional",
-    "value": "security-professional"
-   },
-   {
     "id": "security-engineer",
     "label": "Security Engineer",
     "value": "security-engineer"
+   },
+   {
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
    }
   ],
   "jobFunctions": [
@@ -207,63 +207,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Security Architecture Design",
-    "label": "Security Architecture Design",
-    "value": "resume:Security Architecture Design"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:SOC 2",
-    "label": "SOC 2",
-    "value": "resume:SOC 2"
-   },
-   {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Security Architecture Design",
-    "label": "Security Architecture Design",
-    "value": "resume:Security Architecture Design"
-   },
-   {
-    "id": "resume:SOC 2",
-    "label": "SOC 2",
-    "value": "resume:SOC 2"
-   },
-   {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:ISO 27001",
-    "label": "ISO 27001",
-    "value": "resume:ISO 27001"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    },
    {
     "id": "resume:Google Cloud Platform",
@@ -271,9 +222,58 @@
     "value": "resume:Google Cloud Platform"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Platform Design",
+    "label": "Platform Design",
+    "value": "resume:Platform Design"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
+   },
+   {
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Platform Design",
+    "label": "Platform Design",
+    "value": "resume:Platform Design"
+   },
+   {
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
+   },
+   {
+    "id": "resume:ISO 27001",
+    "label": "ISO 27001",
+    "value": "resume:ISO 27001"
+   },
+   {
+    "id": "resume:Multi Tenant Systems",
+    "label": "Multi Tenant Systems",
+    "value": "resume:Multi Tenant Systems"
    }
   ],
   "manager": false,
@@ -297,14 +297,14 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -333,7 +333,7 @@
   "jobId": "c3442fcd-8679-41a3-ad16-b1e1883d916c",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1884596888048, 'matchScore': 0, 'ageScore': 0.988459688804784, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1803726561948, 'matchScore': 0, 'ageScore': 0.9803726561948303, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
