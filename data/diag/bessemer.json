@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-06T02:35:16Z",
+ "run": "2026-11-06T11:10:47Z",
  "homepage": {
   "status": 200,
   "bytes": 21540
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "bxwC2GVHuN\u2026",
+  "session.sig": "PeACuFl-R4\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -90,37 +90,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTQ4MzgzMDE1YWUyYTBmN2NiNjlhNTAwNTE4NDdhMDYiLCAic2NvcmUiOiAxLjEzMzQ2MTQ3MzExNDE5NzR9"
+   "sequence": "eyJfaWQiOiAiOTg2NTM2Njk1M2RkZDhkNTRjMDM5NTg3N2JlZjBmOTciLCAic2NvcmUiOiAxLjEyMTkxNjAwMjY5NjM3MzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,112 +152,108 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/restaurant365/b6789c61-b005-482e-ac73-b757240df7f2?lever-source%5B%5D=jobs.bvp.com",
-  "companyDomain": "restaurant365.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6bc9ba8ab51f0e3260175fa3450c4490_320_160?Expires=1861920000&Signature=BjaLUgcasR36Gki0m9~xsGkU2Ydeq9NhehEt09M35A3xDg~4qiIGQ",
-  "companyId": "Restaurant365",
-  "companySlug": "restaurant365",
-  "companyName": "Restaurant365",
-  "companyStaffCount": 3963,
+  "applyUrl": "https://jobs.ashbyhq.com/fal-ai/c3442fcd-8679-41a3-ad16-b1e1883d916c?utm_source=jobs.bvp.com",
+  "companyDomain": "fal.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c557aab99bd1952bf1084e25f574bead_128_160?Expires=1861920000&Signature=qcWsN1DqjMzE1gbXZ8ylby-Ho5sleUSa2MbpPXo6oBLqLjsasCQl8",
+  "companyId": "Features and Labels",
+  "companySlug": "features-and-labels",
+  "companyName": "Fal",
+  "companyStaffCount": 162,
   "considerHosted": false,
   "departments": [
-   "Sales Growth"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "commercial-account-executive",
-    "label": "Commercial Account Executive",
-    "value": "commercial-account-executive"
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
+   },
+   {
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Irvine, CA, Austin, TX, San Francisco Bay Area, CA, Denver, CO"
+   "San Francisco, California, United States",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco Bay Area",
-    "label": "San Francisco Bay Area",
-    "value": "San Francisco Bay Area"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 66400, 'maxValue': 99600, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Security Architecture Design",
+    "label": "Security Architecture Design",
+    "value": "resume:Security Architecture Design"
    },
    {
-    "id": "resume:Record Of Success",
-    "label": "Record Of Success",
-    "value": "resume:Record Of Success"
+    "id": "resume:SOC 2",
+    "label": "SOC 2",
+    "value": "resume:SOC 2"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    },
    {
-    "id": "resume:Software Sales",
-    "label": "Software Sales",
-    "value": "resume:Software Sales"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
-    "id": "resume:Sales Development",
-    "label": "Sales Development",
-    "value": "resume:Sales Development"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Security Architecture Design",
+    "label": "Security Architecture Design",
+    "value": "resume:Security Architecture Design"
    },
    {
-    "id": "resume:Record Of Success",
-    "label": "Record Of Success",
-    "value": "resume:Record Of Success"
+    "id": "resume:SOC 2",
+    "label": "SOC 2",
+    "value": "resume:SOC 2"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Software Sales",
-    "label": "Software Sales",
-    "value": "resume:Software Sales"
-   },
-   {
-    "id": "resume:Sales Development",
-    "label": "Sales Development",
-    "value": "resume:Sales Development"
-   },
-   {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -265,9 +261,19 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Restaurants",
-    "label": "Restaurants",
-    "value": "resume:Restaurants"
+    "id": "resume:ISO 27001",
+    "label": "ISO 27001",
+    "value": "resume:ISO 27001"
+   },
+   {
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "manager": false,
@@ -275,16 +281,16 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    5,
+    6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
@@ -294,29 +300,40 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Restaurants",
-    "label": "Restaurants",
-    "value": "Restaurants"
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
    }
   ],
-  "timeStamp": "2026-11-05T20:17:21.768000Z",
-  "title": "Account Executive, Commercial Sales",
-  "url": "https://jobs.lever.co/restaurant365/b6789c61-b005-482e-ac73-b757240df7f2",
-  "jobId": "b6789c61-b005-482e-ac73-b757240df7f2",
-  "remote": true,
+  "timeStamp": "2026-11-06T00:00:00Z",
+  "title": "Staff Security Engineer",
+  "url": "https://jobs.ashbyhq.com/fal-ai/c3442fcd-8679-41a3-ad16-b1e1883d916c",
+  "jobId": "c3442fcd-8679-41a3-ad16-b1e1883d916c",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1950364169197, 'matchScore': 0, 'ageScore': 0.9950364169197531, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1884596888048, 'matchScore': 0, 'ageScore': 0.988459688804784, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -324,10 +341,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

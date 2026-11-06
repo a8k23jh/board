@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-11-06T02:35:16Z",
+ "run": "2026-11-06T11:10:47Z",
  "homepage": {
   "status": 200,
   "bytes": 21356
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "A3gFfoIFir\u2026",
+  "session.sig": "OP1MhMxWe7\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjg5MzM5MDdjMGI2NjZlNzhmMTRlODcwODZiMzgyOTIiLCAic2NvcmUiOiAxLjE2NzIzNTczNjg4ODUwMzF9"
+   "sequence": "eyJfaWQiOiAiZjVjZDNkOWU4ZjE3MDc4ZDYyMGUzNDRmMjNiYjAzYzYiLCAic2NvcmUiOiAxLjE3NDM0OTExNTgyMjE0NX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,145 +144,128 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/cyera/17.008/sr_-technical-support-engineer-fedramp/CD.47F-25.40C",
-  "companyDomain": "cyera.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec6d92aec09bf6716dbbd9d50089a4ec_208_160?Expires=1861920000&Signature=hr9QoUI4iKYF8Hn~HoiixG3elVHvWPoII2QRBQjO8zeSQJpeGQNuP",
-  "companyId": "Cyera",
-  "companySlug": "cyera",
-  "companyName": "Cyera",
-  "companyStaffCount": 1776,
+  "applyUrl": "https://job-boards.greenhouse.io/xai/jobs/5286980007",
+  "companyDomain": "x.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a563be051526800c631b57d051023cd3_56_160?Expires=1861920000&Signature=hBRrhvnHYFuPHuz9CLSCj5456MymjsM2N65I2tjXlYjJlhlgM~dQFR",
+  "companyId": "xAI",
+  "companySlug": "xai",
+  "companyName": "xAI",
+  "companyStaffCount": 6672,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Product"
+  ],
   "jobTypes": [
    {
-    "id": "security-analyst",
-    "label": "Security Analyst",
-    "value": "security-analyst"
-   },
-   {
-    "id": "security-professional",
-    "label": "Security Professional",
-    "value": "security-professional"
-   },
-   {
-    "id": "it-engineer",
-    "label": "IT Support Engineer",
-    "value": "it-engineer"
-   },
-   {
-    "id": "customer-support",
-    "label": "Customer Support",
-    "value": "customer-support"
+    "id": "ios-developer",
+    "label": "iOS Developer",
+    "value": "ios-developer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Analyst",
-    "label": "Analyst",
-    "value": "Analyst"
-   },
-   {
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
-   },
-   {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
    }
   ],
   "locations": [
-   "St. Louis"
+   "New York, NY",
+   "Palo Alto, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Saint Louis, Missouri",
-    "label": "Saint Louis, Missouri",
-    "value": "Saint Louis, Missouri"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   },
+   {
+    "id": "Palo Alto, California",
+    "label": "Palo Alto, California",
+    "value": "Palo Alto, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 130000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
+    "id": "resume:Mobile",
+    "label": "Mobile",
+    "value": "resume:Mobile"
    },
    {
-    "id": "resume:SSO",
-    "label": "SSO",
-    "value": "resume:SSO"
+    "id": "resume:Swift",
+    "label": "Swift",
+    "value": "resume:Swift"
    },
    {
-    "id": "resume:ServiceNow",
-    "label": "ServiceNow",
-    "value": "resume:ServiceNow"
+    "id": "resume:Scalability",
+    "label": "Scalability",
+    "value": "resume:Scalability"
    },
    {
-    "id": "resume:SLA",
-    "label": "SLA",
-    "value": "resume:SLA"
+    "id": "resume:iOS",
+    "label": "iOS",
+    "value": "resume:iOS"
    },
    {
-    "id": "resume:DoD",
-    "label": "DoD",
-    "value": "resume:DoD"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
+    "id": "resume:Mobile",
+    "label": "Mobile",
+    "value": "resume:Mobile"
    },
    {
-    "id": "resume:SSO",
-    "label": "SSO",
-    "value": "resume:SSO"
+    "id": "resume:Swift",
+    "label": "Swift",
+    "value": "resume:Swift"
    },
    {
-    "id": "resume:ServiceNow",
-    "label": "ServiceNow",
-    "value": "resume:ServiceNow"
+    "id": "resume:Scalability",
+    "label": "Scalability",
+    "value": "resume:Scalability"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:SLA",
-    "label": "SLA",
-    "value": "resume:SLA"
+    "id": "resume:iOS",
+    "label": "iOS",
+    "value": "resume:iOS"
    },
    {
-    "id": "resume:DoD",
-    "label": "DoD",
-    "value": "resume:DoD"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:SAML",
-    "label": "SAML",
-    "value": "resume:SAML"
+    "id": "resume:iOS development",
+    "label": "iOS Development",
+    "value": "resume:iOS development"
    },
    {
-    "id": "resume:DLP",
-    "label": "DLP",
-    "value": "resume:DLP"
+    "id": "resume:Reactive Programming",
+    "label": "Reactive Programming",
+    "value": "resume:Reactive Programming"
    },
    {
-    "id": "resume:Bash",
-    "label": "Bash",
-    "value": "resume:Bash"
+    "id": "resume:App Store",
+    "label": "App Store",
+    "value": "resume:App Store"
    }
   ],
   "manager": false,
@@ -298,22 +281,31 @@
     6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -321,28 +313,22 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
-  "timeStamp": "2026-11-05T22:14:59Z",
-  "title": "Sr. Technical Support Engineer, FedRAMP",
-  "url": "https://www.comeet.com/jobs/cyera/17.008/sr_-technical-support-engineer-fedramp/CD.47F-25.40C",
-  "jobId": "CD.47F-25.40C",
+  "timeStamp": "2026-11-06T02:17:14Z",
+  "title": "Sr. Mobile iOS Engineer",
+  "url": "https://job-boards.greenhouse.io/xai/jobs/5286980007",
+  "jobId": "5286980007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1982342762226, 'matchScore': 0, 'ageScore': 0.9982342762226081, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1911678163175, 'matchScore': 0, 'ageScore': 0.9911678163175154, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
