@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-11-05T22:07:50Z",
+ "run": "2026-11-06T02:35:16Z",
  "homepage": {
   "status": 200,
   "bytes": 26321
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "OGgOy2xMnF\u2026",
+  "session.sig": "WCGrXi4AuJ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGY4ODMyOGZhNjkzODBmZDkwYTg5MzAyNmJkMWNjY2YiLCAic2NvcmUiOiAxLjEyMzc5Mjc1MTE3Nzg1NX0="
+   "sequence": "eyJfaWQiOiAiZWU4MWYxNTQ3MTQ2ZmZjMjIyZjE2ODI3YjA3N2Q0ZTMiLCAic2NvcmUiOiAxLjEyOTQ3MTQxODI0OTYxNDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,166 +147,126 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.withwaymo.com/jobs?gh_jid=8325820",
-  "companyDomain": "waymo.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a04896dd1b05b675a7df4762df4fe370_112_160?Expires=1861920000&Signature=EdNw9DPJCYDLbjxU5eEwWJ1ELHjFa3WTlbbzZOXLlSmfSbgMtG32z",
-  "companyId": "Waymo",
-  "companySlug": "waymo",
-  "companyName": "Waymo",
-  "companyStaffCount": 3661,
+  "applyUrl": "https://jobs.lever.co/mylaurelhealth/9e45c913-6126-4a39-b8f9-5209ccfc3976?lever-source%5B%5D=jobs.gv.com",
+  "companyDomain": "mylaurelhealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cdc0095c089fdc6068885550a9185cbd_208_160?Expires=1861920000&Signature=nFafe-bP8PXXu-OoON1ScC4iMSlQJ-rQYWNtSc3ymKC3F5--XLNUc",
+  "companyId": "Ready Responders",
+  "companySlug": "ready-responders",
+  "companyName": "myLaurel",
+  "companyStaffCount": 60,
   "considerHosted": false,
-  "departments": [
-   "Legal (67B)"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "legal-counsel",
-    "label": "Legal Counsel",
-    "value": "legal-counsel"
-   }
-  ],
-  "jobFunctions": [
+    "id": "medical-professional",
+    "label": "Medical Professional",
+    "value": "medical-professional"
+   },
    {
-    "id": "Legal",
-    "label": "Legal",
-    "value": "Legal"
+    "id": "freelance",
+    "label": "Contractor",
+    "value": "freelance"
    }
   ],
+  "jobFunctions": [],
   "locations": [
-   "Mountain View, CA, USA",
-   "Washington D.C., USA"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Washington, District Of Columbia",
-    "label": "Washington, DC",
-    "value": "Washington, District Of Columbia"
-   },
-   {
-    "id": "Mountain View, California",
-    "label": "Mountain View, California",
-    "value": "Mountain View, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 298000, 'maxValue': 368000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 75, 'maxValue': 75, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
+   {
+    "id": "resume:HIPAA",
+    "label": "HIPAA",
+    "value": "resume:HIPAA"
+   },
+   {
+    "id": "resume:Mobile",
+    "label": "Mobile",
+    "value": "resume:Mobile"
+   },
+   {
+    "id": "resume:EHR",
+    "label": "EHR",
+    "value": "resume:EHR"
+   },
    {
     "id": "resume:Compliance",
     "label": "Compliance",
     "value": "resume:Compliance"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
-   },
-   {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:HIPAA",
+    "label": "HIPAA",
+    "value": "resume:HIPAA"
+   },
+   {
+    "id": "resume:Mobile",
+    "label": "Mobile",
+    "value": "resume:Mobile"
+   },
+   {
+    "id": "resume:EHR",
+    "label": "EHR",
+    "value": "resume:EHR"
+   }
+  ],
+  "preferredSkills": [
+   {
     "id": "resume:Compliance",
     "label": "Compliance",
     "value": "resume:Compliance"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Treatment",
+    "label": "Treatment",
+    "value": "resume:Treatment"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Health Education",
+    "label": "Health Education",
+    "value": "resume:Health Education"
    },
    {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
+    "id": "resume:Diagnostics",
+    "label": "Diagnostics",
+    "value": "resume:Diagnostics"
    },
    {
-    "id": "resume:State Bar",
-    "label": "State Bar",
-    "value": "resume:State Bar"
-   },
-   {
-    "id": "resume:Licensing",
-    "label": "Licensing",
-    "value": "resume:Licensing"
-   },
-   {
-    "id": "resume:Quantum Computing",
-    "label": "Quantum Computing",
-    "value": "resume:Quantum Computing"
+    "id": "resume:Emergency Medicine",
+    "label": "Emergency Medicine",
+    "value": "resume:Emergency Medicine"
    }
   ],
   "manager": false,
   "consultant": false,
-  "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ],
-   [
-    9,
-    10,
-    11,
-    12
-   ]
-  ],
-  "minYearsExp": 15,
+  "contractor": true,
+  "considerLevels": [],
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
     "id": "Growth",
@@ -317,18 +277,23 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Autonomous Vehicles",
-    "label": "Autonomous Vehicles",
-    "value": "Autonomous Vehicles"
+    "id": "Digital Health",
+    "label": "Digital Health",
+    "value": "Digital Health"
+   },
+   {
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-11-05T09:47:39Z",
-  "title": "Senior Counsel, Trade",
-  "url": "https://careers.withwaymo.com/jobs?gh_jid=8325820",
-  "jobId": "8325820",
-  "remote": false,
+  "timeStamp": "2026-11-05T22:17:07.388000Z",
+  "title": "Part-Time/Per Diem Remote Telehealth Physician (PA or LA License)",
+  "url": "https://jobs.lever.co/mylaurelhealth/9e45c913-6126-4a39-b8f9-5209ccfc3976",
+  "jobId": "9e45c913-6126-4a39-b8f9-5209ccfc3976",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1856248227376, 'matchScore': 0, 'ageScore': 0.9856248227376543, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1979051305436, 'matchScore': 0, 'ageScore': 0.9979051305435956, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -336,10 +301,16 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "senior",
+   "expert"
   ],
   "isFeatured": false
  },

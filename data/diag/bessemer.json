@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-05T22:07:50Z",
+ "run": "2026-11-06T02:35:16Z",
  "homepage": {
   "status": 200,
   "bytes": 21540
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "M9dznOTW6a\u2026",
+  "session.sig": "bxwC2GVHuN\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTczMmNlNmM3ZDRjNTcwYzA3YjJiOTQ3NjMyNzdlNjAiLCAic2NvcmUiOiAxLjEyMjc3OTM3NTUxNjk3NTN9"
+   "sequence": "eyJfaWQiOiAiOTQ4MzgzMDE1YWUyYTBmN2NiNjlhNTAwNTE4NDdhMDYiLCAic2NvcmUiOiAxLjEzMzQ2MTQ3MzExNDE5NzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,85 +152,112 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/dashlane/jobs/8352606",
-  "companyDomain": "dashlane.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3bf214ce4219bd86853db8d5c520efa1_288_160?Expires=1861920000&Signature=C9HksSh2xKntUUUTpxObGDDoSfvrcSGUmGH1ZcDzZKpxUJuf4hfcn",
-  "companyId": "Dashlane",
-  "companySlug": "dashlane",
-  "companyName": "Dashlane",
-  "companyStaffCount": 309,
+  "applyUrl": "https://jobs.lever.co/restaurant365/b6789c61-b005-482e-ac73-b757240df7f2?lever-source%5B%5D=jobs.bvp.com",
+  "companyDomain": "restaurant365.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6bc9ba8ab51f0e3260175fa3450c4490_320_160?Expires=1861920000&Signature=BjaLUgcasR36Gki0m9~xsGkU2Ydeq9NhehEt09M35A3xDg~4qiIGQ",
+  "companyId": "Restaurant365",
+  "companySlug": "restaurant365",
+  "companyName": "Restaurant365",
+  "companyStaffCount": 3963,
   "considerHosted": false,
   "departments": [
-   "Product"
+   "Sales Growth"
   ],
   "jobTypes": [
    {
-    "id": "assistant",
-    "label": "Assistant",
-    "value": "assistant"
+    "id": "commercial-account-executive",
+    "label": "Commercial Account Executive",
+    "value": "commercial-account-executive"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Administrative",
-    "label": "Administrative",
-    "value": "Administrative"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "New York, NY"
+   "Irvine, CA, Austin, TX, San Francisco Bay Area, CA, Denver, CO"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "San Francisco Bay Area",
+    "label": "San Francisco Bay Area",
+    "value": "San Francisco Bay Area"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 217000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 66400, 'maxValue': 99600, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Record Of Success",
+    "label": "Record Of Success",
+    "value": "resume:Record Of Success"
    },
    {
-    "id": "resume:Positioning",
-    "label": "Positioning",
-    "value": "resume:Positioning"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Zero Knowledge",
-    "label": "Zero Knowledge",
-    "value": "resume:Zero Knowledge"
+    "id": "resume:Software Sales",
+    "label": "Software Sales",
+    "value": "resume:Software Sales"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:Sales Development",
+    "label": "Sales Development",
+    "value": "resume:Sales Development"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
+    "id": "resume:CRM",
+    "label": "CRM",
+    "value": "resume:CRM"
+   },
+   {
+    "id": "resume:Record Of Success",
+    "label": "Record Of Success",
+    "value": "resume:Record Of Success"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Software Sales",
+    "label": "Software Sales",
+    "value": "resume:Software Sales"
+   },
+   {
+    "id": "resume:Sales Development",
+    "label": "Sales Development",
+    "value": "resume:Sales Development"
+   },
+   {
+    "id": "resume:Sales Process",
+    "label": "Sales Process",
+    "value": "resume:Sales Process"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -238,31 +265,9 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Positioning",
-    "label": "Positioning",
-    "value": "resume:Positioning"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Zero Knowledge",
-    "label": "Zero Knowledge",
-    "value": "resume:Zero Knowledge"
-   },
-   {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:API Integrations",
-    "label": "API Integrations",
-    "value": "resume:API Integrations"
+    "id": "resume:Restaurants",
+    "label": "Restaurants",
+    "value": "resume:Restaurants"
    }
   ],
   "manager": false,
@@ -272,61 +277,46 @@
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Restaurants",
+    "label": "Restaurants",
+    "value": "Restaurants"
    }
   ],
-  "timeStamp": "2026-11-05T11:25:05Z",
-  "title": "Staff Product Manager, AI Agents & Assistant",
-  "url": "https://job-boards.greenhouse.io/dashlane/jobs/8352606",
-  "jobId": "8352606",
-  "remote": false,
+  "timeStamp": "2026-11-05T20:17:21.768000Z",
+  "title": "Account Executive, Commercial Sales",
+  "url": "https://jobs.lever.co/restaurant365/b6789c61-b005-482e-ac73-b757240df7f2",
+  "jobId": "b6789c61-b005-482e-ac73-b757240df7f2",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.187412912657, 'matchScore': 0, 'ageScore': 0.9874129126570216, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1950364169197, 'matchScore': 0, 'ageScore': 0.9950364169197531, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -334,22 +324,10 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
-   },
-   {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "junior",
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
