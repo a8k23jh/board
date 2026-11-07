@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-06T23:17:31Z",
+ "run": "2026-11-07T02:56:06Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "2Tsm0j71uK\u2026",
+  "session.sig": "l5Mu9jiiLs\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -66,37 +66,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTI1ZjcyYjc2ODExZmE3ZDZmYWQyYTQwOTI5MGUyNmUiLCAic2NvcmUiOiAxLjA5NzkyNTU1NjE2OTc1MzJ9"
+   "sequence": "eyJfaWQiOiAiZWU4NGFmYTkxODc1MWY1OTM1OTlkOGNlNDdiNWUwMDYiLCAic2NvcmUiOiAxLjEyMTg1MjU3NzM4NDY0NX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -128,63 +128,68 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lyrahealth/22d7731a-cd88-4309-b86b-8e0507293ede?lever-source%5B%5D=careers.ivp.com",
-  "companyDomain": "lyrahealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/143cd3a237462e2e7a2ccd47b2d73fac_96_160?Expires=1861920000&Signature=NN4EpXx0uHmRsAc6GKWU1E0aaw8tKG4yCj2QYcyRkjmu-TasPWWqFM",
-  "companyId": "Lyra Health",
-  "companySlug": "lyra-health",
-  "companyName": "Lyra Health",
-  "companyStaffCount": 2800,
+  "applyUrl": "https://jobs.lever.co/lumafield/1079efc0-e2e5-4963-b626-92f8941d9709?lever-source%5B%5D=careers.ivp.com",
+  "companyDomain": "lumafield.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
+  "companyId": "Lumafield",
+  "companySlug": "lumafield",
+  "companyName": "Lumafield",
+  "companyStaffCount": 156,
   "considerHosted": false,
   "departments": [
-   "Go-To-Market"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "customer-success-mananger",
-    "label": "Customer Success Manager",
-    "value": "customer-success-mananger"
+    "id": "mechanical-engineer",
+    "label": "Mechanical Engineer",
+    "value": "mechanical-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "United States"
+   "San Francisco, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85000, 'maxValue': 117000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Imaging",
+    "label": "Imaging",
+    "value": "resume:Imaging"
+   },
+   {
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -192,58 +197,48 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Imaging",
+    "label": "Imaging",
+    "value": "resume:Imaging"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    },
    {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:Data Privacy",
-    "label": "Data Privacy",
-    "value": "resume:Data Privacy"
-   },
-   {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Mechanical Design",
+    "label": "Mechanical Design",
+    "value": "resume:Mechanical Design"
    }
   ],
   "manager": false,
@@ -259,63 +254,55 @@
     6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Digital Health",
-    "label": "Digital Health",
-    "value": "Digital Health"
-   },
-   {
-    "id": "Mental Health Care",
-    "label": "Mental Health Care",
-    "value": "Mental Health Care"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-11-06T16:11:48.046000Z",
-  "title": "Customer Success Manager I",
-  "url": "https://jobs.lever.co/lyrahealth/22d7731a-cd88-4309-b86b-8e0507293ede",
-  "jobId": "22d7731a-cd88-4309-b86b-8e0507293ede",
-  "remote": true,
+  "timeStamp": "2026-11-06T21:44:46.345000Z",
+  "title": "Senior Mechanical Engineer",
+  "url": "https://jobs.lever.co/lumafield/1079efc0-e2e5-4963-b626-92f8941d9709",
+  "jobId": "1079efc0-e2e5-4963-b626-92f8941d9709",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1940829178002, 'matchScore': 0, 'ageScore': 0.9940829178001543, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1953833505834, 'matchScore': 0, 'ageScore': 0.9953833505833334, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "junior"
+   "senior"
   ],
   "isFeatured": false
  },
