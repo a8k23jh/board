@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-07T16:55:04Z",
+ "run": "2026-11-07T20:59:01Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "7uOez50UnC\u2026",
+  "session.sig": "1EWKdgwVrS\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTc4MGUwMDY5ZmMxZmQ3MTBhMGVkZjgyNDU3ZTk0OTYiLCAic2NvcmUiOiAxLjEwNDg1ODg5MzQ4Mzc5NjR9"
+   "sequence": "eyJfaWQiOiAiYTc4MGUwMDY5ZmMxZmQ3MTBhMGVkZjgyNDU3ZTk0OTYiLCAic2NvcmUiOiAxLjEwMDgxNTQwOTg0ODc2NTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,106 +139,117 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/baseten/67a47938-5cb8-40c9-b027-3c2879f74c00?utm_source=careers.ivp.com",
-  "companyDomain": "baseten.co",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/aaa340387ade367703b1e49f53eb3028_288_160?Expires=1861920000&Signature=Al-9uky9kPkU3yG72nW3BbljsCHFZiSSqwfe53K8yzheEMID8gJHG",
-  "companyId": "BaseTen",
-  "companySlug": "baseten",
-  "companyName": "Baseten",
-  "companyStaffCount": 440,
+  "applyUrl": "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/e3f4fa1f-8647-4452-90fe-495ff63f6a51?utm_source=careers.ivp.com",
+  "companyDomain": "superhuman.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d86c43da59fa45e2fbf3309be7862fd_320_160?Expires=1861920000&Signature=bgHYDLO8m-r2KA91-sNPuPqnf3Yp0GbAdK2rKsVz8cXY9iGHWhctP",
+  "companyId": "Superhuman",
+  "companySlug": "superhuman",
+  "companyName": "Superhuman",
+  "companyStaffCount": 167,
   "considerHosted": false,
   "departments": [
-   "SRE"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "site-reliability-manager",
-    "label": "Manager Site Reliability Engineering",
-    "value": "site-reliability-manager"
+    "id": "frontend-engineer",
+    "label": "Frontend Engineer",
+    "value": "frontend-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "London, United Kingdom",
-   "London"
+   "New York, New York, United States",
+   "Hub - New York"
   ],
   "normalizedLocations": [
    {
-    "id": "London, Greater London, United Kingdom",
-    "label": "London",
-    "value": "London, Greater London, United Kingdom"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 185000, 'maxValue': 276000, 'currency': {'label': 'GBP', 'value': 'GBP'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 163500, 'maxValue': 235000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   },
-   {
-    "id": "resume:Reliability Engineering",
-    "label": "Reliability Engineering",
-    "value": "resume:Reliability Engineering"
-   },
-   {
-    "id": "resume:Incident Response",
-    "label": "Incident Response",
-    "value": "resume:Incident Response"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
-   },
-   {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
-   },
-   {
-    "id": "resume:Reliability Engineering",
-    "label": "Reliability Engineering",
-    "value": "resume:Reliability Engineering"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Incident Response",
-    "label": "Incident Response",
-    "value": "resume:Incident Response"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Flux",
-    "label": "Flux",
-    "value": "resume:Flux"
-   },
-   {
-    "id": "resume:Google Kubernetes Engine (GKE)",
-    "label": "Google Kubernetes Engine (GKE)",
-    "value": "resume:Google Kubernetes Engine (GKE)"
+    "id": "resume:CSS",
+    "label": "CSS",
+    "value": "resume:CSS"
    },
    {
     "id": "resume:Machine Learning",
     "label": "Machine Learning",
     "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
+    "id": "resume:Front-end Development",
+    "label": "Frontend Web Development",
+    "value": "resume:Front-end Development"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:CSS",
+    "label": "CSS",
+    "value": "resume:CSS"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
+    "id": "resume:Front-end Development",
+    "label": "Frontend Web Development",
+    "value": "resume:Front-end Development"
+   },
+   {
+    "id": "resume:React.js",
+    "label": "React.js",
+    "value": "resume:React.js"
+   },
+   {
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
+   },
+   {
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    }
   ],
   "manager": false,
@@ -246,21 +257,31 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    5,
+    6
    ]
   ],
-  "minYearsExp": 4,
+  "minYearsExp": 7,
   "regions": [
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    },
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
@@ -278,19 +299,9 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI/ML",
-    "label": "AI/ML",
-    "value": "AI/ML"
-   },
-   {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
    },
    {
     "id": "SaaS",
@@ -299,23 +310,23 @@
    }
   ],
   "timeStamp": "2026-11-07T00:00:00Z",
-  "title": "Engineering Manager, Site Reliability Engineering",
-  "url": "https://jobs.ashbyhq.com/baseten/67a47938-5cb8-40c9-b027-3c2879f74c00",
-  "jobId": "67a47938-5cb8-40c9-b027-3c2879f74c00",
+  "title": "Software Engineer, Front-End (New York)",
+  "url": "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/e3f4fa1f-8647-4452-90fe-495ff63f6a51",
+  "jobId": "e3f4fa1f-8647-4452-90fe-495ff63f6a51",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1802430656343, 'matchScore': 0, 'ageScore': 0.9802430656342592, 'richnessScore': 2}",
+  "scores": "{'score': 1001.176035401971, 'matchScore': 0, 'ageScore': 0.9760354019710649, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },

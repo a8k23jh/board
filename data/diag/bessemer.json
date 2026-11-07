@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-07T16:55:04Z",
+ "run": "2026-11-07T20:59:01Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "V31BFZ0wMN\u2026",
+  "session.sig": "47NSSRi8pn\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTdiMzUyZjlhMjc3MDQ0OTVhYzkwYTExY2YxMjhlODEiLCAic2NvcmUiOiAxLjEyNzMzNDA4NDU5NDEzNTh9"
+   "sequence": "eyJfaWQiOiAiNjQzNWM0ZjkwMzE4ZDZjZmU2N2FjYzE4NTQ1MjMyNjciLCAic2NvcmUiOiAxLjEyMzI4NzUwOTMxNzEyOTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,116 +152,139 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/pivotal-health/734bbc07-f5be-4c26-9613-e8b97ac21e2f?utm_source=jobs.bvp.com",
-  "companyDomain": "pivotalhealth.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6631ba18e0aadffa355465be110d503e_176_160?Expires=1861920000&Signature=Oo-LVPwE4WR0PsqSFgC7D6M5g6x4e5JXjugwkpTpalmpO-P2sbwAq",
-  "companyId": "Pivotal Health",
-  "companySlug": "pivotal-health",
-  "companyName": "Pivotal Health",
-  "companyStaffCount": 36,
+  "applyUrl": "https://jobs.ashbyhq.com/fireworks/1f11f94a-5e5b-4691-a931-1e54222afb08?utm_source=jobs.bvp.com",
+  "companyDomain": "fireworks.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/40b3918a0960959c31d888e088bb965a_320_160?Expires=1861920000&Signature=UjSzeT~6BqdE5R2QnlcKR8samdbxLAm3eMZWqs6vNVYfD9dHTfpKe",
+  "companyId": "Fireworks AI",
+  "companySlug": "fireworks-ai",
+  "companyName": "Fireworks AI",
+  "companyStaffCount": 446,
   "considerHosted": false,
   "departments": [
-   "Product"
+   "GRC"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "compliance-risk",
+    "label": "Risk & Compliance Manager",
+    "value": "compliance-risk"
+   },
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Auditing",
+    "label": "Auditing",
+    "value": "Auditing"
+   },
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   }
+  ],
   "locations": [
-   "New York City, New York, United States",
-   "Remote - US"
+   "San Mateo, California, United States",
+   "San Mateo",
+   "New York"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Mateo, California",
+    "label": "San Mateo, California",
+    "value": "San Mateo, California"
    },
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125000, 'maxValue': 147000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
+    "id": "resume:SOC 2",
+    "label": "SOC 2",
+    "value": "resume:SOC 2"
    },
    {
-    "id": "resume:Appeals",
-    "label": "Appeals",
-    "value": "resume:Appeals"
+    "id": "resume:Encryption",
+    "label": "Encryption",
+    "value": "resume:Encryption"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Penetration Testing",
+    "label": "Penetration Testing",
+    "value": "resume:Penetration Testing"
    },
    {
-    "id": "resume:Health Insurance",
-    "label": "Health Insurance",
-    "value": "resume:Health Insurance"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Access Control",
+    "label": "Access Control",
+    "value": "resume:Access Control"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
+    "id": "resume:SOC 2",
+    "label": "SOC 2",
+    "value": "resume:SOC 2"
    },
    {
-    "id": "resume:Appeals",
-    "label": "Appeals",
-    "value": "resume:Appeals"
+    "id": "resume:Encryption",
+    "label": "Encryption",
+    "value": "resume:Encryption"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Penetration Testing",
+    "label": "Penetration Testing",
+    "value": "resume:Penetration Testing"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Health Insurance",
-    "label": "Health Insurance",
-    "value": "resume:Health Insurance"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Access Control",
+    "label": "Access Control",
+    "value": "resume:Access Control"
    },
    {
-    "id": "resume:Conflict Resolution",
-    "label": "Conflict Resolution",
-    "value": "resume:Conflict Resolution"
+    "id": "resume:Incident Response",
+    "label": "Incident Response",
+    "value": "resume:Incident Response"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Due Diligence",
+    "label": "Due Diligence",
+    "value": "resume:Due Diligence"
    },
    {
-    "id": "resume:Nursing",
-    "label": "Nursing",
-    "value": "resume:Nursing"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "manager": false,
@@ -269,21 +292,17 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 3,
+  "maxYearsExp": 5,
   "regions": [
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "East Coast",
     "label": "East Coast",
@@ -295,6 +314,16 @@
     "value": "Northeast"
    },
    {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -302,36 +331,42 @@
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
   "timeStamp": "2026-11-07T00:00:00Z",
-  "title": "Clinical Subject Matter Expert",
-  "url": "https://jobs.ashbyhq.com/pivotal-health/734bbc07-f5be-4c26-9613-e8b97ac21e2f",
-  "jobId": "734bbc07-f5be-4c26-9613-e8b97ac21e2f",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1804327389248, 'matchScore': 0, 'ageScore': 0.9804327389247686, 'richnessScore': 2}",
+  "title": "Third-Party Risk Management Analyst",
+  "url": "https://jobs.ashbyhq.com/fireworks/1f11f94a-5e5b-4691-a931-1e54222afb08",
+  "jobId": "1f11f94a-5e5b-4691-a931-1e54222afb08",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.175964739076, 'matchScore': 0, 'ageScore': 0.9759647390760031, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "expert"
+   "mid"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-11-07T16:55:04Z",
+ "run": "2026-11-07T20:59:01Z",
  "homepage": {
   "status": 200,
   "bytes": 20756
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "cq1JsIZCcv\u2026",
+  "session.sig": "U0IrvxV_Tr\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTExYzhhMTI4NzIzOWFmMDY1ZDYzZTMzZmJmY2MwMzUiLCAic2NvcmUiOiAxLjExMjcwMTkzNzM2NDk2OTF9"
+   "sequence": "eyJfaWQiOiAiZDYzMGY2N2ZiMjU4NmE5NDI3MDhjNTJiNWQ4MDFjNmIiLCAic2NvcmUiOiAxLjEwODY0MTc4MzIwNjAxODV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,6 +160,11 @@
   ],
   "jobTypes": [
    {
+    "id": "embedded-engineer",
+    "label": "Embedded Linux Engineer",
+    "value": "embedded-engineer"
+   },
+   {
     "id": "hardware-engineer",
     "label": "Hardware Engineer",
     "value": "hardware-engineer"
@@ -168,11 +173,6 @@
     "id": "firmware-engineer",
     "label": "Firmware Engineer",
     "value": "firmware-engineer"
-   },
-   {
-    "id": "embedded-engineer",
-    "label": "Embedded Linux Engineer",
-    "value": "embedded-engineer"
    }
   ],
   "jobFunctions": [
@@ -195,58 +195,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 132000, 'maxValue': 178000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:ISO",
-    "label": "ISO",
-    "value": "resume:ISO"
-   },
-   {
-    "id": "resume:Spacecraft",
-    "label": "Spacecraft",
-    "value": "resume:Spacecraft"
-   },
-   {
-    "id": "resume:DoD",
-    "label": "DoD",
-    "value": "resume:DoD"
-   },
-   {
-    "id": "resume:Technical Writing",
-    "label": "Technical Writing",
-    "value": "resume:Technical Writing"
-   },
-   {
-    "id": "resume:Shell Scripting",
-    "label": "Shell Scripting",
-    "value": "resume:Shell Scripting"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:ISO",
-    "label": "ISO",
-    "value": "resume:ISO"
-   },
-   {
-    "id": "resume:Spacecraft",
-    "label": "Spacecraft",
-    "value": "resume:Spacecraft"
-   },
-   {
-    "id": "resume:DoD",
-    "label": "DoD",
-    "value": "resume:DoD"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Technical Writing",
-    "label": "Technical Writing",
-    "value": "resume:Technical Writing"
-   },
-   {
-    "id": "resume:Shell Scripting",
-    "label": "Shell Scripting",
-    "value": "resume:Shell Scripting"
+    "id": "resume:Top Secret",
+    "label": "Clearance",
+    "value": "resume:Top Secret"
    },
    {
     "id": "resume:Unreal Engine",
@@ -254,14 +205,63 @@
     "value": "resume:Unreal Engine"
    },
    {
-    "id": "resume:Avionics",
-    "label": "Avionics",
-    "value": "resume:Avionics"
+    "id": "resume:Diagnostics",
+    "label": "Diagnostics",
+    "value": "resume:Diagnostics"
    },
    {
-    "id": "resume:Ethernet",
-    "label": "Ethernet",
-    "value": "resume:Ethernet"
+    "id": "resume:Bash",
+    "label": "Bash",
+    "value": "resume:Bash"
+   },
+   {
+    "id": "resume:TCP/IP",
+    "label": "TCP/IP",
+    "value": "resume:TCP/IP"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Top Secret",
+    "label": "Clearance",
+    "value": "resume:Top Secret"
+   },
+   {
+    "id": "resume:Unreal Engine",
+    "label": "Unreal Engine",
+    "value": "resume:Unreal Engine"
+   },
+   {
+    "id": "resume:Diagnostics",
+    "label": "Diagnostics",
+    "value": "resume:Diagnostics"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Bash",
+    "label": "Bash",
+    "value": "resume:Bash"
+   },
+   {
+    "id": "resume:TCP/IP",
+    "label": "TCP/IP",
+    "value": "resume:TCP/IP"
+   },
+   {
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
+   },
+   {
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
+   },
+   {
+    "id": "resume:Shell Scripting",
+    "label": "Shell Scripting",
+    "value": "resume:Shell Scripting"
    }
   ],
   "manager": false,
@@ -327,7 +327,7 @@
   "jobId": "am9icG9zdDrzNCEPWHCA9bT2sthlGmPa",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1918927068823, 'matchScore': 0, 'ageScore': 0.9918927068823302, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1883584634202, 'matchScore': 0, 'ageScore': 0.9883584634201389, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

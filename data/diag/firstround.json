@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-11-07T16:55:04Z",
+ "run": "2026-11-07T20:59:01Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "8ID28HrYO6\u2026",
+  "session.sig": "sewyU1aHjc\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzQ3YWU3NGI0MmViMWIzMGQ3YTlmNzlkYWY5NjFhMDkiLCAic2NvcmUiOiAxLjA0NjQ4ODU5MjI4NDMzNjN9"
+   "sequence": "eyJfaWQiOiAiYjdlYzIyMGFkYTk5OTQxMDNhZjA1NzRkY2RhMGI4ZTQiLCAic2NvcmUiOiAxLjA0MjUyNDQ5NDA5MjIwN30="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/rillet/38145e67-5e04-462b-9436-e10b0a1f72d0?utm_source=jobs.firstround.com",
+  "applyUrl": "https://jobs.ashbyhq.com/rillet/34f78d78-2d29-4584-a961-3d4c4dede0c8?utm_source=jobs.firstround.com",
   "companyDomain": "rillet.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1020a40dbb28ab516cf670445e5f7efa_192_160?Expires=1861920000&Signature=o0h0y4VqMM8C2JNvWdvoNUlqRBloFH0okrPGisJ6a6~18~l-aXYdn",
   "companyId": "Rillet",
@@ -164,20 +164,30 @@
   "companyStaffCount": 209,
   "considerHosted": false,
   "departments": [
-   "Revenue Operations"
+   "GTM"
   ],
   "jobTypes": [
    {
-    "id": "billing-manager",
-    "label": "Billing Director",
-    "value": "billing-manager"
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "account-manager",
+    "label": "Account Manager",
+    "value": "account-manager"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Accounting",
-    "label": "Accounting",
-    "value": "Accounting"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
@@ -189,14 +199,14 @@
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    },
    {
     "id": "Chicago, Illinois",
@@ -204,67 +214,8 @@
     "value": "Chicago, Illinois"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 290000, 'maxValue': 320000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:CPQ",
-    "label": "CPQ",
-    "value": "resume:CPQ"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:CPQ",
-    "label": "CPQ",
-    "value": "resume:CPQ"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
-   },
-   {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
-   },
    {
     "id": "resume:ERP",
     "label": "ERP",
@@ -274,9 +225,68 @@
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Growth Marketing",
+    "label": "Growth Marketing",
+    "value": "resume:Growth Marketing"
+   },
+   {
+    "id": "resume:Packaging",
+    "label": "Packaging",
+    "value": "resume:Packaging"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
-  "manager": false,
+  "requiredSkills": [
+   {
+    "id": "resume:ERP",
+    "label": "ERP",
+    "value": "resume:ERP"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Growth Marketing",
+    "label": "Growth Marketing",
+    "value": "resume:Growth Marketing"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Packaging",
+    "label": "Packaging",
+    "value": "resume:Packaging"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
+   },
+   {
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
+   },
+   {
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
+   }
+  ],
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -287,24 +297,24 @@
   ],
   "regions": [
    {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
-   },
-   {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -343,12 +353,12 @@
    }
   ],
   "timeStamp": "2026-11-07T00:00:00Z",
-  "title": "Director of Revenue Operations",
-  "url": "https://jobs.ashbyhq.com/rillet/38145e67-5e04-462b-9436-e10b0a1f72d0",
-  "jobId": "38145e67-5e04-462b-9436-e10b0a1f72d0",
+  "title": "Director of Account Management",
+  "url": "https://jobs.ashbyhq.com/rillet/34f78d78-2d29-4584-a961-3d4c4dede0c8",
+  "jobId": "34f78d78-2d29-4584-a961-3d4c4dede0c8",
   "remote": true,
   "hybrid": true,
-  "scores": "{'score': 1001.1801657515332, 'matchScore': 0, 'ageScore': 0.980165751533179, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1760641333121, 'matchScore': 0, 'ageScore': 0.9760641333121142, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
