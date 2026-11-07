@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-07T02:56:06Z",
+ "run": "2026-11-07T10:28:13Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "l5Mu9jiiLs\u2026",
+  "session.sig": "kkRkd2on3x\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWU4NGFmYTkxODc1MWY1OTM1OTlkOGNlNDdiNWUwMDYiLCAic2NvcmUiOiAxLjEyMTg1MjU3NzM4NDY0NX0="
+   "sequence": "eyJfaWQiOiAiNDE4NDhmZWRhMGE3Zjk1ZDZjZjBhNGU4YTg4ZjJkOWMiLCAic2NvcmUiOiAxLjExMzg3NTM0ODE1OTMzNjR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,33 +128,33 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lumafield/1079efc0-e2e5-4963-b626-92f8941d9709?lever-source%5B%5D=careers.ivp.com",
-  "companyDomain": "lumafield.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
-  "companyId": "Lumafield",
-  "companySlug": "lumafield",
-  "companyName": "Lumafield",
-  "companyStaffCount": 156,
+  "applyUrl": "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/9f17378e-635a-4d92-9941-e38363afab4f?utm_source=careers.ivp.com",
+  "companyDomain": "superhuman.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d86c43da59fa45e2fbf3309be7862fd_320_160?Expires=1861920000&Signature=bgHYDLO8m-r2KA91-sNPuPqnf3Yp0GbAdK2rKsVz8cXY9iGHWhctP",
+  "companyId": "Superhuman",
+  "companySlug": "superhuman",
+  "companyName": "Superhuman",
+  "companyStaffCount": 167,
   "considerHosted": false,
   "departments": [
    "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "mechanical-engineer",
-    "label": "Mechanical Engineer",
-    "value": "mechanical-engineer"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
@@ -165,80 +165,91 @@
    }
   ],
   "locations": [
-   "San Francisco, CA"
+   "New York, New York, United States",
+   "Hub - New York"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 154000, 'maxValue': 258000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Quantitative Data",
-    "label": "Quantitative Data",
-    "value": "resume:Quantitative Data"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Imaging",
-    "label": "Imaging",
-    "value": "resume:Imaging"
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Go",
+    "label": "Golang",
+    "value": "resume:Go"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Quantitative Data",
-    "label": "Quantitative Data",
-    "value": "resume:Quantitative Data"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Imaging",
-    "label": "Imaging",
-    "value": "resume:Imaging"
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Go",
+    "label": "Golang",
+    "value": "resume:Go"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Operational Excellence",
-    "label": "Operational Excellence",
-    "value": "resume:Operational Excellence"
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
    },
    {
-    "id": "resume:Mechanical Design",
-    "label": "Mechanical Design",
-    "value": "resume:Mechanical Design"
+    "id": "resume:Google Cloud Platform",
+    "label": "Google Cloud Platform",
+    "value": "resume:Google Cloud Platform"
+   },
+   {
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    }
   ],
   "manager": false,
@@ -254,21 +265,27 @@
     6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    }
   ],
   "stages": [
@@ -276,33 +293,44 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Medical Devices",
-    "label": "Medical Devices",
-    "value": "Medical Devices"
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-11-06T21:44:46.345000Z",
-  "title": "Senior Mechanical Engineer",
-  "url": "https://jobs.lever.co/lumafield/1079efc0-e2e5-4963-b626-92f8941d9709",
-  "jobId": "1079efc0-e2e5-4963-b626-92f8941d9709",
+  "timeStamp": "2026-11-07T00:00:00Z",
+  "title": "Software Engineer, Back-End - Go (NY)",
+  "url": "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/9f17378e-635a-4d92-9941-e38363afab4f",
+  "jobId": "9f17378e-635a-4d92-9941-e38363afab4f",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1953833505834, 'matchScore': 0, 'ageScore': 0.9953833505833334, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.188756509096, 'matchScore': 0, 'ageScore': 0.9887565090960648, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
