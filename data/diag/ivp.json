@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-08T15:23:06Z",
+ "run": "2026-11-08T19:51:23Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "G_tRByZ6It\u2026",
+  "session.sig": "kk6EKubwt3\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTcxOTk0ZDA2OWVkYjEyMWM1NjIyMmM3NTJjOTNkNmMiLCAic2NvcmUiOiAxLjA3NzA5MjY5MjcxNjA0OTN9"
+   "sequence": "eyJfaWQiOiAiNDE4NDhmZWRhMGE3Zjk1ZDZjZjBhNGU4YTg4ZjJkOWMiLCAic2NvcmUiOiAxLjA2ODkwODMyNTU4MzMzMzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,117 +128,120 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/baseten/67a47938-5cb8-40c9-b027-3c2879f74c00?utm_source=careers.ivp.com",
-  "companyDomain": "baseten.co",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/aaa340387ade367703b1e49f53eb3028_288_160?Expires=1861920000&Signature=Al-9uky9kPkU3yG72nW3BbljsCHFZiSSqwfe53K8yzheEMID8gJHG",
-  "companyId": "BaseTen",
-  "companySlug": "baseten",
-  "companyName": "Baseten",
-  "companyStaffCount": 440,
+  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/1056951e-8a42-4330-b72c-90162b3cd1c9?utm_source=careers.ivp.com",
+  "companyDomain": "perplexity.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
+  "companyId": "Perplexity AI",
+  "companySlug": "perplexity-ai",
+  "companyName": "Perplexity AI",
+  "companyStaffCount": 1408,
   "considerHosted": false,
   "departments": [
-   "SRE"
+   "AI Research & Systems"
   ],
   "jobTypes": [
    {
-    "id": "site-reliability-manager",
-    "label": "Manager Site Reliability Engineering",
-    "value": "site-reliability-manager"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
+   },
+   {
+    "id": "policy-professional",
+    "label": "Policy and Public Affairs",
+    "value": "policy-professional"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "London, United Kingdom",
-   "London"
+   "San Francisco, California, United States",
+   "Washington, District of Columbia, United States",
+   "San Francisco",
+   "Washington D.C."
   ],
   "normalizedLocations": [
    {
-    "id": "London, Greater London, United Kingdom",
-    "label": "London",
-    "value": "London, Greater London, United Kingdom"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 185000, 'maxValue': 276000, 'currency': {'label': 'GBP', 'value': 'GBP'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Flux",
-    "label": "Flux",
-    "value": "resume:Flux"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Incident Response",
-    "label": "Incident Response",
-    "value": "resume:Incident Response"
+    "id": "resume:Intellectual Property",
+    "label": "Intellectual Property",
+    "value": "resume:Intellectual Property"
    },
    {
-    "id": "resume:Reliability Engineering",
-    "label": "Reliability Engineering",
-    "value": "resume:Reliability Engineering"
+    "id": "resume:Litigation",
+    "label": "Litigation",
+    "value": "resume:Litigation"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Flux",
-    "label": "Flux",
-    "value": "resume:Flux"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Incident Response",
-    "label": "Incident Response",
-    "value": "resume:Incident Response"
+    "id": "resume:Intellectual Property",
+    "label": "Intellectual Property",
+    "value": "resume:Intellectual Property"
    },
    {
-    "id": "resume:Reliability Engineering",
-    "label": "Reliability Engineering",
-    "value": "resume:Reliability Engineering"
-   },
-   {
-    "id": "resume:Helm",
-    "label": "Helm",
-    "value": "resume:Helm"
-   },
-   {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
-   },
-   {
-    "id": "resume:Terraform",
-    "label": "Terraform",
-    "value": "resume:Terraform"
+    "id": "resume:Litigation",
+    "label": "Litigation",
+    "value": "resume:Litigation"
    }
   ],
   "manager": false,
@@ -248,74 +251,72 @@
    [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 4,
   "regions": [
    {
-    "id": "Western Europe",
-    "label": "Western Europe",
-    "value": "Western Europe"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI/ML",
-    "label": "AI/ML",
-    "value": "AI/ML"
-   },
-   {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
   "timeStamp": "2026-11-07T00:00:00Z",
-  "title": "Engineering Manager, Site Reliability Engineering",
-  "url": "https://jobs.ashbyhq.com/baseten/67a47938-5cb8-40c9-b027-3c2879f74c00",
-  "jobId": "67a47938-5cb8-40c9-b027-3c2879f74c00",
+  "title": "Member of Technical Staff (Software Engineer, AI Policy and Strategic Initiatives)",
+  "url": "https://jobs.ashbyhq.com/Perplexity/1056951e-8a42-4330-b72c-90162b3cd1c9",
+  "jobId": "1056951e-8a42-4330-b72c-90162b3cd1c9",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.150674259968, 'matchScore': 0, 'ageScore': 0.9506742599679784, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1427885510246, 'matchScore': 0, 'ageScore': 0.9427885510246914, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

@@ -1,6 +1,7 @@
 {
  "board": "lightspeed",
- "run": "2026-11-08T15:23:06Z",
+ "run": "2026-11-08T19:51:23Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.lsvp.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 21354
@@ -42,7 +43,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "X8Xn2ol12D\u2026",
+  "session.sig": "ZsfDlIDzF9\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +128,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTU5NDlmYzMwMTY0YTIyMTExYWE5YWQxZDNkOTYzMzEiLCAic2NvcmUiOiAxLjEyOTA0ODQ0NDY0ODkxOTd9"
+   "sequence": "eyJfaWQiOiAiMWM5YWZjMTMwMGViZWM3OGJmNmU0MWIxYTE0OWEzMDkiLCAic2NvcmUiOiAxLjEyMTAxNDEzMzUwMTU0M30="
   },
   "job_keys": [
    "applicationWindow",
@@ -204,9 +205,9 @@
     "value": "resume:Performance Optimization"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Infrastructure",
@@ -219,9 +220,9 @@
     "value": "resume:C/C++"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Computer Architecture",
+    "label": "Computer Architecture",
+    "value": "resume:Computer Architecture"
    }
   ],
   "requiredSkills": [
@@ -231,9 +232,9 @@
     "value": "resume:Performance Optimization"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Infrastructure",
@@ -248,24 +249,24 @@
     "value": "resume:C/C++"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
-   },
-   {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
+    "id": "resume:Computer Architecture",
+    "label": "Computer Architecture",
+    "value": "resume:Computer Architecture"
    },
    {
     "id": "resume:Unit Testing",
     "label": "Unit Testing",
     "value": "resume:Unit Testing"
+   },
+   {
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
+   },
+   {
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    }
   ],
   "manager": false,
@@ -289,6 +290,11 @@
     "value": "North America"
    },
    {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
@@ -297,11 +303,6 @@
     "id": "Northwest",
     "label": "Northwest",
     "value": "Northwest"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -324,28 +325,29 @@
   "jobId": "5288098007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1864760311046, 'matchScore': 0, 'ageScore': 0.9864760311045525, 'richnessScore': 2}",
+  "scores": "{'score': 1001.178610331101, 'matchScore': 0, 'ageScore': 0.9786103311010802, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
-   {
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
