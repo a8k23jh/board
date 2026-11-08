@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-11-08T07:30:40Z",
+ "run": "2026-11-08T15:23:06Z",
  "homepage": {
   "status": 200,
   "bytes": 25383
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ke2gvvym84\u2026",
+  "session.sig": "gxjH3qk-NJ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzRlODVmZmY5MTU5ODk0MzJkNTA4MWE4OWMwYzVlMTIiLCAic2NvcmUiOiAxLjA3NjY5MzUwMzAyODU0OTR9"
+   "sequence": "eyJfaWQiOiAiMzRlODVmZmY5MTU5ODk0MzJkNTA4MWE4OWMwYzVlMTIiLCAic2NvcmUiOiAxLjA2ODM3MjYwNTQwNjYzNTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,7 +147,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/heaviside/8ceb9049-26fa-4b2f-ae2c-a04fc01da359?utm_source=jobs.felicis.com",
+  "applyUrl": "https://jobs.ashbyhq.com/heaviside/5785f2c6-3951-49d4-b206-edb4bb640a90?utm_source=jobs.felicis.com",
   "companyDomain": "theheaviside.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c5988f4a7b78cccaa39c662af0685c23_272_160?Expires=1861920000&Signature=EAyNQZ9zct9h7cxN19BqBmkbp3Oluyk5DL8RBceHkEdUmesvIDeDn",
   "companyId": "Heaviside Industries",
@@ -160,12 +160,18 @@
   ],
   "jobTypes": [
    {
-    "id": "inventory-specialist",
-    "label": "Inventory Specialist",
-    "value": "inventory-specialist"
+    "id": "technician",
+    "label": "Technician",
+    "value": "technician"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Technician",
+    "label": "Technician",
+    "value": "Technician"
+   }
+  ],
   "locations": [
    "Marina Del Rey, CA, United States",
    "Los Angeles"
@@ -182,22 +188,17 @@
     "value": "Greater Los Angeles Area"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 75000, 'maxValue': 90000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 21, 'maxValue': 30, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Inventory Management",
-    "label": "Inventory Management",
-    "value": "resume:Inventory Management"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Packaging",
-    "label": "Packaging",
-    "value": "resume:Packaging"
-   },
-   {
-    "id": "resume:Palletization",
-    "label": "Palletization",
-    "value": "resume:Palletization"
+    "id": "resume:Electromechanics",
+    "label": "Electromechanics",
+    "value": "resume:Electromechanics"
    },
    {
     "id": "resume:Quality Assurance",
@@ -205,53 +206,48 @@
     "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Warehouse Operations",
-    "label": "Warehouse Operations",
-    "value": "resume:Warehouse Operations"
+    "id": "resume:Assembly",
+    "label": "Assembly",
+    "value": "resume:Assembly"
+   },
+   {
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Inventory Management",
-    "label": "Inventory Management",
-    "value": "resume:Inventory Management"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Packaging",
-    "label": "Packaging",
-    "value": "resume:Packaging"
+    "id": "resume:Electromechanics",
+    "label": "Electromechanics",
+    "value": "resume:Electromechanics"
    },
-   {
-    "id": "resume:Palletization",
-    "label": "Palletization",
-    "value": "resume:Palletization"
-   }
-  ],
-  "preferredSkills": [
    {
     "id": "resume:Quality Assurance",
     "label": "Quality Assurance",
     "value": "resume:Quality Assurance"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Assembly",
+    "label": "Assembly",
+    "value": "resume:Assembly"
    },
    {
-    "id": "resume:Warehouse Operations",
-    "label": "Warehouse Operations",
-    "value": "resume:Warehouse Operations"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
-   },
-   {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
-   },
-   {
-    "id": "resume:NetSuite",
-    "label": "NetSuite",
-    "value": "resume:NetSuite"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    }
   ],
   "manager": false,
@@ -267,7 +263,7 @@
     4
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 1,
   "regions": [
    {
     "id": "North America",
@@ -275,14 +271,14 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -311,12 +307,12 @@
    }
   ],
   "timeStamp": "2026-11-07T00:00:00Z",
-  "title": "Inventory Specialist",
-  "url": "https://jobs.ashbyhq.com/heaviside/8ceb9049-26fa-4b2f-ae2c-a04fc01da359",
-  "jobId": "8ceb9049-26fa-4b2f-ae2c-a04fc01da359",
+  "title": "Production Technician",
+  "url": "https://jobs.ashbyhq.com/heaviside/5785f2c6-3951-49d4-b206-edb4bb640a90",
+  "jobId": "5785f2c6-3951-49d4-b206-edb4bb640a90",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1594625401042, 'matchScore': 0, 'ageScore': 0.9594625401041667, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1512334088935, 'matchScore': 0, 'ageScore': 0.9512334088935185, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

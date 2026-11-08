@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-11-08T07:30:40Z",
+ "run": "2026-11-08T15:23:06Z",
  "homepage": {
   "status": 200,
   "bytes": 21354
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TNY760GpfB\u2026",
+  "session.sig": "X8Xn2ol12D\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjc1ZjE4NjY1MjUyYWVkZjgyNmYwMTM2OTk1OWQ4MWMiLCAic2NvcmUiOiAxLjEyNzA2NTkwMjY1ODE3OX0="
+   "sequence": "eyJfaWQiOiAiYTU5NDlmYzMwMTY0YTIyMTExYWE5YWQxZDNkOTYzMzEiLCAic2NvcmUiOiAxLjEyOTA0ODQ0NDY0ODkxOTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,122 +144,128 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/helion/2df4c8ec-2186-4b42-9c1b-112c08a544d0?utm_source=jobs.lsvp.com",
-  "companyDomain": "helionenergy.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/45229fa5c7b7946a2c3a59a2c42139a0_304_160?Expires=1861920000&Signature=Yl1kayS3rvKck22PmDEhmtxyAvQ4AyRAzCQJ4IhfwSJQ-wlfqAEM7",
-  "companyId": "Helion",
-  "companySlug": "helion",
-  "companyName": "Helion",
-  "companyStaffCount": 473,
+  "applyUrl": "https://job-boards.greenhouse.io/xai/jobs/5288098007",
+  "companyDomain": "x.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a563be051526800c631b57d051023cd3_56_160?Expires=1861920000&Signature=hBRrhvnHYFuPHuz9CLSCj5456MymjsM2N65I2tjXlYjJlhlgM~dQFR",
+  "companyId": "xAI",
+  "companySlug": "xai",
+  "companyName": "xAI",
+  "companyStaffCount": 6672,
   "considerHosted": false,
   "departments": [
-   "Capacitor Manufacturing"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "maintenance-technician",
-    "label": "Maintenance Technician",
-    "value": "maintenance-technician"
+    "id": "tech-lead",
+    "label": "Tech Lead",
+    "value": "tech-lead"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Everett, WA, United States",
-   "Everett, WA"
+   "Palo Alto, CA",
+   "Seattle, WA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    },
    {
-    "id": "Everett, Washington",
-    "label": "Everett, Washington",
-    "value": "Everett, Washington"
+    "id": "Palo Alto, California",
+    "label": "Palo Alto, California",
+    "value": "Palo Alto, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 43.9, 'maxValue': 52.43, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 357000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Aviation",
-    "label": "Aviation",
-    "value": "resume:Aviation"
+    "id": "resume:Performance Optimization",
+    "label": "Performance Optimization",
+    "value": "resume:Performance Optimization"
    },
    {
-    "id": "resume:Diagnostics",
-    "label": "Diagnostics",
-    "value": "resume:Diagnostics"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:OEM",
-    "label": "OEM",
-    "value": "resume:OEM"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Power Distribution",
-    "label": "Power Distribution",
-    "value": "resume:Power Distribution"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Aviation",
-    "label": "Aviation",
-    "value": "resume:Aviation"
+    "id": "resume:Performance Optimization",
+    "label": "Performance Optimization",
+    "value": "resume:Performance Optimization"
    },
    {
-    "id": "resume:Diagnostics",
-    "label": "Diagnostics",
-    "value": "resume:Diagnostics"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:OEM",
-    "label": "OEM",
-    "value": "resume:OEM"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Power Distribution",
-    "label": "Power Distribution",
-    "value": "resume:Power Distribution"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Sensors",
-    "label": "Sensors",
-    "value": "resume:Sensors"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Escalation",
-    "label": "Escalation",
-    "value": "resume:Escalation"
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:Unit Testing",
+    "label": "Unit Testing",
+    "value": "resume:Unit Testing"
    }
   ],
   "manager": false,
@@ -267,20 +273,25 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 3,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Northwest",
@@ -291,45 +302,29 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Energy",
-    "label": "Energy",
-    "value": "Energy"
-   },
-   {
-    "id": "Renewables & Environment",
-    "label": "Renewables & Environment",
-    "value": "Renewables & Environment"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    }
   ],
-  "timeStamp": "2026-11-07T00:00:00Z",
-  "title": "Second Shift Senior Maintenance Technician",
-  "url": "https://jobs.ashbyhq.com/helion/2df4c8ec-2186-4b42-9c1b-112c08a544d0",
-  "jobId": "2df4c8ec-2186-4b42-9c1b-112c08a544d0",
+  "timeStamp": "2026-11-08T01:55:58Z",
+  "title": "Lead Engineer, AI Infrastructure (C++, C)",
+  "url": "https://job-boards.greenhouse.io/xai/jobs/5288098007",
+  "jobId": "5288098007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1594898470853, 'matchScore': 0, 'ageScore': 0.9594898470852623, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1864760311046, 'matchScore': 0, 'ageScore': 0.9864760311045525, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -337,10 +332,16 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
