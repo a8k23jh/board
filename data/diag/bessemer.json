@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-08T19:51:23Z",
+ "run": "2026-11-08T23:49:07Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "nruVqBmGjR\u2026",
+  "session.sig": "0CD2sbsOVY\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzAxZmMzMTZhOTUyZTlkNzNiNGZiMTdiNGVmYTNiMGIiLCAic2NvcmUiOiAxLjA5MDU1MzQ4OTU0NTUyNDd9"
+   "sequence": "eyJfaWQiOiAiYjJhY2E3OWI2ZTM3NzIxMzAwNTJlNWVmNjZiMzI0ODciLCAic2NvcmUiOiAxLjA4Njc5MzAyOTU1MDE1NDR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -207,63 +207,53 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 284000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
-   {
     "id": "resume:Python",
     "label": "Python",
     "value": "resume:Python"
    },
    {
-    "id": "resume:Software Development Process",
-    "label": "Software Development Processes",
-    "value": "resume:Software Development Process"
+    "id": "resume:Statistical Analysis",
+    "label": "Statistical Analysis",
+    "value": "resume:Statistical Analysis"
    },
    {
-    "id": "resume:Matlab",
-    "label": "Matlab",
-    "value": "resume:Matlab"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
     "id": "resume:Data Collection",
     "label": "Data Collection",
     "value": "resume:Data Collection"
+   },
+   {
+    "id": "resume:Robotics",
+    "label": "Robotics",
+    "value": "resume:Robotics"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
-   },
-   {
     "id": "resume:Python",
     "label": "Python",
     "value": "resume:Python"
    },
    {
-    "id": "resume:Software Development Process",
-    "label": "Software Development Processes",
-    "value": "resume:Software Development Process"
+    "id": "resume:Statistical Analysis",
+    "label": "Statistical Analysis",
+    "value": "resume:Statistical Analysis"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Matlab",
-    "label": "Matlab",
-    "value": "resume:Matlab"
-   },
-   {
     "id": "resume:Data Collection",
     "label": "Data Collection",
     "value": "resume:Data Collection"
-   },
-   {
-    "id": "resume:Stakeholder Engagement",
-    "label": "Stakeholder Engagement",
-    "value": "resume:Stakeholder Engagement"
    },
    {
     "id": "resume:Robotics",
@@ -271,9 +261,19 @@
     "value": "resume:Robotics"
    },
    {
-    "id": "resume:Statistical Analysis",
-    "label": "Statistical Analysis",
-    "value": "resume:Statistical Analysis"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
+   },
+   {
+    "id": "resume:Stakeholder Engagement",
+    "label": "Stakeholder Engagement",
+    "value": "resume:Stakeholder Engagement"
+   },
+   {
+    "id": "resume:Software Development Process",
+    "label": "Software Development Processes",
+    "value": "resume:Software Development Process"
    }
   ],
   "manager": false,
@@ -291,11 +291,6 @@
   ],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -304,6 +299,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -332,24 +332,24 @@
   "jobId": "8363213",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1722177450386, 'matchScore': 0, 'ageScore': 0.9722177450385803, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1680714330413, 'matchScore': 0, 'ageScore': 0.9680714330412808, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
