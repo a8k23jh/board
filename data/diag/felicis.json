@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-11-09T06:53:49Z",
+ "run": "2026-11-09T17:40:14Z",
  "homepage": {
   "status": 200,
   "bytes": 25383
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "tmD1QS1q3m\u2026",
+  "session.sig": "yQlbHp_L7j\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzRlODVmZmY5MTU5ODk0MzJkNTA4MWE4OWMwYzVlMTIiLCAic2NvcmUiOiAxLjA0MzU1MjMyMjMzNjAzNH0="
+   "sequence": "eyJfaWQiOiAiYzc4ZTg2MmVjOWJlMzM0YTBmZmQ0OGRlOGE5NDU0YTYiLCAic2NvcmUiOiAxLjAzMTU3NjYwODgwMjQ2OTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,97 +147,105 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.coalitioninc.com/job-posting?gh_jid=4752257005",
-  "companyDomain": "coalitioninc.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/fc54b37408c6a2b098dc3b1b7b3efb63_272_160?Expires=1861920000&Signature=VkxDNuMmkRQFJN1VR~TQ5H5ECM~lm6XTw~~LtbiztRLTye1c3knlJ",
-  "companyId": "Coalition",
-  "companySlug": "coalition",
-  "companyName": "Coalition",
-  "companyStaffCount": 700,
+  "applyUrl": "https://jobs.lever.co/ethena/4dbebfbc-e71d-421e-ad07-7848d5bf2b2c?lever-source%5B%5D=jobs.felicis.com",
+  "companyDomain": "goethena.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ce832a9032c484c6007df5c40e6b8656_238_160?Expires=1861920000&Signature=VEPOfsQR6EO3HBC~KrEp04FoH~Yr-SWiXEeX2OMo9le6AJExQcYbj",
+  "companyId": "Ethena",
+  "companySlug": "ethena",
+  "companyName": "Ethena",
+  "companyStaffCount": 86,
   "considerHosted": false,
-  "departments": [
-   "GTM - US Central"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "underwriter",
-    "label": "Underwriter",
-    "value": "underwriter"
+    "id": "fpa-manager",
+    "label": "FP&A Manager",
+    "value": "fpa-manager"
    }
   ],
-  "jobFunctions": [],
-  "locations": [
-   "Any location, United States"
-  ],
-  "normalizedLocations": [
+  "jobFunctions": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Finance",
+    "label": "Finance",
+    "value": "Finance"
+   },
+   {
+    "id": "Accounting",
+    "label": "Accounting",
+    "value": "Accounting"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "locations": [
+   "Remote"
+  ],
+  "normalizedLocations": [],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Underwriting",
-    "label": "Underwriting",
-    "value": "resume:Underwriting"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Creative Solutions",
-    "label": "Creative Solutions",
-    "value": "resume:Creative Solutions"
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Underwriting",
-    "label": "Underwriting",
-    "value": "resume:Underwriting"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Creative Solutions",
-    "label": "Creative Solutions",
-    "value": "resume:Creative Solutions"
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    }
   ],
-  "preferredSkills": [],
+  "preferredSkills": [
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
-  "minYearsExp": 5,
-  "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   }
-  ],
+  "considerLevels": [],
+  "regions": [],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
     "id": "Growth",
@@ -248,29 +256,29 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Insurance",
-    "label": "Insurance",
-    "value": "Insurance"
+    "id": "E-Learning",
+    "label": "E-Learning",
+    "value": "E-Learning"
    }
   ],
-  "timeStamp": "2026-11-08T16:43:50Z",
-  "title": "Senior Underwriter, Central",
-  "url": "https://www.coalitioninc.com/job-posting?gh_jid=4752257005",
-  "jobId": "4752257005",
+  "timeStamp": "2026-11-09T05:48:16.250000Z",
+  "title": "Head of Finance",
+  "url": "https://jobs.lever.co/ethena/4dbebfbc-e71d-421e-ad07-7848d5bf2b2c",
+  "jobId": "4dbebfbc-e71d-421e-ad07-7848d5bf2b2c",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1423817956536, 'matchScore': 0, 'ageScore': 0.9823817956535494, 'richnessScore': 1.6}",
+  "scores": "{'score': 1001.1881167704128, 'matchScore': 0, 'ageScore': 0.9881167704128087, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "director"
   ],
   "isFeatured": false
  },

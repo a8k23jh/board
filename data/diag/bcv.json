@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-09T06:53:49Z",
+ "run": "2026-11-09T17:40:14Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "N5oOGSC779\u2026",
+  "session.sig": "jrI7BJpH2n\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWFiYWUwMjdiYTY4MThhOGNlNGJkNDcyNjY2MzQxZWQiLCAic2NvcmUiOiAxLjA1MjMwOTI3OTU2MTcyODZ9"
+   "sequence": "eyJfaWQiOiAiZjc2NDk0NmZiZTBlMmE2ZjdmZGFhY2E4ZmE5MGE5YjYiLCAic2NvcmUiOiAxLjA0MDE4NTAxNDAxNzM2MTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -176,14 +176,14 @@
   ],
   "jobTypes": [
    {
-    "id": "fulfillment-specialist",
-    "label": "Fulfillment Specialist",
-    "value": "fulfillment-specialist"
-   },
-   {
     "id": "lead",
     "label": "Lead",
     "value": "lead"
+   },
+   {
+    "id": "fulfillment-specialist",
+    "label": "Fulfillment Specialist",
+    "value": "fulfillment-specialist"
    }
   ],
   "jobFunctions": [],
@@ -200,9 +200,19 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 22, 'maxValue': 23, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Warehouse Management",
+    "label": "Warehouse Management",
+    "value": "resume:Warehouse Management"
+   },
+   {
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
+   },
+   {
+    "id": "resume:E-commerce",
+    "label": "E-commerce",
+    "value": "resume:E-commerce"
    },
    {
     "id": "resume:B2B",
@@ -210,63 +220,53 @@
     "value": "resume:B2B"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   },
-   {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
-   },
-   {
-    "id": "resume:E-commerce",
-    "label": "E-commerce",
-    "value": "resume:E-commerce"
+    "id": "resume:Productivity Software",
+    "label": "Productivity Software",
+    "value": "resume:Productivity Software"
    }
   ],
   "requiredSkills": [
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
-   },
-   {
-    "id": "resume:E-commerce",
-    "label": "E-commerce",
-    "value": "resume:E-commerce"
-   },
-   {
-    "id": "resume:Full Stack Development",
-    "label": "Full Stack Development",
-    "value": "resume:Full Stack Development"
-   },
    {
     "id": "resume:Warehouse Management",
     "label": "Warehouse Management",
     "value": "resume:Warehouse Management"
    },
    {
+    "id": "resume:Supply Chain Management",
+    "label": "Supply Chain Management",
+    "value": "resume:Supply Chain Management"
+   },
+   {
+    "id": "resume:E-commerce",
+    "label": "E-commerce",
+    "value": "resume:E-commerce"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
     "id": "resume:Productivity Software",
     "label": "Productivity Software",
     "value": "resume:Productivity Software"
+   },
+   {
+    "id": "resume:Mid-Market",
+    "label": "Mid-Market",
+    "value": "resume:Mid-Market"
+   },
+   {
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
+   },
+   {
+    "id": "resume:Full Stack Development",
+    "label": "Full Stack Development",
+    "value": "resume:Full Stack Development"
    }
   ],
   "manager": false,
@@ -284,14 +284,9 @@
   ],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
    },
    {
     "id": "Central US",
@@ -299,9 +294,14 @@
     "value": "Central US"
    },
    {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -340,15 +340,10 @@
   "jobId": "4752570005",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.181930432429, 'matchScore': 0, 'ageScore': 0.9819304324290123, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1695484172203, 'matchScore': 0, 'ageScore': 0.9695484172202932, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -358,12 +353,17 @@
     "id": "junior",
     "label": "Junior",
     "value": "junior"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid",
-   "junior"
+   "junior",
+   "senior"
   ],
   "isFeatured": false
  },
