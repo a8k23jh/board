@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-11-08T23:49:07Z",
+ "run": "2026-11-09T06:53:49Z",
  "homepage": {
   "status": 200,
   "bytes": 21354
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "0_8Vo3dlU7\u2026",
+  "session.sig": "UmWi7-gMLf\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWM5YWZjMTMwMGViZWM3OGJmNmU0MWIxYTE0OWEzMDkiLCAic2NvcmUiOiAxLjExNjM5MDkzNTg3NTc3MTV9"
+   "sequence": "eyJfaWQiOiAiMzFiZDhjZjA2N2VkNmYyZjdmMDA3YTBiMGNjNWZlMWIiLCAic2NvcmUiOiAxLjEwNDg1NzMxMDY5NTk4NzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,33 +144,33 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/xai/jobs/5288098007",
-  "companyDomain": "x.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a563be051526800c631b57d051023cd3_56_160?Expires=1861920000&Signature=hBRrhvnHYFuPHuz9CLSCj5456MymjsM2N65I2tjXlYjJlhlgM~dQFR",
-  "companyId": "xAI",
-  "companySlug": "xai",
-  "companyName": "xAI",
-  "companyStaffCount": 6672,
+  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5079841007?gh_jid=5079841007",
+  "companyDomain": "anduril.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d88ae975c1da94cefaeb3234d6fb00f_238_160?Expires=1861920000&Signature=nPYp1JlJZNMHspk2VuS1aXOsrIHWSiYZCa1mo5aQgLIbL2xCLdDD0",
+  "companyId": "Anduril Industries",
+  "companySlug": "anduril-industries",
+  "companyName": "Anduril Industries",
+  "companyStaffCount": 10152,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "OD Air Dominance & Strike Div Supply Chain : AD&S Supply Chain : Product Sourcing Engineering"
   ],
   "jobTypes": [
    {
-    "id": "tech-lead",
-    "label": "Tech Lead",
-    "value": "tech-lead"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
@@ -181,91 +181,79 @@
    }
   ],
   "locations": [
-   "Palo Alto, CA",
-   "Seattle, WA"
+   "Remote"
   ],
-  "normalizedLocations": [
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
-    "id": "Palo Alto, California",
-    "label": "Palo Alto, California",
-    "value": "Palo Alto, California"
-   }
-  ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 357000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "normalizedLocations": [],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 161000, 'maxValue': 212000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Town Halls/Forums",
+    "label": "Town Halls/Forums",
+    "value": "resume:Town Halls/Forums"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Top Secret",
+    "label": "Clearance",
+    "value": "resume:Top Secret"
    },
    {
-    "id": "resume:Performance Optimization",
-    "label": "Performance Optimization",
-    "value": "resume:Performance Optimization"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Town Halls/Forums",
+    "label": "Town Halls/Forums",
+    "value": "resume:Town Halls/Forums"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Top Secret",
+    "label": "Clearance",
+    "value": "resume:Top Secret"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Performance Optimization",
-    "label": "Performance Optimization",
-    "value": "resume:Performance Optimization"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
    },
    {
-    "id": "resume:Computer Architecture",
-    "label": "Computer Architecture",
-    "value": "resume:Computer Architecture"
+    "id": "resume:Supplier Quality",
+    "label": "Supplier Quality",
+    "value": "resume:Supplier Quality"
    },
    {
-    "id": "resume:Unit Testing",
-    "label": "Unit Testing",
-    "value": "resume:Unit Testing"
+    "id": "resume:Quality Systems",
+    "label": "Quality Systems",
+    "value": "resume:Quality Systems"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:GD&T",
+    "label": "GD&T",
+    "value": "resume:GD&T"
    }
   ],
   "manager": false,
@@ -273,58 +261,43 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
-  "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   }
-  ],
+  "minYearsExp": 6,
+  "regions": [],
   "stages": [
    {
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
    }
   ],
-  "timeStamp": "2026-11-08T01:55:58Z",
-  "title": "Lead Engineer, AI Infrastructure (C++, C)",
-  "url": "https://job-boards.greenhouse.io/xai/jobs/5288098007",
-  "jobId": "5288098007",
-  "remote": false,
+  "timeStamp": "2026-11-08T13:17:50Z",
+  "title": "Senior Supplier Industrialization Engineer, Composite Structures",
+  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5079841007?gh_jid=5079841007",
+  "jobId": "5079841007",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1745077665984, 'matchScore': 0, 'ageScore': 0.9745077665983797, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1770640940235, 'matchScore': 0, 'ageScore': 0.977064094023534, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -332,16 +305,10 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
-   },
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior",
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
