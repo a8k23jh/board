@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-09T17:40:14Z",
+ "run": "2026-11-10T01:39:57Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"4ee97f4ae11afec11560c3f8edce1b7a23865942\",\"date\":\"2026-11-06T22:18:21.233Z\"},\"server\":{\"git\":\"4ee97f4ae11afec11560c3f8edce1b7a23865942\",\"date\":\"2026-11-06T22:18:21.233Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"},\"server\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "jrI7BJpH2n\u2026",
+  "session.sig": "dbkC2mtD6a\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjc2NDk0NmZiZTBlMmE2ZjdmZGFhY2E4ZmE5MGE5YjYiLCAic2NvcmUiOiAxLjA0MDE4NTAxNDAxNzM2MTJ9"
+   "sequence": "eyJfaWQiOiAiMWVlOWJiZGQwMjFkNzI5MmQ3OTJjYTU2YjhmMTE2MGEiLCAic2NvcmUiOiAxLjA2Njk4OTYxMDQ5OTIyODV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,121 +152,120 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/shipbobinc/jobs/4752570005",
-  "companyDomain": "shipbob.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/71f9c9623ad8779afcda360d6c852025_256_160?Expires=1861920000&Signature=YgqL41DHl9VZqssRyl2HXp47e02fdpKcujto1In13wYDDojXd6a0-",
-  "companyId": "ShipBob",
-  "companySlug": "shipbob",
-  "companyName": "ShipBob",
-  "companyStaffCount": 1730,
+  "applyUrl": "https://careers.docusign.com/jobs/30649?lang=en-us",
+  "companyDomain": "docusign.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
+  "companyId": "DocuSign",
+  "companySlug": "docusign",
+  "companyName": "DocuSign",
+  "companyStaffCount": 8412,
   "considerHosted": false,
-  "departments": [
-   "Fulfillment"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
-   },
-   {
-    "id": "fulfillment-specialist",
-    "label": "Fulfillment Specialist",
-    "value": "fulfillment-specialist"
+    "id": "data-engineer",
+    "label": "Data Engineer",
+    "value": "data-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "North Aurora, Illinois, United States"
+   "San Francisco, California"
   ],
   "normalizedLocations": [
    {
-    "id": "Aurora, Illinois",
-    "label": "Aurora, Illinois",
-    "value": "Aurora, Illinois"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 22, 'maxValue': 23, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 146400, 'maxValue': 235375, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Warehouse Management",
-    "label": "Warehouse Management",
-    "value": "resume:Warehouse Management"
+    "id": "resume:DBMS",
+    "label": "DBMS",
+    "value": "resume:DBMS"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    },
    {
-    "id": "resume:E-commerce",
-    "label": "E-commerce",
-    "value": "resume:E-commerce"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Visual Studio Code",
+    "label": "VS Code",
+    "value": "resume:Visual Studio Code"
    },
    {
-    "id": "resume:Productivity Software",
-    "label": "Productivity Software",
-    "value": "resume:Productivity Software"
+    "id": "resume:Amazon Redshift",
+    "label": "Amazon Redshift",
+    "value": "resume:Amazon Redshift"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Warehouse Management",
-    "label": "Warehouse Management",
-    "value": "resume:Warehouse Management"
+    "id": "resume:DBMS",
+    "label": "DBMS",
+    "value": "resume:DBMS"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    },
    {
-    "id": "resume:E-commerce",
-    "label": "E-commerce",
-    "value": "resume:E-commerce"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Visual Studio Code",
+    "label": "VS Code",
+    "value": "resume:Visual Studio Code"
    },
    {
-    "id": "resume:Productivity Software",
-    "label": "Productivity Software",
-    "value": "resume:Productivity Software"
+    "id": "resume:Amazon Redshift",
+    "label": "Amazon Redshift",
+    "value": "resume:Amazon Redshift"
    },
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:SLA",
+    "label": "SLA",
+    "value": "resume:SLA"
    },
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Full Stack Development",
-    "label": "Full Stack Development",
-    "value": "resume:Full Stack Development"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    }
   ],
   "manager": false,
@@ -284,24 +283,19 @@
   ],
   "regions": [
    {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -309,51 +303,25 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
-   },
-   {
-    "id": "Logistics and Supply Chain",
-    "label": "Logistics and Supply Chain",
-    "value": "Logistics and Supply Chain"
-   },
-   {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-11-08T16:43:10Z",
-  "title": "B2B Lead Fulfillment Associate",
-  "url": "https://job-boards.greenhouse.io/shipbobinc/jobs/4752570005",
-  "jobId": "4752570005",
+  "timeStamp": "2026-11-09T21:02:00Z",
+  "title": "Sr. Data Engineer AI",
+  "url": "https://careers.docusign.com/jobs/30649?lang=en-us",
+  "jobId": "30649",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1695484172203, 'matchScore': 0, 'ageScore': 0.9695484172202932, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1963836772917, 'matchScore': 0, 'ageScore': 0.9963836772916667, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
-   },
    {
     "id": "senior",
     "label": "Senior",
@@ -361,8 +329,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "junior",
    "senior"
   ],
   "isFeatured": false

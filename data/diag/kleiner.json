@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-11-09T17:40:14Z",
+ "run": "2026-11-10T01:39:57Z",
  "homepage": {
   "status": 200,
   "bytes": 19528
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"4ee97f4ae11afec11560c3f8edce1b7a23865942\",\"date\":\"2026-11-06T22:18:21.233Z\"},\"server\":{\"git\":\"4ee97f4ae11afec11560c3f8edce1b7a23865942\",\"date\":\"2026-11-06T22:18:21.233Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"},\"server\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "oyVt8WEqT9\u2026",
+  "session.sig": "Fpm5TvbSMQ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -82,37 +82,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDliYTk4ZDNkOWViMDNiYzkxNzBkYjYzODFhMmNlMmUiLCAic2NvcmUiOiAxLjAxMjE4ODcxMjQxMzU4MDJ9"
+   "sequence": "eyJfaWQiOiAiZmUwMTI3NWRlNTg3M2JiZjk1NTEyZjk2MGFkYmQ2ZTgiLCAic2NvcmUiOiAxLjAzMDIyNjcxMDY1NTg2NDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,106 +144,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/harvey/eb6318f2-957c-4d2b-8c44-054a0ef049a3?utm_source=jobs.kleinerperkins.com",
-  "companyDomain": "harvey.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2be5d63be7354b540c94eee9efbb0fa_176_160?Expires=1861920000&Signature=gGuMg4b-uxV1b~F2mr~UsVNlbNUHUojHReeO1yQOzw09rnj8QM6i~",
-  "companyId": "Harvey",
-  "companySlug": "harvey",
-  "companyName": "Harvey",
-  "companyStaffCount": 1840,
+  "applyUrl": "https://jobs.lever.co/lumafield/cad44f14-db2f-428a-814d-3774800921fc?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "companyDomain": "lumafield.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
+  "companyId": "Lumafield",
+  "companySlug": "lumafield",
+  "companyName": "Lumafield",
+  "companyStaffCount": 156,
   "considerHosted": false,
   "departments": [
-   "Legal Engineer"
+   "Engineering"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Massachusetts, United States",
-   "Boston"
+   "Boston, MA"
   ],
   "normalizedLocations": [
    {
     "id": "Greater Boston Area",
     "label": "Boston",
     "value": "Greater Boston Area"
-   },
-   {
-    "id": "Massachusetts",
-    "label": "Massachusetts",
-    "value": "Massachusetts"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
-   },
-   {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
-   },
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
-   },
-   {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
-   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Device Drivers",
+    "label": "Device Drivers",
+    "value": "resume:Device Drivers"
+   },
+   {
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
+   },
+   {
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
+   },
+   {
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Device Drivers",
+    "label": "Device Drivers",
+    "value": "resume:Device Drivers"
+   },
+   {
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
+   },
+   {
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
+   },
+   {
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
+   },
+   {
+    "id": "resume:Security Compliance",
+    "label": "Security Compliance",
+    "value": "resume:Security Compliance"
+   },
+   {
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    }
   ],
   "manager": false,
@@ -259,8 +275,7 @@
     4
    ]
   ],
-  "minYearsExp": 1,
-  "maxYearsExp": 3,
+  "minYearsExp": 3,
   "regions": [
    {
     "id": "East Coast",
@@ -268,58 +283,37 @@
     "value": "East Coast"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "Legal Services",
-    "label": "Legal Services",
-    "value": "Legal Services"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-11-08T00:00:00Z",
-  "title": "Associate Legal Engineer",
-  "url": "https://jobs.ashbyhq.com/harvey/eb6318f2-957c-4d2b-8c44-054a0ef049a3",
-  "jobId": "eb6318f2-957c-4d2b-8c44-054a0ef049a3",
+  "timeStamp": "2026-11-09T22:26:26.180000Z",
+  "title": "Engineer Manager, Scanner Software",
+  "url": "https://jobs.lever.co/lumafield/cad44f14-db2f-428a-814d-3774800921fc",
+  "jobId": "cad44f14-db2f-428a-814d-3774800921fc",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1466918146524, 'matchScore': 0, 'ageScore': 0.9466918146523919, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1989175652029, 'matchScore': 0, 'ageScore': 0.9989175652029321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -327,16 +321,10 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
-   },
-   {
-    "id": "junior",
-    "label": "Junior",
-    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "junior"
+   "mid"
   ],
   "isFeatured": false
  },

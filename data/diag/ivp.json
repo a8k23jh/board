@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-09T17:40:14Z",
+ "run": "2026-11-10T01:39:57Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"4ee97f4ae11afec11560c3f8edce1b7a23865942\",\"date\":\"2026-11-06T22:18:21.233Z\"},\"server\":{\"git\":\"4ee97f4ae11afec11560c3f8edce1b7a23865942\",\"date\":\"2026-11-06T22:18:21.233Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"},\"server\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1887-ZrgI_\u2026",
+  "session.sig": "A73nLPmpG6\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYjQxYmM0MDkzMjM1NTk2Yjk4MjVkZTJjMTgwYTljMjMiLCAic2NvcmUiOiAxLjAzOTgwMzQyMDM1OTk1Mzh9"
+   "sequence": "eyJfaWQiOiAiNWU4ZDBjZTE3YjNjMWNkYTMzNDk2ZGRmZGM2ODdiNGIiLCAic2NvcmUiOiAxLjA1NTUwMjgyMTA3NTIzMTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,43 +128,33 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5459191008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 6243,
+  "applyUrl": "https://jobs.lever.co/lumafield/cad44f14-db2f-428a-814d-3774800921fc?lever-source%5B%5D=careers.ivp.com",
+  "companyDomain": "lumafield.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
+  "companyId": "Lumafield",
+  "companySlug": "lumafield",
+  "companyName": "Lumafield",
+  "companyStaffCount": 156,
   "considerHosted": false,
   "departments": [
-   "AI Research & Engineering"
+   "Engineering"
   ],
   "jobTypes": [
    {
     "id": "engineer",
     "label": "Engineer",
     "value": "engineer"
-   },
-   {
-    "id": "research-scientist",
-    "label": "Research Scientist",
-    "value": "research-scientist"
-   },
-   {
-    "id": "security-professional",
-    "label": "Security Professional",
-    "value": "security-professional"
    }
   ],
   "jobFunctions": [
@@ -172,115 +162,109 @@
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
-   },
-   {
-    "id": "Science",
-    "label": "Science",
-    "value": "Science"
    }
   ],
   "locations": [
-   "San Francisco, CA",
-   "New York City, NY"
+   "Boston, MA"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Greater Boston Area",
+    "label": "Boston",
+    "value": "Greater Boston Area"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 500000, 'maxValue': 850000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 220000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Device Drivers",
+    "label": "Device Drivers",
+    "value": "resume:Device Drivers"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
    },
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Device Drivers",
+    "label": "Device Drivers",
+    "value": "resume:Device Drivers"
    },
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    },
    {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
+    "id": "resume:Algorithms",
+    "label": "Algorithms",
+    "value": "resume:Algorithms"
    },
    {
-    "id": "resume:Reinforcement Learning",
-    "label": "Reinforcement Learning",
-    "value": "resume:Reinforcement Learning"
+    "id": "resume:Security Compliance",
+    "label": "Security Compliance",
+    "value": "resume:Security Compliance"
    },
    {
-    "id": "resume:Sales Commission",
-    "label": "Sales Commission",
-    "value": "resume:Sales Commission"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 3,
   "regions": [
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    },
    {
     "id": "North America",
@@ -288,48 +272,32 @@
     "value": "North America"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-11-08T14:15:37Z",
-  "title": "Research Engineer, Cybersecurity RL",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5459191008",
-  "jobId": "5459191008",
+  "timeStamp": "2026-11-09T22:26:26.180000Z",
+  "title": "Engineer Manager, Scanner Software",
+  "url": "https://jobs.lever.co/lumafield/cad44f14-db2f-428a-814d-3774800921fc",
+  "jobId": "cad44f14-db2f-428a-814d-3774800921fc",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.166236199652, 'matchScore': 0, 'ageScore': 0.9662361996520061, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1989175652029, 'matchScore': 0, 'ageScore': 0.9989175652029321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
