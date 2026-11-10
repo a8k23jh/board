@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-10T10:03:52Z",
+ "run": "2026-11-10T17:58:28Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "-O5THRztIK\u2026",
+  "session.sig": "9bGGHtvNgV\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjYwY2ZmMTdmZWZkOWU3ZjVmOTYwM2IxMzZjY2ExODMiLCAic2NvcmUiOiAxLjA2NjE0MDg5MjI0NDU5ODd9"
+   "sequence": "eyJfaWQiOiAiYWIwN2E2ZTA1YmQyYjEyOWViNmRiZjBhNzY4MWRhZjAiLCAic2NvcmUiOiAxLjA2MzUyNjQ2NDI2MDQxNjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -177,14 +177,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 84000, 'maxValue': 115500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "resume:Enterprise Software"
+    "id": "resume:POS",
+    "label": "POS",
+    "value": "resume:POS"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
+   },
+   {
+    "id": "resume:LEE Advocacy",
+    "label": "Advocacy",
+    "value": "resume:LEE Advocacy"
    },
    {
     "id": "resume:Mid-Market",
@@ -192,18 +197,40 @@
     "value": "resume:Mid-Market"
    },
    {
-    "id": "resume:Timesheet",
-    "label": "Timesheet",
-    "value": "resume:Timesheet"
-   },
-   {
-    "id": "resume:Swift",
-    "label": "Swift",
-    "value": "resume:Swift"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:POS",
+    "label": "POS",
+    "value": "resume:POS"
+   },
+   {
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
+   },
+   {
+    "id": "resume:LEE Advocacy",
+    "label": "Advocacy",
+    "value": "resume:LEE Advocacy"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Mid-Market",
+    "label": "Mid-Market",
+    "value": "resume:Mid-Market"
+   },
+   {
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
+   },
+   {
     "id": "resume:Enterprise Software",
     "label": "Enterprise Software",
     "value": "resume:Enterprise Software"
@@ -214,36 +241,9 @@
     "value": "resume:Scheduling"
    },
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Timesheet",
-    "label": "Timesheet",
-    "value": "resume:Timesheet"
-   },
-   {
-    "id": "resume:Swift",
-    "label": "Swift",
-    "value": "resume:Swift"
-   },
-   {
-    "id": "resume:Multithreading",
-    "label": "Multithreading",
-    "value": "resume:Multithreading"
-   },
-   {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
-   },
-   {
-    "id": "resume:SSO",
-    "label": "SSO",
-    "value": "resume:SSO"
+    "id": "resume:Workforce Management",
+    "label": "Workforce Management",
+    "value": "resume:Workforce Management"
    }
   ],
   "manager": false,
@@ -298,7 +298,7 @@
   "jobId": "eb45bc71-e5c2-431d-bf70-8ca1bf085480",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1918258972615, 'matchScore': 0, 'ageScore': 0.9918258972615741, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1835160883484, 'matchScore': 0, 'ageScore': 0.9835160883483797, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

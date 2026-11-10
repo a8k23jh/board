@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-10T10:03:52Z",
+ "run": "2026-11-10T17:58:28Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "DCogHadYxI\u2026",
+  "session.sig": "n0ucZqqfbi\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiODdiZDAzZWEyM2U5MjhlNDE3YzJhYjMyNGE5NTNjZDciLCAic2NvcmUiOiAxLjA3ODI2MDg2MTY1NjYzNTh9"
+   "sequence": "eyJfaWQiOiAiODdiZDAzZWEyM2U5MjhlNDE3YzJhYjMyNGE5NTNjZDciLCAic2NvcmUiOiAxLjA2OTY3MjcxOTU1NDM5ODJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -174,6 +174,11 @@
   "departments": [],
   "jobTypes": [
    {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
     "id": "sales-professional",
     "label": "Sales Professional",
     "value": "sales-professional"
@@ -182,11 +187,6 @@
     "id": "account-executive",
     "label": "Account Executive",
     "value": "account-executive"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
    },
    {
     "id": "sales-mid-maket",
@@ -214,58 +214,58 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 26.3, 'maxValue': 36.2, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
-   },
-   {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
-   },
-   {
-    "id": "resume:Customer Onboarding",
-    "label": "Customer Onboarding",
-    "value": "resume:Customer Onboarding"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    },
    {
     "id": "resume:DocuSign",
     "label": "DocuSign",
     "value": "resume:DocuSign"
+   },
+   {
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
+   },
+   {
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
+   },
+   {
+    "id": "resume:Customer Onboarding",
+    "label": "Customer Onboarding",
+    "value": "resume:Customer Onboarding"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
-   },
-   {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Customer Onboarding",
-    "label": "Customer Onboarding",
-    "value": "resume:Customer Onboarding"
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
    },
    {
     "id": "resume:DocuSign",
     "label": "DocuSign",
     "value": "resume:DocuSign"
+   },
+   {
+    "id": "resume:SMB",
+    "label": "SMB",
+    "value": "resume:SMB"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
+   },
+   {
+    "id": "resume:Customer Onboarding",
+    "label": "Customer Onboarding",
+    "value": "resume:Customer Onboarding"
    },
    {
     "id": "resume:Multithreading",
@@ -273,14 +273,14 @@
     "value": "resume:Multithreading"
    },
    {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Customer Acquisition",
-    "label": "Customer Acquisition",
-    "value": "resume:Customer Acquisition"
+    "id": "resume:SMB Sales",
+    "label": "SMB Sales",
+    "value": "resume:SMB Sales"
    }
   ],
   "manager": false,
@@ -294,9 +294,9 @@
   ],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    },
    {
     "id": "Midwest",
@@ -304,14 +304,14 @@
     "value": "Midwest"
    },
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
     "id": "Rust Belt",
     "label": "Great Lakes Region",
     "value": "Rust Belt"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -334,7 +334,7 @@
   "jobId": "30696",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1890117704822, 'matchScore': 0, 'ageScore': 0.9890117704822531, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1801315853885, 'matchScore': 0, 'ageScore': 0.9801315853885031, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
