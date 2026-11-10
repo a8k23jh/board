@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-11-10T17:58:28Z",
+ "run": "2026-11-10T23:33:34Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"},\"server\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"},\"server\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "aKvBWNszI7\u2026",
+  "session.sig": "opQ8dkJv0w\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzA1ODA5OTYwYWY0NGYxYzQ2NDEzZGNiMjhmMWFkNDkiLCAic2NvcmUiOiAwLjk3ODAxODU1NDgxOTQ0NDR9"
+   "sequence": "eyJfaWQiOiAiZmI3Nzg3MGViN2UxYTY4MWEyMzcwMzc2OTQ1NjA4ZTAiLCAic2NvcmUiOiAwLjk3MTIzNzM3NjE5Njc1OTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,22 +155,27 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/david-ai/04943bcf-5496-4eb5-a515-d8c2e13cc539?utm_source=jobs.firstround.com",
-  "companyDomain": "withdavid.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f52a09b45c8ad4b4438410b9a2c2d43c_240_160?Expires=1861920000&Signature=O2w6wLKDbq-KKMfVCWB-8DMoF7q1Qr4eI2MFfyXLwszfWdGg4eUAO",
-  "companyId": "David AI",
-  "companySlug": "david-ai",
-  "companyName": "David AI",
-  "companyStaffCount": 67,
+  "applyUrl": "https://jobs.ashbyhq.com/claylabs/4ad300ac-8c5f-4485-95d9-f1e9377c2243?utm_source=jobs.firstround.com",
+  "companyDomain": "clay.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/788c0b4a563df20b8654dd0a4dd6ba95_176_160?Expires=1861920000&Signature=XX1NF75JwYD55CCRPp5SRz0NjyGZgNBM-GKcxKkYUEm4p2cR7iIFO",
+  "companyId": "Clay",
+  "companySlug": "clay",
+  "companyName": "Clay",
+  "companyStaffCount": 1490,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "601 - GTM Operations"
   ],
   "jobTypes": [
    {
-    "id": "sales-engineering",
-    "label": "Sales Engineering",
-    "value": "sales-engineering"
+    "id": "marketing-growth",
+    "label": "Marketing Growth",
+    "value": "marketing-growth"
+   },
+   {
+    "id": "sales-enablement",
+    "label": "Sales Enablement",
+    "value": "sales-enablement"
    }
   ],
   "jobFunctions": [
@@ -178,30 +183,35 @@
     "id": "Sales",
     "label": "Sales",
     "value": "Sales"
+   },
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "San Francisco, California, United States",
-   "San Francisco"
+   "New York, NY, United States",
+   "New York"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   }
-  ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
-  "skills": [
-   {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    },
    {
-    "id": "resume:Recording",
-    "label": "Recording",
-    "value": "resume:Recording"
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
+   }
+  ],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 185000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "skills": [
+   {
+    "id": "resume:Landing Page Optimization",
+    "label": "Landing Page Optimization",
+    "value": "resume:Landing Page Optimization"
    },
    {
     "id": "resume:Research",
@@ -209,48 +219,63 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Valuation",
+    "label": "Valuation",
+    "value": "resume:Valuation"
    },
    {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:D programming language",
+    "label": "D programming language",
+    "value": "resume:D programming language"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
-   },
-   {
-    "id": "resume:Recording",
-    "label": "Recording",
-    "value": "resume:Recording"
+    "id": "resume:Landing Page Optimization",
+    "label": "Landing Page Optimization",
+    "value": "resume:Landing Page Optimization"
    },
    {
     "id": "resume:Research",
     "label": "Research",
     "value": "resume:Research"
+   },
+   {
+    "id": "resume:Valuation",
+    "label": "Valuation",
+    "value": "resume:Valuation"
    }
   ],
   "preferredSkills": [
    {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:D programming language",
+    "label": "D programming language",
+    "value": "resume:D programming language"
+   },
+   {
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
+   },
+   {
+    "id": "resume:Onboarding",
+    "label": "Onboarding",
+    "value": "resume:Onboarding"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
    }
   ],
   "manager": false,
@@ -258,71 +283,69 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
    ]
   ],
-  "minYearsExp": 3,
+  "minYearsExp": 4,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
-    "id": "Seed funded",
-    "label": "Seed",
-    "value": "Seed funded"
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
-  "fundingLV": "{'id': 'Seed funded', 'label': 'Seed', 'value': 'Seed funded'}",
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
    }
   ],
   "timeStamp": "2026-11-10T00:00:00Z",
-  "title": "Forward Deployed Engineer, Production",
-  "url": "https://jobs.ashbyhq.com/david-ai/04943bcf-5496-4eb5-a515-d8c2e13cc539",
-  "jobId": "04943bcf-5496-4eb5-a515-d8c2e13cc539",
+  "title": "CX Enablement (Growth Strategy)",
+  "url": "https://jobs.ashbyhq.com/claylabs/4ad300ac-8c5f-4485-95d9-f1e9377c2243",
+  "jobId": "4ad300ac-8c5f-4485-95d9-f1e9377c2243",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1802426665178, 'matchScore': 0, 'ageScore': 0.9802426665177469, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1719338049047, 'matchScore': 0, 'ageScore': 0.9719338049047068, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   }
-  ],
-  "jobSeniorityIds": [
-   "mid"
-  ],
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {

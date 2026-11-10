@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-11-10T17:58:28Z",
+ "run": "2026-11-10T23:33:34Z",
  "homepage": {
   "status": 200,
   "bytes": 19528
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"},\"server\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"},\"server\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "zH_55oj42P\u2026",
+  "session.sig": "Rl5V434XcU\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjIxOTA2Y2U1MDg2ZjYxYjY2ZGM3YWNiNDEwNDY1M2IiLCAic2NvcmUiOiAxLjAzMDgwMTExNTIxODc1fQ=="
+   "sequence": "eyJfaWQiOiAiMmEwYzdlY2ExMzhlYjczN2MzMzI4MDkyOTQ4MDkwMjMiLCAic2NvcmUiOiAxLjAyNzI1MzAxMzA3NDQ2fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,112 +144,122 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lumafield/28cc934d-d976-4b9d-9ac7-c3b637cd1339?lever-source%5B%5D=jobs.kleinerperkins.com",
-  "companyDomain": "lumafield.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
-  "companyId": "Lumafield",
-  "companySlug": "lumafield",
-  "companyName": "Lumafield",
-  "companyStaffCount": 156,
+  "applyUrl": "https://jobs.lever.co/CesiumAstro/ad5bfe5a-9bd2-498d-a95a-361b519ec80d?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "companyDomain": "cesiumastro.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
+  "companyId": "CesiumAstro",
+  "companySlug": "cesiumastro",
+  "companyName": "CesiumAstro",
+  "companyStaffCount": 452,
   "considerHosted": false,
   "departments": [
-   "Product"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "research-scientist",
-    "label": "Research Scientist",
-    "value": "research-scientist"
+    "id": "systems-engineer",
+    "label": "Systems Engineer",
+    "value": "systems-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Science",
-    "label": "Science",
-    "value": "Science"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "San Francisco, CA"
+   "Westminster, CO"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Westminster, Colorado",
+    "label": "Westminster, Colorado",
+    "value": "Westminster, Colorado"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 210000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 158012, 'maxValue': 189969, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Quantitative Data",
-    "label": "Quantitative Data",
-    "value": "resume:Quantitative Data"
+    "id": "resume:Configuration Management",
+    "label": "Configuration Management",
+    "value": "resume:Configuration Management"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Concept Development",
+    "label": "Concept Development",
+    "value": "resume:Concept Development"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Space Technology",
+    "label": "Space Technology",
+    "value": "resume:Space Technology"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Quantitative Data",
-    "label": "Quantitative Data",
-    "value": "resume:Quantitative Data"
+    "id": "resume:Configuration Management",
+    "label": "Configuration Management",
+    "value": "resume:Configuration Management"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Concept Development",
+    "label": "Concept Development",
+    "value": "resume:Concept Development"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Space Technology",
+    "label": "Space Technology",
+    "value": "resume:Space Technology"
    },
    {
-    "id": "resume:Operational Excellence",
-    "label": "Operational Excellence",
-    "value": "resume:Operational Excellence"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
+   },
+   {
+    "id": "resume:Physics",
+    "label": "Physics",
+    "value": "resume:Physics"
+   },
+   {
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    }
   ],
   "manager": false,
@@ -257,27 +267,17 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 5,
-  "maxYearsExp": 10,
+  "minYearsExp": 8,
+  "maxYearsExp": 12,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -289,25 +289,41 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Medical Devices",
-    "label": "Medical Devices",
-    "value": "Medical Devices"
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-11-09T23:06:34.829000Z",
-  "title": "Applied Research Scientist, Agents",
-  "url": "https://jobs.lever.co/lumafield/28cc934d-d976-4b9d-9ac7-c3b637cd1339",
-  "jobId": "28cc934d-d976-4b9d-9ac7-c3b637cd1339",
+  "timeStamp": "2026-11-10T13:51:20.779000Z",
+  "title": "Staff Spacecraft Systems Engineer \u2013 Electronics",
+  "url": "https://jobs.lever.co/CesiumAstro/ad5bfe5a-9bd2-498d-a95a-361b519ec80d",
+  "jobId": "ad5bfe5a-9bd2-498d-a95a-361b519ec80d",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1788386906389, 'matchScore': 0, 'ageScore': 0.9788386906388888, 'richnessScore': 2}",
+  "scores": "{'score': 1001.191241116363, 'matchScore': 0, 'ageScore': 0.9912411163630401, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -315,6 +331,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false

@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-10T17:58:28Z",
+ "run": "2026-11-10T23:33:34Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"},\"server\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"},\"server\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "nw2ahStSxa\u2026",
+  "session.sig": "InAZR8cA-F\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGVkZWI1YWFmMzk2ZDU5MDc4NjRjZmJiZjU4N2I4MjMiLCAic2NvcmUiOiAxLjA4MDMwNDUzNzM4NTQxNjh9"
+   "sequence": "eyJfaWQiOiAiZjczMDNiZDhlMzBmYjdiMjI3ZDA5NWFhMjBkOTVjMzgiLCAic2NvcmUiOiAxLjA4NDI1MzUyMzQ0MTc0Mzl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,128 +163,164 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/captivateiq/72330cb7-0357-4729-93d5-a19163567ea1?lever-source%5B%5D=jobs.bvp.com",
-  "companyDomain": "captivateiq.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/38cc60bf74d750e14fddc734b5c7ffb0_320_160?Expires=1861920000&Signature=hH3yceFmYb4gL3iy~giCkiv46duW7sycYRGlOCXAzTpoY29ejKDu4",
-  "companyId": "CaptivateIQ",
-  "companySlug": "captivateiq",
-  "companyName": "CaptivateIQ",
-  "companyStaffCount": 284,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5467305008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 6243,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "AI Research & Engineering"
   ],
   "jobTypes": [
    {
-    "id": "sr-director-engineering",
-    "label": "Sr. Director of Engineering",
-    "value": "sr-director-engineering"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
+   },
+   {
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
+   },
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Remote USA"
+   "San Francisco, CA",
+   "New York City, NY"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 237440, 'maxValue': 373630, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 350000, 'maxValue': 850000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:ICM",
-    "label": "ICM",
-    "value": "resume:ICM"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
    {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
    },
    {
-    "id": "resume:Enterprise Performance Management",
-    "label": "Enterprise Performance Management",
-    "value": "resume:Enterprise Performance Management"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    },
    {
-    "id": "resume:Product Design",
-    "label": "Product Design",
-    "value": "resume:Product Design"
+    "id": "resume:Apache Beam",
+    "label": "Apache Beam",
+    "value": "resume:Apache Beam"
    },
    {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
+    "id": "resume:Docker",
+    "label": "Docker",
+    "value": "resume:Docker"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:ICM",
-    "label": "ICM",
-    "value": "resume:ICM"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
    {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
    },
    {
-    "id": "resume:Enterprise Performance Management",
-    "label": "Enterprise Performance Management",
-    "value": "resume:Enterprise Performance Management"
+    "id": "resume:PyTorch",
+    "label": "PyTorch",
+    "value": "resume:PyTorch"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Product Design",
-    "label": "Product Design",
-    "value": "resume:Product Design"
+    "id": "resume:Apache Beam",
+    "label": "Apache Beam",
+    "value": "resume:Apache Beam"
    },
    {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
+    "id": "resume:Docker",
+    "label": "Docker",
+    "value": "resume:Docker"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Sales Performance",
-    "label": "Sales Performance",
-    "value": "resume:Sales Performance"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
+    "id": "resume:Virtualization",
+    "label": "Virtualization",
+    "value": "resume:Virtualization"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
+    3,
+    4
+   ],
+   [
     5,
     6
-   ],
-   [
-    7,
-    8
-   ],
-   [
-    9,
-    10,
-    11,
-    12
    ]
   ],
-  "minYearsExp": 15,
+  "minYearsExp": 6,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -293,9 +329,9 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -306,29 +342,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-11-10T01:06:39.664000Z",
-  "title": "Senior Director, Engineering - ICM",
-  "url": "https://jobs.lever.co/captivateiq/72330cb7-0357-4729-93d5-a19163567ea1",
-  "jobId": "72330cb7-0357-4729-93d5-a19163567ea1",
-  "remote": true,
+  "timeStamp": "2026-11-10T07:05:53Z",
+  "title": "[C] Research Engineer, Discovery",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5467305008",
+  "jobId": "5467305008",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.181007920441, 'matchScore': 0, 'ageScore': 0.9810079204409722, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1810300594992, 'matchScore': 0, 'ageScore': 0.9810300594992284, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "mid"
   ],
   "isFeatured": false
  },

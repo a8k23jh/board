@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-11-10T17:58:28Z",
+ "run": "2026-11-10T23:33:34Z",
  "homepage": {
   "status": 200,
   "bytes": 25383
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"},\"server\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"},\"server\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "rFY3tNEU6Y\u2026",
+  "session.sig": "ReRUaKKWXr\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTAwNGViOWI0NmJkMTQ1MzkyNjk2ZDhkOWUxYjMxNzYiLCAic2NvcmUiOiAxLjAyOTQ5NzkzNzk5OTYxNDN9"
+   "sequence": "eyJfaWQiOiAiYzQ0ZDIyOWNhNjQ1MjExYjAyOWNlNmJhMTZjMDY1YTciLCAic2NvcmUiOiAxLjAyNDc4NDEyNzc2MTk1OTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,111 +136,122 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Crusoe/3f483dd0-2d1d-4e31-b9ca-ab4aa78a12cc?utm_source=jobs.felicis.com",
-  "companyDomain": "crusoe.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/83e047ed53d48955e1e39bdd6f3f660f_256_160?Expires=1861920000&Signature=r2eU4jRX2uOXV1AaZbtY7Z5mnhoWhTY0I1PFAYujsp5lQ9CiX1iiB",
-  "companyId": "Crusoe",
-  "companySlug": "crusoe",
-  "companyName": "Crusoe",
-  "companyStaffCount": 1693,
+  "applyUrl": "https://job-boards.greenhouse.io/cultureamp/jobs/8371875",
+  "companyDomain": "cultureamp.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/327bc3784e87456009ec852f749418b1_320_160?Expires=1861920000&Signature=sWrhzz0ezbGbjk3But6I18ml7DSgpYNE7E9eKMwEVo-Csss6vVt8a",
+  "companyId": "Culture Amp",
+  "companySlug": "culture-amp",
+  "companyName": "Culture AMP",
+  "companyStaffCount": 894,
   "considerHosted": false,
   "departments": [
-   "Cloud Storage"
+   "CX - People Science"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   }
+  ],
   "locations": [
-   "Sunnyvale, California, United States",
-   "Sunnyvale, CA - US"
+   "New York"
   ],
   "normalizedLocations": [
    {
-    "id": "Sunnyvale, California",
-    "label": "Sunnyvale, California",
-    "value": "Sunnyvale, California"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 215000, 'maxValue': 255000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:System Design",
-    "label": "System Design",
-    "value": "resume:System Design"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Sales Performance",
+    "label": "Sales Performance",
+    "value": "resume:Sales Performance"
    },
    {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    },
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Performance Tuning",
-    "label": "Performance Tuning",
-    "value": "resume:Performance Tuning"
+    "id": "resume:R",
+    "label": "R",
+    "value": "resume:R"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:System Design",
-    "label": "System Design",
-    "value": "resume:System Design"
+    "id": "resume:Customer Satisfaction",
+    "label": "Customer Satisfaction",
+    "value": "resume:Customer Satisfaction"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Sales Performance",
+    "label": "Sales Performance",
+    "value": "resume:Sales Performance"
    },
    {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Performance Tuning",
-    "label": "Performance Tuning",
-    "value": "resume:Performance Tuning"
+    "id": "resume:R",
+    "label": "R",
+    "value": "resume:R"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Private Cloud",
+    "label": "Private Cloud",
+    "value": "resume:Private Cloud"
    },
    {
-    "id": "resume:Data Center",
-    "label": "Data Center",
-    "value": "resume:Data Center"
+    "id": "resume:Statistics",
+    "label": "Statistics",
+    "value": "resume:Statistics"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -248,66 +259,66 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Energy",
-    "label": "Energy",
-    "value": "Energy"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-11-10T00:00:00Z",
-  "title": "Staff Storage Engineer",
-  "url": "https://jobs.ashbyhq.com/Crusoe/3f483dd0-2d1d-4e31-b9ca-ab4aa78a12cc",
-  "jobId": "3f483dd0-2d1d-4e31-b9ca-ab4aa78a12cc",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
+   }
+  ],
+  "timeStamp": "2026-11-10T10:06:00Z",
+  "title": "Senior People Science Analyst (12 month FTC)",
+  "url": "https://job-boards.greenhouse.io/cultureamp/jobs/8371875",
+  "jobId": "8371875",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1798286226134, 'matchScore': 0, 'ageScore': 0.979828622613426, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1851810061999, 'matchScore': 0, 'ageScore': 0.9851810061998457, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
    {
     "id": "senior",
     "label": "Senior",
@@ -315,7 +326,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "mid",
    "senior"
   ],
   "isFeatured": false

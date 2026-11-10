@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-10T17:58:28Z",
+ "run": "2026-11-10T23:33:34Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"},\"server\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"},\"server\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "n0sy0veifP\u2026",
+  "session.sig": "L9HmoLkbTS\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTNkMjE2NDE1OTRhYWE0Yjk1MTc2MTY4YzI0ZmY5YWMiLCAic2NvcmUiOiAxLjA3OTU1NzYwODExMDMzOTV9"
+   "sequence": "eyJfaWQiOiAiZDRkZjkwMDgwYzIwZTkzOTcyYWExMmNhMTcxYTYzMDQiLCAic2NvcmUiOiAxLjA4MzYwODY0Mjg0NDUyMTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,27 +155,33 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/captivateiq/72330cb7-0357-4729-93d5-a19163567ea1?lever-source%5B%5D=jobs.sequoiacap.com",
-  "companyDomain": "captivateiq.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/38cc60bf74d750e14fddc734b5c7ffb0_320_160?Expires=1861920000&Signature=hH3yceFmYb4gL3iy~giCkiv46duW7sycYRGlOCXAzTpoY29ejKDu4",
-  "companyId": "CaptivateIQ",
-  "companySlug": "captivateiq",
-  "companyName": "CaptivateIQ",
-  "companyStaffCount": 284,
+  "applyUrl": "https://www.wiz.io/careers/job/4728279006/:title?gh_jid=4728279006",
+  "companyDomain": "wiz.io",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3bf556105e936d4c5fd8cd90d18770f0_128_160?Expires=1861920000&Signature=hrTPpNaXaSlV4l-RwSkRyxgsIXM7VYJ9nJ8gz0CsmgbAzuv0c4ZL0",
+  "companyId": "Wiz",
+  "companySlug": "wiz",
+  "companyName": "Wiz",
+  "companyStaffCount": 3150,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Technical Solutions Management"
   ],
   "jobTypes": [
    {
-    "id": "sr-director-engineering",
-    "label": "Sr. Director of Engineering",
-    "value": "sr-director-engineering"
+    "id": "technical-account-manager",
+    "label": "Technical Account Manager",
+    "value": "technical-account-manager"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "Remote USA"
+   "Remote - USA"
   ],
   "normalizedLocations": [
    {
@@ -184,98 +190,87 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 237440, 'maxValue': 373630, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 103000, 'maxValue': 141000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:ICM",
-    "label": "ICM",
-    "value": "resume:ICM"
+    "id": "resume:Threat Intelligence",
+    "label": "Threat Intelligence",
+    "value": "resume:Threat Intelligence"
    },
    {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
+    "id": "resume:DevOps",
+    "label": "DevOps",
+    "value": "resume:DevOps"
    },
    {
-    "id": "resume:Enterprise Performance Management",
-    "label": "Enterprise Performance Management",
-    "value": "resume:Enterprise Performance Management"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    },
    {
-    "id": "resume:Product Design",
-    "label": "Product Design",
-    "value": "resume:Product Design"
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
    },
    {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
+    "id": "resume:Docker",
+    "label": "Docker",
+    "value": "resume:Docker"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:ICM",
-    "label": "ICM",
-    "value": "resume:ICM"
+    "id": "resume:Threat Intelligence",
+    "label": "Threat Intelligence",
+    "value": "resume:Threat Intelligence"
    },
    {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
+    "id": "resume:DevOps",
+    "label": "DevOps",
+    "value": "resume:DevOps"
    },
    {
-    "id": "resume:Enterprise Performance Management",
-    "label": "Enterprise Performance Management",
-    "value": "resume:Enterprise Performance Management"
+    "id": "resume:Microsoft Azure",
+    "label": "Microsoft Azure",
+    "value": "resume:Microsoft Azure"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Product Design",
-    "label": "Product Design",
-    "value": "resume:Product Design"
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
    },
    {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
+    "id": "resume:Docker",
+    "label": "Docker",
+    "value": "resume:Docker"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Sales Performance",
-    "label": "Sales Performance",
-    "value": "resume:Sales Performance"
+    "id": "resume:TAM",
+    "label": "TAM",
+    "value": "resume:TAM"
    },
    {
-    "id": "resume:Technical Leadership",
-    "label": "Technical Leadership",
-    "value": "resume:Technical Leadership"
+    "id": "resume:IaC",
+    "label": "Infrastructure as Code (IaC)",
+    "value": "resume:IaC"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ],
-   [
-    9,
-    10,
-    11,
-    12
+    3,
+    4
    ]
   ],
-  "minYearsExp": 15,
   "regions": [
    {
     "id": "North America",
@@ -285,9 +280,9 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -298,29 +293,39 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
+   },
+   {
+    "id": "Cybersecurity",
+    "label": "Cybersecurity",
+    "value": "Cybersecurity"
+   },
+   {
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
    }
   ],
-  "timeStamp": "2026-11-10T01:06:39.664000Z",
-  "title": "Senior Director, Engineering - ICM",
-  "url": "https://jobs.lever.co/captivateiq/72330cb7-0357-4729-93d5-a19163567ea1",
-  "jobId": "72330cb7-0357-4729-93d5-a19163567ea1",
+  "timeStamp": "2026-11-10T10:12:14Z",
+  "title": "Technical Account Manager (Central)",
+  "url": "https://www.wiz.io/careers/job/4728279006/:title?gh_jid=4728279006",
+  "jobId": "4728279006",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.181007920441, 'matchScore': 0, 'ageScore': 0.9810079204409722, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1853726762091, 'matchScore': 0, 'ageScore': 0.985372676209105, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "mid"
   ],
   "isFeatured": false
  },

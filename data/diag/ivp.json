@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-10T17:58:28Z",
+ "run": "2026-11-10T23:33:34Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"},\"server\":{\"git\":\"842e2e8a29e5ebf1484e66d21d56e07e104b2103\",\"date\":\"2026-11-06T22:39:31.679Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"},\"server\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "9bGGHtvNgV\u2026",
+  "session.sig": "nC5idZIKoC\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWIwN2E2ZTA1YmQyYjEyOWViNmRiZjBhNzY4MWRhZjAiLCAic2NvcmUiOiAxLjA2MzUyNjQ2NDI2MDQxNjd9"
+   "sequence": "eyJfaWQiOiAiZTM3MDE4MjgzMTBiYmI5OWM2Y2I5YmY1ODcyYWM0MDUiLCAic2NvcmUiOiAxLjA2MTE4MzQ1MDMwNzQ4NDZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,44 +128,54 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/deputy/eb45bc71-e5c2-431d-bf70-8ca1bf085480?lever-source%5B%5D=careers.ivp.com",
-  "companyDomain": "deputy.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d8724367e6d4577bbefd52b1f7b95f1_240_160?Expires=1861920000&Signature=FrIvgfpjKCURw4IZU9gqaplxg~TMrGGhzOLtXOT12oP-AOlI-mrAp",
-  "companyId": "Deputy",
-  "companySlug": "deputy",
-  "companyName": "Deputy",
-  "companyStaffCount": 505,
+  "applyUrl": "https://job-boards.greenhouse.io/gomotive/jobs/8935281002",
+  "companyDomain": "gomotive.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/25a89ab129481325fdea0a8ec67db334_208_160?Expires=1861920000&Signature=FOVx4pqYXCuvScQi9jIt1h-cXgKWHgmbuXcTtciYMPrORXx90yBOk",
+  "companyId": "Motive",
+  "companySlug": "motive",
+  "companyName": "Motive",
+  "companyStaffCount": 6461,
   "considerHosted": false,
   "departments": [
-   "Customer Team"
+   "Marketing"
   ],
   "jobTypes": [
    {
-    "id": "customer-success-mananger",
-    "label": "Customer Success Manager",
-    "value": "customer-success-mananger"
+    "id": "product-marketing",
+    "label": "Product Marketing",
+    "value": "product-marketing"
+   },
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   },
+   {
+    "id": "marketing-product-marketing",
+    "label": "Marketing Product Marketing",
+    "value": "marketing-product-marketing"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
    }
   ],
   "locations": [
-   "Remote - United States"
+   "United States - Remote"
   ],
   "normalizedLocations": [
    {
@@ -174,76 +184,76 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 84000, 'maxValue': 115500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 149000, 'maxValue': 205000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:POS",
-    "label": "POS",
-    "value": "resume:POS"
+    "id": "resume:Competitive Analysis",
+    "label": "Competitive Analysis",
+    "value": "resume:Competitive Analysis"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
    },
    {
-    "id": "resume:LEE Advocacy",
-    "label": "Advocacy",
-    "value": "resume:LEE Advocacy"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:POS",
-    "label": "POS",
-    "value": "resume:POS"
+    "id": "resume:Competitive Analysis",
+    "label": "Competitive Analysis",
+    "value": "resume:Competitive Analysis"
    },
    {
-    "id": "resume:Human Resources",
-    "label": "Human Resources",
-    "value": "resume:Human Resources"
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
    },
    {
-    "id": "resume:LEE Advocacy",
-    "label": "Advocacy",
-    "value": "resume:LEE Advocacy"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "resume:Enterprise Software"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Workflow scheduler",
+    "label": "Workflow Scheduling",
+    "value": "resume:Workflow scheduler"
    },
    {
-    "id": "resume:Workforce Management",
-    "label": "Workforce Management",
-    "value": "resume:Workforce Management"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -269,36 +279,30 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
    },
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-11-10T02:52:24.318000Z",
-  "title": "Senior Customer Success Manager",
-  "url": "https://jobs.lever.co/deputy/eb45bc71-e5c2-431d-bf70-8ca1bf085480",
-  "jobId": "eb45bc71-e5c2-431d-bf70-8ca1bf085480",
+  "timeStamp": "2026-11-10T10:20:35Z",
+  "title": "Product Marketing Lead, Competitive Intelligence",
+  "url": "https://job-boards.greenhouse.io/gomotive/jobs/8935281002",
+  "jobId": "8935281002",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1835160883484, 'matchScore': 0, 'ageScore': 0.9835160883483797, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1861604744414, 'matchScore': 0, 'ageScore': 0.986160474441358, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -306,10 +310,16 @@
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
