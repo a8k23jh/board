@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-11T06:48:19Z",
+ "run": "2026-11-11T15:27:05Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "CkVyfZhleS\u2026",
+  "session.sig": "ko1pQjajN_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjk1OTQ2NTMwNDI4MTk4MjZiN2UzZTk3N2MwNDkyZDEiLCAic2NvcmUiOiAxLjA4NDUyNTQwNzY5MTM1OH0="
+   "sequence": "eyJfaWQiOiAiNTQ2NzA4MWI1NDkxZWRmZWM2YzliNTljZWQ1ZGIxMDAiLCAic2NvcmUiOiAxLjExMDI2ODQ4MjI2NTgxOH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -163,97 +163,111 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/Cofactr/6fb93a96-f267-4cd9-87d2-72a9896ef7ff?lever-source%5B%5D=jobs.baincapitalventures.com",
-  "companyDomain": "cofactr.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2b3ddc5bc07c8920f9d4f01d9ede500_272_160?Expires=1861920000&Signature=bQELevL271Jy60EgX8dYkI6q91SYLUNEqKLv2rsQKHri0gWm3R7LO",
-  "companyId": "Cofactr",
-  "companySlug": "cofactr",
-  "companyName": "Cofactr",
-  "companyStaffCount": 38,
+  "applyUrl": "https://jobs.lever.co/finix/70465320-7d2e-4de8-bb04-0d53b2d33643?lever-source%5B%5D=jobs.baincapitalventures.com",
+  "companyDomain": "finixpayments.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/da494738ea14d871b059fb0031f3f834_192_160?Expires=1861920000&Signature=soS2xTssNehgAK0JNmFdF074zit-uSJdn6LYotqfTg~hG7YvaXUw0",
+  "companyId": "Finix",
+  "companySlug": "finix",
+  "companyName": "Finix",
+  "companyStaffCount": 369,
   "considerHosted": false,
-  "departments": [],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "departments": [
+   "Engineering"
+  ],
+  "jobTypes": [
+   {
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "United States"
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 230000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:SFDC",
-    "label": "SFDC",
-    "value": "resume:SFDC"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:Procurement",
-    "label": "Procurement",
-    "value": "resume:Procurement"
+    "id": "resume:CTF",
+    "label": "CTF",
+    "value": "resume:CTF"
    },
    {
-    "id": "resume:Product Lifecycle Management",
-    "label": "Product Lifecycle Management",
-    "value": "resume:Product Lifecycle Management"
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:SFDC",
-    "label": "SFDC",
-    "value": "resume:SFDC"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:Procurement",
-    "label": "Procurement",
-    "value": "resume:Procurement"
+    "id": "resume:CTF",
+    "label": "CTF",
+    "value": "resume:CTF"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Product Lifecycle Management",
-    "label": "Product Lifecycle Management",
-    "value": "resume:Product Lifecycle Management"
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Offensive Security",
+    "label": "Offensive Security",
+    "value": "resume:Offensive Security"
    },
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
+    "id": "resume:Penetration Testing",
+    "label": "Penetration Testing",
+    "value": "resume:Penetration Testing"
    }
   ],
   "manager": false,
@@ -271,61 +285,56 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "Logistics and Supply Chain",
-    "label": "Logistics and Supply Chain",
-    "value": "Logistics and Supply Chain"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-11-10T22:00:16.174000Z",
-  "title": "Sr. Onboarding Project Specialist",
-  "url": "https://jobs.lever.co/Cofactr/6fb93a96-f267-4cd9-87d2-72a9896ef7ff",
-  "jobId": "6fb93a96-f267-4cd9-87d2-72a9896ef7ff",
-  "remote": true,
+  "timeStamp": "2026-11-10T23:41:15.210000Z",
+  "title": "Offensive Security Engineer",
+  "url": "https://jobs.lever.co/finix/70465320-7d2e-4de8-bb04-0d53b2d33643",
+  "jobId": "70465320-7d2e-4de8-bb04-0d53b2d33643",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1984042708673, 'matchScore': 0, 'ageScore': 0.998404270867284, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1834614162685, 'matchScore': 0, 'ageScore': 0.9834614162685185, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
