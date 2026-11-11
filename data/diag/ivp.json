@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-11T15:27:05Z",
+ "run": "2026-11-11T22:50:24Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "pNA70BNyBO\u2026",
+  "session.sig": "CtGQWqeexh\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzZiNjIxODc5MjIxNTQxZGJmMzAzZjQ3NmFjYWE0MmEiLCAic2NvcmUiOiAxLjExNjk2NDU4NDA1OTAyNzl9"
+   "sequence": "eyJfaWQiOiAiODQyZjY4MjY3NzFjZDY4YjhmZjBlZDliMGY2ZGNkMmQiLCAic2NvcmUiOiAxLjEwNDYzNDIyMjg0NDEzNTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,116 +128,117 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/langchain/2ec70ad4-e93f-4a51-a169-eef862fb3b64?utm_source=careers.ivp.com",
-  "companyDomain": "langchain.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3f11b6520bfc6af8df7ecaa4d8ea3c09_320_160?Expires=1861920000&Signature=tD1wB1pr9YQN58QRpea7RT54pzwlWGwp3sz6czkIGyUH4Gjn3o7dO",
-  "companyId": "Langchain",
-  "companySlug": "langchain",
-  "companyName": "LangChain",
-  "companyStaffCount": 469,
+  "applyUrl": "https://www.brex.com/careers/8936403002?gh_jid=8936403002",
+  "companyDomain": "brex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3f2aa579751cea124ad807326f6a985b_192_160?Expires=1861920000&Signature=Wu5piHHl3U5fi-NhKB8WMrOoJBgsm9khtv6eWfwfp3CgMiI7ud9~y",
+  "companyId": "Brex",
+  "companySlug": "brex",
+  "companyName": "Brex",
+  "companyStaffCount": 1776,
   "considerHosted": false,
   "departments": [
-   "Finance"
+   "Engineering"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
+   },
+   {
+    "id": "school-student",
+    "label": "Intern",
+    "value": "school-student"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "United States",
-   "San Francisco, CA"
+   "San Francisco, California, United States"
   ],
   "normalizedLocations": [
    {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
-   },
-   {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 180000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 55, 'maxValue': 55, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:ARM",
-    "label": "ARM",
-    "value": "resume:ARM"
+    "id": "resume:Kotlin",
+    "label": "Kotlin",
+    "value": "resume:Kotlin"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    },
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:NoSQL",
+    "label": "NoSQL",
+    "value": "resume:NoSQL"
    },
    {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:ARM",
-    "label": "ARM",
-    "value": "resume:ARM"
+    "id": "resume:Kotlin",
+    "label": "Kotlin",
+    "value": "resume:Kotlin"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:NoSQL",
+    "label": "NoSQL",
+    "value": "resume:NoSQL"
    },
    {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:REST",
-    "label": "REST",
-    "value": "resume:REST"
-   },
-   {
-    "id": "resume:FPA",
-    "label": "FP&A",
-    "value": "resume:FPA"
-   },
-   {
-    "id": "resume:LinkedIn",
-    "label": "LinkedIn",
-    "value": "resume:LinkedIn"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    }
   ],
   "manager": false,
@@ -245,16 +246,24 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 9,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
@@ -264,56 +273,40 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-11-11T00:00:00Z",
-  "title": "Revenue Manager",
-  "url": "https://jobs.ashbyhq.com/langchain/2ec70ad4-e93f-4a51-a169-eef862fb3b64",
-  "jobId": "2ec70ad4-e93f-4a51-a169-eef862fb3b64",
-  "remote": true,
+  "timeStamp": "2026-11-11T11:23:25Z",
+  "title": "Software Engineer, Intern  (Summer 2027(",
+  "url": "https://www.brex.com/careers/8936403002?gh_jid=8936403002",
+  "jobId": "8936403002",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1845060893322, 'matchScore': 0, 'ageScore': 0.984506089332176, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1876642062203, 'matchScore': 0, 'ageScore': 0.9876642062202932, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "intern",
+    "label": "Intern",
+    "value": "intern"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "intern"
   ],
   "isFeatured": false
  },

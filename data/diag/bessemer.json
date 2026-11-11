@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-11T15:27:05Z",
+ "run": "2026-11-11T22:50:24Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "PFXaMdEWaE\u2026",
+  "session.sig": "wGyMg4rkGJ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDJhYjE5MjU4MTUwNjBmZjE4NzJhMjIyZGM5MTZmYmIiLCAic2NvcmUiOiAxLjExNzQ0NzI4MjY3MDkxMDV9"
+   "sequence": "eyJfaWQiOiAiNTEzNzVmNWZlMjhmOTg0NmUxZWFiMTlkYzNjZjMzNGYiLCAic2NvcmUiOiAxLjEwNTA0NzYwNDIwMzMxOH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,117 +152,130 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/be6ffac6-5d72-4768-9f88-d1231a710ec9?utm_source=jobs.bvp.com",
-  "companyDomain": "perplexity.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
-  "companyId": "Perplexity AI",
-  "companySlug": "perplexity-ai",
-  "companyName": "Perplexity AI",
-  "companyStaffCount": 1408,
+  "applyUrl": "https://www.houserx.com/careers?gh_jid=4753412005",
+  "companyDomain": "houserx.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f8a748a6f849e5b3e4aa229582365be8_241_160?Expires=1861920000&Signature=UC6j5Bb8xD~RIWSPmxHTNwXneMpGF8CEsYJkDk5h4HqX7pjpK0ML2",
+  "companyId": "HouseRx",
+  "companySlug": "houserx",
+  "companyName": "House Rx",
+  "companyStaffCount": 308,
   "considerHosted": false,
   "departments": [
-   "Revenue Operations"
+   "People Operations"
   ],
   "jobTypes": [
    {
-    "id": "deal-desk-manager",
-    "label": "Deal Desk Manager",
-    "value": "deal-desk-manager"
+    "id": "human-resources",
+    "label": "HR",
+    "value": "human-resources"
+   },
+   {
+    "id": "platform-operations",
+    "label": "Platform Operations",
+    "value": "platform-operations"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
+   }
+  ],
   "locations": [
-   "San Francisco, California, United States",
-   "San Francisco",
-   "Austin",
-   "New York City"
+   "Pittsburgh, PA"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "Austin, Texas",
-    "label": "Austin, Texas",
-    "value": "Austin, Texas"
+    "id": "Pittsburgh, Pennsylvania",
+    "label": "Pittsburgh, Pennsylvania",
+    "value": "Pittsburgh, Pennsylvania"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Clinical Operations",
+    "label": "Clinical Operations",
+    "value": "resume:Clinical Operations"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Employee Relations",
+    "label": "Employee Relations",
+    "value": "resume:Employee Relations"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Psychology",
+    "label": "Psychology",
+    "value": "resume:Psychology"
    },
    {
-    "id": "resume:CPQ",
-    "label": "CPQ",
-    "value": "resume:CPQ"
+    "id": "resume:Rx",
+    "label": "Rx",
+    "value": "resume:Rx"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Clinical Operations",
+    "label": "Clinical Operations",
+    "value": "resume:Clinical Operations"
    },
    {
-    "id": "resume:CRM",
-    "label": "CRM",
-    "value": "resume:CRM"
+    "id": "resume:Employee Relations",
+    "label": "Employee Relations",
+    "value": "resume:Employee Relations"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Psychology",
+    "label": "Psychology",
+    "value": "resume:Psychology"
    },
    {
-    "id": "resume:CPQ",
-    "label": "CPQ",
-    "value": "resume:CPQ"
+    "id": "resume:Rx",
+    "label": "Rx",
+    "value": "resume:Rx"
+   },
+   {
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
+   },
+   {
+    "id": "resume:Cancer Biology",
+    "label": "Cancer Biology",
+    "value": "resume:Cancer Biology"
+   },
+   {
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -274,19 +287,14 @@
   "minYearsExp": 4,
   "regions": [
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "Northeast",
     "label": "Northeast",
     "value": "Northeast"
+   },
+   {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
    },
    {
     "id": "Mid Atlantic",
@@ -294,44 +302,42 @@
     "value": "Mid Atlantic"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-11-11T00:00:00Z",
-  "title": "Deal Desk Lead",
-  "url": "https://jobs.ashbyhq.com/Perplexity/be6ffac6-5d72-4768-9f88-d1231a710ec9",
-  "jobId": "be6ffac6-5d72-4768-9f88-d1231a710ec9",
+  "timeStamp": "2026-11-11T10:24:48Z",
+  "title": "People Operations Partner",
+  "url": "https://www.houserx.com/careers?gh_jid=4753412005",
+  "jobId": "4753412005",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1841651352477, 'matchScore': 0, 'ageScore': 0.9841651352476852, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1865011236115, 'matchScore': 0, 'ageScore': 0.9865011236114969, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   }
-  ],
-  "jobSeniorityIds": [
-   "mid"
-  ],
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {

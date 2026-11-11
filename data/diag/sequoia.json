@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-11T15:27:05Z",
+ "run": "2026-11-11T22:50:24Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "PzwC0L_hwP\u2026",
+  "session.sig": "6upyqHm6vO\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZmZhMjFiODdmMGFjZjYyYTVhYmY2MDQyYTU3MGVhODQiLCAic2NvcmUiOiAxLjE0NDg4NzY5NzMwMTMxMTh9"
+   "sequence": "eyJfaWQiOiAiMmU3MmM3MWU5ZmY0MTQwM2JkOTFiZTQ5YWJjZGIzZTciLCAic2NvcmUiOiAxLjEzNzkyMTI3Mjg2MTQ5N30="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,36 +144,33 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.comeet.com/jobs/cyera/17.008/sales-engineer---chicago-majors/EE.07E",
-  "companyDomain": "cyera.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec6d92aec09bf6716dbbd9d50089a4ec_208_160?Expires=1861920000&Signature=hr9QoUI4iKYF8Hn~HoiixG3elVHvWPoII2QRBQjO8zeSQJpeGQNuP",
-  "companyId": "Cyera",
-  "companySlug": "cyera",
-  "companyName": "Cyera",
-  "companyStaffCount": 1776,
+  "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8379092",
+  "companyDomain": "reddit.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6542503e452d62c1c7f3ad69792d85cc_232_160?Expires=1861920000&Signature=feDuh3wrlQse4R1g8WeYTt-KN2lxryJQ7LFmuZm-SzXAvSUdFzRLX",
+  "companyId": "Reddit",
+  "companySlug": "reddit",
+  "companyName": "reddit",
+  "companyStaffCount": 4495,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Infrastructure"
+  ],
   "jobTypes": [
    {
-    "id": "solutions-architect",
-    "label": "Solutions Architect",
-    "value": "solutions-architect"
-   },
-   {
-    "id": "sales-engineer",
-    "label": "Sales Engineer",
-    "value": "sales-engineer"
+    "id": "engineering-manager",
+    "label": "Engineering Manager",
+    "value": "engineering-manager"
    }
   ],
   "jobFunctions": [
@@ -184,75 +181,21 @@
    }
   ],
   "locations": [
-   "North Central (US)"
+   "Remote - United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 225000, 'maxValue': 275000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 230000, 'maxValue': 322000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Identity & Access Management (IAM)",
-    "label": "Identity & Access Management (IAM)",
-    "value": "resume:Identity & Access Management (IAM)"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Process Improvement",
-    "label": "Process Improvement",
-    "value": "resume:Process Improvement"
-   },
-   {
-    "id": "resume:Sales Engineering",
-    "label": "Sales Engineering",
-    "value": "resume:Sales Engineering"
-   },
-   {
-    "id": "resume:Information Security",
-    "label": "Information Security",
-    "value": "resume:Information Security"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Identity & Access Management (IAM)",
-    "label": "Identity & Access Management (IAM)",
-    "value": "resume:Identity & Access Management (IAM)"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Process Improvement",
-    "label": "Process Improvement",
-    "value": "resume:Process Improvement"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Sales Engineering",
-    "label": "Sales Engineering",
-    "value": "resume:Sales Engineering"
-   },
-   {
-    "id": "resume:Information Security",
-    "label": "Information Security",
-    "value": "resume:Information Security"
-   },
-   {
-    "id": "resume:Technical Sales",
-    "label": "Technical Sales",
-    "value": "resume:Technical Sales"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
     "id": "resume:Amazon Web Services",
@@ -260,25 +203,80 @@
     "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Network Protocols",
-    "label": "Network Protocols",
-    "value": "resume:Network Protocols"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   },
+   {
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
+   },
+   {
+    "id": "resume:Ranking",
+    "label": "Ranking",
+    "value": "resume:Ranking"
    }
   ],
-  "manager": false,
+  "requiredSkills": [
+   {
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
+   },
+   {
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
+   },
+   {
+    "id": "resume:Ranking",
+    "label": "Ranking",
+    "value": "resume:Ranking"
+   },
+   {
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
+   },
+   {
+    "id": "resume:Indexing",
+    "label": "Indexing",
+    "value": "resume:Indexing"
+   },
+   {
+    "id": "resume:Redis",
+    "label": "Redis",
+    "value": "resume:Redis"
+   }
+  ],
+  "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ]
+  ],
+  "minYearsExp": 7,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
    }
   ],
   "stages": [
@@ -286,39 +284,38 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "Consumer",
+    "label": "Consumer",
+    "value": "Consumer"
+   },
+   {
+    "id": "Social Networking",
+    "label": "Social Networking",
+    "value": "Social Networking"
    }
   ],
-  "timeStamp": "2026-11-11T00:57:46Z",
-  "title": "Sales Engineer - Chicago (Majors)",
-  "url": "https://www.comeet.com/jobs/cyera/17.008/sales-engineer---chicago-majors/EE.07E",
-  "jobId": "EE.07E",
-  "remote": false,
+  "timeStamp": "2026-11-11T11:03:16Z",
+  "title": "Engineering Manager, Ranking Platform",
+  "url": "https://job-boards.greenhouse.io/reddit/jobs/8379092",
+  "jobId": "8379092",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1855600037064, 'matchScore': 0, 'ageScore': 0.9855600037064043, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1872089774255, 'matchScore': 0, 'ageScore': 0.9872089774255401, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },
