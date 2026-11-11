@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-10T23:33:34Z",
+ "run": "2026-11-11T06:48:19Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"},\"server\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"},\"server\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "QKZrqJUAMe\u2026",
+  "session.sig": "CkVyfZhleS\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMWMxMGYwMjEzYjQyZGUwMjdiYjc4ZGNlYThlYmQ0YzciLCAic2NvcmUiOiAxLjA2OTUwNTk4NTc2MDQxNjh9"
+   "sequence": "eyJfaWQiOiAiZjk1OTQ2NTMwNDI4MTk4MjZiN2UzZTk3N2MwNDkyZDEiLCAic2NvcmUiOiAxLjA4NDUyNTQwNzY5MTM1OH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,120 +152,49 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.docusign.com/jobs/30696?lang=en-us",
-  "companyDomain": "docusign.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
-  "companyId": "DocuSign",
-  "companySlug": "docusign",
-  "companyName": "DocuSign",
-  "companyStaffCount": 8412,
+  "applyUrl": "https://jobs.lever.co/Cofactr/6fb93a96-f267-4cd9-87d2-72a9896ef7ff?lever-source%5B%5D=jobs.baincapitalventures.com",
+  "companyDomain": "cofactr.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2b3ddc5bc07c8920f9d4f01d9ede500_272_160?Expires=1861920000&Signature=bQELevL271Jy60EgX8dYkI6q91SYLUNEqKLv2rsQKHri0gWm3R7LO",
+  "companyId": "Cofactr",
+  "companySlug": "cofactr",
+  "companyName": "Cofactr",
+  "companyStaffCount": 38,
   "considerHosted": false,
   "departments": [],
-  "jobTypes": [
-   {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
-   },
-   {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   },
-   {
-    "id": "sales-mid-maket",
-    "label": "Sales Mid Market",
-    "value": "sales-mid-maket"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   }
-  ],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "Chicago, Illinois"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Chicago, Illinois",
-    "label": "Chicago, Illinois",
-    "value": "Chicago, Illinois"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 26.3, 'maxValue': 36.2, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:ROI",
-    "label": "ROI",
-    "value": "resume:ROI"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:Trust Building",
-    "label": "Trust Building",
-    "value": "resume:Trust Building"
-   },
-   {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
-   },
-   {
-    "id": "resume:Customer Acquisition",
-    "label": "Customer Acquisition",
-    "value": "resume:Customer Acquisition"
-   },
-   {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:ROI",
-    "label": "ROI",
-    "value": "resume:ROI"
-   },
-   {
-    "id": "resume:Trust Building",
-    "label": "Trust Building",
-    "value": "resume:Trust Building"
-   },
-   {
-    "id": "resume:Full-cycle",
-    "label": "Full-cycle",
-    "value": "resume:Full-cycle"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Customer Acquisition",
-    "label": "Customer Acquisition",
-    "value": "resume:Customer Acquisition"
-   },
-   {
-    "id": "resume:Learning and Development",
-    "label": "Learning and Development",
-    "value": "resume:Learning and Development"
+    "id": "resume:SFDC",
+    "label": "SFDC",
+    "value": "resume:SFDC"
    },
    {
     "id": "resume:Procurement",
@@ -273,14 +202,58 @@
     "value": "resume:Procurement"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Product Lifecycle Management",
+    "label": "Product Lifecycle Management",
+    "value": "resume:Product Lifecycle Management"
    },
    {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:SFDC",
+    "label": "SFDC",
+    "value": "resume:SFDC"
+   },
+   {
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Product Lifecycle Management",
+    "label": "Product Lifecycle Management",
+    "value": "resume:Product Lifecycle Management"
+   },
+   {
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
+   },
+   {
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    }
   ],
   "manager": false,
@@ -292,60 +265,67 @@
     4
    ]
   ],
+  "minYearsExp": 4,
   "regions": [
-   {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
+   },
+   {
+    "id": "Series A",
+    "label": "Series A",
+    "value": "Series A"
    }
   ],
+  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "IT and Services",
-    "label": "IT and Services",
-    "value": "IT and Services"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "Logistics and Supply Chain",
+    "label": "Logistics and Supply Chain",
+    "value": "Logistics and Supply Chain"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-11-10T00:34:59Z",
-  "title": "Account Executive, SMB Install",
-  "url": "https://careers.docusign.com/jobs/30696?lang=en-us",
-  "jobId": "30696",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1723395094926, 'matchScore': 0, 'ageScore': 0.9723395094926698, 'richnessScore': 2}",
+  "timeStamp": "2026-11-10T22:00:16.174000Z",
+  "title": "Sr. Onboarding Project Specialist",
+  "url": "https://jobs.lever.co/Cofactr/6fb93a96-f267-4cd9-87d2-72a9896ef7ff",
+  "jobId": "6fb93a96-f267-4cd9-87d2-72a9896ef7ff",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1984042708673, 'matchScore': 0, 'ageScore': 0.998404270867284, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

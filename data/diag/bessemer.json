@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-10T23:33:34Z",
+ "run": "2026-11-11T06:48:19Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"},\"server\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"},\"server\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "InAZR8cA-F\u2026",
+  "session.sig": "Mp6whSOfxL\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjczMDNiZDhlMzBmYjdiMjI3ZDA5NWFhMjBkOTVjMzgiLCAic2NvcmUiOiAxLjA4NDI1MzUyMzQ0MTc0Mzl9"
+   "sequence": "eyJfaWQiOiAiOGQxODQ3YWU1Zjg4Y2IwMzM5NzlmYzM3Y2RjNDIxYTMiLCAic2NvcmUiOiAxLjEzMzg3MDE4ODM1NDE2NjZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,138 +152,127 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5467305008",
-  "companyDomain": "anthropic.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
-  "companyId": "Anthropic",
-  "companySlug": "anthropic",
-  "companyName": "Anthropic",
-  "companyStaffCount": 6243,
+  "applyUrl": "https://jobs.lever.co/restaurant365/bdafbf74-5331-4988-bbec-93a70b8e06bf?lever-source%5B%5D=jobs.bvp.com",
+  "companyDomain": "restaurant365.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6bc9ba8ab51f0e3260175fa3450c4490_320_160?Expires=1861920000&Signature=BjaLUgcasR36Gki0m9~xsGkU2Ydeq9NhehEt09M35A3xDg~4qiIGQ",
+  "companyId": "Restaurant365",
+  "companySlug": "restaurant365",
+  "companyName": "Restaurant365",
+  "companyStaffCount": 3963,
   "considerHosted": false,
   "departments": [
-   "AI Research & Engineering"
+   "Business Operations"
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
+    "id": "payroll-specialist",
+    "label": "Payroll Specialist",
+    "value": "payroll-specialist"
    },
    {
-    "id": "research-scientist",
-    "label": "Research Scientist",
-    "value": "research-scientist"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Science",
-    "label": "Science",
-    "value": "Science"
-   },
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    }
   ],
   "locations": [
-   "San Francisco, CA",
-   "New York City, NY"
+   "Irvine, CA, Austin, TX, San Francisco Bay Area, CA, Denver, CO"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "San Francisco Bay Area",
+    "label": "San Francisco Bay Area",
+    "value": "San Francisco Bay Area"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 350000, 'maxValue': 850000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 37.88, 'maxValue': 56.83, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
+    "id": "resume:Pivot Tables",
+    "label": "Pivot Tables",
+    "value": "resume:Pivot Tables"
    },
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
+    "id": "resume:Relationship Management",
+    "label": "Relationship Management",
+    "value": "resume:Relationship Management"
    },
    {
-    "id": "resume:Apache Beam",
-    "label": "Apache Beam",
-    "value": "resume:Apache Beam"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Docker",
-    "label": "Docker",
-    "value": "resume:Docker"
+    "id": "resume:Restaurants",
+    "label": "Restaurants",
+    "value": "resume:Restaurants"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
+    "id": "resume:Pivot Tables",
+    "label": "Pivot Tables",
+    "value": "resume:Pivot Tables"
    },
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:PyTorch",
-    "label": "PyTorch",
-    "value": "resume:PyTorch"
+    "id": "resume:Relationship Management",
+    "label": "Relationship Management",
+    "value": "resume:Relationship Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Apache Beam",
-    "label": "Apache Beam",
-    "value": "resume:Apache Beam"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Docker",
-    "label": "Docker",
-    "value": "resume:Docker"
+    "id": "resume:Restaurants",
+    "label": "Restaurants",
+    "value": "resume:Restaurants"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Mentorship",
+    "label": "Mentorship",
+    "value": "resume:Mentorship"
    },
    {
-    "id": "resume:Virtualization",
-    "label": "Virtualization",
-    "value": "resume:Virtualization"
+    "id": "resume:Customer Onboarding",
+    "label": "Customer Onboarding",
+    "value": "resume:Customer Onboarding"
    }
   ],
   "manager": false,
@@ -299,32 +288,22 @@
     6
    ]
   ],
-  "minYearsExp": 6,
+  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
    {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -332,33 +311,22 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Research",
-    "label": "Research",
-    "value": "Research"
+    "id": "Restaurants",
+    "label": "Restaurants",
+    "value": "Restaurants"
    }
   ],
-  "timeStamp": "2026-11-10T07:05:53Z",
-  "title": "[C] Research Engineer, Discovery",
-  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5467305008",
-  "jobId": "5467305008",
+  "timeStamp": "2026-11-10T21:40:25.257000Z",
+  "title": "Lead Payroll Specialist, Payroll Bureau",
+  "url": "https://jobs.lever.co/restaurant365/bdafbf74-5331-4988-bbec-93a70b8e06bf",
+  "jobId": "bdafbf74-5331-4988-bbec-93a70b8e06bf",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1810300594992, 'matchScore': 0, 'ageScore': 0.9810300594992284, 'richnessScore': 2}",
+  "scores": "{'score': 1001.19723592598, 'matchScore': 0, 'ageScore': 0.9972359259799383, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -366,10 +334,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

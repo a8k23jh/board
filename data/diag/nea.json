@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-11-10T23:33:34Z",
+ "run": "2026-11-11T06:48:19Z",
  "homepage": {
   "status": 200,
   "bytes": 20756
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"},\"server\":{\"git\":\"4710baec1572fe61b7821e2a412c990545c9d5de\",\"date\":\"2026-11-10T19:05:33.461Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"},\"server\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "kH1kyINkJb\u2026",
+  "session.sig": "JKnY9JCmvu\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzM1MGJhYWM1YjE0ZDZjNmY1MmMwYjczODkwNTUxZDEiLCAic2NvcmUiOiAxLjA1MDc1MTkzMzAwMjMxNX0="
+   "sequence": "eyJfaWQiOiAiMGQ0ZmM5ZDcxZDQ2ZDc4MGMwYmM3Yjk0MzkxM2JmMTkiLCAic2NvcmUiOiAxLjA5ODUxMTE4ODAyNzAwNjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,138 +136,126 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDqQkdlGuLMsy-SGlC-jXrUf?utm_source=careers.nea.com",
-  "companyDomain": "launchfirestorm.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e188c39c312914da9e7993fda04e236c_320_160?Expires=1861920000&Signature=Pm7J-k33~dn1h7QkoqdLumPZldorJ59U2n6Yki9r684MrWcuwsfhz",
-  "companyId": "Firestorm",
-  "companySlug": "firestorm",
-  "companyName": "Firestorm",
-  "companyStaffCount": 192,
+  "applyUrl": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=f9807a0022c4da12",
+  "companyDomain": "radpartners.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cbb7c62716082738519fbfbf183291f4_320_160?Expires=1861920000&Signature=IP2EwPq0HgJamPOiRiCrnFCNO7ptxDEq05T1ezuMj3TC6QzvZIq8E",
+  "companyId": "Radiology Partners",
+  "companySlug": "radiology-partners",
+  "companyName": "Radiology Partners",
+  "companyStaffCount": 2302,
   "considerHosted": false,
-  "departments": [
-   "Program Management"
+  "departments": [],
+  "jobTypes": [
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "supervisor",
+    "label": "Supervisor",
+    "value": "supervisor"
+   }
   ],
-  "jobTypes": [],
   "jobFunctions": [],
   "locations": [
-   "San Diego, CA"
+   "Las Vegas, NV"
   ],
   "normalizedLocations": [
    {
-    "id": "San Diego, California",
-    "label": "San Diego, California",
-    "value": "San Diego, California"
+    "id": "Las Vegas, Nevada",
+    "label": "Las Vegas, Nevada",
+    "value": "Las Vegas, Nevada"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 75000, 'maxValue': 95000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 47500, 'maxValue': 47500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    },
    {
-    "id": "resume:Production Support",
-    "label": "Production Support",
-    "value": "resume:Production Support"
+    "id": "resume:Outpatient",
+    "label": "Outpatient",
+    "value": "resume:Outpatient"
    },
    {
-    "id": "resume:Manufacturing Engineering",
-    "label": "Manufacturing Engineering",
-    "value": "resume:Manufacturing Engineering"
+    "id": "resume:Board Certified",
+    "label": "Board Certified",
+    "value": "resume:Board Certified"
    },
    {
-    "id": "resume:Product Lifecycle Management",
-    "label": "Product Lifecycle Management",
-    "value": "resume:Product Lifecycle Management"
+    "id": "resume:Nonprofits",
+    "label": "Nonprofits",
+    "value": "resume:Nonprofits"
    },
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Medical Terminology",
+    "label": "Medical Terminology",
+    "value": "resume:Medical Terminology"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    },
    {
-    "id": "resume:Production Support",
-    "label": "Production Support",
-    "value": "resume:Production Support"
+    "id": "resume:Outpatient",
+    "label": "Outpatient",
+    "value": "resume:Outpatient"
    },
    {
-    "id": "resume:Manufacturing Engineering",
-    "label": "Manufacturing Engineering",
-    "value": "resume:Manufacturing Engineering"
+    "id": "resume:Board Certified",
+    "label": "Board Certified",
+    "value": "resume:Board Certified"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Product Lifecycle Management",
-    "label": "Product Lifecycle Management",
-    "value": "resume:Product Lifecycle Management"
+    "id": "resume:Nonprofits",
+    "label": "Nonprofits",
+    "value": "resume:Nonprofits"
    },
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Medical Terminology",
+    "label": "Medical Terminology",
+    "value": "resume:Medical Terminology"
    },
    {
-    "id": "resume:MRP",
-    "label": "MRP",
-    "value": "resume:MRP"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:ERP",
-    "label": "ERP",
-    "value": "resume:ERP"
+    "id": "resume:Call Centers",
+    "label": "Call Centers",
+    "value": "resume:Call Centers"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ]
-  ],
-  "minYearsExp": 2,
-  "maxYearsExp": 5,
+  "considerLevels": [],
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -276,45 +264,37 @@
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
-   },
-   {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Hospital & Health Care",
+    "label": "Hospital & Health Care",
+    "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-11-10T05:58:46Z",
-  "title": "Operations Liaison",
-  "url": "https://jobs.gem.com/firestorm/am9icG9zdDqQkdlGuLMsy-SGlC-jXrUf",
-  "jobId": "am9icG9zdDqQkdlGuLMsy-SGlC-jXrUf",
+  "timeStamp": "2026-11-10T20:57:16Z",
+  "title": "Patient Care Supervisor",
+  "url": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=f9807a0022c4da12",
+  "jobId": "f9807a0022c4da12",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.18016964275, 'matchScore': 0, 'ageScore': 0.98016964275, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1884230807431, 'matchScore': 0, 'ageScore': 0.9884230807430555, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {
