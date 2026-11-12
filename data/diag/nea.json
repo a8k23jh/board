@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-11-12T12:57:42Z",
+ "run": "2026-11-12T20:56:58Z",
  "homepage": {
   "status": 200,
   "bytes": 20756
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "3D-EmvwDXE\u2026",
+  "session.sig": "7ze7SGwcYz\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTE0MTEyZGVjMjdlZThmMGEwYWNkNzdmOGRlMWQ5ZTgiLCAic2NvcmUiOiAxLjA4NTM3MTU3Nzk1MjE2MDR9"
+   "sequence": "eyJfaWQiOiAiM2Y1ZGE2MmJiOTQxYmQyZTljNmFmMWIyNzFhMWEyNmYiLCAic2NvcmUiOiAxLjA5MTk1NzgyODU1Mjg1NDh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,114 +136,125 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/qualified-health-pbc/7a19a181-d7d4-4f6d-acd6-6f6318f198c5?utm_source=careers.nea.com",
-  "companyDomain": "qualifiedhealthai.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/35237fa3ec4a166f07ab0f767f660a7d_320_160?Expires=1861920000&Signature=HCbIar1CKj6mfVWEqIHtVMIHFtsJfFn5XnGdPEhDhz7lLije-JBOc",
-  "companyId": "Qualified Health",
-  "companySlug": "qualified-health",
-  "companyName": "Qualified Health",
-  "companyStaffCount": 60,
+  "applyUrl": "https://job-boards.greenhouse.io/strivehealth/jobs/4729007006",
+  "companyDomain": "strivehealth.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c013139aced83719018a65668570f915_160_160?Expires=1861920000&Signature=NcoFCLj~~CPKn47IsMMEaGg3sONHH3~6dJt4Pu4aL6ddGe4HGbFae",
+  "companyId": "Strive Health",
+  "companySlug": "strive-health",
+  "companyName": "Strive Health",
+  "companyStaffCount": 602,
   "considerHosted": false,
   "departments": [
-   "Data"
+   "Engineering"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "engineering-manager",
+    "label": "Engineering Manager",
+    "value": "engineering-manager"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "",
-   "United States - Remote"
+   "Denver, CO"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Denver, Colorado",
+    "label": "Denver, Colorado",
+    "value": "Denver, Colorado"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 215000, 'maxValue': 235000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 163000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:HIPAA",
-    "label": "HIPAA",
-    "value": "resume:HIPAA"
+    "id": "resume:Amazon Redshift",
+    "label": "Amazon Redshift",
+    "value": "resume:Amazon Redshift"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Amazon RDS",
+    "label": "Amazon RDS",
+    "value": "resume:Amazon RDS"
    },
    {
-    "id": "resume:Terraform",
-    "label": "Terraform",
-    "value": "resume:Terraform"
+    "id": "resume:Cloud Native",
+    "label": "Cloud Native",
+    "value": "resume:Cloud Native"
    },
    {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    },
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:HIPAA",
-    "label": "HIPAA",
-    "value": "resume:HIPAA"
+    "id": "resume:Amazon Redshift",
+    "label": "Amazon Redshift",
+    "value": "resume:Amazon Redshift"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Amazon RDS",
+    "label": "Amazon RDS",
+    "value": "resume:Amazon RDS"
    },
    {
-    "id": "resume:Terraform",
-    "label": "Terraform",
-    "value": "resume:Terraform"
+    "id": "resume:Cloud Native",
+    "label": "Cloud Native",
+    "value": "resume:Cloud Native"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    },
    {
-    "id": "resume:Cloud Infrastructure",
-    "label": "Cloud Infrastructure",
-    "value": "resume:Cloud Infrastructure"
+    "id": "resume:Amazon Web Services",
+    "label": "Amazon Web Services",
+    "value": "resume:Amazon Web Services"
    },
    {
-    "id": "resume:Airflow",
-    "label": "Airflow",
-    "value": "resume:Airflow"
+    "id": "resume:Data Management",
+    "label": "Data Engineering",
+    "value": "resume:Data Management"
    },
    {
-    "id": "resume:Microsoft Azure",
-    "label": "Microsoft Azure",
-    "value": "resume:Microsoft Azure"
+    "id": "resume:HL7",
+    "label": "HL7",
+    "value": "resume:HL7"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Amazon S3",
+    "label": "Amazon S3",
+    "value": "resume:Amazon S3"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -256,7 +267,7 @@
     8
    ]
   ],
-  "minYearsExp": 12,
+  "minYearsExp": 9,
   "regions": [
    {
     "id": "North America",
@@ -266,52 +277,36 @@
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
-   {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Digital Health",
-    "label": "Digital Health",
-    "value": "Digital Health"
-   },
    {
     "id": "Hospital & Health Care",
     "label": "Hospital & Health Care",
     "value": "Hospital & Health Care"
    }
   ],
-  "timeStamp": "2026-11-12T00:00:00Z",
-  "title": "Senior Staff Engineer, Data Platform",
-  "url": "https://jobs.ashbyhq.com/qualified-health-pbc/7a19a181-d7d4-4f6d-acd6-6f6318f198c5",
-  "jobId": "7a19a181-d7d4-4f6d-acd6-6f6318f198c5",
-  "remote": true,
+  "timeStamp": "2026-11-12T09:43:01Z",
+  "title": "Sr. Manager, Engineering",
+  "url": "https://job-boards.greenhouse.io/strivehealth/jobs/4729007006",
+  "jobId": "4729007006",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1840823070394, 'matchScore': 0, 'ageScore': 0.9840823070393518, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1896928383487, 'matchScore': 0, 'ageScore': 0.9896928383487654, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "manager"
   ],
   "isFeatured": false
  },

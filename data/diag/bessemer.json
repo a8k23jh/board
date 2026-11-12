@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-12T12:57:42Z",
+ "run": "2026-11-12T20:56:58Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TgXrb3dL8_\u2026",
+  "session.sig": "VzfrXjmdDd\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzg4NjVmZjRhOWU3YWI3NTc1NDMyMjFhMjJlMGFmNWIiLCAic2NvcmUiOiAxLjEwNzQxOTgyMDIyMTQ1MDd9"
+   "sequence": "eyJfaWQiOiAiODc1Yjc3NmI2NmU0NTliMjBkNzg1YmIwMmRiODBkYzkiLCAic2NvcmUiOiAxLjEwMDA0NjEyMTUwNjU1ODd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -174,11 +174,6 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "compliance-risk",
-    "label": "Risk & Compliance Manager",
-    "value": "compliance-risk"
-   },
-   {
     "id": "auditor",
     "label": "Auditor",
     "value": "auditor"
@@ -187,6 +182,11 @@
     "id": "audit",
     "label": "Audit Manager",
     "value": "audit"
+   },
+   {
+    "id": "compliance-risk",
+    "label": "Risk & Compliance Manager",
+    "value": "compliance-risk"
    }
   ],
   "jobFunctions": [
@@ -206,12 +206,17 @@
     "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 55000, 'maxValue': 65000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 65000, 'maxValue': 85000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
+   },
+   {
+    "id": "resume:Outpatient",
+    "label": "Outpatient",
+    "value": "resume:Outpatient"
    },
    {
     "id": "resume:Service",
@@ -219,48 +224,38 @@
     "value": "resume:Service"
    },
    {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
+    "id": "resume:Electronic Medical Record (EMR)",
+    "label": "Electronic Medical Record (EMR)",
+    "value": "resume:Electronic Medical Record (EMR)"
    },
    {
-    "id": "resume:Regulatory Requirements",
-    "label": "Regulatory Requirements",
-    "value": "resume:Regulatory Requirements"
-   },
-   {
-    "id": "resume:Outpatient",
-    "label": "Outpatient",
-    "value": "resume:Outpatient"
+    "id": "resume:Surgery",
+    "label": "Surgery",
+    "value": "resume:Surgery"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Organization Skills",
-    "label": "Organization Skills",
-    "value": "resume:Organization Skills"
-   },
-   {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   },
-   {
-    "id": "resume:Analytical Skills",
-    "label": "Analytical Skills",
-    "value": "resume:Analytical Skills"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Regulatory Requirements",
-    "label": "Regulatory Requirements",
-    "value": "resume:Regulatory Requirements"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
     "id": "resume:Outpatient",
     "label": "Outpatient",
     "value": "resume:Outpatient"
+   },
+   {
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Electronic Medical Record (EMR)",
+    "label": "Electronic Medical Record (EMR)",
+    "value": "resume:Electronic Medical Record (EMR)"
    },
    {
     "id": "resume:Surgery",
@@ -268,14 +263,19 @@
     "value": "resume:Surgery"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Electronic Medical Record (EMR)",
-    "label": "Electronic Medical Record (EMR)",
-    "value": "resume:Electronic Medical Record (EMR)"
+    "id": "resume:Analytical Skills",
+    "label": "Analytical Skills",
+    "value": "resume:Analytical Skills"
+   },
+   {
+    "id": "resume:Regulatory Requirements",
+    "label": "Regulatory Requirements",
+    "value": "resume:Regulatory Requirements"
    }
   ],
   "manager": false,
@@ -324,13 +324,13 @@
     "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-11-12T06:04:05Z",
+  "timeStamp": "2026-11-12T11:58:28Z",
   "title": "Medical Coding & Compliance Auditor",
   "url": "https://www.comeet.com/jobs/nymhealth/46.005/medical-coding--compliance-auditor/93.574",
   "jobId": "93.574",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.192034039142, 'matchScore': 0, 'ageScore': 0.9920340391419753, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1928697384017, 'matchScore': 0, 'ageScore': 0.9928697384016204, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

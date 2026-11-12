@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-12T12:57:42Z",
+ "run": "2026-11-12T20:56:58Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "SDmikVJrEc\u2026",
+  "session.sig": "j1ZG20FZ2O\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWIyZjllNTlmZmFlZDkzN2YyYjA3ZTgzZWU1NjhjZjgiLCAic2NvcmUiOiAxLjExNzA4Mzk3MDQ1MTM4ODl9"
+   "sequence": "eyJfaWQiOiAiNDIxYmRlYTI2MWUwNDc3ZmU0MGQzZWMxZWI5NTkwMjciLCAic2NvcmUiOiAxLjEwODc5NTYwMjk1NzE3Nn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,90 +152,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/wonolo/am9icG9zdDrsNpgXNZtkgW625oupVQah?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "wonolo.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec5d4fa0298068cd22d50bb085f94f27_240_160?Expires=1861920000&Signature=fQsngyHmijPhqs1~Ectyxtf3bzQyrDte3D-KYwq-jlxJWrbPHfU-t",
-  "companyId": "Wonolo",
-  "companySlug": "wonolo",
-  "companyName": "Wonolo",
-  "companyStaffCount": 822,
+  "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8352451?gh_jid=8352451",
+  "companyDomain": "rubrik.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/35b32caf7afd5dcbacf9b127e064a74c_240_160?Expires=1861920000&Signature=tFI1Cjso4w0tkgpR1k20QMYTdNQlzWLL6jynAO197zbCRXhV0071v",
+  "companyId": "Rubrik",
+  "companySlug": "rubrik",
+  "companyName": "Rubrik",
+  "companyStaffCount": 5202,
   "considerHosted": false,
   "departments": [
-   "Market Operations"
+   "Sales Engineering"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "sales-engineering",
+    "label": "Sales Engineering",
+    "value": "sales-engineering"
+   },
+   {
+    "id": "solutions-architect",
+    "label": "Solutions Architect",
+    "value": "solutions-architect"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "Los Angeles, California"
+   "Remote - United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Los Angeles, California",
-    "label": "Los Angeles, California",
-    "value": "Los Angeles, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 25, 'maxValue': 27, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 167000, 'maxValue': 203000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Qualitative Data",
-    "label": "Qualitative Data",
-    "value": "resume:Qualitative Data"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Sourcing New Business",
-    "label": "Sourcing New Business",
-    "value": "resume:Sourcing New Business"
+    "id": "resume:Virtualization",
+    "label": "Virtualization",
+    "value": "resume:Virtualization"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:CISM",
+    "label": "CISM",
+    "value": "resume:CISM"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Solution Architecture",
+    "label": "Solution Architecture",
+    "value": "resume:Solution Architecture"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Competitive Analysis",
+    "label": "Competitive Analysis",
+    "value": "resume:Competitive Analysis"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Qualitative Data",
-    "label": "Qualitative Data",
-    "value": "resume:Qualitative Data"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Sourcing New Business",
-    "label": "Sourcing New Business",
-    "value": "resume:Sourcing New Business"
+    "id": "resume:Virtualization",
+    "label": "Virtualization",
+    "value": "resume:Virtualization"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:CISM",
+    "label": "CISM",
+    "value": "resume:CISM"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Solution Architecture",
+    "label": "Solution Architecture",
+    "value": "resume:Solution Architecture"
+   },
+   {
+    "id": "resume:Competitive Analysis",
+    "label": "Competitive Analysis",
+    "value": "resume:Competitive Analysis"
+   },
+   {
+    "id": "resume:Pre-sales",
+    "label": "Pre-sales",
+    "value": "resume:Pre-sales"
    },
    {
     "id": "resume:Marketing",
@@ -243,9 +275,9 @@
     "value": "resume:Marketing"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Cloud Infrastructure",
+    "label": "Cloud Infrastructure",
+    "value": "resume:Cloud Infrastructure"
    }
   ],
   "manager": false,
@@ -253,70 +285,54 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 10,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
+    "id": "Cloud Services",
+    "label": "Cloud Services",
+    "value": "Cloud Services"
    }
   ],
-  "timeStamp": "2026-11-12T05:57:48Z",
-  "title": "Customer Onsite Specialist (3 months contract)",
-  "url": "https://jobs.gem.com/wonolo/am9icG9zdDrsNpgXNZtkgW625oupVQah",
-  "jobId": "am9icG9zdDrsNpgXNZtkgW625oupVQah",
-  "remote": false,
+  "timeStamp": "2026-11-12T09:49:12Z",
+  "title": "Advisory Solutions Architect, MSP (New Product Intro)",
+  "url": "https://www.rubrik.com/company/careers/departments/job.8352451?gh_jid=8352451",
+  "jobId": "8352451",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1920806367021, 'matchScore': 0, 'ageScore': 0.9920806367021605, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1895350592072, 'matchScore': 0, 'ageScore': 0.9895350592071759, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "expert",
+    "label": "Expert",
+    "value": "expert"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "expert"
   ],
   "isFeatured": false
  },
