@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-11-11T22:50:24Z",
+ "run": "2026-11-12T03:55:38Z",
  "homepage": {
   "status": 200,
   "bytes": 26319
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"},\"server\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"},\"server\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Azs1PgkjTu\u2026",
+  "session.sig": "qwA9mxI6E6\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTZkMzI0MmEyNzBmZGQ0OTk5OTMzMTYyMmY3ODVhZjEiLCAic2NvcmUiOiAxLjEzODA5OTU3NDkxOTM2NzJ9"
+   "sequence": "eyJfaWQiOiAiYWNlOGY3NzlkMzVhYWE2YzZkMzAyYTI5ZmMwMzRjODciLCAic2NvcmUiOiAxLjEzNDM0NDY0MTMwOTQxMzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,48 +136,36 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://careers.toasttab.com/jobs?gh_jid=8378653",
-  "companyDomain": "toasttab.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/10b76dfadaa3d02e395653d2e4ad91c7_224_160?Expires=1861920000&Signature=PtDuhlaSCZonFIeTiF7IxR9cV6U3AuXbGwRCvrN2ame58oHo82oq9",
-  "companyId": "Toast",
-  "companySlug": "toast",
-  "companyName": "Toast",
-  "companyStaffCount": 7864,
+  "applyUrl": "https://recruiting2.ultipro.com/FLO1013FLFR/JobBoard/acc64946-b33a-4b6e-b62d-bf9a497ef7b1/OpportunityDetail?opportunityId=42c07cc3-4c72-46db-b491-3b2cc27bc236",
+  "companyDomain": "flockfreight.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/bc068179597f6353c8ba272a38fbfbbe_256_160?Expires=1861920000&Signature=X0tbKUFkny5MFekeSNde3-kk-F6EMvc30lt8OrDYk4N0022bTd0yJ",
+  "companyId": "Flock Freight",
+  "companySlug": "flock-freight",
+  "companyName": "Flock Freight",
+  "companyStaffCount": 355,
   "considerHosted": false,
-  "departments": [
-   "Sales : SMB Field Sales AEs"
-  ],
+  "departments": [],
   "jobTypes": [
+   {
+    "id": "coordinator",
+    "label": "Coordinator",
+    "value": "coordinator"
+   },
    {
     "id": "sales",
     "label": "Sales",
     "value": "sales"
-   },
-   {
-    "id": "sales-mid-maket",
-    "label": "Sales Mid Market",
-    "value": "sales-mid-maket"
-   },
-   {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
-   },
-   {
-    "id": "sales-professional",
-    "label": "Sales Professional",
-    "value": "sales-professional"
    }
   ],
   "jobFunctions": [
@@ -185,88 +173,90 @@
     "id": "Sales",
     "label": "Sales",
     "value": "Sales"
+   },
+   {
+    "id": "Administrative",
+    "label": "Administrative",
+    "value": "Administrative"
    }
   ],
   "locations": [
-   "Catonsville, MD"
+   "CA - HQ",
+   "Flock HQ - Encinitas, CA",
+   "Encinitas, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Maryland",
-    "label": "Maryland",
-    "value": "Maryland"
+    "id": "Encinitas, California",
+    "label": "Encinitas, California",
+    "value": "Encinitas, California"
+   },
+   {
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 128000, 'maxValue': 205000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 24, 'maxValue': 24, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
    },
    {
-    "id": "resume:Sales Training",
-    "label": "Sales Training",
-    "value": "resume:Sales Training"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:STL",
+    "label": "STL",
+    "value": "resume:STL"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sales Process",
-    "label": "Sales Process",
-    "value": "resume:Sales Process"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Hospitality",
-    "label": "Hospitality",
-    "value": "resume:Hospitality"
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
    },
    {
-    "id": "resume:Sales Training",
-    "label": "Sales Training",
-    "value": "resume:Sales Training"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:SMB",
-    "label": "SMB",
-    "value": "resume:SMB"
+    "id": "resume:STL",
+    "label": "STL",
+    "value": "resume:STL"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
-   },
-   {
-    "id": "resume:Field Sales",
-    "label": "Field Sales",
-    "value": "resume:Field Sales"
-   },
-   {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -274,25 +264,20 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
    ]
   ],
-  "minYearsExp": 1,
   "regions": [
    {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -302,51 +287,42 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
-   },
-   {
-    "id": "Payments",
-    "label": "Payments",
-    "value": "Payments"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-11-11T09:53:57Z",
-  "title": "Territory Account Executive , SMB - Catonsville, MD",
-  "url": "https://careers.toasttab.com/jobs?gh_jid=8378653",
-  "jobId": "8378653",
+  "timeStamp": "2026-11-11T19:33:59.135000Z",
+  "title": "Account Coordinator",
+  "url": "https://recruiting2.ultipro.com/FLO1013FLFR/JobBoard/acc64946-b33a-4b6e-b62d-bf9a497ef7b1/OpportunityDetail?opportunityId=42c07cc3-4c72-46db-b491-3b2cc27bc236",
+  "jobId": "42c07cc3-4c72-46db-b491-3b2cc27bc236",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1857751029896, 'matchScore': 0, 'ageScore': 0.9857751029895834, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1945333061605, 'matchScore': 0, 'ageScore': 0.9945333061604938, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "junior",
+    "label": "Junior",
+    "value": "junior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "junior"
   ],
   "isFeatured": false
  },

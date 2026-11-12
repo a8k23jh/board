@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-11T22:50:24Z",
+ "run": "2026-11-12T03:55:38Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"},\"server\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"},\"server\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "mi0RWmw5GJ\u2026",
+  "session.sig": "kAmT12SWdb\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -90,37 +90,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.01
+   "kw_hit_rate": 0.0
   }
  ],
  "response_shape": {
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTJhNjMzMTEyMTZjZDgyMTM2ZDJmNzNkN2ViZmJlZTAiLCAic2NvcmUiOiAxLjEwNDQ5NTMyNDAzNzgwODZ9"
+   "sequence": "eyJfaWQiOiAiOWIyZjllNTlmZmFlZDkzN2YyYjA3ZTgzZWU1NjhjZjgiLCAic2NvcmUiOiAxLjEzMzc3MTE0NDYyMTE0Mn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,120 +152,147 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://www.careers-page.com/cube-dev/job/RYWR47WR",
-  "companyDomain": "cube.dev",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d2c8277e11f52ce2fedcebfa142f9e0c_192_160?Expires=1861920000&Signature=hKpT~xx5UN36APP9H3QqgmmJalhCqE5GkqN74CAiA8O6ahBfCoHUN",
-  "companyId": "Cube",
-  "companySlug": "cube",
-  "companyName": "Cube",
-  "companyStaffCount": 52,
+  "applyUrl": "https://careers.docusign.com/jobs/30648?lang=en-us",
+  "companyDomain": "docusign.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
+  "companyId": "DocuSign",
+  "companySlug": "docusign",
+  "companyName": "DocuSign",
+  "companyStaffCount": 8412,
   "considerHosted": false,
   "departments": [],
   "jobTypes": [
    {
-    "id": "principal-software-engineer",
-    "label": "Principal Software Engineer",
-    "value": "principal-software-engineer"
+    "id": "account-manager",
+    "label": "Account Manager",
+    "value": "account-manager"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
+   },
+   {
+    "id": "customer-success-mananger",
+    "label": "Customer Success Manager",
+    "value": "customer-success-mananger"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "San Francisco, California, United States"
+   "United States",
+   "Illinois, United States",
+   "Washington, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Washington",
+    "label": "Washington State",
+    "value": "Washington"
+   },
+   {
+    "id": "Illinois",
+    "label": "Illinois",
+    "value": "Illinois"
+   },
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 213512, 'maxValue': 215000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135100, 'maxValue': 201450, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Virtualization",
-    "label": "Virtualization",
-    "value": "resume:Virtualization"
+    "id": "resume:Bookings",
+    "label": "Bookings",
+    "value": "resume:Bookings"
    },
    {
-    "id": "resume:Performance Tuning",
-    "label": "Performance Tuning",
-    "value": "resume:Performance Tuning"
+    "id": "resume:Management Consulting",
+    "label": "Management Consulting",
+    "value": "resume:Management Consulting"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Customer Escalation Management",
+    "label": "Customer Escalation Management",
+    "value": "resume:Customer Escalation Management"
    },
    {
-    "id": "resume:OLAP",
-    "label": "OLAP",
-    "value": "resume:OLAP"
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
    },
    {
-    "id": "resume:Node.js",
-    "label": "Node.js",
-    "value": "resume:Node.js"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Virtualization",
-    "label": "Virtualization",
-    "value": "resume:Virtualization"
+    "id": "resume:Bookings",
+    "label": "Bookings",
+    "value": "resume:Bookings"
    },
    {
-    "id": "resume:Performance Tuning",
-    "label": "Performance Tuning",
-    "value": "resume:Performance Tuning"
+    "id": "resume:Management Consulting",
+    "label": "Management Consulting",
+    "value": "resume:Management Consulting"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Customer Escalation Management",
+    "label": "Customer Escalation Management",
+    "value": "resume:Customer Escalation Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:OLAP",
-    "label": "OLAP",
-    "value": "resume:OLAP"
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
    },
    {
-    "id": "resume:Node.js",
-    "label": "Node.js",
-    "value": "resume:Node.js"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Data Structures",
-    "label": "Data Structures",
-    "value": "resume:Data Structures"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Algorithms",
-    "label": "Algorithms",
-    "value": "resume:Algorithms"
+    "id": "resume:Driving Results",
+    "label": "Driving Results",
+    "value": "resume:Driving Results"
    }
   ],
   "manager": false,
@@ -275,13 +302,8 @@
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
    {
     "id": "West Coast",
@@ -289,60 +311,58 @@
     "value": "West Coast"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "Midwest",
+    "label": "Midwest",
+    "value": "Midwest"
+   },
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-11-11T18:00:02Z",
-  "title": "Principal Software Engineer",
-  "url": "https://www.careers-page.com/cube-dev/job/RYWR47WR",
-  "jobId": "4574524",
-  "remote": false,
+  "timeStamp": "2026-11-11T22:02:59Z",
+  "title": "Sr. Manager, Customer Success Account Management",
+  "url": "https://careers.docusign.com/jobs/30648?lang=en-us",
+  "jobId": "30648",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1963950754896, 'matchScore': 0, 'ageScore': 0.9963950754895833, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1981665565837, 'matchScore': 0, 'ageScore': 0.9981665565837191, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "manager"
   ],
   "isFeatured": false
  },

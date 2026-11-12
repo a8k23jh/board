@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-11-11T22:50:24Z",
+ "run": "2026-11-12T03:55:38Z",
  "homepage": {
   "status": 200,
   "bytes": 19528
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"},\"server\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"},\"server\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "3zEwC7mVHO\u2026",
+  "session.sig": "dZubYXVZBe\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGViZTFmYTBhOWY5ODU1MWYyOTcyOTcxMGQ0YzYzMWQiLCAic2NvcmUiOiAxLjAzNzg5OTc3NzQ1OTEwNX0="
+   "sequence": "eyJfaWQiOiAiOWM5OWM5Y2FjNTBkNDZlYWE0NGEzNjBlYTg0YmIyMDQiLCAic2NvcmUiOiAxLjA1MDI0MzY2NjI5NzA2Nzh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,33 +144,33 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/handshake/5033202b-e03a-42e5-a801-93fe8042bbee?utm_source=jobs.kleinerperkins.com",
-  "companyDomain": "joinhandshake.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6cb0383a5650ae1201e02f59d8e94e34_224_160?Expires=1861920000&Signature=qJtqtGOk4~SnIcwQkyyZfiW6aUt~wcAw43nVQC-xr8~RxckpWBUE0",
-  "companyId": "Handshake",
-  "companySlug": "handshake",
-  "companyName": "Handshake",
-  "companyStaffCount": 11927,
+  "applyUrl": "https://jobs.lever.co/lumafield/7baa0de1-2cc0-40c4-ab41-6b3c142d7db8?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "companyDomain": "lumafield.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
+  "companyId": "Lumafield",
+  "companySlug": "lumafield",
+  "companyName": "Lumafield",
+  "companyStaffCount": 156,
   "considerHosted": false,
   "departments": [
-   "Careers Engineering"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "mechanical-engineer",
+    "label": "Mechanical Engineer",
+    "value": "mechanical-engineer"
    }
   ],
   "jobFunctions": [
@@ -181,144 +181,129 @@
    }
   ],
   "locations": [
-   "Sofia, Bulgaria, Bulgaria",
-   "Sofia, Bulgaria"
+   "Boston, MA"
   ],
   "normalizedLocations": [
    {
-    "id": "Bulgaria",
-    "label": "Bulgaria",
-    "value": "Bulgaria"
+    "id": "Greater Boston Area",
+    "label": "Boston",
+    "value": "Greater Boston Area"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 56000, 'maxValue': 83000, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Video Conferencing",
-    "label": "Video Conferencing",
-    "value": "resume:Video Conferencing"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:GraphQL",
-    "label": "GraphQL",
-    "value": "resume:GraphQL"
+    "id": "resume:System Integration",
+    "label": "System Integration",
+    "value": "resume:System Integration"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Prototyping",
+    "label": "Prototyping",
+    "value": "resume:Prototyping"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:Amazon Redshift",
-    "label": "Amazon Redshift",
-    "value": "resume:Amazon Redshift"
+    "id": "resume:Mechanical Design",
+    "label": "Mechanical Design",
+    "value": "resume:Mechanical Design"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Video Conferencing",
-    "label": "Video Conferencing",
-    "value": "resume:Video Conferencing"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:GraphQL",
-    "label": "GraphQL",
-    "value": "resume:GraphQL"
+    "id": "resume:System Integration",
+    "label": "System Integration",
+    "value": "resume:System Integration"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Prototyping",
+    "label": "Prototyping",
+    "value": "resume:Prototyping"
    }
   ],
   "preferredSkills": [
    {
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
+   },
+   {
+    "id": "resume:Mechanical Design",
+    "label": "Mechanical Design",
+    "value": "resume:Mechanical Design"
+   },
+   {
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
+   },
+   {
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
+   },
+   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Amazon Redshift",
-    "label": "Amazon Redshift",
-    "value": "resume:Amazon Redshift"
-   },
-   {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
-   },
-   {
-    "id": "resume:JavaScript",
-    "label": "JavaScript",
-    "value": "resume:JavaScript"
-   },
-   {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    1,
-    2
-   ],
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
+  "considerLevels": [],
   "regions": [
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
-   },
-   {
-    "id": "Workforce and Employment",
-    "label": "Workforce and Employment",
-    "value": "Workforce and Employment"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-11-11T00:00:00Z",
-  "title": "Software Engineer",
-  "url": "https://jobs.ashbyhq.com/handshake/5033202b-e03a-42e5-a801-93fe8042bbee",
-  "jobId": "5033202b-e03a-42e5-a801-93fe8042bbee",
+  "timeStamp": "2026-11-11T22:37:05.865000Z",
+  "title": "Staff Mechanical Engineer",
+  "url": "https://jobs.lever.co/lumafield/7baa0de1-2cc0-40c4-ab41-6b3c142d7db8",
+  "jobId": "7baa0de1-2cc0-40c4-ab41-6b3c142d7db8",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1714969473298, 'matchScore': 0, 'ageScore': 0.9714969473298611, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.199057102772, 'matchScore': 0, 'ageScore': 0.9990571027719908, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
@@ -326,10 +311,16 @@
     "id": "mid",
     "label": "Mid",
     "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },

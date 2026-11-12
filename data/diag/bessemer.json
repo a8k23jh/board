@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-11T22:50:24Z",
+ "run": "2026-11-12T03:55:38Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -45,12 +45,12 @@
    "slug": "bessemer-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"},\"server\":{\"git\":\"72bd0ca29eea88d63f8c3b2a20293b2e1cf595e2\",\"date\":\"2026-11-11T01:40:21.483Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"},\"server\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "wGyMg4rkGJ\u2026",
+  "session.sig": "EHTx2E36Dw\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTEzNzVmNWZlMjhmOTg0NmUxZWFiMTlkYzNjZjMzNGYiLCAic2NvcmUiOiAxLjEwNTA0NzYwNDIwMzMxOH0="
+   "sequence": "eyJfaWQiOiAiMGQwOTJlZjA2MjM4YjEwYWEwNWVmZTM1NzgyNzk2YTkiLCAic2NvcmUiOiAxLjExMjUyMDc2MzQ4OTk2OTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -176,14 +176,14 @@
   ],
   "jobTypes": [
    {
-    "id": "human-resources",
-    "label": "HR",
-    "value": "human-resources"
-   },
-   {
     "id": "platform-operations",
     "label": "Platform Operations",
     "value": "platform-operations"
+   },
+   {
+    "id": "human-resources",
+    "label": "HR",
+    "value": "human-resources"
    }
   ],
   "jobFunctions": [
@@ -206,54 +206,49 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Cancer Biology",
+    "label": "Cancer Biology",
+    "value": "resume:Cancer Biology"
+   },
+   {
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
+   },
+   {
     "id": "resume:Human Resources",
     "label": "Human Resources",
     "value": "resume:Human Resources"
-   },
-   {
-    "id": "resume:Clinical Operations",
-    "label": "Clinical Operations",
-    "value": "resume:Clinical Operations"
-   },
-   {
-    "id": "resume:Employee Relations",
-    "label": "Employee Relations",
-    "value": "resume:Employee Relations"
-   },
-   {
-    "id": "resume:Psychology",
-    "label": "Psychology",
-    "value": "resume:Psychology"
    },
    {
     "id": "resume:Rx",
     "label": "Rx",
     "value": "resume:Rx"
+   },
+   {
+    "id": "resume:Performance Management",
+    "label": "Performance Management",
+    "value": "resume:Performance Management"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Cancer Biology",
+    "label": "Cancer Biology",
+    "value": "resume:Cancer Biology"
+   },
+   {
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
+   },
+   {
     "id": "resume:Human Resources",
     "label": "Human Resources",
     "value": "resume:Human Resources"
-   },
-   {
-    "id": "resume:Clinical Operations",
-    "label": "Clinical Operations",
-    "value": "resume:Clinical Operations"
-   },
-   {
-    "id": "resume:Employee Relations",
-    "label": "Employee Relations",
-    "value": "resume:Employee Relations"
    }
   ],
   "preferredSkills": [
-   {
-    "id": "resume:Psychology",
-    "label": "Psychology",
-    "value": "resume:Psychology"
-   },
    {
     "id": "resume:Rx",
     "label": "Rx",
@@ -265,14 +260,19 @@
     "value": "resume:Performance Management"
    },
    {
-    "id": "resume:Cancer Biology",
-    "label": "Cancer Biology",
-    "value": "resume:Cancer Biology"
+    "id": "resume:Roll-ups",
+    "label": "Roll-ups",
+    "value": "resume:Roll-ups"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Clinical Operations",
+    "label": "Clinical Operations",
+    "value": "resume:Clinical Operations"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "manager": false,
@@ -292,11 +292,6 @@
     "value": "Northeast"
    },
    {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
-   },
-   {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
@@ -305,6 +300,11 @@
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Rust Belt",
+    "label": "Great Lakes Region",
+    "value": "Rust Belt"
    }
   ],
   "stages": [
@@ -333,7 +333,7 @@
   "jobId": "4753412005",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1865011236115, 'matchScore': 0, 'ageScore': 0.9865011236114969, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1817594252554, 'matchScore': 0, 'ageScore': 0.9817594252554013, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [],
