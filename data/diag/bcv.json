@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-13T09:45:12Z",
+ "run": "2026-11-13T17:53:41Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "4jX-hXsx3I\u2026",
+  "session.sig": "k7K00AwjW_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTI4ODBlYWYxNDJlZGQ2NjZjNmJhYWIxYjA3ZGQyM2EiLCAic2NvcmUiOiAxLjEyMTM1NTQ5NzIxMTAzNH0="
+   "sequence": "eyJfaWQiOiAiMjhlMjEwMjkyOGQ3OTAwZmNiYjljYjVkNDgxMDNmY2EiLCAic2NvcmUiOiAxLjExMTYyNTgyNjU4ODczNDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -174,14 +174,14 @@
   "departments": [],
   "jobTypes": [
    {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   },
-   {
     "id": "sales-professional",
     "label": "Sales Professional",
     "value": "sales-professional"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    },
    {
     "id": "account-executive",
@@ -209,9 +209,9 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 26.83, 'maxValue': 38.26, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
     "id": "resume:Professional Services",
@@ -219,48 +219,9 @@
     "value": "resume:Professional Services"
    },
    {
-    "id": "resume:CLM",
-    "label": "CLM",
-    "value": "resume:CLM"
-   },
-   {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:DocuSign",
-    "label": "DocuSign",
-    "value": "resume:DocuSign"
-   },
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:CLM",
-    "label": "CLM",
-    "value": "resume:CLM"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Mid-Market",
-    "label": "Mid-Market",
-    "value": "resume:Mid-Market"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Sales Development",
+    "label": "Sales Development",
+    "value": "resume:Sales Development"
    },
    {
     "id": "resume:Identity & Access Management (IAM)",
@@ -268,9 +229,48 @@
     "value": "resume:Identity & Access Management (IAM)"
    },
    {
-    "id": "resume:New Business",
-    "label": "New Business",
-    "value": "resume:New Business"
+    "id": "resume:Post-sales",
+    "label": "Post-sales",
+    "value": "resume:Post-sales"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
+   },
+   {
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
+   },
+   {
+    "id": "resume:Sales Development",
+    "label": "Sales Development",
+    "value": "resume:Sales Development"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
+   },
+   {
+    "id": "resume:Post-sales",
+    "label": "Post-sales",
+    "value": "resume:Post-sales"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
     "id": "resume:AES",
@@ -289,6 +289,11 @@
   ],
   "regions": [
    {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -297,11 +302,6 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -324,7 +324,7 @@
   "jobId": "30924",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1908603679723, 'matchScore': 0, 'ageScore': 0.9908603679722222, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1827812602454, 'matchScore': 0, 'ageScore': 0.9827812602453704, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

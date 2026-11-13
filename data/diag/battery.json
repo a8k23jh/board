@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-11-13T09:45:12Z",
+ "run": "2026-11-13T17:53:41Z",
  "homepage": {
   "status": 200,
   "bytes": 18891
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1kXCTNmguW\u2026",
+  "session.sig": "J1y9MvhW5B\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzk5Yzk1Y2I3MDk5NGExNDI3NTBmOTQyY2FhNTVlMWMiLCAic2NvcmUiOiAxLjA4NzA3Mzk1Nzk5ODg0Mjd9"
+   "sequence": "eyJfaWQiOiAiZDJjYmE0Yjk1OGUyOWU0ZWE4OGZhNjM2NjczYTY3NGQiLCAic2NvcmUiOiAxLjA3OTUwMTk0MTQ5NDk4NDV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -160,11 +160,6 @@
   ],
   "jobTypes": [
    {
-    "id": "fpa-manager",
-    "label": "FP&A Manager",
-    "value": "fpa-manager"
-   },
-   {
     "id": "finance-professional",
     "label": "Finance",
     "value": "finance-professional"
@@ -173,6 +168,11 @@
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
+   },
+   {
+    "id": "fpa-manager",
+    "label": "FP&A Manager",
+    "value": "fpa-manager"
    }
   ],
   "jobFunctions": [
@@ -193,22 +193,22 @@
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
-   },
-   {
     "id": "Mountain View, California",
     "label": "Mountain View, California",
     "value": "Mountain View, California"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 169100, 'maxValue': 232550, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Cash Flow",
-    "label": "Cash Flow",
-    "value": "resume:Cash Flow"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
     "id": "resume:Anaplan",
@@ -216,48 +216,9 @@
     "value": "resume:Anaplan"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
-   {
-    "id": "resume:Treasury",
-    "label": "Treasury",
-    "value": "resume:Treasury"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Cash Flow",
-    "label": "Cash Flow",
-    "value": "resume:Cash Flow"
-   },
-   {
-    "id": "resume:Anaplan",
-    "label": "Anaplan",
-    "value": "resume:Anaplan"
-   },
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:SQL",
-    "label": "SQL",
-    "value": "resume:SQL"
-   },
-   {
-    "id": "resume:Treasury",
-    "label": "Treasury",
-    "value": "resume:Treasury"
+    "id": "resume:Corporate Finance",
+    "label": "Corporate Finance",
+    "value": "resume:Corporate Finance"
    },
    {
     "id": "resume:Payroll",
@@ -265,14 +226,53 @@
     "value": "resume:Payroll"
    },
    {
+    "id": "resume:Financial Modeling",
+    "label": "Financial Modeling",
+    "value": "resume:Financial Modeling"
+   }
+  ],
+  "requiredSkills": [
+   {
     "id": "resume:Analytics",
     "label": "Analytics",
     "value": "resume:Analytics"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Anaplan",
+    "label": "Anaplan",
+    "value": "resume:Anaplan"
+   },
+   {
+    "id": "resume:Corporate Finance",
+    "label": "Corporate Finance",
+    "value": "resume:Corporate Finance"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
+   },
+   {
+    "id": "resume:Financial Modeling",
+    "label": "Financial Modeling",
+    "value": "resume:Financial Modeling"
+   },
+   {
+    "id": "resume:Google Sheets",
+    "label": "Google Sheets",
+    "value": "resume:Google Sheets"
+   },
+   {
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": true,
@@ -291,6 +291,11 @@
   "minYearsExp": 8,
   "regions": [
    {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -299,11 +304,6 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -337,7 +337,7 @@
   "jobId": "8936978002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1854706438398, 'matchScore': 0, 'ageScore': 0.985470643839892, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1765620586674, 'matchScore': 0, 'ageScore': 0.9765620586674383, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
