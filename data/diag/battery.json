@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-11-13T17:53:41Z",
+ "run": "2026-11-13T23:42:29Z",
  "homepage": {
   "status": 200,
   "bytes": 18891
@@ -29,12 +29,12 @@
    "slug": "battery-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"},\"server\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"12f3d3b262e0b1a4ea615772e728fee1b8b8ba2b\",\"date\":\"2026-11-13T20:13:41.960Z\"},\"server\":{\"git\":\"12f3d3b262e0b1a4ea615772e728fee1b8b8ba2b\",\"date\":\"2026-11-13T20:13:41.960Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "J1y9MvhW5B\u2026",
+  "session.sig": "h3cThQnc5s\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDJjYmE0Yjk1OGUyOWU0ZWE4OGZhNjM2NjczYTY3NGQiLCAic2NvcmUiOiAxLjA3OTUwMTk0MTQ5NDk4NDV9"
+   "sequence": "eyJfaWQiOiAiOTU1ZGFmYjk4MmRlMzI1NDQ1YmE1YTBjZGRkMDFjZjciLCAic2NvcmUiOiAxLjA3NjkzNjU1NTE0ODkxOTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,143 +136,120 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8936978002",
-  "companyDomain": "databricks.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/badeea31069bedbff92deb2b6eacaaac_320_160?Expires=1861920000&Signature=nvpLnCJcpEeQxnmclOC-t1xgPgBS3yOoA5LtL53r6~XUfCWfWYJwW",
-  "companyId": "Databricks",
-  "companySlug": "databricks",
-  "companyName": "Databricks",
-  "companyStaffCount": 14167,
+  "applyUrl": "https://www.linkedin.com/jobs/view/vp-engineering-and-product-development-at-coravin-4490723011",
+  "companyDomain": "coravin.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ef9e32de0b7b7c870f94aa8208163a0a_320_160?Expires=1861920000&Signature=onslBo1P5R1lhcnB9Hw0Nx2RHce5ZF0MIaU27GMk340u1PvBoRTqI",
+  "companyId": "Coravin",
+  "companySlug": "coravin",
+  "companyName": "Coravin",
+  "companyStaffCount": 119,
   "considerHosted": false,
-  "departments": [
-   "Finance"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "finance-professional",
-    "label": "Finance",
-    "value": "finance-professional"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
-    "id": "fpa-manager",
-    "label": "FP&A Manager",
-    "value": "fpa-manager"
+    "id": "vp-engineering",
+    "label": "VP of Engineering",
+    "value": "vp-engineering"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Accounting",
-    "label": "Accounting",
-    "value": "Accounting"
-   },
-   {
-    "id": "Finance",
-    "label": "Finance",
-    "value": "Finance"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Mountain View, California",
-   "San Francisco, California"
+   "Bedford, MA, US"
   ],
   "normalizedLocations": [
    {
-    "id": "Mountain View, California",
-    "label": "Mountain View, California",
-    "value": "Mountain View, California"
-   },
-   {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Massachusetts",
+    "label": "Massachusetts",
+    "value": "Massachusetts"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 169100, 'maxValue': 232550, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Product Safety",
+    "label": "Product Safety",
+    "value": "resume:Product Safety"
    },
    {
-    "id": "resume:Anaplan",
-    "label": "Anaplan",
-    "value": "resume:Anaplan"
+    "id": "resume:Regulatory Compliance",
+    "label": "Regulatory Compliance",
+    "value": "resume:Regulatory Compliance"
    },
    {
-    "id": "resume:Corporate Finance",
-    "label": "Corporate Finance",
-    "value": "resume:Corporate Finance"
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
    },
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Market Requirements Document",
+    "label": "Market Requirements Document",
+    "value": "resume:Market Requirements Document"
    },
    {
-    "id": "resume:Financial Modeling",
-    "label": "Financial Modeling",
-    "value": "resume:Financial Modeling"
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Product Safety",
+    "label": "Product Safety",
+    "value": "resume:Product Safety"
    },
    {
-    "id": "resume:Anaplan",
-    "label": "Anaplan",
-    "value": "resume:Anaplan"
+    "id": "resume:Regulatory Compliance",
+    "label": "Regulatory Compliance",
+    "value": "resume:Regulatory Compliance"
    },
    {
-    "id": "resume:Corporate Finance",
-    "label": "Corporate Finance",
-    "value": "resume:Corporate Finance"
+    "id": "resume:Change Management",
+    "label": "Change Management",
+    "value": "resume:Change Management"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
+    "id": "resume:Market Requirements Document",
+    "label": "Market Requirements Document",
+    "value": "resume:Market Requirements Document"
    },
    {
-    "id": "resume:Financial Modeling",
-    "label": "Financial Modeling",
-    "value": "resume:Financial Modeling"
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
    },
    {
-    "id": "resume:Google Sheets",
-    "label": "Google Sheets",
-    "value": "resume:Google Sheets"
+    "id": "resume:Business Acumen",
+    "label": "Business Acumen",
+    "value": "resume:Business Acumen"
    },
    {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
+    "id": "resume:Intellectual Property",
+    "label": "Intellectual Property",
+    "value": "resume:Intellectual Property"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
    }
   ],
   "manager": true,
@@ -286,69 +263,63 @@
    [
     7,
     8
+   ],
+   [
+    9,
+    10,
+    11,
+    12
    ]
   ],
-  "minYearsExp": 8,
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Analytics",
-    "label": "Analytics",
-    "value": "Analytics"
+    "id": "Consumer Goods",
+    "label": "Consumer Goods",
+    "value": "Consumer Goods"
    }
   ],
-  "timeStamp": "2026-11-12T21:50:21Z",
-  "title": "Corporate FP&A Manager",
-  "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8936978002",
-  "jobId": "8936978002",
+  "timeStamp": "2026-11-13T12:38:47Z",
+  "title": "VP, Engineering and Product Development",
+  "url": "https://www.linkedin.com/jobs/view/vp-engineering-and-product-development-at-coravin-4490723011",
+  "jobId": "4490723011",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1765620586674, 'matchScore': 0, 'ageScore': 0.9765620586674383, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1885461844329, 'matchScore': 0, 'ageScore': 0.9885461844328703, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "vp",
+    "label": "VP/SVP",
+    "value": "vp"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "vp"
   ],
   "isFeatured": false
  },

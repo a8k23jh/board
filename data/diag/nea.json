@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-11-13T17:53:41Z",
+ "run": "2026-11-13T23:42:29Z",
  "homepage": {
   "status": 200,
   "bytes": 20756
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"},\"server\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"12f3d3b262e0b1a4ea615772e728fee1b8b8ba2b\",\"date\":\"2026-11-13T20:13:41.960Z\"},\"server\":{\"git\":\"12f3d3b262e0b1a4ea615772e728fee1b8b8ba2b\",\"date\":\"2026-11-13T20:13:41.960Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "iZVbVA-iQ8\u2026",
+  "session.sig": "d-AcLwiPld\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWI4NDJmYTU2NTg2ZGMwYTdhN2EwNzg4ZmFlYzU0NmYiLCAic2NvcmUiOiAxLjEyNTk4Njk3OTM0MTA0OTN9"
+   "sequence": "eyJfaWQiOiAiYjI2YWM3ZjY3MWRhNjMxMjkzN2I0ODRhYjY5ZjU5ZTciLCAic2NvcmUiOiAxLjEyNzMxNjk5NjkyNTU0fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -136,122 +136,121 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDqCQOKx-N9YBKECld8O7NEn?utm_source=careers.nea.com",
-  "companyDomain": "launchfirestorm.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e188c39c312914da9e7993fda04e236c_320_160?Expires=1861920000&Signature=Pm7J-k33~dn1h7QkoqdLumPZldorJ59U2n6Yki9r684MrWcuwsfhz",
-  "companyId": "Firestorm",
-  "companySlug": "firestorm",
-  "companyName": "Firestorm",
-  "companyStaffCount": 192,
+  "applyUrl": "https://jobs.lever.co/CVRx/98967552-479b-4c55-b5fd-cc9b81766437?lever-source%5B%5D=careers.nea.com",
+  "companyDomain": "cvrx.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c1404522ece4f9c30a981f1ee24f1dab_240_160?Expires=1861920000&Signature=Y84qAtmj6i5a3AtL2qRnGd01CIT9iE5qLYqhzjbODq~ckLiQGMEnI",
+  "companyId": "CVRx",
+  "companySlug": "cvrx",
+  "companyName": "CVRx",
+  "companyStaffCount": 254,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
-   }
-  ],
-  "jobFunctions": [
+    "id": "clinical-researcher",
+    "label": "Clinical Researcher",
+    "value": "clinical-researcher"
+   },
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    }
   ],
+  "jobFunctions": [],
   "locations": [
-   "San Diego, CA"
+   "Austin, TX"
   ],
   "normalizedLocations": [
    {
-    "id": "San Diego, California",
-    "label": "San Diego, California",
-    "value": "San Diego, California"
+    "id": "Austin, Texas",
+    "label": "Austin, Texas",
+    "value": "Austin, Texas"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 185000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 130000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Oscilloscope",
-    "label": "Oscilloscope",
-    "value": "resume:Oscilloscope"
+    "id": "resume:Content Management",
+    "label": "Content Management",
+    "value": "resume:Content Management"
    },
    {
-    "id": "resume:Linux",
-    "label": "Linux",
-    "value": "resume:Linux"
+    "id": "resume:Cardiology",
+    "label": "Cardiology",
+    "value": "resume:Cardiology"
    },
    {
-    "id": "resume:Embedded Linux",
-    "label": "Embedded Linux",
-    "value": "resume:Embedded Linux"
+    "id": "resume:Genetics",
+    "label": "Genetics",
+    "value": "resume:Genetics"
    },
    {
-    "id": "resume:Packaging",
-    "label": "Packaging",
-    "value": "resume:Packaging"
+    "id": "resume:Incentive Programs",
+    "label": "Incentive Programs",
+    "value": "resume:Incentive Programs"
    },
    {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Oscilloscope",
-    "label": "Oscilloscope",
-    "value": "resume:Oscilloscope"
+    "id": "resume:Content Management",
+    "label": "Content Management",
+    "value": "resume:Content Management"
    },
    {
-    "id": "resume:Linux",
-    "label": "Linux",
-    "value": "resume:Linux"
+    "id": "resume:Cardiology",
+    "label": "Cardiology",
+    "value": "resume:Cardiology"
    },
    {
-    "id": "resume:Embedded Linux",
-    "label": "Embedded Linux",
-    "value": "resume:Embedded Linux"
+    "id": "resume:Genetics",
+    "label": "Genetics",
+    "value": "resume:Genetics"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Packaging",
-    "label": "Packaging",
-    "value": "resume:Packaging"
+    "id": "resume:Incentive Programs",
+    "label": "Incentive Programs",
+    "value": "resume:Incentive Programs"
    },
    {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
+    "id": "resume:Grant Writing",
+    "label": "Grant Writing",
+    "value": "resume:Grant Writing"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Medical Devices",
+    "label": "Medical Devices",
+    "value": "resume:Medical Devices"
    },
    {
-    "id": "resume:Avionics",
-    "label": "Avionics",
-    "value": "resume:Avionics"
+    "id": "resume:Hypertension",
+    "label": "Hypertension",
+    "value": "resume:Hypertension"
    },
    {
-    "id": "resume:Docker",
-    "label": "Docker",
-    "value": "resume:Docker"
+    "id": "resume:Learning Management",
+    "label": "Learning Management",
+    "value": "resume:Learning Management"
    }
   ],
   "manager": false,
@@ -267,22 +266,21 @@
     6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "Central US",
+    "label": "Central US",
+    "value": "Central US"
+   },
+   {
+    "id": "West South",
+    "label": "Southwestern US",
+    "value": "West South"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -290,41 +288,30 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
-   },
-   {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
-   },
-   {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-11-13T05:57:08Z",
-  "title": "Senior Software QA Engineer, Avionics Platform",
-  "url": "https://jobs.gem.com/firestorm/am9icG9zdDqCQOKx-N9YBKECld8O7NEn",
-  "jobId": "am9icG9zdDqCQOKx-N9YBKECld8O7NEn",
-  "remote": false,
+  "timeStamp": "2026-11-13T15:38:07.348000Z",
+  "title": "Lead Clinical Specialist - MedTech (Austin, TX)",
+  "url": "https://jobs.lever.co/CVRx/98967552-479b-4c55-b5fd-cc9b81766437",
+  "jobId": "98967552-479b-4c55-b5fd-cc9b81766437",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1883267242766, 'matchScore': 0, 'ageScore': 0.9883267242766204, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1936180213519, 'matchScore': 0, 'ageScore': 0.9936180213518518, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
    {
     "id": "senior",
     "label": "Senior",
@@ -332,6 +319,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "mid",
    "senior"
   ],
   "isFeatured": false

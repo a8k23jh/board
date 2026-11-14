@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-13T17:53:41Z",
+ "run": "2026-11-13T23:42:29Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -45,12 +45,12 @@
    "slug": "bain-ventures",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"},\"server\":{\"git\":\"09ea3402ab2061f45f225d0a4cc69115520bf4bd\",\"date\":\"2026-11-12T00:52:42.911Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"12f3d3b262e0b1a4ea615772e728fee1b8b8ba2b\",\"date\":\"2026-11-13T20:13:41.960Z\"},\"server\":{\"git\":\"12f3d3b262e0b1a4ea615772e728fee1b8b8ba2b\",\"date\":\"2026-11-13T20:13:41.960Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "k7K00AwjW_\u2026",
+  "session.sig": "LaH81bvpBN\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjhlMjEwMjkyOGQ3OTAwZmNiYjljYjVkNDgxMDNmY2EiLCAic2NvcmUiOiAxLjExMTYyNTgyNjU4ODczNDd9"
+   "sequence": "eyJfaWQiOiAiYWJjYjVmZGFlZjJkMjU2ZmVkMjM1MWM0ZGVhYWE0ZjQiLCAic2NvcmUiOiAxLjEwNDU2MTMxNDU3OTA4OTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -174,6 +174,11 @@
   "departments": [],
   "jobTypes": [
    {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
+   },
+   {
     "id": "sales-professional",
     "label": "Sales Professional",
     "value": "sales-professional"
@@ -182,11 +187,6 @@
     "id": "sales",
     "label": "Sales",
     "value": "sales"
-   },
-   {
-    "id": "account-executive",
-    "label": "Account Executive",
-    "value": "account-executive"
    }
   ],
   "jobFunctions": [
@@ -209,63 +209,58 @@
   "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 26.83, 'maxValue': 38.26, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
-   },
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:Sales Development",
-    "label": "Sales Development",
-    "value": "resume:Sales Development"
-   },
-   {
-    "id": "resume:Identity & Access Management (IAM)",
-    "label": "Identity & Access Management (IAM)",
-    "value": "resume:Identity & Access Management (IAM)"
-   },
-   {
     "id": "resume:Post-sales",
     "label": "Post-sales",
     "value": "resume:Post-sales"
+   },
+   {
+    "id": "resume:Software Sales",
+    "label": "Software Sales",
+    "value": "resume:Software Sales"
+   },
+   {
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
+   },
+   {
+    "id": "resume:Direct Sales",
+    "label": "Direct Sales",
+    "value": "resume:Direct Sales"
+   },
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Interviews",
-    "label": "Interviews",
-    "value": "resume:Interviews"
-   },
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:Sales Development",
-    "label": "Sales Development",
-    "value": "resume:Sales Development"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Identity & Access Management (IAM)",
-    "label": "Identity & Access Management (IAM)",
-    "value": "resume:Identity & Access Management (IAM)"
-   },
-   {
     "id": "resume:Post-sales",
     "label": "Post-sales",
     "value": "resume:Post-sales"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Software Sales",
+    "label": "Software Sales",
+    "value": "resume:Software Sales"
+   },
+   {
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Direct Sales",
+    "label": "Direct Sales",
+    "value": "resume:Direct Sales"
+   },
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
     "id": "resume:Salesforce",
@@ -273,9 +268,14 @@
     "value": "resume:Salesforce"
    },
    {
-    "id": "resume:AES",
-    "label": "AES",
-    "value": "resume:AES"
+    "id": "resume:Sales Presentations",
+    "label": "Sales Presentations",
+    "value": "resume:Sales Presentations"
+   },
+   {
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    }
   ],
   "manager": false,
@@ -294,14 +294,14 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -324,7 +324,7 @@
   "jobId": "30924",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1827812602454, 'matchScore': 0, 'ageScore': 0.9827812602453704, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1738210206134, 'matchScore': 0, 'ageScore': 0.9738210206134259, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
