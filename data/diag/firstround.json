@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-11-14T14:19:27Z",
+ "run": "2026-11-14T19:17:51Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "enOihLz4Eg\u2026",
+  "session.sig": "K4mBG0jlu_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmM2NzNjNjFmYjE0MTM3ODhkMGRlMmI2ZDllMGZjMGYiLCAic2NvcmUiOiAxLjA1MDk4MjA4MzIwMjE2MDZ9"
+   "sequence": "eyJfaWQiOiAiZGNkNmMxODIxMWU2MmEwYzkyNmM3YzhkZmRiY2FjOGQiLCAic2NvcmUiOiAxLjA0MjQwMzI1OTI5NjI5NjR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,11 +168,6 @@
   ],
   "jobTypes": [
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
-   },
-   {
     "id": "machine-learning-engineer",
     "label": "Machine Learning Engineer",
     "value": "machine-learning-engineer"
@@ -181,6 +176,11 @@
     "id": "data-scientist",
     "label": "Data Scientist",
     "value": "data-scientist"
+   },
+   {
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
@@ -204,58 +204,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 170000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Personalization",
-    "label": "Personalization",
-    "value": "resume:Personalization"
+    "id": "resume:Recommender Systems",
+    "label": "Recommender Systems",
+    "value": "resume:Recommender Systems"
+   },
+   {
+    "id": "resume:Landing Page Optimization",
+    "label": "Landing Page Optimization",
+    "value": "resume:Landing Page Optimization"
    },
    {
     "id": "resume:Data Infrastructure",
     "label": "Data Infrastructure",
     "value": "resume:Data Infrastructure"
-   },
-   {
-    "id": "resume:Ranking",
-    "label": "Ranking",
-    "value": "resume:Ranking"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Personalization",
-    "label": "Personalization",
-    "value": "resume:Personalization"
-   },
-   {
-    "id": "resume:Data Infrastructure",
-    "label": "Data Infrastructure",
-    "value": "resume:Data Infrastructure"
-   },
-   {
-    "id": "resume:Ranking",
-    "label": "Ranking",
-    "value": "resume:Ranking"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
    },
    {
     "id": "resume:Product Vision",
@@ -263,14 +224,53 @@
     "value": "resume:Product Vision"
    },
    {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Recommender Systems",
+    "label": "Recommender Systems",
+    "value": "resume:Recommender Systems"
+   },
+   {
+    "id": "resume:Landing Page Optimization",
+    "label": "Landing Page Optimization",
+    "value": "resume:Landing Page Optimization"
+   },
+   {
+    "id": "resume:Data Infrastructure",
+    "label": "Data Infrastructure",
+    "value": "resume:Data Infrastructure"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Product Vision",
+    "label": "Product Vision",
+    "value": "resume:Product Vision"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Personalization",
+    "label": "Personalization",
+    "value": "resume:Personalization"
+   },
+   {
     "id": "resume:Data Lake",
     "label": "Data Lake",
     "value": "resume:Data Lake"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -293,14 +293,14 @@
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -334,7 +334,7 @@
   "jobId": "f8d2a754-8ac4-4ba8-9c36-ed56184132a7",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1839198976689, 'matchScore': 0, 'ageScore': 0.9839198976689815, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1762154893298, 'matchScore': 0, 'ageScore': 0.9762154893298611, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
