@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-11-14T06:45:09Z",
+ "run": "2026-11-14T14:19:27Z",
  "homepage": {
   "status": 200,
   "bytes": 20756
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "u4jfLJ-XVc\u2026",
+  "session.sig": "J8D4M_mOOj\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDhlN2E5NTIzMjkxMDQwMTNiNjBjY2M1Yjg4ZWQwN2QiLCAic2NvcmUiOiAxLjEyNzE0MjE1MDM5ODkxOTZ9"
+   "sequence": "eyJfaWQiOiAiYTg4Y2ZjMjY4MTZmNjkyZTM0ZDUxZjJjYTJkNjViYTkiLCAic2NvcmUiOiAxLjEzMzQ2ODI3MDk4Mzc5NjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,151 +136,209 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=ba087be5b6bb27cf",
-  "companyDomain": "radpartners.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/cbb7c62716082738519fbfbf183291f4_320_160?Expires=1861920000&Signature=IP2EwPq0HgJamPOiRiCrnFCNO7ptxDEq05T1ezuMj3TC6QzvZIq8E",
-  "companyId": "Radiology Partners",
-  "companySlug": "radiology-partners",
-  "companyName": "Radiology Partners",
-  "companyStaffCount": 2302,
+  "applyUrl": "https://jobs.gem.com/firestorm/am9icG9zdDoOPrANoDSyqF4O069_DzWX?utm_source=careers.nea.com",
+  "companyDomain": "launchfirestorm.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e188c39c312914da9e7993fda04e236c_320_160?Expires=1861920000&Signature=Pm7J-k33~dn1h7QkoqdLumPZldorJ59U2n6Yki9r684MrWcuwsfhz",
+  "companyId": "Firestorm",
+  "companySlug": "firestorm",
+  "companyName": "Firestorm",
+  "companyStaffCount": 192,
   "considerHosted": false,
-  "departments": [],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "departments": [
+   "IT"
+  ],
+  "jobTypes": [
+   {
+    "id": "it-engineer",
+    "label": "IT Support Engineer",
+    "value": "it-engineer"
+   },
+   {
+    "id": "admin-engineer",
+    "label": "System Administrator",
+    "value": "admin-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Hartford, CT"
+   "San Diego, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Connecticut",
-    "label": "Connecticut",
-    "value": "Connecticut"
+    "id": "San Diego, California",
+    "label": "San Diego, California",
+    "value": "San Diego, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 600000, 'maxValue': 625000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 95000, 'maxValue': 113000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Linux Server",
+    "label": "Linux Server",
+    "value": "resume:Linux Server"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Okta",
+    "label": "Okta",
+    "value": "resume:Okta"
    },
    {
-    "id": "resume:Magnetic Resonance Imaging",
-    "label": "Magnetic Resonance Imaging",
-    "value": "resume:Magnetic Resonance Imaging"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Imaging",
-    "label": "Imaging",
-    "value": "resume:Imaging"
+    "id": "resume:Scripting",
+    "label": "Scripting",
+    "value": "resume:Scripting"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Linux Server",
+    "label": "Linux Server",
+    "value": "resume:Linux Server"
    },
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Okta",
+    "label": "Okta",
+    "value": "resume:Okta"
    },
    {
-    "id": "resume:Magnetic Resonance Imaging",
-    "label": "Magnetic Resonance Imaging",
-    "value": "resume:Magnetic Resonance Imaging"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Imaging",
-    "label": "Imaging",
-    "value": "resume:Imaging"
+    "id": "resume:Scripting",
+    "label": "Scripting",
+    "value": "resume:Scripting"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Computer Security",
+    "label": "Computer Security",
+    "value": "resume:Computer Security"
    },
    {
-    "id": "resume:Tumor",
-    "label": "Tumor",
-    "value": "resume:Tumor"
+    "id": "resume:Technical Support",
+    "label": "Technical Support",
+    "value": "resume:Technical Support"
    },
    {
-    "id": "resume:Medicine",
-    "label": "Medicine",
-    "value": "resume:Medicine"
+    "id": "resume:Ubuntu",
+    "label": "Ubuntu",
+    "value": "resume:Ubuntu"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "minYearsExp": 6,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
+   },
+   {
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-11-13T23:59:42Z",
-  "title": "Day Body - Jefferson Radiologist",
-  "url": "https://indeed.com/cmp/Radiology-Partners/jobs?jk=ba087be5b6bb27cf",
-  "jobId": "ba087be5b6bb27cf",
+  "timeStamp": "2026-11-14T05:58:29Z",
+  "title": "Systems Administrator",
+  "url": "https://jobs.gem.com/firestorm/am9icG9zdDoOPrANoDSyqF4O069_DzWX",
+  "jobId": "am9icG9zdDoOPrANoDSyqF4O069_DzWX",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1921185100482, 'matchScore': 0, 'ageScore': 0.9921185100482253, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1923719158445, 'matchScore': 0, 'ageScore': 0.9923719158445216, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {
