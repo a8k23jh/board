@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-11-14T19:17:51Z",
+ "run": "2026-11-14T23:08:40Z",
  "homepage": {
   "status": 200,
   "bytes": 18891
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "7DEW6RiDaj\u2026",
+  "session.sig": "RJ-GozVhOi\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTNiZmZiYzFjODNkMjc0NTIxYTgyMDg4ZTNjOTdkYjEiLCAic2NvcmUiOiAxLjA3NTkwMTg4NzE5NDQ0NDR9"
+   "sequence": "eyJfaWQiOiAiNjM2YjNkZmU0MmFkMjcwNjA1M2FkNmQzYTlmZWIzZjkiLCAic2NvcmUiOiAxLjA3MTgwMTA0NTI1NTc4NzF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -181,16 +181,6 @@
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
-   },
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
     "id": "Toronto, Ontario, Canada",
     "label": "Toronto",
     "value": "Toronto, Ontario, Canada"
@@ -201,71 +191,27 @@
     "value": "San Francisco, California"
    },
    {
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
+   },
+   {
     "id": "Montreal, Quebec, Canada",
     "label": "Montreal, Quebec, Canada",
     "value": "Montreal, Quebec, Canada"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
-   },
-   {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Flux",
-    "label": "Flux",
-    "value": "resume:Flux"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:GPU",
-    "label": "GPU",
-    "value": "resume:GPU"
-   },
-   {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Flux",
-    "label": "Flux",
-    "value": "resume:Flux"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    },
    {
     "id": "resume:Apache Spark",
@@ -276,6 +222,60 @@
     "id": "resume:Terraform",
     "label": "Terraform",
     "value": "resume:Terraform"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
+   },
+   {
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
+   },
+   {
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:GPU",
+    "label": "GPU",
+    "value": "resume:GPU"
    }
   ],
   "manager": false,
@@ -297,14 +297,19 @@
   ],
   "regions": [
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
    },
    {
     "id": "Northeast",
@@ -315,11 +320,6 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
    }
   ],
   "stages": [
@@ -363,7 +363,7 @@
   "jobId": "bbf1b1a9-c90e-438d-8e5c-2bac67cc8df0",
   "remote": true,
   "hybrid": true,
-  "scores": "{'score': 1001.1756140573426, 'matchScore': 0, 'ageScore': 0.9756140573425925, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1715410634351, 'matchScore': 0, 'ageScore': 0.9715410634351852, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

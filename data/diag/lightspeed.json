@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-11-14T19:17:51Z",
+ "run": "2026-11-14T23:08:40Z",
  "homepage": {
   "status": 200,
   "bytes": 21354
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "yaTqDp-t5J\u2026",
+  "session.sig": "vSTXVujC45\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzZkNmNlNjg1YWRiMjJlZjM1N2U1Yzg4YWY1NWVmZDEiLCAic2NvcmUiOiAxLjE1ODcyMzMxNDE5MzY3Mjh9"
+   "sequence": "eyJfaWQiOiAiMDQ3NDA4ZjgzMzUyYTlkNjY2OWYzZDAyZmIxMDc1MjQiLCAic2NvcmUiOiAxLjE1NDM5MDg1MTkzMDU1NTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/harvey/f2ac5239-c7a1-4b0a-bbf3-c8f6b836a2d6?utm_source=jobs.lsvp.com",
+  "applyUrl": "https://jobs.ashbyhq.com/harvey/acd2604b-426a-4d2f-bcd3-e57f66f8d470?utm_source=jobs.lsvp.com",
   "companyDomain": "harvey.ai",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2be5d63be7354b540c94eee9efbb0fa_176_160?Expires=1861920000&Signature=gGuMg4b-uxV1b~F2mr~UsVNlbNUHUojHReeO1yQOzw09rnj8QM6i~",
   "companyId": "Harvey",
@@ -164,13 +164,23 @@
   "companyStaffCount": 1840,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Legal Engineer"
   ],
   "jobTypes": [
    {
     "id": "engineering-manager",
     "label": "Engineering Manager",
     "value": "engineering-manager"
+   },
+   {
+    "id": "regulatory-affairs",
+    "label": "Regulatory Affairs",
+    "value": "regulatory-affairs"
+   },
+   {
+    "id": "litigation",
+    "label": "Litigation",
+    "value": "litigation"
    }
   ],
   "jobFunctions": [
@@ -181,91 +191,76 @@
    }
   ],
   "locations": [
-   "New York, New York, USA",
-   "New York"
+   "San Francisco, California, USA",
+   "San Francisco"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
-   },
-   {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 260000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 315000, 'maxValue': 385000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
-   },
-   {
-    "id": "resume:React.js",
-    "label": "React.js",
-    "value": "resume:React.js"
-   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Litigation",
+    "label": "Litigation",
+    "value": "resume:Litigation"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   },
+   {
+    "id": "resume:Employment Litigation",
+    "label": "Employment Litigation",
+    "value": "resume:Employment Litigation"
+   },
+   {
+    "id": "resume:Regulatory Compliance",
+    "label": "Regulatory Compliance",
+    "value": "resume:Regulatory Compliance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Professional Services",
-    "label": "Professional Services",
-    "value": "resume:Professional Services"
-   },
-   {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
-   },
-   {
-    "id": "resume:React.js",
-    "label": "React.js",
-    "value": "resume:React.js"
-   }
-  ],
-  "preferredSkills": [
-   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Litigation",
+    "label": "Litigation",
+    "value": "resume:Litigation"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Employment Litigation",
+    "label": "Employment Litigation",
+    "value": "resume:Employment Litigation"
    },
    {
-    "id": "resume:Node",
-    "label": "Node",
-    "value": "resume:Node"
+    "id": "resume:Regulatory Compliance",
+    "label": "Regulatory Compliance",
+    "value": "resume:Regulatory Compliance"
    },
    {
-    "id": "resume:Node.js",
-    "label": "Node.js",
-    "value": "resume:Node.js"
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
    }
   ],
   "manager": true,
@@ -281,27 +276,21 @@
     6
    ]
   ],
-  "minYearsExp": 5,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -340,12 +329,12 @@
    }
   ],
   "timeStamp": "2026-11-14T00:00:00Z",
-  "title": "Engineering Manager, Applied AI \u2014 NYC",
-  "url": "https://jobs.ashbyhq.com/harvey/f2ac5239-c7a1-4b0a-bbf3-c8f6b836a2d6",
-  "jobId": "f2ac5239-c7a1-4b0a-bbf3-c8f6b836a2d6",
+  "title": "Legal Engineering Manager, In-House (Litigation/Regulatory)",
+  "url": "https://jobs.ashbyhq.com/harvey/acd2604b-426a-4d2f-bcd3-e57f66f8d470",
+  "jobId": "acd2604b-426a-4d2f-bcd3-e57f66f8d470",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.176233931385, 'matchScore': 0, 'ageScore': 0.9762339313850309, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1716740326042, 'matchScore': 0, 'ageScore': 0.9716740326041666, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

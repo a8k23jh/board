@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-11-14T19:17:51Z",
+ "run": "2026-11-14T23:08:40Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "K4mBG0jlu_\u2026",
+  "session.sig": "7Qf6_9fW2H\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGNkNmMxODIxMWU2MmEwYzkyNmM3YzhkZmRiY2FjOGQiLCAic2NvcmUiOiAxLjA0MjQwMzI1OTI5NjI5NjR9"
+   "sequence": "eyJfaWQiOiAiMjlmOWYwMGY4MDU5MGRiZWIwMDQxNWVhNDcxOGUzNDEiLCAic2NvcmUiOiAxLjAzODM5NDk2MTc4NjI2NTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,9 +168,9 @@
   ],
   "jobTypes": [
    {
-    "id": "machine-learning-engineer",
-    "label": "Machine Learning Engineer",
-    "value": "machine-learning-engineer"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    },
    {
     "id": "data-scientist",
@@ -178,9 +178,9 @@
     "value": "data-scientist"
    },
    {
-    "id": "software-engineer",
-    "label": "Software Engineer",
-    "value": "software-engineer"
+    "id": "machine-learning-engineer",
+    "label": "Machine Learning Engineer",
+    "value": "machine-learning-engineer"
    }
   ],
   "jobFunctions": [
@@ -204,19 +204,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 170000, 'maxValue': 300000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Recommender Systems",
-    "label": "Recommender Systems",
-    "value": "resume:Recommender Systems"
-   },
-   {
-    "id": "resume:Landing Page Optimization",
-    "label": "Landing Page Optimization",
-    "value": "resume:Landing Page Optimization"
-   },
-   {
-    "id": "resume:Data Infrastructure",
-    "label": "Data Infrastructure",
-    "value": "resume:Data Infrastructure"
+    "id": "resume:Ranking",
+    "label": "Ranking",
+    "value": "resume:Ranking"
    },
    {
     "id": "resume:Product Vision",
@@ -224,53 +214,63 @@
     "value": "resume:Product Vision"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Recommender Systems",
-    "label": "Recommender Systems",
-    "value": "resume:Recommender Systems"
-   },
-   {
-    "id": "resume:Landing Page Optimization",
-    "label": "Landing Page Optimization",
-    "value": "resume:Landing Page Optimization"
-   },
-   {
-    "id": "resume:Data Infrastructure",
-    "label": "Data Infrastructure",
-    "value": "resume:Data Infrastructure"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Product Vision",
-    "label": "Product Vision",
-    "value": "resume:Product Vision"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Personalization",
-    "label": "Personalization",
-    "value": "resume:Personalization"
-   },
-   {
-    "id": "resume:Data Lake",
-    "label": "Data Lake",
-    "value": "resume:Data Lake"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Advertising",
+    "label": "Advertising",
+    "value": "resume:Advertising"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Ranking",
+    "label": "Ranking",
+    "value": "resume:Ranking"
+   },
+   {
+    "id": "resume:Product Vision",
+    "label": "Product Vision",
+    "value": "resume:Product Vision"
+   },
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Advertising",
+    "label": "Advertising",
+    "value": "resume:Advertising"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:D programming language",
+    "label": "D programming language",
+    "value": "resume:D programming language"
    }
   ],
   "manager": false,
@@ -288,9 +288,9 @@
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -298,9 +298,9 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -334,7 +334,7 @@
   "jobId": "f8d2a754-8ac4-4ba8-9c36-ed56184132a7",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1762154893298, 'matchScore': 0, 'ageScore': 0.9762154893298611, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1719464973384, 'matchScore': 0, 'ageScore': 0.9719464973383488, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
