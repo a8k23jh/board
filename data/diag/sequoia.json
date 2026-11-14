@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-13T23:42:29Z",
+ "run": "2026-11-14T06:45:09Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "vlcSMkQ-iO\u2026",
+  "session.sig": "eEuaKXwJmT\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTVkNTM1Nzk1MmIyNTdmOTNhZmQ3OWEwZDlhMzRiNDAiLCAic2NvcmUiOiAxLjE1MjU0NzEwMzk5MTg5ODJ9"
+   "sequence": "eyJfaWQiOiAiN2JiNjFmOTgzOTE5Zjk2ZmMwYzk0Y2Q0MWZiMmZmNTUiLCAic2NvcmUiOiAxLjE1NzE1NDQ1NDU0MjA1MjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,33 +144,33 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/grafanalabs/jobs/6238286004",
-  "companyDomain": "grafana.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/32a90dde8d44051d64fa600f3d9b65c2_320_160?Expires=1861920000&Signature=QLDDUpzbhHfSLkiSts7c3p9gH6wI54LzqzfhnFpekGZchlhjTA1t0",
-  "companyId": "Grafana Labs",
-  "companySlug": "grafana-labs",
-  "companyName": "Grafana Labs",
-  "companyStaffCount": 1909,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8943227002?gh_jid=8943227002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "Solutions Engineering (North & South America)"
+   "Starship Avionics Supply Chain"
   ],
   "jobTypes": [
    {
-    "id": "manager-solutions-architect",
-    "label": "Manager Solutions Architects",
-    "value": "manager-solutions-architect"
+    "id": "mechanical-engineer",
+    "label": "Mechanical Engineer",
+    "value": "mechanical-engineer"
    }
   ],
   "jobFunctions": [
@@ -181,106 +181,112 @@
    }
   ],
   "locations": [
-   "United States (Remote)"
+   "Hawthorne, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 234000, 'maxValue': 278000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:DevOps",
-    "label": "DevOps",
-    "value": "resume:DevOps"
+    "id": "resume:Demand Planning",
+    "label": "Demand Planning",
+    "value": "resume:Demand Planning"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Metal Fabrication",
+    "label": "Metal Fabrication",
+    "value": "resume:Metal Fabrication"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    },
    {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:DevOps",
-    "label": "DevOps",
-    "value": "resume:DevOps"
+    "id": "resume:Demand Planning",
+    "label": "Demand Planning",
+    "value": "resume:Demand Planning"
    },
    {
-    "id": "resume:Marketing Strategy",
-    "label": "Marketing Strategy",
-    "value": "resume:Marketing Strategy"
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
    },
    {
-    "id": "resume:Mentorship",
-    "label": "Mentorship",
-    "value": "resume:Mentorship"
+    "id": "resume:Metal Fabrication",
+    "label": "Metal Fabrication",
+    "value": "resume:Metal Fabrication"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
    },
    {
-    "id": "resume:MEDDPICC",
-    "label": "MEDDPICC",
-    "value": "resume:MEDDPICC"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Command of the Message",
-    "label": "Command of the Message",
-    "value": "resume:Command of the Message"
+    "id": "resume:Lathes",
+    "label": "Lathes",
+    "value": "resume:Lathes"
    },
    {
-    "id": "resume:Data Visualization",
-    "label": "Data Visualization",
-    "value": "resume:Data Visualization"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
     3,
     4
-   ],
-   [
-    5,
-    6
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 4,
   "regions": [
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -288,39 +294,38 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Analytics",
-    "label": "Analytics",
-    "value": "Analytics"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-11-13T11:46:58Z",
-  "title": "Manager, Solutions Engineering | West Coast | Remote",
-  "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6238286004",
-  "jobId": "6238286004",
-  "remote": true,
+  "timeStamp": "2026-11-13T17:25:52Z",
+  "title": "Sourcing Specialist, Mechanical (Starship)",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8943227002?gh_jid=8943227002",
+  "jobId": "8943227002",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1882509965448, 'matchScore': 0, 'ageScore': 0.9882509965447531, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1917566500822, 'matchScore': 0, 'ageScore': 0.991756650082176, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },
