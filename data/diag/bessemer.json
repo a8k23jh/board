@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-15T11:14:56Z",
+ "run": "2026-11-15T17:51:47Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Ft4lVpymzv\u2026",
+  "session.sig": "vZc0KOrLiG\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2UyNmYwZDZmNmZiNTFlZGIyNDM2ODNmYjRlOTdmNGYiLCAic2NvcmUiOiAxLjA4ODQ4MzYyNzk3MDY3OX0="
+   "sequence": "eyJfaWQiOiAiNjE2ZjNjMWQyYmFiOWZkYmY0OTVjZDcwZDY3NzhjNGQiLCAic2NvcmUiOiAxLjA3OTkzMDQ1MzM5MDgxNzh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -201,9 +201,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
     "id": "resume:TypeScript",
@@ -216,35 +221,13 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
-   },
-   {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
-   },
-   {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
-   {
     "id": "resume:User Experience",
     "label": "User Experience",
     "value": "resume:User Experience"
@@ -253,6 +236,23 @@
     "id": "resume:Python",
     "label": "Python",
     "value": "resume:Python"
+   },
+   {
+    "id": "resume:TypeScript",
+    "label": "TypeScript",
+    "value": "resume:TypeScript"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Rust",
+    "label": "Rust",
+    "value": "resume:Rust"
    }
   ],
   "manager": false,
@@ -279,14 +279,14 @@
     "value": "North America"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -309,24 +309,24 @@
   "jobId": "10a51134-6741-40ec-8cca-a8ac1534673b",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.187974937515, 'matchScore': 0, 'ageScore': 0.9879749375150463, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1797363222997, 'matchScore': 0, 'ageScore': 0.9797363222997685, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
