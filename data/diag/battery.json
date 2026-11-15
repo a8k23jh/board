@@ -1,6 +1,6 @@
 {
  "board": "battery",
- "run": "2026-11-15T17:51:47Z",
+ "run": "2026-11-15T22:59:13Z",
  "homepage": {
   "status": 200,
   "bytes": 18891
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "5pa7lI2RzB\u2026",
+  "session.sig": "BLWMJQo2Rk\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMTM2MWRjNTBkMzJjY2ZjY2U5MzhhYjdhNTM2ZjQ4OGYiLCAic2NvcmUiOiAxLjA1NDA4NjkyNjY1NzQwNzN9"
+   "sequence": "eyJfaWQiOiAiZDBjZGU5OWRhNzNkZDE2OTk5MzgzMDI2Yjc2MDljOGMiLCAic2NvcmUiOiAxLjA0NzIwOTY1MjY4MDU1NTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -181,19 +181,9 @@
   ],
   "normalizedLocations": [
    {
-    "id": "Toronto, Ontario, Canada",
-    "label": "Toronto",
-    "value": "Toronto, Ontario, Canada"
-   },
-   {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
-   },
-   {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
    },
    {
     "id": "Montreal, Quebec, Canada",
@@ -201,17 +191,27 @@
     "value": "Montreal, Quebec, Canada"
    },
    {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
+   {
     "id": "New York",
     "label": "New York",
     "value": "New York"
+   },
+   {
+    "id": "Toronto, Ontario, Canada",
+    "label": "Toronto",
+    "value": "Toronto, Ontario, Canada"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 165000, 'maxValue': 330000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Flux",
-    "label": "Flux",
-    "value": "resume:Flux"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
     "id": "resume:Research",
@@ -219,14 +219,14 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
    },
    {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    },
    {
     "id": "resume:Distributed Systems",
@@ -236,9 +236,9 @@
   ],
   "requiredSkills": [
    {
-    "id": "resume:Flux",
-    "label": "Flux",
-    "value": "resume:Flux"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
     "id": "resume:Research",
@@ -246,16 +246,16 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Cloud Services",
+    "label": "Cloud Services",
+    "value": "resume:Cloud Services"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Apache Spark",
-    "label": "Apache Spark",
-    "value": "resume:Apache Spark"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    },
    {
     "id": "resume:Distributed Systems",
@@ -263,14 +263,14 @@
     "value": "resume:Distributed Systems"
    },
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:Apache Spark",
+    "label": "Apache Spark",
+    "value": "resume:Apache Spark"
    },
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Flux",
+    "label": "Flux",
+    "value": "resume:Flux"
    },
    {
     "id": "resume:Kubernetes",
@@ -297,14 +297,19 @@
   ],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "Mid Atlantic",
     "label": "Mid Atlantic",
     "value": "Mid Atlantic"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "East Coast",
@@ -312,14 +317,9 @@
     "value": "East Coast"
    },
    {
-    "id": "Northwest",
-    "label": "Northwest",
-    "value": "Northwest"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -363,7 +363,7 @@
   "jobId": "bbf1b1a9-c90e-438d-8e5c-2bac67cc8df0",
   "remote": true,
   "hybrid": true,
-  "scores": "{'score': 1001.1467693061586, 'matchScore': 0, 'ageScore': 0.9467693061585648, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1384432430247, 'matchScore': 0, 'ageScore': 0.9384432430246914, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
