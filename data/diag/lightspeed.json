@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-11-14T23:08:40Z",
+ "run": "2026-11-15T02:51:01Z",
  "homepage": {
   "status": 200,
   "bytes": 21354
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "vSTXVujC45\u2026",
+  "session.sig": "XJr9pvKsYT\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDQ3NDA4ZjgzMzUyYTlkNjY2OWYzZDAyZmIxMDc1MjQiLCAic2NvcmUiOiAxLjE1NDM5MDg1MTkzMDU1NTV9"
+   "sequence": "eyJfaWQiOiAiMDQ3NDA4ZjgzMzUyYTlkNjY2OWYzZDAyZmIxMDc1MjQiLCAic2NvcmUiOiAxLjE1MDgwMjU4MTE3MTY4MjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/harvey/acd2604b-426a-4d2f-bcd3-e57f66f8d470?utm_source=jobs.lsvp.com",
+  "applyUrl": "https://jobs.ashbyhq.com/harvey/06f19e6b-f817-41ea-9c54-94d865f88428?utm_source=jobs.lsvp.com",
   "companyDomain": "harvey.ai",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2be5d63be7354b540c94eee9efbb0fa_176_160?Expires=1861920000&Signature=gGuMg4b-uxV1b~F2mr~UsVNlbNUHUojHReeO1yQOzw09rnj8QM6i~",
   "companyId": "Harvey",
@@ -164,30 +164,20 @@
   "companyStaffCount": 1840,
   "considerHosted": false,
   "departments": [
-   "Legal Engineer"
+   "Product"
   ],
   "jobTypes": [
    {
-    "id": "engineering-manager",
-    "label": "Engineering Manager",
-    "value": "engineering-manager"
-   },
-   {
-    "id": "regulatory-affairs",
-    "label": "Regulatory Affairs",
-    "value": "regulatory-affairs"
-   },
-   {
-    "id": "litigation",
-    "label": "Litigation",
-    "value": "litigation"
+    "id": "program-manager",
+    "label": "Program Manager",
+    "value": "program-manager"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Project Management",
+    "label": "Project Management",
+    "value": "Project Management"
    }
   ],
   "locations": [
@@ -201,69 +191,79 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 315000, 'maxValue': 385000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120900, 'maxValue': 166200, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
    },
    {
-    "id": "resume:Litigation",
-    "label": "Litigation",
-    "value": "resume:Litigation"
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
    },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Employment Litigation",
-    "label": "Employment Litigation",
-    "value": "resume:Employment Litigation"
-   },
-   {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
-   }
-  ],
-  "requiredSkills": [
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Litigation",
-    "label": "Litigation",
-    "value": "resume:Litigation"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Employment Litigation",
-    "label": "Employment Litigation",
-    "value": "resume:Employment Litigation"
-   },
-   {
-    "id": "resume:Regulatory Compliance",
-    "label": "Regulatory Compliance",
-    "value": "resume:Regulatory Compliance"
    },
    {
     "id": "resume:Professional Services",
     "label": "Professional Services",
     "value": "resume:Professional Services"
+   },
+   {
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
    }
   ],
-  "manager": true,
+  "requiredSkills": [
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:Software Project Management",
+    "label": "Software Project Management",
+    "value": "resume:Software Project Management"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Professional Services",
+    "label": "Professional Services",
+    "value": "resume:Professional Services"
+   },
+   {
+    "id": "resume:Enablement",
+    "label": "Enablement",
+    "value": "resume:Enablement"
+   },
+   {
+    "id": "resume:Program Design",
+    "label": "Program Design",
+    "value": "resume:Program Design"
+   },
+   {
+    "id": "resume:Customer Education",
+    "label": "Customer Education",
+    "value": "resume:Customer Education"
+   },
+   {
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
+   }
+  ],
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -329,23 +329,23 @@
    }
   ],
   "timeStamp": "2026-11-14T00:00:00Z",
-  "title": "Legal Engineering Manager, In-House (Litigation/Regulatory)",
-  "url": "https://jobs.ashbyhq.com/harvey/acd2604b-426a-4d2f-bcd3-e57f66f8d470",
-  "jobId": "acd2604b-426a-4d2f-bcd3-e57f66f8d470",
+  "title": "Program Manager, Customer Education",
+  "url": "https://jobs.ashbyhq.com/harvey/06f19e6b-f817-41ea-9c54-94d865f88428",
+  "jobId": "06f19e6b-f817-41ea-9c54-94d865f88428",
   "remote": false,
-  "hybrid": false,
-  "scores": "{'score': 1001.1716740326042, 'matchScore': 0, 'ageScore': 0.9716740326041666, 'richnessScore': 2}",
+  "hybrid": true,
+  "scores": "{'score': 1001.1679000918191, 'matchScore': 0, 'ageScore': 0.9679000918190587, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },
