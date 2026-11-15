@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-15T02:51:01Z",
+ "run": "2026-11-15T11:14:56Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "AIouDojYZ1\u2026",
+  "session.sig": "R4KMGWJ6c_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2FjMWQ0MjMzYTExNzc0ZmU2YTU4MzY4ODU0YzhkMTYiLCAic2NvcmUiOiAxLjEwMDQ5OTM5NTQ1MTM4ODl9"
+   "sequence": "eyJfaWQiOiAiZDgxZTMxNDE2YmRjNzIxNThiMDExMmZhZGU4NmQ1NTEiLCAic2NvcmUiOiAxLjA4NzY3NzIyMzg0NjQ1MDd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,33 +152,38 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Crusoe/26d7900a-bd92-42af-afcd-56ebd5f8ce1b?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "crusoe.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/83e047ed53d48955e1e39bdd6f3f660f_256_160?Expires=1861920000&Signature=r2eU4jRX2uOXV1AaZbtY7Z5mnhoWhTY0I1PFAYujsp5lQ9CiX1iiB",
-  "companyId": "Crusoe",
-  "companySlug": "crusoe",
-  "companyName": "Crusoe",
-  "companyStaffCount": 1693,
+  "applyUrl": "https://job-boards.greenhouse.io/halcyon/jobs/6262100004",
+  "companyDomain": "halcyon.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/59409644a76835982f36ca458bb40887_288_160?Expires=1861920000&Signature=Dhe8ZY24VWxK2DnvFsgjT7o2S18qa4ssjk3vRZFNWc9jQGoXkoFnX",
+  "companyId": "Halcyon",
+  "companySlug": "halcyon",
+  "companyName": "Halcyon",
+  "companyStaffCount": 431,
   "considerHosted": false,
   "departments": [
-   "Quality Assurance (MFG)"
+   "G&A: Security - CISO"
   ],
   "jobTypes": [
    {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
+   },
+   {
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
    }
   ],
   "jobFunctions": [
@@ -189,86 +194,85 @@
    }
   ],
   "locations": [
-   "Arvada, Colorado, USA",
-   "Arvada, CO - US"
+   "Remote, US"
   ],
   "normalizedLocations": [
    {
-    "id": "Arvada, Colorado",
-    "label": "Arvada, Colorado",
-    "value": "Arvada, Colorado"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Root Cause Analysis",
-    "label": "Root Cause Analysis",
-    "value": "resume:Root Cause Analysis"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Vulnerability Management",
+    "label": "Vulnerability Management",
+    "value": "resume:Vulnerability Management"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:CISA",
+    "label": "CISA",
+    "value": "resume:CISA"
    },
    {
-    "id": "resume:Background Checks",
-    "label": "Background Checks",
-    "value": "resume:Background Checks"
+    "id": "resume:Commission Plans",
+    "label": "Commission Plans",
+    "value": "resume:Commission Plans"
    },
    {
-    "id": "resume:Supplier Quality",
-    "label": "Supplier Quality",
-    "value": "resume:Supplier Quality"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Root Cause Analysis",
-    "label": "Root Cause Analysis",
-    "value": "resume:Root Cause Analysis"
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Vulnerability Management",
+    "label": "Vulnerability Management",
+    "value": "resume:Vulnerability Management"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:CISA",
+    "label": "CISA",
+    "value": "resume:CISA"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Background Checks",
-    "label": "Background Checks",
-    "value": "resume:Background Checks"
+    "id": "resume:Commission Plans",
+    "label": "Commission Plans",
+    "value": "resume:Commission Plans"
    },
    {
-    "id": "resume:Supplier Quality",
-    "label": "Supplier Quality",
-    "value": "resume:Supplier Quality"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:GRC",
+    "label": "GRC",
+    "value": "resume:GRC"
    },
    {
-    "id": "resume:Manufacturing Engineering",
-    "label": "Manufacturing Engineering",
-    "value": "resume:Manufacturing Engineering"
+    "id": "resume:Blackberry",
+    "label": "Blackberry",
+    "value": "resume:Blackberry"
    },
    {
-    "id": "resume:Statistical Process Control",
-    "label": "SPC",
-    "value": "resume:Statistical Process Control"
+    "id": "resume:Security Testing",
+    "label": "Security Testing",
+    "value": "resume:Security Testing"
    }
   ],
   "manager": false,
@@ -294,30 +298,31 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Energy",
-    "label": "Energy",
-    "value": "Energy"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-11-14T00:00:00Z",
-  "title": "Senior Manufacturing Quality Engineer",
-  "url": "https://jobs.ashbyhq.com/Crusoe/26d7900a-bd92-42af-afcd-56ebd5f8ce1b",
-  "jobId": "26d7900a-bd92-42af-afcd-56ebd5f8ce1b",
-  "remote": false,
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
+   }
+  ],
+  "timeStamp": "2026-11-14T00:27:29Z",
+  "title": "Senior Information Security Specialist",
+  "url": "https://job-boards.greenhouse.io/halcyon/jobs/6262100004",
+  "jobId": "6262100004",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1677990997446, 'matchScore': 0, 'ageScore': 0.9677990997445988, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1553100548044, 'matchScore': 0, 'ageScore': 0.9553100548043981, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
