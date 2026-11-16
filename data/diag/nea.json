@@ -1,9 +1,9 @@
 {
  "board": "nea",
- "run": "2026-11-16T11:46:00Z",
+ "run": "2026-11-16T22:21:07Z",
  "homepage": {
   "status": 200,
-  "bytes": 20756
+  "bytes": 21398
  },
  "slugs_tried": [
   "nea",
@@ -29,12 +29,12 @@
    "slug": "nea",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"12f3d3b262e0b1a4ea615772e728fee1b8b8ba2b\",\"date\":\"2026-11-13T20:13:41.960Z\"},\"server\":{\"git\":\"12f3d3b262e0b1a4ea615772e728fee1b8b8ba2b\",\"date\":\"2026-11-13T20:13:41.960Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"48d85b2ecb6b352a7f1aa085c405f425575ac25a\",\"date\":\"2026-11-16T19:51:54.160Z\"},\"server\":{\"git\":\"48d85b2ecb6b352a7f1aa085c405f425575ac25a\",\"date\":\"2026-11-16T19:51:54.160Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "dA9euRdwow\u2026",
+  "session.sig": "6_ZR6JDyBU\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjY3ODI4YTAzMDE4NTk2Y2ZlNzk2MTU0MmZiMWUyNjUiLCAic2NvcmUiOiAxLjA3ODI5NTY3OTQ0MDU4NjV9"
+   "sequence": "eyJfaWQiOiAiZTViYmJkMTdjYjllMDkzNGIzNzk4NzM2YmEzMzRiNjUiLCAic2NvcmUiOiAxLjA2ODgwMjUwMzY3MjA2Nzl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,35 +147,25 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/mashgin/27e64f56-0761-46ae-802b-a47bacd70874?lever-source%5B%5D=careers.nea.com",
-  "companyDomain": "mashgin.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a8a50e7bf23c8a97efe2159e6ed00f82_244_160?Expires=1861920000&Signature=pMEzItHazRAENcboZSwRFMhghQnKnnwBhOYSEUwrCSPjOp5jQYzhL",
-  "companyId": "Mashgin",
-  "companySlug": "mashgin",
-  "companyName": "Mashgin",
-  "companyStaffCount": 128,
+  "applyUrl": "https://boards.greenhouse.io/robinhood/jobs/8354333?t=gh_src=&gh_jid=8354333",
+  "companyDomain": "robinhood.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/a7f9760e316e94a76b4e2c5c6337d5a6_288_160?Expires=1861920000&Signature=mZQkCJ5Bp88JcFNaatMwUGHk4hZDC1ArvjUF0p4CWPQVmj3GTpnbw",
+  "companyId": "Robinhood",
+  "companySlug": "robinhood",
+  "companyName": "Robinhood",
+  "companyStaffCount": 4837,
   "considerHosted": false,
   "departments": [
-   "Research & Development"
+   "Enterprise Technology Division"
   ],
   "jobTypes": [
    {
-    "id": "hardware-engineer",
-    "label": "Hardware Engineer",
-    "value": "hardware-engineer"
-   },
-   {
-    "id": "program-manager",
-    "label": "Program Manager",
-    "value": "program-manager"
+    "id": "platform-engineer",
+    "label": "Platform Engineer",
+    "value": "platform-engineer"
    }
   ],
   "jobFunctions": [
-   {
-    "id": "Project Management",
-    "label": "Project Management",
-    "value": "Project Management"
-   },
    {
     "id": "Engineering",
     "label": "Engineering",
@@ -183,85 +173,85 @@
    }
   ],
   "locations": [
-   "San Jose, CA"
+   "Menlo Park, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Jose, California",
-    "label": "San Jose, California",
-    "value": "San Jose, California"
+    "id": "Menlo Park, California",
+    "label": "Menlo Park, California",
+    "value": "Menlo Park, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 165000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 125800, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Windchill",
-    "label": "Windchill",
-    "value": "resume:Windchill"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:SAP",
-    "label": "SAP",
-    "value": "resume:SAP"
+    "id": "resume:Engineering Productivity",
+    "label": "Engineering Productivity",
+    "value": "resume:Engineering Productivity"
    },
    {
-    "id": "resume:MRP",
-    "label": "MRP",
-    "value": "resume:MRP"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    },
    {
-    "id": "resume:International Logistics",
-    "label": "International Logistics",
-    "value": "resume:International Logistics"
+    "id": "resume:Configuration Management",
+    "label": "Configuration Management",
+    "value": "resume:Configuration Management"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Windchill",
-    "label": "Windchill",
-    "value": "resume:Windchill"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:SAP",
-    "label": "SAP",
-    "value": "resume:SAP"
+    "id": "resume:Engineering Productivity",
+    "label": "Engineering Productivity",
+    "value": "resume:Engineering Productivity"
    },
    {
-    "id": "resume:MRP",
-    "label": "MRP",
-    "value": "resume:MRP"
+    "id": "resume:Systems Engineering",
+    "label": "Systems Engineering",
+    "value": "resume:Systems Engineering"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:International Logistics",
-    "label": "International Logistics",
-    "value": "resume:International Logistics"
+    "id": "resume:Configuration Management",
+    "label": "Configuration Management",
+    "value": "resume:Configuration Management"
    },
    {
-    "id": "resume:Program Management",
-    "label": "Program Management",
-    "value": "resume:Program Management"
+    "id": "resume:Operating Systems",
+    "label": "Operating Systems",
+    "value": "resume:Operating Systems"
    },
    {
-    "id": "resume:Supply Chain Operations",
-    "label": "Supply Chain Operations",
-    "value": "resume:Supply Chain Operations"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Arena",
-    "label": "Arena",
-    "value": "resume:Arena"
+    "id": "resume:Emerging Technologies",
+    "label": "Emerging Technologies",
+    "value": "resume:Emerging Technologies"
    },
    {
-    "id": "resume:Inventory Management",
-    "label": "Inventory Management",
-    "value": "resume:Inventory Management"
+    "id": "resume:Infrastructure Automation",
+    "label": "Infrastructure Automation",
+    "value": "resume:Infrastructure Automation"
    }
   ],
   "manager": false,
@@ -277,11 +267,12 @@
     6
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -289,54 +280,49 @@
     "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Public",
+    "label": "Public",
+    "value": "Public"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "fundingLV": "{'id': 'Public', 'label': 'Public', 'value': 'Public'}",
   "markets": [
-   {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
    {
     "id": "Fintech",
     "label": "FinTech",
     "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-11-15T19:59:30.598000Z",
-  "title": "Hardware Operation Program Manager",
-  "url": "https://jobs.lever.co/mashgin/27e64f56-0761-46ae-802b-a47bacd70874",
-  "jobId": "27e64f56-0761-46ae-802b-a47bacd70874",
+  "timeStamp": "2026-11-16T10:51:28Z",
+  "title": "Senior Client Platform Engineer",
+  "url": "https://boards.greenhouse.io/robinhood/jobs/8354333?t=gh_src=&gh_jid=8354333",
+  "jobId": "8354333",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1825482198033, 'matchScore': 0, 'ageScore': 0.9825482198032407, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1860704172326, 'matchScore': 0, 'ageScore': 0.9860704172326389, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

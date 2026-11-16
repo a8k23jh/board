@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-16T11:46:00Z",
+ "run": "2026-11-16T22:21:07Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"12f3d3b262e0b1a4ea615772e728fee1b8b8ba2b\",\"date\":\"2026-11-13T20:13:41.960Z\"},\"server\":{\"git\":\"12f3d3b262e0b1a4ea615772e728fee1b8b8ba2b\",\"date\":\"2026-11-13T20:13:41.960Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"48d85b2ecb6b352a7f1aa085c405f425575ac25a\",\"date\":\"2026-11-16T19:51:54.160Z\"},\"server\":{\"git\":\"48d85b2ecb6b352a7f1aa085c405f425575ac25a\",\"date\":\"2026-11-16T19:51:54.160Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "-UuAUiS8ZP\u2026",
+  "session.sig": "Z1X67c2c6K\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWYyNWI1MTM5MjhjZjZmZTFiZjMyMjM3NDEwMmUwZWYiLCAic2NvcmUiOiAxLjA4Nzk5MTExMzYxMDcyNTJ9"
+   "sequence": "eyJfaWQiOiAiYWU2NDg3NGZiZGViNGZjZjk4NDUzOWI3Yzc2N2EyMWEiLCAic2NvcmUiOiAxLjA3NjA5MTY4NDczNDE4MjJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8944230002?gh_jid=8944230002",
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8944596002?gh_jid=8944596002",
   "companyDomain": "spacex.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
   "companyId": "SpaceX",
@@ -164,82 +164,65 @@
   "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "Starship Electronics"
+   "West Coast Recovery Technicians"
   ],
   "jobTypes": [
    {
-    "id": "mechanical-engineer",
-    "label": "Mechanical Engineer",
-    "value": "mechanical-engineer"
+    "id": "technician",
+    "label": "Technician",
+    "value": "technician"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Technician",
+    "label": "Technician",
+    "value": "Technician"
    }
   ],
   "locations": [
-   "Hawthorne, CA"
+   "Long Beach, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "California",
-    "label": "California",
-    "value": "California"
+    "id": "Long Beach, California",
+    "label": "Long Beach, California",
+    "value": "Long Beach, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135000, 'maxValue': 215000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 23, 'maxValue': 27, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Failure Analysis",
-    "label": "Failure Analysis",
-    "value": "resume:Failure Analysis"
-   },
-   {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
-   },
-   {
-    "id": "resume:Finite Element Analysis",
-    "label": "Finite Element Analysis",
-    "value": "resume:Finite Element Analysis"
-   },
-   {
-    "id": "resume:Avionics",
-    "label": "Avionics",
-    "value": "resume:Avionics"
+    "id": "resume:Air Force",
+    "label": "Air Force",
+    "value": "resume:Air Force"
    },
    {
     "id": "resume:Aerospace",
     "label": "Aerospace",
     "value": "resume:Aerospace"
+   },
+   {
+    "id": "resume:Background Checks",
+    "label": "Background Checks",
+    "value": "resume:Background Checks"
+   },
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
+   },
+   {
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Failure Analysis",
-    "label": "Failure Analysis",
-    "value": "resume:Failure Analysis"
-   },
-   {
-    "id": "resume:CAD",
-    "label": "CAD",
-    "value": "resume:CAD"
-   },
-   {
-    "id": "resume:Finite Element Analysis",
-    "label": "Finite Element Analysis",
-    "value": "resume:Finite Element Analysis"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Avionics",
-    "label": "Avionics",
-    "value": "resume:Avionics"
+    "id": "resume:Air Force",
+    "label": "Air Force",
+    "value": "resume:Air Force"
    },
    {
     "id": "resume:Aerospace",
@@ -247,40 +230,32 @@
     "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Design for Manufacturing",
-    "label": "Design for Manufacturing",
-    "value": "resume:Design for Manufacturing"
+    "id": "resume:Background Checks",
+    "label": "Background Checks",
+    "value": "resume:Background Checks"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
-   },
-   {
-    "id": "resume:GD&T",
-    "label": "GD&T",
-    "value": "resume:GD&T"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
-  "minYearsExp": 5,
+  "considerLevels": [],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -288,9 +263,9 @@
     "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -312,24 +287,24 @@
     "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-11-16T00:11:40Z",
-  "title": "Sr. Mechanical Engineer (Starship Avionics)",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8944230002?gh_jid=8944230002",
-  "jobId": "8944230002",
+  "timeStamp": "2026-11-16T09:48:04Z",
+  "title": "Recovery Technician, Falcon (Long Beach)",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8944596002?gh_jid=8944596002",
+  "jobId": "8944596002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1886034353939, 'matchScore': 0, 'ageScore': 0.9886034353939043, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1845367099105, 'matchScore': 0, 'ageScore': 0.9845367099104938, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
