@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-16T02:52:28Z",
+ "run": "2026-11-16T11:46:00Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ZWVVnzyXSf\u2026",
+  "session.sig": "2mahAFfO-J\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2M0NWIxYzhhZmZmNDNjOTA5YzBiNjA3NmZiMTJmYTkiLCAic2NvcmUiOiAxLjA2NzY2ODA4MzE1MzU0OTR9"
+   "sequence": "eyJfaWQiOiAiZDQyMDE0OGU3Y2IwMGQ0N2M4ODlkMTllMDQzMjE5ZjAiLCAic2NvcmUiOiAxLjA2MDMzMzIxNzEzNjU3NH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -128,27 +128,27 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Perplexity/10a51134-6741-40ec-8cca-a8ac1534673b?utm_source=careers.ivp.com",
-  "companyDomain": "perplexity.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/7cd4feed5ff0c83be5f3b0af36ea5d6f_320_160?Expires=1861920000&Signature=OuLnXxGzN~EhgOnhIgQpK1POW8qE1L0Q89kbA~OADjv1hts-FQwsa",
-  "companyId": "Perplexity AI",
-  "companySlug": "perplexity-ai",
-  "companyName": "Perplexity AI",
-  "companyStaffCount": 1408,
+  "applyUrl": "https://jobs.ashbyhq.com/clickhouse/56992f29-17a5-4150-b50b-7a72206c2af6?utm_source=careers.ivp.com",
+  "companyDomain": "clickhouse.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2779852661322ab66da5dc263e72606_320_160?Expires=1861920000&Signature=r~P65IuHovDEITH8vKhbAvgpsGftasvE8O7kucrixTGLscABGrKrs",
+  "companyId": "ClickHouse",
+  "companySlug": "clickhouse",
+  "companyName": "ClickHouse",
+  "companyStaffCount": 726,
   "considerHosted": false,
   "departments": [
-   "AI Research & Systems"
+   "Control Plane Engineering"
   ],
   "jobTypes": [
    {
@@ -165,80 +165,92 @@
    }
   ],
   "locations": [
-   "San Francisco, California, United States"
+   "",
+   "Europe or US"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Europe",
+    "label": "Europe",
+    "value": "Europe"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 250000, 'maxValue': 405000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 142000, 'maxValue': 250000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
+    "id": "resume:Control Plane",
+    "label": "Control Plane",
+    "value": "resume:Control Plane"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
    },
    {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
    },
    {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Audit",
+    "label": "Audit",
+    "value": "resume:Audit"
    },
    {
-    "id": "resume:TypeScript",
-    "label": "TypeScript",
-    "value": "resume:TypeScript"
+    "id": "resume:Control Plane",
+    "label": "Control Plane",
+    "value": "resume:Control Plane"
+   },
+   {
+    "id": "resume:Scheduling",
+    "label": "Scheduling",
+    "value": "resume:Scheduling"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Orchestration",
+    "label": "Orchestration",
+    "value": "resume:Orchestration"
+   },
+   {
+    "id": "resume:Distributed Systems",
+    "label": "Distributed Systems",
+    "value": "resume:Distributed Systems"
+   },
+   {
+    "id": "resume:Node.js",
+    "label": "Node.js",
+    "value": "resume:Node.js"
+   },
+   {
+    "id": "resume:Mechanics",
+    "label": "Mechanics",
+    "value": "resume:Mechanics"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:User Experience",
-    "label": "User Experience",
-    "value": "resume:User Experience"
-   },
-   {
-    "id": "resume:Rust",
-    "label": "Rust",
-    "value": "resume:Rust"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
-   [
-    1,
-    2
-   ],
    [
     3,
     4
@@ -248,52 +260,49 @@
     6
    ]
   ],
+  "minYearsExp": 6,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Analytics",
+    "label": "Analytics",
+    "value": "Analytics"
+   },
+   {
+    "id": "Developer Tools",
+    "label": "Developer Tools",
+    "value": "Developer Tools"
    }
   ],
-  "timeStamp": "2026-11-15T00:00:00Z",
-  "title": "Member of Technical Staff (AI Software Engineer, Agent Engine)",
-  "url": "https://jobs.ashbyhq.com/Perplexity/10a51134-6741-40ec-8cca-a8ac1534673b",
-  "jobId": "10a51134-6741-40ec-8cca-a8ac1534673b",
-  "remote": false,
+  "timeStamp": "2026-11-16T00:00:00Z",
+  "title": "Sr. Software Engineer - Enterprise Features & Orchestration",
+  "url": "https://jobs.ashbyhq.com/clickhouse/56992f29-17a5-4150-b50b-7a72206c2af6",
+  "jobId": "56992f29-17a5-4150-b50b-7a72206c2af6",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1678630552924, 'matchScore': 0, 'ageScore': 0.9678630552924383, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1884343232323, 'matchScore': 0, 'ageScore': 0.9884343232322531, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
    {
     "id": "senior",
     "label": "Senior",
@@ -301,7 +310,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "mid",
    "senior"
   ],
   "isFeatured": false

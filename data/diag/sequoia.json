@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-16T02:52:28Z",
+ "run": "2026-11-16T11:46:00Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "0fswvpnjvs\u2026",
+  "session.sig": "-UuAUiS8ZP\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYmQ2MTE1OWUyNTBkOTRkZTU2NGZjMTA4OWJjZDYxMDAiLCAic2NvcmUiOiAxLjEwMDI4ODMwNDkwNjI1fQ=="
+   "sequence": "eyJfaWQiOiAiNWYyNWI1MTM5MjhjZjZmZTFiZjMyMjM3NDEwMmUwZWYiLCAic2NvcmUiOiAxLjA4Nzk5MTExMzYxMDcyNTJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,38 +144,33 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/machindustries/jobs/4507989009",
-  "companyDomain": "machindustries.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/13f685f35baaf6b4bfde7b6c8d65bccb_192_160?Expires=1861920000&Signature=NSJu1QjBdHHZ28NMP4ISBmSLfHlUuboP4ZlQgbCiYpQBkBi6~JJSE",
-  "companyId": "Mach Industries",
-  "companySlug": "mach-industries",
-  "companyName": "Mach Industries",
-  "companyStaffCount": 391,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8944230002?gh_jid=8944230002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "IT"
+   "Starship Electronics"
   ],
   "jobTypes": [
    {
-    "id": "security-professional",
-    "label": "Security Professional",
-    "value": "security-professional"
-   },
-   {
-    "id": "security-engineer",
-    "label": "Security Engineer",
-    "value": "security-engineer"
+    "id": "mechanical-engineer",
+    "label": "Mechanical Engineer",
+    "value": "mechanical-engineer"
    }
   ],
   "jobFunctions": [
@@ -186,85 +181,85 @@
    }
   ],
   "locations": [
-   "Huntington Beach, California, United States"
+   "Hawthorne, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Huntington Beach, California",
-    "label": "Huntington Beach, California",
-    "value": "Huntington Beach, California"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 105000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135000, 'maxValue': 215000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Infrastructure Automation",
-    "label": "Infrastructure Automation",
-    "value": "resume:Infrastructure Automation"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:CAD",
+    "label": "CAD",
+    "value": "resume:CAD"
    },
    {
-    "id": "resume:GRC",
-    "label": "GRC",
-    "value": "resume:GRC"
+    "id": "resume:Finite Element Analysis",
+    "label": "Finite Element Analysis",
+    "value": "resume:Finite Element Analysis"
    },
    {
-    "id": "resume:Ansible",
-    "label": "Ansible",
-    "value": "resume:Ansible"
+    "id": "resume:Avionics",
+    "label": "Avionics",
+    "value": "resume:Avionics"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Infrastructure Automation",
-    "label": "Infrastructure Automation",
-    "value": "resume:Infrastructure Automation"
+    "id": "resume:Failure Analysis",
+    "label": "Failure Analysis",
+    "value": "resume:Failure Analysis"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:CAD",
+    "label": "CAD",
+    "value": "resume:CAD"
    },
    {
-    "id": "resume:GRC",
-    "label": "GRC",
-    "value": "resume:GRC"
+    "id": "resume:Finite Element Analysis",
+    "label": "Finite Element Analysis",
+    "value": "resume:Finite Element Analysis"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Ansible",
-    "label": "Ansible",
-    "value": "resume:Ansible"
+    "id": "resume:Avionics",
+    "label": "Avionics",
+    "value": "resume:Avionics"
    },
    {
-    "id": "resume:Written Communication Skills",
-    "label": "Written Communication Skills",
-    "value": "resume:Written Communication Skills"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:National Security",
-    "label": "National Security",
-    "value": "resume:National Security"
+    "id": "resume:Design for Manufacturing",
+    "label": "Design for Manufacturing",
+    "value": "resume:Design for Manufacturing"
    },
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:Electromechanics",
+    "label": "Electromechanics",
+    "value": "resume:Electromechanics"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:GD&T",
+    "label": "GD&T",
+    "value": "resume:GD&T"
    }
   ],
   "manager": false,
@@ -272,21 +267,20 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 1,
-  "maxYearsExp": 3,
+  "minYearsExp": 5,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Pacific States",
@@ -294,54 +288,48 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
    },
    {
-    "id": "Manufacturing",
-    "label": "Manufacturing",
-    "value": "Manufacturing"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-11-15T13:49:59Z",
-  "title": "Security Engineer",
-  "url": "https://job-boards.greenhouse.io/machindustries/jobs/4507989009",
-  "jobId": "4507989009",
+  "timeStamp": "2026-11-16T00:11:40Z",
+  "title": "Sr. Mechanical Engineer (Starship Avionics)",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8944230002?gh_jid=8944230002",
+  "jobId": "8944230002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1860443892847, 'matchScore': 0, 'ageScore': 0.9860443892847223, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1886034353939, 'matchScore': 0, 'ageScore': 0.9886034353939043, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

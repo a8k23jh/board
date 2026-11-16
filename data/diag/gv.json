@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-11-16T02:52:28Z",
+ "run": "2026-11-16T11:46:00Z",
  "homepage": {
   "status": 200,
   "bytes": 26319
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "FKFpzjIZ9d\u2026",
+  "session.sig": "sMiMDnwwWb\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmE1ZTQ1OTdhYzhiNjJlOTI1NGE0ZDY5YjFlNzA2MDAiLCAic2NvcmUiOiAxLjEwMDU4OTc5NTQwMjM5Mn0="
+   "sequence": "eyJfaWQiOiAiOGNiMDllNDZjZjQ3MTA1NGI3OGYyZjVjYjk5YTNmZjAiLCAic2NvcmUiOiAxLjA4Nzg3MTAyMTc3NTA3N30="
   },
   "job_keys": [
    "applicationWindow",
@@ -160,14 +160,14 @@
   ],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
-   },
-   {
     "id": "gtm",
     "label": "GTM",
     "value": "gtm"
+   },
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
    }
   ],
   "jobFunctions": [
@@ -191,63 +191,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 270000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
-   },
-   {
     "id": "resume:Packaging",
     "label": "Packaging",
     "value": "resume:Packaging"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
-   },
-   {
-    "id": "resume:Customer Satisfaction",
-    "label": "Customer Satisfaction",
-    "value": "resume:Customer Satisfaction"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Packaging",
-    "label": "Packaging",
-    "value": "resume:Packaging"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Fraud Prevention",
-    "label": "Fraud Prevention",
-    "value": "resume:Fraud Prevention"
    },
    {
     "id": "resume:AML",
@@ -255,9 +201,63 @@
     "value": "resume:AML"
    },
    {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
     "id": "resume:Early Stage",
     "label": "Early-Stage",
     "value": "resume:Early Stage"
+   },
+   {
+    "id": "resume:ZoomInfo",
+    "label": "ZoomInfo",
+    "value": "resume:ZoomInfo"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Packaging",
+    "label": "Packaging",
+    "value": "resume:Packaging"
+   },
+   {
+    "id": "resume:AML",
+    "label": "AML",
+    "value": "resume:AML"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Early Stage",
+    "label": "Early-Stage",
+    "value": "resume:Early Stage"
+   },
+   {
+    "id": "resume:ZoomInfo",
+    "label": "ZoomInfo",
+    "value": "resume:ZoomInfo"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Fraud",
+    "label": "Fraud",
+    "value": "resume:Fraud"
+   },
+   {
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    }
   ],
   "manager": false,
@@ -276,9 +276,9 @@
   "minYearsExp": 5,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Pacific States",
@@ -286,9 +286,9 @@
     "value": "Pacific States"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -322,24 +322,24 @@
   "jobId": "9d67eba9-e460-4409-9e1c-353f55d983c9",
   "remote": false,
   "hybrid": true,
-  "scores": "{'score': 1001.1673053567056, 'matchScore': 0, 'ageScore': 0.9673053567056327, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1550032930007, 'matchScore': 0, 'ageScore': 0.9550032930007716, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   },
-   {
     "id": "senior",
     "label": "Senior",
     "value": "senior"
+   },
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "mid",
-   "senior"
+   "senior",
+   "mid"
   ],
   "isFeatured": false
  },
