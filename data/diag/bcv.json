@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-15T22:59:13Z",
+ "run": "2026-11-16T02:52:28Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "BXEs-oVtI1\u2026",
+  "session.sig": "ZCl9juYP9I\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGE5NDQ0ODY0YjMxNDA0ZWU0MmM0NDhkYWFjY2M5OGIiLCAic2NvcmUiOiAxLjA3MTE1Mjk4NzEzNzczMTR9"
+   "sequence": "eyJfaWQiOiAiODE3M2RhMzI0ZDQ5NTg2NjBiM2Q2N2Q1YjQyN2FiNGYiLCAic2NvcmUiOiAxLjA2NzE4OTMxMTU3MjUzMDh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -163,7 +163,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/black-forest-labs/92920499-3d5c-422e-9849-1c5f5f7ef5a8?utm_source=jobs.baincapitalventures.com",
+  "applyUrl": "https://jobs.ashbyhq.com/black-forest-labs/f83d3aee-d270-4ef6-b7a4-845a38afb3aa?utm_source=jobs.baincapitalventures.com",
   "companyDomain": "blackforestlabs.ai",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1731e6544b5a8a76cef8bec620a68da3_321_160?Expires=1861920000&Signature=ng1RQJmnpQSWqbbZwLNliXINmaDFk017rJKxR-Gy7CXyCdb80xJpd",
   "companyId": "Black Forest Labs",
@@ -176,9 +176,19 @@
   ],
   "jobTypes": [
    {
+    "id": "machine-learning-engineer",
+    "label": "Machine Learning Engineer",
+    "value": "machine-learning-engineer"
+   },
+   {
     "id": "software-engineer",
     "label": "Software Engineer",
     "value": "software-engineer"
+   },
+   {
+    "id": "data-scientist",
+    "label": "Data Scientist",
+    "value": "data-scientist"
    }
   ],
   "jobFunctions": [
@@ -199,66 +209,22 @@
     "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 220000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:OpenID",
-    "label": "OpenID",
-    "value": "resume:OpenID"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:SSO",
-    "label": "SSO",
-    "value": "resume:SSO"
-   },
-   {
-    "id": "resume:SAML",
-    "label": "SAML",
-    "value": "resume:SAML"
-   },
-   {
-    "id": "resume:Endpoint Security",
-    "label": "Endpoint Security",
-    "value": "resume:Endpoint Security"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:OpenID",
-    "label": "OpenID",
-    "value": "resume:OpenID"
-   },
-   {
-    "id": "resume:SSO",
-    "label": "SSO",
-    "value": "resume:SSO"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:SAML",
-    "label": "SAML",
-    "value": "resume:SAML"
-   },
-   {
-    "id": "resume:Endpoint Security",
-    "label": "Endpoint Security",
-    "value": "resume:Endpoint Security"
-   },
-   {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
    },
    {
     "id": "resume:Team Leadership",
@@ -266,25 +232,73 @@
     "value": "resume:Team Leadership"
    },
    {
-    "id": "resume:Threat Hunting",
-    "label": "Threat Hunting",
-    "value": "resume:Threat Hunting"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:User Experience",
+    "label": "User Experience",
+    "value": "resume:User Experience"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
+   },
+   {
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Classification",
+    "label": "Classification Algorithms",
+    "value": "resume:Classification"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
   "regions": [
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
@@ -318,20 +332,15 @@
    }
   ],
   "timeStamp": "2026-11-15T00:00:00Z",
-  "title": "Member of Technical Staff - Workforce Security",
-  "url": "https://jobs.ashbyhq.com/black-forest-labs/92920499-3d5c-422e-9849-1c5f5f7ef5a8",
-  "jobId": "92920499-3d5c-422e-9849-1c5f5f7ef5a8",
+  "title": "Machine Learning Engineer - Moderation",
+  "url": "https://jobs.ashbyhq.com/black-forest-labs/f83d3aee-d270-4ef6-b7a4-845a38afb3aa",
+  "jobId": "f83d3aee-d270-4ef6-b7a4-845a38afb3aa",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1718292018495, 'matchScore': 0, 'ageScore': 0.971829201849537, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1676611042619, 'matchScore': 0, 'ageScore': 0.9676611042619598, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -339,7 +348,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid"
   ],
   "isFeatured": false
