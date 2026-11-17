@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-16T22:21:07Z",
+ "run": "2026-11-17T04:39:23Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"48d85b2ecb6b352a7f1aa085c405f425575ac25a\",\"date\":\"2026-11-16T19:51:54.160Z\"},\"server\":{\"git\":\"48d85b2ecb6b352a7f1aa085c405f425575ac25a\",\"date\":\"2026-11-16T19:51:54.160Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"},\"server\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Z1X67c2c6K\u2026",
+  "session.sig": "YWrZS4zacW\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWU2NDg3NGZiZGViNGZjZjk4NDUzOWI3Yzc2N2EyMWEiLCAic2NvcmUiOiAxLjA3NjA5MTY4NDczNDE4MjJ9"
+   "sequence": "eyJfaWQiOiAiNjc4MzVjNmQ3NDI5YjAyMTRkNDg3Y2Y1YzM0M2Y0NjYiLCAic2NvcmUiOiAxLjEwMTE3MTAyNDM4Njk2fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8944596002?gh_jid=8944596002",
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8943817002?gh_jid=8943817002",
   "companyDomain": "spacex.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
   "companyId": "SpaceX",
@@ -164,93 +164,118 @@
   "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "West Coast Recovery Technicians"
+   "Starlink Mobile Engineering"
   ],
   "jobTypes": [
    {
-    "id": "technician",
-    "label": "Technician",
-    "value": "technician"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Technician",
-    "label": "Technician",
-    "value": "Technician"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Long Beach, CA"
+   "Palo Alto, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Long Beach, California",
-    "label": "Long Beach, California",
-    "value": "Long Beach, California"
+    "id": "Palo Alto, California",
+    "label": "Palo Alto, California",
+    "value": "Palo Alto, California"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 23, 'maxValue': 27, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 135000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Air Force",
-    "label": "Air Force",
-    "value": "resume:Air Force"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:Background Checks",
-    "label": "Background Checks",
-    "value": "resume:Background Checks"
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Robotics",
+    "label": "Robotics",
+    "value": "resume:Robotics"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Air Force",
-    "label": "Air Force",
-    "value": "resume:Air Force"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Aerospace",
-    "label": "Aerospace",
-    "value": "resume:Aerospace"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
-    "id": "resume:Background Checks",
-    "label": "Background Checks",
-    "value": "resume:Background Checks"
+    "id": "resume:Continuous Integration",
+    "label": "Continuous Integration",
+    "value": "resume:Continuous Integration"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Robotics",
+    "label": "Robotics",
+    "value": "resume:Robotics"
    },
    {
-    "id": "resume:Vehicles",
-    "label": "Vehicles",
-    "value": "resume:Vehicles"
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
+   },
+   {
+    "id": "resume:Wireless",
+    "label": "Wireless",
+    "value": "resume:Wireless"
+   },
+   {
+    "id": "resume:Continuous Delivery",
+    "label": "Continuous Delivery",
+    "value": "resume:Continuous Delivery"
+   },
+   {
+    "id": "resume:C",
+    "label": "C",
+    "value": "resume:C"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    1,
+    2
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "minYearsExp": 2,
   "regions": [
    {
     "id": "West Coast",
@@ -258,14 +283,14 @@
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -287,13 +312,13 @@
     "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-11-16T09:48:04Z",
-  "title": "Recovery Technician, Falcon (Long Beach)",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8944596002?gh_jid=8944596002",
-  "jobId": "8944596002",
+  "timeStamp": "2026-11-16T17:12:06Z",
+  "title": "Software Engineer, Wireless Validation (Starlink Mobile)",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8943817002?gh_jid=8943817002",
+  "jobId": "8943817002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1845367099105, 'matchScore': 0, 'ageScore': 0.9845367099104938, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1917017526308, 'matchScore': 0, 'ageScore': 0.9917017526307871, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

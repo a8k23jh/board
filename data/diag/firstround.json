@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-11-16T22:21:07Z",
+ "run": "2026-11-17T04:39:23Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"48d85b2ecb6b352a7f1aa085c405f425575ac25a\",\"date\":\"2026-11-16T19:51:54.160Z\"},\"server\":{\"git\":\"48d85b2ecb6b352a7f1aa085c405f425575ac25a\",\"date\":\"2026-11-16T19:51:54.160Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"},\"server\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "IFcle9y2iS\u2026",
+  "session.sig": "OqVPkAWB3J\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYWI1ODAwN2IwZTNhOWNjNzU3OGY3YWRjYzg5MjFmNzIiLCAic2NvcmUiOiAwLjk3MTkwNDMxMDQ1MTAwM30="
+   "sequence": "eyJfaWQiOiAiYzQxZWQ4ZDU1MDIyNjY1NWEzNTcwZmMwNzIxOWZjN2IiLCAic2NvcmUiOiAwLjk5MDA3NTM1Njg5MDQzMn0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,101 +155,57 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/pinwheelapi/jobs/8203706003",
-  "companyDomain": "getpinwheel.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d88605058ffc8794e78b878500fc1256_320_160?Expires=1861920000&Signature=mCX0HR0-6tipiZEcMTSzNR3prPzM7qPzvXbsUtEaInD0EsIN~AFAJ",
-  "companyId": "Pinwheel",
-  "companySlug": "pinwheel",
-  "companyName": "Pinwheel",
-  "companyStaffCount": 70,
+  "applyUrl": "https://job-boards.greenhouse.io/singlestore/jobs/8350563",
+  "companyDomain": "singlestore.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1af05bf3e4b78b565199307cec69f083_321_160?Expires=1861920000&Signature=RQXH0iwGmFea7xdeJ0c0ZI0j8SmSo0QiJCTkfrVGBYUGCaOH3lbf9",
+  "companyId": "SingleStore",
+  "companySlug": "singlestore",
+  "companyName": "SingleStore",
+  "companyStaffCount": 558,
   "considerHosted": false,
   "departments": [
-   "People Operations"
+   "Americas Enterpr and Comm Sales"
   ],
   "jobTypes": [
    {
-    "id": "technical-recruiter",
-    "label": "Technical Recruiter",
-    "value": "technical-recruiter"
+    "id": "enterprise-account-executive",
+    "label": "Enterprise Account Executive",
+    "value": "enterprise-account-executive"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "New York, NY"
+   "United States"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 145000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 90000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
-   },
-   {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
-   },
-   {
-    "id": "resume:Technical Recruiting",
-    "label": "Technical Recruiting",
-    "value": "resume:Technical Recruiting"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Voter Targeting",
-    "label": "Voter Targeting/Outreach",
-    "value": "resume:Voter Targeting"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
-   },
-   {
-    "id": "resume:Technical Recruiting",
-    "label": "Technical Recruiting",
-    "value": "resume:Technical Recruiting"
-   },
-   {
-    "id": "resume:Financial Services",
-    "label": "Financial Services",
-    "value": "resume:Financial Services"
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
    },
    {
     "id": "resume:Artificial Intelligence",
@@ -257,9 +213,58 @@
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Recruit",
-    "label": "Recruit",
-    "value": "resume:Recruit"
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
+   },
+   {
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   },
+   {
+    "id": "resume:Databases",
+    "label": "Databases",
+    "value": "resume:Databases"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Procurement",
+    "label": "Procurement",
+    "value": "resume:Procurement"
+   },
+   {
+    "id": "resume:Forecasting",
+    "label": "Forecasting",
+    "value": "resume:Forecasting"
+   },
+   {
+    "id": "resume:B2B",
+    "label": "B2B",
+    "value": "resume:B2B"
+   },
+   {
+    "id": "resume:Kubernetes",
+    "label": "Kubernetes",
+    "value": "resume:Kubernetes"
+   },
+   {
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    }
   ],
   "manager": false,
@@ -276,34 +281,18 @@
    ]
   ],
   "minYearsExp": 5,
-  "maxYearsExp": 7,
   "regions": [
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -314,29 +303,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Data & Analytics",
+    "label": "Data & Analytics",
+    "value": "Data & Analytics"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
    }
   ],
-  "timeStamp": "2026-11-16T09:58:34Z",
-  "title": "Sr. Technical Recruiter",
-  "url": "https://job-boards.greenhouse.io/pinwheelapi/jobs/8203706003",
-  "jobId": "8203706003",
-  "remote": false,
+  "timeStamp": "2026-11-16T16:56:14Z",
+  "title": "Enterprise Account Executive",
+  "url": "https://job-boards.greenhouse.io/singlestore/jobs/8350563",
+  "jobId": "8350563",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1858109304853, 'matchScore': 0, 'ageScore': 0.9858109304853395, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1913580774961, 'matchScore': 0, 'ageScore': 0.991358077496142, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },

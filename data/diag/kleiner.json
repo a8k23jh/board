@@ -1,6 +1,7 @@
 {
  "board": "kleiner",
- "run": "2026-11-16T22:21:07Z",
+ "run": "2026-11-17T04:39:23Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.kleinerperkins.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'",
  "homepage": {
   "status": 200,
   "bytes": 19528
@@ -37,12 +38,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"48d85b2ecb6b352a7f1aa085c405f425575ac25a\",\"date\":\"2026-11-16T19:51:54.160Z\"},\"server\":{\"git\":\"48d85b2ecb6b352a7f1aa085c405f425575ac25a\",\"date\":\"2026-11-16T19:51:54.160Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"},\"server\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "nknCF7nDMa\u2026",
+  "session.sig": "MscWDzUmbz\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +128,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNGM3ZjczMzRjZWJiYjg2NGZhZGNiMjE0NWVlZTk0NWIiLCAic2NvcmUiOiAwLjk4OTIwMTMzMDI3NTQ2M30="
+   "sequence": "eyJfaWQiOiAiMDFhNWFjZmJhYmIwYmM5MDIxY2JhNGNiMjlkZTIwYzAiLCAic2NvcmUiOiAwLjk4OTA4NTE2NzA0NDM2NzJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,138 +145,105 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/harvey/56357288-3ba6-4808-8121-becc6c1efe38?utm_source=jobs.kleinerperkins.com",
-  "companyDomain": "harvey.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2be5d63be7354b540c94eee9efbb0fa_176_160?Expires=1861920000&Signature=gGuMg4b-uxV1b~F2mr~UsVNlbNUHUojHReeO1yQOzw09rnj8QM6i~",
-  "companyId": "Harvey",
-  "companySlug": "harvey",
-  "companyName": "Harvey",
-  "companyStaffCount": 1840,
+  "applyUrl": "https://jobs.lever.co/lumafield/0a5abd45-ede5-4667-8ca9-bbdfcc6a98d1?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "companyDomain": "lumafield.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
+  "companyId": "Lumafield",
+  "companySlug": "lumafield",
+  "companyName": "Lumafield",
+  "companyStaffCount": 156,
   "considerHosted": false,
   "departments": [
-   "IT"
+   "Operations"
   ],
-  "jobTypes": [
-   {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
-   },
-   {
-    "id": "gtm",
-    "label": "GTM",
-    "value": "gtm"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Marketing",
-    "label": "Marketing",
-    "value": "Marketing"
-   },
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "New York, New York, USA",
-   "New York"
+   "San Francisco, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
-   },
-   {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 153000, 'maxValue': 210500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 70000, 'maxValue': 80000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
    },
    {
-    "id": "resume:Account Planning",
-    "label": "Account Planning",
-    "value": "resume:Account Planning"
+    "id": "resume:File Systems",
+    "label": "File Systems",
+    "value": "resume:File Systems"
    },
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
+    "id": "resume:Field Service",
+    "label": "Field Service",
+    "value": "resume:Field Service"
    },
    {
-    "id": "resume:OAuth",
-    "label": "OAuth",
-    "value": "resume:OAuth"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
    },
    {
-    "id": "resume:Account Planning",
-    "label": "Account Planning",
-    "value": "resume:Account Planning"
+    "id": "resume:File Systems",
+    "label": "File Systems",
+    "value": "resume:File Systems"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Enablement",
-    "label": "Enablement",
-    "value": "resume:Enablement"
+    "id": "resume:Field Service",
+    "label": "Field Service",
+    "value": "resume:Field Service"
    },
    {
-    "id": "resume:OAuth",
-    "label": "OAuth",
-    "value": "resume:OAuth"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:Microsoft Certified Professional",
-    "label": "Microsoft Certified Professional",
-    "value": "resume:Microsoft Certified Professional"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    },
    {
-    "id": "resume:Software Integrations",
-    "label": "Software Integrations",
-    "value": "resume:Software Integrations"
-   },
-   {
-    "id": "resume:Recording",
-    "label": "Recording",
-    "value": "resume:Recording"
+    "id": "resume:Electromechanics",
+    "label": "Electromechanics",
+    "value": "resume:Electromechanics"
    }
   ],
   "manager": false,
@@ -283,20 +251,20 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 2,
   "regions": [
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "North America",
@@ -304,73 +272,48 @@
     "value": "North America"
    },
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "Legal Services",
-    "label": "Legal Services",
-    "value": "Legal Services"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-11-16T00:00:00Z",
-  "title": "Senior AI Enablement Engineer, GTM",
-  "url": "https://jobs.ashbyhq.com/harvey/56357288-3ba6-4808-8121-becc6c1efe38",
-  "jobId": "56357288-3ba6-4808-8121-becc6c1efe38",
+  "timeStamp": "2026-11-16T20:53:40.200000Z",
+  "title": "Field Service Technician",
+  "url": "https://jobs.lever.co/lumafield/0a5abd45-ede5-4667-8ca9-bbdfcc6a98d1",
+  "jobId": "0a5abd45-ede5-4667-8ca9-bbdfcc6a98d1",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.172057072378, 'matchScore': 0, 'ageScore': 0.9720570723780864, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1959613427681, 'matchScore': 0, 'ageScore': 0.9959613427681328, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }

@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-16T22:21:07Z",
+ "run": "2026-11-17T04:39:23Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -21,12 +21,12 @@
    "slug": "ivp",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"48d85b2ecb6b352a7f1aa085c405f425575ac25a\",\"date\":\"2026-11-16T19:51:54.160Z\"},\"server\":{\"git\":\"48d85b2ecb6b352a7f1aa085c405f425575ac25a\",\"date\":\"2026-11-16T19:51:54.160Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"},\"server\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1euxmjko5Q\u2026",
+  "session.sig": "jNuvg-b2IW\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzFiNWQ0NjIzNmJiMWJjNmRkYjQ3YzFhOTM4OGI3MjAiLCAic2NvcmUiOiAxLjA1NjEwMjc3MDExNjg5ODF9"
+   "sequence": "eyJfaWQiOiAiZTE5NTNjOTdkODM5MGVhYWU3OWM3Y2U5MzdlMzY3ZjkiLCAic2NvcmUiOiAxLjA2NzIzNTU2MTgzMzcxOX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -128,117 +128,105 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/discord/jobs/8731918002",
-  "companyDomain": "discord.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6eb2e8b2ef9f74cd6efde067c53000bc_320_160?Expires=1861920000&Signature=IVWmJtRXz3X4iur6ldBT5uiItohV0wT9SyUlRzcIL47Zg5IJwxeHU",
-  "companyId": "Discord",
-  "companySlug": "discord",
-  "companyName": "Discord",
-  "companyStaffCount": 4517,
+  "applyUrl": "https://jobs.lever.co/lumafield/0a5abd45-ede5-4667-8ca9-bbdfcc6a98d1?lever-source%5B%5D=careers.ivp.com",
+  "companyDomain": "lumafield.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
+  "companyId": "Lumafield",
+  "companySlug": "lumafield",
+  "companyName": "Lumafield",
+  "companyStaffCount": 156,
   "considerHosted": false,
   "departments": [
-   "Product Design"
+   "Operations"
   ],
-  "jobTypes": [
-   {
-    "id": "ux-designer",
-    "label": "UX Designer",
-    "value": "ux-designer"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Design",
-    "label": "Design",
-    "value": "Design"
-   }
-  ],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "San Francisco Bay Area"
+   "San Francisco, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco Bay Area",
-    "label": "San Francisco Bay Area",
-    "value": "San Francisco Bay Area"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 188000, 'maxValue': 235000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 70000, 'maxValue': 80000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Ideation",
-    "label": "Ideation",
-    "value": "resume:Ideation"
-   },
-   {
-    "id": "resume:Mobile",
-    "label": "Mobile",
-    "value": "resume:Mobile"
-   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Design Systems",
-    "label": "Design Systems",
-    "value": "resume:Design Systems"
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
    },
    {
-    "id": "resume:Prototyping",
-    "label": "Prototyping",
-    "value": "resume:Prototyping"
+    "id": "resume:File Systems",
+    "label": "File Systems",
+    "value": "resume:File Systems"
+   },
+   {
+    "id": "resume:Field Service",
+    "label": "Field Service",
+    "value": "resume:Field Service"
+   },
+   {
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Ideation",
-    "label": "Ideation",
-    "value": "resume:Ideation"
-   },
-   {
-    "id": "resume:Mobile",
-    "label": "Mobile",
-    "value": "resume:Mobile"
-   },
-   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Quantitative Data",
+    "label": "Quantitative Data",
+    "value": "resume:Quantitative Data"
+   },
+   {
+    "id": "resume:File Systems",
+    "label": "File Systems",
+    "value": "resume:File Systems"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Design Systems",
-    "label": "Design Systems",
-    "value": "resume:Design Systems"
+    "id": "resume:Field Service",
+    "label": "Field Service",
+    "value": "resume:Field Service"
    },
    {
-    "id": "resume:Prototyping",
-    "label": "Prototyping",
-    "value": "resume:Prototyping"
+    "id": "resume:Operational Excellence",
+    "label": "Operational Excellence",
+    "value": "resume:Operational Excellence"
    },
    {
-    "id": "resume:Interaction Design",
-    "label": "Interaction Design",
-    "value": "resume:Interaction Design"
+    "id": "resume:Computer Vision",
+    "label": "Computer Vision",
+    "value": "resume:Computer Vision"
    },
    {
-    "id": "resume:Figma",
-    "label": "Figma",
-    "value": "resume:Figma"
+    "id": "resume:Electromechanics",
+    "label": "Electromechanics",
+    "value": "resume:Electromechanics"
    }
   ],
   "manager": false,
@@ -246,15 +234,15 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 2,
   "regions": [
    {
     "id": "West Coast",
@@ -262,69 +250,48 @@
     "value": "West Coast"
    },
    {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Consumer",
-    "label": "Consumer",
-    "value": "Consumer"
-   },
-   {
-    "id": "Marketplace",
-    "label": "Marketplace",
-    "value": "Marketplace"
-   },
-   {
-    "id": "Social Networking",
-    "label": "Social Networking",
-    "value": "Social Networking"
-   },
-   {
-    "id": "Video Games",
-    "label": "Video Games",
-    "value": "Video Games"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-11-16T10:30:11Z",
-  "title": "Senior Product Designer, Consumer Revenue",
-  "url": "https://job-boards.greenhouse.io/discord/jobs/8731918002",
-  "jobId": "8731918002",
+  "timeStamp": "2026-11-16T20:53:40.200000Z",
+  "title": "Field Service Technician",
+  "url": "https://jobs.lever.co/lumafield/0a5abd45-ede5-4667-8ca9-bbdfcc6a98d1",
+  "jobId": "0a5abd45-ede5-4667-8ca9-bbdfcc6a98d1",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1856685637473, 'matchScore': 0, 'ageScore': 0.9856685637472994, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1959613427681, 'matchScore': 0, 'ageScore': 0.9959613427681328, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
