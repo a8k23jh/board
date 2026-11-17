@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-11-17T14:41:16Z",
+ "run": "2026-11-17T22:59:51Z",
  "homepage": {
   "status": 200,
   "bytes": 19528
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "NTFsPJIuZ5\u2026",
+  "session.sig": "zLM5TurR9z\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzkzYTMzZjlhZjhjNGRiNTMxNjIyNDk2M2E1N2ZiYzIiLCAic2NvcmUiOiAwLjk4MDY3ODI4ODQwMDQ2M30="
+   "sequence": "eyJfaWQiOiAiMjlkYjllOWRjYzdjMWFkMTMyZGZiMDRiY2YwNWZlYzEiLCAic2NvcmUiOiAxLjAwODUzMTg1NDY4NTU3MX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,105 +144,117 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/lumafield/0a5abd45-ede5-4667-8ca9-bbdfcc6a98d1?lever-source%5B%5D=jobs.kleinerperkins.com",
-  "companyDomain": "lumafield.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9d62e811b2a58ca330c5274e4c5acd97_304_160?Expires=1861920000&Signature=l6HaHN69cM~gaW4PRWPSEef4aEH9c1AmMdIseCbEVxBn1U8VwVHaw",
-  "companyId": "Lumafield",
-  "companySlug": "lumafield",
-  "companyName": "Lumafield",
-  "companyStaffCount": 156,
+  "applyUrl": "https://ats.rippling.com/thriveglobal/jobs/978dfbef-0093-4c1d-83e0-8528cbf4990a",
+  "companyDomain": "thriveglobal.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/081f77fdf3fec9fb33251769ee7bf484_320_160?Expires=1861920000&Signature=ineQnieB1Z2agN8kYKxE4fCbzl4gUBrVPFp5fnUAGyOTkjbSbMOTb",
+  "companyId": "Thrive Global",
+  "companySlug": "thrive-global",
+  "companyName": "Thrive Global",
+  "companyStaffCount": 605,
   "considerHosted": false,
   "departments": [
-   "Operations"
+   "Customer Success"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "lead",
+    "label": "Lead",
+    "value": "lead"
+   },
+   {
+    "id": "marketing-engagement",
+    "label": "Marketing Engagement",
+    "value": "marketing-engagement"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   }
+  ],
   "locations": [
-   "San Francisco, CA"
+   "Remote (United States)"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 70000, 'maxValue': 80000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 140000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:File Systems",
-    "label": "File Systems",
-    "value": "resume:File Systems"
+    "id": "resume:Contractors",
+    "label": "Contractors",
+    "value": "resume:Contractors"
    },
    {
-    "id": "resume:Quantitative Data",
-    "label": "Quantitative Data",
-    "value": "resume:Quantitative Data"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Field Service",
-    "label": "Field Service",
-    "value": "resume:Field Service"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:File Systems",
-    "label": "File Systems",
-    "value": "resume:File Systems"
+    "id": "resume:Contractors",
+    "label": "Contractors",
+    "value": "resume:Contractors"
    },
    {
-    "id": "resume:Quantitative Data",
-    "label": "Quantitative Data",
-    "value": "resume:Quantitative Data"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Field Service",
-    "label": "Field Service",
-    "value": "resume:Field Service"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Service",
+    "label": "Service",
+    "value": "resume:Service"
    },
    {
-    "id": "resume:Computer Vision",
-    "label": "Computer Vision",
-    "value": "resume:Computer Vision"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Operational Excellence",
-    "label": "Operational Excellence",
-    "value": "resume:Operational Excellence"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Team Leadership",
+    "label": "Team Leadership",
+    "value": "resume:Team Leadership"
    }
   ],
   "manager": false,
@@ -250,30 +262,16 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
    ]
   ],
-  "minYearsExp": 2,
+  "minYearsExp": 4,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -281,25 +279,36 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Medical Devices",
-    "label": "Medical Devices",
-    "value": "Medical Devices"
+    "id": "Health, Wellness and Fitness",
+    "label": "Health, Wellness and Fitness",
+    "value": "Health, Wellness and Fitness"
    }
   ],
-  "timeStamp": "2026-11-16T20:53:40Z",
-  "title": "Field Service Technician",
-  "url": "https://jobs.lever.co/lumafield/0a5abd45-ede5-4667-8ca9-bbdfcc6a98d1",
-  "jobId": "0a5abd45-ede5-4667-8ca9-bbdfcc6a98d1",
-  "remote": false,
+  "timeStamp": "2026-11-17T07:18:13.505000Z",
+  "title": "Coaching & Engagement Lead, Global Strategic Accounts",
+  "url": "https://ats.rippling.com/thriveglobal/jobs/978dfbef-0093-4c1d-83e0-8528cbf4990a",
+  "jobId": "978dfbef-0093-4c1d-83e0-8528cbf4990a",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1799538587134, 'matchScore': 0, 'ageScore': 0.9799538587133487, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1861358378233, 'matchScore': 0, 'ageScore': 0.9861358378233025, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   },
    {
     "id": "mid",
     "label": "Mid",
@@ -307,6 +316,7 @@
    }
   ],
   "jobSeniorityIds": [
+   "senior",
    "mid"
   ],
   "isFeatured": false

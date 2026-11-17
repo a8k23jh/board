@@ -1,6 +1,6 @@
 {
  "board": "craft",
- "run": "2026-11-17T14:41:16Z",
+ "run": "2026-11-17T22:59:51Z",
  "attempts": [
   {
    "url": "https://jobs.craftventures.com/jobs?q=chief+of+staff",
@@ -35,20 +35,26 @@
   {
    "url": "https://jobs.craftventures.com/jobs?q=operations",
    "status": 200,
-   "bytes": 257513,
+   "bytes": 256722,
    "jobs_parsed": 20
   },
   {
    "url": "https://jobs.craftventures.com/jobs?q=operations&page=2",
    "status": 200,
-   "bytes": 257524,
+   "bytes": 256733,
    "jobs_parsed": 20
   },
   {
    "url": "https://jobs.craftventures.com/jobs?q=founder",
    "status": 200,
-   "bytes": 80747,
-   "jobs_parsed": 0
+   "bytes": 230779,
+   "jobs_parsed": 20
+  },
+  {
+   "url": "https://jobs.craftventures.com/jobs?q=founder&page=2",
+   "status": 200,
+   "bytes": 230790,
+   "jobs_parsed": 20
   },
   {
    "url": "https://jobs.craftventures.com/jobs?q=corporate+development",
@@ -94,7 +100,7 @@
   }
  ],
  "parse_health": {
-  "jobs": 98,
-  "without_location": 15
+  "jobs": 113,
+  "without_location": 21
  }
 }
