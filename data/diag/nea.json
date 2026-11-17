@@ -1,9 +1,9 @@
 {
  "board": "nea",
- "run": "2026-11-17T04:39:23Z",
+ "run": "2026-11-17T14:41:16Z",
  "homepage": {
-  "status": 200,
-  "bytes": 21398
+  "status": 403,
+  "bytes": 5705
  },
  "slugs_tried": [
   "nea",
@@ -14,319 +14,39 @@
    "endpoint": "https://careers.nea.com/api-boards/search-jobs",
    "slug": "nea",
    "csrf_header": null,
-   "status": 412,
-   "body_head": "{\"error\":\"INVALID_CSRF\"}"
+   "status": 403,
+   "body_head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam"
   },
   {
    "endpoint": "https://careers.nea.com/api-boards/search-jobs",
    "slug": "new-enterprise-associates",
    "csrf_header": null,
+   "status": 403,
+   "body_head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam"
+  },
+  {
+   "endpoint": "https://consider.com/api-boards/search-jobs",
+   "slug": "nea",
+   "csrf_header": null,
    "status": 412,
    "body_head": "{\"error\":\"INVALID_CSRF\"}"
   },
   {
-   "endpoint": "https://careers.nea.com/api-boards/search-jobs",
-   "slug": "nea",
-   "csrf_header": "x-csrf-token",
-   "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"},\"server\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"}}"
+   "endpoint": "https://consider.com/api-boards/search-jobs",
+   "slug": "new-enterprise-associates",
+   "csrf_header": null,
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "XoGY7Gj03b\u2026",
+  "session.sig": "NTFsPJIuZ5\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
   "AWSALBAPP-3": "_remove_"
  },
- "token_endpoints": [
-  {
-   "path": "/api-boards/csrf",
-   "status": 200,
-   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
-  },
-  {
-   "path": "/api-boards/csrf-token",
-   "status": 200,
-   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
-  },
-  {
-   "path": "/csrf",
-   "status": 200,
-   "head": "<!DOCTYPE html>\n<html class=\"no-js\" lang=\"\">\n    <head>\n        <meta charset=\"utf-8\" />\n        <meta http-equiv=\"x-ua-"
-  }
- ],
- "csrf_candidates": [
-  {
-   "src": "html",
-   "len": 36
-  }
- ],
- "working": {
-  "endpoint": "https://careers.nea.com/api-boards/search-jobs",
-  "slug": "nea",
-  "csrf_header": [
-   "x-csrf-token"
-  ]
- },
- "search_probe": [
-  {
-   "variant": "query.searchQuery+promote",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  },
-  {
-   "variant": "query.searchQuery",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  },
-  {
-   "variant": "query.search",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  },
-  {
-   "variant": "query.text",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  },
-  {
-   "variant": "query.q",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  },
-  {
-   "variant": "top.searchQuery",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  },
-  {
-   "variant": "query.keywords",
-   "jobs": 100,
-   "kw_hit_rate": 0.0
-  }
- ],
- "response_shape": {
-  "keys": [
-   "availableFilters",
-   "debug",
-   "errors",
-   "jobs",
-   "meta",
-   "total",
-   "version"
-  ],
-  "meta": {
-   "size": 100,
-   "sequence": "eyJfaWQiOiAiYWUyZjY4NTg2OWVkZTJkNGM4ZTg3NTliYzUwM2U3MjciLCAic2NvcmUiOiAxLjA3NDQxNzE0MzI1Mzg1OH0="
-  },
-  "job_keys": [
-   "applicationWindow",
-   "applyUrl",
-   "atsJobs",
-   "companyDomain",
-   "companyId",
-   "companyLogos",
-   "companyName",
-   "companySlug",
-   "companyStaffCount",
-   "considerHosted",
-   "considerLevels",
-   "consultant",
-   "contractor",
-   "departments",
-   "fundingLV",
-   "hybrid",
-   "isFeatured",
-   "jobFunctions",
-   "jobId",
-   "jobSeniorities"
-  ],
-  "job_count": 100
- },
- "sample_job": {
-  "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/singlestore/jobs/8350563",
-  "companyDomain": "singlestore.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1af05bf3e4b78b565199307cec69f083_321_160?Expires=1861920000&Signature=RQXH0iwGmFea7xdeJ0c0ZI0j8SmSo0QiJCTkfrVGBYUGCaOH3lbf9",
-  "companyId": "SingleStore",
-  "companySlug": "singlestore",
-  "companyName": "SingleStore",
-  "companyStaffCount": 558,
-  "considerHosted": false,
-  "departments": [
-   "Americas Enterpr and Comm Sales"
-  ],
-  "jobTypes": [
-   {
-    "id": "enterprise-account-executive",
-    "label": "Enterprise Account Executive",
-    "value": "enterprise-account-executive"
-   },
-   {
-    "id": "sales",
-    "label": "Sales",
-    "value": "sales"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
-   }
-  ],
-  "locations": [
-   "United States"
-  ],
-  "normalizedLocations": [
-   {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
-   }
-  ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 90000, 'maxValue': 125000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
-  "skills": [
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Procurement",
-    "label": "Procurement",
-    "value": "resume:Procurement"
-   },
-   {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
-   },
-   {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Procurement",
-    "label": "Procurement",
-    "value": "resume:Procurement"
-   },
-   {
-    "id": "resume:Forecasting",
-    "label": "Forecasting",
-    "value": "resume:Forecasting"
-   },
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
-   },
-   {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
-   }
-  ],
-  "manager": false,
-  "consultant": false,
-  "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
-  "minYearsExp": 5,
-  "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   }
-  ],
-  "stages": [
-   {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
-   }
-  ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
-  "markets": [
-   {
-    "id": "Data & Analytics",
-    "label": "Data & Analytics",
-    "value": "Data & Analytics"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   }
-  ],
-  "timeStamp": "2026-11-16T16:56:14Z",
-  "title": "Enterprise Account Executive",
-  "url": "https://job-boards.greenhouse.io/singlestore/jobs/8350563",
-  "jobId": "8350563",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1913580774961, 'matchScore': 0, 'ageScore': 0.991358077496142, 'richnessScore': 2}",
-  "atsJobs": [],
-  "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   }
-  ],
-  "jobSeniorityIds": [
-   "mid"
-  ],
-  "isFeatured": false
- },
- "search_mode": {
-  "variant": "cursor:meta.sequence"
- }
+ "csrf_candidates": [],
+ "first_attempt_error": "consider: CSRF/endpoint probe failed for https://careers.nea.com (see diag)"
 }
