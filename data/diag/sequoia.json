@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-18T14:19:11Z",
+ "run": "2026-11-18T22:09:22Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"},\"server\":{\"git\":\"f1ec986bc69d97665db01dddd9bc9f75bc1741fe\",\"date\":\"2026-11-17T02:32:22.261Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"7f04da858ba855986311a77170ee33687a863619\",\"date\":\"2026-11-18T19:08:38.216Z\"},\"server\":{\"git\":\"7f04da858ba855986311a77170ee33687a863619\",\"date\":\"2026-11-18T19:08:38.216Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "tWlyBlefvD\u2026",
+  "session.sig": "web_0OvWGH\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZDFiNjFjZjI1NTM2YjA5OWEzNDE4ZjBjNzY1YTY2MTQiLCAic2NvcmUiOiAxLjE1NzcxMTExMzM1MTA4MDJ9"
+   "sequence": "eyJfaWQiOiAiZGM1OGE0MzMxNmE5MzVjZDcxYzkzZTRjMjFkNmE3YjMiLCAic2NvcmUiOiAxLjE0MzcwNTY0NTI3NjIzNDZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,33 +144,38 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8943765002?gh_jid=8943765002",
-  "companyDomain": "spacex.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
-  "companyId": "SpaceX",
-  "companySlug": "spacex",
-  "companyName": "SpaceX",
-  "companyStaffCount": 20713,
+  "applyUrl": "https://jobs.ashbyhq.com/meter/c2381005-ba03-4065-b892-80f7f8db2c80?utm_source=jobs.sequoiacap.com",
+  "companyDomain": "meter.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66bff7a3cdac5c7a4002086e136ab1bd_176_160?Expires=1861920000&Signature=tUKnjP4kxWnnKK-rGPqUHqtNR6Pb5sQ~IMIL0R6vaVDUXuEmOfjRK",
+  "companyId": "Meter",
+  "companySlug": "meter",
+  "companyName": "Meter",
+  "companyStaffCount": 283,
   "considerHosted": false,
   "departments": [
-   "Starlink Satellite Integration and Test"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "qa-engineer",
-    "label": "QA Engineer",
-    "value": "qa-engineer"
+    "id": "sales-engineering",
+    "label": "Sales Engineering",
+    "value": "sales-engineering"
+   },
+   {
+    "id": "sales-engineer",
+    "label": "Sales Engineer",
+    "value": "sales-engineer"
    }
   ],
   "jobFunctions": [
@@ -178,88 +183,105 @@
     "id": "Engineering",
     "label": "Engineering",
     "value": "Engineering"
+   },
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "Redmond, WA"
+   "United States",
+   "Portland, Oregon, United States",
+   "Seattle, Washington, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Redmond, Washington",
-    "label": "Redmond, Washington",
-    "value": "Redmond, Washington"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   },
+   {
+    "id": "Portland, Oregon",
+    "label": "Portland, Oregon",
+    "value": "Portland, Oregon"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 135000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Spacecraft",
-    "label": "Spacecraft",
-    "value": "resume:Spacecraft"
+    "id": "resume:WAN",
+    "label": "WAN",
+    "value": "resume:WAN"
    },
    {
-    "id": "resume:Batteries",
-    "label": "Batteries",
-    "value": "resume:Batteries"
+    "id": "resume:SecurityPlus",
+    "label": "Security+",
+    "value": "resume:SecurityPlus"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:EVPN",
+    "label": "EVPN",
+    "value": "resume:EVPN"
    },
    {
-    "id": "resume:NX",
-    "label": "NX",
-    "value": "resume:NX"
+    "id": "resume:IPS",
+    "label": "IPS",
+    "value": "resume:IPS"
    },
    {
-    "id": "resume:Arbin",
-    "label": "Arbin",
-    "value": "resume:Arbin"
+    "id": "resume:Trusted Advisor",
+    "label": "Trusted Advisor",
+    "value": "resume:Trusted Advisor"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Spacecraft",
-    "label": "Spacecraft",
-    "value": "resume:Spacecraft"
+    "id": "resume:WAN",
+    "label": "WAN",
+    "value": "resume:WAN"
    },
    {
-    "id": "resume:Batteries",
-    "label": "Batteries",
-    "value": "resume:Batteries"
+    "id": "resume:SecurityPlus",
+    "label": "Security+",
+    "value": "resume:SecurityPlus"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:EVPN",
+    "label": "EVPN",
+    "value": "resume:EVPN"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:NX",
-    "label": "NX",
-    "value": "resume:NX"
+    "id": "resume:IPS",
+    "label": "IPS",
+    "value": "resume:IPS"
    },
    {
-    "id": "resume:Arbin",
-    "label": "Arbin",
-    "value": "resume:Arbin"
+    "id": "resume:Trusted Advisor",
+    "label": "Trusted Advisor",
+    "value": "resume:Trusted Advisor"
    },
    {
-    "id": "resume:Troubleshooting",
-    "label": "Troubleshooting",
-    "value": "resume:Troubleshooting"
+    "id": "resume:DHCP",
+    "label": "DHCP",
+    "value": "resume:DHCP"
    },
    {
-    "id": "resume:Broadband",
-    "label": "Broadband",
-    "value": "resume:Broadband"
+    "id": "resume:JNCIE-SEC",
+    "label": "JNCIE-SEC",
+    "value": "resume:JNCIE-SEC"
    },
    {
-    "id": "resume:Quality Assurance",
-    "label": "Quality Assurance",
-    "value": "resume:Quality Assurance"
+    "id": "resume:Cisco Technologies",
+    "label": "Cisco Technologies",
+    "value": "resume:Cisco Technologies"
    }
   ],
   "manager": false,
@@ -273,6 +295,11 @@
     "value": "Northwest"
    },
    {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
@@ -281,51 +308,39 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Aviation & Aerospace",
-    "label": "Aviation & Aerospace",
-    "value": "Aviation & Aerospace"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
-    "id": "Transportation",
-    "label": "Transportation",
-    "value": "Transportation"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-11-17T17:07:14Z",
-  "title": "Battery Test Engineer, Satellites (Starlink)",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8943765002?gh_jid=8943765002",
-  "jobId": "8943765002",
-  "remote": false,
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Wireless",
+    "label": "Wireless",
+    "value": "Wireless"
+   }
+  ],
+  "timeStamp": "2026-11-18T00:00:00Z",
+  "title": "Sales, Engineering - Pacific Northwest",
+  "url": "https://jobs.ashbyhq.com/meter/c2381005-ba03-4065-b892-80f7f8db2c80",
+  "jobId": "c2381005-ba03-4065-b892-80f7f8db2c80",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1852208483518, 'matchScore': 0, 'ageScore': 0.9852208483518519, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1773774913989, 'matchScore': 0, 'ageScore': 0.9773774913989197, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
-   }
-  ],
-  "jobSeniorityIds": [
-   "mid"
-  ],
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {
