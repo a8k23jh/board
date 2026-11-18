@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-18T04:34:23Z",
+ "run": "2026-11-18T14:19:11Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "EWOquA1UWg\u2026",
+  "session.sig": "sXQuSOCBAr\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMGQ3ZTc1MjIwY2VhNDM0MTQxZTlkMjUxODc5MGQ3NGQiLCAic2NvcmUiOiAxLjA2NTMyNzQ4MTA5MDI3Nzh9"
+   "sequence": "eyJfaWQiOiAiYmE5MDUyYTg2OTg0ODNhM2E2ZjNjMzAzMzFhYjNjNjMiLCAic2NvcmUiOiAxLjA4MjU3ODEzNzE5NTYwMTh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,104 +152,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/oshihealth/jobs/5292763007",
-  "companyDomain": "oshihealth.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/756b552a44f797ddf184fd19f4136652_320_160?Expires=1861920000&Signature=AdpnCwBx8gFTiBRfly~PNeNLOLuCLOt6VZvNg7eoyGto0eOwmOGRZ",
-  "companyId": "Oshi Health",
-  "companySlug": "oshi-health",
-  "companyName": "Oshi Health",
-  "companyStaffCount": 205,
+  "applyUrl": "https://jobs.lever.co/restaurant365/f1033538-8a28-4928-a79f-b799d85ff50a?lever-source%5B%5D=jobs.bvp.com",
+  "companyDomain": "restaurant365.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6bc9ba8ab51f0e3260175fa3450c4490_320_160?Expires=1861920000&Signature=BjaLUgcasR36Gki0m9~xsGkU2Ydeq9NhehEt09M35A3xDg~4qiIGQ",
+  "companyId": "Restaurant365",
+  "companySlug": "restaurant365",
+  "companyName": "Restaurant365",
+  "companyStaffCount": 3963,
   "considerHosted": false,
   "departments": [
-   "Dietitian"
+   "Customer Success"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "payroll-specialist",
+    "label": "Payroll Specialist",
+    "value": "payroll-specialist"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
+   }
+  ],
   "locations": [
-   "Remote"
+   "Irvine, CA, Austin, TX, San Francisco Bay Area, CA, Denver, CO"
   ],
-  "normalizedLocations": [],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 75000, 'maxValue': 80000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "normalizedLocations": [
+   {
+    "id": "San Francisco Bay Area",
+    "label": "San Francisco Bay Area",
+    "value": "San Francisco Bay Area"
+   }
+  ],
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 33.65, 'maxValue': 40.39, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Nutrition",
-    "label": "Nutrition",
-    "value": "resume:Nutrition"
+    "id": "resume:Application Software",
+    "label": "Application Software",
+    "value": "resume:Application Software"
    },
    {
-    "id": "resume:Dietetics",
-    "label": "Dietetics",
-    "value": "resume:Dietetics"
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    },
    {
-    "id": "resume:Quality Management",
-    "label": "Quality Management",
-    "value": "resume:Quality Management"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    },
    {
-    "id": "resume:Knowledge Management",
-    "label": "Knowledge Management",
-    "value": "resume:Knowledge Management"
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
    },
    {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Nutrition",
-    "label": "Nutrition",
-    "value": "resume:Nutrition"
+    "id": "resume:Application Software",
+    "label": "Application Software",
+    "value": "resume:Application Software"
    },
    {
-    "id": "resume:Dietetics",
-    "label": "Dietetics",
-    "value": "resume:Dietetics"
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
    },
    {
-    "id": "resume:Quality Management",
-    "label": "Quality Management",
-    "value": "resume:Quality Management"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Knowledge Management",
-    "label": "Knowledge Management",
-    "value": "resume:Knowledge Management"
+    "id": "resume:Taxes",
+    "label": "Taxes",
+    "value": "resume:Taxes"
    },
    {
-    "id": "resume:Treatment",
-    "label": "Treatment",
-    "value": "resume:Treatment"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    },
    {
-    "id": "resume:Emotional Intelligence",
-    "label": "Emotional Intelligence",
-    "value": "resume:Emotional Intelligence"
+    "id": "resume:Due Diligence",
+    "label": "Due Diligence",
+    "value": "resume:Due Diligence"
    },
    {
-    "id": "resume:EHR",
-    "label": "EHR",
-    "value": "resume:EHR"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Outpatient",
-    "label": "Outpatient",
-    "value": "resume:Outpatient"
+    "id": "resume:Payroll",
+    "label": "Payroll",
+    "value": "resume:Payroll"
    }
   ],
   "manager": false,
@@ -257,48 +275,65 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 2,
-  "maxYearsExp": 4,
-  "regions": [],
-  "stages": [
+  "minYearsExp": 5,
+  "regions": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "stages": [
+   {
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
+   }
+  ],
   "markets": [
    {
-    "id": "Health, Wellness and Fitness",
-    "label": "Health, Wellness and Fitness",
-    "value": "Health, Wellness and Fitness"
+    "id": "Restaurants",
+    "label": "Restaurants",
+    "value": "Restaurants"
    }
   ],
-  "timeStamp": "2026-11-17T10:49:33Z",
-  "title": "Registered Dietitian (Full-time)",
-  "url": "https://job-boards.greenhouse.io/oshihealth/jobs/5292763007",
-  "jobId": "5292763007",
-  "remote": true,
+  "timeStamp": "2026-11-17T19:07:43Z",
+  "title": "Payroll Data Implementation Specialist",
+  "url": "https://jobs.lever.co/restaurant365/f1033538-8a28-4928-a79f-b799d85ff50a",
+  "jobId": "f1033538-8a28-4928-a79f-b799d85ff50a",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1901536525984, 'matchScore': 0, 'ageScore': 0.9901536525983796, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1874206591837, 'matchScore': 0, 'ageScore': 0.987420659183642, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {

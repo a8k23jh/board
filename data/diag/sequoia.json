@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-18T04:34:23Z",
+ "run": "2026-11-18T14:19:11Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "JlzwBaDWau\u2026",
+  "session.sig": "tWlyBlefvD\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzNmNjBlZjRmMmViMDcyMWI4YTc3ZjJhMWE5YzgzMWYiLCAic2NvcmUiOiAxLjE2MjQ2MzkwODUzNjI2NTR9"
+   "sequence": "eyJfaWQiOiAiZDFiNjFjZjI1NTM2YjA5OWEzNDE4ZjBjNzY1YTY2MTQiLCAic2NvcmUiOiAxLjE1NzcxMTExMzM1MTA4MDJ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8929322002?gh_jid=8929322002",
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8943765002?gh_jid=8943765002",
   "companyDomain": "spacex.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
   "companyId": "SpaceX",
@@ -164,20 +164,20 @@
   "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "Starlink - Ground Infrastructure Operations"
+   "Starlink Satellite Integration and Test"
   ],
   "jobTypes": [
    {
-    "id": "procurement",
-    "label": "Procurement Manager",
-    "value": "procurement"
+    "id": "qa-engineer",
+    "label": "QA Engineer",
+    "value": "qa-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Supply Chain",
-    "label": "Supply Chain",
-    "value": "Supply Chain"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
@@ -190,12 +190,17 @@
     "value": "Redmond, Washington"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 120000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 135000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
+   },
+   {
+    "id": "resume:Batteries",
+    "label": "Batteries",
+    "value": "resume:Batteries"
    },
    {
     "id": "resume:Python",
@@ -203,79 +208,64 @@
     "value": "resume:Python"
    },
    {
-    "id": "resume:C#",
-    "label": "C#",
-    "value": "resume:C#"
+    "id": "resume:NX",
+    "label": "NX",
+    "value": "resume:NX"
    },
    {
-    "id": "resume:Data Visualization",
-    "label": "Data Visualization",
-    "value": "resume:Data Visualization"
-   },
-   {
-    "id": "resume:Sourcing",
-    "label": "Sourcing",
-    "value": "resume:Sourcing"
+    "id": "resume:Arbin",
+    "label": "Arbin",
+    "value": "resume:Arbin"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Vendor Management",
-    "label": "Vendor Management",
-    "value": "resume:Vendor Management"
+    "id": "resume:Spacecraft",
+    "label": "Spacecraft",
+    "value": "resume:Spacecraft"
+   },
+   {
+    "id": "resume:Batteries",
+    "label": "Batteries",
+    "value": "resume:Batteries"
    },
    {
     "id": "resume:Python",
     "label": "Python",
     "value": "resume:Python"
-   },
-   {
-    "id": "resume:C#",
-    "label": "C#",
-    "value": "resume:C#"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Data Visualization",
-    "label": "Data Visualization",
-    "value": "resume:Data Visualization"
+    "id": "resume:NX",
+    "label": "NX",
+    "value": "resume:NX"
    },
    {
-    "id": "resume:Sourcing",
-    "label": "Sourcing",
-    "value": "resume:Sourcing"
+    "id": "resume:Arbin",
+    "label": "Arbin",
+    "value": "resume:Arbin"
    },
    {
-    "id": "resume:OOP",
-    "label": "OOP",
-    "value": "resume:OOP"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Broadband",
+    "label": "Broadband",
+    "value": "resume:Broadband"
    },
    {
-    "id": "resume:Financial Analysis",
-    "label": "Financial Analysis",
-    "value": "resume:Financial Analysis"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
-  "minYearsExp": 9,
+  "considerLevels": [],
   "regions": [
    {
     "id": "Northwest",
@@ -283,9 +273,9 @@
     "value": "Northwest"
    },
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
     "id": "Pacific States",
@@ -293,9 +283,9 @@
     "value": "Pacific States"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -317,24 +307,24 @@
     "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-11-17T05:43:02Z",
-  "title": "Sourcing Manager, Ground Infrastructure (Starlink)",
-  "url": "https://boards.greenhouse.io/spacex/jobs/8929322002?gh_jid=8929322002",
-  "jobId": "8929322002",
+  "timeStamp": "2026-11-17T17:07:14Z",
+  "title": "Battery Test Engineer, Satellites (Starlink)",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8943765002?gh_jid=8943765002",
+  "jobId": "8943765002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1841187011902, 'matchScore': 0, 'ageScore': 0.9841187011902006, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1852208483518, 'matchScore': 0, 'ageScore': 0.9852208483518519, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },

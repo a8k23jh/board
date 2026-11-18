@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-18T04:34:23Z",
+ "run": "2026-11-18T14:19:11Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Ma4hQ77rhz\u2026",
+  "session.sig": "FQPfl_wqI7\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -90,37 +90,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYTgyYmJkOTFiYjVmMDRkYTczMGNjZDg4NzlkNWI2MGMiLCAic2NvcmUiOiAxLjA3NTY2MzI2MTE4ODI3MTd9"
+   "sequence": "eyJfaWQiOiAiYmRjY2VmMjRhZDQyM2RlNjY2MjNhM2ZhNTFhYjk1MzciLCAic2NvcmUiOiAxLjEwNzAyNDYzMjAzNzAzN30="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,112 +152,154 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/legora/c0c0062b-f58a-4b38-a54c-276a5261e53d?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "legora.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b891c930b6510ae6c060edcbf34e3f01_192_160?Expires=1861920000&Signature=X3LH8fwutkbAR3Q2Bw~Wtu-sV89vfNdM6IlLoAnIh9q0QtJV95JWi",
-  "companyId": "Legora",
-  "companySlug": "legora",
-  "companyName": "Legora",
-  "companyStaffCount": 897,
+  "applyUrl": "https://careers.docusign.com/jobs/31093?lang=en-us",
+  "companyDomain": "docusign.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
+  "companyId": "DocuSign",
+  "companySlug": "docusign",
+  "companyName": "DocuSign",
+  "companyStaffCount": 8412,
   "considerHosted": false,
-  "departments": [
-   "Global Services"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   },
+   {
+    "id": "customer-support",
+    "label": "Customer Support",
+    "value": "customer-support"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   },
+   {
+    "id": "Customer Service",
+    "label": "Customer Service",
+    "value": "Customer Service"
+   }
+  ],
   "locations": [
-   "Milan, Lombardy, Italy",
-   "Milan"
+   "United States",
+   "Brazil",
+   "Ontario, Canada",
+   "Mexico",
+   "Washington, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Lombardy, Italy",
-    "label": "Lombardy, Italy",
-    "value": "Lombardy, Italy"
+    "id": "Mexico",
+    "label": "Mexico",
+    "value": "Mexico"
    },
    {
-    "id": "Milano, Lombardy, Italy",
-    "label": "Milano, Lombardy, Italy",
-    "value": "Milano, Lombardy, Italy"
+    "id": "Ontario, Canada",
+    "label": "Ontario, Canada",
+    "value": "Ontario, Canada"
+   },
+   {
+    "id": "Washington",
+    "label": "Washington State",
+    "value": "Washington"
+   },
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
+   },
+   {
+    "id": "Brazil",
+    "label": "Brazil",
+    "value": "Brazil"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 68000, 'maxValue': 81000, 'currency': {'label': 'EUR', 'value': 'EUR'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 118900, 'maxValue': 163450, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:SSO",
-    "label": "SSO",
-    "value": "resume:SSO"
+    "id": "resume:Salesforce.com Administration",
+    "label": "Salesforce Administration",
+    "value": "resume:Salesforce.com Administration"
    },
    {
-    "id": "resume:Document Management",
-    "label": "Document Management",
-    "value": "resume:Document Management"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    },
    {
-    "id": "resume:APAC",
-    "label": "APAC",
-    "value": "resume:APAC"
+    "id": "resume:Requirements Gathering",
+    "label": "Requirements Gathering",
+    "value": "resume:Requirements Gathering"
    },
    {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Case Management",
+    "label": "Case Management",
+    "value": "resume:Case Management"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:SSO",
-    "label": "SSO",
-    "value": "resume:SSO"
+    "id": "resume:Salesforce.com Administration",
+    "label": "Salesforce Administration",
+    "value": "resume:Salesforce.com Administration"
    },
    {
-    "id": "resume:Document Management",
-    "label": "Document Management",
-    "value": "resume:Document Management"
+    "id": "resume:Trust Building",
+    "label": "Trust Building",
+    "value": "resume:Trust Building"
    },
    {
-    "id": "resume:APAC",
-    "label": "APAC",
-    "value": "resume:APAC"
+    "id": "resume:Requirements Gathering",
+    "label": "Requirements Gathering",
+    "value": "resume:Requirements Gathering"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:GDPR",
-    "label": "GDPR",
-    "value": "resume:GDPR"
+    "id": "resume:Salesforce",
+    "label": "Salesforce",
+    "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Case Management",
+    "label": "Case Management",
+    "value": "resume:Case Management"
    },
    {
-    "id": "resume:EMEA",
-    "label": "EMEA",
-    "value": "resume:EMEA"
+    "id": "resume:Escalation",
+    "label": "Escalation",
+    "value": "resume:Escalation"
+   },
+   {
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
+   },
+   {
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    }
   ],
   "manager": false,
@@ -273,69 +315,57 @@
     4
    ]
   ],
-  "minYearsExp": 2,
   "regions": [
    {
-    "id": "Lombardy, Italy",
-    "label": "Lombardy, Italy",
-    "value": "Lombardy, Italy"
+    "id": "Latin America",
+    "label": "Latin America",
+    "value": "Latin America"
    },
    {
-    "id": "EMEA",
-    "label": "EMEA",
-    "value": "EMEA"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
-   },
-   {
-    "id": "Legal Services",
-    "label": "Legal Services",
-    "value": "Legal Services"
-   },
-   {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-11-17T00:00:00Z",
-  "title": "Technical Delivery Lead, EMEA",
-  "url": "https://jobs.ashbyhq.com/legora/c0c0062b-f58a-4b38-a54c-276a5261e53d",
-  "jobId": "c0c0062b-f58a-4b38-a54c-276a5261e53d",
-  "remote": false,
+  "timeStamp": "2026-11-17T20:30:54Z",
+  "title": "Customer Experience & Supportability Analyst",
+  "url": "https://careers.docusign.com/jobs/31093?lang=en-us",
+  "jobId": "31093",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1762202979553, 'matchScore': 0, 'ageScore': 0.9762202979552469, 'richnessScore': 2}",
+  "scores": "{'score': 1001.18883954365, 'matchScore': 0, 'ageScore': 0.9888395436500772, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -343,7 +373,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid"
   ],
   "isFeatured": false
