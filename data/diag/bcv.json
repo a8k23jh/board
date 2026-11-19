@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-19T03:41:05Z",
+ "run": "2026-11-19T13:32:55Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "-vgUIWnf9F\u2026",
+  "session.sig": "no_eyctHJJ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGIyMTc5YjE3MDllYTU0YmU2ODIzNjQzMDAxOTFiZmQiLCAic2NvcmUiOiAxLjA5ODUzNDUzMjExMDcyNTR9"
+   "sequence": "eyJfaWQiOiAiY2MzZGJmYjQwM2UzNjk0MTA3MzNjN2ExMTQyMmRmMmEiLCAic2NvcmUiOiAxLjEyMTI4MTc3MDczOTE5NzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,130 +152,116 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=91f06c3c-175d-4277-bfe1-94882447fb1e&lang=en_US&jobId=617495",
-  "companyDomain": "trelliscompany.org",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/590c555683786e3a06873a7288572069_256_160?Expires=1861920000&Signature=NQ0Vbb~FUh05sfQk-YYhpP7RFDzO7KL09LBYSWYEwj6MEzqBw~Otv",
-  "companyId": "Trellis Company",
-  "companySlug": "trellis-company",
-  "companyName": "Trellis Company",
-  "companyStaffCount": 196,
+  "applyUrl": "https://jobs.gem.com/wonolo/am9icG9zdDoPSIZXA_dkOiua8eSTEVJY?utm_source=jobs.baincapitalventures.com",
+  "companyDomain": "wonolo.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec5d4fa0298068cd22d50bb085f94f27_240_160?Expires=1861920000&Signature=fQsngyHmijPhqs1~Ectyxtf3bzQyrDte3D-KYwq-jlxJWrbPHfU-t",
+  "companyId": "Wonolo",
+  "companySlug": "wonolo",
+  "companyName": "Wonolo",
+  "companyStaffCount": 822,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Market Operations"
+  ],
   "jobTypes": [
    {
-    "id": "director-product-management",
-    "label": "Director, Product Management",
-    "value": "director-product-management"
-   },
-   {
-    "id": "mobility-specialist",
-    "label": "Mobility Specialist",
-    "value": "mobility-specialist"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
-   },
-   {
-    "id": "Product Management",
-    "label": "Product Management",
-    "value": "Product Management"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Round Rock, TX, US"
+   "United States, Remote"
   ],
   "normalizedLocations": [
    {
-    "id": "Round Rock, Texas",
-    "label": "Round Rock, Texas",
-    "value": "Round Rock, Texas"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 151000, 'maxValue': 181000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:User Testing",
-    "label": "User Testing",
-    "value": "resume:User Testing"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    },
    {
-    "id": "resume:Change Management",
-    "label": "Change Management",
-    "value": "resume:Change Management"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Organizational Change",
-    "label": "Organizational Change",
-    "value": "resume:Organizational Change"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    },
    {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:User Testing",
-    "label": "User Testing",
-    "value": "resume:User Testing"
+    "id": "resume:Logistics",
+    "label": "Logistics",
+    "value": "resume:Logistics"
    },
    {
-    "id": "resume:Change Management",
-    "label": "Change Management",
-    "value": "resume:Change Management"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Organizational Change",
-    "label": "Organizational Change",
-    "value": "resume:Organizational Change"
+    "id": "resume:Marketplace",
+    "label": "Marketplace",
+    "value": "resume:Marketplace"
    }
   ],
   "preferredSkills": [
+   {
+    "id": "resume:Product Engineering",
+    "label": "Product Engineering",
+    "value": "resume:Product Engineering"
+   },
+   {
+    "id": "resume:Business Operations",
+    "label": "Business Operations",
+    "value": "resume:Business Operations"
+   },
    {
     "id": "resume:Project Management",
     "label": "Project Management",
     "value": "resume:Project Management"
    },
    {
-    "id": "resume:Decision-Making",
-    "label": "Decision-Making",
-    "value": "resume:Decision-Making"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Stakeholder Engagement",
-    "label": "Stakeholder Engagement",
-    "value": "resume:Stakeholder Engagement"
-   },
-   {
-    "id": "resume:Higher Education",
-    "label": "Higher Education",
-    "value": "resume:Higher Education"
-   },
-   {
-    "id": "resume:Public Policy",
-    "label": "Public Policy",
-    "value": "resume:Public Policy"
+    "id": "resume:Mergers & Acquisitions",
+    "label": "Mergers & Acquisitions",
+    "value": "resume:Mergers & Acquisitions"
    }
   ],
   "manager": true,
@@ -283,30 +269,20 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 8,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West South",
-    "label": "Southwestern US",
-    "value": "West South"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
    }
   ],
   "stages": [
@@ -314,33 +290,39 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Financial Services",
-    "label": "Financial Services",
-    "value": "Financial Services"
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-11-19T00:04:00Z",
-  "title": "Director of Product, Learning Mobility",
-  "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=91f06c3c-175d-4277-bfe1-94882447fb1e&lang=en_US&jobId=617495",
-  "jobId": "617495",
-  "remote": false,
+  "timeStamp": "2026-11-19T02:54:43Z",
+  "title": "Senior Manager, Integration Operations",
+  "url": "https://jobs.gem.com/wonolo/am9icG9zdDoPSIZXA_dkOiua8eSTEVJY",
+  "jobId": "am9icG9zdDoPSIZXA_dkOiua8eSTEVJY",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1972824991269, 'matchScore': 0, 'ageScore': 0.997282499126929, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1920294900733, 'matchScore': 0, 'ageScore': 0.9920294900733024, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "manager"
   ],
   "isFeatured": false
  },

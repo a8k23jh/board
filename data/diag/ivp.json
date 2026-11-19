@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-19T03:41:05Z",
+ "run": "2026-11-19T13:32:55Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Hi-Y-1oMry\u2026",
+  "session.sig": "TJcZ2DrYJk\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMjk2YWJmYTI5Y2E0M2Q1Y2I1MWQ0YzFjNjJiNDFkMzMiLCAic2NvcmUiOiAxLjEyMTY2NDA5Nzk0MDIwMDZ9"
+   "sequence": "eyJfaWQiOiAiNzlkYzJmZjQ5MTBjZDM2YzA4Zjk0Y2RhNWQ1NmRlYjQiLCAic2NvcmUiOiAxLjExNjQ2NjU5NDMwMjA4MzN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,105 +128,127 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://cribl.io/job-detail/?gh_jid=6265717004",
-  "companyDomain": "cribl.io",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/748d19f5df4c5e3b2db8057cc735611a_192_160?Expires=1861920000&Signature=SJNRIXlQ5WF7hK48z7k8lkFmAsL5Sb-gi~rgZ4pKC9QoteIMr6wH-",
-  "companyId": "Cribl",
-  "companySlug": "cribl",
-  "companyName": "Cribl",
-  "companyStaffCount": 1319,
+  "applyUrl": "https://job-boards.greenhouse.io/tanium/jobs/8335066",
+  "companyDomain": "tanium.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/38a2ddacf8fb8022ac3d42ce259850cf_288_160?Expires=1861920000&Signature=ANr5jzdvXbfnCoUmdkkPc9ZG55N8dFXGEYrxyoIzBWmIjfODm56ph",
+  "companyId": "Tanium",
+  "companySlug": "tanium",
+  "companyName": "Tanium",
+  "companyStaffCount": 2365,
   "considerHosted": false,
   "departments": [
-   "Sales"
+   "Engineering - Cloud Operations"
   ],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "jobTypes": [
+   {
+    "id": "security-professional",
+    "label": "Security Professional",
+    "value": "security-professional"
+   },
+   {
+    "id": "security-engineer",
+    "label": "Security Engineer",
+    "value": "security-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Remote - Chicago, Illinois"
+   "Remote, US"
   ],
   "normalizedLocations": [
    {
-    "id": "Chicago, Illinois",
-    "label": "Chicago, Illinois",
-    "value": "Chicago, Illinois"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 175000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 154000, 'maxValue': 236000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Pre-sales",
-    "label": "Pre-sales",
-    "value": "resume:Pre-sales"
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
    },
    {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Strategic Sales Planning",
-    "label": "Sales Planning",
-    "value": "resume:Strategic Sales Planning"
+    "id": "resume:Encryption",
+    "label": "Encryption",
+    "value": "resume:Encryption"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:MEDDIC",
-    "label": "MEDDIC",
-    "value": "resume:MEDDIC"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Pre-sales",
-    "label": "Pre-sales",
-    "value": "resume:Pre-sales"
+    "id": "resume:Containers",
+    "label": "Containers",
+    "value": "resume:Containers"
    },
    {
-    "id": "resume:Complex Sales",
-    "label": "Complex Sales",
-    "value": "resume:Complex Sales"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Strategic Sales Planning",
-    "label": "Sales Planning",
-    "value": "resume:Strategic Sales Planning"
+    "id": "resume:Encryption",
+    "label": "Encryption",
+    "value": "resume:Encryption"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:MEDDIC",
-    "label": "MEDDIC",
-    "value": "resume:MEDDIC"
+    "id": "resume:C/C++",
+    "label": "C/C++",
+    "value": "resume:C/C++"
    },
    {
-    "id": "resume:Demand Creation",
-    "label": "Demand Creation",
-    "value": "resume:Demand Creation"
+    "id": "resume:Open Source Software",
+    "label": "Open Source Software",
+    "value": "resume:Open Source Software"
    },
    {
-    "id": "resume:IT Infrastructure Management",
-    "label": "IT Infrastructure Management",
-    "value": "resume:IT Infrastructure Management"
+    "id": "resume:Web Application Security",
+    "label": "Application Security",
+    "value": "resume:Web Application Security"
+   },
+   {
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
   "manager": false,
@@ -234,35 +256,20 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
+    1,
+    2
    ],
    [
-    5,
-    6
+    3,
+    4
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 3,
   "regions": [
-   {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
    }
   ],
   "stages": [
@@ -270,28 +277,22 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Data & Analytics",
-    "label": "Data & Analytics",
-    "value": "Data & Analytics"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-11-18T17:08:25Z",
-  "title": "Product Sales Specialist, Central",
-  "url": "https://cribl.io/job-detail/?gh_jid=6265717004",
-  "jobId": "6265717004",
+  "timeStamp": "2026-11-18T17:20:42Z",
+  "title": "Security Engineer",
+  "url": "https://job-boards.greenhouse.io/tanium/jobs/8335066",
+  "jobId": "8335066",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1867081007662, 'matchScore': 0, 'ageScore': 0.9867081007662037, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1788778869857, 'matchScore': 0, 'ageScore': 0.9788778869857253, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
