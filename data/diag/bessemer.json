@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-18T22:09:22Z",
+ "run": "2026-11-19T03:41:05Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "8sCaC-jWkB\u2026",
+  "session.sig": "TiYglDGi0l\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZWMxOGQzMGIwMmJkNWUzMzc2YmQ3NzM3MjUwYzQ3YzIiLCAic2NvcmUiOiAxLjEwOTgwOTk4ODgyOTg2MTF9"
+   "sequence": "eyJfaWQiOiAiZjM4MzQxYWJkNzA4NWUyNTliYjg4NjhiMTI3MTcwMGEiLCAic2NvcmUiOiAxLjEwMDY3NTcyNDM0NzIyMjN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,136 +152,138 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/luxurypresence/84b5775b-bc0b-4528-93b3-6d1984227830?lever-source%5B%5D=jobs.bvp.com",
-  "companyDomain": "luxurypresence.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/424eb3e37fb66a630c9d32c094fc61ca_240_160?Expires=1861920000&Signature=fSYTtnn23iqcoOJZzNYirZId9dUZkkwnb~4MnrzRI4y4YiuGpAjFW",
-  "companyId": "Luxury Presence",
-  "companySlug": "luxury-presence",
-  "companyName": "Luxury Presence",
-  "companyStaffCount": 906,
+  "applyUrl": "https://job-boards.greenhouse.io/virtru/jobs/4754796005",
+  "companyDomain": "virtru.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e0dbe7a0834d5fc6c0f7736f1c29333b_256_160?Expires=1861920000&Signature=CwdKE61mm6g9tHBydYDYo~YUGNh2kDi6wUW3b3QzuyiwaLu684M61",
+  "companyId": "Virtru",
+  "companySlug": "virtru",
+  "companyName": "Virtru",
+  "companyStaffCount": 273,
   "considerHosted": false,
   "departments": [
-   "Operations"
+   "Customer Solutions & Engineering"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "sales-engineering",
+    "label": "Sales Engineering",
+    "value": "sales-engineering"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
+   }
+  ],
   "locations": [
-   "Latin America"
+   "Washington, DC - Hybrid"
   ],
   "normalizedLocations": [
    {
-    "id": "Latin America",
-    "label": "Latin America",
-    "value": "Latin America"
+    "id": "Washington, District Of Columbia",
+    "label": "Washington, DC",
+    "value": "Washington, District Of Columbia"
    }
   ],
-  "salary": "{'period': {'label': 'Month', 'value': 'month'}, 'minValue': 3000, 'maxValue': 3000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Helm",
+    "label": "Helm",
+    "value": "resume:Helm"
    },
    {
-    "id": "resume:LATAM",
-    "label": "LATAM",
-    "value": "resume:LATAM"
+    "id": "resume:Cryptography",
+    "label": "Cryptography",
+    "value": "resume:Cryptography"
    },
    {
-    "id": "resume:Typography",
-    "label": "Typography",
-    "value": "resume:Typography"
+    "id": "resume:OpenID",
+    "label": "OpenID",
+    "value": "resume:OpenID"
    },
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Helm",
+    "label": "Helm",
+    "value": "resume:Helm"
    },
    {
-    "id": "resume:LATAM",
-    "label": "LATAM",
-    "value": "resume:LATAM"
+    "id": "resume:Cryptography",
+    "label": "Cryptography",
+    "value": "resume:Cryptography"
    },
    {
-    "id": "resume:Typography",
-    "label": "Typography",
-    "value": "resume:Typography"
+    "id": "resume:OpenID",
+    "label": "OpenID",
+    "value": "resume:OpenID"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Onboarding",
-    "label": "Onboarding",
-    "value": "resume:Onboarding"
+    "id": "resume:Learning and Development",
+    "label": "Learning and Development",
+    "value": "resume:Learning and Development"
    },
    {
-    "id": "resume:Supply Chain Management",
-    "label": "Supply Chain Management",
-    "value": "resume:Supply Chain Management"
+    "id": "resume:Information Security",
+    "label": "Information Security",
+    "value": "resume:Information Security"
    },
    {
-    "id": "resume:Brand Management",
-    "label": "Brand Management",
-    "value": "resume:Brand Management"
+    "id": "resume:Data Protection",
+    "label": "Data Protection",
+    "value": "resume:Data Protection"
    },
    {
-    "id": "resume:Operational Excellence",
-    "label": "Operational Excellence",
-    "value": "resume:Operational Excellence"
+    "id": "resume:.NET",
+    "label": ".NET",
+    "value": "resume:.NET"
    },
    {
-    "id": "resume:Automation",
-    "label": "Automation",
-    "value": "resume:Automation"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
+  "considerLevels": [],
   "regions": [
    {
-    "id": "Latin America",
-    "label": "Latin America",
-    "value": "Latin America"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -289,26 +291,40 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Marketing and Advertising",
-    "label": "Marketing and Advertising",
-    "value": "Marketing and Advertising"
+    "id": "Security",
+    "label": "Security",
+    "value": "Security"
    }
   ],
-  "timeStamp": "2026-11-18T13:25:52Z",
-  "title": "Manager, Production Quality",
-  "url": "https://jobs.lever.co/luxurypresence/84b5775b-bc0b-4528-93b3-6d1984227830",
-  "jobId": "84b5775b-bc0b-4528-93b3-6d1984227830",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1953389687029, 'matchScore': 0, 'ageScore': 0.9953389687029321, 'richnessScore': 2}",
+  "timeStamp": "2026-11-18T16:51:43Z",
+  "title": "Forward Deployed Engineer - Security Clearance Required",
+  "url": "https://job-boards.greenhouse.io/virtru/jobs/4754796005",
+  "jobId": "4754796005",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.191126221973, 'matchScore': 0, 'ageScore': 0.9911262219729938, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {
