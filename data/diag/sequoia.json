@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-19T13:32:55Z",
+ "run": "2026-11-19T22:17:34Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1soNkhkASm\u2026",
+  "session.sig": "UuHmXlK0pj\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzZiNDg1ZTY5NGRkMzQ0MjdmZmIwM2MyZGYyMDEyMmEiLCAic2NvcmUiOiAxLjE1NDE5MzE4ODg3MTkxMzd9"
+   "sequence": "eyJfaWQiOiAiMDA1MzNhNjM2YzFkYmE3ODk3NjljOTU2ODNlOGI1OWMiLCAic2NvcmUiOiAxLjEzNzk0MjMzNzQ4Njg4Mjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,29 +144,32 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.gem.com/wonolo/am9icG9zdDoPSIZXA_dkOiua8eSTEVJY?utm_source=jobs.sequoiacap.com",
-  "companyDomain": "wonolo.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ec5d4fa0298068cd22d50bb085f94f27_240_160?Expires=1861920000&Signature=fQsngyHmijPhqs1~Ectyxtf3bzQyrDte3D-KYwq-jlxJWrbPHfU-t",
-  "companyId": "Wonolo",
-  "companySlug": "wonolo",
-  "companyName": "Wonolo",
-  "companyStaffCount": 822,
+  "applyUrl": "https://jobs.deel.com/klarna/job-details/812cb065-1a82-4ba2-8928-b28e919b1fec/overview",
+  "companyDomain": "klarna.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/73785c7ab0d22f7b707bd5dec79d235b_192_160?Expires=1861920000&Signature=ako7KvHdI8g4ubgIp3KmQ-LZSyakikQ0Rkyk9~L0kvyGoAA7pUAjC",
+  "companyId": "Klarna",
+  "companySlug": "klarna",
+  "companyName": "Klarna",
+  "companyStaffCount": 3705,
   "considerHosted": false,
-  "departments": [
-   "Market Operations"
-  ],
+  "departments": [],
   "jobTypes": [
+   {
+    "id": "investor-relations",
+    "label": "Investor Relations",
+    "value": "investor-relations"
+   },
    {
     "id": "people-manager",
     "label": "People Manager",
@@ -175,75 +178,26 @@
   ],
   "jobFunctions": [],
   "locations": [
-   "United States, Remote"
+   "New York"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 151000, 'maxValue': 181000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 280000, 'maxValue': 320000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
+    "id": "resume:Equity Research",
+    "label": "Equity Research",
+    "value": "resume:Equity Research"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   },
-   {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
-   },
-   {
-    "id": "resume:Business Operations",
-    "label": "Business Operations",
-    "value": "resume:Business Operations"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Logistics",
-    "label": "Logistics",
-    "value": "resume:Logistics"
-   },
-   {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
-    "id": "resume:Marketplace",
-    "label": "Marketplace",
-    "value": "resume:Marketplace"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
-   },
-   {
-    "id": "resume:Business Operations",
-    "label": "Business Operations",
-    "value": "resume:Business Operations"
-   },
-   {
-    "id": "resume:Project Management",
-    "label": "Project Management",
-    "value": "resume:Project Management"
    },
    {
     "id": "resume:Finance",
@@ -251,70 +205,123 @@
     "value": "resume:Finance"
    },
    {
-    "id": "resume:Mergers & Acquisitions",
-    "label": "Mergers & Acquisitions",
-    "value": "resume:Mergers & Acquisitions"
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Equity Research",
+    "label": "Equity Research",
+    "value": "resume:Equity Research"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Financial technology",
+    "label": "Financial technology",
+    "value": "resume:Financial technology"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
+   },
+   {
+    "id": "resume:Release",
+    "label": "Release",
+    "value": "resume:Release"
+   },
+   {
+    "id": "resume:Investment Banking",
+    "label": "Investment Banking",
+    "value": "resume:Investment Banking"
+   },
+   {
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    }
   ],
   "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
-  "minYearsExp": 8,
+  "considerLevels": [],
   "regions": [
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "HR and Recruiting",
-    "label": "HR and Recruiting",
-    "value": "HR and Recruiting"
+    "id": "ECommerce",
+    "label": "eCommerce",
+    "value": "ECommerce"
+   },
+   {
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-11-19T02:54:43Z",
-  "title": "Senior Manager, Integration Operations",
-  "url": "https://jobs.gem.com/wonolo/am9icG9zdDoPSIZXA_dkOiua8eSTEVJY",
-  "jobId": "am9icG9zdDoPSIZXA_dkOiua8eSTEVJY",
-  "remote": true,
+  "timeStamp": "2026-11-19T13:52:06.398000Z",
+  "title": "Head of Investor Relations",
+  "url": "https://jobs.deel.com/klarna/job-details/812cb065-1a82-4ba2-8928-b28e919b1fec/overview",
+  "jobId": "812cb065-1a82-4ba2-8928-b28e919b1fec",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1920294900733, 'matchScore': 0, 'ageScore': 0.9920294900733024, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1912619429864, 'matchScore': 0, 'ageScore': 0.991261942986497, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "director",
+    "label": "Director/Senior Director",
+    "value": "director"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "director"
   ],
   "isFeatured": false
  },

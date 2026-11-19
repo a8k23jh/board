@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-19T13:32:55Z",
+ "run": "2026-11-19T22:17:34Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "TJcZ2DrYJk\u2026",
+  "session.sig": "6_4hUOzzoA\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzlkYzJmZjQ5MTBjZDM2YzA4Zjk0Y2RhNWQ1NmRlYjQiLCAic2NvcmUiOiAxLjExNjQ2NjU5NDMwMjA4MzN9"
+   "sequence": "eyJfaWQiOiAiMDFjMjY4NDA3ODQxNjE4MGY1MzdhZmFmNTUyYmI5NGUiLCAic2NvcmUiOiAxLjEwNDU2ODMwNTQxMjAzN30="
   },
   "job_keys": [
    "applicationWindow",
@@ -128,127 +128,132 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/tanium/jobs/8335066",
-  "companyDomain": "tanium.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/38a2ddacf8fb8022ac3d42ce259850cf_288_160?Expires=1861920000&Signature=ANr5jzdvXbfnCoUmdkkPc9ZG55N8dFXGEYrxyoIzBWmIjfODm56ph",
-  "companyId": "Tanium",
-  "companySlug": "tanium",
-  "companyName": "Tanium",
-  "companyStaffCount": 2365,
+  "applyUrl": "https://jobs.lever.co/pigment/43f51046-ae33-4a82-a363-f34917c89228?lever-source%5B%5D=careers.ivp.com",
+  "companyDomain": "pigment.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/d8454e7d73e0751aca5245ab594f64c5_272_160?Expires=1861920000&Signature=Scz9RpS4mWlxhSeX-qbas9xSYxTWdr3xQaV7RPNNsu4Q9WiQ2Yqrv",
+  "companyId": "Pigment",
+  "companySlug": "pigment",
+  "companyName": "Pigment",
+  "companyStaffCount": 826,
   "considerHosted": false,
   "departments": [
-   "Engineering - Cloud Operations"
+   "Business"
   ],
   "jobTypes": [
    {
-    "id": "security-professional",
-    "label": "Security Professional",
-    "value": "security-professional"
+    "id": "gtm",
+    "label": "GTM",
+    "value": "gtm"
    },
    {
-    "id": "security-engineer",
-    "label": "Security Engineer",
-    "value": "security-engineer"
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   },
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
    }
   ],
   "locations": [
-   "Remote, US"
+   "New York"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "New York",
+    "label": "New York",
+    "value": "New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 154000, 'maxValue': 236000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 128000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:Access Control",
+    "label": "Access Control",
+    "value": "resume:Access Control"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Encryption",
-    "label": "Encryption",
-    "value": "resume:Encryption"
+    "id": "resume:Test Planning",
+    "label": "Test Planning",
+    "value": "resume:Test Planning"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Analytics Tools",
+    "label": "Analytics Tools",
+    "value": "resume:Analytics Tools"
    },
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Containers",
-    "label": "Containers",
-    "value": "resume:Containers"
+    "id": "resume:Access Control",
+    "label": "Access Control",
+    "value": "resume:Access Control"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Encryption",
-    "label": "Encryption",
-    "value": "resume:Encryption"
+    "id": "resume:Test Planning",
+    "label": "Test Planning",
+    "value": "resume:Test Planning"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Analytics Tools",
+    "label": "Analytics Tools",
+    "value": "resume:Analytics Tools"
    },
    {
-    "id": "resume:C/C++",
-    "label": "C/C++",
-    "value": "resume:C/C++"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:Open Source Software",
-    "label": "Open Source Software",
-    "value": "resume:Open Source Software"
+    "id": "resume:AES",
+    "label": "AES",
+    "value": "resume:AES"
    },
    {
-    "id": "resume:Web Application Security",
-    "label": "Application Security",
-    "value": "resume:Web Application Security"
+    "id": "resume:Modeling",
+    "label": "Modeling",
+    "value": "resume:Modeling"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Human Resources",
+    "label": "Human Resources",
+    "value": "resume:Human Resources"
    }
   ],
   "manager": false,
@@ -256,54 +261,84 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
+   ],
+   [
+    5,
+    6
    ]
   ],
-  "minYearsExp": 3,
   "regions": [
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
+   },
+   {
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Computer & Network Security",
-    "label": "Computer & Network Security",
-    "value": "Computer & Network Security"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
    }
   ],
-  "timeStamp": "2026-11-18T17:20:42Z",
-  "title": "Security Engineer",
-  "url": "https://job-boards.greenhouse.io/tanium/jobs/8335066",
-  "jobId": "8335066",
-  "remote": true,
+  "timeStamp": "2026-11-19T15:05:19Z",
+  "title": "Senior GTM Analyst",
+  "url": "https://jobs.lever.co/pigment/43f51046-ae33-4a82-a363-f34917c89228",
+  "jobId": "43f51046-ae33-4a82-a363-f34917c89228",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1788778869857, 'matchScore': 0, 'ageScore': 0.9788778869857253, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1930141163426, 'matchScore': 0, 'ageScore': 0.9930141163425926, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },
