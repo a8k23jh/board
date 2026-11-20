@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-11-19T22:17:34Z",
+ "run": "2026-11-20T03:33:25Z",
  "homepage": {
   "status": 200,
   "bytes": 21354
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "vLjlIUXk-Y\u2026",
+  "session.sig": "z7JLYDlBPm\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNDdlZDA5NmU3Mjk4ZWZkYWU3ZTE0YjkwYjg2ZDRlNWQiLCAic2NvcmUiOiAxLjE0NDYyODU1NTcyODc4MX0="
+   "sequence": "eyJfaWQiOiAiODQ1OWFjOTFiZWNlZTQ3Y2QyZWNlYmIwNTdmNzdmOTciLCAic2NvcmUiOiAxLjE2Nzg1OTM0OTQ5MTg5OH0="
   },
   "job_keys": [
    "applicationWindow",
@@ -144,157 +144,153 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/offchainlabs/f1bdaa60-2368-4d5d-a5d3-412b038be6d3?lever-source%5B%5D=jobs.lsvp.com",
-  "companyDomain": "offchainlabs.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/4ea3b6ac046d9fb899238bf8c113b38a_320_160?Expires=1861920000&Signature=pxb5MQy1A3laRRiYdxKi6GNGoPS6hXsQv1N-VIB5whWi9IbEoZCOh",
-  "companyId": "Offchain Labs",
-  "companySlug": "offchain-labs",
-  "companyName": "Offchain Labs",
-  "companyStaffCount": 144,
+  "applyUrl": "https://job-boards.greenhouse.io/ultimagenomics/jobs/6265907004",
+  "companyDomain": "ultimagenomics.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/bfd25d1db87e3fb8d523d0a96d7330cc_320_160?Expires=1861920000&Signature=qyCqvi-jdpEygFZeCvNl3VEKy-G8EMRs3YIXxunwFr26-KnQf9x09",
+  "companyId": "Ultima Genomics",
+  "companySlug": "ultima-genomics",
+  "companyName": "Ultima Genomics",
+  "companyStaffCount": 303,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Operations"
+  ],
   "jobTypes": [
    {
-    "id": "accountant",
-    "label": "Accountant",
-    "value": "accountant"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "qa-engineer",
+    "label": "QA Engineer",
+    "value": "qa-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Accounting",
-    "label": "Accounting",
-    "value": "Accounting"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "New York City, NY"
+   "Fremont, California, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Fremont, California",
+    "label": "Fremont, California",
+    "value": "Fremont, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 180000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 100000, 'maxValue': 120000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:GAAP",
-    "label": "GAAP",
-    "value": "resume:GAAP"
+    "id": "resume:Optical Engineering",
+    "label": "Optical Engineering",
+    "value": "resume:Optical Engineering"
    },
    {
-    "id": "resume:QuickBooks",
-    "label": "QuickBooks",
-    "value": "resume:QuickBooks"
+    "id": "resume:Corrective Action Preventive Action",
+    "label": "Corrective Action Preventive Action (CAPA)",
+    "value": "resume:Corrective Action Preventive Action"
    },
    {
-    "id": "resume:Grant Writing",
-    "label": "Grant Writing",
-    "value": "resume:Grant Writing"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Movement",
-    "label": "Movement",
-    "value": "resume:Movement"
+    "id": "resume:NetSuite",
+    "label": "NetSuite",
+    "value": "resume:NetSuite"
    },
    {
-    "id": "resume:Journal Entries",
-    "label": "Journal Entries",
-    "value": "resume:Journal Entries"
+    "id": "resume:IQ/OQ/PQ",
+    "label": "IQ/OQ/PQ",
+    "value": "resume:IQ/OQ/PQ"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:GAAP",
-    "label": "GAAP",
-    "value": "resume:GAAP"
+    "id": "resume:Optical Engineering",
+    "label": "Optical Engineering",
+    "value": "resume:Optical Engineering"
    },
    {
-    "id": "resume:QuickBooks",
-    "label": "QuickBooks",
-    "value": "resume:QuickBooks"
+    "id": "resume:Corrective Action Preventive Action",
+    "label": "Corrective Action Preventive Action (CAPA)",
+    "value": "resume:Corrective Action Preventive Action"
    },
    {
-    "id": "resume:Grant Writing",
-    "label": "Grant Writing",
-    "value": "resume:Grant Writing"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Movement",
-    "label": "Movement",
-    "value": "resume:Movement"
+    "id": "resume:NetSuite",
+    "label": "NetSuite",
+    "value": "resume:NetSuite"
    },
    {
-    "id": "resume:Journal Entries",
-    "label": "Journal Entries",
-    "value": "resume:Journal Entries"
+    "id": "resume:IQ/OQ/PQ",
+    "label": "IQ/OQ/PQ",
+    "value": "resume:IQ/OQ/PQ"
    },
    {
-    "id": "resume:Internal Controls",
-    "label": "Internal Controls",
-    "value": "resume:Internal Controls"
+    "id": "resume:Arena",
+    "label": "Arena",
+    "value": "resume:Arena"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Life Sciences",
+    "label": "Life Sciences",
+    "value": "resume:Life Sciences"
    },
    {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
+    "id": "resume:Quality Management",
+    "label": "Quality Management",
+    "value": "resume:Quality Management"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
+   [
+    3,
+    4
+   ],
    [
     5,
     6
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 5,
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    }
   ],
   "stages": [
@@ -302,38 +298,49 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Blockchain",
-    "label": "Blockchain",
-    "value": "Blockchain"
    },
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-11-19T14:45:50Z",
-  "title": "Director of Accounting",
-  "url": "https://jobs.lever.co/offchainlabs/f1bdaa60-2368-4d5d-a5d3-412b038be6d3",
-  "jobId": "f1bdaa60-2368-4d5d-a5d3-412b038be6d3",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   },
+   {
+    "id": "Biotech/Pharma",
+    "label": "Biotech/Pharma",
+    "value": "Biotech/Pharma"
+   },
+   {
+    "id": "Life Sciences",
+    "label": "Life Sciences",
+    "value": "Life Sciences"
+   }
+  ],
+  "timeStamp": "2026-11-19T16:57:31Z",
+  "title": "Senior Product Quality Engineer",
+  "url": "https://job-boards.greenhouse.io/ultimagenomics/jobs/6265907004",
+  "jobId": "6265907004",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1925581303797, 'matchScore': 0, 'ageScore': 0.9925581303796296, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1910940597774, 'matchScore': 0, 'ageScore': 0.991094059777392, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior"
   ],
   "isFeatured": false
  },

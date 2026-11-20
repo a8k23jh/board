@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-19T22:17:34Z",
+ "run": "2026-11-20T03:33:25Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "UuHmXlK0pj\u2026",
+  "session.sig": "tLp-ydiTjB\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDA1MzNhNjM2YzFkYmE3ODk3NjljOTU2ODNlOGI1OWMiLCAic2NvcmUiOiAxLjEzNzk0MjMzNzQ4Njg4Mjd9"
+   "sequence": "eyJfaWQiOiAiYWQwMDg5OTBhMmNhMWNkNGVmMGU2OWQxOGJiYjQ4YjMiLCAic2NvcmUiOiAxLjE1ODI0MTM2OTAyNDMwNTZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,145 +144,152 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.deel.com/klarna/job-details/812cb065-1a82-4ba2-8928-b28e919b1fec/overview",
-  "companyDomain": "klarna.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/73785c7ab0d22f7b707bd5dec79d235b_192_160?Expires=1861920000&Signature=ako7KvHdI8g4ubgIp3KmQ-LZSyakikQ0Rkyk9~L0kvyGoAA7pUAjC",
-  "companyId": "Klarna",
-  "companySlug": "klarna",
-  "companyName": "Klarna",
-  "companyStaffCount": 3705,
+  "applyUrl": "https://boards.greenhouse.io/faire/jobs/8951970002?gh_jid=8951970002",
+  "companyDomain": "faire.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/9550f0334126ddf0cec55a4ae51b196e_256_160?Expires=1861920000&Signature=puvRZaIKdo7yRxmf53e4~PiO0DgJ50GMdE2l-eDSkpH1xzbEEYdBt",
+  "companyId": "Faire",
+  "companySlug": "faire",
+  "companyName": "Faire Wholesale, Inc.",
+  "companyStaffCount": 1808,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "Sales"
+  ],
   "jobTypes": [
-   {
-    "id": "investor-relations",
-    "label": "Investor Relations",
-    "value": "investor-relations"
-   },
    {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
+   },
+   {
+    "id": "revenue-operations",
+    "label": "Revenue Operations",
+    "value": "revenue-operations"
    }
   ],
   "jobFunctions": [],
   "locations": [
-   "New York"
+   "San Francisco, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 280000, 'maxValue': 320000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 176000, 'maxValue': 176000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Equity Research",
-    "label": "Equity Research",
-    "value": "resume:Equity Research"
+    "id": "resume:Global Teams",
+    "label": "Global Teams",
+    "value": "resume:Global Teams"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Equity Research",
-    "label": "Equity Research",
-    "value": "resume:Equity Research"
+    "id": "resume:Global Teams",
+    "label": "Global Teams",
+    "value": "resume:Global Teams"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Finance",
-    "label": "Finance",
-    "value": "resume:Finance"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Financial technology",
-    "label": "Financial technology",
-    "value": "resume:Financial technology"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Marketing",
-    "label": "Marketing",
-    "value": "resume:Marketing"
+    "id": "resume:Act-On",
+    "label": "Act-On",
+    "value": "resume:Act-On"
    },
    {
-    "id": "resume:Release",
-    "label": "Release",
-    "value": "resume:Release"
+    "id": "resume:Movement",
+    "label": "Movement",
+    "value": "resume:Movement"
    },
    {
-    "id": "resume:Investment Banking",
-    "label": "Investment Banking",
-    "value": "resume:Investment Banking"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:English",
-    "label": "English",
-    "value": "resume:English"
+    "id": "resume:Business Intelligence Tools",
+    "label": "Business Intelligence Tools",
+    "value": "resume:Business Intelligence Tools"
    }
   ],
   "manager": true,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "minYearsExp": 10,
   "regions": [
    {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
    }
   ],
   "stages": [
@@ -290,38 +297,49 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
    },
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-11-19T13:52:06.398000Z",
-  "title": "Head of Investor Relations",
-  "url": "https://jobs.deel.com/klarna/job-details/812cb065-1a82-4ba2-8928-b28e919b1fec/overview",
-  "jobId": "812cb065-1a82-4ba2-8928-b28e919b1fec",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Business Services",
+    "label": "Business Services",
+    "value": "Business Services"
+   },
+   {
+    "id": "Retail",
+    "label": "Retail",
+    "value": "Retail"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
+   }
+  ],
+  "timeStamp": "2026-11-19T17:02:11Z",
+  "title": "Senior Manager, Revenue Operations",
+  "url": "https://boards.greenhouse.io/faire/jobs/8951970002?gh_jid=8951970002",
+  "jobId": "8951970002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1912619429864, 'matchScore': 0, 'ageScore': 0.991261942986497, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1909459609737, 'matchScore': 0, 'ageScore': 0.9909459609737654, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "manager"
   ],
   "isFeatured": false
  },

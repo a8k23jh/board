@@ -1,6 +1,6 @@
 {
  "board": "nea",
- "run": "2026-11-19T22:17:34Z",
+ "run": "2026-11-20T03:33:25Z",
  "homepage": {
   "status": 403,
   "bytes": 5705
@@ -21,8 +21,8 @@
    "endpoint": "https://careers.nea.com/api-boards/search-jobs",
    "slug": "new-enterprise-associates",
    "csrf_header": null,
-   "status": 403,
-   "body_head": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta nam"
+   "status": 412,
+   "body_head": "{\"error\":\"INVALID_CSRF\"}"
   },
   {
    "endpoint": "https://consider.com/api-boards/search-jobs",
@@ -41,7 +41,7 @@
  ],
  "cookies": {
   "session": "eyJjc3JmU2\u2026",
-  "session.sig": "8PMQwzzoZF\u2026",
+  "session.sig": "8zlMS3HeS_\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
