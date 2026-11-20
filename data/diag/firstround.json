@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-11-20T03:33:25Z",
+ "run": "2026-11-20T13:14:37Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "v8S6fvUn1o\u2026",
+  "session.sig": "-j3lKmWf0X\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTc3ZGM3ZmJjNjEzOGM3NzdkZjQ5Mjg2NzI3MTU0ODYiLCAic2NvcmUiOiAxLjA2NzMzODQ0NjY5MDIwMDd9"
+   "sequence": "eyJfaWQiOiAiZjhhZDFmOTdhMmNkMWI5NzRmYmZhNGM2OWNiZmNlZGUiLCAic2NvcmUiOiAxLjA3NzU1MjA2MjI1MTU0M30="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/5302630007",
+  "applyUrl": "https://job-boards.greenhouse.io/verkada/jobs/5302824007",
   "companyDomain": "verkada.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8fef24f24d7f5794eed4923eb25b16ff_304_160?Expires=1861920000&Signature=GrVmnkwsr5pViGdcRkXENC1~-cN3J7WMdPab~Q947Jpu8OsXzdwLQ",
   "companyId": "Verkada",
@@ -164,43 +164,53 @@
   "companyStaffCount": 2877,
   "considerHosted": false,
   "departments": [
-   "Access Control"
+   "Marketing Recruiting"
   ],
   "jobTypes": [
    {
-    "id": "frontend-engineer",
-    "label": "Frontend Engineer",
-    "value": "frontend-engineer"
+    "id": "marketing-all",
+    "label": "Marketing",
+    "value": "marketing-all"
+   },
+   {
+    "id": "recruiter",
+    "label": "Recruiter",
+    "value": "recruiter"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
+    "id": "Marketing",
+    "label": "Marketing",
+    "value": "Marketing"
+   },
+   {
+    "id": "Human Resources",
+    "label": "Human Resources",
+    "value": "Human Resources"
    }
   ],
   "locations": [
-   "San Mateo, CA United States"
+   "Austin, TX United States"
   ],
   "normalizedLocations": [
    {
-    "id": "San Mateo, California",
-    "label": "San Mateo, California",
-    "value": "San Mateo, California"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 280000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 131000, 'maxValue': 171000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    },
    {
-    "id": "resume:Access Control",
-    "label": "Access Control",
-    "value": "resume:Access Control"
+    "id": "resume:Greenhouse",
+    "label": "Greenhouse",
+    "value": "resume:Greenhouse"
    },
    {
     "id": "resume:Assessment",
@@ -208,26 +218,26 @@
     "value": "resume:Assessment"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
    },
    {
-    "id": "resume:React.js",
-    "label": "React.js",
-    "value": "resume:React.js"
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
    },
    {
-    "id": "resume:Access Control",
-    "label": "Access Control",
-    "value": "resume:Access Control"
+    "id": "resume:Greenhouse",
+    "label": "Greenhouse",
+    "value": "resume:Greenhouse"
    },
    {
     "id": "resume:Assessment",
@@ -237,24 +247,29 @@
   ],
   "preferredSkills": [
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
-   },
-   {
-    "id": "resume:React.js",
-    "label": "React.js",
-    "value": "resume:React.js"
-   },
-   {
-    "id": "resume:JavaScript",
-    "label": "JavaScript",
-    "value": "resume:JavaScript"
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
    },
    {
     "id": "resume:Privacy",
     "label": "Privacy",
     "value": "resume:Privacy"
+   },
+   {
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
+   },
+   {
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
+   },
+   {
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "manager": false,
@@ -262,22 +277,16 @@
   "contractor": false,
   "considerLevels": [
    [
+    3,
+    4
+   ],
+   [
     5,
     6
    ]
   ],
-  "minYearsExp": 7,
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -309,13 +318,13 @@
     "value": "Hardware"
    }
   ],
-  "timeStamp": "2026-11-19T16:26:42Z",
-  "title": "Senior Frontend Engineer - Access Control",
-  "url": "https://job-boards.greenhouse.io/verkada/jobs/5302630007",
-  "jobId": "5302630007",
+  "timeStamp": "2026-11-19T19:44:21Z",
+  "title": "Senior Recruiter - Marketing",
+  "url": "https://job-boards.greenhouse.io/verkada/jobs/5302824007",
+  "jobId": "5302824007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1905105046219, 'matchScore': 0, 'ageScore': 0.9905105046219136, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1822948950621, 'matchScore': 0, 'ageScore': 0.9822948950621142, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
