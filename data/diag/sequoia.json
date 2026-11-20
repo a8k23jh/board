@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-20T13:14:37Z",
+ "run": "2026-11-20T21:18:48Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -37,12 +37,12 @@
    "slug": "sequoia-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7f04da858ba855986311a77170ee33687a863619\",\"date\":\"2026-11-18T19:08:38.216Z\"},\"server\":{\"git\":\"7f04da858ba855986311a77170ee33687a863619\",\"date\":\"2026-11-18T19:08:38.216Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2fea78cf646dee77d0172306446034ab8982bfb4\",\"date\":\"2026-11-19T23:22:31.384Z\"},\"server\":{\"git\":\"2fea78cf646dee77d0172306446034ab8982bfb4\",\"date\":\"2026-11-19T23:22:31.384Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1uD6w9qM1O\u2026",
+  "session.sig": "V2qT6W6SPZ\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOWNjZTMxNDg2YjllZWU2MDUwN2E1MmQwNDkzYzBlNGIiLCAic2NvcmUiOiAxLjE1NDQ0NTQ4NTU4NDEwNDl9"
+   "sequence": "eyJfaWQiOiAiZTVmYTU1ZGZiOWIxYzRmMDg0NWE0ZTZhYzMyYThmYWQiLCAic2NvcmUiOiAxLjE0MjEyNjgzNDY0MzEzMjh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,137 +144,120 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Rogo/ceaff674-1fbc-4f4a-ba86-bc7153fb57be?utm_source=jobs.sequoiacap.com",
-  "companyDomain": "rogo.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/66a7953d8c5c2886ab74e7caf90fe681_128_160?Expires=1861920000&Signature=i5epe-A8J7h0DMs~JWcg~u9gDW5REpES3SF1ZmEEgGjfVGFGXL5yl",
-  "companyId": "Rogo",
-  "companySlug": "rogo",
-  "companyName": "Rogo",
-  "companyStaffCount": 240,
+  "applyUrl": "https://jobs.deel.com/klarna/job-details/4310d660-3bf0-45ec-8ec5-149c15e02d94/overview",
+  "companyDomain": "klarna.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/73785c7ab0d22f7b707bd5dec79d235b_192_160?Expires=1861920000&Signature=ako7KvHdI8g4ubgIp3KmQ-LZSyakikQ0Rkyk9~L0kvyGoAA7pUAjC",
+  "companyId": "Klarna",
+  "companySlug": "klarna",
+  "companyName": "Klarna",
+  "companyStaffCount": 3705,
   "considerHosted": false,
-  "departments": [
-   "Post Sales"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "sales-mid-maket",
-    "label": "Sales Mid Market",
-    "value": "sales-mid-maket"
-   },
-   {
-    "id": "solutions-architect",
-    "label": "Solutions Architect",
-    "value": "solutions-architect"
-   },
-   {
-    "id": "sales-engineering",
-    "label": "Sales Engineering",
-    "value": "sales-engineering"
+    "id": "compliance-risk",
+    "label": "Risk & Compliance Manager",
+    "value": "compliance-risk"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   },
-   {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Auditing",
+    "label": "Auditing",
+    "value": "Auditing"
    }
   ],
   "locations": [
-   "New York , New York, USA"
+   "sweden"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Sweden",
+    "label": "Sweden",
+    "value": "Sweden"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 295000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 855940, 'maxValue': 975772, 'currency': {'label': 'SEK', 'value': 'SEK'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Google Cloud Platform",
-    "label": "Google Cloud Platform",
-    "value": "resume:Google Cloud Platform"
+    "id": "resume:Anti Corruption",
+    "label": "Anti Corruption",
+    "value": "resume:Anti Corruption"
    },
    {
-    "id": "resume:Post-sales",
-    "label": "Post-sales",
-    "value": "resume:Post-sales"
+    "id": "resume:Hospitality",
+    "label": "Hospitality",
+    "value": "resume:Hospitality"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    },
    {
-    "id": "resume:Follow through",
-    "label": "Follow through",
-    "value": "resume:Follow through"
+    "id": "resume:CTF",
+    "label": "CTF",
+    "value": "resume:CTF"
    },
    {
-    "id": "resume:Private Equity",
-    "label": "Private Equity",
-    "value": "resume:Private Equity"
+    "id": "resume:E-Learning",
+    "label": "E-Learning",
+    "value": "resume:E-Learning"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Google Cloud Platform",
-    "label": "Google Cloud Platform",
-    "value": "resume:Google Cloud Platform"
+    "id": "resume:Anti Corruption",
+    "label": "Anti Corruption",
+    "value": "resume:Anti Corruption"
    },
    {
-    "id": "resume:Post-sales",
-    "label": "Post-sales",
-    "value": "resume:Post-sales"
+    "id": "resume:Hospitality",
+    "label": "Hospitality",
+    "value": "resume:Hospitality"
    },
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
+    "id": "resume:Financial Services",
+    "label": "Financial Services",
+    "value": "resume:Financial Services"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Follow through",
-    "label": "Follow through",
-    "value": "resume:Follow through"
+    "id": "resume:CTF",
+    "label": "CTF",
+    "value": "resume:CTF"
    },
    {
-    "id": "resume:Private Equity",
-    "label": "Private Equity",
-    "value": "resume:Private Equity"
+    "id": "resume:E-Learning",
+    "label": "E-Learning",
+    "value": "resume:E-Learning"
    },
    {
-    "id": "resume:Identity & Access Management (IAM)",
-    "label": "Identity & Access Management (IAM)",
-    "value": "resume:Identity & Access Management (IAM)"
+    "id": "resume:English",
+    "label": "English",
+    "value": "resume:English"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Strategic Partnerships",
+    "label": "Strategic Partnerships",
+    "value": "resume:Strategic Partnerships"
    },
    {
-    "id": "resume:Amazon Web Services",
-    "label": "Amazon Web Services",
-    "value": "resume:Amazon Web Services"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    }
   ],
   "manager": false,
@@ -288,57 +271,33 @@
    [
     5,
     6
-   ],
-   [
-    7,
-    8
    ]
   ],
+  "minYearsExp": 5,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
+    "id": "Nordic countries",
+    "label": "Nordic countries",
+    "value": "Nordic countries"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
-   },
-   {
-    "id": "Financial Services",
-    "label": "Financial Services",
-    "value": "Financial Services"
+    "id": "ECommerce",
+    "label": "eCommerce",
+    "value": "ECommerce"
    },
    {
     "id": "Fintech",
@@ -346,24 +305,24 @@
     "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-11-20T00:00:00Z",
-  "title": "Solutions Architect, Mid-Market",
-  "url": "https://jobs.ashbyhq.com/Rogo/ceaff674-1fbc-4f4a-ba86-bc7153fb57be",
-  "jobId": "ceaff674-1fbc-4f4a-ba86-bc7153fb57be",
+  "timeStamp": "2026-11-20T14:00:20.144000Z",
+  "title": "Compliance Manager- Anti-Bribery & Corruption (EU)",
+  "url": "https://jobs.deel.com/klarna/job-details/4310d660-3bf0-45ec-8ec5-149c15e02d94/overview",
+  "jobId": "4310d660-3bf0-45ec-8ec5-149c15e02d94",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1881608214579, 'matchScore': 0, 'ageScore': 0.9881608214579475, 'richnessScore': 2}",
+  "scores": "{'score': 1001.194641068093, 'matchScore': 0, 'ageScore': 0.9946410680929784, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "expert",
-    "label": "Expert",
-    "value": "expert"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "expert"
+   "mid"
   ],
   "isFeatured": false
  },

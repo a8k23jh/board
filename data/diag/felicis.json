@@ -1,6 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-11-20T13:14:37Z",
+ "run": "2026-11-20T21:18:48Z",
  "homepage": {
   "status": 200,
   "bytes": 25383
@@ -29,12 +29,12 @@
    "slug": "felicis",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7f04da858ba855986311a77170ee33687a863619\",\"date\":\"2026-11-18T19:08:38.216Z\"},\"server\":{\"git\":\"7f04da858ba855986311a77170ee33687a863619\",\"date\":\"2026-11-18T19:08:38.216Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2fea78cf646dee77d0172306446034ab8982bfb4\",\"date\":\"2026-11-19T23:22:31.384Z\"},\"server\":{\"git\":\"2fea78cf646dee77d0172306446034ab8982bfb4\",\"date\":\"2026-11-19T23:22:31.384Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ovsWETv8bt\u2026",
+  "session.sig": "MkazfWV6vA\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWFkODUzMjMwNzI1Y2JhMWQ1ZGRkOWZjNDNmZWI0MmUiLCAic2NvcmUiOiAxLjExODk1MjAxMDM1MTQ2Nn0="
+   "sequence": "eyJfaWQiOiAiOWIyZDNlMWQxNzc3ODE2ODRiNGI0YjU5MTk4MDE5MzMiLCAic2NvcmUiOiAxLjEwODI1MjU5OTk1MzcwMzZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,183 +136,156 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/Crusoe/57dc2e9a-797b-468e-82a8-b4f3e97cbf1a?utm_source=jobs.felicis.com",
-  "companyDomain": "crusoe.ai",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/83e047ed53d48955e1e39bdd6f3f660f_256_160?Expires=1861920000&Signature=r2eU4jRX2uOXV1AaZbtY7Z5mnhoWhTY0I1PFAYujsp5lQ9CiX1iiB",
-  "companyId": "Crusoe",
-  "companySlug": "crusoe",
-  "companyName": "Crusoe",
-  "companyStaffCount": 1693,
+  "applyUrl": "https://jobs.lever.co/ethena/e92361ad-b085-4957-9bde-f28b2113d24c?lever-source%5B%5D=jobs.felicis.com",
+  "companyDomain": "goethena.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/ce832a9032c484c6007df5c40e6b8656_238_160?Expires=1861920000&Signature=VEPOfsQR6EO3HBC~KrEp04FoH~Yr-SWiXEeX2OMo9le6AJExQcYbj",
+  "companyId": "Ethena",
+  "companySlug": "ethena",
+  "companyName": "Ethena",
+  "companyStaffCount": 86,
   "considerHosted": false,
-  "departments": [
-   "Assembly"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "technician",
-    "label": "Technician",
-    "value": "technician"
+    "id": "product-support-engineer",
+    "label": "Product Support Engineer",
+    "value": "product-support-engineer"
    },
    {
-    "id": "lead",
-    "label": "Lead",
-    "value": "lead"
+    "id": "support-engineer",
+    "label": "Support Engineer",
+    "value": "support-engineer"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Technician",
-    "label": "Technician",
-    "value": "Technician"
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
    }
   ],
   "locations": [
-   "Brighton, Colorado, United States"
+   "Remote"
   ],
-  "normalizedLocations": [
-   {
-    "id": "Colorado",
-    "label": "Colorado",
-    "value": "Colorado"
-   }
-  ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 33, 'maxValue': 35, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "normalizedLocations": [],
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 113000, 'maxValue': 140000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Assembly",
-    "label": "Assembly",
-    "value": "resume:Assembly"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    },
    {
-    "id": "resume:Operational Excellence",
-    "label": "Operational Excellence",
-    "value": "resume:Operational Excellence"
+    "id": "resume:Zendesk",
+    "label": "Zendesk",
+    "value": "resume:Zendesk"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Assembly",
-    "label": "Assembly",
-    "value": "resume:Assembly"
+    "id": "resume:Automation",
+    "label": "Automation",
+    "value": "resume:Automation"
    },
    {
-    "id": "resume:Electromechanics",
-    "label": "Electromechanics",
-    "value": "resume:Electromechanics"
+    "id": "resume:Account Management",
+    "label": "Account Management",
+    "value": "resume:Account Management"
    },
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Interviews",
+    "label": "Interviews",
+    "value": "resume:Interviews"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Operational Excellence",
-    "label": "Operational Excellence",
-    "value": "resume:Operational Excellence"
+    "id": "resume:Zendesk",
+    "label": "Zendesk",
+    "value": "resume:Zendesk"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Enterprise Resource Planning",
-    "label": "Enterprise Resource Planning",
-    "value": "resume:Enterprise Resource Planning"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Data Center",
-    "label": "Data Center",
-    "value": "resume:Data Center"
+    "id": "resume:Written Communication Skills",
+    "label": "Written Communication Skills",
+    "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:Six Sigma",
-    "label": "Six Sigma",
-    "value": "resume:Six Sigma"
+    "id": "resume:Assessment",
+    "label": "Assessment",
+    "value": "resume:Assessment"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
-  "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   }
-  ],
+  "considerLevels": [],
+  "regions": [],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
-    "id": "Energy",
-    "label": "Energy",
-    "value": "Energy"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-11-20T00:00:00Z",
-  "title": "Assembly Lead",
-  "url": "https://jobs.ashbyhq.com/Crusoe/57dc2e9a-797b-468e-82a8-b4f3e97cbf1a",
-  "jobId": "57dc2e9a-797b-468e-82a8-b4f3e97cbf1a",
-  "remote": false,
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "E-Learning",
+    "label": "E-Learning",
+    "value": "E-Learning"
+   }
+  ],
+  "timeStamp": "2026-11-20T15:50:26Z",
+  "title": "Customer Success Engineer",
+  "url": "https://jobs.lever.co/ethena/e92361ad-b085-4957-9bde-f28b2113d24c",
+  "jobId": "e92361ad-b085-4957-9bde-f28b2113d24c",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1883962835362, 'matchScore': 0, 'ageScore': 0.9883962835362654, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1980993935717, 'matchScore': 0, 'ageScore': 0.9980993935717593, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -320,7 +293,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid"
   ],
   "isFeatured": false

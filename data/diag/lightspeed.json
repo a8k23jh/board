@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-11-20T13:14:37Z",
+ "run": "2026-11-20T21:18:48Z",
  "homepage": {
   "status": 200,
   "bytes": 21354
@@ -37,12 +37,12 @@
    "slug": "lightspeed",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7f04da858ba855986311a77170ee33687a863619\",\"date\":\"2026-11-18T19:08:38.216Z\"},\"server\":{\"git\":\"7f04da858ba855986311a77170ee33687a863619\",\"date\":\"2026-11-18T19:08:38.216Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2fea78cf646dee77d0172306446034ab8982bfb4\",\"date\":\"2026-11-19T23:22:31.384Z\"},\"server\":{\"git\":\"2fea78cf646dee77d0172306446034ab8982bfb4\",\"date\":\"2026-11-19T23:22:31.384Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "ttiwWupeN2\u2026",
+  "session.sig": "EurcWeSFxz\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzZiZjU2NThiNGVhYTc4YjRkNGQ0ZTBkMjU5MzdiODciLCAic2NvcmUiOiAxLjE2NjM2NzQwMzgxNTIwMDV9"
+   "sequence": "eyJfaWQiOiAiNjBjZTIwNGI1YmQwZjEwYzFiZmRkNWE3MDRkZjk3YTQiLCAic2NvcmUiOiAxLjE1NzcwNjk4NDE2NTg5NTF9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,33 +144,33 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/clickhouse/220080d1-c844-42e6-a762-9f3453289ac1?utm_source=jobs.lsvp.com",
-  "companyDomain": "clickhouse.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c2779852661322ab66da5dc263e72606_320_160?Expires=1861920000&Signature=r~P65IuHovDEITH8vKhbAvgpsGftasvE8O7kucrixTGLscABGrKrs",
-  "companyId": "ClickHouse",
-  "companySlug": "clickhouse",
-  "companyName": "ClickHouse",
-  "companyStaffCount": 726,
+  "applyUrl": "https://job-boards.greenhouse.io/kodiak/jobs/4511818009",
+  "companyDomain": "kodiak.ai",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f9058aaca944d6f0e4c1da86f2ec3e66_128_160?Expires=1861920000&Signature=KBISQxebjx0osJPLPvoofBy367fgdGbCzM-eZnFvNBgUwlA2oTZqJ",
+  "companyId": "Kodiak Robotics",
+  "companySlug": "kodiak-robotics",
+  "companyName": "Kodiak Robotics",
+  "companyStaffCount": 379,
   "considerHosted": false,
   "departments": [
-   "Engineering"
+   "Integration"
   ],
   "jobTypes": [
    {
-    "id": "senior-software-engineer",
-    "label": "Senior Software Engineer",
-    "value": "senior-software-engineer"
+    "id": "integration-engineer",
+    "label": "Integration Engineer",
+    "value": "integration-engineer"
    }
   ],
   "jobFunctions": [
@@ -181,85 +181,85 @@
    }
   ],
   "locations": [
-   "San Francisco, CA, United States"
+   "Mountain View, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "Mountain View, California",
+    "label": "Mountain View, California",
+    "value": "Mountain View, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 190000, 'maxValue': 260000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 185000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
+    "id": "resume:Communication Protocols",
+    "label": "Communication Protocols",
+    "value": "resume:Communication Protocols"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    },
    {
-    "id": "resume:Performance Tuning",
-    "label": "Performance Tuning",
-    "value": "resume:Performance Tuning"
+    "id": "resume:SolidWorks",
+    "label": "SolidWorks",
+    "value": "resume:SolidWorks"
    },
    {
-    "id": "resume:Replication",
-    "label": "Data Replication",
-    "value": "resume:Replication"
+    "id": "resume:Ethernet",
+    "label": "Ethernet",
+    "value": "resume:Ethernet"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Developer Experience",
-    "label": "Developer Experience",
-    "value": "resume:Developer Experience"
+    "id": "resume:Communication Protocols",
+    "label": "Communication Protocols",
+    "value": "resume:Communication Protocols"
    },
    {
-    "id": "resume:Databases",
-    "label": "Databases",
-    "value": "resume:Databases"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Analytics",
+    "label": "Analytics",
+    "value": "resume:Analytics"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Performance Tuning",
-    "label": "Performance Tuning",
-    "value": "resume:Performance Tuning"
+    "id": "resume:SolidWorks",
+    "label": "SolidWorks",
+    "value": "resume:SolidWorks"
    },
    {
-    "id": "resume:Replication",
-    "label": "Data Replication",
-    "value": "resume:Replication"
+    "id": "resume:Ethernet",
+    "label": "Ethernet",
+    "value": "resume:Ethernet"
    },
    {
-    "id": "resume:Ruby",
-    "label": "Ruby",
-    "value": "resume:Ruby"
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
    },
    {
-    "id": "resume:Orchestration",
-    "label": "Orchestration",
-    "value": "resume:Orchestration"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    },
    {
-    "id": "resume:Team Leadership",
-    "label": "Team Leadership",
-    "value": "resume:Team Leadership"
+    "id": "resume:Early Development",
+    "label": "Early Development",
+    "value": "resume:Early Development"
    }
   ],
   "manager": false,
@@ -278,11 +278,6 @@
   "minYearsExp": 6,
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
@@ -291,6 +286,11 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    }
   ],
   "stages": [
@@ -298,33 +298,22 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Analytics",
-    "label": "Analytics",
-    "value": "Analytics"
-   },
-   {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-11-20T00:00:00Z",
-  "title": "Senior Software Engineer - Postgres Engine",
-  "url": "https://jobs.ashbyhq.com/clickhouse/220080d1-c844-42e6-a762-9f3453289ac1",
-  "jobId": "220080d1-c844-42e6-a762-9f3453289ac1",
-  "remote": true,
+  "timeStamp": "2026-11-20T09:02:12Z",
+  "title": "Senior, Vehicle Integration Engineer",
+  "url": "https://job-boards.greenhouse.io/kodiak/jobs/4511818009",
+  "jobId": "4511818009",
+  "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1885415826181, 'matchScore': 0, 'ageScore': 0.9885415826180556, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1876626766732, 'matchScore': 0, 'ageScore': 0.9876626766732253, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

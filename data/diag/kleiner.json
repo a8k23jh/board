@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-11-20T13:14:37Z",
+ "run": "2026-11-20T21:18:48Z",
  "homepage": {
   "status": 200,
   "bytes": 19528
@@ -37,12 +37,12 @@
    "slug": "kleiner-perkins",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7f04da858ba855986311a77170ee33687a863619\",\"date\":\"2026-11-18T19:08:38.216Z\"},\"server\":{\"git\":\"7f04da858ba855986311a77170ee33687a863619\",\"date\":\"2026-11-18T19:08:38.216Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2fea78cf646dee77d0172306446034ab8982bfb4\",\"date\":\"2026-11-19T23:22:31.384Z\"},\"server\":{\"git\":\"2fea78cf646dee77d0172306446034ab8982bfb4\",\"date\":\"2026-11-19T23:22:31.384Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "7M9aG-kkG-\u2026",
+  "session.sig": "1ou-BB3T0x\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMzdiNzU0OTIxNTI4NTY2Njk0YWZjZTBhYTVkZWYwMzAiLCAic2NvcmUiOiAxLjA5NjgxOTg4MDQyMDEzOX0="
+   "sequence": "eyJfaWQiOiAiMzdiNzU0OTIxNTI4NTY2Njk0YWZjZTBhYTVkZWYwMzAiLCAic2NvcmUiOiAxLjA4MzI5MjYzMDM2NDE5NzR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -168,14 +168,14 @@
   ],
   "jobTypes": [
    {
-    "id": "partner-marketing",
-    "label": "Partner Marketing Manager",
-    "value": "partner-marketing"
-   },
-   {
     "id": "people-manager",
     "label": "People Manager",
     "value": "people-manager"
+   },
+   {
+    "id": "partner-marketing",
+    "label": "Partner Marketing Manager",
+    "value": "partner-marketing"
    }
   ],
   "jobFunctions": [
@@ -198,9 +198,14 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 67000, 'maxValue': 73700, 'currency': {'label': 'GBP', 'value': 'GBP'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Partner Marketing",
-    "label": "Partner Marketing",
-    "value": "resume:Partner Marketing"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
+    "id": "resume:Account Based Marketing",
+    "label": "Account Based Marketing",
+    "value": "resume:Account Based Marketing"
    },
    {
     "id": "resume:Salesforce",
@@ -208,63 +213,58 @@
     "value": "resume:Salesforce"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Demand Generation",
+    "label": "Demand Generation",
+    "value": "resume:Demand Generation"
    },
    {
-    "id": "resume:6sense",
-    "label": "6sense",
-    "value": "resume:6sense"
-   },
-   {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
+    "id": "resume:Strategic Thinking",
+    "label": "Strategic Thinking",
+    "value": "resume:Strategic Thinking"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Partner Marketing",
-    "label": "Partner Marketing",
-    "value": "resume:Partner Marketing"
+    "id": "resume:REST",
+    "label": "REST",
+    "value": "resume:REST"
+   },
+   {
+    "id": "resume:Account Based Marketing",
+    "label": "Account Based Marketing",
+    "value": "resume:Account Based Marketing"
    },
    {
     "id": "resume:Salesforce",
     "label": "Salesforce",
     "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:6sense",
-    "label": "6sense",
-    "value": "resume:6sense"
+    "id": "resume:Demand Generation",
+    "label": "Demand Generation",
+    "value": "resume:Demand Generation"
    },
    {
-    "id": "resume:SaaS",
-    "label": "Software as a Service",
-    "value": "resume:SaaS"
-   },
-   {
-    "id": "resume:Field Marketing",
-    "label": "Field Marketing",
-    "value": "resume:Field Marketing"
-   },
-   {
-    "id": "resume:HubSpot",
-    "label": "HubSpot",
-    "value": "resume:HubSpot"
+    "id": "resume:Strategic Thinking",
+    "label": "Strategic Thinking",
+    "value": "resume:Strategic Thinking"
    },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:EMEA",
+    "label": "EMEA",
+    "value": "resume:EMEA"
+   },
+   {
+    "id": "resume:6sense",
+    "label": "6sense",
+    "value": "resume:6sense"
    }
   ],
   "manager": true,
@@ -321,7 +321,7 @@
   "jobId": "1c68aea9-e1c9-405e-9f92-87315b46feb8",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1887312035683, 'matchScore': 0, 'ageScore': 0.988731203568287, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1756225641872, 'matchScore': 0, 'ageScore': 0.9756225641871142, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

@@ -1,6 +1,6 @@
 {
  "board": "firstround",
- "run": "2026-11-20T13:14:37Z",
+ "run": "2026-11-20T21:18:48Z",
  "homepage": {
   "status": 200,
   "bytes": 17460
@@ -37,12 +37,12 @@
    "slug": "first-round-capital",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"7f04da858ba855986311a77170ee33687a863619\",\"date\":\"2026-11-18T19:08:38.216Z\"},\"server\":{\"git\":\"7f04da858ba855986311a77170ee33687a863619\",\"date\":\"2026-11-18T19:08:38.216Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"2fea78cf646dee77d0172306446034ab8982bfb4\",\"date\":\"2026-11-19T23:22:31.384Z\"},\"server\":{\"git\":\"2fea78cf646dee77d0172306446034ab8982bfb4\",\"date\":\"2026-11-19T23:22:31.384Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "-j3lKmWf0X\u2026",
+  "session.sig": "DvWG73yoQq\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjhhZDFmOTdhMmNkMWI5NzRmYmZhNGM2OWNiZmNlZGUiLCAic2NvcmUiOiAxLjA3NzU1MjA2MjI1MTU0M30="
+   "sequence": "eyJfaWQiOiAiMzMwNTIyZDc2OGI4NzdkMGFkZTRlODIwMWIxZmYzMzUiLCAic2NvcmUiOiAxLjA2NjIxNzEyNTI2Njk3NTR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -203,9 +203,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 131000, 'maxValue': 171000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
+   },
+   {
+    "id": "resume:Privacy",
+    "label": "Privacy",
+    "value": "resume:Privacy"
+   },
+   {
+    "id": "resume:Marketing Recruiting",
+    "label": "Marketing Recruiting",
+    "value": "resume:Marketing Recruiting"
    },
    {
     "id": "resume:Greenhouse",
@@ -213,43 +223,16 @@
     "value": "resume:Greenhouse"
    },
    {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
-   },
-   {
-    "id": "resume:Full-cycle Recruiting",
-    "label": "Full-cycle Recruiting",
-    "value": "resume:Full-cycle Recruiting"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Market Data",
-    "label": "Market Data",
-    "value": "resume:Market Data"
-   },
-   {
-    "id": "resume:Greenhouse",
-    "label": "Greenhouse",
-    "value": "resume:Greenhouse"
-   },
-   {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Full-cycle Recruiting",
-    "label": "Full-cycle Recruiting",
-    "value": "resume:Full-cycle Recruiting"
+    "id": "resume:Applicant Tracking Systems",
+    "label": "Applicant Tracking Systems",
+    "value": "resume:Applicant Tracking Systems"
    },
    {
     "id": "resume:Privacy",
@@ -257,9 +240,21 @@
     "value": "resume:Privacy"
    },
    {
-    "id": "resume:Applicant Tracking Systems",
-    "label": "Applicant Tracking Systems",
-    "value": "resume:Applicant Tracking Systems"
+    "id": "resume:Marketing Recruiting",
+    "label": "Marketing Recruiting",
+    "value": "resume:Marketing Recruiting"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Greenhouse",
+    "label": "Greenhouse",
+    "value": "resume:Greenhouse"
+   },
+   {
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
     "id": "resume:Written Communication Skills",
@@ -267,9 +262,14 @@
     "value": "resume:Written Communication Skills"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Market Data",
+    "label": "Market Data",
+    "value": "resume:Market Data"
+   },
+   {
+    "id": "resume:Full-cycle Recruiting",
+    "label": "Full-cycle Recruiting",
+    "value": "resume:Full-cycle Recruiting"
    }
   ],
   "manager": false,
@@ -324,7 +324,7 @@
   "jobId": "5302824007",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1822948950621, 'matchScore': 0, 'ageScore': 0.9822948950621142, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1702608652755, 'matchScore': 0, 'ageScore': 0.970260865275463, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
