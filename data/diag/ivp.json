@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-21T11:26:50Z",
+ "run": "2026-11-21T19:30:32Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "R7s7pJQzWR\u2026",
+  "session.sig": "KZKIUYBbOg\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMDEyMmU4NDhjODVlYzVlNWU1NjQ1ZDExNWY3MDIyYjkiLCAic2NvcmUiOiAxLjEzODE2NjA1MjI5MjQzODR9"
+   "sequence": "eyJfaWQiOiAiOGM5NTAyYjYzMmM2NzVmOTRjYTRjOGZjZDEzOWM2NTUiLCAic2NvcmUiOiAxLjEyNjQyNTkxNzc5OTM4Mjd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -139,23 +139,35 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1f2d947a-2bdd-415a-991c-33b633fc9a85&ccId=19000101_000001&type=JS&lang=en_US&jobId=696218",
-  "companyDomain": "whipmedia.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6a72e52c2c7f0e5806b94d2dbaaa5019_288_160?Expires=1861920000&Signature=MjzGBQRmqYlSC0RN7MBlK~6uPV8ozfny5cS5NPdQr3elvn1yMN9d0",
-  "companyId": "Whip Media",
-  "companySlug": "whip-media",
-  "companyName": "Whip Media",
-  "companyStaffCount": 98,
+  "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5489567008",
+  "companyDomain": "anthropic.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/55fc5f77dff7f0e2dfe40423100d146b_272_160?Expires=1861920000&Signature=kGZPUyCnBlXeK8DK15OAIuXkSfAoDgEPiYc6gakA4nKV18j3V9X0S",
+  "companyId": "Anthropic",
+  "companySlug": "anthropic",
+  "companyName": "Anthropic",
+  "companyStaffCount": 7,
   "considerHosted": false,
-  "departments": [],
+  "departments": [
+   "AI Research & Engineering"
+  ],
   "jobTypes": [
    {
-    "id": "senior-software-engineer",
-    "label": "Senior Software Engineer",
-    "value": "senior-software-engineer"
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
+   },
+   {
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
    }
   ],
   "jobFunctions": [
+   {
+    "id": "Science",
+    "label": "Science",
+    "value": "Science"
+   },
    {
     "id": "Engineering",
     "label": "Engineering",
@@ -163,107 +175,104 @@
    }
   ],
   "locations": [
-   "Santa Monica, CA, US"
+   "San Francisco, CA",
+   "New York City, NY",
+   "Seattle, WA"
   ],
   "normalizedLocations": [
    {
-    "id": "Santa Monica, California",
-    "label": "Santa Monica, California",
-    "value": "Santa Monica, California"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
+   {
+    "id": "New York, New York",
+    "label": "New York, New York",
+    "value": "New York, New York"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 500000, 'maxValue': 850000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Data Warehousing",
-    "label": "Data Warehousing",
-    "value": "resume:Data Warehousing"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Amazon S3",
-    "label": "Amazon S3",
-    "value": "resume:Amazon S3"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Spring Boot",
-    "label": "Spring Boot",
-    "value": "resume:Spring Boot"
+    "id": "resume:Reinforcement Learning",
+    "label": "Reinforcement Learning",
+    "value": "resume:Reinforcement Learning"
    },
    {
-    "id": "resume:PostgreSQL",
-    "label": "Postgres",
-    "value": "resume:PostgreSQL"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    },
    {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Data Warehousing",
-    "label": "Data Warehousing",
-    "value": "resume:Data Warehousing"
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
    },
    {
-    "id": "resume:Amazon S3",
-    "label": "Amazon S3",
-    "value": "resume:Amazon S3"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Spring Boot",
-    "label": "Spring Boot",
-    "value": "resume:Spring Boot"
+    "id": "resume:Reinforcement Learning",
+    "label": "Reinforcement Learning",
+    "value": "resume:Reinforcement Learning"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:PostgreSQL",
-    "label": "Postgres",
-    "value": "resume:PostgreSQL"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    },
    {
-    "id": "resume:Java",
-    "label": "Java",
-    "value": "resume:Java"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
    },
    {
-    "id": "resume:Digital Distribution",
-    "label": "Digital Distribution",
-    "value": "resume:Digital Distribution"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    },
    {
-    "id": "resume:Maintenance",
-    "label": "Maintenance",
-    "value": "resume:Maintenance"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Lambda",
-    "label": "Lambda",
-    "value": "resume:Lambda"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    3,
-    4
-   ],
-   [
-    5,
-    6
-   ]
-  ],
-  "minYearsExp": 5,
+  "considerLevels": [],
   "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
@@ -273,13 +282,28 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
+    "id": "1-10 employees",
+    "label": "1-10 employees",
+    "value": "1-10 employees"
    },
    {
     "id": "Growth",
@@ -290,34 +314,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
    },
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Research",
+    "label": "Research",
+    "value": "Research"
    }
   ],
-  "timeStamp": "2026-11-21T04:04:00Z",
-  "title": "Senior Software Engineer",
-  "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1f2d947a-2bdd-415a-991c-33b633fc9a85&ccId=19000101_000001&type=JS&lang=en_US&jobId=696218",
-  "jobId": "696218",
+  "timeStamp": "2026-11-21T07:52:56Z",
+  "title": "Research Engineer, Finetuning",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5489567008",
+  "jobId": "5489567008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1932461908581, 'matchScore': 0, 'ageScore': 0.9932461908580247, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1863026041698, 'matchScore': 0, 'ageScore': 0.9863026041697531, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "mid"
   ],
   "isFeatured": false
  },
