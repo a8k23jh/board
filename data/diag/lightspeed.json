@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-11-21T02:33:50Z",
+ "run": "2026-11-21T11:26:50Z",
  "homepage": {
   "status": 200,
   "bytes": 21354
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "jlfCVq1X70\u2026",
+  "session.sig": "TcGeVVN6bx\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNTI3ODdjYjIwODZlNzFhN2NiODBkMTQ5OWNmMjVlNjAiLCAic2NvcmUiOiAxLjE2NzIwODUxNjM1NDkzODR9"
+   "sequence": "eyJfaWQiOiAiMDg1MWVmYzNiNjUwNWQwMzNhMWIzYzlkN2MxMjY0MWUiLCAic2NvcmUiOiAxLjE3MDYyODM5MTU1NTU1NTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,53 +144,45 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://boards.greenhouse.io/andurilindustries/jobs/5303553007?gh_jid=5303553007",
-  "companyDomain": "anduril.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/1d88ae975c1da94cefaeb3234d6fb00f_238_160?Expires=1861920000&Signature=nPYp1JlJZNMHspk2VuS1aXOsrIHWSiYZCa1mo5aQgLIbL2xCLdDD0",
-  "companyId": "Anduril Industries",
-  "companySlug": "anduril-industries",
-  "companyName": "Anduril Industries",
-  "companyStaffCount": 10148,
+  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8353/",
+  "companyDomain": "infoblox.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
+  "companyId": "Infoblox",
+  "companySlug": "infoblox",
+  "companyName": "Infoblox",
+  "companyStaffCount": 3466,
   "considerHosted": false,
-  "departments": [
-   "Air Dominance & Strike : Air Dominance & Strike Engineering : Mission Systems Engineering"
-  ],
-  "jobTypes": [
-   {
-    "id": "systems-engineer",
-    "label": "Systems Engineer",
-    "value": "systems-engineer"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "departments": [],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "Costa Mesa, California, United States"
+   "United States",
+   "2106-2108 Pacific Avenue, Tacoma, WA, US"
   ],
   "normalizedLocations": [
    {
-    "id": "Costa Mesa, California",
-    "label": "Costa Mesa, California",
-    "value": "Costa Mesa, California"
+    "id": "Tacoma, Washington",
+    "label": "Tacoma, Washington",
+    "value": "Tacoma, Washington"
+   },
+   {
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 117000, 'maxValue': 150000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 179290, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
     "id": "resume:Equity",
@@ -198,24 +190,24 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:RF",
-    "label": "RF",
-    "value": "resume:RF"
+    "id": "resume:Project Status Reporting",
+    "label": "Project Status Reporting",
+    "value": "resume:Project Status Reporting"
    },
    {
-    "id": "resume:LiDAR",
-    "label": "LiDAR",
-    "value": "resume:LiDAR"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    },
    {
-    "id": "resume:Sensor Fusion",
-    "label": "Sensor Fusion",
-    "value": "resume:Sensor Fusion"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Radar",
-    "label": "Radar",
-    "value": "resume:Radar"
+    "id": "resume:Driving Results",
+    "label": "Driving Results",
+    "value": "resume:Driving Results"
    }
   ],
   "requiredSkills": [
@@ -225,41 +217,41 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:RF",
-    "label": "RF",
-    "value": "resume:RF"
+    "id": "resume:Project Status Reporting",
+    "label": "Project Status Reporting",
+    "value": "resume:Project Status Reporting"
    },
    {
-    "id": "resume:LiDAR",
-    "label": "LiDAR",
-    "value": "resume:LiDAR"
+    "id": "resume:Marketing Strategy",
+    "label": "Marketing Strategy",
+    "value": "resume:Marketing Strategy"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Sensor Fusion",
-    "label": "Sensor Fusion",
-    "value": "resume:Sensor Fusion"
+    "id": "resume:Networking",
+    "label": "Networking Technologies",
+    "value": "resume:Networking"
    },
    {
-    "id": "resume:Radar",
-    "label": "Radar",
-    "value": "resume:Radar"
+    "id": "resume:Driving Results",
+    "label": "Driving Results",
+    "value": "resume:Driving Results"
    },
    {
-    "id": "resume:Top Secret",
-    "label": "Clearance",
-    "value": "resume:Top Secret"
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
    },
    {
-    "id": "resume:Network Analyzer",
-    "label": "Network Analyzer",
-    "value": "resume:Network Analyzer"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Measurement Techniques",
-    "label": "Measurement Techniques",
-    "value": "resume:Measurement Techniques"
+    "id": "resume:Process Flow Documentation",
+    "label": "Process Flow Documentation",
+    "value": "resume:Process Flow Documentation"
    }
   ],
   "manager": false,
@@ -267,29 +259,35 @@
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
+  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
    },
    {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
-   },
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
    }
   ],
   "stages": [
@@ -297,39 +295,33 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Defense & Space",
-    "label": "Defense & Space",
-    "value": "Defense & Space"
+    "id": "Computer & Network Security",
+    "label": "Computer & Network Security",
+    "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-11-20T17:12:58Z",
-  "title": "Radar Systems Engineer, Early Career",
-  "url": "https://boards.greenhouse.io/andurilindustries/jobs/5303553007?gh_jid=5303553007",
-  "jobId": "5303553007",
-  "remote": false,
+  "timeStamp": "2026-11-21T06:10:26Z",
+  "title": "Senior Program Manager, Business Operations",
+  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8353/",
+  "jobId": "8353",
+  "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1915529160733, 'matchScore': 0, 'ageScore': 0.9915529160733024, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1963475038542, 'matchScore': 0, 'ageScore': 0.9963475038541667, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

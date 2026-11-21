@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-21T02:33:50Z",
+ "run": "2026-11-21T11:26:50Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "tlL3zmNJpG\u2026",
+  "session.sig": "R7s7pJQzWR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzJiYTJhZDk0OTY5YzdiYzQzNmM3ZjgyZmFiNjAzMDkiLCAic2NvcmUiOiAxLjEzMzc0NDQ5ODA4MjU2MTd9"
+   "sequence": "eyJfaWQiOiAiMDEyMmU4NDhjODVlYzVlNWU1NjQ1ZDExNWY3MDIyYjkiLCAic2NvcmUiOiAxLjEzODE2NjA1MjI5MjQzODR9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,184 +128,196 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.deel.com/klarna/job-details/7c0f2177-22d6-49f4-98aa-941f557aa601/overview",
-  "companyDomain": "klarna.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/73785c7ab0d22f7b707bd5dec79d235b_192_160?Expires=1861920000&Signature=ako7KvHdI8g4ubgIp3KmQ-LZSyakikQ0Rkyk9~L0kvyGoAA7pUAjC",
-  "companyId": "Klarna",
-  "companySlug": "klarna",
-  "companyName": "Klarna",
-  "companyStaffCount": 3705,
+  "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1f2d947a-2bdd-415a-991c-33b633fc9a85&ccId=19000101_000001&type=JS&lang=en_US&jobId=696218",
+  "companyDomain": "whipmedia.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/6a72e52c2c7f0e5806b94d2dbaaa5019_288_160?Expires=1861920000&Signature=MjzGBQRmqYlSC0RN7MBlK~6uPV8ozfny5cS5NPdQr3elvn1yMN9d0",
+  "companyId": "Whip Media",
+  "companySlug": "whip-media",
+  "companyName": "Whip Media",
+  "companyStaffCount": 98,
   "considerHosted": false,
   "departments": [],
   "jobTypes": [
    {
-    "id": "policy-professional",
-    "label": "Policy and Public Affairs",
-    "value": "policy-professional"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "senior-software-engineer",
+    "label": "Senior Software Engineer",
+    "value": "senior-software-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "New York"
+   "Santa Monica, CA, US"
   ],
   "normalizedLocations": [
    {
-    "id": "New York",
-    "label": "New York",
-    "value": "New York"
+    "id": "Santa Monica, California",
+    "label": "Santa Monica, California",
+    "value": "Santa Monica, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 198702, 'maxValue': 226521, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Data Warehousing",
+    "label": "Data Warehousing",
+    "value": "resume:Data Warehousing"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Amazon S3",
+    "label": "Amazon S3",
+    "value": "resume:Amazon S3"
    },
    {
-    "id": "resume:Credit Risk",
-    "label": "Credit Risk",
-    "value": "resume:Credit Risk"
+    "id": "resume:Spring Boot",
+    "label": "Spring Boot",
+    "value": "resume:Spring Boot"
    },
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:Statistics",
-    "label": "Statistics",
-    "value": "resume:Statistics"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Data Warehousing",
+    "label": "Data Warehousing",
+    "value": "resume:Data Warehousing"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:Amazon S3",
+    "label": "Amazon S3",
+    "value": "resume:Amazon S3"
    },
    {
-    "id": "resume:Credit Risk",
-    "label": "Credit Risk",
-    "value": "resume:Credit Risk"
+    "id": "resume:Spring Boot",
+    "label": "Spring Boot",
+    "value": "resume:Spring Boot"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Fraud",
-    "label": "Fraud",
-    "value": "resume:Fraud"
+    "id": "resume:PostgreSQL",
+    "label": "Postgres",
+    "value": "resume:PostgreSQL"
    },
    {
-    "id": "resume:Statistics",
-    "label": "Statistics",
-    "value": "resume:Statistics"
+    "id": "resume:Java",
+    "label": "Java",
+    "value": "resume:Java"
    },
    {
-    "id": "resume:Leases",
-    "label": "Leases",
-    "value": "resume:Leases"
+    "id": "resume:Digital Distribution",
+    "label": "Digital Distribution",
+    "value": "resume:Digital Distribution"
    },
    {
-    "id": "resume:Act-On",
-    "label": "Act-On",
-    "value": "resume:Act-On"
+    "id": "resume:Maintenance",
+    "label": "Maintenance",
+    "value": "resume:Maintenance"
    },
    {
-    "id": "resume:Governance",
-    "label": "Governance",
-    "value": "resume:Governance"
+    "id": "resume:Lambda",
+    "label": "Lambda",
+    "value": "resume:Lambda"
    }
   ],
-  "manager": true,
+  "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [],
+  "considerLevels": [
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "minYearsExp": 5,
   "regions": [
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "East Coast",
-    "label": "East Coast",
-    "value": "East Coast"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "ECommerce",
-    "label": "eCommerce",
-    "value": "ECommerce"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
-    "id": "Fintech",
-    "label": "FinTech",
-    "value": "Fintech"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-11-20T18:28:45.032000Z",
-  "title": "Head of US Financing Credit Policy",
-  "url": "https://jobs.deel.com/klarna/job-details/7c0f2177-22d6-49f4-98aa-941f557aa601/overview",
-  "jobId": "7c0f2177-22d6-49f4-98aa-941f557aa601",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "Enterprise Software",
+    "label": "Enterprise Software",
+    "value": "Enterprise Software"
+   },
+   {
+    "id": "SaaS",
+    "label": "SaaS",
+    "value": "SaaS"
+   }
+  ],
+  "timeStamp": "2026-11-21T04:04:00Z",
+  "title": "Senior Software Engineer",
+  "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1f2d947a-2bdd-415a-991c-33b633fc9a85&ccId=19000101_000001&type=JS&lang=en_US&jobId=696218",
+  "jobId": "696218",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1925089857662, 'matchScore': 0, 'ageScore': 0.9925089857662037, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1932461908581, 'matchScore': 0, 'ageScore': 0.9932461908580247, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior"
   ],
   "isFeatured": false
  },
