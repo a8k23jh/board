@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-11-20T21:18:48Z",
+ "run": "2026-11-21T02:33:50Z",
  "homepage": {
   "status": 200,
   "bytes": 26319
@@ -29,12 +29,12 @@
    "slug": "gv",
    "csrf_header": "x-csrf-token",
    "status": 200,
-   "body_head": "{\"version\":{\"client\":{\"git\":\"2fea78cf646dee77d0172306446034ab8982bfb4\",\"date\":\"2026-11-19T23:22:31.384Z\"},\"server\":{\"git\":\"2fea78cf646dee77d0172306446034ab8982bfb4\",\"date\":\"2026-11-19T23:22:31.384Z\"}}"
+   "body_head": "{\"version\":{\"client\":{\"git\":\"7ad5ba514e411f45ad4dc089e6e1d0d2021a1c91\",\"date\":\"2026-11-21T00:35:00.219Z\"},\"server\":{\"git\":\"7ad5ba514e411f45ad4dc089e6e1d0d2021a1c91\",\"date\":\"2026-11-21T00:35:00.219Z\"}}"
   }
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "QiQkidquzY\u2026",
+  "session.sig": "_yFCD5ri68\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -74,37 +74,37 @@
   {
    "variant": "query.searchQuery+promote",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.search",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.text",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.q",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "top.searchQuery",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   },
   {
    "variant": "query.keywords",
    "jobs": 100,
-   "kw_hit_rate": 0.0
+   "kw_hit_rate": 0.01
   }
  ],
  "response_shape": {
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiN2VjOGRkMzYxZDVkODc1ZWY2ZjRjNTZjOGNhYWE2ZjIiLCAic2NvcmUiOiAxLjE0MTg4MjkwNjA2ODI4NzF9"
+   "sequence": "eyJfaWQiOiAiNjkyMzljMWUwNzc3Yjk5NTkzNzg0Yjk0MDc1MGU2YzMiLCAic2NvcmUiOiAxLjE1MjUwMDg2ODk4ODgxMTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,110 +136,116 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "http://divergehealth.org/jobs/5303247007?gh_jid=5303247007",
-  "companyDomain": "divergecares.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/372629cff78db3e3b9e109612af5e471_256_160?Expires=1861920000&Signature=C3-P-U8Go~jqm8gVlNsK16Kzz1LUoboPvrcGuS4QIZ5b7ZnZ0JiqT",
-  "companyId": "Diverge Health",
-  "companySlug": "diverge-health",
-  "companyName": "Diverge Health",
-  "companyStaffCount": 120,
+  "applyUrl": "https://job-boards.greenhouse.io/freenome/jobs/8952870002",
+  "companyDomain": "freenome.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/8dce8521c43976b373a4cdad3a483222_288_160?Expires=1861920000&Signature=iWQn-Pm5UirGrdo6kZWy4rrOf3Snk7Ow-6X6~q8RzGwWgXjzZK-YB",
+  "companyId": "Freenome",
+  "companySlug": "freenome",
+  "companyName": "Freenome",
+  "companyStaffCount": 410,
   "considerHosted": false,
   "departments": [
-   "Practice Enablement "
+   "Research"
   ],
-  "jobTypes": [],
+  "jobTypes": [
+   {
+    "id": "research-associate",
+    "label": "Research Associate",
+    "value": "research-associate"
+   }
+  ],
   "jobFunctions": [],
   "locations": [
-   "Grand Rapids, MI"
+   "Brisbane, California"
   ],
   "normalizedLocations": [
    {
-    "id": "Grand Rapids, Michigan",
-    "label": "Grand Rapids, Michigan",
-    "value": "Grand Rapids, Michigan"
+    "id": "Brisbane, California",
+    "label": "Brisbane, California",
+    "value": "Brisbane, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 90000, 'maxValue': 105000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 97850, 'maxValue': 126000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Biochemistry",
+    "label": "Biochemistry",
+    "value": "resume:Biochemistry"
    },
    {
-    "id": "resume:Healthcare Management",
-    "label": "Healthcare Management",
-    "value": "resume:Healthcare Management"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Medicaid",
-    "label": "Medicaid",
-    "value": "resume:Medicaid"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Scheduling",
-    "label": "Scheduling",
-    "value": "resume:Scheduling"
+    "id": "resume:Biochemistry",
+    "label": "Biochemistry",
+    "value": "resume:Biochemistry"
    },
    {
-    "id": "resume:Healthcare Management",
-    "label": "Healthcare Management",
-    "value": "resume:Healthcare Management"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Customer Facing Roles",
-    "label": "Customer Facing Roles",
-    "value": "resume:Customer Facing Roles"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Analytics",
-    "label": "Analytics",
-    "value": "resume:Analytics"
+    "id": "resume:Troubleshooting",
+    "label": "Troubleshooting",
+    "value": "resume:Troubleshooting"
    },
    {
-    "id": "resume:Medicaid",
-    "label": "Medicaid",
-    "value": "resume:Medicaid"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:Service",
-    "label": "Service",
-    "value": "resume:Service"
+    "id": "resume:In Vitro",
+    "label": "In Vitro",
+    "value": "resume:In Vitro"
    },
    {
-    "id": "resume:Business Management",
-    "label": "Business Management",
-    "value": "resume:Business Management"
+    "id": "resume:Molecular Biology",
+    "label": "Molecular Biology",
+    "value": "resume:Molecular Biology"
    },
    {
-    "id": "resume:Primary Care",
-    "label": "Primary Care",
-    "value": "resume:Primary Care"
+    "id": "resume:Assay Development",
+    "label": "Assay Development",
+    "value": "resume:Assay Development"
    }
   ],
   "manager": false,
@@ -247,36 +253,26 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
-   ],
-   [
     3,
     4
    ]
   ],
-  "minYearsExp": 2,
-  "maxYearsExp": 4,
+  "minYearsExp": 4,
   "regions": [
    {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    },
    {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
    }
   ],
   "stages": [
@@ -284,32 +280,34 @@
     "id": "100-1000 employees",
     "label": "100-1000 employees",
     "value": "100-1000 employees"
-   },
-   {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
   "markets": [
    {
-    "id": "Hospital & Health Care",
-    "label": "Hospital & Health Care",
-    "value": "Hospital & Health Care"
+    "id": "Biotech/Pharma",
+    "label": "Biotech/Pharma",
+    "value": "Biotech/Pharma"
    }
   ],
-  "timeStamp": "2026-11-20T08:17:31Z",
-  "title": "Practice Liaison",
-  "url": "http://divergehealth.org/jobs/5303247007?gh_jid=5303247007",
-  "jobId": "5303247007",
+  "timeStamp": "2026-11-20T17:16:13Z",
+  "title": "Senior Research Associate",
+  "url": "https://job-boards.greenhouse.io/freenome/jobs/8952870002",
+  "jobId": "8952870002",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1868039389753, 'matchScore': 0, 'ageScore': 0.9868039389753086, 'richnessScore': 2}",
+  "scores": "{'score': 1001.191700606845, 'matchScore': 0, 'ageScore': 0.9917006068449075, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
+   }
+  ],
+  "jobSeniorityIds": [
+   "senior"
+  ],
   "isFeatured": false
  },
  "search_mode": {
