@@ -1,6 +1,6 @@
 {
  "board": "lightspeed",
- "run": "2026-11-21T19:30:32Z",
+ "run": "2026-11-22T00:29:11Z",
  "homepage": {
   "status": 200,
   "bytes": 21354
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "wtWNvyFY7o\u2026",
+  "session.sig": "72DE0dMHwO\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZjAzODcwMzA5YmYzNmIzODAyOGM1MDVlZThjOTMyYWIiLCAic2NvcmUiOiAxLjE1ODc5NTc4NzY0NDI5fQ=="
+   "sequence": "eyJfaWQiOiAiZjAzODcwMzA5YmYzNmIzODAyOGM1MDVlZThjOTMyYWIiLCAic2NvcmUiOiAxLjE1NDAzMTY5OTA3MDYwMTl9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8369/",
+  "applyUrl": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8353/",
   "companyDomain": "infoblox.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/26789fb36392f7f0e1794ad614ea4dea_240_160?Expires=1861920000&Signature=n~~4c7RaE~X4g6UBmEF4HJgi1cgj~oZ9nDYMBA4g34umcDiiG0OtO",
   "companyId": "Infoblox",
@@ -164,91 +164,57 @@
   "companyStaffCount": 3466,
   "considerHosted": false,
   "departments": [],
-  "jobTypes": [
-   {
-    "id": "product-operations",
-    "label": "Strategy & Product Operations",
-    "value": "product-operations"
-   },
-   {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Supply Chain",
-    "label": "Supply Chain",
-    "value": "Supply Chain"
-   }
-  ],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "Burnaby, BC, Canada",
-   "Infoblox Canada Ltd, BURNABY, CA"
+   "United States",
+   "2106-2108 Pacific Avenue, Tacoma, WA, US"
   ],
   "normalizedLocations": [
    {
-    "id": "Canada",
-    "label": "Canada",
-    "value": "Canada"
+    "id": "Tacoma, Washington",
+    "label": "Tacoma, Washington",
+    "value": "Tacoma, Washington"
    },
    {
-    "id": "Burnaby, British Columbia, Canada",
-    "label": "Burnaby, British Columbia, Canada",
-    "value": "Burnaby, British Columbia, Canada"
+    "id": "United States",
+    "label": "United States",
+    "value": "United States"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 130000, 'currency': {'label': 'CAD', 'value': 'CAD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 130000, 'maxValue': 179290, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   },
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
    {
     "id": "resume:Process Flow Documentation",
     "label": "Process Flow Documentation",
     "value": "resume:Process Flow Documentation"
    },
    {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
-   },
-   {
     "id": "resume:Equity",
     "label": "Equity",
     "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
+   },
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Project Status Reporting",
+    "label": "Project Status Reporting",
+    "value": "resume:Project Status Reporting"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Networking",
-    "label": "Networking Technologies",
-    "value": "resume:Networking"
-   },
-   {
-    "id": "resume:B2B",
-    "label": "B2B",
-    "value": "resume:B2B"
-   },
-   {
     "id": "resume:Process Flow Documentation",
     "label": "Process Flow Documentation",
     "value": "resume:Process Flow Documentation"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Product Engineering",
-    "label": "Product Engineering",
-    "value": "resume:Product Engineering"
    },
    {
     "id": "resume:Equity",
@@ -256,22 +222,39 @@
     "value": "resume:Equity"
    },
    {
-    "id": "resume:Product Operations",
-    "label": "Product Operations",
-    "value": "resume:Product Operations"
-   },
-   {
-    "id": "resume:Asana",
-    "label": "Asana",
-    "value": "resume:Asana"
-   },
-   {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Project Management",
+    "label": "Project Management",
+    "value": "resume:Project Management"
    }
   ],
-  "manager": true,
+  "preferredSkills": [
+   {
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
+   },
+   {
+    "id": "resume:Project Status Reporting",
+    "label": "Project Status Reporting",
+    "value": "resume:Project Status Reporting"
+   },
+   {
+    "id": "resume:Governance",
+    "label": "Governance",
+    "value": "resume:Governance"
+   },
+   {
+    "id": "resume:Driving Results",
+    "label": "Driving Results",
+    "value": "resume:Driving Results"
+   },
+   {
+    "id": "resume:Program Management",
+    "label": "Program Management",
+    "value": "resume:Program Management"
+   }
+  ],
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
@@ -282,20 +265,29 @@
    [
     7,
     8
-   ],
-   [
-    9,
-    10,
-    11,
-    12
    ]
   ],
-  "minYearsExp": 15,
+  "minYearsExp": 8,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -312,24 +304,24 @@
     "value": "Computer & Network Security"
    }
   ],
-  "timeStamp": "2026-11-21T06:10:21Z",
-  "title": "Senior Manager, Product Operations - Process Excellence",
-  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8369/",
-  "jobId": "8369",
-  "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.184656510059, 'matchScore': 0, 'ageScore': 0.9846565100590278, 'richnessScore': 2}",
+  "timeStamp": "2026-11-21T06:10:26Z",
+  "title": "Senior Program Manager, Business Operations",
+  "url": "https://efpv.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8353/",
+  "jobId": "8353",
+  "remote": true,
+  "hybrid": false,
+  "scores": "{'score': 1001.1800683574972, 'matchScore': 0, 'ageScore': 0.9800683574972994, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "senior"
   ],
   "isFeatured": false
  },
