@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-22T16:27:19Z",
+ "run": "2026-11-22T22:35:04Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "i9UCllPUQf\u2026",
+  "session.sig": "Q_mgfkplEl\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMmYwOGE4NjhkYTdiODc4MTc3ZWM4NDdkZjBhM2VmMjUiLCAic2NvcmUiOiAxLjA5NzcyOTAxNjQ1Njc5fQ=="
+   "sequence": "eyJfaWQiOiAiZmIzZmUxMWZkMGQ1NjNiMGZlMzUwZDc4NzFlNmZiZmYiLCAic2NvcmUiOiAxLjA4OTMxMjYxNTExNDk2OX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,14 +152,14 @@
   ],
   "jobTypes": [
    {
-    "id": "research-scientist",
-    "label": "Research Scientist",
-    "value": "research-scientist"
-   },
-   {
     "id": "engineer",
     "label": "Engineer",
     "value": "engineer"
+   },
+   {
+    "id": "research-scientist",
+    "label": "Research Scientist",
+    "value": "research-scientist"
    }
   ],
   "jobFunctions": [
@@ -199,58 +199,9 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 500000, 'maxValue': 850000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
-   },
-   {
-    "id": "resume:Reinforcement Learning",
-    "label": "Reinforcement Learning",
-    "value": "resume:Reinforcement Learning"
-   },
-   {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
-   },
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Physics",
-    "label": "Physics",
-    "value": "resume:Physics"
-   },
-   {
-    "id": "resume:Reinforcement Learning",
-    "label": "Reinforcement Learning",
-    "value": "resume:Reinforcement Learning"
-   },
-   {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:State & Local",
-    "label": "State & Local",
-    "value": "resume:State & Local"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
     "id": "resume:Biology",
@@ -258,14 +209,63 @@
     "value": "resume:Biology"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    },
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   }
+  ],
+  "requiredSkills": [
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
+   },
+   {
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Sales Commission",
+    "label": "Sales Commission",
+    "value": "resume:Sales Commission"
+   },
+   {
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:ML Infrastructure",
+    "label": "ML Infrastructure",
+    "value": "resume:ML Infrastructure"
+   },
+   {
+    "id": "resume:Reinforcement Learning",
+    "label": "Reinforcement Learning",
+    "value": "resume:Reinforcement Learning"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "manager": false,
@@ -274,14 +274,19 @@
   "considerLevels": [],
   "regions": [
    {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
-   {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "Northeast",
@@ -292,11 +297,6 @@
     "id": "East Coast",
     "label": "East Coast",
     "value": "East Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -330,7 +330,7 @@
   "jobId": "5489567008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1568053270178, 'matchScore': 0, 'ageScore': 0.9568053270177469, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1491520547947, 'matchScore': 0, 'ageScore': 0.9491520547947531, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
