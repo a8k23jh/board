@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-22T08:13:39Z",
+ "run": "2026-11-22T16:27:19Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1vxcHTF8MK\u2026",
+  "session.sig": "i9UCllPUQf\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGM5NTAyYjYzMmM2NzVmOTRjYTRjOGZjZDEzOWM2NTUiLCAic2NvcmUiOiAxLjEwOTg0MzQwNzQ5NjkxMzd9"
+   "sequence": "eyJfaWQiOiAiMmYwOGE4NjhkYTdiODc4MTc3ZWM4NDdkZjBhM2VmMjUiLCAic2NvcmUiOiAxLjA5NzcyOTAxNjQ1Njc5fQ=="
   },
   "job_keys": [
    "applicationWindow",
@@ -152,14 +152,14 @@
   ],
   "jobTypes": [
    {
-    "id": "engineer",
-    "label": "Engineer",
-    "value": "engineer"
-   },
-   {
     "id": "research-scientist",
     "label": "Research Scientist",
     "value": "research-scientist"
+   },
+   {
+    "id": "engineer",
+    "label": "Engineer",
+    "value": "engineer"
    }
   ],
   "jobFunctions": [
@@ -181,11 +181,6 @@
   ],
   "normalizedLocations": [
    {
-    "id": "Seattle, Washington",
-    "label": "Seattle, Washington",
-    "value": "Seattle, Washington"
-   },
-   {
     "id": "San Francisco, California",
     "label": "San Francisco, California",
     "value": "San Francisco, California"
@@ -194,6 +189,11 @@
     "id": "New York, New York",
     "label": "New York, New York",
     "value": "New York, New York"
+   },
+   {
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
    }
   ],
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 500000, 'maxValue': 850000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
@@ -204,14 +204,14 @@
     "value": "resume:Physics"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Reinforcement Learning",
+    "label": "Reinforcement Learning",
+    "value": "resume:Reinforcement Learning"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:ML Infrastructure",
+    "label": "ML Infrastructure",
+    "value": "resume:ML Infrastructure"
    },
    {
     "id": "resume:Research",
@@ -219,9 +219,9 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:State & Local",
+    "label": "State & Local",
+    "value": "resume:State & Local"
    }
   ],
   "requiredSkills": [
@@ -231,14 +231,14 @@
     "value": "resume:Physics"
    },
    {
-    "id": "resume:Biology",
-    "label": "Biology",
-    "value": "resume:Biology"
+    "id": "resume:Reinforcement Learning",
+    "label": "Reinforcement Learning",
+    "value": "resume:Reinforcement Learning"
    },
    {
-    "id": "resume:Python",
-    "label": "Python",
-    "value": "resume:Python"
+    "id": "resume:ML Infrastructure",
+    "label": "ML Infrastructure",
+    "value": "resume:ML Infrastructure"
    }
   ],
   "preferredSkills": [
@@ -248,24 +248,24 @@
     "value": "resume:Research"
    },
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
-   },
-   {
     "id": "resume:State & Local",
     "label": "State & Local",
     "value": "resume:State & Local"
    },
    {
-    "id": "resume:ML Infrastructure",
-    "label": "ML Infrastructure",
-    "value": "resume:ML Infrastructure"
+    "id": "resume:Biology",
+    "label": "Biology",
+    "value": "resume:Biology"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Equity",
+    "label": "Equity",
+    "value": "resume:Equity"
+   },
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    }
   ],
   "manager": false,
@@ -273,21 +273,6 @@
   "contractor": false,
   "considerLevels": [],
   "regions": [
-   {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
-   },
-   {
-    "id": "Mid Atlantic",
-    "label": "Mid Atlantic",
-    "value": "Mid Atlantic"
-   },
    {
     "id": "North America",
     "label": "North America",
@@ -297,6 +282,21 @@
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -330,7 +330,7 @@
   "jobId": "5489567008",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1695708675193, 'matchScore': 0, 'ageScore': 0.9695708675192901, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1568053270178, 'matchScore': 0, 'ageScore': 0.9568053270177469, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
