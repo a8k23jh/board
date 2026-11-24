@@ -1,6 +1,7 @@
 {
  "board": "felicis",
- "run": "2026-11-23T14:58:43Z",
+ "run": "2026-11-24T02:22:26Z",
+ "first_attempt_error": "HTTPSConnectionPool(host='jobs.felicis.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
  "homepage": {
   "status": 200,
   "bytes": 25383
@@ -34,7 +35,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "PZ-sgD93KD\u2026",
+  "session.sig": "E07PpSUwbR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +120,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzIzZTk4MzI1NDYwYWI1NmNiNGM5N2M3YmViMjhmMmUiLCAic2NvcmUiOiAxLjA0OTg2ODczNTQxMjAzN30="
+   "sequence": "eyJfaWQiOiAiM2I0OTI3NTE3MDY0MDBlMDhhMjg1NGZiYjg1MWMwMTkiLCAic2NvcmUiOiAxLjAzNjA4NjEwMTU1OTc5OTN9"
   },
   "job_keys": [
    "applicationWindow",
@@ -147,147 +148,118 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/radiant-industries/61debea0-d7cc-4bce-bd84-ced820a323cc?utm_source=jobs.felicis.com",
-  "companyDomain": "radiantnuclear.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/5a48343bc6fe59cb550078e8e625dc44_256_160?Expires=1861920000&Signature=SyckoCKEv~EgL1wgDH34-h1jXUe5Andwfb1~9hxLpZYdPDoV31L~r",
-  "companyId": "Radiant",
-  "companySlug": "radiant",
-  "companyName": "Radiant",
-  "companyStaffCount": 561,
+  "applyUrl": "https://app.careerpuck.com/job-board/prenuvo/job/4756950005",
+  "companyDomain": "prenuvo.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f855494ad06dbd721840918e60608cc8_224_160?Expires=1861920000&Signature=F2KsitJcPnsGLTQzMVD4Ftje4BCUz1jm~hj5Mb1raR1Vzkp~b6xD~",
+  "companyId": "Prenuvo",
+  "companySlug": "prenuvo",
+  "companyName": "Prenuvo",
+  "companyStaffCount": 422,
   "considerHosted": false,
-  "departments": [
-   "Production & Manufacturing"
-  ],
-  "jobTypes": [
-   {
-    "id": "machine-operator",
-    "label": "Machine Operator",
-    "value": "machine-operator"
-   },
-   {
-    "id": "technician",
-    "label": "Technician",
-    "value": "technician"
-   }
-  ],
-  "jobFunctions": [
-   {
-    "id": "Technician",
-    "label": "Technician",
-    "value": "Technician"
-   }
-  ],
+  "departments": [],
+  "jobTypes": [],
+  "jobFunctions": [],
   "locations": [
-   "El Segundo, California, United States"
+   "Atlanta, Georgia, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "El Segundo, California",
-    "label": "El Segundo, California",
-    "value": "El Segundo, California"
+    "id": "Atlanta, Georgia",
+    "label": "Atlanta, Georgia",
+    "value": "Atlanta, Georgia"
    }
   ],
-  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 45, 'maxValue': 61, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Gantry",
-    "label": "Gantry",
-    "value": "resume:Gantry"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:CATIA",
-    "label": "CATIA",
-    "value": "resume:CATIA"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:GD&T",
-    "label": "GD&T",
-    "value": "resume:GD&T"
+    "id": "resume:Radiologic",
+    "label": "Radiologic",
+    "value": "resume:Radiologic"
    },
    {
-    "id": "resume:Navy",
-    "label": "Navy",
-    "value": "resume:Navy"
+    "id": "resume:BLS",
+    "label": "BLS",
+    "value": "resume:BLS"
    },
    {
-    "id": "resume:Machine Tools",
-    "label": "Machine Tools",
-    "value": "resume:Machine Tools"
+    "id": "resume:Magnetic Resonance Imaging",
+    "label": "Magnetic Resonance Imaging",
+    "value": "resume:Magnetic Resonance Imaging"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Gantry",
-    "label": "Gantry",
-    "value": "resume:Gantry"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:CATIA",
-    "label": "CATIA",
-    "value": "resume:CATIA"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:GD&T",
-    "label": "GD&T",
-    "value": "resume:GD&T"
+    "id": "resume:Radiologic",
+    "label": "Radiologic",
+    "value": "resume:Radiologic"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Navy",
-    "label": "Navy",
-    "value": "resume:Navy"
+    "id": "resume:BLS",
+    "label": "BLS",
+    "value": "resume:BLS"
    },
    {
-    "id": "resume:Machine Tools",
-    "label": "Machine Tools",
-    "value": "resume:Machine Tools"
+    "id": "resume:Magnetic Resonance Imaging",
+    "label": "Magnetic Resonance Imaging",
+    "value": "resume:Magnetic Resonance Imaging"
    },
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Recruiting",
+    "label": "Recruiting",
+    "value": "resume:Recruiting"
    },
    {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Imaging",
+    "label": "Imaging",
+    "value": "resume:Imaging"
    },
    {
-    "id": "resume:Infrastructure",
-    "label": "Infrastructure",
-    "value": "resume:Infrastructure"
+    "id": "resume:Cross-functional Team Leadership",
+    "label": "Cross-functional Team Leadership",
+    "value": "resume:Cross-functional Team Leadership"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
-  "minYearsExp": 8,
+  "considerLevels": [],
   "regions": [
+   {
+    "id": "South Atlantic",
+    "label": "South Atlantic",
+    "value": "South Atlantic"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
    },
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Deep South",
+    "label": "Deep South",
+    "value": "Deep South"
    }
   ],
   "stages": [
@@ -305,33 +277,26 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Energy",
-    "label": "Energy",
-    "value": "Energy"
+    "id": "Medical Devices",
+    "label": "Medical Devices",
+    "value": "Medical Devices"
    }
   ],
-  "timeStamp": "2026-11-23T00:00:00Z",
-  "title": "Senior CNC Machinist, Large Format Parts",
-  "url": "https://jobs.ashbyhq.com/radiant-industries/61debea0-d7cc-4bce-bd84-ced820a323cc",
-  "jobId": "61debea0-d7cc-4bce-bd84-ced820a323cc",
+  "timeStamp": "2026-11-23T21:33:42.905000Z",
+  "title": "MRI Technologist",
+  "url": "https://app.careerpuck.com/job-board/prenuvo/job/4756950005",
+  "jobId": "Z9p0DpAL",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1845924837161, 'matchScore': 0, 'ageScore': 0.9845924837160493, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1968662465679, 'matchScore': 0, 'ageScore': 0.9968662465679012, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   }
-  ],
-  "jobSeniorityIds": [
-   "senior"
-  ],
+  "jobSeniorities": [],
+  "jobSeniorityIds": [],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- }
+ },
+ "succeeded_on_retry": true
 }
