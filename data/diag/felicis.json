@@ -1,7 +1,6 @@
 {
  "board": "felicis",
- "run": "2026-11-24T02:22:26Z",
- "first_attempt_error": "HTTPSConnectionPool(host='jobs.felicis.com', port=443): Max retries exceeded with url: /jobs (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+ "run": "2026-11-24T12:45:52Z",
  "homepage": {
   "status": 200,
   "bytes": 25383
@@ -35,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "E07PpSUwbR\u2026",
+  "session.sig": "Q-fWeZj5JR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -120,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiM2I0OTI3NTE3MDY0MDBlMDhhMjg1NGZiYjg1MWMwMTkiLCAic2NvcmUiOiAxLjAzNjA4NjEwMTU1OTc5OTN9"
+   "sequence": "eyJfaWQiOiAiMjdmMjQzZTJmN2YzMjlmODhhZjdmMTg0NWFkNTQ3ZWIiLCAic2NvcmUiOiAxLjA0ODk4ODk3MDM2MTExMX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -148,97 +147,116 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://app.careerpuck.com/job-board/prenuvo/job/4756950005",
-  "companyDomain": "prenuvo.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/f855494ad06dbd721840918e60608cc8_224_160?Expires=1861920000&Signature=F2KsitJcPnsGLTQzMVD4Ftje4BCUz1jm~hj5Mb1raR1Vzkp~b6xD~",
-  "companyId": "Prenuvo",
-  "companySlug": "prenuvo",
-  "companyName": "Prenuvo",
-  "companyStaffCount": 422,
+  "applyUrl": "https://jobs.ashbyhq.com/mercor/0ff1a380-a976-411f-ab3d-9bf8cb2ef383?utm_source=jobs.felicis.com",
+  "companyDomain": "mercor.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/23f7d8083a130ec5d43995fda74ff9f8_288_160?Expires=1861920000&Signature=XfgzK~V8p5kb9sfbMGy4LpE2qFShH0oZT3AtCBJLe4ESEgy-mdGw-",
+  "companyId": "Mercor",
+  "companySlug": "mercor",
+  "companyName": "Mercor",
+  "companyStaffCount": 8184,
   "considerHosted": false,
-  "departments": [],
-  "jobTypes": [],
-  "jobFunctions": [],
+  "departments": [
+   "Engineering"
+  ],
+  "jobTypes": [
+   {
+    "id": "production-engineer",
+    "label": "Production Engineer",
+    "value": "production-engineer"
+   },
+   {
+    "id": "site-reliability-engineer",
+    "label": "Site Reliability Engineer (SRE)",
+    "value": "site-reliability-engineer"
+   }
+  ],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Atlanta, Georgia, United States"
+   "San Francisco, California, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Atlanta, Georgia",
-    "label": "Atlanta, Georgia",
-    "value": "Atlanta, Georgia"
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 85000, 'maxValue': 110000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 160000, 'maxValue': 500000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Okta Single Sign-on",
+    "label": "Okta Single Sign-on",
+    "value": "resume:Okta Single Sign-on"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Apache Apex",
+    "label": "Apache Apex",
+    "value": "resume:Apache Apex"
    },
    {
-    "id": "resume:Radiologic",
-    "label": "Radiologic",
-    "value": "resume:Radiologic"
+    "id": "resume:D programming language",
+    "label": "D programming language",
+    "value": "resume:D programming language"
    },
    {
-    "id": "resume:BLS",
-    "label": "BLS",
-    "value": "resume:BLS"
+    "id": "resume:Valuation",
+    "label": "Valuation",
+    "value": "resume:Valuation"
    },
    {
-    "id": "resume:Magnetic Resonance Imaging",
-    "label": "Magnetic Resonance Imaging",
-    "value": "resume:Magnetic Resonance Imaging"
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Artificial Intelligence",
-    "label": "Artificial Intelligence",
-    "value": "resume:Artificial Intelligence"
+    "id": "resume:Okta Single Sign-on",
+    "label": "Okta Single Sign-on",
+    "value": "resume:Okta Single Sign-on"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Apache Apex",
+    "label": "Apache Apex",
+    "value": "resume:Apache Apex"
    },
    {
-    "id": "resume:Radiologic",
-    "label": "Radiologic",
-    "value": "resume:Radiologic"
+    "id": "resume:D programming language",
+    "label": "D programming language",
+    "value": "resume:D programming language"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:BLS",
-    "label": "BLS",
-    "value": "resume:BLS"
+    "id": "resume:Valuation",
+    "label": "Valuation",
+    "value": "resume:Valuation"
    },
    {
-    "id": "resume:Magnetic Resonance Imaging",
-    "label": "Magnetic Resonance Imaging",
-    "value": "resume:Magnetic Resonance Imaging"
+    "id": "resume:Terraform",
+    "label": "Terraform",
+    "value": "resume:Terraform"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:MongoDB",
+    "label": "MongoDB",
+    "value": "resume:MongoDB"
    },
    {
-    "id": "resume:Imaging",
-    "label": "Imaging",
-    "value": "resume:Imaging"
+    "id": "resume:Python",
+    "label": "Python",
+    "value": "resume:Python"
    },
    {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
+    "id": "resume:Grafana",
+    "label": "Grafana",
+    "value": "resume:Grafana"
    }
   ],
   "manager": false,
@@ -247,26 +265,26 @@
   "considerLevels": [],
   "regions": [
    {
-    "id": "South Atlantic",
-    "label": "South Atlantic",
-    "value": "South Atlantic"
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "Deep South",
-    "label": "Deep South",
-    "value": "Deep South"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
     "id": "Growth",
@@ -277,26 +295,33 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Medical Devices",
-    "label": "Medical Devices",
-    "value": "Medical Devices"
+    "id": "HR and Recruiting",
+    "label": "HR and Recruiting",
+    "value": "HR and Recruiting"
    }
   ],
-  "timeStamp": "2026-11-23T21:33:42.905000Z",
-  "title": "MRI Technologist",
-  "url": "https://app.careerpuck.com/job-board/prenuvo/job/4756950005",
-  "jobId": "Z9p0DpAL",
+  "timeStamp": "2026-11-24T00:00:00Z",
+  "title": "Production Engineer, Infrastructure",
+  "url": "https://jobs.ashbyhq.com/mercor/0ff1a380-a976-411f-ab3d-9bf8cb2ef383",
+  "jobId": "0ff1a380-a976-411f-ab3d-9bf8cb2ef383",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1968662465679, 'matchScore': 0, 'ageScore': 0.9968662465679012, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1886848970714, 'matchScore': 0, 'ageScore': 0.9886848970713734, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
-  "jobSeniorities": [],
-  "jobSeniorityIds": [],
+  "jobSeniorities": [
+   {
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   }
+  ],
+  "jobSeniorityIds": [
+   "mid"
+  ],
   "isFeatured": false
  },
  "search_mode": {
   "variant": "cursor:meta.sequence"
- },
- "succeeded_on_retry": true
+ }
 }
