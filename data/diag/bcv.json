@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-24T12:45:52Z",
+ "run": "2026-11-24T23:07:10Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "RFNQLKQCPV\u2026",
+  "session.sig": "M2Es0FCzNo\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiMGM3YmZmODNkYzllNzM2YTBhNWUxMDVmMDcxZTFkOGMiLCAic2NvcmUiOiAxLjA2NzQwOTk3MjAzMjAyMTZ9"
+   "sequence": "eyJfaWQiOiAiYTE1MGI4NjA2YWUzNDQ5M2Y2MTdiNTYwYzkxNWNjOTUiLCAic2NvcmUiOiAxLjA2NTQ2MjU3Nzk4NzI2ODZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,122 +152,132 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/DatologyAI/96893f84-c9e3-44c5-8d22-adf45c6823ff?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "datologyai.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/72fbe33309ad05a3683fecef86fe2c38_320_160?Expires=1861920000&Signature=N92RqhldLbz2AtXZK2GYu5uDluMKLlqONHdEq7FqSopl-tpfnxPrw",
-  "companyId": "DatologyAI",
-  "companySlug": "datologyai",
-  "companyName": "DatologyAI",
-  "companyStaffCount": 85,
+  "applyUrl": "https://www.rubrik.com/company/careers/departments/job.8385640?gh_jid=8385640",
+  "companyDomain": "rubrik.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/35b32caf7afd5dcbacf9b127e064a74c_240_160?Expires=1861920000&Signature=tFI1Cjso4w0tkgpR1k20QMYTdNQlzWLL6jynAO197zbCRXhV0071v",
+  "companyId": "Rubrik",
+  "companySlug": "rubrik",
+  "companyName": "Rubrik",
+  "companyStaffCount": 5202,
   "considerHosted": false,
   "departments": [
-   "G&A"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "people-operations",
-    "label": "People Operations",
-    "value": "people-operations"
+    "id": "sales-professional",
+    "label": "Sales Professional",
+    "value": "sales-professional"
+   },
+   {
+    "id": "account-executive",
+    "label": "Account Executive",
+    "value": "account-executive"
+   },
+   {
+    "id": "sales",
+    "label": "Sales",
+    "value": "sales"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Human Resources",
-    "label": "Human Resources",
-    "value": "Human Resources"
+    "id": "Sales",
+    "label": "Sales",
+    "value": "Sales"
    }
   ],
   "locations": [
-   "San Mateo, CA, United States"
+   "Remote - New Jersey"
   ],
   "normalizedLocations": [
    {
-    "id": "San Mateo, California",
-    "label": "San Mateo, California",
-    "value": "San Mateo, California"
+    "id": "New Jersey",
+    "label": "New Jersey",
+    "value": "New Jersey"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 140000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 150000, 'maxValue': 170000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
-   },
-   {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
-   },
-   {
-    "id": "resume:HRIS",
-    "label": "HR Systems",
-    "value": "resume:HRIS"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:Research",
-    "label": "Research",
-    "value": "resume:Research"
-   },
-   {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
-   },
-   {
-    "id": "resume:Payroll",
-    "label": "Payroll",
-    "value": "resume:Payroll"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Audit",
-    "label": "Audit",
-    "value": "resume:Audit"
-   },
-   {
-    "id": "resume:HRIS",
-    "label": "HR Systems",
-    "value": "resume:HRIS"
-   },
-   {
-    "id": "resume:Data Management",
-    "label": "Data Engineering",
-    "value": "resume:Data Management"
-   },
-   {
-    "id": "resume:Benefits Administration",
-    "label": "Benefits Administration",
-    "value": "resume:Benefits Administration"
-   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
+   },
+   {
+    "id": "resume:Instagram",
+    "label": "Instagram",
+    "value": "resume:Instagram"
+   },
+   {
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
+   },
+   {
+    "id": "resume:System Integrators",
+    "label": "System Integrators",
+    "value": "resume:System Integrators"
+   }
+  ],
+  "requiredSkills": [
+   {
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
+   },
+   {
+    "id": "resume:LinkedIn",
+    "label": "LinkedIn",
+    "value": "resume:LinkedIn"
+   },
+   {
+    "id": "resume:Instagram",
+    "label": "Instagram",
+    "value": "resume:Instagram"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Business Development",
+    "label": "Business Development",
+    "value": "resume:Business Development"
+   },
+   {
+    "id": "resume:System Integrators",
+    "label": "System Integrators",
+    "value": "resume:System Integrators"
+   },
+   {
+    "id": "resume:HCL",
+    "label": "HCL",
+    "value": "resume:HCL"
+   },
+   {
+    "id": "resume:Pipeline Management",
+    "label": "Pipeline Management",
+    "value": "resume:Pipeline Management"
+   },
+   {
+    "id": "resume:Deal Registration",
+    "label": "Deal Registration",
+    "value": "resume:Deal Registration"
    }
   ],
   "manager": false,
@@ -283,61 +293,61 @@
     6
    ]
   ],
+  "minYearsExp": 6,
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
+    "id": "Mid Atlantic",
+    "label": "Mid Atlantic",
+    "value": "Mid Atlantic"
    },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "East Coast",
+    "label": "East Coast",
+    "value": "East Coast"
+   },
+   {
+    "id": "Northeast",
+    "label": "Northeast",
+    "value": "Northeast"
    }
   ],
   "stages": [
    {
-    "id": "10-100 employees",
-    "label": "10-100 employees",
-    "value": "10-100 employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "AI",
-    "label": "AI",
-    "value": "AI"
+    "id": "Cloud Services",
+    "label": "Cloud Services",
+    "value": "Cloud Services"
    }
   ],
-  "timeStamp": "2026-11-24T00:00:00Z",
-  "title": "People Operations Manager",
-  "url": "https://jobs.ashbyhq.com/DatologyAI/96893f84-c9e3-44c5-8d22-adf45c6823ff",
-  "jobId": "96893f84-c9e3-44c5-8d22-adf45c6823ff",
+  "timeStamp": "2026-11-24T08:04:39Z",
+  "title": "GSI Account Executive - LTM/HCL",
+  "url": "https://www.rubrik.com/company/careers/departments/job.8385640?gh_jid=8385640",
+  "jobId": "8385640",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1881017784912, 'matchScore': 0, 'ageScore': 0.9881017784911266, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1831483599483, 'matchScore': 0, 'ageScore': 0.9831483599483025, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "manager",
-    "label": "Manager/Senior Manager",
-    "value": "manager"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
    }
   ],
   "jobSeniorityIds": [
-   "manager"
+   "mid"
   ],
   "isFeatured": false
  },
