@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-25T05:31:00Z",
+ "run": "2026-11-25T17:26:23Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "KsLCDlinIy\u2026",
+  "session.sig": "6tGxeD2vkL\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNzMyYmFlMWRiZDMzNjgyYmVjYWYxNjY0NGQ2YWNhZGEiLCAic2NvcmUiOiAxLjA5MDYyODk5MzU2Mjg4Nn0="
+   "sequence": "eyJfaWQiOiAiZGM1YjM4YmYxODQ2NWZmMmE3ZTE2OGZiZGFjM2UyYTEiLCAic2NvcmUiOiAxLjEzMjQ2NzU1ODQ0MDIwMDZ9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,127 +155,105 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/chainguard/jobs/4728660006",
-  "companyDomain": "chainguard.dev",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/31a5369e0ef167a246723e25166f9bb2_320_160?Expires=1861920000&Signature=WlG8ObgFzketnOZ1GE13WkiEQj5BCejH51gbRZAOEvFTCDtl~hKti",
-  "companyId": "Chainguard",
-  "companySlug": "chainguard",
-  "companyName": "Chainguard",
-  "companyStaffCount": 842,
+  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4757997005",
+  "companyDomain": "glean.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
+  "companyId": "Glean",
+  "companySlug": "glean",
+  "companyName": "Glean",
+  "companyStaffCount": 1760,
   "considerHosted": false,
   "departments": [
-   "Customer Support"
+   "304 Product"
   ],
   "jobTypes": [
    {
-    "id": "customer-support",
-    "label": "Customer Support",
-    "value": "customer-support"
-   },
-   {
-    "id": "it-engineer",
-    "label": "IT Support Engineer",
-    "value": "it-engineer"
+    "id": "technical-program-manager",
+    "label": "Technical Program Manager",
+    "value": "technical-program-manager"
    }
   ],
-  "jobFunctions": [
-   {
-    "id": "Customer Service",
-    "label": "Customer Service",
-    "value": "Customer Service"
-   },
-   {
-    "id": "Engineering",
-    "label": "Engineering",
-    "value": "Engineering"
-   }
-  ],
+  "jobFunctions": [],
   "locations": [
-   "Canada - Remote",
-   "United States - Remote"
+   "Mountain View, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Canada",
-    "label": "Canada",
-    "value": "Canada"
-   },
-   {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Mountain View, California",
+    "label": "Mountain View, California",
+    "value": "Mountain View, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 170000, 'maxValue': 190000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 198000, 'maxValue': 235500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
    },
    {
-    "id": "resume:DevOps",
-    "label": "DevOps",
-    "value": "resume:DevOps"
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
    },
    {
-    "id": "resume:Linux",
-    "label": "Linux",
-    "value": "resume:Linux"
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
    },
    {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
    },
    {
-    "id": "resume:Vulnerability Management",
-    "label": "Vulnerability Management",
-    "value": "resume:Vulnerability Management"
+    "id": "resume:ServiceNow",
+    "label": "ServiceNow",
+    "value": "resume:ServiceNow"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Attention to Detail",
+    "label": "Attention to Detail",
+    "value": "resume:Attention to Detail"
+   },
+   {
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
+   },
+   {
+    "id": "resume:Compliance",
+    "label": "Compliance",
+    "value": "resume:Compliance"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Observability",
+    "label": "Observability",
+    "value": "resume:Observability"
+   },
+   {
+    "id": "resume:ServiceNow",
+    "label": "ServiceNow",
+    "value": "resume:ServiceNow"
+   },
+   {
     "id": "resume:Kubernetes",
     "label": "Kubernetes",
     "value": "resume:Kubernetes"
    },
    {
-    "id": "resume:DevOps",
-    "label": "DevOps",
-    "value": "resume:DevOps"
+    "id": "resume:Cloud Native",
+    "label": "Cloud Native",
+    "value": "resume:Cloud Native"
    },
    {
-    "id": "resume:Linux",
-    "label": "Linux",
-    "value": "resume:Linux"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Technical Support",
-    "label": "Technical Support",
-    "value": "resume:Technical Support"
-   },
-   {
-    "id": "resume:Vulnerability Management",
-    "label": "Vulnerability Management",
-    "value": "resume:Vulnerability Management"
-   },
-   {
-    "id": "resume:Docker",
-    "label": "Docker",
-    "value": "resume:Docker"
-   },
-   {
-    "id": "resume:Privacy",
-    "label": "Privacy",
-    "value": "resume:Privacy"
-   },
-   {
-    "id": "resume:Reproductive Health",
-    "label": "Reproductive Health",
-    "value": "resume:Reproductive Health"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    }
   ],
   "manager": false,
@@ -283,56 +261,62 @@
   "contractor": false,
   "considerLevels": [
    [
-    1,
-    2
+    5,
+    6
    ],
    [
-    3,
-    4
+    7,
+    8
    ]
   ],
+  "minYearsExp": 10,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
    {
-    "id": "100-1000 employees",
-    "label": "100-1000 employees",
-    "value": "100-1000 employees"
+    "id": "1000+ employees",
+    "label": "1000+ employees",
+    "value": "1000+ employees"
    },
    {
-    "id": "Series A",
-    "label": "Series A",
-    "value": "Series A"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Series A', 'label': 'Series A', 'value': 'Series A'}",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Security",
-    "label": "Security",
-    "value": "Security"
+    "id": "Productivity",
+    "label": "Productivity",
+    "value": "Productivity"
    }
   ],
-  "timeStamp": "2026-11-24T17:32:00Z",
-  "title": "Staff Technical Support Engineer - AMER",
-  "url": "https://job-boards.greenhouse.io/chainguard/jobs/4728660006",
-  "jobId": "4728660006",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1918432365783, 'matchScore': 0, 'ageScore': 0.9918432365783179, 'richnessScore': 2}",
+  "timeStamp": "2026-11-25T01:50:19Z",
+  "title": "Technical Program Manager, LLM Infrastructure",
+  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4757997005",
+  "jobId": "4757997005",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.181624137779, 'matchScore': 0, 'ageScore': 0.9816241377789352, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
-   {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
-   },
    {
     "id": "mid",
     "label": "Mid",
@@ -340,7 +324,6 @@
    }
   ],
   "jobSeniorityIds": [
-   "senior",
    "mid"
   ],
   "isFeatured": false
