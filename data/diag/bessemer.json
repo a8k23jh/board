@@ -1,6 +1,6 @@
 {
  "board": "bessemer",
- "run": "2026-11-26T11:07:35Z",
+ "run": "2026-11-26T20:18:16Z",
  "homepage": {
   "status": 200,
   "bytes": 21538
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "YUua2tUjo-\u2026",
+  "session.sig": "CiQmjDpIBR\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiYzdhOWYwNzY0OGYwMDZmZDMyZTg0ZTYyODYyMmFiYWUiLCAic2NvcmUiOiAxLjA4ODEyMDM0Mjk0OTQ2fQ=="
+   "sequence": "eyJfaWQiOiAiYzIwMzRmNDhjMTYyNWQ2NzM4YjlmZjcwMTYyYmE2MDgiLCAic2NvcmUiOiAxLjA4ODc3MDgyNDQzODI3MTd9"
   },
   "job_keys": [
    "applicationWindow",
@@ -176,14 +176,14 @@
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
-   },
-   {
     "id": "user-marketing",
     "label": "Growth Manager",
     "value": "user-marketing"
+   },
+   {
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
    }
   ],
   "jobFunctions": [
@@ -206,9 +206,19 @@
   "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 200000, 'maxValue': 290000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
+   },
+   {
     "id": "resume:Interviews",
     "label": "Interviews",
     "value": "resume:Interviews"
+   },
+   {
+    "id": "resume:E-commerce",
+    "label": "E-commerce",
+    "value": "resume:E-commerce"
    },
    {
     "id": "resume:Customer Marketing",
@@ -219,24 +229,26 @@
     "id": "resume:LEE Advocacy",
     "label": "Advocacy",
     "value": "resume:LEE Advocacy"
-   },
-   {
-    "id": "resume:E-commerce",
-    "label": "E-commerce",
-    "value": "resume:E-commerce"
-   },
-   {
-    "id": "resume:Product Marketing",
-    "label": "Product Marketing",
-    "value": "resume:Product Marketing"
    }
   ],
   "requiredSkills": [
    {
+    "id": "resume:Product Marketing",
+    "label": "Product Marketing",
+    "value": "resume:Product Marketing"
+   },
+   {
     "id": "resume:Interviews",
     "label": "Interviews",
     "value": "resume:Interviews"
    },
+   {
+    "id": "resume:E-commerce",
+    "label": "E-commerce",
+    "value": "resume:E-commerce"
+   }
+  ],
+  "preferredSkills": [
    {
     "id": "resume:Customer Marketing",
     "label": "Customer Marketing",
@@ -246,18 +258,6 @@
     "id": "resume:LEE Advocacy",
     "label": "Advocacy",
     "value": "resume:LEE Advocacy"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:E-commerce",
-    "label": "E-commerce",
-    "value": "resume:E-commerce"
-   },
-   {
-    "id": "resume:Product Marketing",
-    "label": "Product Marketing",
-    "value": "resume:Product Marketing"
    }
   ],
   "manager": true,
@@ -275,11 +275,6 @@
   ],
   "regions": [
    {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
     "id": "North America",
     "label": "North America",
     "value": "North America"
@@ -288,6 +283,11 @@
     "id": "Pacific States",
     "label": "Pacific States",
     "value": "Pacific States"
+   },
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
    }
   ],
   "stages": [
@@ -310,7 +310,7 @@
   "jobId": "9f9f7f1a-df07-4b40-8e2b-bcf453af6c85",
   "remote": true,
   "hybrid": false,
-  "scores": "{'score': 1001.1886329880841, 'matchScore': 0, 'ageScore': 0.9886329880841049, 'richnessScore': 2}",
+  "scores": "{'score': 1001.1751602590799, 'matchScore': 0, 'ageScore': 0.9751602590798611, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
