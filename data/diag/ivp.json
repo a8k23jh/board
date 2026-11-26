@@ -1,6 +1,6 @@
 {
  "board": "ivp",
- "run": "2026-11-25T17:26:23Z",
+ "run": "2026-11-26T01:51:29Z",
  "homepage": {
   "status": 200,
   "bytes": 19666
@@ -26,7 +26,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "d4taM1GoYj\u2026",
+  "session.sig": "IZtoE3Ox8a\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -111,7 +111,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiY2FiOWI4NDE2ODVkNmZkM2Y0MDM1OGY2NDVhNjFlOTYiLCAic2NvcmUiOiAxLjEzMDIyMjc4NDM1Mzc4MDl9"
+   "sequence": "eyJfaWQiOiAiZjhjMTBmODY3YzA2ZDRiMTcwMTJlZWJmZjRjNjc5ZTMiLCAic2NvcmUiOiAxLjEzNDIzOTA1NzU5ODc2NTV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -128,116 +128,122 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4757997005",
-  "companyDomain": "glean.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
-  "companyId": "Glean",
-  "companySlug": "glean",
-  "companyName": "Glean",
-  "companyStaffCount": 1760,
+  "applyUrl": "https://www.brex.com/careers/8963008002?gh_jid=8963008002",
+  "companyDomain": "brex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3f2aa579751cea124ad807326f6a985b_192_160?Expires=1861920000&Signature=Wu5piHHl3U5fi-NhKB8WMrOoJBgsm9khtv6eWfwfp3CgMiI7ud9~y",
+  "companyId": "Brex",
+  "companySlug": "brex",
+  "companyName": "Brex",
+  "companyStaffCount": 1776,
   "considerHosted": false,
   "departments": [
-   "304 Product"
+   "Sales"
   ],
   "jobTypes": [
    {
-    "id": "technical-program-manager",
-    "label": "Technical Program Manager",
-    "value": "technical-program-manager"
+    "id": "revenue-operations",
+    "label": "Revenue Operations",
+    "value": "revenue-operations"
+   },
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Analyst",
+    "label": "Analyst",
+    "value": "Analyst"
+   }
+  ],
   "locations": [
-   "Mountain View, CA"
+   "Salt Lake City, Utah, United States"
   ],
   "normalizedLocations": [
    {
-    "id": "Mountain View, California",
-    "label": "Mountain View, California",
-    "value": "Mountain View, California"
+    "id": "Salt Lake City, Utah",
+    "label": "Salt Lake City, Utah",
+    "value": "Salt Lake City, Utah"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 198000, 'maxValue': 235500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 101600, 'maxValue': 127000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Sales Compensation Design",
+    "label": "Sales Compensation Design",
+    "value": "resume:Sales Compensation Design"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Revenue Recognition",
+    "label": "Revenue Recognition",
+    "value": "resume:Revenue Recognition"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:ServiceNow",
-    "label": "ServiceNow",
-    "value": "resume:ServiceNow"
+    "id": "resume:Data Visualization",
+    "label": "Data Visualization",
+    "value": "resume:Data Visualization"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Sales Compensation Design",
+    "label": "Sales Compensation Design",
+    "value": "resume:Sales Compensation Design"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Revenue Recognition",
+    "label": "Revenue Recognition",
+    "value": "resume:Revenue Recognition"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:SQL",
+    "label": "SQL",
+    "value": "resume:SQL"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Finance",
+    "label": "Finance",
+    "value": "resume:Finance"
    },
    {
-    "id": "resume:ServiceNow",
-    "label": "ServiceNow",
-    "value": "resume:ServiceNow"
+    "id": "resume:Data Visualization",
+    "label": "Data Visualization",
+    "value": "resume:Data Visualization"
    },
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Looker",
+    "label": "Looker",
+    "value": "resume:Looker"
    },
    {
-    "id": "resume:Cloud Native",
-    "label": "Cloud Native",
-    "value": "resume:Cloud Native"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Revenue Operations",
+    "label": "Revenue Operations",
+    "value": "resume:Revenue Operations"
    }
   ],
   "manager": false,
@@ -245,30 +251,19 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 10,
   "regions": [
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
-   },
-   {
-    "id": "West Coast",
-    "label": "West Coast",
-    "value": "West Coast"
-   },
-   {
-    "id": "Pacific States",
-    "label": "Pacific States",
-    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -276,39 +271,33 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
+    "id": "Fintech",
+    "label": "FinTech",
+    "value": "Fintech"
    }
   ],
-  "timeStamp": "2026-11-25T01:50:19Z",
-  "title": "Technical Program Manager, LLM Infrastructure",
-  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4757997005",
-  "jobId": "4757997005",
+  "timeStamp": "2026-11-25T15:37:30Z",
+  "title": "Revenue Operations Senior Analyst",
+  "url": "https://www.brex.com/careers/8963008002?gh_jid=8963008002",
+  "jobId": "8963008002",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.181624137779, 'matchScore': 0, 'ageScore': 0.9816241377789352, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1894274978657, 'matchScore': 0, 'ageScore': 0.9894274978657407, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "senior"
   ],
   "isFeatured": false
  },

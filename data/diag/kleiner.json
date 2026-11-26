@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-11-25T17:26:23Z",
+ "run": "2026-11-26T01:51:29Z",
  "homepage": {
   "status": 200,
   "bytes": 19528
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "U21Aa445t9\u2026",
+  "session.sig": "5ulVstG8DI\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOTI5NTZlZTMzOTVkYjVmMDQxMmM4MjdhYWMzNWQ3ZGYiLCAic2NvcmUiOiAxLjAzNDU4MjYwMzQ1MjE2MDZ9"
+   "sequence": "eyJfaWQiOiAiMmUwMGU1OTdkM2U2ZDQyMWNlOWM1ZDkxOGZkNGU3MDYiLCAic2NvcmUiOiAxLjAzMzU3MjUxNDkwODU2NDh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -155,131 +155,139 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4757997005",
-  "companyDomain": "glean.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
-  "companyId": "Glean",
-  "companySlug": "glean",
-  "companyName": "Glean",
-  "companyStaffCount": 1760,
+  "applyUrl": "https://jobs.lever.co/CesiumAstro/1bfae0b4-6cd8-49f9-979c-2ea94949c1b9?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "companyDomain": "cesiumastro.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
+  "companyId": "CesiumAstro",
+  "companySlug": "cesiumastro",
+  "companyName": "CesiumAstro",
+  "companyStaffCount": 587,
   "considerHosted": false,
   "departments": [
-   "304 Product"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "technical-program-manager",
-    "label": "Technical Program Manager",
-    "value": "technical-program-manager"
+    "id": "people-manager",
+    "label": "People Manager",
+    "value": "people-manager"
+   },
+   {
+    "id": "systems-engineer",
+    "label": "Systems Engineer",
+    "value": "systems-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Mountain View, CA"
+   "El Segundo, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Mountain View, California",
-    "label": "Mountain View, California",
-    "value": "Mountain View, California"
+    "id": "El Segundo, California",
+    "label": "El Segundo, California",
+    "value": "El Segundo, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 198000, 'maxValue': 235500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 193000, 'maxValue': 236000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Space Technology",
+    "label": "Space Technology",
+    "value": "resume:Space Technology"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:System Architecture",
+    "label": "System Architecture",
+    "value": "resume:System Architecture"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:VV",
+    "label": "Verification and Validation",
+    "value": "resume:VV"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:System Modeling",
+    "label": "System Modeling",
+    "value": "resume:System Modeling"
    },
    {
-    "id": "resume:ServiceNow",
-    "label": "ServiceNow",
-    "value": "resume:ServiceNow"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Space Technology",
+    "label": "Space Technology",
+    "value": "resume:Space Technology"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:System Architecture",
+    "label": "System Architecture",
+    "value": "resume:System Architecture"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:VV",
+    "label": "Verification and Validation",
+    "value": "resume:VV"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:System Modeling",
+    "label": "System Modeling",
+    "value": "resume:System Modeling"
    },
    {
-    "id": "resume:ServiceNow",
-    "label": "ServiceNow",
-    "value": "resume:ServiceNow"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Change Control",
+    "label": "Change Control",
+    "value": "resume:Change Control"
    },
    {
-    "id": "resume:Cloud Native",
-    "label": "Cloud Native",
-    "value": "resume:Cloud Native"
+    "id": "resume:Department of State",
+    "label": "Department of State",
+    "value": "resume:Department of State"
    },
    {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:System Integration",
+    "label": "System Integration",
+    "value": "resume:System Integration"
    }
   ],
-  "manager": false,
+  "manager": true,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
     5,
     6
-   ],
-   [
-    7,
-    8
    ]
   ],
-  "minYearsExp": 10,
+  "minYearsExp": 7,
+  "maxYearsExp": 9,
   "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Pacific States",
@@ -289,9 +297,9 @@
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
+    "id": "100-1000 employees",
+    "label": "100-1000 employees",
+    "value": "100-1000 employees"
    },
    {
     "id": "Growth",
@@ -302,29 +310,34 @@
   "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
+    "id": "Defense & Space",
+    "label": "Defense & Space",
+    "value": "Defense & Space"
+   },
+   {
+    "id": "Manufacturing",
+    "label": "Manufacturing",
+    "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-11-25T01:50:19Z",
-  "title": "Technical Program Manager, LLM Infrastructure",
-  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4757997005",
-  "jobId": "4757997005",
+  "timeStamp": "2026-11-25T14:05:48Z",
+  "title": "Manager, Systems Engineering",
+  "url": "https://jobs.lever.co/CesiumAstro/1bfae0b4-6cd8-49f9-979c-2ea94949c1b9",
+  "jobId": "1bfae0b4-6cd8-49f9-979c-2ea94949c1b9",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.181624137779, 'matchScore': 0, 'ageScore': 0.9816241377789352, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.187453117539, 'matchScore': 0, 'ageScore': 0.987453117538966, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "mid",
-    "label": "Mid",
-    "value": "mid"
+    "id": "manager",
+    "label": "Manager/Senior Manager",
+    "value": "manager"
    }
   ],
   "jobSeniorityIds": [
-   "mid"
+   "manager"
   ],
   "isFeatured": false
  },

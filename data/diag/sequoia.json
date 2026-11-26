@@ -1,6 +1,6 @@
 {
  "board": "sequoia",
- "run": "2026-11-25T17:26:23Z",
+ "run": "2026-11-26T01:51:29Z",
  "homepage": {
   "status": 200,
   "bytes": 20385
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "6tGxeD2vkL\u2026",
+  "session.sig": "CiBhdR0SYp\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZGM1YjM4YmYxODQ2NWZmMmE3ZTE2OGZiZGFjM2UyYTEiLCAic2NvcmUiOiAxLjEzMjQ2NzU1ODQ0MDIwMDZ9"
+   "sequence": "eyJfaWQiOiAiOTQ1NWFjZDhkMTEwYTlkNjE2YzMyODE2ZjJiODY4ZGQiLCAic2NvcmUiOiAxLjEzNDU4NDQzNTE1ODU2NDh9"
   },
   "job_keys": [
    "applicationWindow",
@@ -144,142 +144,123 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/gleanwork/jobs/4757997005",
-  "companyDomain": "glean.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/695f9b1278fcd002a5421b52513e0a56_160_160?Expires=1861920000&Signature=Jm37TA0P7W2Uie~zW64BROIDySoC2Ky~wxe0RID2ZA3dnfutHqFgH",
-  "companyId": "Glean",
-  "companySlug": "glean",
-  "companyName": "Glean",
-  "companyStaffCount": 1760,
+  "applyUrl": "https://boards.greenhouse.io/spacex/jobs/8962886002?gh_jid=8962886002",
+  "companyDomain": "spacex.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/b3aad953d6aaada16b586ff8e99b987d_320_160?Expires=1861920000&Signature=VRvzgB7jl5XxHd9Li-cdFdqfcH696dj7SGmGCFY8-htTfhXQey-Jp",
+  "companyId": "SpaceX",
+  "companySlug": "spacex",
+  "companyName": "SpaceX",
+  "companyStaffCount": 20713,
   "considerHosted": false,
   "departments": [
-   "304 Product"
+   "Dragon Production - Fluid Systems"
   ],
   "jobTypes": [
    {
-    "id": "technical-program-manager",
-    "label": "Technical Program Manager",
-    "value": "technical-program-manager"
+    "id": "technician",
+    "label": "Technician",
+    "value": "technician"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Technician",
+    "label": "Technician",
+    "value": "Technician"
+   }
+  ],
   "locations": [
-   "Mountain View, CA"
+   "Hawthorne, CA"
   ],
   "normalizedLocations": [
    {
-    "id": "Mountain View, California",
-    "label": "Mountain View, California",
-    "value": "Mountain View, California"
+    "id": "California",
+    "label": "California",
+    "value": "California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 198000, 'maxValue': 235500, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 23, 'maxValue': 27, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:ServiceNow",
-    "label": "ServiceNow",
-    "value": "resume:ServiceNow"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Attention to Detail",
-    "label": "Attention to Detail",
-    "value": "resume:Attention to Detail"
+    "id": "resume:Decision-Making",
+    "label": "Decision-Making",
+    "value": "resume:Decision-Making"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Quality Assurance",
+    "label": "Quality Assurance",
+    "value": "resume:Quality Assurance"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:Accrual",
+    "label": "Accrual",
+    "value": "resume:Accrual"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Aerospace",
+    "label": "Aerospace",
+    "value": "resume:Aerospace"
    },
    {
-    "id": "resume:ServiceNow",
-    "label": "ServiceNow",
-    "value": "resume:ServiceNow"
-   },
-   {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
-   },
-   {
-    "id": "resume:Cloud Native",
-    "label": "Cloud Native",
-    "value": "resume:Cloud Native"
-   },
-   {
-    "id": "resume:Machine Learning",
-    "label": "Machine Learning",
-    "value": "resume:Machine Learning"
+    "id": "resume:Vehicles",
+    "label": "Vehicles",
+    "value": "resume:Vehicles"
    }
   ],
   "manager": false,
   "consultant": false,
   "contractor": false,
-  "considerLevels": [
-   [
-    5,
-    6
-   ],
-   [
-    7,
-    8
-   ]
-  ],
-  "minYearsExp": 10,
+  "considerLevels": [],
   "regions": [
-   {
-    "id": "North America",
-    "label": "North America",
-    "value": "North America"
-   },
    {
     "id": "West Coast",
     "label": "West Coast",
     "value": "West Coast"
+   },
+   {
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
    },
    {
     "id": "Pacific States",
@@ -292,28 +273,27 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Productivity",
-    "label": "Productivity",
-    "value": "Productivity"
+    "id": "Aviation & Aerospace",
+    "label": "Aviation & Aerospace",
+    "value": "Aviation & Aerospace"
+   },
+   {
+    "id": "Transportation",
+    "label": "Transportation",
+    "value": "Transportation"
    }
   ],
-  "timeStamp": "2026-11-25T01:50:19Z",
-  "title": "Technical Program Manager, LLM Infrastructure",
-  "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4757997005",
-  "jobId": "4757997005",
+  "timeStamp": "2026-11-25T17:55:59Z",
+  "title": "Propulsion Technician (Dragon)",
+  "url": "https://boards.greenhouse.io/spacex/jobs/8962886002?gh_jid=8962886002",
+  "jobId": "8962886002",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.181624137779, 'matchScore': 0, 'ageScore': 0.9816241377789352, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1927758512543, 'matchScore': 0, 'ageScore': 0.9927758512542438, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [

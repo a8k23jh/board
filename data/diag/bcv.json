@@ -1,6 +1,6 @@
 {
  "board": "bcv",
- "run": "2026-11-25T17:26:23Z",
+ "run": "2026-11-26T01:51:29Z",
  "homepage": {
   "status": 200,
   "bytes": 20861
@@ -50,7 +50,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "CYTeznnv48\u2026",
+  "session.sig": "R9pQm8Ip9O\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -135,7 +135,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiOGE2NWQ3Njc2NDVmNzE2NTZjZjY3Njg5ZThjNTkyYTgiLCAic2NvcmUiOiAxLjEwNjY3ODgyMDgzODczNDZ9"
+   "sequence": "eyJfaWQiOiAiMjJhNzkzNmZjNzJhZDkzMDhhZjE3ZGE1ZjFlNDk1ODQiLCAic2NvcmUiOiAxLjExNDE5MzQ5ODU2MzY1NzV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -152,122 +152,131 @@
    "consultant",
    "contractor",
    "departments",
-   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities"
+   "jobSeniorities",
+   "jobSeniorityIds"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.ashbyhq.com/docker/370dbdf5-79f3-4885-beb4-dc3b16cfcd5b?utm_source=jobs.baincapitalventures.com",
-  "companyDomain": "docker.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/e7d3824278b83df4e98ab954977a2795_240_160?Expires=1861920000&Signature=EwRQuO-b6MwqhcBox8d4SHaiUp9eN0qXXFAC-RczBGFl0-f6M42Bs",
-  "companyId": "Docker",
-  "companySlug": "docker",
-  "companyName": "Docker",
-  "companyStaffCount": 1094,
+  "applyUrl": "https://careers.docusign.com/jobs/32541?lang=en-us",
+  "companyDomain": "docusign.com",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/61ba235ae7fb79e3192a72ec0f020828_256_160?Expires=1861920000&Signature=oFlIX0qmvMkl4qeYPr7GPNrB0CwuYHyxOXN53MgHQ5h6LYw1ZD8N2",
+  "companyId": "DocuSign",
+  "companySlug": "docusign",
+  "companyName": "DocuSign",
+  "companyStaffCount": 8412,
   "considerHosted": false,
-  "departments": [
-   "ENG-FDE"
-  ],
+  "departments": [],
   "jobTypes": [
    {
-    "id": "sales-engineering",
-    "label": "Sales Engineering",
-    "value": "sales-engineering"
+    "id": "product-manager",
+    "label": "Product Manager",
+    "value": "product-manager"
+   },
+   {
+    "id": "school-student",
+    "label": "Intern",
+    "value": "school-student"
    }
   ],
   "jobFunctions": [
    {
-    "id": "Sales",
-    "label": "Sales",
-    "value": "Sales"
+    "id": "Product Management",
+    "label": "Product Management",
+    "value": "Product Management"
    }
   ],
   "locations": [
-   "United States"
+   "San Francisco, California",
+   "Seattle, Washington"
   ],
   "normalizedLocations": [
    {
-    "id": "United States",
-    "label": "United States",
-    "value": "United States"
+    "id": "Seattle, Washington",
+    "label": "Seattle, Washington",
+    "value": "Seattle, Washington"
+   },
+   {
+    "id": "San Francisco, California",
+    "label": "San Francisco, California",
+    "value": "San Francisco, California"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 219000, 'maxValue': 352000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Hour', 'value': 'hour'}, 'minValue': 38, 'maxValue': 44, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Active Directory",
-    "label": "Active Directory",
-    "value": "resume:Active Directory"
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    },
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Trusted Advisor",
-    "label": "Trusted Advisor",
-    "value": "resume:Trusted Advisor"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Cloud Services",
-    "label": "Cloud Services",
-    "value": "resume:Cloud Services"
+    "id": "resume:Marketing",
+    "label": "Marketing",
+    "value": "resume:Marketing"
    },
    {
-    "id": "resume:Active Directory",
-    "label": "Active Directory",
-    "value": "resume:Active Directory"
+    "id": "resume:CLM",
+    "label": "CLM",
+    "value": "resume:CLM"
    },
    {
-    "id": "resume:CI/CD",
-    "label": "CI/CD",
-    "value": "resume:CI/CD"
+    "id": "resume:Prioritization Skills",
+    "label": "Prioritization Skills",
+    "value": "resume:Prioritization Skills"
    }
   ],
   "preferredSkills": [
    {
-    "id": "resume:Compliance",
-    "label": "Compliance",
-    "value": "resume:Compliance"
+    "id": "resume:SaaS",
+    "label": "Software as a Service",
+    "value": "resume:SaaS"
    },
    {
-    "id": "resume:Trusted Advisor",
-    "label": "Trusted Advisor",
-    "value": "resume:Trusted Advisor"
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
    },
    {
-    "id": "resume:Okta",
-    "label": "Okta",
-    "value": "resume:Okta"
+    "id": "resume:Artificial Intelligence",
+    "label": "Artificial Intelligence",
+    "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Observability",
-    "label": "Observability",
-    "value": "resume:Observability"
+    "id": "resume:Product Design",
+    "label": "Product Design",
+    "value": "resume:Product Design"
    },
    {
-    "id": "resume:Kubernetes",
-    "label": "Kubernetes",
-    "value": "resume:Kubernetes"
+    "id": "resume:Identity & Access Management (IAM)",
+    "label": "Identity & Access Management (IAM)",
+    "value": "resume:Identity & Access Management (IAM)"
    }
   ],
   "manager": false,
@@ -275,20 +284,34 @@
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    3,
+    4
    ],
    [
-    7,
-    8
+    5,
+    6
    ]
   ],
-  "minYearsExp": 12,
   "regions": [
+   {
+    "id": "West Coast",
+    "label": "West Coast",
+    "value": "West Coast"
+   },
+   {
+    "id": "Northwest",
+    "label": "Northwest",
+    "value": "Northwest"
+   },
    {
     "id": "North America",
     "label": "North America",
     "value": "North America"
+   },
+   {
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    }
   ],
   "stages": [
@@ -296,44 +319,33 @@
     "id": "1000+ employees",
     "label": "1000+ employees",
     "value": "1000+ employees"
-   },
-   {
-    "id": "Growth",
-    "label": "Growth",
-    "value": "Growth"
    }
   ],
-  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
   "markets": [
    {
-    "id": "Cloud Services",
-    "label": "Cloud Services",
-    "value": "Cloud Services"
-   },
-   {
-    "id": "Developer Tools",
-    "label": "Developer Tools",
-    "value": "Developer Tools"
+    "id": "IT and Services",
+    "label": "IT and Services",
+    "value": "IT and Services"
    }
   ],
-  "timeStamp": "2026-11-25T00:00:00Z",
-  "title": "Senior Principal Forward Deployed Engineer",
-  "url": "https://jobs.ashbyhq.com/docker/370dbdf5-79f3-4885-beb4-dc3b16cfcd5b",
-  "jobId": "370dbdf5-79f3-4885-beb4-dc3b16cfcd5b",
-  "remote": true,
-  "hybrid": false,
-  "scores": "{'score': 1001.1801536278344, 'matchScore': 0, 'ageScore': 0.9801536278344908, 'richnessScore': 2}",
+  "timeStamp": "2026-11-25T19:04:47Z",
+  "title": "Product Manager Intern",
+  "url": "https://careers.docusign.com/jobs/32541?lang=en-us",
+  "jobId": "32541",
+  "remote": false,
+  "hybrid": true,
+  "scores": "{'score': 1001.1942957209043, 'matchScore': 0, 'ageScore': 0.994295720904321, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "senior",
-    "label": "Senior",
-    "value": "senior"
+    "id": "intern",
+    "label": "Intern",
+    "value": "intern"
    }
   ],
   "jobSeniorityIds": [
-   "senior"
+   "intern"
   ],
   "isFeatured": false
  },
