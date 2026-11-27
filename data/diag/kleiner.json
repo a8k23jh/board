@@ -1,6 +1,6 @@
 {
  "board": "kleiner",
- "run": "2026-11-27T02:58:01Z",
+ "run": "2026-11-27T12:48:09Z",
  "homepage": {
   "status": 200,
   "bytes": 19528
@@ -42,7 +42,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "1855zBN_A9\u2026",
+  "session.sig": "kLMooY7_gb\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -127,7 +127,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiNWY4MTgwYTk4MGZlYTY4MzQ2NTYyMWIwZjFmMWY0ZmQiLCAic2NvcmUiOiAxLjAxMzcwMzU2ODYyNzMxNDh9"
+   "sequence": "eyJfaWQiOiAiNGEzZjRhMDg1NDQ2YTExZTdkZDVlMDhhNmJjNzkzN2QiLCAic2NvcmUiOiAxLjAwMTQ2MDcxOTI5NTEzOX0="
   },
   "job_keys": [
    "applicationWindow",
@@ -155,7 +155,7 @@
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://jobs.lever.co/CesiumAstro/a3bbf713-5753-4c08-9628-c8ebf4000d89?lever-source%5B%5D=jobs.kleinerperkins.com",
+  "applyUrl": "https://jobs.lever.co/CesiumAstro/1fe80f32-65eb-43c8-ba2d-fb20c4be890d?lever-source%5B%5D=jobs.kleinerperkins.com",
   "companyDomain": "cesiumastro.com",
   "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/98c3070fe0afcf727ee268fe053151b4_320_160?Expires=1861920000&Signature=LJSh3YJOlwyMCD512xfY5~BJahvSYTIiwaNYysNjIuMhVLdBjPgak",
   "companyId": "CesiumAstro",
@@ -168,12 +168,18 @@
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "hardware-engineer",
+    "label": "Hardware Engineer",
+    "value": "hardware-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
    "Westminster, CO"
   ],
@@ -184,66 +190,22 @@
     "value": "Westminster, Colorado"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 133000, 'maxValue': 160000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 184000, 'maxValue': 225000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
    {
-    "id": "resume:VV",
-    "label": "Verification and Validation",
-    "value": "resume:VV"
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
    },
    {
-    "id": "resume:Spacecraft",
-    "label": "Spacecraft",
-    "value": "resume:Spacecraft"
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
    },
    {
-    "id": "resume:Visio",
-    "label": "Visio",
-    "value": "resume:Visio"
-   },
-   {
-    "id": "resume:Systems Engineering",
-    "label": "Systems Engineering",
-    "value": "resume:Systems Engineering"
-   },
-   {
-    "id": "resume:Configuration Management",
-    "label": "Configuration Management",
-    "value": "resume:Configuration Management"
-   }
-  ],
-  "requiredSkills": [
-   {
-    "id": "resume:VV",
-    "label": "Verification and Validation",
-    "value": "resume:VV"
-   },
-   {
-    "id": "resume:Spacecraft",
-    "label": "Spacecraft",
-    "value": "resume:Spacecraft"
-   },
-   {
-    "id": "resume:Visio",
-    "label": "Visio",
-    "value": "resume:Visio"
-   }
-  ],
-  "preferredSkills": [
-   {
-    "id": "resume:Systems Engineering",
-    "label": "Systems Engineering",
-    "value": "resume:Systems Engineering"
-   },
-   {
-    "id": "resume:Configuration Management",
-    "label": "Configuration Management",
-    "value": "resume:Configuration Management"
-   },
-   {
-    "id": "resume:Concept Development",
-    "label": "Concept Development",
-    "value": "resume:Concept Development"
+    "id": "resume:FPGA",
+    "label": "FPGA",
+    "value": "resume:FPGA"
    },
    {
     "id": "resume:Finite Automata",
@@ -251,25 +213,69 @@
     "value": "resume:Finite Automata"
    },
    {
-    "id": "resume:Risk Management",
-    "label": "Risk Management",
-    "value": "resume:Risk Management"
+    "id": "resume:HDL",
+    "label": "HDL",
+    "value": "resume:HDL"
    }
   ],
-  "manager": true,
+  "requiredSkills": [
+   {
+    "id": "resume:Infrastructure",
+    "label": "Infrastructure",
+    "value": "resume:Infrastructure"
+   },
+   {
+    "id": "resume:Linux",
+    "label": "Linux",
+    "value": "resume:Linux"
+   },
+   {
+    "id": "resume:FPGA",
+    "label": "FPGA",
+    "value": "resume:FPGA"
+   }
+  ],
+  "preferredSkills": [
+   {
+    "id": "resume:Finite Automata",
+    "label": "Finite Automata",
+    "value": "resume:Finite Automata"
+   },
+   {
+    "id": "resume:HDL",
+    "label": "HDL",
+    "value": "resume:HDL"
+   },
+   {
+    "id": "resume:CI/CD",
+    "label": "CI/CD",
+    "value": "resume:CI/CD"
+   },
+   {
+    "id": "resume:High-Level Synthesis",
+    "label": "High-Level Synthesis",
+    "value": "resume:High-Level Synthesis"
+   },
+   {
+    "id": "resume:UVM",
+    "label": "UVM",
+    "value": "resume:UVM"
+   }
+  ],
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    3,
-    4
-   ],
-   [
     5,
     6
+   ],
+   [
+    7,
+    8
    ]
   ],
-  "minYearsExp": 5,
+  "minYearsExp": 12,
   "regions": [
    {
     "id": "North America",
@@ -302,24 +308,24 @@
     "value": "Manufacturing"
    }
   ],
-  "timeStamp": "2026-11-25T21:46:43Z",
-  "title": "Senior Flight Director",
-  "url": "https://jobs.lever.co/CesiumAstro/a3bbf713-5753-4c08-9628-c8ebf4000d89",
-  "jobId": "a3bbf713-5753-4c08-9628-c8ebf4000d89",
+  "timeStamp": "2026-11-25T21:40:55Z",
+  "title": "Senior Staff FPGA Engineer",
+  "url": "https://jobs.lever.co/CesiumAstro/1fe80f32-65eb-43c8-ba2d-fb20c4be890d",
+  "jobId": "1fe80f32-65eb-43c8-ba2d-fb20c4be890d",
   "remote": false,
   "hybrid": false,
-  "scores": "{'score': 1001.1643092733831, 'matchScore': 0, 'ageScore': 0.9643092733831018, 'richnessScore': 2}",
+  "scores": "{'score': 1001.152002576622, 'matchScore': 0, 'ageScore': 0.9520025766219136, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "senior"
   ],
   "isFeatured": false
  },

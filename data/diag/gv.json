@@ -1,6 +1,6 @@
 {
  "board": "gv",
- "run": "2026-11-27T02:58:01Z",
+ "run": "2026-11-27T12:48:09Z",
  "homepage": {
   "status": 200,
   "bytes": 26319
@@ -34,7 +34,7 @@
  ],
  "cookies": {
   "session": "eyJmbGFzaC\u2026",
-  "session.sig": "Gv-u68I98t\u2026",
+  "session.sig": "2Q8SDTdFH7\u2026",
   "AWSALBAPP-0": "AAAAAAAAAA\u2026",
   "AWSALBAPP-1": "_remove_",
   "AWSALBAPP-2": "_remove_",
@@ -119,7 +119,7 @@
   ],
   "meta": {
    "size": 100,
-   "sequence": "eyJfaWQiOiAiZTBlM2RjMThjNzBiN2FlOTE0NzY2ZThkYjk2MTUyMWUiLCAic2NvcmUiOiAxLjEwMDgyNDQyODE1ODU2NDh9"
+   "sequence": "eyJfaWQiOiAiNWQ3ZGU1M2MyYWYxZDlmNDI0MGUzZjhmNTc1MmYwMWQiLCAic2NvcmUiOiAxLjA4ODE5NTg3MDgxMjV9"
   },
   "job_keys": [
    "applicationWindow",
@@ -136,148 +136,159 @@
    "consultant",
    "contractor",
    "departments",
+   "fundingLV",
    "hybrid",
    "isFeatured",
    "jobFunctions",
    "jobId",
-   "jobSeniorities",
-   "jobSeniorityIds"
+   "jobSeniorities"
   ],
   "job_count": 100
  },
  "sample_job": {
   "applicationWindow": "{'status': 'accepting'}",
-  "applyUrl": "https://job-boards.greenhouse.io/intercom/jobs/8419409",
-  "companyDomain": "intercom.com",
-  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/3f41c85bd47b9b8f19eba514aabd4407_320_160?Expires=1861920000&Signature=PN0KAOUtXg-6Z2e9Hw-xRroSCJ6f9dnk~4aO7cRkcqriMjohVnppx",
-  "companyId": "Intercom",
-  "companySlug": "intercom",
-  "companyName": "Intercom",
-  "companyStaffCount": 1084,
+  "applyUrl": "https://jobs.ashbyhq.com/odysseyml/1936a33c-ce61-462a-a063-3b4cb16ff969?utm_source=jobs.gv.com",
+  "companyDomain": "odyssey.world",
+  "companyLogos": "{'manual': {'height': 160, 'src': 'https://dzh2zima160vx.cloudfront.net/logo/c4915e6e16f6747c0080cce096d2ae0b_304_160?Expires=1861920000&Signature=Eahdx7SNIA2Sic7ncqRYq2~ZtRAjScOsCS9P1Hv2gow9plF~~m2vu",
+  "companyId": "Odyssey Systems",
+  "companySlug": "odyssey-systems",
+  "companyName": "Odyssey",
+  "companyStaffCount": 91,
   "considerHosted": false,
   "departments": [
-   "R&D"
+   "Engineering"
   ],
   "jobTypes": [
    {
-    "id": "people-manager",
-    "label": "People Manager",
-    "value": "people-manager"
+    "id": "software-engineer",
+    "label": "Software Engineer",
+    "value": "software-engineer"
+   },
+   {
+    "id": "fullstack-engineer",
+    "label": "Full Stack Engineer",
+    "value": "fullstack-engineer"
    }
   ],
-  "jobFunctions": [],
+  "jobFunctions": [
+   {
+    "id": "Engineering",
+    "label": "Engineering",
+    "value": "Engineering"
+   }
+  ],
   "locations": [
-   "Chicago, Illinois",
-   "New York, New York",
-   "San Francisco, California"
+   "Palo Alto, California, United States",
+   "Zurich, Zurich, Switzerland",
+   "London, England, United Kingdom"
   ],
   "normalizedLocations": [
    {
-    "id": "New York, New York",
-    "label": "New York, New York",
-    "value": "New York, New York"
+    "id": "Palo Alto, California",
+    "label": "Palo Alto, California",
+    "value": "Palo Alto, California"
    },
    {
-    "id": "San Francisco, California",
-    "label": "San Francisco, California",
-    "value": "San Francisco, California"
+    "id": "London, Greater London, United Kingdom",
+    "label": "London",
+    "value": "London, Greater London, United Kingdom"
    },
    {
-    "id": "Chicago, Illinois",
-    "label": "Chicago, Illinois",
-    "value": "Chicago, Illinois"
+    "id": "Z\u00fcrich Area, Switzerland",
+    "label": "Z\u00fcrich",
+    "value": "Z\u00fcrich Area, Switzerland"
    }
   ],
-  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 319500, 'maxValue': 390000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
+  "salary": "{'period': {'label': 'Year', 'value': 'year'}, 'minValue': 132000, 'maxValue': 411000, 'currency': {'label': 'USD', 'value': 'USD'}, 'isOriginal': True}",
   "skills": [
-   {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
-   },
-   {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
-   },
-   {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
-   },
    {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
+   },
+   {
+    "id": "resume:Online Gaming",
+    "label": "Online Gaming",
+    "value": "resume:Online Gaming"
+   },
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Language Models",
+    "label": "Language Models",
+    "value": "resume:Language Models"
    }
   ],
   "requiredSkills": [
    {
-    "id": "resume:Sales Compensation",
-    "label": "Sales Compensation",
-    "value": "resume:Sales Compensation"
-   },
-   {
-    "id": "resume:Assessment",
-    "label": "Assessment",
-    "value": "resume:Assessment"
-   },
-   {
-    "id": "resume:Cross-functional Team Leadership",
-    "label": "Cross-functional Team Leadership",
-    "value": "resume:Cross-functional Team Leadership"
-   }
-  ],
-  "preferredSkills": [
-   {
     "id": "resume:Artificial Intelligence",
     "label": "Artificial Intelligence",
     "value": "resume:Artificial Intelligence"
    },
    {
-    "id": "resume:Recruiting",
-    "label": "Recruiting",
-    "value": "resume:Recruiting"
+    "id": "resume:Machine Learning",
+    "label": "Machine Learning",
+    "value": "resume:Machine Learning"
    },
    {
-    "id": "resume:Salesforce",
-    "label": "Salesforce",
-    "value": "resume:Salesforce"
-   },
-   {
-    "id": "resume:LEE Advocacy",
-    "label": "Advocacy",
-    "value": "resume:LEE Advocacy"
-   },
-   {
-    "id": "resume:Equity",
-    "label": "Equity",
-    "value": "resume:Equity"
+    "id": "resume:Online Gaming",
+    "label": "Online Gaming",
+    "value": "resume:Online Gaming"
    }
   ],
-  "manager": true,
+  "preferredSkills": [
+   {
+    "id": "resume:Research",
+    "label": "Research",
+    "value": "resume:Research"
+   },
+   {
+    "id": "resume:Language Models",
+    "label": "Language Models",
+    "value": "resume:Language Models"
+   },
+   {
+    "id": "resume:Robotics",
+    "label": "Robotics",
+    "value": "resume:Robotics"
+   },
+   {
+    "id": "resume:Autonomous Vehicles",
+    "label": "Autonomous Vehicles",
+    "value": "resume:Autonomous Vehicles"
+   }
+  ],
+  "manager": false,
   "consultant": false,
   "contractor": false,
   "considerLevels": [
    [
-    5,
-    6
+    1,
+    2
    ],
    [
-    7,
-    8
+    3,
+    4
    ]
   ],
   "regions": [
    {
-    "id": "Midwest",
-    "label": "Midwest",
-    "value": "Midwest"
+    "id": "North America",
+    "label": "North America",
+    "value": "North America"
+   },
+   {
+    "id": "Western Europe",
+    "label": "Western Europe",
+    "value": "Western Europe"
    },
    {
     "id": "West Coast",
@@ -285,58 +296,60 @@
     "value": "West Coast"
    },
    {
-    "id": "Northeast",
-    "label": "Northeast",
-    "value": "Northeast"
+    "id": "Pacific States",
+    "label": "Pacific States",
+    "value": "Pacific States"
    },
    {
-    "id": "Rust Belt",
-    "label": "Great Lakes Region",
-    "value": "Rust Belt"
-   },
-   {
-    "id": "Central US",
-    "label": "Central US",
-    "value": "Central US"
+    "id": "EMEA",
+    "label": "EMEA",
+    "value": "EMEA"
    }
   ],
   "stages": [
    {
-    "id": "1000+ employees",
-    "label": "1000+ employees",
-    "value": "1000+ employees"
-   }
-  ],
-  "markets": [
-   {
-    "id": "Enterprise Software",
-    "label": "Enterprise Software",
-    "value": "Enterprise Software"
+    "id": "10-100 employees",
+    "label": "10-100 employees",
+    "value": "10-100 employees"
    },
    {
-    "id": "SaaS",
-    "label": "SaaS",
-    "value": "SaaS"
+    "id": "Growth",
+    "label": "Growth",
+    "value": "Growth"
    }
   ],
-  "timeStamp": "2026-11-26T15:44:20Z",
-  "title": "Senior Director, Forward Deployed Engineering",
-  "url": "https://job-boards.greenhouse.io/intercom/jobs/8419409",
-  "jobId": "8419409",
+  "fundingLV": "{'id': 'Growth', 'label': 'Growth', 'value': 'Growth'}",
+  "markets": [
+   {
+    "id": "AI",
+    "label": "AI",
+    "value": "AI"
+   }
+  ],
+  "timeStamp": "2026-11-27T00:00:00Z",
+  "title": "Member of Technical Staff, Product Engineer",
+  "url": "https://jobs.ashbyhq.com/odysseyml/1936a33c-ce61-462a-a063-3b4cb16ff969",
+  "jobId": "1936a33c-ce61-462a-a063-3b4cb16ff969",
   "remote": false,
-  "hybrid": true,
-  "scores": "{'score': 1001.1885491626535, 'matchScore': 0, 'ageScore': 0.9885491626535494, 'richnessScore': 2}",
+  "hybrid": false,
+  "scores": "{'score': 1001.1887684880783, 'matchScore': 0, 'ageScore': 0.9887684880783179, 'richnessScore': 2}",
   "atsJobs": [],
   "matchingTalent": "{'count': 0, 'matches': []}",
   "jobSeniorities": [
    {
-    "id": "director",
-    "label": "Director/Senior Director",
-    "value": "director"
+    "id": "mid",
+    "label": "Mid",
+    "value": "mid"
+   },
+   {
+    "id": "senior",
+    "label": "Senior",
+    "value": "senior"
    }
   ],
   "jobSeniorityIds": [
-   "director"
+   "mid",
+   "senior"
   ],
   "isFeatured": false
  },
